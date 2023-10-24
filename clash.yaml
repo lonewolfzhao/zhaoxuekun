@@ -4,11 +4,10 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 4Kian-519, server: zjcm.itdognamesilo.digital, port: 11324, type: ss, cipher: chacha20-ietf-poly1305, password: d3ce6685-b39c-443b-b6db-8390598ea6b4, udp: true}
-  - {name: 4Kian-509, server: shat.itdognamesilo.digital, port: 11542, type: ss, cipher: chacha20-ietf-poly1305, password: d3ce6685-b39c-443b-b6db-8390598ea6b4, udp: true}
+  - {name: 欧洲(油管:破解资源君), server: dongtaiwang3.com, port: 8080, type: vmess, uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /1IKYjV0r/, headers: {Host: dongtaiwang11.dtku47.xyz}}, udp: true}
+  - {name: 4Jadi-382, server: us01.shawbrothersstudio.com, port: 19922, type: ss, cipher: chacha20-ietf-poly1305, password: Lam6mgI0ZnIqT459CTTOJR, udp: true}
   - {name: 4Jadi-817, server: 183.232.170.32, port: 30016, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: TR-TCP-TLS 🇬🇧 GB-13.43.232.12622222 📡 PING-079.76-MS, server: 13.43.232.126, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
-  - {name: _FR_法国, server: 51.158.195.96, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 4Nika-1390, server: 41.203.4.34, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -25,31 +24,28 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 4Kian-519
-      - 4Kian-509
+      - 欧洲(油管:破解资源君)
+      - 4Jadi-382
       - 4Jadi-817
-      - TR-TCP-TLS 🇬🇧 GB-13.43.232.12622222 📡 PING-079.76-MS
-      - _FR_法国
+      - 4Nika-1390
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.youtube.com
     interval: 60
     proxies:
-      - 4Kian-519
-      - 4Kian-509
+      - 欧洲(油管:破解资源君)
+      - 4Jadi-382
       - 4Jadi-817
-      - TR-TCP-TLS 🇬🇧 GB-13.43.232.12622222 📡 PING-079.76-MS
-      - _FR_法国
+      - 4Nika-1390
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Kian-519
-      - 4Kian-509
+      - 欧洲(油管:破解资源君)
+      - 4Jadi-382
       - 4Jadi-817
-      - TR-TCP-TLS 🇬🇧 GB-13.43.232.12622222 📡 PING-079.76-MS
-      - _FR_法国
+      - 4Nika-1390
 rules:
  - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
  - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
