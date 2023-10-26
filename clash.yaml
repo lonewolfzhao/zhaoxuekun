@@ -5,9 +5,9 @@ log-level: info
 external-controller: :50000
 proxies:
   - {name: 美国 076, server: 104.31.16.3, port: 2087, type: vmess, uuid: 98bd45bd-ad4a-4480-87b2-84f81c09aaa8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: ttttyyynnnnnnsnsnsnsnsnnsjssjsjjsjsjsjsjsjsksosowowosmsnsn2222919jjajjaja.akdmaksdmaskldmasdmfmosadmfsfdsdfsdfsdfsdfbcvbcvbcvbsdfsdfsqweq.fun, grpc-opts: {grpc-service-name: fffffffstrrrrryyyyhhhhsnnnkakkkkdllllssasdf}, udp: true}
-  - {name: 美国_102521017, server: 172.67.153.179, port: 8443, type: vmess, uuid: 874a60cd-f099-499a-8aee-e4606ccf3e86, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nomore.hideip.tk}}, udp: true}
-  - {name: 4FreeIran-1347, server: 103.246.244.178, port: 443, type: ss, cipher: aes-256-gcm, password: 41964a60e8bd, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: yjy5.viynos.com, path: /kdjzdrfczb, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 4Mohsen-958, server: 54.151.244.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_45 |16.41Mb, server: 137.175.3.44, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1697980101249}, udp: true}
+  - {name: 欧洲(油管:破解资源君), server: 104.17.62.27, port: 2086, type: vmess, uuid: 17e8e96e-5524-418f-87ea-2d63988131b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sssddd, headers: {Host: cf-db.fanqiecloud.top}}, udp: true}
+  - {name: 4Jadi-817, server: 183.232.170.32, port: 30016, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -25,27 +25,27 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 美国 076
-      - 美国_102521017
-      - 4FreeIran-1347
-      - 4Mohsen-958
+      - Relay_🇺🇸US-🇺🇸US_45 |16.41Mb
+      - 欧洲(油管:破解资源君)
+      - 4Jadi-817
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.youtube.com
     interval: 60
     proxies:
       - 美国 076
-      - 美国_102521017
-      - 4FreeIran-1347
-      - 4Mohsen-958
+      - Relay_🇺🇸US-🇺🇸US_45 |16.41Mb
+      - 欧洲(油管:破解资源君)
+      - 4Jadi-817
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 美国 076
-      - 美国_102521017
-      - 4FreeIran-1347
-      - 4Mohsen-958
+      - Relay_🇺🇸US-🇺🇸US_45 |16.41Mb
+      - 欧洲(油管:破解资源君)
+      - 4Jadi-817
 rules:
  - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
  - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
