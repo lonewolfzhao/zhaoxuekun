@@ -4,10 +4,10 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 欧洲(油管:破解资源君), server: 38.121.43.51, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国, server: 104.17.27.2, port: 80, type: vmess, uuid: 72d46152-ee0b-4610-efb1-ffb0f786b848, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my2.gamedaylion.buzz}}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国, server: us.kunlun-ppg.com, port: 10820, type: trojan, password: 48bad1cc-4ba4-48bd-9e5f-b73999b40ced, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 未知_1016053, server: 104.20.231.210, port: 80, type: vmess, uuid: 72d46152-ee0b-4610-efb1-ffb0f786b848, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my.designlion.buzz}}, udp: true}
+  - {name: 美国_102620079, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: ece26ec7-bcfe-4845-8cf1-3d93abc19ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/nYAwpBbW, headers: {Host: us5a3a71b5c.pkmkwvxqnn.xyz}}, udp: true}
+  - {name: 美国_102620108, server: 198.2.244.24, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1698239888914, headers: {Host: www.47722380.xyz}}, udp: true}
+  - {name: 美国 076, server: 104.31.16.3, port: 2087, type: vmess, uuid: 98bd45bd-ad4a-4480-87b2-84f81c09aaa8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: ttttyyynnnnnnsnsnsnsnsnnsjssjsjjsjsjsjsjsjsksosowowosmsnsn2222919jjajjaja.akdmaksdmaskldmasdmfmosadmfsfdsdfsdfsdfsdfbcvbcvbcvbsdfsdfsqweq.fun, grpc-opts: {grpc-service-name: fffffffstrrrrryyyyhhhhsnnnkakkkkdllllssasdf}, udp: true}
+  - {name: github.com/freefq - 南非  4, server: 156.225.67.234, port: 30000, type: vmess, uuid: 93503dd5-245a-4eb1-ae2a-57ab9f2b3c29, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1698239888914, headers: {Host: www.47734647.xyz}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -24,28 +24,28 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 欧洲(油管:破解资源君)
-      - _US_美国
-      - _CN_中国->🇺🇸_US_美国
-      - 未知_1016053
+      - 美国_102620079
+      - 美国_102620108
+      - 美国 076
+      - github.com/freefq - 南非  4
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.youtube.com
     interval: 60
     proxies:
-      - 欧洲(油管:破解资源君)
-      - _US_美国
-      - _CN_中国->🇺🇸_US_美国
-      - 未知_1016053
+      - 美国_102620079
+      - 美国_102620108
+      - 美国 076
+      - github.com/freefq - 南非  4
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 欧洲(油管:破解资源君)
-      - _US_美国
-      - _CN_中国->🇺🇸_US_美国
-      - 未知_1016053
+      - 美国_102620079
+      - 美国_102620108
+      - 美国 076
+      - github.com/freefq - 南非  4
 rules:
  - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
  - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
@@ -433,7 +433,6 @@ rules:
  - DOMAIN-SUFFIX,6parkbbs.com,🔰 节点选择
  - DOMAIN-SUFFIX,6parker.com,🔰 节点选择
  - DOMAIN-SUFFIX,6parknews.com,🔰 节点选择
- - DOMAIN-SUFFIX,7-zip.org,🔰 节点选择
  - DOMAIN-SUFFIX,7capture.com,🔰 节点选择
  - DOMAIN-SUFFIX,7cow.com,🔰 节点选择
  - DOMAIN-SUFFIX,8-d.com,🔰 节点选择
@@ -1260,7 +1259,7 @@ rules:
  - DOMAIN-SUFFIX,civiliangunner.com,🔰 节点选择
  - DOMAIN-SUFFIX,civilmedia.tw,🔰 节点选择
  - DOMAIN-SUFFIX,civisec.org,🔰 节点选择
- - DOMAIN-SUFFIX,cjb.net,🔰 节点选择
+ - DOMAIN-SUFFIX,civitai.com,🔰 节点选择
  - DOMAIN-SUFFIX,ck101.com,🔰 节点选择
  - DOMAIN-SUFFIX,clarionproject.org,🔰 节点选择
  - DOMAIN-SUFFIX,classicalguitarblog.net,🔰 节点选择
@@ -2272,6 +2271,7 @@ rules:
  - DOMAIN-SUFFIX,goagent.biz,🔰 节点选择
  - DOMAIN-SUFFIX,goagentplus.com,🔰 节点选择
  - DOMAIN-SUFFIX,gobet.cc,🔰 节点选择
+ - DOMAIN-SUFFIX,godaddy.com,🔰 节点选择
  - DOMAIN-SUFFIX,godfootsteps.org,🔰 节点选择
  - DOMAIN-SUFFIX,godns.work,🔰 节点选择
  - DOMAIN-SUFFIX,godoc.org,🔰 节点选择
@@ -3044,6 +3044,7 @@ rules:
  - DOMAIN-SUFFIX,israbox.com,🔰 节点选择
  - DOMAIN-SUFFIX,issuu.com,🔰 节点选择
  - DOMAIN-SUFFIX,istars.co.nz,🔰 节点选择
+ - DOMAIN-SUFFIX,istarshine.com,🔰 节点选择
  - DOMAIN-SUFFIX,istef.info,🔰 节点选择
  - DOMAIN-SUFFIX,istiqlalhewer.com,🔰 节点选择
  - DOMAIN-SUFFIX,istockphoto.com,🔰 节点选择
@@ -3339,6 +3340,7 @@ rules:
  - DOMAIN-SUFFIX,lfpcontent.com,🔰 节点选择
  - DOMAIN-SUFFIX,lhakar.org,🔰 节点选择
  - DOMAIN-SUFFIX,lhasocialwork.org,🔰 节点选择
+ - DOMAIN-SUFFIX,li.taipei,🔰 节点选择
  - DOMAIN-SUFFIX,liangyou.net,🔰 节点选择
  - DOMAIN-SUFFIX,liangzhichuanmei.com,🔰 节点选择
  - DOMAIN-SUFFIX,lianyue.net,🔰 节点选择
@@ -3650,6 +3652,7 @@ rules:
  - DOMAIN-SUFFIX,mondex.org,🔰 节点选择
  - DOMAIN-SUFFIX,money-link.com.tw,🔰 节点选择
  - DOMAIN-SUFFIX,moneyhome.biz,🔰 节点选择
+ - DOMAIN-SUFFIX,monica.im,🔰 节点选择
  - DOMAIN-SUFFIX,monitorchina.org,🔰 节点选择
  - DOMAIN-SUFFIX,monitorware.com,🔰 节点选择
  - DOMAIN-SUFFIX,monlamit.org,🔰 节点选择
@@ -4122,7 +4125,6 @@ rules:
  - DOMAIN-SUFFIX,page.link,🔰 节点选择
  - DOMAIN-SUFFIX,page.tl,🔰 节点选择
  - DOMAIN-SUFFIX,page2rss.com,🔰 节点选择
- - DOMAIN-SUFFIX,pages.dev,🔰 节点选择
  - DOMAIN-SUFFIX,pagodabox.com,🔰 节点选择
  - DOMAIN-SUFFIX,palacemoon.com,🔰 节点选择
  - DOMAIN-SUFFIX,paldengyal.com,🔰 节点选择
@@ -5358,7 +5360,6 @@ rules:
  - DOMAIN-SUFFIX,tracfone.com,🔰 节点选择
  - DOMAIN-SUFFIX,tradingview.com,🔰 节点选择
  - DOMAIN-SUFFIX,translate.goog,🔰 节点选择
- - DOMAIN-SUFFIX,translate.google,🔰 节点选择
  - DOMAIN-SUFFIX,transparency.org,🔰 节点选择
  - DOMAIN-SUFFIX,treemall.com.tw,🔰 节点选择
  - DOMAIN-SUFFIX,trendsmap.com,🔰 节点选择
