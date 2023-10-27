@@ -4,10 +4,13 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 美国 076, server: 104.31.16.3, port: 2087, type: vmess, uuid: 98bd45bd-ad4a-4480-87b2-84f81c09aaa8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: ttttyyynnnnnnsnsnsnsnsnnsjssjsjjsjsjsjsjsjsksosowowosmsnsn2222919jjajjaja.akdmaksdmaskldmasdmfmosadmfsfdsdfsdfsdfsdfbcvbcvbcvbsdfsdfsqweq.fun, grpc-opts: {grpc-service-name: fffffffstrrrrryyyyhhhhsnnnkakkkkdllllssasdf}, udp: true}
-  - {name: 美国_102620079, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: ece26ec7-bcfe-4845-8cf1-3d93abc19ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/nYAwpBbW, headers: {Host: us5a3a71b5c.pkmkwvxqnn.xyz}}, udp: true}
-  - {name: _US_美国_yui科技_68, server: 198.2.193.146, port: 30000, type: vmess, uuid: 68d238ce-3ca1-46dc-b833-a0916c829ad3, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1698239888914, headers: {Host: www.28251658.xyz}}, udp: true}
-  - {name: 美国_102620083, server: 156.225.67.104, port: 30000, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1698239888914, headers: {Host: www.41758112.xyz}}, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国, server: other.kunlun-ppg.com, port: 10850, type: trojan, password: 48bad1cc-4ba4-48bd-9e5f-b73999b40ced, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 2, server: us.kunlun-ppg.com, port: 10823, type: trojan, password: 48bad1cc-4ba4-48bd-9e5f-b73999b40ced, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: _GB_英国, server: 51.38.65.155, port: 443, type: trojan, password: 9e942c10-6d5f-11ee-8a80-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: 亚洲(油管:破解资源君), server: 103.140.137.11, port: 18443, type: vmess, uuid: 9d6fd014-095e-45ca-b61f-01618eb51016, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 103.140.137.11}}, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 3, server: us.kunlun-ppg.com, port: 10819, type: trojan, password: 48bad1cc-4ba4-48bd-9e5f-b73999b40ced, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国Cloudinnovation数据中心 4, server: 154.85.1.244, port: 30000, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1696944806961, headers: {Host: www.28115361.xyz}}, udp: true}
+  - {name: github.com/freefq - 南非  9, server: 156.225.67.104, port: 30000, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1696944806961, headers: {Host: www.41758112.xyz}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -24,28 +27,37 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国 076
-      - 美国_102620079
-      - _US_美国_yui科技_68
-      - 美国_102620083
+      - _CN_中国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国 2
+      - _GB_英国
+      - 亚洲(油管:破解资源君)
+      - _CN_中国->🇺🇸_US_美国 3
+      - github.com/freefq - 美国Cloudinnovation数据中心 4
+      - github.com/freefq - 南非  9
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.youtube.com
     interval: 60
     proxies:
-      - 美国 076
-      - 美国_102620079
-      - _US_美国_yui科技_68
-      - 美国_102620083
+      - _CN_中国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国 2
+      - _GB_英国
+      - 亚洲(油管:破解资源君)
+      - _CN_中国->🇺🇸_US_美国 3
+      - github.com/freefq - 美国Cloudinnovation数据中心 4
+      - github.com/freefq - 南非  9
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国 076
-      - 美国_102620079
-      - _US_美国_yui科技_68
-      - 美国_102620083
+      - _CN_中国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国 2
+      - _GB_英国
+      - 亚洲(油管:破解资源君)
+      - _CN_中国->🇺🇸_US_美国 3
+      - github.com/freefq - 美国Cloudinnovation数据中心 4
+      - github.com/freefq - 南非  9
 rules:
  - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
  - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
