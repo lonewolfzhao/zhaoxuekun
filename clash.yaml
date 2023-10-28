@@ -5,7 +5,7 @@ log-level: info
 external-controller: :50000
 proxies:
   - {name: 4Nika-812, server: 183.232.170.32, port: 30015, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 未知_102620618, server: 103.72.68.13, port: 80, type: vmess, uuid: 831596b2-fed1-4239-af88-e0630394545a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vpngiare.net}, udp: true}
+  - {name: 美国 076, server: 104.31.16.3, port: 2087, type: vmess, uuid: 98bd45bd-ad4a-4480-87b2-84f81c09aaa8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: ttttyyynnnnnnsnsnsnsnsnnsjssjsjjsjsjsjsjsjsksosowowosmsnsn2222919jjajjaja.akdmaksdmaskldmasdmfmosadmfsfdsdfsdfsdfsdfbcvbcvbcvbsdfsdfsqweq.fun, grpc-opts: {grpc-service-name: fffffffstrrrrryyyyhhhhsnnnkakkkkdllllssasdf}, udp: true}
   - {name: 4Sarina-726, server: 223.95.40.85, port: 20291, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
   - {name: 4Mohsen-940, server: 43.202.68.47, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
@@ -25,7 +25,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 4Nika-812
-      - 未知_102620618
+      - 美国 076
       - 4Sarina-726
       - 4Mohsen-940
   - name: ♻️ 自动选择
@@ -34,7 +34,7 @@ proxy-groups:
     interval: 60
     proxies:
       - 4Nika-812
-      - 未知_102620618
+      - 美国 076
       - 4Sarina-726
       - 4Mohsen-940
   - name: 🔰 节点选择
@@ -43,7 +43,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 4Nika-812
-      - 未知_102620618
+      - 美国 076
       - 4Sarina-726
       - 4Mohsen-940
 rules:
