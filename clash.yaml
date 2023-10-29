@@ -4,10 +4,10 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 4Nika-812, server: 183.232.170.32, port: 30015, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
   - {name: 美国 076, server: 104.31.16.3, port: 2087, type: vmess, uuid: 98bd45bd-ad4a-4480-87b2-84f81c09aaa8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: ttttyyynnnnnnsnsnsnsnsnnsjssjsjjsjsjsjsjsjsksosowowosmsnsn2222919jjajjaja.akdmaksdmaskldmasdmfmosadmfsfdsdfsdfsdfsdfbcvbcvbcvbsdfsdfsqweq.fun, grpc-opts: {grpc-service-name: fffffffstrrrrryyyyhhhhsnnnkakkkkdllllssasdf}, udp: true}
-  - {name: 4FreeIran-705, server: 223.95.40.85, port: 20299, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 4Mohsen-940, server: 43.202.68.47, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Nika-812, server: 183.232.170.32, port: 30015, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 4Jadi-918, server: 43.201.97.182, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Sarina-726, server: 223.95.40.85, port: 20291, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -24,28 +24,28 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 4Nika-812
       - 美国 076
-      - 4FreeIran-705
-      - 4Mohsen-940
+      - 4Nika-812
+      - 4Jadi-918
+      - 4Sarina-726
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.youtube.com
     interval: 60
     proxies:
-      - 4Nika-812
       - 美国 076
-      - 4FreeIran-705
-      - 4Mohsen-940
+      - 4Nika-812
+      - 4Jadi-918
+      - 4Sarina-726
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Nika-812
       - 美国 076
-      - 4FreeIran-705
-      - 4Mohsen-940
+      - 4Nika-812
+      - 4Jadi-918
+      - 4Sarina-726
 rules:
  - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
  - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
