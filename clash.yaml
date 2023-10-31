@@ -6,8 +6,8 @@ external-controller: :50000
 proxies:
   - {name: 4Sarina-699, server: 183.232.170.32, port: 30016, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
   - {name: 4Jadi-668, server: 223.95.40.85, port: 20299, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 4Mohsen-1330, server: 43.240.15.69, port: 443, type: ss, cipher: aes-256-gcm, password: 3cda32d5cda5, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jjy11.jurtcs.com, path: /dxlvkpmlvqsi, tls: true, mux: true, skip-cert-verify: true}, udp: true}
   - {name: 美国 076, server: 104.31.16.3, port: 2087, type: vmess, uuid: 98bd45bd-ad4a-4480-87b2-84f81c09aaa8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: ttttyyynnnnnnsnsnsnsnsnnsjssjsjjsjsjsjsjsjsksosowowosmsnsn2222919jjajjaja.akdmaksdmaskldmasdmfmosadmfsfdsdfsdfsdfsdfbcvbcvbcvbsdfsdfsqweq.fun, grpc-opts: {grpc-service-name: fffffffstrrrrryyyyhhhhsnnnkakkkkdllllssasdf}, udp: true}
-  - {name: 4Mohsen-922, server: 43.201.97.182, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -26,8 +26,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 4Sarina-699
       - 4Jadi-668
+      - 4Mohsen-1330
       - 美国 076
-      - 4Mohsen-922
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.youtube.com
@@ -35,8 +35,8 @@ proxy-groups:
     proxies:
       - 4Sarina-699
       - 4Jadi-668
+      - 4Mohsen-1330
       - 美国 076
-      - 4Mohsen-922
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -44,8 +44,8 @@ proxy-groups:
       - 🎯 全球直连
       - 4Sarina-699
       - 4Jadi-668
+      - 4Mohsen-1330
       - 美国 076
-      - 4Mohsen-922
 rules:
  - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
  - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
