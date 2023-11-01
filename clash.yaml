@@ -4,10 +4,10 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 美国(油管:破解资源君), server: dongtaiwang3.com, port: 8080, type: vmess, uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /1IKYjV0r/, headers: {Host: dongtaiwang13.dtku47.xyz}}, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国, server: other.kunlun-ppg.com, port: 10850, type: trojan, password: 7c291642-faf9-4dc9-ad83-af65b50f29cc, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: _US_美国, server: us-new03.gujuji.top, port: 8080, type: vmess, uuid: 40797456-f7cf-489b-afa6-31e754c127d9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new03.gujuji.top}}, udp: true}
+  - {name: 4Sarina-699, server: 183.232.170.32, port: 30016, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
   - {name: 美国 076, server: 104.31.16.3, port: 2087, type: vmess, uuid: 98bd45bd-ad4a-4480-87b2-84f81c09aaa8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: ttttyyynnnnnnsnsnsnsnsnnsjssjsjjsjsjsjsjsjsksosowowosmsnsn2222919jjajjaja.akdmaksdmaskldmasdmfmosadmfsfdsdfsdfsdfsdfbcvbcvbcvbsdfsdfsqweq.fun, grpc-opts: {grpc-service-name: fffffffstrrrrryyyyhhhhsnnnkakkkkdllllssasdf}, udp: true}
-  - {name: 4Mohsen-33, server: gzdx.jcnode.top, port: 14562, type: ss, cipher: chacha20-ietf-poly1305, password: 5f357fc8-749c-4f04-a683-b286c398c9db, udp: true}
-  - {name: 4FreeIran-658, server: 183.232.170.32, port: 30017, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -24,28 +24,28 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国(油管:破解资源君)
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国
+      - 4Sarina-699
       - 美国 076
-      - 4Mohsen-33
-      - 4FreeIran-658
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.youtube.com
     interval: 60
     proxies:
-      - 美国(油管:破解资源君)
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国
+      - 4Sarina-699
       - 美国 076
-      - 4Mohsen-33
-      - 4FreeIran-658
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国(油管:破解资源君)
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国
+      - 4Sarina-699
       - 美国 076
-      - 4Mohsen-33
-      - 4FreeIran-658
 rules:
  - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
  - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
