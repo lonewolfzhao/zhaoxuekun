@@ -4,10 +4,11 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 4FreeIran-658, server: 183.232.170.32, port: 30017, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
   - {name: 美国 076, server: 104.31.16.3, port: 2087, type: vmess, uuid: 98bd45bd-ad4a-4480-87b2-84f81c09aaa8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: ttttyyynnnnnnsnsnsnsnsnnsjssjsjjsjsjsjsjsjsksosowowosmsnsn2222919jjajjaja.akdmaksdmaskldmasdmfmosadmfsfdsdfsdfsdfsdfbcvbcvbcvbsdfsdfsqweq.fun, grpc-opts: {grpc-service-name: fffffffstrrrrryyyyhhhhsnnnkakkkkdllllssasdf}, udp: true}
-  - {name: github.com/freefq - 南非豪登省约翰内斯堡Cloudinnovation数据中心 6, server: 156.249.18.151, port: 30000, type: vmess, uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1698671600986, headers: {Host: www.57424349.xyz}}, udp: true}
-  - {name: github.com/freefq - 南非  5, server: 156.225.67.106, port: 30000, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1698671600986, headers: {Host: www.41758112.xyz}}, udp: true}
+  - {name: 4Jadi-32, server: ora-9.cou.gay, port: 22152, type: ss, cipher: chacha20-ietf-poly1305, password: 66325a42-4d24-464f-9cde-7ebe684bde3a, udp: true}
+  - {name: 美国(油管:破解资源君), server: jp7.421421.xyz, port: 20230, type: trojan, password: e7d1f4d0-f470-44d3-86b4-6eb4c22f1a79, sni: 421421.xyz, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 15, server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: 70dd3daa-b963-4dd9-acd9-13d86ed38f19, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/xeXuHoHo, headers: {Host: sg173528cef.qcryechvqw.xyz}}, udp: true}
+  - {name: 4Sarina-699, server: 183.232.170.32, port: 30016, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -24,28 +25,31 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 4FreeIran-658
       - 美国 076
-      - github.com/freefq - 南非豪登省约翰内斯堡Cloudinnovation数据中心 6
-      - github.com/freefq - 南非  5
+      - 4Jadi-32
+      - 美国(油管:破解资源君)
+      - github.com/freefq - 美国CloudFlare节点 15
+      - 4Sarina-699
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.youtube.com
     interval: 60
     proxies:
-      - 4FreeIran-658
       - 美国 076
-      - github.com/freefq - 南非豪登省约翰内斯堡Cloudinnovation数据中心 6
-      - github.com/freefq - 南非  5
+      - 4Jadi-32
+      - 美国(油管:破解资源君)
+      - github.com/freefq - 美国CloudFlare节点 15
+      - 4Sarina-699
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4FreeIran-658
       - 美国 076
-      - github.com/freefq - 南非豪登省约翰内斯堡Cloudinnovation数据中心 6
-      - github.com/freefq - 南非  5
+      - 4Jadi-32
+      - 美国(油管:破解资源君)
+      - github.com/freefq - 美国CloudFlare节点 15
+      - 4Sarina-699
 rules:
  - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
  - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
