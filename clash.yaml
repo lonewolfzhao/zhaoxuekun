@@ -4,10 +4,10 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 4Jadi-930, server: 43.201.24.75, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4FreeIran-658, server: 183.232.170.32, port: 30017, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
   - {name: 4Mohsen-939, server: 43.200.6.127, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Kian-672, server: 223.95.40.85, port: 20295, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 4Nika-987, server: 43.201.97.182, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Nika-1353, server: 51.15.27.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: _CN_中国->🇨🇦_CA_加拿大, server: userpd.haitunvip.vip, port: 11302, type: vmess, uuid: 6ae0df67-5a91-3af0-b7f2-ac08ca4c88ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ef483582-6269-468c-93af-c512ec2b8a61, headers: {Host: userpd.haitunvip.vip}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -24,28 +24,28 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 4Jadi-930
-      - 4FreeIran-658
       - 4Mohsen-939
-      - 4Kian-672
+      - 4Nika-987
+      - 4Nika-1353
+      - _CN_中国->🇨🇦_CA_加拿大
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.youtube.com
     interval: 60
     proxies:
-      - 4Jadi-930
-      - 4FreeIran-658
       - 4Mohsen-939
-      - 4Kian-672
+      - 4Nika-987
+      - 4Nika-1353
+      - _CN_中国->🇨🇦_CA_加拿大
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Jadi-930
-      - 4FreeIran-658
       - 4Mohsen-939
-      - 4Kian-672
+      - 4Nika-987
+      - 4Nika-1353
+      - _CN_中国->🇨🇦_CA_加拿大
 rules:
  - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
  - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
