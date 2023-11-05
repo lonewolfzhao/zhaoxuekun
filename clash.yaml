@@ -4,10 +4,10 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 4Jadi-546, server: hk2.network-cdn-gw.cc, port: 47790, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e, udp: true}
   - {name: 4Jadi-553, server: hk9.network-cdn-gw.cc, port: 47709, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e, udp: true}
-  - {name: _US_美国, server: 172.247.148.93, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/133527190814}, udp: true}
-  - {name: 美国(油管:破解资源君), server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 3d761afc-6dfd-49d9-9d0f-b79341391f26, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}, udp: true}
+  - {name: 4Jadi-548, server: hk4.network-cdn-gw.cc, port: 47759, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e, udp: true}
+  - {name: _CN_中国->🇬🇧_GB_英国, server: 112.29.94.23, port: 49004, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 4Nika-822, server: 183.232.170.32, port: 30016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -24,28 +24,28 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 4Jadi-546
       - 4Jadi-553
-      - _US_美国
-      - 美国(油管:破解资源君)
+      - 4Jadi-548
+      - _CN_中国->🇬🇧_GB_英国
+      - 4Nika-822
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.youtube.com
     interval: 60
     proxies:
-      - 4Jadi-546
       - 4Jadi-553
-      - _US_美国
-      - 美国(油管:破解资源君)
+      - 4Jadi-548
+      - _CN_中国->🇬🇧_GB_英国
+      - 4Nika-822
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Jadi-546
       - 4Jadi-553
-      - _US_美国
-      - 美国(油管:破解资源君)
+      - 4Jadi-548
+      - _CN_中国->🇬🇧_GB_英国
+      - 4Nika-822
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
