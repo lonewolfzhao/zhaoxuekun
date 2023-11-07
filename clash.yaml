@@ -4,10 +4,10 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 4Jadi-783, server: 183.232.170.32, port: 30017, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: _FR_法国, server: 51.158.195.96, port: 110, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 美国(油管:破解资源君), server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 3d761afc-6dfd-49d9-9d0f-b79341391f26, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v006.ssrsub.com}}, udp: true}
   - {name: _US_美国->🇳🇱_NL_荷兰, server: 162.159.138.232, port: 2096, type: vmess, uuid: c58c0655-d722-4ad1-8ad5-2452c77a753a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Amsterdam, headers: {Host: stiyUs6usw.pouriya.cf}}, udp: true}
+  - {name: 4Mohsen-1348, server: 43.240.15.69, port: 443, type: ss, cipher: aes-256-gcm, password: 3cda32d5cda5, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jjy11.jurtcs.com, path: /dxlvkpmlvqsi, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 防失效github SubCrawler伊朗_102620003, server: 31.14.114.52, port: 46537, type: vmess, uuid: ef245bb8-301e-418e-ac32-264ef197dbba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 4Jadi-783, server: 183.232.170.32, port: 30017, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -24,28 +24,28 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 4Jadi-783
-      - _FR_法国
-      - 美国(油管:破解资源君)
       - _US_美国->🇳🇱_NL_荷兰
+      - 4Mohsen-1348
+      - 防失效github SubCrawler伊朗_102620003
+      - 4Jadi-783
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 4Jadi-783
-      - _FR_法国
-      - 美国(油管:破解资源君)
       - _US_美国->🇳🇱_NL_荷兰
+      - 4Mohsen-1348
+      - 防失效github SubCrawler伊朗_102620003
+      - 4Jadi-783
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Jadi-783
-      - _FR_法国
-      - 美国(油管:破解资源君)
       - _US_美国->🇳🇱_NL_荷兰
+      - 4Mohsen-1348
+      - 防失效github SubCrawler伊朗_102620003
+      - 4Jadi-783
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
