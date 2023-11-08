@@ -4,10 +4,10 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 美国(油管:破解资源君), server: 192.74.236.153, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1699280099138, headers: {Host: www.53752665.xyz}}, udp: true}
-  - {name: 4Jadi-783, server: 183.232.170.32, port: 30017, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: github.com/freefq - 安徽省合肥市移动 3, server: 112.29.94.23, port: 49006, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(油管:破解资源君), server: cf1.openxai.link, port: 8080, type: vmess, uuid: 94242109-0930-427f-f899-15d34021130c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: eu2.openxai.link}}, udp: true}
+  - {name: 4Mohsen-943, server: 18.183.109.230, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 4Sarina-483, server: 51.104.194.81, port: 51000, type: ss, cipher: chacha20-ietf-poly1305, password: MYC2rdkydCyYksvKb2QvLK, udp: true}
+  - {name: 美国(油管:破解资源君) 2, server: 108.181.24.37, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-us1.windowsupdatea.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -25,27 +25,27 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 美国(油管:破解资源君)
-      - 4Jadi-783
-      - github.com/freefq - 安徽省合肥市移动 3
+      - 4Mohsen-943
       - 4Sarina-483
+      - 美国(油管:破解资源君) 2
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.youtube.com
     interval: 300
     proxies:
       - 美国(油管:破解资源君)
-      - 4Jadi-783
-      - github.com/freefq - 安徽省合肥市移动 3
+      - 4Mohsen-943
       - 4Sarina-483
+      - 美国(油管:破解资源君) 2
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 美国(油管:破解资源君)
-      - 4Jadi-783
-      - github.com/freefq - 安徽省合肥市移动 3
+      - 4Mohsen-943
       - 4Sarina-483
+      - 美国(油管:破解资源君) 2
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
