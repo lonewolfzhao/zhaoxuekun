@@ -28,6 +28,15 @@ proxy-groups:
       - _US_美国->🇫🇷_FR_法国
       - _US_美国->🇫🇷_FR_法国 2
       - github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH 5
+  - name: WARP前置节点
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - _US_美国->🇳🇱_NL_荷兰
+      - _US_美国->🇫🇷_FR_法国
+      - _US_美国->🇫🇷_FR_法国 2
+      - github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH 5
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.youtube.com
