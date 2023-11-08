@@ -49,6 +49,7 @@ proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
+      - WARP
       - ♻️ 自动选择
       - 🎯 全球直连
       - _US_美国
@@ -6527,3 +6528,4 @@ rules:
   - DOMAIN-SUFFIX,picjs.xyz,🔰 节点选择
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
+  - MATCH,WARP
