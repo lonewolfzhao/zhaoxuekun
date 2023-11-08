@@ -4,6 +4,24 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
+- name: WARP
+  type: wireguard
+  server: engage.cloudflareclient.com
+  port: 2408
+  ip: 172.16.0.2/32
+  ipv6: 2606:4700:110:8e9a:d8aa:1925:76a:a306/128
+  private-key: 8LcypeW4ByGRL4xpz1l3Tb7OkeRRowCWK3+UXhR+FF0=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  udp: true
+  reserved:
+  - 0
+  - 0
+  - 0
+  remote-dns-resolve: true
+  dns:
+  - 1.1.1.1
+  - 8.8.8.8
+  dialer-proxy: WARP前置节点
 - {name: _US_美国, server: 45.58.152.70, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1699193100388, headers: {Host: www.54964745.xyz}}, udp: true}
 - {name: 4Jadi-781, server: 183.232.170.32, port: 30016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
 - {name: _US_美国->🇫🇷_FR_法国, server: 162.159.25.17, port: 2082, type: vmess, uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Lille.kotick.site:443/speedtest, headers: {Host: bold-mud-c089.owotaa.workers.dev}}, udp: true}
