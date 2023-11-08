@@ -4,14 +4,12 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 4Kian-950, server: 3.36.117.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: github.com/freefq - 安徽省合肥市移动 3, server: 112.29.94.23, port: 49006, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: _CN_中国->🇬🇧_GB_英国, server: 112.29.94.23, port: 49006, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 4Jadi-781, server: 183.232.170.32, port: 30016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 4Nika-824, server: 183.232.170.32, port: 30017, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 亚洲(油管:破解资源君), server: download2hkt.windowsupdatea.com, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-hkt2.windowsupdatea.com, skip-cert-verify: true, udp: true}
-  - {name: 美国(油管:破解资源君), server: 185.246.152.38, port: 18055, type: ss, cipher: chacha20-ietf-poly1305, password: Art87yK8lSk3rU1J91AnsY, udp: true}
-  - {name: 美国(油管:破解资源君) 2, server: 3.71.92.131, port: 33108, type: ss, cipher: chacha20-ietf-poly1305, password: Wc9mwaXoVeyznoAXxvaxok, udp: true}
   - {name: 4Mohsen-741, server: 223.95.40.85, port: 20299, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 4Kian-950, server: 3.36.117.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Jadi-781, server: 183.232.170.32, port: 30016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: "%�\x11�|'��\bi�y�+��L\f��LL\f\f%%�", server: 150.107.46.21, port: 8083, type: ssr, cipher: aes-256-cfb, password: iFqnzSscN, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: cloudfront.n%, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -28,41 +26,35 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 4Kian-950
+      - github.com/freefq - 安徽省合肥市移动 3
       - _CN_中国->🇬🇧_GB_英国
-      - 4Jadi-781
-      - 4Nika-824
-      - 亚洲(油管:破解资源君)
-      - 美国(油管:破解资源君)
-      - 美国(油管:破解资源君) 2
       - 4Mohsen-741
+      - 4Kian-950
+      - 4Jadi-781
+      - "%�\x11�|'��\bi�y�+��L\f��LL\f\f%%�"
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 4Kian-950
+      - github.com/freefq - 安徽省合肥市移动 3
       - _CN_中国->🇬🇧_GB_英国
-      - 4Jadi-781
-      - 4Nika-824
-      - 亚洲(油管:破解资源君)
-      - 美国(油管:破解资源君)
-      - 美国(油管:破解资源君) 2
       - 4Mohsen-741
+      - 4Kian-950
+      - 4Jadi-781
+      - "%�\x11�|'��\bi�y�+��L\f��LL\f\f%%�"
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Kian-950
+      - github.com/freefq - 安徽省合肥市移动 3
       - _CN_中国->🇬🇧_GB_英国
-      - 4Jadi-781
-      - 4Nika-824
-      - 亚洲(油管:破解资源君)
-      - 美国(油管:破解资源君)
-      - 美国(油管:破解资源君) 2
       - 4Mohsen-741
+      - 4Kian-950
+      - 4Jadi-781
+      - "%�\x11�|'��\bi�y�+��L\f��LL\f\f%%�"
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
