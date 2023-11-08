@@ -29,7 +29,8 @@ proxy-groups:
       - 4Sarina-483
       - 美国(油管:破解资源君) 2
   - name: ♻️ 自动选择
-    type: url-test
+    type: load-balance
+    strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
