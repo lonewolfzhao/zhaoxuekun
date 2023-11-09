@@ -5,14 +5,15 @@ log-level: info
 external-controller: :50000
 proxies:
   - {name: 4Jadi-781, server: 183.232.170.32, port: 30016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 4Nika-824, server: 183.232.170.32, port: 30017, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 美国(油管:破解资源君), server: 192.74.236.153, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1699280099138, headers: {Host: www.53752665.xyz}}, udp: true}
-  - {name: 4Kian-950, server: 3.36.117.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 美国(油管:破解资源君) 2, server: Singapore.MFA.EE, port: 80, type: vmess, uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.iiio.wiki}}, udp: true}
-  - {name: 4FreeIran-965, server: 43.201.62.12, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Jadi-781 2, server: 183.232.170.32, port: 30016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 美国(油管:破解资源君), server: cf1.openxai.link, port: 8080, type: vmess, uuid: 218996e0-5a6e-4806-8106-6b7b42e6d0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: eu4.openxai.link}}, udp: true}
   - {name: 4FreeIran-784, server: 183.232.170.32, port: 30017, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 4Jadi-2384, server: 38.121.43.51, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 4Jadi-781 2, server: 183.232.170.32, port: 30016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 4Nika-824, server: 183.232.170.32, port: 30017, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 亚洲(油管:破解资源君), server: 103.35.190.65, port: 443, type: vmess, uuid: ed531ebe-4971-47f9-a881-636d0b101a44, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: internet.life.com.by}}, udp: true}
+  - {name: 美国(油管:破解资源君) 2, server: fr-new01.gujuji.top, port: 8080, type: vmess, uuid: abc970d5-d988-4f02-8bb0-6ccd4f74c22b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr-new01.gujuji.top}}, udp: true}
+  - {name: 亚洲(油管:破解资源君) 2, server: 183.233.187.214, port: 38262, type: vmess, uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(油管:破解资源君) 3, server: 162.159.136.61, port: 80, type: vmess, uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.iiio.wiki}}, udp: true}
+  - {name: 美国(油管:破解资源君) 4, server: 142.4.98.232, port: 443, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1699193100388, headers: {Host: www.12971475.xyz}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -29,14 +30,15 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 4Jadi-781
-      - 4Nika-824
       - 美国(油管:破解资源君)
-      - 4Kian-950
-      - 美国(油管:破解资源君) 2
-      - 4FreeIran-965
-      - 4Jadi-781 2
       - 4FreeIran-784
-      - 4Jadi-2384
+      - 4Jadi-781 2
+      - 4Nika-824
+      - 亚洲(油管:破解资源君)
+      - 美国(油管:破解资源君) 2
+      - 亚洲(油管:破解资源君) 2
+      - 美国(油管:破解资源君) 3
+      - 美国(油管:破解资源君) 4
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
@@ -44,29 +46,30 @@ proxy-groups:
     interval: 300
     proxies:
       - 4Jadi-781
-      - 4Nika-824
       - 美国(油管:破解资源君)
-      - 4Kian-950
-      - 美国(油管:破解资源君) 2
-      - 4FreeIran-965
-      - 4Jadi-781 2
       - 4FreeIran-784
-      - 4Jadi-2384
+      - 4Jadi-781 2
+      - 4Nika-824
+      - 亚洲(油管:破解资源君)
+      - 美国(油管:破解资源君) 2
+      - 亚洲(油管:破解资源君) 2
+      - 美国(油管:破解资源君) 3
+      - 美国(油管:破解资源君) 4
   - name: 🐟 漏网之鱼
     type: select
     proxies:
-      - 🔰 节点选择
-      - 🎯 全球直连
       - ♻️ 自动选择
+      - 🎯 全球直连
       - 4Jadi-781
-      - 4Nika-824
       - 美国(油管:破解资源君)
-      - 4Kian-950
-      - 美国(油管:破解资源君) 2
-      - 4FreeIran-965
-      - 4Jadi-781 2
       - 4FreeIran-784
-      - 4Jadi-2384
+      - 4Jadi-781 2
+      - 4Nika-824
+      - 亚洲(油管:破解资源君)
+      - 美国(油管:破解资源君) 2
+      - 亚洲(油管:破解资源君) 2
+      - 美国(油管:破解资源君) 3
+      - 美国(油管:破解资源君) 4
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
