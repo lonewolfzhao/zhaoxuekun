@@ -4,15 +4,12 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 4FreeIran-629, server: proxy1.fanqiecloud.top, port: 26202, type: ss, cipher: chacha20-ietf-poly1305, password: f7d8e806-7b5c-4450-bda7-98c4bc7d2aab, udp: true}
-  - {name: 美国(油管:破解资源君), server: www.dongtaiwang4.com, port: 26600, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
-  - {name: 美国(油管:破解资源君) 2, server: fr-new01.gujuji.top, port: 8080, type: vmess, uuid: abc970d5-d988-4f02-8bb0-6ccd4f74c22b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr-new01.gujuji.top}}, udp: true}
+  - {name: 美国(油管:破解资源君), server: fr-new01.gujuji.top, port: 8080, type: vmess, uuid: abc970d5-d988-4f02-8bb0-6ccd4f74c22b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr-new01.gujuji.top}}, udp: true}
+  - {name: 美国(油管:破解资源君) 2, server: www.dongtaiwang4.com, port: 26600, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
   - {name: 美国(油管:破解资源君) 3, server: us-new04.gujuji.top, port: 8080, type: vmess, uuid: abc970d5-d988-4f02-8bb0-6ccd4f74c22b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new04.gujuji.top}}, udp: true}
-  - {name: 4FreeIran-990, server: 54.151.145.1, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 美国(油管:破解资源君) 4, server: us-new01.gujuji.top, port: 8080, type: vmess, uuid: abc970d5-d988-4f02-8bb0-6ccd4f74c22b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new01.gujuji.top}}, udp: true}
+  - {name: 4FreeIran-629, server: proxy1.fanqiecloud.top, port: 26202, type: ss, cipher: chacha20-ietf-poly1305, password: f7d8e806-7b5c-4450-bda7-98c4bc7d2aab, udp: true}
   - {name: 美国(油管:破解资源君) 5, server: family.mgtajhiz.ir, port: 2052, type: vmess, uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: family.mgtajhiz.ir}}, udp: true}
-  - {name: github.com/freefq - 广东省广州市移动 19, server: 183.233.187.214, port: 38262, type: vmess, uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 亚洲(油管:破解资源君), server: 194.156.98.179, port: 80, type: vmess, uuid: 0855b410-0e96-4d0a-9b6e-80830edec462, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(油管:破解资源君) 4, server: us-new01.gujuji.top, port: 8080, type: vmess, uuid: abc970d5-d988-4f02-8bb0-6ccd4f74c22b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new01.gujuji.top}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -28,44 +25,35 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4FreeIran-629
       - 美国(油管:破解资源君)
       - 美国(油管:破解资源君) 2
       - 美国(油管:破解资源君) 3
-      - 4FreeIran-990
-      - 美国(油管:破解资源君) 4
+      - 4FreeIran-629
       - 美国(油管:破解资源君) 5
-      - github.com/freefq - 广东省广州市移动 19
-      - 亚洲(油管:破解资源君)
+      - 美国(油管:破解资源君) 4
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 4FreeIran-629
       - 美国(油管:破解资源君)
       - 美国(油管:破解资源君) 2
       - 美国(油管:破解资源君) 3
-      - 4FreeIran-990
-      - 美国(油管:破解资源君) 4
+      - 4FreeIran-629
       - 美国(油管:破解资源君) 5
-      - github.com/freefq - 广东省广州市移动 19
-      - 亚洲(油管:破解资源君)
+      - 美国(油管:破解资源君) 4
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4FreeIran-629
       - 美国(油管:破解资源君)
       - 美国(油管:破解资源君) 2
       - 美国(油管:破解资源君) 3
-      - 4FreeIran-990
-      - 美国(油管:破解资源君) 4
+      - 4FreeIran-629
       - 美国(油管:破解资源君) 5
-      - github.com/freefq - 广东省广州市移动 19
-      - 亚洲(油管:破解资源君)
+      - 美国(油管:破解资源君) 4
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
