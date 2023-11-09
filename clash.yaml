@@ -4,12 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 美国(油管:破解资源君) 2, server: Singapore.MFA.EE, port: 80, type: vmess, uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.iiio.wiki}}, udp: true}
+  - {name: 美国(油管:破解资源君), server: 192.74.236.153, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1699280099138, headers: {Host: www.53752665.xyz}}, udp: true}
   - {name: 4Jadi-781, server: 183.232.170.32, port: 30016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 4Jadi-781 2, server: 183.232.170.32, port: 30016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 4FreeIran-965, server: 43.201.62.12, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Nika-824, server: 183.232.170.32, port: 30017, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
   - {name: 4FreeIran-784, server: 183.232.170.32, port: 30017, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 4Jadi-781 2, server: 183.232.170.32, port: 30016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 4Nika-824, server: 183.232.170.32, port: 30017, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 美国(油管:破解资源君) 2, server: 142.4.98.232, port: 443, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1699193100388, headers: {Host: www.12971475.xyz}}, udp: true}
+  - {name: 美国(油管:破解资源君) 3, server: cf1.openxai.link, port: 8080, type: vmess, uuid: 94242109-0930-427f-f899-15d34021130c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: eu2.openxai.link}}, udp: true}
+  - {name: 4Jadi-740, server: 223.95.40.85, port: 20299, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -25,36 +27,42 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国(油管:破解资源君) 2
+      - 美国(油管:破解资源君)
       - 4Jadi-781
-      - 4Jadi-781 2
-      - 4FreeIran-965
-      - 4Nika-824
       - 4FreeIran-784
+      - 4Jadi-781 2
+      - 4Nika-824
+      - 美国(油管:破解资源君) 2
+      - 美国(油管:破解资源君) 3
+      - 4Jadi-740
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 美国(油管:破解资源君) 2
+      - 美国(油管:破解资源君)
       - 4Jadi-781
-      - 4Jadi-781 2
-      - 4FreeIran-965
-      - 4Nika-824
       - 4FreeIran-784
+      - 4Jadi-781 2
+      - 4Nika-824
+      - 美国(油管:破解资源君) 2
+      - 美国(油管:破解资源君) 3
+      - 4Jadi-740
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国(油管:破解资源君) 2
+      - 美国(油管:破解资源君)
       - 4Jadi-781
-      - 4Jadi-781 2
-      - 4FreeIran-965
-      - 4Nika-824
       - 4FreeIran-784
+      - 4Jadi-781 2
+      - 4Nika-824
+      - 美国(油管:破解资源君) 2
+      - 美国(油管:破解资源君) 3
+      - 4Jadi-740
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
