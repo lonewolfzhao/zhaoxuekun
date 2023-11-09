@@ -4,12 +4,12 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: github.com/freefq - 安徽省合肥市移动 3, server: 112.29.94.23, port: 49006, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: _CN_中国->🇬🇧_GB_英国, server: 112.29.94.23, port: 49006, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 4Mohsen-741, server: 223.95.40.85, port: 20299, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 4Kian-950, server: 3.36.117.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Jadi-781, server: 183.232.170.32, port: 30016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: "%�\x11�|'��\bi�y�+��L\f��LL\f\f%%�", server: 150.107.46.21, port: 8083, type: ssr, cipher: aes-256-cfb, password: iFqnzSscN, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: cloudfront.n%, udp: true}
+  - {name: 美国(油管:破解资源君), server: 192.74.236.153, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1699280099138, headers: {Host: www.53752665.xyz}}, udp: true}
+  - {name: _US_美国->🇩🇪_DE_德国, server: main.doctorweb.sbs, port: 2082, type: vmess, uuid: 137b3288-0fbe-4ac1-b73e-a2de0c543635, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: main.doctorweb.sbs}}, udp: true}
+  - {name: 美国(油管:破解资源君) 2, server: cf1.openxai.link, port: 8080, type: vmess, uuid: 94242109-0930-427f-f899-15d34021130c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: eu2.openxai.link}}, udp: true}
+  - {name: 4FreeIran-784, server: 183.232.170.32, port: 30017, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: github.com/freefq - 安徽省合肥市移动 3, server: 112.29.94.23, port: 49006, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -20,41 +20,41 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-  - name: 🐟 漏网之鱼
+  - name: 🔰 节点选择
     type: select
     proxies:
-      - 🔰 节点选择
-      - 🎯 全球直连
       - ♻️ 自动选择
-      - github.com/freefq - 安徽省合肥市移动 3
+      - 🎯 全球直连
       - _CN_中国->🇬🇧_GB_英国
-      - 4Mohsen-741
-      - 4Kian-950
-      - 4Jadi-781
-      - "%�\x11�|'��\bi�y�+��L\f��LL\f\f%%�"
+      - 美国(油管:破解资源君)
+      - _US_美国->🇩🇪_DE_德国
+      - 美国(油管:破解资源君) 2
+      - 4FreeIran-784
+      - github.com/freefq - 安徽省合肥市移动 3
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - github.com/freefq - 安徽省合肥市移动 3
       - _CN_中国->🇬🇧_GB_英国
-      - 4Mohsen-741
-      - 4Kian-950
-      - 4Jadi-781
-      - "%�\x11�|'��\bi�y�+��L\f��LL\f\f%%�"
-  - name: 🔰 节点选择
+      - 美国(油管:破解资源君)
+      - _US_美国->🇩🇪_DE_德国
+      - 美国(油管:破解资源君) 2
+      - 4FreeIran-784
+      - github.com/freefq - 安徽省合肥市移动 3
+  - name: 🐟 漏网之鱼
     type: select
     proxies:
-      - ♻️ 自动选择
+      - 🔰 节点选择
       - 🎯 全球直连
-      - github.com/freefq - 安徽省合肥市移动 3
+      - ♻️ 自动选择
       - _CN_中国->🇬🇧_GB_英国
-      - 4Mohsen-741
-      - 4Kian-950
-      - 4Jadi-781
-      - "%�\x11�|'��\bi�y�+��L\f��LL\f\f%%�"
+      - 美国(油管:破解资源君)
+      - _US_美国->🇩🇪_DE_德国
+      - 美国(油管:破解资源君) 2
+      - 4FreeIran-784
+      - github.com/freefq - 安徽省合肥市移动 3
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
