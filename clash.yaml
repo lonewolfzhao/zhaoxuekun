@@ -4,10 +4,16 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
+  - {name: 4Kian-768, server: gy.linghun3.xyz, port: 40068, type: ss, cipher: aes-128-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7, udp: true}
+  - {name: 4Kian-582, server: gdct003.jcnode.top, port: 28397, type: ss, cipher: chacha20-ietf-poly1305, password: d0596879-bdb2-4717-958a-bd22a83a0867, udp: true}
   - {name: 4FreeIran-952, server: 3.36.117.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Kian-1172, server: 51.159.14.40, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: Relay 🇦🇷 Argentina(ChatGPT) 02 TG@SSRSUB, server: gy.linghun3.xyz, port: 40063, type: ss, cipher: aes-128-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7, udp: true}
+  - {name: 4Jadi-781, server: 183.232.170.32, port: 30016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 4Kian-767, server: gy.linghun3.xyz, port: 40067, type: ss, cipher: aes-128-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7, udp: true}
+  - {name: Relay 🇦🇺 Australia(ChatGPT) 01 TG@SSRSUB, server: gy.linghun3.xyz, port: 40069, type: ss, cipher: aes-128-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7, udp: true}
+  - {name: 4Kian-572, server: gdct002.jcnode.top, port: 53958, type: ss, cipher: chacha20-ietf-poly1305, password: d0596879-bdb2-4717-958a-bd22a83a0867, udp: true}
   - {name: 美国(油管:破解资源君), server: www.dongtaiwang4.com, port: 26600, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
-  - {name: 4Kian-1298, server: 213.169.137.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 4Kian-1228, server: 89.187.179.192, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -23,29 +29,47 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 4Kian-768
+      - 4Kian-582
       - 4FreeIran-952
-      - 4Kian-1172
+      - Relay 🇦🇷 Argentina(ChatGPT) 02 TG@SSRSUB
+      - 4Jadi-781
+      - 4Kian-767
+      - Relay 🇦🇺 Australia(ChatGPT) 01 TG@SSRSUB
+      - 4Kian-572
       - 美国(油管:破解资源君)
-      - 4Kian-1298
+      - 4Kian-1228
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
+      - 4Kian-768
+      - 4Kian-582
       - 4FreeIran-952
-      - 4Kian-1172
+      - Relay 🇦🇷 Argentina(ChatGPT) 02 TG@SSRSUB
+      - 4Jadi-781
+      - 4Kian-767
+      - Relay 🇦🇺 Australia(ChatGPT) 01 TG@SSRSUB
+      - 4Kian-572
       - 美国(油管:破解资源君)
-      - 4Kian-1298
+      - 4Kian-1228
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 4Kian-768
+      - 4Kian-582
       - 4FreeIran-952
-      - 4Kian-1172
+      - Relay 🇦🇷 Argentina(ChatGPT) 02 TG@SSRSUB
+      - 4Jadi-781
+      - 4Kian-767
+      - Relay 🇦🇺 Australia(ChatGPT) 01 TG@SSRSUB
+      - 4Kian-572
       - 美国(油管:破解资源君)
-      - 4Kian-1298
+      - 4Kian-1228
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
