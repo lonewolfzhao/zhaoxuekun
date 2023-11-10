@@ -4,15 +4,10 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 美国(油管:破解资源君), server: www.dongtaiwang4.com, port: 26600, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
-  - {name: 亚洲(油管:破解资源君), server: 194.156.98.179, port: 80, type: vmess, uuid: 0855b410-0e96-4d0a-9b6e-80830edec462, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 4Jadi-781, server: 183.232.170.32, port: 30016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 4FreeIran-784, server: 183.232.170.32, port: 30017, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 亚洲(油管:破解资源君) 2, server: download1hkt.windowsupdatea.com, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-hkt1.windowsupdatea.com, skip-cert-verify: true, udp: true}
-  - {name: 亚洲(油管:破解资源君) 3, server: 194.156.98.179, port: 80, type: vmess, uuid: 0855b410-0e96-4d0a-9b6e-80830edec462, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 4Nika-824, server: 183.232.170.32, port: 30017, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 亚洲(油管:破解资源君) 4, server: 194.156.98.179, port: 80, type: vmess, uuid: 0855b410-0e96-4d0a-9b6e-80830edec462, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 4Mohsen-2247, server: fn600mtw005.testnewline.info, port: 443, type: ss, cipher: aes-256-gcm, password: a0068c048cb0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mtw005.testnewline.info, path: /gfrotntnxv, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 4FreeIran-784, server: 183.232.170.32, port: 30017, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 美国(油管:破解资源君), server: www.dongtaiwang4.com, port: 26600, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -28,44 +23,29 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国(油管:破解资源君)
-      - 亚洲(油管:破解资源君)
       - 4Jadi-781
-      - 4FreeIran-784
-      - 亚洲(油管:破解资源君) 2
-      - 亚洲(油管:破解资源君) 3
       - 4Nika-824
-      - 亚洲(油管:破解资源君) 4
-      - 4Mohsen-2247
+      - 4FreeIran-784
+      - 美国(油管:破解资源君)
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 美国(油管:破解资源君)
-      - 亚洲(油管:破解资源君)
       - 4Jadi-781
-      - 4FreeIran-784
-      - 亚洲(油管:破解资源君) 2
-      - 亚洲(油管:破解资源君) 3
       - 4Nika-824
-      - 亚洲(油管:破解资源君) 4
-      - 4Mohsen-2247
+      - 4FreeIran-784
+      - 美国(油管:破解资源君)
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国(油管:破解资源君)
-      - 亚洲(油管:破解资源君)
       - 4Jadi-781
-      - 4FreeIran-784
-      - 亚洲(油管:破解资源君) 2
-      - 亚洲(油管:破解资源君) 3
       - 4Nika-824
-      - 亚洲(油管:破解资源君) 4
-      - 4Mohsen-2247
+      - 4FreeIran-784
+      - 美国(油管:破解资源君)
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
