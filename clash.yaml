@@ -5,15 +5,12 @@ log-level: info
 external-controller: :50000
 proxies:
   - {name: 4FreeIran-952, server: 3.36.117.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Nika-824, server: 183.232.170.32, port: 30017, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 4FreeIran-784, server: 183.232.170.32, port: 30017, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 4Mohsen-1006, server: 3.34.132.106, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _CN_中国->🇬🇧_GB_英国, server: 112.29.94.23, port: 49056, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 4Jadi-781, server: 183.232.170.32, port: 30016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 4Jadi-781 2, server: 183.232.170.32, port: 30016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 美国(油管:破解资源君), server: cf2.openxai.link, port: 8080, type: vmess, uuid: f440527e-5243-4ca8-890c-5e05e4b3bb41, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: eu1.openxai.link}}, udp: true}
-  - {name: 11|🇺🇸 _US_美国_wmt_28, server: api.jquery.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /octavi.cfd:443/linkvws, headers: {Host: sub.xn--9kq89d4y0g.top}}, udp: true}
+  - {name: 4Mohsen-1198, server: 51.158.200.95, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 4Mohsen-990, server: 13.229.108.139, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Mohsen-1284, server: 89.187.179.192, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 4Mohsen-1264, server: 62.210.88.148, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 4Mohsen-1229, server: 51.159.14.40, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 4Mohsen-1006, server: 3.34.132.106, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -30,15 +27,12 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 4FreeIran-952
-      - 4Nika-824
-      - 4FreeIran-784
-      - 4Mohsen-1006
-      - _CN_中国->🇬🇧_GB_英国
-      - 4Jadi-781
-      - 4Jadi-781 2
-      - 美国(油管:破解资源君)
-      - 11|🇺🇸 _US_美国_wmt_28
+      - 4Mohsen-1198
       - 4Mohsen-990
+      - 4Mohsen-1284
+      - 4Mohsen-1264
+      - 4Mohsen-1229
+      - 4Mohsen-1006
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
@@ -46,30 +40,24 @@ proxy-groups:
     interval: 300
     proxies:
       - 4FreeIran-952
-      - 4Nika-824
-      - 4FreeIran-784
-      - 4Mohsen-1006
-      - _CN_中国->🇬🇧_GB_英国
-      - 4Jadi-781
-      - 4Jadi-781 2
-      - 美国(油管:破解资源君)
-      - 11|🇺🇸 _US_美国_wmt_28
+      - 4Mohsen-1198
       - 4Mohsen-990
+      - 4Mohsen-1284
+      - 4Mohsen-1264
+      - 4Mohsen-1229
+      - 4Mohsen-1006
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 4FreeIran-952
-      - 4Nika-824
-      - 4FreeIran-784
-      - 4Mohsen-1006
-      - _CN_中国->🇬🇧_GB_英国
-      - 4Jadi-781
-      - 4Jadi-781 2
-      - 美国(油管:破解资源君)
-      - 11|🇺🇸 _US_美国_wmt_28
+      - 4Mohsen-1198
       - 4Mohsen-990
+      - 4Mohsen-1284
+      - 4Mohsen-1264
+      - 4Mohsen-1229
+      - 4Mohsen-1006
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
