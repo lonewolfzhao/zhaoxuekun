@@ -4,15 +4,13 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 4Kian-572, server: gdct002.jcnode.top, port: 53958, type: ss, cipher: chacha20-ietf-poly1305, password: d0596879-bdb2-4717-958a-bd22a83a0867, udp: true}
-  - {name: 4Kian-777, server: jp1.linghun3.xyz, port: 40010, type: ss, cipher: aes-128-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7, udp: true}
-  - {name: 4Kian-778, server: jp2.linghun3.xyz, port: 40012, type: ss, cipher: aes-128-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7, udp: true}
   - {name: 4FreeIran-952, server: 3.36.117.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Kian-767, server: gy.linghun3.xyz, port: 40067, type: ss, cipher: aes-128-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7, udp: true}
+  - {name: 4Sarina-961, server: 43.201.146.171, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4FreeIran-784, server: 183.232.170.32, port: 30017, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
   - {name: 4Jadi-781, server: 183.232.170.32, port: 30016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 4Kian-1228, server: 89.187.179.192, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 4Kian-770, server: gy.linghun3.xyz, port: 40070, type: ss, cipher: aes-128-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7, udp: true}
-  - {name: 4Nika-824, server: 183.232.170.32, port: 30017, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 4Kian-582, server: gdct003.jcnode.top, port: 28397, type: ss, cipher: chacha20-ietf-poly1305, password: d0596879-bdb2-4717-958a-bd22a83a0867, udp: true}
+  - {name: 4Sarina-946, server: 3.34.132.106, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Jadi-781 2, server: 183.232.170.32, port: 30016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -28,44 +26,38 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Kian-572
-      - 4Kian-777
-      - 4Kian-778
       - 4FreeIran-952
-      - 4Kian-767
+      - 4Sarina-961
+      - 4FreeIran-784
       - 4Jadi-781
-      - 4Kian-1228
-      - 4Kian-770
-      - 4Nika-824
+      - 4Kian-582
+      - 4Sarina-946
+      - 4Jadi-781 2
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 4Kian-572
-      - 4Kian-777
-      - 4Kian-778
       - 4FreeIran-952
-      - 4Kian-767
+      - 4Sarina-961
+      - 4FreeIran-784
       - 4Jadi-781
-      - 4Kian-1228
-      - 4Kian-770
-      - 4Nika-824
+      - 4Kian-582
+      - 4Sarina-946
+      - 4Jadi-781 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Kian-572
-      - 4Kian-777
-      - 4Kian-778
       - 4FreeIran-952
-      - 4Kian-767
+      - 4Sarina-961
+      - 4FreeIran-784
       - 4Jadi-781
-      - 4Kian-1228
-      - 4Kian-770
-      - 4Nika-824
+      - 4Kian-582
+      - 4Sarina-946
+      - 4Jadi-781 2
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
