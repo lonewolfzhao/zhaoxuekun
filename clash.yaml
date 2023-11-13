@@ -4,14 +4,15 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: _KR_韩国->🇨🇦_CA_加拿大, server: usla.mjt000.com, port: 443, type: trojan, password: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949, sni: usla.mjt000.com, skip-cert-verify: true, udp: true}
-  - {name: _KR_韩国->🇵🇹_PT_葡萄牙, server: pt.mjt000.com, port: 443, type: trojan, password: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949, sni: pt.mjt000.com, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 26, server: www.wto.org, port: 443, type: vmess, uuid: 16cf6364-868e-46f1-a741-24f3c840559f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: 16cf6364-868e-46f1-a741-24f3c840559f-vm, headers: {Host: savings-describing-slow-advocacy.trycloudflare.com}}, udp: true}
+  - {name: 4Mohsen-990, server: 13.229.108.139, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 4Jadi-836, server: 183.232.170.32, port: 30009, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 4Nika-824, server: 183.232.170.32, port: 30017, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: _KR_韩国->🇦🇷_AR_阿根廷, server: ar.mjt000.com, port: 443, type: trojan, password: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949, sni: ar.mjt000.com, skip-cert-verify: true, udp: true}
-  - {name: 4Jadi-1035, server: 52.78.238.122, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4FreeIran-784, server: 183.232.170.32, port: 30017, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 美国(油管:破解资源君), server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 3d761afc-6dfd-49d9-9d0f-b79341391f26, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}, udp: true}
+  - {name: 4Nika-1014, server: 43.201.52.239, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 4Jadi-995, server: 3.34.132.106, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Nika-824, server: 183.232.170.32, port: 30017, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 4Jadi-1228, server: 51.159.221.231, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 4Jadi-1235, server: 51.159.222.35, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +28,44 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _KR_韩国->🇨🇦_CA_加拿大
-      - _KR_韩国->🇵🇹_PT_葡萄牙
-      - github.com/freefq - 美国CloudFlare公司CDN节点 26
+      - 4Mohsen-990
       - 4Jadi-836
-      - 4Nika-824
-      - _KR_韩国->🇦🇷_AR_阿根廷
-      - 4Jadi-1035
+      - 4FreeIran-784
+      - 美国(油管:破解资源君)
+      - 4Nika-1014
       - 4Jadi-995
+      - 4Nika-824
+      - 4Jadi-1228
+      - 4Jadi-1235
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - _KR_韩国->🇨🇦_CA_加拿大
-      - _KR_韩国->🇵🇹_PT_葡萄牙
-      - github.com/freefq - 美国CloudFlare公司CDN节点 26
+      - 4Mohsen-990
       - 4Jadi-836
-      - 4Nika-824
-      - _KR_韩国->🇦🇷_AR_阿根廷
-      - 4Jadi-1035
+      - 4FreeIran-784
+      - 美国(油管:破解资源君)
+      - 4Nika-1014
       - 4Jadi-995
+      - 4Nika-824
+      - 4Jadi-1228
+      - 4Jadi-1235
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _KR_韩国->🇨🇦_CA_加拿大
-      - _KR_韩国->🇵🇹_PT_葡萄牙
-      - github.com/freefq - 美国CloudFlare公司CDN节点 26
+      - 4Mohsen-990
       - 4Jadi-836
-      - 4Nika-824
-      - _KR_韩国->🇦🇷_AR_阿根廷
-      - 4Jadi-1035
+      - 4FreeIran-784
+      - 美国(油管:破解资源君)
+      - 4Nika-1014
       - 4Jadi-995
+      - 4Nika-824
+      - 4Jadi-1228
+      - 4Jadi-1235
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
