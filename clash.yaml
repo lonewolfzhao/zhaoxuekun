@@ -10,10 +10,6 @@ proxies:
   - {name: 美国(油管:破解资源君) 3, server: www.dongtaiwang4.com, port: 27700, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
   - {name: 4Jadi-1235, server: 51.159.222.35, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 美国(油管:破解资源君) 3 2, server: www.outline.network.ak1978.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 2443, type: ss, cipher: aes-256-gcm, password: vCAOb5cfpbT58LuJal7BZeG9B8eEhMdRtFN0I8+uEDM=, udp: true}
-  - {name: 4FreeIran-784, server: 183.232.170.32, port: 30017, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 4Jadi-836, server: 183.232.170.32, port: 30009, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 4Jadi-830, server: 183.232.170.32, port: 30016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 美国(油管:破解资源君) 4, server: freeyx.cloudflare88.eu.org, port: 80, type: vmess, uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.iiio.wiki}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -35,10 +31,6 @@ proxy-groups:
       - 美国(油管:破解资源君) 3
       - 4Jadi-1235
       - 美国(油管:破解资源君) 3 2
-      - 4FreeIran-784
-      - 4Jadi-836
-      - 4Jadi-830
-      - 美国(油管:破解资源君) 4
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
@@ -51,10 +43,6 @@ proxy-groups:
       - 美国(油管:破解资源君) 3
       - 4Jadi-1235
       - 美国(油管:破解资源君) 3 2
-      - 4FreeIran-784
-      - 4Jadi-836
-      - 4Jadi-830
-      - 美国(油管:破解资源君) 4
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -66,10 +54,6 @@ proxy-groups:
       - 美国(油管:破解资源君) 3
       - 4Jadi-1235
       - 美国(油管:破解资源君) 3 2
-      - 4FreeIran-784
-      - 4Jadi-836
-      - 4Jadi-830
-      - 美国(油管:破解资源君) 4
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
