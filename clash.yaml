@@ -7,11 +7,10 @@ proxies:
   - {name: 4Mohsen-990, server: 13.229.108.139, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 4Jadi-836, server: 183.232.170.32, port: 30009, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
   - {name: 4FreeIran-784, server: 183.232.170.32, port: 30017, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 美国(油管:破解资源君), server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 3d761afc-6dfd-49d9-9d0f-b79341391f26, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}, udp: true}
-  - {name: 4Nika-1014, server: 43.201.52.239, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 4Jadi-995, server: 3.34.132.106, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Nika-824, server: 183.232.170.32, port: 30017, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 4Jadi-1228, server: 51.159.221.231, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 4Nika-1014, server: 43.201.52.239, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Jadi-836 2, server: 183.232.170.32, port: 30009, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 4Jadi-830, server: 183.232.170.32, port: 30016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
   - {name: 4Jadi-1235, server: 51.159.222.35, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -31,11 +30,10 @@ proxy-groups:
       - 4Mohsen-990
       - 4Jadi-836
       - 4FreeIran-784
-      - 美国(油管:破解资源君)
-      - 4Nika-1014
       - 4Jadi-995
-      - 4Nika-824
-      - 4Jadi-1228
+      - 4Nika-1014
+      - 4Jadi-836 2
+      - 4Jadi-830
       - 4Jadi-1235
   - name: ♻️ 自动选择
     type: load-balance
@@ -46,11 +44,10 @@ proxy-groups:
       - 4Mohsen-990
       - 4Jadi-836
       - 4FreeIran-784
-      - 美国(油管:破解资源君)
-      - 4Nika-1014
       - 4Jadi-995
-      - 4Nika-824
-      - 4Jadi-1228
+      - 4Nika-1014
+      - 4Jadi-836 2
+      - 4Jadi-830
       - 4Jadi-1235
   - name: 🐟 漏网之鱼
     type: select
@@ -60,11 +57,10 @@ proxy-groups:
       - 4Mohsen-990
       - 4Jadi-836
       - 4FreeIran-784
-      - 美国(油管:破解资源君)
-      - 4Nika-1014
       - 4Jadi-995
-      - 4Nika-824
-      - 4Jadi-1228
+      - 4Nika-1014
+      - 4Jadi-836 2
+      - 4Jadi-830
       - 4Jadi-1235
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
