@@ -4,16 +4,16 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 中国_111520024, server: yd-01.paofunlink.com, port: 5956, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com, udp: true}
-  - {name: 中国_111520056, server: yd-07.paofunlink.com, port: 5954, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: "", udp: true}
-  - {name: 中国_111520135, server: 122.193.251.201, port: 5952, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 7521:12HsOu, obfs-param: "", udp: true}
-  - {name: 中国_111520017, server: yd-01.paofunlink.com, port: 5953, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com, udp: true}
-  - {name: 美国_111520115, server: freeyx.cloudflare88.eu.org, port: 80, type: vmess, uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.iiio.wiki}}, udp: true}
-  - {name: 未知_111520755, server: ca-new01.gujuji.top, port: 8080, type: vmess, uuid: 757ac6da-4435-4822-9c65-5f5a482356ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ca-new01.gujuji.top}}, udp: true}
-  - {name: 俄罗斯联邦_111520033, server: is-gy.115cloud.link, port: 38860, type: trojan, password: 53e47953-56eb-31ae-9c1a-bdf68d6098af, sni: is-gy.115cloud.link, skip-cert-verify: true, udp: true}
-  - {name: 中国_111520015, server: yd-01.paofunlink.com, port: 5954, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com, udp: true}
   - {name: 中国_111520062, server: yd-07.paofunlink.com, port: 5956, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: "", udp: true}
+  - {name: 中国_111520135, server: 122.193.251.201, port: 5952, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 7521:12HsOu, obfs-param: "", udp: true}
+  - {name: 中国_111520056, server: yd-07.paofunlink.com, port: 5954, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: "", udp: true}
+  - {name: 中国_111520016, server: 122.193.251.201, port: 5951, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1, udp: true}
+  - {name: 中国_111520034, server: 122.193.251.201, port: 5952, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1, udp: true}
+  - {name: 中国_111520137, server: 122.193.251.201, port: 5953, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: "", udp: true}
+  - {name: 中国_111520024, server: yd-01.paofunlink.com, port: 5956, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com, udp: true}
+  - {name: 美国_1115201087, server: us.doushimeng.com, port: 22853, type: ss, cipher: chacha20-ietf-poly1305, password: 87487a93-57ff-4e13-b6e8-8fb8a6356f87, udp: true}
   - {name: 中国_111520036, server: yd-07.paofunlink.com, port: 5952, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com, udp: true}
+  - {name: 中国_111520017, server: yd-01.paofunlink.com, port: 5953, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -29,47 +29,47 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中国_111520024
-      - 中国_111520056
-      - 中国_111520135
-      - 中国_111520017
-      - 美国_111520115
-      - 未知_111520755
-      - 俄罗斯联邦_111520033
-      - 中国_111520015
       - 中国_111520062
+      - 中国_111520135
+      - 中国_111520056
+      - 中国_111520016
+      - 中国_111520034
+      - 中国_111520137
+      - 中国_111520024
+      - 美国_1115201087
       - 中国_111520036
+      - 中国_111520017
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 中国_111520024
-      - 中国_111520056
-      - 中国_111520135
-      - 中国_111520017
-      - 美国_111520115
-      - 未知_111520755
-      - 俄罗斯联邦_111520033
-      - 中国_111520015
       - 中国_111520062
+      - 中国_111520135
+      - 中国_111520056
+      - 中国_111520016
+      - 中国_111520034
+      - 中国_111520137
+      - 中国_111520024
+      - 美国_1115201087
       - 中国_111520036
+      - 中国_111520017
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中国_111520024
-      - 中国_111520056
-      - 中国_111520135
-      - 中国_111520017
-      - 美国_111520115
-      - 未知_111520755
-      - 俄罗斯联邦_111520033
-      - 中国_111520015
       - 中国_111520062
+      - 中国_111520135
+      - 中国_111520056
+      - 中国_111520016
+      - 中国_111520034
+      - 中国_111520137
+      - 中国_111520024
+      - 美国_1115201087
       - 中国_111520036
+      - 中国_111520017
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
