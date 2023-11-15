@@ -4,16 +4,16 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 4Jadi-811, server: 183.232.170.32, port: 30009, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 4Jadi-830, server: 183.232.170.32, port: 30016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 4FreeIran-784, server: 183.232.170.32, port: 30017, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: _CN_中国, server: bjcu.xzyunjiasu.icu, port: 33952, type: ss, cipher: aes-256-gcm, password: 5c8b210a-2f00-4292-964b-05281c7ad5d1, udp: true}
-  - {name: 4Jadi-836, server: 183.232.170.32, port: 30009, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: _DE_德国, server: poshtibani.chixixchi.com, port: 53298, type: vmess, uuid: 166bdbd6-098f-4372-fec4-686e8c8d1ce8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [poshtibani.chixixchi.com]}}, udp: true}
-  - {name: 4Nika-661, server: zjcm2.r1u.cn, port: 35783, type: ss, cipher: chacha20-ietf-poly1305, password: ec48c9e0-77e6-4a76-a519-4a51cbe52c59, udp: true}
-  - {name: 4Jadi-830 2, server: 183.232.170.32, port: 30016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 4Nika-1657, server: 142.202.48.45, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国(油管:破解资源君), server: shop.app, port: 8080, type: vmess, uuid: dea35652-2439-426a-86a7-5b2e535e934d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: azstutr.iiio.wiki}}, udp: true}
+  - {name: 中国_111520024, server: yd-01.paofunlink.com, port: 5956, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com, udp: true}
+  - {name: 中国_111520056, server: yd-07.paofunlink.com, port: 5954, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: "", udp: true}
+  - {name: 中国_111520135, server: 122.193.251.201, port: 5952, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 7521:12HsOu, obfs-param: "", udp: true}
+  - {name: 中国_111520017, server: yd-01.paofunlink.com, port: 5953, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com, udp: true}
+  - {name: 美国_111520115, server: freeyx.cloudflare88.eu.org, port: 80, type: vmess, uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.iiio.wiki}}, udp: true}
+  - {name: 未知_111520755, server: ca-new01.gujuji.top, port: 8080, type: vmess, uuid: 757ac6da-4435-4822-9c65-5f5a482356ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ca-new01.gujuji.top}}, udp: true}
+  - {name: 俄罗斯联邦_111520033, server: is-gy.115cloud.link, port: 38860, type: trojan, password: 53e47953-56eb-31ae-9c1a-bdf68d6098af, sni: is-gy.115cloud.link, skip-cert-verify: true, udp: true}
+  - {name: 中国_111520015, server: yd-01.paofunlink.com, port: 5954, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com, udp: true}
+  - {name: 中国_111520062, server: yd-07.paofunlink.com, port: 5956, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: "", udp: true}
+  - {name: 中国_111520036, server: yd-07.paofunlink.com, port: 5952, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -29,47 +29,47 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Jadi-811
-      - 4Jadi-830
-      - 4FreeIran-784
-      - _CN_中国
-      - 4Jadi-836
-      - _DE_德国
-      - 4Nika-661
-      - 4Jadi-830 2
-      - 4Nika-1657
-      - 美国(油管:破解资源君)
+      - 中国_111520024
+      - 中国_111520056
+      - 中国_111520135
+      - 中国_111520017
+      - 美国_111520115
+      - 未知_111520755
+      - 俄罗斯联邦_111520033
+      - 中国_111520015
+      - 中国_111520062
+      - 中国_111520036
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 4Jadi-811
-      - 4Jadi-830
-      - 4FreeIran-784
-      - _CN_中国
-      - 4Jadi-836
-      - _DE_德国
-      - 4Nika-661
-      - 4Jadi-830 2
-      - 4Nika-1657
-      - 美国(油管:破解资源君)
+      - 中国_111520024
+      - 中国_111520056
+      - 中国_111520135
+      - 中国_111520017
+      - 美国_111520115
+      - 未知_111520755
+      - 俄罗斯联邦_111520033
+      - 中国_111520015
+      - 中国_111520062
+      - 中国_111520036
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Jadi-811
-      - 4Jadi-830
-      - 4FreeIran-784
-      - _CN_中国
-      - 4Jadi-836
-      - _DE_德国
-      - 4Nika-661
-      - 4Jadi-830 2
-      - 4Nika-1657
-      - 美国(油管:破解资源君)
+      - 中国_111520024
+      - 中国_111520056
+      - 中国_111520135
+      - 中国_111520017
+      - 美国_111520115
+      - 未知_111520755
+      - 俄罗斯联邦_111520033
+      - 中国_111520015
+      - 中国_111520062
+      - 中国_111520036
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
