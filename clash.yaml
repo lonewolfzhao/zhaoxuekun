@@ -4,16 +4,13 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 中国_111520056, server: yd-07.paofunlink.com, port: 5954, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: "", udp: true}
-  - {name: 中国_111520030, server: yd-01.paofunlink.com, port: 5950, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.com, udp: true}
-  - {name: 12|加拿大 306, server: 172.67.81.238, port: 2096, type: vmess, uuid: 0809f6b2-f5d8-472e-831e-48c2e61e461f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Frankfurt, headers: {Host: frab.carfin.tech}}, udp: true}
-  - {name: 12|加拿大 076, server: 172.67.229.24, port: 8880, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY, headers: {Host: fr7.tehme100.fun}}, udp: true}
+  - {name: "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f�N%%�", server: 122.193.251.201, port: 5957, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1, udp: true}
+  - {name: "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\fLM%%�", server: yd-07.paofunlink.com, port: 5956, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.co%%�%�, udp: true}
+  - {name: "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f��%%�", server: yd-01.paofunlink.com, port: 5950, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.co%%�%�, udp: true}
   - {name: 15|香港|浏览器输入 翻墙.com, server: 112.29.94.23, port: 49223, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f�\r%%�", server: 122.193.251.201, port: 5953, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1, udp: true}
-  - {name: 12|加拿大 291, server: cdnjs.com, port: 2096, type: vmess, uuid: 0809f6b2-f5d8-472e-831e-48c2e61e461f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Frankfurt, headers: {Host: frab.carfin.tech}}, udp: true}
-  - {name: 中国_111520137, server: 122.193.251.201, port: 5953, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: "", udp: true}
-  - {name: 4Kian-802, server: 139.227.182.207, port: 10016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 中国_111520142, server: 120.232.177.250, port: 1093, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: "", udp: true}
+  - {name: 美国(油管:破解资源君), server: freeyx.cloudflare88.eu.org, port: 80, type: vmess, uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.iiio.wiki}}, udp: true}
+  - {name: 14|🇭🇰 香港2|@ripaojiedian, server: 183.237.20.148, port: 50707, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "%�\x11�<'���ӋLL�\x0b��̋�M�ˌ�L\x0bNN\f\x0e%%�", server: 120.232.177.250, port: 1070, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -29,47 +26,38 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中国_111520056
-      - 中国_111520030
-      - 12|加拿大 306
-      - 12|加拿大 076
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f�N%%�"
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\fLM%%�"
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f��%%�"
       - 15|香港|浏览器输入 翻墙.com
-      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f�\r%%�"
-      - 12|加拿大 291
-      - 中国_111520137
-      - 4Kian-802
-      - 中国_111520142
+      - 美国(油管:破解资源君)
+      - 14|🇭🇰 香港2|@ripaojiedian
+      - "%�\x11�<'���ӋLL�\x0b��̋�M�ˌ�L\x0bNN\f\x0e%%�"
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 中国_111520056
-      - 中国_111520030
-      - 12|加拿大 306
-      - 12|加拿大 076
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f�N%%�"
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\fLM%%�"
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f��%%�"
       - 15|香港|浏览器输入 翻墙.com
-      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f�\r%%�"
-      - 12|加拿大 291
-      - 中国_111520137
-      - 4Kian-802
-      - 中国_111520142
+      - 美国(油管:破解资源君)
+      - 14|🇭🇰 香港2|@ripaojiedian
+      - "%�\x11�<'���ӋLL�\x0b��̋�M�ˌ�L\x0bNN\f\x0e%%�"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中国_111520056
-      - 中国_111520030
-      - 12|加拿大 306
-      - 12|加拿大 076
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f�N%%�"
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\fLM%%�"
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f��%%�"
       - 15|香港|浏览器输入 翻墙.com
-      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f�\r%%�"
-      - 12|加拿大 291
-      - 中国_111520137
-      - 4Kian-802
-      - 中国_111520142
+      - 美国(油管:破解资源君)
+      - 14|🇭🇰 香港2|@ripaojiedian
+      - "%�\x11�<'���ӋLL�\x0b��̋�M�ˌ�L\x0bNN\f\x0e%%�"
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
