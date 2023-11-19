@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 中国_111520138, server: 122.193.251.201, port: 5957, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: "", udp: true}
-  - {name: "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\fL�%%�", server: 122.193.251.201, port: 5953, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1, udp: true}
-  - {name: "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\f\x0eM%%�", server: 122.193.251.200, port: 5950, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1, udp: true}
-  - {name: 12|加拿大 281, server: shop.app, port: 8080, type: vmess, uuid: dea35652-2439-426a-86a7-5b2e535e934d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: azstutr.iiio.wiki}}, udp: true}
-  - {name: "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f��%%�", server: yd-01.paofunlink.com, port: 5950, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.co%%�%�, udp: true}
+  - {name: 美国(油管:破解资源君), server: freeyx.cloudflare88.eu.org, port: 80, type: vmess, uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.iiio.wiki}}, udp: true}
+  - {name: "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f�L%%�", server: yd-07.paofunlink.com, port: 5958, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.co%%�%�, udp: true}
+  - {name: "%�\x11�<'���ӋLL�\x0b��̋�M�ˌ�L\x0bLL\f\f%�", server: 120.232.177.250, port: 1080, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1, udp: true}
   - {name: _CN_中国->🇺🇸_US_美国, server: yd-02.paofunlink.com, port: 1080, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1, udp: true}
-  - {name: "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\f\x0e\x0e%%�", server: 122.193.251.200, port: 5953, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1, udp: true}
-  - {name: 14|🇯🇵 东京特殊|@ripaojiedian, server: 13.112.2.25, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "%�\x11�<'���ӋLL�\x0b��̋�M�ˌ�L\x0bL\f�\x0e%%�", server: 120.232.177.250, port: 1072, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1, udp: true}
+  - {name: "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\fL\r%%�", server: yd-04.paofunlink.com, port: 5957, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1, udp: true}
+  - {name: "%�\x11�<'���ӋLL�\x0b��̋�M�ˌ�L\x0bL\fM\f%%�", server: 120.232.177.250, port: 1070, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1, udp: true}
+  - {name: 4Kian-802, server: 139.227.182.207, port: 10016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中国_111520138
-      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\fL�%%�"
-      - "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\f\x0eM%%�"
-      - 12|加拿大 281
-      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f��%%�"
+      - 美国(油管:破解资源君)
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f�L%%�"
+      - "%�\x11�<'���ӋLL�\x0b��̋�M�ˌ�L\x0bLL\f\f%�"
       - _CN_中国->🇺🇸_US_美国
-      - "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\f\x0e\x0e%%�"
-      - 14|🇯🇵 东京特殊|@ripaojiedian
+      - "%�\x11�<'���ӋLL�\x0b��̋�M�ˌ�L\x0bL\f�\x0e%%�"
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\fL\r%%�"
+      - "%�\x11�<'���ӋLL�\x0b��̋�M�ˌ�L\x0bL\fM\f%%�"
+      - 4Kian-802
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 中国_111520138
-      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\fL�%%�"
-      - "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\f\x0eM%%�"
-      - 12|加拿大 281
-      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f��%%�"
+      - 美国(油管:破解资源君)
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f�L%%�"
+      - "%�\x11�<'���ӋLL�\x0b��̋�M�ˌ�L\x0bLL\f\f%�"
       - _CN_中国->🇺🇸_US_美国
-      - "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\f\x0e\x0e%%�"
-      - 14|🇯🇵 东京特殊|@ripaojiedian
+      - "%�\x11�<'���ӋLL�\x0b��̋�M�ˌ�L\x0bL\f�\x0e%%�"
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\fL\r%%�"
+      - "%�\x11�<'���ӋLL�\x0b��̋�M�ˌ�L\x0bL\fM\f%%�"
+      - 4Kian-802
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中国_111520138
-      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\fL�%%�"
-      - "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\f\x0eM%%�"
-      - 12|加拿大 281
-      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f��%%�"
+      - 美国(油管:破解资源君)
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f�L%%�"
+      - "%�\x11�<'���ӋLL�\x0b��̋�M�ˌ�L\x0bLL\f\f%�"
       - _CN_中国->🇺🇸_US_美国
-      - "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\f\x0e\x0e%%�"
-      - 14|🇯🇵 东京特殊|@ripaojiedian
+      - "%�\x11�<'���ӋLL�\x0b��̋�M�ˌ�L\x0bL\f�\x0e%%�"
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\fL\r%%�"
+      - "%�\x11�<'���ӋLL�\x0b��̋�M�ˌ�L\x0bL\fM\f%%�"
+      - 4Kian-802
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
