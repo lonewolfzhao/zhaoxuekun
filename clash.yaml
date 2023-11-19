@@ -5,13 +5,13 @@ log-level: info
 external-controller: :50000
 proxies:
   - {name: 美国(油管:破解资源君), server: freeyx.cloudflare88.eu.org, port: 80, type: vmess, uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.iiio.wiki}}, udp: true}
-  - {name: "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f�L%%�", server: yd-07.paofunlink.com, port: 5958, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.co%%�%�, udp: true}
-  - {name: "%�\x11�<'���ӋLL�\x0b��̋�M�ˌ�L\x0bLL\f\f%�", server: 120.232.177.250, port: 1080, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国, server: yd-02.paofunlink.com, port: 1080, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1, udp: true}
-  - {name: "%�\x11�<'���ӋLL�\x0b��̋�M�ˌ�L\x0bL\f�\x0e%%�", server: 120.232.177.250, port: 1072, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1, udp: true}
-  - {name: "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\fL\r%%�", server: yd-04.paofunlink.com, port: 5957, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1, udp: true}
-  - {name: "%�\x11�<'���ӋLL�\x0b��̋�M�ˌ�L\x0bL\fM\f%%�", server: 120.232.177.250, port: 1070, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1, udp: true}
-  - {name: 4Kian-802, server: 139.227.182.207, port: 10016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 中国_111520138, server: 122.193.251.201, port: 5957, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: "", udp: true}
+  - {name: "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\f��%%�", server: 122.193.251.200, port: 5959, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1, udp: true}
+  - {name: "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f�N%%�", server: yd-07.paofunlink.com, port: 5954, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.co%%�%�, udp: true}
+  - {name: "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f\x0e\r%%�", server: yd-06.paofunlink.com, port: 5958, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1, udp: true}
+  - {name: "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\fN\x0e%%�", server: yd-04.paofunlink.com, port: 5951, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国, server: yd-02.paofunlink.com, port: 1081, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1, udp: true}
+  - {name: 15|香港2|@ripaojiedian, server: 183.233.187.214, port: 30972, type: vmess, uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -28,13 +28,13 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 美国(油管:破解资源君)
-      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f�L%%�"
-      - "%�\x11�<'���ӋLL�\x0b��̋�M�ˌ�L\x0bLL\f\f%�"
+      - 中国_111520138
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\f��%%�"
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f�N%%�"
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f\x0e\r%%�"
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\fN\x0e%%�"
       - _CN_中国->🇺🇸_US_美国
-      - "%�\x11�<'���ӋLL�\x0b��̋�M�ˌ�L\x0bL\f�\x0e%%�"
-      - "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\fL\r%%�"
-      - "%�\x11�<'���ӋLL�\x0b��̋�M�ˌ�L\x0bL\fM\f%%�"
-      - 4Kian-802
+      - 15|香港2|@ripaojiedian
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
@@ -42,26 +42,26 @@ proxy-groups:
     interval: 300
     proxies:
       - 美国(油管:破解资源君)
-      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f�L%%�"
-      - "%�\x11�<'���ӋLL�\x0b��̋�M�ˌ�L\x0bLL\f\f%�"
+      - 中国_111520138
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\f��%%�"
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f�N%%�"
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f\x0e\r%%�"
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\fN\x0e%%�"
       - _CN_中国->🇺🇸_US_美国
-      - "%�\x11�<'���ӋLL�\x0b��̋�M�ˌ�L\x0bL\f�\x0e%%�"
-      - "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\fL\r%%�"
-      - "%�\x11�<'���ӋLL�\x0b��̋�M�ˌ�L\x0bL\fM\f%%�"
-      - 4Kian-802
+      - 15|香港2|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 美国(油管:破解资源君)
-      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f�L%%�"
-      - "%�\x11�<'���ӋLL�\x0b��̋�M�ˌ�L\x0bLL\f\f%�"
+      - 中国_111520138
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\f��%%�"
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f�N%%�"
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f\x0e\r%%�"
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\fN\x0e%%�"
       - _CN_中国->🇺🇸_US_美国
-      - "%�\x11�<'���ӋLL�\x0b��̋�M�ˌ�L\x0bL\f�\x0e%%�"
-      - "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\fL\r%%�"
-      - "%�\x11�<'���ӋLL�\x0b��̋�M�ˌ�L\x0bL\fM\f%%�"
-      - 4Kian-802
+      - 15|香港2|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
