@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f\x0eM%%�", server: yd-07.paofunlink.com, port: 5959, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.co%%�%�, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国, server: yd-02.paofunlink.com, port: 1080, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1, udp: true}
-  - {name: "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f��%%�", server: 122.193.251.201, port: 5957, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: "", udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 2, server: yd-05.paofunlink.com, port: 1082, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1, udp: true}
+  - {name: "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\fMN%%�", server: 122.193.251.201, port: 5953, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1, udp: true}
+  - {name: "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\fL�%%�", server: 122.193.251.200, port: 5954, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1, udp: true}
+  - {name: "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bLL\fL%�", server: yd-04.paofunlink.com, port: 5953, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1, udp: true}
+  - {name: "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\fNM%%�", server: yd-01.paofunlink.com, port: 5953, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: microsoft.co%%�%�, udp: true}
+  - {name: 亚洲(油管:破解资源君), server: b22.ntbq.dynu.net, port: 443, type: vmess, uuid: 6bbe3014-9fce-4700-9b39-adc2bd657f63, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b22, headers: {Host: b22.ntbq.dynu.net}}, udp: true}
+  - {name: "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\fM\x0e%%�", server: 122.193.251.200, port: 5953, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: "", udp: true}
+  - {name: "%�\x11�<'���ӋLL���NLˌ�LK��\fKLL\f\x0e%�", server: yd-06.paofunlink.com, port: 5954, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1, udp: true}
   - {name: 4Kian-802, server: 139.227.182.207, port: 10016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 14|🇭🇰 香港4|浏览器输入 翻墙.com, server: 11.kccic2pa.xyz, port: 50011, type: vmess, uuid: 0d5dc15e-0b62-4e7a-821c-d462d8e35ea2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\fN\x0e%%�", server: yd-04.paofunlink.com, port: 5951, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1, udp: true}
-  - {name: "%�\x11�<'���ӋLL�\x0b��̋�M�ˌ�L\x0bLL\f\f%�", server: 120.232.177.250, port: 1080, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f\x0eM%%�"
-      - _CN_中国->🇺🇸_US_美国
-      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f��%%�"
-      - _CN_中国->🇺🇸_US_美国 2
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\fMN%%�"
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\fL�%%�"
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bLL\fL%�"
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\fNM%%�"
+      - 亚洲(油管:破解资源君)
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\fM\x0e%%�"
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKLL\f\x0e%�"
       - 4Kian-802
-      - 14|🇭🇰 香港4|浏览器输入 翻墙.com
-      - "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\fN\x0e%%�"
-      - "%�\x11�<'���ӋLL�\x0b��̋�M�ˌ�L\x0bLL\f\f%�"
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f\x0eM%%�"
-      - _CN_中国->🇺🇸_US_美国
-      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f��%%�"
-      - _CN_中国->🇺🇸_US_美国 2
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\fMN%%�"
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\fL�%%�"
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bLL\fL%�"
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\fNM%%�"
+      - 亚洲(油管:破解资源君)
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\fM\x0e%%�"
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKLL\f\x0e%�"
       - 4Kian-802
-      - 14|🇭🇰 香港4|浏览器输入 翻墙.com
-      - "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\fN\x0e%%�"
-      - "%�\x11�<'���ӋLL�\x0b��̋�M�ˌ�L\x0bLL\f\f%�"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f\x0eM%%�"
-      - _CN_中国->🇺🇸_US_美国
-      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\f��%%�"
-      - _CN_中国->🇺🇸_US_美国 2
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\fMN%%�"
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\fL�%%�"
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bLL\fL%�"
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKL\fNM%%�"
+      - 亚洲(油管:破解资源君)
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\fM\x0e%%�"
+      - "%�\x11�<'���ӋLL���NLˌ�LK��\fKLL\f\x0e%�"
       - 4Kian-802
-      - 14|🇭🇰 香港4|浏览器输入 翻墙.com
-      - "%�\x11�<'���ӋLL���NLˌ�LK��\f\x0bL\fN\x0e%%�"
-      - "%�\x11�<'���ӋLL�\x0b��̋�M�ˌ�L\x0bLL\f\f%�"
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
