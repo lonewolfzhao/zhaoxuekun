@@ -4,12 +4,13 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: _CN_中国->🇺🇸_US_美国, server: 120.240.88.111, port: 7701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LLKL\f�M", server: 120.240.88.111, port: 3702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�L\f��", server: cm03.newcome.xyz, port: 6706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�L\f�� 2", server: zx02.endhigh.xyz, port: 6708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LLKL\fM�", server: cm01.newcome.xyz, port: 7700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
   - {name: 14|🇸🇬 新加坡2|@ripaojiedian, server: 19.kccic2pa.xyz, port: 50019, type: vmess, uuid: 562163eb-1b57-4e49-811f-b36584c5516a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 亚洲(油管:破解资源君), server: tc11.kq1.dynu.net, port: 443, type: vmess, uuid: b3d43a0b-9ef8-4f87-a5c6-8da062e02620, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vbub1, headers: {Host: tc11.kq1.dynu.net}}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 2, server: 120.240.88.111, port: 7706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
   - {name: 亚洲(油管:破解资源君) 2, server: 112.29.94.23, port: 59137, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 3, server: cm01.newcome.xyz, port: 7708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -25,35 +26,38 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国->🇺🇸_US_美国
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LLKL\f�M"
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�L\f��"
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�L\f�� 2"
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LLKL\fM�"
       - 14|🇸🇬 新加坡2|@ripaojiedian
       - 亚洲(油管:破解资源君)
-      - _CN_中国->🇺🇸_US_美国 2
       - 亚洲(油管:破解资源君) 2
-      - _CN_中国->🇺🇸_US_美国 3
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - _CN_中国->🇺🇸_US_美国
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LLKL\f�M"
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�L\f��"
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�L\f�� 2"
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LLKL\fM�"
       - 14|🇸🇬 新加坡2|@ripaojiedian
       - 亚洲(油管:破解资源君)
-      - _CN_中国->🇺🇸_US_美国 2
       - 亚洲(油管:破解资源君) 2
-      - _CN_中国->🇺🇸_US_美国 3
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国->🇺🇸_US_美国
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LLKL\f�M"
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�L\f��"
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�L\f�� 2"
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LLKL\fM�"
       - 14|🇸🇬 新加坡2|@ripaojiedian
       - 亚洲(油管:破解资源君)
-      - _CN_中国->🇺🇸_US_美国 2
       - 亚洲(油管:破解资源君) 2
-      - _CN_中国->🇺🇸_US_美国 3
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
