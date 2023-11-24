@@ -4,10 +4,12 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 12|加拿大 310, server: 172.67.68.136, port: 80, type: vmess, uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.iiio.wiki}}, udp: true}
-  - {name: "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�L\fN\r", server: zx02.endhigh.xyz, port: 6700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�L\fLL", server: 120.240.88.112, port: 6702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: 12|巴西 002, server: 188.114.97.7, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}, udp: true}
+  - {name: 12|🇺🇸|US|美国|@wxgqlfx|35, server: freeyx.cloudflare88.eu.org, port: 80, type: vmess, uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.iiio.wiki}}, udp: true}
+  - {name: "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�L\f�L", server: 120.240.88.112, port: 6704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�L\r\f\f", server: zx02.endhigh.xyz, port: 6701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�L\fNM", server: cm03.newcome.xyz, port: 6709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: "0,3,10,11,12|荷兰 - 阿姆斯特丹 - Yisp B.V.", server: 154.85.1.130, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1698843555400}, udp: true}
+  - {name: _CN_中国->🇮🇳_IN_印度, server: host-053.crazyspeed.xyz, port: 10911, type: ss, cipher: chacha20-ietf-poly1305, password: ff21950f-e77d-4132-bbc1-d864b515251c, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -23,29 +25,35 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 12|加拿大 310
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�L\fN\r"
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�L\fLL"
-      - 12|巴西 002
+      - 12|🇺🇸|US|美国|@wxgqlfx|35
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�L\f�L"
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�L\r\f\f"
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�L\fNM"
+      - 0,3,10,11,12|荷兰 - 阿姆斯特丹 - Yisp B.V.
+      - _CN_中国->🇮🇳_IN_印度
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 12|加拿大 310
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�L\fN\r"
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�L\fLL"
-      - 12|巴西 002
+      - 12|🇺🇸|US|美国|@wxgqlfx|35
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�L\f�L"
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�L\r\f\f"
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�L\fNM"
+      - 0,3,10,11,12|荷兰 - 阿姆斯特丹 - Yisp B.V.
+      - _CN_中国->🇮🇳_IN_印度
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 12|加拿大 310
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�L\fN\r"
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�L\fLL"
-      - 12|巴西 002
+      - 12|🇺🇸|US|美国|@wxgqlfx|35
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�L\f�L"
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�L\r\f\f"
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�L\fNM"
+      - 0,3,10,11,12|荷兰 - 阿姆斯特丹 - Yisp B.V.
+      - _CN_中国->🇮🇳_IN_印度
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
