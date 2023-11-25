@@ -6,10 +6,10 @@ external-controller: :50000
 proxies:
   - {name: 12|加拿大 244, server: freeyx.cloudflare88.eu.org, port: 80, type: vmess, uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.iiio.wiki}}, udp: true}
   - {name: 欧洲(油管:破解资源君), server: 172.67.68.136, port: 80, type: vmess, uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.iiio.wiki}}, udp: true}
-  - {name: "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\f��", server: 120.240.88.112, port: 6708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: 14|🇯🇵 东京特殊|@ripaojiedian, server: 18.183.250.218, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "0,1,2,3,4,6,10,11,15,19|🇨🇳_CN_中国->🇬🇧_GB_英国_由快嘴科技提供：kkz...", server: 112.29.94.23, port: 43526, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 14|🇯🇵 东京特殊|浏览器输入 翻墙.com, server: 3.112.199.106, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: SG-47.128.81.235-0760, server: 47.128.81.235, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _DE_德国, server: de-v2ray.freevmess.com, port: 8442, type: vmess, uuid: 0ff3822e-885b-4293-ac74-7faa98989569, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [de-v2ray.freevmess.com]}}, udp: true}
+  - {name: "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LLKL\f�\f", server: cm01.newcome.xyz, port: 3700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@ccbaoh%%�%�, udp: true}
+  - {name: 12|HK_youtube@资源分享师_24, server: 103.20.222.182, port: 35235, type: vmess, uuid: 82ccffa8-85bd-4728-b24d-93783df46c25, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/changding-tls1?ed=2048", headers: {Host: hk-300.changding.tech}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,10 +27,10 @@ proxy-groups:
       - 🎯 全球直连
       - 12|加拿大 244
       - 欧洲(油管:破解资源君)
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\f��"
-      - 14|🇯🇵 东京特殊|@ripaojiedian
-      - 0,1,2,3,4,6,10,11,15,19|🇨🇳_CN_中国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
-      - 14|🇯🇵 东京特殊|浏览器输入 翻墙.com
+      - SG-47.128.81.235-0760
+      - _DE_德国
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LLKL\f�\f"
+      - 12|HK_youtube@资源分享师_24
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
@@ -39,10 +39,10 @@ proxy-groups:
     proxies:
       - 12|加拿大 244
       - 欧洲(油管:破解资源君)
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\f��"
-      - 14|🇯🇵 东京特殊|@ripaojiedian
-      - 0,1,2,3,4,6,10,11,15,19|🇨🇳_CN_中国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
-      - 14|🇯🇵 东京特殊|浏览器输入 翻墙.com
+      - SG-47.128.81.235-0760
+      - _DE_德国
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LLKL\f�\f"
+      - 12|HK_youtube@资源分享师_24
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -50,10 +50,10 @@ proxy-groups:
       - 🎯 全球直连
       - 12|加拿大 244
       - 欧洲(油管:破解资源君)
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\f��"
-      - 14|🇯🇵 东京特殊|@ripaojiedian
-      - 0,1,2,3,4,6,10,11,15,19|🇨🇳_CN_中国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
-      - 14|🇯🇵 东京特殊|浏览器输入 翻墙.com
+      - SG-47.128.81.235-0760
+      - _DE_德国
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LLKL\f�\f"
+      - 12|HK_youtube@资源分享师_24
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
