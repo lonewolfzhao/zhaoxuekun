@@ -4,12 +4,12 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 14|🇯🇵 东京特殊|@ripaojiedian, server: 18.183.250.218, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 欧洲(油管:破解资源君), server: 172.67.68.136, port: 80, type: vmess, uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.iiio.wiki}}, udp: true}
-  - {name: 12|TW-台中1-1 - 麻雀加速器 Sparrow〖电报：@c..., server: tc11.twtc.dynu.net, port: 443, type: vmess, uuid: 2af2770b-0a8c-42bc-ac2b-331bba84e7eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vbub1, headers: {Host: tc11.twtc.dynu.net}}, udp: true}
-  - {name: 12|🇺🇸|US|美国|@wxgqlfx|19, server: debbc.qkhbyf.tech, port: 2052, type: vmess, uuid: 6da3e574-52f1-4690-a53b-2847ce756456, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /lonan, headers: {Host: haxteuilq.1145114.me}}, udp: true}
-  - {name: "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�L\f�\r", server: 120.240.88.112, port: 6708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@ccbaoh%%�%�, udp: true}
-  - {name: "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�M�\f\f", server: cm03.newcome.xyz, port: 6708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: 4Sarina-836, server: 139.227.182.207, port: 10012, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: SG-47.128.81.235-0760, server: 47.128.81.235, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4FreeIran-508, server: service.ouluyun9803.com, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: a58024d9-e277-49df-91aa-2fdad751f76d, udp: true}
+  - {name: 12|US_youtube@资源分享师_159, server: us-01.jikuai.xyz, port: 2082, type: vmess, uuid: 3463f953-a603-4316-ac6d-642c8680d66e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-01.jikuai.xyz}}, udp: true}
+  - {name: 12|US C 0.1 优选IP 0.1, server: debbc.qkhbyf.tech, port: 2052, type: vmess, uuid: 6da3e574-52f1-4690-a53b-2847ce756456, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /lonan, headers: {Host: haxus.1145114.me}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -25,35 +25,35 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 14|🇯🇵 东京特殊|@ripaojiedian
       - 欧洲(油管:破解资源君)
-      - 12|TW-台中1-1 - 麻雀加速器 Sparrow〖电报：@c...
-      - 12|🇺🇸|US|美国|@wxgqlfx|19
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�L\f�\r"
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�M�\f\f"
+      - 4Sarina-836
+      - SG-47.128.81.235-0760
+      - 4FreeIran-508
+      - 12|US_youtube@资源分享师_159
+      - 12|US C 0.1 优选IP 0.1
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 14|🇯🇵 东京特殊|@ripaojiedian
       - 欧洲(油管:破解资源君)
-      - 12|TW-台中1-1 - 麻雀加速器 Sparrow〖电报：@c...
-      - 12|🇺🇸|US|美国|@wxgqlfx|19
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�L\f�\r"
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�M�\f\f"
+      - 4Sarina-836
+      - SG-47.128.81.235-0760
+      - 4FreeIran-508
+      - 12|US_youtube@资源分享师_159
+      - 12|US C 0.1 优选IP 0.1
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 14|🇯🇵 东京特殊|@ripaojiedian
       - 欧洲(油管:破解资源君)
-      - 12|TW-台中1-1 - 麻雀加速器 Sparrow〖电报：@c...
-      - 12|🇺🇸|US|美国|@wxgqlfx|19
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�L\f�\r"
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�M�\f\f"
+      - 4Sarina-836
+      - SG-47.128.81.235-0760
+      - 4FreeIran-508
+      - 12|US_youtube@资源分享师_159
+      - 12|US C 0.1 优选IP 0.1
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
