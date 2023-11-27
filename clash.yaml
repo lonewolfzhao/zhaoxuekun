@@ -4,12 +4,11 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 欧洲(油管:破解资源君), server: 172.67.68.136, port: 80, type: vmess, uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.iiio.wiki}}, udp: true}
   - {name: 4Sarina-836, server: 139.227.182.207, port: 10012, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: SG-47.128.81.235-0760, server: 47.128.81.235, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4FreeIran-508, server: service.ouluyun9803.com, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: a58024d9-e277-49df-91aa-2fdad751f76d, udp: true}
-  - {name: 12|US_youtube@资源分享师_159, server: us-01.jikuai.xyz, port: 2082, type: vmess, uuid: 3463f953-a603-4316-ac6d-642c8680d66e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-01.jikuai.xyz}}, udp: true}
-  - {name: 12|US C 0.1 优选IP 0.1, server: debbc.qkhbyf.tech, port: 2052, type: vmess, uuid: 6da3e574-52f1-4690-a53b-2847ce756456, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /lonan, headers: {Host: haxus.1145114.me}}, udp: true}
+  - {name: _DE_德国, server: 5.104.107.143, port: 443, type: trojan, password: d33df23a-8b9e-468e-bc33-dd3643008ced, sni: de1.xn--mes358a9urctx.com, skip-cert-verify: true, udp: true}
+  - {name: 12|US D 0.1, server: bx.lonan.qkhbyf.tech, port: 2052, type: vmess, uuid: 6da3e574-52f1-4690-a53b-2847ce756456, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /lonan, headers: {Host: haxus1126.cxzntq.tech}}, udp: true}
+  - {name: 12|TW-板桥2-2, server: b22.ntbq.dynu.net, port: 443, type: vmess, uuid: b979cbad-64a2-4d71-9244-ff3b78557f2b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b22, headers: {Host: b22.ntbq.dynu.net}}, udp: true}
+  - {name: "10,12|TW-板桥2-3", server: b23.ntbq.dynu.net, port: 443, type: vmess, uuid: b979cbad-64a2-4d71-9244-ff3b78557f2b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b23, headers: {Host: b23.ntbq.dynu.net}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -25,35 +24,32 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 欧洲(油管:破解资源君)
       - 4Sarina-836
-      - SG-47.128.81.235-0760
-      - 4FreeIran-508
-      - 12|US_youtube@资源分享师_159
-      - 12|US C 0.1 优选IP 0.1
+      - _DE_德国
+      - 12|US D 0.1
+      - 12|TW-板桥2-2
+      - 10,12|TW-板桥2-3
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 欧洲(油管:破解资源君)
       - 4Sarina-836
-      - SG-47.128.81.235-0760
-      - 4FreeIran-508
-      - 12|US_youtube@资源分享师_159
-      - 12|US C 0.1 优选IP 0.1
+      - _DE_德国
+      - 12|US D 0.1
+      - 12|TW-板桥2-2
+      - 10,12|TW-板桥2-3
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 欧洲(油管:破解资源君)
       - 4Sarina-836
-      - SG-47.128.81.235-0760
-      - 4FreeIran-508
-      - 12|US_youtube@资源分享师_159
-      - 12|US C 0.1 优选IP 0.1
+      - _DE_德国
+      - 12|US D 0.1
+      - 12|TW-板桥2-2
+      - 10,12|TW-板桥2-3
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
