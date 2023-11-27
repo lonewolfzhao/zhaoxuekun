@@ -4,11 +4,12 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 4Sarina-836, server: 139.227.182.207, port: 10012, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: _DE_德国, server: 5.104.107.143, port: 443, type: trojan, password: d33df23a-8b9e-468e-bc33-dd3643008ced, sni: de1.xn--mes358a9urctx.com, skip-cert-verify: true, udp: true}
-  - {name: 12|US D 0.1, server: bx.lonan.qkhbyf.tech, port: 2052, type: vmess, uuid: 6da3e574-52f1-4690-a53b-2847ce756456, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /lonan, headers: {Host: haxus1126.cxzntq.tech}}, udp: true}
+  - {name: 14|🇸🇬 狮城特殊|@ripaojiedian, server: 47.128.76.42, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "0,1,2,3,4,6,10,11,12,15,19|🇨🇳_CN_中国->🇬🇧_GB_英国_7", server: 112.29.94.23, port: 43526, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 12|TW-板桥2-2, server: b22.ntbq.dynu.net, port: 443, type: vmess, uuid: b979cbad-64a2-4d71-9244-ff3b78557f2b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b22, headers: {Host: b22.ntbq.dynu.net}}, udp: true}
   - {name: "10,12|TW-板桥2-3", server: b23.ntbq.dynu.net, port: 443, type: vmess, uuid: b979cbad-64a2-4d71-9244-ff3b78557f2b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b23, headers: {Host: b23.ntbq.dynu.net}}, udp: true}
+  - {name: 12|US D 0.1, server: bx.lonan.qkhbyf.tech, port: 2052, type: vmess, uuid: 6da3e574-52f1-4690-a53b-2847ce756456, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /lonan, headers: {Host: haxus1126.cxzntq.tech}}, udp: true}
+  - {name: 4Sarina-836, server: 139.227.182.207, port: 10012, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -24,32 +25,35 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Sarina-836
-      - _DE_德国
-      - 12|US D 0.1
+      - 14|🇸🇬 狮城特殊|@ripaojiedian
+      - 0,1,2,3,4,6,10,11,12,15,19|🇨🇳_CN_中国->🇬🇧_GB_英国_7
       - 12|TW-板桥2-2
       - 10,12|TW-板桥2-3
+      - 12|US D 0.1
+      - 4Sarina-836
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 4Sarina-836
-      - _DE_德国
-      - 12|US D 0.1
+      - 14|🇸🇬 狮城特殊|@ripaojiedian
+      - 0,1,2,3,4,6,10,11,12,15,19|🇨🇳_CN_中国->🇬🇧_GB_英国_7
       - 12|TW-板桥2-2
       - 10,12|TW-板桥2-3
+      - 12|US D 0.1
+      - 4Sarina-836
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Sarina-836
-      - _DE_德国
-      - 12|US D 0.1
+      - 14|🇸🇬 狮城特殊|@ripaojiedian
+      - 0,1,2,3,4,6,10,11,12,15,19|🇨🇳_CN_中国->🇬🇧_GB_英国_7
       - 12|TW-板桥2-2
       - 10,12|TW-板桥2-3
+      - 12|US D 0.1
+      - 4Sarina-836
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
