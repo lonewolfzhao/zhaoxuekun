@@ -4,12 +4,9 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: "12|·美国·{TG：@ccbaohe}定时更新节点订阅·123", server: freeyx.cloudflare88.eu.org, port: 80, type: vmess, uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.iiio.wiki}}, udp: true}
-  - {name: 12|英国 - Poplar - Kamatera Inc, server: 103.13.208.159, port: 443, type: vmess, uuid: 0c42fcf1-3850-45e2-94b7-556440a0060d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /DI5aPORpOasXtsDDSw7kNJ4NXtP}, udp: true}
-  - {name: "0,1,2,3,4,6,15,19|🇨🇳_CN_中国->🇬🇧_GB_英国_由快嘴科技提供：kkz...", server: 112.29.94.23, port: 43526, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 14|🇸🇬 狮城特殊|浏览器输入 翻墙.com, server: 13.213.1.132, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国, server: fr-v2ray.freevmess.com, port: 8442, type: vmess, uuid: 6773a666-5593-4c9f-aacd-52300b6a02d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [fr-v2ray.freevmess.com]}}, udp: true}
-  - {name: "10|美国 CloudFlare节点 #2", server: 172.67.68.136, port: 80, type: vmess, uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.iiio.wiki}}, udp: true}
+  - {name: "0,3,18|🇨🇦_CA_加拿大_2", server: 193.203.203.88, port: 2082, type: vmess, uuid: 5f2d026e-1dbd-4bb0-aa61-b1bcc544ab2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: 14|🇯🇵 东京特殊|浏览器输入 翻墙.com, server: 43.206.224.156, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 14|🇯🇵 东京特殊|@ripaojiedian, server: 13.124.16.187, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -25,35 +22,26 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 12|·美国·{TG：@ccbaohe}定时更新节点订阅·123
-      - 12|英国 - Poplar - Kamatera Inc
-      - 0,1,2,3,4,6,15,19|🇨🇳_CN_中国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
-      - 14|🇸🇬 狮城特殊|浏览器输入 翻墙.com
-      - _US_美国
-      - "10|美国 CloudFlare节点 #2"
+      - 0,3,18|🇨🇦_CA_加拿大_2
+      - 14|🇯🇵 东京特殊|浏览器输入 翻墙.com
+      - 14|🇯🇵 东京特殊|@ripaojiedian
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 12|·美国·{TG：@ccbaohe}定时更新节点订阅·123
-      - 12|英国 - Poplar - Kamatera Inc
-      - 0,1,2,3,4,6,15,19|🇨🇳_CN_中国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
-      - 14|🇸🇬 狮城特殊|浏览器输入 翻墙.com
-      - _US_美国
-      - "10|美国 CloudFlare节点 #2"
+      - 0,3,18|🇨🇦_CA_加拿大_2
+      - 14|🇯🇵 东京特殊|浏览器输入 翻墙.com
+      - 14|🇯🇵 东京特殊|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 12|·美国·{TG：@ccbaohe}定时更新节点订阅·123
-      - 12|英国 - Poplar - Kamatera Inc
-      - 0,1,2,3,4,6,15,19|🇨🇳_CN_中国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
-      - 14|🇸🇬 狮城特殊|浏览器输入 翻墙.com
-      - _US_美国
-      - "10|美国 CloudFlare节点 #2"
+      - 0,3,18|🇨🇦_CA_加拿大_2
+      - 14|🇯🇵 东京特殊|浏览器输入 翻墙.com
+      - 14|🇯🇵 东京特殊|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
