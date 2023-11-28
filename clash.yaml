@@ -4,12 +4,12 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: "12|英国 - 伦敦 - Cloudflare, Inc.", server: uk-new01.gujuji.top, port: 8080, type: vmess, uuid: 4fafe791-35d9-41e0-bd01-ef0d509e3917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uk-new01.gujuji.top}}, udp: true}
   - {name: 12|US B 0.1 优选IP 0.1, server: indec.qkhbyf.tech, port: 443, type: vmess, uuid: 6da3e574-52f1-4690-a53b-2847ce756456, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /lonan, headers: {Host: haxus002.1145114.me}}, udp: true}
-  - {name: 12|US A 0.1 优选IP 0.1, server: debbc.qkhbyf.tech, port: 443, type: vmess, uuid: 6da3e574-52f1-4690-a53b-2847ce756456, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /lonan, headers: {Host: haxteuilq.1145114.me}}, udp: true}
-  - {name: "10,11|github.com/freefq - 美国加利福尼亚州圣何...", server: 142.4.97.65, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1699624723213, headers: {Host: www.39838266.xyz}}, udp: true}
   - {name: "12|美国 - 盐湖城 - Cloudflare, Inc.", server: bx.lonan.qkhbyf.tech, port: 443, type: vmess, uuid: 6da3e574-52f1-4690-a53b-2847ce756456, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /lonan, headers: {Host: haxus1126.cxzntq.tech}}, udp: true}
-  - {name: "12|美国 - 波特蘭 - Amazon.com, Inc. #1", server: us2.jiedian.stream, port: 80, type: vmess, uuid: 4b4c9c8c-c086-4173-a694-a20c477d4b38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us2.jiedian.stream}}, udp: true}
+  - {name: "10,12|US_youtube@资源分享师_35", server: fra.yj2022.gq, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /9sTFt5L554kPVWmuJ2k8baS4bEY83PZ66xb4twoBBtsiMPK2b, headers: {Host: fra.yj2022.gq}}, udp: true}
+  - {name: "10,11|github.com/freefq - 美国加利福尼亚州圣何...", server: 142.4.97.65, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1699624723213, headers: {Host: www.39838266.xyz}}, udp: true}
+  - {name: 14|🇭🇰 香港3|@ripaojiedian, server: service.ouluyun9803.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 64e1703a-ce4d-499a-8353-56c656d9bdf8, udp: true}
+  - {name: 12|US A 0.1 优选IP 0.1, server: debbc.qkhbyf.tech, port: 443, type: vmess, uuid: 6da3e574-52f1-4690-a53b-2847ce756456, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /lonan, headers: {Host: haxteuilq.1145114.me}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -25,35 +25,35 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 12|英国 - 伦敦 - Cloudflare, Inc.
       - 12|US B 0.1 优选IP 0.1
-      - 12|US A 0.1 优选IP 0.1
-      - 10,11|github.com/freefq - 美国加利福尼亚州圣何...
       - 12|美国 - 盐湖城 - Cloudflare, Inc.
-      - "12|美国 - 波特蘭 - Amazon.com, Inc. #1"
+      - 10,12|US_youtube@资源分享师_35
+      - 10,11|github.com/freefq - 美国加利福尼亚州圣何...
+      - 14|🇭🇰 香港3|@ripaojiedian
+      - 12|US A 0.1 优选IP 0.1
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 12|英国 - 伦敦 - Cloudflare, Inc.
       - 12|US B 0.1 优选IP 0.1
-      - 12|US A 0.1 优选IP 0.1
-      - 10,11|github.com/freefq - 美国加利福尼亚州圣何...
       - 12|美国 - 盐湖城 - Cloudflare, Inc.
-      - "12|美国 - 波特蘭 - Amazon.com, Inc. #1"
+      - 10,12|US_youtube@资源分享师_35
+      - 10,11|github.com/freefq - 美国加利福尼亚州圣何...
+      - 14|🇭🇰 香港3|@ripaojiedian
+      - 12|US A 0.1 优选IP 0.1
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 12|英国 - 伦敦 - Cloudflare, Inc.
       - 12|US B 0.1 优选IP 0.1
-      - 12|US A 0.1 优选IP 0.1
-      - 10,11|github.com/freefq - 美国加利福尼亚州圣何...
       - 12|美国 - 盐湖城 - Cloudflare, Inc.
-      - "12|美国 - 波特蘭 - Amazon.com, Inc. #1"
+      - 10,12|US_youtube@资源分享师_35
+      - 10,11|github.com/freefq - 美国加利福尼亚州圣何...
+      - 14|🇭🇰 香港3|@ripaojiedian
+      - 12|US A 0.1 优选IP 0.1
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
