@@ -4,10 +4,10 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 12|美国, server: 172.64.88.169, port: 80, type: vmess, uuid: ffbfc19a-6495-4d14-c95c-06a09d013309, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ffbfc19a-6495-4d14-c95c-06a09d013309, headers: {Host: tgdns68.9669.link}}, udp: true}
-  - {name: CN-183.236.51.7-2209, server: sg.kunlun-ppg.com, port: 10828, type: trojan, password: 916d4b0d-2b22-4a09-b39f-d89da37179dc, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 12|US_youtube@资源分享师_302, server: 172.67.68.136, port: 80, type: vmess, uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.iiio.wiki}}, udp: true}
   - {name: 12|TW-台中1-2 - 麻雀加速器 Sparrow〖电报：@c..., server: tc12.twtc.dynu.net, port: 443, type: vmess, uuid: 03b47562-d220-4bdb-bfda-2f08ec20e5fa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vbub2, headers: {Host: tc12.twtc.dynu.net}}, udp: true}
+  - {name: 欧洲(油管:破解资源君), server: mf805f.micloud.buzz, port: 46005, type: vmess, uuid: d60bfa14-b952-4d2c-809f-ce4730b02e02, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mf805f.micloud.buzz}}, udp: true}
+  - {name: 12|TW-板桥1-2 - 麻雀加速器 Sparrow〖电报：@c..., server: nbq12.ntbq.dynu.net, port: 443, type: vmess, uuid: 03b47562-d220-4bdb-bfda-2f08ec20e5fa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b12, headers: {Host: nbq12.ntbq.dynu.net}}, udp: true}
+  - {name: 14|🇰🇷 韩国特殊|@ripaojiedian, server: 43.202.41.44, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -23,29 +23,29 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 12|美国
-      - CN-183.236.51.7-2209
-      - 12|US_youtube@资源分享师_302
       - 12|TW-台中1-2 - 麻雀加速器 Sparrow〖电报：@c...
+      - 欧洲(油管:破解资源君)
+      - 12|TW-板桥1-2 - 麻雀加速器 Sparrow〖电报：@c...
+      - 14|🇰🇷 韩国特殊|@ripaojiedian
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 12|美国
-      - CN-183.236.51.7-2209
-      - 12|US_youtube@资源分享师_302
       - 12|TW-台中1-2 - 麻雀加速器 Sparrow〖电报：@c...
+      - 欧洲(油管:破解资源君)
+      - 12|TW-板桥1-2 - 麻雀加速器 Sparrow〖电报：@c...
+      - 14|🇰🇷 韩国特殊|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 12|美国
-      - CN-183.236.51.7-2209
-      - 12|US_youtube@资源分享师_302
       - 12|TW-台中1-2 - 麻雀加速器 Sparrow〖电报：@c...
+      - 欧洲(油管:破解资源君)
+      - 12|TW-板桥1-2 - 麻雀加速器 Sparrow〖电报：@c...
+      - 14|🇰🇷 韩国特殊|@ripaojiedian
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
