@@ -4,12 +4,12 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 12|【TG：@ccbaohe】定时更新节点订阅_42, server: cdn.yifenjichang.top, port: 2087, type: vmess, uuid: 622dc2d0-b3ca-41d3-8e16-c2ce10d2f5c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: 622dc2d0-b3ca-41d3-8e16-c2ce10d2f5c8-vm, headers: {Host: swap-signature-acne-lookup.trycloudflare.com}}, udp: true}
+  - {name: 12|US_youtube@资源分享师_84, server: xyz48.forwardv2raytelegramchannel.fun, port: 8080, type: vmess, uuid: d2a28a5c-3e3d-4fa0-be5b-e6a8136d2039, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /FORWARDV2RAY, headers: {Host: xyz48.forwardv2raytelegramchannel.fun}}, udp: true}
+  - {name: 12|US_youtube@资源分享师_70, server: cdn.yifenjichang.top, port: 2087, type: vmess, uuid: 622dc2d0-b3ca-41d3-8e16-c2ce10d2f5c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /622dc2d0-b3ca-41d3-8e16-c2ce10d2f5c8-vm, headers: {Host: excerpt-fixtures-stanford-ring.trycloudflare.com}}, udp: true}
+  - {name: 12|美国, server: 172.64.88.169, port: 80, type: vmess, uuid: ffbfc19a-6495-4d14-c95c-06a09d013309, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ffbfc19a-6495-4d14-c95c-06a09d013309, headers: {Host: tgdns68.9669.link}}, udp: true}
+  - {name: CN-183.236.51.7-2229, server: us.kunlun-ppg.com, port: 10822, type: trojan, password: 916d4b0d-2b22-4a09-b39f-d89da37179dc, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: CN-183.236.51.7-2221, server: jp.kunlun-ppg.com, port: 10816, type: trojan, password: 916d4b0d-2b22-4a09-b39f-d89da37179dc, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 12|TW-台中1-2 - 麻雀加速器 Sparrow〖电报：@c..., server: tc12.twtc.dynu.net, port: 443, type: vmess, uuid: 03b47562-d220-4bdb-bfda-2f08ec20e5fa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vbub2, headers: {Host: tc12.twtc.dynu.net}}, udp: true}
-  - {name: 12|TW-板桥2-2 - 麻雀加速器 Sparrow〖电报：@c..., server: b22.ntbq.dynu.net, port: 443, type: vmess, uuid: 03b47562-d220-4bdb-bfda-2f08ec20e5fa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b22, headers: {Host: b22.ntbq.dynu.net}}, udp: true}
-  - {name: "12|HK香港(mibei77.com 米贝节点分享) #6", server: 107.148.86.167, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1700916749018, headers: {Host: www.53398349.xyz}}, udp: true}
-  - {name: 14|🇯🇵 东京特殊|浏览器输入 翻墙.com, server: 43.206.224.156, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _DE_德国, server: 80.92.204.106, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -25,35 +25,35 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 12|【TG：@ccbaohe】定时更新节点订阅_42
+      - 12|US_youtube@资源分享师_84
+      - 12|US_youtube@资源分享师_70
+      - 12|美国
+      - CN-183.236.51.7-2229
+      - CN-183.236.51.7-2221
       - 12|TW-台中1-2 - 麻雀加速器 Sparrow〖电报：@c...
-      - 12|TW-板桥2-2 - 麻雀加速器 Sparrow〖电报：@c...
-      - "12|HK香港(mibei77.com 米贝节点分享) #6"
-      - 14|🇯🇵 东京特殊|浏览器输入 翻墙.com
-      - _DE_德国
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 12|【TG：@ccbaohe】定时更新节点订阅_42
+      - 12|US_youtube@资源分享师_84
+      - 12|US_youtube@资源分享师_70
+      - 12|美国
+      - CN-183.236.51.7-2229
+      - CN-183.236.51.7-2221
       - 12|TW-台中1-2 - 麻雀加速器 Sparrow〖电报：@c...
-      - 12|TW-板桥2-2 - 麻雀加速器 Sparrow〖电报：@c...
-      - "12|HK香港(mibei77.com 米贝节点分享) #6"
-      - 14|🇯🇵 东京特殊|浏览器输入 翻墙.com
-      - _DE_德国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 12|【TG：@ccbaohe】定时更新节点订阅_42
+      - 12|US_youtube@资源分享师_84
+      - 12|US_youtube@资源分享师_70
+      - 12|美国
+      - CN-183.236.51.7-2229
+      - CN-183.236.51.7-2221
       - 12|TW-台中1-2 - 麻雀加速器 Sparrow〖电报：@c...
-      - 12|TW-板桥2-2 - 麻雀加速器 Sparrow〖电报：@c...
-      - "12|HK香港(mibei77.com 米贝节点分享) #6"
-      - 14|🇯🇵 东京特殊|浏览器输入 翻墙.com
-      - _DE_德国
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
