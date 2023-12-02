@@ -4,12 +4,12 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: _US_美国, server: fr-v2ray.freevmess.com, port: 8442, type: vmess, uuid: 6773a666-5593-4c9f-aacd-52300b6a02d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [fr-v2ray.freevmess.com]}}, udp: true}
-  - {name: "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fN\x0e", server: 120.240.88.112, port: 6703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: "11,12|TW-板桥1-3 - 麻雀加速器 Sparrow〖电报：@c...", server: nbq13.ntbq.dynu.net, port: 443, type: vmess, uuid: 50dc3ad3-70ce-4f3a-b9f1-8494bcf97362, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b13, headers: {Host: nbq13.ntbq.dynu.net}}, udp: true}
+  - {name: "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fN\r", server: 120.240.88.112, port: 6701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fM�", server: zx02.endhigh.xyz, port: 6702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: 12|🔒 VM-WS-NA 🏴‍☠️ NA-104.18.202...., server: 104.18.202.232, port: 2082, type: vmess, uuid: 2bef6793-f6b6-46a9-8a21-0d78343a851b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /AlfredConfig, headers: {Host: AlfredConfig.Lockey-vip.site}}, udp: true}
   - {name: "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LLKN\fM�", server: cm01.newcome.xyz, port: 3708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: 美国(油管:破解资源君), server: freeyx.cloudflare88.eu.org, port: 80, type: vmess, uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.iiio.wiki}}, udp: true}
-  - {name: "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fNL", server: zx02.endhigh.xyz, port: 6705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: 14|🇺🇸 美国特殊|@ripaojiedian, server: 35.93.149.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _US_美国, server: 34.209.235.189, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -25,35 +25,35 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fN\x0e"
-      - 11,12|TW-板桥1-3 - 麻雀加速器 Sparrow〖电报：@c...
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fN\r"
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fM�"
+      - 12|🔒 VM-WS-NA 🏴‍☠️ NA-104.18.202....
       - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LLKN\fM�"
-      - 美国(油管:破解资源君)
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fNL"
+      - 14|🇺🇸 美国特殊|@ripaojiedian
+      - _US_美国
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - _US_美国
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fN\x0e"
-      - 11,12|TW-板桥1-3 - 麻雀加速器 Sparrow〖电报：@c...
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fN\r"
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fM�"
+      - 12|🔒 VM-WS-NA 🏴‍☠️ NA-104.18.202....
       - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LLKN\fM�"
-      - 美国(油管:破解资源君)
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fNL"
+      - 14|🇺🇸 美国特殊|@ripaojiedian
+      - _US_美国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fN\x0e"
-      - 11,12|TW-板桥1-3 - 麻雀加速器 Sparrow〖电报：@c...
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fN\r"
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fM�"
+      - 12|🔒 VM-WS-NA 🏴‍☠️ NA-104.18.202....
       - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LLKN\fM�"
-      - 美国(油管:破解资源君)
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fNL"
+      - 14|🇺🇸 美国特殊|@ripaojiedian
+      - _US_美国
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
