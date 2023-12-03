@@ -4,12 +4,7 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fN\f", server: 120.240.88.112, port: 6709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@ccbaoh%%�, udp: true}
-  - {name: "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fNL", server: zx02.endhigh.xyz, port: 6705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: _HK_香港, server: 45.65.113.195, port: 443, type: trojan, password: 268f7997-fc81-4607-bae2-e61e8416ac3b, sni: 16-163-218-240.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: _KR_韩国->🇫🇷_FR_法国, server: uk.mjt000.com, port: 443, type: trojan, password: 26173d53-6557-492e-bf03-5fd5d034b5cf, sni: uk.mjt000.com, skip-cert-verify: true, udp: true}
   - {name: _DE_德国, server: 213.202.216.14, port: 443, type: trojan, password: 3f23c1eb-ace4-49ec-a7f0-f591b006b95a, sni: downloadde.xn--mes358acgm99l.com, skip-cert-verify: true, udp: true}
-  - {name: "12,14,15|台湾3|浏览器输入 翻墙.com", server: tc11.twtc.dynu.net, port: 443, type: vmess, uuid: b0912b17-b2d2-4c53-9d53-710f6c88251a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vbub1, headers: {Host: tc11.twtc.dynu.net}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -25,35 +20,20 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fN\f"
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fNL"
-      - _HK_香港
-      - _KR_韩国->🇫🇷_FR_法国
       - _DE_德国
-      - 12,14,15|台湾3|浏览器输入 翻墙.com
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fN\f"
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fNL"
-      - _HK_香港
-      - _KR_韩国->🇫🇷_FR_法国
       - _DE_德国
-      - 12,14,15|台湾3|浏览器输入 翻墙.com
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fN\f"
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fNL"
-      - _HK_香港
-      - _KR_韩国->🇫🇷_FR_法国
       - _DE_德国
-      - 12,14,15|台湾3|浏览器输入 翻墙.com
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
