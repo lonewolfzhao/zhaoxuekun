@@ -4,7 +4,12 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: _DE_德国, server: 213.202.216.14, port: 443, type: trojan, password: 3f23c1eb-ace4-49ec-a7f0-f591b006b95a, sni: downloadde.xn--mes358acgm99l.com, skip-cert-verify: true, udp: true}
+  - {name: "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fNL", server: zx02.endhigh.xyz, port: 6705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fN\f", server: 120.240.88.112, port: 6704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: "12|美国(yudou66.com 玉豆免费节点) #3", server: 156.251.226.106, port: 1111, type: vmess, uuid: b2183a2e-2cfd-4568-85cb-7297da835809, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/changding-tls0?ed=2048", headers: {Host: hk-300.changding.tech}}, udp: true}
+  - {name: "11,12|🇺🇸|US|美国|@wxgqlfx|67", server: 104.17.230.90, port: 2096, type: vmess, uuid: 7cfb1bf7-76e9-45fa-9084-2d5b5a34657a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ygt.smaz170.top}}, udp: true}
+  - {name: "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LLKN\fM�", server: cm01.newcome.xyz, port: 3708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: "12|美国(yudou66.com 玉豆免费节点) #2", server: 199.188.111.232, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1701265991727, headers: {Host: www.51360818.xyz}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -20,20 +25,35 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _DE_德国
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fNL"
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fN\f"
+      - "12|美国(yudou66.com 玉豆免费节点) #3"
+      - 11,12|🇺🇸|US|美国|@wxgqlfx|67
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LLKN\fM�"
+      - "12|美国(yudou66.com 玉豆免费节点) #2"
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - _DE_德国
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fNL"
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fN\f"
+      - "12|美国(yudou66.com 玉豆免费节点) #3"
+      - 11,12|🇺🇸|US|美国|@wxgqlfx|67
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LLKN\fM�"
+      - "12|美国(yudou66.com 玉豆免费节点) #2"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _DE_德国
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fNL"
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fN\f"
+      - "12|美国(yudou66.com 玉豆免费节点) #3"
+      - 11,12|🇺🇸|US|美国|@wxgqlfx|67
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LLKN\fM�"
+      - "12|美国(yudou66.com 玉豆免费节点) #2"
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
