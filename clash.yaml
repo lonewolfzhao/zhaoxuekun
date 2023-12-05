@@ -4,11 +4,8 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fM�", server: 120.240.88.112, port: 6707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@ccbaoh%%�, udp: true}
   - {name: 12|V4-4011|香港|x2.0 - 海豚云〖电报：@ccba..., server: dnspsdhaitun.ncsuwei.top, port: 17002, type: vmess, uuid: c5f7bf9b-7853-3811-8336-6fec1b9588db, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /af483582-6269-468c-93af-c512ec2b1a61, headers: {Host: dnspsdhaitun.ncsuwei.top}}, udp: true}
-  - {name: 11|github.com/freefq - 美国加利福尼亚州圣何..., server: 142.4.97.65, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1699624723213, headers: {Host: www.39838266.xyz}}, udp: true}
   - {name: 12|TW-台中1-2 - 麻雀加速器 Sparrow〖电报：@c..., server: tc12.twtc.dynu.net, port: 443, type: vmess, uuid: 11d30e65-0c7f-43cc-b3cb-2fdac267696e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vbub2, headers: {Host: tc12.twtc.dynu.net}}, udp: true}
-  - {name: "12|美国(yudou66.com 玉豆免费节点) #2", server: 199.188.111.232, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1701265991727, headers: {Host: www.51360818.xyz}}, udp: true}
   - {name: 12|KR韩国 B - 可乐云〖电报：@ccbaohe】免费节点定..., server: cp2.colacloud.site, port: 80, type: vmess, uuid: 3e3839be-7d3d-4443-95de-1547f016cc45, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sssddd, headers: {Host: cf-kr.colacloud.site}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -25,11 +22,8 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fM�"
       - 12|V4-4011|香港|x2.0 - 海豚云〖电报：@ccba...
-      - 11|github.com/freefq - 美国加利福尼亚州圣何...
       - 12|TW-台中1-2 - 麻雀加速器 Sparrow〖电报：@c...
-      - "12|美国(yudou66.com 玉豆免费节点) #2"
       - 12|KR韩国 B - 可乐云〖电报：@ccbaohe】免费节点定...
   - name: ♻️ 自动选择
     type: load-balance
@@ -37,22 +31,16 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fM�"
       - 12|V4-4011|香港|x2.0 - 海豚云〖电报：@ccba...
-      - 11|github.com/freefq - 美国加利福尼亚州圣何...
       - 12|TW-台中1-2 - 麻雀加速器 Sparrow〖电报：@c...
-      - "12|美国(yudou66.com 玉豆免费节点) #2"
       - 12|KR韩国 B - 可乐云〖电报：@ccbaohe】免费节点定...
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fM�"
       - 12|V4-4011|香港|x2.0 - 海豚云〖电报：@ccba...
-      - 11|github.com/freefq - 美国加利福尼亚州圣何...
       - 12|TW-台中1-2 - 麻雀加速器 Sparrow〖电报：@c...
-      - "12|美国(yudou66.com 玉豆免费节点) #2"
       - 12|KR韩国 B - 可乐云〖电报：@ccbaohe】免费节点定...
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
