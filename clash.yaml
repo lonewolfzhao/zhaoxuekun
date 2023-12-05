@@ -4,9 +4,12 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
+  - {name: "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fN\r", server: 120.240.88.112, port: 6701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
   - {name: 12|V4-4011|香港|x2.0 - 海豚云〖电报：@ccba..., server: dnspsdhaitun.ncsuwei.top, port: 17002, type: vmess, uuid: c5f7bf9b-7853-3811-8336-6fec1b9588db, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /af483582-6269-468c-93af-c512ec2b1a61, headers: {Host: dnspsdhaitun.ncsuwei.top}}, udp: true}
   - {name: 12|TW-台中1-2 - 麻雀加速器 Sparrow〖电报：@c..., server: tc12.twtc.dynu.net, port: 443, type: vmess, uuid: 11d30e65-0c7f-43cc-b3cb-2fdac267696e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vbub2, headers: {Host: tc12.twtc.dynu.net}}, udp: true}
-  - {name: 12|KR韩国 B - 可乐云〖电报：@ccbaohe】免费节点定..., server: cp2.colacloud.site, port: 80, type: vmess, uuid: 3e3839be-7d3d-4443-95de-1547f016cc45, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sssddd, headers: {Host: cf-kr.colacloud.site}}, udp: true}
+  - {name: 14|🇰🇷 韩国特殊|浏览器输入 翻墙.com, server: 43.201.253.32, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 14|🇰🇷 韩国特殊|@ripaojiedian, server: 43.202.62.68, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Nika-984, server: 54.251.138.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -22,26 +25,35 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fN\r"
       - 12|V4-4011|香港|x2.0 - 海豚云〖电报：@ccba...
       - 12|TW-台中1-2 - 麻雀加速器 Sparrow〖电报：@c...
-      - 12|KR韩国 B - 可乐云〖电报：@ccbaohe】免费节点定...
+      - 14|🇰🇷 韩国特殊|浏览器输入 翻墙.com
+      - 14|🇰🇷 韩国特殊|@ripaojiedian
+      - 4Nika-984
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fN\r"
       - 12|V4-4011|香港|x2.0 - 海豚云〖电报：@ccba...
       - 12|TW-台中1-2 - 麻雀加速器 Sparrow〖电报：@c...
-      - 12|KR韩国 B - 可乐云〖电报：@ccbaohe】免费节点定...
+      - 14|🇰🇷 韩国特殊|浏览器输入 翻墙.com
+      - 14|🇰🇷 韩国特殊|@ripaojiedian
+      - 4Nika-984
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fN\r"
       - 12|V4-4011|香港|x2.0 - 海豚云〖电报：@ccba...
       - 12|TW-台中1-2 - 麻雀加速器 Sparrow〖电报：@c...
-      - 12|KR韩国 B - 可乐云〖电报：@ccbaohe】免费节点定...
+      - 14|🇰🇷 韩国特殊|浏览器输入 翻墙.com
+      - 14|🇰🇷 韩国特殊|@ripaojiedian
+      - 4Nika-984
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
