@@ -4,12 +4,12 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�N%%�", server: zx02.endhigh.xyz, port: 6700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�L%%�", server: cm03.newcome.xyz, port: 6708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: RELAY-154.83.2.57-0172, server: 154.83.2.57, port: 2053, type: vmess, uuid: ef9e887a-c26c-4cda-a731-1dbbc5263c77, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zUla.eSMAIlkOrEa.sHOp}}, udp: true}
+  - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�", server: zx02.endhigh.xyz, port: 6709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f��%%�", server: cm03.newcome.xyz, port: 6709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LLKN\fNL", server: cm01.newcome.xyz, port: 3709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@ccbaoh%%�, udp: true}
   - {name: 4Nika-984, server: 54.251.138.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 14|🇯🇵 日本特殊|@ripaojiedian, server: 43.206.229.73, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Sarina-775, server: 139.227.182.207, port: 10016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: "10,11|github.com/freefq - 美国加利福尼亚州圣何...", server: 142.4.97.65, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1699624723213, headers: {Host: www.39838266.xyz}}, udp: true}
+  - {name: "12|美国(yudou66.com 玉豆免费节点) #2", server: 199.188.111.232, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1701265991727, headers: {Host: www.51360818.xyz}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -25,35 +25,35 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�N%%�"
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�L%%�"
-      - RELAY-154.83.2.57-0172
+      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�"
+      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f��%%�"
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LLKN\fNL"
       - 4Nika-984
-      - 14|🇯🇵 日本特殊|@ripaojiedian
-      - 4Sarina-775
+      - 10,11|github.com/freefq - 美国加利福尼亚州圣何...
+      - "12|美国(yudou66.com 玉豆免费节点) #2"
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�N%%�"
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�L%%�"
-      - RELAY-154.83.2.57-0172
+      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�"
+      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f��%%�"
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LLKN\fNL"
       - 4Nika-984
-      - 14|🇯🇵 日本特殊|@ripaojiedian
-      - 4Sarina-775
+      - 10,11|github.com/freefq - 美国加利福尼亚州圣何...
+      - "12|美国(yudou66.com 玉豆免费节点) #2"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�N%%�"
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�L%%�"
-      - RELAY-154.83.2.57-0172
+      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�"
+      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f��%%�"
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LLKN\fNL"
       - 4Nika-984
-      - 14|🇯🇵 日本特殊|@ripaojiedian
-      - 4Sarina-775
+      - 10,11|github.com/freefq - 美国加利福尼亚州圣何...
+      - "12|美国(yudou66.com 玉豆免费节点) #2"
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
