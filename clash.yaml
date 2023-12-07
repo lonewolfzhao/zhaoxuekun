@@ -7,9 +7,7 @@ proxies:
   - {name: 4Mohsen-939, server: 43.206.229.73, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�L%%�", server: cm03.newcome.xyz, port: 6708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
   - {name: 4Sarina-775, server: 139.227.182.207, port: 10016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: "12|美国(yudou66.com 玉豆免费节点) #2", server: 199.188.111.232, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1701265991727, headers: {Host: www.51360818.xyz}}, udp: true}
   - {name: 14|🇯🇵 日本特殊|浏览器输入 翻墙.com, server: 43.201.104.144, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f̎%%�", server: zx02.endhigh.xyz, port: 6706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -28,9 +26,7 @@ proxy-groups:
       - 4Mohsen-939
       - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�L%%�"
       - 4Sarina-775
-      - "12|美国(yudou66.com 玉豆免费节点) #2"
       - 14|🇯🇵 日本特殊|浏览器输入 翻墙.com
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f̎%%�"
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
@@ -40,9 +36,7 @@ proxy-groups:
       - 4Mohsen-939
       - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�L%%�"
       - 4Sarina-775
-      - "12|美国(yudou66.com 玉豆免费节点) #2"
       - 14|🇯🇵 日本特殊|浏览器输入 翻墙.com
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f̎%%�"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -51,9 +45,7 @@ proxy-groups:
       - 4Mohsen-939
       - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�L%%�"
       - 4Sarina-775
-      - "12|美国(yudou66.com 玉豆免费节点) #2"
       - 14|🇯🇵 日本特殊|浏览器输入 翻墙.com
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f̎%%�"
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
