@@ -4,12 +4,9 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f̎%%�", server: zx02.endhigh.xyz, port: 6706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f��%%�", server: cm03.newcome.xyz, port: 6705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: 14|🇯🇵 日本特殊|浏览器输入 翻墙.com, server: 52.221.191.251, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _CN_中国->🇧🇷_BR_巴西, server: 02cabca.bhaquh.xyz, port: 20696, type: trojan, password: b2f62b6b-1b03-4d35-9026-524525dedbad, sni: v1-dy.ixigua.com, skip-cert-verify: true, udp: true}
-  - {name: 12|中国 - 长虹街 - PEG TECH INC, server: 137.175.49.220, port: 50000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/323127100515}, udp: true}
-  - {name: "10,11,12|US美国(mibei77.com 米贝节点分享) #4", server: 199.188.111.232, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1700916749018, headers: {Host: www.51360818.xyz}}, udp: true}
+  - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�", server: cm03.newcome.xyz, port: 6706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�N%%�", server: zx02.endhigh.xyz, port: 6700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: "10,11|github.com/freefq - 美国加利福尼亚州圣何...", server: 142.4.97.65, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1699624723213, headers: {Host: www.39838266.xyz}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -25,35 +22,26 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f̎%%�"
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f��%%�"
-      - 14|🇯🇵 日本特殊|浏览器输入 翻墙.com
-      - _CN_中国->🇧🇷_BR_巴西
-      - 12|中国 - 长虹街 - PEG TECH INC
-      - "10,11,12|US美国(mibei77.com 米贝节点分享) #4"
+      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�"
+      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�N%%�"
+      - 10,11|github.com/freefq - 美国加利福尼亚州圣何...
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f̎%%�"
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f��%%�"
-      - 14|🇯🇵 日本特殊|浏览器输入 翻墙.com
-      - _CN_中国->🇧🇷_BR_巴西
-      - 12|中国 - 长虹街 - PEG TECH INC
-      - "10,11,12|US美国(mibei77.com 米贝节点分享) #4"
+      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�"
+      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�N%%�"
+      - 10,11|github.com/freefq - 美国加利福尼亚州圣何...
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f̎%%�"
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f��%%�"
-      - 14|🇯🇵 日本特殊|浏览器输入 翻墙.com
-      - _CN_中国->🇧🇷_BR_巴西
-      - 12|中国 - 长虹街 - PEG TECH INC
-      - "10,11,12|US美国(mibei77.com 米贝节点分享) #4"
+      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�"
+      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�N%%�"
+      - 10,11|github.com/freefq - 美国加利福尼亚州圣何...
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
