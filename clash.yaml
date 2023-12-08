@@ -6,7 +6,8 @@ external-controller: :50000
 proxies:
   - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�", server: cm03.newcome.xyz, port: 6706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
   - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�N%%�", server: zx02.endhigh.xyz, port: 6700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: "10,11|github.com/freefq - 美国加利福尼亚州圣何...", server: 142.4.97.65, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1699624723213, headers: {Host: www.39838266.xyz}}, udp: true}
+  - {name: 14|🇯🇵 日本特殊|@ripaojiedian, server: 13.215.190.98, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "10,11|github.com/freefq - 瑞典  22", server: cover.mac2win.top, port: 8080, type: vmess, uuid: 65ae35d1-01b8-42e4-8373-00d01623c6ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: icu.mac2win.top}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -24,7 +25,8 @@ proxy-groups:
       - 🎯 全球直连
       - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�"
       - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�N%%�"
-      - 10,11|github.com/freefq - 美国加利福尼亚州圣何...
+      - 14|🇯🇵 日本特殊|@ripaojiedian
+      - 10,11|github.com/freefq - 瑞典  22
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
@@ -33,7 +35,8 @@ proxy-groups:
     proxies:
       - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�"
       - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�N%%�"
-      - 10,11|github.com/freefq - 美国加利福尼亚州圣何...
+      - 14|🇯🇵 日本特殊|@ripaojiedian
+      - 10,11|github.com/freefq - 瑞典  22
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -41,7 +44,8 @@ proxy-groups:
       - 🎯 全球直连
       - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�"
       - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�N%%�"
-      - 10,11|github.com/freefq - 美国加利福尼亚州圣何...
+      - 14|🇯🇵 日本特殊|@ripaojiedian
+      - 10,11|github.com/freefq - 瑞典  22
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
