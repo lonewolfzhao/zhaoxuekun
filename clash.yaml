@@ -4,10 +4,10 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
+  - {name: "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fNL", server: zx02.endhigh.xyz, port: 6705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�", server: cm03.newcome.xyz, port: 6706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
   - {name: "0,11|github.com/freefq - 美国  25", server: 157.254.231.45, port: 38461, type: vmess, uuid: 8f53d96b-cb13-4197-cd44-37db95809de5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 11|github.com/freefq - 美国加利福尼亚 67, server: 64.176.58.15, port: 46154, type: vmess, uuid: adcbe160-3010-483d-b438-d6057f465b1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 14|🇯🇵 日本特殊|浏览器输入 翻墙.com, server: 43.201.104.144, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "11,12|🆙53@oneclickvpnkeys", server: 64.176.55.150, port: 45889, type: vmess, uuid: 9811a3ee-f8d4-43f8-9bcb-8a8f0a85e1d8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN-183.236.51.7-2242, server: us.kunlun-ppg.com, port: 10826, type: trojan, password: 376b4a77-edab-46db-80e8-d3deec985778, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -23,29 +23,29 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fNL"
+      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�"
       - 0,11|github.com/freefq - 美国  25
-      - 11|github.com/freefq - 美国加利福尼亚 67
-      - 14|🇯🇵 日本特殊|浏览器输入 翻墙.com
-      - 11,12|🆙53@oneclickvpnkeys
+      - CN-183.236.51.7-2242
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fNL"
+      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�"
       - 0,11|github.com/freefq - 美国  25
-      - 11|github.com/freefq - 美国加利福尼亚 67
-      - 14|🇯🇵 日本特殊|浏览器输入 翻墙.com
-      - 11,12|🆙53@oneclickvpnkeys
+      - CN-183.236.51.7-2242
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fNL"
+      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�"
       - 0,11|github.com/freefq - 美国  25
-      - 11|github.com/freefq - 美国加利福尼亚 67
-      - 14|🇯🇵 日本特殊|浏览器输入 翻墙.com
-      - 11,12|🆙53@oneclickvpnkeys
+      - CN-183.236.51.7-2242
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
   - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
