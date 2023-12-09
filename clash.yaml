@@ -4,12 +4,10 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 14|🇯🇵 日本特殊|浏览器输入 翻墙.com, server: 52.221.191.251, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "0,2,4,10,11,12|美国 - 洛杉矶 - Multacom Corporatio... #1", server: 74.48.130.248, port: 20426, type: vmess, uuid: 67234df6-8d1d-409e-c263-f17742a6151c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f��%%�", server: zx02.endhigh.xyz, port: 6701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: "0,2,4,10,11,12|美国 - 洛杉矶 - Multacom Corporatio... #2", server: 74.48.183.246, port: 40310, type: vmess, uuid: 6371ee48-8b19-4a4c-a399-88f692228ac3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�", server: cm03.newcome.xyz, port: 6706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�N%%�", server: zx02.endhigh.xyz, port: 6700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: _DE_德国, server: 5.104.108.120, port: 443, type: trojan, password: b8810c0b-f0a8-4bc3-baff-7e7ffb85a08c, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: _DE_德国 2, server: 5.104.108.109, port: 443, type: trojan, password: b8810c0b-f0a8-4bc3-baff-7e7ffb85a08c, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 11|github.com/freefq - 美国加利福尼亚 67, server: 64.176.58.15, port: 46154, type: vmess, uuid: adcbe160-3010-483d-b438-d6057f465b1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 4Mohsen-939, server: 43.206.229.73, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -25,35 +23,29 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 14|🇯🇵 日本特殊|浏览器输入 翻墙.com
-      - "0,2,4,10,11,12|美国 - 洛杉矶 - Multacom Corporatio... #1"
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f��%%�"
-      - "0,2,4,10,11,12|美国 - 洛杉矶 - Multacom Corporatio... #2"
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�"
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�N%%�"
+      - _DE_德国
+      - _DE_德国 2
+      - 11|github.com/freefq - 美国加利福尼亚 67
+      - 4Mohsen-939
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 14|🇯🇵 日本特殊|浏览器输入 翻墙.com
-      - "0,2,4,10,11,12|美国 - 洛杉矶 - Multacom Corporatio... #1"
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f��%%�"
-      - "0,2,4,10,11,12|美国 - 洛杉矶 - Multacom Corporatio... #2"
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�"
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�N%%�"
+      - _DE_德国
+      - _DE_德国 2
+      - 11|github.com/freefq - 美国加利福尼亚 67
+      - 4Mohsen-939
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 14|🇯🇵 日本特殊|浏览器输入 翻墙.com
-      - "0,2,4,10,11,12|美国 - 洛杉矶 - Multacom Corporatio... #1"
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f��%%�"
-      - "0,2,4,10,11,12|美国 - 洛杉矶 - Multacom Corporatio... #2"
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�"
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�N%%�"
+      - _DE_德国
+      - _DE_德国 2
+      - 11|github.com/freefq - 美国加利福尼亚 67
+      - 4Mohsen-939
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
