@@ -4,10 +4,10 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f��%%�", server: cm03.newcome.xyz, port: 6705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: "10,11,12|KR🇰🇷 | icu.mac2win.top-8080 | ...", server: cover.mac2win.top, port: 8080, type: vmess, uuid: 65ae35d1-01b8-42e4-8373-00d01623c6ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: icu.mac2win.top}}, udp: true}
+  - {name: "0,1,2,3,4,6,18|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_27", server: 157.254.231.45, port: 38461, type: vmess, uuid: 8f53d96b-cb13-4197-cd44-37db95809de5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10|美国CloudFlare节点 59, server: c.mac2win.top, port: 8080, type: vmess, uuid: 65ae35d1-01b8-42e4-8373-00d01623c6ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: icu.mac2win.top}}, udp: true}
-  - {name: "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fNL", server: zx02.endhigh.xyz, port: 6705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: "10,11,12|KR🇰🇷 | icu.mac2win.top-8080 | ...", server: cover.mac2win.top, port: 8080, type: vmess, uuid: 65ae35d1-01b8-42e4-8373-00d01623c6ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: icu.mac2win.top}}, udp: true}
+  - {name: 12|🇯🇵日本6丨电报群@bp520, server: 162.159.142.236, port: 80, type: vmess, uuid: 5c36dba4-de68-42be-a07f-937d9f920357, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp3.visaapp.top}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -23,29 +23,29 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f��%%�"
-      - 10,11,12|KR🇰🇷 | icu.mac2win.top-8080 | ...
+      - 0,1,2,3,4,6,18|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_27
       - 10|美国CloudFlare节点 59
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fNL"
+      - 10,11,12|KR🇰🇷 | icu.mac2win.top-8080 | ...
+      - 12|🇯🇵日本6丨电报群@bp520
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f��%%�"
-      - 10,11,12|KR🇰🇷 | icu.mac2win.top-8080 | ...
+      - 0,1,2,3,4,6,18|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_27
       - 10|美国CloudFlare节点 59
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fNL"
+      - 10,11,12|KR🇰🇷 | icu.mac2win.top-8080 | ...
+      - 12|🇯🇵日本6丨电报群@bp520
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f��%%�"
-      - 10,11,12|KR🇰🇷 | icu.mac2win.top-8080 | ...
+      - 0,1,2,3,4,6,18|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_27
       - 10|美国CloudFlare节点 59
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fNL"
+      - 10,11,12|KR🇰🇷 | icu.mac2win.top-8080 | ...
+      - 12|🇯🇵日本6丨电报群@bp520
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
