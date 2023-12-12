@@ -4,10 +4,10 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 4Sarina-781, server: 103.172.116.79, port: 9044, type: ss, cipher: aes-256-cfb, password: KBGjZYcy4SyRShmA, udp: true}
-  - {name: 14|🇸🇬 新加坡特殊|@ripaojiedian, server: 43.201.55.242, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�", server: zx02.endhigh.xyz, port: 6709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: 4Sarina-775, server: 139.227.182.207, port: 10016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�", server: cm03.newcome.xyz, port: 6706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%� 2", server: zx02.endhigh.xyz, port: 6709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: 12|🔒 VM-WS-NA 🏴‍☠️ NA-104.18.203...., server: 104.18.203.232, port: 8880, type: vmess, uuid: cbe3bb21-3e45-4c83-9d59-c7b783e5074a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/@vpn_whal,@vpn_whal,@vpn_whal", headers: {Host: pl.vpn.whal.whaleproject.tech}}, udp: true}
+  - {name: "11,12|TW-台中1-2 - 麻雀加速器 Sparrow〖电报：@c...", server: tc12.twtc.dynu.net, port: 443, type: vmess, uuid: a879c622-37bf-4f3e-a8bf-a7f4a0daf465, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vbub2, headers: {Host: tc12.twtc.dynu.net}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -23,29 +23,29 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Sarina-781
-      - 14|🇸🇬 新加坡特殊|@ripaojiedian
       - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�"
-      - 4Sarina-775
+      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%� 2"
+      - 12|🔒 VM-WS-NA 🏴‍☠️ NA-104.18.203....
+      - 11,12|TW-台中1-2 - 麻雀加速器 Sparrow〖电报：@c...
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 4Sarina-781
-      - 14|🇸🇬 新加坡特殊|@ripaojiedian
       - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�"
-      - 4Sarina-775
+      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%� 2"
+      - 12|🔒 VM-WS-NA 🏴‍☠️ NA-104.18.203....
+      - 11,12|TW-台中1-2 - 麻雀加速器 Sparrow〖电报：@c...
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Sarina-781
-      - 14|🇸🇬 新加坡特殊|@ripaojiedian
       - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�"
-      - 4Sarina-775
+      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%� 2"
+      - 12|🔒 VM-WS-NA 🏴‍☠️ NA-104.18.203....
+      - 11,12|TW-台中1-2 - 麻雀加速器 Sparrow〖电报：@c...
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
