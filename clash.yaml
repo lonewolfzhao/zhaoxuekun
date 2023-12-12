@@ -4,10 +4,10 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�", server: cm03.newcome.xyz, port: 6706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%� 2", server: zx02.endhigh.xyz, port: 6709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�", server: zx02.endhigh.xyz, port: 6709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
   - {name: 12|🔒 VM-WS-NA 🏴‍☠️ NA-104.18.203...., server: 104.18.203.232, port: 8880, type: vmess, uuid: cbe3bb21-3e45-4c83-9d59-c7b783e5074a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/@vpn_whal,@vpn_whal,@vpn_whal", headers: {Host: pl.vpn.whal.whaleproject.tech}}, udp: true}
-  - {name: "11,12|TW-台中1-2 - 麻雀加速器 Sparrow〖电报：@c...", server: tc12.twtc.dynu.net, port: 443, type: vmess, uuid: a879c622-37bf-4f3e-a8bf-a7f4a0daf465, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vbub2, headers: {Host: tc12.twtc.dynu.net}}, udp: true}
+  - {name: 欧洲(油管:破解资源君), server: 103.179.143.40, port: 58108, type: vmess, uuid: 372015b8-1cb7-4131-e8f9-6155209d19ba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%� 2", server: cm03.newcome.xyz, port: 6706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -24,9 +24,9 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�"
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%� 2"
       - 12|🔒 VM-WS-NA 🏴‍☠️ NA-104.18.203....
-      - 11,12|TW-台中1-2 - 麻雀加速器 Sparrow〖电报：@c...
+      - 欧洲(油管:破解资源君)
+      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%� 2"
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
@@ -34,18 +34,18 @@ proxy-groups:
     interval: 300
     proxies:
       - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�"
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%� 2"
       - 12|🔒 VM-WS-NA 🏴‍☠️ NA-104.18.203....
-      - 11,12|TW-台中1-2 - 麻雀加速器 Sparrow〖电报：@c...
+      - 欧洲(油管:破解资源君)
+      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%� 2"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�"
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%� 2"
       - 12|🔒 VM-WS-NA 🏴‍☠️ NA-104.18.203....
-      - 11,12|TW-台中1-2 - 麻雀加速器 Sparrow〖电报：@c...
+      - 欧洲(油管:破解资源君)
+      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%� 2"
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
