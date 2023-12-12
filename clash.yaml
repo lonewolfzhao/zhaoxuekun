@@ -4,10 +4,10 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�", server: zx02.endhigh.xyz, port: 6709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: 4Sarina-882, server: 13.250.30.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _PL_波兰, server: 70.34.252.233, port: 443, type: trojan, password: fd2ef3e6-75b7-46cf-bc60-e8899851ed57, sni: proxmox.com, skip-cert-verify: true, udp: true}
-  - {name: _US_美国, server: 35.87.39.181, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4FreeIran-884, server: 18.141.147.244, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "11,12|🔒 VM-WS-TLS 🏴‍☠️ NA-104.21.81....", server: 104.21.81.75, port: 2087, type: vmess, uuid: 31bf0c56-583e-4471-a752-fff3c8a6be07, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /IranxTLS, headers: {Host: points2.irantls.com}}, udp: true}
+  - {name: 12|美国new01（1x） - 快狗云〖电报：@ccbaohe】..., server: us-new01.gujuji.top, port: 8080, type: vmess, uuid: 6bed5b06-432c-425f-bc6e-028ff4298872, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new01.gujuji.top}}, udp: true}
+  - {name: 12|新加坡2 - 一元云梯〖电报：@ccbaohe】免费节点定时..., server: cfcdn.996699.top, port: 443, type: vmess, uuid: 5899e7c2-fafc-4b4e-84f9-ccfcbf1f1687, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /yyjc-sg1, headers: {Host: yyjc-sg1.shaniugpt.top}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -23,29 +23,29 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�"
-      - 4Sarina-882
-      - _PL_波兰
-      - _US_美国
+      - 4FreeIran-884
+      - 11,12|🔒 VM-WS-TLS 🏴‍☠️ NA-104.21.81....
+      - 12|美国new01（1x） - 快狗云〖电报：@ccbaohe】...
+      - 12|新加坡2 - 一元云梯〖电报：@ccbaohe】免费节点定时...
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�"
-      - 4Sarina-882
-      - _PL_波兰
-      - _US_美国
+      - 4FreeIran-884
+      - 11,12|🔒 VM-WS-TLS 🏴‍☠️ NA-104.21.81....
+      - 12|美国new01（1x） - 快狗云〖电报：@ccbaohe】...
+      - 12|新加坡2 - 一元云梯〖电报：@ccbaohe】免费节点定时...
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%�"
-      - 4Sarina-882
-      - _PL_波兰
-      - _US_美国
+      - 4FreeIran-884
+      - 11,12|🔒 VM-WS-TLS 🏴‍☠️ NA-104.21.81....
+      - 12|美国new01（1x） - 快狗云〖电报：@ccbaohe】...
+      - 12|新加坡2 - 一元云梯〖电报：@ccbaohe】免费节点定时...
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
