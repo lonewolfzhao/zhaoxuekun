@@ -4,10 +4,10 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: "0,1,2,3,4,6,18|🇩🇪_DE_德国_8", server: 80.71.157.199, port: 443, type: vmess, uuid: a88ba483-d935-4cb8-a425-a8a9a468409b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: _CA_加拿大, server: 172.105.5.158, port: 443, type: trojan, password: 027c71ac-026b-4755-9a33-26558ce6f6a2, sni: ddragon.leagueoflegends.com, skip-cert-verify: true, udp: true}
-  - {name: 4FreeIran-1156, server: 51.15.27.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 14|🔒 VM-WS-NA 🏴‍☠️ NA-162.159.134..., server: 162.159.134.234, port: 8880, type: vmess, uuid: 2f1435e0-a3e6-40c7-bc4f-05f5befeb789, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: free.1alphaomega.org}}, udp: true}
+  - {name: "16,17|越南|浏览器输入 翻墙.com", server: 103.103.245.81, port: 21010, type: vmess, uuid: 33fef73f-cf19-4e70-b071-ddb0155a9556, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vn11-ji.455773.xyz}}, udp: true}
   - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%� 2", server: cm03.newcome.xyz, port: 6706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: _US_美国, server: unlk2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 20352, type: trojan, password: d56cb8dc-e932-4d57-bd90-1381a1245f90, sni: 206.237.5.220, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -23,29 +23,29 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 0,1,2,3,4,6,18|🇩🇪_DE_德国_8
-      - _CA_加拿大
-      - 4FreeIran-1156
+      - 14|🔒 VM-WS-NA 🏴‍☠️ NA-162.159.134...
+      - 16,17|越南|浏览器输入 翻墙.com
       - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%� 2"
+      - _US_美国
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 0,1,2,3,4,6,18|🇩🇪_DE_德国_8
-      - _CA_加拿大
-      - 4FreeIran-1156
+      - 14|🔒 VM-WS-NA 🏴‍☠️ NA-162.159.134...
+      - 16,17|越南|浏览器输入 翻墙.com
       - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%� 2"
+      - _US_美国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 0,1,2,3,4,6,18|🇩🇪_DE_德国_8
-      - _CA_加拿大
-      - 4FreeIran-1156
+      - 14|🔒 VM-WS-NA 🏴‍☠️ NA-162.159.134...
+      - 16,17|越南|浏览器输入 翻墙.com
       - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%� 2"
+      - _US_美国
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
