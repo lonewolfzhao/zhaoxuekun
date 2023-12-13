@@ -4,10 +4,10 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%� 2", server: cm03.newcome.xyz, port: 6706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fNL", server: zx02.endhigh.xyz, port: 6705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
   - {name: 14|🔒 VM-WS-NA 🏴‍☠️ NA-162.159.134..., server: 162.159.134.234, port: 8880, type: vmess, uuid: 2f1435e0-a3e6-40c7-bc4f-05f5befeb789, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: free.1alphaomega.org}}, udp: true}
-  - {name: 14|TW-板桥2-3, server: b23.ntbq.dynu.net, port: 443, type: vmess, uuid: f269e2fa-6c84-43fe-8e69-a240b8449e79, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b23, headers: {Host: b23.ntbq.dynu.net}}, udp: true}
+  - {name: 16|🇯🇵 日本特殊|浏览器输入 翻墙.com, server: 52.221.200.66, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fNL", server: zx02.endhigh.xyz, port: 6705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: 4Jadi-789, server: 217.30.10.70, port: 9044, type: ss, cipher: aes-256-cfb, password: KBGjZYcy4SyRShmA, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -23,29 +23,29 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%� 2"
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fNL"
       - 14|🔒 VM-WS-NA 🏴‍☠️ NA-162.159.134...
-      - 14|TW-板桥2-3
+      - 16|🇯🇵 日本特殊|浏览器输入 翻墙.com
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fNL"
+      - 4Jadi-789
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%� 2"
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fNL"
       - 14|🔒 VM-WS-NA 🏴‍☠️ NA-162.159.134...
-      - 14|TW-板桥2-3
+      - 16|🇯🇵 日本特殊|浏览器输入 翻墙.com
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fNL"
+      - 4Jadi-789
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�M%%� 2"
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fNL"
       - 14|🔒 VM-WS-NA 🏴‍☠️ NA-162.159.134...
-      - 14|TW-板桥2-3
+      - 16|🇯🇵 日本特殊|浏览器输入 翻墙.com
+      - "%�\x11�<'���ӋLL�\x0b��\f\x0b�\x0e\x0b�LL�N\fNL"
+      - 4Jadi-789
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
