@@ -4,10 +4,10 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 14|新加坡6-DO, server: sg1.awslcn.info, port: 25282, type: vmess, uuid: b50cfa49-c0d7-4e52-b489-364d7955aae9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}, udp: true}
-  - {name: "14|US美国(mibei77.com 米贝节点分享) #1", server: www.speedtest.net, port: 2096, type: vmess, uuid: 37dc5b2d-0cff-44cc-a9ab-9be1123c62f5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/@womanlifefreedom13?ed=2048", headers: {Host: freenodeWLF13.freedns.site}}, udp: true}
-  - {name: 14|德国new01（1x） - 快狗云〖电报：@ccbaohe】..., server: de-new01.gujuji.top, port: 8080, type: vmess, uuid: e786f10c-b797-47fe-b669-8eb3cd0fb969, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.gujuji.top}}, udp: true}
-  - {name: 14|美国new02（1x） - 快狗云〖电报：@ccbaohe】..., server: us-new02.gujuji.top, port: 8080, type: vmess, uuid: e786f10c-b797-47fe-b669-8eb3cd0fb969, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new02.gujuji.top}}, udp: true}
+  - {name: _CN_中国->🇨🇦_CA_加拿大, server: m.cnmjcn.com, port: 16648, type: vmess, uuid: c2c76420-257f-492a-b20f-6560f3bfa78d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com}}, udp: true}
+  - {name: _CN_中国->🇨🇦_CA_加拿大 2, server: yes.cnmjcn.net, port: 16648, type: vmess, uuid: c2c76420-257f-492a-b20f-6560f3bfa78d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com}}, udp: true}
+  - {name: "16,17|美国3|@ripaojiedian", server: 23.166.24.63, port: 11619, type: vmess, uuid: ec3e0973-3395-4ce9-86c0-34de005fee7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ec3e0973}, udp: true}
+  - {name: _DE_德国, server: 5.104.108.109, port: 443, type: trojan, password: 097f6b5f-bcf9-4a24-9f0d-d1feaa638d86, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -23,29 +23,29 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 14|新加坡6-DO
-      - "14|US美国(mibei77.com 米贝节点分享) #1"
-      - 14|德国new01（1x） - 快狗云〖电报：@ccbaohe】...
-      - 14|美国new02（1x） - 快狗云〖电报：@ccbaohe】...
+      - _CN_中国->🇨🇦_CA_加拿大
+      - _CN_中国->🇨🇦_CA_加拿大 2
+      - 16,17|美国3|@ripaojiedian
+      - _DE_德国
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 14|新加坡6-DO
-      - "14|US美国(mibei77.com 米贝节点分享) #1"
-      - 14|德国new01（1x） - 快狗云〖电报：@ccbaohe】...
-      - 14|美国new02（1x） - 快狗云〖电报：@ccbaohe】...
+      - _CN_中国->🇨🇦_CA_加拿大
+      - _CN_中国->🇨🇦_CA_加拿大 2
+      - 16,17|美国3|@ripaojiedian
+      - _DE_德国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 14|新加坡6-DO
-      - "14|US美国(mibei77.com 米贝节点分享) #1"
-      - 14|德国new01（1x） - 快狗云〖电报：@ccbaohe】...
-      - 14|美国new02（1x） - 快狗云〖电报：@ccbaohe】...
+      - _CN_中国->🇨🇦_CA_加拿大
+      - _CN_中国->🇨🇦_CA_加拿大 2
+      - 16,17|美国3|@ripaojiedian
+      - _DE_德国
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
