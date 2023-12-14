@@ -4,10 +4,10 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
+  - {name: 16|🇯🇵 日本|@ripaojiedian, server: wnzzk6rpny21upml.jichangjingxuan.com, port: 51011, type: ss, cipher: aes-128-gcm, password: 0274bf6c-4a1e-4611-bdc0-952d19e0d97e, udp: true}
+  - {name: 16|🇺🇸 美国特殊|@ripaojiedian, server: 52.33.95.19, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Mohsen-888, server: 18.142.250.63, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 4Nika-734, server: 139.227.182.207, port: 10016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 17|香港2|@ripaojiedian, server: 202.86.138.58, port: 50000, type: vmess, uuid: 33fef73f-cf19-4e70-b071-ddb0155a9556, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt-ji.455773.xyz}}, udp: true}
-  - {name: 14|🔒 VM-WS-NA 🇺🇸 US-172.67.229.13..., server: 172.67.229.13, port: 80, type: vmess, uuid: 7300c5af-8657-48ea-ba35-4cc1176c5220, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RO4vpgRqVSLPRRQi97uOJujdeO, headers: {Host: de55.v2-teh.fun}}, udp: true}
-  - {name: 16|🇯🇵 日本特殊|浏览器输入 翻墙.com, server: 52.221.200.66, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -23,29 +23,29 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 16|🇯🇵 日本|@ripaojiedian
+      - 16|🇺🇸 美国特殊|@ripaojiedian
+      - 4Mohsen-888
       - 4Nika-734
-      - 17|香港2|@ripaojiedian
-      - 14|🔒 VM-WS-NA 🇺🇸 US-172.67.229.13...
-      - 16|🇯🇵 日本特殊|浏览器输入 翻墙.com
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
+      - 16|🇯🇵 日本|@ripaojiedian
+      - 16|🇺🇸 美国特殊|@ripaojiedian
+      - 4Mohsen-888
       - 4Nika-734
-      - 17|香港2|@ripaojiedian
-      - 14|🔒 VM-WS-NA 🇺🇸 US-172.67.229.13...
-      - 16|🇯🇵 日本特殊|浏览器输入 翻墙.com
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 16|🇯🇵 日本|@ripaojiedian
+      - 16|🇺🇸 美国特殊|@ripaojiedian
+      - 4Mohsen-888
       - 4Nika-734
-      - 17|香港2|@ripaojiedian
-      - 14|🔒 VM-WS-NA 🇺🇸 US-172.67.229.13...
-      - 16|🇯🇵 日本特殊|浏览器输入 翻墙.com
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
