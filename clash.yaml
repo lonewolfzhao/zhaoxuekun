@@ -4,10 +4,10 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 16|🇭🇰 香港快|tg频道:@ripaojiedian, server: mf805f.micloud.buzz, port: 46005, type: vmess, uuid: da97e052-4867-4401-af80-fe51e4d2fdca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mf805f.micloud.buzz}}, udp: true}
-  - {name: 4Mohsen-916, server: 43.200.253.6, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 美国(油管:破解资源君), server: shouerbb.76898102.xyz, port: 2095, type: vmess, uuid: 54e78c8e-2c4c-301e-bc5d-bb27409a240a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: shouerb.76898102.xyz}}, udp: true}
+  - {name: _US_美国, server: us1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: e498c261-cabb-4b2c-810b-995d0bd8d049, sni: us1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
   - {name: 4Mohsen-890, server: 13.250.55.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _US_美国 2, server: 52.33.95.19, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 美国(油管:破解资源君), server: shouerbb.76898102.xyz, port: 2095, type: vmess, uuid: 54e78c8e-2c4c-301e-bc5d-bb27409a240a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: shouerb.76898102.xyz}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -23,29 +23,29 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 16|🇭🇰 香港快|tg频道:@ripaojiedian
-      - 4Mohsen-916
-      - 美国(油管:破解资源君)
+      - _US_美国
       - 4Mohsen-890
+      - _US_美国 2
+      - 美国(油管:破解资源君)
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 16|🇭🇰 香港快|tg频道:@ripaojiedian
-      - 4Mohsen-916
-      - 美国(油管:破解资源君)
+      - _US_美国
       - 4Mohsen-890
+      - _US_美国 2
+      - 美国(油管:破解资源君)
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 16|🇭🇰 香港快|tg频道:@ripaojiedian
-      - 4Mohsen-916
-      - 美国(油管:破解资源君)
+      - _US_美国
       - 4Mohsen-890
+      - _US_美国 2
+      - 美国(油管:破解资源君)
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
