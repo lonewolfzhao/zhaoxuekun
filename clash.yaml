@@ -4,10 +4,10 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: _CN_中国->🇨🇦_CA_加拿大, server: m.cnmjcn.com, port: 16648, type: vmess, uuid: c2c76420-257f-492a-b20f-6560f3bfa78d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com}}, udp: true}
-  - {name: 14|🔒 VM-WS-TLS 🏴‍☠️ NA-104.19.154..., server: 104.19.154.92, port: 2087, type: vmess, uuid: 8fada9c0-c348-4465-aade-ff0311454178, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /kqlqqv, headers: {Host: pAnel159.moOkomeILz.homes}}, udp: true}
-  - {name: _CN_中国->🇨🇦_CA_加拿大 2, server: yes.cnmjcn.net, port: 16648, type: vmess, uuid: c2c76420-257f-492a-b20f-6560f3bfa78d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com}}, udp: true}
-  - {name: 4Nika-734, server: 139.227.182.207, port: 10016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 16|🇭🇰 香港快|tg频道:@ripaojiedian, server: mf805f.micloud.buzz, port: 46005, type: vmess, uuid: da97e052-4867-4401-af80-fe51e4d2fdca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mf805f.micloud.buzz}}, udp: true}
+  - {name: 4Mohsen-916, server: 43.200.253.6, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 美国(油管:破解资源君), server: shouerbb.76898102.xyz, port: 2095, type: vmess, uuid: 54e78c8e-2c4c-301e-bc5d-bb27409a240a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: shouerb.76898102.xyz}}, udp: true}
+  - {name: 4Mohsen-890, server: 13.250.55.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -23,29 +23,29 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国->🇨🇦_CA_加拿大
-      - 14|🔒 VM-WS-TLS 🏴‍☠️ NA-104.19.154...
-      - _CN_中国->🇨🇦_CA_加拿大 2
-      - 4Nika-734
+      - 16|🇭🇰 香港快|tg频道:@ripaojiedian
+      - 4Mohsen-916
+      - 美国(油管:破解资源君)
+      - 4Mohsen-890
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - _CN_中国->🇨🇦_CA_加拿大
-      - 14|🔒 VM-WS-TLS 🏴‍☠️ NA-104.19.154...
-      - _CN_中国->🇨🇦_CA_加拿大 2
-      - 4Nika-734
+      - 16|🇭🇰 香港快|tg频道:@ripaojiedian
+      - 4Mohsen-916
+      - 美国(油管:破解资源君)
+      - 4Mohsen-890
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国->🇨🇦_CA_加拿大
-      - 14|🔒 VM-WS-TLS 🏴‍☠️ NA-104.19.154...
-      - _CN_中国->🇨🇦_CA_加拿大 2
-      - 4Nika-734
+      - 16|🇭🇰 香港快|tg频道:@ripaojiedian
+      - 4Mohsen-916
+      - 美国(油管:破解资源君)
+      - 4Mohsen-890
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
