@@ -5,9 +5,9 @@ log-level: info
 external-controller: :50000
 proxies:
   - {name: _CN_中国->🇨🇦_CA_加拿大, server: m.cnmjcn.com, port: 16648, type: vmess, uuid: c2c76420-257f-492a-b20f-6560f3bfa78d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com}}, udp: true}
+  - {name: 14|🔒 VM-WS-TLS 🏴‍☠️ NA-104.19.154..., server: 104.19.154.92, port: 2087, type: vmess, uuid: 8fada9c0-c348-4465-aade-ff0311454178, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /kqlqqv, headers: {Host: pAnel159.moOkomeILz.homes}}, udp: true}
   - {name: _CN_中国->🇨🇦_CA_加拿大 2, server: yes.cnmjcn.net, port: 16648, type: vmess, uuid: c2c76420-257f-492a-b20f-6560f3bfa78d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com}}, udp: true}
-  - {name: "16,17|美国3|@ripaojiedian", server: 23.166.24.63, port: 11619, type: vmess, uuid: ec3e0973-3395-4ce9-86c0-34de005fee7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ec3e0973}, udp: true}
-  - {name: _DE_德国, server: 5.104.108.109, port: 443, type: trojan, password: 097f6b5f-bcf9-4a24-9f0d-d1feaa638d86, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 4Nika-734, server: 139.227.182.207, port: 10016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -24,9 +24,9 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - _CN_中国->🇨🇦_CA_加拿大
+      - 14|🔒 VM-WS-TLS 🏴‍☠️ NA-104.19.154...
       - _CN_中国->🇨🇦_CA_加拿大 2
-      - 16,17|美国3|@ripaojiedian
-      - _DE_德国
+      - 4Nika-734
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
@@ -34,18 +34,18 @@ proxy-groups:
     interval: 300
     proxies:
       - _CN_中国->🇨🇦_CA_加拿大
+      - 14|🔒 VM-WS-TLS 🏴‍☠️ NA-104.19.154...
       - _CN_中国->🇨🇦_CA_加拿大 2
-      - 16,17|美国3|@ripaojiedian
-      - _DE_德国
+      - 4Nika-734
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
       - _CN_中国->🇨🇦_CA_加拿大
+      - 14|🔒 VM-WS-TLS 🏴‍☠️ NA-104.19.154...
       - _CN_中国->🇨🇦_CA_加拿大 2
-      - 16,17|美国3|@ripaojiedian
-      - _DE_德国
+      - 4Nika-734
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
@@ -1914,6 +1914,7 @@ rules:
   - DOMAIN-SUFFIX,tumbex.com,🔰 节点选择
   - DOMAIN-SUFFIX,twdvd.com,🔰 节点选择
   - DOMAIN-SUFFIX,unsplash.com,🔰 节点选择
+  - DOMAIN-SUFFIX,buzzsprout.com,🔰 节点选择
   - DOMAIN-SUFFIX,eu,🔰 节点选择
   - DOMAIN-SUFFIX,hk,🔰 节点选择
   - DOMAIN-SUFFIX,jp,🔰 节点选择
@@ -2366,6 +2367,7 @@ rules:
   - DOMAIN-SUFFIX,backchina.com,🔰 节点选择
   - DOMAIN-SUFFIX,backpackers.com.tw,🔰 节点选择
   - DOMAIN-SUFFIX,backtotiananmen.com,🔰 节点选择
+  - DOMAIN-SUFFIX,bad.news,🔰 节点选择
   - DOMAIN-SUFFIX,badiucao.com,🔰 节点选择
   - DOMAIN-SUFFIX,badjojo.com,🔰 节点选择
   - DOMAIN-SUFFIX,badoo.com,🔰 节点选择
@@ -4600,6 +4602,7 @@ rules:
   - DOMAIN-SUFFIX,info-graf.fr,🔰 节点选择
   - DOMAIN-SUFFIX,informer.com,🔰 节点选择
   - DOMAIN-SUFFIX,initiativesforchina.org,🔰 节点选择
+  - DOMAIN-SUFFIX,inkbunny.net,🔰 节点选择
   - DOMAIN-SUFFIX,inkui.com,🔰 节点选择
   - DOMAIN-SUFFIX,inmediahk.net,🔰 节点选择
   - DOMAIN-SUFFIX,innermongolia.org,🔰 节点选择
@@ -5121,6 +5124,7 @@ rules:
   - DOMAIN-SUFFIX,matrix.org,🔰 节点选择
   - DOMAIN-SUFFIX,matsushimakaede.com,🔰 节点选择
   - DOMAIN-SUFFIX,matters.news,🔰 节点选择
+  - DOMAIN-SUFFIX,matters.town,🔰 节点选择
   - DOMAIN-SUFFIX,mattwilcox.net,🔰 节点选择
   - DOMAIN-SUFFIX,maturejp.com,🔰 节点选择
   - DOMAIN-SUFFIX,maxing.jp,🔰 节点选择
@@ -8052,6 +8056,7 @@ rules:
   - DOMAIN-SUFFIX,ypncdn.com,🔰 节点选择
   - DOMAIN-SUFFIX,pixiv.net,🔰 节点选择
   - DOMAIN-SUFFIX,pximg.net,🔰 节点选择
+  - DOMAIN-SUFFIX,fanbox.cc,🔰 节点选择
   - DOMAIN-SUFFIX,amplitude.com,🔰 节点选择
   - DOMAIN-SUFFIX,firebaseio.com,🔰 节点选择
   - DOMAIN-SUFFIX,hockeyapp.net,🔰 节点选择
