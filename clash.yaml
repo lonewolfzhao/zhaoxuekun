@@ -4,10 +4,10 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 4Kian-906, server: 43.201.53.4, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Sarina-945, server: 52.221.200.66, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 16|🇯🇵 日本特殊2|@ripaojiedian, server: 13.230.132.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 16|🇰🇷 韩国特殊|@ripaojiedian, server: 43.201.82.233, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Nika-15, server: gdct001.theyydsnode.top, port: 45955, type: ss, cipher: chacha20-ietf-poly1305, password: 42760fd4-0d1c-443c-baae-9959ba95489a, udp: true}
+  - {name: 14|🇺🇸|US|美国|@wxgqlfx|44, server: us-new02.gujuji.top, port: 8080, type: vmess, uuid: 19de9747-b4b0-4b6c-9697-26cb1310f2cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new02.gujuji.top}}, udp: true}
+  - {name: 14|🇺🇸|US|美国|@wxgqlfx|24, server: cp2.colacloud.site, port: 2086, type: vmess, uuid: 63f06e16-01b8-44dc-aae6-1fe31af8a762, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sssddd, headers: {Host: cf-nlss.colacloud.site}}, udp: true}
+  - {name: 14|🇺🇸|US|美国|@wxgqlfx|21, server: ca-new01.gujuji.top, port: 8080, type: vmess, uuid: 2dbd709e-ba48-4bb3-8181-40995c18fa1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ca-new01.gujuji.top}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -23,29 +23,29 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Kian-906
-      - 4Sarina-945
-      - 16|🇯🇵 日本特殊2|@ripaojiedian
-      - 16|🇰🇷 韩国特殊|@ripaojiedian
+      - 4Nika-15
+      - 14|🇺🇸|US|美国|@wxgqlfx|44
+      - 14|🇺🇸|US|美国|@wxgqlfx|24
+      - 14|🇺🇸|US|美国|@wxgqlfx|21
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 4Kian-906
-      - 4Sarina-945
-      - 16|🇯🇵 日本特殊2|@ripaojiedian
-      - 16|🇰🇷 韩国特殊|@ripaojiedian
+      - 4Nika-15
+      - 14|🇺🇸|US|美国|@wxgqlfx|44
+      - 14|🇺🇸|US|美国|@wxgqlfx|24
+      - 14|🇺🇸|US|美国|@wxgqlfx|21
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Kian-906
-      - 4Sarina-945
-      - 16|🇯🇵 日本特殊2|@ripaojiedian
-      - 16|🇰🇷 韩国特殊|@ripaojiedian
+      - 4Nika-15
+      - 14|🇺🇸|US|美国|@wxgqlfx|44
+      - 14|🇺🇸|US|美国|@wxgqlfx|24
+      - 14|🇺🇸|US|美国|@wxgqlfx|21
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
