@@ -4,10 +4,10 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: KR-131.186.18.237-8696, server: 131.186.18.237, port: 20152, type: trojan, password: 928dc6ee-495b-446f-9f20-883dedce564a, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: "10,14,15|新加坡2|@ripaojiedian", server: yes.cnmjcn.net, port: 16618, type: vmess, uuid: c2c76420-257f-492a-b20f-6560f3bfa78d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com}}, udp: true}
-  - {name: SG-18.138.255.12-4573, server: 18.138.255.12, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 14|🇯🇵 日本特殊2|@ripaojiedian, server: 54.169.74.250, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "新加坡03{优化2|V2ray}", server: sg1.awslcn.info, port: 25221, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}, udp: true}
+  - {name: "美国06{优化1|V2ray}", server: us2.awslcn.info, port: 25257, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us2.awslcn.info}}, udp: true}
+  - {name: 12|US-美国 03 | CDN | 倍率x5, server: 162.159.138.110, port: 2052, type: vmess, uuid: fe2ff945-6428-491a-81ab-7f97c6b77216, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mg_cdn.yunjisuan.cf}}, udp: true}
+  - {name: "德国02{移动|V2ray}", server: cm.awslcn.info, port: 25241, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -23,29 +23,29 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - KR-131.186.18.237-8696
-      - 10,14,15|新加坡2|@ripaojiedian
-      - SG-18.138.255.12-4573
-      - 14|🇯🇵 日本特殊2|@ripaojiedian
+      - 新加坡03{优化2|V2ray}
+      - 美国06{优化1|V2ray}
+      - 12|US-美国 03 | CDN | 倍率x5
+      - 德国02{移动|V2ray}
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - KR-131.186.18.237-8696
-      - 10,14,15|新加坡2|@ripaojiedian
-      - SG-18.138.255.12-4573
-      - 14|🇯🇵 日本特殊2|@ripaojiedian
+      - 新加坡03{优化2|V2ray}
+      - 美国06{优化1|V2ray}
+      - 12|US-美国 03 | CDN | 倍率x5
+      - 德国02{移动|V2ray}
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - KR-131.186.18.237-8696
-      - 10,14,15|新加坡2|@ripaojiedian
-      - SG-18.138.255.12-4573
-      - 14|🇯🇵 日本特殊2|@ripaojiedian
+      - 新加坡03{优化2|V2ray}
+      - 美国06{优化1|V2ray}
+      - 12|US-美国 03 | CDN | 倍率x5
+      - 德国02{移动|V2ray}
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
