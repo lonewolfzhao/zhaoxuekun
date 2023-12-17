@@ -4,10 +4,10 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 4Nika-15, server: gdct001.theyydsnode.top, port: 45955, type: ss, cipher: chacha20-ietf-poly1305, password: 42760fd4-0d1c-443c-baae-9959ba95489a, udp: true}
-  - {name: 14|🇺🇸|US|美国|@wxgqlfx|44, server: us-new02.gujuji.top, port: 8080, type: vmess, uuid: 19de9747-b4b0-4b6c-9697-26cb1310f2cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new02.gujuji.top}}, udp: true}
-  - {name: 14|🇺🇸|US|美国|@wxgqlfx|24, server: cp2.colacloud.site, port: 2086, type: vmess, uuid: 63f06e16-01b8-44dc-aae6-1fe31af8a762, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sssddd, headers: {Host: cf-nlss.colacloud.site}}, udp: true}
-  - {name: 14|🇺🇸|US|美国|@wxgqlfx|21, server: ca-new01.gujuji.top, port: 8080, type: vmess, uuid: 2dbd709e-ba48-4bb3-8181-40995c18fa1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ca-new01.gujuji.top}}, udp: true}
+  - {name: _US_美国, server: 35.90.10.174, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: JP-52.194.252.137-4601, server: 52.194.252.137, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: SG-13.212.204.117-0976, server: 13.212.204.117, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: KR-131.186.18.237-8696, server: 131.186.18.237, port: 20152, type: trojan, password: 928dc6ee-495b-446f-9f20-883dedce564a, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -23,29 +23,29 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Nika-15
-      - 14|🇺🇸|US|美国|@wxgqlfx|44
-      - 14|🇺🇸|US|美国|@wxgqlfx|24
-      - 14|🇺🇸|US|美国|@wxgqlfx|21
+      - _US_美国
+      - JP-52.194.252.137-4601
+      - SG-13.212.204.117-0976
+      - KR-131.186.18.237-8696
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 4Nika-15
-      - 14|🇺🇸|US|美国|@wxgqlfx|44
-      - 14|🇺🇸|US|美国|@wxgqlfx|24
-      - 14|🇺🇸|US|美国|@wxgqlfx|21
+      - _US_美国
+      - JP-52.194.252.137-4601
+      - SG-13.212.204.117-0976
+      - KR-131.186.18.237-8696
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Nika-15
-      - 14|🇺🇸|US|美国|@wxgqlfx|44
-      - 14|🇺🇸|US|美国|@wxgqlfx|24
-      - 14|🇺🇸|US|美国|@wxgqlfx|21
+      - _US_美国
+      - JP-52.194.252.137-4601
+      - SG-13.212.204.117-0976
+      - KR-131.186.18.237-8696
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
