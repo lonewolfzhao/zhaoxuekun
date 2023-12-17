@@ -4,10 +4,10 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: _US_美国, server: 35.90.10.174, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: JP-52.194.252.137-4601, server: 52.194.252.137, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: SG-13.212.204.117-0976, server: 13.212.204.117, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: KR-131.186.18.237-8696, server: 131.186.18.237, port: 20152, type: trojan, password: 928dc6ee-495b-446f-9f20-883dedce564a, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: "10,14,15|新加坡2|@ripaojiedian", server: yes.cnmjcn.net, port: 16618, type: vmess, uuid: c2c76420-257f-492a-b20f-6560f3bfa78d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com}}, udp: true}
+  - {name: SG-18.138.255.12-4573, server: 18.138.255.12, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 14|🇯🇵 日本特殊2|@ripaojiedian, server: 54.169.74.250, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -23,29 +23,29 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国
-      - JP-52.194.252.137-4601
-      - SG-13.212.204.117-0976
       - KR-131.186.18.237-8696
+      - 10,14,15|新加坡2|@ripaojiedian
+      - SG-18.138.255.12-4573
+      - 14|🇯🇵 日本特殊2|@ripaojiedian
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - _US_美国
-      - JP-52.194.252.137-4601
-      - SG-13.212.204.117-0976
       - KR-131.186.18.237-8696
+      - 10,14,15|新加坡2|@ripaojiedian
+      - SG-18.138.255.12-4573
+      - 14|🇯🇵 日本特殊2|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国
-      - JP-52.194.252.137-4601
-      - SG-13.212.204.117-0976
       - KR-131.186.18.237-8696
+      - 10,14,15|新加坡2|@ripaojiedian
+      - SG-18.138.255.12-4573
+      - 14|🇯🇵 日本特殊2|@ripaojiedian
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
