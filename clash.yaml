@@ -4,10 +4,10 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: "新加坡03{优化2|V2ray}", server: sg1.awslcn.info, port: 25221, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}, udp: true}
-  - {name: "美国02{优化2|V2ray}", server: us1.awslcn.info, port: 25239, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us1.awslcn.info}}, udp: true}
-  - {name: "德国01{移动|V2ray}", server: cm1.awslcn.info, port: 25241, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}, udp: true}
-  - {name: 12|🇺🇸|US|美国|@wxgqlfx|26, server: de-new01.gujuji.top, port: 8080, type: vmess, uuid: 2909ec15-27f7-4ce2-87d6-35d078d927f8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.gujuji.top}}, udp: true}
+  - {name: CN-120.233.43.33-3308, server: m.cnmjcn.com, port: 16616, type: vmess, uuid: c2c76420-257f-492a-b20f-6560f3bfa78d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com}}, udp: true}
+  - {name: KR-217.142.128.129-0211, server: unlk4.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 21152, type: trojan, password: ff981c01-9f9a-4b27-bb09-0d98b7a4b7fa, sni: ip3691376078.mobgslb.tbcache.com, skip-cert-verify: true, udp: true}
+  - {name: "10,14,15|新加坡2|@ripaojiedian", server: yes.cnmjcn.net, port: 16618, type: vmess, uuid: c2c76420-257f-492a-b20f-6560f3bfa78d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com}}, udp: true}
+  - {name: github.com/freefq - 俄罗斯  4, server: 193.203.203.88, port: 8443, type: vmess, uuid: 012a4853-55fe-4eef-b8c2-e87f8fd178e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -23,29 +23,29 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡03{优化2|V2ray}
-      - 美国02{优化2|V2ray}
-      - 德国01{移动|V2ray}
-      - 12|🇺🇸|US|美国|@wxgqlfx|26
+      - CN-120.233.43.33-3308
+      - KR-217.142.128.129-0211
+      - 10,14,15|新加坡2|@ripaojiedian
+      - github.com/freefq - 俄罗斯  4
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 新加坡03{优化2|V2ray}
-      - 美国02{优化2|V2ray}
-      - 德国01{移动|V2ray}
-      - 12|🇺🇸|US|美国|@wxgqlfx|26
+      - CN-120.233.43.33-3308
+      - KR-217.142.128.129-0211
+      - 10,14,15|新加坡2|@ripaojiedian
+      - github.com/freefq - 俄罗斯  4
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡03{优化2|V2ray}
-      - 美国02{优化2|V2ray}
-      - 德国01{移动|V2ray}
-      - 12|🇺🇸|US|美国|@wxgqlfx|26
+      - CN-120.233.43.33-3308
+      - KR-217.142.128.129-0211
+      - 10,14,15|新加坡2|@ripaojiedian
+      - github.com/freefq - 俄罗斯  4
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
