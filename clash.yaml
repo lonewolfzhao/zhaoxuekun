@@ -6,12 +6,12 @@ external-controller: :50000
 proxies:
   - {name: 12|🇺🇸|US|美国|@wxgqlfx|65, server: de-new01.gujuji.top, port: 8080, type: vmess, uuid: ed82c5d8-9983-4620-9614-83b7d1958d54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.gujuji.top}}, udp: true}
   - {name: 12|🇺🇸|US|美国|@wxgqlfx|21, server: 104.18.159.31, port: 8080, type: vmess, uuid: 3815d559-3fdd-40b1-b3ab-c0352f5e63b1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: v2.egpyun.com}}, udp: true}
+  - {name: 12|🇺🇸|US|美国|@wxgqlfx|53, server: 104.21.14.6, port: 2082, type: vmess, uuid: 3fc4081e-7054-470d-d483-94e92448fe14, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Galaxy_Vpns, headers: {Host: king.fox-is.monster}}, udp: true}
   - {name: 1|_DE_, server: 5.104.107.143, port: 443, type: trojan, password: 6befeeb3-702b-4948-9028-f9e072f2da98, skip-cert-verify: true, udp: true}
   - {name: 12|🇺🇸|US|美国|@wxgqlfx|62, server: de-new01.gujuji.top, port: 8080, type: vmess, uuid: 7fdbc047-438c-4c65-9859-101aaa60b6b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.gujuji.top}}, udp: true}
   - {name: "14,15|新加坡2|@ripaojiedian", server: yes.cnmjcn.net, port: 16618, type: vmess, uuid: c2c76420-257f-492a-b20f-6560f3bfa78d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com}}, udp: true}
   - {name: 12|JP-Packet_Host-vm, server: hexsen.com, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/argo-vmess?ed=2048", headers: {Host: jp.king361.cf}}, udp: true}
   - {name: 12|🇺🇸|US|美国|@wxgqlfx|44, server: ca-new01.gujuji.top, port: 8080, type: vmess, uuid: ed82c5d8-9983-4620-9614-83b7d1958d54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ca-new01.gujuji.top}}, udp: true}
-  - {name: "0,1,2,3,4,6,7,8|🇬🇧 United Kingdom 01 @nodpai #1", server: 172.99.190.109, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -29,12 +29,12 @@ proxy-groups:
       - 🎯 全球直连
       - 12|🇺🇸|US|美国|@wxgqlfx|65
       - 12|🇺🇸|US|美国|@wxgqlfx|21
+      - 12|🇺🇸|US|美国|@wxgqlfx|53
       - 1|_DE_
       - 12|🇺🇸|US|美国|@wxgqlfx|62
       - 14,15|新加坡2|@ripaojiedian
       - 12|JP-Packet_Host-vm
       - 12|🇺🇸|US|美国|@wxgqlfx|44
-      - "0,1,2,3,4,6,7,8|🇬🇧 United Kingdom 01 @nodpai #1"
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
@@ -43,12 +43,12 @@ proxy-groups:
     proxies:
       - 12|🇺🇸|US|美国|@wxgqlfx|65
       - 12|🇺🇸|US|美国|@wxgqlfx|21
+      - 12|🇺🇸|US|美国|@wxgqlfx|53
       - 1|_DE_
       - 12|🇺🇸|US|美国|@wxgqlfx|62
       - 14,15|新加坡2|@ripaojiedian
       - 12|JP-Packet_Host-vm
       - 12|🇺🇸|US|美国|@wxgqlfx|44
-      - "0,1,2,3,4,6,7,8|🇬🇧 United Kingdom 01 @nodpai #1"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -56,12 +56,12 @@ proxy-groups:
       - 🎯 全球直连
       - 12|🇺🇸|US|美国|@wxgqlfx|65
       - 12|🇺🇸|US|美国|@wxgqlfx|21
+      - 12|🇺🇸|US|美国|@wxgqlfx|53
       - 1|_DE_
       - 12|🇺🇸|US|美国|@wxgqlfx|62
       - 14,15|新加坡2|@ripaojiedian
       - 12|JP-Packet_Host-vm
       - 12|🇺🇸|US|美国|@wxgqlfx|44
-      - "0,1,2,3,4,6,7,8|🇬🇧 United Kingdom 01 @nodpai #1"
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
