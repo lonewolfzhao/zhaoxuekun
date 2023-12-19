@@ -5,6 +5,7 @@ log-level: info
 external-controller: :50000
 proxies:
   - {name: 12|🇺🇸|US|美国|@wxgqlfx|65, server: de-new01.gujuji.top, port: 8080, type: vmess, uuid: ed82c5d8-9983-4620-9614-83b7d1958d54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.gujuji.top}}, udp: true}
+  - {name: 12|🇺🇸|US|美国|@wxgqlfx|68, server: uk-new01.gujuji.top, port: 8080, type: vmess, uuid: ed82c5d8-9983-4620-9614-83b7d1958d54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uk-new01.gujuji.top}}, udp: true}
   - {name: 12|🇺🇸|US|美国|@wxgqlfx|21, server: 104.18.159.31, port: 8080, type: vmess, uuid: 3815d559-3fdd-40b1-b3ab-c0352f5e63b1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: v2.egpyun.com}}, udp: true}
   - {name: 12|🇺🇸|US|美国|@wxgqlfx|53, server: 104.21.14.6, port: 2082, type: vmess, uuid: 3fc4081e-7054-470d-d483-94e92448fe14, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Galaxy_Vpns, headers: {Host: king.fox-is.monster}}, udp: true}
   - {name: 1|_DE_, server: 5.104.107.143, port: 443, type: trojan, password: 6befeeb3-702b-4948-9028-f9e072f2da98, skip-cert-verify: true, udp: true}
@@ -28,6 +29,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 12|🇺🇸|US|美国|@wxgqlfx|65
+      - 12|🇺🇸|US|美国|@wxgqlfx|68
       - 12|🇺🇸|US|美国|@wxgqlfx|21
       - 12|🇺🇸|US|美国|@wxgqlfx|53
       - 1|_DE_
@@ -42,6 +44,7 @@ proxy-groups:
     interval: 300
     proxies:
       - 12|🇺🇸|US|美国|@wxgqlfx|65
+      - 12|🇺🇸|US|美国|@wxgqlfx|68
       - 12|🇺🇸|US|美国|@wxgqlfx|21
       - 12|🇺🇸|US|美国|@wxgqlfx|53
       - 1|_DE_
@@ -55,6 +58,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 12|🇺🇸|US|美国|@wxgqlfx|65
+      - 12|🇺🇸|US|美国|@wxgqlfx|68
       - 12|🇺🇸|US|美国|@wxgqlfx|21
       - 12|🇺🇸|US|美国|@wxgqlfx|53
       - 1|_DE_
