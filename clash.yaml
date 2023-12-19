@@ -4,10 +4,13 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: "11,12|🔒 VM-WS-NA 🏴‍☠️ NA-104.16.3.18...", server: 104.16.3.189, port: 8080, type: vmess, uuid: a60e5632-3069-415b-9ddc-cb0b3fabdafa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@vpn_whal, headers: {Host: p.l.vpn.whal.whaleproject.tech}}, udp: true}
-  - {name: 4FreeIran-826, server: 52.221.200.66, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 12|加拿大new01（1x） - 快狗云〖电报：@ccbaohe..., server: ca-new01.gujuji.top, port: 8080, type: vmess, uuid: 32e86c0c-0be1-48e1-98e9-31ae4b897f33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ca-new01.gujuji.top}}, udp: true}
-  - {name: 4FreeIran-779, server: 3.112.69.5, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 14|🇯🇵 日本特殊2|@ripaojiedian, server: 52.78.207.28, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "新加坡04{优化2|V2ray}", server: sg1.awslcn.info, port: 25246, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}, udp: true}
+  - {name: CN-116.163.29.181-0156, server: us1.awslcn.info, port: 25239, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us1.awslcn.info}}, udp: true}
+  - {name: "台湾02{移动|V2ray}", server: cm.awslcn.info, port: 25233, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}, udp: true}
+  - {name: _CN_中国->🇬🇧_GB_英国, server: gbs.pptv-tv.store, port: 17728, type: trojan, password: 299a6171-b4ce-403a-8157-c3dad55ef3a2, skip-cert-verify: true, udp: true}
+  - {name: 14|🇭🇰 香港4|@ripaojiedian, server: nc.cm.go002.xyz, port: 19511, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce, udp: true}
+  - {name: "香港02{优化2|V2ray}", server: hk2.awslcn.info, port: 25242, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk2.awslcn.info}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -23,29 +26,38 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 11,12|🔒 VM-WS-NA 🏴‍☠️ NA-104.16.3.18...
-      - 4FreeIran-826
-      - 12|加拿大new01（1x） - 快狗云〖电报：@ccbaohe...
-      - 4FreeIran-779
+      - 14|🇯🇵 日本特殊2|@ripaojiedian
+      - 新加坡04{优化2|V2ray}
+      - CN-116.163.29.181-0156
+      - 台湾02{移动|V2ray}
+      - _CN_中国->🇬🇧_GB_英国
+      - 14|🇭🇰 香港4|@ripaojiedian
+      - 香港02{优化2|V2ray}
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 11,12|🔒 VM-WS-NA 🏴‍☠️ NA-104.16.3.18...
-      - 4FreeIran-826
-      - 12|加拿大new01（1x） - 快狗云〖电报：@ccbaohe...
-      - 4FreeIran-779
+      - 14|🇯🇵 日本特殊2|@ripaojiedian
+      - 新加坡04{优化2|V2ray}
+      - CN-116.163.29.181-0156
+      - 台湾02{移动|V2ray}
+      - _CN_中国->🇬🇧_GB_英国
+      - 14|🇭🇰 香港4|@ripaojiedian
+      - 香港02{优化2|V2ray}
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 11,12|🔒 VM-WS-NA 🏴‍☠️ NA-104.16.3.18...
-      - 4FreeIran-826
-      - 12|加拿大new01（1x） - 快狗云〖电报：@ccbaohe...
-      - 4FreeIran-779
+      - 14|🇯🇵 日本特殊2|@ripaojiedian
+      - 新加坡04{优化2|V2ray}
+      - CN-116.163.29.181-0156
+      - 台湾02{移动|V2ray}
+      - _CN_中国->🇬🇧_GB_英国
+      - 14|🇭🇰 香港4|@ripaojiedian
+      - 香港02{优化2|V2ray}
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
