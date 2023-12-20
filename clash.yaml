@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 4Kian-103, server: gtm.ktmwan.com, port: 27252, type: ss, cipher: chacha20-ietf-poly1305, password: 0c022b52-3215-452f-a07d-920dbf78d369, udp: true}
-  - {name: 4Kian-507, server: 120.232.165.26, port: 12371, type: ss, cipher: chacha20-ietf-poly1305, password: e9e5d3fa-c038-430b-bfa2-e5daf5442e98, udp: true}
-  - {name: 4Kian-795, server: 18.142.250.63, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 14|🇯🇵 日本特殊2|@ripaojiedian, server: 52.221.217.97, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 12|TW_speednode_0076, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: 99e39047-9298-404e-b632-1867f7ed1b37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 14|🇯🇵 日本特殊|@ripaojiedian, server: 3.0.183.169, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 4Kian-1112, server: 80.92.204.106, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: 4Kian-787, server: 13.230.132.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "14,15|新加坡2|@ripaojiedian", server: yes.cnmjcn.net, port: 16618, type: vmess, uuid: c2c76420-257f-492a-b20f-6560f3bfa78d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com}}, udp: true}
+  - {name: 4Mohsen-796, server: 52.194.252.137, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Kian-640, server: 1.170.192.201, port: 10016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 14|🇹🇼 台湾|频道:@ripaojiedian, server: 121.229.42.206, port: 19521, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce, udp: true}
+  - {name: "12,15|台湾2|@ripaojiedian", server: nb36.ntbq.dynu.net, port: 3643, type: vmess, uuid: 99e39047-9298-404e-b632-1867f7ed1b37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "2,4,6,10|美国CloudFlare节点 12", server: hexsen.com, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/argo-vmess?ed=2048", headers: {Host: us.king361.cf}}, udp: true}
+  - {name: 14|🇯🇵 日本特殊|@ripaojiedian, server: 3.0.183.169, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Kian-103
-      - 4Kian-507
-      - 4Kian-795
-      - 14|🇯🇵 日本特殊2|@ripaojiedian
-      - 12|TW_speednode_0076
-      - 14|🇯🇵 日本特殊|@ripaojiedian
       - 4Kian-1112
-      - 4Kian-787
+      - 14,15|新加坡2|@ripaojiedian
+      - 4Mohsen-796
+      - 4Kian-640
+      - 14|🇹🇼 台湾|频道:@ripaojiedian
+      - 12,15|台湾2|@ripaojiedian
+      - 2,4,6,10|美国CloudFlare节点 12
+      - 14|🇯🇵 日本特殊|@ripaojiedian
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 4Kian-103
-      - 4Kian-507
-      - 4Kian-795
-      - 14|🇯🇵 日本特殊2|@ripaojiedian
-      - 12|TW_speednode_0076
-      - 14|🇯🇵 日本特殊|@ripaojiedian
       - 4Kian-1112
-      - 4Kian-787
+      - 14,15|新加坡2|@ripaojiedian
+      - 4Mohsen-796
+      - 4Kian-640
+      - 14|🇹🇼 台湾|频道:@ripaojiedian
+      - 12,15|台湾2|@ripaojiedian
+      - 2,4,6,10|美国CloudFlare节点 12
+      - 14|🇯🇵 日本特殊|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Kian-103
-      - 4Kian-507
-      - 4Kian-795
-      - 14|🇯🇵 日本特殊2|@ripaojiedian
-      - 12|TW_speednode_0076
-      - 14|🇯🇵 日本特殊|@ripaojiedian
       - 4Kian-1112
-      - 4Kian-787
+      - 14,15|新加坡2|@ripaojiedian
+      - 4Mohsen-796
+      - 4Kian-640
+      - 14|🇹🇼 台湾|频道:@ripaojiedian
+      - 12,15|台湾2|@ripaojiedian
+      - 2,4,6,10|美国CloudFlare节点 12
+      - 14|🇯🇵 日本特殊|@ripaojiedian
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
