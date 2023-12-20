@@ -4,14 +4,11 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 4Jadi-822, server: 52.194.252.137, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4FreeIran-779, server: 3.112.69.5, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 亚洲(油管:破解资源君), server: unlk5.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 25002, type: trojan, password: 37d2266b-d239-47ea-8d26-35583da9e3d5, sni: ip3691376078.mobgslb.tbcache.com, skip-cert-verify: true, udp: true}
+  - {name: 12|🔒 VM-WS-NA 🇺🇸 US-146.235.227.2..., server: 146.235.227.242, port: 56052, type: vmess, uuid: 5da8114c-0bc6-4416-aa3e-106bcc452161, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: microsoft.com}}, udp: true}
   - {name: 4Mohsen-747, server: 13.212.204.117, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Mohsen-766, server: 13.250.55.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Jadi-760, server: 13.230.132.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 12|US_youtube@资源分享师_193, server: 92.223.107.42, port: 443, type: vmess, uuid: 56bb54b0-5cfc-4b35-bc81-0b300a08b46b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@FORWARDV2RAY, headers: {Host: m3hdio1.servehalflife.com}}, udp: true}
-  - {name: "10,11|github.com/freefq - 广东省移动 17", server: m.cnmjcn.com, port: 16616, type: vmess, uuid: c2c76420-257f-492a-b20f-6560f3bfa78d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com}}, udp: true}
+  - {name: "14,15|新加坡2|@ripaojiedian", server: yes.cnmjcn.net, port: 16618, type: vmess, uuid: c2c76420-257f-492a-b20f-6560f3bfa78d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com}}, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国, server: cm01.newcome.xyz, port: 7703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 45641:1119_jE165t, obfs-param: 511df45641.microsoft.com, udp: true}
+  - {name: "0,3,6,12|荷兰 - 阿姆斯特丹 - Yisp B.V.", server: 46.182.107.15, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1702215223320}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +24,32 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Jadi-822
-      - 4FreeIran-779
-      - 亚洲(油管:破解资源君)
+      - 12|🔒 VM-WS-NA 🇺🇸 US-146.235.227.2...
       - 4Mohsen-747
-      - 4Mohsen-766
-      - 4Jadi-760
-      - 12|US_youtube@资源分享师_193
-      - 10,11|github.com/freefq - 广东省移动 17
+      - 14,15|新加坡2|@ripaojiedian
+      - _CN_中国->🇺🇸_US_美国
+      - 0,3,6,12|荷兰 - 阿姆斯特丹 - Yisp B.V.
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 4Jadi-822
-      - 4FreeIran-779
-      - 亚洲(油管:破解资源君)
+      - 12|🔒 VM-WS-NA 🇺🇸 US-146.235.227.2...
       - 4Mohsen-747
-      - 4Mohsen-766
-      - 4Jadi-760
-      - 12|US_youtube@资源分享师_193
-      - 10,11|github.com/freefq - 广东省移动 17
+      - 14,15|新加坡2|@ripaojiedian
+      - _CN_中国->🇺🇸_US_美国
+      - 0,3,6,12|荷兰 - 阿姆斯特丹 - Yisp B.V.
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Jadi-822
-      - 4FreeIran-779
-      - 亚洲(油管:破解资源君)
+      - 12|🔒 VM-WS-NA 🇺🇸 US-146.235.227.2...
       - 4Mohsen-747
-      - 4Mohsen-766
-      - 4Jadi-760
-      - 12|US_youtube@资源分享师_193
-      - 10,11|github.com/freefq - 广东省移动 17
+      - 14,15|新加坡2|@ripaojiedian
+      - _CN_中国->🇺🇸_US_美国
+      - 0,3,6,12|荷兰 - 阿姆斯特丹 - Yisp B.V.
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
