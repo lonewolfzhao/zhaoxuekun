@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 亚洲(油管:破解资源君), server: sg1.awslcn.info, port: 25245, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}, udp: true}
-  - {name: "台湾01{移动|V2ray}", server: cm1.awslcn.info, port: 25233, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}, udp: true}
-  - {name: 4Kian-1112, server: 80.92.204.106, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: 14|🇰🇷 韩国特殊|@ripaojiedian, server: 54.169.114.116, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Mohsen-906, server: 43.201.82.233, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 14|🇯🇵 日本特殊2|@ripaojiedian, server: 3.1.81.236, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 亚洲(油管:破解资源君) 2, server: unlk4.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 21152, type: trojan, password: ba4db48d-46d7-4b53-ba03-0878ed637aa1, sni: ip3691376078.mobgslb.tbcache.com, skip-cert-verify: true, udp: true}
-  - {name: 4Mohsen-925, server: 52.78.207.28, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 11|github.com/freefq - 四川省联通数据上网公..., server: yes.cnmjcn.net, port: 16626, type: vmess, uuid: c2c76420-257f-492a-b20f-6560f3bfa78d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com}}, udp: true}
+  - {name: 14|🇯🇵 日本特殊|@ripaojiedian, server: 3.0.183.169, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国, server: cm01.newcome.xyz, port: 7706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 45641:1119_jE165t, obfs-param: 511df45641.microsoft.com, udp: true}
+  - {name: 4Mohsen-899, server: 43.201.53.4, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: HK-203.198.16.219-1714, server: download1hkt.windowsupdatea.com, port: 443, type: trojan, password: e0ca72b2-eb7c-4498-b05e-28a3681bacbf, sni: glc-hkt1.windowsupdatea.com, skip-cert-verify: true, udp: true}
+  - {name: 14|🇹🇼 台湾|频道:@ripaojiedian, server: 121.229.42.206, port: 19521, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce, udp: true}
+  - {name: 4Sarina-877, server: 3.35.131.11, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "11,12,18|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_7", server: 45.58.153.25, port: 30000, type: vmess, uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1702961716738}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 亚洲(油管:破解资源君)
-      - 台湾01{移动|V2ray}
-      - 4Kian-1112
-      - 14|🇰🇷 韩国特殊|@ripaojiedian
-      - 4Mohsen-906
-      - 14|🇯🇵 日本特殊2|@ripaojiedian
-      - 亚洲(油管:破解资源君) 2
-      - 4Mohsen-925
+      - 11|github.com/freefq - 四川省联通数据上网公...
+      - 14|🇯🇵 日本特殊|@ripaojiedian
+      - _CN_中国->🇺🇸_US_美国
+      - 4Mohsen-899
+      - HK-203.198.16.219-1714
+      - 14|🇹🇼 台湾|频道:@ripaojiedian
+      - 4Sarina-877
+      - 11,12,18|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_7
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 亚洲(油管:破解资源君)
-      - 台湾01{移动|V2ray}
-      - 4Kian-1112
-      - 14|🇰🇷 韩国特殊|@ripaojiedian
-      - 4Mohsen-906
-      - 14|🇯🇵 日本特殊2|@ripaojiedian
-      - 亚洲(油管:破解资源君) 2
-      - 4Mohsen-925
+      - 11|github.com/freefq - 四川省联通数据上网公...
+      - 14|🇯🇵 日本特殊|@ripaojiedian
+      - _CN_中国->🇺🇸_US_美国
+      - 4Mohsen-899
+      - HK-203.198.16.219-1714
+      - 14|🇹🇼 台湾|频道:@ripaojiedian
+      - 4Sarina-877
+      - 11,12,18|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_7
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 亚洲(油管:破解资源君)
-      - 台湾01{移动|V2ray}
-      - 4Kian-1112
-      - 14|🇰🇷 韩国特殊|@ripaojiedian
-      - 4Mohsen-906
-      - 14|🇯🇵 日本特殊2|@ripaojiedian
-      - 亚洲(油管:破解资源君) 2
-      - 4Mohsen-925
+      - 11|github.com/freefq - 四川省联通数据上网公...
+      - 14|🇯🇵 日本特殊|@ripaojiedian
+      - _CN_中国->🇺🇸_US_美国
+      - 4Mohsen-899
+      - HK-203.198.16.219-1714
+      - 14|🇹🇼 台湾|频道:@ripaojiedian
+      - 4Sarina-877
+      - 11,12,18|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_7
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
