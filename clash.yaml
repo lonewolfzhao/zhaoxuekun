@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
+  - {name: github.com/freefq - 美国CloudFlare节点 5, server: cdn.shoptajv2ray.sbs, port: 8080, type: vmess, uuid: f2042dca-2363-4fb1-9f95-12a880392b34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cdn.shoptajv2ray.sbs}}, udp: true}
+  - {name: RELAY-172.67.193.150-1726, server: de-new01.gujuji.top, port: 8080, type: vmess, uuid: 68afc615-7eff-47e9-889b-d1b454268d64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.gujuji.top}}, udp: true}
+  - {name: "12|法国 - 巴黎 - Cloudflare, Inc.", server: fr-new01.gujuji.top, port: 8080, type: vmess, uuid: 68afc615-7eff-47e9-889b-d1b454268d64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr-new01.gujuji.top}}, udp: true}
+  - {name: 12|@Hope_Net-join-us-on-Telegram, server: tl.iranray.online, port: 8080, type: vmess, uuid: b3c20911-126d-4c30-bd32-10152bf0b593, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tl.iranray.online}}, udp: true}
+  - {name: 14|🇰🇷 韩国特殊|@ripaojiedian, server: 54.169.114.116, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Jadi-859, server: 13.250.55.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 14|🇯🇵 日本特殊2|@ripaojiedian, server: 3.1.81.236, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 4Kian-1112, server: 80.92.204.106, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: "14,15|新加坡2|@ripaojiedian", server: yes.cnmjcn.net, port: 16618, type: vmess, uuid: c2c76420-257f-492a-b20f-6560f3bfa78d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com}}, udp: true}
-  - {name: 4Mohsen-796, server: 52.194.252.137, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Kian-640, server: 1.170.192.201, port: 10016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 14|🇹🇼 台湾|频道:@ripaojiedian, server: 121.229.42.206, port: 19521, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce, udp: true}
-  - {name: "12,15|台湾2|@ripaojiedian", server: nb36.ntbq.dynu.net, port: 3643, type: vmess, uuid: 99e39047-9298-404e-b632-1867f7ed1b37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "2,4,6,10|美国CloudFlare节点 12", server: hexsen.com, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/argo-vmess?ed=2048", headers: {Host: us.king361.cf}}, udp: true}
-  - {name: 14|🇯🇵 日本特殊|@ripaojiedian, server: 3.0.183.169, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - github.com/freefq - 美国CloudFlare节点 5
+      - RELAY-172.67.193.150-1726
+      - 12|法国 - 巴黎 - Cloudflare, Inc.
+      - 12|@Hope_Net-join-us-on-Telegram
+      - 14|🇰🇷 韩国特殊|@ripaojiedian
+      - 4Jadi-859
+      - 14|🇯🇵 日本特殊2|@ripaojiedian
       - 4Kian-1112
-      - 14,15|新加坡2|@ripaojiedian
-      - 4Mohsen-796
-      - 4Kian-640
-      - 14|🇹🇼 台湾|频道:@ripaojiedian
-      - 12,15|台湾2|@ripaojiedian
-      - 2,4,6,10|美国CloudFlare节点 12
-      - 14|🇯🇵 日本特殊|@ripaojiedian
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
+      - github.com/freefq - 美国CloudFlare节点 5
+      - RELAY-172.67.193.150-1726
+      - 12|法国 - 巴黎 - Cloudflare, Inc.
+      - 12|@Hope_Net-join-us-on-Telegram
+      - 14|🇰🇷 韩国特殊|@ripaojiedian
+      - 4Jadi-859
+      - 14|🇯🇵 日本特殊2|@ripaojiedian
       - 4Kian-1112
-      - 14,15|新加坡2|@ripaojiedian
-      - 4Mohsen-796
-      - 4Kian-640
-      - 14|🇹🇼 台湾|频道:@ripaojiedian
-      - 12,15|台湾2|@ripaojiedian
-      - 2,4,6,10|美国CloudFlare节点 12
-      - 14|🇯🇵 日本特殊|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - github.com/freefq - 美国CloudFlare节点 5
+      - RELAY-172.67.193.150-1726
+      - 12|法国 - 巴黎 - Cloudflare, Inc.
+      - 12|@Hope_Net-join-us-on-Telegram
+      - 14|🇰🇷 韩国特殊|@ripaojiedian
+      - 4Jadi-859
+      - 14|🇯🇵 日本特殊2|@ripaojiedian
       - 4Kian-1112
-      - 14,15|新加坡2|@ripaojiedian
-      - 4Mohsen-796
-      - 4Kian-640
-      - 14|🇹🇼 台湾|频道:@ripaojiedian
-      - 12,15|台湾2|@ripaojiedian
-      - 2,4,6,10|美国CloudFlare节点 12
-      - 14|🇯🇵 日本特殊|@ripaojiedian
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
