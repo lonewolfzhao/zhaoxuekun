@@ -5,13 +5,13 @@ log-level: info
 external-controller: :50000
 proxies:
   - {name: "14,15|新加坡2|@ripaojiedian", server: yes.cnmjcn.net, port: 16618, type: vmess, uuid: c2c76420-257f-492a-b20f-6560f3bfa78d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com}}, udp: true}
-  - {name: 4Kian-863, server: 18.142.250.63, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Kian-922, server: 52.221.217.97, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bLLNN%�", server: zx02.endhigh.xyz, port: 6702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: 12|法国new01优选（1x） - 快狗云〖电报：@ccbaoh..., server: go.gujuji.top, port: 8080, type: vmess, uuid: 4f4e22b5-a5ef-4a3e-a80a-2ad51ad068cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr-new01.gujuji.top}}, udp: true}
+  - {name: 14|🇰🇷 韩国特殊|@ripaojiedian, server: 54.169.114.116, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bLLNN%� 2", server: zx02.endhigh.xyz, port: 6709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
   - {name: 4Jadi-859, server: 13.250.55.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Jadi-900, server: 43.201.56.214, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: RELAY-104.21.33.130-1655, server: 104.21.33.130, port: 2052, type: vmess, uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: family.mgtajhiz.ir}}, udp: true}
-  - {name: 4Sarina-877, server: 3.35.131.11, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bLLNN%�", server: zx02.endhigh.xyz, port: 6709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: 14|🇯🇵 东京特殊|@ripaojiedian, server: 13.250.102.223, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K����LLNM%�", server: cm01.newcome.xyz, port: 5703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -28,13 +28,13 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 14,15|新加坡2|@ripaojiedian
-      - 4Kian-863
-      - 4Kian-922
-      - 4Jadi-859
-      - 4Jadi-900
-      - RELAY-104.21.33.130-1655
-      - 4Sarina-877
       - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bLLNN%�"
+      - 12|法国new01优选（1x） - 快狗云〖电报：@ccbaoh...
+      - 14|🇰🇷 韩国特殊|@ripaojiedian
+      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bLLNN%� 2"
+      - 4Jadi-859
+      - 14|🇯🇵 东京特殊|@ripaojiedian
+      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K����LLNM%�"
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
@@ -42,26 +42,26 @@ proxy-groups:
     interval: 300
     proxies:
       - 14,15|新加坡2|@ripaojiedian
-      - 4Kian-863
-      - 4Kian-922
-      - 4Jadi-859
-      - 4Jadi-900
-      - RELAY-104.21.33.130-1655
-      - 4Sarina-877
       - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bLLNN%�"
+      - 12|法国new01优选（1x） - 快狗云〖电报：@ccbaoh...
+      - 14|🇰🇷 韩国特殊|@ripaojiedian
+      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bLLNN%� 2"
+      - 4Jadi-859
+      - 14|🇯🇵 东京特殊|@ripaojiedian
+      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K����LLNM%�"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 14,15|新加坡2|@ripaojiedian
-      - 4Kian-863
-      - 4Kian-922
-      - 4Jadi-859
-      - 4Jadi-900
-      - RELAY-104.21.33.130-1655
-      - 4Sarina-877
       - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bLLNN%�"
+      - 12|法国new01优选（1x） - 快狗云〖电报：@ccbaoh...
+      - 14|🇰🇷 韩国特殊|@ripaojiedian
+      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bLLNN%� 2"
+      - 4Jadi-859
+      - 14|🇯🇵 东京特殊|@ripaojiedian
+      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K����LLNM%�"
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
