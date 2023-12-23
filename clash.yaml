@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
+  - {name: "10|广西河池市 联通 #1", server: yes.cnmjcn.net, port: 16626, type: vmess, uuid: c2c76420-257f-492a-b20f-6560f3bfa78d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com}}, udp: true}
   - {name: 1|_CN_->_RU_, server: cm1.awslcn.info, port: 25230, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}, udp: true}
-  - {name: "新加坡03{优化2|V2ray}", server: sg1.awslcn.info, port: 25221, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}, udp: true}
-  - {name: _DE_德国, server: 5.104.108.109, port: 443, type: trojan, password: 45a8d20d-9a78-4be4-a74a-ab3b9e84e34e, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 4Nika-1094, server: 80.92.204.106, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: 4Mohsen-856, server: 13.230.132.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 12|🇺🇸|US|美国|@wxgqlfx|32, server: 104.21.94.251, port: 80, type: vmess, uuid: c7421a39-020d-4a01-97ed-9eacbce0a7ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: de2.xv2ray.net}}, udp: true}
   - {name: 14|🇰🇷 韩国特殊|@ripaojiedian, server: 54.169.114.116, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Nika-619, server: 1.170.216.165, port: 10016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 4Nika-801, server: 43.200.254.135, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Kian-841, server: 52.221.217.97, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 14|🇯🇵 东京特殊|@ripaojiedian, server: 13.250.102.223, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Nika-782, server: 3.0.183.169, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 12|🔒 VM-TCP-NA 🇹🇼 TW-125.224.142...., server: 125.224.142.191, port: 6122, type: vmess, uuid: 2358c269-178a-43c0-a208-c6cc52d398f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "10|广西河池市 联通 #1"
       - 1|_CN_->_RU_
-      - 新加坡03{优化2|V2ray}
-      - _DE_德国
-      - 4Nika-1094
-      - 4Mohsen-856
+      - 12|🇺🇸|US|美国|@wxgqlfx|32
       - 14|🇰🇷 韩国特殊|@ripaojiedian
-      - 4Nika-619
-      - 4Nika-801
+      - 4Kian-841
+      - 14|🇯🇵 东京特殊|@ripaojiedian
+      - 4Nika-782
+      - 12|🔒 VM-TCP-NA 🇹🇼 TW-125.224.142....
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
+      - "10|广西河池市 联通 #1"
       - 1|_CN_->_RU_
-      - 新加坡03{优化2|V2ray}
-      - _DE_德国
-      - 4Nika-1094
-      - 4Mohsen-856
+      - 12|🇺🇸|US|美国|@wxgqlfx|32
       - 14|🇰🇷 韩国特殊|@ripaojiedian
-      - 4Nika-619
-      - 4Nika-801
+      - 4Kian-841
+      - 14|🇯🇵 东京特殊|@ripaojiedian
+      - 4Nika-782
+      - 12|🔒 VM-TCP-NA 🇹🇼 TW-125.224.142....
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "10|广西河池市 联通 #1"
       - 1|_CN_->_RU_
-      - 新加坡03{优化2|V2ray}
-      - _DE_德国
-      - 4Nika-1094
-      - 4Mohsen-856
+      - 12|🇺🇸|US|美国|@wxgqlfx|32
       - 14|🇰🇷 韩国特殊|@ripaojiedian
-      - 4Nika-619
-      - 4Nika-801
+      - 4Kian-841
+      - 14|🇯🇵 东京特殊|@ripaojiedian
+      - 4Nika-782
+      - 12|🔒 VM-TCP-NA 🇹🇼 TW-125.224.142....
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
