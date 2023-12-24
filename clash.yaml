@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: CN-220.205.37.10-4910, server: yes.cnmjcn.net, port: 16618, type: vmess, uuid: c2c76420-257f-492a-b20f-6560f3bfa78d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com}}, udp: true}
-  - {name: "0,2,3,4,6,18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_由快嘴科技提供:kk...", server: m.cnmjcn.com, port: 16648, type: vmess, uuid: c2c76420-257f-492a-b20f-6560f3bfa78d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com}}, udp: true}
-  - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bNM\r�%%�", server: zx02.endhigh.xyz, port: 6704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: "0,2,3,4,6,18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_2_5", server: t.cnmjcn.cyou, port: 16648, type: vmess, uuid: c2c76420-257f-492a-b20f-6560f3bfa78d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com}}, udp: true}
-  - {name: 4Nika-619, server: 1.170.216.165, port: 10016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 14|🇰🇷 韩国特殊|@ripaojiedian, server: 43.201.64.47, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: CN-220.205.37.10-4931, server: yes.cnmjcn.net, port: 16626, type: vmess, uuid: c2c76420-257f-492a-b20f-6560f3bfa78d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com}}, udp: true}
+  - {name: "新加坡02{优化1|V2ray}", server: sg1.awslcn.info, port: 25243, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}, udp: true}
+  - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�\r%%�", server: cm03.newcome.xyz, port: 6705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
   - {name: 4FreeIran-835, server: 54.169.114.116, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 14|🇰🇷 韩国特殊|@ripaojiedian, server: 43.201.64.47, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 4FreeIran-745, server: 13.212.204.117, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Mohsen-763, server: 13.250.55.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _US_美国, server: 45.58.153.25, port: 30000, type: vmess, uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1702961716738}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-220.205.37.10-4910
-      - 0,2,3,4,6,18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_由快嘴科技提供:kk...
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bNM\r�%%�"
-      - 0,2,3,4,6,18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_2_5
-      - 4Nika-619
-      - 14|🇰🇷 韩国特殊|@ripaojiedian
+      - CN-220.205.37.10-4931
+      - 新加坡02{优化1|V2ray}
+      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�\r%%�"
       - 4FreeIran-835
+      - 14|🇰🇷 韩国特殊|@ripaojiedian
       - 4FreeIran-745
+      - 4Mohsen-763
+      - _US_美国
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - CN-220.205.37.10-4910
-      - 0,2,3,4,6,18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_由快嘴科技提供:kk...
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bNM\r�%%�"
-      - 0,2,3,4,6,18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_2_5
-      - 4Nika-619
-      - 14|🇰🇷 韩国特殊|@ripaojiedian
+      - CN-220.205.37.10-4931
+      - 新加坡02{优化1|V2ray}
+      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�\r%%�"
       - 4FreeIran-835
+      - 14|🇰🇷 韩国特殊|@ripaojiedian
       - 4FreeIran-745
+      - 4Mohsen-763
+      - _US_美国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-220.205.37.10-4910
-      - 0,2,3,4,6,18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_由快嘴科技提供:kk...
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bNM\r�%%�"
-      - 0,2,3,4,6,18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_2_5
-      - 4Nika-619
-      - 14|🇰🇷 韩国特殊|@ripaojiedian
+      - CN-220.205.37.10-4931
+      - 新加坡02{优化1|V2ray}
+      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\f�\r%%�"
       - 4FreeIran-835
+      - 14|🇰🇷 韩国特殊|@ripaojiedian
       - 4FreeIran-745
+      - 4Mohsen-763
+      - _US_美国
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
