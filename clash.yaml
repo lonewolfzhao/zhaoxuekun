@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\fN\f%%�", server: zx02.endhigh.xyz, port: 6700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: 12|US_youtube@资源分享师_271, server: mehdi22.goodbyefilteringchannel.space, port: 80, type: vmess, uuid: 819aa317-b82f-45a4-8226-c1de31361f97, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /forwardv2ray1forwardv2ray4, headers: {Host: mehdi22.goodbyefilteringchannel.space}}, udp: true}
-  - {name: 12|🇻🇳越南1区中转, server: cm-03.zhuanfa.link, port: 45826, type: vmess, uuid: 65d79be3-7327-45f8-86fc-bd7f27948eec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 亚洲(油管:破解资源君), server: yes.cnmjcn.net, port: 16626, type: vmess, uuid: c2c76420-257f-492a-b20f-6560f3bfa78d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com}}, udp: true}
-  - {name: 12|NL_speednode_0102, server: 46.182.107.15, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1702215223320, headers: {Host: www.42077230.xyz}}, udp: true}
-  - {name: RELAY-104.21.24.72-1672, server: 104.21.24.72, port: 80, type: vmess, uuid: 5120d7e0-5ba9-4164-b61b-0f8fefabab34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: no1.xv2ray.net}}, udp: true}
-  - {name: "10,11,12|🇺🇸白嫖节点US白嫖节点美国 #14", server: 198.2.202.81, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1702961716738, headers: {Host: www.65825524.xyz}}, udp: true}
-  - {name: 12|US_speednode_0113, server: 192.74.249.4, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1702215223320}, udp: true}
+  - {name: CN-183.236.51.21-1223, server: sg1.awslcn.info, port: 25243, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}, udp: true}
+  - {name: 10|美国 加利福尼亚州圣何塞PEG TECH数据中心, server: 192.74.249.4, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1702215223320, headers: {Host: www.37790958.xyz}}, udp: true}
+  - {name: RELAY-104.16.170.246-1881, server: 104.16.170.246, port: 80, type: vmess, uuid: 47dba4a9-380d-4197-f0fb-bcd6704e82f2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vmiss.51.tf}}, udp: true}
+  - {name: 欧洲(油管:破解资源君), server: 46.182.107.15, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1702215223320}, udp: true}
+  - {name: "0,2,4,18|🇮🇷_IR_伊朗_由快嘴科技提供：kkzui.com5", server: duss.celebjared.pk, port: 80, type: vmess, uuid: 781dfd50-3d2f-4d5b-99ef-47fa111bddb8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Y07GAOt43udo1xvoAgfajHtB, headers: {Host: duss.celebjared.pk}}, udp: true}
+  - {name: 12|US_speednode_0112, server: 198.2.202.24, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1702215223320}, udp: true}
+  - {name: 14|🇯🇵 东京特殊|@ripaojiedian, server: 57.180.13.136, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "12,15|韩国3|@ripaojiedian", server: muran-kr.qrfly.me, port: 20254, type: vmess, uuid: 007be9ad-8db6-4164-fc49-49989bbcba96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: muran-kr.qrfly.me}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\fN\f%%�"
-      - 12|US_youtube@资源分享师_271
-      - 12|🇻🇳越南1区中转
-      - 亚洲(油管:破解资源君)
-      - 12|NL_speednode_0102
-      - RELAY-104.21.24.72-1672
-      - "10,11,12|🇺🇸白嫖节点US白嫖节点美国 #14"
-      - 12|US_speednode_0113
+      - CN-183.236.51.21-1223
+      - 10|美国 加利福尼亚州圣何塞PEG TECH数据中心
+      - RELAY-104.16.170.246-1881
+      - 欧洲(油管:破解资源君)
+      - 0,2,4,18|🇮🇷_IR_伊朗_由快嘴科技提供：kkzui.com5
+      - 12|US_speednode_0112
+      - 14|🇯🇵 东京特殊|@ripaojiedian
+      - 12,15|韩国3|@ripaojiedian
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\fN\f%%�"
-      - 12|US_youtube@资源分享师_271
-      - 12|🇻🇳越南1区中转
-      - 亚洲(油管:破解资源君)
-      - 12|NL_speednode_0102
-      - RELAY-104.21.24.72-1672
-      - "10,11,12|🇺🇸白嫖节点US白嫖节点美国 #14"
-      - 12|US_speednode_0113
+      - CN-183.236.51.21-1223
+      - 10|美国 加利福尼亚州圣何塞PEG TECH数据中心
+      - RELAY-104.16.170.246-1881
+      - 欧洲(油管:破解资源君)
+      - 0,2,4,18|🇮🇷_IR_伊朗_由快嘴科技提供：kkzui.com5
+      - 12|US_speednode_0112
+      - 14|🇯🇵 东京特殊|@ripaojiedian
+      - 12,15|韩国3|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "%�\x11�<'���ӋLN\fˌ�\f\x0b���K���\x0bL\fN\f%%�"
-      - 12|US_youtube@资源分享师_271
-      - 12|🇻🇳越南1区中转
-      - 亚洲(油管:破解资源君)
-      - 12|NL_speednode_0102
-      - RELAY-104.21.24.72-1672
-      - "10,11,12|🇺🇸白嫖节点US白嫖节点美国 #14"
-      - 12|US_speednode_0113
+      - CN-183.236.51.21-1223
+      - 10|美国 加利福尼亚州圣何塞PEG TECH数据中心
+      - RELAY-104.16.170.246-1881
+      - 欧洲(油管:破解资源君)
+      - 0,2,4,18|🇮🇷_IR_伊朗_由快嘴科技提供：kkzui.com5
+      - 12|US_speednode_0112
+      - 14|🇯🇵 东京特殊|@ripaojiedian
+      - 12,15|韩国3|@ripaojiedian
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
