@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: US-149.28.67.45-3859, server: v2usavip01.csadata4g.me, port: 80, type: vmess, uuid: b197f270-b86c-4df2-9d37-771968e980f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
-  - {name: CN-183.236.51.21-1325, server: sg1.awslcn.info, port: 25245, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}, udp: true}
-  - {name: 4Sarina-478, server: nc.cm.go002.xyz, port: 19591, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce, udp: true}
-  - {name: 4Sarina-466, server: 120.232.234.221, port: 19511, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce, udp: true}
+  - {name: 14|🇺🇸 美国3|@ripaojiedian, server: nc.cm.go002.xyz, port: 19561, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce, udp: true}
+  - {name: 4Sarina-469, server: 120.232.234.221, port: 19591, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce, udp: true}
   - {name: 12|NL_speednode_0102, server: 46.182.107.15, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1702215223320, headers: {Host: www.42077230.xyz}}, udp: true}
+  - {name: 4Nika-2010, server: jp01.az0dsa.air-nameserver.work, port: 41787, type: ss, cipher: aes-256-gcm, password: d9a296076f464682, udp: true}
   - {name: "10|美国加利福尼亚州洛杉矶 PetaExpress #1", server: 198.2.202.24, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1702215223320, headers: {Host: www.94231160.xyz}}, udp: true}
-  - {name: 10|美国 加利福尼亚州圣何塞PEG TECH数据中心, server: 192.74.249.4, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1702215223320, headers: {Host: www.37790958.xyz}}, udp: true}
-  - {name: SG-207.148.77.215-0237, server: 207.148.77.215, port: 2, type: trojan, password: uLMSiafRJ2, skip-cert-verify: true, udp: true}
+  - {name: _US_美国, server: 35.87.39.181, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: US-15.181.201.80-0246, server: 15.181.201.80, port: 443, type: trojan, password: pjdnqv, skip-cert-verify: true, udp: true}
+  - {name: "2,3,4,10,11|github.com/freefq - 湖南省联通 24", server: yes.cnmjcn.net, port: 16626, type: vmess, uuid: c2c76420-257f-492a-b20f-6560f3bfa78d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US-149.28.67.45-3859
-      - CN-183.236.51.21-1325
-      - 4Sarina-478
-      - 4Sarina-466
+      - 14|🇺🇸 美国3|@ripaojiedian
+      - 4Sarina-469
       - 12|NL_speednode_0102
+      - 4Nika-2010
       - "10|美国加利福尼亚州洛杉矶 PetaExpress #1"
-      - 10|美国 加利福尼亚州圣何塞PEG TECH数据中心
-      - SG-207.148.77.215-0237
+      - _US_美国
+      - US-15.181.201.80-0246
+      - 2,3,4,10,11|github.com/freefq - 湖南省联通 24
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - US-149.28.67.45-3859
-      - CN-183.236.51.21-1325
-      - 4Sarina-478
-      - 4Sarina-466
+      - 14|🇺🇸 美国3|@ripaojiedian
+      - 4Sarina-469
       - 12|NL_speednode_0102
+      - 4Nika-2010
       - "10|美国加利福尼亚州洛杉矶 PetaExpress #1"
-      - 10|美国 加利福尼亚州圣何塞PEG TECH数据中心
-      - SG-207.148.77.215-0237
+      - _US_美国
+      - US-15.181.201.80-0246
+      - 2,3,4,10,11|github.com/freefq - 湖南省联通 24
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US-149.28.67.45-3859
-      - CN-183.236.51.21-1325
-      - 4Sarina-478
-      - 4Sarina-466
+      - 14|🇺🇸 美国3|@ripaojiedian
+      - 4Sarina-469
       - 12|NL_speednode_0102
+      - 4Nika-2010
       - "10|美国加利福尼亚州洛杉矶 PetaExpress #1"
-      - 10|美国 加利福尼亚州圣何塞PEG TECH数据中心
-      - SG-207.148.77.215-0237
+      - _US_美国
+      - US-15.181.201.80-0246
+      - 2,3,4,10,11|github.com/freefq - 湖南省联通 24
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
