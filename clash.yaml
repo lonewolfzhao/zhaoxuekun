@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: github.com/freefq - 美国  24, server: 45.159.249.231, port: 38584, type: ss, cipher: chacha20-ietf-poly1305, password: zIPjynKNVVaBnKK0UZ5zu2, udp: true}
+  - {name: 美国(油管:破解资源君), server: cm1.awslcn.info, port: 25230, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}, udp: true}
+  - {name: 4Nika-743, server: 13.212.206.130, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: RELAY-195.85.59.95-2982, server: www.csgo.com, port: 443, type: vmess, uuid: 1af25c0f-2eca-4f8d-9ea4-738b2ed690f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: usfree.supernike.com}}, udp: true}
   - {name: DE-5.104.108.109-2380, server: 5.104.108.109, port: 443, type: trojan, password: e86e242e-b5d5-46ae-a410-3684f7d70ac2, skip-cert-verify: true, udp: true}
-  - {name: 12|NL_speednode_0102, server: 46.182.107.15, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1702215223320, headers: {Host: www.42077230.xyz}}, udp: true}
-  - {name: "10,11,12|TW-板桥2-2(TCP) - 麻雀加速器 Sparrow〖...", server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: 847bfa48-992d-4634-904f-be77beb390ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "10,11,12|VPN招代理电报联系@xiaoying229", server: 198.2.202.81, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1702961716738, headers: {Host: www.65825524.xyz}}, udp: true}
-  - {name: 4Nika-842, server: 52.221.212.191, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 15|日本|@ripaojiedian, server: zjxc.pmxu.link, port: 59441, type: vmess, uuid: 183fdfbf-07b6-3724-a3ba-c35af6d0c825, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US-15.181.201.80-0246, server: 15.181.201.80, port: 443, type: trojan, password: pjdnqv, skip-cert-verify: true, udp: true}
+  - {name: RELAY-162.159.200.1-2957, server: time.cloudflare.com, port: 443, type: vmess, uuid: 1af25c0f-2eca-4f8d-9ea4-738b2ed690f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: usfree.supernike.com}}, udp: true}
+  - {name: SG-54.251.150.231-1033, server: 54.251.150.231, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Nika-761, server: 13.250.25.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "10|美国加利福尼亚州洛杉矶 PetaExpress #1", server: 198.2.202.24, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1702215223320, headers: {Host: www.94231160.xyz}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq - 美国  24
+      - 美国(油管:破解资源君)
+      - 4Nika-743
+      - RELAY-195.85.59.95-2982
       - DE-5.104.108.109-2380
-      - 12|NL_speednode_0102
-      - 10,11,12|TW-板桥2-2(TCP) - 麻雀加速器 Sparrow〖...
-      - 10,11,12|VPN招代理电报联系@xiaoying229
-      - 4Nika-842
-      - 15|日本|@ripaojiedian
-      - US-15.181.201.80-0246
+      - RELAY-162.159.200.1-2957
+      - SG-54.251.150.231-1033
+      - 4Nika-761
+      - "10|美国加利福尼亚州洛杉矶 PetaExpress #1"
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - github.com/freefq - 美国  24
+      - 美国(油管:破解资源君)
+      - 4Nika-743
+      - RELAY-195.85.59.95-2982
       - DE-5.104.108.109-2380
-      - 12|NL_speednode_0102
-      - 10,11,12|TW-板桥2-2(TCP) - 麻雀加速器 Sparrow〖...
-      - 10,11,12|VPN招代理电报联系@xiaoying229
-      - 4Nika-842
-      - 15|日本|@ripaojiedian
-      - US-15.181.201.80-0246
+      - RELAY-162.159.200.1-2957
+      - SG-54.251.150.231-1033
+      - 4Nika-761
+      - "10|美国加利福尼亚州洛杉矶 PetaExpress #1"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq - 美国  24
+      - 美国(油管:破解资源君)
+      - 4Nika-743
+      - RELAY-195.85.59.95-2982
       - DE-5.104.108.109-2380
-      - 12|NL_speednode_0102
-      - 10,11,12|TW-板桥2-2(TCP) - 麻雀加速器 Sparrow〖...
-      - 10,11,12|VPN招代理电报联系@xiaoying229
-      - 4Nika-842
-      - 15|日本|@ripaojiedian
-      - US-15.181.201.80-0246
+      - RELAY-162.159.200.1-2957
+      - SG-54.251.150.231-1033
+      - 4Nika-761
+      - "10|美国加利福尼亚州洛杉矶 PetaExpress #1"
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
