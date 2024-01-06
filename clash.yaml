@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 13|🔒 VM-WS-TLS 🏴‍☠️ NA-104.17.2.1..., server: 104.17.2.183, port: 8443, type: vmess, uuid: 8ec71bc2-d056-48bc-ab99-ef3692c740fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v2ra2yy.posht3bani.shop}}, udp: true}
-  - {name: 13|🔒 VM-WS-NONE 🇺🇸 US-172.67.161...., server: 172.67.161.104, port: 80, type: vmess, uuid: ef36ace3-f85f-4a54-89e9-a8ef47ba8bf6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/743?ed=2048", headers: {Host: sometimes-florida-nuke-particular.trycloudflare.com}}, udp: true}
+  - {name: VN-103.154.63.16-0398, server: 103.154.63.16, port: 443, type: trojan, password: cb85c4a1-5ad3-4194-a919-2bbb5b987564, sni: dl.kgvn.garenanow.com, skip-cert-verify: true, udp: true}
+  - {name: _US_美国, server: 54.188.25.27, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Nika-763, server: 3.34.191.21, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "0,2,3,4,6,11,12,13,17|🇺🇸 _US_美国->🇮🇷_IR_伊朗 #5", server: 104.18.154.42, port: 80, type: vmess, uuid: a2f27205-5b59-4a1d-e9ed-c78f7ab4b633, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: Quran14.eSmAIlkORea.sHop}}, udp: true}
-  - {name: RELAY-188.114.97.20-1787, server: 188.114.97.20, port: 80, type: vmess, uuid: e4c7e0ce-ed93-40d9-8f38-90497cb83864, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fi1.xv2ray.net}}, udp: true}
-  - {name: 11|美国加利福尼亚州洛杉矶 PetaExpress, server: 198.2.200.37, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1702215223320}, udp: true}
-  - {name: 13|-2418-TW【ccbaohe.com〗 永久免费节点机场, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: 08ee510e-68e6-4a71-8d3a-1c576ffa3cac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(油管:破解资源君), server: 45.58.153.25, port: 30000, type: vmess, uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1702961716738}, udp: true}
   - {name: 4Mohsen-1051, server: 80.92.204.106, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: 4Mohsen-729, server: 13.230.96.57, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 美国(油管:破解资源君), server: sefarat24.com, port: 443, type: vmess, uuid: c6539ccf-08ff-4ce9-8659-df89190c99bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: pt2-vmess.sshmax.xyz}}, udp: true}
+  - {name: RELAY-104.21.32.215-0095, server: a3.bcbot.in, port: 8880, type: vmess, uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a3.bcbot.in}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 13|🔒 VM-WS-TLS 🏴‍☠️ NA-104.17.2.1...
-      - 13|🔒 VM-WS-NONE 🇺🇸 US-172.67.161....
+      - VN-103.154.63.16-0398
+      - _US_美国
+      - 4Nika-763
       - "0,2,3,4,6,11,12,13,17|🇺🇸 _US_美国->🇮🇷_IR_伊朗 #5"
-      - RELAY-188.114.97.20-1787
-      - 11|美国加利福尼亚州洛杉矶 PetaExpress
-      - 13|-2418-TW【ccbaohe.com〗 永久免费节点机场
+      - 欧洲(油管:破解资源君)
       - 4Mohsen-1051
-      - 4Mohsen-729
+      - 美国(油管:破解资源君)
+      - RELAY-104.21.32.215-0095
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 13|🔒 VM-WS-TLS 🏴‍☠️ NA-104.17.2.1...
-      - 13|🔒 VM-WS-NONE 🇺🇸 US-172.67.161....
+      - VN-103.154.63.16-0398
+      - _US_美国
+      - 4Nika-763
       - "0,2,3,4,6,11,12,13,17|🇺🇸 _US_美国->🇮🇷_IR_伊朗 #5"
-      - RELAY-188.114.97.20-1787
-      - 11|美国加利福尼亚州洛杉矶 PetaExpress
-      - 13|-2418-TW【ccbaohe.com〗 永久免费节点机场
+      - 欧洲(油管:破解资源君)
       - 4Mohsen-1051
-      - 4Mohsen-729
+      - 美国(油管:破解资源君)
+      - RELAY-104.21.32.215-0095
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 13|🔒 VM-WS-TLS 🏴‍☠️ NA-104.17.2.1...
-      - 13|🔒 VM-WS-NONE 🇺🇸 US-172.67.161....
+      - VN-103.154.63.16-0398
+      - _US_美国
+      - 4Nika-763
       - "0,2,3,4,6,11,12,13,17|🇺🇸 _US_美国->🇮🇷_IR_伊朗 #5"
-      - RELAY-188.114.97.20-1787
-      - 11|美国加利福尼亚州洛杉矶 PetaExpress
-      - 13|-2418-TW【ccbaohe.com〗 永久免费节点机场
+      - 欧洲(油管:破解资源君)
       - 4Mohsen-1051
-      - 4Mohsen-729
+      - 美国(油管:破解资源君)
+      - RELAY-104.21.32.215-0095
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
