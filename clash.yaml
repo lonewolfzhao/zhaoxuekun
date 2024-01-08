@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: "1,13|🇺🇸_US_美国_4", server: a3.bcbot.in, port: 8880, type: vmess, uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a3.bcbot.in}}, udp: true}
-  - {name: 4Sarina-1039, server: 193.182.144.240, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 4Sarina-1456, server: 38.75.136.49, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 4Sarina-740, server: 13.124.93.250, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _FR_法国, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 4Sarina-801, server: 43.201.100.232, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Sarina-768, server: 3.35.131.11, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Sarina-685, server: 217.30.10.68, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: _SG_新加坡_152, server: 54.169.202.194, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: CN-183.236.51.6-2916, server: tiananmen.19890604.day, port: 10802, type: trojan, password: aa6e5206-987c-4087-a463-d5a5d7b05776, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 4Sarina-763, server: 13.250.25.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: RELAY-172.67.217.144-0167, server: 172.67.217.144, port: 80, type: vmess, uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lv1.xv2ray.net}}, udp: true}
+  - {name: 4Nika-725, server: 13.115.27.76, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Nika-819, server: 54.250.43.167, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Nika-747, server: 13.230.132.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _JP_日本_220, server: 54.64.134.112, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 1,13|🇺🇸_US_美国_4
-      - 4Sarina-1039
-      - 4Sarina-1456
-      - 4Sarina-740
-      - _FR_法国
-      - 4Sarina-801
-      - 4Sarina-768
-      - 4Sarina-685
+      - _SG_新加坡_152
+      - CN-183.236.51.6-2916
+      - 4Sarina-763
+      - RELAY-172.67.217.144-0167
+      - 4Nika-725
+      - 4Nika-819
+      - 4Nika-747
+      - _JP_日本_220
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 1,13|🇺🇸_US_美国_4
-      - 4Sarina-1039
-      - 4Sarina-1456
-      - 4Sarina-740
-      - _FR_法国
-      - 4Sarina-801
-      - 4Sarina-768
-      - 4Sarina-685
+      - _SG_新加坡_152
+      - CN-183.236.51.6-2916
+      - 4Sarina-763
+      - RELAY-172.67.217.144-0167
+      - 4Nika-725
+      - 4Nika-819
+      - 4Nika-747
+      - _JP_日本_220
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 1,13|🇺🇸_US_美国_4
-      - 4Sarina-1039
-      - 4Sarina-1456
-      - 4Sarina-740
-      - _FR_法国
-      - 4Sarina-801
-      - 4Sarina-768
-      - 4Sarina-685
+      - _SG_新加坡_152
+      - CN-183.236.51.6-2916
+      - 4Sarina-763
+      - RELAY-172.67.217.144-0167
+      - 4Nika-725
+      - 4Nika-819
+      - 4Nika-747
+      - _JP_日本_220
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
