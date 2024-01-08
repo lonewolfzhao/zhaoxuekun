@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: _SG_新加坡_152, server: 54.169.202.194, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: CN-183.236.51.6-2916, server: tiananmen.19890604.day, port: 10802, type: trojan, password: aa6e5206-987c-4087-a463-d5a5d7b05776, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: CN-183.236.51.7-2860, server: falungong.19890604.day, port: 10824, type: trojan, password: aa6e5206-987c-4087-a463-d5a5d7b05776, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 4Sarina-763, server: 13.250.25.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: RELAY-172.67.217.144-0167, server: 172.67.217.144, port: 80, type: vmess, uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lv1.xv2ray.net}}, udp: true}
-  - {name: 4Nika-725, server: 13.115.27.76, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 美国(油管:破解资源君), server: sefarat24.com, port: 443, type: vmess, uuid: 298cfba1-2f02-4e61-b689-e58adbf9de53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: ru1-vmess.sshmax.xyz}}, udp: true}
+  - {name: VN-103.154.63.16-0148, server: 103.154.63.16, port: 443, type: trojan, password: cb85c4a1-5ad3-4194-a919-2bbb5b987564, skip-cert-verify: true, udp: true}
+  - {name: 4Sarina-788, server: 3.36.92.179, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Sarina-804, server: 43.201.147.151, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 4Nika-819, server: 54.250.43.167, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Nika-747, server: 13.230.132.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _JP_日本_220, server: 54.64.134.112, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Sarina-740, server: 13.124.93.250, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _SG_新加坡_152
-      - CN-183.236.51.6-2916
+      - CN-183.236.51.7-2860
       - 4Sarina-763
-      - RELAY-172.67.217.144-0167
-      - 4Nika-725
+      - 美国(油管:破解资源君)
+      - VN-103.154.63.16-0148
+      - 4Sarina-788
+      - 4Sarina-804
       - 4Nika-819
-      - 4Nika-747
-      - _JP_日本_220
+      - 4Sarina-740
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - _SG_新加坡_152
-      - CN-183.236.51.6-2916
+      - CN-183.236.51.7-2860
       - 4Sarina-763
-      - RELAY-172.67.217.144-0167
-      - 4Nika-725
+      - 美国(油管:破解资源君)
+      - VN-103.154.63.16-0148
+      - 4Sarina-788
+      - 4Sarina-804
       - 4Nika-819
-      - 4Nika-747
-      - _JP_日本_220
+      - 4Sarina-740
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _SG_新加坡_152
-      - CN-183.236.51.6-2916
+      - CN-183.236.51.7-2860
       - 4Sarina-763
-      - RELAY-172.67.217.144-0167
-      - 4Nika-725
+      - 美国(油管:破解资源君)
+      - VN-103.154.63.16-0148
+      - 4Sarina-788
+      - 4Sarina-804
       - 4Nika-819
-      - 4Nika-747
-      - _JP_日本_220
+      - 4Sarina-740
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
