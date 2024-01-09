@@ -4,14 +4,10 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: CN-183.236.51.6-2898, server: xibaozi.19890604.day, port: 10841, type: trojan, password: ab008897-edfa-41e4-9122-e56b9464c08e, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 13|🔒 VM-WS-NA 🇺🇸 US-172.64.103.74..., server: 172.64.103.74, port: 8080, type: vmess, uuid: 54d4d640-731c-4572-d0d4-e8a617816470, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: icu4.mac2win.top}}, udp: true}
-  - {name: _JP_日本_251, server: 13.230.96.57, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _FR_法国, server: 195.154.169.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 4Mohsen-2003, server: 38.68.135.112, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: "13|🔒 VM-WS-NONE 🏴‍☠️ NA-162.159.1... #1", server: 162.159.135.232, port: 8080, type: vmess, uuid: 9ccdd19a-80bf-4f2d-a202-180015ba7893, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@x2rayn_vpn@x2rayn_vpn@x2rayn_vpn, headers: {Host: Kingdom.ircf.eu.org}}, udp: true}
   - {name: 4Sarina-1039, server: 193.182.144.240, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 美国(油管:破解资源君), server: sefarat24.com, port: 443, type: vmess, uuid: 298cfba1-2f02-4e61-b689-e58adbf9de53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: ru1-vmess.sshmax.xyz}}, udp: true}
-  - {name: _IE_爱尔兰, server: 54.194.53.143, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
-  - {name: _GB_英国, server: 77.72.5.113, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 4Mohsen-1006, server: 74.121.191.98, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +23,29 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-183.236.51.6-2898
-      - 13|🔒 VM-WS-NA 🇺🇸 US-172.64.103.74...
-      - _JP_日本_251
-      - _FR_法国
+      - 4Mohsen-2003
+      - "13|🔒 VM-WS-NONE 🏴‍☠️ NA-162.159.1... #1"
       - 4Sarina-1039
-      - 美国(油管:破解资源君)
-      - _IE_爱尔兰
-      - _GB_英国
+      - 4Mohsen-1006
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - CN-183.236.51.6-2898
-      - 13|🔒 VM-WS-NA 🇺🇸 US-172.64.103.74...
-      - _JP_日本_251
-      - _FR_法国
+      - 4Mohsen-2003
+      - "13|🔒 VM-WS-NONE 🏴‍☠️ NA-162.159.1... #1"
       - 4Sarina-1039
-      - 美国(油管:破解资源君)
-      - _IE_爱尔兰
-      - _GB_英国
+      - 4Mohsen-1006
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-183.236.51.6-2898
-      - 13|🔒 VM-WS-NA 🇺🇸 US-172.64.103.74...
-      - _JP_日本_251
-      - _FR_法国
+      - 4Mohsen-2003
+      - "13|🔒 VM-WS-NONE 🏴‍☠️ NA-162.159.1... #1"
       - 4Sarina-1039
-      - 美国(油管:破解资源君)
-      - _IE_爱尔兰
-      - _GB_英国
+      - 4Mohsen-1006
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
