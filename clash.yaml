@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 15|🇮🇳 印度|@ripaojiedian, server: 14.116.159.70, port: 44462, type: ss, cipher: aes-256-gcm, password: 2be9cb92-e3bc-4fdc-b213-7e323d0cb14e, udp: true}
-  - {name: 13|🔒 VM-WS-TLS 🏴‍☠️ NA-104.19.180..., server: 104.19.180.169, port: 2083, type: vmess, uuid: b36e93b8-21b4-4495-ac81-0109f65cb1ad, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kingofilter2.hamedgeek.sbs}}, udp: true}
-  - {name: _JP_日本_205, server: 13.231.210.254, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 15|🇭🇰 香港2|@ripaojiedian, server: nc.cn2.go002.xyz, port: 19511, type: ss, cipher: chacha20-ietf-poly1305, password: 893562d2-2e36-4c87-aebc-3ca3fc78de3e, udp: true}
-  - {name: 13|越南 - Liên Chiểu - SUNCLOUD - 3, server: free1.node-01-run-api.online, port: 443, type: vmess, uuid: 21f2a889-7bc4-491f-9f2d-3e72e2f85ae1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/texpn?ed=2048", headers: {Host: free1.node-01-run-api.online}}, udp: true}
-  - {name: 4Nika-782, server: 54.251.150.231, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 13|🇺🇸|US|美国|@wxgqlfx|21, server: srv1.hamedgeek.sbs, port: 2083, type: vmess, uuid: b36e93b8-21b4-4495-ac81-0109f65cb1ad, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kingofilter2.hamedgeek.sbs}}, udp: true}
+  - {name: 13|🇺🇸|US|美国|@wxgqlfx|30, server: dl3.doushimeng.com, port: 2082, type: vmess, uuid: 9933ca2a-5e6d-452b-8ef1-097bcd31b83f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /asdas, headers: {Host: cf-de9.doushimeng.com}}, udp: true}
+  - {name: 13|🇺🇸|US|美国|@wxgqlfx|34, server: cf.best.lafuseessub.uk, port: 443, type: vmess, uuid: 0a4defdd-924d-4781-9d95-ff05c28860e4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /lafusees, headers: {Host: us.lafuseessub.uk}}, udp: true}
+  - {name: DE-5.104.108.109-0199, server: 5.104.108.109, port: 443, type: trojan, password: 56e1f11c-1217-46ab-b127-6afbc23bafba, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: _RO_罗马尼亚, server: 194.14.217.115, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 4FreeIran-123, server: 104.168.13.80, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: Epl46de5ryftug88ePd, udp: true}
+  - {name: 4Nika-996, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 15|🇭🇰 香港2|@ripaojiedian, server: nc.cn2.go002.xyz, port: 19511, type: ss, cipher: chacha20-ietf-poly1305, password: 893562d2-2e36-4c87-aebc-3ca3fc78de3e, udp: true}
+  - {name: 13|US_youtube@资源分享师_139, server: arvancloud16.forwardv2raytelegramchannel.fun, port: 2082, type: vmess, uuid: b7bd0edc-19c7-47f6-b2da-973f54449357, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: arvancloud16.forwardv2raytelegramchannel.fun}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 15|🇮🇳 印度|@ripaojiedian
-      - 13|🔒 VM-WS-TLS 🏴‍☠️ NA-104.19.180...
-      - _JP_日本_205
-      - 15|🇭🇰 香港2|@ripaojiedian
-      - 13|越南 - Liên Chiểu - SUNCLOUD - 3
-      - 4Nika-782
+      - 13|🇺🇸|US|美国|@wxgqlfx|21
+      - 13|🇺🇸|US|美国|@wxgqlfx|30
+      - 13|🇺🇸|US|美国|@wxgqlfx|34
+      - DE-5.104.108.109-0199
       - _RO_罗马尼亚
-      - 4FreeIran-123
+      - 4Nika-996
+      - 15|🇭🇰 香港2|@ripaojiedian
+      - 13|US_youtube@资源分享师_139
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 15|🇮🇳 印度|@ripaojiedian
-      - 13|🔒 VM-WS-TLS 🏴‍☠️ NA-104.19.180...
-      - _JP_日本_205
-      - 15|🇭🇰 香港2|@ripaojiedian
-      - 13|越南 - Liên Chiểu - SUNCLOUD - 3
-      - 4Nika-782
+      - 13|🇺🇸|US|美国|@wxgqlfx|21
+      - 13|🇺🇸|US|美国|@wxgqlfx|30
+      - 13|🇺🇸|US|美国|@wxgqlfx|34
+      - DE-5.104.108.109-0199
       - _RO_罗马尼亚
-      - 4FreeIran-123
+      - 4Nika-996
+      - 15|🇭🇰 香港2|@ripaojiedian
+      - 13|US_youtube@资源分享师_139
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 15|🇮🇳 印度|@ripaojiedian
-      - 13|🔒 VM-WS-TLS 🏴‍☠️ NA-104.19.180...
-      - _JP_日本_205
-      - 15|🇭🇰 香港2|@ripaojiedian
-      - 13|越南 - Liên Chiểu - SUNCLOUD - 3
-      - 4Nika-782
+      - 13|🇺🇸|US|美国|@wxgqlfx|21
+      - 13|🇺🇸|US|美国|@wxgqlfx|30
+      - 13|🇺🇸|US|美国|@wxgqlfx|34
+      - DE-5.104.108.109-0199
       - _RO_罗马尼亚
-      - 4FreeIran-123
+      - 4Nika-996
+      - 15|🇭🇰 香港2|@ripaojiedian
+      - 13|US_youtube@资源分享师_139
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
