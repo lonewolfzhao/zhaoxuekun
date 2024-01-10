@@ -6,12 +6,12 @@ external-controller: :50000
 proxies:
   - {name: 15|🇮🇳 印度|@ripaojiedian, server: 14.116.159.70, port: 44462, type: ss, cipher: aes-256-gcm, password: 2be9cb92-e3bc-4fdc-b213-7e323d0cb14e, udp: true}
   - {name: 13|🔒 VM-WS-TLS 🏴‍☠️ NA-104.19.180..., server: 104.19.180.169, port: 2083, type: vmess, uuid: b36e93b8-21b4-4495-ac81-0109f65cb1ad, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kingofilter2.hamedgeek.sbs}}, udp: true}
-  - {name: 16|香港B|@ripaojiedian, server: 112.28.208.15, port: 53300, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 15|🇭🇰 香港3|@ripaojiedian, server: ef30833c.t1v0e4l6w3-fb-hk05.6pzfwf.com, port: 56005, type: ss, cipher: chacha20-ietf-poly1305, password: MZ7ldA, udp: true}
-  - {name: _FR_法国, server: 195.154.169.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: _KR_韩国_48, server: p226.panda004.net, port: 58023, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: _ES_西班牙, server: 92.38.171.89, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 4Sarina-177, server: series-a2-me.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
+  - {name: _JP_日本_205, server: 13.231.210.254, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 15|🇭🇰 香港2|@ripaojiedian, server: nc.cn2.go002.xyz, port: 19511, type: ss, cipher: chacha20-ietf-poly1305, password: 893562d2-2e36-4c87-aebc-3ca3fc78de3e, udp: true}
+  - {name: 13|越南 - Liên Chiểu - SUNCLOUD - 3, server: free1.node-01-run-api.online, port: 443, type: vmess, uuid: 21f2a889-7bc4-491f-9f2d-3e72e2f85ae1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/texpn?ed=2048", headers: {Host: free1.node-01-run-api.online}}, udp: true}
+  - {name: 4Nika-782, server: 54.251.150.231, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _RO_罗马尼亚, server: 194.14.217.115, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 4FreeIran-123, server: 104.168.13.80, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: Epl46de5ryftug88ePd, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -29,12 +29,12 @@ proxy-groups:
       - 🎯 全球直连
       - 15|🇮🇳 印度|@ripaojiedian
       - 13|🔒 VM-WS-TLS 🏴‍☠️ NA-104.19.180...
-      - 16|香港B|@ripaojiedian
-      - 15|🇭🇰 香港3|@ripaojiedian
-      - _FR_法国
-      - _KR_韩国_48
-      - _ES_西班牙
-      - 4Sarina-177
+      - _JP_日本_205
+      - 15|🇭🇰 香港2|@ripaojiedian
+      - 13|越南 - Liên Chiểu - SUNCLOUD - 3
+      - 4Nika-782
+      - _RO_罗马尼亚
+      - 4FreeIran-123
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
@@ -43,12 +43,12 @@ proxy-groups:
     proxies:
       - 15|🇮🇳 印度|@ripaojiedian
       - 13|🔒 VM-WS-TLS 🏴‍☠️ NA-104.19.180...
-      - 16|香港B|@ripaojiedian
-      - 15|🇭🇰 香港3|@ripaojiedian
-      - _FR_法国
-      - _KR_韩国_48
-      - _ES_西班牙
-      - 4Sarina-177
+      - _JP_日本_205
+      - 15|🇭🇰 香港2|@ripaojiedian
+      - 13|越南 - Liên Chiểu - SUNCLOUD - 3
+      - 4Nika-782
+      - _RO_罗马尼亚
+      - 4FreeIran-123
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -56,12 +56,12 @@ proxy-groups:
       - 🎯 全球直连
       - 15|🇮🇳 印度|@ripaojiedian
       - 13|🔒 VM-WS-TLS 🏴‍☠️ NA-104.19.180...
-      - 16|香港B|@ripaojiedian
-      - 15|🇭🇰 香港3|@ripaojiedian
-      - _FR_法国
-      - _KR_韩国_48
-      - _ES_西班牙
-      - 4Sarina-177
+      - _JP_日本_205
+      - 15|🇭🇰 香港2|@ripaojiedian
+      - 13|越南 - Liên Chiểu - SUNCLOUD - 3
+      - 4Nika-782
+      - _RO_罗马尼亚
+      - 4FreeIran-123
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
