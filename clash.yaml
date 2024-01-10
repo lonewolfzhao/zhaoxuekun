@@ -4,10 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 4Mohsen-2003, server: 38.68.135.112, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: "13|🔒 VM-WS-NONE 🏴‍☠️ NA-162.159.1... #1", server: 162.159.135.232, port: 8080, type: vmess, uuid: 9ccdd19a-80bf-4f2d-a202-180015ba7893, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@x2rayn_vpn@x2rayn_vpn@x2rayn_vpn, headers: {Host: Kingdom.ircf.eu.org}}, udp: true}
-  - {name: 4Sarina-1039, server: 193.182.144.240, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 4Mohsen-1006, server: 74.121.191.98, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 15|🇮🇳 印度|@ripaojiedian, server: 14.116.159.70, port: 44462, type: ss, cipher: aes-256-gcm, password: 2be9cb92-e3bc-4fdc-b213-7e323d0cb14e, udp: true}
+  - {name: 13|🔒 VM-WS-TLS 🏴‍☠️ NA-104.19.180..., server: 104.19.180.169, port: 2083, type: vmess, uuid: b36e93b8-21b4-4495-ac81-0109f65cb1ad, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kingofilter2.hamedgeek.sbs}}, udp: true}
+  - {name: 16|香港B|@ripaojiedian, server: 112.28.208.15, port: 53300, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 15|🇭🇰 香港3|@ripaojiedian, server: ef30833c.t1v0e4l6w3-fb-hk05.6pzfwf.com, port: 56005, type: ss, cipher: chacha20-ietf-poly1305, password: MZ7ldA, udp: true}
+  - {name: _FR_法国, server: 195.154.169.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: _KR_韩国_48, server: p226.panda004.net, port: 58023, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: _ES_西班牙, server: 92.38.171.89, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 4Sarina-177, server: series-a2-me.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -23,29 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Mohsen-2003
-      - "13|🔒 VM-WS-NONE 🏴‍☠️ NA-162.159.1... #1"
-      - 4Sarina-1039
-      - 4Mohsen-1006
+      - 15|🇮🇳 印度|@ripaojiedian
+      - 13|🔒 VM-WS-TLS 🏴‍☠️ NA-104.19.180...
+      - 16|香港B|@ripaojiedian
+      - 15|🇭🇰 香港3|@ripaojiedian
+      - _FR_法国
+      - _KR_韩国_48
+      - _ES_西班牙
+      - 4Sarina-177
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 4Mohsen-2003
-      - "13|🔒 VM-WS-NONE 🏴‍☠️ NA-162.159.1... #1"
-      - 4Sarina-1039
-      - 4Mohsen-1006
+      - 15|🇮🇳 印度|@ripaojiedian
+      - 13|🔒 VM-WS-TLS 🏴‍☠️ NA-104.19.180...
+      - 16|香港B|@ripaojiedian
+      - 15|🇭🇰 香港3|@ripaojiedian
+      - _FR_法国
+      - _KR_韩国_48
+      - _ES_西班牙
+      - 4Sarina-177
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Mohsen-2003
-      - "13|🔒 VM-WS-NONE 🏴‍☠️ NA-162.159.1... #1"
-      - 4Sarina-1039
-      - 4Mohsen-1006
+      - 15|🇮🇳 印度|@ripaojiedian
+      - 13|🔒 VM-WS-TLS 🏴‍☠️ NA-104.19.180...
+      - 16|香港B|@ripaojiedian
+      - 15|🇭🇰 香港3|@ripaojiedian
+      - _FR_法国
+      - _KR_韩国_48
+      - _ES_西班牙
+      - 4Sarina-177
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
