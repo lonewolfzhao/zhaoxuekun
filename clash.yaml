@@ -4,10 +4,10 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 日本03, server: 183.236.51.6, port: 10813, type: trojan, password: 6a675506-d713-4e0c-9cbe-e0452e763880, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 4Nika-0, server: zhejiang.wandacloud.xyz, port: 50530, type: ss, cipher: chacha20-ietf-poly1305, password: 432fe02f-b649-4bdc-91d8-f91ae87002f7, udp: true}
   - {name: 13|YouTube面具人哈乐_台湾_46, server: nb24.ntbq.dynu.net, port: 4443, type: vmess, uuid: bbbf3acb-bfaa-4545-9d2c-dcac332b71ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本06, server: 183.236.51.7, port: 10816, type: trojan, password: 6a675506-d713-4e0c-9cbe-e0452e763880, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15|🇸🇬 狮城特殊2|@ripaojiedian, server: 13.231.179.13, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 15|🇭🇰 香港2|@ripaojiedian, server: nc.cn2.go002.xyz, port: 19511, type: ss, cipher: chacha20-ietf-poly1305, password: 893562d2-2e36-4c87-aebc-3ca3fc78de3e, udp: true}
+  - {name: 13|YouTube面具人哈乐_台湾_46 2, server: nb24.ntbq.dynu.net, port: 4443, type: vmess, uuid: bbbf3acb-bfaa-4545-9d2c-dcac332b71ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -23,29 +23,29 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本03
+      - 4Nika-0
       - 13|YouTube面具人哈乐_台湾_46
-      - 日本06
-      - 15|🇸🇬 狮城特殊2|@ripaojiedian
+      - 15|🇭🇰 香港2|@ripaojiedian
+      - 13|YouTube面具人哈乐_台湾_46 2
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 日本03
+      - 4Nika-0
       - 13|YouTube面具人哈乐_台湾_46
-      - 日本06
-      - 15|🇸🇬 狮城特殊2|@ripaojiedian
+      - 15|🇭🇰 香港2|@ripaojiedian
+      - 13|YouTube面具人哈乐_台湾_46 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本03
+      - 4Nika-0
       - 13|YouTube面具人哈乐_台湾_46
-      - 日本06
-      - 15|🇸🇬 狮城特殊2|@ripaojiedian
+      - 15|🇭🇰 香港2|@ripaojiedian
+      - 13|YouTube面具人哈乐_台湾_46 2
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
