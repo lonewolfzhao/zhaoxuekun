@@ -4,12 +4,10 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 迪拜01, server: 183.236.51.6, port: 10841, type: trojan, password: 6c71b013-f559-4c84-a3f9-21d526c07c7b, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 日本07, server: 183.236.51.7, port: 10817, type: trojan, password: 6c71b013-f559-4c84-a3f9-21d526c07c7b, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国, server: xibaozi.19890604.day, port: 10850, type: trojan, password: 50e2a9ae-fdf9-427e-957b-4b28d5e4a93f, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 日本03, server: 183.236.51.6, port: 10813, type: trojan, password: 6a675506-d713-4e0c-9cbe-e0452e763880, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 13|YouTube面具人哈乐_台湾_46, server: nb24.ntbq.dynu.net, port: 4443, type: vmess, uuid: bbbf3acb-bfaa-4545-9d2c-dcac332b71ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本06, server: 183.236.51.7, port: 10816, type: trojan, password: 6a675506-d713-4e0c-9cbe-e0452e763880, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 15|🇸🇬 狮城特殊2|@ripaojiedian, server: 13.231.179.13, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 13|YouTube面具人哈乐_台湾_1, server: c12.twtc.dynu.net, port: 6122, type: vmess, uuid: bbbf3acb-bfaa-4545-9d2c-dcac332b71ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 15|🇯🇵 日本特殊|@ripaojiedian, server: 176.32.83.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -25,35 +23,29 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 迪拜01
-      - 日本07
-      - _CN_中国->🇺🇸_US_美国
+      - 日本03
+      - 13|YouTube面具人哈乐_台湾_46
+      - 日本06
       - 15|🇸🇬 狮城特殊2|@ripaojiedian
-      - 13|YouTube面具人哈乐_台湾_1
-      - 15|🇯🇵 日本特殊|@ripaojiedian
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 迪拜01
-      - 日本07
-      - _CN_中国->🇺🇸_US_美国
+      - 日本03
+      - 13|YouTube面具人哈乐_台湾_46
+      - 日本06
       - 15|🇸🇬 狮城特殊2|@ripaojiedian
-      - 13|YouTube面具人哈乐_台湾_1
-      - 15|🇯🇵 日本特殊|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 迪拜01
-      - 日本07
-      - _CN_中国->🇺🇸_US_美国
+      - 日本03
+      - 13|YouTube面具人哈乐_台湾_46
+      - 日本06
       - 15|🇸🇬 狮城特殊2|@ripaojiedian
-      - 13|YouTube面具人哈乐_台湾_1
-      - 15|🇯🇵 日本特殊|@ripaojiedian
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
