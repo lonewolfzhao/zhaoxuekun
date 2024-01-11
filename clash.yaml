@@ -4,10 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 4Nika-0, server: zhejiang.wandacloud.xyz, port: 50530, type: ss, cipher: chacha20-ietf-poly1305, password: 432fe02f-b649-4bdc-91d8-f91ae87002f7, udp: true}
+  - {name: 4Kian-2056, server: shyd.mmt.fosi.hk, port: 46371, type: ss, cipher: aes-256-gcm, password: e4e60a0e-2d89-4f5d-80e7-b8f6a2d5b257, udp: true}
+  - {name: 4Kian-2054, server: hzcm.mmt.donghui.tech, port: 55863, type: ss, cipher: aes-256-gcm, password: e4e60a0e-2d89-4f5d-80e7-b8f6a2d5b257, udp: true}
+  - {name: 4Kian-550, server: 9d0dbf29-shcm-ec2-cdn.fjbsb.top, port: 39097, type: ss, cipher: aes-128-gcm, password: e4e60a0e-2d89-4f5d-80e7-b8f6a2d5b257, udp: true}
+  - {name: 4Kian-2051, server: biedaxxmmt.073505.cn, port: 55938, type: ss, cipher: aes-256-gcm, password: e4e60a0e-2d89-4f5d-80e7-b8f6a2d5b257, udp: true}
+  - {name: 4Kian-554, server: shdx.073505.cn, port: 19193, type: ss, cipher: aes-128-gcm, password: e4e60a0e-2d89-4f5d-80e7-b8f6a2d5b257, udp: true}
+  - {name: 4Kian-3, server: js.eip-cm.hongxing.pro, port: 44019, type: ss, cipher: chacha20-ietf-poly1305, password: 45ad5228-c94d-431b-9cc4-1e8251dd6250, udp: true}
   - {name: 13|YouTube面具人哈乐_台湾_46, server: nb24.ntbq.dynu.net, port: 4443, type: vmess, uuid: bbbf3acb-bfaa-4545-9d2c-dcac332b71ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 15|🇭🇰 香港2|@ripaojiedian, server: nc.cn2.go002.xyz, port: 19511, type: ss, cipher: chacha20-ietf-poly1305, password: 893562d2-2e36-4c87-aebc-3ca3fc78de3e, udp: true}
-  - {name: 13|YouTube面具人哈乐_台湾_46 2, server: nb24.ntbq.dynu.net, port: 4443, type: vmess, uuid: bbbf3acb-bfaa-4545-9d2c-dcac332b71ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 4Kian-1, server: js.eip-cm.hongxing.pro, port: 44002, type: ss, cipher: chacha20-ietf-poly1305, password: 45ad5228-c94d-431b-9cc4-1e8251dd6250, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -23,29 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Nika-0
+      - 4Kian-2056
+      - 4Kian-2054
+      - 4Kian-550
+      - 4Kian-2051
+      - 4Kian-554
+      - 4Kian-3
       - 13|YouTube面具人哈乐_台湾_46
-      - 15|🇭🇰 香港2|@ripaojiedian
-      - 13|YouTube面具人哈乐_台湾_46 2
+      - 4Kian-1
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 4Nika-0
+      - 4Kian-2056
+      - 4Kian-2054
+      - 4Kian-550
+      - 4Kian-2051
+      - 4Kian-554
+      - 4Kian-3
       - 13|YouTube面具人哈乐_台湾_46
-      - 15|🇭🇰 香港2|@ripaojiedian
-      - 13|YouTube面具人哈乐_台湾_46 2
+      - 4Kian-1
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Nika-0
+      - 4Kian-2056
+      - 4Kian-2054
+      - 4Kian-550
+      - 4Kian-2051
+      - 4Kian-554
+      - 4Kian-3
       - 13|YouTube面具人哈乐_台湾_46
-      - 15|🇭🇰 香港2|@ripaojiedian
-      - 13|YouTube面具人哈乐_台湾_46 2
+      - 4Kian-1
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
