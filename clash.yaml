@@ -4,9 +4,13 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 4Mohsen-693, server: 13.250.55.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Mohsen-690, server: 13.250.25.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Mohsen-1026, server: 80.92.204.106, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: 15|🇰🇷 韩国特殊|@ripaojiedian, server: 54.179.177.14, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 美国(油管:破解资源君), server: sefarat24.com, port: 443, type: vmess, uuid: c6539ccf-08ff-4ce9-8659-df89190c99bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: pt2-vmess.sshmax.xyz}}, udp: true}
+  - {name: 15|🇯🇵 日本特殊|@ripaojiedian, server: 176.32.83.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _JP_日本_251, server: 13.230.96.57, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Jadi-541, server: 122.118.173.97, port: 10016, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: "15,16|韩国|@ripaojiedian", server: kr-3.hajimihajimihajimi.online, port: 80, type: vmess, uuid: b988283a-7258-4ea7-8c17-518647ddfc06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kr-3.hajimihajimihajimi.online}}, udp: true}
+  - {name: 15|🇭🇰 香港2|@ripaojiedian, server: nc.cn2.go002.xyz, port: 19511, type: ss, cipher: chacha20-ietf-poly1305, password: 893562d2-2e36-4c87-aebc-3ca3fc78de3e, udp: true}
   - {name: 4Mohsen-720, server: 43.201.100.232, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -23,9 +27,13 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Mohsen-693
-      - 4Mohsen-690
-      - 4Mohsen-1026
+      - 15|🇰🇷 韩国特殊|@ripaojiedian
+      - 美国(油管:破解资源君)
+      - 15|🇯🇵 日本特殊|@ripaojiedian
+      - _JP_日本_251
+      - 4Jadi-541
+      - 15,16|韩国|@ripaojiedian
+      - 15|🇭🇰 香港2|@ripaojiedian
       - 4Mohsen-720
   - name: ♻️ 自动选择
     type: load-balance
@@ -33,18 +41,26 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 4Mohsen-693
-      - 4Mohsen-690
-      - 4Mohsen-1026
+      - 15|🇰🇷 韩国特殊|@ripaojiedian
+      - 美国(油管:破解资源君)
+      - 15|🇯🇵 日本特殊|@ripaojiedian
+      - _JP_日本_251
+      - 4Jadi-541
+      - 15,16|韩国|@ripaojiedian
+      - 15|🇭🇰 香港2|@ripaojiedian
       - 4Mohsen-720
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Mohsen-693
-      - 4Mohsen-690
-      - 4Mohsen-1026
+      - 15|🇰🇷 韩国特殊|@ripaojiedian
+      - 美国(油管:破解资源君)
+      - 15|🇯🇵 日本特殊|@ripaojiedian
+      - _JP_日本_251
+      - 4Jadi-541
+      - 15,16|韩国|@ripaojiedian
+      - 15|🇭🇰 香港2|@ripaojiedian
       - 4Mohsen-720
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
