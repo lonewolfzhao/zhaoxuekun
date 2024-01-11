@@ -4,11 +4,12 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 印度01, server: 183.236.51.6, port: 10840, type: trojan, password: 16f979a9-39e8-435a-8163-f1524f416a4b, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 香港05, server: 183.236.51.7, port: 10805, type: trojan, password: 6c71b013-f559-4c84-a3f9-21d526c07c7b, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 迪拜01, server: 183.236.51.6, port: 10841, type: trojan, password: 6c71b013-f559-4c84-a3f9-21d526c07c7b, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇨🇿_CZ_捷克, server: xibaozi.19890604.day, port: 10846, type: trojan, password: 50e2a9ae-fdf9-427e-957b-4b28d5e4a93f, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 13|YouTube面具人哈乐_台湾_1, server: c12.twtc.dynu.net, port: 6122, type: vmess, uuid: bbbf3acb-bfaa-4545-9d2c-dcac332b71ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 13|YouTube面具人哈乐_台湾_46, server: nb24.ntbq.dynu.net, port: 4443, type: vmess, uuid: bbbf3acb-bfaa-4545-9d2c-dcac332b71ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本06, server: 183.236.51.7, port: 10816, type: trojan, password: 6a675506-d713-4e0c-9cbe-e0452e763880, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15|🇯🇵 日本特殊|@ripaojiedian, server: 176.32.83.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4FreeIran-725, server: 43.201.147.151, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Sarina-721, server: 43.200.254.135, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 15|🇭🇰 香港2|@ripaojiedian, server: nc.cn2.go002.xyz, port: 19511, type: ss, cipher: chacha20-ietf-poly1305, password: 893562d2-2e36-4c87-aebc-3ca3fc78de3e, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -25,11 +26,12 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 印度01
+      - 香港05
+      - 迪拜01
+      - _CN_中国->🇨🇿_CZ_捷克
       - 13|YouTube面具人哈乐_台湾_1
-      - 13|YouTube面具人哈乐_台湾_46
-      - 日本06
-      - 15|🇯🇵 日本特殊|@ripaojiedian
+      - 4FreeIran-725
+      - 4Sarina-721
       - 15|🇭🇰 香港2|@ripaojiedian
   - name: ♻️ 自动选择
     type: load-balance
@@ -37,22 +39,24 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 印度01
+      - 香港05
+      - 迪拜01
+      - _CN_中国->🇨🇿_CZ_捷克
       - 13|YouTube面具人哈乐_台湾_1
-      - 13|YouTube面具人哈乐_台湾_46
-      - 日本06
-      - 15|🇯🇵 日本特殊|@ripaojiedian
+      - 4FreeIran-725
+      - 4Sarina-721
       - 15|🇭🇰 香港2|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 印度01
+      - 香港05
+      - 迪拜01
+      - _CN_中国->🇨🇿_CZ_捷克
       - 13|YouTube面具人哈乐_台湾_1
-      - 13|YouTube面具人哈乐_台湾_46
-      - 日本06
-      - 15|🇯🇵 日本特殊|@ripaojiedian
+      - 4FreeIran-725
+      - 4Sarina-721
       - 15|🇭🇰 香港2|@ripaojiedian
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
