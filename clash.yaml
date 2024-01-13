@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: JP_91975 @WangCai_8, server: 18.176.215.63, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_8)82b5b51:91975}, udp: true}
+  - {name: CN-183.236.51.7-2960, server: xibaozi.19890604.day, port: 10841, type: trojan, password: f6fa79f3-2239-4cb4-8733-ec8c93394a2c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
   - {name: "15,16|美国|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 8880, type: vmess, uuid: ae16d5a4-9a22-4177-8884-77aa3b309d30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/bYdJ7Vc2We, headers: {Host: us6gzxQRrE4.fzbqfrse.xyz}}, udp: true}
-  - {name: 13|🔒 VM-TCP-NA 🇹🇼 TW-36.233.233.2..., server: 36.233.233.240, port: 6122, type: vmess, uuid: bbbf3acb-bfaa-4545-9d2c-dcac332b71ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "%�\x11�<'���ӋLL�\x0b��\f\x0b��͋�L��M\x0e\r\f%%�", server: cm01.newcome.xyz, port: 7703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0104-W259_71, obfs-param: cf48250916.microsoft.com, udp: true}
-  - {name: 13|TW-台中1-2(TCP) - 麻雀加速器 Sparrow〖..., server: c12.twtc.dynu.net, port: 6122, type: vmess, uuid: bbbf3acb-bfaa-4545-9d2c-dcac332b71ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JP_108053 @WangCai_1, server: 18.176.215.63, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)584c76c:108053}, udp: true}
+  - {name: "13|中国 - 台湾 - Chunghwa Telecom Co.... #1", server: b23.ntbq.dynu.net, port: 2024, type: vmess, uuid: a36db716-c6d0-4bc2-bd76-69e278215124, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 4Nika-1098, server: 80.92.204.106, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: 4Jadi-792, server: 54.251.150.231, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 13|TW-板桥2-4(TCP) - 麻雀加速器 Sparrow〖..., server: nb24.ntbq.dynu.net, port: 4443, type: vmess, uuid: bbbf3acb-bfaa-4545-9d2c-dcac332b71ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: SG_ 9053 @WangCai_1, server: 103.172.116.103, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JP_91975 @WangCai_8
+      - CN-183.236.51.7-2960
       - 15,16|美国|@ripaojiedian
-      - 13|🔒 VM-TCP-NA 🇹🇼 TW-36.233.233.2...
       - "%�\x11�<'���ӋLL�\x0b��\f\x0b��͋�L��M\x0e\r\f%%�"
-      - 13|TW-台中1-2(TCP) - 麻雀加速器 Sparrow〖...
+      - JP_108053 @WangCai_1
+      - "13|中国 - 台湾 - Chunghwa Telecom Co.... #1"
       - 4Nika-1098
+      - 4Jadi-792
       - 13|TW-板桥2-4(TCP) - 麻雀加速器 Sparrow〖...
-      - SG_ 9053 @WangCai_1
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - JP_91975 @WangCai_8
+      - CN-183.236.51.7-2960
       - 15,16|美国|@ripaojiedian
-      - 13|🔒 VM-TCP-NA 🇹🇼 TW-36.233.233.2...
       - "%�\x11�<'���ӋLL�\x0b��\f\x0b��͋�L��M\x0e\r\f%%�"
-      - 13|TW-台中1-2(TCP) - 麻雀加速器 Sparrow〖...
+      - JP_108053 @WangCai_1
+      - "13|中国 - 台湾 - Chunghwa Telecom Co.... #1"
       - 4Nika-1098
+      - 4Jadi-792
       - 13|TW-板桥2-4(TCP) - 麻雀加速器 Sparrow〖...
-      - SG_ 9053 @WangCai_1
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JP_91975 @WangCai_8
+      - CN-183.236.51.7-2960
       - 15,16|美国|@ripaojiedian
-      - 13|🔒 VM-TCP-NA 🇹🇼 TW-36.233.233.2...
       - "%�\x11�<'���ӋLL�\x0b��\f\x0b��͋�L��M\x0e\r\f%%�"
-      - 13|TW-台中1-2(TCP) - 麻雀加速器 Sparrow〖...
+      - JP_108053 @WangCai_1
+      - "13|中国 - 台湾 - Chunghwa Telecom Co.... #1"
       - 4Nika-1098
+      - 4Jadi-792
       - 13|TW-板桥2-4(TCP) - 麻雀加速器 Sparrow〖...
-      - SG_ 9053 @WangCai_1
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
