@@ -4,9 +4,9 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 15|🇸🇬 狮城特殊2|@ripaojiedian, server: 13.125.218.115, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Sarina-1039, server: 193.182.144.240, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 4Kian-972, server: 180.149.44.120, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 4Jadi-823, server: 54.199.8.153, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Kian-794, server: 54.169.114.116, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4FreeIran-120, server: series-a2-mec.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, udp: true}
   - {name: 4FreeIran-129, server: series-a2-me.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -23,9 +23,9 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 15|🇸🇬 狮城特殊2|@ripaojiedian
-      - 4Sarina-1039
-      - 4Kian-972
+      - 4Jadi-823
+      - 4Kian-794
+      - 4FreeIran-120
       - 4FreeIran-129
   - name: ♻️ 自动选择
     type: load-balance
@@ -33,18 +33,18 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 15|🇸🇬 狮城特殊2|@ripaojiedian
-      - 4Sarina-1039
-      - 4Kian-972
+      - 4Jadi-823
+      - 4Kian-794
+      - 4FreeIran-120
       - 4FreeIran-129
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 15|🇸🇬 狮城特殊2|@ripaojiedian
-      - 4Sarina-1039
-      - 4Kian-972
+      - 4Jadi-823
+      - 4Kian-794
+      - 4FreeIran-120
       - 4FreeIran-129
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
