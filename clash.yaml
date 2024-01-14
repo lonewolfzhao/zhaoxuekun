@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 4Jadi-15, server: sh.eip-cm.hongxing.pro, port: 44013, type: ss, cipher: chacha20-ietf-poly1305, password: 571ecf4d-22a2-4fa6-83fc-5bc395f98e2c, udp: true}
-  - {name: "13|中国 - 台湾 - Chunghwa Telecom Co.... #1", server: b23.ntbq.dynu.net, port: 2024, type: vmess, uuid: a36db716-c6d0-4bc2-bd76-69e278215124, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 4Jadi-795, server: 43.207.197.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "13|美国 - 圣克拉拉 - DigitalOcean, LLC ... #13", server: 137.184.44.85, port: 8880, type: vmess, uuid: 440cc266-2b27-46b4-81b2-d662ce8e3135, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 4Sarina-1039, server: 193.182.144.240, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: "13|中国 - 台湾 - Chunghwa Telecom Co.... #2", server: 61.228.156.175, port: 2024, type: vmess, uuid: a36db716-c6d0-4bc2-bd76-69e278215124, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "%�\x11�<'���ӋLL�\x0b��\f\x0b��͋�L��M\x0e\r\f%%�", server: cm01.newcome.xyz, port: 7703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0104-W259_71, obfs-param: cf48250916.microsoft.com, udp: true}
-  - {name: 4Sarina-772, server: 3.36.91.186, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: CN-183.236.51.6-2970, server: xibaozi.19890604.day, port: 10841, type: trojan, password: 12873c24-c18b-4cbc-a2d8-fd94611fecd7, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: "15,16|台湾|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: a7d5e71f-3905-42be-8115-bbc1844eb833, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}}, udp: true}
+  - {name: 4Sarina-774, server: 3.112.250.142, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 15|🇸🇬 狮城特殊|@ripaojiedian, server: 54.180.158.34, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Sarina-785, server: 43.201.100.232, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 13|🇺🇸|US|美国|@wxgqlfx|10, server: stackoverflow.com, port: 80, type: vmess, uuid: 45ce0dfa-fb29-3c65-b761-f585965f6302, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/xiaodao?ed=2048", headers: {Host: px-000.xiaoxiaobujidao.xyz}}, udp: true}
+  - {name: 13|🇺🇸|US|美国|@wxgqlfx|19, server: hdbest.net, port: 80, type: vmess, uuid: 45ce0dfa-fb29-3c65-b761-f585965f6302, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/xiaodao?ed=2048", headers: {Host: tk-007.xiaoxiaobujidao.xyz}}, udp: true}
+  - {name: 13|🇺🇸|US|美国|@wxgqlfx|3, server: udemy.com, port: 80, type: vmess, uuid: 45ce0dfa-fb29-3c65-b761-f585965f6302, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/xiaodao?ed=2048", headers: {Host: px-001.xiaoxiaobujidao.xyz}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Jadi-15
-      - "13|中国 - 台湾 - Chunghwa Telecom Co.... #1"
-      - 4Jadi-795
-      - "13|美国 - 圣克拉拉 - DigitalOcean, LLC ... #13"
-      - 4Sarina-1039
-      - "13|中国 - 台湾 - Chunghwa Telecom Co.... #2"
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b��͋�L��M\x0e\r\f%%�"
-      - 4Sarina-772
+      - CN-183.236.51.6-2970
+      - 15,16|台湾|@ripaojiedian
+      - 4Sarina-774
+      - 15|🇸🇬 狮城特殊|@ripaojiedian
+      - 4Sarina-785
+      - 13|🇺🇸|US|美国|@wxgqlfx|10
+      - 13|🇺🇸|US|美国|@wxgqlfx|19
+      - 13|🇺🇸|US|美国|@wxgqlfx|3
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 4Jadi-15
-      - "13|中国 - 台湾 - Chunghwa Telecom Co.... #1"
-      - 4Jadi-795
-      - "13|美国 - 圣克拉拉 - DigitalOcean, LLC ... #13"
-      - 4Sarina-1039
-      - "13|中国 - 台湾 - Chunghwa Telecom Co.... #2"
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b��͋�L��M\x0e\r\f%%�"
-      - 4Sarina-772
+      - CN-183.236.51.6-2970
+      - 15,16|台湾|@ripaojiedian
+      - 4Sarina-774
+      - 15|🇸🇬 狮城特殊|@ripaojiedian
+      - 4Sarina-785
+      - 13|🇺🇸|US|美国|@wxgqlfx|10
+      - 13|🇺🇸|US|美国|@wxgqlfx|19
+      - 13|🇺🇸|US|美国|@wxgqlfx|3
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Jadi-15
-      - "13|中国 - 台湾 - Chunghwa Telecom Co.... #1"
-      - 4Jadi-795
-      - "13|美国 - 圣克拉拉 - DigitalOcean, LLC ... #13"
-      - 4Sarina-1039
-      - "13|中国 - 台湾 - Chunghwa Telecom Co.... #2"
-      - "%�\x11�<'���ӋLL�\x0b��\f\x0b��͋�L��M\x0e\r\f%%�"
-      - 4Sarina-772
+      - CN-183.236.51.6-2970
+      - 15,16|台湾|@ripaojiedian
+      - 4Sarina-774
+      - 15|🇸🇬 狮城特殊|@ripaojiedian
+      - 4Sarina-785
+      - 13|🇺🇸|US|美国|@wxgqlfx|10
+      - 13|🇺🇸|US|美国|@wxgqlfx|19
+      - 13|🇺🇸|US|美国|@wxgqlfx|3
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
