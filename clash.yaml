@@ -4,13 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: SG-13.250.55.22-7443, server: 13.250.55.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: JP-3.112.250.142-5053, server: 3.112.250.142, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4FreeIran-761, server: 18.177.145.111, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: KR-43.201.147.151-5073, server: 43.201.147.151, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "15,16|日本2|@ripaojiedian", server: cfcdn3.sanfencdn9.com, port: 80, type: vmess, uuid: a7d5e71f-3905-42be-8115-bbc1844eb833, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/X37qXHip, headers: {Host: 6Sn8mFtTjp3.yofnhkfc.xyz}}, udp: true}
-  - {name: 4FreeIran-129, server: series-a2-me.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
-  - {name: 4Kian-794, server: 54.169.114.116, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "15,16|香港4|@ripaojiedian", server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: cd2e0bc7-b25d-4a99-b8d6-a80570db994a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/34kKXbLM, headers: {Host: yvhnbevxhk1.yofnhkfc.xyz}}, udp: true}
+  - {name: 4Jadi-1077, server: p229.panda004.net, port: 57428, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: KR-43.201.116.29-7345, server: 43.201.116.29, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 15|🇰🇷 韩国特殊|@ripaojiedian, server: 43.203.179.105, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Jadi-746, server: 13.250.25.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Jadi-1076, server: p222.panda001.net, port: 54345, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: 4Jadi-813, server: 54.179.177.14, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Jadi-566, server: 61.224.74.197, port: 443, type: ss, cipher: aes-128-gcm, password: oiwym4ovI4Yb, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -26,38 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - SG-13.250.55.22-7443
-      - JP-3.112.250.142-5053
-      - 4FreeIran-761
-      - KR-43.201.147.151-5073
-      - 15,16|日本2|@ripaojiedian
-      - 4FreeIran-129
-      - 4Kian-794
+      - 15,16|香港4|@ripaojiedian
+      - 4Jadi-1077
+      - KR-43.201.116.29-7345
+      - 15|🇰🇷 韩国特殊|@ripaojiedian
+      - 4Jadi-746
+      - 4Jadi-1076
+      - 4Jadi-813
+      - 4Jadi-566
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - SG-13.250.55.22-7443
-      - JP-3.112.250.142-5053
-      - 4FreeIran-761
-      - KR-43.201.147.151-5073
-      - 15,16|日本2|@ripaojiedian
-      - 4FreeIran-129
-      - 4Kian-794
+      - 15,16|香港4|@ripaojiedian
+      - 4Jadi-1077
+      - KR-43.201.116.29-7345
+      - 15|🇰🇷 韩国特殊|@ripaojiedian
+      - 4Jadi-746
+      - 4Jadi-1076
+      - 4Jadi-813
+      - 4Jadi-566
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - SG-13.250.55.22-7443
-      - JP-3.112.250.142-5053
-      - 4FreeIran-761
-      - KR-43.201.147.151-5073
-      - 15,16|日本2|@ripaojiedian
-      - 4FreeIran-129
-      - 4Kian-794
+      - 15,16|香港4|@ripaojiedian
+      - 4Jadi-1077
+      - KR-43.201.116.29-7345
+      - 15|🇰🇷 韩国特殊|@ripaojiedian
+      - 4Jadi-746
+      - 4Jadi-1076
+      - 4Jadi-813
+      - 4Jadi-566
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
