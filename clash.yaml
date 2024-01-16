@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: CN-183.236.51.6-3135, server: tiananmen.19890604.day, port: 10807, type: trojan, password: 020ad6cf-ef5a-4455-b6d6-05119c0b0a88, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 13|🔒 VM-TCP-NA 🇹🇼 TW-114.37.130.6..., server: 114.37.130.69, port: 2024, type: vmess, uuid: 35916fe2-8dbe-4a8c-870c-123edabcb414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 4Jadi-1193, server: 80.92.204.106, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: 15|🇸🇬 新加坡2|@ripaojiedian, server: gtm.ktmwan.com, port: 27250, type: ss, cipher: chacha20-ietf-poly1305, password: c0c85654-646c-48f8-9141-ba9b70d0c928, udp: true}
+  - {name: CN-183.236.51.6-3133, server: tiananmen.19890604.day, port: 10805, type: trojan, password: 020ad6cf-ef5a-4455-b6d6-05119c0b0a88, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 16|香港|@ripaojiedian, server: in06.myqq2024.org, port: 63010, type: vmess, uuid: 89387c02-4f9f-33fc-8c50-a9941ed226be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 4Mohsen-92, server: 220.141.140.236, port: 2203, type: ss, cipher: chacha20-ietf-poly1305, password: 2e2a2655-0ac1-4b1d-a777-de98bea4aa0a, udp: true}
+  - {name: 15|🇯🇵 日本|@ripaojiedian, server: gtm.ktmwan.com, port: 27251, type: ss, cipher: chacha20-ietf-poly1305, password: c0c85654-646c-48f8-9141-ba9b70d0c928, udp: true}
+  - {name: 4Mohsen-800, server: 13.250.55.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Mohsen-1181, server: 221.150.109.77, port: 59084, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: 4Jadi-1070, server: p232.panda004.net, port: 4398, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: 15|🇰🇷 韩国特殊|@ripaojiedian, server: 43.201.116.29, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Jadi-1711, server: 51.15.13.210, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 4Jadi-1148, server: 51.159.111.208, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 4Jadi-1193, server: 80.92.204.106, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-183.236.51.6-3135
-      - 13|🔒 VM-TCP-NA 🇹🇼 TW-114.37.130.6...
-      - 4Jadi-1193
-      - 15|🇸🇬 新加坡2|@ripaojiedian
+      - CN-183.236.51.6-3133
+      - 16|香港|@ripaojiedian
+      - 4Mohsen-92
+      - 15|🇯🇵 日本|@ripaojiedian
+      - 4Mohsen-800
+      - 4Mohsen-1181
       - 4Jadi-1070
-      - 15|🇰🇷 韩国特殊|@ripaojiedian
-      - 4Jadi-1711
-      - 4Jadi-1148
+      - 4Jadi-1193
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - CN-183.236.51.6-3135
-      - 13|🔒 VM-TCP-NA 🇹🇼 TW-114.37.130.6...
-      - 4Jadi-1193
-      - 15|🇸🇬 新加坡2|@ripaojiedian
+      - CN-183.236.51.6-3133
+      - 16|香港|@ripaojiedian
+      - 4Mohsen-92
+      - 15|🇯🇵 日本|@ripaojiedian
+      - 4Mohsen-800
+      - 4Mohsen-1181
       - 4Jadi-1070
-      - 15|🇰🇷 韩国特殊|@ripaojiedian
-      - 4Jadi-1711
-      - 4Jadi-1148
+      - 4Jadi-1193
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-183.236.51.6-3135
-      - 13|🔒 VM-TCP-NA 🇹🇼 TW-114.37.130.6...
-      - 4Jadi-1193
-      - 15|🇸🇬 新加坡2|@ripaojiedian
+      - CN-183.236.51.6-3133
+      - 16|香港|@ripaojiedian
+      - 4Mohsen-92
+      - 15|🇯🇵 日本|@ripaojiedian
+      - 4Mohsen-800
+      - 4Mohsen-1181
       - 4Jadi-1070
-      - 15|🇰🇷 韩国特殊|@ripaojiedian
-      - 4Jadi-1711
-      - 4Jadi-1148
+      - 4Jadi-1193
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
