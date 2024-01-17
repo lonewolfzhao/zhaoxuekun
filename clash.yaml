@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: HK_01 @WangCai_8, server: 183.236.51.7, port: 10801, type: trojan, password: 566238ab-a768-482e-b0f8-7eb73c3557f5, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: CN-183.236.51.6-3121, server: tiananmen.19890604.day, port: 10805, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 4Mohsen-810, server: 13.250.55.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: CN-183.236.51.7-2777, server: xibaozi.19890604.day, port: 10849, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: SG_29 @WangCai_8, server: 183.236.51.7, port: 10829, type: trojan, password: 55ed7f3f-86d1-455b-b4d0-43342de056c7, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: SG_28 @WangCai_8, server: 183.236.51.6, port: 10828, type: trojan, password: 1c61d5b7-6d42-47e7-9514-490a6e76ce2c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 4Mohsen-1206, server: 80.92.204.106, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: 4Mohsen-861, server: 43.207.197.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Jadi-871, server: 46.137.227.248, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Jadi-384, server: 51.21.126.136, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: IUDnrXExpb0IVVHsExsKWL, udp: true}
-  - {name: 4Mohsen-133, server: series-a2-me.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
+  - {name: SG_31 @WangCai_8, server: 183.236.51.6, port: 10831, type: trojan, password: b99b5064-3f4e-484e-9279-ca0eaa21be07, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15|🇭🇰 香港5|@ripaojiedian, server: nc.cn2.go002.xyz, port: 19511, type: ss, cipher: chacha20-ietf-poly1305, password: 893562d2-2e36-4c87-aebc-3ca3fc78de3e, udp: true}
+  - {name: 4Jadi-844, server: 43.201.116.29, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Jadi-1136, server: 194.14.217.115, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK_01 @WangCai_8
-      - CN-183.236.51.6-3121
-      - 4Mohsen-810
+      - CN-183.236.51.7-2777
+      - SG_29 @WangCai_8
+      - SG_28 @WangCai_8
       - 4Mohsen-1206
-      - 4Mohsen-861
-      - 4Jadi-871
-      - 4Jadi-384
-      - 4Mohsen-133
+      - SG_31 @WangCai_8
+      - 15|🇭🇰 香港5|@ripaojiedian
+      - 4Jadi-844
+      - 4Jadi-1136
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - HK_01 @WangCai_8
-      - CN-183.236.51.6-3121
-      - 4Mohsen-810
+      - CN-183.236.51.7-2777
+      - SG_29 @WangCai_8
+      - SG_28 @WangCai_8
       - 4Mohsen-1206
-      - 4Mohsen-861
-      - 4Jadi-871
-      - 4Jadi-384
-      - 4Mohsen-133
+      - SG_31 @WangCai_8
+      - 15|🇭🇰 香港5|@ripaojiedian
+      - 4Jadi-844
+      - 4Jadi-1136
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK_01 @WangCai_8
-      - CN-183.236.51.6-3121
-      - 4Mohsen-810
+      - CN-183.236.51.7-2777
+      - SG_29 @WangCai_8
+      - SG_28 @WangCai_8
       - 4Mohsen-1206
-      - 4Mohsen-861
-      - 4Jadi-871
-      - 4Jadi-384
-      - 4Mohsen-133
+      - SG_31 @WangCai_8
+      - 15|🇭🇰 香港5|@ripaojiedian
+      - 4Jadi-844
+      - 4Jadi-1136
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
