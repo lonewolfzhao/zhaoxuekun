@@ -3,15 +3,268 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :50000
+unified-delay: true
+global-client-fingerprint: chrome
+dns:
+  enable: true
+  listen: :53
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+  - 223.5.5.5
+  - 8.8.8.8
+  nameserver:
+  - https://dns.alidns.com/dns-query
+  - https://doh.pub/dns-query
+  fallback:
+  - https://1.0.0.1/dns-query
+  - tls://dns.google
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+    - 240.0.0.0/4
 proxies:
-  - {name: CN-183.236.51.6-3133, server: tiananmen.19890604.day, port: 10805, type: trojan, password: 020ad6cf-ef5a-4455-b6d6-05119c0b0a88, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 16|香港|@ripaojiedian, server: in06.myqq2024.org, port: 63010, type: vmess, uuid: 89387c02-4f9f-33fc-8c50-a9941ed226be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 4Mohsen-92, server: 220.141.140.236, port: 2203, type: ss, cipher: chacha20-ietf-poly1305, password: 2e2a2655-0ac1-4b1d-a777-de98bea4aa0a, udp: true}
-  - {name: 15|🇯🇵 日本|@ripaojiedian, server: gtm.ktmwan.com, port: 27251, type: ss, cipher: chacha20-ietf-poly1305, password: c0c85654-646c-48f8-9141-ba9b70d0c928, udp: true}
-  - {name: 4Mohsen-800, server: 13.250.55.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Mohsen-1181, server: 221.150.109.77, port: 59084, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: 4Jadi-1070, server: p232.panda004.net, port: 4398, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: 4Jadi-1193, server: 80.92.204.106, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+- name: 油管绵阿羊_Canada_vless_01
+  type: vless
+  server: dongtaiwang3.com
+  port: 443
+  uuid: a9202ced-3185-489c-8b28-74e9a00d894d
+  tls: true
+  servername: dongtaiwang.dtku47.xyz
+  network: ws
+  ws-opts:
+    path: /eobjws
+    headers:
+      host: dongtaiwang.dtku47.xyz
+  client-fingerprint: chrome
+- name: 油管绵阿羊_Canada_vless_02
+  type: vless
+  server: dongtaiwang2.com
+  port: 443
+  uuid: a9202ced-3185-489c-8b28-74e9a00d894d
+  tls: true
+  servername: dongtaiwang.dtku47.xyz
+  network: ws
+  ws-opts:
+    path: /eobjws
+    headers:
+      host: dongtaiwang.dtku47.xyz
+  client-fingerprint: chrome
+- name: 油管绵阿羊_Canada_vmess_11
+  type: vmess
+  server: dongtaiwang2.com
+  port: 443
+  cipher: auto
+  uuid: f5c180eb-fbce-49ac-9029-482eca9385c0
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /gzogws
+    headers:
+      host: xray1.freeh1.xyz
+- name: 油管绵阿羊_Canada_vless_21
+  type: vless
+  server: dongtaiwang2.com
+  port: 443
+  uuid: ffb15cd2-0521-49de-b8aa-fb15d58c8075
+  tls: true
+  servername: v2ray3.freegradely.xyz
+  network: ws
+  ws-opts:
+    path: /bqbows
+    headers:
+      host: v2ray3.freegradely.xyz
+  client-fingerprint: chrome
+- name: 油管绵阿羊_Canada_vless_31
+  type: vless
+  server: dongtaiwang3.com
+  port: 443
+  uuid: 869d601c-9e4c-4e83-b816-bb553234aaea
+  tls: true
+  servername: dongtaiwang.freeh1.xyz
+  network: ws
+  ws-opts:
+    path: /pxzaws
+    headers:
+      host: dongtaiwang.freeh1.xyz
+  client-fingerprint: chrome
+- name: 油管绵阿羊_Canada_vmess_41
+  type: vmess
+  server: dongtaiwang2.com
+  port: 443
+  cipher: auto
+  uuid: f5c180eb-fbce-49ac-9029-482eca9385c0
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /gzogws
+    headers:
+      host: xray1.freeh1.xyz
+- name: 油管绵阿羊_Canada_vmess_51
+  type: vmess
+  server: dongtaiwang3.com
+  port: 443
+  cipher: auto
+  uuid: f5c180eb-fbce-49ac-9029-482eca9385c0
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /gzogws
+    headers:
+      host: xray1.freeh1.xyz
+- name: 油管绵阿羊_Taiwan_hysteria_61
+  type: hysteria
+  server: www2.dtku48.xyz
+  port: 22334
+  auth-str: dongtaiwang.com
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+  skip-cert-verify: true
+- name: 油管绵阿羊_United States_hysteria_71
+  type: hysteria
+  server: 64.110.25.10
+  port: 44556
+  auth-str: dongtaiwang.com
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+  skip-cert-verify: true
+- name: 油管绵阿羊_United States_hysteria_81
+  type: hysteria
+  server: 62.204.54.81
+  port: 62946
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  auth_str: dongtaiwang.com
+  up: 5
+  down: 10
+- name: 油管绵阿羊_Taiwan_hysteria_91
+  type: hysteria
+  server: www.dtku50.xyz
+  port: 32408
+  sni: www.amazon.cn
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  auth_str: dongtaiwang.com
+  up: 2
+  down: 10
+- name: 油管绵阿羊_United States_hy_0
+  type: hysteria
+  server: 167.160.91.115
+  port: 41189
+  ports: 41189
+  auth_str: bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF
+  up: 80
+  down: 100
+  fast-open: true
+  protocol: udp
+  sni: www.amazon.cn
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: 油管绵阿羊_United States_hy_1
+  type: hysteria
+  server: 173.234.25.52
+  port: 30072
+  ports: 30072
+  auth_str: dongtaiwang.com
+  up: 80
+  down: 100
+  fast-open: true
+  protocol: udp
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: 油管绵阿羊_United States_hy_2
+  type: hysteria
+  server: 108.181.22.239
+  port: 39967
+  ports: 39967
+  auth_str: dongtaiwang.com
+  up: 80
+  down: 100
+  fast-open: true
+  protocol: udp
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: 油管绵阿羊_France_hy_3
+  type: hysteria
+  server: 51.158.54.46
+  port: 55396
+  ports: 55396
+  auth_str: dongtaiwang.com
+  up: 80
+  down: 100
+  fast-open: true
+  protocol: udp
+  sni: youku.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: 油管绵阿羊_United States_hy2_0
+  type: hysteria2
+  server: 64.110.25.11
+  port: 33337
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: 油管绵阿羊_United States_hy2_1
+  type: hysteria2
+  server: 64.110.25.11
+  port: 33337
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: 油管绵阿羊_United States_hy2_2
+  type: hysteria2
+  server: 64.110.25.11
+  port: 33337
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: 油管绵阿羊_United States_hy2_3
+  type: hysteria2
+  server: 64.110.25.11
+  port: 33337
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.bing.com
+  skip-cert-verify: true
+- {name: 4Kian-829, server: 3.36.91.186, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: CN-183.236.51.7-3107, server: xibaozi.19890604.day, port: 10841, type: trojan, password: 020ad6cf-ef5a-4455-b6d6-05119c0b0a88, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+- {name: "15,16|美国4|@ripaojiedian", server: 192.166.82.214, port: 35053, type: vmess, uuid: 2011a6c8-51ae-4c22-e9bf-25f29dbf2435, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2011a6c8}, udp: true}
+- {name: "15,16|台湾2|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: f0df1cd4-5a87-482a-9f19-218a393d6f9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}}, udp: true}
+- {name: "11,12,15,16|美国|@ripaojiedian", server: 104.17.25.1, port: 80, type: vmess, uuid: d87339e4-d57d-4475-ef76-a78205daa90e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1.catnipballs.gay}}, udp: true}
+- {name: 4Kian-871, server: 52.194.252.137, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 13|↙️32@oneclickvpnkeys, server: 114.37.130.69, port: 2024, type: vmess, uuid: 2e2a2655-0ac1-4b1d-a777-de98bea4aa0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 15|🇰🇷 韩国特殊|@ripaojiedian, server: 54.185.37.169, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -22,46 +275,79 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+  - name: ♻️ 情色可用
+    type: load-balance
+    strategy: round-robin
+    url: https://www.xvideos.com
+    interval: 300
+    proxies:
+      - 4Kian-829
+      - CN-183.236.51.7-3107
+      - 15,16|美国4|@ripaojiedian
+      - 15,16|台湾2|@ripaojiedian
+      - 11,12,15,16|美国|@ripaojiedian
+      - 4Kian-871
+      - 13|↙️32@oneclickvpnkeys
+      - 15|🇰🇷 韩国特殊|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
-      - ♻️ 自动选择
+      - ♻️ 可能受限
+      - ♻️ 不受限制
       - 🎯 全球直连
-      - CN-183.236.51.6-3133
-      - 16|香港|@ripaojiedian
-      - 4Mohsen-92
-      - 15|🇯🇵 日本|@ripaojiedian
-      - 4Mohsen-800
-      - 4Mohsen-1181
-      - 4Jadi-1070
-      - 4Jadi-1193
-  - name: ♻️ 自动选择
+  - name: ♻️ 不受限制
+    type: load-balance
+    strategy: round-robin
+    url: https://www.xvideos.com
+    interval: 300
+    proxies:
+      - 4Kian-829
+      - CN-183.236.51.7-3107
+      - 15,16|美国4|@ripaojiedian
+      - 15,16|台湾2|@ripaojiedian
+      - 11,12,15,16|美国|@ripaojiedian
+      - 4Kian-871
+      - 13|↙️32@oneclickvpnkeys
+      - 15|🇰🇷 韩国特殊|@ripaojiedian
+  - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - CN-183.236.51.6-3133
-      - 16|香港|@ripaojiedian
-      - 4Mohsen-92
-      - 15|🇯🇵 日本|@ripaojiedian
-      - 4Mohsen-800
-      - 4Mohsen-1181
-      - 4Jadi-1070
-      - 4Jadi-1193
+      - 油管绵阿羊_Canada_vless_01
+      - 油管绵阿羊_Canada_vless_02
+      - 油管绵阿羊_Canada_vmess_11
+      - 油管绵阿羊_Canada_vless_21
+      - 油管绵阿羊_Canada_vless_31
+      - 油管绵阿羊_Canada_vmess_41
+      - 油管绵阿羊_Canada_vmess_51
+      - 油管绵阿羊_Taiwan_hysteria_61
+      - 油管绵阿羊_United States_hysteria_71
+      - 油管绵阿羊_United States_hysteria_81
+      - 油管绵阿羊_Taiwan_hysteria_91
+      - 油管绵阿羊_United States_hy_0
+      - 油管绵阿羊_United States_hy_1
+      - 油管绵阿羊_United States_hy_2
+      - 油管绵阿羊_France_hy_3
+      - 油管绵阿羊_United States_hy2_0
+      - 油管绵阿羊_United States_hy2_1
+      - 油管绵阿羊_United States_hy2_2
+      - 油管绵阿羊_United States_hy2_3
+      - 4Kian-829
+      - CN-183.236.51.7-3107
+      - 15,16|美国4|@ripaojiedian
+      - 15,16|台湾2|@ripaojiedian
+      - 11,12,15,16|美国|@ripaojiedian
+      - 4Kian-871
+      - 13|↙️32@oneclickvpnkeys
+      - 15|🇰🇷 韩国特殊|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
-      - ♻️ 自动选择
+      - ♻️ 不受限制
+      - ♻️ 可能受限
       - 🎯 全球直连
-      - CN-183.236.51.6-3133
-      - 16|香港|@ripaojiedian
-      - 4Mohsen-92
-      - 15|🇯🇵 日本|@ripaojiedian
-      - 4Mohsen-800
-      - 4Mohsen-1181
-      - 4Jadi-1070
-      - 4Jadi-1193
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
@@ -1907,6 +2193,36 @@ rules:
   - DOMAIN-SUFFIX,yuanchengxiezuo.com,🛑 全球拦截
   - DOMAIN-SUFFIX,zbrushcn.com,🛑 全球拦截
   - DOMAIN-SUFFIX,zhzzx.com,🛑 全球拦截
+  - GEOIP,CN,🎯 全球直连
+  - DOMAIN-KEYWORD,porn,♻️ 情色可用
+  - DOMAIN-KEYWORD,btc35000,♻️ 情色可用
+  - DOMAIN-KEYWORD,cdn77,♻️ 情色可用
+  - DOMAIN-KEYWORD,killcovid20,♻️ 情色可用
+  - DOMAIN-KEYWORD,javcdn,♻️ 情色可用
+  - DOMAIN-KEYWORD,xvideos,♻️ 情色可用
+  - DOMAIN-KEYWORD,XNXX,♻️ 情色可用
+  - DOMAIN-KEYWORD,njav,♻️ 情色可用
+  - DOMAIN-KEYWORD,jable,♻️ 情色可用
+  - DOMAIN-KEYWORD,avtb,♻️ 情色可用
+  - DOMAIN-KEYWORD,sis001,♻️ 情色可用
+  - DOMAIN-KEYWORD,sehuatang,♻️ 情色可用
+  - DOMAIN-SUFFIX,8teenxxx.com,♻️ 情色可用
+  - DOMAIN-SUFFIX,google.com,♻️ 情色可用
+  - DOMAIN-SUFFIX,ahcdn.com,♻️ 情色可用
+  - DOMAIN-SUFFIX,bcvcdn.com,♻️ 情色可用
+  - DOMAIN-SUFFIX,bongacams.com,♻️ 情色可用
+  - DOMAIN-SUFFIX,chaturbate.com,♻️ 情色可用
+  - DOMAIN-SUFFIX,dditscdn.com,♻️ 情色可用
+  - DOMAIN-SUFFIX,livejasmin.com,♻️ 情色可用
+  - DOMAIN-SUFFIX,phncdn.com,♻️ 情色可用
+  - DOMAIN-SUFFIX,phprcdn.com,♻️ 情色可用
+  - DOMAIN-SUFFIX,rdtcdn.com,♻️ 情色可用
+  - DOMAIN-SUFFIX,redtube.com,♻️ 情色可用
+  - DOMAIN-SUFFIX,sb-cd.com,♻️ 情色可用
+  - DOMAIN-SUFFIX,spankbang.com,♻️ 情色可用
+  - DOMAIN-SUFFIX,t66y.com,♻️ 情色可用
+  - DOMAIN-SUFFIX,xhamster.com,♻️ 情色可用
+  - DOMAIN-SUFFIX,ypncdn.com,♻️ 情色可用
   - DOMAIN-SUFFIX,1password.com,🔰 节点选择
   - DOMAIN-SUFFIX,adguard.org,🔰 节点选择
   - DOMAIN-SUFFIX,bit.no.com,🔰 节点选择
@@ -8153,5 +8469,4 @@ rules:
   - DOMAIN-SUFFIX,ocnttv.com,🔰 节点选择
   - DOMAIN-SUFFIX,vikacg.com,🔰 节点选择
   - DOMAIN-SUFFIX,picjs.xyz,🔰 节点选择
-  - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
