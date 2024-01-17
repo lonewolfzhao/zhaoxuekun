@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: CN-183.236.51.7-3130, server: tiananmen.19890604.day, port: 10802, type: trojan, password: 020ad6cf-ef5a-4455-b6d6-05119c0b0a88, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 13|🇺🇸|US|美国|@wxgqlfx|9, server: cfcdn1.yuzhoucloud003.xyz, port: 2052, type: vmess, uuid: 4eff3792-6078-4ad1-aa31-7772830c78ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/LpPP8QNC, headers: {Host: huzfxqdgus1.zvhdeaof.xyz}}, udp: true}
-  - {name: 4Jadi-1193, server: 80.92.204.106, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: "11,12,15,16|日本2|@ripaojiedian", server: cfcdn3.sanfencdn9.com, port: 2052, type: vmess, uuid: cd2e0bc7-b25d-4a99-b8d6-a80570db994a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/9TfVEyku, headers: {Host: wtywwcrzjp5.yofnhkfc.xyz}}, udp: true}
-  - {name: 4Jadi-1070, server: p232.panda004.net, port: 4398, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: 4Mohsen-608, server: 122.118.171.66, port: 443, type: ss, cipher: aes-128-gcm, password: oiwym4ovI4Yb, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 4Jadi-1148, server: 51.159.111.208, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 4Sarina-1124, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 4Kian-829, server: 3.36.91.186, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: CN-183.236.51.7-3107, server: xibaozi.19890604.day, port: 10841, type: trojan, password: 020ad6cf-ef5a-4455-b6d6-05119c0b0a88, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: "15,16|美国4|@ripaojiedian", server: 192.166.82.214, port: 35053, type: vmess, uuid: 2011a6c8-51ae-4c22-e9bf-25f29dbf2435, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2011a6c8}, udp: true}
+  - {name: "15,16|台湾2|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: f0df1cd4-5a87-482a-9f19-218a393d6f9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}}, udp: true}
+  - {name: "11,12,15,16|美国|@ripaojiedian", server: 104.17.25.1, port: 80, type: vmess, uuid: d87339e4-d57d-4475-ef76-a78205daa90e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1.catnipballs.gay}}, udp: true}
+  - {name: 4Kian-871, server: 52.194.252.137, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 13|↙️32@oneclickvpnkeys, server: 114.37.130.69, port: 2024, type: vmess, uuid: 2e2a2655-0ac1-4b1d-a777-de98bea4aa0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 15|🇰🇷 韩国特殊|@ripaojiedian, server: 54.185.37.169, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-183.236.51.7-3130
-      - 13|🇺🇸|US|美国|@wxgqlfx|9
-      - 4Jadi-1193
-      - 11,12,15,16|日本2|@ripaojiedian
-      - 4Jadi-1070
-      - 4Mohsen-608
-      - 4Jadi-1148
-      - 4Sarina-1124
+      - 4Kian-829
+      - CN-183.236.51.7-3107
+      - 15,16|美国4|@ripaojiedian
+      - 15,16|台湾2|@ripaojiedian
+      - 11,12,15,16|美国|@ripaojiedian
+      - 4Kian-871
+      - 13|↙️32@oneclickvpnkeys
+      - 15|🇰🇷 韩国特殊|@ripaojiedian
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - CN-183.236.51.7-3130
-      - 13|🇺🇸|US|美国|@wxgqlfx|9
-      - 4Jadi-1193
-      - 11,12,15,16|日本2|@ripaojiedian
-      - 4Jadi-1070
-      - 4Mohsen-608
-      - 4Jadi-1148
-      - 4Sarina-1124
+      - 4Kian-829
+      - CN-183.236.51.7-3107
+      - 15,16|美国4|@ripaojiedian
+      - 15,16|台湾2|@ripaojiedian
+      - 11,12,15,16|美国|@ripaojiedian
+      - 4Kian-871
+      - 13|↙️32@oneclickvpnkeys
+      - 15|🇰🇷 韩国特殊|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-183.236.51.7-3130
-      - 13|🇺🇸|US|美国|@wxgqlfx|9
-      - 4Jadi-1193
-      - 11,12,15,16|日本2|@ripaojiedian
-      - 4Jadi-1070
-      - 4Mohsen-608
-      - 4Jadi-1148
-      - 4Sarina-1124
+      - 4Kian-829
+      - CN-183.236.51.7-3107
+      - 15,16|美国4|@ripaojiedian
+      - 15,16|台湾2|@ripaojiedian
+      - 11,12,15,16|美国|@ripaojiedian
+      - 4Kian-871
+      - 13|↙️32@oneclickvpnkeys
+      - 15|🇰🇷 韩国特殊|@ripaojiedian
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
