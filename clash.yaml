@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: CN-183.236.51.7-3119, server: tiananmen.19890604.day, port: 10803, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 4Kian-807, server: 13.231.210.254, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: CN-183.236.51.6-3123, server: tiananmen.19890604.day, port: 10807, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15|🇭🇰 香港5|@ripaojiedian, server: nc.cn2.go002.xyz, port: 19511, type: ss, cipher: chacha20-ietf-poly1305, password: 893562d2-2e36-4c87-aebc-3ca3fc78de3e, udp: true}
+  - {name: 4Mohsen-788, server: 13.212.204.117, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Mohsen-861, server: 43.207.197.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 4Mohsen-888, server: 54.64.183.76, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Kian-466, server: 192.3.150.43, port: 25679, type: ss, cipher: chacha20-ietf-poly1305, password: d9632f40-cf04-4a81-976d-ea0331f498bf, udp: true}
-  - {name: 4Mohsen-1166, server: 77.72.5.113, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 4Mohsen-1190, server: 221.150.109.77, port: 59084, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: 4Kian-618, server: 122.118.169.169, port: 443, type: ss, cipher: aes-128-gcm, password: oiwym4ovI4Yb, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 4Mohsen-846, server: 43.203.179.105, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Kian-807, server: 13.231.210.254, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Mohsen-836, server: 43.200.254.135, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 15|🇰🇷 韩国3|@ripaojiedian, server: p222.panda001.net, port: 54345, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-183.236.51.7-3119
-      - 4Kian-807
+      - CN-183.236.51.6-3123
+      - 15|🇭🇰 香港5|@ripaojiedian
+      - 4Mohsen-788
+      - 4Mohsen-861
       - 4Mohsen-888
-      - 4Kian-466
-      - 4Mohsen-1166
-      - 4Mohsen-1190
-      - 4Kian-618
-      - 4Mohsen-846
+      - 4Kian-807
+      - 4Mohsen-836
+      - 15|🇰🇷 韩国3|@ripaojiedian
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - CN-183.236.51.7-3119
-      - 4Kian-807
+      - CN-183.236.51.6-3123
+      - 15|🇭🇰 香港5|@ripaojiedian
+      - 4Mohsen-788
+      - 4Mohsen-861
       - 4Mohsen-888
-      - 4Kian-466
-      - 4Mohsen-1166
-      - 4Mohsen-1190
-      - 4Kian-618
-      - 4Mohsen-846
+      - 4Kian-807
+      - 4Mohsen-836
+      - 15|🇰🇷 韩国3|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-183.236.51.7-3119
-      - 4Kian-807
+      - CN-183.236.51.6-3123
+      - 15|🇭🇰 香港5|@ripaojiedian
+      - 4Mohsen-788
+      - 4Mohsen-861
       - 4Mohsen-888
-      - 4Kian-466
-      - 4Mohsen-1166
-      - 4Mohsen-1190
-      - 4Kian-618
-      - 4Mohsen-846
+      - 4Kian-807
+      - 4Mohsen-836
+      - 15|🇰🇷 韩国3|@ripaojiedian
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
