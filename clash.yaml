@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: CN-183.236.51.6-3123, server: tiananmen.19890604.day, port: 10807, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15|🇭🇰 香港5|@ripaojiedian, server: nc.cn2.go002.xyz, port: 19511, type: ss, cipher: chacha20-ietf-poly1305, password: 893562d2-2e36-4c87-aebc-3ca3fc78de3e, udp: true}
-  - {name: 4Mohsen-788, server: 13.212.204.117, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: HK_01 @WangCai_8, server: 183.236.51.7, port: 10801, type: trojan, password: 566238ab-a768-482e-b0f8-7eb73c3557f5, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: CN-183.236.51.6-3121, server: tiananmen.19890604.day, port: 10805, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 4Mohsen-810, server: 13.250.55.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Mohsen-1206, server: 80.92.204.106, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
   - {name: 4Mohsen-861, server: 43.207.197.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Mohsen-888, server: 54.64.183.76, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Kian-807, server: 13.231.210.254, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Mohsen-836, server: 43.200.254.135, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 15|🇰🇷 韩国3|@ripaojiedian, server: p222.panda001.net, port: 54345, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: 4Jadi-871, server: 46.137.227.248, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Jadi-384, server: 51.21.126.136, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: IUDnrXExpb0IVVHsExsKWL, udp: true}
+  - {name: 4Mohsen-133, server: series-a2-me.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-183.236.51.6-3123
-      - 15|🇭🇰 香港5|@ripaojiedian
-      - 4Mohsen-788
+      - HK_01 @WangCai_8
+      - CN-183.236.51.6-3121
+      - 4Mohsen-810
+      - 4Mohsen-1206
       - 4Mohsen-861
-      - 4Mohsen-888
-      - 4Kian-807
-      - 4Mohsen-836
-      - 15|🇰🇷 韩国3|@ripaojiedian
+      - 4Jadi-871
+      - 4Jadi-384
+      - 4Mohsen-133
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - CN-183.236.51.6-3123
-      - 15|🇭🇰 香港5|@ripaojiedian
-      - 4Mohsen-788
+      - HK_01 @WangCai_8
+      - CN-183.236.51.6-3121
+      - 4Mohsen-810
+      - 4Mohsen-1206
       - 4Mohsen-861
-      - 4Mohsen-888
-      - 4Kian-807
-      - 4Mohsen-836
-      - 15|🇰🇷 韩国3|@ripaojiedian
+      - 4Jadi-871
+      - 4Jadi-384
+      - 4Mohsen-133
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-183.236.51.6-3123
-      - 15|🇭🇰 香港5|@ripaojiedian
-      - 4Mohsen-788
+      - HK_01 @WangCai_8
+      - CN-183.236.51.6-3121
+      - 4Mohsen-810
+      - 4Mohsen-1206
       - 4Mohsen-861
-      - 4Mohsen-888
-      - 4Kian-807
-      - 4Mohsen-836
-      - 15|🇰🇷 韩国3|@ripaojiedian
+      - 4Jadi-871
+      - 4Jadi-384
+      - 4Mohsen-133
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
