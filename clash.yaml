@@ -4,14 +4,11 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 4Sarina-623, server: 8.217.53.93, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}, udp: true}
-  - {name: CN-183.236.51.7-2750, server: xibaozi.19890604.day, port: 10840, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 4Sarina-803, server: 13.212.206.130, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: CN-183.236.51.7-3093, server: xibaozi.19890604.day, port: 10841, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 4Sarina-1221, server: 80.92.204.106, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: 4Sarina-1110, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: "15,16|日本|@ripaojiedian", server: 199.15.76.35, port: 443, type: vmess, uuid: 1a3765c8-790f-4bb5-bf3d-c1fa19afd98c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: 1a3765c8-790f-4bb5-bf3d-c1fa19afd98c-vm, headers: {Host: sometimes-able-imported-drainage.trycloudflare.com}}, udp: true}
-  - {name: 15|🇭🇰 香港|@ripaojiedian, server: a3ca.e2s.buzz, port: 36999, type: ss, cipher: aes-256-gcm, password: 47c97380-6525-46ca-88ef-d23866fc904c, udp: true}
-  - {name: 4Sarina-52, server: sgddns.763998.top, port: 23058, type: ss, cipher: chacha20-ietf-poly1305, password: 9a629228-8d36-4277-9559-e67955f3fd65, udp: true}
+  - {name: 4Sarina-824, server: 13.250.55.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Mohsen-41, server: nc.cn2.go002.xyz, port: 19511, type: ss, cipher: chacha20-ietf-poly1305, password: 893562d2-2e36-4c87-aebc-3ca3fc78de3e, udp: true}
+  - {name: 4Mohsen-819, server: 13.250.25.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +24,32 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Sarina-623
-      - CN-183.236.51.7-2750
-      - 4Sarina-803
+      - CN-183.236.51.7-3093
       - 4Sarina-1221
-      - 4Sarina-1110
-      - 15,16|日本|@ripaojiedian
-      - 15|🇭🇰 香港|@ripaojiedian
-      - 4Sarina-52
+      - 4Sarina-824
+      - 4Mohsen-41
+      - 4Mohsen-819
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 4Sarina-623
-      - CN-183.236.51.7-2750
-      - 4Sarina-803
+      - CN-183.236.51.7-3093
       - 4Sarina-1221
-      - 4Sarina-1110
-      - 15,16|日本|@ripaojiedian
-      - 15|🇭🇰 香港|@ripaojiedian
-      - 4Sarina-52
+      - 4Sarina-824
+      - 4Mohsen-41
+      - 4Mohsen-819
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Sarina-623
-      - CN-183.236.51.7-2750
-      - 4Sarina-803
+      - CN-183.236.51.7-3093
       - 4Sarina-1221
-      - 4Sarina-1110
-      - 15,16|日本|@ripaojiedian
-      - 15|🇭🇰 香港|@ripaojiedian
-      - 4Sarina-52
+      - 4Sarina-824
+      - 4Mohsen-41
+      - 4Mohsen-819
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
