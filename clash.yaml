@@ -4,10 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: CN-183.236.51.7-2785, server: xijinping.19890604.day, port: 10818, type: trojan, password: 6aa73b31-4e26-42f9-a689-6b04490c67da, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 4Jadi-870, server: 43.201.116.29, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Jadi-1167, server: 23.90.128.82, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 4Sarina-895, server: 43.203.119.237, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Kian-40, server: us01.mofacloud.com, port: 21861, type: ss, cipher: chacha20-ietf-poly1305, password: 40d72f75-5f76-4fff-af95-d9244b5643a6, udp: true}
+  - {name: RELAY-104.18.96.72-1646, server: 30.namesilo123.top, port: 8880, type: vmess, uuid: 309f84b9-49dd-408d-a0b6-8860393be802, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: freesg.sanfen002.top}}, udp: true}
+  - {name: CN-183.236.51.6-8168, server: 183.236.51.6, port: 10823, type: trojan, password: 7d223bae-e183-4bf6-89c3-e327b15df490, skip-cert-verify: true, udp: true}
+  - {name: CN-183.236.51.7-8165, server: 183.236.51.7, port: 10821, type: trojan, password: 7d223bae-e183-4bf6-89c3-e327b15df490, skip-cert-verify: true, udp: true}
+  - {name: CN-183.236.51.4-8167, server: 183.236.51.4, port: 10826, type: trojan, password: 7d223bae-e183-4bf6-89c3-e327b15df490, skip-cert-verify: true, udp: true}
+  - {name: VN-103.154.63.16-0142, server: 103.154.63.16, port: 443, type: trojan, password: 5bae27f5-3b8e-48f3-b91f-30fc680ea78f, skip-cert-verify: true, udp: true}
+  - {name: CN-183.236.51.9-8152, server: 183.236.51.9, port: 10820, type: trojan, password: 7d223bae-e183-4bf6-89c3-e327b15df490, skip-cert-verify: true, udp: true}
+  - {name: CN-183.236.51.6-2750, server: xibaozi.19890604.day, port: 10840, type: trojan, password: 078c4d5d-8818-478c-aff8-c4b227319563, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -23,29 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-183.236.51.7-2785
-      - 4Jadi-870
-      - 4Jadi-1167
-      - 4Sarina-895
+      - 4Kian-40
+      - RELAY-104.18.96.72-1646
+      - CN-183.236.51.6-8168
+      - CN-183.236.51.7-8165
+      - CN-183.236.51.4-8167
+      - VN-103.154.63.16-0142
+      - CN-183.236.51.9-8152
+      - CN-183.236.51.6-2750
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - CN-183.236.51.7-2785
-      - 4Jadi-870
-      - 4Jadi-1167
-      - 4Sarina-895
+      - 4Kian-40
+      - RELAY-104.18.96.72-1646
+      - CN-183.236.51.6-8168
+      - CN-183.236.51.7-8165
+      - CN-183.236.51.4-8167
+      - VN-103.154.63.16-0142
+      - CN-183.236.51.9-8152
+      - CN-183.236.51.6-2750
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-183.236.51.7-2785
-      - 4Jadi-870
-      - 4Jadi-1167
-      - 4Sarina-895
+      - 4Kian-40
+      - RELAY-104.18.96.72-1646
+      - CN-183.236.51.6-8168
+      - CN-183.236.51.7-8165
+      - CN-183.236.51.4-8167
+      - VN-103.154.63.16-0142
+      - CN-183.236.51.9-8152
+      - CN-183.236.51.6-2750
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
