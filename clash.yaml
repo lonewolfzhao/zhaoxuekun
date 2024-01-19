@@ -4,9 +4,10 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: CN-183.236.51.6-2708, server: xibaozi.19890604.day, port: 10840, type: trojan, password: 6aa73b31-4e26-42f9-a689-6b04490c67da, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
   - {name: CN-183.236.51.7-2785, server: xijinping.19890604.day, port: 10818, type: trojan, password: 6aa73b31-4e26-42f9-a689-6b04490c67da, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: CN-183.236.51.7-2763, server: tank.19890604.day, port: 10827, type: trojan, password: 6aa73b31-4e26-42f9-a689-6b04490c67da, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 4Jadi-870, server: 43.201.116.29, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Jadi-1167, server: 23.90.128.82, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 4Sarina-895, server: 43.203.119.237, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -22,26 +23,29 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-183.236.51.6-2708
       - CN-183.236.51.7-2785
-      - CN-183.236.51.7-2763
+      - 4Jadi-870
+      - 4Jadi-1167
+      - 4Sarina-895
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - CN-183.236.51.6-2708
       - CN-183.236.51.7-2785
-      - CN-183.236.51.7-2763
+      - 4Jadi-870
+      - 4Jadi-1167
+      - 4Sarina-895
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-183.236.51.6-2708
       - CN-183.236.51.7-2785
-      - CN-183.236.51.7-2763
+      - 4Jadi-870
+      - 4Jadi-1167
+      - 4Sarina-895
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
