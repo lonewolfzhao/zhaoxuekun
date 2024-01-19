@@ -4,9 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: VN-103.154.63.16-8957, server: 103.154.63.16, port: 443, type: trojan, password: 5bae27f5-3b8e-48f3-b91f-30fc680ea78f, sni: lienquan.garena.vn, skip-cert-verify: true, udp: true}
-  - {name: 13|YouTube面具人哈乐_中国_35, server: iepl2.airtcp.vip, port: 1002, type: vmess, uuid: 229ccd44-c56c-3947-88de-849dd70c180d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 13|🇹🇼|TW|台湾|@wxgqlfx|4, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: 60ab817e-0566-44cb-becd-6b51698d5672, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN-183.236.51.7-2780, server: xijinping.19890604.day, port: 10813, type: trojan, password: 6aa73b31-4e26-42f9-a689-6b04490c67da, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: HK-103.30.76.173-1800, server: 103.30.76.173, port: 30515, type: vmess, uuid: d027cd70-ed8b-4cb6-98f3-fc6b974d086c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: 4Nika-904, server: 54.64.183.76, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Jadi-860, server: 34.222.2.189, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Jadi-805, server: 103.172.116.79, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: "15,16|新加坡3|@ripaojiedian", server: 104.17.25.1, port: 80, type: vmess, uuid: d6664518-c8e1-42cf-f2c1-d33dcc01a8a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sgvpn.catnipballs.gay}}, udp: true}
+  - {name: 4Jadi-817, server: 13.212.204.117, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Jadi-885, server: 43.203.119.237, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -22,26 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - VN-103.154.63.16-8957
-      - 13|YouTube面具人哈乐_中国_35
-      - 13|🇹🇼|TW|台湾|@wxgqlfx|4
+      - CN-183.236.51.7-2780
+      - HK-103.30.76.173-1800
+      - 4Nika-904
+      - 4Jadi-860
+      - 4Jadi-805
+      - 15,16|新加坡3|@ripaojiedian
+      - 4Jadi-817
+      - 4Jadi-885
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - VN-103.154.63.16-8957
-      - 13|YouTube面具人哈乐_中国_35
-      - 13|🇹🇼|TW|台湾|@wxgqlfx|4
+      - CN-183.236.51.7-2780
+      - HK-103.30.76.173-1800
+      - 4Nika-904
+      - 4Jadi-860
+      - 4Jadi-805
+      - 15,16|新加坡3|@ripaojiedian
+      - 4Jadi-817
+      - 4Jadi-885
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - VN-103.154.63.16-8957
-      - 13|YouTube面具人哈乐_中国_35
-      - 13|🇹🇼|TW|台湾|@wxgqlfx|4
+      - CN-183.236.51.7-2780
+      - HK-103.30.76.173-1800
+      - 4Nika-904
+      - 4Jadi-860
+      - 4Jadi-805
+      - 15,16|新加坡3|@ripaojiedian
+      - 4Jadi-817
+      - 4Jadi-885
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
