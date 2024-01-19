@@ -5,9 +5,8 @@ log-level: info
 external-controller: :50000
 proxies:
   - {name: CN-183.236.51.6-2708, server: xibaozi.19890604.day, port: 10840, type: trojan, password: 6aa73b31-4e26-42f9-a689-6b04490c67da, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 13|【电报：@ccbaohe|免费机场节点 2, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: b6cd1e64-484a-431a-90c2-41bb0d579ee6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 4Jadi-1167, server: 23.90.128.82, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 4Kian-623, server: 1.65.139.54, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: CN-183.236.51.7-2785, server: xijinping.19890604.day, port: 10818, type: trojan, password: 6aa73b31-4e26-42f9-a689-6b04490c67da, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: CN-183.236.51.7-2763, server: tank.19890604.day, port: 10827, type: trojan, password: 6aa73b31-4e26-42f9-a689-6b04490c67da, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -24,9 +23,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - CN-183.236.51.6-2708
-      - 13|【电报：@ccbaohe|免费机场节点 2
-      - 4Jadi-1167
-      - 4Kian-623
+      - CN-183.236.51.7-2785
+      - CN-183.236.51.7-2763
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
@@ -34,18 +32,16 @@ proxy-groups:
     interval: 300
     proxies:
       - CN-183.236.51.6-2708
-      - 13|【电报：@ccbaohe|免费机场节点 2
-      - 4Jadi-1167
-      - 4Kian-623
+      - CN-183.236.51.7-2785
+      - CN-183.236.51.7-2763
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
       - CN-183.236.51.6-2708
-      - 13|【电报：@ccbaohe|免费机场节点 2
-      - 4Jadi-1167
-      - 4Kian-623
+      - CN-183.236.51.7-2785
+      - CN-183.236.51.7-2763
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
