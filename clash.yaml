@@ -4,14 +4,11 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 6|-https://t.me/MrXbin-33, server: 103.30.76.173, port: 30515, type: vmess, uuid: d027cd70-ed8b-4cb6-98f3-fc6b974d086c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: 17|🇸🇬 狮城特殊|@ripaojiedian, server: 13.229.215.7, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Mohsen-912, server: 13.250.55.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: VN-103.154.63.16-0142, server: 103.154.63.16, port: 443, type: trojan, password: 5bae27f5-3b8e-48f3-b91f-30fc680ea78f, skip-cert-verify: true, udp: true}
-  - {name: 4Mohsen-1315, server: 103.172.116.103, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: 4Jadi-1130, server: 143.244.62.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 4Mohsen-1297, server: p232.panda004.net, port: 4398, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: 4Mohsen-842, server: 103.172.116.103, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
   - {name: 4FreeIran-44, server: nc.cn2.go002.xyz, port: 19511, type: ss, cipher: chacha20-ietf-poly1305, password: 893562d2-2e36-4c87-aebc-3ca3fc78de3e, udp: true}
+  - {name: 4Mohsen-1292, server: p222.panda001.net, port: 54345, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: 4Mohsen-940, server: 43.201.100.232, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +24,32 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 6|-https://t.me/MrXbin-33
-      - 17|🇸🇬 狮城特殊|@ripaojiedian
-      - 4Mohsen-912
       - VN-103.154.63.16-0142
-      - 4Mohsen-1315
-      - 4Jadi-1130
-      - 4Mohsen-1297
+      - 4Mohsen-842
       - 4FreeIran-44
+      - 4Mohsen-1292
+      - 4Mohsen-940
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 6|-https://t.me/MrXbin-33
-      - 17|🇸🇬 狮城特殊|@ripaojiedian
-      - 4Mohsen-912
       - VN-103.154.63.16-0142
-      - 4Mohsen-1315
-      - 4Jadi-1130
-      - 4Mohsen-1297
+      - 4Mohsen-842
       - 4FreeIran-44
+      - 4Mohsen-1292
+      - 4Mohsen-940
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 6|-https://t.me/MrXbin-33
-      - 17|🇸🇬 狮城特殊|@ripaojiedian
-      - 4Mohsen-912
       - VN-103.154.63.16-0142
-      - 4Mohsen-1315
-      - 4Jadi-1130
-      - 4Mohsen-1297
+      - 4Mohsen-842
       - 4FreeIran-44
+      - 4Mohsen-1292
+      - 4Mohsen-940
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
