@@ -4,15 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: CN-183.236.51.6-2768, server: xibaozi.19890604.day, port: 10846, type: trojan, password: 05f310a4-ca8e-4c0f-96fe-f5ca6b764404, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 4Sarina-188, server: cn.pathx.me, port: 44426, type: ss, cipher: chacha20-ietf-poly1305, password: 1ccf201b-c3f9-472c-b0d8-fa90f93a1c10, udp: true}
-  - {name: 20|baipaovpn美国, server: 104.18.139.100, port: 2082, type: vmess, uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/CuTy87zAzV/, headers: {Host: us4Bb5oSgJA.fzbqfrse.xyz}}, udp: true}
-  - {name: "17,18|美国|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 8880, type: vmess, uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/bYdJ7Vc2We, headers: {Host: us6gzxQRrE4.fzbqfrse.xyz}}, udp: true}
+  - {name: CN-183.236.51.6-3120, server: xibaozi.19890604.day, port: 10841, type: trojan, password: 05f310a4-ca8e-4c0f-96fe-f5ca6b764404, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: "3,4,8,9,15,19,22|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_20", server: cfcdn1.sanfencdn9.com, port: 2082, type: vmess, uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/CuTy87zAzV/, headers: {Host: us4Bb5oSgJA.fzbqfrse.xyz}}, udp: true}
   - {name: "9,22|🇺🇸_US_美国_2_2由快嘴科技提供：kkzui.com", server: 104.21.229.78, port: 2082, type: vmess, uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/CuTy87zAzV/, headers: {Host: us4Bb5oSgJA.fzbqfrse.xyz}}, udp: true}
-  - {name: 18|韩国3|@ripaojiedian, server: krse10.ip8.shop, port: 25362, type: vmess, uuid: 71618f91-d149-4b45-91c9-f94dd4e2499a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 20|baipaovpn台湾省, server: 118.167.71.177, port: 12002, type: vmess, uuid: 2358c269-178a-43c0-a208-c6cc52d398f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "17,18|韩国2|@ripaojiedian", server: 104.17.25.1, port: 80, type: vmess, uuid: 83c19463-f966-4adb-a7d8-b127825ffab2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kr.catnipballs.gay}}, udp: true}
-  - {name: 4Sarina-936, server: 13.250.25.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _US_美国, server: 104.16.109.205, port: 2082, type: vmess, uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/CuTy87zAzV/, headers: {Host: us4Bb5oSgJA.fzbqfrse.xyz}}, udp: true}
+  - {name: 4Mohsen-961, server: 34.222.2.189, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 6|-https://t.me/MrXbin-485, server: b23.ntbq.dynu.net, port: 2024, type: vmess, uuid: 2358c269-178a-43c0-a208-c6cc52d398f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 4Mohsen-966, server: 43.201.100.232, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -28,44 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-183.236.51.6-2768
-      - 4Sarina-188
-      - 20|baipaovpn美国
-      - 17,18|美国|@ripaojiedian
+      - CN-183.236.51.6-3120
+      - 3,4,8,9,15,19,22|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_20
       - 9,22|🇺🇸_US_美国_2_2由快嘴科技提供：kkzui.com
-      - 18|韩国3|@ripaojiedian
       - 20|baipaovpn台湾省
-      - 17,18|韩国2|@ripaojiedian
-      - 4Sarina-936
+      - _US_美国
+      - 4Mohsen-961
+      - 6|-https://t.me/MrXbin-485
+      - 4Mohsen-966
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - CN-183.236.51.6-2768
-      - 4Sarina-188
-      - 20|baipaovpn美国
-      - 17,18|美国|@ripaojiedian
+      - CN-183.236.51.6-3120
+      - 3,4,8,9,15,19,22|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_20
       - 9,22|🇺🇸_US_美国_2_2由快嘴科技提供：kkzui.com
-      - 18|韩国3|@ripaojiedian
       - 20|baipaovpn台湾省
-      - 17,18|韩国2|@ripaojiedian
-      - 4Sarina-936
+      - _US_美国
+      - 4Mohsen-961
+      - 6|-https://t.me/MrXbin-485
+      - 4Mohsen-966
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-183.236.51.6-2768
-      - 4Sarina-188
-      - 20|baipaovpn美国
-      - 17,18|美国|@ripaojiedian
+      - CN-183.236.51.6-3120
+      - 3,4,8,9,15,19,22|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_20
       - 9,22|🇺🇸_US_美国_2_2由快嘴科技提供：kkzui.com
-      - 18|韩国3|@ripaojiedian
       - 20|baipaovpn台湾省
-      - 17,18|韩国2|@ripaojiedian
-      - 4Sarina-936
+      - _US_美国
+      - 4Mohsen-961
+      - 6|-https://t.me/MrXbin-485
+      - 4Mohsen-966
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
