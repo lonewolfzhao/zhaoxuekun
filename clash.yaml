@@ -4,14 +4,12 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: CN-183.236.51.6-3120, server: xibaozi.19890604.day, port: 10841, type: trojan, password: 05f310a4-ca8e-4c0f-96fe-f5ca6b764404, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: "3,4,8,9,15,19,22|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_20", server: cfcdn1.sanfencdn9.com, port: 2082, type: vmess, uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/CuTy87zAzV/, headers: {Host: us4Bb5oSgJA.fzbqfrse.xyz}}, udp: true}
-  - {name: "9,22|🇺🇸_US_美国_2_2由快嘴科技提供：kkzui.com", server: 104.21.229.78, port: 2082, type: vmess, uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/CuTy87zAzV/, headers: {Host: us4Bb5oSgJA.fzbqfrse.xyz}}, udp: true}
-  - {name: 20|baipaovpn台湾省, server: 118.167.71.177, port: 12002, type: vmess, uuid: 2358c269-178a-43c0-a208-c6cc52d398f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国, server: 104.16.109.205, port: 2082, type: vmess, uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/CuTy87zAzV/, headers: {Host: us4Bb5oSgJA.fzbqfrse.xyz}}, udp: true}
-  - {name: 4Mohsen-961, server: 34.222.2.189, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 6|-https://t.me/MrXbin-485, server: b23.ntbq.dynu.net, port: 2024, type: vmess, uuid: 2358c269-178a-43c0-a208-c6cc52d398f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 4Mohsen-966, server: 43.201.100.232, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: CN-183.236.51.7-2844, server: xibaozi.19890604.day, port: 10840, type: trojan, password: 8c20a85b-f70f-48aa-a607-92d57eddc92f, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 4Mohsen-983, server: 43.203.119.237, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 6|-https://t.me/MrXbin-4, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
+  - {name: 15|🇸🇬|SG|新加坡|@wxgqlfx|26, server: 139.59.122.210, port: 8080, type: vmess, uuid: 033fc019-ed01-431f-96ce-524087e3ec62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 4FreeIran-1319, server: p228.panda004.net, port: 59084, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: 4Mohsen-728, server: 1.65.223.223, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +25,35 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-183.236.51.6-3120
-      - 3,4,8,9,15,19,22|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_20
-      - 9,22|🇺🇸_US_美国_2_2由快嘴科技提供：kkzui.com
-      - 20|baipaovpn台湾省
-      - _US_美国
-      - 4Mohsen-961
-      - 6|-https://t.me/MrXbin-485
-      - 4Mohsen-966
+      - CN-183.236.51.7-2844
+      - 4Mohsen-983
+      - 6|-https://t.me/MrXbin-4
+      - 15|🇸🇬|SG|新加坡|@wxgqlfx|26
+      - 4FreeIran-1319
+      - 4Mohsen-728
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - CN-183.236.51.6-3120
-      - 3,4,8,9,15,19,22|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_20
-      - 9,22|🇺🇸_US_美国_2_2由快嘴科技提供：kkzui.com
-      - 20|baipaovpn台湾省
-      - _US_美国
-      - 4Mohsen-961
-      - 6|-https://t.me/MrXbin-485
-      - 4Mohsen-966
+      - CN-183.236.51.7-2844
+      - 4Mohsen-983
+      - 6|-https://t.me/MrXbin-4
+      - 15|🇸🇬|SG|新加坡|@wxgqlfx|26
+      - 4FreeIran-1319
+      - 4Mohsen-728
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-183.236.51.6-3120
-      - 3,4,8,9,15,19,22|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_20
-      - 9,22|🇺🇸_US_美国_2_2由快嘴科技提供：kkzui.com
-      - 20|baipaovpn台湾省
-      - _US_美国
-      - 4Mohsen-961
-      - 6|-https://t.me/MrXbin-485
-      - 4Mohsen-966
+      - CN-183.236.51.7-2844
+      - 4Mohsen-983
+      - 6|-https://t.me/MrXbin-4
+      - 15|🇸🇬|SG|新加坡|@wxgqlfx|26
+      - 4FreeIran-1319
+      - 4Mohsen-728
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
