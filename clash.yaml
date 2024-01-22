@@ -4,13 +4,9 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 4Mohsen-987, server: 46.137.227.248, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: CN-183.236.51.6-2914, server: xijinping.19890604.day, port: 10813, type: trojan, password: 8c20a85b-f70f-48aa-a607-92d57eddc92f, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 4Sarina-820, server: 13.250.55.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Kian-1298, server: 217.30.10.68, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: 4Sarina-817, server: 13.250.25.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Sarina-844, server: 34.222.2.189, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Sarina-2625, server: 103.89.12.161, port: 19746, type: ss, cipher: aes-256-gcm, password: tEIm4coeMu1mEBEW, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国, server: xibaozi.19890604.day, port: 10837, type: trojan, password: da3f89e3-5676-4ca9-8f06-d51cb1ffbe96, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 7|德国1, server: cf.openxai.link, port: 8080, type: vmess, uuid: c18beb85-c67b-46ed-b8cc-4cbfeae5f194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: eu1.openxai.link}}, udp: true}
+  - {name: 4Kian-807, server: 217.30.10.68, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -26,38 +22,26 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Mohsen-987
-      - CN-183.236.51.6-2914
-      - 4Sarina-820
-      - 4Kian-1298
-      - 4Sarina-817
-      - 4Sarina-844
-      - 4Sarina-2625
+      - _CN_中国->🇺🇸_US_美国
+      - 7|德国1
+      - 4Kian-807
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 4Mohsen-987
-      - CN-183.236.51.6-2914
-      - 4Sarina-820
-      - 4Kian-1298
-      - 4Sarina-817
-      - 4Sarina-844
-      - 4Sarina-2625
+      - _CN_中国->🇺🇸_US_美国
+      - 7|德国1
+      - 4Kian-807
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Mohsen-987
-      - CN-183.236.51.6-2914
-      - 4Sarina-820
-      - 4Kian-1298
-      - 4Sarina-817
-      - 4Sarina-844
-      - 4Sarina-2625
+      - _CN_中国->🇺🇸_US_美国
+      - 7|德国1
+      - 4Kian-807
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
