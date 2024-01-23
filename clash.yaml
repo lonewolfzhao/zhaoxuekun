@@ -4,10 +4,10 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: "13,14,15,17,18|新加坡|@ripaojiedian", server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: d0a3e08a-d26f-45bd-ba3c-6387f9182633, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/c9efxRCi, headers: {Host: 7nAi74jJsg1.yofnhkfc.xyz}}, udp: true}
-  - {name: 15|🇺🇸|US|美国|@wxgqlfx|35, server: 172.64.174.194, port: 2052, type: vmess, uuid: d0a3e08a-d26f-45bd-ba3c-6387f9182633, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/c9efxRCi, headers: {Host: 7nAi74jJsg1.yofnhkfc.xyz}}, udp: true}
-  - {name: 20|baipaovpn台湾省南投县, server: 36.232.158.210, port: 6122, type: vmess, uuid: ef3841cf-2556-4d9c-ac8d-c0e5e978ab86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 4Mohsen-728, server: 1.65.223.223, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: CN-183.236.51.7-2943, server: xibaozi.19890604.day, port: 10840, type: trojan, password: 1fe65af9-6677-4a4d-8427-a5f9b0bae94e, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 20|baipaovpn台湾省新竹市, server: 114.37.142.251, port: 4443, type: vmess, uuid: 7b039abd-ad30-4ce4-a876-0a97a3ccaf74, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 15|🇺🇸|US|美国|@wxgqlfx|35, server: 172.64.174.194, port: 2052, type: vmess, uuid: d0a3e08a-d26f-45bd-ba3c-6387f9182633, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/c9efxRCi, headers: {Host: 7nAi74jJsg1.yofnhkfc.xyz}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -23,29 +23,29 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 13,14,15,17,18|新加坡|@ripaojiedian
-      - 15|🇺🇸|US|美国|@wxgqlfx|35
-      - 20|baipaovpn台湾省南投县
       - 4Mohsen-728
+      - CN-183.236.51.7-2943
+      - 20|baipaovpn台湾省新竹市
+      - 15|🇺🇸|US|美国|@wxgqlfx|35
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 13,14,15,17,18|新加坡|@ripaojiedian
-      - 15|🇺🇸|US|美国|@wxgqlfx|35
-      - 20|baipaovpn台湾省南投县
       - 4Mohsen-728
+      - CN-183.236.51.7-2943
+      - 20|baipaovpn台湾省新竹市
+      - 15|🇺🇸|US|美国|@wxgqlfx|35
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 13,14,15,17,18|新加坡|@ripaojiedian
-      - 15|🇺🇸|US|美国|@wxgqlfx|35
-      - 20|baipaovpn台湾省南投县
       - 4Mohsen-728
+      - CN-183.236.51.7-2943
+      - 20|baipaovpn台湾省新竹市
+      - 15|🇺🇸|US|美国|@wxgqlfx|35
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
@@ -2654,6 +2654,7 @@ rules:
   - DOMAIN-SUFFIX,caijinglengyan.com,🔰 节点选择
   - DOMAIN-SUFFIX,calameo.com,🔰 节点选择
   - DOMAIN-SUFFIX,calebelston.com,🔰 节点选择
+  - DOMAIN-SUFFIX,calendarz.com,🔰 节点选择
   - DOMAIN-SUFFIX,calgarychinese.ca,🔰 节点选择
   - DOMAIN-SUFFIX,calgarychinese.com,🔰 节点选择
   - DOMAIN-SUFFIX,calgarychinese.net,🔰 节点选择
@@ -2723,6 +2724,7 @@ rules:
   - DOMAIN-SUFFIX,cdef.org,🔰 节点选择
   - DOMAIN-SUFFIX,cdig.info,🔰 节点选择
   - DOMAIN-SUFFIX,cdjp.org,🔰 节点选择
+  - DOMAIN-SUFFIX,cdn-telegram.org,🔰 节点选择
   - DOMAIN-SUFFIX,cdnews.com.tw,🔰 节点选择
   - DOMAIN-SUFFIX,cdninstagram.com,🔰 节点选择
   - DOMAIN-SUFFIX,cdp1989.org,🔰 节点选择
@@ -2951,6 +2953,7 @@ rules:
   - DOMAIN-SUFFIX,comic-mega.me,🔰 节点选择
   - DOMAIN-SUFFIX,comico.tw,🔰 节点选择
   - DOMAIN-SUFFIX,commandarms.com,🔰 节点选择
+  - DOMAIN-SUFFIX,comments.app,🔰 节点选择
   - DOMAIN-SUFFIX,commentshk.com,🔰 节点选择
   - DOMAIN-SUFFIX,communistcrimes.org,🔰 节点选择
   - DOMAIN-SUFFIX,communitychoicecu.com,🔰 节点选择
@@ -3803,6 +3806,7 @@ rules:
   - DOMAIN-SUFFIX,geekheart.info,🔰 节点选择
   - DOMAIN-SUFFIX,gekikame.com,🔰 节点选择
   - DOMAIN-SUFFIX,gelbooru.com,🔰 节点选择
+  - DOMAIN-SUFFIX,generated.photos,🔰 节点选择
   - DOMAIN-SUFFIX,genius.com,🔰 节点选择
   - DOMAIN-SUFFIX,geocities.co.jp,🔰 节点选择
   - DOMAIN-SUFFIX,geocities.com,🔰 节点选择
@@ -4176,10 +4180,10 @@ rules:
   - DOMAIN-SUFFIX,grammaly.com,🔰 节点选择
   - DOMAIN-SUFFIX,grandtrial.org,🔰 节点选择
   - DOMAIN-SUFFIX,grangorz.org,🔰 节点选择
+  - DOMAIN-SUFFIX,graph.org,🔰 节点选择
   - DOMAIN-SUFFIX,graphis.ne.jp,🔰 节点选择
   - DOMAIN-SUFFIX,graphql.org,🔰 节点选择
   - DOMAIN-SUFFIX,gravatar.com,🔰 节点选择
-  - DOMAIN-SUFFIX,greasespot.net,🔰 节点选择
   - DOMAIN-SUFFIX,great-firewall.com,🔰 节点选择
   - DOMAIN-SUFFIX,great-roc.org,🔰 节点选择
   - DOMAIN-SUFFIX,greatfire.org,🔰 节点选择
@@ -4469,6 +4473,8 @@ rules:
   - DOMAIN-SUFFIX,hudatoriq.web.id,🔰 节点选择
   - DOMAIN-SUFFIX,hudson.org,🔰 节点选择
   - DOMAIN-SUFFIX,huffingtonpost.com,🔰 节点选择
+  - DOMAIN-SUFFIX,huffpost.com,🔰 节点选择
+  - DOMAIN-SUFFIX,huggingface.co,🔰 节点选择
   - DOMAIN-SUFFIX,hugoroy.eu,🔰 节点选择
   - DOMAIN-SUFFIX,huhaitai.com,🔰 节点选择
   - DOMAIN-SUFFIX,huhamhire.com,🔰 节点选择
@@ -5618,6 +5624,7 @@ rules:
   - DOMAIN-SUFFIX,oauth.net,🔰 节点选择
   - DOMAIN-SUFFIX,observechina.net,🔰 节点选择
   - DOMAIN-SUFFIX,obutu.com,🔰 节点选择
+  - DOMAIN-SUFFIX,obyte.org,🔰 节点选择
   - DOMAIN-SUFFIX,ocaspro.com,🔰 节点选择
   - DOMAIN-SUFFIX,occupytiananmen.com,🔰 节点选择
   - DOMAIN-SUFFIX,oclp.hk,🔰 节点选择
@@ -5983,6 +5990,7 @@ rules:
   - DOMAIN-SUFFIX,psiphon.ca,🔰 节点选择
   - DOMAIN-SUFFIX,psiphon3.com,🔰 节点选择
   - DOMAIN-SUFFIX,psiphontoday.com,🔰 节点选择
+  - DOMAIN-SUFFIX,pstatic.net,🔰 节点选择
   - DOMAIN-SUFFIX,pt.im,🔰 节点选择
   - DOMAIN-SUFFIX,pts.org.tw,🔰 节点选择
   - DOMAIN-SUFFIX,ptt.cc,🔰 节点选择
@@ -6041,6 +6049,7 @@ rules:
   - DOMAIN-SUFFIX,questvisual.com,🔰 节点选择
   - DOMAIN-SUFFIX,quitccp.net,🔰 节点选择
   - DOMAIN-SUFFIX,quitccp.org,🔰 节点选择
+  - DOMAIN-SUFFIX,quiz.directory,🔰 节点选择
   - DOMAIN-SUFFIX,quora.com,🔰 节点选择
   - DOMAIN-SUFFIX,quoracdn.net,🔰 节点选择
   - DOMAIN-SUFFIX,quran.com,🔰 节点选择
@@ -6739,9 +6748,11 @@ rules:
   - DOMAIN-SUFFIX,tehrantimes.com,🔰 节点选择
   - DOMAIN-SUFFIX,telecomspace.com,🔰 节点选择
   - DOMAIN-SUFFIX,telegra.ph,🔰 节点选择
+  - DOMAIN-SUFFIX,telegram-cdn.org,🔰 节点选择
   - DOMAIN-SUFFIX,telegram.dog,🔰 节点选择
   - DOMAIN-SUFFIX,telegram.me,🔰 节点选择
   - DOMAIN-SUFFIX,telegram.org,🔰 节点选择
+  - DOMAIN-SUFFIX,telegram.space,🔰 节点选择
   - DOMAIN-SUFFIX,telegramdownload.com,🔰 节点选择
   - DOMAIN-SUFFIX,telegraph.co.uk,🔰 节点选择
   - DOMAIN-SUFFIX,telesco.pe,🔰 节点选择
@@ -6810,6 +6821,7 @@ rules:
   - DOMAIN-SUFFIX,thomasbernhard.org,🔰 节点选择
   - DOMAIN-SUFFIX,thongdreams.com,🔰 节点选择
   - DOMAIN-SUFFIX,threadreaderapp.com,🔰 节点选择
+  - DOMAIN-SUFFIX,threads.net,🔰 节点选择
   - DOMAIN-SUFFIX,threatchaos.com,🔰 节点选择
   - DOMAIN-SUFFIX,throughnightsfire.com,🔰 节点选择
   - DOMAIN-SUFFIX,thumbzilla.com,🔰 节点选择
@@ -7436,6 +7448,7 @@ rules:
   - DOMAIN-SUFFIX,wav.tv,🔰 节点选择
   - DOMAIN-SUFFIX,waveprotocol.org,🔰 节点选择
   - DOMAIN-SUFFIX,waymo.com,🔰 节点选择
+  - DOMAIN-SUFFIX,wd.bible,🔰 节点选择
   - DOMAIN-SUFFIX,wda.gov.tw,🔰 节点选择
   - DOMAIN-SUFFIX,wdf5.com,🔰 节点选择
   - DOMAIN-SUFFIX,wealth.com.tw,🔰 节点选择
@@ -7551,12 +7564,12 @@ rules:
   - DOMAIN-SUFFIX,witopia.net,🔰 节点选择
   - DOMAIN-SUFFIX,wizcrafts.net,🔰 节点选择
   - DOMAIN-SUFFIX,wjbk.org,🔰 节点选择
+  - DOMAIN-SUFFIX,wmflabs.org,🔰 节点选择
   - DOMAIN-SUFFIX,wn.com,🔰 节点选择
   - DOMAIN-SUFFIX,wnacg.com,🔰 节点选择
   - DOMAIN-SUFFIX,wnacg.org,🔰 节点选择
   - DOMAIN-SUFFIX,wo.tc,🔰 节点选择
   - DOMAIN-SUFFIX,woeser.com,🔰 节点选择
-  - DOMAIN-SUFFIX,woesermiddle-way.net,🔰 节点选择
   - DOMAIN-SUFFIX,wokar.org,🔰 节点选择
   - DOMAIN-SUFFIX,wolfax.com,🔰 节点选择
   - DOMAIN-SUFFIX,wombo.ai,🔰 节点选择
@@ -7714,6 +7727,7 @@ rules:
   - DOMAIN-SUFFIX,yam.org.tw,🔰 节点选择
   - DOMAIN-SUFFIX,yande.re,🔰 节点选择
   - DOMAIN-SUFFIX,yandex.com,🔰 节点选择
+  - DOMAIN-SUFFIX,yandex.ru,🔰 节点选择
   - DOMAIN-SUFFIX,yanghengjun.com,🔰 节点选择
   - DOMAIN-SUFFIX,yangjianli.com,🔰 节点选择
   - DOMAIN-SUFFIX,yasni.co.uk,🔰 节点选择
