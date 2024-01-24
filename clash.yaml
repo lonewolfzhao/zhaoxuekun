@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 6|-https://t.me/MrXbin-117, server: v94.topman8846.cc, port: 41332, type: vmess, uuid: d2a1cd29-9ac2-3165-a082-cf09cdd3bf50, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 4Kian-1143, server: 80.92.204.106, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: 4Kian-54, server: b13.ntbq.dynu.net, port: 7773, type: ss, cipher: chacha20-ietf-poly1305, password: 05f1e2ad-1d21-449b-9bbb-97a8b4662934, udp: true}
+  - {name: 15|🇺🇸|US|美国|@wxgqlfx|32, server: www.coldstone.club, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.coldstone.club}}, udp: true}
+  - {name: 6|-https://t.me/MrXbin-145, server: b23.ntbq.dynu.net, port: 2024, type: vmess, uuid: 05f1e2ad-1d21-449b-9bbb-97a8b4662934, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 15|🇺🇸|US|美国|@wxgqlfx|36, server: www.crispyrainbow.biz, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.biz}}, udp: true}
   - {name: 6|-https://t.me/MrXbin-126, server: hn5.fuzzypn.me, port: 80, type: vmess, uuid: 7a9eab7e-f9be-4b4d-8cbb-eaaee62d9eee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hn5.fuzzypn.me}}, udp: true}
-  - {name: "6,17|🇸🇬 狮城特殊|@ripaojiedian", server: 13.250.25.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "13,18|台湾3|@ripaojiedian", server: 118.167.76.233, port: 2024, type: vmess, uuid: 6b2e0602-bc1a-4ec3-88da-4238a6955ddd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 4Kian-1020, server: 103.172.116.103, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: _DE_德国, server: 5.104.108.109, port: 443, type: trojan, password: 56e1f11c-1217-46ab-b127-6afbc23bafba, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 4Sarina-826, server: 34.222.2.189, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Sarina-1118, server: 103.172.116.103, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: _DE_德国, server: 5.104.108.120, port: 443, type: trojan, password: 56e1f11c-1217-46ab-b127-6afbc23bafba, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: _DE_德国 2, server: 18.185.201.37, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 6|-https://t.me/MrXbin-117
-      - 4Kian-1143
-      - 4Kian-54
+      - 15|🇺🇸|US|美国|@wxgqlfx|32
+      - 6|-https://t.me/MrXbin-145
+      - 15|🇺🇸|US|美国|@wxgqlfx|36
       - 6|-https://t.me/MrXbin-126
-      - 6,17|🇸🇬 狮城特殊|@ripaojiedian
-      - 13,18|台湾3|@ripaojiedian
-      - 4Kian-1020
+      - 4Sarina-826
+      - 4Sarina-1118
       - _DE_德国
+      - _DE_德国 2
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 6|-https://t.me/MrXbin-117
-      - 4Kian-1143
-      - 4Kian-54
+      - 15|🇺🇸|US|美国|@wxgqlfx|32
+      - 6|-https://t.me/MrXbin-145
+      - 15|🇺🇸|US|美国|@wxgqlfx|36
       - 6|-https://t.me/MrXbin-126
-      - 6,17|🇸🇬 狮城特殊|@ripaojiedian
-      - 13,18|台湾3|@ripaojiedian
-      - 4Kian-1020
+      - 4Sarina-826
+      - 4Sarina-1118
       - _DE_德国
+      - _DE_德国 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 6|-https://t.me/MrXbin-117
-      - 4Kian-1143
-      - 4Kian-54
+      - 15|🇺🇸|US|美国|@wxgqlfx|32
+      - 6|-https://t.me/MrXbin-145
+      - 15|🇺🇸|US|美国|@wxgqlfx|36
       - 6|-https://t.me/MrXbin-126
-      - 6,17|🇸🇬 狮城特殊|@ripaojiedian
-      - 13,18|台湾3|@ripaojiedian
-      - 4Kian-1020
+      - 4Sarina-826
+      - 4Sarina-1118
       - _DE_德国
+      - _DE_德国 2
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
