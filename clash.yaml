@@ -4,13 +4,13 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 15|🇺🇸|US|美国|@wxgqlfx|36, server: www.crispyrainbow.biz, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.biz}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 6, server: www.crispyrainbow.biz, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.biz}}, udp: true}
+  - {name: 15|US_youtube@资源分享师_33, server: usyx1.jidexufei.top, port: 80, type: vmess, uuid: a5bd1650-1afc-4f11-bbfd-2b4abbc35c9e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: nishiyigedashabiuss2.com}}, udp: true}
+  - {name: github.com/freefq - 台湾省中华电信(HiNet)数据中心 7, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: 05f1e2ad-1d21-449b-9bbb-97a8b4662934, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: RELAY-172.67.166.194-0181, server: www.coldstone.club, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.coldstone.club}}, udp: true}
   - {name: "17,18|罗马尼亚|@ripaojiedian", server: 104.17.25.1, port: 80, type: vmess, uuid: 4e23bd4f-cc11-4ade-fbc1-fcaf245662bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lmnyvpn.catnipballs.gay}}, udp: true}
-  - {name: CN-183.236.51.7-3322, server: falungong.19890604.day, port: 10821, type: trojan, password: 3e5d1046-5807-4b79-8397-31a006f546d1, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 4Nika-54, server: ty11.twty.dynu.net, port: 2203, type: ss, cipher: chacha20-ietf-poly1305, password: 05f1e2ad-1d21-449b-9bbb-97a8b4662934, udp: true}
-  - {name: 6|-https://t.me/MrXbin-121, server: 52.221.191.251, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 20|baipaovpn台湾省, server: 118.167.67.180, port: 4443, type: vmess, uuid: 4403b75a-24ca-4d06-af15-6e157a0a7361, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 6|-https://t.me/MrXbin-12, server: 43.201.110.52, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Sarina-778, server: 13.231.78.35, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: _FR_法国, server: 51.158.204.204, port: 1165, type: ss, cipher: chacha20-ietf-poly1305, password: GLDCSOlCF4mMQytulOHkjQ, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -27,13 +27,13 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 15|🇺🇸|US|美国|@wxgqlfx|36
+      - github.com/freefq - 美国CloudFlare节点 6
+      - 15|US_youtube@资源分享师_33
+      - github.com/freefq - 台湾省中华电信(HiNet)数据中心 7
       - RELAY-172.67.166.194-0181
       - 17,18|罗马尼亚|@ripaojiedian
-      - CN-183.236.51.7-3322
-      - 4Nika-54
-      - 6|-https://t.me/MrXbin-121
-      - 20|baipaovpn台湾省
+      - 6|-https://t.me/MrXbin-12
+      - 4Sarina-778
       - _FR_法国
   - name: ♻️ 自动选择
     type: load-balance
@@ -41,26 +41,26 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 15|🇺🇸|US|美国|@wxgqlfx|36
+      - github.com/freefq - 美国CloudFlare节点 6
+      - 15|US_youtube@资源分享师_33
+      - github.com/freefq - 台湾省中华电信(HiNet)数据中心 7
       - RELAY-172.67.166.194-0181
       - 17,18|罗马尼亚|@ripaojiedian
-      - CN-183.236.51.7-3322
-      - 4Nika-54
-      - 6|-https://t.me/MrXbin-121
-      - 20|baipaovpn台湾省
+      - 6|-https://t.me/MrXbin-12
+      - 4Sarina-778
       - _FR_法国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 15|🇺🇸|US|美国|@wxgqlfx|36
+      - github.com/freefq - 美国CloudFlare节点 6
+      - 15|US_youtube@资源分享师_33
+      - github.com/freefq - 台湾省中华电信(HiNet)数据中心 7
       - RELAY-172.67.166.194-0181
       - 17,18|罗马尼亚|@ripaojiedian
-      - CN-183.236.51.7-3322
-      - 4Nika-54
-      - 6|-https://t.me/MrXbin-121
-      - 20|baipaovpn台湾省
+      - 6|-https://t.me/MrXbin-12
+      - 4Sarina-778
       - _FR_法国
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
