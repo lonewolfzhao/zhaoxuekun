@@ -4,14 +4,12 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: CN-183.236.51.6-3378, server: tiananmen.19890604.day, port: 10806, type: trojan, password: f1677ba5-a435-4631-bf27-659e34fa9d1f, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 6|-https://t.me/MrXbin-4, server: 114.45.76.150, port: 4303, type: ss, cipher: chacha20-ietf-poly1305, password: d20b031e-a477-45f1-8bfc-4cbea413a44e, udp: true}
-  - {name: RELAY-104.17.25.1-5390, server: 104.17.25.1, port: 80, type: vmess, uuid: aa8edc9c-978a-4f09-906f-a2668751e935, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: usnatvpn.catnipballs.gay}}, udp: true}
   - {name: 15|🇺🇸|US|美国|@wxgqlfx|36, server: www.crispyrainbow.biz, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.biz}}, udp: true}
-  - {name: "13,14|github.com/freefq - 台湾省中华电信(Hi...", server: 118.167.77.5, port: 4443, type: vmess, uuid: abbc98b1-b53f-45e4-9d01-54a010ead719, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 4Jadi-771, server: 13.250.55.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Jadi-1124, server: 80.92.204.106, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: 17|🇸🇬 狮城特殊|@ripaojiedian, server: 52.221.203.229, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: CN-183.236.51.6-3375, server: tiananmen.19890604.day, port: 10803, type: trojan, password: f1677ba5-a435-4631-bf27-659e34fa9d1f, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: "17,18|美国4|@ripaojiedian", server: 104.17.25.1, port: 80, type: vmess, uuid: aa8edc9c-978a-4f09-906f-a2668751e935, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: usnatvpn.catnipballs.gay}}, udp: true}
+  - {name: 20|baipaovpn台湾省, server: 118.167.76.233, port: 2024, type: vmess, uuid: d20b031e-a477-45f1-8bfc-4cbea413a44e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 4FreeIran-795, server: 43.200.254.135, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 6|-https://t.me/MrXbin-61, server: www.darkroom.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +25,35 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-183.236.51.6-3378
-      - 6|-https://t.me/MrXbin-4
-      - RELAY-104.17.25.1-5390
       - 15|🇺🇸|US|美国|@wxgqlfx|36
-      - 13,14|github.com/freefq - 台湾省中华电信(Hi...
-      - 4Jadi-771
-      - 4Jadi-1124
-      - 17|🇸🇬 狮城特殊|@ripaojiedian
+      - CN-183.236.51.6-3375
+      - 17,18|美国4|@ripaojiedian
+      - 20|baipaovpn台湾省
+      - 4FreeIran-795
+      - 6|-https://t.me/MrXbin-61
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - CN-183.236.51.6-3378
-      - 6|-https://t.me/MrXbin-4
-      - RELAY-104.17.25.1-5390
       - 15|🇺🇸|US|美国|@wxgqlfx|36
-      - 13,14|github.com/freefq - 台湾省中华电信(Hi...
-      - 4Jadi-771
-      - 4Jadi-1124
-      - 17|🇸🇬 狮城特殊|@ripaojiedian
+      - CN-183.236.51.6-3375
+      - 17,18|美国4|@ripaojiedian
+      - 20|baipaovpn台湾省
+      - 4FreeIran-795
+      - 6|-https://t.me/MrXbin-61
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-183.236.51.6-3378
-      - 6|-https://t.me/MrXbin-4
-      - RELAY-104.17.25.1-5390
       - 15|🇺🇸|US|美国|@wxgqlfx|36
-      - 13,14|github.com/freefq - 台湾省中华电信(Hi...
-      - 4Jadi-771
-      - 4Jadi-1124
-      - 17|🇸🇬 狮城特殊|@ripaojiedian
+      - CN-183.236.51.6-3375
+      - 17,18|美国4|@ripaojiedian
+      - 20|baipaovpn台湾省
+      - 4FreeIran-795
+      - 6|-https://t.me/MrXbin-61
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
