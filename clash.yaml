@@ -12,8 +12,6 @@ proxies:
   - {name: "26|baipaovpn台湾省 #2", server: 125.224.144.24, port: 6122, type: vmess, uuid: 46a8c6ce-0095-4229-9e35-238d6634feca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: RELAY-104.20.231.30-0144, server: 104.20.231.30, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
   - {name: RELAY-172.67.166.194-0160, server: www.coldstone.club, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.coldstone.club}}, udp: true}
-  - {name: "21,24,26|baipaovpn台湾省", server: 118.167.70.229, port: 12002, type: vmess, uuid: 46a8c6ce-0095-4229-9e35-238d6634feca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 21|距离下次重置剩余：28 天, server: 104.18.154.42, port: 80, type: vmess, uuid: 2bc07c42-4420-4b94-b029-f5f83a20602a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us3.visaapp.top}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -37,8 +35,6 @@ proxy-groups:
       - "26|baipaovpn台湾省 #2"
       - RELAY-104.20.231.30-0144
       - RELAY-172.67.166.194-0160
-      - 21,24,26|baipaovpn台湾省
-      - 21|距离下次重置剩余：28 天
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
@@ -53,8 +49,6 @@ proxy-groups:
       - "26|baipaovpn台湾省 #2"
       - RELAY-104.20.231.30-0144
       - RELAY-172.67.166.194-0160
-      - 21,24,26|baipaovpn台湾省
-      - 21|距离下次重置剩余：28 天
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -68,8 +62,6 @@ proxy-groups:
       - "26|baipaovpn台湾省 #2"
       - RELAY-104.20.231.30-0144
       - RELAY-172.67.166.194-0160
-      - 21,24,26|baipaovpn台湾省
-      - 21|距离下次重置剩余：28 天
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
