@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: CN-183.236.51.6-3585, server: tiananmen.19890604.day, port: 10804, type: trojan, password: 8b824a66-9779-430f-95e6-5d09de8cfb5b, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: "1,15|🇺🇸|US|美国|@wxgqlfx|15", server: www.crispyrainbow.online, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.online}}, udp: true}
-  - {name: _US_美国, server: 172.64.85.160, port: 8080, type: vmess, uuid: 5a1bd666-441a-4446-9b4b-3538f6209d31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/f8ZKTGaGoC/, headers: {Host: us5PhAx6xsj.fzbqfrse.xyz}}, udp: true}
-  - {name: RELAY-104.17.25.1-0200, server: 104.17.25.1, port: 80, type: vmess, uuid: aa8edc9c-978a-4f09-906f-a2668751e935, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: usnatvpn.catnipballs.gay}}, udp: true}
+  - {name: CN-183.236.51.7-3584, server: tiananmen.19890604.day, port: 10803, type: trojan, password: 8b824a66-9779-430f-95e6-5d09de8cfb5b, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
   - {name: RELAY-104.21.61.214-0198, server: www.darkroom.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}, udp: true}
-  - {name: "26|baipaovpn台湾省 #2", server: 125.224.144.24, port: 6122, type: vmess, uuid: 46a8c6ce-0095-4229-9e35-238d6634feca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: RELAY-104.20.231.30-0144, server: 104.20.231.30, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: RELAY-172.67.166.194-0160, server: www.coldstone.club, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.coldstone.club}}, udp: true}
+  - {name: 21|🔒 VM-WS-NA 🇺🇸 US-172.67.166.19..., server: 172.67.166.190, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.online}}, udp: true}
+  - {name: 15|🇺🇸|US|美国|@wxgqlfx|36, server: www.crispyrainbow.biz, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.biz}}, udp: true}
+  - {name: 21|🇺🇸|US|美国|@wxgqlfx|40, server: 104.20.231.30, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: "0,4,8,9,21,23,24,25|🇺🇸 _US_美国->🇮🇷_IR_伊朗 #3", server: www.coldstone.club, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.coldstone.club}}, udp: true}
+  - {name: "1,15|🇺🇸|US|美国|@wxgqlfx|13", server: www.blueberrywindow.online, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.blueberrywindow.online}}, udp: true}
+  - {name: 4FreeIran-775, server: 13.250.55.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-183.236.51.6-3585
-      - 1,15|🇺🇸|US|美国|@wxgqlfx|15
-      - _US_美国
-      - RELAY-104.17.25.1-0200
+      - CN-183.236.51.7-3584
       - RELAY-104.21.61.214-0198
-      - "26|baipaovpn台湾省 #2"
-      - RELAY-104.20.231.30-0144
-      - RELAY-172.67.166.194-0160
+      - 21|🔒 VM-WS-NA 🇺🇸 US-172.67.166.19...
+      - 15|🇺🇸|US|美国|@wxgqlfx|36
+      - 21|🇺🇸|US|美国|@wxgqlfx|40
+      - "0,4,8,9,21,23,24,25|🇺🇸 _US_美国->🇮🇷_IR_伊朗 #3"
+      - 1,15|🇺🇸|US|美国|@wxgqlfx|13
+      - 4FreeIran-775
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - CN-183.236.51.6-3585
-      - 1,15|🇺🇸|US|美国|@wxgqlfx|15
-      - _US_美国
-      - RELAY-104.17.25.1-0200
+      - CN-183.236.51.7-3584
       - RELAY-104.21.61.214-0198
-      - "26|baipaovpn台湾省 #2"
-      - RELAY-104.20.231.30-0144
-      - RELAY-172.67.166.194-0160
+      - 21|🔒 VM-WS-NA 🇺🇸 US-172.67.166.19...
+      - 15|🇺🇸|US|美国|@wxgqlfx|36
+      - 21|🇺🇸|US|美国|@wxgqlfx|40
+      - "0,4,8,9,21,23,24,25|🇺🇸 _US_美国->🇮🇷_IR_伊朗 #3"
+      - 1,15|🇺🇸|US|美国|@wxgqlfx|13
+      - 4FreeIran-775
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-183.236.51.6-3585
-      - 1,15|🇺🇸|US|美国|@wxgqlfx|15
-      - _US_美国
-      - RELAY-104.17.25.1-0200
+      - CN-183.236.51.7-3584
       - RELAY-104.21.61.214-0198
-      - "26|baipaovpn台湾省 #2"
-      - RELAY-104.20.231.30-0144
-      - RELAY-172.67.166.194-0160
+      - 21|🔒 VM-WS-NA 🇺🇸 US-172.67.166.19...
+      - 15|🇺🇸|US|美国|@wxgqlfx|36
+      - 21|🇺🇸|US|美国|@wxgqlfx|40
+      - "0,4,8,9,21,23,24,25|🇺🇸 _US_美国->🇮🇷_IR_伊朗 #3"
+      - 1,15|🇺🇸|US|美国|@wxgqlfx|13
+      - 4FreeIran-775
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
