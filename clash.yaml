@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 21|🇺🇸|US|美国|@wxgqlfx|25, server: 104.20.231.30, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: "0,3,4,6,8,21,25,28|🇺🇸_US_美国_6_3由快嘴科技提供：kkzui.com", server: www.blueberrywindow.online, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.blueberrywindow.online}}, udp: true}
-  - {name: 21|🔒 VM-WS-NA 🇺🇸 US-172.67.166.19..., server: 172.67.166.190, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.online}}, udp: true}
-  - {name: "0,3,4,9|🇺🇸_US_美国 #27", server: 104.19.234.82, port: 2095, type: vmess, uuid: 657140e4-fb53-4404-80b7-fcbac652671f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/qYZue4zaWS, headers: {Host: us82pRzxDMb.fzbqfrse.xyz}}, udp: true}
-  - {name: RELAY-172.67.212.114-0203, server: 172.67.212.114, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.biz}}, udp: true}
-  - {name: 4Kian-49, server: sh2btf.999333.xyz, port: 39073, type: ss, cipher: chacha20-ietf-poly1305, password: 888873cf-87db-4d79-b3aa-6e741377defa, udp: true}
-  - {name: "0,3,4,9,21|🇺🇸|US|美国|@wxgqlfx|20", server: 104.21.83.10, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.coldstone.club}}, udp: true}
-  - {name: 21|🇺🇸|US|美国|@wxgqlfx|3, server: 104.24.208.37, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: RELAY-172.67.166.190-0190, server: 172.67.166.190, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.online}}, udp: true}
+  - {name: _US_美国, server: apphot.cc, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Texas.realityforus.com}}, udp: true}
+  - {name: RELAY-104.21.83.10-0199, server: 104.21.83.10, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.coldstone.club}}, udp: true}
+  - {name: "15,16|dongtaiwang.com_1 #4", server: 108.181.2.154, port: 33445, type: vmess, uuid: 7de8d7aa-ae4a-4d75-82f4-2e8b46fc0290, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 21|🇷🇺俄罗斯去Youtube广告, server: 45.144.2.113, port: 80, type: vmess, uuid: df19a2b5-cb11-4347-ad8c-4afe58a872a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.apple.com}}, udp: true}
+  - {name: "0,3,4,8,9,21,23,24,25,28|🇺🇸_US_美国_5_29", server: www.coldstone.club, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.coldstone.club}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 4, server: 104.17.25.1, port: 80, type: vmess, uuid: 3d668cbe-5464-4a79-aab5-e301b4e0f169, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dg.catnipballs.gay}}, udp: true}
+  - {name: 21|Youtube破解广告6, server: 162.159.200.7, port: 80, type: vmess, uuid: df19a2b5-cb11-4347-ad8c-4afe58a872a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: er3.visaapp.top}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 21|🇺🇸|US|美国|@wxgqlfx|25
-      - 0,3,4,6,8,21,25,28|🇺🇸_US_美国_6_3由快嘴科技提供：kkzui.com
-      - 21|🔒 VM-WS-NA 🇺🇸 US-172.67.166.19...
-      - "0,3,4,9|🇺🇸_US_美国 #27"
-      - RELAY-172.67.212.114-0203
-      - 4Kian-49
-      - 0,3,4,9,21|🇺🇸|US|美国|@wxgqlfx|20
-      - 21|🇺🇸|US|美国|@wxgqlfx|3
+      - RELAY-172.67.166.190-0190
+      - _US_美国
+      - RELAY-104.21.83.10-0199
+      - "15,16|dongtaiwang.com_1 #4"
+      - 21|🇷🇺俄罗斯去Youtube广告
+      - 0,3,4,8,9,21,23,24,25,28|🇺🇸_US_美国_5_29
+      - github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 21|Youtube破解广告6
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 21|🇺🇸|US|美国|@wxgqlfx|25
-      - 0,3,4,6,8,21,25,28|🇺🇸_US_美国_6_3由快嘴科技提供：kkzui.com
-      - 21|🔒 VM-WS-NA 🇺🇸 US-172.67.166.19...
-      - "0,3,4,9|🇺🇸_US_美国 #27"
-      - RELAY-172.67.212.114-0203
-      - 4Kian-49
-      - 0,3,4,9,21|🇺🇸|US|美国|@wxgqlfx|20
-      - 21|🇺🇸|US|美国|@wxgqlfx|3
+      - RELAY-172.67.166.190-0190
+      - _US_美国
+      - RELAY-104.21.83.10-0199
+      - "15,16|dongtaiwang.com_1 #4"
+      - 21|🇷🇺俄罗斯去Youtube广告
+      - 0,3,4,8,9,21,23,24,25,28|🇺🇸_US_美国_5_29
+      - github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 21|Youtube破解广告6
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 21|🇺🇸|US|美国|@wxgqlfx|25
-      - 0,3,4,6,8,21,25,28|🇺🇸_US_美国_6_3由快嘴科技提供：kkzui.com
-      - 21|🔒 VM-WS-NA 🇺🇸 US-172.67.166.19...
-      - "0,3,4,9|🇺🇸_US_美国 #27"
-      - RELAY-172.67.212.114-0203
-      - 4Kian-49
-      - 0,3,4,9,21|🇺🇸|US|美国|@wxgqlfx|20
-      - 21|🇺🇸|US|美国|@wxgqlfx|3
+      - RELAY-172.67.166.190-0190
+      - _US_美国
+      - RELAY-104.21.83.10-0199
+      - "15,16|dongtaiwang.com_1 #4"
+      - 21|🇷🇺俄罗斯去Youtube广告
+      - 0,3,4,8,9,21,23,24,25,28|🇺🇸_US_美国_5_29
+      - github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 21|Youtube破解广告6
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
