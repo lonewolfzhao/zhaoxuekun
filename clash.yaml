@@ -4,13 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: "9,19,20,21|🇺🇸_US_美国 #31", server: be1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 38df59ec-30e2-45e9-86c7-5a58667e6994, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: be1-vmess.sshmax.xyz}}, udp: true}
-  - {name: RELAY-172.64.80.1-0134, server: www.crispyrainbow.online, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.online}}, udp: true}
-  - {name: "0,3,4,9,21|🇺🇸|US|美国|@wxgqlfx|12", server: 172.67.212.114, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.biz}}, udp: true}
+  - {name: 21|🇺🇸|US|美国|@wxgqlfx|25, server: 104.20.231.30, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: "0,3,4,6,8,21,25,28|🇺🇸_US_美国_6_3由快嘴科技提供：kkzui.com", server: www.blueberrywindow.online, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.blueberrywindow.online}}, udp: true}
   - {name: 21|🔒 VM-WS-NA 🇺🇸 US-172.67.166.19..., server: 172.67.166.190, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.online}}, udp: true}
-  - {name: RELAY-104.21.83.10-0199, server: 104.21.83.10, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.coldstone.club}}, udp: true}
-  - {name: RELAY-104.21.61.214-0198, server: www.darkroom.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}, udp: true}
-  - {name: CN-183.236.51.6-3260, server: xijinping.19890604.day, port: 10817, type: trojan, password: fdec7965-8ba7-434e-abd5-502a658550c7, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: "0,3,4,9|🇺🇸_US_美国 #27", server: 104.19.234.82, port: 2095, type: vmess, uuid: 657140e4-fb53-4404-80b7-fcbac652671f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/qYZue4zaWS, headers: {Host: us82pRzxDMb.fzbqfrse.xyz}}, udp: true}
+  - {name: RELAY-172.67.212.114-0203, server: 172.67.212.114, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.biz}}, udp: true}
+  - {name: 4Kian-49, server: sh2btf.999333.xyz, port: 39073, type: ss, cipher: chacha20-ietf-poly1305, password: 888873cf-87db-4d79-b3aa-6e741377defa, udp: true}
+  - {name: "0,3,4,9,21|🇺🇸|US|美国|@wxgqlfx|20", server: 104.21.83.10, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.coldstone.club}}, udp: true}
+  - {name: 21|🇺🇸|US|美国|@wxgqlfx|3, server: 104.24.208.37, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -26,38 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "9,19,20,21|🇺🇸_US_美国 #31"
-      - RELAY-172.64.80.1-0134
-      - 0,3,4,9,21|🇺🇸|US|美国|@wxgqlfx|12
+      - 21|🇺🇸|US|美国|@wxgqlfx|25
+      - 0,3,4,6,8,21,25,28|🇺🇸_US_美国_6_3由快嘴科技提供：kkzui.com
       - 21|🔒 VM-WS-NA 🇺🇸 US-172.67.166.19...
-      - RELAY-104.21.83.10-0199
-      - RELAY-104.21.61.214-0198
-      - CN-183.236.51.6-3260
+      - "0,3,4,9|🇺🇸_US_美国 #27"
+      - RELAY-172.67.212.114-0203
+      - 4Kian-49
+      - 0,3,4,9,21|🇺🇸|US|美国|@wxgqlfx|20
+      - 21|🇺🇸|US|美国|@wxgqlfx|3
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - "9,19,20,21|🇺🇸_US_美国 #31"
-      - RELAY-172.64.80.1-0134
-      - 0,3,4,9,21|🇺🇸|US|美国|@wxgqlfx|12
+      - 21|🇺🇸|US|美国|@wxgqlfx|25
+      - 0,3,4,6,8,21,25,28|🇺🇸_US_美国_6_3由快嘴科技提供：kkzui.com
       - 21|🔒 VM-WS-NA 🇺🇸 US-172.67.166.19...
-      - RELAY-104.21.83.10-0199
-      - RELAY-104.21.61.214-0198
-      - CN-183.236.51.6-3260
+      - "0,3,4,9|🇺🇸_US_美国 #27"
+      - RELAY-172.67.212.114-0203
+      - 4Kian-49
+      - 0,3,4,9,21|🇺🇸|US|美国|@wxgqlfx|20
+      - 21|🇺🇸|US|美国|@wxgqlfx|3
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "9,19,20,21|🇺🇸_US_美国 #31"
-      - RELAY-172.64.80.1-0134
-      - 0,3,4,9,21|🇺🇸|US|美国|@wxgqlfx|12
+      - 21|🇺🇸|US|美国|@wxgqlfx|25
+      - 0,3,4,6,8,21,25,28|🇺🇸_US_美国_6_3由快嘴科技提供：kkzui.com
       - 21|🔒 VM-WS-NA 🇺🇸 US-172.67.166.19...
-      - RELAY-104.21.83.10-0199
-      - RELAY-104.21.61.214-0198
-      - CN-183.236.51.6-3260
+      - "0,3,4,9|🇺🇸_US_美国 #27"
+      - RELAY-172.67.212.114-0203
+      - 4Kian-49
+      - 0,3,4,9,21|🇺🇸|US|美国|@wxgqlfx|20
+      - 21|🇺🇸|US|美国|@wxgqlfx|3
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
