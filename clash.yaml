@@ -4,14 +4,12 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 1|_CN_->_CZ_, server: xibaozi.19890604.day, port: 10846, type: trojan, password: 3547bfda-1009-42d4-8319-b027ad049347, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 21|美国 CloudFlare节点 3《ccbaohe.com〉..., server: 104.20.231.30, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 11, server: 104.17.25.1, port: 80, type: vmess, uuid: 3d668cbe-5464-4a79-aab5-e301b4e0f169, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dg.catnipballs.gay}}, udp: true}
+  - {name: "20,21|TW-板桥2-3(TCP) - 麻雀加速器 Sparrow〖...", server: b23.ntbq.dynu.net, port: 2024, type: vmess, uuid: 1d08abce-b0ad-4f5e-aa49-884d5f6690f8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "0,3,4,9,21|🇺🇸|US|美国|@wxgqlfx|20", server: 104.21.83.10, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.coldstone.club}}, udp: true}
   - {name: 21|🔒 VM-WS-NA 🇺🇸 US-172.67.166.19..., server: 172.67.166.190, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.online}}, udp: true}
-  - {name: "12,21|TW-板桥2-2(TCP) - 麻雀加速器 Sparrow〖...", server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: 1d08abce-b0ad-4f5e-aa49-884d5f6690f8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: RELAY-104.21.23.176-0171, server: 104.21.23.176, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.biz}}, udp: true}
-  - {name: "12,26|baipaovpn台湾省南投县", server: 36.232.161.39, port: 6122, type: vmess, uuid: 19999918-f5fc-4a0b-89d1-f19210b430c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "0,3,4,9,21|🇺🇸|US|美国|@wxgqlfx|12", server: 172.67.212.114, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.biz}}, udp: true}
+  - {name: 4Sarina-29, server: 141.147.78.66, port: 24504, type: ss, cipher: chacha20-ietf-poly1305, password: 784dc0c2-01f0-43f3-b64a-248482c36df7, udp: true}
+  - {name: "0,3,4,8,21,23,24,25,28|🇺🇸_US_美国_5_25", server: www.coldstone.club, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.coldstone.club}}, udp: true}
+  - {name: RELAY-172.67.166.190-0190, server: 172.67.166.190, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.online}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +25,35 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 1|_CN_->_CZ_
-      - 21|美国 CloudFlare节点 3《ccbaohe.com〉...
-      - github.com/freefq - 美国CloudFlare公司CDN节点 11
+      - 20,21|TW-板桥2-3(TCP) - 麻雀加速器 Sparrow〖...
+      - 0,3,4,9,21|🇺🇸|US|美国|@wxgqlfx|20
       - 21|🔒 VM-WS-NA 🇺🇸 US-172.67.166.19...
-      - 12,21|TW-板桥2-2(TCP) - 麻雀加速器 Sparrow〖...
-      - RELAY-104.21.23.176-0171
-      - 12,26|baipaovpn台湾省南投县
-      - 0,3,4,9,21|🇺🇸|US|美国|@wxgqlfx|12
+      - 4Sarina-29
+      - 0,3,4,8,21,23,24,25,28|🇺🇸_US_美国_5_25
+      - RELAY-172.67.166.190-0190
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 1|_CN_->_CZ_
-      - 21|美国 CloudFlare节点 3《ccbaohe.com〉...
-      - github.com/freefq - 美国CloudFlare公司CDN节点 11
+      - 20,21|TW-板桥2-3(TCP) - 麻雀加速器 Sparrow〖...
+      - 0,3,4,9,21|🇺🇸|US|美国|@wxgqlfx|20
       - 21|🔒 VM-WS-NA 🇺🇸 US-172.67.166.19...
-      - 12,21|TW-板桥2-2(TCP) - 麻雀加速器 Sparrow〖...
-      - RELAY-104.21.23.176-0171
-      - 12,26|baipaovpn台湾省南投县
-      - 0,3,4,9,21|🇺🇸|US|美国|@wxgqlfx|12
+      - 4Sarina-29
+      - 0,3,4,8,21,23,24,25,28|🇺🇸_US_美国_5_25
+      - RELAY-172.67.166.190-0190
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 1|_CN_->_CZ_
-      - 21|美国 CloudFlare节点 3《ccbaohe.com〉...
-      - github.com/freefq - 美国CloudFlare公司CDN节点 11
+      - 20,21|TW-板桥2-3(TCP) - 麻雀加速器 Sparrow〖...
+      - 0,3,4,9,21|🇺🇸|US|美国|@wxgqlfx|20
       - 21|🔒 VM-WS-NA 🇺🇸 US-172.67.166.19...
-      - 12,21|TW-板桥2-2(TCP) - 麻雀加速器 Sparrow〖...
-      - RELAY-104.21.23.176-0171
-      - 12,26|baipaovpn台湾省南投县
-      - 0,3,4,9,21|🇺🇸|US|美国|@wxgqlfx|12
+      - 4Sarina-29
+      - 0,3,4,8,21,23,24,25,28|🇺🇸_US_美国_5_25
+      - RELAY-172.67.166.190-0190
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
