@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: RELAY-104.24.208.37-0194, server: 104.24.208.37, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: 21|TW-台中1-2(TCP) - 麻雀加速器 Sparrow〖..., server: c12.twtc.dynu.net, port: 6122, type: vmess, uuid: 02f93b88-147b-4cc9-ad6a-15d0af3843c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 4Sarina-899, server: 46.137.227.248, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 21|♏7@oneclickvpnkeys, server: 104.20.231.30, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
   - {name: "21|美国【TG：@ccbaohe】定时更新节点订阅 #1", server: 104.17.25.1, port: 80, type: vmess, uuid: aa8edc9c-978a-4f09-906f-a2668751e935, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: usnatvpn.catnipballs.gay}}, udp: true}
-  - {name: "0,3,4,9,21|🇺🇸|US|美国|@wxgqlfx|20", server: 104.21.83.10, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.coldstone.club}}, udp: true}
-  - {name: "0,3,4,8,21,23,24,25,28|🇺🇸_US_美国_4_24", server: www.crispyrainbow.online, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.online}}, udp: true}
-  - {name: 6|-https://t.me/MrXbin-175, server: 52.221.191.251, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "23,24|新加坡2|@ripaojiedian", server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: 58ecb66f-8b55-4b2a-97c9-7b87e189d2f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/u4eCZTxW, headers: {Host: jpafzyhfsg3.yofnhkfc.xyz}}, udp: true}
+  - {name: "0,3,4,8,21,25,29|🇺🇸_US_美国_2_4", server: 104.21.23.176, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.biz}}, udp: true}
+  - {name: "0,3,4,8,19,20,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...", server: www.darkroom.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}, udp: true}
+  - {name: RELAY-172.67.212.114-0129, server: www.crispyrainbow.biz, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.biz}}, udp: true}
+  - {name: 4Nika-1178, server: p110.panda001.net, port: 54345, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: 26|baipaovpn台湾省新竹市, server: 114.37.132.46, port: 2024, type: vmess, uuid: 02f93b88-147b-4cc9-ad6a-15d0af3843c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "0,3,4,8,25,29|🇺🇸_US_美国_6_27", server: 172.67.212.114, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.biz}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RELAY-104.24.208.37-0194
-      - 21|TW-台中1-2(TCP) - 麻雀加速器 Sparrow〖...
-      - 4Sarina-899
-      - 21|♏7@oneclickvpnkeys
       - "21|美国【TG：@ccbaohe】定时更新节点订阅 #1"
-      - 0,3,4,9,21|🇺🇸|US|美国|@wxgqlfx|20
-      - 0,3,4,8,21,23,24,25,28|🇺🇸_US_美国_4_24
-      - 6|-https://t.me/MrXbin-175
+      - 23,24|新加坡2|@ripaojiedian
+      - 0,3,4,8,21,25,29|🇺🇸_US_美国_2_4
+      - 0,3,4,8,19,20,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...
+      - RELAY-172.67.212.114-0129
+      - 4Nika-1178
+      - 26|baipaovpn台湾省新竹市
+      - 0,3,4,8,25,29|🇺🇸_US_美国_6_27
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - RELAY-104.24.208.37-0194
-      - 21|TW-台中1-2(TCP) - 麻雀加速器 Sparrow〖...
-      - 4Sarina-899
-      - 21|♏7@oneclickvpnkeys
       - "21|美国【TG：@ccbaohe】定时更新节点订阅 #1"
-      - 0,3,4,9,21|🇺🇸|US|美国|@wxgqlfx|20
-      - 0,3,4,8,21,23,24,25,28|🇺🇸_US_美国_4_24
-      - 6|-https://t.me/MrXbin-175
+      - 23,24|新加坡2|@ripaojiedian
+      - 0,3,4,8,21,25,29|🇺🇸_US_美国_2_4
+      - 0,3,4,8,19,20,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...
+      - RELAY-172.67.212.114-0129
+      - 4Nika-1178
+      - 26|baipaovpn台湾省新竹市
+      - 0,3,4,8,25,29|🇺🇸_US_美国_6_27
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RELAY-104.24.208.37-0194
-      - 21|TW-台中1-2(TCP) - 麻雀加速器 Sparrow〖...
-      - 4Sarina-899
-      - 21|♏7@oneclickvpnkeys
       - "21|美国【TG：@ccbaohe】定时更新节点订阅 #1"
-      - 0,3,4,9,21|🇺🇸|US|美国|@wxgqlfx|20
-      - 0,3,4,8,21,23,24,25,28|🇺🇸_US_美国_4_24
-      - 6|-https://t.me/MrXbin-175
+      - 23,24|新加坡2|@ripaojiedian
+      - 0,3,4,8,21,25,29|🇺🇸_US_美国_2_4
+      - 0,3,4,8,19,20,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...
+      - RELAY-172.67.212.114-0129
+      - 4Nika-1178
+      - 26|baipaovpn台湾省新竹市
+      - 0,3,4,8,25,29|🇺🇸_US_美国_6_27
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
