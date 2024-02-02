@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: "21|美国【TG：@ccbaohe】定时更新节点订阅 #1", server: 104.17.25.1, port: 80, type: vmess, uuid: aa8edc9c-978a-4f09-906f-a2668751e935, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: usnatvpn.catnipballs.gay}}, udp: true}
-  - {name: "23,24|新加坡2|@ripaojiedian", server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: 58ecb66f-8b55-4b2a-97c9-7b87e189d2f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/u4eCZTxW, headers: {Host: jpafzyhfsg3.yofnhkfc.xyz}}, udp: true}
-  - {name: "0,3,4,8,21,25,29|🇺🇸_US_美国_2_4", server: 104.21.23.176, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.biz}}, udp: true}
-  - {name: "0,3,4,8,19,20,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...", server: www.darkroom.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}, udp: true}
-  - {name: RELAY-172.67.212.114-0129, server: www.crispyrainbow.biz, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.biz}}, udp: true}
-  - {name: 4Nika-1178, server: p110.panda001.net, port: 54345, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: 26|baipaovpn台湾省新竹市, server: 114.37.132.46, port: 2024, type: vmess, uuid: 02f93b88-147b-4cc9-ad6a-15d0af3843c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "0,3,4,8,25,29|🇺🇸_US_美国_6_27", server: 172.67.212.114, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.biz}}, udp: true}
+  - {name: 21|🔒 VM-WS-NA 🏴‍☠️ NA-104.18.202...., server: 104.18.202.250, port: 2082, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nina.bond/linkvws, headers: {Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev}}, udp: true}
+  - {name: 26|baipaovpn台湾省新竹市, server: 114.37.132.46, port: 2024, type: vmess, uuid: e6967991-7b0a-4d1a-a37b-5eb3b78d4c15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 26|baipaovpn美国, server: 104.19.234.82, port: 2052, type: vmess, uuid: 58ecb66f-8b55-4b2a-97c9-7b87e189d2f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/QXjZG5u4F2, headers: {Host: us3AJ8biuQx.fzbqfrse.xyz}}, udp: true}
+  - {name: CN-183.236.51.7-3584, server: tiananmen.19890604.day, port: 10806, type: trojan, password: fc710338-dc52-4c61-8f05-4dd280300739, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: RELAY-104.21.82.183-0156, server: 104.21.82.183, port: 8880, type: vmess, uuid: c5626b16-4c57-4d7e-8668-6b1ecda5c8b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: server6.beheshtbaneh.com}}, udp: true}
+  - {name: RELAY-172.67.212.114-0149, server: 172.67.212.114, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.biz}}, udp: true}
+  - {name: "0,3,4,6,8,21,25,28|🇺🇸_US_美国->🇮🇷_IR_伊朗_2_22", server: www.crispyrainbow.biz, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.biz}}, udp: true}
+  - {name: RELAY-104.21.23.176-0171, server: 104.21.23.176, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.biz}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "21|美国【TG：@ccbaohe】定时更新节点订阅 #1"
-      - 23,24|新加坡2|@ripaojiedian
-      - 0,3,4,8,21,25,29|🇺🇸_US_美国_2_4
-      - 0,3,4,8,19,20,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...
-      - RELAY-172.67.212.114-0129
-      - 4Nika-1178
+      - 21|🔒 VM-WS-NA 🏴‍☠️ NA-104.18.202....
       - 26|baipaovpn台湾省新竹市
-      - 0,3,4,8,25,29|🇺🇸_US_美国_6_27
+      - 26|baipaovpn美国
+      - CN-183.236.51.7-3584
+      - RELAY-104.21.82.183-0156
+      - RELAY-172.67.212.114-0149
+      - 0,3,4,6,8,21,25,28|🇺🇸_US_美国->🇮🇷_IR_伊朗_2_22
+      - RELAY-104.21.23.176-0171
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - "21|美国【TG：@ccbaohe】定时更新节点订阅 #1"
-      - 23,24|新加坡2|@ripaojiedian
-      - 0,3,4,8,21,25,29|🇺🇸_US_美国_2_4
-      - 0,3,4,8,19,20,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...
-      - RELAY-172.67.212.114-0129
-      - 4Nika-1178
+      - 21|🔒 VM-WS-NA 🏴‍☠️ NA-104.18.202....
       - 26|baipaovpn台湾省新竹市
-      - 0,3,4,8,25,29|🇺🇸_US_美国_6_27
+      - 26|baipaovpn美国
+      - CN-183.236.51.7-3584
+      - RELAY-104.21.82.183-0156
+      - RELAY-172.67.212.114-0149
+      - 0,3,4,6,8,21,25,28|🇺🇸_US_美国->🇮🇷_IR_伊朗_2_22
+      - RELAY-104.21.23.176-0171
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "21|美国【TG：@ccbaohe】定时更新节点订阅 #1"
-      - 23,24|新加坡2|@ripaojiedian
-      - 0,3,4,8,21,25,29|🇺🇸_US_美国_2_4
-      - 0,3,4,8,19,20,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...
-      - RELAY-172.67.212.114-0129
-      - 4Nika-1178
+      - 21|🔒 VM-WS-NA 🏴‍☠️ NA-104.18.202....
       - 26|baipaovpn台湾省新竹市
-      - 0,3,4,8,25,29|🇺🇸_US_美国_6_27
+      - 26|baipaovpn美国
+      - CN-183.236.51.7-3584
+      - RELAY-104.21.82.183-0156
+      - RELAY-172.67.212.114-0149
+      - 0,3,4,6,8,21,25,28|🇺🇸_US_美国->🇮🇷_IR_伊朗_2_22
+      - RELAY-104.21.23.176-0171
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
