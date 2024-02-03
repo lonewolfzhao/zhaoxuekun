@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 21|🇺🇸|US|美国|@wxgqlfx|68, server: 173.245.58.11, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.prapt3.ir}}, udp: true}
-  - {name: 21|🇺🇸|US|美国|@wxgqlfx|69, server: 104.22.51.162, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: RELAY-104.22.51.162-0194, server: www.greendam.site, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: US-45.32.192.94-5539, server: 45.32.192.94, port: 12079, type: vmess, uuid: e63f477b-59d7-485e-9385-c38888b60cbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: github.com/freefq - 台湾省新竹市中华电信 1, server: b23.ntbq.dynu.net, port: 2024, type: vmess, uuid: 12c3ce3a-f05c-4e0c-9eec-00a4f70affd4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "0,3,4,21|🇺🇸|US|美国|@wxgqlfx|75", server: 104.21.94.99, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.blueberrywindow.online}}, udp: true}
+  - {name: "0,3,4,9,19,20,21,25|🇺🇸 _US_美国->🇷🇴_RO_罗马尼亚 #2", server: 104.17.25.1, port: 80, type: vmess, uuid: 4e23bd4f-cc11-4ade-fbc1-fcaf245662bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lmnyvpn.catnipballs.gay}}, udp: true}
+  - {name: RELAY-173.245.58.11-0183, server: 173.245.58.11, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.prapt3.ir}}, udp: true}
+  - {name: "0,3,4,6,8,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_2_由快嘴科技提供：k...", server: www.crispyrainbow.biz, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.biz}}, udp: true}
   - {name: RELAY-172.67.166.190-0162, server: 172.67.166.190, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.online}}, udp: true}
-  - {name: 21|🔒 VM-WS-NA 🏴‍☠️ NA-104.21.71.8..., server: 104.21.71.88, port: 80, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v1893298323Py, headers: {Host: de1e-haha.v2freevpn.com}}, udp: true}
+  - {name: "0,3,4,19|美国 CloudFlare节点 #7", server: 104.22.51.162, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: RELAY-104.22.51.162-0194, server: www.greendam.site, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: "0,3,4,8,23,24,25,29|🇺🇸_US_美国_9_24", server: www.crispyrainbow.online, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.online}}, udp: true}
+  - {name: "0,3,4,8,21,25,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com4_25", server: 104.21.23.176, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.biz}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 21|🇺🇸|US|美国|@wxgqlfx|68
-      - 21|🇺🇸|US|美国|@wxgqlfx|69
-      - RELAY-104.22.51.162-0194
-      - US-45.32.192.94-5539
-      - github.com/freefq - 台湾省新竹市中华电信 1
-      - 0,3,4,21|🇺🇸|US|美国|@wxgqlfx|75
+      - "0,3,4,9,19,20,21,25|🇺🇸 _US_美国->🇷🇴_RO_罗马尼亚 #2"
+      - RELAY-173.245.58.11-0183
+      - 0,3,4,6,8,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_2_由快嘴科技提供：k...
       - RELAY-172.67.166.190-0162
-      - 21|🔒 VM-WS-NA 🏴‍☠️ NA-104.21.71.8...
+      - "0,3,4,19|美国 CloudFlare节点 #7"
+      - RELAY-104.22.51.162-0194
+      - 0,3,4,8,23,24,25,29|🇺🇸_US_美国_9_24
+      - 0,3,4,8,21,25,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com4_25
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 21|🇺🇸|US|美国|@wxgqlfx|68
-      - 21|🇺🇸|US|美国|@wxgqlfx|69
-      - RELAY-104.22.51.162-0194
-      - US-45.32.192.94-5539
-      - github.com/freefq - 台湾省新竹市中华电信 1
-      - 0,3,4,21|🇺🇸|US|美国|@wxgqlfx|75
+      - "0,3,4,9,19,20,21,25|🇺🇸 _US_美国->🇷🇴_RO_罗马尼亚 #2"
+      - RELAY-173.245.58.11-0183
+      - 0,3,4,6,8,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_2_由快嘴科技提供：k...
       - RELAY-172.67.166.190-0162
-      - 21|🔒 VM-WS-NA 🏴‍☠️ NA-104.21.71.8...
+      - "0,3,4,19|美国 CloudFlare节点 #7"
+      - RELAY-104.22.51.162-0194
+      - 0,3,4,8,23,24,25,29|🇺🇸_US_美国_9_24
+      - 0,3,4,8,21,25,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com4_25
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 21|🇺🇸|US|美国|@wxgqlfx|68
-      - 21|🇺🇸|US|美国|@wxgqlfx|69
-      - RELAY-104.22.51.162-0194
-      - US-45.32.192.94-5539
-      - github.com/freefq - 台湾省新竹市中华电信 1
-      - 0,3,4,21|🇺🇸|US|美国|@wxgqlfx|75
+      - "0,3,4,9,19,20,21,25|🇺🇸 _US_美国->🇷🇴_RO_罗马尼亚 #2"
+      - RELAY-173.245.58.11-0183
+      - 0,3,4,6,8,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_2_由快嘴科技提供：k...
       - RELAY-172.67.166.190-0162
-      - 21|🔒 VM-WS-NA 🏴‍☠️ NA-104.21.71.8...
+      - "0,3,4,19|美国 CloudFlare节点 #7"
+      - RELAY-104.22.51.162-0194
+      - 0,3,4,8,23,24,25,29|🇺🇸_US_美国_9_24
+      - 0,3,4,8,21,25,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com4_25
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
