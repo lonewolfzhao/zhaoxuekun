@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 21|美国【TG：@ccbaohe】定时更新节点订阅, server: 104.20.231.30, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: RELAY-104.22.51.162-0324, server: www.greendam.site, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: "23,24|美国2|@ripaojiedian", server: rl1.269999.xyz, port: 27102, type: vmess, uuid: 460d53e3-3fa4-456a-83d1-d75d17d87c65, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rl1.269999.xyz}}, udp: true}
+  - {name: "0,3,4,8,9,21,25,29|🇺🇸_US_美国_7_由快嘴科技提供：kkzui.com3", server: 104.21.94.99, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.blueberrywindow.online}}, udp: true}
   - {name: "21|美国【TG：@ccbaohe】定时更新节点订阅 #1", server: 104.24.208.37, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: 23|🇯🇵 日本特殊|@ripaojiedian, server: 43.202.6.72, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: RELAY-172.67.161.114-0200, server: server26.beheshtbaneh.com, port: 8880, type: vmess, uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: server26.beheshtbaneh.com}}, udp: true}
-  - {name: 4Mohsen-501, server: v1.arvancode.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg, udp: true}
-  - {name: RELAY-172.67.66.124-1011, server: 172.67.66.124, port: 2052, type: vmess, uuid: ae056da6-d893-4f06-94f5-1876a6a76fcf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mianfei-jp-0001.bpjc.site}}, udp: true}
-  - {name: 6|-https://t.me/MrXbin-64, server: 5.161.220.92, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: _CN_中国->🇦🇹_AT_奥地利, server: xibaozi.19890604.day, port: 10848, type: trojan, password: 4623e7ff-47b4-41d6-8f5a-33c8e6ac3fd5, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: "0,3,4,8,9,25,29|🇺🇸_US_美国_5_9", server: 104.22.51.162, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: "21|·美国·{TG：@ccbaohe}定时更新节点订阅·89", server: www.greendam.site, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: 21|🔒 VM-WS-NA 🏴‍☠️ NA-104.18.202...., server: 104.18.202.250, port: 2082, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nina.bond/linkvws, headers: {Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev}}, udp: true}
+  - {name: "21|美国【TG：@ccbaohe】定时更新节点订阅 #2", server: 104.20.231.30, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 21|美国【TG：@ccbaohe】定时更新节点订阅
-      - RELAY-104.22.51.162-0324
+      - 23,24|美国2|@ripaojiedian
+      - 0,3,4,8,9,21,25,29|🇺🇸_US_美国_7_由快嘴科技提供：kkzui.com3
       - "21|美国【TG：@ccbaohe】定时更新节点订阅 #1"
-      - 23|🇯🇵 日本特殊|@ripaojiedian
-      - RELAY-172.67.161.114-0200
-      - 4Mohsen-501
-      - RELAY-172.67.66.124-1011
-      - 6|-https://t.me/MrXbin-64
+      - _CN_中国->🇦🇹_AT_奥地利
+      - 0,3,4,8,9,25,29|🇺🇸_US_美国_5_9
+      - 21|·美国·{TG：@ccbaohe}定时更新节点订阅·89
+      - 21|🔒 VM-WS-NA 🏴‍☠️ NA-104.18.202....
+      - "21|美国【TG：@ccbaohe】定时更新节点订阅 #2"
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 21|美国【TG：@ccbaohe】定时更新节点订阅
-      - RELAY-104.22.51.162-0324
+      - 23,24|美国2|@ripaojiedian
+      - 0,3,4,8,9,21,25,29|🇺🇸_US_美国_7_由快嘴科技提供：kkzui.com3
       - "21|美国【TG：@ccbaohe】定时更新节点订阅 #1"
-      - 23|🇯🇵 日本特殊|@ripaojiedian
-      - RELAY-172.67.161.114-0200
-      - 4Mohsen-501
-      - RELAY-172.67.66.124-1011
-      - 6|-https://t.me/MrXbin-64
+      - _CN_中国->🇦🇹_AT_奥地利
+      - 0,3,4,8,9,25,29|🇺🇸_US_美国_5_9
+      - 21|·美国·{TG：@ccbaohe}定时更新节点订阅·89
+      - 21|🔒 VM-WS-NA 🏴‍☠️ NA-104.18.202....
+      - "21|美国【TG：@ccbaohe】定时更新节点订阅 #2"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 21|美国【TG：@ccbaohe】定时更新节点订阅
-      - RELAY-104.22.51.162-0324
+      - 23,24|美国2|@ripaojiedian
+      - 0,3,4,8,9,21,25,29|🇺🇸_US_美国_7_由快嘴科技提供：kkzui.com3
       - "21|美国【TG：@ccbaohe】定时更新节点订阅 #1"
-      - 23|🇯🇵 日本特殊|@ripaojiedian
-      - RELAY-172.67.161.114-0200
-      - 4Mohsen-501
-      - RELAY-172.67.66.124-1011
-      - 6|-https://t.me/MrXbin-64
+      - _CN_中国->🇦🇹_AT_奥地利
+      - 0,3,4,8,9,25,29|🇺🇸_US_美国_5_9
+      - 21|·美国·{TG：@ccbaohe}定时更新节点订阅·89
+      - 21|🔒 VM-WS-NA 🏴‍☠️ NA-104.18.202....
+      - "21|美国【TG：@ccbaohe】定时更新节点订阅 #2"
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
