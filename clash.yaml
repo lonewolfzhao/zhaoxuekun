@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: "0,3,4,8,9,21,25,29|🇺🇸_US_美国_7_由快嘴科技提供：kkzui.com3", server: 104.21.94.99, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.blueberrywindow.online}}, udp: true}
-  - {name: "21|美国【TG：@ccbaohe】定时更新节点订阅 #1", server: 104.24.208.37, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: "23,24|美国2|@ripaojiedian", server: rl1.269999.xyz, port: 27102, type: vmess, uuid: 460d53e3-3fa4-456a-83d1-d75d17d87c65, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rl1.269999.xyz}}, udp: true}
+  - {name: CN-36.139.238.151-4008, server: rl1.269999.xyz, port: 27102, type: vmess, uuid: 460d53e3-3fa4-456a-83d1-d75d17d87c65, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rl1.269999.xyz}}, udp: true}
+  - {name: RELAY-104.21.23.176-0269, server: www.crispyrainbow.biz, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.biz}}, udp: true}
+  - {name: RELAY-104.21.23.176-0280, server: 104.21.23.176, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.biz}}, udp: true}
+  - {name: RELAY-172.67.212.114-0281, server: 172.67.212.114, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.biz}}, udp: true}
   - {name: 21|美国【TG：@ccbaohe】定时更新节点订阅, server: 104.22.51.162, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: "0,3,4,8,9,19,25,26,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com0_24", server: 172.67.166.190, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.online}}, udp: true}
-  - {name: RELAY-104.22.51.162-0324, server: www.greendam.site, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: "0,3,4,6,8,25,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com7_35", server: www.crispyrainbow.online, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.online}}, udp: true}
-  - {name: "0,3,4,6,8,25,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com2_28", server: www.crispyrainbow.biz, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.biz}}, udp: true}
+  - {name: "0,3,9,19,25,26|baipaovpn美国", server: 172.67.166.190, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.online}}, udp: true}
+  - {name: 21|美国【TG：@ccbaohe】定时更新节点订阅 2, server: 104.24.208.37, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: "0,3,4,8,9,25,29|🇺🇸_US_美国_6_由快嘴科技提供：kkzui.com1", server: www.blueberrywindow.online, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.blueberrywindow.online}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 0,3,4,8,9,21,25,29|🇺🇸_US_美国_7_由快嘴科技提供：kkzui.com3
-      - "21|美国【TG：@ccbaohe】定时更新节点订阅 #1"
-      - 23,24|美国2|@ripaojiedian
+      - CN-36.139.238.151-4008
+      - RELAY-104.21.23.176-0269
+      - RELAY-104.21.23.176-0280
+      - RELAY-172.67.212.114-0281
       - 21|美国【TG：@ccbaohe】定时更新节点订阅
-      - 0,3,4,8,9,19,25,26,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com0_24
-      - RELAY-104.22.51.162-0324
-      - 0,3,4,6,8,25,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com7_35
-      - 0,3,4,6,8,25,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com2_28
+      - 0,3,9,19,25,26|baipaovpn美国
+      - 21|美国【TG：@ccbaohe】定时更新节点订阅 2
+      - 0,3,4,8,9,25,29|🇺🇸_US_美国_6_由快嘴科技提供：kkzui.com1
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 0,3,4,8,9,21,25,29|🇺🇸_US_美国_7_由快嘴科技提供：kkzui.com3
-      - "21|美国【TG：@ccbaohe】定时更新节点订阅 #1"
-      - 23,24|美国2|@ripaojiedian
+      - CN-36.139.238.151-4008
+      - RELAY-104.21.23.176-0269
+      - RELAY-104.21.23.176-0280
+      - RELAY-172.67.212.114-0281
       - 21|美国【TG：@ccbaohe】定时更新节点订阅
-      - 0,3,4,8,9,19,25,26,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com0_24
-      - RELAY-104.22.51.162-0324
-      - 0,3,4,6,8,25,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com7_35
-      - 0,3,4,6,8,25,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com2_28
+      - 0,3,9,19,25,26|baipaovpn美国
+      - 21|美国【TG：@ccbaohe】定时更新节点订阅 2
+      - 0,3,4,8,9,25,29|🇺🇸_US_美国_6_由快嘴科技提供：kkzui.com1
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 0,3,4,8,9,21,25,29|🇺🇸_US_美国_7_由快嘴科技提供：kkzui.com3
-      - "21|美国【TG：@ccbaohe】定时更新节点订阅 #1"
-      - 23,24|美国2|@ripaojiedian
+      - CN-36.139.238.151-4008
+      - RELAY-104.21.23.176-0269
+      - RELAY-104.21.23.176-0280
+      - RELAY-172.67.212.114-0281
       - 21|美国【TG：@ccbaohe】定时更新节点订阅
-      - 0,3,4,8,9,19,25,26,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com0_24
-      - RELAY-104.22.51.162-0324
-      - 0,3,4,6,8,25,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com7_35
-      - 0,3,4,6,8,25,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com2_28
+      - 0,3,9,19,25,26|baipaovpn美国
+      - 21|美国【TG：@ccbaohe】定时更新节点订阅 2
+      - 0,3,4,8,9,25,29|🇺🇸_US_美国_6_由快嘴科技提供：kkzui.com1
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
