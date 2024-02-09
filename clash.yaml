@@ -11,7 +11,7 @@ proxies:
   - {name: RELAY-104.24.208.37-0173, server: 104.24.208.37, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
   - {name: "0|🇺🇸 _US_美国 #4", server: 104.22.51.162, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
   - {name: RELAY-188.114.96.11-1434, server: 188.114.96.11, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 21|荷兰 003, server: 188.114.96.11, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: "23,24|美国3|@ripaojiedian", server: www.coldstone.club, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.coldstone.club}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -34,7 +34,7 @@ proxy-groups:
       - RELAY-104.24.208.37-0173
       - "0|🇺🇸 _US_美国 #4"
       - RELAY-188.114.96.11-1434
-      - 21|荷兰 003
+      - 23,24|美国3|@ripaojiedian
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
@@ -48,7 +48,7 @@ proxy-groups:
       - RELAY-104.24.208.37-0173
       - "0|🇺🇸 _US_美国 #4"
       - RELAY-188.114.96.11-1434
-      - 21|荷兰 003
+      - 23,24|美国3|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -61,7 +61,7 @@ proxy-groups:
       - RELAY-104.24.208.37-0173
       - "0|🇺🇸 _US_美国 #4"
       - RELAY-188.114.96.11-1434
-      - 21|荷兰 003
+      - 23,24|美国3|@ripaojiedian
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
