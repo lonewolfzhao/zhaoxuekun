@@ -4,14 +4,11 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
+  - {name: "6,21|台湾【TG：@ccbaohe】定时更新节点订阅 #1", server: b23.ntbq.dynu.net, port: 2024, type: vmess, uuid: 60ab817e-0566-44cb-becd-6b51698d5672, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 21|🇺🇸|US|美国|@wxgqlfx|196, server: 104.21.82.183, port: 8880, type: vmess, uuid: 7ee41eb4-0594-4e2d-92a7-5dd3ee513692, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: server20.beheshtbaneh.com}}, udp: true}
   - {name: 26|baipaovpn甘肃省兰州市, server: 36.139.239.162, port: 11301, type: vmess, uuid: 205e8e1a-f0a5-3778-8a6a-3493c0cf2bef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ef483582-6269-468c-93af-c512ec2b8a61, headers: {Host: dnspsdhaitun.ncsuwei.top}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 9, server: 104.21.82.183, port: 8880, type: vmess, uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: server26.beheshtbaneh.com}}, udp: true}
-  - {name: "23,24|香港2|@ripaojiedian", server: 27.124.2.43, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/340323081726, headers: {Host: www.28717411.xyz}}, udp: true}
-  - {name: 6|-https://t.me/MrXbin-110, server: b23.ntbq.dynu.net, port: 2024, type: vmess, uuid: 08ee510e-68e6-4a71-8d3a-1c576ffa3cac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "26|baipaovpn美国 #2", server: 129.146.31.240, port: 25314, type: vmess, uuid: e3a556d1-0d7b-4fbd-8fe0-3a47cb4e7494, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /victorias, headers: {Host: us-n1.speedyyun.com}}, udp: true}
-  - {name: 23|🇸🇬 新加坡|@ripaojiedian, server: service.ouluyun9803.com, port: 26601, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2, udp: true}
-  - {name: 7|德国2, server: cf.openxai.link, port: 8080, type: vmess, uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: eu2.openxai.link}}, udp: true}
-  - {name: 21|VPN招代理电报联系@xiaoying229, server: 104.18.202.250, port: 2082, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nina.bond/linkvws, headers: {Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev}}, udp: true}
+  - {name: 23|🇸🇬 狮城特殊2|@ripaojiedian, server: 3.1.103.57, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 6|-https://t.me/MrXbin-20, server: 103.172.116.103, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +24,32 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "6,21|台湾【TG：@ccbaohe】定时更新节点订阅 #1"
+      - 21|🇺🇸|US|美国|@wxgqlfx|196
       - 26|baipaovpn甘肃省兰州市
-      - github.com/freefq - 美国CloudFlare公司CDN节点 9
-      - 23,24|香港2|@ripaojiedian
-      - 6|-https://t.me/MrXbin-110
-      - "26|baipaovpn美国 #2"
-      - 23|🇸🇬 新加坡|@ripaojiedian
-      - 7|德国2
-      - 21|VPN招代理电报联系@xiaoying229
+      - 23|🇸🇬 狮城特殊2|@ripaojiedian
+      - 6|-https://t.me/MrXbin-20
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
+      - "6,21|台湾【TG：@ccbaohe】定时更新节点订阅 #1"
+      - 21|🇺🇸|US|美国|@wxgqlfx|196
       - 26|baipaovpn甘肃省兰州市
-      - github.com/freefq - 美国CloudFlare公司CDN节点 9
-      - 23,24|香港2|@ripaojiedian
-      - 6|-https://t.me/MrXbin-110
-      - "26|baipaovpn美国 #2"
-      - 23|🇸🇬 新加坡|@ripaojiedian
-      - 7|德国2
-      - 21|VPN招代理电报联系@xiaoying229
+      - 23|🇸🇬 狮城特殊2|@ripaojiedian
+      - 6|-https://t.me/MrXbin-20
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "6,21|台湾【TG：@ccbaohe】定时更新节点订阅 #1"
+      - 21|🇺🇸|US|美国|@wxgqlfx|196
       - 26|baipaovpn甘肃省兰州市
-      - github.com/freefq - 美国CloudFlare公司CDN节点 9
-      - 23,24|香港2|@ripaojiedian
-      - 6|-https://t.me/MrXbin-110
-      - "26|baipaovpn美国 #2"
-      - 23|🇸🇬 新加坡|@ripaojiedian
-      - 7|德国2
-      - 21|VPN招代理电报联系@xiaoying229
+      - 23|🇸🇬 狮城特殊2|@ripaojiedian
+      - 6|-https://t.me/MrXbin-20
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
