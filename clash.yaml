@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 26|baipaovpn美国, server: 104.16.221.144, port: 2052, type: vmess, uuid: c752a139-42cd-48db-a4d5-ff9b5df86808, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}}, udp: true}
-  - {name: "23,24|台湾3|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: c752a139-42cd-48db-a4d5-ff9b5df86808, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}}, udp: true}
+  - {name: "3,4,9,21,25,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com5_44", server: 104.20.231.30, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
   - {name: "21|美国【TG：@ccbaohe】定时更新节点订阅 #4", server: 104.22.51.162, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: _CN_中国->🇫🇷_FR_法国, server: 183.232.230.230, port: 8443, type: trojan, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, sni: 083ab9ab-s8usg0-0-zzkl.s5.p5pv.com, skip-cert-verify: true, udp: true}
-  - {name: "3,4,9,21,25,29|🇳🇱_NL_荷兰->🇩🇪_DE_德国_由快嘴科技提供：kkz...", server: mci--join.outline-vpn.cloud, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: 21|🔒 VM-WS-NA 🏴‍☠️ NA-104.21.69.4..., server: 104.21.69.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 21|NL_youtube@资源分享师_121, server: 188.114.96.113, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 21|RELAY-104.21.69.44-0151, server: 104.21.69.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: "3,4,9,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_3_3由快嘴科技提供：...", server: 104.24.208.37, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
   - {name: "3,4,21,25,29|🇳🇱_NL_荷兰->🇩🇪_DE_德国_2_39", server: 188.114.96.11, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 21|美国【TG：@ccbaohe】定时更新节点订阅, server: 104.24.208.37, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: 21|荷兰 021, server: 188.114.96.113, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: "1,21|US美国(mibei77.com 米贝节点分享) #6", server: server28.beheshtbaneh.com, port: 8880, type: vmess, uuid: 2a346c57-5ff4-4e4b-a4d1-f3d008cbe09e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: server28.beheshtbaneh.com}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 26|baipaovpn美国
-      - 23,24|台湾3|@ripaojiedian
+      - 3,4,9,21,25,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com5_44
       - "21|美国【TG：@ccbaohe】定时更新节点订阅 #4"
-      - _CN_中国->🇫🇷_FR_法国
-      - 3,4,9,21,25,29|🇳🇱_NL_荷兰->🇩🇪_DE_德国_由快嘴科技提供：kkz...
+      - 21|🔒 VM-WS-NA 🏴‍☠️ NA-104.21.69.4...
+      - 21|NL_youtube@资源分享师_121
+      - 21|RELAY-104.21.69.44-0151
+      - 3,4,9,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_3_3由快嘴科技提供：...
       - 3,4,21,25,29|🇳🇱_NL_荷兰->🇩🇪_DE_德国_2_39
-      - 21|美国【TG：@ccbaohe】定时更新节点订阅
-      - 21|荷兰 021
+      - "1,21|US美国(mibei77.com 米贝节点分享) #6"
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 26|baipaovpn美国
-      - 23,24|台湾3|@ripaojiedian
+      - 3,4,9,21,25,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com5_44
       - "21|美国【TG：@ccbaohe】定时更新节点订阅 #4"
-      - _CN_中国->🇫🇷_FR_法国
-      - 3,4,9,21,25,29|🇳🇱_NL_荷兰->🇩🇪_DE_德国_由快嘴科技提供：kkz...
+      - 21|🔒 VM-WS-NA 🏴‍☠️ NA-104.21.69.4...
+      - 21|NL_youtube@资源分享师_121
+      - 21|RELAY-104.21.69.44-0151
+      - 3,4,9,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_3_3由快嘴科技提供：...
       - 3,4,21,25,29|🇳🇱_NL_荷兰->🇩🇪_DE_德国_2_39
-      - 21|美国【TG：@ccbaohe】定时更新节点订阅
-      - 21|荷兰 021
+      - "1,21|US美国(mibei77.com 米贝节点分享) #6"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 26|baipaovpn美国
-      - 23,24|台湾3|@ripaojiedian
+      - 3,4,9,21,25,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com5_44
       - "21|美国【TG：@ccbaohe】定时更新节点订阅 #4"
-      - _CN_中国->🇫🇷_FR_法国
-      - 3,4,9,21,25,29|🇳🇱_NL_荷兰->🇩🇪_DE_德国_由快嘴科技提供：kkz...
+      - 21|🔒 VM-WS-NA 🏴‍☠️ NA-104.21.69.4...
+      - 21|NL_youtube@资源分享师_121
+      - 21|RELAY-104.21.69.44-0151
+      - 3,4,9,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_3_3由快嘴科技提供：...
       - 3,4,21,25,29|🇳🇱_NL_荷兰->🇩🇪_DE_德国_2_39
-      - 21|美国【TG：@ccbaohe】定时更新节点订阅
-      - 21|荷兰 021
+      - "1,21|US美国(mibei77.com 米贝节点分享) #6"
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
