@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: "21|🔒 VM-WS-NA 🏴‍☠️ NA-104.19.155.... #1", server: 104.19.155.92, port: 2086, type: vmess, uuid: 68023b49-ec3e-4fc1-a587-252328c8dafa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nl.talaniom.com}}, udp: true}
-  - {name: "21|美国【TG：@ccbaohe】定时更新节点订阅 #4", server: 104.22.51.162, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: 23|🇯🇵 日本特殊|@ripaojiedian, server: 54.254.162.181, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "3,4,8,21,25,29|🇳🇱_NL_荷兰->🇩🇪_DE_德国_由快嘴科技提供：kkz...", server: 188.114.96.11, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: "21|🇺🇸·美国·{TG：@ccbaohe}定时更新节点订阅·89", server: www.greendam.site, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
   - {name: "4,8,29|🇳🇱_NL_荷兰->🇩🇪_DE_德国_2_26", server: 188.114.96.113, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: "21|美国【TG：@ccbaohe】定时更新节点订阅 #3", server: 104.20.231.30, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: 21|RELAY-104.21.69.44-0151, server: 104.21.69.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 4FreeIran-472, server: p1.bxy-fun1.com, port: 44101, type: ss, cipher: chacha20-ietf-poly1305, password: d7bee830-09aa-43b2-8945-3b341b8787db, udp: true}
   - {name: "3,9,21,25,29|🇺🇸_US_美国_4_7", server: zula.ir, port: 8880, type: vmess, uuid: 2a346c57-5ff4-4e4b-a4d1-f3d008cbe09e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: server28.beheshtbaneh.com}}, udp: true}
-  - {name: 21|🔒 VM-WS-NA 🏴‍☠️ NA-104.21.69.4..., server: 104.21.69.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: "21|美国【TG：@ccbaohe】定时更新节点订阅 #4", server: 104.22.51.162, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: 21|美国【TG：@ccbaohe】定时更新节点订阅, server: 104.24.208.37, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: "19,21,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com0_19", server: 172.67.204.84, port: 8880, type: vmess, uuid: 2a346c57-5ff4-4e4b-a4d1-f3d008cbe09e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: server28.beheshtbaneh.com}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "21|🔒 VM-WS-NA 🏴‍☠️ NA-104.19.155.... #1"
-      - "21|美国【TG：@ccbaohe】定时更新节点订阅 #4"
+      - 23|🇯🇵 日本特殊|@ripaojiedian
+      - 3,4,8,21,25,29|🇳🇱_NL_荷兰->🇩🇪_DE_德国_由快嘴科技提供：kkz...
+      - 21|🇺🇸·美国·{TG：@ccbaohe}定时更新节点订阅·89
       - 4,8,29|🇳🇱_NL_荷兰->🇩🇪_DE_德国_2_26
-      - "21|美国【TG：@ccbaohe】定时更新节点订阅 #3"
-      - 21|RELAY-104.21.69.44-0151
-      - 4FreeIran-472
       - 3,9,21,25,29|🇺🇸_US_美国_4_7
-      - 21|🔒 VM-WS-NA 🏴‍☠️ NA-104.21.69.4...
+      - "21|美国【TG：@ccbaohe】定时更新节点订阅 #4"
+      - 21|美国【TG：@ccbaohe】定时更新节点订阅
+      - 19,21,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com0_19
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - "21|🔒 VM-WS-NA 🏴‍☠️ NA-104.19.155.... #1"
-      - "21|美国【TG：@ccbaohe】定时更新节点订阅 #4"
+      - 23|🇯🇵 日本特殊|@ripaojiedian
+      - 3,4,8,21,25,29|🇳🇱_NL_荷兰->🇩🇪_DE_德国_由快嘴科技提供：kkz...
+      - 21|🇺🇸·美国·{TG：@ccbaohe}定时更新节点订阅·89
       - 4,8,29|🇳🇱_NL_荷兰->🇩🇪_DE_德国_2_26
-      - "21|美国【TG：@ccbaohe】定时更新节点订阅 #3"
-      - 21|RELAY-104.21.69.44-0151
-      - 4FreeIran-472
       - 3,9,21,25,29|🇺🇸_US_美国_4_7
-      - 21|🔒 VM-WS-NA 🏴‍☠️ NA-104.21.69.4...
+      - "21|美国【TG：@ccbaohe】定时更新节点订阅 #4"
+      - 21|美国【TG：@ccbaohe】定时更新节点订阅
+      - 19,21,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com0_19
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "21|🔒 VM-WS-NA 🏴‍☠️ NA-104.19.155.... #1"
-      - "21|美国【TG：@ccbaohe】定时更新节点订阅 #4"
+      - 23|🇯🇵 日本特殊|@ripaojiedian
+      - 3,4,8,21,25,29|🇳🇱_NL_荷兰->🇩🇪_DE_德国_由快嘴科技提供：kkz...
+      - 21|🇺🇸·美国·{TG：@ccbaohe}定时更新节点订阅·89
       - 4,8,29|🇳🇱_NL_荷兰->🇩🇪_DE_德国_2_26
-      - "21|美国【TG：@ccbaohe】定时更新节点订阅 #3"
-      - 21|RELAY-104.21.69.44-0151
-      - 4FreeIran-472
       - 3,9,21,25,29|🇺🇸_US_美国_4_7
-      - 21|🔒 VM-WS-NA 🏴‍☠️ NA-104.21.69.4...
+      - "21|美国【TG：@ccbaohe】定时更新节点订阅 #4"
+      - 21|美国【TG：@ccbaohe】定时更新节点订阅
+      - 19,21,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com0_19
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
