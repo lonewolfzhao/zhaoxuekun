@@ -4,13 +4,13 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: RELAY-104.16.77.74-0170, server: 104.16.77.74, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: CN-183.236.51.6-2351, server: xibaozi.19890604.day, port: 10841, type: trojan, password: 427a5ae2-6b2c-40ce-ab7a-e914eda118c8, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: "23,24|美国4|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 3566ed4a-5103-4f3c-917d-a6e6e1315062, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/6VBhAkCtV4/, headers: {Host: us1cPZiz8nb.fzbqfrse.xyz}}, udp: true}
   - {name: 21|美国【TG：@ccbaohe】定时更新节点订阅 2, server: 198.41.202.5, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
   - {name: 21|@Hope_Net-join-us-on-Telegram, server: 104.21.30.249, port: 2052, type: vmess, uuid: 284d74d8-4775-4144-bd7b-e27f310c99e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 237f1c11e3e9e373.Tiderace.gately.info}}, udp: true}
-  - {name: RELAY-188.114.96.113-4302, server: 188.114.96.113, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 21|美国【TG：@ccbaohe】定时更新节点订阅 4, server: for-irancell.outline-vpn.cloud, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: RELAY-104.24.208.37-4278, server: 104.24.208.37, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: 21|US_youtube@资源分享师_9, server: 104.21.69.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 23|🇯🇵 日本特殊|@ripaojiedian, server: 3.0.180.111, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: RELAY-162.159.135.39-1853, server: 21.namesilo123.top, port: 80, type: vmess, uuid: c8bb03d4-12de-4ad4-855a-70bb8653e86d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uspp.sanfen002.top}}, udp: true}
+  - {name: "3,4,8,9,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...", server: 104.22.51.162, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
   - {name: "0,3,4,8,9,19,21,25,29|🇳🇱_NL_荷兰->🇩🇪_DE_德国_3", server: 188.114.96.11, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -27,13 +27,13 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RELAY-104.16.77.74-0170
+      - CN-183.236.51.6-2351
+      - 23,24|美国4|@ripaojiedian
       - 21|美国【TG：@ccbaohe】定时更新节点订阅 2
       - 21|@Hope_Net-join-us-on-Telegram
-      - RELAY-188.114.96.113-4302
-      - 21|美国【TG：@ccbaohe】定时更新节点订阅 4
-      - RELAY-104.24.208.37-4278
-      - 21|US_youtube@资源分享师_9
+      - 23|🇯🇵 日本特殊|@ripaojiedian
+      - RELAY-162.159.135.39-1853
+      - 3,4,8,9,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
       - 0,3,4,8,9,19,21,25,29|🇳🇱_NL_荷兰->🇩🇪_DE_德国_3
   - name: ♻️ 自动选择
     type: load-balance
@@ -41,26 +41,26 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - RELAY-104.16.77.74-0170
+      - CN-183.236.51.6-2351
+      - 23,24|美国4|@ripaojiedian
       - 21|美国【TG：@ccbaohe】定时更新节点订阅 2
       - 21|@Hope_Net-join-us-on-Telegram
-      - RELAY-188.114.96.113-4302
-      - 21|美国【TG：@ccbaohe】定时更新节点订阅 4
-      - RELAY-104.24.208.37-4278
-      - 21|US_youtube@资源分享师_9
+      - 23|🇯🇵 日本特殊|@ripaojiedian
+      - RELAY-162.159.135.39-1853
+      - 3,4,8,9,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
       - 0,3,4,8,9,19,21,25,29|🇳🇱_NL_荷兰->🇩🇪_DE_德国_3
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RELAY-104.16.77.74-0170
+      - CN-183.236.51.6-2351
+      - 23,24|美国4|@ripaojiedian
       - 21|美国【TG：@ccbaohe】定时更新节点订阅 2
       - 21|@Hope_Net-join-us-on-Telegram
-      - RELAY-188.114.96.113-4302
-      - 21|美国【TG：@ccbaohe】定时更新节点订阅 4
-      - RELAY-104.24.208.37-4278
-      - 21|US_youtube@资源分享师_9
+      - 23|🇯🇵 日本特殊|@ripaojiedian
+      - RELAY-162.159.135.39-1853
+      - 3,4,8,9,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
       - 0,3,4,8,9,19,21,25,29|🇳🇱_NL_荷兰->🇩🇪_DE_德国_3
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
