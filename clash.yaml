@@ -4,14 +4,7 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: JP-43.153.181.217-0404, server: 43.153.181.217, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: _US_美国->🇩🇪_DE_德国, server: 104.21.233.68, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: RELAY-104.21.30.249-0218, server: 104.21.30.249, port: 2052, type: vmess, uuid: 284d74d8-4775-4144-bd7b-e27f310c99e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 237f1c11e3e9e373.Tiderace.gately.info}}, udp: true}
-  - {name: "0,3,4,8,21,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...", server: 104.16.77.74, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: RELAY-104.21.224.2-0295, server: 104.21.224.2, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: _US_美国->🇩🇪_DE_德国 2, server: 104.21.229.28, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: RELAY-104.21.232.61-0207, server: 104.21.232.61, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: RELAY-104.21.225.88-0242, server: 104.21.225.88, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: _US_美国->🇩🇪_DE_德国, server: 104.21.227.38, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +20,20 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JP-43.153.181.217-0404
       - _US_美国->🇩🇪_DE_德国
-      - RELAY-104.21.30.249-0218
-      - 0,3,4,8,21,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
-      - RELAY-104.21.224.2-0295
-      - _US_美国->🇩🇪_DE_德国 2
-      - RELAY-104.21.232.61-0207
-      - RELAY-104.21.225.88-0242
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - JP-43.153.181.217-0404
       - _US_美国->🇩🇪_DE_德国
-      - RELAY-104.21.30.249-0218
-      - 0,3,4,8,21,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
-      - RELAY-104.21.224.2-0295
-      - _US_美国->🇩🇪_DE_德国 2
-      - RELAY-104.21.232.61-0207
-      - RELAY-104.21.225.88-0242
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JP-43.153.181.217-0404
       - _US_美国->🇩🇪_DE_德国
-      - RELAY-104.21.30.249-0218
-      - 0,3,4,8,21,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
-      - RELAY-104.21.224.2-0295
-      - _US_美国->🇩🇪_DE_德国 2
-      - RELAY-104.21.232.61-0207
-      - RELAY-104.21.225.88-0242
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
