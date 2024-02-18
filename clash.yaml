@@ -4,7 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: _US_美国->🇩🇪_DE_德国, server: 104.21.227.38, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: 21|🇺🇸|US|美国|@wxgqlfx|123, server: 104.21.226.11, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: "0,3,4,8,9,21,25|🇺🇸_US_美国->🇩🇪_DE_德国 #147", server: 104.21.236.61, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: 21|US_youtube@资源分享师_281, server: 104.21.239.78, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: 21|US_youtube@资源分享师_177, server: 104.21.225.199, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: 21|US_youtube@资源分享师_70, server: 104.21.225.204, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: "21,29|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...", server: 104.21.238.90, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: 21|US_youtube@资源分享师_2, server: 104.21.225.101, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: _US_美国->🇩🇪_DE_德国, server: 104.21.238.71, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -20,6 +27,13 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 21|🇺🇸|US|美国|@wxgqlfx|123
+      - "0,3,4,8,9,21,25|🇺🇸_US_美国->🇩🇪_DE_德国 #147"
+      - 21|US_youtube@资源分享师_281
+      - 21|US_youtube@资源分享师_177
+      - 21|US_youtube@资源分享师_70
+      - 21,29|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
+      - 21|US_youtube@资源分享师_2
       - _US_美国->🇩🇪_DE_德国
   - name: ♻️ 自动选择
     type: load-balance
@@ -27,12 +41,26 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 300
     proxies:
+      - 21|🇺🇸|US|美国|@wxgqlfx|123
+      - "0,3,4,8,9,21,25|🇺🇸_US_美国->🇩🇪_DE_德国 #147"
+      - 21|US_youtube@资源分享师_281
+      - 21|US_youtube@资源分享师_177
+      - 21|US_youtube@资源分享师_70
+      - 21,29|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
+      - 21|US_youtube@资源分享师_2
       - _US_美国->🇩🇪_DE_德国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 21|🇺🇸|US|美国|@wxgqlfx|123
+      - "0,3,4,8,9,21,25|🇺🇸_US_美国->🇩🇪_DE_德国 #147"
+      - 21|US_youtube@资源分享师_281
+      - 21|US_youtube@资源分享师_177
+      - 21|US_youtube@资源分享师_70
+      - 21,29|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
+      - 21|US_youtube@资源分享师_2
       - _US_美国->🇩🇪_DE_德国
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
