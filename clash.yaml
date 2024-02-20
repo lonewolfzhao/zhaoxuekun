@@ -4,12 +4,13 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: "18|荷兰乌得勒支|Github搜索TrojanLinks #1", server: 46.182.107.16, port: 41002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/271624282113, headers: {Host: www.42077230.xyz}}, udp: true}
-  - {name: 22|🔒 VM-WS-NA 🇩🇪 DE-38.54.13.212:..., server: 38.54.13.212, port: 23026, type: vmess, uuid: ef4d0930-3788-4410-9305-fae4ba652ede, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ef4d0930, headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: "9|🇳🇱_NL_荷兰->🇩🇪_DE_德国 #1", server: 188.114.96.113, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: "9|🇺🇸_US_美国 #12", server: 172.67.136.12, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.ywnouvbale.biz}}, udp: true}
-  - {name: 18|中国东程|Github搜索TrojanLinks, server: 137.175.29.50, port: 37000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/271624282113, headers: {Host: www.87569156.xyz}}, udp: true}
-  - {name: 22|🇺🇸|US|美国|@wxgqlfx|548, server: 104.24.208.37, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: RELAY-104.21.225.126-0162, server: 104.21.225.126, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: RELAY-104.21.225.119-0317, server: 104.21.225.119, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: 22|加拿大 194, server: 104.21.225.132, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: 16|United States 514, server: 104.21.225.250, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳@WangCai_8", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: RELAY-104.21.236.83-0335, server: 104.21.236.83, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: RELAY-104.21.225.167-1627, server: 104.21.225.167, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: "4,8|🇺🇸_US_美国->🇩🇪_DE_德国 #92", server: 104.21.225.122, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -25,35 +26,38 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "18|荷兰乌得勒支|Github搜索TrojanLinks #1"
-      - 22|🔒 VM-WS-NA 🇩🇪 DE-38.54.13.212:...
-      - "9|🇳🇱_NL_荷兰->🇩🇪_DE_德国 #1"
-      - "9|🇺🇸_US_美国 #12"
-      - 18|中国东程|Github搜索TrojanLinks
-      - 22|🇺🇸|US|美国|@wxgqlfx|548
+      - RELAY-104.21.225.126-0162
+      - RELAY-104.21.225.119-0317
+      - 22|加拿大 194
+      - 16|United States 514
+      - RELAY-104.21.236.83-0335
+      - RELAY-104.21.225.167-1627
+      - "4,8|🇺🇸_US_美国->🇩🇪_DE_德国 #92"
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - "18|荷兰乌得勒支|Github搜索TrojanLinks #1"
-      - 22|🔒 VM-WS-NA 🇩🇪 DE-38.54.13.212:...
-      - "9|🇳🇱_NL_荷兰->🇩🇪_DE_德国 #1"
-      - "9|🇺🇸_US_美国 #12"
-      - 18|中国东程|Github搜索TrojanLinks
-      - 22|🇺🇸|US|美国|@wxgqlfx|548
+      - RELAY-104.21.225.126-0162
+      - RELAY-104.21.225.119-0317
+      - 22|加拿大 194
+      - 16|United States 514
+      - RELAY-104.21.236.83-0335
+      - RELAY-104.21.225.167-1627
+      - "4,8|🇺🇸_US_美国->🇩🇪_DE_德国 #92"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "18|荷兰乌得勒支|Github搜索TrojanLinks #1"
-      - 22|🔒 VM-WS-NA 🇩🇪 DE-38.54.13.212:...
-      - "9|🇳🇱_NL_荷兰->🇩🇪_DE_德国 #1"
-      - "9|🇺🇸_US_美国 #12"
-      - 18|中国东程|Github搜索TrojanLinks
-      - 22|🇺🇸|US|美国|@wxgqlfx|548
+      - RELAY-104.21.225.126-0162
+      - RELAY-104.21.225.119-0317
+      - 22|加拿大 194
+      - 16|United States 514
+      - RELAY-104.21.236.83-0335
+      - RELAY-104.21.225.167-1627
+      - "4,8|🇺🇸_US_美国->🇩🇪_DE_德国 #92"
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
