@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 21|US_youtube@资源分享师_91, server: 104.21.225.216, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 21|美国【TG：@ccbaohe】定时更新节点订阅 5, server: 104.21.225.135, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: "21|·美国·{电报：@ccbaohe}定时更新节点订阅·115", server: 104.21.232.64, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 21|美国【TG：@ccbaohe】定时更新节点订阅 54, server: 104.21.224.24, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 21|RELAY-104.21.234.72-4722, server: 104.21.234.72, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: "21|美国(yudou66.com 玉豆免费节点) #10", server: 104.21.225.249, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳@WangCai_8", headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 21|🇺🇸|US|美国|@wxgqlfx|148, server: 104.21.225.181, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: "21|美国(yudou66.com 玉豆免费节点) #2", server: 104.21.225.152, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳@WangCai_8", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: RELAY-104.21.225.19-0387, server: 104.21.225.19, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: 18|中国五指山市|Github搜索TrojanLinks, server: 108.186.196.170, port: 37000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/271624282113, headers: {Host: www.86222404.xyz}}, udp: true}
+  - {name: 24|🇭🇰 香港B, server: 183.233.187.193, port: 45055, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "18|荷兰阿姆斯特丹|Github搜索TrojanLinks #2", server: 154.85.1.161, port: 41000, type: vmess, uuid: 6e79eea4-5f72-4683-ad0e-5339f013421b, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/271624282113, headers: {Host: www.19740716.xyz}}, udp: true}
+  - {name: "18|美国聖荷西|Github搜索TrojanLinks #1", server: 38.11.74.146, port: 38000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/271624282113, headers: {Host: www.37445571.xyz}}, udp: true}
+  - {name: 18|荷兰阿姆斯特丹|Github搜索TrojanLinks, server: 156.225.67.251, port: 41000, type: vmess, uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/271624282113, headers: {Host: www.74636847.xyz}}, udp: true}
+  - {name: 4Mohsen-624, server: 42.2.118.117, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 18|美国西雅圖|Github搜索TrojanLinks, server: 172.111.57.2, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/271624282113, headers: {Host: www.21463847.xyz}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 21|US_youtube@资源分享师_91
-      - 21|美国【TG：@ccbaohe】定时更新节点订阅 5
-      - 21|·美国·{电报：@ccbaohe}定时更新节点订阅·115
-      - 21|美国【TG：@ccbaohe】定时更新节点订阅 54
-      - 21|RELAY-104.21.234.72-4722
-      - "21|美国(yudou66.com 玉豆免费节点) #10"
-      - 21|🇺🇸|US|美国|@wxgqlfx|148
-      - "21|美国(yudou66.com 玉豆免费节点) #2"
+      - RELAY-104.21.225.19-0387
+      - 18|中国五指山市|Github搜索TrojanLinks
+      - 24|🇭🇰 香港B
+      - "18|荷兰阿姆斯特丹|Github搜索TrojanLinks #2"
+      - "18|美国聖荷西|Github搜索TrojanLinks #1"
+      - 18|荷兰阿姆斯特丹|Github搜索TrojanLinks
+      - 4Mohsen-624
+      - 18|美国西雅圖|Github搜索TrojanLinks
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 21|US_youtube@资源分享师_91
-      - 21|美国【TG：@ccbaohe】定时更新节点订阅 5
-      - 21|·美国·{电报：@ccbaohe}定时更新节点订阅·115
-      - 21|美国【TG：@ccbaohe】定时更新节点订阅 54
-      - 21|RELAY-104.21.234.72-4722
-      - "21|美国(yudou66.com 玉豆免费节点) #10"
-      - 21|🇺🇸|US|美国|@wxgqlfx|148
-      - "21|美国(yudou66.com 玉豆免费节点) #2"
+      - RELAY-104.21.225.19-0387
+      - 18|中国五指山市|Github搜索TrojanLinks
+      - 24|🇭🇰 香港B
+      - "18|荷兰阿姆斯特丹|Github搜索TrojanLinks #2"
+      - "18|美国聖荷西|Github搜索TrojanLinks #1"
+      - 18|荷兰阿姆斯特丹|Github搜索TrojanLinks
+      - 4Mohsen-624
+      - 18|美国西雅圖|Github搜索TrojanLinks
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 21|US_youtube@资源分享师_91
-      - 21|美国【TG：@ccbaohe】定时更新节点订阅 5
-      - 21|·美国·{电报：@ccbaohe}定时更新节点订阅·115
-      - 21|美国【TG：@ccbaohe】定时更新节点订阅 54
-      - 21|RELAY-104.21.234.72-4722
-      - "21|美国(yudou66.com 玉豆免费节点) #10"
-      - 21|🇺🇸|US|美国|@wxgqlfx|148
-      - "21|美国(yudou66.com 玉豆免费节点) #2"
+      - RELAY-104.21.225.19-0387
+      - 18|中国五指山市|Github搜索TrojanLinks
+      - 24|🇭🇰 香港B
+      - "18|荷兰阿姆斯特丹|Github搜索TrojanLinks #2"
+      - "18|美国聖荷西|Github搜索TrojanLinks #1"
+      - 18|荷兰阿姆斯特丹|Github搜索TrojanLinks
+      - 4Mohsen-624
+      - 18|美国西雅圖|Github搜索TrojanLinks
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
