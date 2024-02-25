@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: _US_美国->🇩🇪_DE_德国, server: 104.20.231.30, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: "8,16,20|🇺🇸_US_美国->🇩🇪_DE_德国 #196", server: 104.21.233.47, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 23|🇺🇸_US_美国->🇩🇪_DE_德国_17, server: 104.21.231.56, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: "16|US美国(mibei77.com 米贝节点分享) #26", server: 104.21.225.205, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳@WangCai_8", headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: "16|US美国(mibei77.com 米贝节点分享) #2", server: 104.21.225.242, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: "9,16|🇺🇸US_ 7022", server: 104.21.224.1, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: "0,3,4,20|🇺🇸_US_美国->🇩🇪_DE_德国 #195", server: 104.21.227.35, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: "0,3,4,14,20|🇺🇸_US_美国->🇩🇪_DE_德国 #191", server: 104.21.229.48, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
   - {name: "14|美国 CloudFlare节点 #54", server: 104.21.225.1, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳@WangCai_8", headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 16|加拿大 207, server: 104.21.225.234, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 16|United States 231, server: 104.21.225.126, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: _US_美国->🇩🇪_DE_德国, server: 104.21.227.19, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: "14,16|US_youtube@资源分享师_181", server: 104.21.239.79, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: _US_美国->🇩🇪_DE_德国 2, server: 104.21.234.74, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: "14,16|US美国(mibei77.com 米贝节点分享) #41", server: 104.21.236.80, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国->🇩🇪_DE_德国
-      - "8,16,20|🇺🇸_US_美国->🇩🇪_DE_德国 #196"
-      - 23|🇺🇸_US_美国->🇩🇪_DE_德国_17
-      - "16|US美国(mibei77.com 米贝节点分享) #26"
-      - "16|US美国(mibei77.com 米贝节点分享) #2"
+      - 9,16|🇺🇸US_ 7022
+      - "0,3,4,20|🇺🇸_US_美国->🇩🇪_DE_德国 #195"
+      - "0,3,4,14,20|🇺🇸_US_美国->🇩🇪_DE_德国 #191"
       - "14|美国 CloudFlare节点 #54"
-      - 16|加拿大 207
-      - 16|United States 231
+      - _US_美国->🇩🇪_DE_德国
+      - 14,16|US_youtube@资源分享师_181
+      - _US_美国->🇩🇪_DE_德国 2
+      - "14,16|US美国(mibei77.com 米贝节点分享) #41"
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - _US_美国->🇩🇪_DE_德国
-      - "8,16,20|🇺🇸_US_美国->🇩🇪_DE_德国 #196"
-      - 23|🇺🇸_US_美国->🇩🇪_DE_德国_17
-      - "16|US美国(mibei77.com 米贝节点分享) #26"
-      - "16|US美国(mibei77.com 米贝节点分享) #2"
+      - 9,16|🇺🇸US_ 7022
+      - "0,3,4,20|🇺🇸_US_美国->🇩🇪_DE_德国 #195"
+      - "0,3,4,14,20|🇺🇸_US_美国->🇩🇪_DE_德国 #191"
       - "14|美国 CloudFlare节点 #54"
-      - 16|加拿大 207
-      - 16|United States 231
+      - _US_美国->🇩🇪_DE_德国
+      - 14,16|US_youtube@资源分享师_181
+      - _US_美国->🇩🇪_DE_德国 2
+      - "14,16|US美国(mibei77.com 米贝节点分享) #41"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国->🇩🇪_DE_德国
-      - "8,16,20|🇺🇸_US_美国->🇩🇪_DE_德国 #196"
-      - 23|🇺🇸_US_美国->🇩🇪_DE_德国_17
-      - "16|US美国(mibei77.com 米贝节点分享) #26"
-      - "16|US美国(mibei77.com 米贝节点分享) #2"
+      - 9,16|🇺🇸US_ 7022
+      - "0,3,4,20|🇺🇸_US_美国->🇩🇪_DE_德国 #195"
+      - "0,3,4,14,20|🇺🇸_US_美国->🇩🇪_DE_德国 #191"
       - "14|美国 CloudFlare节点 #54"
-      - 16|加拿大 207
-      - 16|United States 231
+      - _US_美国->🇩🇪_DE_德国
+      - 14,16|US_youtube@资源分享师_181
+      - _US_美国->🇩🇪_DE_德国 2
+      - "14,16|US美国(mibei77.com 米贝节点分享) #41"
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
