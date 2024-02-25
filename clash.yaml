@@ -4,7 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 16|🇺🇸US_ 7022, server: 104.21.225.151, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: RELAY-104.21.225.44-2146, server: 104.21.225.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: "16|US美国(mibei77.com 米贝节点分享) #9", server: 104.21.228.20, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: 16|US_youtube@资源分享师_198, server: 104.21.224.22, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: "16|US美国(mibei77.com 米贝节点分享) #52", server: 104.21.225.102, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: "9|🇺🇸_US_美国->🇩🇪_DE_德国 #134", server: 104.21.225.223, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: "14,16|加拿大 122", server: 104.21.225.244, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: "14|美国 CloudFlare节点 #24", server: 104.21.225.253, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai08", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: RELAY-104.21.226.185-0260, server: 104.21.226.185, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -20,20 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 16|🇺🇸US_ 7022
+      - RELAY-104.21.225.44-2146
+      - "16|US美国(mibei77.com 米贝节点分享) #9"
+      - 16|US_youtube@资源分享师_198
+      - "16|US美国(mibei77.com 米贝节点分享) #52"
+      - "9|🇺🇸_US_美国->🇩🇪_DE_德国 #134"
+      - 14,16|加拿大 122
+      - "14|美国 CloudFlare节点 #24"
+      - RELAY-104.21.226.185-0260
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 16|🇺🇸US_ 7022
+      - RELAY-104.21.225.44-2146
+      - "16|US美国(mibei77.com 米贝节点分享) #9"
+      - 16|US_youtube@资源分享师_198
+      - "16|US美国(mibei77.com 米贝节点分享) #52"
+      - "9|🇺🇸_US_美国->🇩🇪_DE_德国 #134"
+      - 14,16|加拿大 122
+      - "14|美国 CloudFlare节点 #24"
+      - RELAY-104.21.226.185-0260
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 16|🇺🇸US_ 7022
+      - RELAY-104.21.225.44-2146
+      - "16|US美国(mibei77.com 米贝节点分享) #9"
+      - 16|US_youtube@资源分享师_198
+      - "16|US美国(mibei77.com 米贝节点分享) #52"
+      - "9|🇺🇸_US_美国->🇩🇪_DE_德国 #134"
+      - 14,16|加拿大 122
+      - "14|美国 CloudFlare节点 #24"
+      - RELAY-104.21.226.185-0260
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
