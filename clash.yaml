@@ -5,6 +5,13 @@ log-level: info
 external-controller: :50000
 proxies:
   - {name: CN-110.72.101.150-5648, server: yes.cnmjcn.net, port: 16626, type: vmess, uuid: bc90fb72-0b2c-45b4-a8d8-c9baa4eaaef3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d26ed26c63ea4a2a7e17c68d100791e6.mobgslb.tbcache.com}}, udp: true}
+  - {name: 21|baipaovpn台湾省, server: 118.167.68.122, port: 5681, type: vmess, uuid: 4c1400d1-f58b-4551-8df7-c7e3557e1a98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "18,19|印度2|@ripaojiedian", server: yes.cnmjcn.net, port: 16626, type: vmess, uuid: bc90fb72-0b2c-45b4-a8d8-c9baa4eaaef3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d26ed26c63ea4a2a7e17c68d100791e6.mobgslb.tbcache.com}}, udp: true}
+  - {name: 21|baipaovpn台湾省新北市, server: 114.37.104.153, port: 12002, type: vmess, uuid: 19999918-f5fc-4a0b-89d1-f19210b430c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 16|法国 006, server: 173.245.49.169, port: 8080, type: vmess, uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm, headers: {Host: larger-marketing-amounts-skin.trycloudflare.com}}, udp: true}
+  - {name: 16|美国【TG：@ccbaohe】定时更新节点订阅 56, server: 162.159.152.92, port: 8080, type: vmess, uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm, headers: {Host: nest-emily-healing-h.trycloudflare.com}}, udp: true}
+  - {name: "9,16|🇺🇸_US_美国 #18", server: 104.21.54.252, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}, udp: true}
+  - {name: "18,19|美国3|@ripaojiedian", server: 104.17.25.2, port: 80, type: vmess, uuid: fbc23849-b88e-47ec-a221-c0184735194c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: usxmvpn.catnipballs.gay}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -21,6 +28,13 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - CN-110.72.101.150-5648
+      - 21|baipaovpn台湾省
+      - 18,19|印度2|@ripaojiedian
+      - 21|baipaovpn台湾省新北市
+      - 16|法国 006
+      - 16|美国【TG：@ccbaohe】定时更新节点订阅 56
+      - "9,16|🇺🇸_US_美国 #18"
+      - 18,19|美国3|@ripaojiedian
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
@@ -28,12 +42,26 @@ proxy-groups:
     interval: 300
     proxies:
       - CN-110.72.101.150-5648
+      - 21|baipaovpn台湾省
+      - 18,19|印度2|@ripaojiedian
+      - 21|baipaovpn台湾省新北市
+      - 16|法国 006
+      - 16|美国【TG：@ccbaohe】定时更新节点订阅 56
+      - "9,16|🇺🇸_US_美国 #18"
+      - 18,19|美国3|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
       - CN-110.72.101.150-5648
+      - 21|baipaovpn台湾省
+      - 18,19|印度2|@ripaojiedian
+      - 21|baipaovpn台湾省新北市
+      - 16|法国 006
+      - 16|美国【TG：@ccbaohe】定时更新节点订阅 56
+      - "9,16|🇺🇸_US_美国 #18"
+      - 18,19|美国3|@ripaojiedian
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
