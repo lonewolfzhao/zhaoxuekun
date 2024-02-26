@@ -4,14 +4,13 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 18|🇯🇵 日本3|@ripaojiedian, server: xijinping.19890604.day, port: 10817, type: trojan, password: 1fb1e787-5b16-405d-8e38-fb179dfc61f9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: "18,19|美国3|@ripaojiedian", server: 104.17.25.2, port: 80, type: vmess, uuid: fbc23849-b88e-47ec-a221-c0184735194c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: usxmvpn.catnipballs.gay}}, udp: true}
-  - {name: "12|美国聖荷西|Github搜索TrojanLinks #3", server: 38.11.74.149, port: 38000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/271624282113, headers: {Host: www.37445571.xyz}}, udp: true}
-  - {name: 12|荷兰乌得勒支|Github搜索TrojanLinks, server: 46.182.107.16, port: 41003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/271624282113, headers: {Host: www.42077230.xyz}}, udp: true}
-  - {name: 16|荷兰【TG：@ccbaohe】定时更新节点订阅 2, server: 188.114.98.112, port: 8080, type: vmess, uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm, headers: {Host: nest-emily-healing-h.trycloudflare.com}}, udp: true}
-  - {name: 16|美国【TG：@ccbaohe】定时更新节点订阅 56, server: 162.159.152.92, port: 8080, type: vmess, uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm, headers: {Host: nest-emily-healing-h.trycloudflare.com}}, udp: true}
-  - {name: 16|加拿大 008, server: 172.67.188.193, port: 8080, type: vmess, uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: eu3.openxai.link}}, udp: true}
-  - {name: 7|德国3, server: cf.openxai.link, port: 8080, type: vmess, uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: eu3.openxai.link}}, udp: true}
+  - {name: VN-103.154.62.22-1993, server: 103.154.62.22, port: 443, type: trojan, password: 5bae27f5-3b8e-48f3-b91f-30fc680ea78f, sni: lienquan.garena.vn, skip-cert-verify: true, udp: true}
+  - {name: 21|baipaovpn四川省凉山州西昌市, server: 221.237.254.183, port: 9002, type: vmess, uuid: 16a27b46-6892-40f4-96cd-c7ebf2d39771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: CN-221.237.254.105-5156, server: 221.237.254.105, port: 9002, type: vmess, uuid: 16a27b46-6892-40f4-96cd-c7ebf2d39771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 21|baipaovpn四川省凉山州西昌市 2, server: 221.237.254.105, port: 9002, type: vmess, uuid: 16a27b46-6892-40f4-96cd-c7ebf2d39771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 8|🇦🇪_AE_阿联酋->🇬🇧_GB_英国, server: 94.140.0.110, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: food.zhaal.ir}}, udp: true}
+  - {name: VN-103.154.63.16-5159, server: 103.154.63.16, port: 443, type: trojan, password: 5bae27f5-3b8e-48f3-b91f-30fc680ea78f, sni: lienquan.garena.vn, skip-cert-verify: true, udp: true}
+  - {name: RELAY-94.140.0.110-1011, server: 94.140.0.110, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: food.zhaal.ir}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +26,38 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 18|🇯🇵 日本3|@ripaojiedian
-      - 18,19|美国3|@ripaojiedian
-      - "12|美国聖荷西|Github搜索TrojanLinks #3"
-      - 12|荷兰乌得勒支|Github搜索TrojanLinks
-      - 16|荷兰【TG：@ccbaohe】定时更新节点订阅 2
-      - 16|美国【TG：@ccbaohe】定时更新节点订阅 56
-      - 16|加拿大 008
-      - 7|德国3
+      - VN-103.154.62.22-1993
+      - 21|baipaovpn四川省凉山州西昌市
+      - CN-221.237.254.105-5156
+      - 21|baipaovpn四川省凉山州西昌市 2
+      - 8|🇦🇪_AE_阿联酋->🇬🇧_GB_英国
+      - VN-103.154.63.16-5159
+      - RELAY-94.140.0.110-1011
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 18|🇯🇵 日本3|@ripaojiedian
-      - 18,19|美国3|@ripaojiedian
-      - "12|美国聖荷西|Github搜索TrojanLinks #3"
-      - 12|荷兰乌得勒支|Github搜索TrojanLinks
-      - 16|荷兰【TG：@ccbaohe】定时更新节点订阅 2
-      - 16|美国【TG：@ccbaohe】定时更新节点订阅 56
-      - 16|加拿大 008
-      - 7|德国3
+      - VN-103.154.62.22-1993
+      - 21|baipaovpn四川省凉山州西昌市
+      - CN-221.237.254.105-5156
+      - 21|baipaovpn四川省凉山州西昌市 2
+      - 8|🇦🇪_AE_阿联酋->🇬🇧_GB_英国
+      - VN-103.154.63.16-5159
+      - RELAY-94.140.0.110-1011
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 18|🇯🇵 日本3|@ripaojiedian
-      - 18,19|美国3|@ripaojiedian
-      - "12|美国聖荷西|Github搜索TrojanLinks #3"
-      - 12|荷兰乌得勒支|Github搜索TrojanLinks
-      - 16|荷兰【TG：@ccbaohe】定时更新节点订阅 2
-      - 16|美国【TG：@ccbaohe】定时更新节点订阅 56
-      - 16|加拿大 008
-      - 7|德国3
+      - VN-103.154.62.22-1993
+      - 21|baipaovpn四川省凉山州西昌市
+      - CN-221.237.254.105-5156
+      - 21|baipaovpn四川省凉山州西昌市 2
+      - 8|🇦🇪_AE_阿联酋->🇬🇧_GB_英国
+      - VN-103.154.63.16-5159
+      - RELAY-94.140.0.110-1011
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
