@@ -4,14 +4,7 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: RELAY-104.21.225.216-0424, server: 104.21.225.216, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: _US_美国->🇩🇪_DE_德国, server: 104.21.228.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: RELAY-104.21.225.159-0231, server: 104.21.225.159, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 16|🇺🇸|US|美国|@wxgqlfx|47, server: 104.21.230.52, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: 16|🇺🇸|US|美国|@wxgqlfx|305, server: 104.21.225.87, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: RELAY-104.21.226.30-2358, server: 104.21.226.30, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: RELAY-104.21.229.29-0200, server: 104.21.229.29, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: RELAY-104.21.225.111-1951, server: 104.21.225.111, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: CN-110.72.101.150-5648, server: yes.cnmjcn.net, port: 16626, type: vmess, uuid: bc90fb72-0b2c-45b4-a8d8-c9baa4eaaef3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d26ed26c63ea4a2a7e17c68d100791e6.mobgslb.tbcache.com}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +20,20 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RELAY-104.21.225.216-0424
-      - _US_美国->🇩🇪_DE_德国
-      - RELAY-104.21.225.159-0231
-      - 16|🇺🇸|US|美国|@wxgqlfx|47
-      - 16|🇺🇸|US|美国|@wxgqlfx|305
-      - RELAY-104.21.226.30-2358
-      - RELAY-104.21.229.29-0200
-      - RELAY-104.21.225.111-1951
+      - CN-110.72.101.150-5648
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - RELAY-104.21.225.216-0424
-      - _US_美国->🇩🇪_DE_德国
-      - RELAY-104.21.225.159-0231
-      - 16|🇺🇸|US|美国|@wxgqlfx|47
-      - 16|🇺🇸|US|美国|@wxgqlfx|305
-      - RELAY-104.21.226.30-2358
-      - RELAY-104.21.229.29-0200
-      - RELAY-104.21.225.111-1951
+      - CN-110.72.101.150-5648
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RELAY-104.21.225.216-0424
-      - _US_美国->🇩🇪_DE_德国
-      - RELAY-104.21.225.159-0231
-      - 16|🇺🇸|US|美国|@wxgqlfx|47
-      - 16|🇺🇸|US|美国|@wxgqlfx|305
-      - RELAY-104.21.226.30-2358
-      - RELAY-104.21.229.29-0200
-      - RELAY-104.21.225.111-1951
+      - CN-110.72.101.150-5648
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
