@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: CN-110.72.101.150-5648, server: yes.cnmjcn.net, port: 16626, type: vmess, uuid: bc90fb72-0b2c-45b4-a8d8-c9baa4eaaef3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d26ed26c63ea4a2a7e17c68d100791e6.mobgslb.tbcache.com}}, udp: true}
-  - {name: 16|法国 006, server: 173.245.49.169, port: 8080, type: vmess, uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm, headers: {Host: larger-marketing-amounts-skin.trycloudflare.com}}, udp: true}
+  - {name: 18|🇯🇵 日本3|@ripaojiedian, server: xijinping.19890604.day, port: 10817, type: trojan, password: 1fb1e787-5b16-405d-8e38-fb179dfc61f9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: "18,19|美国3|@ripaojiedian", server: 104.17.25.2, port: 80, type: vmess, uuid: fbc23849-b88e-47ec-a221-c0184735194c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: usxmvpn.catnipballs.gay}}, udp: true}
+  - {name: "12|美国聖荷西|Github搜索TrojanLinks #3", server: 38.11.74.149, port: 38000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/271624282113, headers: {Host: www.37445571.xyz}}, udp: true}
+  - {name: 12|荷兰乌得勒支|Github搜索TrojanLinks, server: 46.182.107.16, port: 41003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/271624282113, headers: {Host: www.42077230.xyz}}, udp: true}
+  - {name: 16|荷兰【TG：@ccbaohe】定时更新节点订阅 2, server: 188.114.98.112, port: 8080, type: vmess, uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm, headers: {Host: nest-emily-healing-h.trycloudflare.com}}, udp: true}
   - {name: 16|美国【TG：@ccbaohe】定时更新节点订阅 56, server: 162.159.152.92, port: 8080, type: vmess, uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm, headers: {Host: nest-emily-healing-h.trycloudflare.com}}, udp: true}
-  - {name: "0,3,4,20|🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大 #13", server: 190.93.245.173, port: 8080, type: vmess, uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm, headers: {Host: larger-marketing-amounts-skin.trycloudflare.com}}, udp: true}
-  - {name: "9|🇺🇸_US_美国 #9", server: 173.245.58.155, port: 8080, type: vmess, uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm, headers: {Host: larger-marketing-amounts-skin.trycloudflare.com}}, udp: true}
-  - {name: 21|baipaovpn台湾省台北市, server: 61.228.166.29, port: 3278, type: vmess, uuid: 4c1400d1-f58b-4551-8df7-c7e3557e1a98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 16|🇺🇸|US|美国|@wxgqlfx|153, server: 108.162.193.176, port: 8080, type: vmess, uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm, headers: {Host: nest-emily-healing-h.trycloudflare.com}}, udp: true}
-  - {name: "9|🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大 #5", server: 190.93.246.243, port: 8080, type: vmess, uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm, headers: {Host: bibliographic-sword-sequence-advertisers.trycloudflare.com}}, udp: true}
+  - {name: 16|加拿大 008, server: 172.67.188.193, port: 8080, type: vmess, uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: eu3.openxai.link}}, udp: true}
+  - {name: 7|德国3, server: cf.openxai.link, port: 8080, type: vmess, uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: eu3.openxai.link}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-110.72.101.150-5648
-      - 16|法国 006
+      - 18|🇯🇵 日本3|@ripaojiedian
+      - 18,19|美国3|@ripaojiedian
+      - "12|美国聖荷西|Github搜索TrojanLinks #3"
+      - 12|荷兰乌得勒支|Github搜索TrojanLinks
+      - 16|荷兰【TG：@ccbaohe】定时更新节点订阅 2
       - 16|美国【TG：@ccbaohe】定时更新节点订阅 56
-      - "0,3,4,20|🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大 #13"
-      - "9|🇺🇸_US_美国 #9"
-      - 21|baipaovpn台湾省台北市
-      - 16|🇺🇸|US|美国|@wxgqlfx|153
-      - "9|🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大 #5"
+      - 16|加拿大 008
+      - 7|德国3
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - CN-110.72.101.150-5648
-      - 16|法国 006
+      - 18|🇯🇵 日本3|@ripaojiedian
+      - 18,19|美国3|@ripaojiedian
+      - "12|美国聖荷西|Github搜索TrojanLinks #3"
+      - 12|荷兰乌得勒支|Github搜索TrojanLinks
+      - 16|荷兰【TG：@ccbaohe】定时更新节点订阅 2
       - 16|美国【TG：@ccbaohe】定时更新节点订阅 56
-      - "0,3,4,20|🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大 #13"
-      - "9|🇺🇸_US_美国 #9"
-      - 21|baipaovpn台湾省台北市
-      - 16|🇺🇸|US|美国|@wxgqlfx|153
-      - "9|🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大 #5"
+      - 16|加拿大 008
+      - 7|德国3
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-110.72.101.150-5648
-      - 16|法国 006
+      - 18|🇯🇵 日本3|@ripaojiedian
+      - 18,19|美国3|@ripaojiedian
+      - "12|美国聖荷西|Github搜索TrojanLinks #3"
+      - 12|荷兰乌得勒支|Github搜索TrojanLinks
+      - 16|荷兰【TG：@ccbaohe】定时更新节点订阅 2
       - 16|美国【TG：@ccbaohe】定时更新节点订阅 56
-      - "0,3,4,20|🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大 #13"
-      - "9|🇺🇸_US_美国 #9"
-      - 21|baipaovpn台湾省台北市
-      - 16|🇺🇸|US|美国|@wxgqlfx|153
-      - "9|🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大 #5"
+      - 16|加拿大 008
+      - 7|德国3
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
