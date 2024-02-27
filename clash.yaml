@@ -4,13 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: VN-103.154.62.22-1993, server: 103.154.62.22, port: 443, type: trojan, password: 5bae27f5-3b8e-48f3-b91f-30fc680ea78f, sni: lienquan.garena.vn, skip-cert-verify: true, udp: true}
-  - {name: 21|baipaovpn四川省凉山州西昌市, server: 221.237.254.183, port: 9002, type: vmess, uuid: 16a27b46-6892-40f4-96cd-c7ebf2d39771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: CN-221.237.254.105-5156, server: 221.237.254.105, port: 9002, type: vmess, uuid: 16a27b46-6892-40f4-96cd-c7ebf2d39771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 21|baipaovpn四川省凉山州西昌市 2, server: 221.237.254.105, port: 9002, type: vmess, uuid: 16a27b46-6892-40f4-96cd-c7ebf2d39771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 8|🇦🇪_AE_阿联酋->🇬🇧_GB_英国, server: 94.140.0.110, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: food.zhaal.ir}}, udp: true}
-  - {name: VN-103.154.63.16-5159, server: 103.154.63.16, port: 443, type: trojan, password: 5bae27f5-3b8e-48f3-b91f-30fc680ea78f, sni: lienquan.garena.vn, skip-cert-verify: true, udp: true}
-  - {name: RELAY-94.140.0.110-1011, server: 94.140.0.110, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: food.zhaal.ir}}, udp: true}
+  - {name: _US_美国->🇩🇪_DE_德国, server: 104.21.235.58, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: "14|美国 CloudFlare节点 #97", server: 104.21.229.46, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: "4,8|🇺🇸_US_美国->🇩🇪_DE_德国 #92", server: 104.21.228.43, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: "14|美国 CloudFlare节点 #93", server: 104.21.226.250, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: "14|美国 CloudFlare节点 #101", server: 104.21.235.75, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: "4,8|🇺🇸_US_美国->🇩🇪_DE_德国 #91", server: 104.21.225.19, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: _US_美国->🇩🇪_DE_德国 2, server: 104.21.237.65, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -26,38 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - VN-103.154.62.22-1993
-      - 21|baipaovpn四川省凉山州西昌市
-      - CN-221.237.254.105-5156
-      - 21|baipaovpn四川省凉山州西昌市 2
       - 8|🇦🇪_AE_阿联酋->🇬🇧_GB_英国
-      - VN-103.154.63.16-5159
-      - RELAY-94.140.0.110-1011
+      - _US_美国->🇩🇪_DE_德国
+      - "14|美国 CloudFlare节点 #97"
+      - "4,8|🇺🇸_US_美国->🇩🇪_DE_德国 #92"
+      - "14|美国 CloudFlare节点 #93"
+      - "14|美国 CloudFlare节点 #101"
+      - "4,8|🇺🇸_US_美国->🇩🇪_DE_德国 #91"
+      - _US_美国->🇩🇪_DE_德国 2
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - VN-103.154.62.22-1993
-      - 21|baipaovpn四川省凉山州西昌市
-      - CN-221.237.254.105-5156
-      - 21|baipaovpn四川省凉山州西昌市 2
       - 8|🇦🇪_AE_阿联酋->🇬🇧_GB_英国
-      - VN-103.154.63.16-5159
-      - RELAY-94.140.0.110-1011
+      - _US_美国->🇩🇪_DE_德国
+      - "14|美国 CloudFlare节点 #97"
+      - "4,8|🇺🇸_US_美国->🇩🇪_DE_德国 #92"
+      - "14|美国 CloudFlare节点 #93"
+      - "14|美国 CloudFlare节点 #101"
+      - "4,8|🇺🇸_US_美国->🇩🇪_DE_德国 #91"
+      - _US_美国->🇩🇪_DE_德国 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - VN-103.154.62.22-1993
-      - 21|baipaovpn四川省凉山州西昌市
-      - CN-221.237.254.105-5156
-      - 21|baipaovpn四川省凉山州西昌市 2
       - 8|🇦🇪_AE_阿联酋->🇬🇧_GB_英国
-      - VN-103.154.63.16-5159
-      - RELAY-94.140.0.110-1011
+      - _US_美国->🇩🇪_DE_德国
+      - "14|美国 CloudFlare节点 #97"
+      - "4,8|🇺🇸_US_美国->🇩🇪_DE_德国 #92"
+      - "14|美国 CloudFlare节点 #93"
+      - "14|美国 CloudFlare节点 #101"
+      - "4,8|🇺🇸_US_美国->🇩🇪_DE_德国 #91"
+      - _US_美国->🇩🇪_DE_德国 2
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
