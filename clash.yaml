@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 16|US_youtube@资源分享师_228, server: 104.21.225.245, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai08", headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: "14,16|🇺🇸|US|美国|@wxgqlfx|23", server: 104.21.225.96, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳@WangCai_8", headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: "0,3,20|🇺🇸_US_美国->🇩🇪_DE_德国 #215", server: 104.21.232.61, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: "9,16|🇺🇸_US_美国->🇩🇪_DE_德国 #184", server: 104.21.230.32, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: _US_美国->🇩🇪_DE_德国, server: 104.21.224.4, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
-  - {name: VN-103.154.63.16-5159, server: 103.154.63.16, port: 443, type: trojan, password: 5bae27f5-3b8e-48f3-b91f-30fc680ea78f, sni: lienquan.garena.vn, skip-cert-verify: true, udp: true}
-  - {name: 16|加拿大 004, server: 104.21.30.249, port: 2052, type: vmess, uuid: 284d74d8-4775-4144-bd7b-e27f310c99e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 237f1c11e3e9e373.Tiderace.gately.info}}, udp: true}
-  - {name: "0,3,16,20|🇺🇸_US_美国->🇩🇪_DE_德国 #221", server: 104.21.225.92, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}, udp: true}
+  - {name: 12|中国南京|Github搜索TrojanLinks, server: 142.4.97.76, port: 36000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/271624282113, headers: {Host: www.31033708.xyz}}, udp: true}
+  - {name: 8|🇷🇺_RU_俄罗斯联邦, server: 45.144.2.113, port: 80, type: vmess, uuid: 1cb996c8-e5bf-40d2-9a3c-149b3b721c5f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 45.144.2.113}}, udp: true}
+  - {name: 7|德国1, server: cf.openxai.link, port: 8080, type: vmess, uuid: c18beb85-c67b-46ed-b8cc-4cbfeae5f194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: eu1.openxai.link}}, udp: true}
+  - {name: 18|🇯🇵 日本特殊|@ripaojiedian, server: 13.251.156.233, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 21|baipaovpn台湾省台中市, server: 36.232.132.177, port: 14431, type: vmess, uuid: ff0a98ef-e829-4a62-b625-998593df5249, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 4Jadi-865, server: 54.150.241.170, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "14|美国 CloudFlare节点 #37", server: 162.159.58.139, port: 8080, type: vmess, uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm, headers: {Host: larger-marketing-amounts-skin.trycloudflare.com}}, udp: true}
+  - {name: "21|baipaovpn美国得克萨斯州 #1", server: 34.168.188.131, port: 5316, type: vmess, uuid: 199d91a1-3c8a-4cd1-a4de-854cc70b432e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 16|US_youtube@资源分享师_228
-      - 14,16|🇺🇸|US|美国|@wxgqlfx|23
-      - "0,3,20|🇺🇸_US_美国->🇩🇪_DE_德国 #215"
-      - "9,16|🇺🇸_US_美国->🇩🇪_DE_德国 #184"
-      - _US_美国->🇩🇪_DE_德国
-      - VN-103.154.63.16-5159
-      - 16|加拿大 004
-      - "0,3,16,20|🇺🇸_US_美国->🇩🇪_DE_德国 #221"
+      - 12|中国南京|Github搜索TrojanLinks
+      - 8|🇷🇺_RU_俄罗斯联邦
+      - 7|德国1
+      - 18|🇯🇵 日本特殊|@ripaojiedian
+      - 21|baipaovpn台湾省台中市
+      - 4Jadi-865
+      - "14|美国 CloudFlare节点 #37"
+      - "21|baipaovpn美国得克萨斯州 #1"
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 16|US_youtube@资源分享师_228
-      - 14,16|🇺🇸|US|美国|@wxgqlfx|23
-      - "0,3,20|🇺🇸_US_美国->🇩🇪_DE_德国 #215"
-      - "9,16|🇺🇸_US_美国->🇩🇪_DE_德国 #184"
-      - _US_美国->🇩🇪_DE_德国
-      - VN-103.154.63.16-5159
-      - 16|加拿大 004
-      - "0,3,16,20|🇺🇸_US_美国->🇩🇪_DE_德国 #221"
+      - 12|中国南京|Github搜索TrojanLinks
+      - 8|🇷🇺_RU_俄罗斯联邦
+      - 7|德国1
+      - 18|🇯🇵 日本特殊|@ripaojiedian
+      - 21|baipaovpn台湾省台中市
+      - 4Jadi-865
+      - "14|美国 CloudFlare节点 #37"
+      - "21|baipaovpn美国得克萨斯州 #1"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 16|US_youtube@资源分享师_228
-      - 14,16|🇺🇸|US|美国|@wxgqlfx|23
-      - "0,3,20|🇺🇸_US_美国->🇩🇪_DE_德国 #215"
-      - "9,16|🇺🇸_US_美国->🇩🇪_DE_德国 #184"
-      - _US_美国->🇩🇪_DE_德国
-      - VN-103.154.63.16-5159
-      - 16|加拿大 004
-      - "0,3,16,20|🇺🇸_US_美国->🇩🇪_DE_德国 #221"
+      - 12|中国南京|Github搜索TrojanLinks
+      - 8|🇷🇺_RU_俄罗斯联邦
+      - 7|德国1
+      - 18|🇯🇵 日本特殊|@ripaojiedian
+      - 21|baipaovpn台湾省台中市
+      - 4Jadi-865
+      - "14|美国 CloudFlare节点 #37"
+      - "21|baipaovpn美国得克萨斯州 #1"
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
