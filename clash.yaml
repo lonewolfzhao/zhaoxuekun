@@ -5,13 +5,6 @@ log-level: info
 external-controller: :50000
 proxies:
   - {name: "14|美国 CloudFlare节点 #34", server: 104.21.30.249, port: 2052, type: vmess, uuid: 284d74d8-4775-4144-bd7b-e27f310c99e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 237f1c11e3e9e373.Tiderace.gately.info}}, udp: true}
-  - {name: 21|baipaovpn美国, server: 172.64.198.175, port: 80, type: vmess, uuid: 1cfaad16-d2ba-4c49-af07-d7b9f11f43d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /xn--mes53ddysu0o3gl, headers: {Host: newca1.xn--mes53ddysu0o3gl.top}}, udp: true}
-  - {name: 21|baipaovpn台湾省台中市, server: 36.232.132.177, port: 14431, type: vmess, uuid: ff0a98ef-e829-4a62-b625-998593df5249, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: VN-103.154.63.16-5159, server: 103.154.63.16, port: 443, type: trojan, password: 5bae27f5-3b8e-48f3-b91f-30fc680ea78f, sni: lienquan.garena.vn, skip-cert-verify: true, udp: true}
-  - {name: "16,18,19|美国|@ripaojiedian", server: us65.netfilx.live, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}, udp: true}
-  - {name: "20,24|🇺🇸_US_美国->🇯🇵_JP_日本_25", server: 104.17.123.55, port: 8080, type: vmess, uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/qZTtpya?ed=2048", headers: {Host: pq.kmoljklj.top}}, udp: true}
-  - {name: "20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_50", server: 94.140.0.110, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: food.zhaal.ir}}, udp: true}
-  - {name: "9|🇺🇸_US_美国 #8", server: 172.67.136.12, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.ywnouvbale.biz}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -28,13 +21,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "14|美国 CloudFlare节点 #34"
-      - 21|baipaovpn美国
-      - 21|baipaovpn台湾省台中市
-      - VN-103.154.63.16-5159
-      - 16,18,19|美国|@ripaojiedian
-      - 20,24|🇺🇸_US_美国->🇯🇵_JP_日本_25
-      - 20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_50
-      - "9|🇺🇸_US_美国 #8"
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
@@ -42,26 +28,12 @@ proxy-groups:
     interval: 300
     proxies:
       - "14|美国 CloudFlare节点 #34"
-      - 21|baipaovpn美国
-      - 21|baipaovpn台湾省台中市
-      - VN-103.154.63.16-5159
-      - 16,18,19|美国|@ripaojiedian
-      - 20,24|🇺🇸_US_美国->🇯🇵_JP_日本_25
-      - 20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_50
-      - "9|🇺🇸_US_美国 #8"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "14|美国 CloudFlare节点 #34"
-      - 21|baipaovpn美国
-      - 21|baipaovpn台湾省台中市
-      - VN-103.154.63.16-5159
-      - 16,18,19|美国|@ripaojiedian
-      - 20,24|🇺🇸_US_美国->🇯🇵_JP_日本_25
-      - 20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_50
-      - "9|🇺🇸_US_美国 #8"
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
