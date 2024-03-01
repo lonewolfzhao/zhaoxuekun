@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: "18,19|美国|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2086, type: vmess, uuid: 9c4723d9-29e7-4502-a021-7c79355cb7e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/Z7qdcrAGRw, headers: {Host: us77SmSk86j.fzbqfrse.xyz}}, udp: true}
-  - {name: 21|baipaovpn美国, server: 104.16.35.48, port: 2086, type: vmess, uuid: 9c4723d9-29e7-4502-a021-7c79355cb7e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/Z7qdcrAGRw, headers: {Host: us77SmSk86j.fzbqfrse.xyz}}, udp: true}
-  - {name: RELAY-172.66.45.118-0165, server: for-irancell.outline-vpn.cloud, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: "0,3,4,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #10", server: 104.16.77.74, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: "0,3,4,8,9,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_7_由快嘴科技提供：k...", server: 172.67.253.158, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: "0,3,4,20|🇺🇸_US_美国->🇩🇪_DE_德国 #165", server: 172.67.253.31, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: "0,3,4,9,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_29_30", server: 172.67.253.243, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
   - {name: "14|美国 CloudFlare节点 #34", server: 104.21.30.249, port: 2052, type: vmess, uuid: 284d74d8-4775-4144-bd7b-e27f310c99e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 237f1c11e3e9e373.Tiderace.gately.info}}, udp: true}
+  - {name: "0,3,4,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #10", server: 104.16.77.74, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: "0,3,4,8,9,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_4", server: 94.140.0.110, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: food.zhaal.ir}}, udp: true}
+  - {name: 21|baipaovpn美国, server: 104.16.35.48, port: 2086, type: vmess, uuid: 9c4723d9-29e7-4502-a021-7c79355cb7e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/Z7qdcrAGRw, headers: {Host: us77SmSk86j.fzbqfrse.xyz}}, udp: true}
+  - {name: "0,3,4,8,14,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #8", server: for-irancell.outline-vpn.cloud, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: 18|🇯🇵 日本特殊|@ripaojiedian, server: 13.250.104.109, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "18,19|美国|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2086, type: vmess, uuid: 9c4723d9-29e7-4502-a021-7c79355cb7e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/Z7qdcrAGRw, headers: {Host: us77SmSk86j.fzbqfrse.xyz}}, udp: true}
+  - {name: RELAY-172.67.253.158-0386, server: 172.67.253.158, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 18,19|美国|@ripaojiedian
-      - 21|baipaovpn美国
-      - RELAY-172.66.45.118-0165
-      - "0,3,4,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #10"
-      - 0,3,4,8,9,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_7_由快嘴科技提供：k...
-      - "0,3,4,20|🇺🇸_US_美国->🇩🇪_DE_德国 #165"
-      - 0,3,4,9,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_29_30
       - "14|美国 CloudFlare节点 #34"
+      - "0,3,4,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #10"
+      - 0,3,4,8,9,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_4
+      - 21|baipaovpn美国
+      - "0,3,4,8,14,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #8"
+      - 18|🇯🇵 日本特殊|@ripaojiedian
+      - 18,19|美国|@ripaojiedian
+      - RELAY-172.67.253.158-0386
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 18,19|美国|@ripaojiedian
-      - 21|baipaovpn美国
-      - RELAY-172.66.45.118-0165
-      - "0,3,4,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #10"
-      - 0,3,4,8,9,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_7_由快嘴科技提供：k...
-      - "0,3,4,20|🇺🇸_US_美国->🇩🇪_DE_德国 #165"
-      - 0,3,4,9,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_29_30
       - "14|美国 CloudFlare节点 #34"
+      - "0,3,4,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #10"
+      - 0,3,4,8,9,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_4
+      - 21|baipaovpn美国
+      - "0,3,4,8,14,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #8"
+      - 18|🇯🇵 日本特殊|@ripaojiedian
+      - 18,19|美国|@ripaojiedian
+      - RELAY-172.67.253.158-0386
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 18,19|美国|@ripaojiedian
-      - 21|baipaovpn美国
-      - RELAY-172.66.45.118-0165
-      - "0,3,4,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #10"
-      - 0,3,4,8,9,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_7_由快嘴科技提供：k...
-      - "0,3,4,20|🇺🇸_US_美国->🇩🇪_DE_德国 #165"
-      - 0,3,4,9,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_29_30
       - "14|美国 CloudFlare节点 #34"
+      - "0,3,4,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #10"
+      - 0,3,4,8,9,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_4
+      - 21|baipaovpn美国
+      - "0,3,4,8,14,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #8"
+      - 18|🇯🇵 日本特殊|@ripaojiedian
+      - 18,19|美国|@ripaojiedian
+      - RELAY-172.67.253.158-0386
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
