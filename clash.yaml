@@ -5,13 +5,13 @@ log-level: info
 external-controller: :50000
 proxies:
   - {name: RELAY-104.21.30.249-1042, server: 104.21.30.249, port: 2052, type: vmess, uuid: 284d74d8-4775-4144-bd7b-e27f310c99e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 237f1c11e3e9e373.Tiderace.gately.info}}, udp: true}
-  - {name: 4Nika-1008, server: 54.251.73.151, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "0,3,4,20|🇺🇸_US_美国->🇩🇪_DE_德国 #165", server: 172.67.253.31, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: "0,3,4,16,20|🇺🇸_US_美国->🇩🇪_DE_德国 #166", server: 104.24.208.37, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: "0,3,4,8,14,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #8", server: for-irancell.outline-vpn.cloud, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: "0,3,4,8,14,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #5", server: 172.67.253.194, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: RELAY-172.67.253.71-0392, server: 172.67.253.71, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: RELAY-172.67.253.158-0386, server: 172.67.253.158, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
+  - {name: 16|🇺🇸|US|美国|@wxgqlfx|44, server: fbi.gov, port: 8080, type: vmess, uuid: b36723eb-5493-456d-8cbc-001ee3e9d696, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: b36723eb-5493-456d-8cbc-001ee3e9d696-vm, headers: {Host: contacting-lp-leads-greece.trycloudflare.com}}, udp: true}
+  - {name: 18|🇯🇵 日本特殊|@ripaojiedian, server: 13.250.104.109, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "16,18,19|美国4|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 8880, type: vmess, uuid: 17c82b45-dff0-47bb-9e0c-07ef07f67005, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/bYdJ7Vc2We, headers: {Host: us6gzxQRrE4.fzbqfrse.xyz}}, udp: true}
+  - {name: 16|🇺🇸|US|美国|@wxgqlfx|115, server: yh1.freeh1.xyz, port: 8080, type: vmess, uuid: 4679e4ed-dec7-4dfe-b3dd-c0f13592a0c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 4679e4ed-dec7-4dfe-b3dd-c0f13592a0c4-vm, headers: {Host: uh-lawyers-instruments-kernel.trycloudflare.com}}, udp: true}
+  - {name: 16|🇺🇸|US|美国|@wxgqlfx|39, server: 162.159.134.23, port: 8080, type: vmess, uuid: e380bde6-f120-4b80-bdae-ea68b1b64504, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: e380bde6-f120-4b80-bdae-ea68b1b64504-vm, headers: {Host: configured-creek-relating-theater.trycloudflare.com}}, udp: true}
+  - {name: "0,3,4,8,9,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_2_6", server: 104.21.69.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 16|🇨🇦|CA|加拿大|@wxgqlfx|97, server: 23.227.39.45, port: 8080, type: vmess, uuid: 52899235-7faa-4f6f-b463-972cd7cfce04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 52899235-7faa-4f6f-b463-972cd7cfce04-vm, headers: {Host: widescreen-instruction-breakdown-postage.trycloudflare.com}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -28,13 +28,13 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - RELAY-104.21.30.249-1042
-      - 4Nika-1008
-      - "0,3,4,20|🇺🇸_US_美国->🇩🇪_DE_德国 #165"
-      - "0,3,4,16,20|🇺🇸_US_美国->🇩🇪_DE_德国 #166"
-      - "0,3,4,8,14,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #8"
-      - "0,3,4,8,14,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #5"
-      - RELAY-172.67.253.71-0392
-      - RELAY-172.67.253.158-0386
+      - 16|🇺🇸|US|美国|@wxgqlfx|44
+      - 18|🇯🇵 日本特殊|@ripaojiedian
+      - 16,18,19|美国4|@ripaojiedian
+      - 16|🇺🇸|US|美国|@wxgqlfx|115
+      - 16|🇺🇸|US|美国|@wxgqlfx|39
+      - 0,3,4,8,9,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_2_6
+      - 16|🇨🇦|CA|加拿大|@wxgqlfx|97
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
@@ -42,26 +42,26 @@ proxy-groups:
     interval: 300
     proxies:
       - RELAY-104.21.30.249-1042
-      - 4Nika-1008
-      - "0,3,4,20|🇺🇸_US_美国->🇩🇪_DE_德国 #165"
-      - "0,3,4,16,20|🇺🇸_US_美国->🇩🇪_DE_德国 #166"
-      - "0,3,4,8,14,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #8"
-      - "0,3,4,8,14,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #5"
-      - RELAY-172.67.253.71-0392
-      - RELAY-172.67.253.158-0386
+      - 16|🇺🇸|US|美国|@wxgqlfx|44
+      - 18|🇯🇵 日本特殊|@ripaojiedian
+      - 16,18,19|美国4|@ripaojiedian
+      - 16|🇺🇸|US|美国|@wxgqlfx|115
+      - 16|🇺🇸|US|美国|@wxgqlfx|39
+      - 0,3,4,8,9,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_2_6
+      - 16|🇨🇦|CA|加拿大|@wxgqlfx|97
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
       - RELAY-104.21.30.249-1042
-      - 4Nika-1008
-      - "0,3,4,20|🇺🇸_US_美国->🇩🇪_DE_德国 #165"
-      - "0,3,4,16,20|🇺🇸_US_美国->🇩🇪_DE_德国 #166"
-      - "0,3,4,8,14,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #8"
-      - "0,3,4,8,14,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #5"
-      - RELAY-172.67.253.71-0392
-      - RELAY-172.67.253.158-0386
+      - 16|🇺🇸|US|美国|@wxgqlfx|44
+      - 18|🇯🇵 日本特殊|@ripaojiedian
+      - 16,18,19|美国4|@ripaojiedian
+      - 16|🇺🇸|US|美国|@wxgqlfx|115
+      - 16|🇺🇸|US|美国|@wxgqlfx|39
+      - 0,3,4,8,9,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_2_6
+      - 16|🇨🇦|CA|加拿大|@wxgqlfx|97
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
