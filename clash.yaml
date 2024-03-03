@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: "14,16,24|🇺🇸_US_美国->🇨🇦_CA_加拿大_2_由快嘴科技提供：...", server: yh1.freeh1.xyz, port: 8080, type: vmess, uuid: 5818310a-92ee-40cd-8303-0dc1396aadda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 5818310a-92ee-40cd-8303-0dc1396aadda-vm, headers: {Host: bibliographic-sword-sequence-advertisers.trycloudflare.com}}, udp: true}
-  - {name: RELAY-172.67.136.12-0470, server: 172.67.136.12, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.ywnouvbale.biz}}, udp: true}
-  - {name: "14,16|🇨🇦 加拿大 005", server: www.ywnouvbale.biz, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.ywnouvbale.biz}}, udp: true}
-  - {name: 4Kian-1184, server: 185.123.101.241, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 4Kian-620, server: 42.2.115.231, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 4Kian-110, server: 129.232.129.156, port: 444, type: ss, cipher: chacha20-ietf-poly1305, password: DiPietyory, udp: true}
-  - {name: RELAY-94.140.0.110-0377, server: 94.140.0.110, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: food.zhaal.ir}}, udp: true}
-  - {name: 18|🇰🇷 韩国2|@ripaojiedian, server: service.ouluyun9803.com, port: 26666, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123, udp: true}
+  - {name: "0,3,4,8,9,16,20,24|🇳🇱_NL_荷兰_7", server: 188.114.96.113, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 16|📡20@oneclickvpnkeys, server: 104.16.4.103, port: 443, type: vmess, uuid: 1b0e2ce3-0cc1-459f-9b13-101f29dbabed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /elhm, headers: {Host: sn1.publcenem.shop}}, udp: true}
+  - {name: 19|香港1|@ripaojiedian, server: 183.233.187.216, port: 54137, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 18|🇯🇵 日本特殊|@ripaojiedian, server: 3.1.220.57, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 16|加拿大 001, server: 104.18.202.250, port: 2082, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nina.bond/linkvws, headers: {Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev}}, udp: true}
+  - {name: 16|🔒 VM-WS-NA 🏴‍☠️ NA-104.18.36.1..., server: 104.18.36.174, port: 8880, type: vmess, uuid: 17c82b45-dff0-47bb-9e0c-07ef07f67005, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/bYdJ7Vc2We, headers: {Host: us6gzxQRrE4.fzbqfrse.xyz}}, udp: true}
+  - {name: "0,3,4,8,9,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_2_20", server: 104.21.69.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: "0,9,16|US_youtube@资源分享师_101", server: cfcdn1.sanfencdn9.com, port: 8880, type: vmess, uuid: bdede9d3-68c4-4bb1-8ad1-9a8eb07ff76f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/bYdJ7Vc2We, headers: {Host: us6gzxQRrE4.fzbqfrse.xyz}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 14,16,24|🇺🇸_US_美国->🇨🇦_CA_加拿大_2_由快嘴科技提供：...
-      - RELAY-172.67.136.12-0470
-      - 14,16|🇨🇦 加拿大 005
-      - 4Kian-1184
-      - 4Kian-620
-      - 4Kian-110
-      - RELAY-94.140.0.110-0377
-      - 18|🇰🇷 韩国2|@ripaojiedian
+      - 0,3,4,8,9,16,20,24|🇳🇱_NL_荷兰_7
+      - 16|📡20@oneclickvpnkeys
+      - 19|香港1|@ripaojiedian
+      - 18|🇯🇵 日本特殊|@ripaojiedian
+      - 16|加拿大 001
+      - 16|🔒 VM-WS-NA 🏴‍☠️ NA-104.18.36.1...
+      - 0,3,4,8,9,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_2_20
+      - 0,9,16|US_youtube@资源分享师_101
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 14,16,24|🇺🇸_US_美国->🇨🇦_CA_加拿大_2_由快嘴科技提供：...
-      - RELAY-172.67.136.12-0470
-      - 14,16|🇨🇦 加拿大 005
-      - 4Kian-1184
-      - 4Kian-620
-      - 4Kian-110
-      - RELAY-94.140.0.110-0377
-      - 18|🇰🇷 韩国2|@ripaojiedian
+      - 0,3,4,8,9,16,20,24|🇳🇱_NL_荷兰_7
+      - 16|📡20@oneclickvpnkeys
+      - 19|香港1|@ripaojiedian
+      - 18|🇯🇵 日本特殊|@ripaojiedian
+      - 16|加拿大 001
+      - 16|🔒 VM-WS-NA 🏴‍☠️ NA-104.18.36.1...
+      - 0,3,4,8,9,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_2_20
+      - 0,9,16|US_youtube@资源分享师_101
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 14,16,24|🇺🇸_US_美国->🇨🇦_CA_加拿大_2_由快嘴科技提供：...
-      - RELAY-172.67.136.12-0470
-      - 14,16|🇨🇦 加拿大 005
-      - 4Kian-1184
-      - 4Kian-620
-      - 4Kian-110
-      - RELAY-94.140.0.110-0377
-      - 18|🇰🇷 韩国2|@ripaojiedian
+      - 0,3,4,8,9,16,20,24|🇳🇱_NL_荷兰_7
+      - 16|📡20@oneclickvpnkeys
+      - 19|香港1|@ripaojiedian
+      - 18|🇯🇵 日本特殊|@ripaojiedian
+      - 16|加拿大 001
+      - 16|🔒 VM-WS-NA 🏴‍☠️ NA-104.18.36.1...
+      - 0,3,4,8,9,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_2_20
+      - 0,9,16|US_youtube@资源分享师_101
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
