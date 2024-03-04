@@ -4,14 +4,11 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: "0,3,4,8,9,16,20,24|🇳🇱_NL_荷兰_7", server: 188.114.96.113, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 16|📡20@oneclickvpnkeys, server: 104.16.4.103, port: 443, type: vmess, uuid: 1b0e2ce3-0cc1-459f-9b13-101f29dbabed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /elhm, headers: {Host: sn1.publcenem.shop}}, udp: true}
-  - {name: 19|香港1|@ripaojiedian, server: 183.233.187.216, port: 54137, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 18|🇯🇵 日本特殊|@ripaojiedian, server: 3.1.220.57, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 16|加拿大 001, server: 104.18.202.250, port: 2082, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nina.bond/linkvws, headers: {Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev}}, udp: true}
-  - {name: 16|🔒 VM-WS-NA 🏴‍☠️ NA-104.18.36.1..., server: 104.18.36.174, port: 8880, type: vmess, uuid: 17c82b45-dff0-47bb-9e0c-07ef07f67005, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/bYdJ7Vc2We, headers: {Host: us6gzxQRrE4.fzbqfrse.xyz}}, udp: true}
-  - {name: "0,3,4,8,9,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_2_20", server: 104.21.69.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: "0,9,16|US_youtube@资源分享师_101", server: cfcdn1.sanfencdn9.com, port: 8880, type: vmess, uuid: bdede9d3-68c4-4bb1-8ad1-9a8eb07ff76f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/bYdJ7Vc2We, headers: {Host: us6gzxQRrE4.fzbqfrse.xyz}}, udp: true}
+  - {name: 16|美国_Telegram@kxswa 53, server: yh1.freeh1.xyz, port: 8080, type: vmess, uuid: f4778b63-0daf-494e-8325-3660abc29384, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: f4778b63-0daf-494e-8325-3660abc29384-vm, headers: {Host: bibliographic-sword-sequence-advertisers.trycloudflare.com}}, udp: true}
+  - {name: 4Kian-740, server: hhzljd.ishenlong88.top, port: 52710, type: ss, cipher: aes-128-gcm, password: e5fd725d-de44-4082-a445-8b0edf89be6c, udp: true}
+  - {name: "18,19|新加坡2|@ripaojiedian", server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: d7d5e92a-8899-4ebd-92e5-f85c24d8e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/c9efxRCi, headers: {Host: 7nAi74jJsg1.yofnhkfc.xyz}}, udp: true}
+  - {name: 16|SG_youtube@资源分享师_120, server: sg03.beautifulprimavera.online, port: 80, type: vmess, uuid: 064c67c0-ba22-4d94-96e8-be43245fd29b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg03.beautifulprimavera.online}}, udp: true}
+  - {name: 16|美国_Telegram@kxswa 8, server: fbi.gov, port: 8080, type: vmess, uuid: bdce8656-2802-4470-8946-ef3cf5244aa6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: bdce8656-2802-4470-8946-ef3cf5244aa6-vm, headers: {Host: pcs-referenced-camera-concerns.trycloudflare.com}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +24,32 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 0,3,4,8,9,16,20,24|🇳🇱_NL_荷兰_7
-      - 16|📡20@oneclickvpnkeys
-      - 19|香港1|@ripaojiedian
-      - 18|🇯🇵 日本特殊|@ripaojiedian
-      - 16|加拿大 001
-      - 16|🔒 VM-WS-NA 🏴‍☠️ NA-104.18.36.1...
-      - 0,3,4,8,9,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_2_20
-      - 0,9,16|US_youtube@资源分享师_101
+      - 16|美国_Telegram@kxswa 53
+      - 4Kian-740
+      - 18,19|新加坡2|@ripaojiedian
+      - 16|SG_youtube@资源分享师_120
+      - 16|美国_Telegram@kxswa 8
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 0,3,4,8,9,16,20,24|🇳🇱_NL_荷兰_7
-      - 16|📡20@oneclickvpnkeys
-      - 19|香港1|@ripaojiedian
-      - 18|🇯🇵 日本特殊|@ripaojiedian
-      - 16|加拿大 001
-      - 16|🔒 VM-WS-NA 🏴‍☠️ NA-104.18.36.1...
-      - 0,3,4,8,9,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_2_20
-      - 0,9,16|US_youtube@资源分享师_101
+      - 16|美国_Telegram@kxswa 53
+      - 4Kian-740
+      - 18,19|新加坡2|@ripaojiedian
+      - 16|SG_youtube@资源分享师_120
+      - 16|美国_Telegram@kxswa 8
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 0,3,4,8,9,16,20,24|🇳🇱_NL_荷兰_7
-      - 16|📡20@oneclickvpnkeys
-      - 19|香港1|@ripaojiedian
-      - 18|🇯🇵 日本特殊|@ripaojiedian
-      - 16|加拿大 001
-      - 16|🔒 VM-WS-NA 🏴‍☠️ NA-104.18.36.1...
-      - 0,3,4,8,9,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_2_20
-      - 0,9,16|US_youtube@资源分享师_101
+      - 16|美国_Telegram@kxswa 53
+      - 4Kian-740
+      - 18,19|新加坡2|@ripaojiedian
+      - 16|SG_youtube@资源分享师_120
+      - 16|美国_Telegram@kxswa 8
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
