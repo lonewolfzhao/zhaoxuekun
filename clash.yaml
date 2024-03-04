@@ -4,11 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 16|美国_Telegram@kxswa 53, server: yh1.freeh1.xyz, port: 8080, type: vmess, uuid: f4778b63-0daf-494e-8325-3660abc29384, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: f4778b63-0daf-494e-8325-3660abc29384-vm, headers: {Host: bibliographic-sword-sequence-advertisers.trycloudflare.com}}, udp: true}
-  - {name: 4Kian-740, server: hhzljd.ishenlong88.top, port: 52710, type: ss, cipher: aes-128-gcm, password: e5fd725d-de44-4082-a445-8b0edf89be6c, udp: true}
-  - {name: "18,19|新加坡2|@ripaojiedian", server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: d7d5e92a-8899-4ebd-92e5-f85c24d8e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/c9efxRCi, headers: {Host: 7nAi74jJsg1.yofnhkfc.xyz}}, udp: true}
-  - {name: 16|SG_youtube@资源分享师_120, server: sg03.beautifulprimavera.online, port: 80, type: vmess, uuid: 064c67c0-ba22-4d94-96e8-be43245fd29b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg03.beautifulprimavera.online}}, udp: true}
-  - {name: 16|美国_Telegram@kxswa 8, server: fbi.gov, port: 8080, type: vmess, uuid: bdce8656-2802-4470-8946-ef3cf5244aa6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: bdce8656-2802-4470-8946-ef3cf5244aa6-vm, headers: {Host: pcs-referenced-camera-concerns.trycloudflare.com}}, udp: true}
+  - {name: 7|德国1, server: cf.openxai.link, port: 8080, type: vmess, uuid: c18beb85-c67b-46ed-b8cc-4cbfeae5f194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: eu1.openxai.link}}, udp: true}
+  - {name: 16|🇨🇦|CA|加拿大|@wxgqlfx|81, server: 23.227.39.24, port: 8080, type: vmess, uuid: e62899a7-438c-40ef-96d6-259cb26d6fdd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: e62899a7-438c-40ef-96d6-259cb26d6fdd-vm, headers: {Host: per-essex-patterns-bowling.trycloudflare.com}}, udp: true}
+  - {name: 16|🇺🇸|US|美国|@wxgqlfx|144, server: 172.67.166.194, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.coldstone.club}}, udp: true}
+  - {name: 16|🇺🇸|US|美国|@wxgqlfx|132, server: 104.21.83.10, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.coldstone.club}}, udp: true}
+  - {name: RELAY-104.21.69.44-0132, server: 104.21.69.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: "0,3,4,8,9,16,20,24|🇳🇱_NL_荷兰_7", server: 188.114.96.113, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 16|🇺🇸|US|美国|@wxgqlfx|201, server: yh2.dtku41.xyz, port: 8080, type: vmess, uuid: 8df7d5fa-cecb-4816-a943-be94929543f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 8df7d5fa-cecb-4816-a943-be94929543f9-vm, headers: {Host: widescreen-instruction-breakdown-postage.trycloudflare.com}}, udp: true}
+  - {name: 16|加拿大 059, server: 104.21.63.52, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -24,32 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 16|美国_Telegram@kxswa 53
-      - 4Kian-740
-      - 18,19|新加坡2|@ripaojiedian
-      - 16|SG_youtube@资源分享师_120
-      - 16|美国_Telegram@kxswa 8
+      - 7|德国1
+      - 16|🇨🇦|CA|加拿大|@wxgqlfx|81
+      - 16|🇺🇸|US|美国|@wxgqlfx|144
+      - 16|🇺🇸|US|美国|@wxgqlfx|132
+      - RELAY-104.21.69.44-0132
+      - 0,3,4,8,9,16,20,24|🇳🇱_NL_荷兰_7
+      - 16|🇺🇸|US|美国|@wxgqlfx|201
+      - 16|加拿大 059
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 16|美国_Telegram@kxswa 53
-      - 4Kian-740
-      - 18,19|新加坡2|@ripaojiedian
-      - 16|SG_youtube@资源分享师_120
-      - 16|美国_Telegram@kxswa 8
+      - 7|德国1
+      - 16|🇨🇦|CA|加拿大|@wxgqlfx|81
+      - 16|🇺🇸|US|美国|@wxgqlfx|144
+      - 16|🇺🇸|US|美国|@wxgqlfx|132
+      - RELAY-104.21.69.44-0132
+      - 0,3,4,8,9,16,20,24|🇳🇱_NL_荷兰_7
+      - 16|🇺🇸|US|美国|@wxgqlfx|201
+      - 16|加拿大 059
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 16|美国_Telegram@kxswa 53
-      - 4Kian-740
-      - 18,19|新加坡2|@ripaojiedian
-      - 16|SG_youtube@资源分享师_120
-      - 16|美国_Telegram@kxswa 8
+      - 7|德国1
+      - 16|🇨🇦|CA|加拿大|@wxgqlfx|81
+      - 16|🇺🇸|US|美国|@wxgqlfx|144
+      - 16|🇺🇸|US|美国|@wxgqlfx|132
+      - RELAY-104.21.69.44-0132
+      - 0,3,4,8,9,16,20,24|🇳🇱_NL_荷兰_7
+      - 16|🇺🇸|US|美国|@wxgqlfx|201
+      - 16|加拿大 059
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
