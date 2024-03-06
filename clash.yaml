@@ -4,11 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: "12|美国洛杉矶|Github搜索TrojanLinks #1", server: 148.135.12.172, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/153428133302, headers: {Host: www.15986187.xyz}}, udp: true}
-  - {name: 4FreeIran-5, server: lsgy.lanxingyun.cn, port: 35791, type: ss, cipher: chacha20-ietf-poly1305, password: 41f96983-1ab9-4634-a916-98ef1b557cb4, udp: true}
-  - {name: 18|🇸🇬 新加坡2|@ripaojiedian, server: service.ouluyun9803.com, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123, udp: true}
-  - {name: "12|美国紐約|Github搜索TrojanLinks #2", server: 172.111.57.130, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/153428133302, headers: {Host: www.88268904.xyz}}, udp: true}
-  - {name: RELAY-94.140.0.110-0168, server: 94.140.0.110, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: food.zhaal.ir}}, udp: true}
+  - {name: 4FreeIran-1, server: lsgy.lanxingyun.cn, port: 13163, type: ss, cipher: chacha20-ietf-poly1305, password: 41f96983-1ab9-4634-a916-98ef1b557cb4, udp: true}
+  - {name: "0,3,4,8,9,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_由快嘴科技提供：kk...", server: 94.140.0.110, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: food.zhaal.ir}}, udp: true}
+  - {name: "18,19|美国2|@ripaojiedian", server: 16.namesilo123.top, port: 80, type: vmess, uuid: 6f7b474f-5d88-49f2-82a1-fb5abf3ec621, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed", headers: {Host: 10gus.sanfen002.top}}, udp: true}
+  - {name: "16,18,19|美国3|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2086, type: vmess, uuid: 5bfd0956-dfa6-4c63-a8a8-adbf6f9e8366, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/Z7qdcrAGRw, headers: {Host: us77SmSk86j.fzbqfrse.xyz}}, udp: true}
+  - {name: "0,4,8,16,20,24|🇳🇱_NL_荷兰_5", server: 188.114.96.113, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 16|加拿大 001, server: 104.18.202.250, port: 2082, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nina.bond/linkvws, headers: {Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev}}, udp: true}
+  - {name: "9,16|🇺🇸_US_美国->🇨🇦_CA_加拿大 #7", server: fbi.gov, port: 8080, type: vmess, uuid: b1e5c55d-e59b-42c4-aeb9-393e18525cca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: b1e5c55d-e59b-42c4-aeb9-393e18525cca-vm, headers: {Host: nest-emily-healing-h.trycloudflare.com}}, udp: true}
+  - {name: 4FreeIran-450, server: 212.113.106.76, port: 61992, type: ss, cipher: chacha20-ietf-poly1305, password: fb2gFHkmpdSaRHBqN9FMeE, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -24,32 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "12|美国洛杉矶|Github搜索TrojanLinks #1"
-      - 4FreeIran-5
-      - 18|🇸🇬 新加坡2|@ripaojiedian
-      - "12|美国紐約|Github搜索TrojanLinks #2"
-      - RELAY-94.140.0.110-0168
+      - 4FreeIran-1
+      - 0,3,4,8,9,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_由快嘴科技提供：kk...
+      - 18,19|美国2|@ripaojiedian
+      - 16,18,19|美国3|@ripaojiedian
+      - 0,4,8,16,20,24|🇳🇱_NL_荷兰_5
+      - 16|加拿大 001
+      - "9,16|🇺🇸_US_美国->🇨🇦_CA_加拿大 #7"
+      - 4FreeIran-450
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - "12|美国洛杉矶|Github搜索TrojanLinks #1"
-      - 4FreeIran-5
-      - 18|🇸🇬 新加坡2|@ripaojiedian
-      - "12|美国紐約|Github搜索TrojanLinks #2"
-      - RELAY-94.140.0.110-0168
+      - 4FreeIran-1
+      - 0,3,4,8,9,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_由快嘴科技提供：kk...
+      - 18,19|美国2|@ripaojiedian
+      - 16,18,19|美国3|@ripaojiedian
+      - 0,4,8,16,20,24|🇳🇱_NL_荷兰_5
+      - 16|加拿大 001
+      - "9,16|🇺🇸_US_美国->🇨🇦_CA_加拿大 #7"
+      - 4FreeIran-450
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "12|美国洛杉矶|Github搜索TrojanLinks #1"
-      - 4FreeIran-5
-      - 18|🇸🇬 新加坡2|@ripaojiedian
-      - "12|美国紐約|Github搜索TrojanLinks #2"
-      - RELAY-94.140.0.110-0168
+      - 4FreeIran-1
+      - 0,3,4,8,9,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_由快嘴科技提供：kk...
+      - 18,19|美国2|@ripaojiedian
+      - 16,18,19|美国3|@ripaojiedian
+      - 0,4,8,16,20,24|🇳🇱_NL_荷兰_5
+      - 16|加拿大 001
+      - "9,16|🇺🇸_US_美国->🇨🇦_CA_加拿大 #7"
+      - 4FreeIran-450
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
