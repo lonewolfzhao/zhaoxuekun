@@ -4,14 +4,13 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 4FreeIran-1, server: lsgy.lanxingyun.cn, port: 13163, type: ss, cipher: chacha20-ietf-poly1305, password: 41f96983-1ab9-4634-a916-98ef1b557cb4, udp: true}
-  - {name: 16|🇺🇸|US|美国|@wxgqlfx|54, server: fbi.gov, port: 8080, type: vmess, uuid: 6d34f7f8-eb93-44ea-b5df-4f2f203524a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 6d34f7f8-eb93-44ea-b5df-4f2f203524a1-vm, headers: {Host: larger-marketing-amounts-skin.trycloudflare.com}}, udp: true}
-  - {name: "3,9,16|🇨🇦|CA|加拿大|@wxgqlfx|53", server: 23.227.38.11, port: 8080, type: vmess, uuid: 4a5ae806-ee72-473a-83b2-531808f454d5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 4a5ae806-ee72-473a-83b2-531808f454d5-vm, headers: {Host: championship-bidding-oxygen-brochure.trycloudflare.com}}, udp: true}
-  - {name: 4Kian-33, server: 10thzcm.xn--wbr85ozt0asys8qt.net, port: 36697, type: ss, cipher: chacha20-ietf-poly1305, password: 86e3471b-0b08-40b5-a297-2a54632757b9, udp: true}
-  - {name: "9,16|🇺🇸_US_美国->🇨🇦_CA_加拿大 #7", server: fbi.gov, port: 8080, type: vmess, uuid: b1e5c55d-e59b-42c4-aeb9-393e18525cca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: b1e5c55d-e59b-42c4-aeb9-393e18525cca-vm, headers: {Host: nest-emily-healing-h.trycloudflare.com}}, udp: true}
-  - {name: "12|荷兰乌得勒支|Github搜索TrojanLinks #1", server: 46.182.107.159, port: 41000, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/153428133302, headers: {Host: www.24443328.xyz}}, udp: true}
-  - {name: "16,18,19|美国3|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2086, type: vmess, uuid: 5bfd0956-dfa6-4c63-a8a8-adbf6f9e8366, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/Z7qdcrAGRw, headers: {Host: us77SmSk86j.fzbqfrse.xyz}}, udp: true}
-  - {name: "18,19|美国2|@ripaojiedian", server: 16.namesilo123.top, port: 80, type: vmess, uuid: 6f7b474f-5d88-49f2-82a1-fb5abf3ec621, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed", headers: {Host: 10gus.sanfen002.top}}, udp: true}
+  - {name: 18|🇯🇵 日本|@ripaojiedian, server: jp01.jjjjjj.icu, port: 30207, type: ss, cipher: chacha20-ietf-poly1305, password: bbaa6c10-0800-4e27-871b-c63b1253d359, udp: true}
+  - {name: "0,3,4,14,18,19,20|🇺🇸_US_美国 #17", server: 172.67.143.192, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}, udp: true}
+  - {name: "12|荷兰乌得勒支|Github搜索TrojanLinks #2", server: 46.182.107.45, port: 41000, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/153428133302, headers: {Host: www.43747414.xyz}}, udp: true}
+  - {name: "18,19|香港2|@ripaojiedian", server: onea.flha.ru, port: 2052, type: vmess, uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}, udp: true}
+  - {name: "12|美国聖荷西|Github搜索TrojanLinks #2", server: 38.14.121.169, port: 36000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/153428133302, headers: {Host: www.19414772.xyz}}, udp: true}
+  - {name: 18|🇭🇰 香港4|@ripaojiedian, server: hk03.jjjjjj.icu, port: 44552, type: ss, cipher: chacha20-ietf-poly1305, password: bbaa6c10-0800-4e27-871b-c63b1253d359, udp: true}
+  - {name: 12|荷兰乌得勒支|Github搜索TrojanLinks, server: 46.182.107.65, port: 41000, type: vmess, uuid: 078eb24d-8d1d-4fbd-b914-ee58a897a35e, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/153428133302, headers: {Host: www.15697065.xyz}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +26,38 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4FreeIran-1
-      - 16|🇺🇸|US|美国|@wxgqlfx|54
-      - 3,9,16|🇨🇦|CA|加拿大|@wxgqlfx|53
-      - 4Kian-33
-      - "9,16|🇺🇸_US_美国->🇨🇦_CA_加拿大 #7"
-      - "12|荷兰乌得勒支|Github搜索TrojanLinks #1"
-      - 16,18,19|美国3|@ripaojiedian
-      - 18,19|美国2|@ripaojiedian
+      - 18|🇯🇵 日本|@ripaojiedian
+      - "0,3,4,14,18,19,20|🇺🇸_US_美国 #17"
+      - "12|荷兰乌得勒支|Github搜索TrojanLinks #2"
+      - 18,19|香港2|@ripaojiedian
+      - "12|美国聖荷西|Github搜索TrojanLinks #2"
+      - 18|🇭🇰 香港4|@ripaojiedian
+      - 12|荷兰乌得勒支|Github搜索TrojanLinks
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 4FreeIran-1
-      - 16|🇺🇸|US|美国|@wxgqlfx|54
-      - 3,9,16|🇨🇦|CA|加拿大|@wxgqlfx|53
-      - 4Kian-33
-      - "9,16|🇺🇸_US_美国->🇨🇦_CA_加拿大 #7"
-      - "12|荷兰乌得勒支|Github搜索TrojanLinks #1"
-      - 16,18,19|美国3|@ripaojiedian
-      - 18,19|美国2|@ripaojiedian
+      - 18|🇯🇵 日本|@ripaojiedian
+      - "0,3,4,14,18,19,20|🇺🇸_US_美国 #17"
+      - "12|荷兰乌得勒支|Github搜索TrojanLinks #2"
+      - 18,19|香港2|@ripaojiedian
+      - "12|美国聖荷西|Github搜索TrojanLinks #2"
+      - 18|🇭🇰 香港4|@ripaojiedian
+      - 12|荷兰乌得勒支|Github搜索TrojanLinks
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4FreeIran-1
-      - 16|🇺🇸|US|美国|@wxgqlfx|54
-      - 3,9,16|🇨🇦|CA|加拿大|@wxgqlfx|53
-      - 4Kian-33
-      - "9,16|🇺🇸_US_美国->🇨🇦_CA_加拿大 #7"
-      - "12|荷兰乌得勒支|Github搜索TrojanLinks #1"
-      - 16,18,19|美国3|@ripaojiedian
-      - 18,19|美国2|@ripaojiedian
+      - 18|🇯🇵 日本|@ripaojiedian
+      - "0,3,4,14,18,19,20|🇺🇸_US_美国 #17"
+      - "12|荷兰乌得勒支|Github搜索TrojanLinks #2"
+      - 18,19|香港2|@ripaojiedian
+      - "12|美国聖荷西|Github搜索TrojanLinks #2"
+      - 18|🇭🇰 香港4|@ripaojiedian
+      - 12|荷兰乌得勒支|Github搜索TrojanLinks
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
