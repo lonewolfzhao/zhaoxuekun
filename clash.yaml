@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: "16|🇺🇸US_ 7022 #16", server: 104.21.235.79, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 16|🔒 VM-WS-NA 🇺🇸 US-172.64.161.60..., server: 172.64.161.60, port: 2052, type: vmess, uuid: 6ad77d6b-7a45-4ed3-b65d-1c3ec0226603, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/6VBhAkCtV4/, headers: {Host: us1cPZiz8nb.fzbqfrse.xyz}}, udp: true}
-  - {name: 16|US_ 7022 197, server: 104.21.230.32, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: "16,18,19|美国3|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 6ad77d6b-7a45-4ed3-b65d-1c3ec0226603, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/6VBhAkCtV4/, headers: {Host: us1cPZiz8nb.fzbqfrse.xyz}}, udp: true}
-  - {name: 16|US_ 7022 81, server: 104.21.236.63, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: "14|美国 CloudFlare节点 #2", server: 104.21.225.7, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 16|🔒 VM-WS-NA 🏴‍☠️ NA-104.19.250...., server: 104.19.250.132, port: 2052, type: vmess, uuid: 6ad77d6b-7a45-4ed3-b65d-1c3ec0226603, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/6VBhAkCtV4/, headers: {Host: us1cPZiz8nb.fzbqfrse.xyz}}, udp: true}
-  - {name: 16|🇺🇸|US|美国|@wxgqlfx|35, server: yh2.freeh1.xyz, port: 8080, type: vmess, uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm, headers: {Host: pcs-referenced-camera-concerns.trycloudflare.com}}, udp: true}
+  - {name: 16|US_youtube@资源分享师_3, server: 104.21.227.35, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 16|US_youtube@资源分享师_165, server: 104.21.234.74, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: "14,16|美国 CloudFlare节点 #19", server: 104.21.238.90, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
+  - {name: 16|US_youtube@资源分享师_278, server: 104.21.226.14, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 16|US_youtube@资源分享师_133, server: 104.21.235.56, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 16|US_youtube@资源分享师_142, server: 104.21.225.8, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt1.ir}}, udp: true}
+  - {name: 16|US_youtube@资源分享师_237, server: 104.21.228.20, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt1.ir}}, udp: true}
+  - {name: 16|US_youtube@资源分享师_7, server: 104.21.230.53, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "16|🇺🇸US_ 7022 #16"
-      - 16|🔒 VM-WS-NA 🇺🇸 US-172.64.161.60...
-      - 16|US_ 7022 197
-      - 16,18,19|美国3|@ripaojiedian
-      - 16|US_ 7022 81
-      - "14|美国 CloudFlare节点 #2"
-      - 16|🔒 VM-WS-NA 🏴‍☠️ NA-104.19.250....
-      - 16|🇺🇸|US|美国|@wxgqlfx|35
+      - 16|US_youtube@资源分享师_3
+      - 16|US_youtube@资源分享师_165
+      - "14,16|美国 CloudFlare节点 #19"
+      - 16|US_youtube@资源分享师_278
+      - 16|US_youtube@资源分享师_133
+      - 16|US_youtube@资源分享师_142
+      - 16|US_youtube@资源分享师_237
+      - 16|US_youtube@资源分享师_7
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - "16|🇺🇸US_ 7022 #16"
-      - 16|🔒 VM-WS-NA 🇺🇸 US-172.64.161.60...
-      - 16|US_ 7022 197
-      - 16,18,19|美国3|@ripaojiedian
-      - 16|US_ 7022 81
-      - "14|美国 CloudFlare节点 #2"
-      - 16|🔒 VM-WS-NA 🏴‍☠️ NA-104.19.250....
-      - 16|🇺🇸|US|美国|@wxgqlfx|35
+      - 16|US_youtube@资源分享师_3
+      - 16|US_youtube@资源分享师_165
+      - "14,16|美国 CloudFlare节点 #19"
+      - 16|US_youtube@资源分享师_278
+      - 16|US_youtube@资源分享师_133
+      - 16|US_youtube@资源分享师_142
+      - 16|US_youtube@资源分享师_237
+      - 16|US_youtube@资源分享师_7
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "16|🇺🇸US_ 7022 #16"
-      - 16|🔒 VM-WS-NA 🇺🇸 US-172.64.161.60...
-      - 16|US_ 7022 197
-      - 16,18,19|美国3|@ripaojiedian
-      - 16|US_ 7022 81
-      - "14|美国 CloudFlare节点 #2"
-      - 16|🔒 VM-WS-NA 🏴‍☠️ NA-104.19.250....
-      - 16|🇺🇸|US|美国|@wxgqlfx|35
+      - 16|US_youtube@资源分享师_3
+      - 16|US_youtube@资源分享师_165
+      - "14,16|美国 CloudFlare节点 #19"
+      - 16|US_youtube@资源分享师_278
+      - 16|US_youtube@资源分享师_133
+      - 16|US_youtube@资源分享师_142
+      - 16|US_youtube@资源分享师_237
+      - 16|US_youtube@资源分享师_7
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
