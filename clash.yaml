@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: "16|🇺🇸·美国·{电报：@ccbaohe}定时更新节点订阅·89", server: 104.21.233.48, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: "16|·美国·{电报：@ccbaohe}定时更新节点订阅·29", server: 104.21.233.45, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: "16|🇺🇸US_ 7022 #12", server: 104.21.230.34, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: "16|🇺🇸US_ 7022 #78", server: 104.21.232.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: "16|美国【TG：@ccbaohe】定时更新节点订阅 #2", server: 104.21.225.9, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: "16|🇺🇸US_ 7022 #16", server: 104.21.226.32, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 16|US_ 7022 50, server: 104.21.228.20, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: "16|🇺🇸·美国·{电报：@ccbaohe}定时更新节点订阅·82", server: 104.21.236.84, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 4Nika-27, server: yd1.qianggewangluo.buzz, port: 10801, type: ss, cipher: chacha20-ietf-poly1305, password: 7a28d32b-a693-4451-8ee2-1f1def6bf89f, udp: true}
+  - {name: "16|🇺🇸US_ 7022 #83", server: 104.21.225.8, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: "16|🇺🇸US_ 7022 #75", server: 104.21.232.60, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
+  - {name: "16|🇺🇸US_ 7022 #48", server: 104.21.226.34, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 16|NL_youtube@资源分享师_86, server: 188.114.96.113, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 16|US_ 7022 100, server: 104.21.230.54, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
+  - {name: "14|美国 CloudFlare节点 #8", server: 104.21.225.25, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 16|US_ 7022 36, server: 104.21.227.15, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 16|🇺🇸·美国·{电报：@ccbaohe}定时更新节点订阅·89
-      - 16|·美国·{电报：@ccbaohe}定时更新节点订阅·29
-      - "16|🇺🇸US_ 7022 #12"
-      - "16|🇺🇸US_ 7022 #78"
-      - "16|美国【TG：@ccbaohe】定时更新节点订阅 #2"
-      - "16|🇺🇸US_ 7022 #16"
-      - 16|US_ 7022 50
-      - 16|🇺🇸·美国·{电报：@ccbaohe}定时更新节点订阅·82
+      - 4Nika-27
+      - "16|🇺🇸US_ 7022 #83"
+      - "16|🇺🇸US_ 7022 #75"
+      - "16|🇺🇸US_ 7022 #48"
+      - 16|NL_youtube@资源分享师_86
+      - 16|US_ 7022 100
+      - "14|美国 CloudFlare节点 #8"
+      - 16|US_ 7022 36
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 16|🇺🇸·美国·{电报：@ccbaohe}定时更新节点订阅·89
-      - 16|·美国·{电报：@ccbaohe}定时更新节点订阅·29
-      - "16|🇺🇸US_ 7022 #12"
-      - "16|🇺🇸US_ 7022 #78"
-      - "16|美国【TG：@ccbaohe】定时更新节点订阅 #2"
-      - "16|🇺🇸US_ 7022 #16"
-      - 16|US_ 7022 50
-      - 16|🇺🇸·美国·{电报：@ccbaohe}定时更新节点订阅·82
+      - 4Nika-27
+      - "16|🇺🇸US_ 7022 #83"
+      - "16|🇺🇸US_ 7022 #75"
+      - "16|🇺🇸US_ 7022 #48"
+      - 16|NL_youtube@资源分享师_86
+      - 16|US_ 7022 100
+      - "14|美国 CloudFlare节点 #8"
+      - 16|US_ 7022 36
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 16|🇺🇸·美国·{电报：@ccbaohe}定时更新节点订阅·89
-      - 16|·美国·{电报：@ccbaohe}定时更新节点订阅·29
-      - "16|🇺🇸US_ 7022 #12"
-      - "16|🇺🇸US_ 7022 #78"
-      - "16|美国【TG：@ccbaohe】定时更新节点订阅 #2"
-      - "16|🇺🇸US_ 7022 #16"
-      - 16|US_ 7022 50
-      - 16|🇺🇸·美国·{电报：@ccbaohe}定时更新节点订阅·82
+      - 4Nika-27
+      - "16|🇺🇸US_ 7022 #83"
+      - "16|🇺🇸US_ 7022 #75"
+      - "16|🇺🇸US_ 7022 #48"
+      - 16|NL_youtube@资源分享师_86
+      - 16|US_ 7022 100
+      - "14|美国 CloudFlare节点 #8"
+      - 16|US_ 7022 36
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
