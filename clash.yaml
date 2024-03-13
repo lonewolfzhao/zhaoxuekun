@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 16|US_youtube@资源分享师_120, server: 104.21.224.0, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 4Kian-26, server: yd1.qianggewangluo.buzz, port: 10801, type: ss, cipher: chacha20-ietf-poly1305, password: 7a28d32b-a693-4451-8ee2-1f1def6bf89f, udp: true}
   - {name: 14|美国 CloudFlare节点, server: 104.21.234.72, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 16|US_youtube@资源分享师_148, server: 104.21.239.75, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 16|US_youtube@资源分享师_45, server: 104.21.224.2, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 16|US_youtube@资源分享师_27, server: 104.21.229.26, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt1.ir}}, udp: true}
+  - {name: 16|US_youtube@资源分享师_140, server: 104.21.229.27, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
   - {name: "14,16|【TG：@ccbaohe】定时更新节点订阅 #4", server: 104.21.224.0, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: "14|美国 CloudFlare节点 #10", server: 104.21.236.84, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
+  - {name: 16|US_youtube@资源分享师_180, server: 104.21.238.94, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt1.ir}}, udp: true}
+  - {name: 16|US_ 7022 35, server: 104.21.236.80, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
+  - {name: 16|🇺🇸|US|美国|@wxgqlfx|126, server: 104.21.224.23, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
+  - {name: 16|【TG：@ccbaohe】定时更新节点订阅 10, server: 104.21.226.34, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
+  - {name: 16|美国 CloudFlare节点 2（ccbaohe.com）..., server: 104.21.232.64, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 16|US_youtube@资源分享师_120
-      - 4Kian-26
       - 14|美国 CloudFlare节点
-      - 16|US_youtube@资源分享师_148
-      - 16|US_youtube@资源分享师_45
-      - 16|US_youtube@资源分享师_27
+      - 16|US_youtube@资源分享师_140
       - "14,16|【TG：@ccbaohe】定时更新节点订阅 #4"
-      - "14|美国 CloudFlare节点 #10"
+      - 16|US_youtube@资源分享师_180
+      - 16|US_ 7022 35
+      - 16|🇺🇸|US|美国|@wxgqlfx|126
+      - 16|【TG：@ccbaohe】定时更新节点订阅 10
+      - 16|美国 CloudFlare节点 2（ccbaohe.com）...
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 16|US_youtube@资源分享师_120
-      - 4Kian-26
       - 14|美国 CloudFlare节点
-      - 16|US_youtube@资源分享师_148
-      - 16|US_youtube@资源分享师_45
-      - 16|US_youtube@资源分享师_27
+      - 16|US_youtube@资源分享师_140
       - "14,16|【TG：@ccbaohe】定时更新节点订阅 #4"
-      - "14|美国 CloudFlare节点 #10"
+      - 16|US_youtube@资源分享师_180
+      - 16|US_ 7022 35
+      - 16|🇺🇸|US|美国|@wxgqlfx|126
+      - 16|【TG：@ccbaohe】定时更新节点订阅 10
+      - 16|美国 CloudFlare节点 2（ccbaohe.com）...
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 16|US_youtube@资源分享师_120
-      - 4Kian-26
       - 14|美国 CloudFlare节点
-      - 16|US_youtube@资源分享师_148
-      - 16|US_youtube@资源分享师_45
-      - 16|US_youtube@资源分享师_27
+      - 16|US_youtube@资源分享师_140
       - "14,16|【TG：@ccbaohe】定时更新节点订阅 #4"
-      - "14|美国 CloudFlare节点 #10"
+      - 16|US_youtube@资源分享师_180
+      - 16|US_ 7022 35
+      - 16|🇺🇸|US|美国|@wxgqlfx|126
+      - 16|【TG：@ccbaohe】定时更新节点订阅 10
+      - 16|美国 CloudFlare节点 2（ccbaohe.com）...
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
