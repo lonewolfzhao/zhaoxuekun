@@ -37,7 +37,7 @@ proxy-groups:
   - name: 负载平衡
     type: load-balance
     strategy: round-robin
-    url: https://www.youtube.com
+    url: 'https://www.youtube.com'
     interval: 300
     proxies:
 
