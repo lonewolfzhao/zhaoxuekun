@@ -34,11 +34,11 @@ proxy-groups:
       - 负载平衡
       - DIRECT
 
-  - name: 负载平衡
-    type: load-balance
-    strategy: round-robin
-    url: 'https://www.youtube.com'
+  - name: 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
     interval: 300
+    tolerance: 50
     proxies:
 
 
