@@ -1,7 +1,8 @@
-port: 10808
+mixed-port: 10808
 allow-lan: true
-mode: rule
+mode: Rule
 log-level: info
+external-controller: :50000
 unified-delay: true
 global-client-fingerprint: chrome
 dns:
@@ -160,7 +161,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
     headers:
       host: uh-lawyers-instruments-kernel.trycloudflare.com
-- name: None_None_vmess_010
+- name: United States_None_vmess_010
   type: vmess
   server: yh1.dtku41.xyz
   port: 8080
@@ -175,7 +176,7 @@ proxies:
     path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
     headers:
       host: championship-bidding-oxygen-brochure.trycloudflare.com
-- name: United States_None_vmess_011
+- name: None_None_vmess_011
   type: vmess
   server: yh1.dtku41.xyz
   port: 8080
@@ -220,7 +221,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
     headers:
       host: uh-lawyers-instruments-kernel.trycloudflare.com
-- name: United States_None_vmess_014
+- name: None_None_vmess_014
   type: vmess
   server: yh2.dtku41.xyz
   port: 8080
@@ -370,7 +371,7 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: United States_None_vmess_24
+- name: None_None_vmess_24
   type: vmess
   server: yh1.freeh1.xyz
   port: 8080
@@ -385,7 +386,7 @@ proxies:
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
     headers:
       host: larger-marketing-amounts-skin.trycloudflare.com
-- name: None_None_vmess_25
+- name: United States_None_vmess_25
   type: vmess
   server: yh2.freeh1.xyz
   port: 8080
@@ -400,7 +401,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
     headers:
       host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-- name: None_None_vmess_26
+- name: United States_None_vmess_26
   type: vmess
   server: yh2.freeh1.xyz
   port: 8080
@@ -430,7 +431,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
     headers:
       host: pcs-referenced-camera-concerns.trycloudflare.com
-- name: United States_None_vmess_28
+- name: None_None_vmess_28
   type: vmess
   server: yh3.freeh1.xyz
   port: 8080
@@ -475,7 +476,7 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: United States_None_vmess_211
+- name: None_None_vmess_211
   type: vmess
   server: yh3.freeh1.xyz
   port: 8080
@@ -550,7 +551,7 @@ proxies:
     path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
     headers:
       host: championship-bidding-oxygen-brochure.trycloudflare.com
-- name: United States_None_vmess_34
+- name: None_None_vmess_34
   type: vmess
   server: yh1.freeh1.xyz
   port: 8080
@@ -685,7 +686,7 @@ proxies:
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
     headers:
       host: larger-marketing-amounts-skin.trycloudflare.com
-- name: None_None_vmess_55
+- name: United States_None_vmess_55
   type: vmess
   server: yh1.freeh1.xyz
   port: 8080
@@ -715,7 +716,7 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: United States_None_vmess_57
+- name: None_None_vmess_57
   type: vmess
   server: yh1.freeh1.xyz
   port: 8080
@@ -730,7 +731,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
     headers:
       host: pcs-referenced-camera-concerns.trycloudflare.com
-- name: United States_None_vmess_58
+- name: None_None_vmess_58
   type: vmess
   server: yh1.freeh1.xyz
   port: 8080
@@ -760,7 +761,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
     headers:
       host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-- name: United States_None_vmess_510
+- name: None_None_vmess_510
   type: vmess
   server: yh2.freeh1.xyz
   port: 8080
@@ -805,7 +806,7 @@ proxies:
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
     headers:
       host: larger-marketing-amounts-skin.trycloudflare.com
-- name: United States_None_vmess_513
+- name: None_None_vmess_513
   type: vmess
   server: yh3.freeh1.xyz
   port: 8080
@@ -1002,7 +1003,7 @@ proxy-groups:
 - name: 节点选择
   type: select
   proxies:
-  - 自动选择
+  - 负载平衡
   - DIRECT
   - Canada_Ottawa_vmess_01
   - Canada_Ottawa_vmess_02
@@ -1013,11 +1014,11 @@ proxy-groups:
   - None_None_vmess_07
   - None_None_vmess_08
   - None_None_vmess_09
-  - None_None_vmess_010
-  - United States_None_vmess_011
+  - United States_None_vmess_010
+  - None_None_vmess_011
   - United States_None_vmess_012
   - None_None_vmess_013
-  - United States_None_vmess_014
+  - None_None_vmess_014
   - United States_None_vmess_015
   - None_None_vmess_016
   - None_None_vmess_11
@@ -1027,19 +1028,19 @@ proxy-groups:
   - United States_None_vmess_21
   - United States_None_vmess_22
   - None_None_vmess_23
-  - United States_None_vmess_24
-  - None_None_vmess_25
-  - None_None_vmess_26
+  - None_None_vmess_24
+  - United States_None_vmess_25
+  - United States_None_vmess_26
   - None_None_vmess_27
-  - United States_None_vmess_28
+  - None_None_vmess_28
   - United States_None_vmess_29
   - United States_None_vmess_210
-  - United States_None_vmess_211
+  - None_None_vmess_211
   - United States_None_vmess_212
   - United States_None_vmess_31
   - United States_None_vmess_32
   - None_None_vmess_33
-  - United States_None_vmess_34
+  - None_None_vmess_34
   - Canada_Ottawa_vmess_41
   - Canada_Ottawa_vmess_42
   - Canada_Ottawa_vmess_43
@@ -1048,15 +1049,15 @@ proxy-groups:
   - None_None_vmess_52
   - None_None_vmess_53
   - None_None_vmess_54
-  - None_None_vmess_55
+  - United States_None_vmess_55
   - None_None_vmess_56
-  - United States_None_vmess_57
-  - United States_None_vmess_58
+  - None_None_vmess_57
+  - None_None_vmess_58
   - None_None_vmess_59
-  - United States_None_vmess_510
+  - None_None_vmess_510
   - United States_None_vmess_511
   - United States_None_vmess_512
-  - United States_None_vmess_513
+  - None_None_vmess_513
   - United States_None_vmess_514
   - United States_None_vmess_515
   - United States_None_vmess_516
@@ -1072,80 +1073,12 @@ proxy-groups:
   - United States_Los Angeles_hy2_1
   - France_None_hy2_2
   - France_Paris_hy2_3
-- name: 自动选择
-  type: url-test
-  url: http://www.gstatic.com/generate_204
+- name: 负载平衡
+  type: load-balance
+  strategy: round-robin
+  url: https://www.youtube.com
   interval: 300
-  tolerance: 50
-  proxies:
-  - Canada_Ottawa_vmess_01
-  - Canada_Ottawa_vmess_02
-  - Canada_Ottawa_vmess_03
-  - Canada_Ottawa_vmess_04
-  - None_None_vmess_05
-  - None_None_vmess_06
-  - None_None_vmess_07
-  - None_None_vmess_08
-  - None_None_vmess_09
-  - None_None_vmess_010
-  - United States_None_vmess_011
-  - United States_None_vmess_012
-  - None_None_vmess_013
-  - United States_None_vmess_014
-  - United States_None_vmess_015
-  - None_None_vmess_016
-  - None_None_vmess_11
-  - None_None_vmess_12
-  - None_None_vmess_13
-  - None_None_vmess_14
-  - United States_None_vmess_21
-  - United States_None_vmess_22
-  - None_None_vmess_23
-  - United States_None_vmess_24
-  - None_None_vmess_25
-  - None_None_vmess_26
-  - None_None_vmess_27
-  - United States_None_vmess_28
-  - United States_None_vmess_29
-  - United States_None_vmess_210
-  - United States_None_vmess_211
-  - United States_None_vmess_212
-  - United States_None_vmess_31
-  - United States_None_vmess_32
-  - None_None_vmess_33
-  - United States_None_vmess_34
-  - Canada_Ottawa_vmess_41
-  - Canada_Ottawa_vmess_42
-  - Canada_Ottawa_vmess_43
-  - Canada_Ottawa_vmess_44
-  - None_None_vmess_51
-  - None_None_vmess_52
-  - None_None_vmess_53
-  - None_None_vmess_54
-  - None_None_vmess_55
-  - None_None_vmess_56
-  - United States_None_vmess_57
-  - United States_None_vmess_58
-  - None_None_vmess_59
-  - United States_None_vmess_510
-  - United States_None_vmess_511
-  - United States_None_vmess_512
-  - United States_None_vmess_513
-  - United States_None_vmess_514
-  - United States_None_vmess_515
-  - United States_None_vmess_516
-  - Taiwan_New Taipei_hysteria_61
-  - France_Paris_hysteria2_71
-  - United States_Seattle_ss_81
-  - Taiwan_New Taipei_hysteria_91
-  - France_Paris_hy_0
-  - United States_Los Angeles_hy_1
-  - Taiwan_Taipei_hy_2
-  - United States_Los Angeles_hy_3
-  - France_None_hy2_0
-  - United States_Los Angeles_hy2_1
-  - France_None_hy2_2
-  - France_Paris_hy2_3
+  proxies: null
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
