@@ -1,7 +1,8 @@
-port: 10808
+mixed-port: 10808
 allow-lan: true
-mode: rule
+mode: Rule
 log-level: info
+external-controller: :50000
 unified-delay: true
 global-client-fingerprint: chrome
 dns:
