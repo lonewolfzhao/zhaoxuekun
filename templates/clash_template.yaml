@@ -31,14 +31,14 @@ proxy-groups:
   - name: 节点选择
     type: select
     proxies:
-      - 自动选择
+      - 负载平衡
       - DIRECT
 
-  - name: 自动选择
-    type: url-test
-    url: http://www.gstatic.com/generate_204
+  - name: 负载平衡
+    type: load-balance
+    strategy: round-robin
+    url: https://www.youtube.com
     interval: 300
-    tolerance: 50
     proxies:
 
 
