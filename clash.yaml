@@ -4,11 +4,11 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: "18,19|香港|@ripaojiedian", server: hk.lianjianode.cc, port: 21033, type: vmess, uuid: 5f4548f9-e342-460c-8eb4-0ca81d24d41c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hongkong, headers: {Host: hk1.luodi.xyz}}, udp: true}
   - {name: 18|🇰🇷 韩国特殊|@ripaojiedian, server: 13.228.23.150, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "18,19|香港|@ripaojiedian", server: hk.lianjianode.cc, port: 21033, type: vmess, uuid: 5f4548f9-e342-460c-8eb4-0ca81d24d41c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hongkong, headers: {Host: hk1.luodi.xyz}}, udp: true}
+  - {name: 4Jadi-680, server: 103.172.116.79, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
   - {name: "21|baipaovpn广东省佛山市 #1", server: 183.232.175.187, port: 30026, type: vmess, uuid: 0927b72f-8f1c-38f7-8a86-cb977dba6b83, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: KZ-45.82.31.164-1309, server: 45.82.31.164, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: "0,3,4,8,9,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_由快嘴科技提供：kk...", server: 94.140.0.110, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: food.zhaal.ir}}, udp: true}
+  - {name: 4Jadi-1643, server: 54.36.174.181, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -24,32 +24,32 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 18,19|香港|@ripaojiedian
       - 18|🇰🇷 韩国特殊|@ripaojiedian
+      - 18,19|香港|@ripaojiedian
+      - 4Jadi-680
       - "21|baipaovpn广东省佛山市 #1"
-      - KZ-45.82.31.164-1309
-      - 0,3,4,8,9,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_由快嘴科技提供：kk...
+      - 4Jadi-1643
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 18,19|香港|@ripaojiedian
       - 18|🇰🇷 韩国特殊|@ripaojiedian
+      - 18,19|香港|@ripaojiedian
+      - 4Jadi-680
       - "21|baipaovpn广东省佛山市 #1"
-      - KZ-45.82.31.164-1309
-      - 0,3,4,8,9,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_由快嘴科技提供：kk...
+      - 4Jadi-1643
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 18,19|香港|@ripaojiedian
       - 18|🇰🇷 韩国特殊|@ripaojiedian
+      - 18,19|香港|@ripaojiedian
+      - 4Jadi-680
       - "21|baipaovpn广东省佛山市 #1"
-      - KZ-45.82.31.164-1309
-      - 0,3,4,8,9,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_由快嘴科技提供：kk...
+      - 4Jadi-1643
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
