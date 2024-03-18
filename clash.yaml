@@ -4,14 +4,11 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 4FreeIran-443, server: ah11.aand.site, port: 44407, type: ss, cipher: chacha20-ietf-poly1305, password: b3bb2518-1435-48e5-b01a-4f9f628baaf1, udp: true}
-  - {name: "16|US美国(mibei77.com 米贝节点分享) #1", server: 104.21.228.20, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳@WangCai_8", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 4Nika-467, server: zzz.aand.site, port: 46649, type: ss, cipher: chacha20-ietf-poly1305, password: b3bb2518-1435-48e5-b01a-4f9f628baaf1, udp: true}
-  - {name: 16|US_youtube@资源分享师_202, server: 104.21.224.42, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 16|US_youtube@资源分享师_47, server: 104.21.233.46, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳@WangCai_8", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 16|US_youtube@资源分享师_13, server: 104.21.238.72, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: 16|US_youtube@资源分享师_90, server: 104.21.224.21, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai08", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: "16|US美国(mibei77.com 米贝节点分享) #18", server: 104.21.230.50, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
+  - {name: "18,19|香港|@ripaojiedian", server: hk.lianjianode.cc, port: 21033, type: vmess, uuid: 5f4548f9-e342-460c-8eb4-0ca81d24d41c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hongkong, headers: {Host: hk1.luodi.xyz}}, udp: true}
+  - {name: 18|🇰🇷 韩国特殊|@ripaojiedian, server: 13.228.23.150, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "21|baipaovpn广东省佛山市 #1", server: 183.232.175.187, port: 30026, type: vmess, uuid: 0927b72f-8f1c-38f7-8a86-cb977dba6b83, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: KZ-45.82.31.164-1309, server: 45.82.31.164, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: "0,3,4,8,9,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_由快嘴科技提供：kk...", server: 94.140.0.110, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: food.zhaal.ir}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +24,32 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4FreeIran-443
-      - "16|US美国(mibei77.com 米贝节点分享) #1"
-      - 4Nika-467
-      - 16|US_youtube@资源分享师_202
-      - 16|US_youtube@资源分享师_47
-      - 16|US_youtube@资源分享师_13
-      - 16|US_youtube@资源分享师_90
-      - "16|US美国(mibei77.com 米贝节点分享) #18"
+      - 18,19|香港|@ripaojiedian
+      - 18|🇰🇷 韩国特殊|@ripaojiedian
+      - "21|baipaovpn广东省佛山市 #1"
+      - KZ-45.82.31.164-1309
+      - 0,3,4,8,9,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_由快嘴科技提供：kk...
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 4FreeIran-443
-      - "16|US美国(mibei77.com 米贝节点分享) #1"
-      - 4Nika-467
-      - 16|US_youtube@资源分享师_202
-      - 16|US_youtube@资源分享师_47
-      - 16|US_youtube@资源分享师_13
-      - 16|US_youtube@资源分享师_90
-      - "16|US美国(mibei77.com 米贝节点分享) #18"
+      - 18,19|香港|@ripaojiedian
+      - 18|🇰🇷 韩国特殊|@ripaojiedian
+      - "21|baipaovpn广东省佛山市 #1"
+      - KZ-45.82.31.164-1309
+      - 0,3,4,8,9,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_由快嘴科技提供：kk...
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4FreeIran-443
-      - "16|US美国(mibei77.com 米贝节点分享) #1"
-      - 4Nika-467
-      - 16|US_youtube@资源分享师_202
-      - 16|US_youtube@资源分享师_47
-      - 16|US_youtube@资源分享师_13
-      - 16|US_youtube@资源分享师_90
-      - "16|US美国(mibei77.com 米贝节点分享) #18"
+      - 18,19|香港|@ripaojiedian
+      - 18|🇰🇷 韩国特殊|@ripaojiedian
+      - "21|baipaovpn广东省佛山市 #1"
+      - KZ-45.82.31.164-1309
+      - 0,3,4,8,9,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_由快嘴科技提供：kk...
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
