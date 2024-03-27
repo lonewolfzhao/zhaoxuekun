@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 4Sarina-636, server: 47.76.185.99, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: "26|baipaovpn美国 #1", server: 162.159.240.139, port: 2086, type: vmess, uuid: 160fdf6d-e27b-4763-bcef-22587c161a6e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/Z7qdcrAGRw, headers: {Host: us77SmSk86j.fzbqfrse.xyz}}, udp: true}
-  - {name: 6|-https://t.me/MrXbin-12, server: 54.179.101.194, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 6|-https://t.me/MrXbin-25, server: 47.128.77.190, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4Nika-949, server: 54.245.36.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 19|🔒 VM-WS-TLS 🏴‍☠️ NA-104.21.46...., server: 104.21.46.63, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: marien.motorcycles}}, udp: true}
-  - {name: 6|-https://t.me/MrXbin-55, server: 35.87.1.148, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 21|🇭🇰 香港|@ripaojiedian, server: onea.flha.ru, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}, udp: true}
+  - {name: 6|-https://t.me/MrXbin-47, server: 47.129.9.69, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 6|-https://t.me/MrXbin-154, server: ieplhk.iplcnetwork.com, port: 14791, type: vmess, uuid: 8f589c93-e01b-435a-81f1-17c7434390c3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 6|-https://t.me/MrXbin-26, server: 18.141.207.80, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "8,9,19|美国(yudou66.com 玉豆免费节点)", server: 162.159.5.6, port: 8080, type: vmess, uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm, headers: {Host: pcs-referenced-camera-concerns.trycloudflare.com}}, udp: true}
+  - {name: 6|-https://t.me/MrXbin-5, server: 80.92.204.106, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: "8,9|🇨🇦_CA_加拿大->🇺🇸_US_美国 #1", server: 23.227.38.23, port: 8080, type: vmess, uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm, headers: {Host: uh-lawyers-instruments-kernel.trycloudflare.com}}, udp: true}
+  - {name: "8|🇨🇦_CA_加拿大 #1", server: 23.227.39.24, port: 8080, type: vmess, uuid: 9258153a-dc97-4e39-9037-009abfc4fed0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm, headers: {Host: per-essex-patterns-bowling.trycloudflare.com}}, udp: true}
+  - {name: "19|美国 CloudFlare节点 #48", server: mizban.arzonhost.ir, port: 2086, type: vmess, uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mizban.arzonhost.ir}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Sarina-636
-      - "26|baipaovpn美国 #1"
-      - 6|-https://t.me/MrXbin-12
-      - 6|-https://t.me/MrXbin-25
-      - 4Nika-949
-      - 19|🔒 VM-WS-TLS 🏴‍☠️ NA-104.21.46....
-      - 6|-https://t.me/MrXbin-55
-      - 21|🇭🇰 香港|@ripaojiedian
+      - 6|-https://t.me/MrXbin-47
+      - 6|-https://t.me/MrXbin-154
+      - 6|-https://t.me/MrXbin-26
+      - 8,9,19|美国(yudou66.com 玉豆免费节点)
+      - 6|-https://t.me/MrXbin-5
+      - "8,9|🇨🇦_CA_加拿大->🇺🇸_US_美国 #1"
+      - "8|🇨🇦_CA_加拿大 #1"
+      - "19|美国 CloudFlare节点 #48"
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 4Sarina-636
-      - "26|baipaovpn美国 #1"
-      - 6|-https://t.me/MrXbin-12
-      - 6|-https://t.me/MrXbin-25
-      - 4Nika-949
-      - 19|🔒 VM-WS-TLS 🏴‍☠️ NA-104.21.46....
-      - 6|-https://t.me/MrXbin-55
-      - 21|🇭🇰 香港|@ripaojiedian
+      - 6|-https://t.me/MrXbin-47
+      - 6|-https://t.me/MrXbin-154
+      - 6|-https://t.me/MrXbin-26
+      - 8,9,19|美国(yudou66.com 玉豆免费节点)
+      - 6|-https://t.me/MrXbin-5
+      - "8,9|🇨🇦_CA_加拿大->🇺🇸_US_美国 #1"
+      - "8|🇨🇦_CA_加拿大 #1"
+      - "19|美国 CloudFlare节点 #48"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 4Sarina-636
-      - "26|baipaovpn美国 #1"
-      - 6|-https://t.me/MrXbin-12
-      - 6|-https://t.me/MrXbin-25
-      - 4Nika-949
-      - 19|🔒 VM-WS-TLS 🏴‍☠️ NA-104.21.46....
-      - 6|-https://t.me/MrXbin-55
-      - 21|🇭🇰 香港|@ripaojiedian
+      - 6|-https://t.me/MrXbin-47
+      - 6|-https://t.me/MrXbin-154
+      - 6|-https://t.me/MrXbin-26
+      - 8,9,19|美国(yudou66.com 玉豆免费节点)
+      - 6|-https://t.me/MrXbin-5
+      - "8,9|🇨🇦_CA_加拿大->🇺🇸_US_美国 #1"
+      - "8|🇨🇦_CA_加拿大 #1"
+      - "19|美国 CloudFlare节点 #48"
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
