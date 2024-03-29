@@ -4,14 +4,14 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: "18|美国 CloudFlare节点 #10", server: 104.21.231.39, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt1.ir}}, udp: true}
   - {name: "18|美国 CloudFlare节点 #21", server: 104.21.224.234, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai08", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: "18|美国 CloudFlare节点 #16", server: 104.21.231.56, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai08", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: 19|美国 CloudFlare节点 14（ccbaohe.com..., server: 104.21.224.174, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: "18|美国 CloudFlare节点 #45", server: 104.21.225.28, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai08", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: "18|美国 CloudFlare节点 #19", server: 104.21.231.58, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai08", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: "18|美国 CloudFlare节点 #1", server: 104.21.224.24, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai08", headers: {Host: a.prapt4.ir}}, udp: true}
   - {name: "18|美国 CloudFlare节点 #7", server: 104.21.226.12, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: "18|美国 CloudFlare节点 #42", server: 104.21.224.132, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai08", headers: {Host: a.prapt1.ir}}, udp: true}
+  - {name: "18|美国 CloudFlare节点 #1", server: 104.21.224.24, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai08", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: "18|美国 CloudFlare节点 #48", server: 104.21.236.60, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai08", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: "18|美国 CloudFlare节点 #10", server: 104.21.224.206, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai08", headers: {Host: a.prapt1.ir}}, udp: true}
+  - {name: "18|美国 CloudFlare节点 #41", server: 104.21.235.57, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: "18|美国 CloudFlare节点 #30", server: 104.21.226.11, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +27,41 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "18|美国 CloudFlare节点 #10"
       - "18|美国 CloudFlare节点 #21"
-      - "18|美国 CloudFlare节点 #16"
-      - 19|美国 CloudFlare节点 14（ccbaohe.com...
-      - "18|美国 CloudFlare节点 #45"
-      - "18|美国 CloudFlare节点 #19"
-      - "18|美国 CloudFlare节点 #1"
       - "18|美国 CloudFlare节点 #7"
+      - "18|美国 CloudFlare节点 #42"
+      - "18|美国 CloudFlare节点 #1"
+      - "18|美国 CloudFlare节点 #48"
+      - "18|美国 CloudFlare节点 #10"
+      - "18|美国 CloudFlare节点 #41"
+      - "18|美国 CloudFlare节点 #30"
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - "18|美国 CloudFlare节点 #10"
       - "18|美国 CloudFlare节点 #21"
-      - "18|美国 CloudFlare节点 #16"
-      - 19|美国 CloudFlare节点 14（ccbaohe.com...
-      - "18|美国 CloudFlare节点 #45"
-      - "18|美国 CloudFlare节点 #19"
-      - "18|美国 CloudFlare节点 #1"
       - "18|美国 CloudFlare节点 #7"
+      - "18|美国 CloudFlare节点 #42"
+      - "18|美国 CloudFlare节点 #1"
+      - "18|美国 CloudFlare节点 #48"
+      - "18|美国 CloudFlare节点 #10"
+      - "18|美国 CloudFlare节点 #41"
+      - "18|美国 CloudFlare节点 #30"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "18|美国 CloudFlare节点 #10"
       - "18|美国 CloudFlare节点 #21"
-      - "18|美国 CloudFlare节点 #16"
-      - 19|美国 CloudFlare节点 14（ccbaohe.com...
-      - "18|美国 CloudFlare节点 #45"
-      - "18|美国 CloudFlare节点 #19"
-      - "18|美国 CloudFlare节点 #1"
       - "18|美国 CloudFlare节点 #7"
+      - "18|美国 CloudFlare节点 #42"
+      - "18|美国 CloudFlare节点 #1"
+      - "18|美国 CloudFlare节点 #48"
+      - "18|美国 CloudFlare节点 #10"
+      - "18|美国 CloudFlare节点 #41"
+      - "18|美国 CloudFlare节点 #30"
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
