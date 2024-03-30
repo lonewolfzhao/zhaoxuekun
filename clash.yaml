@@ -4,14 +4,12 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: "19,29|🇺🇸_US_美国->🇫🇷_FR_法国_6", server: admin.arzonhost.ir, port: 2086, type: vmess, uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: admin.arzonhost.ir}}, udp: true}
-  - {name: 19|美国 - 波特蘭 - Hetzner Online GmbH..., server: 104.21.224.144, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: "19|【TG：@ccbaohe}定时更新节点订阅  US00239...", server: 104.21.224.173, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai08", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: "19|【TG：@ccbaohe}定时更新节点订阅  US00258...", server: 104.21.224.73, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai08", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: "19|美国 - 波特蘭 - Hetzner Online GmbH... #7", server: 104.21.231.59, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: "19|【TG：@ccbaohe}定时更新节点订阅  US00727...", server: 104.21.237.68, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: "19|【TG：@ccbaohe}定时更新节点订阅  US00188...", server: 104.21.231.35, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai08", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: "19|【TG：@ccbaohe}定时更新节点订阅  US00167...", server: 104.21.228.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai08", headers: {Host: a.prapt1.ir}}, udp: true}
+  - {name: 6|-https://t.me/MrXbin-3, server: 13.250.57.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "19|【TG：@ccbaohe}定时更新节点订阅  US00131...", server: 104.21.236.81, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai08", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 6|-https://t.me/MrXbin-3 2, server: 54.202.195.163, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "19|美国【TG：@ccbaohe】定时更新节点订阅 #11", server: 104.21.220.97, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
+  - {name: "19|美国【TG：@ccbaohe】定时更新节点订阅 #26", server: 104.21.221.185, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt1.ir}}, udp: true}
+  - {name: 6|-https://t.me/MrXbin-23, server: 13.250.61.18, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -27,41 +25,35 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 19,29|🇺🇸_US_美国->🇫🇷_FR_法国_6
-      - 19|美国 - 波特蘭 - Hetzner Online GmbH...
-      - 19|【TG：@ccbaohe}定时更新节点订阅  US00239...
-      - 19|【TG：@ccbaohe}定时更新节点订阅  US00258...
-      - "19|美国 - 波特蘭 - Hetzner Online GmbH... #7"
-      - 19|【TG：@ccbaohe}定时更新节点订阅  US00727...
-      - 19|【TG：@ccbaohe}定时更新节点订阅  US00188...
-      - 19|【TG：@ccbaohe}定时更新节点订阅  US00167...
+      - 6|-https://t.me/MrXbin-3
+      - 19|【TG：@ccbaohe}定时更新节点订阅  US00131...
+      - 6|-https://t.me/MrXbin-3 2
+      - "19|美国【TG：@ccbaohe】定时更新节点订阅 #11"
+      - "19|美国【TG：@ccbaohe】定时更新节点订阅 #26"
+      - 6|-https://t.me/MrXbin-23
   - name: ♻️ 自动选择
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - 19,29|🇺🇸_US_美国->🇫🇷_FR_法国_6
-      - 19|美国 - 波特蘭 - Hetzner Online GmbH...
-      - 19|【TG：@ccbaohe}定时更新节点订阅  US00239...
-      - 19|【TG：@ccbaohe}定时更新节点订阅  US00258...
-      - "19|美国 - 波特蘭 - Hetzner Online GmbH... #7"
-      - 19|【TG：@ccbaohe}定时更新节点订阅  US00727...
-      - 19|【TG：@ccbaohe}定时更新节点订阅  US00188...
-      - 19|【TG：@ccbaohe}定时更新节点订阅  US00167...
+      - 6|-https://t.me/MrXbin-3
+      - 19|【TG：@ccbaohe}定时更新节点订阅  US00131...
+      - 6|-https://t.me/MrXbin-3 2
+      - "19|美国【TG：@ccbaohe】定时更新节点订阅 #11"
+      - "19|美国【TG：@ccbaohe】定时更新节点订阅 #26"
+      - 6|-https://t.me/MrXbin-23
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 19,29|🇺🇸_US_美国->🇫🇷_FR_法国_6
-      - 19|美国 - 波特蘭 - Hetzner Online GmbH...
-      - 19|【TG：@ccbaohe}定时更新节点订阅  US00239...
-      - 19|【TG：@ccbaohe}定时更新节点订阅  US00258...
-      - "19|美国 - 波特蘭 - Hetzner Online GmbH... #7"
-      - 19|【TG：@ccbaohe}定时更新节点订阅  US00727...
-      - 19|【TG：@ccbaohe}定时更新节点订阅  US00188...
-      - 19|【TG：@ccbaohe}定时更新节点订阅  US00167...
+      - 6|-https://t.me/MrXbin-3
+      - 19|【TG：@ccbaohe}定时更新节点订阅  US00131...
+      - 6|-https://t.me/MrXbin-3 2
+      - "19|美国【TG：@ccbaohe】定时更新节点订阅 #11"
+      - "19|美国【TG：@ccbaohe】定时更新节点订阅 #26"
+      - 6|-https://t.me/MrXbin-23
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
