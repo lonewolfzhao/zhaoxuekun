@@ -1000,9 +1000,10 @@ proxies:
   sni: www.bing.com
   skip-cert-verify: true
 - {name: _CN_中国->🇵🇰_PK_巴基斯坦, server: db.quanstring.top, port: 42107, type: ss, cipher: chacha20-ietf-poly1305, password: 9c709e3d-f733-4b08-853d-2c81c4f393b5, udp: true}
-- {name: 6|-https://t.me/MrXbin-9, server: 34.221.93.113, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 6|-https://t.me/MrXbin-23, server: p229.panda004.net, port: 10218, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 6|-https://t.me/MrXbin-14, server: 38.68.134.125, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
 - {name: 4Nika-624, server: 8.218.196.35, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-- {name: 4Nika-645, server: 47.76.185.99, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+- {name: 6|-https://t.me/MrXbin-26, server: 54.199.15.70, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -1020,9 +1021,10 @@ proxy-groups:
     interval: 300
     proxies:
       - _CN_中国->🇵🇰_PK_巴基斯坦
-      - 6|-https://t.me/MrXbin-9
+      - 6|-https://t.me/MrXbin-23
+      - 6|-https://t.me/MrXbin-14
       - 4Nika-624
-      - 4Nika-645
+      - 6|-https://t.me/MrXbin-26
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -1036,9 +1038,10 @@ proxy-groups:
     interval: 300
     proxies:
       - _CN_中国->🇵🇰_PK_巴基斯坦
-      - 6|-https://t.me/MrXbin-9
+      - 6|-https://t.me/MrXbin-23
+      - 6|-https://t.me/MrXbin-14
       - 4Nika-624
-      - 4Nika-645
+      - 6|-https://t.me/MrXbin-26
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -1115,9 +1118,10 @@ proxy-groups:
       - France_Paris_hy2_3
 
       - _CN_中国->🇵🇰_PK_巴基斯坦
-      - 6|-https://t.me/MrXbin-9
+      - 6|-https://t.me/MrXbin-23
+      - 6|-https://t.me/MrXbin-14
       - 4Nika-624
-      - 4Nika-645
+      - 6|-https://t.me/MrXbin-26
   - name: 🐟 漏网之鱼
     type: select
     proxies:
