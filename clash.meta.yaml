@@ -999,14 +999,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: "21,22|美国2|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2082, type: vmess, uuid: 203cea12-57fe-49c6-9e5b-906d2260ef12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/CuTy87zAzV/, headers: {Host: us4Bb5oSgJA.fzbqfrse.xyz}}, udp: true}
-- {name: 6|-https://t.me/MrXbin-3, server: 34.221.93.113, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Sarina-639, server: 47.76.185.99, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-- {name: _CN_中国->🇩🇪_DE_德国, server: mf402f.micloud.buzz, port: 46002, type: vmess, uuid: 62477f7a-783b-4f00-93cb-ce1f62155776, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mf402f.micloud.buzz}}, udp: true}
-- {name: 6|-https://t.me/MrXbin-16, server: p225.panda004.net, port: 4005, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 21|🇯🇵 日本2|@ripaojiedian, server: rk2.izoizoizo.top, port: 43505, type: ss, cipher: chacha20-ietf-poly1305, password: 4f2fdda5-9fb0-4c0c-8ec7-77fe7ae15a3d, udp: true}
-- {name: 26|baipaovpn美国, server: 104.20.30.205, port: 80, type: vmess, uuid: 1cfaad16-d2ba-4c49-af07-d7b9f11f43d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /xn--mes53ddysu0o3gl, headers: {Host: newsg1.xn--mes53ddysu0o3gl.top}}, udp: true}
-- {name: _US_美国, server: 23.142.200.175, port: 443, type: trojan, password: 27876_t7d7f4e3f, skip-cert-verify: true, udp: true}
+- {name: 9|baipaovpn香港, server: 47.242.155.183, port: 2053, type: vmess, uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cfhk.393930.xyz}}, udp: true}
+- {name: 0|-https://t.me/MrXbin-20, server: 47.128.64.71, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Jadi-568, server: trojan.hkg.gz.cn, port: 11005, type: ss, cipher: aes-128-gcm, password: e0beb700-d059-4dec-a9e3-dbe8a1c5c583, udp: true}
+- {name: 6|-https://t.me/MrXbin-32, server: 13.250.63.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Jadi-819, server: 47.128.72.85, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Mohsen-827, server: 52.221.231.138, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "10|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz... #1", server: mizban.arzonhost.ir, port: 2086, type: vmess, uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mizban.arzonhost.ir}}, udp: true}
+- {name: 6|-https://t.me/MrXbin-21, server: p226.panda004.net, port: 58449, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -1023,14 +1023,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 21,22|美国2|@ripaojiedian
-      - 6|-https://t.me/MrXbin-3
-      - 4Sarina-639
-      - _CN_中国->🇩🇪_DE_德国
-      - 6|-https://t.me/MrXbin-16
-      - 21|🇯🇵 日本2|@ripaojiedian
-      - 26|baipaovpn美国
-      - _US_美国
+      - 9|baipaovpn香港
+      - 0|-https://t.me/MrXbin-20
+      - 4Jadi-568
+      - 6|-https://t.me/MrXbin-32
+      - 4Jadi-819
+      - 4Mohsen-827
+      - "10|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz... #1"
+      - 6|-https://t.me/MrXbin-21
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -1043,14 +1043,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 21,22|美国2|@ripaojiedian
-      - 6|-https://t.me/MrXbin-3
-      - 4Sarina-639
-      - _CN_中国->🇩🇪_DE_德国
-      - 6|-https://t.me/MrXbin-16
-      - 21|🇯🇵 日本2|@ripaojiedian
-      - 26|baipaovpn美国
-      - _US_美国
+      - 9|baipaovpn香港
+      - 0|-https://t.me/MrXbin-20
+      - 4Jadi-568
+      - 6|-https://t.me/MrXbin-32
+      - 4Jadi-819
+      - 4Mohsen-827
+      - "10|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz... #1"
+      - 6|-https://t.me/MrXbin-21
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -1126,14 +1126,14 @@ proxy-groups:
       - France_None_hy2_2
       - France_Paris_hy2_3
 
-      - 21,22|美国2|@ripaojiedian
-      - 6|-https://t.me/MrXbin-3
-      - 4Sarina-639
-      - _CN_中国->🇩🇪_DE_德国
-      - 6|-https://t.me/MrXbin-16
-      - 21|🇯🇵 日本2|@ripaojiedian
-      - 26|baipaovpn美国
-      - _US_美国
+      - 9|baipaovpn香港
+      - 0|-https://t.me/MrXbin-20
+      - 4Jadi-568
+      - 6|-https://t.me/MrXbin-32
+      - 4Jadi-819
+      - 4Mohsen-827
+      - "10|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz... #1"
+      - 6|-https://t.me/MrXbin-21
   - name: 🐟 漏网之鱼
     type: select
     proxies:
