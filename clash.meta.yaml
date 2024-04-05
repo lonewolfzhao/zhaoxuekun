@@ -999,14 +999,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 4Jadi-572, server: 47.76.185.99, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-- {name: 4Nika-624, server: 8.218.196.35, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-- {name: 4Nika-828, server: 47.128.64.71, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 10|🇺🇸_US_美国->🇬🇧_GB_英国, server: mizban.arzonhost.ir, port: 2086, type: vmess, uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mizban.arzonhost.ir}}, udp: true}
+- {name: 5|🇰🇷 韩国3|@ripaojiedian, server: dxcdn02.dorabbb.top, port: 48824, type: ss, cipher: chacha20-ietf-poly1305, password: 86933ebf-fe3a-4c67-8eb6-25c82bf07e85, udp: true}
 - {name: 0|-https://t.me/MrXbin-8, server: 34.221.93.113, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Nika-756, server: 13.250.63.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-37, server: 18.142.56.221, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Nika-391, server: 92.246.136.190, port: 32025, type: ss, cipher: chacha20-ietf-poly1305, password: VRKnPTULDqxaExI5yLJjoc, udp: true}
+- {name: 4Nika-93, server: 45.15.157.199, port: 45346, type: ss, cipher: chacha20-ietf-poly1305, password: wKmDInbrlOhZzjhh1WsvU7, udp: true}
+- {name: 5|🇸🇬 狮城特殊|@ripaojiedian, server: 13.214.212.171, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-127, server: qin15.rong1104.uk, port: 2053, type: vmess, uuid: 869caccc-12af-4276-f458-366fa256f8a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qin15, headers: {Host: qin15.rong1104.uk}}, udp: true}
+- {name: 26|baipaovpn美国, server: 104.20.30.205, port: 80, type: vmess, uuid: 1cfaad16-d2ba-4c49-af07-d7b9f11f43d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /xn--mes53ddysu0o3gl, headers: {Host: newsg1.xn--mes53ddysu0o3gl.top}}, udp: true}
+- {name: 0|-https://t.me/MrXbin-19, server: 185.189.32.56, port: 16899, type: ss, cipher: aes-128-gcm, password: Yc2CtrIz8L, udp: true}
+- {name: 4Nika-76, server: 5.42.72.241, port: 30482, type: ss, cipher: chacha20-ietf-poly1305, password: 2gUQ2cQTPtBGNjbCXKMKeH, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -1023,14 +1023,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 4Jadi-572
-      - 4Nika-624
-      - 4Nika-828
-      - 10|🇺🇸_US_美国->🇬🇧_GB_英国
+      - 5|🇰🇷 韩国3|@ripaojiedian
       - 0|-https://t.me/MrXbin-8
-      - 4Nika-756
-      - 0|-https://t.me/MrXbin-37
-      - 4Nika-391
+      - 4Nika-93
+      - 5|🇸🇬 狮城特殊|@ripaojiedian
+      - 0|-https://t.me/MrXbin-127
+      - 26|baipaovpn美国
+      - 0|-https://t.me/MrXbin-19
+      - 4Nika-76
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -1043,14 +1043,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 4Jadi-572
-      - 4Nika-624
-      - 4Nika-828
-      - 10|🇺🇸_US_美国->🇬🇧_GB_英国
+      - 5|🇰🇷 韩国3|@ripaojiedian
       - 0|-https://t.me/MrXbin-8
-      - 4Nika-756
-      - 0|-https://t.me/MrXbin-37
-      - 4Nika-391
+      - 4Nika-93
+      - 5|🇸🇬 狮城特殊|@ripaojiedian
+      - 0|-https://t.me/MrXbin-127
+      - 26|baipaovpn美国
+      - 0|-https://t.me/MrXbin-19
+      - 4Nika-76
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -1126,14 +1126,14 @@ proxy-groups:
       - France_None_hy2_2
       - France_Paris_hy2_3
 
-      - 4Jadi-572
-      - 4Nika-624
-      - 4Nika-828
-      - 10|🇺🇸_US_美国->🇬🇧_GB_英国
+      - 5|🇰🇷 韩国3|@ripaojiedian
       - 0|-https://t.me/MrXbin-8
-      - 4Nika-756
-      - 0|-https://t.me/MrXbin-37
-      - 4Nika-391
+      - 4Nika-93
+      - 5|🇸🇬 狮城特殊|@ripaojiedian
+      - 0|-https://t.me/MrXbin-127
+      - 26|baipaovpn美国
+      - 0|-https://t.me/MrXbin-19
+      - 4Nika-76
   - name: 🐟 漏网之鱼
     type: select
     proxies:
