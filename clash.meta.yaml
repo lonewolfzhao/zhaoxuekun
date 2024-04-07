@@ -770,14 +770,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 9|baipaovpn广东省, server: 120.233.43.22, port: 35001, type: vmess, uuid: 2add5c39-f353-3b58-b886-195251fab44f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "9|baipaovpn广东省潮州市 #13", server: 183.240.188.45, port: 35003, type: vmess, uuid: 2add5c39-f353-3b58-b886-195251fab44f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 0|-https://t.me/MrXbin-54, server: 149.28.64.6, port: 11662, type: vmess, uuid: 41d32579-a8b4-4bc7-cd5f-aac5e75513da, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "9|baipaovpn广东省潮州市 #17", server: 183.240.188.44, port: 35029, type: vmess, uuid: 2add5c39-f353-3b58-b886-195251fab44f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: "9|baipaovpn广东省 #7", server: 120.233.43.22, port: 35045, type: vmess, uuid: 2add5c39-f353-3b58-b886-195251fab44f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: "9|baipaovpn广东省潮州市 #7", server: 183.240.188.45, port: 35045, type: vmess, uuid: 2add5c39-f353-3b58-b886-195251fab44f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Mohsen-742, server: 13.214.212.171, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "9|baipaovpn广东省潮州市 #5", server: 183.240.188.44, port: 35005, type: vmess, uuid: 2add5c39-f353-3b58-b886-195251fab44f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 0|-https://t.me/MrXbin-179, server: ru01.freeflyingcloud.xyz, port: 30002, type: trojan, password: 2ee6f407-3a86-48d9-9042-3f80dd18fad6, sni: ru01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
+- {name: 4Mohsen-1149, server: p233.panda004.net, port: 50942, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
 - {name: 5|🇸🇬 狮城特殊|@ripaojiedian, server: 13.229.182.149, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-132, server: 154.62.185.162, port: 35816, type: vmess, uuid: 6cebbdaa-74ce-43ce-dfe2-1cecba9cecb4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: _US_美国, server: 23.142.200.175, port: 443, type: trojan, password: 27876_t7d7f4e3f, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-4, server: 13.215.156.208, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -794,14 +794,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 9|baipaovpn广东省
-      - "9|baipaovpn广东省潮州市 #13"
-      - 0|-https://t.me/MrXbin-54
-      - "9|baipaovpn广东省潮州市 #17"
+      - "9|baipaovpn广东省 #7"
+      - "9|baipaovpn广东省潮州市 #7"
+      - 4Mohsen-742
+      - "9|baipaovpn广东省潮州市 #5"
       - 0|-https://t.me/MrXbin-179
+      - 4Mohsen-1149
       - 5|🇸🇬 狮城特殊|@ripaojiedian
-      - 0|-https://t.me/MrXbin-132
-      - _US_美国
+      - 0|-https://t.me/MrXbin-4
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -814,14 +814,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 9|baipaovpn广东省
-      - "9|baipaovpn广东省潮州市 #13"
-      - 0|-https://t.me/MrXbin-54
-      - "9|baipaovpn广东省潮州市 #17"
+      - "9|baipaovpn广东省 #7"
+      - "9|baipaovpn广东省潮州市 #7"
+      - 4Mohsen-742
+      - "9|baipaovpn广东省潮州市 #5"
       - 0|-https://t.me/MrXbin-179
+      - 4Mohsen-1149
       - 5|🇸🇬 狮城特殊|@ripaojiedian
-      - 0|-https://t.me/MrXbin-132
-      - _US_美国
+      - 0|-https://t.me/MrXbin-4
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -882,14 +882,14 @@ proxy-groups:
       - France_None_hy2_2
       - France_Paris_hy2_3
 
-      - 9|baipaovpn广东省
-      - "9|baipaovpn广东省潮州市 #13"
-      - 0|-https://t.me/MrXbin-54
-      - "9|baipaovpn广东省潮州市 #17"
+      - "9|baipaovpn广东省 #7"
+      - "9|baipaovpn广东省潮州市 #7"
+      - 4Mohsen-742
+      - "9|baipaovpn广东省潮州市 #5"
       - 0|-https://t.me/MrXbin-179
+      - 4Mohsen-1149
       - 5|🇸🇬 狮城特殊|@ripaojiedian
-      - 0|-https://t.me/MrXbin-132
-      - _US_美国
+      - 0|-https://t.me/MrXbin-4
   - name: 🐟 漏网之鱼
     type: select
     proxies:
