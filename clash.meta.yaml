@@ -26,66 +26,17 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: None_None_vmess_01
-  type: vmess
-  server: fbi.gov
-  port: 8080
-  cipher: auto
-  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
-  alterId: 0
-  tls: false
+- name: United States_Los Angeles_hysteria2_01
+  type: hysteria2
+  server: 74.63.233.74
+  port: 33445
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: www.bing.com
   skip-cert-verify: true
-  servername: pcs-referenced-camera-concerns.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
-    headers:
-      host: pcs-referenced-camera-concerns.trycloudflare.com
-- name: None_None_vmess_02
-  type: vmess
-  server: fbi.gov
-  port: 8080
-  cipher: auto
-  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: bibliographic-sword-sequence-advertisers.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
-    headers:
-      host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-- name: None_None_vmess_03
-  type: vmess
-  server: fbi.gov
-  port: 8080
-  cipher: auto
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: None_None_vmess_04
-  type: vmess
-  server: fbi.gov
-  port: 8080
-  cipher: auto
-  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: larger-marketing-amounts-skin.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
-    headers:
-      host: larger-marketing-amounts-skin.trycloudflare.com
+  up: 5 Mbps
+  down: 20 Mbps
 - name: None_None_vmess_11
   type: vmess
   server: fbi.gov
@@ -95,12 +46,12 @@ proxies:
   alterId: 0
   tls: false
   skip-cert-verify: true
-  servername: pcs-referenced-camera-concerns.trycloudflare.com
+  servername: concentrations-taxi-about-recognised.trycloudflare.com
   network: ws
   ws-opts:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
     headers:
-      host: pcs-referenced-camera-concerns.trycloudflare.com
+      host: concentrations-taxi-about-recognised.trycloudflare.com
 - name: None_None_vmess_12
   type: vmess
   server: fbi.gov
@@ -110,12 +61,12 @@ proxies:
   alterId: 0
   tls: false
   skip-cert-verify: true
-  servername: bibliographic-sword-sequence-advertisers.trycloudflare.com
+  servername: hang-broke-john-neither.trycloudflare.com
   network: ws
   ws-opts:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
     headers:
-      host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+      host: hang-broke-john-neither.trycloudflare.com
 - name: None_None_vmess_13
   type: vmess
   server: fbi.gov
@@ -125,12 +76,12 @@ proxies:
   alterId: 0
   tls: false
   skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
+  servername: booty-pensions-scheduling-blogging.trycloudflare.com
   network: ws
   ws-opts:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
     headers:
-      host: nest-emily-healing-h.trycloudflare.com
+      host: booty-pensions-scheduling-blogging.trycloudflare.com
 - name: None_None_vmess_14
   type: vmess
   server: fbi.gov
@@ -140,12 +91,12 @@ proxies:
   alterId: 0
   tls: false
   skip-cert-verify: true
-  servername: larger-marketing-amounts-skin.trycloudflare.com
+  servername: fantastic-doe-bids-ended.trycloudflare.com
   network: ws
   ws-opts:
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
     headers:
-      host: larger-marketing-amounts-skin.trycloudflare.com
+      host: fantastic-doe-bids-ended.trycloudflare.com
 - name: None_None_vmess_21
   type: vmess
   server: yh1.freeh1.xyz
@@ -221,7 +172,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
     headers:
       host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-- name: None_None_vmess_26
+- name: United States_None_vmess_26
   type: vmess
   server: yh2.freeh1.xyz
   port: 8080
@@ -236,7 +187,7 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: None_None_vmess_27
+- name: United States_None_vmess_27
   type: vmess
   server: yh2.freeh1.xyz
   port: 8080
@@ -356,7 +307,7 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
     headers:
       host: per-essex-patterns-bowling.trycloudflare.com
-- name: United States_None_vmess_33
+- name: None_None_vmess_33
   type: vmess
   server: yh1.freeh1.xyz
   port: 8080
@@ -371,7 +322,7 @@ proxies:
     path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
     headers:
       host: technological-mel-fill-decide.trycloudflare.com
-- name: United States_None_vmess_34
+- name: None_None_vmess_34
   type: vmess
   server: yh1.freeh1.xyz
   port: 8080
@@ -506,7 +457,7 @@ proxies:
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
     headers:
       host: larger-marketing-amounts-skin.trycloudflare.com
-- name: None_None_vmess_55
+- name: United States_None_vmess_55
   type: vmess
   server: yh1.freeh1.xyz
   port: 8080
@@ -521,7 +472,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
     headers:
       host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-- name: United States_None_vmess_56
+- name: None_None_vmess_56
   type: vmess
   server: yh1.freeh1.xyz
   port: 8080
@@ -551,7 +502,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
     headers:
       host: pcs-referenced-camera-concerns.trycloudflare.com
-- name: United States_None_vmess_58
+- name: None_None_vmess_58
   type: vmess
   server: yh1.freeh1.xyz
   port: 8080
@@ -596,7 +547,7 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: United States_None_vmess_511
+- name: None_None_vmess_511
   type: vmess
   server: yh2.freeh1.xyz
   port: 8080
@@ -820,13 +771,13 @@ proxies:
   sni: www.bing.com
   skip-cert-verify: true
 - {name: "5,6|台湾|@ripaojiedian", server: tw.lianjianode.cc, port: 21004, type: vmess, uuid: bf5a01c5-c2d8-4ef8-a260-2ec07161cb2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hinet, headers: {Host: hinet.luodi.xyz}}, udp: true}
-- {name: 0|-https://t.me/MrXbin-5, server: 3.0.50.219, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-39, server: 13.250.61.18, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-7, server: 54.254.167.160, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "5,6|香港|@ripaojiedian", server: zf.lalayun.cyou, port: 10163, type: vmess, uuid: b1553abe-6f1f-3288-bfc2-908b2f9fc4fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: hk.lalayunssl.xyz}}, udp: true}
-- {name: 0|-https://t.me/MrXbin-42, server: 54.179.101.194, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-27, server: p229.panda004.net, port: 10218, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 4Sarina-1126, server: 125.141.26.8, port: 10218, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 0|-https://t.me/MrXbin-9, server: 54.169.147.64, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 9|baipaovpn浙江省宁波市, server: 183.249.109.42, port: 21004, type: vmess, uuid: bf5a01c5-c2d8-4ef8-a260-2ec07161cb2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hinet, headers: {Host: hinet.luodi.xyz}}, udp: true}
+- {name: 0|-https://t.me/MrXbin-44, server: 47.128.64.71, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 5|🇸🇬 狮城特殊|@ripaojiedian, server: 13.229.182.149, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-6, server: 13.214.212.171, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国, server: 104.21.7.162, port: 2087, type: vmess, uuid: 520a5f45-d354-42f4-a658-18dbc3754645, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fws, headers: {Host: backend.app-browser.org}}, udp: true}
+- {name: "0,5|🇰🇷 韩国2|@ripaojiedian", server: p236.panda004.net, port: 42839, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -844,13 +795,13 @@ proxy-groups:
     interval: 300
     proxies:
       - 5,6|台湾|@ripaojiedian
-      - 0|-https://t.me/MrXbin-5
-      - 0|-https://t.me/MrXbin-39
-      - 0|-https://t.me/MrXbin-7
-      - 5,6|香港|@ripaojiedian
-      - 0|-https://t.me/MrXbin-42
-      - 0|-https://t.me/MrXbin-27
-      - 4Sarina-1126
+      - 0|-https://t.me/MrXbin-9
+      - 9|baipaovpn浙江省宁波市
+      - 0|-https://t.me/MrXbin-44
+      - 5|🇸🇬 狮城特殊|@ripaojiedian
+      - 0|-https://t.me/MrXbin-6
+      - _US_美国
+      - 0,5|🇰🇷 韩国2|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -864,23 +815,20 @@ proxy-groups:
     interval: 300
     proxies:
       - 5,6|台湾|@ripaojiedian
-      - 0|-https://t.me/MrXbin-5
-      - 0|-https://t.me/MrXbin-39
-      - 0|-https://t.me/MrXbin-7
-      - 5,6|香港|@ripaojiedian
-      - 0|-https://t.me/MrXbin-42
-      - 0|-https://t.me/MrXbin-27
-      - 4Sarina-1126
+      - 0|-https://t.me/MrXbin-9
+      - 9|baipaovpn浙江省宁波市
+      - 0|-https://t.me/MrXbin-44
+      - 5|🇸🇬 狮城特殊|@ripaojiedian
+      - 0|-https://t.me/MrXbin-6
+      - _US_美国
+      - 0,5|🇰🇷 韩国2|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
     url: https://www.youtube.com
     interval: 300
     proxies:
-      - None_None_vmess_01
-      - None_None_vmess_02
-      - None_None_vmess_03
-      - None_None_vmess_04
+      - United States_Los Angeles_hysteria2_01
       - None_None_vmess_11
       - None_None_vmess_12
       - None_None_vmess_13
@@ -890,8 +838,8 @@ proxy-groups:
       - None_None_vmess_23
       - United States_None_vmess_24
       - United States_None_vmess_25
-      - None_None_vmess_26
-      - None_None_vmess_27
+      - United States_None_vmess_26
+      - United States_None_vmess_27
       - United States_None_vmess_28
       - United States_None_vmess_29
       - United States_None_vmess_210
@@ -899,8 +847,8 @@ proxy-groups:
       - United States_None_vmess_212
       - None_None_vmess_31
       - United States_None_vmess_32
-      - United States_None_vmess_33
-      - United States_None_vmess_34
+      - None_None_vmess_33
+      - None_None_vmess_34
       - Canada_Ottawa_vmess_41
       - Canada_Ottawa_vmess_42
       - Canada_Ottawa_vmess_43
@@ -909,13 +857,13 @@ proxy-groups:
       - None_None_vmess_52
       - None_None_vmess_53
       - None_None_vmess_54
-      - None_None_vmess_55
-      - United States_None_vmess_56
+      - United States_None_vmess_55
+      - None_None_vmess_56
       - None_None_vmess_57
-      - United States_None_vmess_58
+      - None_None_vmess_58
       - None_None_vmess_59
       - United States_None_vmess_510
-      - United States_None_vmess_511
+      - None_None_vmess_511
       - United States_None_vmess_512
       - United States_None_vmess_513
       - United States_None_vmess_514
@@ -935,13 +883,13 @@ proxy-groups:
       - France_Paris_hy2_3
 
       - 5,6|台湾|@ripaojiedian
-      - 0|-https://t.me/MrXbin-5
-      - 0|-https://t.me/MrXbin-39
-      - 0|-https://t.me/MrXbin-7
-      - 5,6|香港|@ripaojiedian
-      - 0|-https://t.me/MrXbin-42
-      - 0|-https://t.me/MrXbin-27
-      - 4Sarina-1126
+      - 0|-https://t.me/MrXbin-9
+      - 9|baipaovpn浙江省宁波市
+      - 0|-https://t.me/MrXbin-44
+      - 5|🇸🇬 狮城特殊|@ripaojiedian
+      - 0|-https://t.me/MrXbin-6
+      - _US_美国
+      - 0,5|🇰🇷 韩国2|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
