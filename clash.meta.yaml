@@ -770,13 +770,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: RELAY-27.50.48.15-0108, server: hk.wish.ml, port: 2052, type: vmess, uuid: d396f102-c26b-4f1a-b7bc-f66e5b16bb75, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: in3.wish.ml}}, udp: true}
-- {name: 5|🇭🇰 香港3|@ripaojiedian, server: 120.232.242.117, port: 41492, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-50, server: 13.214.212.171, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-4, server: 47.128.64.71, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Kian-592, server: 8.218.196.35, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-- {name: 4Jadi-572, server: 47.76.185.99, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-- {name: 5|🇭🇰 香港7|@ripaojiedian, server: 120.238.122.243, port: 35601, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: HK-185.244.208.216-3147, server: 185.244.208.216, port: 8080, type: vmess, uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: 0|-https://t.me/MrXbin-146, server: 23.158.56.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
+- {name: RU-45.140.169.83-0092, server: ru01.freeflyingcloud.xyz, port: 30002, type: trojan, password: 36d79047-3e4b-477d-a73a-02785f14bdf6, sni: ru01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -793,13 +790,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - RELAY-27.50.48.15-0108
-      - 5|🇭🇰 香港3|@ripaojiedian
+      - 0|-https://t.me/MrXbin-50
+      - 0|-https://t.me/MrXbin-4
       - 4Kian-592
-      - 4Jadi-572
-      - 5|🇭🇰 香港7|@ripaojiedian
-      - HK-185.244.208.216-3147
-      - 0|-https://t.me/MrXbin-146
+      - RU-45.140.169.83-0092
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -812,13 +806,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - RELAY-27.50.48.15-0108
-      - 5|🇭🇰 香港3|@ripaojiedian
+      - 0|-https://t.me/MrXbin-50
+      - 0|-https://t.me/MrXbin-4
       - 4Kian-592
-      - 4Jadi-572
-      - 5|🇭🇰 香港7|@ripaojiedian
-      - HK-185.244.208.216-3147
-      - 0|-https://t.me/MrXbin-146
+      - RU-45.140.169.83-0092
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -879,13 +870,10 @@ proxy-groups:
       - France_None_hy2_2
       - France_Paris_hy2_3
 
-      - RELAY-27.50.48.15-0108
-      - 5|🇭🇰 香港3|@ripaojiedian
+      - 0|-https://t.me/MrXbin-50
+      - 0|-https://t.me/MrXbin-4
       - 4Kian-592
-      - 4Jadi-572
-      - 5|🇭🇰 香港7|@ripaojiedian
-      - HK-185.244.208.216-3147
-      - 0|-https://t.me/MrXbin-146
+      - RU-45.140.169.83-0092
   - name: 🐟 漏网之鱼
     type: select
     proxies:
