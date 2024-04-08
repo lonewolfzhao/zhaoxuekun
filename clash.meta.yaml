@@ -770,14 +770,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 0|-https://t.me/MrXbin-57, server: 13.250.63.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-165, server: fcdn.flha.ru, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fcdn.flha.ru}}, udp: true}
 - {name: 0|-https://t.me/MrXbin-59, server: 18.142.56.221, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Mohsen-768, server: 13.229.182.149, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 5|🇭🇰 香港3|@ripaojiedian, server: 120.232.242.117, port: 41492, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-5, server: 18.142.225.182, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-165, server: fcdn.flha.ru, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fcdn.flha.ru}}, udp: true}
+- {name: 0|-https://t.me/MrXbin-54, server: 13.250.57.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Jadi-572, server: 47.76.185.99, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-- {name: 0|-https://t.me/MrXbin-45, server: 18.141.207.80, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 10|🇺🇸_US_美国->🇫🇷_FR_法国_2_由快嘴科技提供：k..., server: 104.21.4.14, port: 2086, type: vmess, uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: admin.arzonhost.ir}}, udp: true}
+- {name: 0|-https://t.me/MrXbin-133, server: 203.234.238.145, port: 4005, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 4Jadi-1135, server: 222.112.15.140, port: 58449, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -794,14 +794,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 0|-https://t.me/MrXbin-57
-      - 0|-https://t.me/MrXbin-165
       - 0|-https://t.me/MrXbin-59
-      - 4Mohsen-768
-      - 5|🇭🇰 香港3|@ripaojiedian
+      - 0|-https://t.me/MrXbin-5
+      - 0|-https://t.me/MrXbin-165
+      - 0|-https://t.me/MrXbin-54
       - 4Jadi-572
-      - 0|-https://t.me/MrXbin-45
       - 10|🇺🇸_US_美国->🇫🇷_FR_法国_2_由快嘴科技提供：k...
+      - 0|-https://t.me/MrXbin-133
+      - 4Jadi-1135
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -814,14 +814,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 0|-https://t.me/MrXbin-57
-      - 0|-https://t.me/MrXbin-165
       - 0|-https://t.me/MrXbin-59
-      - 4Mohsen-768
-      - 5|🇭🇰 香港3|@ripaojiedian
+      - 0|-https://t.me/MrXbin-5
+      - 0|-https://t.me/MrXbin-165
+      - 0|-https://t.me/MrXbin-54
       - 4Jadi-572
-      - 0|-https://t.me/MrXbin-45
       - 10|🇺🇸_US_美国->🇫🇷_FR_法国_2_由快嘴科技提供：k...
+      - 0|-https://t.me/MrXbin-133
+      - 4Jadi-1135
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -882,14 +882,14 @@ proxy-groups:
       - France_None_hy2_2
       - France_Paris_hy2_3
 
-      - 0|-https://t.me/MrXbin-57
-      - 0|-https://t.me/MrXbin-165
       - 0|-https://t.me/MrXbin-59
-      - 4Mohsen-768
-      - 5|🇭🇰 香港3|@ripaojiedian
+      - 0|-https://t.me/MrXbin-5
+      - 0|-https://t.me/MrXbin-165
+      - 0|-https://t.me/MrXbin-54
       - 4Jadi-572
-      - 0|-https://t.me/MrXbin-45
       - 10|🇺🇸_US_美国->🇫🇷_FR_法国_2_由快嘴科技提供：k...
+      - 0|-https://t.me/MrXbin-133
+      - 4Jadi-1135
   - name: 🐟 漏网之鱼
     type: select
     proxies:
