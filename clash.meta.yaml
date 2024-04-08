@@ -770,8 +770,6 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 0|-https://t.me/MrXbin-50, server: 13.214.212.171, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-4, server: 47.128.64.71, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Kian-592, server: 8.218.196.35, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
 - {name: RU-45.140.169.83-0092, server: ru01.freeflyingcloud.xyz, port: 30002, type: trojan, password: 36d79047-3e4b-477d-a73a-02785f14bdf6, sni: ru01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
@@ -790,8 +788,6 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 0|-https://t.me/MrXbin-50
-      - 0|-https://t.me/MrXbin-4
       - 4Kian-592
       - RU-45.140.169.83-0092
   - name: 🔰 节点选择
@@ -806,8 +802,6 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 0|-https://t.me/MrXbin-50
-      - 0|-https://t.me/MrXbin-4
       - 4Kian-592
       - RU-45.140.169.83-0092
   - name: ♻️ 可能受限
@@ -870,8 +864,6 @@ proxy-groups:
       - France_None_hy2_2
       - France_Paris_hy2_3
 
-      - 0|-https://t.me/MrXbin-50
-      - 0|-https://t.me/MrXbin-4
       - 4Kian-592
       - RU-45.140.169.83-0092
   - name: 🐟 漏网之鱼
