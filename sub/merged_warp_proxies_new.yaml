@@ -324,24 +324,24 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Los Angeles_hy_3
+- name: United States_Kansas City_hy_3
   type: hysteria
-  server: 167.160.91.115
-  port: 41189
-  ports: 41189
-  auth_str: bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF
+  server: 109.104.152.194
+  port: 25304
+  ports: 47000-48000
+  auth_str: dongtaiwang.com
   up: 1000
   down: 1000
   fast-open: true
   protocol: udp
-  sni: www.amazon.cn
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_None_hy2_0
+- name: United States_Kansas City_hy2_0
   type: hysteria2
-  server: 62.210.103.0
-  port: 22483
+  server: 109.104.152.194
+  port: 20352
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -407,8 +407,8 @@ proxy-groups:
   - United States_Los Angeles_hy_0
   - United States_Los Angeles_hy_1
   - Taiwan_Taipei_hy_2
-  - United States_Los Angeles_hy_3
-  - France_None_hy2_0
+  - United States_Kansas City_hy_3
+  - United States_Kansas City_hy2_0
   - United States_Los Angeles_hy2_1
   - France_None_hy2_2
   - France_Paris_hy2_3
@@ -431,8 +431,8 @@ proxy-groups:
   - United States_Los Angeles_hy_0
   - United States_Los Angeles_hy_1
   - Taiwan_Taipei_hy_2
-  - United States_Los Angeles_hy_3
-  - France_None_hy2_0
+  - United States_Kansas City_hy_3
+  - United States_Kansas City_hy2_0
   - United States_Los Angeles_hy2_1
   - France_None_hy2_2
   - France_Paris_hy2_3
@@ -455,8 +455,8 @@ proxy-groups:
   - United States_Los Angeles_hy_0
   - United States_Los Angeles_hy_1
   - Taiwan_Taipei_hy_2
-  - United States_Los Angeles_hy_3
-  - France_None_hy2_0
+  - United States_Kansas City_hy_3
+  - United States_Kansas City_hy2_0
   - United States_Los Angeles_hy2_1
   - France_None_hy2_2
   - France_Paris_hy2_3
