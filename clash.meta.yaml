@@ -770,15 +770,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: "0,5|🇰🇷 韩国|@ripaojiedian", server: p231.panda004.net, port: 43926, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 0|-https://t.me/MrXbin-4, server: 54.179.101.194, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-190, server: 221.150.109.81, port: 42978, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 0|-https://t.me/MrXbin-28, server: 43.201.110.81, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-20, server: 54.180.156.133, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 5|🇭🇰 香港|@ripaojiedian, server: 183.236.51.59, port: 54437, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "0,5|🇰🇷 韩国特殊|@ripaojiedian", server: 13.231.229.48, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-52, server: p226.panda004.net, port: 58449, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
 - {name: 5|🇭🇰 香港3|@ripaojiedian, server: 120.232.242.117, port: 41492, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 0|-https://t.me/MrXbin-73, server: 43.203.192.6, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-190, server: 221.150.109.81, port: 42978, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 0|-https://t.me/MrXbin-205, server: 222.112.15.140, port: 58449, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 0|-https://t.me/MrXbin-4, server: 54.179.101.194, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 5|🇹🇼 台湾|@ripaojiedian, server: 61.224.87.44, port: 81, type: ss, cipher: aes-128-gcm, password: oiwym4ovI4Yb, udp: true}
+- {name: 5|🇺🇸 美国4|@ripaojiedian, server: us111.5our.top, port: 8080, type: vmess, uuid: 1f9b8d42-6d17-4f54-b901-a5f0b24f0ee7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: us111.5our.top}}, udp: true}
+- {name: 5|🇭🇰 香港7|@ripaojiedian, server: 1.65.197.10, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -795,15 +794,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 0,5|🇰🇷 韩国|@ripaojiedian
-      - 0|-https://t.me/MrXbin-4
-      - 0|-https://t.me/MrXbin-190
-      - 0|-https://t.me/MrXbin-28
-      - 0|-https://t.me/MrXbin-20
-      - 5|🇭🇰 香港|@ripaojiedian
-      - 0,5|🇰🇷 韩国特殊|@ripaojiedian
+      - 0|-https://t.me/MrXbin-52
       - 5|🇭🇰 香港3|@ripaojiedian
-      - 0|-https://t.me/MrXbin-73
+      - 0|-https://t.me/MrXbin-190
+      - 0|-https://t.me/MrXbin-205
+      - 0|-https://t.me/MrXbin-4
+      - 5|🇹🇼 台湾|@ripaojiedian
+      - 5|🇺🇸 美国4|@ripaojiedian
+      - 5|🇭🇰 香港7|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -816,15 +814,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 0,5|🇰🇷 韩国|@ripaojiedian
-      - 0|-https://t.me/MrXbin-4
-      - 0|-https://t.me/MrXbin-190
-      - 0|-https://t.me/MrXbin-28
-      - 0|-https://t.me/MrXbin-20
-      - 5|🇭🇰 香港|@ripaojiedian
-      - 0,5|🇰🇷 韩国特殊|@ripaojiedian
+      - 0|-https://t.me/MrXbin-52
       - 5|🇭🇰 香港3|@ripaojiedian
-      - 0|-https://t.me/MrXbin-73
+      - 0|-https://t.me/MrXbin-190
+      - 0|-https://t.me/MrXbin-205
+      - 0|-https://t.me/MrXbin-4
+      - 5|🇹🇼 台湾|@ripaojiedian
+      - 5|🇺🇸 美国4|@ripaojiedian
+      - 5|🇭🇰 香港7|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -885,15 +882,14 @@ proxy-groups:
       - France_None_hy2_2
       - France_Paris_hy2_3
 
-      - 0,5|🇰🇷 韩国|@ripaojiedian
-      - 0|-https://t.me/MrXbin-4
-      - 0|-https://t.me/MrXbin-190
-      - 0|-https://t.me/MrXbin-28
-      - 0|-https://t.me/MrXbin-20
-      - 5|🇭🇰 香港|@ripaojiedian
-      - 0,5|🇰🇷 韩国特殊|@ripaojiedian
+      - 0|-https://t.me/MrXbin-52
       - 5|🇭🇰 香港3|@ripaojiedian
-      - 0|-https://t.me/MrXbin-73
+      - 0|-https://t.me/MrXbin-190
+      - 0|-https://t.me/MrXbin-205
+      - 0|-https://t.me/MrXbin-4
+      - 5|🇹🇼 台湾|@ripaojiedian
+      - 5|🇺🇸 美国4|@ripaojiedian
+      - 5|🇭🇰 香港7|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
