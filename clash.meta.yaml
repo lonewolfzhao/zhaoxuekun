@@ -326,14 +326,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 5|🇰🇷 韩国3|@ripaojiedian, server: kr-seoul-oracle-b0566e.ip1.shop, port: 55210, type: vmess, uuid: 03b4cf2f-ee21-40f4-9df5-24146f88be7a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /huaxia, headers: {Host: kr-seoul-oracle-b0566e.ip1.shop}}, udp: true}
-- {name: 4FreeIran-1186, server: uhisfgy78eu.cfprefer1.xyz, port: 10019, type: ss, cipher: aes-256-gcm, password: 3ce72168-730e-4020-baf8-620ee14634ac, udp: true}
-- {name: 8|KR_speednode_0072, server: kr01.freeflyingcloud.xyz, port: 24852, type: trojan, password: 87b1b7c2-317c-41c3-a490-2cbf47a68200, sni: kr01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
-- {name: "0,5|🇰🇷 韩国2|@ripaojiedian", server: p221.panda001.net, port: 49032, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 4FreeIran-552, server: 78.153.149.211, port: 2096, type: ss, cipher: aes-128-gcm, password: Channel:@ZEDMODEON, udp: true}
-- {name: 10|🇺🇸_US_美国->🇫🇷_FR_法国_2_由快嘴科技提供：k..., server: admin.arzonhost.ir, port: 2086, type: vmess, uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: admin.arzonhost.ir}}, udp: true}
-- {name: 5|🇭🇰 香港|@ripaojiedian, server: 183.236.51.59, port: 54437, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-136, server: uhisfgy78eu.cfprefer1.xyz, port: 10022, type: ss, cipher: aes-256-gcm, password: 3ce72168-730e-4020-baf8-620ee14634ac, udp: true}
+- {name: 0|-https://t.me/MrXbin-34, server: 13.250.63.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-43, server: 43.201.69.200, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-161, server: 203.234.238.145, port: 4005, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 0|-https://t.me/MrXbin-30, server: p229.panda004.net, port: 10218, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
 - {name: 4FreeIran-580, server: 8.218.196.35, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+- {name: 5|🇭🇰 香港|@ripaojiedian, server: 183.236.51.59, port: 54437, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 9|baipaovpn美国, server: 172.64.104.182, port: 80, type: vmess, uuid: f0f067fe-8e6d-4d95-816b-601038fd5876, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/rongseven?ed=2048", headers: {Host: fr.grpc.gay}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -350,14 +350,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5|🇰🇷 韩国3|@ripaojiedian
-      - 4FreeIran-1186
-      - 8|KR_speednode_0072
-      - 0,5|🇰🇷 韩国2|@ripaojiedian
-      - 4FreeIran-552
-      - 10|🇺🇸_US_美国->🇫🇷_FR_法国_2_由快嘴科技提供：k...
-      - 5|🇭🇰 香港|@ripaojiedian
+      - 0|-https://t.me/MrXbin-136
+      - 0|-https://t.me/MrXbin-34
+      - 0|-https://t.me/MrXbin-43
+      - 0|-https://t.me/MrXbin-161
+      - 0|-https://t.me/MrXbin-30
       - 4FreeIran-580
+      - 5|🇭🇰 香港|@ripaojiedian
+      - 9|baipaovpn美国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -370,14 +370,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5|🇰🇷 韩国3|@ripaojiedian
-      - 4FreeIran-1186
-      - 8|KR_speednode_0072
-      - 0,5|🇰🇷 韩国2|@ripaojiedian
-      - 4FreeIran-552
-      - 10|🇺🇸_US_美国->🇫🇷_FR_法国_2_由快嘴科技提供：k...
-      - 5|🇭🇰 香港|@ripaojiedian
+      - 0|-https://t.me/MrXbin-136
+      - 0|-https://t.me/MrXbin-34
+      - 0|-https://t.me/MrXbin-43
+      - 0|-https://t.me/MrXbin-161
+      - 0|-https://t.me/MrXbin-30
       - 4FreeIran-580
+      - 5|🇭🇰 香港|@ripaojiedian
+      - 9|baipaovpn美国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -406,14 +406,14 @@ proxy-groups:
       - France_None_hy2_2
       - France_Paris_hy2_3
 
-      - 5|🇰🇷 韩国3|@ripaojiedian
-      - 4FreeIran-1186
-      - 8|KR_speednode_0072
-      - 0,5|🇰🇷 韩国2|@ripaojiedian
-      - 4FreeIran-552
-      - 10|🇺🇸_US_美国->🇫🇷_FR_法国_2_由快嘴科技提供：k...
-      - 5|🇭🇰 香港|@ripaojiedian
+      - 0|-https://t.me/MrXbin-136
+      - 0|-https://t.me/MrXbin-34
+      - 0|-https://t.me/MrXbin-43
+      - 0|-https://t.me/MrXbin-161
+      - 0|-https://t.me/MrXbin-30
       - 4FreeIran-580
+      - 5|🇭🇰 香港|@ripaojiedian
+      - 9|baipaovpn美国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
