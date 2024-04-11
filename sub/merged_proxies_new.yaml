@@ -278,11 +278,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Los Angeles_hy_1
+- name: France_None_hy_1
   type: hysteria
-  server: 173.234.25.52
-  port: 48919
-  ports: 48919
+  server: 62.210.243.131
+  port: 18702
+  ports: 18702
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -309,8 +309,8 @@ proxies:
 - name: United States_Kansas City_hy_3
   type: hysteria
   server: 109.104.152.194
-  port: 25304
-  ports: 47000-48000
+  port: 58510
+  ports: 58510
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -372,7 +372,7 @@ proxy-groups:
   - United States_Kansas City_vless_81
   - United States_Kansas City_ss_91
   - United States_Los Angeles_hy_0
-  - United States_Los Angeles_hy_1
+  - France_None_hy_1
   - Taiwan_Taipei_hy_2
   - United States_Kansas City_hy_3
   - United States_Kansas City_hy2_0
@@ -399,7 +399,7 @@ proxy-groups:
   - United States_Kansas City_vless_81
   - United States_Kansas City_ss_91
   - United States_Los Angeles_hy_0
-  - United States_Los Angeles_hy_1
+  - France_None_hy_1
   - Taiwan_Taipei_hy_2
   - United States_Kansas City_hy_3
   - United States_Kansas City_hy2_0
