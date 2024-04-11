@@ -67,9 +67,9 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
     headers:
       host: hang-broke-john-neither.trycloudflare.com
-- name: France_Paris_vmess_13
+- name: United States_None_vmess_13
   type: vmess
-  server: yh4.dtku41.xyz
+  server: yh7.dtku41.xyz
   port: 8080
   cipher: auto
   uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
@@ -292,11 +292,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Taiwan_Taipei_hy_2
+- name: France_None_hy_2
   type: hysteria
-  server: www.dtku40.xyz
-  port: 18490
-  ports: 18490
+  server: 62.210.243.131
+  port: 18702
+  ports: 18702
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -320,10 +320,10 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Kansas City_hy2_0
+- name: United States_Los Angeles_hy2_0
   type: hysteria2
-  server: 109.104.152.194
-  port: 20352
+  server: 104.192.224.141
+  port: 40391
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -336,18 +336,18 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: France_None_hy2_2
+- name: United States_Los Angeles_hy2_2
   type: hysteria2
-  server: 62.210.103.0
-  port: 22483
+  server: 104.192.224.141
+  port: 40391
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: France_Paris_hy2_3
+- name: United States_Los Angeles_hy2_3
   type: hysteria2
-  server: 51.159.77.198
-  port: 53967
+  server: 104.192.224.141
+  port: 40391
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -361,7 +361,7 @@ proxy-groups:
   - United States_Los Angeles_hysteria2_01
   - None_None_vmess_11
   - None_None_vmess_12
-  - France_Paris_vmess_13
+  - United States_None_vmess_13
   - None_None_vmess_14
   - United States_Kansas City_vless_21
   - United States_Kansas City_vless_31
@@ -373,12 +373,12 @@ proxy-groups:
   - United States_Kansas City_ss_91
   - United States_Los Angeles_hy_0
   - France_None_hy_1
-  - Taiwan_Taipei_hy_2
+  - France_None_hy_2
   - United States_Kansas City_hy_3
-  - United States_Kansas City_hy2_0
+  - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
-  - France_None_hy2_2
-  - France_Paris_hy2_3
+  - United States_Los Angeles_hy2_2
+  - United States_Los Angeles_hy2_3
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -388,7 +388,7 @@ proxy-groups:
   - United States_Los Angeles_hysteria2_01
   - None_None_vmess_11
   - None_None_vmess_12
-  - France_Paris_vmess_13
+  - United States_None_vmess_13
   - None_None_vmess_14
   - United States_Kansas City_vless_21
   - United States_Kansas City_vless_31
@@ -400,12 +400,12 @@ proxy-groups:
   - United States_Kansas City_ss_91
   - United States_Los Angeles_hy_0
   - France_None_hy_1
-  - Taiwan_Taipei_hy_2
+  - France_None_hy_2
   - United States_Kansas City_hy_3
-  - United States_Kansas City_hy2_0
+  - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
-  - France_None_hy2_2
-  - France_Paris_hy2_3
+  - United States_Los Angeles_hy2_2
+  - United States_Los Angeles_hy2_3
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
