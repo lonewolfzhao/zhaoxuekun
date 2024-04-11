@@ -67,7 +67,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
     headers:
       host: hang-broke-john-neither.trycloudflare.com
-- name: None_None_vmess_13
+- name: France_Paris_vmess_13
   type: vmess
   server: yh4.dtku41.xyz
   port: 8080
@@ -278,11 +278,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Los Angeles_hy_1
+- name: France_None_hy_1
   type: hysteria
-  server: 173.234.25.52
-  port: 48919
-  ports: 48919
+  server: 62.210.243.131
+  port: 18702
+  ports: 18702
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -309,8 +309,8 @@ proxies:
 - name: United States_Kansas City_hy_3
   type: hysteria
   server: 109.104.152.194
-  port: 25304
-  ports: 47000-48000
+  port: 58510
+  ports: 58510
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -352,14 +352,12 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 5|🇭🇰 香港4|@ripaojiedian, server: xctransfer1st.cokecloud.top, port: 45861, type: vmess, uuid: 8a082903-6e40-4307-b73b-d0d26791c771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "0,8|KR_speednode_0136", server: kr01.freeflyingcloud.xyz, port: 24852, type: trojan, password: 0c682abc-cb45-47cc-881b-40dafeff2403, sni: kr01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
-- {name: 0|-https://t.me/MrXbin-199, server: 23.27.103.76, port: 44214, type: ss, cipher: aes-256-gcm, password: fade2b35-7872-442e-a54e-6ccf9b970476, udp: true}
-- {name: 0|-https://t.me/MrXbin-98, server: 4.namesilo123.top, port: 80, type: vmess, uuid: 4d68da82-e8d0-4eaa-aec9-0df4a23e1a04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: de.sanfen002.top}}, udp: true}
-- {name: 0|-https://t.me/MrXbin-104, server: 156.225.67.240, port: 41000, type: vmess, uuid: 9c026efe-6af0-465f-b8c0-3f58c8c2d4c5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/180820033318}, udp: true}
-- {name: 0|-https://t.me/MrXbin-22, server: 13.250.61.18, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-13, server: 54.169.147.64, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-19, server: 47.128.64.71, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-101, server: 1.namesilo123.top, port: 80, type: vmess, uuid: 4d68da82-e8d0-4eaa-aec9-0df4a23e1a04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: de.sanfen002.top}}, udp: true}
+- {name: 0|-https://t.me/MrXbin-166, server: 1.36.223.86, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, udp: true}
 - {name: 4Kian-587, server: 8.218.196.35, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+- {name: 0|-https://t.me/MrXbin-172, server: 167.88.61.159, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+- {name: 0|-https://t.me/MrXbin-145, server: 158.51.121.36, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -376,14 +374,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5|🇭🇰 香港4|@ripaojiedian
-      - 0,8|KR_speednode_0136
-      - 0|-https://t.me/MrXbin-199
-      - 0|-https://t.me/MrXbin-98
-      - 0|-https://t.me/MrXbin-104
-      - 0|-https://t.me/MrXbin-22
-      - 0|-https://t.me/MrXbin-13
+      - 0|-https://t.me/MrXbin-19
+      - 0|-https://t.me/MrXbin-101
+      - 0|-https://t.me/MrXbin-166
       - 4Kian-587
+      - 0|-https://t.me/MrXbin-172
+      - 0|-https://t.me/MrXbin-145
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -396,14 +392,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5|🇭🇰 香港4|@ripaojiedian
-      - 0,8|KR_speednode_0136
-      - 0|-https://t.me/MrXbin-199
-      - 0|-https://t.me/MrXbin-98
-      - 0|-https://t.me/MrXbin-104
-      - 0|-https://t.me/MrXbin-22
-      - 0|-https://t.me/MrXbin-13
+      - 0|-https://t.me/MrXbin-19
+      - 0|-https://t.me/MrXbin-101
+      - 0|-https://t.me/MrXbin-166
       - 4Kian-587
+      - 0|-https://t.me/MrXbin-172
+      - 0|-https://t.me/MrXbin-145
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -413,7 +407,7 @@ proxy-groups:
       - United States_Los Angeles_hysteria2_01
       - None_None_vmess_11
       - None_None_vmess_12
-      - None_None_vmess_13
+      - France_Paris_vmess_13
       - None_None_vmess_14
       - United States_Kansas City_vless_21
       - United States_Kansas City_vless_31
@@ -424,7 +418,7 @@ proxy-groups:
       - United States_Kansas City_vless_81
       - United States_Kansas City_ss_91
       - United States_Los Angeles_hy_0
-      - United States_Los Angeles_hy_1
+      - France_None_hy_1
       - Taiwan_Taipei_hy_2
       - United States_Kansas City_hy_3
       - United States_Kansas City_hy2_0
@@ -432,14 +426,12 @@ proxy-groups:
       - France_None_hy2_2
       - France_Paris_hy2_3
 
-      - 5|🇭🇰 香港4|@ripaojiedian
-      - 0,8|KR_speednode_0136
-      - 0|-https://t.me/MrXbin-199
-      - 0|-https://t.me/MrXbin-98
-      - 0|-https://t.me/MrXbin-104
-      - 0|-https://t.me/MrXbin-22
-      - 0|-https://t.me/MrXbin-13
+      - 0|-https://t.me/MrXbin-19
+      - 0|-https://t.me/MrXbin-101
+      - 0|-https://t.me/MrXbin-166
       - 4Kian-587
+      - 0|-https://t.me/MrXbin-172
+      - 0|-https://t.me/MrXbin-145
   - name: 🐟 漏网之鱼
     type: select
     proxies:
