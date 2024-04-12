@@ -67,9 +67,9 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
     headers:
       host: hang-broke-john-neither.trycloudflare.com
-- name: France_Paris_vmess_13
+- name: United States_None_vmess_13
   type: vmess
-  server: yh4.dtku41.xyz
+  server: yh7.dtku41.xyz
   port: 8080
   cipher: auto
   uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
@@ -292,11 +292,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Taiwan_Taipei_hy_2
+- name: France_None_hy_2
   type: hysteria
-  server: www.dtku40.xyz
-  port: 18490
-  ports: 18490
+  server: 62.210.243.131
+  port: 18702
+  ports: 18702
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -320,10 +320,10 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Kansas City_hy2_0
+- name: United States_Los Angeles_hy2_0
   type: hysteria2
-  server: 109.104.152.194
-  port: 20352
+  server: 104.192.224.141
+  port: 40391
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -336,28 +336,30 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: France_None_hy2_2
+- name: United States_Los Angeles_hy2_2
   type: hysteria2
-  server: 62.210.103.0
-  port: 22483
+  server: 104.192.224.141
+  port: 40391
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: France_Paris_hy2_3
+- name: United States_Los Angeles_hy2_3
   type: hysteria2
-  server: 51.159.77.198
-  port: 53967
+  server: 104.192.224.141
+  port: 40391
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 0|-https://t.me/MrXbin-19, server: 47.128.64.71, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-101, server: 1.namesilo123.top, port: 80, type: vmess, uuid: 4d68da82-e8d0-4eaa-aec9-0df4a23e1a04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: de.sanfen002.top}}, udp: true}
-- {name: 0|-https://t.me/MrXbin-166, server: 1.36.223.86, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, udp: true}
-- {name: 4Kian-587, server: 8.218.196.35, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-- {name: 0|-https://t.me/MrXbin-172, server: 167.88.61.159, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-- {name: 0|-https://t.me/MrXbin-145, server: 158.51.121.36, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
+- {name: 0|-https://t.me/MrXbin-38, server: 54.248.173.222, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-27, server: 13.250.57.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-12, server: 43.201.69.200, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-35, server: 43.203.201.192, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Kian-880, server: 43.201.34.246, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Kian-900, server: 43.203.220.68, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-8, server: 43.203.233.33, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-28, server: 43.202.41.139, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -374,12 +376,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 0|-https://t.me/MrXbin-19
-      - 0|-https://t.me/MrXbin-101
-      - 0|-https://t.me/MrXbin-166
-      - 4Kian-587
-      - 0|-https://t.me/MrXbin-172
-      - 0|-https://t.me/MrXbin-145
+      - 0|-https://t.me/MrXbin-38
+      - 0|-https://t.me/MrXbin-27
+      - 0|-https://t.me/MrXbin-12
+      - 0|-https://t.me/MrXbin-35
+      - 4Kian-880
+      - 4Kian-900
+      - 0|-https://t.me/MrXbin-8
+      - 0|-https://t.me/MrXbin-28
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -392,12 +396,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 0|-https://t.me/MrXbin-19
-      - 0|-https://t.me/MrXbin-101
-      - 0|-https://t.me/MrXbin-166
-      - 4Kian-587
-      - 0|-https://t.me/MrXbin-172
-      - 0|-https://t.me/MrXbin-145
+      - 0|-https://t.me/MrXbin-38
+      - 0|-https://t.me/MrXbin-27
+      - 0|-https://t.me/MrXbin-12
+      - 0|-https://t.me/MrXbin-35
+      - 4Kian-880
+      - 4Kian-900
+      - 0|-https://t.me/MrXbin-8
+      - 0|-https://t.me/MrXbin-28
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -407,7 +413,7 @@ proxy-groups:
       - United States_Los Angeles_hysteria2_01
       - None_None_vmess_11
       - None_None_vmess_12
-      - France_Paris_vmess_13
+      - United States_None_vmess_13
       - None_None_vmess_14
       - United States_Kansas City_vless_21
       - United States_Kansas City_vless_31
@@ -419,19 +425,21 @@ proxy-groups:
       - United States_Kansas City_ss_91
       - United States_Los Angeles_hy_0
       - France_None_hy_1
-      - Taiwan_Taipei_hy_2
+      - France_None_hy_2
       - United States_Kansas City_hy_3
-      - United States_Kansas City_hy2_0
+      - United States_Los Angeles_hy2_0
       - United States_Los Angeles_hy2_1
-      - France_None_hy2_2
-      - France_Paris_hy2_3
+      - United States_Los Angeles_hy2_2
+      - United States_Los Angeles_hy2_3
 
-      - 0|-https://t.me/MrXbin-19
-      - 0|-https://t.me/MrXbin-101
-      - 0|-https://t.me/MrXbin-166
-      - 4Kian-587
-      - 0|-https://t.me/MrXbin-172
-      - 0|-https://t.me/MrXbin-145
+      - 0|-https://t.me/MrXbin-38
+      - 0|-https://t.me/MrXbin-27
+      - 0|-https://t.me/MrXbin-12
+      - 0|-https://t.me/MrXbin-35
+      - 4Kian-880
+      - 4Kian-900
+      - 0|-https://t.me/MrXbin-8
+      - 0|-https://t.me/MrXbin-28
   - name: 🐟 漏网之鱼
     type: select
     proxies:
