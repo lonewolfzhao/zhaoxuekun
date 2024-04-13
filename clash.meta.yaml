@@ -353,13 +353,13 @@ proxies:
   sni: www.bing.com
   skip-cert-verify: true
 - {name: 4Sarina-921, server: 54.169.147.64, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 10|🇺🇸_US_美国->🇬🇧_GB_英国_2_由快嘴科技提供：k..., server: cdn.vds-server.ir, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cdn.vds-server.ir}}, udp: true}
-- {name: _GB_英国, server: uk01.freeflyingcloud.xyz, port: 22252, type: trojan, password: 25706894-07da-45cc-a119-6faa8e9cdd7b, sni: uk01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
-- {name: 9|baipaovpn浙江省, server: 112.16.228.112, port: 41999, type: vmess, uuid: 22212159-1be2-4c81-afbb-6203b6a51739, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4FreeIran-423, server: 193.29.139.248, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: a8bt9fY0QsLS6eLnXUe0Ym, udp: true}
+- {name: 4Kian-921, server: 47.128.64.71, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Jadi-584, server: 47.76.185.99, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-- {name: 5|🇭🇰 香港2|@ripaojiedian, server: 183.237.20.158, port: 41242, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 5|🇬🇧 英国2|@ripaojiedian, server: 7569erzy.of08zo0-et55lpt-uk01.my777999.top, port: 41999, type: vmess, uuid: 22212159-1be2-4c81-afbb-6203b6a51739, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 5|🇰🇷 韩国特殊|@ripaojiedian, server: 35.72.6.189, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-19, server: 13.250.63.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Kian-1234, server: 221.150.109.19, port: 42839, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 0|-https://t.me/MrXbin-65, server: 103.172.116.79, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+- {name: "0,5|🇺🇸 美国6|@ripaojiedian", server: 167.88.61.159, port: 5499, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -377,13 +377,13 @@ proxy-groups:
     interval: 300
     proxies:
       - 4Sarina-921
-      - 10|🇺🇸_US_美国->🇬🇧_GB_英国_2_由快嘴科技提供：k...
-      - _GB_英国
-      - 9|baipaovpn浙江省
-      - 4FreeIran-423
+      - 4Kian-921
       - 4Jadi-584
-      - 5|🇭🇰 香港2|@ripaojiedian
-      - 5|🇬🇧 英国2|@ripaojiedian
+      - 5|🇰🇷 韩国特殊|@ripaojiedian
+      - 0|-https://t.me/MrXbin-19
+      - 4Kian-1234
+      - 0|-https://t.me/MrXbin-65
+      - 0,5|🇺🇸 美国6|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -397,13 +397,13 @@ proxy-groups:
     interval: 300
     proxies:
       - 4Sarina-921
-      - 10|🇺🇸_US_美国->🇬🇧_GB_英国_2_由快嘴科技提供：k...
-      - _GB_英国
-      - 9|baipaovpn浙江省
-      - 4FreeIran-423
+      - 4Kian-921
       - 4Jadi-584
-      - 5|🇭🇰 香港2|@ripaojiedian
-      - 5|🇬🇧 英国2|@ripaojiedian
+      - 5|🇰🇷 韩国特殊|@ripaojiedian
+      - 0|-https://t.me/MrXbin-19
+      - 4Kian-1234
+      - 0|-https://t.me/MrXbin-65
+      - 0,5|🇺🇸 美国6|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -433,13 +433,13 @@ proxy-groups:
       - United States_Los Angeles_hy2_3
 
       - 4Sarina-921
-      - 10|🇺🇸_US_美国->🇬🇧_GB_英国_2_由快嘴科技提供：k...
-      - _GB_英国
-      - 9|baipaovpn浙江省
-      - 4FreeIran-423
+      - 4Kian-921
       - 4Jadi-584
-      - 5|🇭🇰 香港2|@ripaojiedian
-      - 5|🇬🇧 英国2|@ripaojiedian
+      - 5|🇰🇷 韩国特殊|@ripaojiedian
+      - 0|-https://t.me/MrXbin-19
+      - 4Kian-1234
+      - 0|-https://t.me/MrXbin-65
+      - 0,5|🇺🇸 美国6|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
