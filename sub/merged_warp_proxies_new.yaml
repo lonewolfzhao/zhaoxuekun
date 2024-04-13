@@ -55,66 +55,6 @@ proxies:
   skip-cert-verify: true
   up: 5 Mbps
   down: 20 Mbps
-- name: None_None_vmess_11
-  type: vmess
-  server: 104.19.58.60
-  port: 8080
-  cipher: auto
-  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: concentrations-taxi-about-recognised.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
-    headers:
-      host: concentrations-taxi-about-recognised.trycloudflare.com
-- name: None_None_vmess_12
-  type: vmess
-  server: yh1.dtku41.xyz
-  port: 8080
-  cipher: auto
-  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: hang-broke-john-neither.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
-    headers:
-      host: hang-broke-john-neither.trycloudflare.com
-- name: United States_None_vmess_13
-  type: vmess
-  server: yh7.dtku41.xyz
-  port: 8080
-  cipher: auto
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: booty-pensions-scheduling-blogging.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
-    headers:
-      host: booty-pensions-scheduling-blogging.trycloudflare.com
-- name: None_None_vmess_14
-  type: vmess
-  server: 104.20.26.40
-  port: 8080
-  cipher: auto
-  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: fantastic-doe-bids-ended.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
-    headers:
-      host: fantastic-doe-bids-ended.trycloudflare.com
 - name: United States_Kansas City_vless_21
   type: vless
   server: 109.104.152.101
@@ -392,10 +332,6 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_Los Angeles_hysteria2_01
-  - None_None_vmess_11
-  - None_None_vmess_12
-  - United States_None_vmess_13
-  - None_None_vmess_14
   - United States_Kansas City_vless_21
   - United States_Kansas City_vless_31
   - United States_Kansas City_vless_41
@@ -416,10 +352,6 @@ proxy-groups:
   type: select
   proxies:
   - United States_Los Angeles_hysteria2_01
-  - None_None_vmess_11
-  - None_None_vmess_12
-  - United States_None_vmess_13
-  - None_None_vmess_14
   - United States_Kansas City_vless_21
   - United States_Kansas City_vless_31
   - United States_Kansas City_vless_41
@@ -440,10 +372,6 @@ proxy-groups:
   type: load-balance
   proxies:
   - United States_Los Angeles_hysteria2_01
-  - None_None_vmess_11
-  - None_None_vmess_12
-  - United States_None_vmess_13
-  - None_None_vmess_14
   - United States_Kansas City_vless_21
   - United States_Kansas City_vless_31
   - United States_Kansas City_vless_41
