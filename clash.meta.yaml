@@ -292,14 +292,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: China_None_vmess_1189, server: 183.240.179.207, port: 30055, type: vmess, uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-81, server: 13.250.57.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: China_Guangzhou_ssr_1190, server: 120.232.240.1, port: 11428, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 24:SpYUtPeJYhRk4FWC, obfs-param: 6f41b24.microsoft.com, udp: true}
-- {name: China_None_vmess_1197, server: 183.232.170.21, port: 30063, type: vmess, uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: Singapore_Singapore_ssr_1153, server: 103.172.116.79, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-- {name: South Korea_Songpa-gu_ss_1125, server: p231.panda004.net, port: 43926, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 0|-https://t.me/MrXbin-23, server: 54.179.101.194, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: None_None_vmess_10102, server: 104.21.4.14, port: 2086, type: vmess, uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mizban.arzonhost.ir}}, udp: true}
+- {name: 0|-https://t.me/MrXbin-49, server: 13.250.63.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 5|🇰🇷 韩国2|@ripaojiedian, server: kor.lzzccc.com, port: 23827, type: ss, cipher: chacha20-ietf-poly1305, password: 61bb91b2-beaa-49ed-a0ae-53b22a96eb91, udp: true}
+- {name: 0|-https://t.me/MrXbin-41, server: p230.panda004.net, port: 42978, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: China_None_vmess_1183, server: 183.236.51.59, port: 54437, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 4Sarina-1255, server: 221.150.109.88, port: 51472, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 4Sarina-2642, server: 38.110.1.105, port: 5498, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -316,14 +316,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - China_None_vmess_1189
+      - 0|-https://t.me/MrXbin-81
       - China_Guangzhou_ssr_1190
-      - China_None_vmess_1197
-      - Singapore_Singapore_ssr_1153
-      - South Korea_Songpa-gu_ss_1125
-      - 0|-https://t.me/MrXbin-23
-      - None_None_vmess_10102
+      - 0|-https://t.me/MrXbin-49
+      - 5|🇰🇷 韩国2|@ripaojiedian
+      - 0|-https://t.me/MrXbin-41
+      - China_None_vmess_1183
       - 4Sarina-1255
+      - 4Sarina-2642
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -336,14 +336,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - China_None_vmess_1189
+      - 0|-https://t.me/MrXbin-81
       - China_Guangzhou_ssr_1190
-      - China_None_vmess_1197
-      - Singapore_Singapore_ssr_1153
-      - South Korea_Songpa-gu_ss_1125
-      - 0|-https://t.me/MrXbin-23
-      - None_None_vmess_10102
+      - 0|-https://t.me/MrXbin-49
+      - 5|🇰🇷 韩国2|@ripaojiedian
+      - 0|-https://t.me/MrXbin-41
+      - China_None_vmess_1183
       - 4Sarina-1255
+      - 4Sarina-2642
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -368,14 +368,14 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - China_None_vmess_1189
+      - 0|-https://t.me/MrXbin-81
       - China_Guangzhou_ssr_1190
-      - China_None_vmess_1197
-      - Singapore_Singapore_ssr_1153
-      - South Korea_Songpa-gu_ss_1125
-      - 0|-https://t.me/MrXbin-23
-      - None_None_vmess_10102
+      - 0|-https://t.me/MrXbin-49
+      - 5|🇰🇷 韩国2|@ripaojiedian
+      - 0|-https://t.me/MrXbin-41
+      - China_None_vmess_1183
       - 4Sarina-1255
+      - 4Sarina-2642
   - name: 🐟 漏网之鱼
     type: select
     proxies:
