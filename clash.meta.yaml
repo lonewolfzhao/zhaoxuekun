@@ -294,11 +294,6 @@ proxies:
   skip-cert-verify: true
 - {name: 5|🇭🇰 香港4|@ripaojiedian, server: 120.232.240.1, port: 11421, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 24:SpYUtPeJYhRk4FWC, obfs-param: 6f41b24.microsoft.com, udp: true}
 - {name: 5|🇯🇵 日本|@ripaojiedian, server: 183.240.220.84, port: 11842, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 24:SpYUtPeJYhRk4FWC, obfs-param: 6f41b24.microsoft.com, udp: true}
-- {name: 5|🇭🇰 香港5|@ripaojiedian, server: gz.quanstring.top, port: 24105, type: ss, cipher: chacha20-ietf-poly1305, password: 3bbdad44-9575-4044-8717-98ede6309161, udp: true}
-- {name: 5|🇹🇼 台湾|@ripaojiedian, server: 183.232.170.21, port: 30059, type: vmess, uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: _US_美国, server: c1.v2raybrasil.cloud, port: 2082, type: vmess, uuid: 009d320a-5960-49e6-99c3-301966ff6fea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bbh.redbullplus.xyz}}, udp: true}
-- {name: 0|-https://t.me/MrXbin-131, server: mizban.arzonhost.ir, port: 2086, type: vmess, uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mizban.arzonhost.ir}}, udp: true}
-- {name: 5|🇭🇰 香港2|@ripaojiedian, server: 183.237.20.158, port: 41242, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -317,11 +312,6 @@ proxy-groups:
     proxies:
       - 5|🇭🇰 香港4|@ripaojiedian
       - 5|🇯🇵 日本|@ripaojiedian
-      - 5|🇭🇰 香港5|@ripaojiedian
-      - 5|🇹🇼 台湾|@ripaojiedian
-      - _US_美国
-      - 0|-https://t.me/MrXbin-131
-      - 5|🇭🇰 香港2|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -336,11 +326,6 @@ proxy-groups:
     proxies:
       - 5|🇭🇰 香港4|@ripaojiedian
       - 5|🇯🇵 日本|@ripaojiedian
-      - 5|🇭🇰 香港5|@ripaojiedian
-      - 5|🇹🇼 台湾|@ripaojiedian
-      - _US_美国
-      - 0|-https://t.me/MrXbin-131
-      - 5|🇭🇰 香港2|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -367,11 +352,6 @@ proxy-groups:
 
       - 5|🇭🇰 香港4|@ripaojiedian
       - 5|🇯🇵 日本|@ripaojiedian
-      - 5|🇭🇰 香港5|@ripaojiedian
-      - 5|🇹🇼 台湾|@ripaojiedian
-      - _US_美国
-      - 0|-https://t.me/MrXbin-131
-      - 5|🇭🇰 香港2|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
