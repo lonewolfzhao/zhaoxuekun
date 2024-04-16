@@ -292,14 +292,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: China_Guangzhou_ssr_1190, server: 120.232.240.1, port: 11428, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 24:SpYUtPeJYhRk4FWC, obfs-param: 6f41b24.microsoft.com, udp: true}
-- {name: "5,6|新加坡|@ripaojiedian", server: sg.lianjianode.cc, port: 21021, type: vmess, uuid: e472a610-a7de-4fce-befc-5c11c31a9246, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /singapore, headers: {Host: sg1.luodi.xyz}}, udp: true}
-- {name: 11|广东省汕头市 移动, server: 183.240.179.207, port: 30112, type: vmess, uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 16|台湾|@ripaojiedian, server: 183.232.170.21, port: 30059, type: vmess, uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 15|🇭🇰 香港4|@ripaojiedian, server: 120.232.240.1, port: 11421, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 24:SpYUtPeJYhRk4FWC, obfs-param: 6f41b24.microsoft.com, udp: true}
+- {name: 0|-https://t.me/MrXbin-144, server: kr01.freeflyingcloud.xyz, port: 24852, type: trojan, password: 4f811851-23b7-408d-8c25-5e49db8ea7ec, sni: kr01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
+- {name: 5|🇹🇼 台湾|@ripaojiedian, server: 183.232.170.21, port: 30059, type: vmess, uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 16|美国|@ripaojiedian, server: 183.240.179.207, port: 30058, type: vmess, uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 0|-https://t.me/MrXbin-25, server: 47.128.64.71, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "5,6|美国5|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 8880, type: vmess, uuid: e9a6c0a4-2e6f-488e-a765-46edba636b02, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/bYdJ7Vc2We, headers: {Host: us6gzxQRrE4.fzbqfrse.xyz}}, udp: true}
-- {name: 0|-https://t.me/MrXbin-148, server: ru01.freeflyingcloud.xyz, port: 30002, type: trojan, password: 4f811851-23b7-408d-8c25-5e49db8ea7ec, sni: ru01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
-- {name: "13|美国 CloudFlare节点 #19", server: 172.64.104.182, port: 80, type: vmess, uuid: f0f067fe-8e6d-4d95-816b-601038fd5876, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/rongseven?ed=2048", headers: {Host: fr.grpc.gay}}, udp: true}
+- {name: 16|台湾|@ripaojiedian, server: 183.232.170.21, port: 30059, type: vmess, uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: "5,6|新加坡|@ripaojiedian", server: sg.lianjianode.cc, port: 21021, type: vmess, uuid: e472a610-a7de-4fce-befc-5c11c31a9246, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /singapore, headers: {Host: sg1.luodi.xyz}}, udp: true}
+- {name: 5|🇭🇰 香港5|@ripaojiedian, server: gz.quanstring.top, port: 24105, type: ss, cipher: chacha20-ietf-poly1305, password: 3bbdad44-9575-4044-8717-98ede6309161, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -316,14 +316,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - China_Guangzhou_ssr_1190
-      - 5,6|新加坡|@ripaojiedian
-      - 11|广东省汕头市 移动
-      - 16|台湾|@ripaojiedian
+      - 15|🇭🇰 香港4|@ripaojiedian
+      - 0|-https://t.me/MrXbin-144
+      - 5|🇹🇼 台湾|@ripaojiedian
+      - 16|美国|@ripaojiedian
       - 0|-https://t.me/MrXbin-25
-      - 5,6|美国5|@ripaojiedian
-      - 0|-https://t.me/MrXbin-148
-      - "13|美国 CloudFlare节点 #19"
+      - 16|台湾|@ripaojiedian
+      - 5,6|新加坡|@ripaojiedian
+      - 5|🇭🇰 香港5|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -336,14 +336,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - China_Guangzhou_ssr_1190
-      - 5,6|新加坡|@ripaojiedian
-      - 11|广东省汕头市 移动
-      - 16|台湾|@ripaojiedian
+      - 15|🇭🇰 香港4|@ripaojiedian
+      - 0|-https://t.me/MrXbin-144
+      - 5|🇹🇼 台湾|@ripaojiedian
+      - 16|美国|@ripaojiedian
       - 0|-https://t.me/MrXbin-25
-      - 5,6|美国5|@ripaojiedian
-      - 0|-https://t.me/MrXbin-148
-      - "13|美国 CloudFlare节点 #19"
+      - 16|台湾|@ripaojiedian
+      - 5,6|新加坡|@ripaojiedian
+      - 5|🇭🇰 香港5|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -368,14 +368,14 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - China_Guangzhou_ssr_1190
-      - 5,6|新加坡|@ripaojiedian
-      - 11|广东省汕头市 移动
-      - 16|台湾|@ripaojiedian
+      - 15|🇭🇰 香港4|@ripaojiedian
+      - 0|-https://t.me/MrXbin-144
+      - 5|🇹🇼 台湾|@ripaojiedian
+      - 16|美国|@ripaojiedian
       - 0|-https://t.me/MrXbin-25
-      - 5,6|美国5|@ripaojiedian
-      - 0|-https://t.me/MrXbin-148
-      - "13|美国 CloudFlare节点 #19"
+      - 16|台湾|@ripaojiedian
+      - 5,6|新加坡|@ripaojiedian
+      - 5|🇭🇰 香港5|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
