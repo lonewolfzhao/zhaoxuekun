@@ -292,14 +292,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 5|🇭🇰 香港5|@ripaojiedian, server: gz.quanstring.top, port: 24105, type: ss, cipher: chacha20-ietf-poly1305, password: 3bbdad44-9575-4044-8717-98ede6309161, udp: true}
 - {name: 5|🇹🇼 台湾|@ripaojiedian, server: 183.232.170.21, port: 30059, type: vmess, uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "5,6|美国5|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 8880, type: vmess, uuid: e9a6c0a4-2e6f-488e-a765-46edba636b02, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/bYdJ7Vc2We, headers: {Host: us6gzxQRrE4.fzbqfrse.xyz}}, udp: true}
-- {name: 4Nika-830, server: 13.213.18.109, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-22, server: 47.128.64.71, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 5|🇭🇰 香港5|@ripaojiedian, server: gz.quanstring.top, port: 24105, type: ss, cipher: chacha20-ietf-poly1305, password: 3bbdad44-9575-4044-8717-98ede6309161, udp: true}
+- {name: 4Jadi-861, server: 18.142.225.182, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Jadi-855, server: 13.250.63.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|-https://t.me/MrXbin-2, server: p228.panda004.net, port: 4315, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 0|-https://t.me/MrXbin-152, server: 103.182.97.156, port: 45979, type: vmess, uuid: 23bdf6df-c482-46d0-c0f4-5a98d534ea11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /test}, udp: true}
-- {name: 4Jadi-1225, server: 125.141.26.11, port: 10218, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 13|🇺🇸 US-LOSANGELES3, server: cdn3.internetcdn.ggff.net, port: 8880, type: vmess, uuid: 9911e822-dd06-4d2d-a85d-81ec2764152a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/microsoft?ed=2048", headers: {Host: losangeles.us.pisces.eu.org}}, udp: true}
+- {name: 5|🇰🇷 韩国特殊|@ripaojiedian, server: 35.91.225.232, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 10|🇺🇸_US_美国->🇹🇷_TR_土耳其_由快嘴科技提供：kk..., server: tu.mahilu.site, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tu.mahilu.site}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -316,14 +316,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5|🇭🇰 香港5|@ripaojiedian
       - 5|🇹🇼 台湾|@ripaojiedian
-      - 5,6|美国5|@ripaojiedian
-      - 4Nika-830
+      - 0|-https://t.me/MrXbin-22
+      - 5|🇭🇰 香港5|@ripaojiedian
+      - 4Jadi-861
+      - 4Jadi-855
       - 0|-https://t.me/MrXbin-2
-      - 0|-https://t.me/MrXbin-152
-      - 4Jadi-1225
-      - 13|🇺🇸 US-LOSANGELES3
+      - 5|🇰🇷 韩国特殊|@ripaojiedian
+      - 10|🇺🇸_US_美国->🇹🇷_TR_土耳其_由快嘴科技提供：kk...
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -336,14 +336,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5|🇭🇰 香港5|@ripaojiedian
       - 5|🇹🇼 台湾|@ripaojiedian
-      - 5,6|美国5|@ripaojiedian
-      - 4Nika-830
+      - 0|-https://t.me/MrXbin-22
+      - 5|🇭🇰 香港5|@ripaojiedian
+      - 4Jadi-861
+      - 4Jadi-855
       - 0|-https://t.me/MrXbin-2
-      - 0|-https://t.me/MrXbin-152
-      - 4Jadi-1225
-      - 13|🇺🇸 US-LOSANGELES3
+      - 5|🇰🇷 韩国特殊|@ripaojiedian
+      - 10|🇺🇸_US_美国->🇹🇷_TR_土耳其_由快嘴科技提供：kk...
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -368,14 +368,14 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - 5|🇭🇰 香港5|@ripaojiedian
       - 5|🇹🇼 台湾|@ripaojiedian
-      - 5,6|美国5|@ripaojiedian
-      - 4Nika-830
+      - 0|-https://t.me/MrXbin-22
+      - 5|🇭🇰 香港5|@ripaojiedian
+      - 4Jadi-861
+      - 4Jadi-855
       - 0|-https://t.me/MrXbin-2
-      - 0|-https://t.me/MrXbin-152
-      - 4Jadi-1225
-      - 13|🇺🇸 US-LOSANGELES3
+      - 5|🇰🇷 韩国特殊|@ripaojiedian
+      - 10|🇺🇸_US_美国->🇹🇷_TR_土耳其_由快嘴科技提供：kk...
   - name: 🐟 漏网之鱼
     type: select
     proxies:
