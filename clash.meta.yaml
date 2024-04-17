@@ -293,13 +293,13 @@ proxies:
   sni: www.bing.com
   skip-cert-verify: true
 - {name: 0|-https://t.me/MrXbin-97, server: uhisfgy78eu.cfprefer1.xyz, port: 10000, type: ss, cipher: aes-256-gcm, password: 3ce72168-730e-4020-baf8-620ee14634ac, udp: true}
-- {name: 5|🇯🇵 日本|@ripaojiedian, server: 183.240.220.84, port: 11842, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 24:SpYUtPeJYhRk4FWC, obfs-param: 6f41b24.microsoft.com, udp: true}
-- {name: 5|🇭🇰 香港4|@ripaojiedian, server: 120.232.240.1, port: 11421, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 24:SpYUtPeJYhRk4FWC, obfs-param: 6f41b24.microsoft.com, udp: true}
-- {name: "9|baipaovpn广西 #1", server: 111.12.60.89, port: 20010, type: vmess, uuid: 79cac2b7-1d6e-3fda-89f8-d756d3542f7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: uacae.xyz}}, udp: true}
-- {name: "5,6|新加坡|@ripaojiedian", server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: e9a6c0a4-2e6f-488e-a765-46edba636b02, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/u4eCZTxW, headers: {Host: jpafzyhfsg3.yofnhkfc.xyz}}, udp: true}
-- {name: _US_美国, server: 54.71.116.112, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Nika-1224, server: 203.234.238.140, port: 58449, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 5|🇯🇵 日本特殊|@ripaojiedian, server: 13.215.184.228, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "13|🇺🇸_US_美国->🇨🇦_CA_加拿大 #6", server: 104.19.58.60, port: 8080, type: vmess, uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm, headers: {Host: concentrations-taxi-about-recognised.trycloudflare.com}}, udp: true}
+- {name: 10|🇺🇸_US_美国_4_由快嘴科技提供：kkzui.com6_..., server: cfcdn1.sanfencdn9.com, port: 8880, type: vmess, uuid: e9a6c0a4-2e6f-488e-a765-46edba636b02, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/bYdJ7Vc2We, headers: {Host: us6gzxQRrE4.fzbqfrse.xyz}}, udp: true}
+- {name: _NL_荷兰->🇫🇷_FR_法国, server: 188.114.98.0, port: 2086, type: vmess, uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: admin.arzonhost.ir}}, udp: true}
+- {name: 9|baipaovpn广西, server: 111.12.60.89, port: 20620, type: vmess, uuid: 79cac2b7-1d6e-3fda-89f8-d756d3542f7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: uacca.com}}, udp: true}
+- {name: 4Mohsen-1225, server: 221.150.109.81, port: 42978, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: "10|🇺🇸_US_美国->🇫🇷_FR_法国_由快嘴科技提供：kkz... #1", server: 172.67.223.242, port: 2086, type: vmess, uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: admin.arzonhost.ir}}, udp: true}
+- {name: 11|美国 v2rayfree.eu.org, server: 23.162.200.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -317,13 +317,13 @@ proxy-groups:
     interval: 300
     proxies:
       - 0|-https://t.me/MrXbin-97
-      - 5|🇯🇵 日本|@ripaojiedian
-      - 5|🇭🇰 香港4|@ripaojiedian
-      - "9|baipaovpn广西 #1"
-      - 5,6|新加坡|@ripaojiedian
-      - _US_美国
-      - 4Nika-1224
-      - 5|🇯🇵 日本特殊|@ripaojiedian
+      - "13|🇺🇸_US_美国->🇨🇦_CA_加拿大 #6"
+      - 10|🇺🇸_US_美国_4_由快嘴科技提供：kkzui.com6_...
+      - _NL_荷兰->🇫🇷_FR_法国
+      - 9|baipaovpn广西
+      - 4Mohsen-1225
+      - "10|🇺🇸_US_美国->🇫🇷_FR_法国_由快嘴科技提供：kkz... #1"
+      - 11|美国 v2rayfree.eu.org
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -337,13 +337,13 @@ proxy-groups:
     interval: 300
     proxies:
       - 0|-https://t.me/MrXbin-97
-      - 5|🇯🇵 日本|@ripaojiedian
-      - 5|🇭🇰 香港4|@ripaojiedian
-      - "9|baipaovpn广西 #1"
-      - 5,6|新加坡|@ripaojiedian
-      - _US_美国
-      - 4Nika-1224
-      - 5|🇯🇵 日本特殊|@ripaojiedian
+      - "13|🇺🇸_US_美国->🇨🇦_CA_加拿大 #6"
+      - 10|🇺🇸_US_美国_4_由快嘴科技提供：kkzui.com6_...
+      - _NL_荷兰->🇫🇷_FR_法国
+      - 9|baipaovpn广西
+      - 4Mohsen-1225
+      - "10|🇺🇸_US_美国->🇫🇷_FR_法国_由快嘴科技提供：kkz... #1"
+      - 11|美国 v2rayfree.eu.org
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -369,13 +369,13 @@ proxy-groups:
       - United States_Los Angeles_hy2_3
 
       - 0|-https://t.me/MrXbin-97
-      - 5|🇯🇵 日本|@ripaojiedian
-      - 5|🇭🇰 香港4|@ripaojiedian
-      - "9|baipaovpn广西 #1"
-      - 5,6|新加坡|@ripaojiedian
-      - _US_美国
-      - 4Nika-1224
-      - 5|🇯🇵 日本特殊|@ripaojiedian
+      - "13|🇺🇸_US_美国->🇨🇦_CA_加拿大 #6"
+      - 10|🇺🇸_US_美国_4_由快嘴科技提供：kkzui.com6_...
+      - _NL_荷兰->🇫🇷_FR_法国
+      - 9|baipaovpn广西
+      - 4Mohsen-1225
+      - "10|🇺🇸_US_美国->🇫🇷_FR_法国_由快嘴科技提供：kkz... #1"
+      - 11|美国 v2rayfree.eu.org
   - name: 🐟 漏网之鱼
     type: select
     proxies:
