@@ -292,14 +292,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: _US_美国, server: yh7.dtku41.xyz, port: 8080, type: vmess, uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm, headers: {Host: booty-pensions-scheduling-blogging.trycloudflare.com}}, udp: true}
-- {name: "5,6|荷兰|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: helanv6cf.inekokkk.top}}, udp: true}
-- {name: 0|-https://t.me/MrXbin-11, server: 43.203.233.33, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Nika-896, server: 52.69.81.42, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Nika-812, server: 13.250.63.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Jadi-416, server: 220.195.133.232, port: 50018, type: ss, cipher: chacha20-ietf-poly1305, password: b6c5467a-bc99-3fec-bd8a-b33ffc52c6ab, udp: true}
+- {name: "5,6|台湾|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: aa385f39-d784-4b80-9725-c3904a337cf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}}, udp: true}
+- {name: 4Jadi-904, server: 54.179.167.94, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Jadi-903, server: 54.179.101.194, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Jadi-415, server: 220.195.133.232, port: 50016, type: ss, cipher: chacha20-ietf-poly1305, password: b6c5467a-bc99-3fec-bd8a-b33ffc52c6ab, udp: true}
 - {name: 4Nika-15, server: i7v2a9h4n2-fbnode-my04.6pzfwf.com, port: 56069, type: ss, cipher: chacha20-ietf-poly1305, password: 6YRXJP, udp: true}
-- {name: 0|-https://t.me/MrXbin-16, server: 43.201.110.81, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 13|加拿大-1.63MB/s, server: 158.51.123.111, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: 158.51.123.111}}, udp: true}
-- {name: 4Nika-806, server: 13.231.229.48, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-4, server: 13.215.184.228, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -316,14 +316,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - _US_美国
-      - 5,6|荷兰|@ripaojiedian
-      - 0|-https://t.me/MrXbin-11
-      - 4Nika-896
+      - 4Nika-812
+      - 4Jadi-416
+      - 5,6|台湾|@ripaojiedian
+      - 4Jadi-904
+      - 4Jadi-903
+      - 4Jadi-415
       - 4Nika-15
-      - 0|-https://t.me/MrXbin-16
-      - 13|加拿大-1.63MB/s
-      - 4Nika-806
+      - 0|-https://t.me/MrXbin-4
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -336,14 +336,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - _US_美国
-      - 5,6|荷兰|@ripaojiedian
-      - 0|-https://t.me/MrXbin-11
-      - 4Nika-896
+      - 4Nika-812
+      - 4Jadi-416
+      - 5,6|台湾|@ripaojiedian
+      - 4Jadi-904
+      - 4Jadi-903
+      - 4Jadi-415
       - 4Nika-15
-      - 0|-https://t.me/MrXbin-16
-      - 13|加拿大-1.63MB/s
-      - 4Nika-806
+      - 0|-https://t.me/MrXbin-4
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -368,14 +368,14 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - _US_美国
-      - 5,6|荷兰|@ripaojiedian
-      - 0|-https://t.me/MrXbin-11
-      - 4Nika-896
+      - 4Nika-812
+      - 4Jadi-416
+      - 5,6|台湾|@ripaojiedian
+      - 4Jadi-904
+      - 4Jadi-903
+      - 4Jadi-415
       - 4Nika-15
-      - 0|-https://t.me/MrXbin-16
-      - 13|加拿大-1.63MB/s
-      - 4Nika-806
+      - 0|-https://t.me/MrXbin-4
   - name: 🐟 漏网之鱼
     type: select
     proxies:
