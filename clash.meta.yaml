@@ -292,14 +292,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: "5,6|台湾|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: aa385f39-d784-4b80-9725-c3904a337cf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}}, udp: true}
-- {name: 5|🇺🇸 美国|@ripaojiedian, server: mmus36.micloud.buzz, port: 46036, type: vmess, uuid: 92e7a057-88aa-4101-9cbd-18b8c90a2b1b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mmus36.micloud.buzz}}, udp: true}
-- {name: 0|-https://t.me/MrXbin-3, server: 35.91.54.169, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-12, server: 35.87.25.21, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 13|US_分享日记_91, server: 104.21.4.14, port: 2086, type: vmess, uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mizban.arzonhost.ir}}, udp: true}
-- {name: 5|🇭🇰 香港|@ripaojiedian, server: 183.236.51.59, port: 54437, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 11|巴西圣保罗 CloudFlare节点, server: 188.114.96.6, port: 443, type: vmess, uuid: 5b0a489e-e9eb-41b1-902e-d4acad667ba6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: accessories8.freeairlaines.com, grpc-opts: {grpc-service-name: argo}, udp: true}
-- {name: 13|美国 （ccbaohe.com）免费机场节点, server: 23.162.200.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: 23.162.200.227}}, udp: true}
+- {name: _US_美国, server: yh7.dtku41.xyz, port: 8080, type: vmess, uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm, headers: {Host: booty-pensions-scheduling-blogging.trycloudflare.com}}, udp: true}
+- {name: "5,6|荷兰|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: helanv6cf.inekokkk.top}}, udp: true}
+- {name: 0|-https://t.me/MrXbin-11, server: 43.203.233.33, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Nika-896, server: 52.69.81.42, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Nika-15, server: i7v2a9h4n2-fbnode-my04.6pzfwf.com, port: 56069, type: ss, cipher: chacha20-ietf-poly1305, password: 6YRXJP, udp: true}
+- {name: 0|-https://t.me/MrXbin-16, server: 43.201.110.81, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 13|加拿大-1.63MB/s, server: 158.51.123.111, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: 158.51.123.111}}, udp: true}
+- {name: 4Nika-806, server: 13.231.229.48, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -316,14 +316,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5,6|台湾|@ripaojiedian
-      - 5|🇺🇸 美国|@ripaojiedian
-      - 0|-https://t.me/MrXbin-3
-      - 0|-https://t.me/MrXbin-12
-      - 13|US_分享日记_91
-      - 5|🇭🇰 香港|@ripaojiedian
-      - 11|巴西圣保罗 CloudFlare节点
-      - 13|美国 （ccbaohe.com）免费机场节点
+      - _US_美国
+      - 5,6|荷兰|@ripaojiedian
+      - 0|-https://t.me/MrXbin-11
+      - 4Nika-896
+      - 4Nika-15
+      - 0|-https://t.me/MrXbin-16
+      - 13|加拿大-1.63MB/s
+      - 4Nika-806
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -336,14 +336,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5,6|台湾|@ripaojiedian
-      - 5|🇺🇸 美国|@ripaojiedian
-      - 0|-https://t.me/MrXbin-3
-      - 0|-https://t.me/MrXbin-12
-      - 13|US_分享日记_91
-      - 5|🇭🇰 香港|@ripaojiedian
-      - 11|巴西圣保罗 CloudFlare节点
-      - 13|美国 （ccbaohe.com）免费机场节点
+      - _US_美国
+      - 5,6|荷兰|@ripaojiedian
+      - 0|-https://t.me/MrXbin-11
+      - 4Nika-896
+      - 4Nika-15
+      - 0|-https://t.me/MrXbin-16
+      - 13|加拿大-1.63MB/s
+      - 4Nika-806
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -368,14 +368,14 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - 5,6|台湾|@ripaojiedian
-      - 5|🇺🇸 美国|@ripaojiedian
-      - 0|-https://t.me/MrXbin-3
-      - 0|-https://t.me/MrXbin-12
-      - 13|US_分享日记_91
-      - 5|🇭🇰 香港|@ripaojiedian
-      - 11|巴西圣保罗 CloudFlare节点
-      - 13|美国 （ccbaohe.com）免费机场节点
+      - _US_美国
+      - 5,6|荷兰|@ripaojiedian
+      - 0|-https://t.me/MrXbin-11
+      - 4Nika-896
+      - 4Nika-15
+      - 0|-https://t.me/MrXbin-16
+      - 13|加拿大-1.63MB/s
+      - 4Nika-806
   - name: 🐟 漏网之鱼
     type: select
     proxies:
