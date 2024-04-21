@@ -292,13 +292,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: "5,6|台湾|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: aa385f39-d784-4b80-9725-c3904a337cf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}}, udp: true}
-- {name: 4Sarina-847, server: 18.142.225.182, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-146, server: 52.12.162.168, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 13|-1275-US【ccbaohe.com〗 永久免费节点机场, server: 23.162.168.211, port: 80, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: 23.162.168.211}}, udp: true}
+- {name: 0|-https://t.me/MrXbin-28, server: 47.128.64.71, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 13|美国【TG：@ccbaohe】定时更新节点订阅 5, server: 172.64.104.182, port: 80, type: vmess, uuid: f0f067fe-8e6d-4d95-816b-601038fd5876, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/rongseven?ed=2048", headers: {Host: fr.grpc.gay}}, udp: true}
-- {name: _US_美国->🇩🇪_DE_德国, server: 104.19.250.15, port: 2052, type: vmess, uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: helanv6cf.inekokkk.top}}, udp: true}
-- {name: 6|香港|@ripaojiedian, server: 183.236.51.59, port: 54437, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-82, server: 107.149.197.28, port: 47779, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/203113182529, headers: {Host: www.77545337.xyz}}, udp: true}
+- {name: 0|-https://t.me/MrXbin-99, server: 107.167.21.153, port: 443, type: vmess, uuid: fabb30e8-3a2c-4149-9651-2758f7712481, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/203113182529, headers: {Host: www.58528190.xyz}}, udp: true}
+- {name: 13|-1275-US【ccbaohe.com〗 永久免费节点机场, server: 23.162.168.211, port: 80, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: 23.162.168.211}}, udp: true}
+- {name: "5,6|荷兰|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: helanv6cf.inekokkk.top}}, udp: true}
+- {name: 0|-https://t.me/MrXbin-91, server: 148.135.47.51, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/180401120101, headers: {Host: www.56394545.xyz}}, udp: true}
+- {name: 4FreeIran-920, server: 47.128.230.112, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -315,13 +316,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5,6|台湾|@ripaojiedian
-      - 4Sarina-847
-      - 0|-https://t.me/MrXbin-146
-      - 13|-1275-US【ccbaohe.com〗 永久免费节点机场
+      - 0|-https://t.me/MrXbin-28
       - 13|美国【TG：@ccbaohe】定时更新节点订阅 5
-      - _US_美国->🇩🇪_DE_德国
-      - 6|香港|@ripaojiedian
+      - 0|-https://t.me/MrXbin-82
+      - 0|-https://t.me/MrXbin-99
+      - 13|-1275-US【ccbaohe.com〗 永久免费节点机场
+      - 5,6|荷兰|@ripaojiedian
+      - 0|-https://t.me/MrXbin-91
+      - 4FreeIran-920
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -334,13 +336,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5,6|台湾|@ripaojiedian
-      - 4Sarina-847
-      - 0|-https://t.me/MrXbin-146
-      - 13|-1275-US【ccbaohe.com〗 永久免费节点机场
+      - 0|-https://t.me/MrXbin-28
       - 13|美国【TG：@ccbaohe】定时更新节点订阅 5
-      - _US_美国->🇩🇪_DE_德国
-      - 6|香港|@ripaojiedian
+      - 0|-https://t.me/MrXbin-82
+      - 0|-https://t.me/MrXbin-99
+      - 13|-1275-US【ccbaohe.com〗 永久免费节点机场
+      - 5,6|荷兰|@ripaojiedian
+      - 0|-https://t.me/MrXbin-91
+      - 4FreeIran-920
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -365,13 +368,14 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - 5,6|台湾|@ripaojiedian
-      - 4Sarina-847
-      - 0|-https://t.me/MrXbin-146
-      - 13|-1275-US【ccbaohe.com〗 永久免费节点机场
+      - 0|-https://t.me/MrXbin-28
       - 13|美国【TG：@ccbaohe】定时更新节点订阅 5
-      - _US_美国->🇩🇪_DE_德国
-      - 6|香港|@ripaojiedian
+      - 0|-https://t.me/MrXbin-82
+      - 0|-https://t.me/MrXbin-99
+      - 13|-1275-US【ccbaohe.com〗 永久免费节点机场
+      - 5,6|荷兰|@ripaojiedian
+      - 0|-https://t.me/MrXbin-91
+      - 4FreeIran-920
   - name: 🐟 漏网之鱼
     type: select
     proxies:
