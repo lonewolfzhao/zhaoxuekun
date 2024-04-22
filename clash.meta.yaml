@@ -292,11 +292,11 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 13|【TG：@ccbaohe】定时更新节点订阅 ⚡️1, server: cf1.ftclashcloud.site, port: 80, type: vmess, uuid: 348d6595-93e9-4bd6-b9d4-88ab54b37d5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: mhyusa01.ftclashcloud.online}}, udp: true}
-- {name: 0|-https://t.me/MrXbin-125, server: 43.201.82.233, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 16|香港|@ripaojiedian, server: 183.236.51.59, port: 54437, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "5,10|🇨🇳_CN_中国->🇭🇺_HU_匈牙利_20", server: mmhu82.micloud.buzz, port: 46082, type: vmess, uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mmhu82.micloud.buzz}}, udp: true}
+- {name: 13|【TG：@ccbaohe】定时更新节点订阅 ⚡️2, server: cf2.ftclashcloud.site, port: 80, type: vmess, uuid: 348d6595-93e9-4bd6-b9d4-88ab54b37d5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: mhyusa01.ftclashcloud.online}}, udp: true}
 - {name: 0|-https://t.me/MrXbin-18, server: 54.238.23.117, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-125, server: 43.201.82.233, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "5,10|🇨🇳_CN_中国->🇭🇺_HU_匈牙利_20", server: mmhu82.micloud.buzz, port: 46082, type: vmess, uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mmhu82.micloud.buzz}}, udp: true}
+- {name: 16|香港|@ripaojiedian, server: 183.236.51.59, port: 54437, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -313,11 +313,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 13|【TG：@ccbaohe】定时更新节点订阅 ⚡️1
-      - 0|-https://t.me/MrXbin-125
-      - 16|香港|@ripaojiedian
-      - 5,10|🇨🇳_CN_中国->🇭🇺_HU_匈牙利_20
+      - 13|【TG：@ccbaohe】定时更新节点订阅 ⚡️2
       - 0|-https://t.me/MrXbin-18
+      - 0|-https://t.me/MrXbin-125
+      - 5,10|🇨🇳_CN_中国->🇭🇺_HU_匈牙利_20
+      - 16|香港|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -330,11 +330,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 13|【TG：@ccbaohe】定时更新节点订阅 ⚡️1
-      - 0|-https://t.me/MrXbin-125
-      - 16|香港|@ripaojiedian
-      - 5,10|🇨🇳_CN_中国->🇭🇺_HU_匈牙利_20
+      - 13|【TG：@ccbaohe】定时更新节点订阅 ⚡️2
       - 0|-https://t.me/MrXbin-18
+      - 0|-https://t.me/MrXbin-125
+      - 5,10|🇨🇳_CN_中国->🇭🇺_HU_匈牙利_20
+      - 16|香港|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -359,11 +359,11 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - 13|【TG：@ccbaohe】定时更新节点订阅 ⚡️1
-      - 0|-https://t.me/MrXbin-125
-      - 16|香港|@ripaojiedian
-      - 5,10|🇨🇳_CN_中国->🇭🇺_HU_匈牙利_20
+      - 13|【TG：@ccbaohe】定时更新节点订阅 ⚡️2
       - 0|-https://t.me/MrXbin-18
+      - 0|-https://t.me/MrXbin-125
+      - 5,10|🇨🇳_CN_中国->🇭🇺_HU_匈牙利_20
+      - 16|香港|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
