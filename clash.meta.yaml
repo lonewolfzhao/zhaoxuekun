@@ -292,11 +292,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 13|【TG：@ccbaohe】定时更新节点订阅 ⚡️2, server: cf2.ftclashcloud.site, port: 80, type: vmess, uuid: 348d6595-93e9-4bd6-b9d4-88ab54b37d5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: mhyusa01.ftclashcloud.online}}, udp: true}
-- {name: 0|-https://t.me/MrXbin-18, server: 54.238.23.117, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-125, server: 43.201.82.233, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "5,10|🇨🇳_CN_中国->🇭🇺_HU_匈牙利_20", server: mmhu82.micloud.buzz, port: 46082, type: vmess, uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mmhu82.micloud.buzz}}, udp: true}
-- {name: 16|香港|@ripaojiedian, server: 183.236.51.59, port: 54437, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 15|🇯🇵 日本特殊|@ripaojiedian, server: 13.229.115.125, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Sarina-919, server: 47.128.230.112, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 15|🇰🇷 韩国特殊|@ripaojiedian, server: 18.139.225.183, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 5|🇭🇰 香港8|@ripaojiedian, server: 120.220.18.190, port: 443, type: trojan, password: BZjkHMao, skip-cert-verify: true, udp: true}
+- {name: 5|🇯🇵 日本|@ripaojiedian, server: 36.151.192.21, port: 443, type: trojan, password: BZjkHMao, skip-cert-verify: true, udp: true}
+- {name: 5|🇸🇬 新加坡2|@ripaojiedian, server: 112.16.228.103, port: 443, type: trojan, password: BZjkHMao, skip-cert-verify: true, udp: true}
+- {name: 5|🇭🇰 香港2|@ripaojiedian, server: 120.220.18.187, port: 443, type: trojan, password: BZjkHMao, skip-cert-verify: true, udp: true}
+- {name: 4Sarina-812, server: 13.114.108.144, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -313,11 +316,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 13|【TG：@ccbaohe】定时更新节点订阅 ⚡️2
-      - 0|-https://t.me/MrXbin-18
-      - 0|-https://t.me/MrXbin-125
-      - 5,10|🇨🇳_CN_中国->🇭🇺_HU_匈牙利_20
-      - 16|香港|@ripaojiedian
+      - 15|🇯🇵 日本特殊|@ripaojiedian
+      - 4Sarina-919
+      - 15|🇰🇷 韩国特殊|@ripaojiedian
+      - 5|🇭🇰 香港8|@ripaojiedian
+      - 5|🇯🇵 日本|@ripaojiedian
+      - 5|🇸🇬 新加坡2|@ripaojiedian
+      - 5|🇭🇰 香港2|@ripaojiedian
+      - 4Sarina-812
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -330,11 +336,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 13|【TG：@ccbaohe】定时更新节点订阅 ⚡️2
-      - 0|-https://t.me/MrXbin-18
-      - 0|-https://t.me/MrXbin-125
-      - 5,10|🇨🇳_CN_中国->🇭🇺_HU_匈牙利_20
-      - 16|香港|@ripaojiedian
+      - 15|🇯🇵 日本特殊|@ripaojiedian
+      - 4Sarina-919
+      - 15|🇰🇷 韩国特殊|@ripaojiedian
+      - 5|🇭🇰 香港8|@ripaojiedian
+      - 5|🇯🇵 日本|@ripaojiedian
+      - 5|🇸🇬 新加坡2|@ripaojiedian
+      - 5|🇭🇰 香港2|@ripaojiedian
+      - 4Sarina-812
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -359,11 +368,14 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - 13|【TG：@ccbaohe】定时更新节点订阅 ⚡️2
-      - 0|-https://t.me/MrXbin-18
-      - 0|-https://t.me/MrXbin-125
-      - 5,10|🇨🇳_CN_中国->🇭🇺_HU_匈牙利_20
-      - 16|香港|@ripaojiedian
+      - 15|🇯🇵 日本特殊|@ripaojiedian
+      - 4Sarina-919
+      - 15|🇰🇷 韩国特殊|@ripaojiedian
+      - 5|🇭🇰 香港8|@ripaojiedian
+      - 5|🇯🇵 日本|@ripaojiedian
+      - 5|🇸🇬 新加坡2|@ripaojiedian
+      - 5|🇭🇰 香港2|@ripaojiedian
+      - 4Sarina-812
   - name: 🐟 漏网之鱼
     type: select
     proxies:
