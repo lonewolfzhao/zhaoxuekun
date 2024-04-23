@@ -293,14 +293,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 15|🇰🇷 韩国特殊|@ripaojiedian, server: 18.139.225.183, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 5|🇯🇵 日本|@ripaojiedian, server: 112.16.228.105, port: 443, type: trojan, password: BZjkHMao, skip-cert-verify: true, udp: true}
-- {name: 5|🇭🇰 香港8|@ripaojiedian, server: 120.220.18.190, port: 443, type: trojan, password: BZjkHMao, skip-cert-verify: true, udp: true}
-- {name: 5|🇸🇬 新加坡2|@ripaojiedian, server: 112.16.228.103, port: 443, type: trojan, password: BZjkHMao, skip-cert-verify: true, udp: true}
-- {name: 5|🇭🇰 香港4|@ripaojiedian, server: 112.16.228.119, port: 443, type: trojan, password: BZjkHMao, skip-cert-verify: true, udp: true}
-- {name: 5|🇯🇵 日本|@ripaojiedian 2, server: 36.151.192.21, port: 443, type: trojan, password: BZjkHMao, skip-cert-verify: true, udp: true}
-- {name: 4Sarina-919, server: 47.128.230.112, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 15|🇫🇷 法国|@ripaojiedian, server: 112.16.228.119, port: 51000, type: trojan, password: BZjkHMao, sni: 144-22-163-118.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-40, server: 43.206.237.42, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-157, server: 52.198.245.28, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-6, server: 3.113.0.133, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-16, server: 54.238.23.117, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 5|🇸🇬 狮城特殊|@ripaojiedian, server: 52.192.178.138, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 5|🇸🇬 狮城特殊|@ripaojiedian 2, server: 54.169.189.194, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 5|🇯🇵 日本特殊|@ripaojiedian, server: 13.125.243.77, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-25, server: 43.203.220.68, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -317,14 +317,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 15|🇰🇷 韩国特殊|@ripaojiedian
-      - 5|🇯🇵 日本|@ripaojiedian
-      - 5|🇭🇰 香港8|@ripaojiedian
-      - 5|🇸🇬 新加坡2|@ripaojiedian
-      - 5|🇭🇰 香港4|@ripaojiedian
-      - 5|🇯🇵 日本|@ripaojiedian 2
-      - 4Sarina-919
-      - 15|🇫🇷 法国|@ripaojiedian
+      - 0|-https://t.me/MrXbin-40
+      - 0|-https://t.me/MrXbin-157
+      - 0|-https://t.me/MrXbin-6
+      - 0|-https://t.me/MrXbin-16
+      - 5|🇸🇬 狮城特殊|@ripaojiedian
+      - 5|🇸🇬 狮城特殊|@ripaojiedian 2
+      - 5|🇯🇵 日本特殊|@ripaojiedian
+      - 0|-https://t.me/MrXbin-25
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -337,14 +337,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 15|🇰🇷 韩国特殊|@ripaojiedian
-      - 5|🇯🇵 日本|@ripaojiedian
-      - 5|🇭🇰 香港8|@ripaojiedian
-      - 5|🇸🇬 新加坡2|@ripaojiedian
-      - 5|🇭🇰 香港4|@ripaojiedian
-      - 5|🇯🇵 日本|@ripaojiedian 2
-      - 4Sarina-919
-      - 15|🇫🇷 法国|@ripaojiedian
+      - 0|-https://t.me/MrXbin-40
+      - 0|-https://t.me/MrXbin-157
+      - 0|-https://t.me/MrXbin-6
+      - 0|-https://t.me/MrXbin-16
+      - 5|🇸🇬 狮城特殊|@ripaojiedian
+      - 5|🇸🇬 狮城特殊|@ripaojiedian 2
+      - 5|🇯🇵 日本特殊|@ripaojiedian
+      - 0|-https://t.me/MrXbin-25
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -369,14 +369,14 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - 15|🇰🇷 韩国特殊|@ripaojiedian
-      - 5|🇯🇵 日本|@ripaojiedian
-      - 5|🇭🇰 香港8|@ripaojiedian
-      - 5|🇸🇬 新加坡2|@ripaojiedian
-      - 5|🇭🇰 香港4|@ripaojiedian
-      - 5|🇯🇵 日本|@ripaojiedian 2
-      - 4Sarina-919
-      - 15|🇫🇷 法国|@ripaojiedian
+      - 0|-https://t.me/MrXbin-40
+      - 0|-https://t.me/MrXbin-157
+      - 0|-https://t.me/MrXbin-6
+      - 0|-https://t.me/MrXbin-16
+      - 5|🇸🇬 狮城特殊|@ripaojiedian
+      - 5|🇸🇬 狮城特殊|@ripaojiedian 2
+      - 5|🇯🇵 日本特殊|@ripaojiedian
+      - 0|-https://t.me/MrXbin-25
   - name: 🐟 漏网之鱼
     type: select
     proxies:
