@@ -293,14 +293,12 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 4Sarina-834, server: 13.215.208.103, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 5|🇫🇷 法国|@ripaojiedian, server: 112.16.228.119, port: 51000, type: trojan, password: BZjkHMao, skip-cert-verify: true, udp: true}
-- {name: 0|-https://t.me/MrXbin-8, server: 52.195.189.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 13|🆎20@oneclickvpnkeys, server: 89.213.184.201, port: 12321, type: vmess, uuid: 5a580026-35eb-4676-b636-f9e499068642, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /免费VPN分享节点TG@WSBVPN倒卖死妈}, udp: true}
-- {name: 0|-https://t.me/MrXbin-11, server: 18.141.207.80, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Sarina-866, server: 3.112.218.182, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "5,6,10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_23", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 07a902d1-7c2d-47de-f2c5-c2236fc7cd46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: usxm.inekokkk.top}}, udp: true}
-- {name: 10|🇺🇸_US_美国->🇫🇷_FR_法国_由快嘴科技提供：kkz..., server: 104.21.4.14, port: 2086, type: vmess, uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: admin.arzonhost.ir}}, udp: true}
+- {name: 0|-https://t.me/MrXbin-10, server: 3.112.218.182, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-15, server: 54.238.23.117, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Sarina-960, server: 57.181.36.85, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-14, server: 13.231.229.41, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-9, server: 47.128.230.112, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-221, server: admin.arzonhost.ir, port: 2086, type: vmess, uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: admin.arzonhost.ir}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -317,14 +315,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 4Sarina-834
-      - 5|🇫🇷 法国|@ripaojiedian
-      - 0|-https://t.me/MrXbin-8
-      - 13|🆎20@oneclickvpnkeys
-      - 0|-https://t.me/MrXbin-11
-      - 4Sarina-866
-      - 5,6,10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_23
-      - 10|🇺🇸_US_美国->🇫🇷_FR_法国_由快嘴科技提供：kkz...
+      - 0|-https://t.me/MrXbin-10
+      - 0|-https://t.me/MrXbin-15
+      - 4Sarina-960
+      - 0|-https://t.me/MrXbin-14
+      - 0|-https://t.me/MrXbin-9
+      - 0|-https://t.me/MrXbin-221
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -337,14 +333,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 4Sarina-834
-      - 5|🇫🇷 法国|@ripaojiedian
-      - 0|-https://t.me/MrXbin-8
-      - 13|🆎20@oneclickvpnkeys
-      - 0|-https://t.me/MrXbin-11
-      - 4Sarina-866
-      - 5,6,10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_23
-      - 10|🇺🇸_US_美国->🇫🇷_FR_法国_由快嘴科技提供：kkz...
+      - 0|-https://t.me/MrXbin-10
+      - 0|-https://t.me/MrXbin-15
+      - 4Sarina-960
+      - 0|-https://t.me/MrXbin-14
+      - 0|-https://t.me/MrXbin-9
+      - 0|-https://t.me/MrXbin-221
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -369,14 +363,12 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - 4Sarina-834
-      - 5|🇫🇷 法国|@ripaojiedian
-      - 0|-https://t.me/MrXbin-8
-      - 13|🆎20@oneclickvpnkeys
-      - 0|-https://t.me/MrXbin-11
-      - 4Sarina-866
-      - 5,6,10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_23
-      - 10|🇺🇸_US_美国->🇫🇷_FR_法国_由快嘴科技提供：kkz...
+      - 0|-https://t.me/MrXbin-10
+      - 0|-https://t.me/MrXbin-15
+      - 4Sarina-960
+      - 0|-https://t.me/MrXbin-14
+      - 0|-https://t.me/MrXbin-9
+      - 0|-https://t.me/MrXbin-221
   - name: 🐟 漏网之鱼
     type: select
     proxies:
