@@ -293,12 +293,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 0|-https://t.me/MrXbin-10, server: 3.112.218.182, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-15, server: 54.238.23.117, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Sarina-960, server: 57.181.36.85, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-14, server: 13.231.229.41, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-9, server: 47.128.230.112, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-221, server: admin.arzonhost.ir, port: 2086, type: vmess, uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: admin.arzonhost.ir}}, udp: true}
+- {name: 4Jadi-914, server: 43.206.237.42, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-26, server: 3.112.214.89, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Jadi-932, server: 52.198.245.28, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Jadi-933, server: 52.199.117.47, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-25, server: 13.114.108.144, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 5|🇭🇰 香港5|@ripaojiedian, server: dotu-hkv1.03ezhg0qsa.download, port: 11003, type: vmess, uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Jadi-942, server: 54.179.167.94, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Jadi-904, server: 43.201.82.233, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -315,12 +317,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 0|-https://t.me/MrXbin-10
-      - 0|-https://t.me/MrXbin-15
-      - 4Sarina-960
-      - 0|-https://t.me/MrXbin-14
-      - 0|-https://t.me/MrXbin-9
-      - 0|-https://t.me/MrXbin-221
+      - 4Jadi-914
+      - 0|-https://t.me/MrXbin-26
+      - 4Jadi-932
+      - 4Jadi-933
+      - 0|-https://t.me/MrXbin-25
+      - 5|🇭🇰 香港5|@ripaojiedian
+      - 4Jadi-942
+      - 4Jadi-904
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -333,12 +337,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 0|-https://t.me/MrXbin-10
-      - 0|-https://t.me/MrXbin-15
-      - 4Sarina-960
-      - 0|-https://t.me/MrXbin-14
-      - 0|-https://t.me/MrXbin-9
-      - 0|-https://t.me/MrXbin-221
+      - 4Jadi-914
+      - 0|-https://t.me/MrXbin-26
+      - 4Jadi-932
+      - 4Jadi-933
+      - 0|-https://t.me/MrXbin-25
+      - 5|🇭🇰 香港5|@ripaojiedian
+      - 4Jadi-942
+      - 4Jadi-904
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -363,12 +369,14 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - 0|-https://t.me/MrXbin-10
-      - 0|-https://t.me/MrXbin-15
-      - 4Sarina-960
-      - 0|-https://t.me/MrXbin-14
-      - 0|-https://t.me/MrXbin-9
-      - 0|-https://t.me/MrXbin-221
+      - 4Jadi-914
+      - 0|-https://t.me/MrXbin-26
+      - 4Jadi-932
+      - 4Jadi-933
+      - 0|-https://t.me/MrXbin-25
+      - 5|🇭🇰 香港5|@ripaojiedian
+      - 4Jadi-942
+      - 4Jadi-904
   - name: 🐟 漏网之鱼
     type: select
     proxies:
