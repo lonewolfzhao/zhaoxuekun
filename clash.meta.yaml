@@ -293,14 +293,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 4Jadi-904, server: 43.201.82.233, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-27, server: 13.114.108.144, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-126, server: 52.198.245.28, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 5|🇸🇬 新加坡2|@ripaojiedian, server: 112.16.228.83, port: 443, type: trojan, password: BZjkHMao, skip-cert-verify: true, udp: true}
-- {name: 5|🇺🇸 美国5|@ripaojiedian, server: 112.29.94.24, port: 51000, type: trojan, password: BZjkHMao, skip-cert-verify: true, udp: true}
-- {name: 4FreeIran-837, server: 13.113.218.2, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国, server: 35.94.117.156, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-26, server: 54.180.156.133, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "9|baipaovpn中国 #2", server: 8.218.243.95, port: 80, type: vmess, uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/needay?ed=2048", headers: {Host: needayhk1.renwox.xyz}}, udp: true}
+- {name: "9|baipaovpn中国 #1", server: 8.217.91.121, port: 80, type: vmess, uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/needay?ed=2048", headers: {Host: needayhk1.renwox.xyz}}, udp: true}
+- {name: "9|baipaovpn中国 #3", server: 8.218.136.25, port: 80, type: vmess, uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/needay?ed=2048", headers: {Host: needayhk1.renwox.xyz}}, udp: true}
+- {name: 4Jadi-962, server: 54.179.167.94, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 5|🇯🇵 日本|@ripaojiedian, server: 120.226.50.89, port: 443, type: trojan, password: BZjkHMao, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-36, server: 54.179.101.194, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 5|🇭🇰 香港4|@ripaojiedian, server: 112.29.94.24, port: 443, type: trojan, password: BZjkHMao, skip-cert-verify: true, udp: true}
+- {name: "0,9|baipaovpn香港 #3", server: 43.154.96.33, port: 443, type: vmess, uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cfhk.393930.xyz}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -317,14 +317,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 4Jadi-904
-      - 0|-https://t.me/MrXbin-27
-      - 0|-https://t.me/MrXbin-126
-      - 5|🇸🇬 新加坡2|@ripaojiedian
-      - 5|🇺🇸 美国5|@ripaojiedian
-      - 4FreeIran-837
-      - _US_美国
-      - 0|-https://t.me/MrXbin-26
+      - "9|baipaovpn中国 #2"
+      - "9|baipaovpn中国 #1"
+      - "9|baipaovpn中国 #3"
+      - 4Jadi-962
+      - 5|🇯🇵 日本|@ripaojiedian
+      - 0|-https://t.me/MrXbin-36
+      - 5|🇭🇰 香港4|@ripaojiedian
+      - "0,9|baipaovpn香港 #3"
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -337,14 +337,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 4Jadi-904
-      - 0|-https://t.me/MrXbin-27
-      - 0|-https://t.me/MrXbin-126
-      - 5|🇸🇬 新加坡2|@ripaojiedian
-      - 5|🇺🇸 美国5|@ripaojiedian
-      - 4FreeIran-837
-      - _US_美国
-      - 0|-https://t.me/MrXbin-26
+      - "9|baipaovpn中国 #2"
+      - "9|baipaovpn中国 #1"
+      - "9|baipaovpn中国 #3"
+      - 4Jadi-962
+      - 5|🇯🇵 日本|@ripaojiedian
+      - 0|-https://t.me/MrXbin-36
+      - 5|🇭🇰 香港4|@ripaojiedian
+      - "0,9|baipaovpn香港 #3"
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -369,14 +369,14 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - 4Jadi-904
-      - 0|-https://t.me/MrXbin-27
-      - 0|-https://t.me/MrXbin-126
-      - 5|🇸🇬 新加坡2|@ripaojiedian
-      - 5|🇺🇸 美国5|@ripaojiedian
-      - 4FreeIran-837
-      - _US_美国
-      - 0|-https://t.me/MrXbin-26
+      - "9|baipaovpn中国 #2"
+      - "9|baipaovpn中国 #1"
+      - "9|baipaovpn中国 #3"
+      - 4Jadi-962
+      - 5|🇯🇵 日本|@ripaojiedian
+      - 0|-https://t.me/MrXbin-36
+      - 5|🇭🇰 香港4|@ripaojiedian
+      - "0,9|baipaovpn香港 #3"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
