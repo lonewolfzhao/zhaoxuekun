@@ -293,14 +293,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 5|🇯🇵 日本特殊|@ripaojiedian, server: 13.250.125.144, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 13|US_分享日记_275, server: 104.19.46.62, port: 8080, type: vmess, uuid: 8d1da7dc-35e0-4565-b9e4-cb593030827e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: racknerd.720208.xyz}}, udp: true}
 - {name: 5|🇸🇬 新加坡|@ripaojiedian, server: 112.16.228.100, port: 51001, type: trojan, password: BZjkHMao, skip-cert-verify: true, udp: true}
-- {name: 13|US_分享日记_140, server: 104.19.46.155, port: 8080, type: vmess, uuid: 8d1da7dc-35e0-4565-b9e4-cb593030827e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: racknerd.720208.xyz}}, udp: true}
-- {name: 13|US_分享日记_17, server: 104.19.45.233, port: 8080, type: vmess, uuid: 8d1da7dc-35e0-4565-b9e4-cb593030827e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: racknerd.720208.xyz}}, udp: true}
-- {name: 13|US_分享日记_57, server: 104.19.45.218, port: 8080, type: vmess, uuid: 8d1da7dc-35e0-4565-b9e4-cb593030827e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: racknerd.720208.xyz}}, udp: true}
-- {name: 13|US_分享日记_88, server: 104.19.46.65, port: 8080, type: vmess, uuid: 8d1da7dc-35e0-4565-b9e4-cb593030827e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: racknerd.720208.xyz}}, udp: true}
-- {name: 13|US_分享日记_277, server: 104.19.45.238, port: 8080, type: vmess, uuid: 8d1da7dc-35e0-4565-b9e4-cb593030827e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: racknerd.720208.xyz}}, udp: true}
+- {name: 4FreeIran-902, server: 13.229.115.125, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "9|baipaovpn中国 #8", server: 8.222.215.228, port: 80, type: vmess, uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/needay?ed=2048", headers: {Host: tw1.renwox.xyz}}, udp: true}
+- {name: "9|baipaovpn中国 #6", server: 8.222.208.83, port: 80, type: vmess, uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/needay?ed=2048", headers: {Host: needayhk1.renwox.xyz}}, udp: true}
+- {name: "9|baipaovpn中国 #5", server: 8.222.168.24, port: 80, type: vmess, uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/needay?ed=2048", headers: {Host: needayhk1.renwox.xyz}}, udp: true}
+- {name: "9|baipaovpn中国 #2", server: 8.219.103.57, port: 80, type: vmess, uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/needay?ed=2048", headers: {Host: tw1.renwox.xyz}}, udp: true}
+- {name: 0|-https://t.me/MrXbin-6, server: 52.195.189.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "9|baipaovpn中国 #7", server: 8.222.145.164, port: 80, type: vmess, uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/needay?ed=2048", headers: {Host: needayhk1.renwox.xyz}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -317,14 +317,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5|🇯🇵 日本特殊|@ripaojiedian
-      - 13|US_分享日记_275
       - 5|🇸🇬 新加坡|@ripaojiedian
-      - 13|US_分享日记_140
-      - 13|US_分享日记_17
-      - 13|US_分享日记_57
-      - 13|US_分享日记_88
-      - 13|US_分享日记_277
+      - 4FreeIran-902
+      - "9|baipaovpn中国 #8"
+      - "9|baipaovpn中国 #6"
+      - "9|baipaovpn中国 #5"
+      - "9|baipaovpn中国 #2"
+      - 0|-https://t.me/MrXbin-6
+      - "9|baipaovpn中国 #7"
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -337,14 +337,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5|🇯🇵 日本特殊|@ripaojiedian
-      - 13|US_分享日记_275
       - 5|🇸🇬 新加坡|@ripaojiedian
-      - 13|US_分享日记_140
-      - 13|US_分享日记_17
-      - 13|US_分享日记_57
-      - 13|US_分享日记_88
-      - 13|US_分享日记_277
+      - 4FreeIran-902
+      - "9|baipaovpn中国 #8"
+      - "9|baipaovpn中国 #6"
+      - "9|baipaovpn中国 #5"
+      - "9|baipaovpn中国 #2"
+      - 0|-https://t.me/MrXbin-6
+      - "9|baipaovpn中国 #7"
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -369,14 +369,14 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - 5|🇯🇵 日本特殊|@ripaojiedian
-      - 13|US_分享日记_275
       - 5|🇸🇬 新加坡|@ripaojiedian
-      - 13|US_分享日记_140
-      - 13|US_分享日记_17
-      - 13|US_分享日记_57
-      - 13|US_分享日记_88
-      - 13|US_分享日记_277
+      - 4FreeIran-902
+      - "9|baipaovpn中国 #8"
+      - "9|baipaovpn中国 #6"
+      - "9|baipaovpn中国 #5"
+      - "9|baipaovpn中国 #2"
+      - 0|-https://t.me/MrXbin-6
+      - "9|baipaovpn中国 #7"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
