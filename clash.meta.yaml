@@ -298,6 +298,7 @@ proxies:
 - {name: "9|baipaovpn中国 #8", server: 8.222.215.228, port: 80, type: vmess, uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/needay?ed=2048", headers: {Host: tw1.renwox.xyz}}, udp: true}
 - {name: "9|baipaovpn中国 #6", server: 8.222.208.83, port: 80, type: vmess, uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/needay?ed=2048", headers: {Host: needayhk1.renwox.xyz}}, udp: true}
 - {name: "9|baipaovpn中国 #5", server: 8.222.168.24, port: 80, type: vmess, uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/needay?ed=2048", headers: {Host: needayhk1.renwox.xyz}}, udp: true}
+- {name: 5|🇺🇸 美国5|@ripaojiedian, server: 112.29.94.24, port: 51000, type: trojan, password: BZjkHMao, skip-cert-verify: true, udp: true}
 - {name: "9|baipaovpn中国 #2", server: 8.219.103.57, port: 80, type: vmess, uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/needay?ed=2048", headers: {Host: tw1.renwox.xyz}}, udp: true}
 - {name: 0|-https://t.me/MrXbin-6, server: 52.195.189.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: "9|baipaovpn中国 #7", server: 8.222.145.164, port: 80, type: vmess, uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/needay?ed=2048", headers: {Host: needayhk1.renwox.xyz}}, udp: true}
@@ -322,6 +323,7 @@ proxy-groups:
       - "9|baipaovpn中国 #8"
       - "9|baipaovpn中国 #6"
       - "9|baipaovpn中国 #5"
+      - 5|🇺🇸 美国5|@ripaojiedian
       - "9|baipaovpn中国 #2"
       - 0|-https://t.me/MrXbin-6
       - "9|baipaovpn中国 #7"
@@ -342,6 +344,7 @@ proxy-groups:
       - "9|baipaovpn中国 #8"
       - "9|baipaovpn中国 #6"
       - "9|baipaovpn中国 #5"
+      - 5|🇺🇸 美国5|@ripaojiedian
       - "9|baipaovpn中国 #2"
       - 0|-https://t.me/MrXbin-6
       - "9|baipaovpn中国 #7"
@@ -374,6 +377,7 @@ proxy-groups:
       - "9|baipaovpn中国 #8"
       - "9|baipaovpn中国 #6"
       - "9|baipaovpn中国 #5"
+      - 5|🇺🇸 美国5|@ripaojiedian
       - "9|baipaovpn中国 #2"
       - 0|-https://t.me/MrXbin-6
       - "9|baipaovpn中国 #7"
