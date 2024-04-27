@@ -293,14 +293,11 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 5|🇯🇵 日本|@ripaojiedian, server: 183.249.207.245, port: 51001, type: trojan, password: BZjkHMao, skip-cert-verify: true, udp: true}
-- {name: "5,6|美国3|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2095, type: vmess, uuid: a1285794-a9fd-4423-83f5-aeecc84dd76d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/qYZue4zaWS, headers: {Host: us82pRzxDMb.fzbqfrse.xyz}}, udp: true}
-- {name: 5|🇺🇸 美国5|@ripaojiedian, server: 112.29.94.23, port: 51003, type: trojan, password: BZjkHMao, skip-cert-verify: true, udp: true}
-- {name: 5|🇺🇸 美国5|@ripaojiedian 2, server: 112.29.94.24, port: 51000, type: trojan, password: BZjkHMao, skip-cert-verify: true, udp: true}
-- {name: 4Sarina-975, server: 54.199.167.157, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 13|US_分享日记_406, server: 104.19.44.171, port: 8080, type: vmess, uuid: 3fdf9d48-578a-42dc-9fdd-0dfcefa3d0c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: amd2.720208.xyz}}, udp: true}
-- {name: 13|US_分享日记_383, server: 104.19.44.165, port: 8080, type: vmess, uuid: 3fdf9d48-578a-42dc-9fdd-0dfcefa3d0c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: amd2.720208.xyz}}, udp: true}
-- {name: 13|US_分享日记_387, server: 104.19.44.200, port: 8080, type: vmess, uuid: 3fdf9d48-578a-42dc-9fdd-0dfcefa3d0c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: amd2.720208.xyz}}, udp: true}
+- {name: 5|🇺🇸 美国5|@ripaojiedian, server: 112.29.94.24, port: 51000, type: trojan, password: BZjkHMao, skip-cert-verify: true, udp: true}
+- {name: 13|US_分享日记_365, server: 104.19.44.182, port: 8080, type: vmess, uuid: 3fdf9d48-578a-42dc-9fdd-0dfcefa3d0c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: amd2.720208.xyz}}, udp: true}
+- {name: 5|🇺🇸 美国5|@ripaojiedian 2, server: 112.29.94.23, port: 51003, type: trojan, password: BZjkHMao, skip-cert-verify: true, udp: true}
+- {name: 13|US_分享日记_389, server: 104.19.44.151, port: 8080, type: vmess, uuid: 3fdf9d48-578a-42dc-9fdd-0dfcefa3d0c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: amd2.720208.xyz}}, udp: true}
+- {name: "13|美国【TG：@ccbaohe】定时更新节点订阅 #3", server: 104.19.250.15, port: 2052, type: vmess, uuid: 9fdd16d7-dcb7-45d7-fd62-23d702c71ea0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttt.inekokkk.top}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -317,14 +314,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5|🇯🇵 日本|@ripaojiedian
-      - 5,6|美国3|@ripaojiedian
       - 5|🇺🇸 美国5|@ripaojiedian
+      - 13|US_分享日记_365
       - 5|🇺🇸 美国5|@ripaojiedian 2
-      - 4Sarina-975
-      - 13|US_分享日记_406
-      - 13|US_分享日记_383
-      - 13|US_分享日记_387
+      - 13|US_分享日记_389
+      - "13|美国【TG：@ccbaohe】定时更新节点订阅 #3"
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -337,14 +331,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5|🇯🇵 日本|@ripaojiedian
-      - 5,6|美国3|@ripaojiedian
       - 5|🇺🇸 美国5|@ripaojiedian
+      - 13|US_分享日记_365
       - 5|🇺🇸 美国5|@ripaojiedian 2
-      - 4Sarina-975
-      - 13|US_分享日记_406
-      - 13|US_分享日记_383
-      - 13|US_分享日记_387
+      - 13|US_分享日记_389
+      - "13|美国【TG：@ccbaohe】定时更新节点订阅 #3"
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -369,14 +360,11 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - 5|🇯🇵 日本|@ripaojiedian
-      - 5,6|美国3|@ripaojiedian
       - 5|🇺🇸 美国5|@ripaojiedian
+      - 13|US_分享日记_365
       - 5|🇺🇸 美国5|@ripaojiedian 2
-      - 4Sarina-975
-      - 13|US_分享日记_406
-      - 13|US_分享日记_383
-      - 13|US_分享日记_387
+      - 13|US_分享日记_389
+      - "13|美国【TG：@ccbaohe】定时更新节点订阅 #3"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
