@@ -710,8 +710,6 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-  sni: www.bing.com
-  skip-cert-verify: true
 - {name: 0|-https://t.me/MrXbin-28, server: 8.218.82.85, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
 - {name: 4Mohsen-616, server: 47.76.185.99, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
 proxy-groups:
