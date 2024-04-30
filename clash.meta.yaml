@@ -300,7 +300,7 @@ proxies:
 - {name: 5|🇺🇸 美国4|@ripaojiedian, server: 112.29.94.24, port: 51000, type: trojan, password: MyYoZhfX, skip-cert-verify: true, udp: true}
 - {name: 5|🇺🇸 美国5|@ripaojiedian, server: 112.29.94.23, port: 51003, type: trojan, password: MyYoZhfX, skip-cert-verify: true, udp: true}
 - {name: 5|🇹🇼 台湾2|@ripaojiedian, server: in06.dns2024.org, port: 61017, type: vmess, uuid: 9eac8830-5da5-3ee2-a4b2-b49598275623, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "5,6|台湾|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 8c7b39d2-eb80-48d4-9471-76bddc5273c8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}}, udp: true}
+- {name: 5|🇭🇰 香港3|@ripaojiedian, server: 183.232.199.28, port: 15600, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -324,7 +324,7 @@ proxy-groups:
       - 5|🇺🇸 美国4|@ripaojiedian
       - 5|🇺🇸 美国5|@ripaojiedian
       - 5|🇹🇼 台湾2|@ripaojiedian
-      - 5,6|台湾|@ripaojiedian
+      - 5|🇭🇰 香港3|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -344,7 +344,7 @@ proxy-groups:
       - 5|🇺🇸 美国4|@ripaojiedian
       - 5|🇺🇸 美国5|@ripaojiedian
       - 5|🇹🇼 台湾2|@ripaojiedian
-      - 5,6|台湾|@ripaojiedian
+      - 5|🇭🇰 香港3|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -376,7 +376,7 @@ proxy-groups:
       - 5|🇺🇸 美国4|@ripaojiedian
       - 5|🇺🇸 美国5|@ripaojiedian
       - 5|🇹🇼 台湾2|@ripaojiedian
-      - 5,6|台湾|@ripaojiedian
+      - 5|🇭🇰 香港3|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
