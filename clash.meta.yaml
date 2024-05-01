@@ -323,6 +323,12 @@ proxies:
   skip-cert-verify: true
 - {name: 5|🇭🇰 香港4|@ripaojiedian, server: 112.29.94.24, port: 443, type: trojan, password: MyYoZhfX, skip-cert-verify: true, udp: true}
 - {name: 13|🇰🇷|KR|韩国|@wxgqlfx|5, server: kr-seoul-oracle-b0566e.ip1.shop, port: 46515, type: vmess, uuid: f0f067fe-8e6d-4d95-816b-601038fd5876, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/rongseven?ed=2048", headers: {Host: kr-seoul-oracle-b0566e.ip1.shop}}, udp: true}
+- {name: 5|🇰🇷 韩国特殊|@ripaojiedian, server: 34.220.201.161, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 5|🇸🇬 狮城特殊|@ripaojiedian, server: 54.65.132.51, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Mohsen-616, server: 47.76.185.99, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+- {name: 0|-https://t.me/MrXbin-28, server: 8.218.82.85, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+- {name: 5|🇺🇸 美国5|@ripaojiedian, server: 112.29.94.23, port: 51003, type: trojan, password: MyYoZhfX, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-76, server: 23.142.200.175, port: 443, type: trojan, password: 27876_t7d7f4e3f, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -341,6 +347,12 @@ proxy-groups:
     proxies:
       - 5|🇭🇰 香港4|@ripaojiedian
       - 13|🇰🇷|KR|韩国|@wxgqlfx|5
+      - 5|🇰🇷 韩国特殊|@ripaojiedian
+      - 5|🇸🇬 狮城特殊|@ripaojiedian
+      - 4Mohsen-616
+      - 0|-https://t.me/MrXbin-28
+      - 5|🇺🇸 美国5|@ripaojiedian
+      - 0|-https://t.me/MrXbin-76
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -355,6 +367,12 @@ proxy-groups:
     proxies:
       - 5|🇭🇰 香港4|@ripaojiedian
       - 13|🇰🇷|KR|韩国|@wxgqlfx|5
+      - 5|🇰🇷 韩国特殊|@ripaojiedian
+      - 5|🇸🇬 狮城特殊|@ripaojiedian
+      - 4Mohsen-616
+      - 0|-https://t.me/MrXbin-28
+      - 5|🇺🇸 美国5|@ripaojiedian
+      - 0|-https://t.me/MrXbin-76
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -385,6 +403,12 @@ proxy-groups:
 
       - 5|🇭🇰 香港4|@ripaojiedian
       - 13|🇰🇷|KR|韩国|@wxgqlfx|5
+      - 5|🇰🇷 韩国特殊|@ripaojiedian
+      - 5|🇸🇬 狮城特殊|@ripaojiedian
+      - 4Mohsen-616
+      - 0|-https://t.me/MrXbin-28
+      - 5|🇺🇸 美国5|@ripaojiedian
+      - 0|-https://t.me/MrXbin-76
   - name: 🐟 漏网之鱼
     type: select
     proxies:
