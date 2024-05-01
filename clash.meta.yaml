@@ -321,8 +321,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
+- {name: 5|🇯🇵 日本|@ripaojiedian, server: 36.151.192.100, port: 61190, type: trojan, password: MyYoZhfX, skip-cert-verify: true, udp: true}
+- {name: 5|🇯🇵 日本特殊|@ripaojiedian, server: 18.143.159.105, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 5|🇺🇸 美国5|@ripaojiedian, server: 112.29.94.23, port: 51003, type: trojan, password: MyYoZhfX, skip-cert-verify: true, udp: true}
+- {name: 5|🇺🇸 美国4|@ripaojiedian, server: 112.29.94.24, port: 51000, type: trojan, password: MyYoZhfX, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-8, server: 43.201.69.200, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 5|🇰🇷 韩国特殊|@ripaojiedian, server: 34.220.201.161, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-76, server: 23.142.200.175, port: 443, type: trojan, password: 27876_t7d7f4e3f, skip-cert-verify: true, udp: true}
 - {name: 0|-https://t.me/MrXbin-28, server: 8.218.82.85, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-- {name: 4Mohsen-616, server: 47.76.185.99, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -339,8 +345,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
+      - 5|🇯🇵 日本|@ripaojiedian
+      - 5|🇯🇵 日本特殊|@ripaojiedian
+      - 5|🇺🇸 美国5|@ripaojiedian
+      - 5|🇺🇸 美国4|@ripaojiedian
+      - 0|-https://t.me/MrXbin-8
+      - 5|🇰🇷 韩国特殊|@ripaojiedian
+      - 0|-https://t.me/MrXbin-76
       - 0|-https://t.me/MrXbin-28
-      - 4Mohsen-616
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -353,8 +365,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
+      - 5|🇯🇵 日本|@ripaojiedian
+      - 5|🇯🇵 日本特殊|@ripaojiedian
+      - 5|🇺🇸 美国5|@ripaojiedian
+      - 5|🇺🇸 美国4|@ripaojiedian
+      - 0|-https://t.me/MrXbin-8
+      - 5|🇰🇷 韩国特殊|@ripaojiedian
+      - 0|-https://t.me/MrXbin-76
       - 0|-https://t.me/MrXbin-28
-      - 4Mohsen-616
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -383,8 +401,14 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
+      - 5|🇯🇵 日本|@ripaojiedian
+      - 5|🇯🇵 日本特殊|@ripaojiedian
+      - 5|🇺🇸 美国5|@ripaojiedian
+      - 5|🇺🇸 美国4|@ripaojiedian
+      - 0|-https://t.me/MrXbin-8
+      - 5|🇰🇷 韩国特殊|@ripaojiedian
+      - 0|-https://t.me/MrXbin-76
       - 0|-https://t.me/MrXbin-28
-      - 4Mohsen-616
   - name: 🐟 漏网之鱼
     type: select
     proxies:
