@@ -309,14 +309,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: "5,6|新加坡2|@ripaojiedian", server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: 7c42a3f8-cb73-4338-91e6-eef9e7346b12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/u4eCZTxW, headers: {Host: jpafzyhfsg3.yofnhkfc.xyz}}, udp: true}
+- {name: 5|🇺🇸 美国5|@ripaojiedian, server: 112.29.94.23, port: 51003, type: trojan, password: MyYoZhfX, skip-cert-verify: true, udp: true}
+- {name: "5,6|美国|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2095, type: vmess, uuid: 7c42a3f8-cb73-4338-91e6-eef9e7346b12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/qYZue4zaWS, headers: {Host: us82pRzxDMb.fzbqfrse.xyz}}, udp: true}
 - {name: 5|🇺🇸 美国4|@ripaojiedian, server: 112.29.94.23, port: 46011, type: trojan, password: MyYoZhfX, skip-cert-verify: true, udp: true}
 - {name: 0|-https://t.me/MrXbin-29, server: 47.76.185.99, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-- {name: 4Jadi-573, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
-- {name: 5|🇩🇪 德国|@ripaojiedian, server: 36.138.99.56, port: 40316, type: trojan, password: MyYoZhfX, skip-cert-verify: true, udp: true}
-- {name: 10|🇺🇸_US_美国->🇩🇪_DE_德国_3, server: 104.18.19.191, port: 2052, type: vmess, uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: helanv6cf.inekokkk.top}}, udp: true}
-- {name: 5|🇯🇵 日本特殊|@ripaojiedian, server: 43.207.72.91, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Jadi-2127, server: 23.162.200.215, port: 9090, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -333,14 +329,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5,6|新加坡2|@ripaojiedian
+      - 5|🇺🇸 美国5|@ripaojiedian
+      - 5,6|美国|@ripaojiedian
       - 5|🇺🇸 美国4|@ripaojiedian
       - 0|-https://t.me/MrXbin-29
-      - 4Jadi-573
-      - 5|🇩🇪 德国|@ripaojiedian
-      - 10|🇺🇸_US_美国->🇩🇪_DE_德国_3
-      - 5|🇯🇵 日本特殊|@ripaojiedian
-      - 4Jadi-2127
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -353,14 +345,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5,6|新加坡2|@ripaojiedian
+      - 5|🇺🇸 美国5|@ripaojiedian
+      - 5,6|美国|@ripaojiedian
       - 5|🇺🇸 美国4|@ripaojiedian
       - 0|-https://t.me/MrXbin-29
-      - 4Jadi-573
-      - 5|🇩🇪 德国|@ripaojiedian
-      - 10|🇺🇸_US_美国->🇩🇪_DE_德国_3
-      - 5|🇯🇵 日本特殊|@ripaojiedian
-      - 4Jadi-2127
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -388,14 +376,10 @@ proxy-groups:
       - United States_Los Angeles_hy2_1
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
-      - 5,6|新加坡2|@ripaojiedian
+      - 5|🇺🇸 美国5|@ripaojiedian
+      - 5,6|美国|@ripaojiedian
       - 5|🇺🇸 美国4|@ripaojiedian
       - 0|-https://t.me/MrXbin-29
-      - 4Jadi-573
-      - 5|🇩🇪 德国|@ripaojiedian
-      - 10|🇺🇸_US_美国->🇩🇪_DE_德国_3
-      - 5|🇯🇵 日本特殊|@ripaojiedian
-      - 4Jadi-2127
   - name: 🐟 漏网之鱼
     type: select
     proxies:
