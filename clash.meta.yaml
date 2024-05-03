@@ -63,7 +63,7 @@ proxies:
     path: /argox-vl?ed=2048
     headers:
       host: giving-hide-provisions-corrected.trycloudflare.com
-- name: United States_None_vless_22
+- name: None_None_vless_22
   type: vless
   server: yh9.dtku41.xyz
   port: 443
@@ -87,7 +87,7 @@ proxies:
     path: /argox-vl?ed=2048
     headers:
       host: giving-hide-provisions-corrected.trycloudflare.com
-- name: None_None_vless_24
+- name: United States_None_vless_24
   type: vless
   server: yh1.dtku41.xyz
   port: 443
@@ -310,13 +310,11 @@ proxies:
   sni: www.bing.com
   skip-cert-verify: true
 - {name: 16|香港6|@ripaojiedian, server: 183.240.179.195, port: 15601, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 13|🇺🇸 US 66.228.37.43 ◈ ws:80 ◈ A..., server: speed.cloudflare.com, port: 80, type: vmess, uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hms02.fxiaomi.sbs/link, headers: {Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev}}, udp: true}
-- {name: 5|🇺🇸 美国5|@ripaojiedian, server: 112.29.94.23, port: 51003, type: trojan, password: MyYoZhfX, skip-cert-verify: true, udp: true}
-- {name: 5|🇸🇬 狮城特殊|@ripaojiedian, server: 54.199.91.61, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-119, server: 156.225.67.240, port: 41000, type: vmess, uuid: 9c026efe-6af0-465f-b8c0-3f58c8c2d4c5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/180820033318}, udp: true}
-- {name: "9|baipaovpn美国 #3", server: 158.247.240.219, port: 80, type: vmess, uuid: 4400260c-f088-4748-af5c-cacce1156de0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kr04.beautifulprimavera.online}}, udp: true}
-- {name: 0|-https://t.me/MrXbin-115, server: 172.64.96.151, port: 2052, type: vmess, uuid: bbc0f282-36d4-4a10-83e1-19c7efff7f4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: bbc0f282, headers: {Host: sleeve-cialis-ranges-xml.trycloudflare.com}}, udp: true}
-- {name: 0|-https://t.me/MrXbin-11, server: 8.218.82.85, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+- {name: 5|🇯🇵 日本|@ripaojiedian, server: 183.249.207.244, port: 22386, type: trojan, password: MyYoZhfX, skip-cert-verify: true, udp: true}
+- {name: 11|广东省佛山市 移动, server: 183.232.199.28, port: 15600, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-11, server: 144.34.172.112, port: 11309, type: ss, cipher: aes-256-gcm, password: cYDTSxfpprFQBNn5, udp: true}
+- {name: 0|-https://t.me/MrXbin-11 2, server: 8.218.82.85, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
+- {name: 4FreeIran-884, server: 13.231.229.48, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -334,13 +332,11 @@ proxy-groups:
     interval: 300
     proxies:
       - 16|香港6|@ripaojiedian
-      - 13|🇺🇸 US 66.228.37.43 ◈ ws:80 ◈ A...
-      - 5|🇺🇸 美国5|@ripaojiedian
-      - 5|🇸🇬 狮城特殊|@ripaojiedian
-      - 0|-https://t.me/MrXbin-119
-      - "9|baipaovpn美国 #3"
-      - 0|-https://t.me/MrXbin-115
+      - 5|🇯🇵 日本|@ripaojiedian
+      - 11|广东省佛山市 移动
       - 0|-https://t.me/MrXbin-11
+      - 0|-https://t.me/MrXbin-11 2
+      - 4FreeIran-884
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -354,13 +350,11 @@ proxy-groups:
     interval: 300
     proxies:
       - 16|香港6|@ripaojiedian
-      - 13|🇺🇸 US 66.228.37.43 ◈ ws:80 ◈ A...
-      - 5|🇺🇸 美国5|@ripaojiedian
-      - 5|🇸🇬 狮城特殊|@ripaojiedian
-      - 0|-https://t.me/MrXbin-119
-      - "9|baipaovpn美国 #3"
-      - 0|-https://t.me/MrXbin-115
+      - 5|🇯🇵 日本|@ripaojiedian
+      - 11|广东省佛山市 移动
       - 0|-https://t.me/MrXbin-11
+      - 0|-https://t.me/MrXbin-11 2
+      - 4FreeIran-884
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -370,9 +364,9 @@ proxy-groups:
       - United States_Los Angeles_tuic_01
       - United States_Los Angeles_hysteria_11
       - None_None_vless_21
-      - United States_None_vless_22
+      - None_None_vless_22
       - None_None_vless_23
-      - None_None_vless_24
+      - United States_None_vless_24
       - None_None_vmess_31
       - United States_Los Angeles_tuic_41
       - United States_Kansas City_vless_51
@@ -390,13 +384,11 @@ proxy-groups:
       - United States_Los Angeles_hy2_3
 
       - 16|香港6|@ripaojiedian
-      - 13|🇺🇸 US 66.228.37.43 ◈ ws:80 ◈ A...
-      - 5|🇺🇸 美国5|@ripaojiedian
-      - 5|🇸🇬 狮城特殊|@ripaojiedian
-      - 0|-https://t.me/MrXbin-119
-      - "9|baipaovpn美国 #3"
-      - 0|-https://t.me/MrXbin-115
+      - 5|🇯🇵 日本|@ripaojiedian
+      - 11|广东省佛山市 移动
       - 0|-https://t.me/MrXbin-11
+      - 0|-https://t.me/MrXbin-11 2
+      - 4FreeIran-884
   - name: 🐟 漏网之鱼
     type: select
     proxies:
