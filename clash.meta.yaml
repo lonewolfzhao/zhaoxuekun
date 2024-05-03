@@ -53,10 +53,10 @@ proxies:
   hop_interval: 10
 - name: None_None_vless_21
   type: vless
-  server: yh7.dtku41.xyz
-  port: 443
+  server: 104.26.9.12
+  port: 80
   uuid: 1a62379a-e160-45a3-8361-3e6b5021d192
-  tls: true
+  tls: false
   servername: giving-hide-provisions-corrected.trycloudflare.com
   network: ws
   ws-opts:
@@ -65,10 +65,10 @@ proxies:
       host: giving-hide-provisions-corrected.trycloudflare.com
 - name: None_None_vless_22
   type: vless
-  server: yh9.dtku41.xyz
-  port: 443
+  server: 104.19.21.24
+  port: 80
   uuid: 1a62379a-e160-45a3-8361-3e6b5021d192
-  tls: true
+  tls: false
   servername: giving-hide-provisions-corrected.trycloudflare.com
   network: ws
   ws-opts:
@@ -77,22 +77,22 @@ proxies:
       host: giving-hide-provisions-corrected.trycloudflare.com
 - name: None_None_vless_23
   type: vless
-  server: yh6.dtku41.xyz
-  port: 443
+  server: 104.26.9.54
+  port: 80
   uuid: 1a62379a-e160-45a3-8361-3e6b5021d192
-  tls: true
+  tls: false
   servername: giving-hide-provisions-corrected.trycloudflare.com
   network: ws
   ws-opts:
     path: /argox-vl?ed=2048
     headers:
       host: giving-hide-provisions-corrected.trycloudflare.com
-- name: United States_None_vless_24
+- name: None_None_vless_24
   type: vless
-  server: yh1.dtku41.xyz
-  port: 443
+  server: 104.19.38.28
+  port: 80
   uuid: 1a62379a-e160-45a3-8361-3e6b5021d192
-  tls: true
+  tls: false
   servername: giving-hide-provisions-corrected.trycloudflare.com
   network: ws
   ws-opts:
@@ -101,7 +101,52 @@ proxies:
       host: giving-hide-provisions-corrected.trycloudflare.com
 - name: None_None_vmess_31
   type: vmess
-  server: yh4.dtku41.xyz
+  server: 104.26.9.22
+  port: 8080
+  cipher: auto
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: dual-nothing-prep-exit.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+    headers:
+      host: dual-nothing-prep-exit.trycloudflare.com
+- name: United States_None_vmess_32
+  type: vmess
+  server: 172.64.97.235
+  port: 8080
+  cipher: auto
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: dual-nothing-prep-exit.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+    headers:
+      host: dual-nothing-prep-exit.trycloudflare.com
+- name: None_None_vmess_33
+  type: vmess
+  server: 104.19.38.28
+  port: 8080
+  cipher: auto
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: dual-nothing-prep-exit.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+    headers:
+      host: dual-nothing-prep-exit.trycloudflare.com
+- name: None_None_vmess_34
+  type: vmess
+  server: 104.19.38.48
   port: 8080
   cipher: auto
   uuid: ef8c954e-014f-4b36-8273-9b5086afab34
@@ -309,13 +354,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: "11,16|香港6|@ripaojiedian", server: 183.240.179.195, port: 15601, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 5|🇭🇰 香港4|@ripaojiedian, server: 112.29.94.23, port: 11210, type: trojan, password: MyYoZhfX, skip-cert-verify: true, udp: true}
-- {name: 5|🇰🇷 韩国特殊|@ripaojiedian, server: 34.219.119.71, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-29, server: 47.76.185.99, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-- {name: 5|🇺🇸 美国4|@ripaojiedian, server: 112.29.94.23, port: 46011, type: trojan, password: MyYoZhfX, skip-cert-verify: true, udp: true}
+- {name: 5|🇭🇰 香港6|@ripaojiedian, server: 183.240.179.195, port: 15601, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Kian-941, server: 43.202.41.139, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 5|🇯🇵 日本|@ripaojiedian, server: 183.249.207.244, port: 22386, type: trojan, password: MyYoZhfX, skip-cert-verify: true, udp: true}
-- {name: "5,6|香港5|@ripaojiedian", server: yes.cnmjcn.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}, udp: true}
+- {name: 4FreeIran-614, server: 47.76.185.99, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
 - {name: 0|-https://t.me/MrXbin-11, server: 8.218.82.85, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -333,13 +375,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 11,16|香港6|@ripaojiedian
-      - 5|🇭🇰 香港4|@ripaojiedian
-      - 5|🇰🇷 韩国特殊|@ripaojiedian
-      - 0|-https://t.me/MrXbin-29
-      - 5|🇺🇸 美国4|@ripaojiedian
+      - 5|🇭🇰 香港6|@ripaojiedian
+      - 4Kian-941
       - 5|🇯🇵 日本|@ripaojiedian
-      - 5,6|香港5|@ripaojiedian
+      - 4FreeIran-614
       - 0|-https://t.me/MrXbin-11
   - name: 🔰 节点选择
     type: select
@@ -353,13 +392,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 11,16|香港6|@ripaojiedian
-      - 5|🇭🇰 香港4|@ripaojiedian
-      - 5|🇰🇷 韩国特殊|@ripaojiedian
-      - 0|-https://t.me/MrXbin-29
-      - 5|🇺🇸 美国4|@ripaojiedian
+      - 5|🇭🇰 香港6|@ripaojiedian
+      - 4Kian-941
       - 5|🇯🇵 日本|@ripaojiedian
-      - 5,6|香港5|@ripaojiedian
+      - 4FreeIran-614
       - 0|-https://t.me/MrXbin-11
   - name: ♻️ 可能受限
     type: load-balance
@@ -372,8 +408,11 @@ proxy-groups:
       - None_None_vless_21
       - None_None_vless_22
       - None_None_vless_23
-      - United States_None_vless_24
+      - None_None_vless_24
       - None_None_vmess_31
+      - United States_None_vmess_32
+      - None_None_vmess_33
+      - None_None_vmess_34
       - United States_Los Angeles_tuic_41
       - United States_Kansas City_vless_51
       - United States_Kansas City_ss_61
@@ -389,13 +428,10 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - 11,16|香港6|@ripaojiedian
-      - 5|🇭🇰 香港4|@ripaojiedian
-      - 5|🇰🇷 韩国特殊|@ripaojiedian
-      - 0|-https://t.me/MrXbin-29
-      - 5|🇺🇸 美国4|@ripaojiedian
+      - 5|🇭🇰 香港6|@ripaojiedian
+      - 4Kian-941
       - 5|🇯🇵 日本|@ripaojiedian
-      - 5,6|香港5|@ripaojiedian
+      - 4FreeIran-614
       - 0|-https://t.me/MrXbin-11
   - name: 🐟 漏网之鱼
     type: select
