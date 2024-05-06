@@ -354,14 +354,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 16|香港6|@ripaojiedian, server: 183.240.179.195, port: 15601, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 5|🇭🇰 香港4|@ripaojiedian, server: 112.29.94.23, port: 11210, type: trojan, password: MyYoZhfX, skip-cert-verify: true, udp: true}
+- {name: 5|🇭🇰 香港6|@ripaojiedian, server: 183.240.179.195, port: 15601, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: "5,6|香港|@ripaojiedian", server: m.cnmjin.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}, udp: true}
+- {name: 4Nika-907, server: 34.222.133.159, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 16|台湾|@ripaojiedian, server: 183.232.199.28, port: 21006, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "5,6|美国3|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2082, type: vmess, uuid: 7f40abd1-6397-4706-8510-bc5d08df8ad5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/CuTy87zAzV/, headers: {Host: us4Bb5oSgJA.fzbqfrse.xyz}}, udp: true}
-- {name: 4Mohsen-895, server: 34.219.119.71, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Mohsen-873, server: 18.139.225.183, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "11,16|日本2|@ripaojiedian", server: 183.232.199.61, port: 61001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 13|🇨🇦加拿大5丨电报群@bp520, server: 162.159.200.5, port: 80, type: vmess, uuid: bdeaba4b-bdac-426f-94f2-16a63d91352f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: ca3.889611.com}}, udp: true}
+- {name: 5|🇯🇵 日本特殊|@ripaojiedian, server: 13.214.214.197, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 6|香港8|@ripaojiedian, server: 183.232.199.61, port: 15603, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Nika-117, server: 46.226.164.2, port: 16006, type: ss, cipher: chacha20-ietf-poly1305, password: Bd3FRq4bMQwowHRCZ3v2xm, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -378,14 +378,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 16|香港6|@ripaojiedian
       - 5|🇭🇰 香港4|@ripaojiedian
+      - 5|🇭🇰 香港6|@ripaojiedian
+      - 5,6|香港|@ripaojiedian
+      - 4Nika-907
       - 16|台湾|@ripaojiedian
-      - 5,6|美国3|@ripaojiedian
-      - 4Mohsen-895
-      - 4Mohsen-873
-      - 11,16|日本2|@ripaojiedian
-      - 13|🇨🇦加拿大5丨电报群@bp520
+      - 5|🇯🇵 日本特殊|@ripaojiedian
+      - 6|香港8|@ripaojiedian
+      - 4Nika-117
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -398,14 +398,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 16|香港6|@ripaojiedian
       - 5|🇭🇰 香港4|@ripaojiedian
+      - 5|🇭🇰 香港6|@ripaojiedian
+      - 5,6|香港|@ripaojiedian
+      - 4Nika-907
       - 16|台湾|@ripaojiedian
-      - 5,6|美国3|@ripaojiedian
-      - 4Mohsen-895
-      - 4Mohsen-873
-      - 11,16|日本2|@ripaojiedian
-      - 13|🇨🇦加拿大5丨电报群@bp520
+      - 5|🇯🇵 日本特殊|@ripaojiedian
+      - 6|香港8|@ripaojiedian
+      - 4Nika-117
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -437,14 +437,14 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - 16|香港6|@ripaojiedian
       - 5|🇭🇰 香港4|@ripaojiedian
+      - 5|🇭🇰 香港6|@ripaojiedian
+      - 5,6|香港|@ripaojiedian
+      - 4Nika-907
       - 16|台湾|@ripaojiedian
-      - 5,6|美国3|@ripaojiedian
-      - 4Mohsen-895
-      - 4Mohsen-873
-      - 11,16|日本2|@ripaojiedian
-      - 13|🇨🇦加拿大5丨电报群@bp520
+      - 5|🇯🇵 日本特殊|@ripaojiedian
+      - 6|香港8|@ripaojiedian
+      - 4Nika-117
   - name: 🐟 漏网之鱼
     type: select
     proxies:
