@@ -354,14 +354,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
+- {name: 5|🇸🇬 狮城特殊|@ripaojiedian, server: 54.151.219.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 5|🇭🇰 香港4|@ripaojiedian, server: 112.29.94.23, port: 11210, type: trojan, password: MyYoZhfX, skip-cert-verify: true, udp: true}
-- {name: 5|🇭🇰 香港6|@ripaojiedian, server: 183.240.179.195, port: 15601, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "5,6|香港|@ripaojiedian", server: m.cnmjin.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}, udp: true}
-- {name: 4Nika-907, server: 34.222.133.159, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 16|台湾|@ripaojiedian, server: 183.232.199.28, port: 21006, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 5|🇯🇵 日本特殊|@ripaojiedian, server: 13.214.214.197, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 6|香港8|@ripaojiedian, server: 183.232.199.61, port: 15603, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4Nika-117, server: 46.226.164.2, port: 16006, type: ss, cipher: chacha20-ietf-poly1305, password: Bd3FRq4bMQwowHRCZ3v2xm, udp: true}
+- {name: 0|-https://t.me/MrXbin-4, server: 118.163.179.161, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}, udp: true}
+- {name: "5,6|香港5|@ripaojiedian", server: yes.cnmjcn.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}, udp: true}
+- {name: "11,16|香港6|@ripaojiedian", server: 183.240.179.195, port: 15601, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 5|🇰🇷 韩国特殊|@ripaojiedian, server: 13.212.91.18, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 5|🇯🇵 日本特殊|@ripaojiedian, server: 46.137.236.48, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-12, server: 18.142.225.182, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -378,14 +378,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
+      - 5|🇸🇬 狮城特殊|@ripaojiedian
       - 5|🇭🇰 香港4|@ripaojiedian
-      - 5|🇭🇰 香港6|@ripaojiedian
-      - 5,6|香港|@ripaojiedian
-      - 4Nika-907
-      - 16|台湾|@ripaojiedian
+      - 0|-https://t.me/MrXbin-4
+      - 5,6|香港5|@ripaojiedian
+      - 11,16|香港6|@ripaojiedian
+      - 5|🇰🇷 韩国特殊|@ripaojiedian
       - 5|🇯🇵 日本特殊|@ripaojiedian
-      - 6|香港8|@ripaojiedian
-      - 4Nika-117
+      - 0|-https://t.me/MrXbin-12
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -398,14 +398,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
+      - 5|🇸🇬 狮城特殊|@ripaojiedian
       - 5|🇭🇰 香港4|@ripaojiedian
-      - 5|🇭🇰 香港6|@ripaojiedian
-      - 5,6|香港|@ripaojiedian
-      - 4Nika-907
-      - 16|台湾|@ripaojiedian
+      - 0|-https://t.me/MrXbin-4
+      - 5,6|香港5|@ripaojiedian
+      - 11,16|香港6|@ripaojiedian
+      - 5|🇰🇷 韩国特殊|@ripaojiedian
       - 5|🇯🇵 日本特殊|@ripaojiedian
-      - 6|香港8|@ripaojiedian
-      - 4Nika-117
+      - 0|-https://t.me/MrXbin-12
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -437,14 +437,14 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
+      - 5|🇸🇬 狮城特殊|@ripaojiedian
       - 5|🇭🇰 香港4|@ripaojiedian
-      - 5|🇭🇰 香港6|@ripaojiedian
-      - 5,6|香港|@ripaojiedian
-      - 4Nika-907
-      - 16|台湾|@ripaojiedian
+      - 0|-https://t.me/MrXbin-4
+      - 5,6|香港5|@ripaojiedian
+      - 11,16|香港6|@ripaojiedian
+      - 5|🇰🇷 韩国特殊|@ripaojiedian
       - 5|🇯🇵 日本特殊|@ripaojiedian
-      - 6|香港8|@ripaojiedian
-      - 4Nika-117
+      - 0|-https://t.me/MrXbin-12
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -2717,6 +2717,7 @@ rules:
   - DOMAIN-SUFFIX,archive.fo,🔰 节点选择
   - DOMAIN-SUFFIX,archive.is,🔰 节点选择
   - DOMAIN-SUFFIX,archive.li,🔰 节点选择
+  - DOMAIN-SUFFIX,archive.md,🔰 节点选择
   - DOMAIN-SUFFIX,archive.org,🔰 节点选择
   - DOMAIN-SUFFIX,archive.ph,🔰 节点选择
   - DOMAIN-SUFFIX,archive.today,🔰 节点选择
@@ -3080,6 +3081,7 @@ rules:
   - DOMAIN-SUFFIX,c-spanvideo.org,🔰 节点选择
   - DOMAIN-SUFFIX,c100tibet.org,🔰 节点选择
   - DOMAIN-SUFFIX,c2cx.com,🔰 节点选择
+  - DOMAIN-SUFFIX,cableav.tv,🔰 节点选择
   - DOMAIN-SUFFIX,cablegatesearch.net,🔰 节点选择
   - DOMAIN-SUFFIX,cachinese.com,🔰 节点选择
   - DOMAIN-SUFFIX,cacnw.com,🔰 节点选择
@@ -3294,6 +3296,7 @@ rules:
   - DOMAIN-SUFFIX,chubun.com,🔰 节点选择
   - DOMAIN-SUFFIX,churchinhongkong.org,🔰 节点选择
   - DOMAIN-SUFFIX,chushigangdrug.ch,🔰 节点选择
+  - DOMAIN-SUFFIX,ciciai.com,🔰 节点选择
   - DOMAIN-SUFFIX,cienen.com,🔰 节点选择
   - DOMAIN-SUFFIX,cineastentreff.de,🔰 节点选择
   - DOMAIN-SUFFIX,cipfg.org,🔰 节点选择
@@ -3414,6 +3417,7 @@ rules:
   - DOMAIN-SUFFIX,cotweet.com,🔰 节点选择
   - DOMAIN-SUFFIX,counter.social,🔰 节点选择
   - DOMAIN-SUFFIX,coursehero.com,🔰 节点选择
+  - DOMAIN-SUFFIX,coze.com,🔰 节点选择
   - DOMAIN-SUFFIX,cpj.org,🔰 节点选择
   - DOMAIN-SUFFIX,cq99.us,🔰 节点选择
   - DOMAIN-SUFFIX,crackle.com,🔰 节点选择
@@ -3842,6 +3846,7 @@ rules:
   - DOMAIN-SUFFIX,etadult.com,🔰 节点选择
   - DOMAIN-SUFFIX,etaiwannews.com,🔰 节点选择
   - DOMAIN-SUFFIX,etherdelta.com,🔰 节点选择
+  - DOMAIN-SUFFIX,ethermine.org,🔰 节点选择
   - DOMAIN-SUFFIX,etherscan.io,🔰 节点选择
   - DOMAIN-SUFFIX,etizer.org,🔰 节点选择
   - DOMAIN-SUFFIX,etokki.com,🔰 节点选择
@@ -3881,6 +3886,7 @@ rules:
   - DOMAIN-SUFFIX,ezpc.tk,🔰 节点选择
   - DOMAIN-SUFFIX,ezpeer.com,🔰 节点选择
   - DOMAIN-SUFFIX,ezua.com,🔰 节点选择
+  - DOMAIN-SUFFIX,f2pool.com,🔰 节点选择
   - DOMAIN-SUFFIX,f8.com,🔰 节点选择
   - DOMAIN-SUFFIX,fa.gov.tw,🔰 节点选择
   - DOMAIN-SUFFIX,facebook.br,🔰 节点选择
@@ -4880,6 +4886,7 @@ rules:
   - DOMAIN-SUFFIX,hrcir.com,🔰 节点选择
   - DOMAIN-SUFFIX,hrea.org,🔰 节点选择
   - DOMAIN-SUFFIX,hrichina.org,🔰 节点选择
+  - DOMAIN-SUFFIX,hrntt.org,🔰 节点选择
   - DOMAIN-SUFFIX,hrw.org,🔰 节点选择
   - DOMAIN-SUFFIX,hrweb.org,🔰 节点选择
   - DOMAIN-SUFFIX,hsjp.net,🔰 节点选择
@@ -4918,6 +4925,7 @@ rules:
   - DOMAIN-SUFFIX,hulkshare.com,🔰 节点选择
   - DOMAIN-SUFFIX,hulu.com,🔰 节点选择
   - DOMAIN-SUFFIX,huluim.com,🔰 节点选择
+  - DOMAIN-SUFFIX,humanparty.me,🔰 节点选择
   - DOMAIN-SUFFIX,humanrightspressawards.org,🔰 节点选择
   - DOMAIN-SUFFIX,hung-ya.com,🔰 节点选择
   - DOMAIN-SUFFIX,hungerstrikeforaids.org,🔰 节点选择
@@ -4964,7 +4972,7 @@ rules:
   - DOMAIN-SUFFIX,ibtimes.com,🔰 节点选择
   - DOMAIN-SUFFIX,ibvpn.com,🔰 节点选择
   - DOMAIN-SUFFIX,icams.com,🔰 节点选择
-  - DOMAIN-SUFFIX,icerocket.com,🔰 节点选择
+  - DOMAIN-SUFFIX,icedrive.net,🔰 节点选择
   - DOMAIN-SUFFIX,icij.org,🔰 节点选择
   - DOMAIN-SUFFIX,icl-fi.org,🔰 节点选择
   - DOMAIN-SUFFIX,icoco.com,🔰 节点选择
@@ -5242,6 +5250,7 @@ rules:
   - DOMAIN-SUFFIX,juyuange.org,🔰 节点选择
   - DOMAIN-SUFFIX,juziyue.com,🔰 节点选择
   - DOMAIN-SUFFIX,jwmusic.org,🔰 节点选择
+  - DOMAIN-SUFFIX,jwplayer.com,🔰 节点选择
   - DOMAIN-SUFFIX,jyxf.net,🔰 节点选择
   - DOMAIN-SUFFIX,k-doujin.net,🔰 节点选择
   - DOMAIN-SUFFIX,ka-wai.com,🔰 节点选择
@@ -5990,6 +5999,7 @@ rules:
   - DOMAIN-SUFFIX,noypf.com,🔰 节点选择
   - DOMAIN-SUFFIX,npa.go.jp,🔰 节点选择
   - DOMAIN-SUFFIX,npa.gov.tw,🔰 节点选择
+  - DOMAIN-SUFFIX,npm.gov.tw,🔰 节点选择
   - DOMAIN-SUFFIX,npnt.me,🔰 节点选择
   - DOMAIN-SUFFIX,nps.gov,🔰 节点选择
   - DOMAIN-SUFFIX,npsboost.com,🔰 节点选择
@@ -6374,6 +6384,7 @@ rules:
   - DOMAIN-SUFFIX,postimg.org,🔰 节点选择
   - DOMAIN-SUFFIX,potato.im,🔰 节点选择
   - DOMAIN-SUFFIX,potvpn.com,🔰 节点选择
+  - DOMAIN-SUFFIX,pourquoi.tw,🔰 节点选择
   - DOMAIN-SUFFIX,power.com,🔰 节点选择
   - DOMAIN-SUFFIX,powerapple.com,🔰 节点选择
   - DOMAIN-SUFFIX,powercx.com,🔰 节点选择
@@ -6621,6 +6632,7 @@ rules:
   - DOMAIN-SUFFIX,roodo.com,🔰 节点选择
   - DOMAIN-SUFFIX,rosechina.net,🔰 节点选择
   - DOMAIN-SUFFIX,rotten.com,🔰 节点选择
+  - DOMAIN-SUFFIX,rou.video,🔰 节点选择
   - DOMAIN-SUFFIX,rsdlmonitor.com,🔰 节点选择
   - DOMAIN-SUFFIX,rsf-chinese.org,🔰 节点选择
   - DOMAIN-SUFFIX,rsf.org,🔰 节点选择
@@ -7193,6 +7205,7 @@ rules:
   - DOMAIN-SUFFIX,telesco.pe,🔰 节点选择
   - DOMAIN-SUFFIX,tellme.pw,🔰 节点选择
   - DOMAIN-SUFFIX,tenacy.com,🔰 节点选择
+  - DOMAIN-SUFFIX,tenor.com,🔰 节点选择
   - DOMAIN-SUFFIX,tensorflow.org,🔰 节点选择
   - DOMAIN-SUFFIX,tenzinpalmo.com,🔰 节点选择
   - DOMAIN-SUFFIX,terabox.com,🔰 节点选择
@@ -8252,6 +8265,7 @@ rules:
   - DOMAIN-SUFFIX,z-lib.org,🔰 节点选择
   - DOMAIN-SUFFIX,zacebook.com,🔰 节点选择
   - DOMAIN-SUFFIX,zalmos.com,🔰 节点选择
+  - DOMAIN-SUFFIX,zamimg.com,🔰 节点选择
   - DOMAIN-SUFFIX,zannel.com,🔰 节点选择
   - DOMAIN-SUFFIX,zaobao.com,🔰 节点选择
   - DOMAIN-SUFFIX,zaobao.com.sg,🔰 节点选择
