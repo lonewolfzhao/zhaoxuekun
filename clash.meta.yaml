@@ -354,10 +354,11 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: "11|美国 CloudFlare节点 #9", server: 162.159.1.33, port: 8080, type: vmess, uuid: 4f1f8f1e-926c-4edb-a398-8627110973f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: do-au.alipay.ovh}}, udp: true}
+- {name: 0|-https://t.me/MrXbin-6, server: 118.163.179.160, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}, udp: true}
+- {name: "5,6|香港5|@ripaojiedian", server: m.cnmjin.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}, udp: true}
+- {name: 0|-https://t.me/MrXbin-6 2, server: 118.163.179.158, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}, udp: true}
 - {name: "11|美国 CloudFlare节点 #1", server: go.alipay.ovh, port: 8080, type: vmess, uuid: 4f1f8f1e-926c-4edb-a398-8627110973f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: do-au.alipay.ovh}}, udp: true}
-- {name: 0|-https://t.me/MrXbin-6, server: 118.163.179.158, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}, udp: true}
-- {name: _CN_中国->🇩🇪_DE_德国, server: us.lianjianode.cc, port: 34175, type: vmess, uuid: d9fa43a7-c853-4aa6-ac13-5ea635066d37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /usa, headers: {Host: us1.luodi.xyz}}, udp: true}
+- {name: 5|🇺🇸 美国5|@ripaojiedian, server: 112.29.94.23, port: 51003, type: trojan, password: MyYoZhfX, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -374,10 +375,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - "11|美国 CloudFlare节点 #9"
-      - "11|美国 CloudFlare节点 #1"
       - 0|-https://t.me/MrXbin-6
-      - _CN_中国->🇩🇪_DE_德国
+      - 5,6|香港5|@ripaojiedian
+      - 0|-https://t.me/MrXbin-6 2
+      - "11|美国 CloudFlare节点 #1"
+      - 5|🇺🇸 美国5|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -390,10 +392,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - "11|美国 CloudFlare节点 #9"
-      - "11|美国 CloudFlare节点 #1"
       - 0|-https://t.me/MrXbin-6
-      - _CN_中国->🇩🇪_DE_德国
+      - 5,6|香港5|@ripaojiedian
+      - 0|-https://t.me/MrXbin-6 2
+      - "11|美国 CloudFlare节点 #1"
+      - 5|🇺🇸 美国5|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -425,10 +428,11 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - "11|美国 CloudFlare节点 #9"
-      - "11|美国 CloudFlare节点 #1"
       - 0|-https://t.me/MrXbin-6
-      - _CN_中国->🇩🇪_DE_德国
+      - 5,6|香港5|@ripaojiedian
+      - 0|-https://t.me/MrXbin-6 2
+      - "11|美国 CloudFlare节点 #1"
+      - 5|🇺🇸 美国5|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
