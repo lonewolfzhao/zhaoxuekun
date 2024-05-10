@@ -354,14 +354,11 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 4Jadi-473, server: iepl1.forlive.live, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: d20ef6d0-1339-3970-9194-9726b5ee6224, udp: true}
-- {name: 5|🇭🇰 香港6|@ripaojiedian, server: 183.240.179.195, port: 15601, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-6, server: 118.163.179.160, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}, udp: true}
+- {name: 5|🇯🇵 日本2|@ripaojiedian, server: 183.240.179.195, port: 61002, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 5|🇺🇸 美国4|@ripaojiedian, server: 112.29.94.23, port: 46011, type: trojan, password: MyYoZhfX, skip-cert-verify: true, udp: true}
 - {name: 0|-https://t.me/MrXbin-8, server: 118.163.179.159, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}, udp: true}
 - {name: "5,6|香港5|@ripaojiedian", server: m.cnmjin.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}, udp: true}
-- {name: "5,6,10|🇺🇸_US_美国_6_8", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 2eec45db-dfcd-43d6-8514-b141aff651be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}}, udp: true}
-- {name: _US_美国, server: 104.18.242.177, port: 2052, type: vmess, uuid: 2eec45db-dfcd-43d6-8514-b141aff651be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}}, udp: true}
-- {name: 5|🇸🇬 狮城特殊|@ripaojiedian, server: 18.143.93.163, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-6, server: 118.163.179.160, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -378,14 +375,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 4Jadi-473
-      - 5|🇭🇰 香港6|@ripaojiedian
+      - 0|-https://t.me/MrXbin-6
+      - 5|🇯🇵 日本2|@ripaojiedian
+      - 5|🇺🇸 美国4|@ripaojiedian
       - 0|-https://t.me/MrXbin-8
       - 5,6|香港5|@ripaojiedian
-      - 5,6,10|🇺🇸_US_美国_6_8
-      - _US_美国
-      - 5|🇸🇬 狮城特殊|@ripaojiedian
-      - 0|-https://t.me/MrXbin-6
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -398,14 +392,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 4Jadi-473
-      - 5|🇭🇰 香港6|@ripaojiedian
+      - 0|-https://t.me/MrXbin-6
+      - 5|🇯🇵 日本2|@ripaojiedian
+      - 5|🇺🇸 美国4|@ripaojiedian
       - 0|-https://t.me/MrXbin-8
       - 5,6|香港5|@ripaojiedian
-      - 5,6,10|🇺🇸_US_美国_6_8
-      - _US_美国
-      - 5|🇸🇬 狮城特殊|@ripaojiedian
-      - 0|-https://t.me/MrXbin-6
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -437,14 +428,11 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - 4Jadi-473
-      - 5|🇭🇰 香港6|@ripaojiedian
+      - 0|-https://t.me/MrXbin-6
+      - 5|🇯🇵 日本2|@ripaojiedian
+      - 5|🇺🇸 美国4|@ripaojiedian
       - 0|-https://t.me/MrXbin-8
       - 5,6|香港5|@ripaojiedian
-      - 5,6,10|🇺🇸_US_美国_6_8
-      - _US_美国
-      - 5|🇸🇬 狮城特殊|@ripaojiedian
-      - 0|-https://t.me/MrXbin-6
   - name: 🐟 漏网之鱼
     type: select
     proxies:
