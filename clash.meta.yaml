@@ -354,12 +354,12 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 5|🇹🇼 台湾|@ripaojiedian, server: 183.232.199.28, port: 21006, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 16|香港|@ripaojiedian, server: 183.240.179.195, port: 15603, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "5,6|新加坡|@ripaojiedian", server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: 0a208887-f5d4-40eb-ac7f-7bbc6584f9d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/u4eCZTxW, headers: {Host: jpafzyhfsg3.yofnhkfc.xyz}}, udp: true}
-- {name: "5,6|香港5|@ripaojiedian", server: m.cnmjin.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}, udp: true}
-- {name: 5|🇯🇵 日本|@ripaojiedian, server: 36.151.195.48, port: 42583, type: trojan, password: TNDSJfNv, skip-cert-verify: true, udp: true}
-- {name: "5,6|印度2|@ripaojiedian", server: vip1.hpyjc.top, port: 2086, type: vmess, uuid: 32c24a94-eb17-4081-aa57-48df2bc58342, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: in1.hpyjc.top}}, udp: true}
+- {name: "5,6|日本3|@ripaojiedian", server: vip1.hpyjc.top, port: 2086, type: vmess, uuid: 32c24a94-eb17-4081-aa57-48df2bc58342, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jp1.hpyjc.top}}, udp: true}
+- {name: 5|🇹🇼 台湾|@ripaojiedian, server: 183.232.199.28, port: 21006, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Kian-938, server: 34.208.170.155, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 5|🇺🇸 美国4|@ripaojiedian, server: 36.151.195.48, port: 34057, type: trojan, password: TNDSJfNv, skip-cert-verify: true, udp: true}
+- {name: 9|baipaovpn广东省广州市, server: 183.236.51.59, port: 54100, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -376,12 +376,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5|🇹🇼 台湾|@ripaojiedian
       - 16|香港|@ripaojiedian
-      - 5,6|新加坡|@ripaojiedian
-      - 5,6|香港5|@ripaojiedian
-      - 5|🇯🇵 日本|@ripaojiedian
-      - 5,6|印度2|@ripaojiedian
+      - 5,6|日本3|@ripaojiedian
+      - 5|🇹🇼 台湾|@ripaojiedian
+      - 4Kian-938
+      - 5|🇺🇸 美国4|@ripaojiedian
+      - 9|baipaovpn广东省广州市
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -394,12 +394,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5|🇹🇼 台湾|@ripaojiedian
       - 16|香港|@ripaojiedian
-      - 5,6|新加坡|@ripaojiedian
-      - 5,6|香港5|@ripaojiedian
-      - 5|🇯🇵 日本|@ripaojiedian
-      - 5,6|印度2|@ripaojiedian
+      - 5,6|日本3|@ripaojiedian
+      - 5|🇹🇼 台湾|@ripaojiedian
+      - 4Kian-938
+      - 5|🇺🇸 美国4|@ripaojiedian
+      - 9|baipaovpn广东省广州市
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -431,12 +431,12 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - 5|🇹🇼 台湾|@ripaojiedian
       - 16|香港|@ripaojiedian
-      - 5,6|新加坡|@ripaojiedian
-      - 5,6|香港5|@ripaojiedian
-      - 5|🇯🇵 日本|@ripaojiedian
-      - 5,6|印度2|@ripaojiedian
+      - 5,6|日本3|@ripaojiedian
+      - 5|🇹🇼 台湾|@ripaojiedian
+      - 4Kian-938
+      - 5|🇺🇸 美国4|@ripaojiedian
+      - 9|baipaovpn广东省广州市
   - name: 🐟 漏网之鱼
     type: select
     proxies:
