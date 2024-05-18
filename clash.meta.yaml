@@ -354,12 +354,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: "5,6|香港7|@ripaojiedian", server: yes.cnmjcn.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}, udp: true}
-- {name: _CN_中国->🇮🇳_IN_印度, server: 220.195.133.211, port: 50018, type: ss, cipher: chacha20-ietf-poly1305, password: 267d2858-f7a0-4229-b370-5bd1e067a254, udp: true}
-- {name: _CN_中国->🇮🇳_IN_印度 2, server: 183.232.238.118, port: 50018, type: ss, cipher: chacha20-ietf-poly1305, password: 267d2858-f7a0-4229-b370-5bd1e067a254, udp: true}
-- {name: 5|🇺🇸 美国4|@ripaojiedian, server: 36.151.195.48, port: 16127, type: trojan, password: TNDSJfNv, skip-cert-verify: true, udp: true}
+- {name: "5,6|韩国|@ripaojiedian", server: sui.forlive.live, port: 40396, type: vmess, uuid: 3d9bbb25-d1a9-42dd-b5db-bbd1effaf8da, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+- {name: 13|🇺🇸 US 173.255.229.94 ◈ ws:80 ◈..., server: speed.cloudflare.com, port: 80, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /obdii.cfd/linkws, headers: {Host: xxxxx73cream-073cxxxxxxxx.cogoni7748.workers.dev}}, udp: true}
+- {name: 13|🔒 VM-TCP-NA 🇷🇺 RU-46.29.166.23..., server: 46.29.166.237, port: 47555, type: vmess, uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 10|🇺🇸_US_美国_2_6, server: 104.16.61.8, port: 2086, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ivideos.sbs/linkws, headers: {Host: ury-unit-c030ehei8.poget71138.workers.dev}}, udp: true}
+- {name: 4Kian-936, server: 34.208.170.155, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 5|🇯🇵 日本|@ripaojiedian, server: 36.151.195.46, port: 46906, type: trojan, password: TNDSJfNv, skip-cert-verify: true, udp: true}
-- {name: _US_美国, server: 54.212.53.164, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 5|🇸🇬 狮城特殊|@ripaojiedian, server: 35.91.178.223, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 5|🇺🇸 美国4|@ripaojiedian, server: 36.151.195.48, port: 16127, type: trojan, password: TNDSJfNv, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -376,12 +378,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5,6|香港7|@ripaojiedian
-      - _CN_中国->🇮🇳_IN_印度
-      - _CN_中国->🇮🇳_IN_印度 2
-      - 5|🇺🇸 美国4|@ripaojiedian
+      - 5,6|韩国|@ripaojiedian
+      - 13|🇺🇸 US 173.255.229.94 ◈ ws:80 ◈...
+      - 13|🔒 VM-TCP-NA 🇷🇺 RU-46.29.166.23...
+      - 10|🇺🇸_US_美国_2_6
+      - 4Kian-936
       - 5|🇯🇵 日本|@ripaojiedian
-      - _US_美国
+      - 5|🇸🇬 狮城特殊|@ripaojiedian
+      - 5|🇺🇸 美国4|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -394,12 +398,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5,6|香港7|@ripaojiedian
-      - _CN_中国->🇮🇳_IN_印度
-      - _CN_中国->🇮🇳_IN_印度 2
-      - 5|🇺🇸 美国4|@ripaojiedian
+      - 5,6|韩国|@ripaojiedian
+      - 13|🇺🇸 US 173.255.229.94 ◈ ws:80 ◈...
+      - 13|🔒 VM-TCP-NA 🇷🇺 RU-46.29.166.23...
+      - 10|🇺🇸_US_美国_2_6
+      - 4Kian-936
       - 5|🇯🇵 日本|@ripaojiedian
-      - _US_美国
+      - 5|🇸🇬 狮城特殊|@ripaojiedian
+      - 5|🇺🇸 美国4|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -431,12 +437,14 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - 5,6|香港7|@ripaojiedian
-      - _CN_中国->🇮🇳_IN_印度
-      - _CN_中国->🇮🇳_IN_印度 2
-      - 5|🇺🇸 美国4|@ripaojiedian
+      - 5,6|韩国|@ripaojiedian
+      - 13|🇺🇸 US 173.255.229.94 ◈ ws:80 ◈...
+      - 13|🔒 VM-TCP-NA 🇷🇺 RU-46.29.166.23...
+      - 10|🇺🇸_US_美国_2_6
+      - 4Kian-936
       - 5|🇯🇵 日本|@ripaojiedian
-      - _US_美国
+      - 5|🇸🇬 狮城特殊|@ripaojiedian
+      - 5|🇺🇸 美国4|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
