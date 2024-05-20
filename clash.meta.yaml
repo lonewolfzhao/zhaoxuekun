@@ -355,13 +355,13 @@ proxies:
   sni: www.bing.com
   skip-cert-verify: true
 - {name: 9|baipaovpn广东省佛山市, server: 183.232.170.131, port: 37997, type: vmess, uuid: f9d88b9b-baf4-48cd-b98f-c28912b96ce5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "5,6|香港5|@ripaojiedian", server: m.cnmjin.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}, udp: true}
-- {name: 9|baipaovpn日本, server: 43.199.29.71, port: 80, type: vmess, uuid: b39a02bc-dec0-4964-b861-d89ffe42558a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: 5|🇺🇸 美国6||@ripaojiedian, server: 38.77.232.10, port: 443, type: vmess, uuid: dbbb87ba-7b57-4228-b9e7-bdfa5e661b55, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: 16|美国6||@ripaojiedian, server: 38.77.232.10, port: 443, type: vmess, uuid: dbbb87ba-7b57-4228-b9e7-bdfa5e661b55, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-197, server: 13.214.211.185, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "5,6|香港7|@ripaojiedian", server: yes.cnmjcn.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}, udp: true}
 - {name: 5|🇭🇰 香港4|@ripaojiedian, server: 120.236.196.21, port: 30811, type: trojan, password: TNDSJfNv, skip-cert-verify: true, udp: true}
-- {name: 0|-https://t.me/MrXbin-31, server: 52.88.161.5, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国, server: 104.17.247.203, port: 2096, type: vmess, uuid: 5dc153a1-67e5-44a7-9684-4a41ef180c9d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl2.exoshop.ir}}, udp: true}
-- {name: 4Jadi-735, server: 192.248.182.42, port: 1080, type: ss, cipher: aes-128-gcm, password: w09UIjz06BYfmqpFpDLWfA, udp: true}
+- {name: 0|-https://t.me/MrXbin-126, server: yx3.chinayyds.xyz, port: 2052, type: vmess, uuid: 7db4532e-42ae-46e0-a19c-a30e581d74d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: pqhk.chinayyds.xyz}}, udp: true}
+- {name: 4Nika-949, server: 18.183.73.152, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-196, server: 13.214.214.197, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -379,13 +379,13 @@ proxy-groups:
     interval: 300
     proxies:
       - 9|baipaovpn广东省佛山市
-      - 5,6|香港5|@ripaojiedian
-      - 9|baipaovpn日本
-      - 5|🇺🇸 美国6||@ripaojiedian
+      - 16|美国6||@ripaojiedian
+      - 0|-https://t.me/MrXbin-197
+      - 5,6|香港7|@ripaojiedian
       - 5|🇭🇰 香港4|@ripaojiedian
-      - 0|-https://t.me/MrXbin-31
-      - _US_美国
-      - 4Jadi-735
+      - 0|-https://t.me/MrXbin-126
+      - 4Nika-949
+      - 0|-https://t.me/MrXbin-196
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -399,13 +399,13 @@ proxy-groups:
     interval: 300
     proxies:
       - 9|baipaovpn广东省佛山市
-      - 5,6|香港5|@ripaojiedian
-      - 9|baipaovpn日本
-      - 5|🇺🇸 美国6||@ripaojiedian
+      - 16|美国6||@ripaojiedian
+      - 0|-https://t.me/MrXbin-197
+      - 5,6|香港7|@ripaojiedian
       - 5|🇭🇰 香港4|@ripaojiedian
-      - 0|-https://t.me/MrXbin-31
-      - _US_美国
-      - 4Jadi-735
+      - 0|-https://t.me/MrXbin-126
+      - 4Nika-949
+      - 0|-https://t.me/MrXbin-196
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -438,13 +438,13 @@ proxy-groups:
       - United States_Los Angeles_hy2_3
 
       - 9|baipaovpn广东省佛山市
-      - 5,6|香港5|@ripaojiedian
-      - 9|baipaovpn日本
-      - 5|🇺🇸 美国6||@ripaojiedian
+      - 16|美国6||@ripaojiedian
+      - 0|-https://t.me/MrXbin-197
+      - 5,6|香港7|@ripaojiedian
       - 5|🇭🇰 香港4|@ripaojiedian
-      - 0|-https://t.me/MrXbin-31
-      - _US_美国
-      - 4Jadi-735
+      - 0|-https://t.me/MrXbin-126
+      - 4Nika-949
+      - 0|-https://t.me/MrXbin-196
   - name: 🐟 漏网之鱼
     type: select
     proxies:
