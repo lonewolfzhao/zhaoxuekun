@@ -354,14 +354,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 5|🇹🇼 台湾|@ripaojiedian, server: 879xhl1.hsspr5bu1-tw02.my777999.top, port: 34998, type: vmess, uuid: 798c4ab8-613f-468f-b3ff-daf43c88aad7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 11|广东省深圳市 移动, server: 183.232.142.179, port: 15601, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 9|baipaovpn台湾省高雄市, server: 61.227.230.17, port: 443, type: vmess, uuid: 4ccc923e-8452-418c-9222-87ee8f295e14, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: 5|🇭🇰 香港8|@ripaojiedian, server: 183.232.199.61, port: 15603, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 9|baipaovpn广东省佛山市, server: 183.232.199.28, port: 15603, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 0|-https://t.me/MrXbin-41, server: 34.208.170.155, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 5|🇭🇰 香港4|@ripaojiedian, server: 120.236.196.21, port: 30811, type: trojan, password: TNDSJfNv, skip-cert-verify: true, udp: true}
-- {name: _CN_中国->🇺🇸_US_美国, server: 183.240.179.207, port: 30013, type: vmess, uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 9|baipaovpn广东省佛山市, server: 183.232.199.28, port: 15600, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 11|广东省深圳市 移动, server: 183.232.142.179, port: 15601, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Sarina-1014, server: 54.95.164.206, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -378,14 +374,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5|🇹🇼 台湾|@ripaojiedian
-      - 11|广东省深圳市 移动
-      - 9|baipaovpn台湾省高雄市
-      - 5|🇭🇰 香港8|@ripaojiedian
-      - 9|baipaovpn广东省佛山市
-      - 0|-https://t.me/MrXbin-41
       - 5|🇭🇰 香港4|@ripaojiedian
-      - _CN_中国->🇺🇸_US_美国
+      - 9|baipaovpn广东省佛山市
+      - 11|广东省深圳市 移动
+      - 4Sarina-1014
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -398,14 +390,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5|🇹🇼 台湾|@ripaojiedian
-      - 11|广东省深圳市 移动
-      - 9|baipaovpn台湾省高雄市
-      - 5|🇭🇰 香港8|@ripaojiedian
-      - 9|baipaovpn广东省佛山市
-      - 0|-https://t.me/MrXbin-41
       - 5|🇭🇰 香港4|@ripaojiedian
-      - _CN_中国->🇺🇸_US_美国
+      - 9|baipaovpn广东省佛山市
+      - 11|广东省深圳市 移动
+      - 4Sarina-1014
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -436,14 +424,10 @@ proxy-groups:
       - United States_Los Angeles_hy2_1
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
-      - 5|🇹🇼 台湾|@ripaojiedian
-      - 11|广东省深圳市 移动
-      - 9|baipaovpn台湾省高雄市
-      - 5|🇭🇰 香港8|@ripaojiedian
-      - 9|baipaovpn广东省佛山市
-      - 0|-https://t.me/MrXbin-41
       - 5|🇭🇰 香港4|@ripaojiedian
-      - _CN_中国->🇺🇸_US_美国
+      - 9|baipaovpn广东省佛山市
+      - 11|广东省深圳市 移动
+      - 4Sarina-1014
   - name: 🐟 漏网之鱼
     type: select
     proxies:
