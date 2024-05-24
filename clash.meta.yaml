@@ -354,14 +354,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 4Mohsen-992, server: 54.179.9.170, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 5|🇮🇳 印度|@ripaojiedian, server: 1zg1yf-blnvbcw.0on68-ino1.my777999.top, port: 31999, type: ss, cipher: chacha20-ietf-poly1305, password: 64b27a5a-15d7-41ab-ab34-db45c1e7ba94, udp: true}
-- {name: 5|🇭🇰 香港6|@ripaojiedian, server: 183.232.170.47, port: 15611, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "5,6|香港7|@ripaojiedian", server: yes.cnmjcn.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}, udp: true}
+- {name: 9|baipaovpn广东省汕头市, server: 183.240.179.207, port: 30053, type: vmess, uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 5|🇺🇸 美国2|@ripaojiedian, server: cfcdn1.sanfencdn9.com, port: 2095, type: vmess, uuid: 1564cf5b-48c2-46f9-a59c-0234e936f237, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/qYZue4zaWS, headers: {Host: us82pRzxDMb.fzbqfrse.xyz}}, udp: true}
 - {name: 9|baipaovpn广东省佛山市, server: 183.232.199.28, port: 15603, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: _US_美国, server: speed.cloudflare.com, port: 80, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /obdii.cfd/linkws, headers: {Host: 4868-poetry-4868.napora7003.workers.dev}}, udp: true}
+- {name: 9|baipaovpn广东省深圳市, server: 183.232.142.179, port: 15600, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 9|baipaovpn广东省广州市, server: 14.18.76.37, port: 50004, type: vmess, uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Jadi-942, server: 34.208.170.155, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 5|🇭🇰 香港4|@ripaojiedian, server: 120.236.196.21, port: 30811, type: trojan, password: TNDSJfNv, skip-cert-verify: true, udp: true}
-- {name: _US_美国 2, server: 35.91.178.223, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "5,6|香港7|@ripaojiedian", server: yes.cnmjcn.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -378,14 +378,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 4Mohsen-992
-      - 5|🇮🇳 印度|@ripaojiedian
-      - 5|🇭🇰 香港6|@ripaojiedian
-      - 5,6|香港7|@ripaojiedian
+      - 9|baipaovpn广东省汕头市
+      - 5|🇺🇸 美国2|@ripaojiedian
       - 9|baipaovpn广东省佛山市
-      - _US_美国
+      - 9|baipaovpn广东省深圳市
+      - 9|baipaovpn广东省广州市
+      - 4Jadi-942
       - 5|🇭🇰 香港4|@ripaojiedian
-      - _US_美国 2
+      - 5,6|香港7|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -398,14 +398,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 4Mohsen-992
-      - 5|🇮🇳 印度|@ripaojiedian
-      - 5|🇭🇰 香港6|@ripaojiedian
-      - 5,6|香港7|@ripaojiedian
+      - 9|baipaovpn广东省汕头市
+      - 5|🇺🇸 美国2|@ripaojiedian
       - 9|baipaovpn广东省佛山市
-      - _US_美国
+      - 9|baipaovpn广东省深圳市
+      - 9|baipaovpn广东省广州市
+      - 4Jadi-942
       - 5|🇭🇰 香港4|@ripaojiedian
-      - _US_美国 2
+      - 5,6|香港7|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -436,14 +436,14 @@ proxy-groups:
       - United States_Los Angeles_hy2_1
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
-      - 4Mohsen-992
-      - 5|🇮🇳 印度|@ripaojiedian
-      - 5|🇭🇰 香港6|@ripaojiedian
-      - 5,6|香港7|@ripaojiedian
+      - 9|baipaovpn广东省汕头市
+      - 5|🇺🇸 美国2|@ripaojiedian
       - 9|baipaovpn广东省佛山市
-      - _US_美国
+      - 9|baipaovpn广东省深圳市
+      - 9|baipaovpn广东省广州市
+      - 4Jadi-942
       - 5|🇭🇰 香港4|@ripaojiedian
-      - _US_美国 2
+      - 5,6|香港7|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
