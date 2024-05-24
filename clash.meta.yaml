@@ -354,10 +354,13 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 5|🇭🇰 香港6|@ripaojiedian, server: 183.232.170.47, port: 15611, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 5|🇮🇳 印度|@ripaojiedian, server: 1zg1yf-blnvbcw.0on68-ino1.my777999.top, port: 31999, type: ss, cipher: chacha20-ietf-poly1305, password: 64b27a5a-15d7-41ab-ab34-db45c1e7ba94, udp: true}
+- {name: 9|baipaovpn广东省佛山市, server: 183.232.199.28, port: 15603, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 5|🇺🇸 美国2|@ripaojiedian, server: cfcdn1.sanfencdn9.com, port: 2095, type: vmess, uuid: 1564cf5b-48c2-46f9-a59c-0234e936f237, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/qYZue4zaWS, headers: {Host: us82pRzxDMb.fzbqfrse.xyz}}, udp: true}
+- {name: 9|baipaovpn广东省广州市, server: 14.18.76.37, port: 50004, type: vmess, uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Nika-1017, server: 54.95.164.206, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 5|🇯🇵 日本特殊|@ripaojiedian, server: 18.183.73.152, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Jadi-958, server: 34.208.170.155, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-48, server: eedp257bubu2wefy.lovebaipiao.net, port: 54321, type: vmess, uuid: c34d94d9-97d4-4496-9b7f-727dd678e1e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iphone, headers: {Host: eedp257bubu2wefy.lovebaipiao.net}}, udp: true}
-- {name: 16|香港6|@ripaojiedian, server: 183.232.170.47, port: 15611, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -374,10 +377,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5|🇭🇰 香港6|@ripaojiedian
+      - 5|🇮🇳 印度|@ripaojiedian
+      - 9|baipaovpn广东省佛山市
+      - 5|🇺🇸 美国2|@ripaojiedian
+      - 9|baipaovpn广东省广州市
+      - 4Nika-1017
+      - 5|🇯🇵 日本特殊|@ripaojiedian
       - 4Jadi-958
-      - 0|-https://t.me/MrXbin-48
-      - 16|香港6|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -390,10 +396,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5|🇭🇰 香港6|@ripaojiedian
+      - 5|🇮🇳 印度|@ripaojiedian
+      - 9|baipaovpn广东省佛山市
+      - 5|🇺🇸 美国2|@ripaojiedian
+      - 9|baipaovpn广东省广州市
+      - 4Nika-1017
+      - 5|🇯🇵 日本特殊|@ripaojiedian
       - 4Jadi-958
-      - 0|-https://t.me/MrXbin-48
-      - 16|香港6|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -424,10 +433,13 @@ proxy-groups:
       - United States_Los Angeles_hy2_1
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
-      - 5|🇭🇰 香港6|@ripaojiedian
+      - 5|🇮🇳 印度|@ripaojiedian
+      - 9|baipaovpn广东省佛山市
+      - 5|🇺🇸 美国2|@ripaojiedian
+      - 9|baipaovpn广东省广州市
+      - 4Nika-1017
+      - 5|🇯🇵 日本特殊|@ripaojiedian
       - 4Jadi-958
-      - 0|-https://t.me/MrXbin-48
-      - 16|香港6|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
