@@ -354,11 +354,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 9|baipaovpn广东省汕头市, server: 183.240.179.207, port: 30053, type: vmess, uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 9|baipaovpn广东省广州市, server: 14.18.76.37, port: 50004, type: vmess, uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "5,6|香港7|@ripaojiedian", server: yes.cnmjcn.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}, udp: true}
-- {name: 9|baipaovpn广东省深圳市, server: 183.232.142.179, port: 15600, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 16|香港|@ripaojiedian, server: 183.232.199.28, port: 15605, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 5|🇹🇼 台湾2|@ripaojiedian, server: tw.lianjianode.cc, port: 21004, type: vmess, uuid: b5655f14-eba6-4bc4-8f8d-8b60df50baff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 10|🇨🇳_CN_中国->🇺🇸_US_美国_2_3由快嘴科技提供：..., server: 183.240.179.207, port: 30013, type: vmess, uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-9, server: 54.179.9.170, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "5,6,10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_1", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 1564cf5b-48c2-46f9-a59c-0234e936f237, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}}, udp: true}
+- {name: 9|baipaovpn广东省广州市, server: 183.240.15.199, port: 40396, type: vmess, uuid: 3d9bbb25-d1a9-42dd-b5db-bbd1effaf8da, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+- {name: 0|-https://t.me/MrXbin-308, server: 18.141.186.136, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 5|🇯🇵 日本特殊|@ripaojiedian, server: 34.222.36.230, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-310, server: 18.143.159.186, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -375,11 +378,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 9|baipaovpn广东省汕头市
+      - 5|🇹🇼 台湾2|@ripaojiedian
+      - 10|🇨🇳_CN_中国->🇺🇸_US_美国_2_3由快嘴科技提供：...
+      - 0|-https://t.me/MrXbin-9
+      - 5,6,10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_1
       - 9|baipaovpn广东省广州市
-      - 5,6|香港7|@ripaojiedian
-      - 9|baipaovpn广东省深圳市
-      - 16|香港|@ripaojiedian
+      - 0|-https://t.me/MrXbin-308
+      - 5|🇯🇵 日本特殊|@ripaojiedian
+      - 0|-https://t.me/MrXbin-310
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -392,11 +398,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 9|baipaovpn广东省汕头市
+      - 5|🇹🇼 台湾2|@ripaojiedian
+      - 10|🇨🇳_CN_中国->🇺🇸_US_美国_2_3由快嘴科技提供：...
+      - 0|-https://t.me/MrXbin-9
+      - 5,6,10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_1
       - 9|baipaovpn广东省广州市
-      - 5,6|香港7|@ripaojiedian
-      - 9|baipaovpn广东省深圳市
-      - 16|香港|@ripaojiedian
+      - 0|-https://t.me/MrXbin-308
+      - 5|🇯🇵 日本特殊|@ripaojiedian
+      - 0|-https://t.me/MrXbin-310
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -427,11 +436,14 @@ proxy-groups:
       - United States_Los Angeles_hy2_1
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
-      - 9|baipaovpn广东省汕头市
+      - 5|🇹🇼 台湾2|@ripaojiedian
+      - 10|🇨🇳_CN_中国->🇺🇸_US_美国_2_3由快嘴科技提供：...
+      - 0|-https://t.me/MrXbin-9
+      - 5,6,10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_1
       - 9|baipaovpn广东省广州市
-      - 5,6|香港7|@ripaojiedian
-      - 9|baipaovpn广东省深圳市
-      - 16|香港|@ripaojiedian
+      - 0|-https://t.me/MrXbin-308
+      - 5|🇯🇵 日本特殊|@ripaojiedian
+      - 0|-https://t.me/MrXbin-310
   - name: 🐟 漏网之鱼
     type: select
     proxies:
