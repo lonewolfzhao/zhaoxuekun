@@ -354,12 +354,11 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 9|baipaovpn广东省广州市, server: 183.240.15.199, port: 40396, type: vmess, uuid: 3d9bbb25-d1a9-42dd-b5db-bbd1effaf8da, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
-- {name: "11|美国 CloudFlare节点 #4", server: 172.64.104.182, port: 80, type: vmess, uuid: f0f067fe-8e6d-4d95-816b-601038fd5876, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/rongseven?ed=2048", headers: {Host: fr.grpc.gay}}, udp: true}
-- {name: 11|广东省广州市 电信IDC机房, server: 14.18.76.37, port: 50004, type: vmess, uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 11|广东省深圳市 移动, server: 183.232.142.179, port: 15601, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 5|🇭🇰 香港6|@ripaojiedian, server: 183.232.170.47, port: 15611, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 5|🇭🇰 香港4|@ripaojiedian, server: 120.236.196.21, port: 30811, type: trojan, password: TNDSJfNv, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-4, server: 118.163.179.161, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}, udp: true}
+- {name: 9|baipaovpn广东省佛山市, server: 183.232.199.28, port: 15603, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 11|广东省深圳市 移动, server: 183.232.142.47, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}, udp: true}
+- {name: 9|baipaovpn广东省广州市, server: 14.18.76.37, port: 50004, type: vmess, uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Jadi-955, server: 34.208.170.155, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -376,12 +375,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 9|baipaovpn广东省广州市
-      - "11|美国 CloudFlare节点 #4"
-      - 11|广东省广州市 电信IDC机房
+      - 0|-https://t.me/MrXbin-4
+      - 9|baipaovpn广东省佛山市
       - 11|广东省深圳市 移动
-      - 5|🇭🇰 香港6|@ripaojiedian
-      - 5|🇭🇰 香港4|@ripaojiedian
+      - 9|baipaovpn广东省广州市
+      - 4Jadi-955
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -394,12 +392,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 9|baipaovpn广东省广州市
-      - "11|美国 CloudFlare节点 #4"
-      - 11|广东省广州市 电信IDC机房
+      - 0|-https://t.me/MrXbin-4
+      - 9|baipaovpn广东省佛山市
       - 11|广东省深圳市 移动
-      - 5|🇭🇰 香港6|@ripaojiedian
-      - 5|🇭🇰 香港4|@ripaojiedian
+      - 9|baipaovpn广东省广州市
+      - 4Jadi-955
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -430,12 +427,11 @@ proxy-groups:
       - United States_Los Angeles_hy2_1
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
-      - 9|baipaovpn广东省广州市
-      - "11|美国 CloudFlare节点 #4"
-      - 11|广东省广州市 电信IDC机房
+      - 0|-https://t.me/MrXbin-4
+      - 9|baipaovpn广东省佛山市
       - 11|广东省深圳市 移动
-      - 5|🇭🇰 香港6|@ripaojiedian
-      - 5|🇭🇰 香港4|@ripaojiedian
+      - 9|baipaovpn广东省广州市
+      - 4Jadi-955
   - name: 🐟 漏网之鱼
     type: select
     proxies:
