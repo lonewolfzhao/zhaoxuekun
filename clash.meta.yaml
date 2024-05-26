@@ -354,13 +354,11 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 9|baipaovpn日本, server: 146.56.44.165, port: 46515, type: vmess, uuid: f0f067fe-8e6d-4d95-816b-601038fd5876, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/rongseven?ed=2048"}, udp: true}
-- {name: 0|-https://t.me/MrXbin-4, server: 118.163.179.161, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}, udp: true}
 - {name: 5|🇭🇰 香港6|@ripaojiedian, server: 183.232.170.47, port: 15611, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4Jadi-938, server: 18.143.93.163, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 11|广东省深圳市 移动, server: 183.232.142.179, port: 15601, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: _CN_中国->🇺🇸_US_美国, server: 183.240.179.207, port: 30013, type: vmess, uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "9|baipaovpn美国 #1", server: 104.16.61.8, port: 80, type: vmess, uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hms02.fxiaomi.sbs/link, headers: {Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev}}, udp: true}
+- {name: 5|🇭🇰 香港|@ripaojiedian, server: 183.232.199.28, port: 15605, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 5|🇺🇸 美国3|@ripaojiedian, server: 120.238.122.250, port: 34414, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _SE_瑞典->🇮🇷_IR_伊朗, server: web.mobilemostafa.ir, port: 8080, type: vmess, uuid: 4739c52b-c1a3-450a-822d-f9dbbbec2f3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mesh-vmws/package.zip, headers: {Host: c311b5f2679ffadfddV2rayVDsdw.mobilemostafa.ir}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -377,13 +375,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 9|baipaovpn日本
-      - 0|-https://t.me/MrXbin-4
       - 5|🇭🇰 香港6|@ripaojiedian
-      - 4Jadi-938
       - 11|广东省深圳市 移动
-      - _CN_中国->🇺🇸_US_美国
-      - "9|baipaovpn美国 #1"
+      - 5|🇭🇰 香港|@ripaojiedian
+      - 5|🇺🇸 美国3|@ripaojiedian
+      - _SE_瑞典->🇮🇷_IR_伊朗
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -396,13 +392,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 9|baipaovpn日本
-      - 0|-https://t.me/MrXbin-4
       - 5|🇭🇰 香港6|@ripaojiedian
-      - 4Jadi-938
       - 11|广东省深圳市 移动
-      - _CN_中国->🇺🇸_US_美国
-      - "9|baipaovpn美国 #1"
+      - 5|🇭🇰 香港|@ripaojiedian
+      - 5|🇺🇸 美国3|@ripaojiedian
+      - _SE_瑞典->🇮🇷_IR_伊朗
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -433,13 +427,11 @@ proxy-groups:
       - United States_Los Angeles_hy2_1
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
-      - 9|baipaovpn日本
-      - 0|-https://t.me/MrXbin-4
       - 5|🇭🇰 香港6|@ripaojiedian
-      - 4Jadi-938
       - 11|广东省深圳市 移动
-      - _CN_中国->🇺🇸_US_美国
-      - "9|baipaovpn美国 #1"
+      - 5|🇭🇰 香港|@ripaojiedian
+      - 5|🇺🇸 美国3|@ripaojiedian
+      - _SE_瑞典->🇮🇷_IR_伊朗
   - name: 🐟 漏网之鱼
     type: select
     proxies:
