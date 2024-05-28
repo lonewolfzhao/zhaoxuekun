@@ -358,10 +358,10 @@ proxies:
 - {name: 0|-https://t.me/MrXbin-16, server: 43.202.41.139, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|-https://t.me/MrXbin-5, server: 118.163.179.159, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}, udp: true}
 - {name: "5,6|台湾2|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: e83f27c4-b1cb-4311-907c-ea16d32348e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}}, udp: true}
-- {name: 9|baipaovpn广东省深圳市, server: 183.232.142.179, port: 15600, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 13|🇺🇸 US 173.255.229.94 ◈ ws:80 ◈..., server: speed.cloudflare.com, port: 80, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /obdii.cfd/linkws, headers: {Host: xxxxx73cream-073cxxxxxxxx.cogoni7748.workers.dev}}, udp: true}
 - {name: 4Jadi-952, server: 18.143.159.186, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|-https://t.me/MrXbin-18, server: 3.112.218.182, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国, server: 18.236.153.152, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 5|🇭🇰 香港4|@ripaojiedian, server: 120.236.196.21, port: 29529, type: trojan, password: TNDSJfNv, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -382,10 +382,10 @@ proxy-groups:
       - 0|-https://t.me/MrXbin-16
       - 0|-https://t.me/MrXbin-5
       - 5,6|台湾2|@ripaojiedian
-      - 9|baipaovpn广东省深圳市
-      - 13|🇺🇸 US 173.255.229.94 ◈ ws:80 ◈...
       - 4Jadi-952
       - 0|-https://t.me/MrXbin-18
+      - _US_美国
+      - 5|🇭🇰 香港4|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -402,10 +402,10 @@ proxy-groups:
       - 0|-https://t.me/MrXbin-16
       - 0|-https://t.me/MrXbin-5
       - 5,6|台湾2|@ripaojiedian
-      - 9|baipaovpn广东省深圳市
-      - 13|🇺🇸 US 173.255.229.94 ◈ ws:80 ◈...
       - 4Jadi-952
       - 0|-https://t.me/MrXbin-18
+      - _US_美国
+      - 5|🇭🇰 香港4|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -440,10 +440,10 @@ proxy-groups:
       - 0|-https://t.me/MrXbin-16
       - 0|-https://t.me/MrXbin-5
       - 5,6|台湾2|@ripaojiedian
-      - 9|baipaovpn广东省深圳市
-      - 13|🇺🇸 US 173.255.229.94 ◈ ws:80 ◈...
       - 4Jadi-952
       - 0|-https://t.me/MrXbin-18
+      - _US_美国
+      - 5|🇭🇰 香港4|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
