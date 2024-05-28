@@ -354,14 +354,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 9|baipaovpn广东省深圳市, server: 183.232.142.179, port: 15600, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: "5,6|香港5|@ripaojiedian", server: m.cnmjin.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}, udp: true}
 - {name: 5|🇭🇰 香港6|@ripaojiedian, server: 183.232.170.47, port: 15611, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: "5,6|美国6|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2095, type: vmess, uuid: e83f27c4-b1cb-4311-907c-ea16d32348e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/qYZue4zaWS, headers: {Host: us82pRzxDMb.fzbqfrse.xyz}}, udp: true}
 - {name: _US_美国, server: 104.16.60.8, port: 2082, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /afrhms16v.bestxray.buzz/linkws, headers: {Host: worker-noisy-paper-fa00.hetoj18200.workers.dev}}, udp: true}
-- {name: 4FreeIran-972, server: 34.222.36.230, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国 2, server: 104.16.61.8, port: 80, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /obdii.cfd/linkws, headers: {Host: d396-flower-d396.megare7260.workers.dev}}, udp: true}
-- {name: 9|baipaovpn广东省广州市, server: 183.236.51.59, port: 54100, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -378,14 +374,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 9|baipaovpn广东省深圳市
       - 5,6|香港5|@ripaojiedian
       - 5|🇭🇰 香港6|@ripaojiedian
       - 5,6|美国6|@ripaojiedian
       - _US_美国
-      - 4FreeIran-972
-      - _US_美国 2
-      - 9|baipaovpn广东省广州市
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -398,14 +390,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 9|baipaovpn广东省深圳市
       - 5,6|香港5|@ripaojiedian
       - 5|🇭🇰 香港6|@ripaojiedian
       - 5,6|美国6|@ripaojiedian
       - _US_美国
-      - 4FreeIran-972
-      - _US_美国 2
-      - 9|baipaovpn广东省广州市
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -436,14 +424,10 @@ proxy-groups:
       - United States_Los Angeles_hy2_1
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
-      - 9|baipaovpn广东省深圳市
       - 5,6|香港5|@ripaojiedian
       - 5|🇭🇰 香港6|@ripaojiedian
       - 5,6|美国6|@ripaojiedian
       - _US_美国
-      - 4FreeIran-972
-      - _US_美国 2
-      - 9|baipaovpn广东省广州市
   - name: 🐟 漏网之鱼
     type: select
     proxies:
