@@ -354,14 +354,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
+- {name: 0|-https://t.me/MrXbin-4, server: 118.163.179.159, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}, udp: true}
 - {name: _CN_中国->🇺🇸_US_美国, server: 120.232.240.56, port: 16928, type: vmess, uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22193.25.215.160%22%7D"}}, udp: true}
-- {name: _US_美国, server: 52.88.161.5, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "5,8|CN_speednode_0014", server: 120.236.196.21, port: 29529, type: trojan, password: TNDSJfNv, skip-cert-verify: true, udp: true}
-- {name: _US_美国 2, server: 34.222.36.230, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-15, server: 3.10.199.245, port: 8080, type: ssr, cipher: aes-256-cfb, password: vD2z9zJXd, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: releases.ubuntu.com, udp: true}
 - {name: 5|🇺🇸 美国|@ripaojiedian, server: hk.wish.ml, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us6_0.wish.ml}}, udp: true}
-- {name: 0|-https://t.me/MrXbin-145, server: 5.42.72.241, port: 30482, type: ss, cipher: chacha20-ietf-poly1305, password: 2gUQ2cQTPtBGNjbCXKMKeH, udp: true}
-- {name: _US_美国->🇮🇳_IN_印度, server: 104.17.156.224, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: in4.wish.ml}}, udp: true}
+- {name: 0|-https://t.me/MrXbin-124, server: 205.134.180.139, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: lWaGPVFjmnag, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -378,14 +374,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
+      - 0|-https://t.me/MrXbin-4
       - _CN_中国->🇺🇸_US_美国
-      - _US_美国
-      - 5,8|CN_speednode_0014
-      - _US_美国 2
-      - 0|-https://t.me/MrXbin-15
       - 5|🇺🇸 美国|@ripaojiedian
-      - 0|-https://t.me/MrXbin-145
-      - _US_美国->🇮🇳_IN_印度
+      - 0|-https://t.me/MrXbin-124
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -398,14 +390,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
+      - 0|-https://t.me/MrXbin-4
       - _CN_中国->🇺🇸_US_美国
-      - _US_美国
-      - 5,8|CN_speednode_0014
-      - _US_美国 2
-      - 0|-https://t.me/MrXbin-15
       - 5|🇺🇸 美国|@ripaojiedian
-      - 0|-https://t.me/MrXbin-145
-      - _US_美国->🇮🇳_IN_印度
+      - 0|-https://t.me/MrXbin-124
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -436,14 +424,10 @@ proxy-groups:
       - United States_Los Angeles_hy2_1
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
+      - 0|-https://t.me/MrXbin-4
       - _CN_中国->🇺🇸_US_美国
-      - _US_美国
-      - 5,8|CN_speednode_0014
-      - _US_美国 2
-      - 0|-https://t.me/MrXbin-15
       - 5|🇺🇸 美国|@ripaojiedian
-      - 0|-https://t.me/MrXbin-145
-      - _US_美国->🇮🇳_IN_印度
+      - 0|-https://t.me/MrXbin-124
   - name: 🐟 漏网之鱼
     type: select
     proxies:
