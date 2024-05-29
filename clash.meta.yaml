@@ -354,14 +354,9 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 9|baipaovpn广东省深圳市, server: 183.232.142.179, port: 15600, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 5|🇹🇼 台湾|@ripaojiedian, server: tw1g.forlive.live, port: 80, type: vmess, uuid: bb7d0ae0-85bd-4d9f-8391-b3d927ccb497, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
-- {name: "5,6|台湾2|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: e83f27c4-b1cb-4311-907c-ea16d32348e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}}, udp: true}
-- {name: 9|baipaovpn美国, server: 172.64.104.182, port: 80, type: vmess, uuid: f0f067fe-8e6d-4d95-816b-601038fd5876, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/rongseven?ed=2048", headers: {Host: fr.grpc.gay}}, udp: true}
 - {name: 5|🇺🇸 美国|@ripaojiedian, server: hk.wish.ml, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us6_0.wish.ml}}, udp: true}
-- {name: 5|🇭🇰 香港|@ripaojiedian, server: 183.232.199.28, port: 15605, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4Sarina-950, server: 18.236.153.152, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "9|baipaovpn美国 #1", server: 64.110.89.119, port: 46515, type: vmess, uuid: f0f067fe-8e6d-4d95-816b-601038fd5876, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/rongseven?ed=2048"}, udp: true}
+- {name: _US_美国, server: 104.16.61.8, port: 2082, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /obdii.cfd/linkws, headers: {Host: y-old-mode-9c0diab.wiriy73548.workers.dev}}, udp: true}
+- {name: 5|🇺🇸 美国3|@ripaojiedian, server: 120.238.122.250, port: 34414, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -378,14 +373,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 9|baipaovpn广东省深圳市
-      - 5|🇹🇼 台湾|@ripaojiedian
-      - 5,6|台湾2|@ripaojiedian
-      - 9|baipaovpn美国
       - 5|🇺🇸 美国|@ripaojiedian
-      - 5|🇭🇰 香港|@ripaojiedian
-      - 4Sarina-950
-      - "9|baipaovpn美国 #1"
+      - _US_美国
+      - 5|🇺🇸 美国3|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -398,14 +388,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 9|baipaovpn广东省深圳市
-      - 5|🇹🇼 台湾|@ripaojiedian
-      - 5,6|台湾2|@ripaojiedian
-      - 9|baipaovpn美国
       - 5|🇺🇸 美国|@ripaojiedian
-      - 5|🇭🇰 香港|@ripaojiedian
-      - 4Sarina-950
-      - "9|baipaovpn美国 #1"
+      - _US_美国
+      - 5|🇺🇸 美国3|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -436,14 +421,9 @@ proxy-groups:
       - United States_Los Angeles_hy2_1
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
-      - 9|baipaovpn广东省深圳市
-      - 5|🇹🇼 台湾|@ripaojiedian
-      - 5,6|台湾2|@ripaojiedian
-      - 9|baipaovpn美国
       - 5|🇺🇸 美国|@ripaojiedian
-      - 5|🇭🇰 香港|@ripaojiedian
-      - 4Sarina-950
-      - "9|baipaovpn美国 #1"
+      - _US_美国
+      - 5|🇺🇸 美国3|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
