@@ -354,14 +354,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
+- {name: 0|-https://t.me/MrXbin-13, server: 118.163.179.158, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}, udp: true}
 - {name: 9|baipaovpn广东省深圳市, server: 183.232.142.179, port: 15600, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "11,16|韩国3|@ripaojiedian", server: 183.232.199.28, port: 42001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: _US_美国, server: 34.208.170.155, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 5|🇺🇸 美国|@ripaojiedian, server: hk.wish.ml, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us6_0.wish.ml}}, udp: true}
-- {name: "9|baipaovpn广东省佛山市 #1", server: 183.232.199.61, port: 42001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "5,8|CN_speednode_0014", server: 120.236.196.21, port: 29529, type: trojan, password: TNDSJfNv, skip-cert-verify: true, udp: true}
 - {name: 0|-https://t.me/MrXbin-22, server: 118.163.179.162, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}, udp: true}
+- {name: _US_美国 2, server: speed.cloudflare.com, port: 80, type: vmess, uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hms02.fxiaomi.sbs/link, headers: {Host: range-shape-b3fuegu.bananok182.workers.dev}}, udp: true}
+- {name: "5,8|CN_speednode_0014", server: 120.236.196.21, port: 29529, type: trojan, password: TNDSJfNv, skip-cert-verify: true, udp: true}
 - {name: 0|-https://t.me/MrXbin-21, server: 118.163.179.160, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}, udp: true}
+- {name: "5,6|新加坡|@ripaojiedian", server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: ccd92698-4499-472d-a06f-f90e7e89ba4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/3YKfzGw4, headers: {Host: rpmlybgzsg2.yofnhkfc.xyz}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -378,14 +378,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
+      - 0|-https://t.me/MrXbin-13
       - 9|baipaovpn广东省深圳市
-      - 11,16|韩国3|@ripaojiedian
       - _US_美国
-      - 5|🇺🇸 美国|@ripaojiedian
-      - "9|baipaovpn广东省佛山市 #1"
-      - 5,8|CN_speednode_0014
       - 0|-https://t.me/MrXbin-22
+      - _US_美国 2
+      - 5,8|CN_speednode_0014
       - 0|-https://t.me/MrXbin-21
+      - 5,6|新加坡|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -398,14 +398,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
+      - 0|-https://t.me/MrXbin-13
       - 9|baipaovpn广东省深圳市
-      - 11,16|韩国3|@ripaojiedian
       - _US_美国
-      - 5|🇺🇸 美国|@ripaojiedian
-      - "9|baipaovpn广东省佛山市 #1"
-      - 5,8|CN_speednode_0014
       - 0|-https://t.me/MrXbin-22
+      - _US_美国 2
+      - 5,8|CN_speednode_0014
       - 0|-https://t.me/MrXbin-21
+      - 5,6|新加坡|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -436,14 +436,14 @@ proxy-groups:
       - United States_Los Angeles_hy2_1
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
+      - 0|-https://t.me/MrXbin-13
       - 9|baipaovpn广东省深圳市
-      - 11,16|韩国3|@ripaojiedian
       - _US_美国
-      - 5|🇺🇸 美国|@ripaojiedian
-      - "9|baipaovpn广东省佛山市 #1"
-      - 5,8|CN_speednode_0014
       - 0|-https://t.me/MrXbin-22
+      - _US_美国 2
+      - 5,8|CN_speednode_0014
       - 0|-https://t.me/MrXbin-21
+      - 5,6|新加坡|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
