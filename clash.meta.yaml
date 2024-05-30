@@ -354,10 +354,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 0|-https://t.me/MrXbin-4, server: 118.163.179.159, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}, udp: true}
+- {name: "9|baipaovpn广东省汕头市 #1", server: 183.240.179.207, port: 30053, type: vmess, uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: "6,9|baipaovpn广东省佛山市", server: 183.232.199.28, port: 15603, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 6|香港2|@ripaojiedian, server: 183.232.199.61, port: 15601, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: _CN_中国->🇺🇸_US_美国, server: 120.232.240.56, port: 16928, type: vmess, uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22193.25.215.160%22%7D"}}, udp: true}
-- {name: 5|🇺🇸 美国|@ripaojiedian, server: hk.wish.ml, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us6_0.wish.ml}}, udp: true}
-- {name: 0|-https://t.me/MrXbin-124, server: 205.134.180.139, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: lWaGPVFjmnag, udp: true}
+- {name: 5|🇭🇰 香港2|@ripaojiedian, server: 183.232.199.61, port: 15601, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 13|🇺🇸 US 173.255.229.94 ◈ ws:80 ◈..., server: speed.cloudflare.com, port: 80, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /obdii.cfd/linkws, headers: {Host: xxxxx73cream-073cxxxxxxxx.cogoni7748.workers.dev}}, udp: true}
+- {name: 4Nika-951, server: 18.143.93.163, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国, server: 34.208.170.155, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -374,10 +378,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 0|-https://t.me/MrXbin-4
+      - "9|baipaovpn广东省汕头市 #1"
+      - 6,9|baipaovpn广东省佛山市
+      - 6|香港2|@ripaojiedian
       - _CN_中国->🇺🇸_US_美国
-      - 5|🇺🇸 美国|@ripaojiedian
-      - 0|-https://t.me/MrXbin-124
+      - 5|🇭🇰 香港2|@ripaojiedian
+      - 13|🇺🇸 US 173.255.229.94 ◈ ws:80 ◈...
+      - 4Nika-951
+      - _US_美国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -390,10 +398,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 0|-https://t.me/MrXbin-4
+      - "9|baipaovpn广东省汕头市 #1"
+      - 6,9|baipaovpn广东省佛山市
+      - 6|香港2|@ripaojiedian
       - _CN_中国->🇺🇸_US_美国
-      - 5|🇺🇸 美国|@ripaojiedian
-      - 0|-https://t.me/MrXbin-124
+      - 5|🇭🇰 香港2|@ripaojiedian
+      - 13|🇺🇸 US 173.255.229.94 ◈ ws:80 ◈...
+      - 4Nika-951
+      - _US_美国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -424,10 +436,14 @@ proxy-groups:
       - United States_Los Angeles_hy2_1
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
-      - 0|-https://t.me/MrXbin-4
+      - "9|baipaovpn广东省汕头市 #1"
+      - 6,9|baipaovpn广东省佛山市
+      - 6|香港2|@ripaojiedian
       - _CN_中国->🇺🇸_US_美国
-      - 5|🇺🇸 美国|@ripaojiedian
-      - 0|-https://t.me/MrXbin-124
+      - 5|🇭🇰 香港2|@ripaojiedian
+      - 13|🇺🇸 US 173.255.229.94 ◈ ws:80 ◈...
+      - 4Nika-951
+      - _US_美国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
