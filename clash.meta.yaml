@@ -354,14 +354,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 0|-https://t.me/MrXbin-92, server: 1ridh-g06.jp06-7c5a-vm0.entry.fr0307a.art, port: 28788, type: vmess, uuid: 2278146c-8fb0-3683-8300-342238f8a9d0, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-- {name: "5,6|美国2|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 8880, type: vmess, uuid: ccd92698-4499-472d-a06f-f90e7e89ba4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/bYdJ7Vc2We, headers: {Host: us6gzxQRrE4.fzbqfrse.xyz}}, udp: true}
-- {name: "5,6|美国|@ripaojiedian", server: hk.wish.ml, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us6_0.wish.ml}}, udp: true}
+- {name: 5|🇹🇼 台湾|@ripaojiedian, server: sohtsa.taiwanesefood.link, port: 28332, type: trojan, password: TaE3D3Yc9R2eCzl4OuCpgyCFy4OuCpgyCFy3SlRNY88SKanIejx37OAFZaXDx0anIejx3, sni: sohtsa.taiwanesefood.link, skip-cert-verify: true, udp: true}
 - {name: 8|CN_speednode_0014, server: 120.236.196.21, port: 29529, type: trojan, password: TNDSJfNv, skip-cert-verify: true, udp: true}
-- {name: 1|_US__6, server: 23.142.200.175, port: 443, type: trojan, password: 27876_t7d7f4e3f, skip-cert-verify: true, udp: true}
-- {name: _US_美国->🇮🇳_IN_印度, server: 104.17.156.224, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: in4.wish.ml}}, udp: true}
+- {name: _US_美国->🇬🇧_GB_英国, server: 104.19.40.222, port: 8880, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /d/65dd503.TG.WangCai2.WangCai_8:107690, headers: {Host: uk.moss.network}}, udp: true}
+- {name: 5|🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 41446, type: trojan, password: TNDSJfNv, skip-cert-verify: true, udp: true}
+- {name: 4Jadi-919, server: 13.212.91.18, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: "5,6|印度|@ripaojiedian", server: hk.wish.ml, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: in4.wish.ml}}, udp: true}
-- {name: 4Kian-697, server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
+- {name: _US_美国->🇬🇧_GB_英国 2, server: 104.19.40.211, port: 8880, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /d/65dd503.TG.WangCai2.WangCai_8:107690, headers: {Host: uk.moss.network}}, udp: true}
+- {name: 0|-https://t.me/MrXbin-5, server: 118.163.179.159, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -378,14 +378,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 0|-https://t.me/MrXbin-92
-      - 5,6|美国2|@ripaojiedian
-      - 5,6|美国|@ripaojiedian
+      - 5|🇹🇼 台湾|@ripaojiedian
       - 8|CN_speednode_0014
-      - 1|_US__6
-      - _US_美国->🇮🇳_IN_印度
+      - _US_美国->🇬🇧_GB_英国
+      - 5|🇭🇰 香港4|@ripaojiedian
+      - 4Jadi-919
       - 5,6|印度|@ripaojiedian
-      - 4Kian-697
+      - _US_美国->🇬🇧_GB_英国 2
+      - 0|-https://t.me/MrXbin-5
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -398,14 +398,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 0|-https://t.me/MrXbin-92
-      - 5,6|美国2|@ripaojiedian
-      - 5,6|美国|@ripaojiedian
+      - 5|🇹🇼 台湾|@ripaojiedian
       - 8|CN_speednode_0014
-      - 1|_US__6
-      - _US_美国->🇮🇳_IN_印度
+      - _US_美国->🇬🇧_GB_英国
+      - 5|🇭🇰 香港4|@ripaojiedian
+      - 4Jadi-919
       - 5,6|印度|@ripaojiedian
-      - 4Kian-697
+      - _US_美国->🇬🇧_GB_英国 2
+      - 0|-https://t.me/MrXbin-5
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -436,14 +436,14 @@ proxy-groups:
       - United States_Los Angeles_hy2_1
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
-      - 0|-https://t.me/MrXbin-92
-      - 5,6|美国2|@ripaojiedian
-      - 5,6|美国|@ripaojiedian
+      - 5|🇹🇼 台湾|@ripaojiedian
       - 8|CN_speednode_0014
-      - 1|_US__6
-      - _US_美国->🇮🇳_IN_印度
+      - _US_美国->🇬🇧_GB_英国
+      - 5|🇭🇰 香港4|@ripaojiedian
+      - 4Jadi-919
       - 5,6|印度|@ripaojiedian
-      - 4Kian-697
+      - _US_美国->🇬🇧_GB_英国 2
+      - 0|-https://t.me/MrXbin-5
   - name: 🐟 漏网之鱼
     type: select
     proxies:
