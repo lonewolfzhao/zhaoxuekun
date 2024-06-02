@@ -354,14 +354,12 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 4Sarina-1002, server: 54.179.9.170, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 5|🇭🇰 香港|@ripaojiedian, server: 183.232.199.28, port: 15605, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _US_美国, server: 104.16.61.8, port: 8080, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jahfkjha.cfd/linkws, headers: {Host: hyfhhg.jadovah977.workers.dev}}, udp: true}
+- {name: _CR_哥斯达黎加->🇬🇧_GB_英国, server: 190.93.247.155, port: 80, type: vmess, uuid: d9aaf6f8-0ef7-499c-830a-c7e5e56f3bd8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE, headers: {Host: Uk2.vmess.site.}}, udp: true}
 - {name: 8|CN_speednode_0014, server: 120.236.196.21, port: 29529, type: trojan, password: TNDSJfNv, skip-cert-verify: true, udp: true}
-- {name: 0|-https://t.me/MrXbin-41, server: vip1.hpyjc.top, port: 2086, type: vmess, uuid: 32c24a94-eb17-4081-aa57-48df2bc58342, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jp1.hpyjc.top}}, udp: true}
 - {name: 5|🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 41446, type: trojan, password: TNDSJfNv, skip-cert-verify: true, udp: true}
-- {name: 0|-https://t.me/MrXbin-58, server: 38.107.226.146, port: 1230, type: ss, cipher: chacha20-ietf-poly1305, password: H5S0hvcxRi#YLmgU, udp: true}
-- {name: 0|-https://t.me/MrXbin-4, server: 47.128.72.90, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "5,6|美国2|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2082, type: vmess, uuid: bb1af7d3-9526-44f1-9155-788773cc629e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/CuTy87zAzV/, headers: {Host: us4Bb5oSgJA.fzbqfrse.xyz}}, udp: true}
+- {name: 3|🇺🇸_US_美国, server: russia.com, port: 8080, type: vmess, uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: sssub.v2.001.ssrsub.com}}, udp: true}
+- {name: 11|美国 加利福尼亚州费利蒙Linode数据中心, server: au-v2ray.freevmess.com, port: 8443, type: vmess, uuid: da086099-0a3c-4f9a-bc4a-bc5cc254f771, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -378,14 +376,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 4Sarina-1002
-      - 5|🇭🇰 香港|@ripaojiedian
+      - _US_美国
+      - _CR_哥斯达黎加->🇬🇧_GB_英国
       - 8|CN_speednode_0014
-      - 0|-https://t.me/MrXbin-41
       - 5|🇭🇰 香港4|@ripaojiedian
-      - 0|-https://t.me/MrXbin-58
-      - 0|-https://t.me/MrXbin-4
-      - 5,6|美国2|@ripaojiedian
+      - 3|🇺🇸_US_美国
+      - 11|美国 加利福尼亚州费利蒙Linode数据中心
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -398,14 +394,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 4Sarina-1002
-      - 5|🇭🇰 香港|@ripaojiedian
+      - _US_美国
+      - _CR_哥斯达黎加->🇬🇧_GB_英国
       - 8|CN_speednode_0014
-      - 0|-https://t.me/MrXbin-41
       - 5|🇭🇰 香港4|@ripaojiedian
-      - 0|-https://t.me/MrXbin-58
-      - 0|-https://t.me/MrXbin-4
-      - 5,6|美国2|@ripaojiedian
+      - 3|🇺🇸_US_美国
+      - 11|美国 加利福尼亚州费利蒙Linode数据中心
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -436,14 +430,12 @@ proxy-groups:
       - United States_Los Angeles_hy2_1
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
-      - 4Sarina-1002
-      - 5|🇭🇰 香港|@ripaojiedian
+      - _US_美国
+      - _CR_哥斯达黎加->🇬🇧_GB_英国
       - 8|CN_speednode_0014
-      - 0|-https://t.me/MrXbin-41
       - 5|🇭🇰 香港4|@ripaojiedian
-      - 0|-https://t.me/MrXbin-58
-      - 0|-https://t.me/MrXbin-4
-      - 5,6|美国2|@ripaojiedian
+      - 3|🇺🇸_US_美国
+      - 11|美国 加利福尼亚州费利蒙Linode数据中心
   - name: 🐟 漏网之鱼
     type: select
     proxies:
