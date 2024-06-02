@@ -354,14 +354,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
+- {name: 0|-https://t.me/MrXbin-6, server: 118.163.179.162, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}, udp: true}
+- {name: 4Mohsen-889, server: 18.143.159.186, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|-https://t.me/MrXbin-10, server: 118.163.179.160, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}, udp: true}
+- {name: 4Mohsen-942, server: 46.137.236.48, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|-https://t.me/MrXbin-9, server: 118.163.179.158, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}, udp: true}
-- {name: "5,6|香港6|@ripaojiedian", server: yes.cnmjcn.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}, udp: true}
-- {name: "5,6|香港8|@ripaojiedian", server: m.cnmjin.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}, udp: true}
-- {name: _US_美国, server: 52.88.161.5, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国 2, server: 34.208.170.155, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 6|香港|@ripaojiedian, server: 183.232.199.28, port: 15605, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 5|🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 41446, type: trojan, password: TNDSJfNv, skip-cert-verify: true, udp: true}
+- {name: 8|CN_speednode_0013, server: 120.236.196.21, port: 29529, type: trojan, password: TNDSJfNv, skip-cert-verify: true, udp: true}
+- {name: _SE_瑞典, server: 185.146.173.92, port: 80, type: vmess, uuid: 3a71b42c-66d2-44ad-8a80-668d4f4339ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE, headers: {Host: Nl2.vmess.site.}}, udp: true}
+- {name: 3|🇺🇸_US_美国, server: russia.com, port: 8080, type: vmess, uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: sssub.v2.001.ssrsub.com}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -378,14 +378,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
+      - 0|-https://t.me/MrXbin-6
+      - 4Mohsen-889
       - 0|-https://t.me/MrXbin-10
+      - 4Mohsen-942
       - 0|-https://t.me/MrXbin-9
-      - 5,6|香港6|@ripaojiedian
-      - 5,6|香港8|@ripaojiedian
-      - _US_美国
-      - _US_美国 2
-      - 6|香港|@ripaojiedian
-      - 5|🇭🇰 香港4|@ripaojiedian
+      - 8|CN_speednode_0013
+      - _SE_瑞典
+      - 3|🇺🇸_US_美国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -398,14 +398,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
+      - 0|-https://t.me/MrXbin-6
+      - 4Mohsen-889
       - 0|-https://t.me/MrXbin-10
+      - 4Mohsen-942
       - 0|-https://t.me/MrXbin-9
-      - 5,6|香港6|@ripaojiedian
-      - 5,6|香港8|@ripaojiedian
-      - _US_美国
-      - _US_美国 2
-      - 6|香港|@ripaojiedian
-      - 5|🇭🇰 香港4|@ripaojiedian
+      - 8|CN_speednode_0013
+      - _SE_瑞典
+      - 3|🇺🇸_US_美国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -436,14 +436,14 @@ proxy-groups:
       - United States_Los Angeles_hy2_1
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
+      - 0|-https://t.me/MrXbin-6
+      - 4Mohsen-889
       - 0|-https://t.me/MrXbin-10
+      - 4Mohsen-942
       - 0|-https://t.me/MrXbin-9
-      - 5,6|香港6|@ripaojiedian
-      - 5,6|香港8|@ripaojiedian
-      - _US_美国
-      - _US_美国 2
-      - 6|香港|@ripaojiedian
-      - 5|🇭🇰 香港4|@ripaojiedian
+      - 8|CN_speednode_0013
+      - _SE_瑞典
+      - 3|🇺🇸_US_美国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
