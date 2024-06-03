@@ -354,14 +354,9 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 0|-https://t.me/MrXbin-6, server: 118.163.179.162, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}, udp: true}
 - {name: 4Mohsen-889, server: 18.143.159.186, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-10, server: 118.163.179.160, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}, udp: true}
-- {name: 4Mohsen-942, server: 46.137.236.48, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-9, server: 118.163.179.158, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}, udp: true}
 - {name: 8|CN_speednode_0013, server: 120.236.196.21, port: 29529, type: trojan, password: TNDSJfNv, skip-cert-verify: true, udp: true}
-- {name: _SE_瑞典, server: 185.146.173.92, port: 80, type: vmess, uuid: 3a71b42c-66d2-44ad-8a80-668d4f4339ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE, headers: {Host: Nl2.vmess.site.}}, udp: true}
-- {name: 3|🇺🇸_US_美国, server: russia.com, port: 8080, type: vmess, uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: sssub.v2.001.ssrsub.com}}, udp: true}
+- {name: 5|🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 41446, type: trojan, password: TNDSJfNv, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -378,14 +373,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 0|-https://t.me/MrXbin-6
       - 4Mohsen-889
-      - 0|-https://t.me/MrXbin-10
-      - 4Mohsen-942
-      - 0|-https://t.me/MrXbin-9
       - 8|CN_speednode_0013
-      - _SE_瑞典
-      - 3|🇺🇸_US_美国
+      - 5|🇭🇰 香港4|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -398,14 +388,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 0|-https://t.me/MrXbin-6
       - 4Mohsen-889
-      - 0|-https://t.me/MrXbin-10
-      - 4Mohsen-942
-      - 0|-https://t.me/MrXbin-9
       - 8|CN_speednode_0013
-      - _SE_瑞典
-      - 3|🇺🇸_US_美国
+      - 5|🇭🇰 香港4|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -436,14 +421,9 @@ proxy-groups:
       - United States_Los Angeles_hy2_1
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
-      - 0|-https://t.me/MrXbin-6
       - 4Mohsen-889
-      - 0|-https://t.me/MrXbin-10
-      - 4Mohsen-942
-      - 0|-https://t.me/MrXbin-9
       - 8|CN_speednode_0013
-      - _SE_瑞典
-      - 3|🇺🇸_US_美国
+      - 5|🇭🇰 香港4|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
