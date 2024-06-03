@@ -354,9 +354,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 4Mohsen-889, server: 18.143.159.186, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 8|CN_speednode_0013, server: 120.236.196.21, port: 29529, type: trojan, password: TNDSJfNv, skip-cert-verify: true, udp: true}
+- {name: "5,6|美国2|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2082, type: vmess, uuid: bb1af7d3-9526-44f1-9155-788773cc629e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/CuTy87zAzV/, headers: {Host: us4Bb5oSgJA.fzbqfrse.xyz}}, udp: true}
+- {name: _US_美国, server: speed.cloudflare.com, port: 80, type: vmess, uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hms02.fxiaomi.sbs/link, headers: {Host: range-shape-b3fuegu.bananok182.workers.dev}}, udp: true}
 - {name: 5|🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 41446, type: trojan, password: TNDSJfNv, skip-cert-verify: true, udp: true}
+- {name: _US_美国->🇷🇺_RU_俄罗斯联邦, server: 104.22.30.97, port: 80, type: vmess, uuid: 7772bb24-976a-45ca-aa76-f4f1b7f50923, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2-uk-1.v2ray.cc/anything/freevpn.us-vpnvipnor4/vmess, headers: {Host: vpnvipnor.ewdoab.wORkeRS.DEV}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -373,9 +374,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 4Mohsen-889
-      - 8|CN_speednode_0013
+      - 5,6|美国2|@ripaojiedian
+      - _US_美国
       - 5|🇭🇰 香港4|@ripaojiedian
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -388,9 +390,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 4Mohsen-889
-      - 8|CN_speednode_0013
+      - 5,6|美国2|@ripaojiedian
+      - _US_美国
       - 5|🇭🇰 香港4|@ripaojiedian
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -421,9 +424,10 @@ proxy-groups:
       - United States_Los Angeles_hy2_1
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
-      - 4Mohsen-889
-      - 8|CN_speednode_0013
+      - 5,6|美国2|@ripaojiedian
+      - _US_美国
       - 5|🇭🇰 香港4|@ripaojiedian
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
   - name: 🐟 漏网之鱼
     type: select
     proxies:
