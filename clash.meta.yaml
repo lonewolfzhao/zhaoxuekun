@@ -354,9 +354,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 13|🔒 VM-WS-TLS 🇲🇴 MO-202.86.138.5..., server: 202.86.138.58, port: 50000, type: vmess, uuid: cab438c4-9c5a-43fd-a623-ce81cb93085c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ikun, headers: {Host: hkv6.linyuch3.eu.org}}, udp: true}
-- {name: 13|美国【免费 04】, server: cf4.ftclashcloud.site, port: 80, type: vmess, uuid: 14391250-ec2a-4f8c-992a-9a0d6a30bb6f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: mhyusa01.ftclashcloud.online}}, udp: true}
-- {name: "5,6|印度|@ripaojiedian", server: hk.wish.ml, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: in4.wish.ml}}, udp: true}
+- {name: 16|香港3|@ripaojiedian, server: 183.232.170.47, port: 15604, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 16|香港2|@ripaojiedian, server: 183.232.199.61, port: 15604, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 13|超时等5 分钟更新订阅, server: hsj108k.mm-cc.top, port: 2052, type: vmess, uuid: 958aff36-100b-4fa3-8a47-e8709a270f60, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sjyhkap.mmaccc.top}}, udp: true}
+- {name: "13|🇷🇺_RU_俄罗斯联邦 #3", server: eedp257bubu2wefy2.lovebaipiao.net, port: 54321, type: vmess, uuid: 38a7f467-f1c8-4392-a6e9-0ed23e93775c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iphone, headers: {Host: eedp257bubu2wefy2.lovebaipiao.net}}, udp: true}
+- {name: "15,16|韩国3|@ripaojiedian", server: sui.forlive.live, port: 32460, type: vmess, uuid: 6e6bd87c-eca6-48fd-9337-c4f8d075622d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+- {name: _CN_中国->🇺🇸_US_美国, server: 36.151.195.48, port: 20344, type: trojan, password: TNDSJfNv, skip-cert-verify: true, udp: true}
+- {name: 16|6aaZ5rivUnxAcmlwYW9qaWVkaWFu, server: 59.56.77.178, port: 15001, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
+- {name: _US_美国, server: 38.107.226.146, port: 1230, type: ss, cipher: chacha20-ietf-poly1305, password: H5S0hvcxRi#YLmgU, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -373,9 +378,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 13|🔒 VM-WS-TLS 🇲🇴 MO-202.86.138.5...
-      - 13|美国【免费 04】
-      - 5,6|印度|@ripaojiedian
+      - 16|香港3|@ripaojiedian
+      - 16|香港2|@ripaojiedian
+      - 13|超时等5 分钟更新订阅
+      - "13|🇷🇺_RU_俄罗斯联邦 #3"
+      - 15,16|韩国3|@ripaojiedian
+      - _CN_中国->🇺🇸_US_美国
+      - 16|6aaZ5rivUnxAcmlwYW9qaWVkaWFu
+      - _US_美国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -388,9 +398,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 13|🔒 VM-WS-TLS 🇲🇴 MO-202.86.138.5...
-      - 13|美国【免费 04】
-      - 5,6|印度|@ripaojiedian
+      - 16|香港3|@ripaojiedian
+      - 16|香港2|@ripaojiedian
+      - 13|超时等5 分钟更新订阅
+      - "13|🇷🇺_RU_俄罗斯联邦 #3"
+      - 15,16|韩国3|@ripaojiedian
+      - _CN_中国->🇺🇸_US_美国
+      - 16|6aaZ5rivUnxAcmlwYW9qaWVkaWFu
+      - _US_美国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -421,9 +436,14 @@ proxy-groups:
       - United States_Los Angeles_hy2_1
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
-      - 13|🔒 VM-WS-TLS 🇲🇴 MO-202.86.138.5...
-      - 13|美国【免费 04】
-      - 5,6|印度|@ripaojiedian
+      - 16|香港3|@ripaojiedian
+      - 16|香港2|@ripaojiedian
+      - 13|超时等5 分钟更新订阅
+      - "13|🇷🇺_RU_俄罗斯联邦 #3"
+      - 15,16|韩国3|@ripaojiedian
+      - _CN_中国->🇺🇸_US_美国
+      - 16|6aaZ5rivUnxAcmlwYW9qaWVkaWFu
+      - _US_美国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
