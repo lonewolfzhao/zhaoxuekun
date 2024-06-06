@@ -357,10 +357,8 @@ proxies:
 - {name: 5|🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 4027, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
 - {name: "5,6|美国2|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 3b99fe7d-a3e5-46c2-adee-7c9a8e40eb09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/DDC4btA8wc/, headers: {Host: us2jdgv5GC7.fzbqfrse.xyz}}, udp: true}
 - {name: _US_美国, server: speed.cloudflare.com, port: 80, type: vmess, uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hms02.fxiaomi.sbs/link, headers: {Host: range-shape-b3fuegu.bananok182.workers.dev}}, udp: true}
-- {name: "5,8|CN_speednode_0014", server: 36.151.195.48, port: 4603, type: trojan, password: TNDSJfNv, skip-cert-verify: true, udp: true}
 - {name: "3,13|[🇨🇦]t.me/ConfigsHub #2", server: www.speedtest.net, port: 2052, type: vmess, uuid: 9e5f73da-a0f4-4a6c-87d8-7426527518c3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/@irvpnn,@irvpnn,@irvpnn,@irvpnn?ed=80", headers: {Host: 2d.irvn.debian.6.6.1b71.8.fxp.debian.org.speedtest.net.列列男事的事列上赛男.filter-nakon-madarj.cyou.}}, udp: true}
 - {name: "13|超级|巴西2 #1", server: chaoji2.chaozhijc.xyz, port: 2082, type: vmess, uuid: 0ff2af1f-4993-41a8-849f-0161cf33bce2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: bx.chaozhijc.xyz}}, udp: true}
-- {name: _US_美国 2, server: 104.16.61.8, port: 8080, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jahfkjha.cfd/linkws, headers: {Host: hyfhhg.jadovah977.workers.dev}}, udp: true}
 - {name: _CN_中国->🇷🇺_RU_俄罗斯联邦, server: ru0195.alibabaokz.com, port: 60194, type: trojan, password: 4770d44f-e799-4b4e-988d-b5ce56c4c3a0, sni: russia.okzdns.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -381,10 +379,8 @@ proxy-groups:
       - 5|🇭🇰 香港4|@ripaojiedian
       - 5,6|美国2|@ripaojiedian
       - _US_美国
-      - 5,8|CN_speednode_0014
       - "3,13|[🇨🇦]t.me/ConfigsHub #2"
       - "13|超级|巴西2 #1"
-      - _US_美国 2
       - _CN_中国->🇷🇺_RU_俄罗斯联邦
   - name: 🔰 节点选择
     type: select
@@ -401,10 +397,8 @@ proxy-groups:
       - 5|🇭🇰 香港4|@ripaojiedian
       - 5,6|美国2|@ripaojiedian
       - _US_美国
-      - 5,8|CN_speednode_0014
       - "3,13|[🇨🇦]t.me/ConfigsHub #2"
       - "13|超级|巴西2 #1"
-      - _US_美国 2
       - _CN_中国->🇷🇺_RU_俄罗斯联邦
   - name: ♻️ 可能受限
     type: load-balance
@@ -439,10 +433,8 @@ proxy-groups:
       - 5|🇭🇰 香港4|@ripaojiedian
       - 5,6|美国2|@ripaojiedian
       - _US_美国
-      - 5,8|CN_speednode_0014
       - "3,13|[🇨🇦]t.me/ConfigsHub #2"
       - "13|超级|巴西2 #1"
-      - _US_美国 2
       - _CN_中国->🇷🇺_RU_俄罗斯联邦
   - name: 🐟 漏网之鱼
     type: select
