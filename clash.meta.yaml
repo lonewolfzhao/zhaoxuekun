@@ -366,14 +366,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
+- {name: 5|🇯🇵 日本|@ripaojiedian, server: 223.113.54.154, port: 23621, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
 - {name: 5|🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 4027, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
-- {name: "5,6|韩国3|@ripaojiedian", server: sui.forlive.live, port: 32460, type: vmess, uuid: 6e6bd87c-eca6-48fd-9337-c4f8d075622d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
-- {name: 13|美国【TG：@ccbaohe】定时更新节点订阅 92, server: 104.16.67.38, port: 8080, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linde06.indiavideo.sbs/linkws, headers: {Host: square-snowflake-486a.beshir-beisel.workers.dev}}, udp: true}
 - {name: 5|🇭🇰 香港|@ripaojiedian, server: rk2.izoizoizo.top, port: 46091, type: ss, cipher: chacha20-ietf-poly1305, password: 4aa5bc5a-5574-4ec6-9c34-d2a5e9ee1d53, udp: true}
-- {name: _CN_中国->🇷🇺_RU_俄罗斯联邦, server: ru0195.alibabaokz.com, port: 60194, type: trojan, password: 4770d44f-e799-4b4e-988d-b5ce56c4c3a0, sni: russia.okzdns.com, skip-cert-verify: true, udp: true}
-- {name: _US_美国, server: 104.16.61.8, port: 8880, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /afrhms16v.bestxray.buzz/linkws, headers: {Host: 8shhebsj78wjisnbhsjvess-pond-6cc6.cerog91216.workers.dev}}, udp: true}
-- {name: "13|超级|巴西2 #1", server: chaoji2.chaozhijc.xyz, port: 2082, type: vmess, uuid: 0ff2af1f-4993-41a8-849f-0161cf33bce2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: bx.chaozhijc.xyz}}, udp: true}
-- {name: "11,13|加拿大 068", server: 172.67.144.2, port: 2052, type: vmess, uuid: 1d95edba-c8c7-4f0e-be25-5503fa31b509, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: ptdny.xyyjc.top}}, udp: true}
+- {name: 13|更多免费 https://github.com/Cry1ng..., server: 104.19.47.172, port: 2082, type: vmess, uuid: 0ff2af1f-4993-41a8-849f-0161cf33bce2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dxjp.chaozhijc.xyz}}, udp: true}
+- {name: _US_美国, server: www.speedtest.net, port: 2052, type: vmess, uuid: 78596245-2ccd-4c82-945a-b875758558fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/@irvpnn,@irvpnn,@irvpnn,@irvpnn?ed=80", headers: {Host: 2d.irvn.debian.6.6.1b71.8.fxp.debian.org.speedtest.net.列列男事的事列上赛男.filter-nakon-madarj.cyou.}}, udp: true}
+- {name: "11|美国 CloudFlare节点 #5", server: chaoji2.chaozhijc.xyz, port: 2082, type: vmess, uuid: 0ff2af1f-4993-41a8-849f-0161cf33bce2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dny.chaozhijc.xyz}}, udp: true}
+- {name: "5,6|韩国3|@ripaojiedian", server: sui.forlive.live, port: 32460, type: vmess, uuid: 6e6bd87c-eca6-48fd-9337-c4f8d075622d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+- {name: "5,6|新加坡|@ripaojiedian", server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: bf475e6c-a607-415e-a7f7-45c889320633, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/c9efxRCi, headers: {Host: 7nAi74jJsg1.yofnhkfc.xyz}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -390,14 +390,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
+      - 5|🇯🇵 日本|@ripaojiedian
       - 5|🇭🇰 香港4|@ripaojiedian
-      - 5,6|韩国3|@ripaojiedian
-      - 13|美国【TG：@ccbaohe】定时更新节点订阅 92
       - 5|🇭🇰 香港|@ripaojiedian
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦
+      - 13|更多免费 https://github.com/Cry1ng...
       - _US_美国
-      - "13|超级|巴西2 #1"
-      - 11,13|加拿大 068
+      - "11|美国 CloudFlare节点 #5"
+      - 5,6|韩国3|@ripaojiedian
+      - 5,6|新加坡|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -410,14 +410,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
+      - 5|🇯🇵 日本|@ripaojiedian
       - 5|🇭🇰 香港4|@ripaojiedian
-      - 5,6|韩国3|@ripaojiedian
-      - 13|美国【TG：@ccbaohe】定时更新节点订阅 92
       - 5|🇭🇰 香港|@ripaojiedian
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦
+      - 13|更多免费 https://github.com/Cry1ng...
       - _US_美国
-      - "13|超级|巴西2 #1"
-      - 11,13|加拿大 068
+      - "11|美国 CloudFlare节点 #5"
+      - 5,6|韩国3|@ripaojiedian
+      - 5,6|新加坡|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -449,14 +449,14 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
+      - 5|🇯🇵 日本|@ripaojiedian
       - 5|🇭🇰 香港4|@ripaojiedian
-      - 5,6|韩国3|@ripaojiedian
-      - 13|美国【TG：@ccbaohe】定时更新节点订阅 92
       - 5|🇭🇰 香港|@ripaojiedian
-      - _CN_中国->🇷🇺_RU_俄罗斯联邦
+      - 13|更多免费 https://github.com/Cry1ng...
       - _US_美国
-      - "13|超级|巴西2 #1"
-      - 11,13|加拿大 068
+      - "11|美国 CloudFlare节点 #5"
+      - 5,6|韩国3|@ripaojiedian
+      - 5,6|新加坡|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
