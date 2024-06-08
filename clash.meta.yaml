@@ -366,13 +366,13 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 5|🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 4027, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
 - {name: "5,6|新加坡|@ripaojiedian", server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: bf475e6c-a607-415e-a7f7-45c889320633, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/c9efxRCi, headers: {Host: 7nAi74jJsg1.yofnhkfc.xyz}}, udp: true}
-- {name: 5|🇺🇸 美国5|@ripaojiedian, server: 183.232.139.22, port: 50611, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
-- {name: _US_美国, server: 104.16.60.8, port: 2086, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /afrhms16v.bestxray.buzz/linkws, headers: {Host: y-old-mode-9c0diab.wiriy73548.workers.dev}}, udp: true}
-- {name: _US_美国->🇨🇦_CA_加拿大, server: 172.64.97.235, port: 8080, type: vmess, uuid: ef8c954e-014f-4b36-8273-9b5086afab34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: ef8c954e-014f-4b36-8273-9b5086afab34-vm, headers: {Host: dual-nothing-prep-exit.trycloudflare.com}}, udp: true}
+- {name: 13|加拿大 062, server: 104.16.67.38, port: 2095, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /glweidf.sbs/linkws, headers: {Host: proud-union-8659.email-0kn8d.workers.dev}}, udp: true}
+- {name: "13|[🇨🇦]t.me/ConfigsHub #1", server: www.speedtest.net, port: 2082, type: vmess, uuid: 412fc228-92ae-4dd8-bdc9-1fcc66c15c7a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/@config_shahin,@config_shahin,@config_shahin,@config_shahin?ed=80", headers: {Host: 2.irvn.debian.6.i.6.6.fxp.debian.org.speedtest.net.列列男事的事列上赛男.ghormehsabzi.cyou.}}, udp: true}
 - {name: 5|🇹🇼 台湾|@ripaojiedian 2, server: dc0.forlive.live, port: 41003, type: trojan, password: 187d7254-9574-4da1-9f53-0bbc02dbd027, sni: ssl.sbgfw.info, skip-cert-verify: true, udp: true}
-- {name: 6|香港2|@ripaojiedian, server: 183.238.202.173, port: 51193, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 5|🇺🇸 美国5|@ripaojiedian, server: 183.232.139.22, port: 50611, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
+- {name: _US_美国, server: www.speedtest.net, port: 2052, type: vmess, uuid: 78596245-2ccd-4c82-945a-b875758558fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/@irvpnn,@irvpnn,@irvpnn,@irvpnn?ed=80", headers: {Host: 2d.irvn.debian.6.6.1b71.8.fxp.debian.org.speedtest.net.列列男事的事列上赛男.filter-nakon-madarj.cyou.}}, udp: true}
+- {name: 13|美国【TG：@ccbaohe】定时更新节点订阅 10, server: 104.19.44.150, port: 8080, type: vmess, uuid: 3fdf9d48-578a-42dc-9fdd-0dfcefa3d0c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: amd2.720208.xyz}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -389,13 +389,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5|🇭🇰 香港4|@ripaojiedian
       - 5,6|新加坡|@ripaojiedian
+      - 13|加拿大 062
+      - "13|[🇨🇦]t.me/ConfigsHub #1"
+      - 5|🇹🇼 台湾|@ripaojiedian 2
       - 5|🇺🇸 美国5|@ripaojiedian
       - _US_美国
-      - _US_美国->🇨🇦_CA_加拿大
-      - 5|🇹🇼 台湾|@ripaojiedian 2
-      - 6|香港2|@ripaojiedian
+      - 13|美国【TG：@ccbaohe】定时更新节点订阅 10
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -408,13 +408,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5|🇭🇰 香港4|@ripaojiedian
       - 5,6|新加坡|@ripaojiedian
+      - 13|加拿大 062
+      - "13|[🇨🇦]t.me/ConfigsHub #1"
+      - 5|🇹🇼 台湾|@ripaojiedian 2
       - 5|🇺🇸 美国5|@ripaojiedian
       - _US_美国
-      - _US_美国->🇨🇦_CA_加拿大
-      - 5|🇹🇼 台湾|@ripaojiedian 2
-      - 6|香港2|@ripaojiedian
+      - 13|美国【TG：@ccbaohe】定时更新节点订阅 10
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -446,13 +446,13 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - 5|🇭🇰 香港4|@ripaojiedian
       - 5,6|新加坡|@ripaojiedian
+      - 13|加拿大 062
+      - "13|[🇨🇦]t.me/ConfigsHub #1"
+      - 5|🇹🇼 台湾|@ripaojiedian 2
       - 5|🇺🇸 美国5|@ripaojiedian
       - _US_美国
-      - _US_美国->🇨🇦_CA_加拿大
-      - 5|🇹🇼 台湾|@ripaojiedian 2
-      - 6|香港2|@ripaojiedian
+      - 13|美国【TG：@ccbaohe】定时更新节点订阅 10
   - name: 🐟 漏网之鱼
     type: select
     proxies:
