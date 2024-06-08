@@ -366,10 +366,13 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 5|🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 4027, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
 - {name: _CN_中国->🇺🇸_US_美国, server: 4208.ens3.buzz, port: 12390, type: ss, cipher: aes-128-gcm, password: e06522ae-7517-4584-ac3c-6951df538092, udp: true}
 - {name: 13|US_youtube@资源分享师_69, server: 104.19.38.28, port: 8880, type: vmess, uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm, headers: {Host: funk-england-indirect-gospel.trycloudflare.com}}, udp: true}
+- {name: 5|🇺🇸 美国5|@ripaojiedian, server: 183.232.139.22, port: 50611, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
 - {name: 5|🇺🇸 美国4|@ripaojiedian, server: 223.113.54.160, port: 23223, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-111, server: eedp257bubu2wefy1.lovebaipiao.net, port: 54321, type: vmess, uuid: 38a7f467-f1c8-4392-a6e9-0ed23e93775c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iphone, headers: {Host: eedp257bubu2wefy1.lovebaipiao.net}}, udp: true}
+- {name: "13|[🇨🇦]t.me/ConfigsHub #1", server: www.speedtest.net, port: 2082, type: vmess, uuid: 412fc228-92ae-4dd8-bdc9-1fcc66c15c7a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/@config_shahin,@config_shahin,@config_shahin,@config_shahin?ed=80", headers: {Host: 2.irvn.debian.6.i.6.6.fxp.debian.org.speedtest.net.列列男事的事列上赛男.ghormehsabzi.cyou.}}, udp: true}
+- {name: 5|🇯🇵 日本|@ripaojiedian, server: 223.113.54.154, port: 23621, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
 - {name: 13|-0980-TW【ccbaohe.com〗 永久免费节点机场, server: in06.dns2024.org, port: 61017, type: vmess, uuid: 9eac8830-5da5-3ee2-a4b2-b49598275623, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -387,10 +390,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5|🇭🇰 香港4|@ripaojiedian
       - _CN_中国->🇺🇸_US_美国
       - 13|US_youtube@资源分享师_69
+      - 5|🇺🇸 美国5|@ripaojiedian
       - 5|🇺🇸 美国4|@ripaojiedian
+      - 0|-https://t.me/MrXbin-111
+      - "13|[🇨🇦]t.me/ConfigsHub #1"
+      - 5|🇯🇵 日本|@ripaojiedian
       - 13|-0980-TW【ccbaohe.com〗 永久免费节点机场
   - name: 🔰 节点选择
     type: select
@@ -404,10 +410,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5|🇭🇰 香港4|@ripaojiedian
       - _CN_中国->🇺🇸_US_美国
       - 13|US_youtube@资源分享师_69
+      - 5|🇺🇸 美国5|@ripaojiedian
       - 5|🇺🇸 美国4|@ripaojiedian
+      - 0|-https://t.me/MrXbin-111
+      - "13|[🇨🇦]t.me/ConfigsHub #1"
+      - 5|🇯🇵 日本|@ripaojiedian
       - 13|-0980-TW【ccbaohe.com〗 永久免费节点机场
   - name: ♻️ 可能受限
     type: load-balance
@@ -440,10 +449,13 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - 5|🇭🇰 香港4|@ripaojiedian
       - _CN_中国->🇺🇸_US_美国
       - 13|US_youtube@资源分享师_69
+      - 5|🇺🇸 美国5|@ripaojiedian
       - 5|🇺🇸 美国4|@ripaojiedian
+      - 0|-https://t.me/MrXbin-111
+      - "13|[🇨🇦]t.me/ConfigsHub #1"
+      - 5|🇯🇵 日本|@ripaojiedian
       - 13|-0980-TW【ccbaohe.com〗 永久免费节点机场
   - name: 🐟 漏网之鱼
     type: select
