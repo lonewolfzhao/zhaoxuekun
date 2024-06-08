@@ -367,11 +367,13 @@ proxies:
   sni: www.bing.com
   skip-cert-verify: true
 - {name: 5|🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 4027, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
+- {name: 13|-0980-TW【ccbaohe.com〗 永久免费节点机场, server: in06.dns2024.org, port: 61017, type: vmess, uuid: 9eac8830-5da5-3ee2-a4b2-b49598275623, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _CN_中国->🇺🇸_US_美国, server: 4208.ens3.buzz, port: 12390, type: ss, cipher: aes-128-gcm, password: e06522ae-7517-4584-ac3c-6951df538092, udp: true}
+- {name: 13|US_youtube@资源分享师_69, server: 104.19.38.28, port: 8880, type: vmess, uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm, headers: {Host: funk-england-indirect-gospel.trycloudflare.com}}, udp: true}
+- {name: "5,6|香港7|@ripaojiedian", server: yes.cnmjcn.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}, udp: true}
 - {name: 5|🇺🇸 美国4|@ripaojiedian, server: 223.113.54.160, port: 23223, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
-- {name: "5,6|新加坡|@ripaojiedian", server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: bf475e6c-a607-415e-a7f7-45c889320633, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/c9efxRCi, headers: {Host: 7nAi74jJsg1.yofnhkfc.xyz}}, udp: true}
-- {name: 5|🇻🇳 越南R|@ripaojiedian, server: 59.56.77.178, port: 15083, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
 - {name: _US_美国, server: www.speedtest.net, port: 2052, type: vmess, uuid: 78596245-2ccd-4c82-945a-b875758558fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/@irvpnn,@irvpnn,@irvpnn,@irvpnn?ed=80", headers: {Host: 2d.irvn.debian.6.6.1b71.8.fxp.debian.org.speedtest.net.列列男事的事列上赛男.filter-nakon-madarj.cyou.}}, udp: true}
-- {name: 5|🇭🇰 香港2|@ripaojiedian, server: 183.238.202.173, port: 51193, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 5|🇭🇰 香港R|@ripaojiedian, server: 59.56.77.178, port: 15001, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -389,11 +391,13 @@ proxy-groups:
     interval: 300
     proxies:
       - 5|🇭🇰 香港4|@ripaojiedian
+      - 13|-0980-TW【ccbaohe.com〗 永久免费节点机场
+      - _CN_中国->🇺🇸_US_美国
+      - 13|US_youtube@资源分享师_69
+      - 5,6|香港7|@ripaojiedian
       - 5|🇺🇸 美国4|@ripaojiedian
-      - 5,6|新加坡|@ripaojiedian
-      - 5|🇻🇳 越南R|@ripaojiedian
       - _US_美国
-      - 5|🇭🇰 香港2|@ripaojiedian
+      - 5|🇭🇰 香港R|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -407,11 +411,13 @@ proxy-groups:
     interval: 300
     proxies:
       - 5|🇭🇰 香港4|@ripaojiedian
+      - 13|-0980-TW【ccbaohe.com〗 永久免费节点机场
+      - _CN_中国->🇺🇸_US_美国
+      - 13|US_youtube@资源分享师_69
+      - 5,6|香港7|@ripaojiedian
       - 5|🇺🇸 美国4|@ripaojiedian
-      - 5,6|新加坡|@ripaojiedian
-      - 5|🇻🇳 越南R|@ripaojiedian
       - _US_美国
-      - 5|🇭🇰 香港2|@ripaojiedian
+      - 5|🇭🇰 香港R|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -444,11 +450,13 @@ proxy-groups:
       - United States_Los Angeles_hy2_3
 
       - 5|🇭🇰 香港4|@ripaojiedian
+      - 13|-0980-TW【ccbaohe.com〗 永久免费节点机场
+      - _CN_中国->🇺🇸_US_美国
+      - 13|US_youtube@资源分享师_69
+      - 5,6|香港7|@ripaojiedian
       - 5|🇺🇸 美国4|@ripaojiedian
-      - 5,6|新加坡|@ripaojiedian
-      - 5|🇻🇳 越南R|@ripaojiedian
       - _US_美国
-      - 5|🇭🇰 香港2|@ripaojiedian
+      - 5|🇭🇰 香港R|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
