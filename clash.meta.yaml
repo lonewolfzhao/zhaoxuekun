@@ -367,13 +367,12 @@ proxies:
   sni: www.bing.com
   skip-cert-verify: true
 - {name: 5|🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 4027, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
-- {name: "5,6|韩国2|@ripaojiedian", server: sui.forlive.live, port: 40396, type: vmess, uuid: f1b9745c-c302-4e31-81c3-db937dcecee7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+- {name: 5|🇯🇵 日本|@ripaojiedian, server: 223.113.54.154, port: 23621, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
+- {name: 13|加拿大 194, server: 104.19.21.24, port: 8880, type: vmess, uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm, headers: {Host: funk-england-indirect-gospel.trycloudflare.com}}, udp: true}
+- {name: 4FreeIran-907, server: 3.112.44.123, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: _CN_中国->🇺🇸_US_美国, server: 4208.ens3.buzz, port: 12390, type: ss, cipher: aes-128-gcm, password: e06522ae-7517-4584-ac3c-6951df538092, udp: true}
-- {name: 13|加拿大 060, server: 104.16.67.38, port: 2095, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /glweidf.sbs/linkws, headers: {Host: proud-union-8659.email-0kn8d.workers.dev}}, udp: true}
-- {name: _CA_加拿大, server: 142.171.172.207, port: 23333, type: trojan, password: 450524c4-86ee-4a97-ac7f-888942039bcd, sni: test.com, skip-cert-verify: true, udp: true}
-- {name: "5,6|新加坡|@ripaojiedian", server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: bf475e6c-a607-415e-a7f7-45c889320633, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/c9efxRCi, headers: {Host: 7nAi74jJsg1.yofnhkfc.xyz}}, udp: true}
+- {name: 5|🇺🇸 美国4|@ripaojiedian, server: 223.113.54.160, port: 23223, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
 - {name: 13|US_youtube@资源分享师_69, server: 104.19.38.28, port: 8880, type: vmess, uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm, headers: {Host: funk-england-indirect-gospel.trycloudflare.com}}, udp: true}
-- {name: 5|🇸🇬 狮城特殊|@ripaojiedian, server: 13.113.253.68, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -391,13 +390,12 @@ proxy-groups:
     interval: 300
     proxies:
       - 5|🇭🇰 香港4|@ripaojiedian
-      - 5,6|韩国2|@ripaojiedian
+      - 5|🇯🇵 日本|@ripaojiedian
+      - 13|加拿大 194
+      - 4FreeIran-907
       - _CN_中国->🇺🇸_US_美国
-      - 13|加拿大 060
-      - _CA_加拿大
-      - 5,6|新加坡|@ripaojiedian
+      - 5|🇺🇸 美国4|@ripaojiedian
       - 13|US_youtube@资源分享师_69
-      - 5|🇸🇬 狮城特殊|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -411,13 +409,12 @@ proxy-groups:
     interval: 300
     proxies:
       - 5|🇭🇰 香港4|@ripaojiedian
-      - 5,6|韩国2|@ripaojiedian
+      - 5|🇯🇵 日本|@ripaojiedian
+      - 13|加拿大 194
+      - 4FreeIran-907
       - _CN_中国->🇺🇸_US_美国
-      - 13|加拿大 060
-      - _CA_加拿大
-      - 5,6|新加坡|@ripaojiedian
+      - 5|🇺🇸 美国4|@ripaojiedian
       - 13|US_youtube@资源分享师_69
-      - 5|🇸🇬 狮城特殊|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -450,13 +447,12 @@ proxy-groups:
       - United States_Los Angeles_hy2_3
 
       - 5|🇭🇰 香港4|@ripaojiedian
-      - 5,6|韩国2|@ripaojiedian
+      - 5|🇯🇵 日本|@ripaojiedian
+      - 13|加拿大 194
+      - 4FreeIran-907
       - _CN_中国->🇺🇸_US_美国
-      - 13|加拿大 060
-      - _CA_加拿大
-      - 5,6|新加坡|@ripaojiedian
+      - 5|🇺🇸 美国4|@ripaojiedian
       - 13|US_youtube@资源分享师_69
-      - 5|🇸🇬 狮城特殊|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
