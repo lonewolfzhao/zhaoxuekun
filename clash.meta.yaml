@@ -367,13 +367,10 @@ proxies:
   sni: www.bing.com
   skip-cert-verify: true
 - {name: 5|🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 4027, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
+- {name: _US_美国, server: 148.135.40.190, port: 8080, type: vmess, uuid: f9808413-8b12-42ea-86ff-a0af6727a0e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/index?ed=2560"}, udp: true}
 - {name: 13|🇺🇸 美国1|cf, server: hk.wish.ml, port: 2052, type: vmess, uuid: cf8d5979-31a2-47a1-9075-f64ae5abea6e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us7.wish.ml}}, udp: true}
 - {name: 5|🇺🇸 美国4|@ripaojiedian, server: 223.113.54.160, port: 23223, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
-- {name: 13|🔒 VM-WS-NA 🏴‍☠️ NA-104.17.147...., server: 104.17.147.22, port: 8080, type: vmess, uuid: f214f2ca-cfbb-4b73-b5f4-6f8cc7b1e930, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/@vpnv2go,@vpnv2go,@vpnv2go,@vpnv2go?ed=80", headers: {Host: 2.irvn.debian.6.i.6.6.fxp.debian.org.speedtest.net.列列男事的事列上赛男.ghormehsabzi.cyou.}}, udp: true}
-- {name: 13|🔒 VM-TCP-NA 🇺🇸 US-198.2.218.10..., server: 198.2.218.108, port: 41400, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 5|🇯🇵 日本|@ripaojiedian, server: 223.113.54.154, port: 23621, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
-- {name: 13|⚜️18@oneclickvpnkeys, server: c3.v2raybrasil.cloud, port: 2082, type: vmess, uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ybr.redbullplus.xyz}}, udp: true}
-- {name: "13|[vmess]俄罗斯 2", server: m2-by2.m2network.icu, port: 80, type: vmess, uuid: 8d3f44eb-9ba0-4dd4-83cd-eaece719ca92, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: m2-by2.m2network.icu}}, udp: true}
+- {name: 13|🔒 VM-WS-NA 🏴‍☠️ NA-104.17.148...., server: 104.17.148.22, port: 8080, type: vmess, uuid: f214f2ca-cfbb-4b73-b5f4-6f8cc7b1e930, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/@vpnv2go,@vpnv2go,@vpnv2go,@vpnv2go?ed=80", headers: {Host: 2.irvn.debian.6.i.6.6.fxp.debian.org.speedtest.net.列列男事的事列上赛男.ghormehsabzi.cyou.}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -391,13 +388,10 @@ proxy-groups:
     interval: 300
     proxies:
       - 5|🇭🇰 香港4|@ripaojiedian
+      - _US_美国
       - 13|🇺🇸 美国1|cf
       - 5|🇺🇸 美国4|@ripaojiedian
-      - 13|🔒 VM-WS-NA 🏴‍☠️ NA-104.17.147....
-      - 13|🔒 VM-TCP-NA 🇺🇸 US-198.2.218.10...
-      - 5|🇯🇵 日本|@ripaojiedian
-      - 13|⚜️18@oneclickvpnkeys
-      - 13|[vmess]俄罗斯 2
+      - 13|🔒 VM-WS-NA 🏴‍☠️ NA-104.17.148....
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -411,13 +405,10 @@ proxy-groups:
     interval: 300
     proxies:
       - 5|🇭🇰 香港4|@ripaojiedian
+      - _US_美国
       - 13|🇺🇸 美国1|cf
       - 5|🇺🇸 美国4|@ripaojiedian
-      - 13|🔒 VM-WS-NA 🏴‍☠️ NA-104.17.147....
-      - 13|🔒 VM-TCP-NA 🇺🇸 US-198.2.218.10...
-      - 5|🇯🇵 日本|@ripaojiedian
-      - 13|⚜️18@oneclickvpnkeys
-      - 13|[vmess]俄罗斯 2
+      - 13|🔒 VM-WS-NA 🏴‍☠️ NA-104.17.148....
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -450,13 +441,10 @@ proxy-groups:
       - United States_Los Angeles_hy2_3
 
       - 5|🇭🇰 香港4|@ripaojiedian
+      - _US_美国
       - 13|🇺🇸 美国1|cf
       - 5|🇺🇸 美国4|@ripaojiedian
-      - 13|🔒 VM-WS-NA 🏴‍☠️ NA-104.17.147....
-      - 13|🔒 VM-TCP-NA 🇺🇸 US-198.2.218.10...
-      - 5|🇯🇵 日本|@ripaojiedian
-      - 13|⚜️18@oneclickvpnkeys
-      - 13|[vmess]俄罗斯 2
+      - 13|🔒 VM-WS-NA 🏴‍☠️ NA-104.17.148....
   - name: 🐟 漏网之鱼
     type: select
     proxies:
