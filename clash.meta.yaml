@@ -366,14 +366,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 5|🇹🇼 台湾2|@ripaojiedian, server: alm2.the-galgo.top, port: 32012, type: vmess, uuid: 3a988367-5daa-4beb-be62-aaba3e79534a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 5|🇸🇬 狮城特殊|@ripaojiedian, server: 18.183.130.46, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 5|🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 4027, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
-- {name: 4Kian-932, server: 3.112.44.123, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 5|🇻🇳 越南R|@ripaojiedian, server: 59.56.77.178, port: 15083, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
 - {name: 5|🇸🇬 新加坡2|@ripaojiedian, server: dcl1.forlive.live, port: 42028, type: ss, cipher: chacha20-ietf-poly1305, password: 8ca2d58e-9a1d-4756-842e-df4fd7a656a7, udp: true}
-- {name: 13|加拿大 059, server: 104.16.67.38, port: 2095, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /glweidf.sbs/linkws, headers: {Host: proud-union-8659.email-0kn8d.workers.dev}}, udp: true}
-- {name: "5,6|美国3|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 8080, type: vmess, uuid: a91c3fbf-0a68-474b-ac24-bf801db981f6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/f8ZKTGaGoC/, headers: {Host: us5PhAx6xsj.fzbqfrse.xyz}}, udp: true}
-- {name: 13|加拿大 058, server: 104.16.60.8, port: 2095, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /obdii.cfd/linkws, headers: {Host: icy-tooth-3d05.plzthsmdnss-7d8ly.workers.dev}}, udp: true}
+- {name: 5|🇺🇸 美国4|@ripaojiedian, server: 223.113.54.160, port: 23223, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
+- {name: 4FreeIran-1008, server: 3.112.233.37, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国, server: 104.16.61.8, port: 8080, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jahfkjha.cfd/linkws, headers: {Host: hyfhhg.jadovah977.workers.dev}}, udp: true}
+- {name: "13|🇺🇸_US_美国->🇨🇦_CA_加拿大 #5", server: 104.26.9.12, port: 8443, type: vmess, uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm, headers: {Host: funk-england-indirect-gospel.trycloudflare.com}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -390,14 +390,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5|🇹🇼 台湾2|@ripaojiedian
       - 5|🇸🇬 狮城特殊|@ripaojiedian
       - 5|🇭🇰 香港4|@ripaojiedian
-      - 4Kian-932
+      - 5|🇻🇳 越南R|@ripaojiedian
       - 5|🇸🇬 新加坡2|@ripaojiedian
-      - 13|加拿大 059
-      - 5,6|美国3|@ripaojiedian
-      - 13|加拿大 058
+      - 5|🇺🇸 美国4|@ripaojiedian
+      - 4FreeIran-1008
+      - _US_美国
+      - "13|🇺🇸_US_美国->🇨🇦_CA_加拿大 #5"
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -410,14 +410,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5|🇹🇼 台湾2|@ripaojiedian
       - 5|🇸🇬 狮城特殊|@ripaojiedian
       - 5|🇭🇰 香港4|@ripaojiedian
-      - 4Kian-932
+      - 5|🇻🇳 越南R|@ripaojiedian
       - 5|🇸🇬 新加坡2|@ripaojiedian
-      - 13|加拿大 059
-      - 5,6|美国3|@ripaojiedian
-      - 13|加拿大 058
+      - 5|🇺🇸 美国4|@ripaojiedian
+      - 4FreeIran-1008
+      - _US_美国
+      - "13|🇺🇸_US_美国->🇨🇦_CA_加拿大 #5"
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -449,14 +449,14 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - 5|🇹🇼 台湾2|@ripaojiedian
       - 5|🇸🇬 狮城特殊|@ripaojiedian
       - 5|🇭🇰 香港4|@ripaojiedian
-      - 4Kian-932
+      - 5|🇻🇳 越南R|@ripaojiedian
       - 5|🇸🇬 新加坡2|@ripaojiedian
-      - 13|加拿大 059
-      - 5,6|美国3|@ripaojiedian
-      - 13|加拿大 058
+      - 5|🇺🇸 美国4|@ripaojiedian
+      - 4FreeIran-1008
+      - _US_美国
+      - "13|🇺🇸_US_美国->🇨🇦_CA_加拿大 #5"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
