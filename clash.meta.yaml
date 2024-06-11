@@ -366,11 +366,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
+- {name: 4Nika-921, server: 3.112.219.236, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 5|🇹🇼 台湾2|@ripaojiedian, server: alm2.the-galgo.top, port: 32012, type: vmess, uuid: 3a988367-5daa-4beb-be62-aaba3e79534a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 5|🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 4027, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
-- {name: _US_美国, server: 148.135.40.190, port: 8080, type: vmess, uuid: f9808413-8b12-42ea-86ff-a0af6727a0e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/index?ed=2560"}, udp: true}
-- {name: 13|🇺🇸 美国1|cf, server: hk.wish.ml, port: 2052, type: vmess, uuid: cf8d5979-31a2-47a1-9075-f64ae5abea6e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us7.wish.ml}}, udp: true}
-- {name: 5|🇺🇸 美国4|@ripaojiedian, server: 223.113.54.160, port: 23223, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
-- {name: 13|🔒 VM-WS-NA 🏴‍☠️ NA-104.17.148...., server: 104.17.148.22, port: 8080, type: vmess, uuid: f214f2ca-cfbb-4b73-b5f4-6f8cc7b1e930, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/@vpnv2go,@vpnv2go,@vpnv2go,@vpnv2go?ed=80", headers: {Host: 2.irvn.debian.6.i.6.6.fxp.debian.org.speedtest.net.列列男事的事列上赛男.ghormehsabzi.cyou.}}, udp: true}
+- {name: 5|🇸🇬 新加坡2|@ripaojiedian, server: dcl1.forlive.live, port: 42028, type: ss, cipher: chacha20-ietf-poly1305, password: 8ca2d58e-9a1d-4756-842e-df4fd7a656a7, udp: true}
+- {name: 5|🇸🇬 狮城特殊|@ripaojiedian, server: 18.183.130.46, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Kian-932, server: 3.112.44.123, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-121, server: 43.201.17.220, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "5,6|美国3|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 8080, type: vmess, uuid: a91c3fbf-0a68-474b-ac24-bf801db981f6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/f8ZKTGaGoC/, headers: {Host: us5PhAx6xsj.fzbqfrse.xyz}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -387,11 +390,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
+      - 4Nika-921
+      - 5|🇹🇼 台湾2|@ripaojiedian
       - 5|🇭🇰 香港4|@ripaojiedian
-      - _US_美国
-      - 13|🇺🇸 美国1|cf
-      - 5|🇺🇸 美国4|@ripaojiedian
-      - 13|🔒 VM-WS-NA 🏴‍☠️ NA-104.17.148....
+      - 5|🇸🇬 新加坡2|@ripaojiedian
+      - 5|🇸🇬 狮城特殊|@ripaojiedian
+      - 4Kian-932
+      - 0|-https://t.me/MrXbin-121
+      - 5,6|美国3|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -404,11 +410,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
+      - 4Nika-921
+      - 5|🇹🇼 台湾2|@ripaojiedian
       - 5|🇭🇰 香港4|@ripaojiedian
-      - _US_美国
-      - 13|🇺🇸 美国1|cf
-      - 5|🇺🇸 美国4|@ripaojiedian
-      - 13|🔒 VM-WS-NA 🏴‍☠️ NA-104.17.148....
+      - 5|🇸🇬 新加坡2|@ripaojiedian
+      - 5|🇸🇬 狮城特殊|@ripaojiedian
+      - 4Kian-932
+      - 0|-https://t.me/MrXbin-121
+      - 5,6|美国3|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -440,11 +449,14 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
+      - 4Nika-921
+      - 5|🇹🇼 台湾2|@ripaojiedian
       - 5|🇭🇰 香港4|@ripaojiedian
-      - _US_美国
-      - 13|🇺🇸 美国1|cf
-      - 5|🇺🇸 美国4|@ripaojiedian
-      - 13|🔒 VM-WS-NA 🏴‍☠️ NA-104.17.148....
+      - 5|🇸🇬 新加坡2|@ripaojiedian
+      - 5|🇸🇬 狮城特殊|@ripaojiedian
+      - 4Kian-932
+      - 0|-https://t.me/MrXbin-121
+      - 5,6|美国3|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
