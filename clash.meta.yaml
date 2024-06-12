@@ -367,13 +367,9 @@ proxies:
   sni: www.bing.com
   skip-cert-verify: true
 - {name: 5|🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 4027, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
-- {name: 5|🇯🇵 日本|@ripaojiedian, server: 223.113.54.154, port: 23621, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
-- {name: "5,6|新加坡|@ripaojiedian", server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: a91c3fbf-0a68-474b-ac24-bf801db981f6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/3YKfzGw4, headers: {Host: rpmlybgzsg2.yofnhkfc.xyz}}, udp: true}
+- {name: "5,6|美国3|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 8080, type: vmess, uuid: a91c3fbf-0a68-474b-ac24-bf801db981f6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/f8ZKTGaGoC/, headers: {Host: us5PhAx6xsj.fzbqfrse.xyz}}, udp: true}
+- {name: 11|美国 CloudFlare节点, server: www.speedtest.net, port: 2052, type: vmess, uuid: cd5b9129-90cf-48ce-b00b-979f1c8681ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/@irvpnn,@irvpnn,@irvpnn,@irvpnn?ed=80", headers: {Host: 2d.irvn.debian.6.6.1b71.8.fxp.debian.org.speedtest.net.列列男事的事列上赛男.filter-nakon-madarj.cyou.}}, udp: true}
 - {name: 5|🇺🇸 美国4|@ripaojiedian, server: 223.113.54.160, port: 23223, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
-- {name: 5|🇰🇷 韩国特殊|@ripaojiedian, server: 54.218.48.199, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国, server: 104.16.61.8, port: 80, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /obdii.cfd/linkws, headers: {Host: d396-flower-d396.megare7260.workers.dev}}, udp: true}
-- {name: "5,6|韩国2|@ripaojiedian", server: sui.forlive.live, port: 32460, type: vmess, uuid: aee1713b-54f6-4377-ab22-a2edf8de2d25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
-- {name: 13|加拿大 035, server: 104.16.67.38, port: 2095, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /glweidf.sbs/linkws, headers: {Host: proud-union-8659.email-0kn8d.workers.dev}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -391,13 +387,9 @@ proxy-groups:
     interval: 300
     proxies:
       - 5|🇭🇰 香港4|@ripaojiedian
-      - 5|🇯🇵 日本|@ripaojiedian
-      - 5,6|新加坡|@ripaojiedian
+      - 5,6|美国3|@ripaojiedian
+      - 11|美国 CloudFlare节点
       - 5|🇺🇸 美国4|@ripaojiedian
-      - 5|🇰🇷 韩国特殊|@ripaojiedian
-      - _US_美国
-      - 5,6|韩国2|@ripaojiedian
-      - 13|加拿大 035
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -411,13 +403,9 @@ proxy-groups:
     interval: 300
     proxies:
       - 5|🇭🇰 香港4|@ripaojiedian
-      - 5|🇯🇵 日本|@ripaojiedian
-      - 5,6|新加坡|@ripaojiedian
+      - 5,6|美国3|@ripaojiedian
+      - 11|美国 CloudFlare节点
       - 5|🇺🇸 美国4|@ripaojiedian
-      - 5|🇰🇷 韩国特殊|@ripaojiedian
-      - _US_美国
-      - 5,6|韩国2|@ripaojiedian
-      - 13|加拿大 035
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -450,13 +438,9 @@ proxy-groups:
       - United States_Los Angeles_hy2_3
 
       - 5|🇭🇰 香港4|@ripaojiedian
-      - 5|🇯🇵 日本|@ripaojiedian
-      - 5,6|新加坡|@ripaojiedian
+      - 5,6|美国3|@ripaojiedian
+      - 11|美国 CloudFlare节点
       - 5|🇺🇸 美国4|@ripaojiedian
-      - 5|🇰🇷 韩国特殊|@ripaojiedian
-      - _US_美国
-      - 5,6|韩国2|@ripaojiedian
-      - 13|加拿大 035
   - name: 🐟 漏网之鱼
     type: select
     proxies:
