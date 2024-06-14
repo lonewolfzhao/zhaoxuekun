@@ -367,13 +367,13 @@ proxies:
   sni: www.bing.com
   skip-cert-verify: true
 - {name: 5|🇭🇰 香港8|@ripaojiedian, server: alm1.the-galgo.top, port: 32005, type: vmess, uuid: 3a988367-5daa-4beb-be62-aaba3e79534a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Sarina-1085, server: 3.112.233.37, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 5|🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 4027, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
-- {name: 4Kian-1068, server: 18.183.130.46, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 5|🇸🇬 狮城特殊|@ripaojiedian, server: 52.79.247.2, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 5|🇻🇳 越南R|@ripaojiedian, server: 59.56.77.178, port: 15083, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
-- {name: 5|🇭🇰 香港8|@ripaojiedian 2, server: alm1.the-galgo.top, port: 32005, type: vmess, uuid: 3a988367-5daa-4beb-be62-aaba3e79534a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: _US_美国->🇫🇷_FR_法国, server: 104.16.61.8, port: 8080, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jahfkjha.cfd/linkws, headers: {Host: hyfhhg.jadovah977.workers.dev}}, udp: true}
+- {name: 4Sarina-1086, server: 3.112.44.123, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: "5,6|美国2|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 8080, type: vmess, uuid: 3c5046b4-1a9c-427c-8a55-e355846a9e4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/f8ZKTGaGoC/, headers: {Host: us5PhAx6xsj.fzbqfrse.xyz}}, udp: true}
+- {name: "13|【TG：@ccbaohe】定时更新节点订阅 获取新订阅⚡️ ... #6", server: 104.17.146.49, port: 8080, type: vmess, uuid: f49a2ddc-209b-4ea2-87e9-09fbe4f3aae2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/f8ZKTGaGoC/, headers: {Host: us5PhAx6xsj.fzbqfrse.xyz}}, udp: true}
+- {name: "13|【TG：@ccbaohe】定时更新节点订阅 获取新订阅⚡️ ... #5", server: 104.17.144.133, port: 2052, type: vmess, uuid: f49a2ddc-209b-4ea2-87e9-09fbe4f3aae2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/QXjZG5u4F2, headers: {Host: us3AJ8biuQx.fzbqfrse.xyz}}, udp: true}
+- {name: 4Kian-1048, server: 13.215.177.171, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -391,13 +391,13 @@ proxy-groups:
     interval: 300
     proxies:
       - 5|🇭🇰 香港8|@ripaojiedian
+      - 4Sarina-1085
       - 5|🇭🇰 香港4|@ripaojiedian
-      - 4Kian-1068
-      - 5|🇸🇬 狮城特殊|@ripaojiedian
-      - 5|🇻🇳 越南R|@ripaojiedian
-      - 5|🇭🇰 香港8|@ripaojiedian 2
-      - _US_美国->🇫🇷_FR_法国
+      - 4Sarina-1086
       - 5,6|美国2|@ripaojiedian
+      - "13|【TG：@ccbaohe】定时更新节点订阅 获取新订阅⚡️ ... #6"
+      - "13|【TG：@ccbaohe】定时更新节点订阅 获取新订阅⚡️ ... #5"
+      - 4Kian-1048
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -411,13 +411,13 @@ proxy-groups:
     interval: 300
     proxies:
       - 5|🇭🇰 香港8|@ripaojiedian
+      - 4Sarina-1085
       - 5|🇭🇰 香港4|@ripaojiedian
-      - 4Kian-1068
-      - 5|🇸🇬 狮城特殊|@ripaojiedian
-      - 5|🇻🇳 越南R|@ripaojiedian
-      - 5|🇭🇰 香港8|@ripaojiedian 2
-      - _US_美国->🇫🇷_FR_法国
+      - 4Sarina-1086
       - 5,6|美国2|@ripaojiedian
+      - "13|【TG：@ccbaohe】定时更新节点订阅 获取新订阅⚡️ ... #6"
+      - "13|【TG：@ccbaohe】定时更新节点订阅 获取新订阅⚡️ ... #5"
+      - 4Kian-1048
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -450,13 +450,13 @@ proxy-groups:
       - United States_Los Angeles_hy2_3
 
       - 5|🇭🇰 香港8|@ripaojiedian
+      - 4Sarina-1085
       - 5|🇭🇰 香港4|@ripaojiedian
-      - 4Kian-1068
-      - 5|🇸🇬 狮城特殊|@ripaojiedian
-      - 5|🇻🇳 越南R|@ripaojiedian
-      - 5|🇭🇰 香港8|@ripaojiedian 2
-      - _US_美国->🇫🇷_FR_法国
+      - 4Sarina-1086
       - 5,6|美国2|@ripaojiedian
+      - "13|【TG：@ccbaohe】定时更新节点订阅 获取新订阅⚡️ ... #6"
+      - "13|【TG：@ccbaohe】定时更新节点订阅 获取新订阅⚡️ ... #5"
+      - 4Kian-1048
   - name: 🐟 漏网之鱼
     type: select
     proxies:
