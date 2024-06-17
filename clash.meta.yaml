@@ -563,14 +563,12 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: "13|ð\x9f\x87¨ð\x9f\x87¦ å\x8a\xa0æ\x8b¿å¤§ 104", server: 162.159.129.111, port: 2095, type: vmess, uuid: e9555d84-a146-4e36-9c23-eac28387be48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /WNh8bXQv/, headers: {Host: ip5.dtku47.xyz}}, udp: true}
-- {name: 5|🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 4027, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
-- {name: "13|ð\x9f\x87¨ð\x9f\x87¦ å\x8a\xa0æ\x8b¿å¤§ 106", server: 172.64.144.66, port: 2095, type: vmess, uuid: e9555d84-a146-4e36-9c23-eac28387be48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /WNh8bXQv/, headers: {Host: ip5.dtku47.xyz}}, udp: true}
-- {name: 5|🇯🇵 日本|@ripaojiedian, server: 223.113.54.154, port: 23621, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
-- {name: 13|加拿大 107, server: 104.19.51.232, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}, udp: true}
+- {name: 13|加拿大 102, server: 162.159.136.33, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}, udp: true}
+- {name: "13|ð\x9f\x87¨ð\x9f\x87¦ å\x8a\xa0æ\x8b¿å¤§ 109", server: 104.19.38.62, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}, udp: true}
 - {name: "13|[VMess] ð\x9f\x87¨ð\x9f\x87¦ å\x8a\xa0æ\x8b¿å¤§ 145", server: 162.159.136.208, port: 2095, type: vmess, uuid: e9555d84-a146-4e36-9c23-eac28387be48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /WNh8bXQv/, headers: {Host: ip5.dtku47.xyz}}, udp: true}
-- {name: "5,6|美国2|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 8880, type: vmess, uuid: 46b17624-fa76-4c85-b8bd-8a66cf0ae17a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/bYdJ7Vc2We, headers: {Host: us6gzxQRrE4.fzbqfrse.xyz}}, udp: true}
-- {name: 13|加拿大 103, server: 162.159.128.118, port: 8080, type: vmess, uuid: ffaba3ee-4070-4590-9959-d863f9a4c6de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /9aqOiXD2/, headers: {Host: ip001.dtku47.xyz}}, udp: true}
+- {name: "5,6|新加坡|@ripaojiedian", server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: 46b17624-fa76-4c85-b8bd-8a66cf0ae17a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/u4eCZTxW, headers: {Host: jpafzyhfsg3.yofnhkfc.xyz}}, udp: true}
+- {name: 5|🇯🇵 日本|@ripaojiedian, server: 223.113.54.154, port: 23621, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
+- {name: "13|ð\x9f\x87¨ð\x9f\x87¦ å\x8a\xa0æ\x8b¿å¤§ 104", server: 162.159.129.111, port: 2095, type: vmess, uuid: e9555d84-a146-4e36-9c23-eac28387be48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /WNh8bXQv/, headers: {Host: ip5.dtku47.xyz}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -587,14 +585,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - "13|ð\x9f\x87¨ð\x9f\x87¦ å\x8a\xa0æ\x8b¿å¤§ 104"
-      - 5|🇭🇰 香港4|@ripaojiedian
-      - "13|ð\x9f\x87¨ð\x9f\x87¦ å\x8a\xa0æ\x8b¿å¤§ 106"
-      - 5|🇯🇵 日本|@ripaojiedian
-      - 13|加拿大 107
+      - 13|加拿大 102
+      - "13|ð\x9f\x87¨ð\x9f\x87¦ å\x8a\xa0æ\x8b¿å¤§ 109"
       - "13|[VMess] ð\x9f\x87¨ð\x9f\x87¦ å\x8a\xa0æ\x8b¿å¤§ 145"
-      - 5,6|美国2|@ripaojiedian
-      - 13|加拿大 103
+      - 5,6|新加坡|@ripaojiedian
+      - 5|🇯🇵 日本|@ripaojiedian
+      - "13|ð\x9f\x87¨ð\x9f\x87¦ å\x8a\xa0æ\x8b¿å¤§ 104"
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -607,14 +603,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - "13|ð\x9f\x87¨ð\x9f\x87¦ å\x8a\xa0æ\x8b¿å¤§ 104"
-      - 5|🇭🇰 香港4|@ripaojiedian
-      - "13|ð\x9f\x87¨ð\x9f\x87¦ å\x8a\xa0æ\x8b¿å¤§ 106"
-      - 5|🇯🇵 日本|@ripaojiedian
-      - 13|加拿大 107
+      - 13|加拿大 102
+      - "13|ð\x9f\x87¨ð\x9f\x87¦ å\x8a\xa0æ\x8b¿å¤§ 109"
       - "13|[VMess] ð\x9f\x87¨ð\x9f\x87¦ å\x8a\xa0æ\x8b¿å¤§ 145"
-      - 5,6|美国2|@ripaojiedian
-      - 13|加拿大 103
+      - 5,6|新加坡|@ripaojiedian
+      - 5|🇯🇵 日本|@ripaojiedian
+      - "13|ð\x9f\x87¨ð\x9f\x87¦ å\x8a\xa0æ\x8b¿å¤§ 104"
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -658,14 +652,12 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - "13|ð\x9f\x87¨ð\x9f\x87¦ å\x8a\xa0æ\x8b¿å¤§ 104"
-      - 5|🇭🇰 香港4|@ripaojiedian
-      - "13|ð\x9f\x87¨ð\x9f\x87¦ å\x8a\xa0æ\x8b¿å¤§ 106"
-      - 5|🇯🇵 日本|@ripaojiedian
-      - 13|加拿大 107
+      - 13|加拿大 102
+      - "13|ð\x9f\x87¨ð\x9f\x87¦ å\x8a\xa0æ\x8b¿å¤§ 109"
       - "13|[VMess] ð\x9f\x87¨ð\x9f\x87¦ å\x8a\xa0æ\x8b¿å¤§ 145"
-      - 5,6|美国2|@ripaojiedian
-      - 13|加拿大 103
+      - 5,6|新加坡|@ripaojiedian
+      - 5|🇯🇵 日本|@ripaojiedian
+      - "13|ð\x9f\x87¨ð\x9f\x87¦ å\x8a\xa0æ\x8b¿å¤§ 104"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
