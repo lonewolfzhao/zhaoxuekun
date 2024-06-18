@@ -563,14 +563,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 0|-https://t.me/MrXbin-134, server: 13.113.253.68, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 5|🇸🇬 狮城特殊|@ripaojiedian, server: 3.38.251.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 5|🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 4027, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
-- {name: 5|🇻🇳 越南R|@ripaojiedian, server: 59.56.77.178, port: 15083, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
-- {name: 0|-https://t.me/MrXbin-9, server: 43.202.43.179, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 13|加拿大 107, server: 104.19.51.232, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}, udp: true}
-- {name: 5|🇺🇸 美国4|@ripaojiedian, server: 183.232.139.22, port: 53981, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
-- {name: 13|美国 CloudFlare节点 2（ccbaohe.com）..., server: speed.cloudflare.com, port: 80, type: vmess, uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /glweidf.cfd/linkws, headers: {Host: freevpn878.hamidimorteza680.workers.dev}}, udp: true}
+- {name: _US_美国, server: 104.16.61.8, port: 80, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /obdii.cfd/linkws, headers: {Host: d396-flower-d396.megare7260.workers.dev}}, udp: true}
+- {name: 4Kian-1020, server: 18.143.159.186, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4FreeIran-1016, server: 3.112.128.40, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 13|美国 47, server: 104.16.67.38, port: 2095, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /glweidf.sbs/linkws, headers: {Host: proud-union-8659.email-0kn8d.workers.dev}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -587,14 +583,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 0|-https://t.me/MrXbin-134
-      - 5|🇸🇬 狮城特殊|@ripaojiedian
-      - 5|🇭🇰 香港4|@ripaojiedian
-      - 5|🇻🇳 越南R|@ripaojiedian
-      - 0|-https://t.me/MrXbin-9
-      - 13|加拿大 107
-      - 5|🇺🇸 美国4|@ripaojiedian
-      - 13|美国 CloudFlare节点 2（ccbaohe.com）...
+      - _US_美国
+      - 4Kian-1020
+      - 4FreeIran-1016
+      - 13|美国 47
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -607,14 +599,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 0|-https://t.me/MrXbin-134
-      - 5|🇸🇬 狮城特殊|@ripaojiedian
-      - 5|🇭🇰 香港4|@ripaojiedian
-      - 5|🇻🇳 越南R|@ripaojiedian
-      - 0|-https://t.me/MrXbin-9
-      - 13|加拿大 107
-      - 5|🇺🇸 美国4|@ripaojiedian
-      - 13|美国 CloudFlare节点 2（ccbaohe.com）...
+      - _US_美国
+      - 4Kian-1020
+      - 4FreeIran-1016
+      - 13|美国 47
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -658,14 +646,10 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - 0|-https://t.me/MrXbin-134
-      - 5|🇸🇬 狮城特殊|@ripaojiedian
-      - 5|🇭🇰 香港4|@ripaojiedian
-      - 5|🇻🇳 越南R|@ripaojiedian
-      - 0|-https://t.me/MrXbin-9
-      - 13|加拿大 107
-      - 5|🇺🇸 美国4|@ripaojiedian
-      - 13|美国 CloudFlare节点 2（ccbaohe.com）...
+      - _US_美国
+      - 4Kian-1020
+      - 4FreeIran-1016
+      - 13|美国 47
   - name: 🐟 漏网之鱼
     type: select
     proxies:
