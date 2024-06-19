@@ -563,12 +563,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 4Nika-159, server: bgroup.node4.s.nodelist-gfwairport2.top, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 2155145a-b1b5-443a-8977-670f6bd10f02, udp: true}
+- {name: 5|🇸🇬 新加坡|@ripaojiedian, server: mention.protocolbuffer.com, port: 28332, type: trojan, password: ZjDFnKyD5Sxelz43Cay83upeC3Cay83upeCApEROYIxFlD3CcRg2a9Yq8TBOAZD3CcRg2, sni: mention.protocolbuffer.com, skip-cert-verify: true, udp: true}
 - {name: "11,13|🔒 VM-WS-NA 🏴‍☠️ NA-104.16.148....", server: 104.16.148.244, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}, udp: true}
-- {name: 13|加拿大 107, server: 104.19.51.232, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}, udp: true}
+- {name: 13|🇨🇦 加拿大 104, server: fbi.gov, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}, udp: true}
+- {name: 13|加拿大 006, server: 104.16.67.38, port: 2086, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linde06.indiavideo.sbs/linkws, headers: {Host: snowy-river-f497.turkeys-radford.workers.dev}}, udp: true}
+- {name: _US_美国, server: 104.16.61.8, port: 2052, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /glweidf.sbs/linkws, headers: {Host: free.fnet00.workers.dev}}, udp: true}
 - {name: 5|🇮🇳 印度|@ripaojiedian, server: 116.162.172.120, port: 16626, type: vmess, uuid: 56b2371a-727f-46a9-97d3-8c5fe4bf836a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 15ff2b20c9c5f5839d852cc509098a22.mobgslb.tbcache.com}}, udp: true}
-- {name: 13|加拿大 105, server: 104.16.61.8, port: 2086, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ivideos.sbs/linkws, headers: {Host: ury-unit-c030ehei8.poget71138.workers.dev}}, udp: true}
-- {name: 5|🇻🇳 越南R|@ripaojiedian, server: 59.56.77.178, port: 15083, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
+- {name: _US_美国 2, server: 104.16.67.38, port: 2082, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ivideos.sbs/linkws, headers: {Host: late-wave-1d0a.lesijo3430.workers.dev}}, udp: true}
+- {name: 13|美国 CloudFlare节点 2（ccbaohe.com）..., server: speed.cloudflare.com, port: 80, type: vmess, uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /glweidf.cfd/linkws, headers: {Host: freevpn878.hamidimorteza680.workers.dev}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -585,12 +587,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 4Nika-159
+      - 5|🇸🇬 新加坡|@ripaojiedian
       - 11,13|🔒 VM-WS-NA 🏴‍☠️ NA-104.16.148....
-      - 13|加拿大 107
+      - 13|🇨🇦 加拿大 104
+      - 13|加拿大 006
+      - _US_美国
       - 5|🇮🇳 印度|@ripaojiedian
-      - 13|加拿大 105
-      - 5|🇻🇳 越南R|@ripaojiedian
+      - _US_美国 2
+      - 13|美国 CloudFlare节点 2（ccbaohe.com）...
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -603,12 +607,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 4Nika-159
+      - 5|🇸🇬 新加坡|@ripaojiedian
       - 11,13|🔒 VM-WS-NA 🏴‍☠️ NA-104.16.148....
-      - 13|加拿大 107
+      - 13|🇨🇦 加拿大 104
+      - 13|加拿大 006
+      - _US_美国
       - 5|🇮🇳 印度|@ripaojiedian
-      - 13|加拿大 105
-      - 5|🇻🇳 越南R|@ripaojiedian
+      - _US_美国 2
+      - 13|美国 CloudFlare节点 2（ccbaohe.com）...
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -652,12 +658,14 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - 4Nika-159
+      - 5|🇸🇬 新加坡|@ripaojiedian
       - 11,13|🔒 VM-WS-NA 🏴‍☠️ NA-104.16.148....
-      - 13|加拿大 107
+      - 13|🇨🇦 加拿大 104
+      - 13|加拿大 006
+      - _US_美国
       - 5|🇮🇳 印度|@ripaojiedian
-      - 13|加拿大 105
-      - 5|🇻🇳 越南R|@ripaojiedian
+      - _US_美国 2
+      - 13|美国 CloudFlare节点 2（ccbaohe.com）...
   - name: 🐟 漏网之鱼
     type: select
     proxies:
