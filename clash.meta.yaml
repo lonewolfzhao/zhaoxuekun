@@ -563,11 +563,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 0|-https://t.me/MrXbin-134, server: 54.180.230.217, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "0,5|🇰🇷 韩国特殊|@ripaojiedian", server: 52.199.130.48, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 5|🇧🇷 巴西R|@ripaojiedian, server: 59.56.77.178, port: 15111, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
-- {name: 5|🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 4027, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
-- {name: 4Sarina-1067, server: 43.201.17.220, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 13|【TG：@ccbaohe】定时更新节点订阅 获取新订阅⚡️ ..., server: 183.240.235.130, port: 16632, type: vmess, uuid: 7ce8c605-0808-405d-ae30-4ec937129c89, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 3c1499fc06d5562e895f9adb08f8e92d.mobgslb.tbcache.com}}, udp: true}
+- {name: 4FreeIran-1281, server: 59.56.77.178, port: 15001, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
+- {name: 5|🇺🇸 美国4|@ripaojiedian, server: 183.232.139.22, port: 53981, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
+- {name: "5,6|美国3|@ripaojiedian", server: 120.232.240.56, port: 16928, type: vmess, uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22193.25.215.160%22%7D"}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -584,11 +583,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 0|-https://t.me/MrXbin-134
-      - 0,5|🇰🇷 韩国特殊|@ripaojiedian
-      - 5|🇧🇷 巴西R|@ripaojiedian
-      - 5|🇭🇰 香港4|@ripaojiedian
-      - 4Sarina-1067
+      - 13|【TG：@ccbaohe】定时更新节点订阅 获取新订阅⚡️ ...
+      - 4FreeIran-1281
+      - 5|🇺🇸 美国4|@ripaojiedian
+      - 5,6|美国3|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -601,11 +599,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 0|-https://t.me/MrXbin-134
-      - 0,5|🇰🇷 韩国特殊|@ripaojiedian
-      - 5|🇧🇷 巴西R|@ripaojiedian
-      - 5|🇭🇰 香港4|@ripaojiedian
-      - 4Sarina-1067
+      - 13|【TG：@ccbaohe】定时更新节点订阅 获取新订阅⚡️ ...
+      - 4FreeIran-1281
+      - 5|🇺🇸 美国4|@ripaojiedian
+      - 5,6|美国3|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -649,11 +646,10 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - 0|-https://t.me/MrXbin-134
-      - 0,5|🇰🇷 韩国特殊|@ripaojiedian
-      - 5|🇧🇷 巴西R|@ripaojiedian
-      - 5|🇭🇰 香港4|@ripaojiedian
-      - 4Sarina-1067
+      - 13|【TG：@ccbaohe】定时更新节点订阅 获取新订阅⚡️ ...
+      - 4FreeIran-1281
+      - 5|🇺🇸 美国4|@ripaojiedian
+      - 5,6|美国3|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
