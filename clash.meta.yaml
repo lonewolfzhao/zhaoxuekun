@@ -563,10 +563,8 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 13|🇨🇦 加拿大 104, server: fbi.gov, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}, udp: true}
-- {name: _US_美国, server: 104.19.38.62, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}, udp: true}
-- {name: "11,13|🔒 VM-WS-NA 🏴‍☠️ NA-104.16.148....", server: 104.16.148.244, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}, udp: true}
-- {name: 13|美国【TG：@ccbaohe】定时更新节点订阅 26, server: 104.19.50.51, port: 2082, type: vmess, uuid: 94ddc411-85d7-4850-b545-acf889333997, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/cctv?ed=2048&Telegram🇨🇳 @WangCai2", headers: {Host: aksg.6bnw.top}}, udp: true}
+- {name: 13|【TG：@ccbaohe】定时更新节点订阅 获取新订阅⚡️ ..., server: 183.240.235.130, port: 16632, type: vmess, uuid: 7ce8c605-0808-405d-ae30-4ec937129c89, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 3c1499fc06d5562e895f9adb08f8e92d.mobgslb.tbcache.com}}, udp: true}
+- {name: 5|🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 4027, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -583,10 +581,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 13|🇨🇦 加拿大 104
-      - _US_美国
-      - 11,13|🔒 VM-WS-NA 🏴‍☠️ NA-104.16.148....
-      - 13|美国【TG：@ccbaohe】定时更新节点订阅 26
+      - 13|【TG：@ccbaohe】定时更新节点订阅 获取新订阅⚡️ ...
+      - 5|🇭🇰 香港4|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -599,10 +595,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 13|🇨🇦 加拿大 104
-      - _US_美国
-      - 11,13|🔒 VM-WS-NA 🏴‍☠️ NA-104.16.148....
-      - 13|美国【TG：@ccbaohe】定时更新节点订阅 26
+      - 13|【TG：@ccbaohe】定时更新节点订阅 获取新订阅⚡️ ...
+      - 5|🇭🇰 香港4|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -646,10 +640,8 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - 13|🇨🇦 加拿大 104
-      - _US_美国
-      - 11,13|🔒 VM-WS-NA 🏴‍☠️ NA-104.16.148....
-      - 13|美国【TG：@ccbaohe】定时更新节点订阅 26
+      - 13|【TG：@ccbaohe】定时更新节点订阅 获取新订阅⚡️ ...
+      - 5|🇭🇰 香港4|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
