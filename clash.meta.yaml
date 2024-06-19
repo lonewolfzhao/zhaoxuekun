@@ -563,9 +563,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 5|🇻🇳 越南R|@ripaojiedian, server: 59.56.77.178, port: 15083, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
-- {name: 13|🇨🇦 加拿大 104, server: fbi.gov, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}, udp: true}
-- {name: "11,13|🔒 VM-WS-NA 🏴‍☠️ NA-104.16.148....", server: 104.16.148.244, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}, udp: true}
+- {name: 0|-https://t.me/MrXbin-124, server: 13.79.72.88, port: 21190, type: ss, cipher: chacha20-ietf-poly1305, password: yoOT6tXP5LdMyyU5IQDcGn, udp: true}
+- {name: 4FreeIran-590, server: 13.74.253.230, port: 22885, type: ss, cipher: chacha20-ietf-poly1305, password: bLlbFBQ5WI6iCiRnfoxORn, udp: true}
+- {name: 0|-https://t.me/MrXbin-151, server: 205.134.180.139, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: lWaGPVFjmnag, udp: true}
+- {name: 4Nika-720, server: 13.74.30.44, port: 36680, type: ss, cipher: chacha20-ietf-poly1305, password: of9UbKeXjLEpbQ4n7tZjGQ, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -582,9 +583,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5|🇻🇳 越南R|@ripaojiedian
-      - 13|🇨🇦 加拿大 104
-      - 11,13|🔒 VM-WS-NA 🏴‍☠️ NA-104.16.148....
+      - 0|-https://t.me/MrXbin-124
+      - 4FreeIran-590
+      - 0|-https://t.me/MrXbin-151
+      - 4Nika-720
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -597,9 +599,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5|🇻🇳 越南R|@ripaojiedian
-      - 13|🇨🇦 加拿大 104
-      - 11,13|🔒 VM-WS-NA 🏴‍☠️ NA-104.16.148....
+      - 0|-https://t.me/MrXbin-124
+      - 4FreeIran-590
+      - 0|-https://t.me/MrXbin-151
+      - 4Nika-720
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -643,9 +646,10 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - 5|🇻🇳 越南R|@ripaojiedian
-      - 13|🇨🇦 加拿大 104
-      - 11,13|🔒 VM-WS-NA 🏴‍☠️ NA-104.16.148....
+      - 0|-https://t.me/MrXbin-124
+      - 4FreeIran-590
+      - 0|-https://t.me/MrXbin-151
+      - 4Nika-720
   - name: 🐟 漏网之鱼
     type: select
     proxies:
