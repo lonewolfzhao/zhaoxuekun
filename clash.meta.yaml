@@ -563,10 +563,9 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 13|加拿大 107, server: 104.19.51.232, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}, udp: true}
-- {name: 5|🇯🇵 日本|@ripaojiedian, server: 223.113.54.154, port: 23621, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
-- {name: "5,6|美国3|@ripaojiedian", server: 120.232.240.56, port: 16928, type: vmess, uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22193.25.215.160%22%7D"}}, udp: true}
-- {name: _US_美国, server: 104.17.148.22, port: 80, type: vmess, uuid: 1e99893d-8046-4825-9d28-f6de91147337, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: De2.vmess.site.}}, udp: true}
+- {name: 5|🇻🇳 越南R|@ripaojiedian, server: 59.56.77.178, port: 15083, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
+- {name: 13|🇨🇦 加拿大 104, server: fbi.gov, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}, udp: true}
+- {name: "11,13|🔒 VM-WS-NA 🏴‍☠️ NA-104.16.148....", server: 104.16.148.244, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -583,10 +582,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 13|加拿大 107
-      - 5|🇯🇵 日本|@ripaojiedian
-      - 5,6|美国3|@ripaojiedian
-      - _US_美国
+      - 5|🇻🇳 越南R|@ripaojiedian
+      - 13|🇨🇦 加拿大 104
+      - 11,13|🔒 VM-WS-NA 🏴‍☠️ NA-104.16.148....
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -599,10 +597,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 13|加拿大 107
-      - 5|🇯🇵 日本|@ripaojiedian
-      - 5,6|美国3|@ripaojiedian
-      - _US_美国
+      - 5|🇻🇳 越南R|@ripaojiedian
+      - 13|🇨🇦 加拿大 104
+      - 11,13|🔒 VM-WS-NA 🏴‍☠️ NA-104.16.148....
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -646,10 +643,9 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - 13|加拿大 107
-      - 5|🇯🇵 日本|@ripaojiedian
-      - 5,6|美国3|@ripaojiedian
-      - _US_美国
+      - 5|🇻🇳 越南R|@ripaojiedian
+      - 13|🇨🇦 加拿大 104
+      - 11,13|🔒 VM-WS-NA 🏴‍☠️ NA-104.16.148....
   - name: 🐟 漏网之鱼
     type: select
     proxies:
