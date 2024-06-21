@@ -547,10 +547,9 @@ proxies:
   sni: www.bing.com
   skip-cert-verify: true
 - {name: 4Mohsen-1085, server: 52.199.130.48, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4FreeIran-1100, server: 43.202.43.179, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 5|🇸🇬 新加坡2|@ripaojiedian, server: alm1.the-galgo.top, port: 32015, type: vmess, uuid: db3c11d8-ae65-40ff-a256-babee94056f6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-121, server: 3.112.44.123, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: _US_美国, server: 104.16.61.8, port: 8080, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jahfkjha.cfd/linkws, headers: {Host: hyfhhg.jadovah977.workers.dev}}, udp: true}
-- {name: _US_美国 2, server: 104.16.67.38, port: 2086, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linde06.indiavideo.sbs/linkws, headers: {Host: snowy-river-f497.turkeys-radford.workers.dev}}, udp: true}
-- {name: 13|🇨🇦 加拿大 101, server: 104.24.200.140, port: 80, type: vmess, uuid: 1b1fd0c4-44d8-4c7b-ab61-f9c86b5df1c3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /other, headers: {Host: 127.0.0.1.лыемаленькиебуквы.ultramanrising.極為輕鬆的工作.suonycars.buzz.}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -568,10 +567,9 @@ proxy-groups:
     interval: 300
     proxies:
       - 4Mohsen-1085
-      - 4FreeIran-1100
+      - 5|🇸🇬 新加坡2|@ripaojiedian
+      - 0|-https://t.me/MrXbin-121
       - _US_美国
-      - _US_美国 2
-      - 13|🇨🇦 加拿大 101
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -585,10 +583,9 @@ proxy-groups:
     interval: 300
     proxies:
       - 4Mohsen-1085
-      - 4FreeIran-1100
+      - 5|🇸🇬 新加坡2|@ripaojiedian
+      - 0|-https://t.me/MrXbin-121
       - _US_美国
-      - _US_美国 2
-      - 13|🇨🇦 加拿大 101
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -633,10 +630,9 @@ proxy-groups:
       - United States_Los Angeles_hy2_3
 
       - 4Mohsen-1085
-      - 4FreeIran-1100
+      - 5|🇸🇬 新加坡2|@ripaojiedian
+      - 0|-https://t.me/MrXbin-121
       - _US_美国
-      - _US_美国 2
-      - 13|🇨🇦 加拿大 101
   - name: 🐟 漏网之鱼
     type: select
     proxies:
