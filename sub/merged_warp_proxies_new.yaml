@@ -59,9 +59,9 @@ proxies:
     path: e9e3cc13-db48-4cc1-8c24-7626439a5339-vm
     headers:
       Host: ip11.freegradely.xyz
-- name: United States_San Francisco_vmess_02
+- name: None_None_vmess_02
   type: vmess
-  server: 172.64.169.160
+  server: 104.26.0.56
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
@@ -410,9 +410,9 @@ proxies:
     path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
     headers:
       Host: ip5-4.freegradely.xyz
-- name: United States_San Francisco_vmess_73
+- name: None_None_vmess_73
   type: vmess
-  server: 172.64.144.66
+  server: 104.26.0.50
   port: 2086
   uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
   alterId: 0
@@ -586,7 +586,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - None_None_vmess_01
-  - United States_San Francisco_vmess_02
+  - None_None_vmess_02
   - Canada_Ottawa_vmess_03
   - None_None_vmess_04
   - None_None_vmess_11
@@ -609,7 +609,7 @@ proxy-groups:
   - United States_Kansas City_tuic_61
   - None_None_vmess_71
   - Canada_Ottawa_vmess_72
-  - United States_San Francisco_vmess_73
+  - None_None_vmess_73
   - None_None_vmess_74
   - United States_Kansas City_vless_81
   - United States_Kansas City_tuic_91
@@ -625,7 +625,7 @@ proxy-groups:
   type: select
   proxies:
   - None_None_vmess_01
-  - United States_San Francisco_vmess_02
+  - None_None_vmess_02
   - Canada_Ottawa_vmess_03
   - None_None_vmess_04
   - None_None_vmess_11
@@ -648,7 +648,7 @@ proxy-groups:
   - United States_Kansas City_tuic_61
   - None_None_vmess_71
   - Canada_Ottawa_vmess_72
-  - United States_San Francisco_vmess_73
+  - None_None_vmess_73
   - None_None_vmess_74
   - United States_Kansas City_vless_81
   - United States_Kansas City_tuic_91
@@ -664,7 +664,7 @@ proxy-groups:
   type: load-balance
   proxies:
   - None_None_vmess_01
-  - United States_San Francisco_vmess_02
+  - None_None_vmess_02
   - Canada_Ottawa_vmess_03
   - None_None_vmess_04
   - None_None_vmess_11
@@ -687,7 +687,7 @@ proxy-groups:
   - United States_Kansas City_tuic_61
   - None_None_vmess_71
   - Canada_Ottawa_vmess_72
-  - United States_San Francisco_vmess_73
+  - None_None_vmess_73
   - None_None_vmess_74
   - United States_Kansas City_vless_81
   - United States_Kansas City_tuic_91
