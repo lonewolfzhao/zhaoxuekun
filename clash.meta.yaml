@@ -547,13 +547,9 @@ proxies:
   sni: www.bing.com
   skip-cert-verify: true
 - {name: 4Nika-1131, server: 57.180.25.130, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-132, server: 43.206.232.169, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-144, server: 13.113.253.68, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-159, server: 43.202.40.133, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-123, server: 54.180.230.217, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Mohsen-1052, server: 3.38.251.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "5,6|美国2|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 8880, type: vmess, uuid: 150be761-0f1b-464c-a0c7-09fd31bd2f31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/bYdJ7Vc2We, headers: {Host: us6gzxQRrE4.fzbqfrse.xyz}}, udp: true}
 - {name: 13|加拿大 049, server: 104.16.61.8, port: 8880, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jahfkjha.cfd/linkws, headers: {Host: yaghoob55freenodes.repaco69437403.workers.dev}}, udp: true}
+- {name: 13|加拿大 048, server: 104.16.61.8, port: 2052, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /glweidf.sbs/linkws, headers: {Host: free.fnet00.workers.dev}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -571,13 +567,9 @@ proxy-groups:
     interval: 300
     proxies:
       - 4Nika-1131
-      - 0|-https://t.me/MrXbin-132
-      - 0|-https://t.me/MrXbin-144
-      - 0|-https://t.me/MrXbin-159
-      - 0|-https://t.me/MrXbin-123
       - 4Mohsen-1052
-      - 5,6|美国2|@ripaojiedian
       - 13|加拿大 049
+      - 13|加拿大 048
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -591,13 +583,9 @@ proxy-groups:
     interval: 300
     proxies:
       - 4Nika-1131
-      - 0|-https://t.me/MrXbin-132
-      - 0|-https://t.me/MrXbin-144
-      - 0|-https://t.me/MrXbin-159
-      - 0|-https://t.me/MrXbin-123
       - 4Mohsen-1052
-      - 5,6|美国2|@ripaojiedian
       - 13|加拿大 049
+      - 13|加拿大 048
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -642,13 +630,9 @@ proxy-groups:
       - United States_Los Angeles_hy2_3
 
       - 4Nika-1131
-      - 0|-https://t.me/MrXbin-132
-      - 0|-https://t.me/MrXbin-144
-      - 0|-https://t.me/MrXbin-159
-      - 0|-https://t.me/MrXbin-123
       - 4Mohsen-1052
-      - 5,6|美国2|@ripaojiedian
       - 13|加拿大 049
+      - 13|加拿大 048
   - name: 🐟 漏网之鱼
     type: select
     proxies:
