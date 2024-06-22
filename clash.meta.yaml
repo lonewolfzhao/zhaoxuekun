@@ -546,13 +546,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 0|-https://t.me/MrXbin-134, server: 18.183.168.200, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _144, server: 3.112.44.123, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-144, server: 13.113.253.68, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-108, server: 52.79.247.2, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-141, server: 18.181.172.112, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _149, server: 13.113.204.156, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Nika-1131, server: 57.180.25.130, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-4, server: 3.112.128.40, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-132, server: 43.206.232.169, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-115, server: 52.194.225.73, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: _57, server: 43.202.43.179, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-22, server: 3.38.251.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-159, server: 43.202.40.133, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-10, server: 43.203.126.152, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -569,13 +570,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 0|-https://t.me/MrXbin-134
-      - _144
-      - 0|-https://t.me/MrXbin-144
-      - 0|-https://t.me/MrXbin-108
-      - 0|-https://t.me/MrXbin-141
+      - _149
+      - 4Nika-1131
+      - 0|-https://t.me/MrXbin-4
+      - 0|-https://t.me/MrXbin-132
+      - 0|-https://t.me/MrXbin-115
       - _57
-      - 0|-https://t.me/MrXbin-22
+      - 0|-https://t.me/MrXbin-159
+      - 0|-https://t.me/MrXbin-10
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -588,13 +590,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 0|-https://t.me/MrXbin-134
-      - _144
-      - 0|-https://t.me/MrXbin-144
-      - 0|-https://t.me/MrXbin-108
-      - 0|-https://t.me/MrXbin-141
+      - _149
+      - 4Nika-1131
+      - 0|-https://t.me/MrXbin-4
+      - 0|-https://t.me/MrXbin-132
+      - 0|-https://t.me/MrXbin-115
       - _57
-      - 0|-https://t.me/MrXbin-22
+      - 0|-https://t.me/MrXbin-159
+      - 0|-https://t.me/MrXbin-10
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -638,13 +641,14 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - 0|-https://t.me/MrXbin-134
-      - _144
-      - 0|-https://t.me/MrXbin-144
-      - 0|-https://t.me/MrXbin-108
-      - 0|-https://t.me/MrXbin-141
+      - _149
+      - 4Nika-1131
+      - 0|-https://t.me/MrXbin-4
+      - 0|-https://t.me/MrXbin-132
+      - 0|-https://t.me/MrXbin-115
       - _57
-      - 0|-https://t.me/MrXbin-22
+      - 0|-https://t.me/MrXbin-159
+      - 0|-https://t.me/MrXbin-10
   - name: 🐟 漏网之鱼
     type: select
     proxies:
