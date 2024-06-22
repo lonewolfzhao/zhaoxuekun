@@ -546,7 +546,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
+- {name: _US_美国, server: speed.cloudflare.com, port: 80, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /glweidf.sbs/linkws, headers: {Host: throbbing-shape-90d7.hite-nomade.workers.dev}}, udp: true}
 - {name: "5,8|CN_speednode_0038", server: 183.232.139.22, port: 50611, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
+- {name: 13|a美国2, server: yx2.gyyun.top, port: 8880, type: vmess, uuid: 9d4d2803-cbf8-4c49-afeb-3ce17ae0007a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: akmg1.gyyun.top}}, udp: true}
+- {name: 4Mohsen-1052, server: 3.38.251.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -563,7 +566,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
+      - _US_美国
       - 5,8|CN_speednode_0038
+      - 13|a美国2
+      - 4Mohsen-1052
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -576,7 +582,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
+      - _US_美国
       - 5,8|CN_speednode_0038
+      - 13|a美国2
+      - 4Mohsen-1052
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -620,7 +629,10 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
+      - _US_美国
       - 5,8|CN_speednode_0038
+      - 13|a美国2
+      - 4Mohsen-1052
   - name: 🐟 漏网之鱼
     type: select
     proxies:
