@@ -1356,14 +1356,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 5|🇸🇬 狮城特殊|@ripaojiedian, server: 43.201.254.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 5|🇰🇷 韩国特殊|@ripaojiedian, server: 43.203.209.219, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: "5,6|美国6|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 8880, type: vmess, uuid: c750f7b8-1080-4881-9d4f-7e74b2c56660, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/bYdJ7Vc2We, headers: {Host: us6gzxQRrE4.fzbqfrse.xyz}}, udp: true}
-- {name: 13|l日本-3, server: yx3.gyyun.top, port: 2052, type: vmess, uuid: 1087ecd6-69a3-4379-beee-87406099bbc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lrb1.gyyun.top}}, udp: true}
-- {name: _US_美国, server: 104.16.61.8, port: 80, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /obdii.cfd/linkws, headers: {Host: d396-flower-d396.megare7260.workers.dev}}, udp: true}
-- {name: _CN_中国->🇺🇸_US_美国, server: mmus36.micloud.buzz, port: 46036, type: vmess, uuid: e0affd30-6517-4f32-a2bd-71faab70b40a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mmus36.micloud.buzz}}, udp: true}
-- {name: _US_美国->🇩🇪_DE_德国, server: speed.cloudflare.com, port: 80, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /obdii.cfd/linkws, headers: {Host: 4868-poetry-4868.napora7003.workers.dev}}, udp: true}
+- {name: 13|bbjc.xyz tg@bbjc52|美国 03, server: baobaojichang.bbjc.xyz, port: 8880, type: vmess, uuid: 9b420190-30a9-4af9-991f-34f728fe6ca0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: us.mojc.xyz}}, udp: true}
+- {name: "13|👉🆔 @v2ray_configs_pool #4", server: 104.17.166.121, port: 80, type: vmess, uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: 127.0.0.1.furiosacага0безумномmaксефуриосе.反了.馬哈拉吉.mойочень.suonycars.buzz.}}, udp: true}
 - {name: 13|🇨🇦 加拿大 012, server: 104.17.171.58, port: 80, type: vmess, uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: 127.0.0.1.furiosacага0безумномmaксефуриосе.反了.馬哈拉吉.mойочень.suonycars.buzz.}}, udp: true}
+- {name: "13|🇺🇸 美国 CloudFlare节点 #2", server: 104.17.199.24, port: 80, type: vmess, uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: 127.0.0.1.furiosacага0безумномmaксефуриосе.反了.馬哈拉吉.mойочень.suonycars.buzz.}}, udp: true}
+- {name: 13|加拿大 026, server: 104.25.242.64, port: 80, type: vmess, uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: 127.0.0.1.furiosacага0безумномmaксефуриосе.反了.馬哈拉吉.mойочень.suonycars.buzz.}}, udp: true}
+- {name: 13|🇨🇦 加拿大 027, server: 104.17.184.120, port: 80, type: vmess, uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: 127.0.0.1.furiosacага0безумномmaксефуриосе.反了.馬哈拉吉.mойочень.suonycars.buzz.}}, udp: true}
+- {name: 13|🔅25@oneclickvpnkeys, server: c2.v2raybrasil.cloud, port: 2082, type: vmess, uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ybr.redbullplus.xyz}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -1380,14 +1380,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5|🇸🇬 狮城特殊|@ripaojiedian
-      - 5|🇰🇷 韩国特殊|@ripaojiedian
       - 5,6|美国6|@ripaojiedian
-      - 13|l日本-3
-      - _US_美国
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国->🇩🇪_DE_德国
+      - 13|bbjc.xyz tg@bbjc52|美国 03
+      - "13|👉🆔 @v2ray_configs_pool #4"
       - 13|🇨🇦 加拿大 012
+      - "13|🇺🇸 美国 CloudFlare节点 #2"
+      - 13|加拿大 026
+      - 13|🇨🇦 加拿大 027
+      - 13|🔅25@oneclickvpnkeys
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -1400,14 +1400,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5|🇸🇬 狮城特殊|@ripaojiedian
-      - 5|🇰🇷 韩国特殊|@ripaojiedian
       - 5,6|美国6|@ripaojiedian
-      - 13|l日本-3
-      - _US_美国
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国->🇩🇪_DE_德国
+      - 13|bbjc.xyz tg@bbjc52|美国 03
+      - "13|👉🆔 @v2ray_configs_pool #4"
       - 13|🇨🇦 加拿大 012
+      - "13|🇺🇸 美国 CloudFlare节点 #2"
+      - 13|加拿大 026
+      - 13|🇨🇦 加拿大 027
+      - 13|🔅25@oneclickvpnkeys
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -1506,14 +1506,14 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - 5|🇸🇬 狮城特殊|@ripaojiedian
-      - 5|🇰🇷 韩国特殊|@ripaojiedian
       - 5,6|美国6|@ripaojiedian
-      - 13|l日本-3
-      - _US_美国
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国->🇩🇪_DE_德国
+      - 13|bbjc.xyz tg@bbjc52|美国 03
+      - "13|👉🆔 @v2ray_configs_pool #4"
       - 13|🇨🇦 加拿大 012
+      - "13|🇺🇸 美国 CloudFlare节点 #2"
+      - 13|加拿大 026
+      - 13|🇨🇦 加拿大 027
+      - 13|🔅25@oneclickvpnkeys
   - name: 🐟 漏网之鱼
     type: select
     proxies:
