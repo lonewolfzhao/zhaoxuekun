@@ -1356,14 +1356,9 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
+- {name: 5|🇭🇰 香港R|@ripaojiedian, server: 59.56.77.178, port: 15001, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
+- {name: 5|🇺🇸 美国4|@ripaojiedian, server: 223.113.54.154, port: 45365, type: trojan, password: RmdXQRXg, skip-cert-verify: true, udp: true}
 - {name: "5,6|美国6|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 8880, type: vmess, uuid: c750f7b8-1080-4881-9d4f-7e74b2c56660, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/bYdJ7Vc2We, headers: {Host: us6gzxQRrE4.fzbqfrse.xyz}}, udp: true}
-- {name: 13|bbjc.xyz tg@bbjc52|美国 03, server: baobaojichang.bbjc.xyz, port: 8880, type: vmess, uuid: 9b420190-30a9-4af9-991f-34f728fe6ca0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: us.mojc.xyz}}, udp: true}
-- {name: "13|👉🆔 @v2ray_configs_pool #4", server: 104.17.166.121, port: 80, type: vmess, uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: 127.0.0.1.furiosacага0безумномmaксефуриосе.反了.馬哈拉吉.mойочень.suonycars.buzz.}}, udp: true}
-- {name: 13|🇨🇦 加拿大 012, server: 104.17.171.58, port: 80, type: vmess, uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: 127.0.0.1.furiosacага0безумномmaксефуриосе.反了.馬哈拉吉.mойочень.suonycars.buzz.}}, udp: true}
-- {name: "13|🇺🇸 美国 CloudFlare节点 #2", server: 104.17.199.24, port: 80, type: vmess, uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: 127.0.0.1.furiosacага0безумномmaксефуриосе.反了.馬哈拉吉.mойочень.suonycars.buzz.}}, udp: true}
-- {name: 13|加拿大 026, server: 104.25.242.64, port: 80, type: vmess, uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: 127.0.0.1.furiosacага0безумномmaксефуриосе.反了.馬哈拉吉.mойочень.suonycars.buzz.}}, udp: true}
-- {name: 13|🇨🇦 加拿大 027, server: 104.17.184.120, port: 80, type: vmess, uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: 127.0.0.1.furiosacага0безумномmaксефуриосе.反了.馬哈拉吉.mойочень.suonycars.buzz.}}, udp: true}
-- {name: 13|🔅25@oneclickvpnkeys, server: c2.v2raybrasil.cloud, port: 2082, type: vmess, uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ybr.redbullplus.xyz}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -1380,14 +1375,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
+      - 5|🇭🇰 香港R|@ripaojiedian
+      - 5|🇺🇸 美国4|@ripaojiedian
       - 5,6|美国6|@ripaojiedian
-      - 13|bbjc.xyz tg@bbjc52|美国 03
-      - "13|👉🆔 @v2ray_configs_pool #4"
-      - 13|🇨🇦 加拿大 012
-      - "13|🇺🇸 美国 CloudFlare节点 #2"
-      - 13|加拿大 026
-      - 13|🇨🇦 加拿大 027
-      - 13|🔅25@oneclickvpnkeys
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -1400,14 +1390,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
+      - 5|🇭🇰 香港R|@ripaojiedian
+      - 5|🇺🇸 美国4|@ripaojiedian
       - 5,6|美国6|@ripaojiedian
-      - 13|bbjc.xyz tg@bbjc52|美国 03
-      - "13|👉🆔 @v2ray_configs_pool #4"
-      - 13|🇨🇦 加拿大 012
-      - "13|🇺🇸 美国 CloudFlare节点 #2"
-      - 13|加拿大 026
-      - 13|🇨🇦 加拿大 027
-      - 13|🔅25@oneclickvpnkeys
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -1506,14 +1491,9 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
+      - 5|🇭🇰 香港R|@ripaojiedian
+      - 5|🇺🇸 美国4|@ripaojiedian
       - 5,6|美国6|@ripaojiedian
-      - 13|bbjc.xyz tg@bbjc52|美国 03
-      - "13|👉🆔 @v2ray_configs_pool #4"
-      - 13|🇨🇦 加拿大 012
-      - "13|🇺🇸 美国 CloudFlare节点 #2"
-      - 13|加拿大 026
-      - 13|🇨🇦 加拿大 027
-      - 13|🔅25@oneclickvpnkeys
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -3367,6 +3347,7 @@ rules:
   - DOMAIN-SUFFIX,zhzzx.com,🛑 全球拦截
   - GEOIP,CN,🎯 全球直连
   - DOMAIN-KEYWORD,porn,♻️ 情色可用
+  - DOMAIN-KEYWORD,xxx,♻️ 情色可用
   - DOMAIN-KEYWORD,slashed,♻️ 情色可用
   - DOMAIN-KEYWORD,91selfie,♻️ 情色可用
   - DOMAIN-KEYWORD,btc35000,♻️ 情色可用
