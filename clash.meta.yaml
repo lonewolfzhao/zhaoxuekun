@@ -1362,7 +1362,6 @@ proxies:
 - {name: 13|l日本-3, server: yx3.gyyun.top, port: 2052, type: vmess, uuid: 1087ecd6-69a3-4379-beee-87406099bbc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lrb1.gyyun.top}}, udp: true}
 - {name: _US_美国, server: 104.16.61.8, port: 80, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /obdii.cfd/linkws, headers: {Host: d396-flower-d396.megare7260.workers.dev}}, udp: true}
 - {name: _CN_中国->🇺🇸_US_美国, server: mmus36.micloud.buzz, port: 46036, type: vmess, uuid: e0affd30-6517-4f32-a2bd-71faab70b40a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mmus36.micloud.buzz}}, udp: true}
-- {name: 13|加拿大 049, server: 104.16.61.8, port: 8880, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jahfkjha.cfd/linkws, headers: {Host: yaghoob55freenodes.repaco69437403.workers.dev}}, udp: true}
 - {name: _US_美国->🇩🇪_DE_德国, server: speed.cloudflare.com, port: 80, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /obdii.cfd/linkws, headers: {Host: 4868-poetry-4868.napora7003.workers.dev}}, udp: true}
 - {name: 13|🇨🇦 加拿大 012, server: 104.17.171.58, port: 80, type: vmess, uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: 127.0.0.1.furiosacага0безумномmaксефуриосе.反了.馬哈拉吉.mойочень.suonycars.buzz.}}, udp: true}
 proxy-groups:
@@ -1387,7 +1386,6 @@ proxy-groups:
       - 13|l日本-3
       - _US_美国
       - _CN_中国->🇺🇸_US_美国
-      - 13|加拿大 049
       - _US_美国->🇩🇪_DE_德国
       - 13|🇨🇦 加拿大 012
   - name: 🔰 节点选择
@@ -1408,7 +1406,6 @@ proxy-groups:
       - 13|l日本-3
       - _US_美国
       - _CN_中国->🇺🇸_US_美国
-      - 13|加拿大 049
       - _US_美国->🇩🇪_DE_德国
       - 13|🇨🇦 加拿大 012
   - name: ♻️ 可能受限
@@ -1515,7 +1512,6 @@ proxy-groups:
       - 13|l日本-3
       - _US_美国
       - _CN_中国->🇺🇸_US_美国
-      - 13|加拿大 049
       - _US_美国->🇩🇪_DE_德国
       - 13|🇨🇦 加拿大 012
   - name: 🐟 漏网之鱼
@@ -3371,6 +3367,7 @@ rules:
   - DOMAIN-SUFFIX,zhzzx.com,🛑 全球拦截
   - GEOIP,CN,🎯 全球直连
   - DOMAIN-KEYWORD,porn,♻️ 情色可用
+  - DOMAIN-KEYWORD,slashed,♻️ 情色可用
   - DOMAIN-KEYWORD,91selfie,♻️ 情色可用
   - DOMAIN-KEYWORD,btc35000,♻️ 情色可用
   - DOMAIN-KEYWORD,cdn77,♻️ 情色可用
