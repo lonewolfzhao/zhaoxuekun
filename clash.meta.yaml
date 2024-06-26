@@ -1356,14 +1356,7 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 5|🇻🇳 越南R|@ripaojiedian, server: 59.56.77.178, port: 15083, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
-- {name: 美国 CloudFlare节点, server: 104.19.160.67, port: 8880, type: vmess, uuid: c750f7b8-1080-4881-9d4f-7e74b2c56660, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/bYdJ7Vc2We, headers: {Host: us6gzxQRrE4.fzbqfrse.xyz}}, udp: true}
-- {name: "5,6|美国6|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 8880, type: vmess, uuid: c750f7b8-1080-4881-9d4f-7e74b2c56660, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/bYdJ7Vc2We, headers: {Host: us6gzxQRrE4.fzbqfrse.xyz}}, udp: true}
-- {name: 5|🇯🇵 日本特殊|@ripaojiedian, server: 18.143.144.112, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-120, server: 103.200.30.8, port: 45458, type: vmess, uuid: bbe8249a-3bfe-43c2-fe55-838e7ae13c45, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "13|【TG：@ccbaohe】定时更新节点订阅 获取新订阅⚡️ ... #19", server: yx2.gyyun.top, port: 8880, type: vmess, uuid: bdd1fecb-d699-4650-bebe-d56205344c5a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dohl1.gyyun.top}}, udp: true}
-- {name: 5|🇯🇵 日本|@ripaojiedian, server: 223.113.54.154, port: 23621, type: trojan, password: RmdXQRXg, skip-cert-verify: true, udp: true}
-- {name: "11|广东省广州市 移动 #2", server: 120.232.153.40, port: 53942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-106, server: 45.76.241.66, port: 443, type: trojan, password: wkmY1R4EcP, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -1380,14 +1373,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5|🇻🇳 越南R|@ripaojiedian
-      - 美国 CloudFlare节点
-      - 5,6|美国6|@ripaojiedian
-      - 5|🇯🇵 日本特殊|@ripaojiedian
-      - 0|-https://t.me/MrXbin-120
-      - "13|【TG：@ccbaohe】定时更新节点订阅 获取新订阅⚡️ ... #19"
-      - 5|🇯🇵 日本|@ripaojiedian
-      - "11|广东省广州市 移动 #2"
+      - 0|-https://t.me/MrXbin-106
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -1400,14 +1386,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 5|🇻🇳 越南R|@ripaojiedian
-      - 美国 CloudFlare节点
-      - 5,6|美国6|@ripaojiedian
-      - 5|🇯🇵 日本特殊|@ripaojiedian
-      - 0|-https://t.me/MrXbin-120
-      - "13|【TG：@ccbaohe】定时更新节点订阅 获取新订阅⚡️ ... #19"
-      - 5|🇯🇵 日本|@ripaojiedian
-      - "11|广东省广州市 移动 #2"
+      - 0|-https://t.me/MrXbin-106
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -1506,14 +1485,7 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - 5|🇻🇳 越南R|@ripaojiedian
-      - 美国 CloudFlare节点
-      - 5,6|美国6|@ripaojiedian
-      - 5|🇯🇵 日本特殊|@ripaojiedian
-      - 0|-https://t.me/MrXbin-120
-      - "13|【TG：@ccbaohe】定时更新节点订阅 获取新订阅⚡️ ... #19"
-      - 5|🇯🇵 日本|@ripaojiedian
-      - "11|广东省广州市 移动 #2"
+      - 0|-https://t.me/MrXbin-106
   - name: 🐟 漏网之鱼
     type: select
     proxies:
