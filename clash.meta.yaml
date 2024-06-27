@@ -1136,42 +1136,28 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip002-2.dtku47.xyz
-- name: United States_Kansas City_vless_51
-  type: vless
-  server: 109.104.152.101
-  port: 13982
-  uuid: 85beb960-236b-4634-81ce-6ad66652f928
-  network: tcp
-  udp: true
-  tls: true
-  flow: null
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: HjmsLPRaQqSqtdMMpIpmpoJOKhC0rAOUCHXnz0E89RE
-    short-id: 22f6b74f02cc88a6
-  smux:
-    enabled: true
-    protocol: h2mux
-    max-connections: 1
-    min-streams: 4
-    padding: true
-    brutal-opts:
-      enabled: true
-      up: 11
-      down: 55
-- name: United States_Kansas City_tuic_61
-  server: 109.104.152.186
-  port: 44550
-  type: tuic
-  uuid: 760d4891-63ab-40db-98c7-1219ae1b92df
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  disable-sni: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
+- name: United States_None_ss_51
+  type: ss
+  server: 23.170.40.77
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: CmUP/cj9LY2W4bsBUV7mG8ujmMcCOzt+b4un9xnLuro=
+  plugin: shadow-tls
+  plugin-opts:
+    host: nijigen-works.jp
+    password: K+NtA/8R8MTQ9vyZAd0kzUYJkwQmQBkUIQmwa2Po8cM=
+    version: 3
+- name: United States_None_ss_61
+  type: ss
+  server: 23.170.40.77
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: CmUP/cj9LY2W4bsBUV7mG8ujmMcCOzt+b4un9xnLuro=
+  plugin: shadow-tls
+  plugin-opts:
+    host: nijigen-works.jp
+    password: K+NtA/8R8MTQ9vyZAd0kzUYJkwQmQBkUIQmwa2Po8cM=
+    version: 3
 - name: None_None_vmess_71
   type: vmess
   server: 104.19.32.88
@@ -1232,42 +1218,28 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip5-4.freegradely.xyz
-- name: United States_Kansas City_vless_81
-  type: vless
-  server: 109.104.152.101
-  port: 13982
-  uuid: 85beb960-236b-4634-81ce-6ad66652f928
-  network: tcp
-  udp: true
-  tls: true
-  flow: null
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: HjmsLPRaQqSqtdMMpIpmpoJOKhC0rAOUCHXnz0E89RE
-    short-id: 22f6b74f02cc88a6
-  smux:
-    enabled: true
-    protocol: h2mux
-    max-connections: 1
-    min-streams: 4
-    padding: true
-    brutal-opts:
-      enabled: true
-      up: 11
-      down: 55
-- name: United States_Kansas City_tuic_91
-  server: 109.104.152.186
-  port: 44550
-  type: tuic
-  uuid: 760d4891-63ab-40db-98c7-1219ae1b92df
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  disable-sni: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
+- name: United States_None_ss_81
+  type: ss
+  server: 23.170.40.77
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: CmUP/cj9LY2W4bsBUV7mG8ujmMcCOzt+b4un9xnLuro=
+  plugin: shadow-tls
+  plugin-opts:
+    host: nijigen-works.jp
+    password: K+NtA/8R8MTQ9vyZAd0kzUYJkwQmQBkUIQmwa2Po8cM=
+    version: 3
+- name: United States_None_ss_91
+  type: ss
+  server: 23.170.40.77
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: CmUP/cj9LY2W4bsBUV7mG8ujmMcCOzt+b4un9xnLuro=
+  plugin: shadow-tls
+  plugin-opts:
+    host: nijigen-works.jp
+    password: K+NtA/8R8MTQ9vyZAd0kzUYJkwQmQBkUIQmwa2Po8cM=
+    version: 3
 - name: France_None_hy_0
   type: hysteria
   server: 62.210.243.131
@@ -1356,9 +1328,12 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 4Nika-1054, server: 18.143.144.112, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Nika-39, server: kr1.mhw7e2.online, port: 20019, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
-- {name: 5|🇯🇵 日本特殊|@ripaojiedian, server: 34.219.151.61, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 5|🇯🇵 日本|@ripaojiedian, server: 223.113.54.154, port: 23621, type: trojan, password: RmdXQRXg, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-158, server: 207.246.102.64, port: 21636, type: vmess, uuid: 53d57cfb-189f-4a9f-b620-a3ca168b7ac1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-123, server: 46.29.166.237, port: 47555, type: vmess, uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 加拿大蒙特利尔 v2rayfree.eu.org, server: 134.195.196.178, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+- {name: 4Mohsen-1029, server: 13.215.177.171, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 5|🇭🇰 香港KT|@ripaojiedian, server: 36.232.6.20, port: 8443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: a1.wagaga.online, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -1375,9 +1350,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 4Nika-1054
-      - 4Nika-39
-      - 5|🇯🇵 日本特殊|@ripaojiedian
+      - 5|🇯🇵 日本|@ripaojiedian
+      - 0|-https://t.me/MrXbin-158
+      - 0|-https://t.me/MrXbin-123
+      - 加拿大蒙特利尔 v2rayfree.eu.org
+      - 4Mohsen-1029
+      - 5|🇭🇰 香港KT|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -1390,16 +1368,57 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 300
     proxies:
-      - 4Nika-1054
-      - 4Nika-39
-      - 5|🇯🇵 日本特殊|@ripaojiedian
+      - 5|🇯🇵 日本|@ripaojiedian
+      - 0|-https://t.me/MrXbin-158
+      - 0|-https://t.me/MrXbin-123
+      - 加拿大蒙特利尔 v2rayfree.eu.org
+      - 4Mohsen-1029
+      - 5|🇭🇰 香港KT|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
-    strategy: round-robin
+    strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 300
     proxies:
       - None_None_vmess_01
+      - None_None_vmess_01
+      - None_None_vmess_02
+      - Canada_Ottawa_vmess_03
+      - None_None_vmess_04
+      - United States_San Francisco_vmess_05
+      - United States_None_vmess_06
+      - None_None_vmess_07
+      - United States_San Francisco_vmess_08
+      - United States_None_vmess_09
+      - United States_None_vmess_010
+      - None_None_vmess_011
+      - None_None_vmess_012
+      - None_None_vmess_013
+      - None_None_vmess_014
+      - None_None_vmess_015
+      - None_None_vmess_016
+      - None_None_vmess_017
+      - None_None_vmess_018
+      - None_None_vmess_019
+      - None_None_vmess_020
+      - None_None_vmess_021
+      - None_None_vmess_022
+      - None_None_vmess_023
+      - None_None_vmess_024
+      - None_None_vmess_025
+      - None_None_vmess_026
+      - None_None_vmess_027
+      - None_None_vmess_028
+      - None_None_vmess_029
+      - None_None_vmess_030
+      - United States_None_vmess_031
+      - None_None_vmess_11
+      - None_None_vmess_12
+      - Canada_Ottawa_vmess_13
+      - None_None_vmess_14
+      - United States_San Francisco_vmess_15
+      - United States_None_vmess_16
+      - None_None_vmess_17
       - None_None_vmess_01
       - None_None_vmess_02
       - Canada_Ottawa_vmess_03
@@ -1474,14 +1493,14 @@ proxy-groups:
       - Canada_Ottawa_vmess_42
       - None_None_vmess_43
       - None_None_vmess_44
-      - United States_Kansas City_vless_51
-      - United States_Kansas City_tuic_61
+      - United States_None_ss_51
+      - United States_None_ss_61
       - None_None_vmess_71
       - Canada_Ottawa_vmess_72
       - None_None_vmess_73
       - None_None_vmess_74
-      - United States_Kansas City_vless_81
-      - United States_Kansas City_tuic_91
+      - United States_None_ss_81
+      - United States_None_ss_91
       - France_None_hy_0
       - France_None_hy_1
       - France_None_hy_2
@@ -1491,9 +1510,12 @@ proxy-groups:
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
 
-      - 4Nika-1054
-      - 4Nika-39
-      - 5|🇯🇵 日本特殊|@ripaojiedian
+      - 5|🇯🇵 日本|@ripaojiedian
+      - 0|-https://t.me/MrXbin-158
+      - 0|-https://t.me/MrXbin-123
+      - 加拿大蒙特利尔 v2rayfree.eu.org
+      - 4Mohsen-1029
+      - 5|🇭🇰 香港KT|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
