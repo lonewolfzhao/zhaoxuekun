@@ -1360,10 +1360,6 @@ proxies:
 - {name: 4Nika-39, server: kr1.mhw7e2.online, port: 20019, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
 - {name: "5,6|美国5|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 8080, type: vmess, uuid: afa7ee50-d214-4a54-a558-e5c96480916d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/f8ZKTGaGoC/, headers: {Host: us5PhAx6xsj.fzbqfrse.xyz}}, udp: true}
 - {name: 13|加拿大 023, server: 104.25.226.50, port: 80, type: vmess, uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: 127.0.0.1.furiosacага0безумномmaксефуриосе.反了.馬哈拉吉.mойочень.suonycars.buzz.}}, udp: true}
-- {name: 4Mohsen-1052, server: 18.143.144.112, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "13|👉🆔 @v2ray_configs_pool #8", server: www.speedtest.net, port: 2082, type: vmess, uuid: 460258a8-89fc-4853-9d29-083bf285070f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/@config_shahin,@config_shahin,@config_shahin,@config_shahin?ed=80", headers: {Host: 2.irvn.debian.6.i.6.6.fxp.debian.org.speedtest.net.列列男事的事列上赛男.ghormehsabzi.cyou.}}, udp: true}
-- {name: 13|加拿大 012, server: 104.17.171.58, port: 80, type: vmess, uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: 127.0.0.1.furiosacага0безумномmaксефуриосе.反了.馬哈拉吉.mойочень.suonycars.buzz.}}, udp: true}
-- {name: 5|🇯🇵 日本特殊|@ripaojiedian, server: 34.219.151.61, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -1384,10 +1380,6 @@ proxy-groups:
       - 4Nika-39
       - 5,6|美国5|@ripaojiedian
       - 13|加拿大 023
-      - 4Mohsen-1052
-      - "13|👉🆔 @v2ray_configs_pool #8"
-      - 13|加拿大 012
-      - 5|🇯🇵 日本特殊|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -1404,10 +1396,6 @@ proxy-groups:
       - 4Nika-39
       - 5,6|美国5|@ripaojiedian
       - 13|加拿大 023
-      - 4Mohsen-1052
-      - "13|👉🆔 @v2ray_configs_pool #8"
-      - 13|加拿大 012
-      - 5|🇯🇵 日本特殊|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: round-robin
@@ -1510,10 +1498,6 @@ proxy-groups:
       - 4Nika-39
       - 5,6|美国5|@ripaojiedian
       - 13|加拿大 023
-      - 4Mohsen-1052
-      - "13|👉🆔 @v2ray_configs_pool #8"
-      - 13|加拿大 012
-      - 5|🇯🇵 日本特殊|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -3377,12 +3361,10 @@ rules:
   - DOMAIN-KEYWORD,avtb,♻️ 情色可用
   - DOMAIN-KEYWORD,sis001,♻️ 情色可用
   - DOMAIN-KEYWORD,sehuatang,♻️ 情色可用
+  - DOMAIN-KEYWORD,killcovid,♻️ 情色可用
   - DOMAIN-SUFFIX,btc35000.com,♻️ 情色可用
   - DOMAIN-SUFFIX,slashed.cloud,♻️ 情色可用
   - DOMAIN-SUFFIX,91selfie.com,♻️ 情色可用
-  - DOMAIN-SUFFIX,killcovid2021.com,♻️ 情色可用
-  - DOMAIN-SUFFIX,cdn77.org,♻️ 情色可用
-  - DOMAIN-SUFFIX,rsc.cdn77.org,♻️ 情色可用
   - DOMAIN-SUFFIX,8teenxxx.com,♻️ 情色可用
   - DOMAIN-SUFFIX,google.com,♻️ 情色可用
   - DOMAIN-SUFFIX,ahcdn.com,♻️ 情色可用
