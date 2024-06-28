@@ -1334,7 +1334,6 @@ proxies:
 - {name: VM-WS-NA 🏴‍☠️ NA-162.159.40.42:8080, server: 162.159.40.42, port: 8080, type: vmess, uuid: afa7ee50-d214-4a54-a558-e5c96480916d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/f8ZKTGaGoC/, headers: {Host: us5PhAx6xsj.fzbqfrse.xyz}}, udp: true}
 - {name: 5|🇯🇵 日本|@ripaojiedian, server: 223.113.54.154, port: 23621, type: trojan, password: RmdXQRXg, skip-cert-verify: true, udp: true}
 - {name: 4Nika-39, server: kr1.mhw7e2.online, port: 20019, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
-- {name: 5|🇻🇳 越南R|@ripaojiedian, server: 59.56.77.178, port: 15083, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -1355,7 +1354,6 @@ proxy-groups:
       - VM-WS-NA 🏴‍☠️ NA-162.159.40.42:8080
       - 5|🇯🇵 日本|@ripaojiedian
       - 4Nika-39
-      - 5|🇻🇳 越南R|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -1372,18 +1370,146 @@ proxy-groups:
       - VM-WS-NA 🏴‍☠️ NA-162.159.40.42:8080
       - 5|🇯🇵 日本|@ripaojiedian
       - 4Nika-39
-      - 5|🇻🇳 越南R|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 60
     proxies:
+      - None_None_vmess_01
+      - None_None_vmess_01
+      - None_None_vmess_02
+      - Canada_Ottawa_vmess_03
+      - None_None_vmess_04
+      - United States_San Francisco_vmess_05
+      - United States_None_vmess_06
+      - None_None_vmess_07
+      - United States_San Francisco_vmess_08
+      - United States_None_vmess_09
+      - United States_None_vmess_010
+      - None_None_vmess_011
+      - None_None_vmess_012
+      - None_None_vmess_013
+      - None_None_vmess_014
+      - None_None_vmess_015
+      - None_None_vmess_016
+      - None_None_vmess_017
+      - None_None_vmess_018
+      - None_None_vmess_019
+      - None_None_vmess_020
+      - None_None_vmess_021
+      - None_None_vmess_022
+      - None_None_vmess_023
+      - None_None_vmess_024
+      - None_None_vmess_025
+      - None_None_vmess_026
+      - None_None_vmess_027
+      - None_None_vmess_028
+      - None_None_vmess_029
+      - None_None_vmess_030
+      - United States_None_vmess_031
+      - None_None_vmess_11
+      - None_None_vmess_12
+      - Canada_Ottawa_vmess_13
+      - None_None_vmess_14
+      - United States_San Francisco_vmess_15
+      - United States_None_vmess_16
+      - None_None_vmess_17
+      - None_None_vmess_01
+      - None_None_vmess_02
+      - Canada_Ottawa_vmess_03
+      - None_None_vmess_04
+      - United States_San Francisco_vmess_05
+      - United States_None_vmess_06
+      - None_None_vmess_07
+      - United States_San Francisco_vmess_08
+      - United States_None_vmess_09
+      - United States_None_vmess_010
+      - None_None_vmess_011
+      - None_None_vmess_012
+      - None_None_vmess_013
+      - None_None_vmess_014
+      - None_None_vmess_015
+      - None_None_vmess_016
+      - None_None_vmess_017
+      - None_None_vmess_018
+      - None_None_vmess_019
+      - None_None_vmess_020
+      - None_None_vmess_021
+      - None_None_vmess_022
+      - None_None_vmess_023
+      - None_None_vmess_024
+      - None_None_vmess_025
+      - None_None_vmess_026
+      - None_None_vmess_027
+      - None_None_vmess_028
+      - None_None_vmess_029
+      - None_None_vmess_030
+      - United States_None_vmess_031
+      - None_None_vmess_11
+      - None_None_vmess_12
+      - Canada_Ottawa_vmess_13
+      - None_None_vmess_14
+      - United States_San Francisco_vmess_15
+      - United States_None_vmess_16
+      - None_None_vmess_17
+      - United States_San Francisco_vmess_18
+      - United States_None_vmess_19
+      - United States_None_vmess_110
+      - None_None_vmess_111
+      - None_None_vmess_112
+      - None_None_vmess_113
+      - None_None_vmess_114
+      - None_None_vmess_115
+      - None_None_vmess_116
+      - None_None_vmess_117
+      - None_None_vmess_118
+      - None_None_vmess_119
+      - None_None_vmess_120
+      - None_None_vmess_121
+      - None_None_vmess_122
+      - None_None_vmess_123
+      - None_None_vmess_124
+      - None_None_vmess_125
+      - None_None_vmess_126
+      - None_None_vmess_127
+      - None_None_vmess_128
+      - None_None_vmess_129
+      - None_None_vmess_130
+      - United States_None_vmess_131
+      - None_None_vmess_21
+      - Canada_Ottawa_vmess_22
+      - None_None_vmess_23
+      - None_None_vmess_24
+      - None_None_vmess_31
+      - Canada_Ottawa_vmess_32
+      - None_None_vmess_33
+      - None_None_vmess_34
+      - None_None_vmess_41
+      - Canada_Ottawa_vmess_42
+      - None_None_vmess_43
+      - None_None_vmess_44
+      - United States_None_ss_51
+      - United States_None_ss_61
+      - None_None_vmess_71
+      - Canada_Ottawa_vmess_72
+      - None_None_vmess_73
+      - None_None_vmess_74
+      - United States_None_ss_81
+      - United States_None_hysteria_91
+      - France_None_hy_0
+      - France_None_hy_1
+      - France_None_hy_2
+      - France_None_hy_3
+      - United States_Los Angeles_hy2_0
+      - United States_Los Angeles_hy2_1
+      - United States_Los Angeles_hy2_2
+      - United States_Los Angeles_hy2_3
+
       - 4FreeIran-1117
       - VM-WS-NA 🏴‍☠️ NA-162.159.40.42:8080
       - 5|🇯🇵 日本|@ripaojiedian
       - 4Nika-39
-      - 5|🇻🇳 越南R|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
