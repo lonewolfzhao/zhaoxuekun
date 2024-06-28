@@ -1357,7 +1357,6 @@ proxy-groups:
     proxies:
       - ♻️ 可能受限
       - ♻️ 不受限制
-      - 🎯 全球直连
   - name: ♻️ 不受限制
     type: load-balance
     strategy: consistent-hashing
@@ -1515,7 +1514,7 @@ proxy-groups:
     proxies:
       - ♻️ 不受限制
       - ♻️ 可能受限
-      - 🎯 全球直连
+      - DIRECT
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,ad.,🛑 全球拦截
