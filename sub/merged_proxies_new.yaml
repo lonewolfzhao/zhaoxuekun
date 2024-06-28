@@ -1162,7 +1162,7 @@ proxies:
   type: vmess
   server: 104.19.32.88
   port: 2086
-  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
   cipher: auto
   udp: true
@@ -1177,7 +1177,7 @@ proxies:
   type: vmess
   server: 23.227.38.8
   port: 2086
-  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
   cipher: auto
   udp: true
@@ -1192,7 +1192,7 @@ proxies:
   type: vmess
   server: 104.26.0.50
   port: 2086
-  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
   cipher: auto
   udp: true
@@ -1207,7 +1207,7 @@ proxies:
   type: vmess
   server: 104.19.38.88
   port: 2086
-  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
   cipher: auto
   udp: true
@@ -1229,17 +1229,19 @@ proxies:
     host: nijigen-works.jp
     password: K+NtA/8R8MTQ9vyZAd0kzUYJkwQmQBkUIQmwa2Po8cM=
     version: 3
-- name: United States_None_ss_91
-  type: ss
+- name: United States_None_hysteria_91
+  type: hysteria
   server: 23.170.40.77
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: CmUP/cj9LY2W4bsBUV7mG8ujmMcCOzt+b4un9xnLuro=
-  plugin: shadow-tls
-  plugin-opts:
-    host: nijigen-works.jp
-    password: K+NtA/8R8MTQ9vyZAd0kzUYJkwQmQBkUIQmwa2Po8cM=
-    version: 3
+  port: 30009
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  auth_str: dongtaiwang.com
+  up: 11
+  down: 55
+  hop_interval: 10
 - name: France_None_hy_0
   type: hysteria
   server: 62.210.243.131
@@ -1415,7 +1417,7 @@ proxy-groups:
   - None_None_vmess_73
   - None_None_vmess_74
   - United States_None_ss_81
-  - United States_None_ss_91
+  - United States_None_hysteria_91
   - France_None_hy_0
   - France_None_hy_1
   - France_None_hy_2
@@ -1511,7 +1513,7 @@ proxy-groups:
   - None_None_vmess_73
   - None_None_vmess_74
   - United States_None_ss_81
-  - United States_None_ss_91
+  - United States_None_hysteria_91
   - France_None_hy_0
   - France_None_hy_1
   - France_None_hy_2
