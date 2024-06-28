@@ -1508,9 +1508,9 @@ proxy-groups:
   - name: 🐟 漏网之鱼
     type: select
     proxies:
-      - ♻️ 不受限制
-      - ♻️ 可能受限
       - DIRECT
+      - ♻️ 可能受限
+      - ♻️ 不受限制
 rules:
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,admaster,🛑 全球拦截
