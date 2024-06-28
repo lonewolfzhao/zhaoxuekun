@@ -1334,15 +1334,12 @@ proxies:
 - {name: VM-WS-NA 🏴‍☠️ NA-162.159.40.42:8080, server: 162.159.40.42, port: 8080, type: vmess, uuid: afa7ee50-d214-4a54-a558-e5c96480916d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/f8ZKTGaGoC/, headers: {Host: us5PhAx6xsj.fzbqfrse.xyz}}, udp: true}
 - {name: 5|🇯🇵 日本|@ripaojiedian, server: 223.113.54.154, port: 23621, type: trojan, password: RmdXQRXg, skip-cert-verify: true, udp: true}
 - {name: 4Nika-39, server: kr1.mhw7e2.online, port: 20019, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
+- {name: 5|🇻🇳 越南R|@ripaojiedian, server: 59.56.77.178, port: 15083, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
-      - DIRECT
-  - name: 🎯 全球直连
-    type: select
-    proxies:
       - DIRECT
   - name: ♻️ 情色可用
     type: load-balance
@@ -1354,6 +1351,7 @@ proxy-groups:
       - VM-WS-NA 🏴‍☠️ NA-162.159.40.42:8080
       - 5|🇯🇵 日本|@ripaojiedian
       - 4Nika-39
+      - 5|🇻🇳 越南R|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -1370,6 +1368,7 @@ proxy-groups:
       - VM-WS-NA 🏴‍☠️ NA-162.159.40.42:8080
       - 5|🇯🇵 日本|@ripaojiedian
       - 4Nika-39
+      - 5|🇻🇳 越南R|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -1510,6 +1509,7 @@ proxy-groups:
       - VM-WS-NA 🏴‍☠️ NA-162.159.40.42:8080
       - 5|🇯🇵 日本|@ripaojiedian
       - 4Nika-39
+      - 5|🇻🇳 越南R|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -3361,7 +3361,6 @@ rules:
   - DOMAIN-SUFFIX,yuanchengxiezuo.com,🛑 全球拦截
   - DOMAIN-SUFFIX,zbrushcn.com,🛑 全球拦截
   - DOMAIN-SUFFIX,zhzzx.com,🛑 全球拦截
-  - GEOIP,CN,🎯 全球直连
   - DOMAIN-KEYWORD,porn,♻️ 情色可用
   - DOMAIN-KEYWORD,xxx,♻️ 情色可用
   - DOMAIN-KEYWORD,javcdn,♻️ 情色可用
