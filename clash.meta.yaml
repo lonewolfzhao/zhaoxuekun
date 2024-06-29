@@ -1780,12 +1780,13 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 0|-https://t.me/MrXbin-147, server: valance.protocolbuffer.com, port: 28332, type: trojan, password: D2F4KSxOpeCyZ337FDCwlRR6S78Ca93nn6TCBSXS3lqgZA83D83Fu5eaIgpRjYO39aEpa, sni: valance.protocolbuffer.com, skip-cert-verify: true, udp: true}
-- {name: 5|🇺🇸 美国4|@ripaojiedian, server: 223.113.54.154, port: 20344, type: trojan, password: RmdXQRXg, skip-cert-verify: true, udp: true}
-- {name: 0|-https://t.me/MrXbin-165, server: proxy.chydao.org, port: 29779, type: trojan, password: 77fd0e60, sni: proxy.chydao.org, skip-cert-verify: true, udp: true}
-- {name: 美国 CloudFlare节点, server: 172.67.150.57, port: 80, type: vmess, uuid: 5ea4a644-07e9-4ad0-860d-50bd9b6e7f94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: dl2.升級.3скалация.mальчикицапля.男孩與蒼鷺.wonkacapitano.buzz.}}, udp: true}
-- {name: 4Mohsen-1685, server: 38.75.136.6, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-- {name: 4Sarina-3216, server: 38.114.114.6, port: 5499, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true}
+- {name: 4Nika-688, server: 112.29.210.161, port: 25679, type: ss, cipher: chacha20-ietf-poly1305, password: e7ea337a-b085-4c88-85c5-6449fa01542a, udp: true}
+- {name: 0|-https://t.me/MrXbin-128, server: 18.143.144.112, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 5|🇯🇵 日本|@ripaojiedian, server: 223.113.54.154, port: 23621, type: trojan, password: RmdXQRXg, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-200, server: 45.144.2.113, port: 80, type: vmess, uuid: 88bd03e6-5ada-42da-9e77-448cd8c60e13, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- {name: 0|-https://t.me/MrXbin-121, server: 23.106.35.90, port: 28331, type: trojan, password: FcYCR32n8lEy3aaXTSAYzl3DNXTSAYzl3DNqZ58SDgFBOxeC6Cw47uSZy3Aje0xeC6Cw4, sni: hovland.golfland.club, skip-cert-verify: true, udp: true}
+- {name: 4Nika-39, server: kr1.mhw7e2.online, port: 20019, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
+- {name: 11|广东省广州市 移动, server: 183.236.51.23, port: 54437, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -1798,12 +1799,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|-https://t.me/MrXbin-147
-      - 5|🇺🇸 美国4|@ripaojiedian
-      - 0|-https://t.me/MrXbin-165
-      - 美国 CloudFlare节点
-      - 4Mohsen-1685
-      - 4Sarina-3216
+      - 4Nika-688
+      - 0|-https://t.me/MrXbin-128
+      - 5|🇯🇵 日本|@ripaojiedian
+      - 0|-https://t.me/MrXbin-200
+      - 0|-https://t.me/MrXbin-121
+      - 4Nika-39
+      - 11|广东省广州市 移动
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -1815,12 +1817,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|-https://t.me/MrXbin-147
-      - 5|🇺🇸 美国4|@ripaojiedian
-      - 0|-https://t.me/MrXbin-165
-      - 美国 CloudFlare节点
-      - 4Mohsen-1685
-      - 4Sarina-3216
+      - 4Nika-688
+      - 0|-https://t.me/MrXbin-128
+      - 5|🇯🇵 日本|@ripaojiedian
+      - 0|-https://t.me/MrXbin-200
+      - 0|-https://t.me/MrXbin-121
+      - 4Nika-39
+      - 11|广东省广州市 移动
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -2017,12 +2020,13 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
-      - 0|-https://t.me/MrXbin-147
-      - 5|🇺🇸 美国4|@ripaojiedian
-      - 0|-https://t.me/MrXbin-165
-      - 美国 CloudFlare节点
-      - 4Mohsen-1685
-      - 4Sarina-3216
+      - 4Nika-688
+      - 0|-https://t.me/MrXbin-128
+      - 5|🇯🇵 日本|@ripaojiedian
+      - 0|-https://t.me/MrXbin-200
+      - 0|-https://t.me/MrXbin-121
+      - 4Nika-39
+      - 11|广东省广州市 移动
   - name: 🐟 漏网之鱼
     type: select
     proxies:
