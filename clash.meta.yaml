@@ -1780,14 +1780,11 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
+- {name: "11,13|🇺🇸 美国 CloudFlare节点 11", server: 104.16.53.5, port: 80, type: vmess, uuid: 5ea4a644-07e9-4ad0-860d-50bd9b6e7f94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: dl2.升級.3скалация.mальчикицапля.男孩與蒼鷺.wonkacapitano.buzz.}}, udp: true}
 - {name: 4Nika-39, server: kr1.mhw7e2.online, port: 20019, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
-- {name: 13|🇨🇦 加拿大 112, server: 104.19.47.132, port: 8880, type: vmess, uuid: 19f11a24-7867-443e-b615-fe08772547db, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: tw2.6bkc.top}}, udp: true}
-- {name: 5|🇯🇵 日本|@ripaojiedian, server: 223.113.54.154, port: 23621, type: trojan, password: RmdXQRXg, skip-cert-verify: true, udp: true}
-- {name: 巴西圣保罗 CloudFlare节点, server: 188.114.97.3, port: 80, type: vmess, uuid: f8a5881b-4067-4f00-ad60-d7cd887ee870, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: Es2.vmess.site.}}, udp: true}
-- {name: 13|👉🆔 @v2ray_configs_pool, server: 104.20.36.139, port: 80, type: vmess, uuid: 2d14e84b-226b-412a-9a3c-ffce70b02bdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: 127.0.0.1.dl.эврика.mrarsha.尤里卡.醫生.специалист.wonkacapitano.buzz.}}, udp: true}
-- {name: 广东省广州市 移动, server: 183.236.51.23, port: 54100, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 美国 CloudFlare节点, server: www.speedtest.net, port: 2052, type: vmess, uuid: f580170d-a3ce-41b4-b964-f242198dcd26, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/@irvpnn,@irvpnn,@irvpnn,@irvpnn?ed=80", headers: {Host: 2d.irvn.debian.6.6.1b71.8.fxp.debian.org.speedtest.net.列列男事的事列上赛男.filter-nakon-madarj.cyou.}}, udp: true}
-- {name: 0|-https://t.me/MrXbin-200, server: 45.144.2.113, port: 80, type: vmess, uuid: 88bd03e6-5ada-42da-9e77-448cd8c60e13, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- {name: 11|广东省广州市 移动, server: 183.236.51.23, port: 54437, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 5|🇺🇸 美国4|@ripaojiedian, server: 223.113.54.154, port: 20344, type: trojan, password: RmdXQRXg, skip-cert-verify: true, udp: true}
+- {name: 巴西圣保罗 CloudFlare节点, server: 188.114.96.3, port: 80, type: vmess, uuid: 43ac3b21-2e9b-4a7c-aef6-2e4b8f73ce2f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: 127.0.0.1.kleksacademy.克萊克斯學院.aкадемияkлекс.警笛.wonkacapitano.buzz.}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -1800,14 +1797,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - 11,13|🇺🇸 美国 CloudFlare节点 11
       - 4Nika-39
-      - 13|🇨🇦 加拿大 112
-      - 5|🇯🇵 日本|@ripaojiedian
+      - 11|广东省广州市 移动
+      - 5|🇺🇸 美国4|@ripaojiedian
       - 巴西圣保罗 CloudFlare节点
-      - 13|👉🆔 @v2ray_configs_pool
-      - 广东省广州市 移动
-      - 美国 CloudFlare节点
-      - 0|-https://t.me/MrXbin-200
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -1819,14 +1813,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - 11,13|🇺🇸 美国 CloudFlare节点 11
       - 4Nika-39
-      - 13|🇨🇦 加拿大 112
-      - 5|🇯🇵 日本|@ripaojiedian
+      - 11|广东省广州市 移动
+      - 5|🇺🇸 美国4|@ripaojiedian
       - 巴西圣保罗 CloudFlare节点
-      - 13|👉🆔 @v2ray_configs_pool
-      - 广东省广州市 移动
-      - 美国 CloudFlare节点
-      - 0|-https://t.me/MrXbin-200
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -2023,14 +2014,11 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
+      - 11,13|🇺🇸 美国 CloudFlare节点 11
       - 4Nika-39
-      - 13|🇨🇦 加拿大 112
-      - 5|🇯🇵 日本|@ripaojiedian
+      - 11|广东省广州市 移动
+      - 5|🇺🇸 美国4|@ripaojiedian
       - 巴西圣保罗 CloudFlare节点
-      - 13|👉🆔 @v2ray_configs_pool
-      - 广东省广州市 移动
-      - 美国 CloudFlare节点
-      - 0|-https://t.me/MrXbin-200
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -3894,8 +3882,8 @@ rules:
   - DOMAIN-KEYWORD,sehuatang,♻️ 情色可用
   - DOMAIN-KEYWORD,killcovid,♻️ 情色可用
   - DOMAIN-KEYWORD,btc35000,♻️ 情色可用
-  - DOMAIN-SUFFIX,slashed.cloud,♻️ 情色可用
-  - DOMAIN-SUFFIX,91selfie.com,♻️ 情色可用
+  - DOMAIN-KEYWORD,slashed,♻️ 情色可用
+  - DOMAIN-KEYWORD,91selfie,♻️ 情色可用
   - DOMAIN-SUFFIX,8teenxxx.com,♻️ 情色可用
   - DOMAIN-SUFFIX,google.com,♻️ 情色可用
   - DOMAIN-SUFFIX,ahcdn.com,♻️ 情色可用
@@ -10188,6 +10176,4 @@ rules:
   - DOMAIN-SUFFIX,vikacg.com,🔰 节点选择
   - DOMAIN-SUFFIX,picjs.xyz,🔰 节点选择
   - DOMAIN-KEYWORD,v2rayse,🔰 节点选择
-  - DOMAIN-SUFFIX,v2rayse.com,🔰 节点选择
-  - DOMAIN,api.v2rayse.com,🔰 节点选择
   - MATCH,🐟 漏网之鱼
