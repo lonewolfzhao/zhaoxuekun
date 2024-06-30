@@ -1780,10 +1780,12 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 5|🇭🇰 香港2|@ripaojiedian, server: xctransfer1st.cokecloud.top, port: 45861, type: vmess, uuid: 27af8997-972a-4ac5-8aff-c0e535d2515d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 5|🇯🇵 日本|@ripaojiedian, server: 223.113.54.154, port: 23621, type: trojan, password: RmdXQRXg, skip-cert-verify: true, udp: true}
+- {name: 5|🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 4027, type: trojan, password: RmdXQRXg, skip-cert-verify: true, udp: true}
+- {name: 13|台湾01 隧道 1.2x, server: in06.dns2024.org, port: 61018, type: vmess, uuid: 4b804301-23ce-378f-87df-af85f73c611f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 13|美国【TG：@ccbaohe】定时更新节点订阅, server: baobaojichang.bbjc.xyz, port: 2082, type: vmess, uuid: de20ca94-3f5c-4879-af63-0fd78b17aed1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: us.mojc.xyz}}, udp: true}
+- {name: 4Nika-39, server: kr1.mhw7e2.online, port: 20019, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
 - {name: 5|🇻🇳 越南R|@ripaojiedian, server: 59.56.77.178, port: 15083, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
-- {name: "11|广东省广州市 移动 #1", server: 120.232.153.40, port: 53942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 5|🇺🇸 美国4|@ripaojiedian, server: 223.113.54.154, port: 20344, type: trojan, password: RmdXQRXg, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -1796,10 +1798,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 5|🇭🇰 香港2|@ripaojiedian
-      - 5|🇯🇵 日本|@ripaojiedian
+      - 5|🇭🇰 香港4|@ripaojiedian
+      - 13|台湾01 隧道 1.2x
+      - 13|美国【TG：@ccbaohe】定时更新节点订阅
+      - 4Nika-39
       - 5|🇻🇳 越南R|@ripaojiedian
-      - "11|广东省广州市 移动 #1"
+      - 5|🇺🇸 美国4|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -1811,10 +1815,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 5|🇭🇰 香港2|@ripaojiedian
-      - 5|🇯🇵 日本|@ripaojiedian
+      - 5|🇭🇰 香港4|@ripaojiedian
+      - 13|台湾01 隧道 1.2x
+      - 13|美国【TG：@ccbaohe】定时更新节点订阅
+      - 4Nika-39
       - 5|🇻🇳 越南R|@ripaojiedian
-      - "11|广东省广州市 移动 #1"
+      - 5|🇺🇸 美国4|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -2011,10 +2017,12 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
-      - 5|🇭🇰 香港2|@ripaojiedian
-      - 5|🇯🇵 日本|@ripaojiedian
+      - 5|🇭🇰 香港4|@ripaojiedian
+      - 13|台湾01 隧道 1.2x
+      - 13|美国【TG：@ccbaohe】定时更新节点订阅
+      - 4Nika-39
       - 5|🇻🇳 越南R|@ripaojiedian
-      - "11|广东省广州市 移动 #1"
+      - 5|🇺🇸 美国4|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -4083,6 +4091,7 @@ rules:
   - DOMAIN-SUFFIX,9gag.com,🔰 节点选择
   - DOMAIN-SUFFIX,9news.com.au,🔰 节点选择
   - DOMAIN-SUFFIX,a-normal-day.com,🔰 节点选择
+  - DOMAIN-SUFFIX,a5.com.ru,🔰 节点选择
   - DOMAIN-SUFFIX,aamacau.com,🔰 节点选择
   - DOMAIN-SUFFIX,abc.com,🔰 节点选择
   - DOMAIN-SUFFIX,abc.net.au,🔰 节点选择
@@ -4198,7 +4207,6 @@ rules:
   - DOMAIN-SUFFIX,am730.com.hk,🔰 节点选择
   - DOMAIN-SUFFIX,amazon.co.jp,🔰 节点选择
   - DOMAIN-SUFFIX,amazon.com,🔰 节点选择
-  - DOMAIN-SUFFIX,amazonaws.com,🔰 节点选择
   - DOMAIN-SUFFIX,ameblo.jp,🔰 节点选择
   - DOMAIN-SUFFIX,america.gov,🔰 节点选择
   - DOMAIN-SUFFIX,american.edu,🔰 节点选择
@@ -4274,6 +4282,7 @@ rules:
   - DOMAIN-SUFFIX,apkmonk.com,🔰 节点选择
   - DOMAIN-SUFFIX,apkplz.com,🔰 节点选择
   - DOMAIN-SUFFIX,apkpure.com,🔰 节点选择
+  - DOMAIN-SUFFIX,apkpure.net,🔰 节点选择
   - DOMAIN-SUFFIX,aplusvpn.com,🔰 节点选择
   - DOMAIN-SUFFIX,appbrain.com,🔰 节点选择
   - DOMAIN-SUFFIX,appdownloader.net,🔰 节点选择
@@ -4378,6 +4387,7 @@ rules:
   - DOMAIN-SUFFIX,badiucao.com,🔰 节点选择
   - DOMAIN-SUFFIX,badjojo.com,🔰 节点选择
   - DOMAIN-SUFFIX,badoo.com,🔰 节点选择
+  - DOMAIN-SUFFIX,bahamut.com.tw,🔰 节点选择
   - DOMAIN-SUFFIX,baidu.jp,🔰 节点选择
   - DOMAIN-SUFFIX,baijie.org,🔰 节点选择
   - DOMAIN-SUFFIX,bailandaily.com,🔰 节点选择
@@ -4738,6 +4748,7 @@ rules:
   - DOMAIN-SUFFIX,cdp1989.org,🔰 节点选择
   - DOMAIN-SUFFIX,cdp1998.org,🔰 节点选择
   - DOMAIN-SUFFIX,cdp2006.org,🔰 节点选择
+  - DOMAIN-SUFFIX,cdpa.url.tw,🔰 节点选择
   - DOMAIN-SUFFIX,cdpeu.org,🔰 节点选择
   - DOMAIN-SUFFIX,cdpusa.org,🔰 节点选择
   - DOMAIN-SUFFIX,cdpweb.org,🔰 节点选择
@@ -4766,6 +4777,7 @@ rules:
   - DOMAIN-SUFFIX,channelnewsasia.com,🔰 节点选择
   - DOMAIN-SUFFIX,chaoex.com,🔰 节点选择
   - DOMAIN-SUFFIX,chapm25.com,🔰 节点选择
+  - DOMAIN-SUFFIX,chatgpt.com,🔰 节点选择
   - DOMAIN-SUFFIX,chatnook.com,🔰 节点选择
   - DOMAIN-SUFFIX,chaturbate.com,🔰 节点选择
   - DOMAIN-SUFFIX,checkgfw.com,🔰 节点选择
@@ -4777,7 +4789,9 @@ rules:
   - DOMAIN-SUFFIX,cherrysave.com,🔰 节点选择
   - DOMAIN-SUFFIX,chhongbi.org,🔰 节点选择
   - DOMAIN-SUFFIX,chicagoncmtv.com,🔰 节点选择
+  - DOMAIN-SUFFIX,china-mmm.jp.net,🔰 节点选择
   - DOMAIN-SUFFIX,china-mmm.net,🔰 节点选择
+  - DOMAIN-SUFFIX,china-mmm.sa.com,🔰 节点选择
   - DOMAIN-SUFFIX,china-review.com.ua,🔰 节点选择
   - DOMAIN-SUFFIX,china-week.com,🔰 节点选择
   - DOMAIN-SUFFIX,china101.com,🔰 节点选择
@@ -4905,7 +4919,6 @@ rules:
   - DOMAIN-SUFFIX,cloakpoint.com,🔰 节点选择
   - DOMAIN-SUFFIX,cloudcone.com,🔰 节点选择
   - DOMAIN-SUFFIX,cloudflare-ipfs.com,🔰 节点选择
-  - DOMAIN-SUFFIX,cloudfront.net,🔰 节点选择
   - DOMAIN-SUFFIX,cloudfunctions.net,🔰 节点选择
   - DOMAIN-SUFFIX,club1069.com,🔰 节点选择
   - DOMAIN-SUFFIX,clubhouseapi.com,🔰 节点选择
@@ -4919,7 +4932,6 @@ rules:
   - DOMAIN-SUFFIX,cmule.org,🔰 节点选择
   - DOMAIN-SUFFIX,cmx.im,🔰 节点选择
   - DOMAIN-SUFFIX,cn-proxy.com,🔰 节点选择
-  - DOMAIN-SUFFIX,cn.com,🔰 节点选择
   - DOMAIN-SUFFIX,cn6.eu,🔰 节点选择
   - DOMAIN-SUFFIX,cna.com.tw,🔰 节点选择
   - DOMAIN-SUFFIX,cnabc.com,🔰 节点选择
@@ -4955,7 +4967,6 @@ rules:
   - DOMAIN-SUFFIX,collateralmurder.com,🔰 节点选择
   - DOMAIN-SUFFIX,collateralmurder.org,🔰 节点选择
   - DOMAIN-SUFFIX,com.google,🔰 节点选择
-  - DOMAIN-SUFFIX,com.ru,🔰 节点选择
   - DOMAIN-SUFFIX,com.uk,🔰 节点选择
   - DOMAIN-SUFFIX,comedycentral.com,🔰 节点选择
   - DOMAIN-SUFFIX,comefromchina.com,🔰 节点选择
@@ -5043,8 +5054,12 @@ rules:
   - DOMAIN-SUFFIX,d-fukyu.com,🔰 节点选择
   - DOMAIN-SUFFIX,d0z.net,🔰 节点选择
   - DOMAIN-SUFFIX,d100.net,🔰 节点选择
+  - DOMAIN-SUFFIX,d1b183sg0nvnuh.cloudfront.net,🔰 节点选择
+  - DOMAIN-SUFFIX,d1c37gjwa26taa.cloudfront.net,🔰 节点选择
   - DOMAIN-SUFFIX,d2bay.com,🔰 节点选择
   - DOMAIN-SUFFIX,d2pass.com,🔰 节点选择
+  - DOMAIN-SUFFIX,d3c33hcgiwev3.cloudfront.net,🔰 节点选择
+  - DOMAIN-SUFFIX,d3rhr7kgmtrq1v.cloudfront.net,🔰 节点选择
   - DOMAIN-SUFFIX,dabr.co.uk,🔰 节点选择
   - DOMAIN-SUFFIX,dabr.eu,🔰 节点选择
   - DOMAIN-SUFFIX,dabr.me,🔰 节点选择
@@ -5130,6 +5145,7 @@ rules:
   - DOMAIN-SUFFIX,democrats.org,🔰 节点选择
   - DOMAIN-SUFFIX,demosisto.hk,🔰 节点选择
   - DOMAIN-SUFFIX,depositphotos.com,🔰 节点选择
+  - DOMAIN-SUFFIX,derekhsu.homeip.net,🔰 节点选择
   - DOMAIN-SUFFIX,desc.se,🔰 节点选择
   - DOMAIN-SUFFIX,design.google,🔰 节点选择
   - DOMAIN-SUFFIX,desipro.de,🔰 节点选择
@@ -5140,6 +5156,7 @@ rules:
   - DOMAIN-SUFFIX,deviantart.net,🔰 节点选择
   - DOMAIN-SUFFIX,devio.us,🔰 节点选择
   - DOMAIN-SUFFIX,devpn.com,🔰 节点选择
+  - DOMAIN-SUFFIX,devv.ai,🔰 节点选择
   - DOMAIN-SUFFIX,dfas.mil,🔰 节点选择
   - DOMAIN-SUFFIX,dfn.org,🔰 节点选择
   - DOMAIN-SUFFIX,dharamsalanet.com,🔰 节点选择
@@ -5531,7 +5548,6 @@ rules:
   - DOMAIN-SUFFIX,fartit.com,🔰 节点选择
   - DOMAIN-SUFFIX,farwestchina.com,🔰 节点选择
   - DOMAIN-SUFFIX,fastestvpn.com,🔰 节点选择
-  - DOMAIN-SUFFIX,fastly.net,🔰 节点选择
   - DOMAIN-SUFFIX,fastpic.ru,🔰 节点选择
   - DOMAIN-SUFFIX,fastssh.com,🔰 节点选择
   - DOMAIN-SUFFIX,faststone.org,🔰 节点选择
@@ -6186,6 +6202,7 @@ rules:
   - DOMAIN-SUFFIX,gotrusted.com,🔰 节点选择
   - DOMAIN-SUFFIX,gotw.ca,🔰 节点选择
   - DOMAIN-SUFFIX,gov.taipei,🔰 节点选择
+  - DOMAIN-SUFFIX,gov.tw,🔰 节点选择
   - DOMAIN-SUFFIX,gr8domain.biz,🔰 节点选择
   - DOMAIN-SUFFIX,gr8name.biz,🔰 节点选择
   - DOMAIN-SUFFIX,gradconnection.com,🔰 节点选择
@@ -6417,7 +6434,6 @@ rules:
   - DOMAIN-SUFFIX,holymountaincn.com,🔰 节点选择
   - DOMAIN-SUFFIX,holyspiritspeaks.org,🔰 节点选择
   - DOMAIN-SUFFIX,homedepot.com,🔰 节点选择
-  - DOMAIN-SUFFIX,homeip.net,🔰 节点选择
   - DOMAIN-SUFFIX,homeperversion.com,🔰 节点选择
   - DOMAIN-SUFFIX,homeservershow.com,🔰 节点选择
   - DOMAIN-SUFFIX,honeynet.org,🔰 节点选择
@@ -6558,6 +6574,7 @@ rules:
   - DOMAIN-SUFFIX,idouga.com,🔰 节点选择
   - DOMAIN-SUFFIX,idreamx.com,🔰 节点选择
   - DOMAIN-SUFFIX,idsam.com,🔰 节点选择
+  - DOMAIN-SUFFIX,idv.tw,🔰 节点选择
   - DOMAIN-SUFFIX,ieasy5.com,🔰 节点选择
   - DOMAIN-SUFFIX,ied2k.net,🔰 节点选择
   - DOMAIN-SUFFIX,ienergy1.com,🔰 节点选择
@@ -6794,7 +6811,6 @@ rules:
   - DOMAIN-SUFFIX,journalofdemocracy.org,🔰 节点选择
   - DOMAIN-SUFFIX,joymiihub.com,🔰 节点选择
   - DOMAIN-SUFFIX,joyourself.com,🔰 节点选择
-  - DOMAIN-SUFFIX,jp.net,🔰 节点选择
   - DOMAIN-SUFFIX,jpopforum.net,🔰 节点选择
   - DOMAIN-SUFFIX,jqueryui.com,🔰 节点选择
   - DOMAIN-SUFFIX,jsdelivr.net,🔰 节点选择
@@ -6986,6 +7002,7 @@ rules:
   - DOMAIN-SUFFIX,lianyue.net,🔰 节点选择
   - DOMAIN-SUFFIX,liaowangxizang.net,🔰 节点选择
   - DOMAIN-SUFFIX,liberal.org.hk,🔰 节点选择
+  - DOMAIN-SUFFIX,libertysculpturepark.com,🔰 节点选择
   - DOMAIN-SUFFIX,libertytimes.com.tw,🔰 节点选择
   - DOMAIN-SUFFIX,libraryinformationtechnology.com,🔰 节点选择
   - DOMAIN-SUFFIX,libredd.it,🔰 节点选择
@@ -7030,7 +7047,6 @@ rules:
   - DOMAIN-SUFFIX,livedoor.jp,🔰 节点选择
   - DOMAIN-SUFFIX,liveleak.com,🔰 节点选择
   - DOMAIN-SUFFIX,livemint.com,🔰 节点选择
-  - DOMAIN-SUFFIX,livestation.com,🔰 节点选择
   - DOMAIN-SUFFIX,livestream.com,🔰 节点选择
   - DOMAIN-SUFFIX,livevideo.com,🔰 节点选择
   - DOMAIN-SUFFIX,livingonline.us,🔰 节点选择
@@ -7038,7 +7054,7 @@ rules:
   - DOMAIN-SUFFIX,liwangyang.com,🔰 节点选择
   - DOMAIN-SUFFIX,lizhizhuangbi.com,🔰 节点选择
   - DOMAIN-SUFFIX,lkcn.net,🔰 节点选择
-  - DOMAIN-SUFFIX,llss.me,🔰 节点选择
+  - DOMAIN-SUFFIX,lmsys.org,🔰 节点选择
   - DOMAIN-SUFFIX,lncn.org,🔰 节点选择
   - DOMAIN-SUFFIX,load.to,🔰 节点选择
   - DOMAIN-SUFFIX,lobsangwangyal.com,🔰 节点选择
@@ -7630,6 +7646,7 @@ rules:
   - DOMAIN-SUFFIX,nytco.com,🔰 节点选择
   - DOMAIN-SUFFIX,nyti.ms,🔰 节点选择
   - DOMAIN-SUFFIX,nytimes.com,🔰 节点选择
+  - DOMAIN-SUFFIX,nytimes.map.fastly.net,🔰 节点选择
   - DOMAIN-SUFFIX,nytimg.com,🔰 节点选择
   - DOMAIN-SUFFIX,nytlog.com,🔰 节点选择
   - DOMAIN-SUFFIX,nytstyle.com,🔰 节点选择
@@ -7882,6 +7899,7 @@ rules:
   - DOMAIN-SUFFIX,piposay.com,🔰 节点选择
   - DOMAIN-SUFFIX,piraattilahti.org,🔰 节点选择
   - DOMAIN-SUFFIX,piring.com,🔰 节点选择
+  - DOMAIN-SUFFIX,pixeldrain.com,🔰 节点选择
   - DOMAIN-SUFFIX,pixelqi.com,🔰 节点选择
   - DOMAIN-SUFFIX,pixiv.net,🔰 节点选择
   - DOMAIN-SUFFIX,pixnet.in,🔰 节点选择
@@ -8041,6 +8059,7 @@ rules:
   - DOMAIN-SUFFIX,pythonic.life,🔰 节点选择
   - DOMAIN-SUFFIX,pytorch.org,🔰 节点选择
   - DOMAIN-SUFFIX,qanote.com,🔰 节点选择
+  - DOMAIN-SUFFIX,qbittorrent.org,🔰 节点选择
   - DOMAIN-SUFFIX,qgirl.com.tw,🔰 节点选择
   - DOMAIN-SUFFIX,qhigh.com,🔰 节点选择
   - DOMAIN-SUFFIX,qi-gong.me,🔰 节点选择
@@ -8078,9 +8097,9 @@ rules:
   - DOMAIN-SUFFIX,qz.com,🔰 节点选择
   - DOMAIN-SUFFIX,r0.ru,🔰 节点选择
   - DOMAIN-SUFFIX,r18.com,🔰 节点选择
-  - DOMAIN-SUFFIX,ra.gg,🔰 节点选择
   - DOMAIN-SUFFIX,radicalparty.org,🔰 节点选择
   - DOMAIN-SUFFIX,radiko.jp,🔰 节点选择
+  - DOMAIN-SUFFIX,radio-canada.ca,🔰 节点选择
   - DOMAIN-SUFFIX,radio.garden,🔰 节点选择
   - DOMAIN-SUFFIX,radioaustralia.net.au,🔰 节点选择
   - DOMAIN-SUFFIX,radiohilight.net,🔰 节点选择
@@ -8233,9 +8252,11 @@ rules:
   - DOMAIN-SUFFIX,s-dragon.org,🔰 节点选择
   - DOMAIN-SUFFIX,s1heng.com,🔰 节点选择
   - DOMAIN-SUFFIX,s1s1s1.com,🔰 节点选择
+  - DOMAIN-SUFFIX,s3-ap-northeast-1.amazonaws.com,🔰 节点选择
+  - DOMAIN-SUFFIX,s3-ap-southeast-2.amazonaws.com,🔰 节点选择
+  - DOMAIN-SUFFIX,s3.amazonaws.com,🔰 节点选择
   - DOMAIN-SUFFIX,s4miniarchive.com,🔰 节点选择
   - DOMAIN-SUFFIX,s8forum.com,🔰 节点选择
-  - DOMAIN-SUFFIX,sa.com,🔰 节点选择
   - DOMAIN-SUFFIX,saboom.com,🔰 节点选择
   - DOMAIN-SUFFIX,sacks.com,🔰 节点选择
   - DOMAIN-SUFFIX,sacom.hk,🔰 节点选择
@@ -8689,6 +8710,7 @@ rules:
   - DOMAIN-SUFFIX,taipei.gov.tw,🔰 节点选择
   - DOMAIN-SUFFIX,taipeisociety.org,🔰 节点选择
   - DOMAIN-SUFFIX,taipeitimes.com,🔰 节点选择
+  - DOMAIN-SUFFIX,taisounds.com,🔰 节点选择
   - DOMAIN-SUFFIX,taiwan-sex.com,🔰 节点选择
   - DOMAIN-SUFFIX,taiwanbible.com,🔰 节点选择
   - DOMAIN-SUFFIX,taiwancon.com,🔰 节点选择
@@ -9215,6 +9237,7 @@ rules:
   - DOMAIN-SUFFIX,ultraxs.com,🔰 节点选择
   - DOMAIN-SUFFIX,umich.edu,🔰 节点选择
   - DOMAIN-SUFFIX,unblock-us.com,🔰 节点选择
+  - DOMAIN-SUFFIX,unblock.cn.com,🔰 节点选择
   - DOMAIN-SUFFIX,unblockdmm.com,🔰 节点选择
   - DOMAIN-SUFFIX,unblocker.yt,🔰 节点选择
   - DOMAIN-SUFFIX,unblocksit.es,🔰 节点选择
@@ -9255,7 +9278,6 @@ rules:
   - DOMAIN-SUFFIX,urbansurvival.com,🔰 节点选择
   - DOMAIN-SUFFIX,urchin.com,🔰 节点选择
   - DOMAIN-SUFFIX,url.com.tw,🔰 节点选择
-  - DOMAIN-SUFFIX,url.tw,🔰 节点选择
   - DOMAIN-SUFFIX,urlborg.com,🔰 节点选择
   - DOMAIN-SUFFIX,urlparser.com,🔰 节点选择
   - DOMAIN-SUFFIX,us.to,🔰 节点选择
@@ -9620,6 +9642,7 @@ rules:
   - DOMAIN-SUFFIX,wqyd.org,🔰 节点选择
   - DOMAIN-SUFFIX,wrchina.org,🔰 节点选择
   - DOMAIN-SUFFIX,wretch.cc,🔰 节点选择
+  - DOMAIN-SUFFIX,writesonic.com,🔰 节点选择
   - DOMAIN-SUFFIX,wsj.com,🔰 节点选择
   - DOMAIN-SUFFIX,wsj.net,🔰 节点选择
   - DOMAIN-SUFFIX,wsjhk.com,🔰 节点选择
@@ -9643,6 +9666,7 @@ rules:
   - DOMAIN-SUFFIX,x-berry.com,🔰 节点选择
   - DOMAIN-SUFFIX,x-wall.org,🔰 节点选择
   - DOMAIN-SUFFIX,x.co,🔰 节点选择
+  - DOMAIN-SUFFIX,x.com,🔰 节点选择
   - DOMAIN-SUFFIX,x.company,🔰 节点选择
   - DOMAIN-SUFFIX,x1949x.com,🔰 节点选择
   - DOMAIN-SUFFIX,x24hr.com,🔰 节点选择
@@ -9700,7 +9724,6 @@ rules:
   - DOMAIN-SUFFIX,xn--i2ru8q2qg.com,🔰 节点选择
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🔰 节点选择
   - DOMAIN-SUFFIX,xn--oiq.cc,🔰 节点选择
-  - DOMAIN-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c,🔰 节点选择
   - DOMAIN-SUFFIX,xnxx.com,🔰 节点选择
   - DOMAIN-SUFFIX,xpdo.net,🔰 节点选择
   - DOMAIN-SUFFIX,xpud.org,🔰 节点选择
@@ -9776,7 +9799,6 @@ rules:
   - DOMAIN-SUFFIX,yingsuoss.com,🔰 节点选择
   - DOMAIN-SUFFIX,yinlei.org,🔰 节点选择
   - DOMAIN-SUFFIX,yipub.com,🔰 节点选择
-  - DOMAIN-SUFFIX,yiyechat.com,🔰 节点选择
   - DOMAIN-SUFFIX,yizhihongxing.com,🔰 节点选择
   - DOMAIN-SUFFIX,yobit.net,🔰 节点选择
   - DOMAIN-SUFFIX,yobt.com,🔰 节点选择
@@ -9825,13 +9847,13 @@ rules:
   - DOMAIN-SUFFIX,yuanzhengtang.org,🔰 节点选择
   - DOMAIN-SUFFIX,yulghun.com,🔰 节点选择
   - DOMAIN-SUFFIX,yunchao.net,🔰 节点选择
-  - DOMAIN-SUFFIX,yuntipub.com,🔰 节点选择
   - DOMAIN-SUFFIX,yuvutu.com,🔰 节点选择
   - DOMAIN-SUFFIX,yvesgeleyn.com,🔰 节点选择
   - DOMAIN-SUFFIX,ywpw.com,🔰 节点选择
   - DOMAIN-SUFFIX,yx51.net,🔰 节点选择
   - DOMAIN-SUFFIX,yyii.org,🔰 节点选择
   - DOMAIN-SUFFIX,yyjlymb.xyz,🔰 节点选择
+  - DOMAIN-SUFFIX,yysub.net,🔰 节点选择
   - DOMAIN-SUFFIX,yzzk.com,🔰 节点选择
   - DOMAIN-SUFFIX,z-lib.org,🔰 节点选择
   - DOMAIN-SUFFIX,zacebook.com,🔰 节点选择
@@ -9848,6 +9870,7 @@ rules:
   - DOMAIN-SUFFIX,zello.com,🔰 节点选择
   - DOMAIN-SUFFIX,zengjinyan.org,🔰 节点选择
   - DOMAIN-SUFFIX,zenmate.com,🔰 节点选择
+  - DOMAIN-SUFFIX,zenmate.com.ru,🔰 节点选择
   - DOMAIN-SUFFIX,zerohedge.com,🔰 节点选择
   - DOMAIN-SUFFIX,zeronet.io,🔰 节点选择
   - DOMAIN-SUFFIX,zeutch.com,🔰 节点选择
@@ -9937,6 +9960,7 @@ rules:
   - DOMAIN-SUFFIX,bbc.com,🔰 节点选择
   - DOMAIN-SUFFIX,apache.org,🔰 节点选择
   - DOMAIN-SUFFIX,docker.com,🔰 节点选择
+  - DOMAIN-SUFFIX,docker.io,🔰 节点选择
   - DOMAIN-SUFFIX,elastic.co,🔰 节点选择
   - DOMAIN-SUFFIX,elastic.com,🔰 节点选择
   - DOMAIN-SUFFIX,gcr.io,🔰 节点选择
