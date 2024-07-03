@@ -1780,11 +1780,13 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 0|-https://t.me/MrXbin-115, server: 47.129.0.210, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 10|🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 4027, type: trojan, password: RmdXQRXg, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-115, server: 47.129.0.210, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Kian-1043, server: 18.141.240.110, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Nika-37, server: kr1.mhw7e2.online, port: 20019, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
-- {name: 0|-https://t.me/MrXbin-90, server: 38.11.49.36, port: 38002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/191019072927}, udp: true}
-- {name: 5|🇯🇵 日本|@ripaojiedian, server: 223.113.54.154, port: 23621, type: trojan, password: RmdXQRXg, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-114, server: 38.33.19.91, port: 37000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/191019072927}, udp: true}
+- {name: SG-13.215.177.171-0918, server: 13.215.177.171, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 13|🏁RELAY-104.18.51.238-0157, server: 104.18.51.238, port: 80, type: vmess, uuid: 43ac3b21-2e9b-4a7c-aef6-2e4b8f73ce2f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: 127.0.0.1.kleksacademy.克萊克斯學院.aкадемияkлекс.警笛.wonkacapitano.buzz.}}, udp: true}
 - {name: 10|🇭🇰 香港2|@ripaojiedian, server: 120.232.240.46, port: 11810, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 24:SpYUtPeJYhRk4FWC, obfs-param: 6f41b24.microsoft.com, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -1798,11 +1800,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|-https://t.me/MrXbin-115
       - 10|🇭🇰 香港4|@ripaojiedian
+      - 0|-https://t.me/MrXbin-115
+      - 4Kian-1043
       - 4Nika-37
-      - 0|-https://t.me/MrXbin-90
-      - 5|🇯🇵 日本|@ripaojiedian
+      - 0|-https://t.me/MrXbin-114
+      - SG-13.215.177.171-0918
+      - 13|🏁RELAY-104.18.51.238-0157
       - 10|🇭🇰 香港2|@ripaojiedian
   - name: 🔰 节点选择
     type: select
@@ -1815,11 +1819,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|-https://t.me/MrXbin-115
       - 10|🇭🇰 香港4|@ripaojiedian
+      - 0|-https://t.me/MrXbin-115
+      - 4Kian-1043
       - 4Nika-37
-      - 0|-https://t.me/MrXbin-90
-      - 5|🇯🇵 日本|@ripaojiedian
+      - 0|-https://t.me/MrXbin-114
+      - SG-13.215.177.171-0918
+      - 13|🏁RELAY-104.18.51.238-0157
       - 10|🇭🇰 香港2|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
@@ -2017,11 +2023,13 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
-      - 0|-https://t.me/MrXbin-115
       - 10|🇭🇰 香港4|@ripaojiedian
+      - 0|-https://t.me/MrXbin-115
+      - 4Kian-1043
       - 4Nika-37
-      - 0|-https://t.me/MrXbin-90
-      - 5|🇯🇵 日本|@ripaojiedian
+      - 0|-https://t.me/MrXbin-114
+      - SG-13.215.177.171-0918
+      - 13|🏁RELAY-104.18.51.238-0157
       - 10|🇭🇰 香港2|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
