@@ -1780,12 +1780,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 0|-https://t.me/MrXbin-59, server: uhisfgy78eu.cfprefer1.xyz, port: 10065, type: ss, cipher: aes-256-gcm, password: 3ce72168-730e-4020-baf8-620ee14634ac, udp: true}
-- {name: "0,12|US_speednode_0250", server: 172.233.146.107, port: 24444, type: trojan, password: 450524c4-86ee-4a97-ac7f-888942039bcd, sni: new.download.the-best-airport.com, skip-cert-verify: true, udp: true}
-- {name: 0|-https://t.me/MrXbin-44, server: 89.163.150.42, port: 31001, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/340434130032, headers: {Host: www.73493471.xyz}}, udp: true}
-- {name: CN_766, server: gd2.chuanping.wang, port: 10292, type: ss, cipher: aes-128-gcm, password: d7fcff5d-e3c6-4d26-aa0a-2af2ab876757, udp: true}
-- {name: 10|🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 4027, type: trojan, password: RmdXQRXg, skip-cert-verify: true, udp: true}
-- {name: 10|🇺🇸 美国3|@ripaojiedian, server: 223.113.54.154, port: 1617, type: trojan, password: GsKYmYOE, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-88, server: uhisfgy78eu.cfprefer1.xyz, port: 10018, type: ss, cipher: aes-256-gcm, password: 3ce72168-730e-4020-baf8-620ee14634ac, udp: true}
+- {name: 10|🇯🇵 日本|@ripaojiedian, server: 223.113.54.154, port: 23621, type: trojan, password: RmdXQRXg, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-181, server: 207.246.102.64, port: 21636, type: vmess, uuid: 53d57cfb-189f-4a9f-b620-a3ca168b7ac1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 10|🇯🇵 日本特殊|@ripaojiedian, server: 18.143.107.4, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 10|🇺🇸 美国4|@ripaojiedian, server: 183.232.139.22, port: 40081, type: trojan, password: GsKYmYOE, skip-cert-verify: true, udp: true}
+- {name: "13|👉🆔 @v2ray_configs_pool #5", server: 198.41.193.181, port: 80, type: vmess, uuid: 92791642-1471-4b93-980a-81030985f3ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: 127.0.0.1.mrarsha.kомната0.房間騎自行車的人.bелосипедисты.bikeriders.wonkacapitano.buzz.}}, udp: true}
+- {name: 10|🇰🇷 韩国特殊|@ripaojiedian, server: 13.212.62.12, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4FreeIran-1164, server: 54.179.87.28, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -1798,12 +1800,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|-https://t.me/MrXbin-59
-      - 0,12|US_speednode_0250
-      - 0|-https://t.me/MrXbin-44
-      - CN_766
-      - 10|🇭🇰 香港4|@ripaojiedian
-      - 10|🇺🇸 美国3|@ripaojiedian
+      - 0|-https://t.me/MrXbin-88
+      - 10|🇯🇵 日本|@ripaojiedian
+      - 0|-https://t.me/MrXbin-181
+      - 10|🇯🇵 日本特殊|@ripaojiedian
+      - 10|🇺🇸 美国4|@ripaojiedian
+      - "13|👉🆔 @v2ray_configs_pool #5"
+      - 10|🇰🇷 韩国特殊|@ripaojiedian
+      - 4FreeIran-1164
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -1815,12 +1819,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|-https://t.me/MrXbin-59
-      - 0,12|US_speednode_0250
-      - 0|-https://t.me/MrXbin-44
-      - CN_766
-      - 10|🇭🇰 香港4|@ripaojiedian
-      - 10|🇺🇸 美国3|@ripaojiedian
+      - 0|-https://t.me/MrXbin-88
+      - 10|🇯🇵 日本|@ripaojiedian
+      - 0|-https://t.me/MrXbin-181
+      - 10|🇯🇵 日本特殊|@ripaojiedian
+      - 10|🇺🇸 美国4|@ripaojiedian
+      - "13|👉🆔 @v2ray_configs_pool #5"
+      - 10|🇰🇷 韩国特殊|@ripaojiedian
+      - 4FreeIran-1164
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -2017,12 +2023,14 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
-      - 0|-https://t.me/MrXbin-59
-      - 0,12|US_speednode_0250
-      - 0|-https://t.me/MrXbin-44
-      - CN_766
-      - 10|🇭🇰 香港4|@ripaojiedian
-      - 10|🇺🇸 美国3|@ripaojiedian
+      - 0|-https://t.me/MrXbin-88
+      - 10|🇯🇵 日本|@ripaojiedian
+      - 0|-https://t.me/MrXbin-181
+      - 10|🇯🇵 日本特殊|@ripaojiedian
+      - 10|🇺🇸 美国4|@ripaojiedian
+      - "13|👉🆔 @v2ray_configs_pool #5"
+      - 10|🇰🇷 韩国特殊|@ripaojiedian
+      - 4FreeIran-1164
   - name: 🐟 漏网之鱼
     type: select
     proxies:
