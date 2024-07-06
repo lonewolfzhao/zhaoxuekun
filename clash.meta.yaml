@@ -1780,13 +1780,9 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
+- {name: 10|🇯🇵 日本|@ripaojiedian, server: 223.113.54.154, port: 23621, type: trojan, password: RmdXQRXg, skip-cert-verify: true, udp: true}
 - {name: 4FreeIran-35, server: kr1.mhw7e2.online, port: 20019, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
-- {name: "16|æ\x96°å\x8a\xa0å\x9d¡|@ripaojiedian", server: svip.hongxingdl.vip, port: 25747, type: vmess, uuid: afb152b7-3f81-4b96-83d6-3decbbf2d757, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 10|🇺🇸 美国4|@ripaojiedian, server: 183.232.139.22, port: 40081, type: trojan, password: GsKYmYOE, skip-cert-verify: true, udp: true}
-- {name: 4Sarina-1055, server: 18.141.240.110, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 10|🇺🇸 美国3|@ripaojiedian, server: 223.113.54.154, port: 1617, type: trojan, password: GsKYmYOE, skip-cert-verify: true, udp: true}
-- {name: US-52.25.101.93-0950, server: 52.25.101.93, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "11,13|ð\x9f\x87ºð\x9f\x87¸ ç¾\x8eå\x9b½ å\x8a\xa0å\x88©ç¦\x8få°¼äº\x9aå·\x9eæ´\x9bæ\x9d\x89ç\x9f¶å¸\x82SharkTechæ\x95°æ\x8d®ä¸­å¿\x83", server: 107.167.20.189, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/191019072927, headers: {Host: www.15314695.xyz}}, udp: true}
 - {name: 11|香港5|@ripaojiedian, server: 120.232.153.71, port: 45972, type: vmess, uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -1800,13 +1796,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - 10|🇯🇵 日本|@ripaojiedian
       - 4FreeIran-35
-      - "16|æ\x96°å\x8a\xa0å\x9d¡|@ripaojiedian"
       - 10|🇺🇸 美国4|@ripaojiedian
-      - 4Sarina-1055
-      - 10|🇺🇸 美国3|@ripaojiedian
-      - US-52.25.101.93-0950
-      - "11,13|ð\x9f\x87ºð\x9f\x87¸ ç¾\x8eå\x9b½ å\x8a\xa0å\x88©ç¦\x8få°¼äº\x9aå·\x9eæ´\x9bæ\x9d\x89ç\x9f¶å¸\x82SharkTechæ\x95°æ\x8d®ä¸­å¿\x83"
       - 11|香港5|@ripaojiedian
   - name: 🔰 节点选择
     type: select
@@ -1819,13 +1811,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - 10|🇯🇵 日本|@ripaojiedian
       - 4FreeIran-35
-      - "16|æ\x96°å\x8a\xa0å\x9d¡|@ripaojiedian"
       - 10|🇺🇸 美国4|@ripaojiedian
-      - 4Sarina-1055
-      - 10|🇺🇸 美国3|@ripaojiedian
-      - US-52.25.101.93-0950
-      - "11,13|ð\x9f\x87ºð\x9f\x87¸ ç¾\x8eå\x9b½ å\x8a\xa0å\x88©ç¦\x8få°¼äº\x9aå·\x9eæ´\x9bæ\x9d\x89ç\x9f¶å¸\x82SharkTechæ\x95°æ\x8d®ä¸­å¿\x83"
       - 11|香港5|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
@@ -2023,13 +2011,9 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
+      - 10|🇯🇵 日本|@ripaojiedian
       - 4FreeIran-35
-      - "16|æ\x96°å\x8a\xa0å\x9d¡|@ripaojiedian"
       - 10|🇺🇸 美国4|@ripaojiedian
-      - 4Sarina-1055
-      - 10|🇺🇸 美国3|@ripaojiedian
-      - US-52.25.101.93-0950
-      - "11,13|ð\x9f\x87ºð\x9f\x87¸ ç¾\x8eå\x9b½ å\x8a\xa0å\x88©ç¦\x8få°¼äº\x9aå·\x9eæ´\x9bæ\x9d\x89ç\x9f¶å¸\x82SharkTechæ\x95°æ\x8d®ä¸­å¿\x83"
       - 11|香港5|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
