@@ -1753,13 +1753,13 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: United States_None_hy2_1
+- name: France_Paris_hy2_1
   type: hysteria2
-  server: 166.88.159.24
-  port: 40931
+  server: 51.159.2.179
+  port: 23499
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: bing.com
   skip-cert-verify: true
 - name: United States_None_hy2_2
   type: hysteria2
@@ -1777,14 +1777,9 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
+- {name: 10|🇯🇵 日本|@ripaojiedian, server: 223.113.54.154, port: 23621, type: trojan, password: RmdXQRXg, skip-cert-verify: true, udp: true}
 - {name: 10|🇺🇸 美国4|@ripaojiedian, server: 183.232.139.22, port: 40081, type: trojan, password: GsKYmYOE, skip-cert-verify: true, udp: true}
-- {name: 13|642, server: 138.128.220.165, port: 13964, type: vmess, uuid: 03684495-b391-4083-a8c7-f6c2b6a7be82, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 138.128.220.165}}, udp: true}
-- {name: "11,13|290", server: 154.64.232.231, port: 22290, type: vmess, uuid: 5dd0d05e-a464-4e9c-8992-160703611e10, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 13|444, server: 154.64.232.196, port: 45444, type: vmess, uuid: dfcb04d2-9357-4858-ef28-fac0b36941f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4FreeIran-35, server: kr1.mhw7e2.online, port: 20019, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
-- {name: 13|663, server: 154.21.194.107, port: 22456, type: vmess, uuid: e73ff042-aef7-44cc-b160-306c976ded4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 10|🇺🇸 美国3|@ripaojiedian, server: 223.113.54.154, port: 1617, type: trojan, password: GsKYmYOE, skip-cert-verify: true, udp: true}
-- {name: 13|615, server: 154.64.232.40, port: 35661, type: vmess, uuid: 15705f6f-9c7a-4702-9348-6a4b007d2b09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 13|424, server: 38.95.115.176, port: 16424, type: vmess, uuid: 9eedb0d4-27fb-47e6-b3b5-301712337ecf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -1797,14 +1792,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - 10|🇯🇵 日本|@ripaojiedian
       - 10|🇺🇸 美国4|@ripaojiedian
-      - 13|642
-      - 11,13|290
-      - 13|444
-      - 4FreeIran-35
-      - 13|663
-      - 10|🇺🇸 美国3|@ripaojiedian
-      - 13|615
+      - 13|424
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -1816,14 +1806,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - 10|🇯🇵 日本|@ripaojiedian
       - 10|🇺🇸 美国4|@ripaojiedian
-      - 13|642
-      - 11,13|290
-      - 13|444
-      - 4FreeIran-35
-      - 13|663
-      - 10|🇺🇸 美国3|@ripaojiedian
-      - 13|615
+      - 13|424
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -1947,18 +1932,13 @@ proxy-groups:
       - France_None_hy_2
       - France_None_hy_3
       - United States_None_hy2_0
-      - United States_None_hy2_1
+      - France_Paris_hy2_1
       - United States_None_hy2_2
       - United States_None_hy2_3
 
+      - 10|🇯🇵 日本|@ripaojiedian
       - 10|🇺🇸 美国4|@ripaojiedian
-      - 13|642
-      - 11,13|290
-      - 13|444
-      - 4FreeIran-35
-      - 13|663
-      - 10|🇺🇸 美国3|@ripaojiedian
-      - 13|615
+      - 13|424
   - name: 🐟 漏网之鱼
     type: select
     proxies:
