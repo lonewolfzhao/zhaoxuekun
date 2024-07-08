@@ -1777,10 +1777,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 10|🇰🇷 韩国特殊|@ripaojiedian, server: 13.250.116.168, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Kian-1131, server: 52.25.101.93, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 10|🇺🇸 美国4|@ripaojiedian, server: 183.232.139.22, port: 40081, type: trojan, password: GsKYmYOE, skip-cert-verify: true, udp: true}
+- {name: "13|[vmess]西班牙 1", server: m2-es1.m2network.icu, port: 80, type: vmess, uuid: fb3a77ab-3d6f-4497-8a1f-4375503f4550, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: m2-es1.m2network.icu}}, udp: true}
 - {name: 10|🇯🇵 日本|@ripaojiedian, server: 223.113.54.154, port: 23621, type: trojan, password: RmdXQRXg, skip-cert-verify: true, udp: true}
-- {name: 4FreeIran-36, server: kr1.mhw7e2.online, port: 20019, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
-- {name: 10|🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 4027, type: trojan, password: RmdXQRXg, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -1793,10 +1793,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 10|🇰🇷 韩国特殊|@ripaojiedian
+      - 4Kian-1131
+      - 10|🇺🇸 美国4|@ripaojiedian
+      - 13|[vmess]西班牙 1
       - 10|🇯🇵 日本|@ripaojiedian
-      - 4FreeIran-36
-      - 10|🇭🇰 香港4|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -1808,10 +1808,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 10|🇰🇷 韩国特殊|@ripaojiedian
+      - 4Kian-1131
+      - 10|🇺🇸 美国4|@ripaojiedian
+      - 13|[vmess]西班牙 1
       - 10|🇯🇵 日本|@ripaojiedian
-      - 4FreeIran-36
-      - 10|🇭🇰 香港4|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -1939,10 +1939,10 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
-      - 10|🇰🇷 韩国特殊|@ripaojiedian
+      - 4Kian-1131
+      - 10|🇺🇸 美国4|@ripaojiedian
+      - 13|[vmess]西班牙 1
       - 10|🇯🇵 日本|@ripaojiedian
-      - 4FreeIran-36
-      - 10|🇭🇰 香港4|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
