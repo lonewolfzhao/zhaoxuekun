@@ -2216,13 +2216,13 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_None_hy2_0
+- name: France_Paris_hy2_0
   type: hysteria2
-  server: 166.88.159.24
-  port: 40931
+  server: 51.159.2.179
+  port: 23499
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: bing.com
   skip-cert-verify: true
 - name: France_Paris_hy2_1
   type: hysteria2
@@ -2232,21 +2232,21 @@ proxies:
   fast-open: true
   sni: bing.com
   skip-cert-verify: true
-- name: United States_None_hy2_2
+- name: France_Paris_hy2_2
   type: hysteria2
-  server: 166.88.159.24
-  port: 40931
+  server: 51.159.2.179
+  port: 23499
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: bing.com
   skip-cert-verify: true
-- name: United States_None_hy2_3
+- name: France_Paris_hy2_3
   type: hysteria2
-  server: 166.88.159.24
-  port: 40931
+  server: 51.159.2.179
+  port: 23499
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: bing.com
   skip-cert-verify: true
 proxy-groups:
 - name: 节点选择
@@ -2415,10 +2415,10 @@ proxy-groups:
   - France_None_hy_1
   - France_None_hy_2
   - France_None_hy_3
-  - United States_None_hy2_0
+  - France_Paris_hy2_0
   - France_Paris_hy2_1
-  - United States_None_hy2_2
-  - United States_None_hy2_3
+  - France_Paris_hy2_2
+  - France_Paris_hy2_3
 - name: 手动选择
   type: select
   proxies:
@@ -2568,10 +2568,10 @@ proxy-groups:
   - France_None_hy_1
   - France_None_hy_2
   - France_None_hy_3
-  - United States_None_hy2_0
+  - France_Paris_hy2_0
   - France_Paris_hy2_1
-  - United States_None_hy2_2
-  - United States_None_hy2_3
+  - France_Paris_hy2_2
+  - France_Paris_hy2_3
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -2721,10 +2721,10 @@ proxy-groups:
   - France_None_hy_1
   - France_None_hy_2
   - France_None_hy_3
-  - United States_None_hy2_0
+  - France_Paris_hy2_0
   - France_Paris_hy2_1
-  - United States_None_hy2_2
-  - United States_None_hy2_3
+  - France_Paris_hy2_2
+  - France_Paris_hy2_3
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
