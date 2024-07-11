@@ -2198,13 +2198,13 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_None_hy2_0
+- name: France_Paris_hy2_0
   type: hysteria2
-  server: 166.88.159.24
-  port: 40931
+  server: 51.159.2.179
+  port: 23499
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: bing.com
   skip-cert-verify: true
 - name: France_Paris_hy2_1
   type: hysteria2
@@ -2214,28 +2214,24 @@ proxies:
   fast-open: true
   sni: bing.com
   skip-cert-verify: true
-- name: United States_None_hy2_2
+- name: France_Paris_hy2_2
   type: hysteria2
-  server: 166.88.159.24
-  port: 40931
+  server: 51.159.2.179
+  port: 23499
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: bing.com
   skip-cert-verify: true
-- name: United States_None_hy2_3
+- name: France_Paris_hy2_3
   type: hysteria2
-  server: 166.88.159.24
-  port: 40931
+  server: 51.159.2.179
+  port: 23499
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: bing.com
   skip-cert-verify: true
-- {name: 10|🇯🇵 日本|@ripaojiedian, server: 223.113.54.154, port: 23621, type: trojan, password: RmdXQRXg, skip-cert-verify: true, udp: true}
-- {name: VM-WS-NA 🇨🇳 CN-120.232.239.166:6628, server: 120.232.239.166, port: 6628, type: vmess, uuid: 9a2c9e81-6ee5-394b-ba02-389b3ebc2332, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8, headers: {Host: ed8.bilibili.com}}, udp: true}
-- {name: 10|🇺🇸 美国4|@ripaojiedian, server: 183.232.139.22, port: 40081, type: trojan, password: GsKYmYOE, skip-cert-verify: true, udp: true}
-- {name: 4Nika-163, server: iepl5.forlive.live, port: 50118, type: ss, cipher: chacha20-ietf-poly1305, password: 25cb8cd7-800f-359e-81b5-a12863e2018d, udp: true}
-- {name: "11|å¹¿ä¸\x9cç\x9c\x81å¹¿å·\x9eå¸\x82 ç§»å\x8a¨ #2", server: 183.236.51.23, port: 54100, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "11|å¹¿ä¸\x9cç\x9c\x81å¹¿å·\x9eå¸\x82 ç§»å\x8a¨ #1", server: 120.232.153.71, port: 34965, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 10|🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 4027, type: trojan, password: RmdXQRXg, skip-cert-verify: true, udp: true}
+- {name: 10|🇭🇰 香港|@ripaojiedian, server: 36.141.40.27, port: 13001, type: trojan, password: c26306e1-7892-3f19-b2ea-9824cd1b6744, sni: i2.hdslb.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -2248,12 +2244,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 10|🇯🇵 日本|@ripaojiedian
-      - VM-WS-NA 🇨🇳 CN-120.232.239.166:6628
-      - 10|🇺🇸 美国4|@ripaojiedian
-      - 4Nika-163
-      - "11|å¹¿ä¸\x9cç\x9c\x81å¹¿å·\x9eå¸\x82 ç§»å\x8a¨ #2"
-      - "11|å¹¿ä¸\x9cç\x9c\x81å¹¿å·\x9eå¸\x82 ç§»å\x8a¨ #1"
+      - 10|🇭🇰 香港4|@ripaojiedian
+      - 10|🇭🇰 香港|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -2265,12 +2257,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 10|🇯🇵 日本|@ripaojiedian
-      - VM-WS-NA 🇨🇳 CN-120.232.239.166:6628
-      - 10|🇺🇸 美国4|@ripaojiedian
-      - 4Nika-163
-      - "11|å¹¿ä¸\x9cç\x9c\x81å¹¿å·\x9eå¸\x82 ç§»å\x8a¨ #2"
-      - "11|å¹¿ä¸\x9cç\x9c\x81å¹¿å·\x9eå¸\x82 ç§»å\x8a¨ #1"
+      - 10|🇭🇰 香港4|@ripaojiedian
+      - 10|🇭🇰 香港|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -2423,17 +2411,13 @@ proxy-groups:
       - France_None_hy_1
       - France_None_hy_2
       - France_None_hy_3
-      - United States_None_hy2_0
+      - France_Paris_hy2_0
       - France_Paris_hy2_1
-      - United States_None_hy2_2
-      - United States_None_hy2_3
+      - France_Paris_hy2_2
+      - France_Paris_hy2_3
 
-      - 10|🇯🇵 日本|@ripaojiedian
-      - VM-WS-NA 🇨🇳 CN-120.232.239.166:6628
-      - 10|🇺🇸 美国4|@ripaojiedian
-      - 4Nika-163
-      - "11|å¹¿ä¸\x9cç\x9c\x81å¹¿å·\x9eå¸\x82 ç§»å\x8a¨ #2"
-      - "11|å¹¿ä¸\x9cç\x9c\x81å¹¿å·\x9eå¸\x82 ç§»å\x8a¨ #1"
+      - 10|🇭🇰 香港4|@ripaojiedian
+      - 10|🇭🇰 香港|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
