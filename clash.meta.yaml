@@ -2230,12 +2230,12 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: SG-18.141.183.35-0245, server: 1sgmax02.156786.xyz, port: 709, type: trojan, password: 518a6ff8-7233-4f28-8a40-d3fa82a5875d, sni: 1sgmax02.156786.xyz, skip-cert-verify: true, udp: true}
-- {name: 0|-https://t.me/MrXbin-103, server: 2sg03.170809.xyz, port: 709, type: trojan, password: 518a6ff8-7233-4f28-8a40-d3fa82a5875d, sni: 2sg03.170809.xyz, skip-cert-verify: true, udp: true}
 - {name: 10|🇯🇵 日本|@ripaojiedian, server: 223.113.54.154, port: 23621, type: trojan, password: RmdXQRXg, skip-cert-verify: true, udp: true}
-- {name: 4FreeIran-36, server: kr1.mhw7e2.online, port: 20019, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
-- {name: RELAY-172.67.171.43-0166, server: 172.67.171.43, port: 80, type: vmess, uuid: b79a6959-6feb-43ba-b3c7-f1afae9ea32c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: Uk2.vmess.site.}}, udp: true}
-- {name: 13|俄罗斯3-cn2专线-去广告, server: eedp257bubu2wefy3.lovebaipiao.net, port: 80, type: vmess, uuid: c8f92a11-9760-4574-96f4-d0c5165fef96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iphone, headers: {Host: www.apple.com}}, udp: true}
+- {name: VM-WS-NA 🇨🇳 CN-120.232.239.166:6628, server: 120.232.239.166, port: 6628, type: vmess, uuid: 9a2c9e81-6ee5-394b-ba02-389b3ebc2332, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8, headers: {Host: ed8.bilibili.com}}, udp: true}
+- {name: 10|🇺🇸 美国4|@ripaojiedian, server: 183.232.139.22, port: 40081, type: trojan, password: GsKYmYOE, skip-cert-verify: true, udp: true}
+- {name: 4Nika-163, server: iepl5.forlive.live, port: 50118, type: ss, cipher: chacha20-ietf-poly1305, password: 25cb8cd7-800f-359e-81b5-a12863e2018d, udp: true}
+- {name: "11|å¹¿ä¸\x9cç\x9c\x81å¹¿å·\x9eå¸\x82 ç§»å\x8a¨ #2", server: 183.236.51.23, port: 54100, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: "11|å¹¿ä¸\x9cç\x9c\x81å¹¿å·\x9eå¸\x82 ç§»å\x8a¨ #1", server: 120.232.153.71, port: 34965, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -2248,12 +2248,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - SG-18.141.183.35-0245
-      - 0|-https://t.me/MrXbin-103
       - 10|🇯🇵 日本|@ripaojiedian
-      - 4FreeIran-36
-      - RELAY-172.67.171.43-0166
-      - 13|俄罗斯3-cn2专线-去广告
+      - VM-WS-NA 🇨🇳 CN-120.232.239.166:6628
+      - 10|🇺🇸 美国4|@ripaojiedian
+      - 4Nika-163
+      - "11|å¹¿ä¸\x9cç\x9c\x81å¹¿å·\x9eå¸\x82 ç§»å\x8a¨ #2"
+      - "11|å¹¿ä¸\x9cç\x9c\x81å¹¿å·\x9eå¸\x82 ç§»å\x8a¨ #1"
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -2265,12 +2265,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - SG-18.141.183.35-0245
-      - 0|-https://t.me/MrXbin-103
       - 10|🇯🇵 日本|@ripaojiedian
-      - 4FreeIran-36
-      - RELAY-172.67.171.43-0166
-      - 13|俄罗斯3-cn2专线-去广告
+      - VM-WS-NA 🇨🇳 CN-120.232.239.166:6628
+      - 10|🇺🇸 美国4|@ripaojiedian
+      - 4Nika-163
+      - "11|å¹¿ä¸\x9cç\x9c\x81å¹¿å·\x9eå¸\x82 ç§»å\x8a¨ #2"
+      - "11|å¹¿ä¸\x9cç\x9c\x81å¹¿å·\x9eå¸\x82 ç§»å\x8a¨ #1"
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -2428,12 +2428,12 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
-      - SG-18.141.183.35-0245
-      - 0|-https://t.me/MrXbin-103
       - 10|🇯🇵 日本|@ripaojiedian
-      - 4FreeIran-36
-      - RELAY-172.67.171.43-0166
-      - 13|俄罗斯3-cn2专线-去广告
+      - VM-WS-NA 🇨🇳 CN-120.232.239.166:6628
+      - 10|🇺🇸 美国4|@ripaojiedian
+      - 4Nika-163
+      - "11|å¹¿ä¸\x9cç\x9c\x81å¹¿å·\x9eå¸\x82 ç§»å\x8a¨ #2"
+      - "11|å¹¿ä¸\x9cç\x9c\x81å¹¿å·\x9eå¸\x82 ç§»å\x8a¨ #1"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
