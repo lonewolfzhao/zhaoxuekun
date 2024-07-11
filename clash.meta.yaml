@@ -2230,9 +2230,8 @@ proxies:
   fast-open: true
   sni: bing.com
   skip-cert-verify: true
-- {name: 10|🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 4027, type: trojan, password: RmdXQRXg, skip-cert-verify: true, udp: true}
-- {name: 13|俄罗斯3-cn2专线-去广告, server: eedp257bubu2wefy3.lovebaipiao.net, port: 80, type: vmess, uuid: c8f92a11-9760-4574-96f4-d0c5165fef96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iphone, headers: {Host: www.apple.com}}, udp: true}
-- {name: 美国【付费推荐：https://a0a.xyz】124, server: 172.67.171.43, port: 80, type: vmess, uuid: b79a6959-6feb-43ba-b3c7-f1afae9ea32c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: Uk2.vmess.site.}}, udp: true}
+- {name: 10|🇯🇵 日本|@ripaojiedian, server: 223.113.54.154, port: 23621, type: trojan, password: RmdXQRXg, skip-cert-verify: true, udp: true}
+- {name: 10|🇭🇰 香港|@ripaojiedian, server: 36.141.40.27, port: 13001, type: trojan, password: c26306e1-7892-3f19-b2ea-9824cd1b6744, sni: i2.hdslb.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -2245,9 +2244,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 10|🇭🇰 香港4|@ripaojiedian
-      - 13|俄罗斯3-cn2专线-去广告
-      - 美国【付费推荐：https://a0a.xyz】124
+      - 10|🇯🇵 日本|@ripaojiedian
+      - 10|🇭🇰 香港|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -2259,9 +2257,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 10|🇭🇰 香港4|@ripaojiedian
-      - 13|俄罗斯3-cn2专线-去广告
-      - 美国【付费推荐：https://a0a.xyz】124
+      - 10|🇯🇵 日本|@ripaojiedian
+      - 10|🇭🇰 香港|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -2419,9 +2416,8 @@ proxy-groups:
       - France_Paris_hy2_2
       - France_Paris_hy2_3
 
-      - 10|🇭🇰 香港4|@ripaojiedian
-      - 13|俄罗斯3-cn2专线-去广告
-      - 美国【付费推荐：https://a0a.xyz】124
+      - 10|🇯🇵 日本|@ripaojiedian
+      - 10|🇭🇰 香港|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
