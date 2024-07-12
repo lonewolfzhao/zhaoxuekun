@@ -2230,8 +2230,12 @@ proxies:
   fast-open: true
   sni: bing.com
   skip-cert-verify: true
+- {name: 10|🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 4027, type: trojan, password: RmdXQRXg, skip-cert-verify: true, udp: true}
 - {name: 10|🇯🇵 日本|@ripaojiedian, server: 223.113.54.154, port: 23621, type: trojan, password: RmdXQRXg, skip-cert-verify: true, udp: true}
-- {name: 10|🇭🇰 香港|@ripaojiedian, server: 36.141.40.27, port: 13001, type: trojan, password: c26306e1-7892-3f19-b2ea-9824cd1b6744, sni: i2.hdslb.com, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-14, server: 18.143.107.4, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Nika-37, server: kr1.mhw7e2.online, port: 20019, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
+- {name: 4Sarina-1074, server: 13.229.229.218, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Sarina-1157, server: 52.25.101.93, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -2244,8 +2248,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - 10|🇭🇰 香港4|@ripaojiedian
       - 10|🇯🇵 日本|@ripaojiedian
-      - 10|🇭🇰 香港|@ripaojiedian
+      - 0|-https://t.me/MrXbin-14
+      - 4Nika-37
+      - 4Sarina-1074
+      - 4Sarina-1157
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -2257,8 +2265,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - 10|🇭🇰 香港4|@ripaojiedian
       - 10|🇯🇵 日本|@ripaojiedian
-      - 10|🇭🇰 香港|@ripaojiedian
+      - 0|-https://t.me/MrXbin-14
+      - 4Nika-37
+      - 4Sarina-1074
+      - 4Sarina-1157
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -2416,8 +2428,12 @@ proxy-groups:
       - France_Paris_hy2_2
       - France_Paris_hy2_3
 
+      - 10|🇭🇰 香港4|@ripaojiedian
       - 10|🇯🇵 日本|@ripaojiedian
-      - 10|🇭🇰 香港|@ripaojiedian
+      - 0|-https://t.me/MrXbin-14
+      - 4Nika-37
+      - 4Sarina-1074
+      - 4Sarina-1157
   - name: 🐟 漏网之鱼
     type: select
     proxies:
