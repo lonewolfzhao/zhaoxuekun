@@ -2382,7 +2382,6 @@ proxies:
   skip-cert-verify: true
 - {name: 4Sarina-37, server: kr1.mhw7e2.online, port: 20019, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
 - {name: 13|🔒 VM-WS-NA 🏴‍☠️ NA-104.17.148...., server: 104.17.148.22, port: 2082, type: vmess, uuid: 1368893d-58cb-4a25-9105-a5fa3f6a1a88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/@config_shahin,@config_shahin,@config_shahin,@config_shahin?ed=80", headers: {Host: 2.irvn.debian.6.i.6.6.fxp.debian.org.speedtest.net.列列男事的事列上赛男.ghormehsabzi.cyou.}}, udp: true}
-- {name: 4Sarina-2527, server: 69.50.95.179, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -2397,7 +2396,6 @@ proxy-groups:
     proxies:
       - 4Sarina-37
       - 13|🔒 VM-WS-NA 🏴‍☠️ NA-104.17.148....
-      - 4Sarina-2527
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -2411,7 +2409,6 @@ proxy-groups:
     proxies:
       - 4Sarina-37
       - 13|🔒 VM-WS-NA 🏴‍☠️ NA-104.17.148....
-      - 4Sarina-2527
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -2581,7 +2578,6 @@ proxy-groups:
 
       - 4Sarina-37
       - 13|🔒 VM-WS-NA 🏴‍☠️ NA-104.17.148....
-      - 4Sarina-2527
   - name: 🐟 漏网之鱼
     type: select
     proxies:
