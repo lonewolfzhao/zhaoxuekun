@@ -1481,7 +1481,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_098
+- name: United States_None_vmess_098
   type: vmess
   server: russia.com
   port: 2086
@@ -1511,7 +1511,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_0100
+- name: United States_None_vmess_0100
   type: vmess
   server: skk.moe
   port: 2086
@@ -2268,7 +2268,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip5-10.freegradely.xyz
-- name: Taiwan_Hsinchu_tuic_81
+- name: Taiwan_Zhongli District_tuic_81
   server: www2.dtku44.xyz
   port: 11224
   type: tuic
@@ -2382,9 +2382,13 @@ proxies:
   sni: bing.com
   skip-cert-verify: true
 - {name: 10|🇺🇸 美国4|@ripaojiedian, server: 183.232.139.22, port: 40081, type: trojan, password: GsKYmYOE, skip-cert-verify: true, udp: true}
-- {name: "10,11|美国2|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2082, type: vmess, uuid: a174de4b-6126-4b88-b21e-1388004a2e02, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/CuTy87zAzV/, headers: {Host: us4Bb5oSgJA.fzbqfrse.xyz}}, udp: true}
-- {name: 8|US_youtube@资源分享师_105, server: usjchf.motrix.xyz, port: 5443, type: trojan, password: fg20mtCFHy, skip-cert-verify: true, udp: true}
-- {name: 4Nika-1160, server: 52.25.101.93, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 15|🇹🇼 台湾2|@ripaojiedian, server: gdyddx500.xiyunchen.cn, port: 30003, type: ss, cipher: aes-256-gcm, password: 6f3562c7-904f-417e-818b-dcd49b564078, udp: true}
+- {name: 15|🇯🇵 日本特殊|@ripaojiedian, server: 34.221.97.62, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "13|美国 CloudFlare节点 #82", server: 198.41.193.181, port: 80, type: vmess, uuid: 92791642-1471-4b93-980a-81030985f3ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: 127.0.0.1.mrarsha.kомната0.房間騎自行車的人.bелосипедисты.bikeriders.wonkacapitano.buzz.}}, udp: true}
+- {name: 13|US_youtube@资源分享师_108, server: 104.18.202.250, port: 8080, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jahfkjha.cfd/linkws, headers: {Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev}}, udp: true}
+- {name: 13|🇺🇸 美国 CloudFlare节点 81, server: 104.17.147.22, port: 2082, type: vmess, uuid: 1368893d-58cb-4a25-9105-a5fa3f6a1a88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/@config_shahin,@config_shahin,@config_shahin,@config_shahin?ed=80", headers: {Host: 2.irvn.debian.6.i.6.6.fxp.debian.org.speedtest.net.列列男事的事列上赛男.ghormehsabzi.cyou.}}, udp: true}
+- {name: 15|🇰🇷 韩国|@ripaojiedian, server: gdyddx500.xiyunchen.cn, port: 30004, type: ss, cipher: aes-256-gcm, password: 6f3562c7-904f-417e-818b-dcd49b564078, udp: true}
+- {name: 13|✨67@oneclickvpnkeys, server: p1.v2raybrasil.cloud, port: 2052, type: vmess, uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ybr.redbullplus.xyz}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -2398,9 +2402,13 @@ proxy-groups:
     interval: 60
     proxies:
       - 10|🇺🇸 美国4|@ripaojiedian
-      - 10,11|美国2|@ripaojiedian
-      - 8|US_youtube@资源分享师_105
-      - 4Nika-1160
+      - 15|🇹🇼 台湾2|@ripaojiedian
+      - 15|🇯🇵 日本特殊|@ripaojiedian
+      - "13|美国 CloudFlare节点 #82"
+      - 13|US_youtube@资源分享师_108
+      - 13|🇺🇸 美国 CloudFlare节点 81
+      - 15|🇰🇷 韩国|@ripaojiedian
+      - 13|✨67@oneclickvpnkeys
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -2413,9 +2421,13 @@ proxy-groups:
     interval: 60
     proxies:
       - 10|🇺🇸 美国4|@ripaojiedian
-      - 10,11|美国2|@ripaojiedian
-      - 8|US_youtube@资源分享师_105
-      - 4Nika-1160
+      - 15|🇹🇼 台湾2|@ripaojiedian
+      - 15|🇯🇵 日本特殊|@ripaojiedian
+      - "13|美国 CloudFlare节点 #82"
+      - 13|US_youtube@资源分享师_108
+      - 13|🇺🇸 美国 CloudFlare节点 81
+      - 15|🇰🇷 韩国|@ripaojiedian
+      - 13|✨67@oneclickvpnkeys
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -2519,9 +2531,9 @@ proxy-groups:
       - United States_None_vmess_095
       - None_None_vmess_096
       - None_None_vmess_097
-      - None_None_vmess_098
+      - United States_None_vmess_098
       - None_None_vmess_099
-      - None_None_vmess_0100
+      - United States_None_vmess_0100
       - None_None_vmess_0101
       - None_None_vmess_11
       - None_None_vmess_12
@@ -2572,7 +2584,7 @@ proxy-groups:
       - Canada_Ottawa_vmess_72
       - None_None_vmess_73
       - None_None_vmess_74
-      - Taiwan_Hsinchu_tuic_81
+      - Taiwan_Zhongli District_tuic_81
       - United States_None_hysteria_91
       - United States_Los Angeles_hy_0
       - United States_Los Angeles_hy_1
@@ -2584,9 +2596,13 @@ proxy-groups:
       - France_Paris_hy2_3
 
       - 10|🇺🇸 美国4|@ripaojiedian
-      - 10,11|美国2|@ripaojiedian
-      - 8|US_youtube@资源分享师_105
-      - 4Nika-1160
+      - 15|🇹🇼 台湾2|@ripaojiedian
+      - 15|🇯🇵 日本特殊|@ripaojiedian
+      - "13|美国 CloudFlare节点 #82"
+      - 13|US_youtube@资源分享师_108
+      - 13|🇺🇸 美国 CloudFlare节点 81
+      - 15|🇰🇷 韩国|@ripaojiedian
+      - 13|✨67@oneclickvpnkeys
   - name: 🐟 漏网之鱼
     type: select
     proxies:
