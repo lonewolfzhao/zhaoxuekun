@@ -2382,9 +2382,8 @@ proxies:
   sni: bing.com
   skip-cert-verify: true
 - {name: "10,11|日本|@ripaojiedian", server: 183.232.139.24, port: 36931, type: trojan, password: MfqALmAJ, skip-cert-verify: true, udp: true}
-- {name: 10|🇹🇼 台湾2|@ripaojiedian, server: pro01.dns2024.org, port: 3223, type: vmess, uuid: 4ff0df2c-2092-36ab-882f-29e46fea089c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: 10|🇰🇷 韩国|@ripaojiedian, server: pro01.dns2024.org, port: 3093, type: vmess, uuid: 4ff0df2c-2092-36ab-882f-29e46fea089c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
 - {name: 4Kian-35, server: kr1.mhw7e2.online, port: 20019, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
-- {name: 15|🇭🇰 香港R|@ripaojiedian, server: 59.56.77.178, port: 15001, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
 - {name: 台湾|@ripaojiedian, server: cm1-tw.hutaonode3.top, port: 12556, type: ss, cipher: chacha20-ietf, password: HuTaoCloud, plugin: obfs, plugin-opts: {mode: http, host: 36a1a32505.microsoft.com}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -2399,9 +2398,8 @@ proxy-groups:
     interval: 60
     proxies:
       - 10,11|日本|@ripaojiedian
-      - 10|🇹🇼 台湾2|@ripaojiedian
+      - 10|🇰🇷 韩国|@ripaojiedian
       - 4Kian-35
-      - 15|🇭🇰 香港R|@ripaojiedian
       - 台湾|@ripaojiedian
   - name: 🔰 节点选择
     type: select
@@ -2415,9 +2413,8 @@ proxy-groups:
     interval: 60
     proxies:
       - 10,11|日本|@ripaojiedian
-      - 10|🇹🇼 台湾2|@ripaojiedian
+      - 10|🇰🇷 韩国|@ripaojiedian
       - 4Kian-35
-      - 15|🇭🇰 香港R|@ripaojiedian
       - 台湾|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
@@ -2587,9 +2584,8 @@ proxy-groups:
       - France_Paris_hy2_3
 
       - 10,11|日本|@ripaojiedian
-      - 10|🇹🇼 台湾2|@ripaojiedian
+      - 10|🇰🇷 韩国|@ripaojiedian
       - 4Kian-35
-      - 15|🇭🇰 香港R|@ripaojiedian
       - 台湾|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
@@ -4456,8 +4452,8 @@ rules:
   - DOMAIN-KEYWORD,btc35000,♻️ 情色可用
   - DOMAIN-KEYWORD,slashed,♻️ 情色可用
   - DOMAIN-KEYWORD,91selfie,♻️ 情色可用
-  - DOMAIN-KEYWORD,google,♻️ 情色可用
   - DOMAIN-SUFFIX,8teenxxx.com,♻️ 情色可用
+  - DOMAIN-SUFFIX,www.google.com.hk,♻️ 情色可用
   - DOMAIN-SUFFIX,ahcdn.com,♻️ 情色可用
   - DOMAIN-SUFFIX,bcvcdn.com,♻️ 情色可用
   - DOMAIN-SUFFIX,bongacams.com,♻️ 情色可用
