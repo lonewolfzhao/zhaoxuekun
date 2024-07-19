@@ -2490,10 +2490,13 @@ proxies:
   reality-opts:
     public-key: U5hsLybYWhJrWAqqsTa052k-VeKt8bDFPxBh3CQk51M
     short-id: 0b4badde
-- {name: 15|🇻🇳 越南R|@ripaojiedian, server: 59.56.77.178, port: 15083, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
-- {name: "10,11|日本|@ripaojiedian", server: 183.232.139.24, port: 36931, type: trojan, password: MfqALmAJ, skip-cert-verify: true, udp: true}
-- {name: VM-WS-NA 🏴‍☠️ NA-188.114.98.40:80, server: 188.114.98.40, port: 80, type: vmess, uuid: f491cbe4-7548-446c-8d3e-64008e3b1325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: dl3.127.0.0.1.control.控制.kонтроль.cводкаhовостей.農達懲罰.wonkacapitano.buzz.}}, udp: true}
+- {name: "10,11|美国4|@ripaojiedian", server: 183.232.139.24, port: 40081, type: trojan, password: MfqALmAJ, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-11, server: 206.238.236.36, port: 80, type: vmess, uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /gwdef.sbs/linkws, headers: {Host: mysan2.jaquay22.workers.dev}}, udp: true}
 - {name: CF | 🟢 | vmess | @ShadowProxy66 | 14, server: 104.17.147.22, port: 2082, type: vmess, uuid: 1368893d-58cb-4a25-9105-a5fa3f6a1a88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/@config_shahin,@config_shahin,@config_shahin,@config_shahin?ed=80", headers: {Host: 2.irvn.debian.6.i.6.6.fxp.debian.org.speedtest.net.列列男事的事列上赛男.ghormehsabzi.cyou.}}, udp: true}
+- {name: "10,11|台湾3|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 0921f18e-db32-4c07-939b-4388673bfe59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}}, udp: true}
+- {name: "10,11|香港4|@ripaojiedian", server: 36.151.195.77, port: 20819, type: trojan, password: MfqALmAJ, skip-cert-verify: true, udp: true}
+- {name: 11|美国 v2rayfree.eu.org, server: 24.144.77.93, port: 898, type: vmess, uuid: df2efa4d-c275-410b-afdf-aae2d70777cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 美国 CloudFlare节点, server: www.speedtest.net, port: 2082, type: vmess, uuid: 1368893d-58cb-4a25-9105-a5fa3f6a1a88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/@config_shahin,@config_shahin,@config_shahin,@config_shahin?ed=80", headers: {Host: 2.irvn.debian.6.i.6.6.fxp.debian.org.speedtest.net.列列男事的事列上赛男.ghormehsabzi.cyou.}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -2506,10 +2509,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 15|🇻🇳 越南R|@ripaojiedian
-      - 10,11|日本|@ripaojiedian
-      - VM-WS-NA 🏴‍☠️ NA-188.114.98.40:80
+      - 10,11|美国4|@ripaojiedian
+      - 0|-https://t.me/MrXbin-11
       - CF | 🟢 | vmess | @ShadowProxy66 | 14
+      - 10,11|台湾3|@ripaojiedian
+      - 10,11|香港4|@ripaojiedian
+      - 11|美国 v2rayfree.eu.org
+      - 美国 CloudFlare节点
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -2521,10 +2527,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 15|🇻🇳 越南R|@ripaojiedian
-      - 10,11|日本|@ripaojiedian
-      - VM-WS-NA 🏴‍☠️ NA-188.114.98.40:80
+      - 10,11|美国4|@ripaojiedian
+      - 0|-https://t.me/MrXbin-11
       - CF | 🟢 | vmess | @ShadowProxy66 | 14
+      - 10,11|台湾3|@ripaojiedian
+      - 10,11|香港4|@ripaojiedian
+      - 11|美国 v2rayfree.eu.org
+      - 美国 CloudFlare节点
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -2700,10 +2709,13 @@ proxy-groups:
       - United States_Los Angeles_hy2_3
       - France_None_reality_0
 
-      - 15|🇻🇳 越南R|@ripaojiedian
-      - 10,11|日本|@ripaojiedian
-      - VM-WS-NA 🏴‍☠️ NA-188.114.98.40:80
+      - 10,11|美国4|@ripaojiedian
+      - 0|-https://t.me/MrXbin-11
       - CF | 🟢 | vmess | @ShadowProxy66 | 14
+      - 10,11|台湾3|@ripaojiedian
+      - 10,11|香港4|@ripaojiedian
+      - 11|美国 v2rayfree.eu.org
+      - 美国 CloudFlare节点
   - name: 🐟 漏网之鱼
     type: select
     proxies:
