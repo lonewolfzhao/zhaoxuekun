@@ -1421,7 +1421,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_094
+- name: United States_None_vmess_094
   type: vmess
   server: icook.tw
   port: 2086
@@ -1481,7 +1481,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_098
+- name: None_None_vmess_098
   type: vmess
   server: russia.com
   port: 2086
@@ -1496,7 +1496,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_099
+- name: United States_None_vmess_099
   type: vmess
   server: singapore.com
   port: 2086
@@ -1511,7 +1511,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_0100
+- name: United States_None_vmess_0100
   type: vmess
   server: skk.moe
   port: 2086
@@ -2490,8 +2490,10 @@ proxies:
   reality-opts:
     public-key: U5hsLybYWhJrWAqqsTa052k-VeKt8bDFPxBh3CQk51M
     short-id: 0b4badde
+- {name: 4FreeIran-1067, server: 13.250.14.224, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "10,11|台湾3|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 0921f18e-db32-4c07-939b-4388673bfe59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}}, udp: true}
+- {name: 10|🇹🇼 台湾|@ripaojiedian, server: cm1-tw.hutaonode3.top, port: 12556, type: ss, cipher: chacha20-ietf, password: HuTaoCloud, plugin: obfs, plugin-opts: {mode: http, host: 36a1a32505.microsoft.com}, udp: true}
 - {name: "10,11|美国4|@ripaojiedian", server: 183.232.139.24, port: 40081, type: trojan, password: MfqALmAJ, skip-cert-verify: true, udp: true}
-- {name: CN-183.236.51.4-1854, server: naiu-hk.05vr9nyqg5.download, port: 13008, type: trojan, password: 9bd9f0da-cb8b-4bd3-9f80-efa1be67daa0, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -2504,8 +2506,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - 4FreeIran-1067
+      - 10,11|台湾3|@ripaojiedian
+      - 10|🇹🇼 台湾|@ripaojiedian
       - 10,11|美国4|@ripaojiedian
-      - CN-183.236.51.4-1854
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -2517,8 +2521,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - 4FreeIran-1067
+      - 10,11|台湾3|@ripaojiedian
+      - 10|🇹🇼 台湾|@ripaojiedian
       - 10,11|美国4|@ripaojiedian
-      - CN-183.236.51.4-1854
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -2619,13 +2625,13 @@ proxy-groups:
       - United States_San Francisco_vmess_091
       - None_None_vmess_092
       - Canada_Ottawa_vmess_093
-      - None_None_vmess_094
+      - United States_None_vmess_094
       - United States_None_vmess_095
       - None_None_vmess_096
       - None_None_vmess_097
-      - United States_None_vmess_098
-      - None_None_vmess_099
-      - None_None_vmess_0100
+      - None_None_vmess_098
+      - United States_None_vmess_099
+      - United States_None_vmess_0100
       - None_None_vmess_0101
       - None_None_vmess_11
       - None_None_vmess_12
@@ -2692,9 +2698,12 @@ proxy-groups:
       - United States_Los Angeles_hy2_1
       - United States_Los Angeles_hy2_2
       - United States_Los Angeles_hy2_3
+      - France_None_reality_0
 
+      - 4FreeIran-1067
+      - 10,11|台湾3|@ripaojiedian
+      - 10|🇹🇼 台湾|@ripaojiedian
       - 10,11|美国4|@ripaojiedian
-      - CN-183.236.51.4-1854
   - name: 🐟 漏网之鱼
     type: select
     proxies:
