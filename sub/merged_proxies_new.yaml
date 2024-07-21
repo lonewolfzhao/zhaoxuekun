@@ -1451,7 +1451,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_096
+- name: United States_None_vmess_096
   type: vmess
   server: japan.com
   port: 2086
@@ -1481,7 +1481,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_098
+- name: None_None_vmess_098
   type: vmess
   server: russia.com
   port: 2086
@@ -1511,7 +1511,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_0100
+- name: United States_None_vmess_0100
   type: vmess
   server: skk.moe
   port: 2086
@@ -2444,37 +2444,37 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_Paris_hy2_0
+- name: United States_San Antonio_hy2_0
   type: hysteria2
-  server: 51.159.34.216
-  port: 7571
+  server: 173.234.31.98
+  port: 57429
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: ''
   skip-cert-verify: true
-- name: United States_Los Angeles_hy2_1
+- name: United States_San Antonio_hy2_1
   type: hysteria2
-  server: 108.181.24.39
-  port: 60714
+  server: 173.234.31.98
+  port: 57429
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: ''
   skip-cert-verify: true
-- name: United States_Los Angeles_hy2_2
+- name: United States_San Antonio_hy2_2
   type: hysteria2
-  server: 108.181.24.39
-  port: 60714
+  server: 173.234.31.98
+  port: 57429
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: ''
   skip-cert-verify: true
-- name: United States_Los Angeles_hy2_3
+- name: United States_San Antonio_hy2_3
   type: hysteria2
-  server: 108.181.24.39
-  port: 60714
+  server: 173.234.31.98
+  port: 57429
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: ''
   skip-cert-verify: true
 - name: France_None_reality_0
   type: vless
@@ -2591,11 +2591,11 @@ proxy-groups:
   - Canada_Ottawa_vmess_093
   - None_None_vmess_094
   - United States_None_vmess_095
-  - None_None_vmess_096
+  - United States_None_vmess_096
   - United States_None_vmess_097
-  - United States_None_vmess_098
+  - None_None_vmess_098
   - None_None_vmess_099
-  - None_None_vmess_0100
+  - United States_None_vmess_0100
   - None_None_vmess_0101
   - None_None_vmess_11
   - None_None_vmess_12
@@ -2658,10 +2658,10 @@ proxy-groups:
   - United States_None_hy_1
   - United States_None_hy_2
   - United States_Wilmington_hy_3
-  - France_Paris_hy2_0
-  - United States_Los Angeles_hy2_1
-  - United States_Los Angeles_hy2_2
-  - United States_Los Angeles_hy2_3
+  - United States_San Antonio_hy2_0
+  - United States_San Antonio_hy2_1
+  - United States_San Antonio_hy2_2
+  - United States_San Antonio_hy2_3
   - France_None_reality_0
 - name: 自动选择
   type: url-test
@@ -2764,11 +2764,11 @@ proxy-groups:
   - Canada_Ottawa_vmess_093
   - None_None_vmess_094
   - United States_None_vmess_095
-  - None_None_vmess_096
+  - United States_None_vmess_096
   - United States_None_vmess_097
-  - United States_None_vmess_098
+  - None_None_vmess_098
   - None_None_vmess_099
-  - None_None_vmess_0100
+  - United States_None_vmess_0100
   - None_None_vmess_0101
   - None_None_vmess_11
   - None_None_vmess_12
@@ -2831,10 +2831,10 @@ proxy-groups:
   - United States_None_hy_1
   - United States_None_hy_2
   - United States_Wilmington_hy_3
-  - France_Paris_hy2_0
-  - United States_Los Angeles_hy2_1
-  - United States_Los Angeles_hy2_2
-  - United States_Los Angeles_hy2_3
+  - United States_San Antonio_hy2_0
+  - United States_San Antonio_hy2_1
+  - United States_San Antonio_hy2_2
+  - United States_San Antonio_hy2_3
   - France_None_reality_0
 rules:
 - DOMAIN,clash.razord.top,DIRECT
