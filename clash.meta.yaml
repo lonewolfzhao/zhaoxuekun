@@ -2492,12 +2492,11 @@ proxies:
     short-id: 0b4badde
 - {name: 4FreeIran-1067, server: 13.250.14.224, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: "10,11|台湾3|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 0921f18e-db32-4c07-939b-4388673bfe59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}}, udp: true}
-- {name: "11|美国 CloudFlare节点 #19", server: 104.16.61.8, port: 2095, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linde06.indiavideo.sbs/linkws, headers: {Host: worker-lingering-fog-c021.gesofog870.workers.dev}}, udp: true}
-- {name: "11|美国 CloudFlare节点 #39", server: speed.cloudflare.com, port: 80, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /obdii.cfd/linkws, headers: {Host: d396-flower-d396.megare7260.workers.dev}}, udp: true}
+- {name: 15|🇰🇷 韩国特殊|@ripaojiedian, server: 18.142.246.19, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: US | 🟢 | vmess | @oneclickvpnkeys | 1, server: www.speedtest.net, port: 80, type: vmess, uuid: 3e5cda0a-6122-4f54-9e3c-3f49e7a526f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nlch.blueberrynetwork.store}}, udp: true}
-- {name: 4Mohsen-33, server: kr1.mhw7e2.online, port: 20019, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
-- {name: 15|🇸🇬 狮城特殊|@ripaojiedian, server: 13.212.14.204, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4FreeIran-1068, server: 43.201.253.180, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: "10,11|新加坡|@ripaojiedian", server: 104.19.173.68, port: 80, type: vmess, uuid: b30dd940-b88e-4459-aac8-ec6f25c1112f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg3.889611.com}}, udp: true}
+- {name: US_889, server: 104.16.61.8, port: 8880, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /afrhms16v.bestxray.buzz/linkws, headers: {Host: 8shhebsj78wjisnbhsjvess-pond-6cc6.cerog91216.workers.dev}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -2512,12 +2511,11 @@ proxy-groups:
     proxies:
       - 4FreeIran-1067
       - 10,11|台湾3|@ripaojiedian
-      - "11|美国 CloudFlare节点 #19"
-      - "11|美国 CloudFlare节点 #39"
+      - 15|🇰🇷 韩国特殊|@ripaojiedian
       - US | 🟢 | vmess | @oneclickvpnkeys | 1
-      - 4Mohsen-33
-      - 15|🇸🇬 狮城特殊|@ripaojiedian
+      - 4FreeIran-1068
       - 10,11|新加坡|@ripaojiedian
+      - US_889
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -2531,12 +2529,11 @@ proxy-groups:
     proxies:
       - 4FreeIran-1067
       - 10,11|台湾3|@ripaojiedian
-      - "11|美国 CloudFlare节点 #19"
-      - "11|美国 CloudFlare节点 #39"
+      - 15|🇰🇷 韩国特殊|@ripaojiedian
       - US | 🟢 | vmess | @oneclickvpnkeys | 1
-      - 4Mohsen-33
-      - 15|🇸🇬 狮城特殊|@ripaojiedian
+      - 4FreeIran-1068
       - 10,11|新加坡|@ripaojiedian
+      - US_889
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -2714,12 +2711,11 @@ proxy-groups:
 
       - 4FreeIran-1067
       - 10,11|台湾3|@ripaojiedian
-      - "11|美国 CloudFlare节点 #19"
-      - "11|美国 CloudFlare节点 #39"
+      - 15|🇰🇷 韩国特殊|@ripaojiedian
       - US | 🟢 | vmess | @oneclickvpnkeys | 1
-      - 4Mohsen-33
-      - 15|🇸🇬 狮城特殊|@ripaojiedian
+      - 4FreeIran-1068
       - 10,11|新加坡|@ripaojiedian
+      - US_889
   - name: 🐟 漏网之鱼
     type: select
     proxies:
