@@ -1466,7 +1466,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_097
+- name: United States_None_vmess_097
   type: vmess
   server: malaysia.com
   port: 2086
@@ -2444,38 +2444,38 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_San Antonio_hy2_0
+- name: United States_Wilmington_hy2_0
   type: hysteria2
-  server: 173.234.31.98
-  port: 57429
+  server: hy3.3124845.xyz
+  port: 443
   password: dongtaiwang.com
   fast-open: true
-  sni: ''
-  skip-cert-verify: true
-- name: United States_San Antonio_hy2_1
+  sni: hy3.3124845.xyz
+  skip-cert-verify: false
+- name: United States_Wilmington_hy2_1
   type: hysteria2
-  server: 173.234.31.98
-  port: 57429
+  server: hy3.3124845.xyz
+  port: 443
   password: dongtaiwang.com
   fast-open: true
-  sni: ''
-  skip-cert-verify: true
-- name: United States_San Antonio_hy2_2
+  sni: hy3.3124845.xyz
+  skip-cert-verify: false
+- name: United States_Wilmington_hy2_2
   type: hysteria2
-  server: 173.234.31.98
-  port: 57429
+  server: hy3.3124845.xyz
+  port: 443
   password: dongtaiwang.com
   fast-open: true
-  sni: ''
-  skip-cert-verify: true
-- name: United States_San Antonio_hy2_3
+  sni: hy3.3124845.xyz
+  skip-cert-verify: false
+- name: United States_Wilmington_hy2_3
   type: hysteria2
-  server: 173.234.31.98
-  port: 57429
+  server: hy3.3124845.xyz
+  port: 443
   password: dongtaiwang.com
   fast-open: true
-  sni: ''
-  skip-cert-verify: true
+  sni: hy3.3124845.xyz
+  skip-cert-verify: false
 - name: France_None_reality_0
   type: vless
   server: 62.210.101.0
@@ -2490,14 +2490,11 @@ proxies:
   reality-opts:
     public-key: U5hsLybYWhJrWAqqsTa052k-VeKt8bDFPxBh3CQk51M
     short-id: 0b4badde
-- {name: 4FreeIran-1067, server: 13.250.14.224, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 15|🇸🇬 狮城特殊|@ripaojiedian, server: 13.229.87.253, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 10|🇭🇰 香港|@ripaojiedian, server: bvip.hongxingdl.vip, port: 29767, type: vmess, uuid: 0daceca8-228a-4cc6-a613-db4c6b05c899, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "10,11|台湾2|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 78c40177-c364-480d-bd77-76e9d89f69b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}}, udp: true}
-- {name: 15|🇰🇷 韩国特殊|@ripaojiedian, server: 18.142.246.19, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Mohsen-1330, server: 59.56.77.178, port: 15083, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
-- {name: US_898, server: 104.16.61.8, port: 8880, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ivideos.sbs/linkws, headers: {Host: late-wave-1d0a.lesijo3430.workers.dev}}, udp: true}
+- {name: "10,11|美国4|@ripaojiedian", server: 183.232.139.24, port: 40081, type: trojan, password: MfqALmAJ, skip-cert-verify: true, udp: true}
 - {name: US | 🟢 | vmess | @oneclickvpnkeys | 1, server: www.speedtest.net, port: 80, type: vmess, uuid: 3e5cda0a-6122-4f54-9e3c-3f49e7a526f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nlch.blueberrynetwork.store}}, udp: true}
+- {name: 15|🇸🇬 狮城特殊|@ripaojiedian, server: 13.229.87.253, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 15|🇰🇷 韩国特殊|@ripaojiedian, server: 18.142.246.19, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "10,11|日本|@ripaojiedian", server: 36.151.195.77, port: 31666, type: trojan, password: MfqALmAJ, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -2510,14 +2507,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4FreeIran-1067
-      - 15|🇸🇬 狮城特殊|@ripaojiedian
-      - 10|🇭🇰 香港|@ripaojiedian
-      - 10,11|台湾2|@ripaojiedian
-      - 15|🇰🇷 韩国特殊|@ripaojiedian
-      - 4Mohsen-1330
-      - US_898
+      - 10,11|美国4|@ripaojiedian
       - US | 🟢 | vmess | @oneclickvpnkeys | 1
+      - 15|🇸🇬 狮城特殊|@ripaojiedian
+      - 15|🇰🇷 韩国特殊|@ripaojiedian
+      - 10,11|日本|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -2529,14 +2523,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4FreeIran-1067
-      - 15|🇸🇬 狮城特殊|@ripaojiedian
-      - 10|🇭🇰 香港|@ripaojiedian
-      - 10,11|台湾2|@ripaojiedian
-      - 15|🇰🇷 韩国特殊|@ripaojiedian
-      - 4Mohsen-1330
-      - US_898
+      - 10,11|美国4|@ripaojiedian
       - US | 🟢 | vmess | @oneclickvpnkeys | 1
+      - 15|🇸🇬 狮城特殊|@ripaojiedian
+      - 15|🇰🇷 韩国特殊|@ripaojiedian
+      - 10,11|日本|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -2640,7 +2631,7 @@ proxy-groups:
       - None_None_vmess_094
       - United States_None_vmess_095
       - United States_None_vmess_096
-      - None_None_vmess_097
+      - United States_None_vmess_097
       - None_None_vmess_098
       - None_None_vmess_099
       - None_None_vmess_0100
@@ -2706,20 +2697,17 @@ proxy-groups:
       - United States_None_hy_1
       - United States_None_hy_2
       - United States_Wilmington_hy_3
-      - United States_San Antonio_hy2_0
-      - United States_San Antonio_hy2_1
-      - United States_San Antonio_hy2_2
-      - United States_San Antonio_hy2_3
+      - United States_Wilmington_hy2_0
+      - United States_Wilmington_hy2_1
+      - United States_Wilmington_hy2_2
+      - United States_Wilmington_hy2_3
       - France_None_reality_0
 
-      - 4FreeIran-1067
-      - 15|🇸🇬 狮城特殊|@ripaojiedian
-      - 10|🇭🇰 香港|@ripaojiedian
-      - 10,11|台湾2|@ripaojiedian
-      - 15|🇰🇷 韩国特殊|@ripaojiedian
-      - 4Mohsen-1330
-      - US_898
+      - 10,11|美国4|@ripaojiedian
       - US | 🟢 | vmess | @oneclickvpnkeys | 1
+      - 15|🇸🇬 狮城特殊|@ripaojiedian
+      - 15|🇰🇷 韩国特殊|@ripaojiedian
+      - 10,11|日本|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
