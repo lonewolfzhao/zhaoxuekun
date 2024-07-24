@@ -1466,7 +1466,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_097
+- name: United States_None_vmess_097
   type: vmess
   server: malaysia.com
   port: 2086
@@ -1481,7 +1481,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_098
+- name: None_None_vmess_098
   type: vmess
   server: russia.com
   port: 2086
@@ -2317,7 +2317,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip5-10.freegradely.xyz
-- name: Taiwan_Zhubei_ss_81
+- name: Taiwan_Hsinchu County_ss_81
   server: www2.dtku44.xyz
   type: ss
   port: 443
@@ -2454,28 +2454,28 @@ proxies:
   skip-cert-verify: false
 - name: United States_Wilmington_hy2_1
   type: hysteria2
-  server: hy3.3124845.xyz
-  port: 443
+  server: 166.1.18.178
+  port: 23456
   password: dongtaiwang.com
   fast-open: true
-  sni: hy3.3124845.xyz
-  skip-cert-verify: false
+  sni: bing.com
+  skip-cert-verify: true
 - name: United States_Wilmington_hy2_2
   type: hysteria2
-  server: hy3.3124845.xyz
-  port: 443
+  server: 166.1.18.178
+  port: 23456
   password: dongtaiwang.com
   fast-open: true
-  sni: hy3.3124845.xyz
-  skip-cert-verify: false
+  sni: bing.com
+  skip-cert-verify: true
 - name: United States_Wilmington_hy2_3
   type: hysteria2
-  server: hy3.3124845.xyz
-  port: 443
+  server: 166.1.18.178
+  port: 23456
   password: dongtaiwang.com
   fast-open: true
-  sni: hy3.3124845.xyz
-  skip-cert-verify: false
+  sni: bing.com
+  skip-cert-verify: true
 - name: France_None_reality_0
   type: vless
   server: 62.210.101.0
@@ -2490,10 +2490,14 @@ proxies:
   reality-opts:
     public-key: U5hsLybYWhJrWAqqsTa052k-VeKt8bDFPxBh3CQk51M
     short-id: 0b4badde
-- {name: "10,11|香港4|@ripaojiedian", server: 36.151.195.77, port: 20819, type: trojan, password: MfqALmAJ, skip-cert-verify: true, udp: true}
+- {name: 10|🇰🇷 韩国|@ripaojiedian, server: in06.dns2024.org, port: 63097, type: vmess, uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Mohsen-1124, server: 52.195.207.131, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Jadi-1053, server: 13.250.14.224, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "10,11|日本|@ripaojiedian", server: 36.151.195.77, port: 31666, type: trojan, password: MfqALmAJ, skip-cert-verify: true, udp: true}
 - {name: 15|🇸🇬 狮城特殊|@ripaojiedian, server: 13.229.87.253, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Jadi-33, server: kr1.mhw7e2.online, port: 20019, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
 - {name: "10,11|美国4|@ripaojiedian", server: 183.232.139.24, port: 40081, type: trojan, password: MfqALmAJ, skip-cert-verify: true, udp: true}
-- {name: 15|🇸🇬 狮城特殊|@ripaojiedian 2, server: 34.219.154.160, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Mohsen-1101, server: 43.201.253.180, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -2506,10 +2510,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 10,11|香港4|@ripaojiedian
+      - 10|🇰🇷 韩国|@ripaojiedian
+      - 4Mohsen-1124
+      - 4Jadi-1053
+      - 10,11|日本|@ripaojiedian
       - 15|🇸🇬 狮城特殊|@ripaojiedian
+      - 4Jadi-33
       - 10,11|美国4|@ripaojiedian
-      - 15|🇸🇬 狮城特殊|@ripaojiedian 2
+      - 4Mohsen-1101
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -2521,10 +2529,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 10,11|香港4|@ripaojiedian
+      - 10|🇰🇷 韩国|@ripaojiedian
+      - 4Mohsen-1124
+      - 4Jadi-1053
+      - 10,11|日本|@ripaojiedian
       - 15|🇸🇬 狮城特殊|@ripaojiedian
+      - 4Jadi-33
       - 10,11|美国4|@ripaojiedian
-      - 15|🇸🇬 狮城特殊|@ripaojiedian 2
+      - 4Mohsen-1101
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -2627,8 +2639,8 @@ proxy-groups:
       - None_None_vmess_094
       - United States_None_vmess_095
       - None_None_vmess_096
-      - None_None_vmess_097
-      - United States_None_vmess_098
+      - United States_None_vmess_097
+      - None_None_vmess_098
       - None_None_vmess_099
       - None_None_vmess_0100
       - None_None_vmess_0101
@@ -2684,7 +2696,7 @@ proxy-groups:
       - Canada_Ottawa_vmess_72
       - None_None_vmess_73
       - None_None_vmess_74
-      - Taiwan_Zhubei_ss_81
+      - Taiwan_Hsinchu County_ss_81
       - None_None_vmess_91
       - Canada_Ottawa_vmess_92
       - None_None_vmess_93
@@ -2697,11 +2709,16 @@ proxy-groups:
       - United States_Wilmington_hy2_1
       - United States_Wilmington_hy2_2
       - United States_Wilmington_hy2_3
+      - France_None_reality_0
 
-      - 10,11|香港4|@ripaojiedian
+      - 10|🇰🇷 韩国|@ripaojiedian
+      - 4Mohsen-1124
+      - 4Jadi-1053
+      - 10,11|日本|@ripaojiedian
       - 15|🇸🇬 狮城特殊|@ripaojiedian
+      - 4Jadi-33
       - 10,11|美国4|@ripaojiedian
-      - 15|🇸🇬 狮城特殊|@ripaojiedian 2
+      - 4Mohsen-1101
   - name: 🐟 漏网之鱼
     type: select
     proxies:
