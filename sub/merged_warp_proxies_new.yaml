@@ -1469,7 +1469,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_096
+- name: None_None_vmess_096
   type: vmess
   server: japan.com
   port: 2086
@@ -1499,7 +1499,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_098
+- name: United States_None_vmess_098
   type: vmess
   server: russia.com
   port: 2086
@@ -2462,34 +2462,34 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Wilmington_hy2_0
+- name: United States_None_hy2_0
   type: hysteria2
-  server: hy3.3124845.xyz
-  port: 443
-  password: dongtaiwang.com
-  fast-open: true
-  sni: hy3.3124845.xyz
-  skip-cert-verify: false
-- name: United States_Wilmington_hy2_1
-  type: hysteria2
-  server: 166.1.18.178
-  port: 23456
+  server: 207.90.239.157
+  port: 22334
   password: dongtaiwang.com
   fast-open: true
   sni: bing.com
   skip-cert-verify: true
-- name: United States_Wilmington_hy2_2
+- name: United States_None_hy2_1
   type: hysteria2
-  server: 166.1.18.178
-  port: 23456
+  server: 207.90.239.157
+  port: 22334
   password: dongtaiwang.com
   fast-open: true
   sni: bing.com
   skip-cert-verify: true
-- name: United States_Wilmington_hy2_3
+- name: United States_None_hy2_2
   type: hysteria2
-  server: 166.1.18.178
-  port: 23456
+  server: 207.90.239.157
+  port: 22334
+  password: dongtaiwang.com
+  fast-open: true
+  sni: bing.com
+  skip-cert-verify: true
+- name: United States_None_hy2_3
+  type: hysteria2
+  server: 207.90.239.157
+  port: 22334
   password: dongtaiwang.com
   fast-open: true
   sni: bing.com
@@ -2624,9 +2624,9 @@ proxy-groups:
   - Canada_Ottawa_vmess_093
   - None_None_vmess_094
   - United States_None_vmess_095
-  - United States_None_vmess_096
+  - None_None_vmess_096
   - United States_None_vmess_097
-  - None_None_vmess_098
+  - United States_None_vmess_098
   - None_None_vmess_099
   - United States_None_vmess_0100
   - None_None_vmess_0101
@@ -2691,10 +2691,10 @@ proxy-groups:
   - United States_Dallas_hy_1
   - United States_Dallas_hy_2
   - United States_Dallas_hy_3
-  - United States_Wilmington_hy2_0
-  - United States_Wilmington_hy2_1
-  - United States_Wilmington_hy2_2
-  - United States_Wilmington_hy2_3
+  - United States_None_hy2_0
+  - United States_None_hy2_1
+  - United States_None_hy2_2
+  - United States_None_hy2_3
   - France_None_reality_0
 - name: 手动选择
   type: select
@@ -2794,9 +2794,9 @@ proxy-groups:
   - Canada_Ottawa_vmess_093
   - None_None_vmess_094
   - United States_None_vmess_095
-  - United States_None_vmess_096
+  - None_None_vmess_096
   - United States_None_vmess_097
-  - None_None_vmess_098
+  - United States_None_vmess_098
   - None_None_vmess_099
   - United States_None_vmess_0100
   - None_None_vmess_0101
@@ -2861,10 +2861,10 @@ proxy-groups:
   - United States_Dallas_hy_1
   - United States_Dallas_hy_2
   - United States_Dallas_hy_3
-  - United States_Wilmington_hy2_0
-  - United States_Wilmington_hy2_1
-  - United States_Wilmington_hy2_2
-  - United States_Wilmington_hy2_3
+  - United States_None_hy2_0
+  - United States_None_hy2_1
+  - United States_None_hy2_2
+  - United States_None_hy2_3
   - France_None_reality_0
 - name: 负载均衡
   type: load-balance
@@ -2964,9 +2964,9 @@ proxy-groups:
   - Canada_Ottawa_vmess_093
   - None_None_vmess_094
   - United States_None_vmess_095
-  - United States_None_vmess_096
+  - None_None_vmess_096
   - United States_None_vmess_097
-  - None_None_vmess_098
+  - United States_None_vmess_098
   - None_None_vmess_099
   - United States_None_vmess_0100
   - None_None_vmess_0101
@@ -3031,10 +3031,10 @@ proxy-groups:
   - United States_Dallas_hy_1
   - United States_Dallas_hy_2
   - United States_Dallas_hy_3
-  - United States_Wilmington_hy2_0
-  - United States_Wilmington_hy2_1
-  - United States_Wilmington_hy2_2
-  - United States_Wilmington_hy2_3
+  - United States_None_hy2_0
+  - United States_None_hy2_1
+  - United States_None_hy2_2
+  - United States_None_hy2_3
   - France_None_reality_0
   url: http://www.gstatic.com/generate_204
   interval: 300
