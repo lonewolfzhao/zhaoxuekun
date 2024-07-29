@@ -2490,13 +2490,7 @@ proxies:
   reality-opts:
     public-key: U5hsLybYWhJrWAqqsTa052k-VeKt8bDFPxBh3CQk51M
     short-id: 0b4badde
-- {name: 15|🇭🇰 香港7|@ripaojiedian, server: aa01gg.sssyun.xyz, port: 36993, type: ss, cipher: chacha20-ietf-poly1305, password: b5abc4c0-b518-4195-88b4-57900f16fb65, udp: true}
-- {name: 4FreeIran-35, server: hk1.mhw7e2.online, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
 - {name: 10|🇯🇵 日本4|@ripaojiedian, server: f10002.flyflylflyflysbs.sbs, port: 29496, type: trojan, password: 4bd14bdb-db19-4de4-a452-58b897046d2c, sni: jp01.ckcloud.info, skip-cert-verify: true, udp: true}
-- {name: 4FreeIran-1071, server: 13.250.14.224, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 10|🇭🇰 香港4|@ripaojiedian, server: 36.134.38.49, port: 51000, type: trojan, password: MfqALmAJ, skip-cert-verify: true, udp: true}
-- {name: 15|🇰🇷 韩国特殊|@ripaojiedian, server: 35.87.35.207, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4FreeIran-1355, server: 59.56.77.178, port: 15001, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
 - {name: "10,11|日本|@ripaojiedian", server: 36.151.195.77, port: 31666, type: trojan, password: MfqALmAJ, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -2510,13 +2504,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 15|🇭🇰 香港7|@ripaojiedian
-      - 4FreeIran-35
       - 10|🇯🇵 日本4|@ripaojiedian
-      - 4FreeIran-1071
-      - 10|🇭🇰 香港4|@ripaojiedian
-      - 15|🇰🇷 韩国特殊|@ripaojiedian
-      - 4FreeIran-1355
       - 10,11|日本|@ripaojiedian
   - name: 🔰 节点选择
     type: select
@@ -2529,13 +2517,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 15|🇭🇰 香港7|@ripaojiedian
-      - 4FreeIran-35
       - 10|🇯🇵 日本4|@ripaojiedian
-      - 4FreeIran-1071
-      - 10|🇭🇰 香港4|@ripaojiedian
-      - 15|🇰🇷 韩国特殊|@ripaojiedian
-      - 4FreeIran-1355
       - 10,11|日本|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
@@ -2711,13 +2693,7 @@ proxy-groups:
       - United States_None_hy2_3
       - France_None_reality_0
 
-      - 15|🇭🇰 香港7|@ripaojiedian
-      - 4FreeIran-35
       - 10|🇯🇵 日本4|@ripaojiedian
-      - 4FreeIran-1071
-      - 10|🇭🇰 香港4|@ripaojiedian
-      - 15|🇰🇷 韩国特殊|@ripaojiedian
-      - 4FreeIran-1355
       - 10,11|日本|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
