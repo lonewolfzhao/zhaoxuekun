@@ -2476,11 +2476,11 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
+- {name: 15|🇹🇼 台湾|@ripaojiedian, server: gg01.6bnw.top, port: 40018, type: ss, cipher: chacha20-ietf-poly1305, password: c7f2cbc9-00c6-4948-9a72-c77ff72e69dc, udp: true}
 - {name: 15|🇭🇰 香港6|@ripaojiedian, server: 36.139.157.1, port: 10599, type: ss, cipher: chacha20-ietf-poly1305, password: bfc552e8-2607-4386-9c90-81437ac5ba23, udp: true}
-- {name: 4Jadi-48, server: 2.forlive.live, port: 61005, type: ss, cipher: chacha20-ietf-poly1305, password: 82fb692e-1c8b-3a65-ad83-23ad9deee111, udp: true}
-- {name: 4FreeIran-1075, server: 13.250.14.224, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 15|🇹🇼 台湾2|@ripaojiedian, server: tw04.51feitu.com, port: 28102, type: ss, cipher: chacha20-ietf-poly1305, password: 4e079290-392b-4e4b-bdc4-f0a1f56ae841, udp: true}
+- {name: 15|🇭🇰 香港9|@ripaojiedian, server: aa01gg.sssyun.xyz, port: 39301, type: ss, cipher: chacha20-ietf-poly1305, password: c7f2cbc9-00c6-4948-9a72-c77ff72e69dc, udp: true}
 - {name: "10,11|日本|@ripaojiedian", server: 36.151.195.77, port: 31666, type: trojan, password: MfqALmAJ, skip-cert-verify: true, udp: true}
-- {name: 4Nika-41, server: kr1.mhw7e2.online, port: 20019, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -2493,11 +2493,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - 15|🇹🇼 台湾|@ripaojiedian
       - 15|🇭🇰 香港6|@ripaojiedian
-      - 4Jadi-48
-      - 4FreeIran-1075
+      - 15|🇹🇼 台湾2|@ripaojiedian
+      - 15|🇭🇰 香港9|@ripaojiedian
       - 10,11|日本|@ripaojiedian
-      - 4Nika-41
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -2509,11 +2509,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - 15|🇹🇼 台湾|@ripaojiedian
       - 15|🇭🇰 香港6|@ripaojiedian
-      - 4Jadi-48
-      - 4FreeIran-1075
+      - 15|🇹🇼 台湾2|@ripaojiedian
+      - 15|🇭🇰 香港9|@ripaojiedian
       - 10,11|日本|@ripaojiedian
-      - 4Nika-41
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -2687,11 +2687,11 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
+      - 15|🇹🇼 台湾|@ripaojiedian
       - 15|🇭🇰 香港6|@ripaojiedian
-      - 4Jadi-48
-      - 4FreeIran-1075
+      - 15|🇹🇼 台湾2|@ripaojiedian
+      - 15|🇭🇰 香港9|@ripaojiedian
       - 10,11|日本|@ripaojiedian
-      - 4Nika-41
   - name: 🐟 漏网之鱼
     type: select
     proxies:
