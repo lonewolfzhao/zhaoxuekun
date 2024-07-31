@@ -2476,11 +2476,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 15|🇹🇼 台湾|@ripaojiedian, server: gg01.6bnw.top, port: 40018, type: ss, cipher: chacha20-ietf-poly1305, password: c7f2cbc9-00c6-4948-9a72-c77ff72e69dc, udp: true}
-- {name: 15|🇭🇰 香港6|@ripaojiedian, server: 36.139.157.1, port: 10599, type: ss, cipher: chacha20-ietf-poly1305, password: bfc552e8-2607-4386-9c90-81437ac5ba23, udp: true}
-- {name: 15|🇹🇼 台湾2|@ripaojiedian, server: tw04.51feitu.com, port: 28102, type: ss, cipher: chacha20-ietf-poly1305, password: 4e079290-392b-4e4b-bdc4-f0a1f56ae841, udp: true}
-- {name: 15|🇭🇰 香港9|@ripaojiedian, server: aa01gg.sssyun.xyz, port: 39301, type: ss, cipher: chacha20-ietf-poly1305, password: c7f2cbc9-00c6-4948-9a72-c77ff72e69dc, udp: true}
-- {name: "10,11|日本|@ripaojiedian", server: 36.151.195.77, port: 31666, type: trojan, password: MfqALmAJ, skip-cert-verify: true, udp: true}
+- {name: "10,11|香港8|@ripaojiedian", server: pplaca05.top, port: 443, type: trojan, password: NUeBvQHox0BmnHpu, sni: pplaca05.top, skip-cert-verify: true, udp: true}
+- {name: RELAY-172.67.204.84-1125, server: www.zula.ir, port: 80, type: vmess, uuid: 3e5cda0a-6122-4f54-9e3c-3f49e7a526f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nlch.blueberrynetwork.store}}, udp: true}
+- {name: 美国 CloudFlare节点, server: p3.v2raybrasil.cloud, port: 2052, type: vmess, uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ybr.redbullplus.xyz}}, udp: true}
+- {name: "11,16|香港5|@ripaojiedian", server: 183.236.51.23, port: 54104, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -2493,11 +2492,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 15|🇹🇼 台湾|@ripaojiedian
-      - 15|🇭🇰 香港6|@ripaojiedian
-      - 15|🇹🇼 台湾2|@ripaojiedian
-      - 15|🇭🇰 香港9|@ripaojiedian
-      - 10,11|日本|@ripaojiedian
+      - 10,11|香港8|@ripaojiedian
+      - RELAY-172.67.204.84-1125
+      - 美国 CloudFlare节点
+      - 11,16|香港5|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -2509,11 +2507,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 15|🇹🇼 台湾|@ripaojiedian
-      - 15|🇭🇰 香港6|@ripaojiedian
-      - 15|🇹🇼 台湾2|@ripaojiedian
-      - 15|🇭🇰 香港9|@ripaojiedian
-      - 10,11|日本|@ripaojiedian
+      - 10,11|香港8|@ripaojiedian
+      - RELAY-172.67.204.84-1125
+      - 美国 CloudFlare节点
+      - 11,16|香港5|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -2687,11 +2684,10 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
-      - 15|🇹🇼 台湾|@ripaojiedian
-      - 15|🇭🇰 香港6|@ripaojiedian
-      - 15|🇹🇼 台湾2|@ripaojiedian
-      - 15|🇭🇰 香港9|@ripaojiedian
-      - 10,11|日本|@ripaojiedian
+      - 10,11|香港8|@ripaojiedian
+      - RELAY-172.67.204.84-1125
+      - 美国 CloudFlare节点
+      - 11,16|香港5|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
