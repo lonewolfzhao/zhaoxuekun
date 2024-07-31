@@ -1421,7 +1421,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_094
+- name: United States_None_vmess_094
   type: vmess
   server: icook.tw
   port: 2086
@@ -1451,7 +1451,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_096
+- name: United States_None_vmess_096
   type: vmess
   server: japan.com
   port: 2086
@@ -1481,7 +1481,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_098
+- name: None_None_vmess_098
   type: vmess
   server: russia.com
   port: 2086
@@ -1511,7 +1511,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_0100
+- name: United States_None_vmess_0100
   type: vmess
   server: skk.moe
   port: 2086
@@ -2476,10 +2476,8 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: "10,11|香港8|@ripaojiedian", server: pplaca05.top, port: 443, type: trojan, password: NUeBvQHox0BmnHpu, sni: pplaca05.top, skip-cert-verify: true, udp: true}
+- {name: "10,11|日本|@ripaojiedian", server: 36.151.195.77, port: 31666, type: trojan, password: MfqALmAJ, skip-cert-verify: true, udp: true}
 - {name: RELAY-172.67.204.84-1125, server: www.zula.ir, port: 80, type: vmess, uuid: 3e5cda0a-6122-4f54-9e3c-3f49e7a526f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nlch.blueberrynetwork.store}}, udp: true}
-- {name: 美国 CloudFlare节点, server: p3.v2raybrasil.cloud, port: 2052, type: vmess, uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ybr.redbullplus.xyz}}, udp: true}
-- {name: "11,16|香港5|@ripaojiedian", server: 183.236.51.23, port: 54104, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -2492,10 +2490,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 10,11|香港8|@ripaojiedian
+      - 10,11|日本|@ripaojiedian
       - RELAY-172.67.204.84-1125
-      - 美国 CloudFlare节点
-      - 11,16|香港5|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -2507,10 +2503,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 10,11|香港8|@ripaojiedian
+      - 10,11|日本|@ripaojiedian
       - RELAY-172.67.204.84-1125
-      - 美国 CloudFlare节点
-      - 11,16|香港5|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -2610,13 +2604,13 @@ proxy-groups:
       - United States_San Francisco_vmess_091
       - None_None_vmess_092
       - Canada_Ottawa_vmess_093
-      - None_None_vmess_094
+      - United States_None_vmess_094
       - United States_None_vmess_095
-      - None_None_vmess_096
+      - United States_None_vmess_096
       - None_None_vmess_097
-      - United States_None_vmess_098
+      - None_None_vmess_098
       - United States_None_vmess_099
-      - None_None_vmess_0100
+      - United States_None_vmess_0100
       - None_None_vmess_0101
       - None_None_vmess_11
       - None_None_vmess_12
@@ -2684,10 +2678,8 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
-      - 10,11|香港8|@ripaojiedian
+      - 10,11|日本|@ripaojiedian
       - RELAY-172.67.204.84-1125
-      - 美国 CloudFlare节点
-      - 11,16|香港5|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
