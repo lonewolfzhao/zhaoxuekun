@@ -1466,7 +1466,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_097
+- name: None_None_vmess_097
   type: vmess
   server: malaysia.com
   port: 2086
@@ -1481,7 +1481,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_098
+- name: None_None_vmess_098
   type: vmess
   server: russia.com
   port: 2086
@@ -1496,7 +1496,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_099
+- name: None_None_vmess_099
   type: vmess
   server: singapore.com
   port: 2086
@@ -2388,11 +2388,11 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip5-10.freegradely.xyz
-- name: United States_Los Angeles_hy_0
+- name: United States_None_hy_0
   type: hysteria
-  server: 104.166.125.163
-  port: 11001
-  ports: 11001
+  server: 166.1.221.169
+  port: 11223
+  ports: 11223
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -2402,11 +2402,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Los Angeles_hy_1
+- name: United States_None_hy_1
   type: hysteria
-  server: 104.166.125.163
-  port: 11001
-  ports: 11001
+  server: 166.1.221.169
+  port: 11223
+  ports: 11223
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -2416,11 +2416,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Los Angeles_hy_2
+- name: United States_None_hy_2
   type: hysteria
-  server: 104.166.125.163
-  port: 11001
-  ports: 11001
+  server: 166.1.221.169
+  port: 11223
+  ports: 11223
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -2430,11 +2430,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Los Angeles_hy_3
+- name: United States_None_hy_3
   type: hysteria
-  server: 104.166.125.163
-  port: 11001
-  ports: 11001
+  server: 166.1.221.169
+  port: 11223
+  ports: 11223
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -2578,9 +2578,9 @@ proxy-groups:
   - None_None_vmess_094
   - United States_None_vmess_095
   - None_None_vmess_096
-  - United States_None_vmess_097
-  - United States_None_vmess_098
-  - United States_None_vmess_099
+  - None_None_vmess_097
+  - None_None_vmess_098
+  - None_None_vmess_099
   - None_None_vmess_0100
   - None_None_vmess_0101
   - None_None_vmess_11
@@ -2640,10 +2640,10 @@ proxy-groups:
   - Canada_Ottawa_vmess_92
   - None_None_vmess_93
   - None_None_vmess_94
-  - United States_Los Angeles_hy_0
-  - United States_Los Angeles_hy_1
-  - United States_Los Angeles_hy_2
-  - United States_Los Angeles_hy_3
+  - United States_None_hy_0
+  - United States_None_hy_1
+  - United States_None_hy_2
+  - United States_None_hy_3
   - United States_None_hy2_0
   - United States_None_hy2_1
   - United States_None_hy2_2
@@ -2750,9 +2750,9 @@ proxy-groups:
   - None_None_vmess_094
   - United States_None_vmess_095
   - None_None_vmess_096
-  - United States_None_vmess_097
-  - United States_None_vmess_098
-  - United States_None_vmess_099
+  - None_None_vmess_097
+  - None_None_vmess_098
+  - None_None_vmess_099
   - None_None_vmess_0100
   - None_None_vmess_0101
   - None_None_vmess_11
@@ -2812,10 +2812,10 @@ proxy-groups:
   - Canada_Ottawa_vmess_92
   - None_None_vmess_93
   - None_None_vmess_94
-  - United States_Los Angeles_hy_0
-  - United States_Los Angeles_hy_1
-  - United States_Los Angeles_hy_2
-  - United States_Los Angeles_hy_3
+  - United States_None_hy_0
+  - United States_None_hy_1
+  - United States_None_hy_2
+  - United States_None_hy_3
   - United States_None_hy2_0
   - United States_None_hy2_1
   - United States_None_hy2_2
