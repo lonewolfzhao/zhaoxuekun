@@ -1421,7 +1421,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_094
+- name: None_None_vmess_094
   type: vmess
   server: icook.tw
   port: 2086
@@ -1451,7 +1451,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_096
+- name: None_None_vmess_096
   type: vmess
   server: japan.com
   port: 2086
@@ -1511,7 +1511,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_0100
+- name: United States_None_vmess_0100
   type: vmess
   server: skk.moe
   port: 2086
@@ -2476,12 +2476,12 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 4FreeIran-1105, server: 43.201.253.180, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Nika-1085, server: 18.183.77.249, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "10,11|香港8|@ripaojiedian", server: pplaca05.top, port: 443, type: trojan, password: NUeBvQHox0BmnHpu, sni: pplaca05.top, skip-cert-verify: true, udp: true}
+- {name: 15|🇰🇷 韩国特殊|@ripaojiedian, server: 176.34.0.69, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 15|🇸🇬 狮城特殊|@ripaojiedian, server: 18.142.246.19, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "10,11|日本|@ripaojiedian", server: 36.151.195.77, port: 31666, type: trojan, password: MfqALmAJ, skip-cert-verify: true, udp: true}
+- {name: "10,11|香港10|@ripaojiedian", server: gquuangc27.xyz, port: 443, type: trojan, password: NUeBvQHox0BmnHpu, sni: gquuangc27.xyz, skip-cert-verify: true, udp: true}
 - {name: 15|🇯🇵 日本特殊|@ripaojiedian, server: 52.33.38.192, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 15|🇯🇵 日本特殊|@ripaojiedian 2, server: 54.255.211.19, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Jadi-89, server: gg01.6bnw.top, port: 40023, type: ss, cipher: chacha20-ietf-poly1305, password: 356cd62f-a0ea-4630-8d67-847b6f2b3321, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -2494,12 +2494,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4FreeIran-1105
-      - 4Nika-1085
-      - 10,11|香港8|@ripaojiedian
+      - 15|🇰🇷 韩国特殊|@ripaojiedian
       - 15|🇸🇬 狮城特殊|@ripaojiedian
+      - 10,11|日本|@ripaojiedian
+      - 10,11|香港10|@ripaojiedian
       - 15|🇯🇵 日本特殊|@ripaojiedian
-      - 15|🇯🇵 日本特殊|@ripaojiedian 2
+      - 4Jadi-89
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -2511,12 +2511,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4FreeIran-1105
-      - 4Nika-1085
-      - 10,11|香港8|@ripaojiedian
+      - 15|🇰🇷 韩国特殊|@ripaojiedian
       - 15|🇸🇬 狮城特殊|@ripaojiedian
+      - 10,11|日本|@ripaojiedian
+      - 10,11|香港10|@ripaojiedian
       - 15|🇯🇵 日本特殊|@ripaojiedian
-      - 15|🇯🇵 日本特殊|@ripaojiedian 2
+      - 4Jadi-89
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -2616,13 +2616,13 @@ proxy-groups:
       - United States_San Francisco_vmess_091
       - None_None_vmess_092
       - Canada_Ottawa_vmess_093
-      - United States_None_vmess_094
+      - None_None_vmess_094
       - United States_None_vmess_095
-      - United States_None_vmess_096
+      - None_None_vmess_096
       - United States_None_vmess_097
       - None_None_vmess_098
       - None_None_vmess_099
-      - None_None_vmess_0100
+      - United States_None_vmess_0100
       - None_None_vmess_0101
       - None_None_vmess_11
       - None_None_vmess_12
@@ -2690,12 +2690,12 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
-      - 4FreeIran-1105
-      - 4Nika-1085
-      - 10,11|香港8|@ripaojiedian
+      - 15|🇰🇷 韩国特殊|@ripaojiedian
       - 15|🇸🇬 狮城特殊|@ripaojiedian
+      - 10,11|日本|@ripaojiedian
+      - 10,11|香港10|@ripaojiedian
       - 15|🇯🇵 日本特殊|@ripaojiedian
-      - 15|🇯🇵 日本特殊|@ripaojiedian 2
+      - 4Jadi-89
   - name: 🐟 漏网之鱼
     type: select
     proxies:
