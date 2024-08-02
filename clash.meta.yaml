@@ -1421,7 +1421,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_094
+- name: United States_None_vmess_094
   type: vmess
   server: icook.tw
   port: 2086
@@ -1451,7 +1451,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_096
+- name: United States_None_vmess_096
   type: vmess
   server: japan.com
   port: 2086
@@ -1466,7 +1466,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_097
+- name: United States_None_vmess_097
   type: vmess
   server: malaysia.com
   port: 2086
@@ -2317,7 +2317,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip5-10.freegradely.xyz
-- name: Taiwan_Zhubei_ss_81
+- name: Taiwan_Hsinchu_ss_81
   server: www2.dtku44.xyz
   type: ss
   port: 443
@@ -2388,9 +2388,9 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip5-10.freegradely.xyz
-- name: United States_None_hy_0
+- name: United States_Los Angeles_hy_0
   type: hysteria
-  server: 166.1.221.169
+  server: 91.149.239.23
   port: 11223
   ports: 11223
   auth_str: dongtaiwang.com
@@ -2476,9 +2476,13 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 10|🇭🇰 香港6|@ripaojiedian, server: xctransfer1st.cokecloud.top, port: 33575, type: vmess, uuid: 1de8f496-378f-4979-ba17-500fd9fee228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 10|🇭🇰 香港|@ripaojiedian, server: iepl.hongxingdl.vip, port: 29767, type: vmess, uuid: 47205b34-a0d2-462a-b603-438f62ad8027, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Nika-1085, server: 18.183.77.249, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4FreeIran-1072, server: 13.250.14.224, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4FreeIran-1105, server: 43.201.253.180, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Nika-44, server: kr1.mhw7e2.online, port: 20019, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
+- {name: "10,11|新加坡|@ripaojiedian", server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: 1dbf5c96-31cb-4fd7-8f63-ba8d2bdace34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/u4eCZTxW, headers: {Host: jpafzyhfsg3.yofnhkfc.xyz}}, udp: true}
 - {name: 15|🇯🇵 日本特殊|@ripaojiedian, server: 52.33.38.192, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 美国【付费推荐：https://a0a.xyz】28, server: www.zula.ir, port: 80, type: vmess, uuid: 3e5cda0a-6122-4f54-9e3c-3f49e7a526f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nlch.blueberrynetwork.store}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -2491,9 +2495,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 10|🇭🇰 香港6|@ripaojiedian
+      - 10|🇭🇰 香港|@ripaojiedian
+      - 4Nika-1085
+      - 4FreeIran-1072
+      - 4FreeIran-1105
+      - 4Nika-44
+      - 10,11|新加坡|@ripaojiedian
       - 15|🇯🇵 日本特殊|@ripaojiedian
-      - 美国【付费推荐：https://a0a.xyz】28
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -2505,9 +2513,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 10|🇭🇰 香港6|@ripaojiedian
+      - 10|🇭🇰 香港|@ripaojiedian
+      - 4Nika-1085
+      - 4FreeIran-1072
+      - 4FreeIran-1105
+      - 4Nika-44
+      - 10,11|新加坡|@ripaojiedian
       - 15|🇯🇵 日本特殊|@ripaojiedian
-      - 美国【付费推荐：https://a0a.xyz】28
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -2607,10 +2619,10 @@ proxy-groups:
       - United States_San Francisco_vmess_091
       - None_None_vmess_092
       - Canada_Ottawa_vmess_093
-      - None_None_vmess_094
+      - United States_None_vmess_094
       - United States_None_vmess_095
-      - None_None_vmess_096
-      - None_None_vmess_097
+      - United States_None_vmess_096
+      - United States_None_vmess_097
       - None_None_vmess_098
       - None_None_vmess_099
       - None_None_vmess_0100
@@ -2667,12 +2679,12 @@ proxy-groups:
       - Canada_Ottawa_vmess_72
       - None_None_vmess_73
       - None_None_vmess_74
-      - Taiwan_Zhubei_ss_81
+      - Taiwan_Hsinchu_ss_81
       - None_None_vmess_91
       - Canada_Ottawa_vmess_92
       - None_None_vmess_93
       - None_None_vmess_94
-      - United States_None_hy_0
+      - United States_Los Angeles_hy_0
       - United States_None_hy_1
       - United States_None_hy_2
       - United States_None_hy_3
@@ -2681,9 +2693,13 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
-      - 10|🇭🇰 香港6|@ripaojiedian
+      - 10|🇭🇰 香港|@ripaojiedian
+      - 4Nika-1085
+      - 4FreeIran-1072
+      - 4FreeIran-1105
+      - 4Nika-44
+      - 10,11|新加坡|@ripaojiedian
       - 15|🇯🇵 日本特殊|@ripaojiedian
-      - 美国【付费推荐：https://a0a.xyz】28
   - name: 🐟 漏网之鱼
     type: select
     proxies:
