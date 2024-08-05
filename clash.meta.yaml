@@ -1421,7 +1421,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_094
+- name: United States_None_vmess_094
   type: vmess
   server: icook.tw
   port: 2086
@@ -1511,7 +1511,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_0100
+- name: United States_None_vmess_0100
   type: vmess
   server: skk.moe
   port: 2086
@@ -2476,8 +2476,8 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 15|🇹🇼 台湾|@ripaojiedian, server: gg01.6bnw.top, port: 40018, type: ss, cipher: chacha20-ietf-poly1305, password: ef1cf445-e1b6-4536-ab3c-8aa1bb0dff11, udp: true}
-- {name: 15|🇭🇰 香港|@ripaojiedian, server: aa01gg.sssyun.xyz, port: 39301, type: ss, cipher: chacha20-ietf-poly1305, password: ef1cf445-e1b6-4536-ab3c-8aa1bb0dff11, udp: true}
+- {name: "10,11|日本|@ripaojiedian", server: 183.232.139.24, port: 25560, type: trojan, password: yEnxJlVC, skip-cert-verify: true, udp: true}
+- {name: 4FreeIran-1503, server: 69.50.93.118, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -2490,8 +2490,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 15|🇹🇼 台湾|@ripaojiedian
-      - 15|🇭🇰 香港|@ripaojiedian
+      - 10,11|日本|@ripaojiedian
+      - 4FreeIran-1503
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -2503,8 +2503,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 15|🇹🇼 台湾|@ripaojiedian
-      - 15|🇭🇰 香港|@ripaojiedian
+      - 10,11|日本|@ripaojiedian
+      - 4FreeIran-1503
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -2604,13 +2604,13 @@ proxy-groups:
       - United States_San Francisco_vmess_091
       - None_None_vmess_092
       - Canada_Ottawa_vmess_093
-      - None_None_vmess_094
+      - United States_None_vmess_094
       - United States_None_vmess_095
       - None_None_vmess_096
       - None_None_vmess_097
       - None_None_vmess_098
       - None_None_vmess_099
-      - None_None_vmess_0100
+      - United States_None_vmess_0100
       - None_None_vmess_0101
       - None_None_vmess_11
       - None_None_vmess_12
@@ -2678,8 +2678,8 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
-      - 15|🇹🇼 台湾|@ripaojiedian
-      - 15|🇭🇰 香港|@ripaojiedian
+      - 10,11|日本|@ripaojiedian
+      - 4FreeIran-1503
   - name: 🐟 漏网之鱼
     type: select
     proxies:
