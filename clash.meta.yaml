@@ -2476,8 +2476,9 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: "10,11|日本|@ripaojiedian", server: 183.232.139.24, port: 25560, type: trojan, password: yEnxJlVC, skip-cert-verify: true, udp: true}
-- {name: 4FreeIran-1503, server: 69.50.93.118, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+- {name: "10,11|美国3|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 823b4a45-8728-425b-abb4-2d9ea30fd61e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/6VBhAkCtV4/, headers: {Host: us1cPZiz8nb.fzbqfrse.xyz}}, udp: true}
+- {name: CF | 🟢 | vmess | @v2ray1_ng | 6, server: 104.20.74.91, port: 80, type: vmess, uuid: b2413a5a-d5d0-4447-b6d7-6dbcd2989a35, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: dl2.127.0.0.1.востейcontrol.控制.kонтроль農達懲罰.cводкаhо.wonkacapitano.buzz.}}, udp: true}
+- {name: 4Sarina-2686, server: 38.86.135.141, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -2490,8 +2491,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 10,11|日本|@ripaojiedian
-      - 4FreeIran-1503
+      - 10,11|美国3|@ripaojiedian
+      - CF | 🟢 | vmess | @v2ray1_ng | 6
+      - 4Sarina-2686
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -2503,8 +2505,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 10,11|日本|@ripaojiedian
-      - 4FreeIran-1503
+      - 10,11|美国3|@ripaojiedian
+      - CF | 🟢 | vmess | @v2ray1_ng | 6
+      - 4Sarina-2686
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -2678,8 +2681,9 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
-      - 10,11|日本|@ripaojiedian
-      - 4FreeIran-1503
+      - 10,11|美国3|@ripaojiedian
+      - CF | 🟢 | vmess | @v2ray1_ng | 6
+      - 4Sarina-2686
   - name: 🐟 漏网之鱼
     type: select
     proxies:
