@@ -2479,7 +2479,6 @@ proxies:
 - {name: 4FreeIran-145, server: gw.liangyuandianwan.com, port: 35501, type: ss, cipher: chacha20-ietf-poly1305, password: 3eb2f289-790c-401f-b991-07031de3e7a1, udp: true}
 - {name: "15,16|美国3|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 4c27e0c5-de26-43a5-bffd-2d25beb1c1d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/DDC4btA8wc/, headers: {Host: us2jdgv5GC7.fzbqfrse.xyz}}, udp: true}
 - {name: 15|🇭🇰 香港6|@ripaojiedian, server: aa01gg.sssyun.xyz, port: 36993, type: ss, cipher: chacha20-ietf-poly1305, password: 3632bd90-d85e-42ef-a2b3-36393ae88c17, udp: true}
-- {name: 15|🇭🇰 香港7|@ripaojiedian, server: aa01gg.sssyun.xyz, port: 39301, type: ss, cipher: chacha20-ietf-poly1305, password: 3632bd90-d85e-42ef-a2b3-36393ae88c17, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -2495,7 +2494,6 @@ proxy-groups:
       - 4FreeIran-145
       - 15,16|美国3|@ripaojiedian
       - 15|🇭🇰 香港6|@ripaojiedian
-      - 15|🇭🇰 香港7|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -2510,7 +2508,6 @@ proxy-groups:
       - 4FreeIran-145
       - 15,16|美国3|@ripaojiedian
       - 15|🇭🇰 香港6|@ripaojiedian
-      - 15|🇭🇰 香港7|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -2687,7 +2684,6 @@ proxy-groups:
       - 4FreeIran-145
       - 15,16|美国3|@ripaojiedian
       - 15|🇭🇰 香港6|@ripaojiedian
-      - 15|🇭🇰 香港7|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
