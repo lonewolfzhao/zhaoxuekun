@@ -7989,9 +7989,9 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
+- {name: KR-82.117.226.218-1234, server: cn1.cdn.xfltd-cdn.top, port: 12005, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cn1.cdn.xfltd-cdn.top, skip-cert-verify: true, udp: true}
+- {name: 4Kian-28, server: aa01gg.sssyun.xyz, port: 19529, type: ss, cipher: chacha20-ietf-poly1305, password: 663e1816-6e95-4f9c-a90e-ba62b16ba9c1, udp: true}
 - {name: 4Mohsen-35, server: hk1.mhw7e2.online, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
-- {name: 4Mohsen-1662, server: 38.110.1.3, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-- {name: 10|🇭🇰 香港5|@ripaojiedian, server: 183.236.51.23, port: 54104, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -8004,9 +8004,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - KR-82.117.226.218-1234
+      - 4Kian-28
       - 4Mohsen-35
-      - 4Mohsen-1662
-      - 10|🇭🇰 香港5|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -8018,9 +8018,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - KR-82.117.226.218-1234
+      - 4Kian-28
       - 4Mohsen-35
-      - 4Mohsen-1662
-      - 10|🇭🇰 香港5|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -8561,9 +8561,9 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
+      - KR-82.117.226.218-1234
+      - 4Kian-28
       - 4Mohsen-35
-      - 4Mohsen-1662
-      - 10|🇭🇰 香港5|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
