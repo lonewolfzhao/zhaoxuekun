@@ -7989,11 +7989,12 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 15|🇸🇬 新加坡|@ripaojiedian, server: gg01.6bnw.top, port: 40014, type: ss, cipher: chacha20-ietf-poly1305, password: f9b15148-7fd1-41c6-bd7e-b30e04c4699c, udp: true}
+- {name: "0,12|CN_speednode_0027", server: cn2.cdn.xfltd-cdn.top, port: 12075, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-2, server: 18.236.64.79, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-1, server: 35.87.35.207, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "10,11|台湾2|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: b0ad2482-c734-4ffc-9584-8c018cf6cc9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}}, udp: true}
 - {name: 15|🇻🇳 越南|@ripaojiedian, server: 59.56.77.225, port: 15083, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
-- {name: _US_美国, server: 104.21.106.68, port: 80, type: vmess, uuid: 4797db37-41dc-4bfc-a59f-6c7055b1d15b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: 1270.0.1.dl3.烏克爾拯救聖.yркельпасаетcанту.филь.www.speedtest.com.wonkacapitano.buzz.}}, udp: true}
-- {name: v2ray1_ng 🔓 VM-WS-N/A 🇺🇸 US 5ms, server: 172.67.67.67, port: 80, type: vmess, uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /f4, headers: {Host: Telegram-XV2ry2---XV2ry2---XV2ry2---XV2ry2---XV2ry2---XV2ry2.w.w.w.speedtest.net.xn--g28h.dns-dynamic.net.}}, udp: true}
-- {name: _05, server: 217.30.10.18, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+- {name: 0|-https://t.me/MrXbin-6, server: 34.219.154.160, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -8006,11 +8007,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 15|🇸🇬 新加坡|@ripaojiedian
+      - 0,12|CN_speednode_0027
+      - 0|-https://t.me/MrXbin-2
+      - 0|-https://t.me/MrXbin-1
+      - 10,11|台湾2|@ripaojiedian
       - 15|🇻🇳 越南|@ripaojiedian
-      - _US_美国
-      - v2ray1_ng 🔓 VM-WS-N/A 🇺🇸 US 5ms
-      - _05
+      - 0|-https://t.me/MrXbin-6
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -8022,11 +8024,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 15|🇸🇬 新加坡|@ripaojiedian
+      - 0,12|CN_speednode_0027
+      - 0|-https://t.me/MrXbin-2
+      - 0|-https://t.me/MrXbin-1
+      - 10,11|台湾2|@ripaojiedian
       - 15|🇻🇳 越南|@ripaojiedian
-      - _US_美国
-      - v2ray1_ng 🔓 VM-WS-N/A 🇺🇸 US 5ms
-      - _05
+      - 0|-https://t.me/MrXbin-6
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -8567,11 +8570,12 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
-      - 15|🇸🇬 新加坡|@ripaojiedian
+      - 0,12|CN_speednode_0027
+      - 0|-https://t.me/MrXbin-2
+      - 0|-https://t.me/MrXbin-1
+      - 10,11|台湾2|@ripaojiedian
       - 15|🇻🇳 越南|@ripaojiedian
-      - _US_美国
-      - v2ray1_ng 🔓 VM-WS-N/A 🇺🇸 US 5ms
-      - _05
+      - 0|-https://t.me/MrXbin-6
   - name: 🐟 漏网之鱼
     type: select
     proxies:
