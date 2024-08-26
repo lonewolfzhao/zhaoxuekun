@@ -7989,13 +7989,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
+- {name: 15|🇭🇰 香港2|@ripaojiedian, server: 6bhz.6bnw.top, port: 19527, type: ss, cipher: chacha20-ietf-poly1305, password: 25f6705c-16f0-4c34-b370-5e8e66fa3238, udp: true}
 - {name: 12|CN_speednode_0007, server: cn1.cdn.xfltd-cdn.top, port: 12001, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cn1.cdn.xfltd-cdn.top, skip-cert-verify: true, udp: true}
-- {name: 4FreeIran-1053, server: 54.95.170.220, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 12|CN_speednode_0035, server: cn2.cdn.xfltd-cdn.top, port: 12022, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
-- {name: "10,11|台湾2|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 6923a333-44d7-4fc8-bf93-224bbaad577b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}}, udp: true}
-- {name: 4FreeIran-969, server: 13.228.79.13, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 15|🇻🇳 越南|@ripaojiedian, server: 59.56.77.225, port: 15083, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
 - {name: 4FreeIran-986, server: 18.236.64.79, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 15|🇸🇬 狮城特殊|@ripaojiedian, server: 35.87.4.77, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|-https://t.me/MrXbin-5, server: 34.219.154.160, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -8009,13 +8006,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - 15|🇭🇰 香港2|@ripaojiedian
       - 12|CN_speednode_0007
-      - 4FreeIran-1053
-      - 12|CN_speednode_0035
-      - 10,11|台湾2|@ripaojiedian
-      - 4FreeIran-969
-      - 15|🇻🇳 越南|@ripaojiedian
       - 4FreeIran-986
+      - 15|🇸🇬 狮城特殊|@ripaojiedian
       - 0|-https://t.me/MrXbin-5
   - name: 🔰 节点选择
     type: select
@@ -8028,13 +8022,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - 15|🇭🇰 香港2|@ripaojiedian
       - 12|CN_speednode_0007
-      - 4FreeIran-1053
-      - 12|CN_speednode_0035
-      - 10,11|台湾2|@ripaojiedian
-      - 4FreeIran-969
-      - 15|🇻🇳 越南|@ripaojiedian
       - 4FreeIran-986
+      - 15|🇸🇬 狮城特殊|@ripaojiedian
       - 0|-https://t.me/MrXbin-5
   - name: ♻️ 可能受限
     type: load-balance
@@ -8576,13 +8567,10 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
+      - 15|🇭🇰 香港2|@ripaojiedian
       - 12|CN_speednode_0007
-      - 4FreeIran-1053
-      - 12|CN_speednode_0035
-      - 10,11|台湾2|@ripaojiedian
-      - 4FreeIran-969
-      - 15|🇻🇳 越南|@ripaojiedian
       - 4FreeIran-986
+      - 15|🇸🇬 狮城特殊|@ripaojiedian
       - 0|-https://t.me/MrXbin-5
   - name: 🐟 漏网之鱼
     type: select
