@@ -7989,14 +7989,11 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 12|CN_speednode_0011, server: cn1.cdn.xfltd-cdn.top, port: 12005, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cn1.cdn.xfltd-cdn.top, skip-cert-verify: true, udp: true}
 - {name: 12|CN_speednode_0024, server: cn2.cdn.xfltd-cdn.top, port: 12067, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
-- {name: 10|🇭🇰 香港8|@ripaojiedian, server: ovhsg.v4.ddnsjifeng.xyz, port: 5108, type: vmess, uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ovhsg.v4.ddnsjifeng.xyz}}, udp: true}
-- {name: 4Sarina-1078, server: 54.95.170.220, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Sarina-993, server: 43.201.253.180, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-1, server: 18.236.64.79, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: US-35.87.35.207-0736, server: 35.87.35.207, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 15|🇻🇳 越南|@ripaojiedian, server: 59.56.77.225, port: 15083, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
+- {name: 12|CN_speednode_0010, server: cn1.cdn.xfltd-cdn.top, port: 12004, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cn1.cdn.xfltd-cdn.top, skip-cert-verify: true, udp: true}
+- {name: 4Kian-143, server: iepl5.forlive.live, port: 50118, type: ss, cipher: chacha20-ietf-poly1305, password: 25cb8cd7-800f-359e-81b5-a12863e2018d, udp: true}
+- {name: 15|🇰🇷 韩国特殊|@ripaojiedian, server: 35.85.60.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: US_671, server: 104.16.68.38, port: 2086, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /glweidf.sbs/linkws, headers: {Host: rough-wildflower-0b5e.zemel-yesenia1720.workers.dev}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -8009,14 +8006,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 12|CN_speednode_0011
       - 12|CN_speednode_0024
-      - 10|🇭🇰 香港8|@ripaojiedian
-      - 4Sarina-1078
-      - 4Sarina-993
-      - 0|-https://t.me/MrXbin-1
-      - US-35.87.35.207-0736
-      - 15|🇻🇳 越南|@ripaojiedian
+      - 12|CN_speednode_0010
+      - 4Kian-143
+      - 15|🇰🇷 韩国特殊|@ripaojiedian
+      - US_671
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -8028,14 +8022,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 12|CN_speednode_0011
       - 12|CN_speednode_0024
-      - 10|🇭🇰 香港8|@ripaojiedian
-      - 4Sarina-1078
-      - 4Sarina-993
-      - 0|-https://t.me/MrXbin-1
-      - US-35.87.35.207-0736
-      - 15|🇻🇳 越南|@ripaojiedian
+      - 12|CN_speednode_0010
+      - 4Kian-143
+      - 15|🇰🇷 韩国特殊|@ripaojiedian
+      - US_671
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -8576,14 +8567,11 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
-      - 12|CN_speednode_0011
       - 12|CN_speednode_0024
-      - 10|🇭🇰 香港8|@ripaojiedian
-      - 4Sarina-1078
-      - 4Sarina-993
-      - 0|-https://t.me/MrXbin-1
-      - US-35.87.35.207-0736
-      - 15|🇻🇳 越南|@ripaojiedian
+      - 12|CN_speednode_0010
+      - 4Kian-143
+      - 15|🇰🇷 韩国特殊|@ripaojiedian
+      - US_671
   - name: 🐟 漏网之鱼
     type: select
     proxies:
