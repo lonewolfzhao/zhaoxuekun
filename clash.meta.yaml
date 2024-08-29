@@ -7991,12 +7991,6 @@ proxies:
   skip-cert-verify: true
 - {name: 12|CN_speednode_0018, server: cn2.cdn.xfltd-cdn.top, port: 12034, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
 - {name: 12|CN_speednode_0010, server: cn1.cdn.xfltd-cdn.top, port: 12004, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cn1.cdn.xfltd-cdn.top, skip-cert-verify: true, udp: true}
-- {name: 12|CN_speednode_0011, server: cn1.cdn.xfltd-cdn.top, port: 12005, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cn1.cdn.xfltd-cdn.top, skip-cert-verify: true, udp: true}
-- {name: 12|CN_speednode_0016, server: cn2.cdn.xfltd-cdn.top, port: 12032, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
-- {name: 12|CN_speednode_0009, server: cn1.cdn.xfltd-cdn.top, port: 12003, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cn1.cdn.xfltd-cdn.top, skip-cert-verify: true, udp: true}
-- {name: 12|CN_speednode_0007, server: cn1.cdn.xfltd-cdn.top, port: 12001, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cn1.cdn.xfltd-cdn.top, skip-cert-verify: true, udp: true}
-- {name: 12|CN_speednode_0019, server: cn2.cdn.xfltd-cdn.top, port: 12035, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
-- {name: 12|CN_speednode_0028, server: cn2.cdn.xfltd-cdn.top, port: 12070, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -8011,12 +8005,6 @@ proxy-groups:
     proxies:
       - 12|CN_speednode_0018
       - 12|CN_speednode_0010
-      - 12|CN_speednode_0011
-      - 12|CN_speednode_0016
-      - 12|CN_speednode_0009
-      - 12|CN_speednode_0007
-      - 12|CN_speednode_0019
-      - 12|CN_speednode_0028
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -8030,12 +8018,6 @@ proxy-groups:
     proxies:
       - 12|CN_speednode_0018
       - 12|CN_speednode_0010
-      - 12|CN_speednode_0011
-      - 12|CN_speednode_0016
-      - 12|CN_speednode_0009
-      - 12|CN_speednode_0007
-      - 12|CN_speednode_0019
-      - 12|CN_speednode_0028
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -8578,12 +8560,6 @@ proxy-groups:
 
       - 12|CN_speednode_0018
       - 12|CN_speednode_0010
-      - 12|CN_speednode_0011
-      - 12|CN_speednode_0016
-      - 12|CN_speednode_0009
-      - 12|CN_speednode_0007
-      - 12|CN_speednode_0019
-      - 12|CN_speednode_0028
   - name: 🐟 漏网之鱼
     type: select
     proxies:
