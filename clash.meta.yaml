@@ -7989,14 +7989,11 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 12|CN_speednode_0034, server: cn2.cdn.xfltd-cdn.top, port: 12021, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
-- {name: 15|🇭🇰 香港2|@ripaojiedian, server: 911.wdy88.com, port: 33941, type: ss, cipher: chacha20-ietf-poly1305, password: 76321d59-6bf2-4d77-8cc8-94219de74ccc, udp: true}
+- {name: 12|CN_speednode_0018, server: cn2.cdn.xfltd-cdn.top, port: 12034, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
+- {name: 12|CN_speednode_0011, server: cn1.cdn.xfltd-cdn.top, port: 12005, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cn1.cdn.xfltd-cdn.top, skip-cert-verify: true, udp: true}
+- {name: US_674, server: 104.16.60.8, port: 8880, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ivideos.sbs/linkws, headers: {Host: nd-truth-210a8hwjhs.bonar11011.workers.dev}}, udp: true}
 - {name: "10,11|美国2|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: b300b4b1-e6d4-463b-9dae-2ac0cfa0d218, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/DDC4btA8wc/, headers: {Host: us2jdgv5GC7.fzbqfrse.xyz}}, udp: true}
-- {name: 12|CN_speednode_0007, server: cn1.cdn.xfltd-cdn.top, port: 12001, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cn1.cdn.xfltd-cdn.top, skip-cert-verify: true, udp: true}
-- {name: US_647, server: 172.66.47.86, port: 2095, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /max.mankadmu.com/linkvws, headers: {Host: sany0116.donovan-a79.workers.dev}}, udp: true}
-- {name: 4FreeIran-499, server: 212.118.54.195, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Q5cAxpeZzVtukD2gz5FQ6g, udp: true}
-- {name: 12|CN_speednode_0061, server: 223.113.54.185, port: 41115, type: trojan, password: pTuMwddQ, skip-cert-verify: true, udp: true}
-- {name: US_665, server: 104.16.61.8, port: 2082, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ivideos.sbs/linkws, headers: {Host: ury-unit-c030ehei8.poget71138.workers.dev}}, udp: true}
+- {name: 12|LU_speednode_0271, server: 82.117.226.218, port: 12023, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -8009,14 +8006,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 12|CN_speednode_0034
-      - 15|🇭🇰 香港2|@ripaojiedian
+      - 12|CN_speednode_0018
+      - 12|CN_speednode_0011
+      - US_674
       - 10,11|美国2|@ripaojiedian
-      - 12|CN_speednode_0007
-      - US_647
-      - 4FreeIran-499
-      - 12|CN_speednode_0061
-      - US_665
+      - 12|LU_speednode_0271
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -8028,14 +8022,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 12|CN_speednode_0034
-      - 15|🇭🇰 香港2|@ripaojiedian
+      - 12|CN_speednode_0018
+      - 12|CN_speednode_0011
+      - US_674
       - 10,11|美国2|@ripaojiedian
-      - 12|CN_speednode_0007
-      - US_647
-      - 4FreeIran-499
-      - 12|CN_speednode_0061
-      - US_665
+      - 12|LU_speednode_0271
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -8576,14 +8567,11 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
-      - 12|CN_speednode_0034
-      - 15|🇭🇰 香港2|@ripaojiedian
+      - 12|CN_speednode_0018
+      - 12|CN_speednode_0011
+      - US_674
       - 10,11|美国2|@ripaojiedian
-      - 12|CN_speednode_0007
-      - US_647
-      - 4FreeIran-499
-      - 12|CN_speednode_0061
-      - US_665
+      - 12|LU_speednode_0271
   - name: 🐟 漏网之鱼
     type: select
     proxies:
