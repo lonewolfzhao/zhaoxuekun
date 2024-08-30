@@ -7995,8 +7995,6 @@ proxies:
 - {name: 4FreeIran-968, server: 13.250.14.224, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: US_647, server: 172.66.47.86, port: 2095, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /max.mankadmu.com/linkvws, headers: {Host: sany0116.donovan-a79.workers.dev}}, udp: true}
 - {name: 15|🇹🇼 台湾|@ripaojiedian, server: gg01.6bnw.top, port: 40018, type: ss, cipher: chacha20-ietf-poly1305, password: 4b1b1e13-1e02-4b73-848a-e99cefab6f55, udp: true}
-- {name: US_671, server: 172.66.44.170, port: 2095, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /max.mankadmu.com/linkvws, headers: {Host: sany0116.donovan-a79.workers.dev}}, udp: true}
-- {name: 美国 CloudFlare节点, server: 104.19.235.1, port: 80, type: vmess, uuid: aa6c09dc-aa4a-4914-b439-6d8117f733a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess#t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro, headers: {Host: 127.0.0.1.востейcontrol.kонтроль農達懲罰.wonkacapitano.buzz.}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -8015,8 +8013,6 @@ proxy-groups:
       - 4FreeIran-968
       - US_647
       - 15|🇹🇼 台湾|@ripaojiedian
-      - US_671
-      - 美国 CloudFlare节点
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -8034,8 +8030,6 @@ proxy-groups:
       - 4FreeIran-968
       - US_647
       - 15|🇹🇼 台湾|@ripaojiedian
-      - US_671
-      - 美国 CloudFlare节点
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -8582,8 +8576,6 @@ proxy-groups:
       - 4FreeIran-968
       - US_647
       - 15|🇹🇼 台湾|@ripaojiedian
-      - US_671
-      - 美国 CloudFlare节点
   - name: 🐟 漏网之鱼
     type: select
     proxies:
