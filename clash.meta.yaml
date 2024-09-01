@@ -7989,12 +7989,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: "10,11|香港4|@ripaojiedian", server: 223.113.54.185, port: 5395, type: trojan, password: bDDJrvVT, skip-cert-verify: true, udp: true}
-- {name: "10,11|美国4|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 63911f91-bc91-4b71-8d40-9ba99e7043e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/DDC4btA8wc/, headers: {Host: us2jdgv5GC7.fzbqfrse.xyz}}, udp: true}
-- {name: 美国 CloudFlare节点, server: 104.18.69.0, port: 80, type: vmess, uuid: aa6c09dc-aa4a-4914-b439-6d8117f733a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess#t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro, headers: {Host: 127.0.0.1.востейcontrol.kонтроль農達懲罰.wonkacapitano.buzz.}}, udp: true}
-- {name: "10,11|美国2|@ripaojiedian", server: mugen11.6bnw.top, port: 8080, type: vmess, uuid: 4b1b1e13-1e02-4b73-848a-e99cefab6f55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/cctv?ed=2048", headers: {Host: buyvmus.6bnw.top}}, udp: true}
+- {name: 4FreeIran-1027, server: 54.95.170.220, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Kian-986, server: 43.201.253.180, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 美国 CloudFlare节点 2, server: 104.19.235.1, port: 80, type: vmess, uuid: aa6c09dc-aa4a-4914-b439-6d8117f733a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess#t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro, headers: {Host: 127.0.0.1.востейcontrol.kонтроль農達懲罰.wonkacapitano.buzz.}}, udp: true}
+- {name: "10,11|美国2|@ripaojiedian", server: mugen11.6bnw.top, port: 8080, type: vmess, uuid: 4b1b1e13-1e02-4b73-848a-e99cefab6f55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/cctv?ed=2048", headers: {Host: buyvmus.6bnw.top}}, udp: true}
+- {name: "10,11|美国4|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 63911f91-bc91-4b71-8d40-9ba99e7043e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/DDC4btA8wc/, headers: {Host: us2jdgv5GC7.fzbqfrse.xyz}}, udp: true}
+- {name: 美国 CloudFlare节点, server: 104.19.235.1, port: 80, type: vmess, uuid: aa6c09dc-aa4a-4914-b439-6d8117f733a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess#t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro, headers: {Host: 127.0.0.1.востейcontrol.kонтроль農達懲罰.wonkacapitano.buzz.}}, udp: true}
+- {name: 4FreeIran-953, server: 13.250.14.224, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 美国 CloudFlare节点 2, server: 104.18.69.0, port: 80, type: vmess, uuid: aa6c09dc-aa4a-4914-b439-6d8117f733a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess#t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro, headers: {Host: 127.0.0.1.востейcontrol.kонтроль農達懲罰.wonkacapitano.buzz.}}, udp: true}
+- {name: 4FreeIran-573, server: 89.110.106.123, port: 539, type: ss, cipher: chacha20-ietf-poly1305, password: c2osEVIB57XjYO0AkUHFTQ, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -8007,12 +8009,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 10,11|香港4|@ripaojiedian
+      - 4FreeIran-1027
+      - 4Kian-986
+      - 10,11|美国2|@ripaojiedian
       - 10,11|美国4|@ripaojiedian
       - 美国 CloudFlare节点
-      - 10,11|美国2|@ripaojiedian
-      - 4Kian-986
+      - 4FreeIran-953
       - 美国 CloudFlare节点 2
+      - 4FreeIran-573
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -8024,12 +8028,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 10,11|香港4|@ripaojiedian
+      - 4FreeIran-1027
+      - 4Kian-986
+      - 10,11|美国2|@ripaojiedian
       - 10,11|美国4|@ripaojiedian
       - 美国 CloudFlare节点
-      - 10,11|美国2|@ripaojiedian
-      - 4Kian-986
+      - 4FreeIran-953
       - 美国 CloudFlare节点 2
+      - 4FreeIran-573
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -8570,12 +8576,14 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
-      - 10,11|香港4|@ripaojiedian
+      - 4FreeIran-1027
+      - 4Kian-986
+      - 10,11|美国2|@ripaojiedian
       - 10,11|美国4|@ripaojiedian
       - 美国 CloudFlare节点
-      - 10,11|美国2|@ripaojiedian
-      - 4Kian-986
+      - 4FreeIran-953
       - 美国 CloudFlare节点 2
+      - 4FreeIran-573
   - name: 🐟 漏网之鱼
     type: select
     proxies:
