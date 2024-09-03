@@ -7989,10 +7989,11 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 15|🇯🇵 日本特殊|@ripaojiedian, server: 34.208.60.66, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Kian-518, server: 207.246.101.50, port: 1633, type: ss, cipher: chacha20-ietf-poly1305, password: o_A7inN1yqeWtOTL, udp: true}
 - {name: "15|ð\x9f\x87¸ð\x9f\x87¬ ç\x8b®å\x9f\x8eç\x89¹æ®\x8a|@ripaojiedian", server: 54.212.54.38, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 美国 V2CROSS.COM, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+- {name: 15|🇯🇵 日本特殊|@ripaojiedian, server: 34.208.60.66, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4FreeIran-628, server: 141.98.101.178, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+- {name: 波兰 V2CROSS.COM, server: 141.98.101.179, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+- {name: 15|🇭🇰 香港5|@ripaojiedian, server: gdyddx500.xiyunchen.cn, port: 1342, type: ss, cipher: chacha20-ietf-poly1305, password: d3f674e2-b985-49d2-8654-4b8d53e20217, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -8005,10 +8006,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 15|🇯🇵 日本特殊|@ripaojiedian
-      - 4Kian-518
       - "15|ð\x9f\x87¸ð\x9f\x87¬ ç\x8b®å\x9f\x8eç\x89¹æ®\x8a|@ripaojiedian"
-      - 美国 V2CROSS.COM
+      - 15|🇯🇵 日本特殊|@ripaojiedian
+      - 4FreeIran-628
+      - 波兰 V2CROSS.COM
+      - 15|🇭🇰 香港5|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -8020,10 +8022,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 15|🇯🇵 日本特殊|@ripaojiedian
-      - 4Kian-518
       - "15|ð\x9f\x87¸ð\x9f\x87¬ ç\x8b®å\x9f\x8eç\x89¹æ®\x8a|@ripaojiedian"
-      - 美国 V2CROSS.COM
+      - 15|🇯🇵 日本特殊|@ripaojiedian
+      - 4FreeIran-628
+      - 波兰 V2CROSS.COM
+      - 15|🇭🇰 香港5|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -8564,10 +8567,11 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
-      - 15|🇯🇵 日本特殊|@ripaojiedian
-      - 4Kian-518
       - "15|ð\x9f\x87¸ð\x9f\x87¬ ç\x8b®å\x9f\x8eç\x89¹æ®\x8a|@ripaojiedian"
-      - 美国 V2CROSS.COM
+      - 15|🇯🇵 日本特殊|@ripaojiedian
+      - 4FreeIran-628
+      - 波兰 V2CROSS.COM
+      - 15|🇭🇰 香港5|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
