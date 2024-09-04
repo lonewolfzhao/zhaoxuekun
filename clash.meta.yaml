@@ -7989,14 +7989,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: "10,11|香港4|@ripaojiedian", server: 223.113.54.185, port: 5395, type: trojan, password: bDDJrvVT, skip-cert-verify: true, udp: true}
-- {name: 15|🇯🇵 日本特殊|@ripaojiedian, server: 43.201.112.173, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Nika-54, server: deepf.hjkdsak2.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: 99301d55-a41f-4919-986b-1435996533aa, udp: true}
+- {name: "10,11|美国2|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: dd6973d6-9af9-4edd-9140-c57eab178a0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/DDC4btA8wc/, headers: {Host: us2jdgv5GC7.fzbqfrse.xyz}}, udp: true}
+- {name: 11|美国3|@ripaojiedian, server: bvip.hongxingdl.vip, port: 19358, type: vmess, uuid: c8c638a2-93f5-49a0-92eb-b5db91a3fa08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 美国 V2CROSS.COM, server: etc.dargah.xyz, port: 80, type: vmess, uuid: b1fecac5-0eb0-440c-ba9b-a937b34881d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/navigate?ed=1048", headers: {Host: 2159f5d95089e5a0.2159f5d95089e5a0.2159f5d95089e5a0.2159f5d95089e5a0.de-dargah.YaDAKFIX.Ir.}}, udp: true}
-- {name: oneclickvpnkeys 🔓 VM-WS-N/A 🇸🇪 SE 2ms, server: 185.146.173.167, port: 80, type: vmess, uuid: b1fecac5-0eb0-440c-ba9b-a937b34881d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/navigate?ed=1048", headers: {Host: 0a687accaa11b7a9.0a687accaa11b7a9.0a687accaa11b7a9.0a687accaa11b7a9.fi-dargah.OfFDARsaD.iR.}}, udp: true}
-- {name: 4Kian-636, server: 141.98.101.182, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+- {name: VM-WS-NA 🇺🇸 US-192.0.63.52:80, server: 192.0.63.52, port: 80, type: vmess, uuid: b1fecac5-0eb0-440c-ba9b-a937b34881d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/navigate?ed=1048", headers: {Host: bc5b7c78aab4b5dc.bc5b7c78aab4b5dc.bc5b7c78aab4b5dc.bc5b7c78aab4b5dc.fi-dargah.GOsHiRaN.ir.}}, udp: true}
 - {name: "15|ð\x9f\x87¸ð\x9f\x87¬ ç\x8b®å\x9f\x8eç\x89¹æ®\x8a|@ripaojiedian", server: 54.212.54.38, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 波兰 V2CROSS.COM, server: 141.98.101.179, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+- {name: oneclickvpnkeys 🔓 VM-WS-N/A 🇸🇪 SE 2ms, server: 185.146.173.167, port: 80, type: vmess, uuid: b1fecac5-0eb0-440c-ba9b-a937b34881d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/navigate?ed=1048", headers: {Host: 0a687accaa11b7a9.0a687accaa11b7a9.0a687accaa11b7a9.0a687accaa11b7a9.fi-dargah.OfFDARsaD.iR.}}, udp: true}
+- {name: 美国 CloudFlare节点, server: 162.159.136.106, port: 80, type: vmess, uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rn2.hostmjj.com}}, udp: true}
+- {name: "10,11|香港2|@ripaojiedian", server: 220.246.57.161, port: 30068, type: vmess, uuid: 1cbb8f04-b0cc-4520-8b17-ed412f457b9f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -8009,14 +8009,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 10,11|香港4|@ripaojiedian
-      - 15|🇯🇵 日本特殊|@ripaojiedian
-      - 4Nika-54
+      - 10,11|美国2|@ripaojiedian
+      - 11|美国3|@ripaojiedian
       - 美国 V2CROSS.COM
-      - oneclickvpnkeys 🔓 VM-WS-N/A 🇸🇪 SE 2ms
-      - 4Kian-636
+      - VM-WS-NA 🇺🇸 US-192.0.63.52:80
       - "15|ð\x9f\x87¸ð\x9f\x87¬ ç\x8b®å\x9f\x8eç\x89¹æ®\x8a|@ripaojiedian"
-      - 波兰 V2CROSS.COM
+      - oneclickvpnkeys 🔓 VM-WS-N/A 🇸🇪 SE 2ms
+      - 美国 CloudFlare节点
+      - 10,11|香港2|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -8028,14 +8028,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 10,11|香港4|@ripaojiedian
-      - 15|🇯🇵 日本特殊|@ripaojiedian
-      - 4Nika-54
+      - 10,11|美国2|@ripaojiedian
+      - 11|美国3|@ripaojiedian
       - 美国 V2CROSS.COM
-      - oneclickvpnkeys 🔓 VM-WS-N/A 🇸🇪 SE 2ms
-      - 4Kian-636
+      - VM-WS-NA 🇺🇸 US-192.0.63.52:80
       - "15|ð\x9f\x87¸ð\x9f\x87¬ ç\x8b®å\x9f\x8eç\x89¹æ®\x8a|@ripaojiedian"
-      - 波兰 V2CROSS.COM
+      - oneclickvpnkeys 🔓 VM-WS-N/A 🇸🇪 SE 2ms
+      - 美国 CloudFlare节点
+      - 10,11|香港2|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -8576,14 +8576,14 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
-      - 10,11|香港4|@ripaojiedian
-      - 15|🇯🇵 日本特殊|@ripaojiedian
-      - 4Nika-54
+      - 10,11|美国2|@ripaojiedian
+      - 11|美国3|@ripaojiedian
       - 美国 V2CROSS.COM
-      - oneclickvpnkeys 🔓 VM-WS-N/A 🇸🇪 SE 2ms
-      - 4Kian-636
+      - VM-WS-NA 🇺🇸 US-192.0.63.52:80
       - "15|ð\x9f\x87¸ð\x9f\x87¬ ç\x8b®å\x9f\x8eç\x89¹æ®\x8a|@ripaojiedian"
-      - 波兰 V2CROSS.COM
+      - oneclickvpnkeys 🔓 VM-WS-N/A 🇸🇪 SE 2ms
+      - 美国 CloudFlare节点
+      - 10,11|香港2|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
