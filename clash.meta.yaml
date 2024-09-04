@@ -1421,7 +1421,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_094
+- name: United States_None_vmess_094
   type: vmess
   server: icook.tw
   port: 2086
@@ -1451,7 +1451,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_096
+- name: None_None_vmess_096
   type: vmess
   server: japan.com
   port: 2086
@@ -1466,7 +1466,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_097
+- name: United States_None_vmess_097
   type: vmess
   server: malaysia.com
   port: 2086
@@ -1496,7 +1496,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_099
+- name: United States_None_vmess_099
   type: vmess
   server: singapore.com
   port: 2086
@@ -1511,7 +1511,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_0100
+- name: United States_None_vmess_0100
   type: vmess
   server: skk.moe
   port: 2086
@@ -2996,7 +2996,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_198
+- name: United States_None_vmess_198
   type: vmess
   server: russia.com
   port: 2086
@@ -3011,7 +3011,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_199
+- name: None_None_vmess_199
   type: vmess
   server: singapore.com
   port: 2086
@@ -3026,7 +3026,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_1100
+- name: None_None_vmess_1100
   type: vmess
   server: skk.moe
   port: 2086
@@ -4676,7 +4676,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_597
+- name: None_None_vmess_597
   type: vmess
   server: malaysia.com
   port: 2086
@@ -4691,7 +4691,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_598
+- name: None_None_vmess_598
   type: vmess
   server: russia.com
   port: 2086
@@ -6281,7 +6281,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_799
+- name: None_None_vmess_799
   type: vmess
   server: singapore.com
   port: 2086
@@ -7721,7 +7721,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_894
+- name: United States_None_vmess_894
   type: vmess
   server: icook.tw
   port: 2086
@@ -7766,7 +7766,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_897
+- name: United States_None_vmess_897
   type: vmess
   server: malaysia.com
   port: 2086
@@ -7781,7 +7781,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_898
+- name: United States_None_vmess_898
   type: vmess
   server: russia.com
   port: 2086
@@ -7990,7 +7990,7 @@ proxies:
   sni: www.bing.com
   skip-cert-verify: true
 - {name: "15|ð\x9f\x87¸ð\x9f\x87¬ ç\x8b®å\x9f\x8eç\x89¹æ®\x8a|@ripaojiedian", server: 54.212.54.38, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Kian-1842, server: 23.154.136.132, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+- {name: 4Kian-660, server: 212.102.47.130, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -8004,7 +8004,7 @@ proxy-groups:
     interval: 60
     proxies:
       - "15|ð\x9f\x87¸ð\x9f\x87¬ ç\x8b®å\x9f\x8eç\x89¹æ®\x8a|@ripaojiedian"
-      - 4Kian-1842
+      - 4Kian-660
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -8017,7 +8017,7 @@ proxy-groups:
     interval: 60
     proxies:
       - "15|ð\x9f\x87¸ð\x9f\x87¬ ç\x8b®å\x9f\x8eç\x89¹æ®\x8a|@ripaojiedian"
-      - 4Kian-1842
+      - 4Kian-660
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -8117,13 +8117,13 @@ proxy-groups:
       - United States_San Francisco_vmess_091
       - None_None_vmess_092
       - Canada_Ottawa_vmess_093
-      - None_None_vmess_094
+      - United States_None_vmess_094
       - United States_None_vmess_095
-      - United States_None_vmess_096
-      - None_None_vmess_097
+      - None_None_vmess_096
+      - United States_None_vmess_097
       - None_None_vmess_098
-      - None_None_vmess_099
-      - None_None_vmess_0100
+      - United States_None_vmess_099
+      - United States_None_vmess_0100
       - None_None_vmess_0101
       - None_None_vmess_11
       - None_None_vmess_12
@@ -8222,9 +8222,9 @@ proxy-groups:
       - None_None_vmess_195
       - None_None_vmess_196
       - None_None_vmess_197
-      - None_None_vmess_198
-      - United States_None_vmess_199
-      - United States_None_vmess_1100
+      - United States_None_vmess_198
+      - None_None_vmess_199
+      - None_None_vmess_1100
       - None_None_vmess_1101
       - None_None_vmess_21
       - Canada_Ottawa_vmess_22
@@ -8334,8 +8334,8 @@ proxy-groups:
       - United States_None_vmess_594
       - None_None_vmess_595
       - None_None_vmess_596
-      - United States_None_vmess_597
-      - United States_None_vmess_598
+      - None_None_vmess_597
+      - None_None_vmess_598
       - None_None_vmess_599
       - None_None_vmess_5100
       - None_None_vmess_5101
@@ -8441,7 +8441,7 @@ proxy-groups:
       - None_None_vmess_796
       - None_None_vmess_797
       - None_None_vmess_798
-      - United States_None_vmess_799
+      - None_None_vmess_799
       - None_None_vmess_7100
       - None_None_vmess_7101
       - None_None_vmess_81
@@ -8537,11 +8537,11 @@ proxy-groups:
       - United States_San Francisco_vmess_891
       - None_None_vmess_892
       - Canada_Ottawa_vmess_893
-      - None_None_vmess_894
+      - United States_None_vmess_894
       - None_None_vmess_895
       - None_None_vmess_896
-      - None_None_vmess_897
-      - None_None_vmess_898
+      - United States_None_vmess_897
+      - United States_None_vmess_898
       - None_None_vmess_899
       - None_None_vmess_8100
       - None_None_vmess_8101
@@ -8559,7 +8559,7 @@ proxy-groups:
       - United States_None_hy2_3
 
       - "15|ð\x9f\x87¸ð\x9f\x87¬ ç\x8b®å\x9f\x8eç\x89¹æ®\x8a|@ripaojiedian"
-      - 4Kian-1842
+      - 4Kian-660
   - name: 🐟 漏网之鱼
     type: select
     proxies:
