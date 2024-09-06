@@ -7990,9 +7990,9 @@ proxies:
   sni: www.bing.com
   skip-cert-verify: true
 - {name: "10,11|香港4|@ripaojiedian", server: 36.151.195.24, port: 51377, type: trojan, password: lNOcIAxy, skip-cert-verify: true, udp: true}
-- {name: 4Kian-793, server: 13.112.106.148, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 15|🇰🇷 韩国特殊|@ripaojiedian, server: 3.38.181.9, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "10,11|美国3|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: dd6973d6-9af9-4edd-9140-c57eab178a0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/QXjZG5u4F2, headers: {Host: us3AJ8biuQx.fzbqfrse.xyz}}, udp: true}
+- {name: 15|🇯🇵 日本特殊|@ripaojiedian, server: 35.85.56.3, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 15|🇸🇬 狮城特殊|@ripaojiedian, server: 54.68.140.86, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -8006,9 +8006,9 @@ proxy-groups:
     interval: 60
     proxies:
       - 10,11|香港4|@ripaojiedian
-      - 4Kian-793
       - 15|🇰🇷 韩国特殊|@ripaojiedian
-      - 10,11|美国3|@ripaojiedian
+      - 15|🇯🇵 日本特殊|@ripaojiedian
+      - 15|🇸🇬 狮城特殊|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -8021,9 +8021,9 @@ proxy-groups:
     interval: 60
     proxies:
       - 10,11|香港4|@ripaojiedian
-      - 4Kian-793
       - 15|🇰🇷 韩国特殊|@ripaojiedian
-      - 10,11|美国3|@ripaojiedian
+      - 15|🇯🇵 日本特殊|@ripaojiedian
+      - 15|🇸🇬 狮城特殊|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -8565,9 +8565,9 @@ proxy-groups:
       - United States_None_hy2_3
 
       - 10,11|香港4|@ripaojiedian
-      - 4Kian-793
       - 15|🇰🇷 韩国特殊|@ripaojiedian
-      - 10,11|美国3|@ripaojiedian
+      - 15|🇯🇵 日本特殊|@ripaojiedian
+      - 15|🇸🇬 狮城特殊|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
