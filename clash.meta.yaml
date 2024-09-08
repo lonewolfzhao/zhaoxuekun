@@ -7991,9 +7991,6 @@ proxies:
   skip-cert-verify: true
 - {name: "10,11|香港4|@ripaojiedian", server: 36.151.195.24, port: 51377, type: trojan, password: lNOcIAxy, skip-cert-verify: true, udp: true}
 - {name: 15|🇯🇵 日本特殊|@ripaojiedian, server: 35.85.56.3, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "10,11|香港5|@ripaojiedian", server: 157.254.22.109, port: 80, type: vmess, uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /syjsq/data, headers: {Host: syjsq.hk5.flyidc.top}}, udp: true}
-- {name: 俄罗斯 莫斯科JustHost, server: 97e355d4-sjlts0-sjblbk-wk2w.ru.z7zi.com, port: 1007, type: trojan, password: 88903f70-b50b-11ed-8775-f23c9164ca5d, skip-cert-verify: true, udp: true}
-- {name: "15|ð\x9f\x87­ð\x9f\x87° é¦\x99æ¸¯2|@ripaojiedian", server: gdyddx500.xiyunchen.cn, port: 1342, type: ss, cipher: chacha20-ietf-poly1305, password: 63b37069-ade8-4d4c-a6dc-1161df539069, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -8008,9 +8005,6 @@ proxy-groups:
     proxies:
       - 10,11|香港4|@ripaojiedian
       - 15|🇯🇵 日本特殊|@ripaojiedian
-      - 10,11|香港5|@ripaojiedian
-      - 俄罗斯 莫斯科JustHost
-      - "15|ð\x9f\x87­ð\x9f\x87° é¦\x99æ¸¯2|@ripaojiedian"
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -8024,9 +8018,6 @@ proxy-groups:
     proxies:
       - 10,11|香港4|@ripaojiedian
       - 15|🇯🇵 日本特殊|@ripaojiedian
-      - 10,11|香港5|@ripaojiedian
-      - 俄罗斯 莫斯科JustHost
-      - "15|ð\x9f\x87­ð\x9f\x87° é¦\x99æ¸¯2|@ripaojiedian"
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -8569,9 +8560,6 @@ proxy-groups:
 
       - 10,11|香港4|@ripaojiedian
       - 15|🇯🇵 日本特殊|@ripaojiedian
-      - 10,11|香港5|@ripaojiedian
-      - 俄罗斯 莫斯科JustHost
-      - "15|ð\x9f\x87­ð\x9f\x87° é¦\x99æ¸¯2|@ripaojiedian"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
