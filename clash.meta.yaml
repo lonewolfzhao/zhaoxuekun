@@ -7989,10 +7989,8 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: "10,11|香港4|@ripaojiedian", server: 36.151.195.24, port: 51377, type: trojan, password: lNOcIAxy, skip-cert-verify: true, udp: true}
+- {name: RU-176.32.35.167-1597, server: 176.32.35.167, port: 1007, type: trojan, password: 88903f70-b50b-11ed-8775-f23c9164ca5d, sni: 97e355d4-sjlts0-sjblbk-wk2w.ru.z7zi.com, skip-cert-verify: true, udp: true}
 - {name: 俄罗斯 莫斯科JustHost, server: 97e355d4-sjlts0-sjblbk-wk2w.ru.z7zi.com, port: 1007, type: trojan, password: 88903f70-b50b-11ed-8775-f23c9164ca5d, skip-cert-verify: true, udp: true}
-- {name: "20|ç¾\x8eå\x9b½_ç\x94±å¿«å\x98´ç§\x91æ\x8a\x80æ\x8f\x90ä¾\x9bï¼\x9akkzui.comç¾\x8eå\x9b½_87_ç\x94±å¿«å\x98´ç§\x91...", server: f41.maryam1500.top, port: 2098, type: vmess, uuid: 83876222-64a4-4912-aa18-b7d9d34959de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [f41.maryam1500.top]}}, udp: true}
-- {name: 美国 V2CROSS.COM, server: 69.50.95.179, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -8005,10 +8003,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 10,11|香港4|@ripaojiedian
+      - RU-176.32.35.167-1597
       - 俄罗斯 莫斯科JustHost
-      - "20|ç¾\x8eå\x9b½_ç\x94±å¿«å\x98´ç§\x91æ\x8a\x80æ\x8f\x90ä¾\x9bï¼\x9akkzui.comç¾\x8eå\x9b½_87_ç\x94±å¿«å\x98´ç§\x91..."
-      - 美国 V2CROSS.COM
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -8020,10 +8016,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 10,11|香港4|@ripaojiedian
+      - RU-176.32.35.167-1597
       - 俄罗斯 莫斯科JustHost
-      - "20|ç¾\x8eå\x9b½_ç\x94±å¿«å\x98´ç§\x91æ\x8a\x80æ\x8f\x90ä¾\x9bï¼\x9akkzui.comç¾\x8eå\x9b½_87_ç\x94±å¿«å\x98´ç§\x91..."
-      - 美国 V2CROSS.COM
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -8564,10 +8558,8 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
-      - 10,11|香港4|@ripaojiedian
+      - RU-176.32.35.167-1597
       - 俄罗斯 莫斯科JustHost
-      - "20|ç¾\x8eå\x9b½_ç\x94±å¿«å\x98´ç§\x91æ\x8a\x80æ\x8f\x90ä¾\x9bï¼\x9akkzui.comç¾\x8eå\x9b½_87_ç\x94±å¿«å\x98´ç§\x91..."
-      - 美国 V2CROSS.COM
   - name: 🐟 漏网之鱼
     type: select
     proxies:
