@@ -7989,10 +7989,12 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: "10,11|香港4|@ripaojiedian", server: 36.151.195.83, port: 444, type: trojan, password: lNOcIAxy, skip-cert-verify: true, udp: true}
-- {name: "15|ð\x9f\x87¯ð\x9f\x87µ æ\x97¥æ\x9c¬2|@ripaojiedian", server: link.karleynetwork.xyz, port: 23335, type: ss, cipher: chacha20-ietf-poly1305, password: 2b0ea7b4-bd27-4995-bc95-a817174b6f7c, udp: true}
 - {name: "15|ð\x9f\x87¹ð\x9f\x87¼ å\x8f°æ¹¾|@ripaojiedian", server: group-south-01.nutbit-node.lat, port: 11011, type: ss, cipher: aes-128-gcm, password: 5014dfd8-cbef-46d8-b96a-b75565be73ab, udp: true}
-- {name: 4Mohsen-638, server: 141.98.101.182, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+- {name: "10,11|香港4|@ripaojiedian", server: 36.151.195.83, port: 444, type: trojan, password: lNOcIAxy, skip-cert-verify: true, udp: true}
+- {name: 15|🇯🇵 日本特殊|@ripaojiedian, server: 43.203.141.142, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "15|ð\x9f\x87¹ð\x9f\x87¼ å\x8f°æ¹¾2|@ripaojiedian", server: link.karleynetwork.xyz, port: 23334, type: ss, cipher: chacha20-ietf-poly1305, password: 2b0ea7b4-bd27-4995-bc95-a817174b6f7c, udp: true}
+- {name: 4Mohsen-825, server: 34.212.155.53, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 15|🇰🇷 韩国特殊|@ripaojiedian, server: 43.201.253.79, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -8005,10 +8007,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 10,11|香港4|@ripaojiedian
-      - "15|ð\x9f\x87¯ð\x9f\x87µ æ\x97¥æ\x9c¬2|@ripaojiedian"
       - "15|ð\x9f\x87¹ð\x9f\x87¼ å\x8f°æ¹¾|@ripaojiedian"
-      - 4Mohsen-638
+      - 10,11|香港4|@ripaojiedian
+      - 15|🇯🇵 日本特殊|@ripaojiedian
+      - "15|ð\x9f\x87¹ð\x9f\x87¼ å\x8f°æ¹¾2|@ripaojiedian"
+      - 4Mohsen-825
+      - 15|🇰🇷 韩国特殊|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -8020,10 +8024,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 10,11|香港4|@ripaojiedian
-      - "15|ð\x9f\x87¯ð\x9f\x87µ æ\x97¥æ\x9c¬2|@ripaojiedian"
       - "15|ð\x9f\x87¹ð\x9f\x87¼ å\x8f°æ¹¾|@ripaojiedian"
-      - 4Mohsen-638
+      - 10,11|香港4|@ripaojiedian
+      - 15|🇯🇵 日本特殊|@ripaojiedian
+      - "15|ð\x9f\x87¹ð\x9f\x87¼ å\x8f°æ¹¾2|@ripaojiedian"
+      - 4Mohsen-825
+      - 15|🇰🇷 韩国特殊|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -8564,10 +8570,12 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
-      - 10,11|香港4|@ripaojiedian
-      - "15|ð\x9f\x87¯ð\x9f\x87µ æ\x97¥æ\x9c¬2|@ripaojiedian"
       - "15|ð\x9f\x87¹ð\x9f\x87¼ å\x8f°æ¹¾|@ripaojiedian"
-      - 4Mohsen-638
+      - 10,11|香港4|@ripaojiedian
+      - 15|🇯🇵 日本特殊|@ripaojiedian
+      - "15|ð\x9f\x87¹ð\x9f\x87¼ å\x8f°æ¹¾2|@ripaojiedian"
+      - 4Mohsen-825
+      - 15|🇰🇷 韩国特殊|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
