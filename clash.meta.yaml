@@ -7990,13 +7990,9 @@ proxies:
   sni: www.bing.com
   skip-cert-verify: true
 - {name: 0|-https://t.me/MrXbin-25, server: 107.155.57.51, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: 0|-https://t.me/MrXbin-6, server: 54.212.54.38, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-22, server: 35.87.4.77, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 15|🇯🇵 日本R|@ripaojiedian, server: 103.161.255.195, port: 15084, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
-- {name: 15|🇯🇵 日本特殊|@ripaojiedian, server: 35.93.123.44, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|-https://t.me/MrXbin-23, server: 34.216.220.115, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-28, server: 44.243.122.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|-https://t.me/MrXbin-20, server: 35.93.26.5, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-28, server: 44.243.122.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -8010,13 +8006,9 @@ proxy-groups:
     interval: 60
     proxies:
       - 0|-https://t.me/MrXbin-25
-      - 0|-https://t.me/MrXbin-6
-      - 0|-https://t.me/MrXbin-22
-      - 15|🇯🇵 日本R|@ripaojiedian
-      - 15|🇯🇵 日本特殊|@ripaojiedian
       - 0|-https://t.me/MrXbin-23
-      - 0|-https://t.me/MrXbin-28
       - 0|-https://t.me/MrXbin-20
+      - 0|-https://t.me/MrXbin-28
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -8029,13 +8021,9 @@ proxy-groups:
     interval: 60
     proxies:
       - 0|-https://t.me/MrXbin-25
-      - 0|-https://t.me/MrXbin-6
-      - 0|-https://t.me/MrXbin-22
-      - 15|🇯🇵 日本R|@ripaojiedian
-      - 15|🇯🇵 日本特殊|@ripaojiedian
       - 0|-https://t.me/MrXbin-23
-      - 0|-https://t.me/MrXbin-28
       - 0|-https://t.me/MrXbin-20
+      - 0|-https://t.me/MrXbin-28
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -8577,13 +8565,9 @@ proxy-groups:
       - United States_None_hy2_3
 
       - 0|-https://t.me/MrXbin-25
-      - 0|-https://t.me/MrXbin-6
-      - 0|-https://t.me/MrXbin-22
-      - 15|🇯🇵 日本R|@ripaojiedian
-      - 15|🇯🇵 日本特殊|@ripaojiedian
       - 0|-https://t.me/MrXbin-23
-      - 0|-https://t.me/MrXbin-28
       - 0|-https://t.me/MrXbin-20
+      - 0|-https://t.me/MrXbin-28
   - name: 🐟 漏网之鱼
     type: select
     proxies:
