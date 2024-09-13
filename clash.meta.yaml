@@ -7989,14 +7989,12 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 15|🇯🇵 日本R|@ripaojiedian, server: 103.161.255.195, port: 15084, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
-- {name: "10,11|美国4|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: cd47cb10-d851-489b-86cd-ffaf659ed943, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/QXjZG5u4F2, headers: {Host: us3AJ8biuQx.fzbqfrse.xyz}}, udp: true}
-- {name: 15|🇰🇷 韩国2|@ripaojiedian, server: 206.237.15.241, port: 8388, type: ss, cipher: chacha20-ietf, password: asyjfiaQwEpC, udp: true}
 - {name: 15|🇯🇵 日本2|@ripaojiedian, server: 103.106.0.10, port: 8388, type: ss, cipher: chacha20-ietf, password: d1Q123CsJzqx, udp: true}
-- {name: 15|🇭🇰 香港5|@ripaojiedian, server: 103.97.131.204, port: 7568, type: ss, cipher: chacha20-ietf, password: sacQKAwXBLMR, udp: true}
-- {name: 4Mohsen-1429, server: 139.64.165.115, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-- {name: 15|🇩🇪 德国|@ripaojiedian, server: 94.131.111.81, port: 7133, type: ss, cipher: chacha20-ietf, password: RyEehZX93Swf, udp: true}
+- {name: "10,11|台湾2|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: cd47cb10-d851-489b-86cd-ffaf659ed943, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/WNMicnDh, headers: {Host: tw1eskJpKcA.inivtrak.xyz}}, udp: true}
+- {name: US-156.146.38.167-0430, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+- {name: US-156.146.38.170-0411, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
 - {name: 4Mohsen-2274, server: 69.50.95.39, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+- {name: 4Mohsen-1429, server: 139.64.165.115, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -8009,14 +8007,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 15|🇯🇵 日本R|@ripaojiedian
-      - 10,11|美国4|@ripaojiedian
-      - 15|🇰🇷 韩国2|@ripaojiedian
       - 15|🇯🇵 日本2|@ripaojiedian
-      - 15|🇭🇰 香港5|@ripaojiedian
-      - 4Mohsen-1429
-      - 15|🇩🇪 德国|@ripaojiedian
+      - 10,11|台湾2|@ripaojiedian
+      - US-156.146.38.167-0430
+      - US-156.146.38.170-0411
       - 4Mohsen-2274
+      - 4Mohsen-1429
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -8028,14 +8024,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 15|🇯🇵 日本R|@ripaojiedian
-      - 10,11|美国4|@ripaojiedian
-      - 15|🇰🇷 韩国2|@ripaojiedian
       - 15|🇯🇵 日本2|@ripaojiedian
-      - 15|🇭🇰 香港5|@ripaojiedian
-      - 4Mohsen-1429
-      - 15|🇩🇪 德国|@ripaojiedian
+      - 10,11|台湾2|@ripaojiedian
+      - US-156.146.38.167-0430
+      - US-156.146.38.170-0411
       - 4Mohsen-2274
+      - 4Mohsen-1429
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -8576,14 +8570,12 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
-      - 15|🇯🇵 日本R|@ripaojiedian
-      - 10,11|美国4|@ripaojiedian
-      - 15|🇰🇷 韩国2|@ripaojiedian
       - 15|🇯🇵 日本2|@ripaojiedian
-      - 15|🇭🇰 香港5|@ripaojiedian
-      - 4Mohsen-1429
-      - 15|🇩🇪 德国|@ripaojiedian
+      - 10,11|台湾2|@ripaojiedian
+      - US-156.146.38.167-0430
+      - US-156.146.38.170-0411
       - 4Mohsen-2274
+      - 4Mohsen-1429
   - name: 🐟 漏网之鱼
     type: select
     proxies:
