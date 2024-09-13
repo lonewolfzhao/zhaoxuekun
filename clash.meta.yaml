@@ -7990,7 +7990,7 @@ proxies:
   sni: www.bing.com
   skip-cert-verify: true
 - {name: "10,11|香港4|@ripaojiedian", server: 36.151.195.83, port: 55314, type: trojan, password: lNOcIAxy, skip-cert-verify: true, udp: true}
-- {name: "10,11|台湾2|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: cd47cb10-d851-489b-86cd-ffaf659ed943, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/WNMicnDh, headers: {Host: tw1eskJpKcA.inivtrak.xyz}}, udp: true}
+- {name: 江苏省 移动, server: df.xiguajiasu.xyz, port: 52002, type: trojan, password: ed5f5dcf-d9f7-4556-b13b-85e7c0595349, sni: ger002.yijiasu.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -8004,7 +8004,7 @@ proxy-groups:
     interval: 60
     proxies:
       - 10,11|香港4|@ripaojiedian
-      - 10,11|台湾2|@ripaojiedian
+      - 江苏省 移动
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -8017,7 +8017,7 @@ proxy-groups:
     interval: 60
     proxies:
       - 10,11|香港4|@ripaojiedian
-      - 10,11|台湾2|@ripaojiedian
+      - 江苏省 移动
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -8559,7 +8559,7 @@ proxy-groups:
       - United States_None_hy2_3
 
       - 10,11|香港4|@ripaojiedian
-      - 10,11|台湾2|@ripaojiedian
+      - 江苏省 移动
   - name: 🐟 漏网之鱼
     type: select
     proxies:
