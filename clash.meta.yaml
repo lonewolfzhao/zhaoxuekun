@@ -7989,10 +7989,11 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: VM-WS-NA 🏴‍☠️ NA-104.17.10.39:2052, server: 104.17.10.39, port: 2052, type: vmess, uuid: cd47cb10-d851-489b-86cd-ffaf659ed943, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/WNMicnDh, headers: {Host: tw1eskJpKcA.inivtrak.xyz}}, udp: true}
-- {name: 4Mohsen-627, server: esst.idyllic.love, port: 37020, type: ss, cipher: aes-128-gcm, password: c79acaa5-1fff-4026-adf7-a87974ab7a1a, udp: true}
+- {name: "10,11|香港4|@ripaojiedian", server: 36.151.195.83, port: 55314, type: trojan, password: lNOcIAxy, skip-cert-verify: true, udp: true}
 - {name: "10,11|台湾2|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: cd47cb10-d851-489b-86cd-ffaf659ed943, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/WNMicnDh, headers: {Host: tw1eskJpKcA.inivtrak.xyz}}, udp: true}
-- {name: 4Mohsen-1995, server: 38.75.136.21, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+- {name: 4FreeIran-1635, server: 23.157.40.120, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+- {name: 4Mohsen-1438, server: 169.197.141.84, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+- {name: 4FreeIran-2437, server: 23.157.40.120, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -8005,10 +8006,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - VM-WS-NA 🏴‍☠️ NA-104.17.10.39:2052
-      - 4Mohsen-627
+      - 10,11|香港4|@ripaojiedian
       - 10,11|台湾2|@ripaojiedian
-      - 4Mohsen-1995
+      - 4FreeIran-1635
+      - 4Mohsen-1438
+      - 4FreeIran-2437
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -8020,10 +8022,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - VM-WS-NA 🏴‍☠️ NA-104.17.10.39:2052
-      - 4Mohsen-627
+      - 10,11|香港4|@ripaojiedian
       - 10,11|台湾2|@ripaojiedian
-      - 4Mohsen-1995
+      - 4FreeIran-1635
+      - 4Mohsen-1438
+      - 4FreeIran-2437
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -8564,10 +8567,11 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
-      - VM-WS-NA 🏴‍☠️ NA-104.17.10.39:2052
-      - 4Mohsen-627
+      - 10,11|香港4|@ripaojiedian
       - 10,11|台湾2|@ripaojiedian
-      - 4Mohsen-1995
+      - 4FreeIran-1635
+      - 4Mohsen-1438
+      - 4FreeIran-2437
   - name: 🐟 漏网之鱼
     type: select
     proxies:
