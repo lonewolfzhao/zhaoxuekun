@@ -7989,7 +7989,9 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: "13,14|美国3|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 472628d9-f89c-4891-bb60-4161bc2583d5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/QXjZG5u4F2, headers: {Host: us3AJ8biuQx.fzbqfrse.xyz}}, udp: true}
+- {name: 13|🇭🇰 香港|@ripaojiedian, server: zf02.yydz.one, port: 50652, type: ss, cipher: chacha20-ietf-poly1305, password: 5bad4b9f-8789-4a0f-ac48-dbbd8f9cc73f, udp: true}
+- {name: 4Nika-1249, server: 69.50.95.138, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+- {name: 13|🇯🇵 日本R|@ripaojiedian, server: 103.161.255.195, port: 15084, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -8002,7 +8004,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13,14|美国3|@ripaojiedian
+      - 13|🇭🇰 香港|@ripaojiedian
+      - 4Nika-1249
+      - 13|🇯🇵 日本R|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -8014,7 +8018,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13,14|美国3|@ripaojiedian
+      - 13|🇭🇰 香港|@ripaojiedian
+      - 4Nika-1249
+      - 13|🇯🇵 日本R|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -8555,7 +8561,9 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
-      - 13,14|美国3|@ripaojiedian
+      - 13|🇭🇰 香港|@ripaojiedian
+      - 4Nika-1249
+      - 13|🇯🇵 日本R|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
