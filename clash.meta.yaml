@@ -7990,8 +7990,8 @@ proxies:
   sni: www.bing.com
   skip-cert-verify: true
 - {name: "13,14|台湾2|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 75781b8f-db32-44b5-936c-0065a3064a98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/WNMicnDh, headers: {Host: tw1eskJpKcA.inivtrak.xyz}}, udp: true}
-- {name: 13|🇭🇰 香港6|@ripaojiedian, server: cm.guguyun.pw, port: 33107, type: ss, cipher: chacha20-ietf-poly1305, password: 05174439-6643-4c44-b16c-2fd7d700f1ba, udp: true}
-- {name: 4Jadi-728, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+- {name: US-156.146.38.170-0479, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+- {name: 4FreeIran-928, server: 43.201.253.180, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -8005,8 +8005,8 @@ proxy-groups:
     interval: 60
     proxies:
       - 13,14|台湾2|@ripaojiedian
-      - 13|🇭🇰 香港6|@ripaojiedian
-      - 4Jadi-728
+      - US-156.146.38.170-0479
+      - 4FreeIran-928
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -8019,8 +8019,8 @@ proxy-groups:
     interval: 60
     proxies:
       - 13,14|台湾2|@ripaojiedian
-      - 13|🇭🇰 香港6|@ripaojiedian
-      - 4Jadi-728
+      - US-156.146.38.170-0479
+      - 4FreeIran-928
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -8562,8 +8562,8 @@ proxy-groups:
       - United States_None_hy2_3
 
       - 13,14|台湾2|@ripaojiedian
-      - 13|🇭🇰 香港6|@ripaojiedian
-      - 4Jadi-728
+      - US-156.146.38.170-0479
+      - 4FreeIran-928
   - name: 🐟 漏网之鱼
     type: select
     proxies:
