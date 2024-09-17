@@ -1421,7 +1421,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_094
+- name: None_None_vmess_094
   type: vmess
   server: icook.tw
   port: 2086
@@ -1481,7 +1481,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_098
+- name: United States_None_vmess_098
   type: vmess
   server: russia.com
   port: 2086
@@ -1496,7 +1496,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_099
+- name: None_None_vmess_099
   type: vmess
   server: singapore.com
   port: 2086
@@ -1511,7 +1511,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_0100
+- name: None_None_vmess_0100
   type: vmess
   server: skk.moe
   port: 2086
@@ -2966,7 +2966,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_196
+- name: None_None_vmess_196
   type: vmess
   server: japan.com
   port: 2086
@@ -3026,7 +3026,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_1100
+- name: United States_None_vmess_1100
   type: vmess
   server: skk.moe
   port: 2086
@@ -4661,7 +4661,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_596
+- name: United States_None_vmess_596
   type: vmess
   server: japan.com
   port: 2086
@@ -4691,7 +4691,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_598
+- name: United States_None_vmess_598
   type: vmess
   server: russia.com
   port: 2086
@@ -4721,7 +4721,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_5100
+- name: United States_None_vmess_5100
   type: vmess
   server: skk.moe
   port: 2086
@@ -6236,7 +6236,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_796
+- name: None_None_vmess_796
   type: vmess
   server: japan.com
   port: 2086
@@ -6251,7 +6251,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_797
+- name: None_None_vmess_797
   type: vmess
   server: malaysia.com
   port: 2086
@@ -6266,7 +6266,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_798
+- name: United States_None_vmess_798
   type: vmess
   server: russia.com
   port: 2086
@@ -7721,7 +7721,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_894
+- name: United States_None_vmess_894
   type: vmess
   server: icook.tw
   port: 2086
@@ -7766,7 +7766,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_897
+- name: None_None_vmess_897
   type: vmess
   server: malaysia.com
   port: 2086
@@ -7781,7 +7781,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_898
+- name: United States_None_vmess_898
   type: vmess
   server: russia.com
   port: 2086
@@ -7990,7 +7990,9 @@ proxies:
   sni: www.bing.com
   skip-cert-verify: true
 - {name: "13,14|香港4|@ripaojiedian", server: 36.151.192.196, port: 12009, type: trojan, password: lNOcIAxy, skip-cert-verify: true, udp: true}
-- {name: 13|🇭🇰 香港R|@ripaojiedian, server: 103.161.255.195, port: 16088, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
+- {name: 13|🇭🇰 香港6|@ripaojiedian, server: cm.guguyun.pw, port: 33107, type: ss, cipher: chacha20-ietf-poly1305, password: 05174439-6643-4c44-b16c-2fd7d700f1ba, udp: true}
+- {name: "13,14|台湾2|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 75781b8f-db32-44b5-936c-0065a3064a98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/WNMicnDh, headers: {Host: tw1eskJpKcA.inivtrak.xyz}}, udp: true}
+- {name: 13|🇯🇵 日本R|@ripaojiedian, server: 103.161.255.195, port: 15084, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -8004,7 +8006,9 @@ proxy-groups:
     interval: 60
     proxies:
       - 13,14|香港4|@ripaojiedian
-      - 13|🇭🇰 香港R|@ripaojiedian
+      - 13|🇭🇰 香港6|@ripaojiedian
+      - 13,14|台湾2|@ripaojiedian
+      - 13|🇯🇵 日本R|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -8017,7 +8021,9 @@ proxy-groups:
     interval: 60
     proxies:
       - 13,14|香港4|@ripaojiedian
-      - 13|🇭🇰 香港R|@ripaojiedian
+      - 13|🇭🇰 香港6|@ripaojiedian
+      - 13,14|台湾2|@ripaojiedian
+      - 13|🇯🇵 日本R|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -8117,13 +8123,13 @@ proxy-groups:
       - United States_San Francisco_vmess_091
       - None_None_vmess_092
       - Canada_Ottawa_vmess_093
-      - United States_None_vmess_094
+      - None_None_vmess_094
       - United States_None_vmess_095
       - None_None_vmess_096
       - None_None_vmess_097
-      - None_None_vmess_098
-      - United States_None_vmess_099
-      - United States_None_vmess_0100
+      - United States_None_vmess_098
+      - None_None_vmess_099
+      - None_None_vmess_0100
       - None_None_vmess_0101
       - None_None_vmess_11
       - None_None_vmess_12
@@ -8220,11 +8226,11 @@ proxy-groups:
       - Canada_Ottawa_vmess_193
       - United States_None_vmess_194
       - None_None_vmess_195
-      - United States_None_vmess_196
+      - None_None_vmess_196
       - None_None_vmess_197
       - None_None_vmess_198
       - None_None_vmess_199
-      - None_None_vmess_1100
+      - United States_None_vmess_1100
       - None_None_vmess_1101
       - None_None_vmess_21
       - Canada_Ottawa_vmess_22
@@ -8333,11 +8339,11 @@ proxy-groups:
       - Canada_Ottawa_vmess_593
       - None_None_vmess_594
       - None_None_vmess_595
-      - None_None_vmess_596
+      - United States_None_vmess_596
       - United States_None_vmess_597
-      - None_None_vmess_598
+      - United States_None_vmess_598
       - None_None_vmess_599
-      - None_None_vmess_5100
+      - United States_None_vmess_5100
       - None_None_vmess_5101
       - None_None_vmess_61
       - Canada_Ottawa_vmess_62
@@ -8438,9 +8444,9 @@ proxy-groups:
       - Canada_Ottawa_vmess_793
       - None_None_vmess_794
       - None_None_vmess_795
-      - United States_None_vmess_796
-      - United States_None_vmess_797
-      - None_None_vmess_798
+      - None_None_vmess_796
+      - None_None_vmess_797
+      - United States_None_vmess_798
       - None_None_vmess_799
       - None_None_vmess_7100
       - None_None_vmess_7101
@@ -8537,11 +8543,11 @@ proxy-groups:
       - United States_San Francisco_vmess_891
       - None_None_vmess_892
       - Canada_Ottawa_vmess_893
-      - None_None_vmess_894
+      - United States_None_vmess_894
       - None_None_vmess_895
       - None_None_vmess_896
-      - United States_None_vmess_897
-      - None_None_vmess_898
+      - None_None_vmess_897
+      - United States_None_vmess_898
       - None_None_vmess_899
       - None_None_vmess_8100
       - None_None_vmess_8101
@@ -8559,7 +8565,9 @@ proxy-groups:
       - United States_None_hy2_3
 
       - 13,14|香港4|@ripaojiedian
-      - 13|🇭🇰 香港R|@ripaojiedian
+      - 13|🇭🇰 香港6|@ripaojiedian
+      - 13,14|台湾2|@ripaojiedian
+      - 13|🇯🇵 日本R|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
