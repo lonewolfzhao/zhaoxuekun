@@ -7989,9 +7989,11 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: "13,14|香港4|@ripaojiedian", server: 36.151.192.242, port: 23731, type: trojan, password: lNOcIAxy, skip-cert-verify: true, udp: true}
-- {name: "11,15,16|美国4|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: a7fa0544-86ec-4cf6-b216-fc0ee4422b8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/QXjZG5u4F2, headers: {Host: us3AJ8biuQx.fzbqfrse.xyz}}, udp: true}
-- {name: 4Sarina-2199, server: 69.50.93.113, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+- {name: 13|🇭🇰 香港5|@ripaojiedian, server: gdyddx500.xiyunchen.cn, port: 13913, type: ss, cipher: chacha20-ietf-poly1305, password: 63b37069-ade8-4d4c-a6dc-1161df539069, udp: true}
+- {name: 4Jadi-136, server: 15.184.252.77, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
+- {name: 0|-https://t.me/MrXbin-42, server: 130.61.226.146, port: 54252, type: vmess, uuid: 272225fe-4af5-4401-880b-6820e51e8e06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- {name: 4Jadi-1679, server: 23.154.136.162, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+- {name: 4Sarina-2352, server: 23.150.152.53, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -8004,9 +8006,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13,14|香港4|@ripaojiedian
-      - 11,15,16|美国4|@ripaojiedian
-      - 4Sarina-2199
+      - 13|🇭🇰 香港5|@ripaojiedian
+      - 4Jadi-136
+      - 0|-https://t.me/MrXbin-42
+      - 4Jadi-1679
+      - 4Sarina-2352
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -8018,9 +8022,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13,14|香港4|@ripaojiedian
-      - 11,15,16|美国4|@ripaojiedian
-      - 4Sarina-2199
+      - 13|🇭🇰 香港5|@ripaojiedian
+      - 4Jadi-136
+      - 0|-https://t.me/MrXbin-42
+      - 4Jadi-1679
+      - 4Sarina-2352
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -8561,9 +8567,11 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
-      - 13,14|香港4|@ripaojiedian
-      - 11,15,16|美国4|@ripaojiedian
-      - 4Sarina-2199
+      - 13|🇭🇰 香港5|@ripaojiedian
+      - 4Jadi-136
+      - 0|-https://t.me/MrXbin-42
+      - 4Jadi-1679
+      - 4Sarina-2352
   - name: 🐟 漏网之鱼
     type: select
     proxies:
