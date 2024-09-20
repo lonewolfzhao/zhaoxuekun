@@ -7989,13 +7989,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: "13,14|美国4|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2095, type: vmess, uuid: cfa71038-632b-4a8f-859d-cce4d91c1082, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/qYZue4zaWS, headers: {Host: us82pRzxDMb.fzbqfrse.xyz}}, udp: true}
-- {name: 13|🇭🇰 香港5|@ripaojiedian, server: gdyddx500.xiyunchen.cn, port: 27466, type: ss, cipher: chacha20-ietf-poly1305, password: 1404585b-fe61-4f4d-9680-f63d2002b429, udp: true}
-- {name: 13|🇭🇰 香港7|@ripaojiedian, server: 103.36.91.23, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
-- {name: 13|🇭🇰 香港6|@ripaojiedian, server: 183.236.48.161, port: 31778, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: "13,14|香港4|@ripaojiedian", server: 36.151.192.198, port: 18821, type: trojan, password: lNOcIAxy, skip-cert-verify: true, udp: true}
+- {name: "13,14|台湾|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: cfa71038-632b-4a8f-859d-cce4d91c1082, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/WNMicnDh, headers: {Host: tw1eskJpKcA.inivtrak.xyz}}, udp: true}
+- {name: "11,16|香港6|@ripaojiedian", server: 183.236.48.161, port: 31778, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 美国 CloudFlare, server: 162.159.25.89, port: 80, type: vmess, uuid: 1cd676ac-744d-11ef-8810-f324c6043e28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess#t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro, headers: {Host: dl3.wwwiransell.ir.烏克爾聖.yркельпасаетcанту.wonkacapitano.buzz.}}, udp: true}
 - {name: "13,14|日本2|@ripaojiedian", server: yxvmjp02-1.naizi.vip, port: 20002, type: vmess, uuid: 1404585b-fe61-4f4d-9680-f63d2002b429, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nishidashabi, headers: {Host: www.python.org}}, udp: true}
-- {name: 14|香港6|@ripaojiedian, server: 183.236.48.161, port: 31778, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 美国 V2CROSS.COM, server: 45.131.208.182, port: 80, type: vmess, uuid: 1cd676ac-744d-11ef-8810-f324c6043e28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess#Telegram - id - @FreeV2rng, headers: {Host: dl3.wwwiransell.ir.烏克爾聖.yркельпасаетcанту.wonkacapitano.buzz.}}, udp: true}
+- {name: "13,14|新加坡|@ripaojiedian", server: yxvmsglux01.naizi.vip, port: 10002, type: vmess, uuid: 1404585b-fe61-4f4d-9680-f63d2002b429, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nishidashabi, headers: {Host: www.python.org}}, udp: true}
+- {name: "13,14|香港2|@ripaojiedian", server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: cfa71038-632b-4a8f-859d-cce4d91c1082, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/epGXsEeR, headers: {Host: zTrUWkzLhk1.wzjwkqya.xyz}}, udp: true}
+- {name: "13,14|美国4|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2095, type: vmess, uuid: cfa71038-632b-4a8f-859d-cce4d91c1082, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/qYZue4zaWS, headers: {Host: us82pRzxDMb.fzbqfrse.xyz}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -8008,13 +8009,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13,14|美国4|@ripaojiedian
-      - 13|🇭🇰 香港5|@ripaojiedian
-      - 13|🇭🇰 香港7|@ripaojiedian
-      - 13|🇭🇰 香港6|@ripaojiedian
+      - 13,14|香港4|@ripaojiedian
+      - 13,14|台湾|@ripaojiedian
+      - 11,16|香港6|@ripaojiedian
+      - 美国 CloudFlare
       - 13,14|日本2|@ripaojiedian
-      - 14|香港6|@ripaojiedian
-      - 美国 V2CROSS.COM
+      - 13,14|新加坡|@ripaojiedian
+      - 13,14|香港2|@ripaojiedian
+      - 13,14|美国4|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -8026,13 +8028,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13,14|美国4|@ripaojiedian
-      - 13|🇭🇰 香港5|@ripaojiedian
-      - 13|🇭🇰 香港7|@ripaojiedian
-      - 13|🇭🇰 香港6|@ripaojiedian
+      - 13,14|香港4|@ripaojiedian
+      - 13,14|台湾|@ripaojiedian
+      - 11,16|香港6|@ripaojiedian
+      - 美国 CloudFlare
       - 13,14|日本2|@ripaojiedian
-      - 14|香港6|@ripaojiedian
-      - 美国 V2CROSS.COM
+      - 13,14|新加坡|@ripaojiedian
+      - 13,14|香港2|@ripaojiedian
+      - 13,14|美国4|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -8573,13 +8576,14 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
-      - 13,14|美国4|@ripaojiedian
-      - 13|🇭🇰 香港5|@ripaojiedian
-      - 13|🇭🇰 香港7|@ripaojiedian
-      - 13|🇭🇰 香港6|@ripaojiedian
+      - 13,14|香港4|@ripaojiedian
+      - 13,14|台湾|@ripaojiedian
+      - 11,16|香港6|@ripaojiedian
+      - 美国 CloudFlare
       - 13,14|日本2|@ripaojiedian
-      - 14|香港6|@ripaojiedian
-      - 美国 V2CROSS.COM
+      - 13,14|新加坡|@ripaojiedian
+      - 13,14|香港2|@ripaojiedian
+      - 13,14|美国4|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
