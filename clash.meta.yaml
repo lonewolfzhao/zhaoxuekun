@@ -7989,10 +7989,12 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: "13,14|美国4|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2095, type: vmess, uuid: 20c2af39-b0ef-498e-ac2f-6d8861e8b798, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/qYZue4zaWS, headers: {Host: us82pRzxDMb.fzbqfrse.xyz}}, udp: true}
-- {name: 13|🇺🇸 美国5|@ripaojiedian, server: 142.202.190.110, port: 4923, type: ss, cipher: chacha20-ietf-poly1305, password: P7LkJ9FgD4sW, udp: true}
-- {name: US-205.134.180.151-0491, server: 205.134.180.151, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 5cp9Z3iWnJZ2, udp: true}
-- {name: 4Kian-102, server: yd1.qianggewangluo.buzz, port: 10813, type: ss, cipher: chacha20-ietf-poly1305, password: 36fdc73d-0bff-4d66-9759-e81c63de16b6, udp: true}
+- {name: 0|-https://t.me/MrXbin-27, server: 60.249.35.38, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}, udp: true}
+- {name: 0|-https://t.me/MrXbin-33, server: 60.249.35.59, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}, udp: true}
+- {name: 0|-https://t.me/MrXbin-31, server: 60.249.35.3, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}, udp: true}
+- {name: 4Nika-965, server: 47.129.53.7, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Nika-2302, server: 5c404a0e5048e5e4.cdn.jiashule.com, port: 21850, type: ss, cipher: aes-256-gcm, password: c6d35094-dd85-4202-81ef-5e387c560481, udp: true}
+- {name: US_701, server: 104.16.61.8, port: 2095, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ivideos.sbs/linkws, headers: {Host: ep-sunset-9b11.kekic13319.workers.dev}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -8005,10 +8007,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13,14|美国4|@ripaojiedian
-      - 13|🇺🇸 美国5|@ripaojiedian
-      - US-205.134.180.151-0491
-      - 4Kian-102
+      - 0|-https://t.me/MrXbin-27
+      - 0|-https://t.me/MrXbin-33
+      - 0|-https://t.me/MrXbin-31
+      - 4Nika-965
+      - 4Nika-2302
+      - US_701
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -8020,10 +8024,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13,14|美国4|@ripaojiedian
-      - 13|🇺🇸 美国5|@ripaojiedian
-      - US-205.134.180.151-0491
-      - 4Kian-102
+      - 0|-https://t.me/MrXbin-27
+      - 0|-https://t.me/MrXbin-33
+      - 0|-https://t.me/MrXbin-31
+      - 4Nika-965
+      - 4Nika-2302
+      - US_701
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -8564,10 +8570,12 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
-      - 13,14|美国4|@ripaojiedian
-      - 13|🇺🇸 美国5|@ripaojiedian
-      - US-205.134.180.151-0491
-      - 4Kian-102
+      - 0|-https://t.me/MrXbin-27
+      - 0|-https://t.me/MrXbin-33
+      - 0|-https://t.me/MrXbin-31
+      - 4Nika-965
+      - 4Nika-2302
+      - US_701
   - name: 🐟 漏网之鱼
     type: select
     proxies:
