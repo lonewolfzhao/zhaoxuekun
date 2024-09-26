@@ -7989,11 +7989,9 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 0|-https://t.me/MrXbin-7, server: 23.247.137.165, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)df1fab2:16569}, udp: true}
+- {name: 4Jadi-988, server: 47.129.53.7, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: "13,14|香港5|@ripaojiedian", server: 36.151.192.201, port: 27131, type: trojan, password: wwTIozXY, skip-cert-verify: true, udp: true}
-- {name: 0|-https://t.me/MrXbin-18, server: 95.174.71.28, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)df1fab2:16569}, udp: true}
-- {name: 14|美国5|@ripaojiedian, server: 120.232.153.27, port: 58831, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 13|🇭🇰 香港3|@ripaojiedian, server: 120.237.79.157, port: 52908, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 14|香港3|@ripaojiedian, server: 120.237.79.157, port: 52908, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -8006,11 +8004,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|-https://t.me/MrXbin-7
+      - 4Jadi-988
       - 13,14|香港5|@ripaojiedian
-      - 0|-https://t.me/MrXbin-18
-      - 14|美国5|@ripaojiedian
-      - 13|🇭🇰 香港3|@ripaojiedian
+      - 14|香港3|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -8022,11 +8018,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|-https://t.me/MrXbin-7
+      - 4Jadi-988
       - 13,14|香港5|@ripaojiedian
-      - 0|-https://t.me/MrXbin-18
-      - 14|美国5|@ripaojiedian
-      - 13|🇭🇰 香港3|@ripaojiedian
+      - 14|香港3|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -8567,11 +8561,9 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
-      - 0|-https://t.me/MrXbin-7
+      - 4Jadi-988
       - 13,14|香港5|@ripaojiedian
-      - 0|-https://t.me/MrXbin-18
-      - 14|美国5|@ripaojiedian
-      - 13|🇭🇰 香港3|@ripaojiedian
+      - 14|香港3|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
