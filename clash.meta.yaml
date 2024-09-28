@@ -7989,12 +7989,8 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 13|🇭🇰 香港|@ripaojiedian, server: immense-buzzard.mite885.beauty, port: 443, type: trojan, password: !<str> 3672449442956713984, sni: immense-buzzard.mite885.beauty, skip-cert-verify: true, udp: true}
+- {name: 13|🇺🇸 美国|@ripaojiedian, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 13|🇰🇷 韩国|@ripaojiedian, server: awaited-newt.mite885.beauty, port: 443, type: trojan, password: !<str> 3672449442956713984, sni: awaited-newt.mite885.beauty, skip-cert-verify: true, udp: true}
-- {name: 4Kian-1836, server: 142.202.49.122, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-- {name: 4FreeIran-1925, server: 142.202.49.84, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-- {name: 4Kian-1461, server: 38.121.43.71, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-- {name: _CA_加拿大, server: 23.154.136.247, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -8007,12 +8003,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13|🇭🇰 香港|@ripaojiedian
+      - 13|🇺🇸 美国|@ripaojiedian
       - 13|🇰🇷 韩国|@ripaojiedian
-      - 4Kian-1836
-      - 4FreeIran-1925
-      - 4Kian-1461
-      - _CA_加拿大
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -8024,12 +8016,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13|🇭🇰 香港|@ripaojiedian
+      - 13|🇺🇸 美国|@ripaojiedian
       - 13|🇰🇷 韩国|@ripaojiedian
-      - 4Kian-1836
-      - 4FreeIran-1925
-      - 4Kian-1461
-      - _CA_加拿大
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -8570,12 +8558,8 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
-      - 13|🇭🇰 香港|@ripaojiedian
+      - 13|🇺🇸 美国|@ripaojiedian
       - 13|🇰🇷 韩国|@ripaojiedian
-      - 4Kian-1836
-      - 4FreeIran-1925
-      - 4Kian-1461
-      - _CA_加拿大
   - name: 🐟 漏网之鱼
     type: select
     proxies:
