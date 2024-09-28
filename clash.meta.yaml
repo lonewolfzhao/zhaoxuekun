@@ -7989,10 +7989,9 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 13|🇰🇷 韩国|@ripaojiedian, server: awaited-newt.mite885.beauty, port: 443, type: trojan, password: !<str> 3672449442956713984, sni: awaited-newt.mite885.beauty, skip-cert-verify: true, udp: true}
-- {name: 4Kian-1658, server: 169.197.142.216, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-- {name: _CA_加拿大, server: 23.154.136.176, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-- {name: 4Kian-500, server: 122.195.189.15, port: 10716, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65, udp: true}
+- {name: 4FreeIran-974, server: 43.202.67.216, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4FreeIran-2049, server: 23.157.40.120, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+- {name: 4FreeIran-496, server: 122.195.189.15, port: 10715, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -8005,10 +8004,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13|🇰🇷 韩国|@ripaojiedian
-      - 4Kian-1658
-      - _CA_加拿大
-      - 4Kian-500
+      - 4FreeIran-974
+      - 4FreeIran-2049
+      - 4FreeIran-496
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -8020,10 +8018,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13|🇰🇷 韩国|@ripaojiedian
-      - 4Kian-1658
-      - _CA_加拿大
-      - 4Kian-500
+      - 4FreeIran-974
+      - 4FreeIran-2049
+      - 4FreeIran-496
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -8564,10 +8561,9 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
-      - 13|🇰🇷 韩国|@ripaojiedian
-      - 4Kian-1658
-      - _CA_加拿大
-      - 4Kian-500
+      - 4FreeIran-974
+      - 4FreeIran-2049
+      - 4FreeIran-496
   - name: 🐟 漏网之鱼
     type: select
     proxies:
