@@ -7989,10 +7989,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 13|🇸🇬 新加坡2|@ripaojiedian, server: cute-buck.gelding865.autos, port: 443, type: trojan, password: !<str> 3672449442956713984, sni: cute-buck.gelding865.autos, skip-cert-verify: true, udp: true}
-- {name: 4Mohsen-985, server: 43.202.67.216, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 11|美国 Cloudinnovation数据中心, server: 154.85.0.230, port: 41007, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/312009042920}, udp: true}
-- {name: 4Mohsen-2188, server: 38.86.135.117, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+- {name: 11|美国 加利福尼亚州圣何塞PEG TECH, server: 142.4.108.131, port: 38007, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/283126261303}, udp: true}
+- {name: "13,14|香港5|@ripaojiedian", server: 220.246.57.32, port: 16301, type: vmess, uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- {name: 4Mohsen-2189, server: 38.86.135.117, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -8005,10 +8005,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13|🇸🇬 新加坡2|@ripaojiedian
-      - 4Mohsen-985
       - 11|美国 Cloudinnovation数据中心
-      - 4Mohsen-2188
+      - 11|美国 加利福尼亚州圣何塞PEG TECH
+      - 13,14|香港5|@ripaojiedian
+      - 4Mohsen-2189
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -8020,10 +8020,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13|🇸🇬 新加坡2|@ripaojiedian
-      - 4Mohsen-985
       - 11|美国 Cloudinnovation数据中心
-      - 4Mohsen-2188
+      - 11|美国 加利福尼亚州圣何塞PEG TECH
+      - 13,14|香港5|@ripaojiedian
+      - 4Mohsen-2189
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -8564,10 +8564,10 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
-      - 13|🇸🇬 新加坡2|@ripaojiedian
-      - 4Mohsen-985
       - 11|美国 Cloudinnovation数据中心
-      - 4Mohsen-2188
+      - 11|美国 加利福尼亚州圣何塞PEG TECH
+      - 13,14|香港5|@ripaojiedian
+      - 4Mohsen-2189
   - name: 🐟 漏网之鱼
     type: select
     proxies:
