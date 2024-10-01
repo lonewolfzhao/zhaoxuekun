@@ -7989,13 +7989,13 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: "16|ç¾\x8eå\x9b½5|@ripaojiedian", server: 120.232.153.27, port: 58831, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4Mohsen-2234, server: 69.50.95.179, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-- {name: 4Mohsen-2227, server: 69.50.92.111, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-- {name: 4Mohsen-2228, server: 69.50.92.55, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-- {name: 4FreeIran-2442, server: 69.50.95.39, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-- {name: 4Sarina-2454, server: 139.64.165.230, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-- {name: 4Mohsen-2773, server: 38.121.43.97, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+- {name: 15|🇸🇬 狮城特殊|@ripaojiedian, server: 13.250.59.97, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "15,16|台湾2|@ripaojiedian", server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 423caa0c-0542-4326-92e1-18769b6608e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/WNMicnDh, headers: {Host: tw1eskJpKcA.inivtrak.xyz}}, udp: true}
+- {name: 15|🇰🇷 韩国特殊|@ripaojiedian, server: 54.185.199.99, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国, server: 104.21.118.181, port: 2052, type: vmess, uuid: 423caa0c-0542-4326-92e1-18769b6608e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/WNMicnDh, headers: {Host: tw1eskJpKcA.inivtrak.xyz}}, udp: true}
+- {name: 4Mohsen-1527, server: 69.50.92.55, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+- {name: 4Sarina-3059, server: 69.50.92.99, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+- {name: 4Mohsen-2801, server: 69.50.92.72, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -8008,13 +8008,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - "16|ç¾\x8eå\x9b½5|@ripaojiedian"
-      - 4Mohsen-2234
-      - 4Mohsen-2227
-      - 4Mohsen-2228
-      - 4FreeIran-2442
-      - 4Sarina-2454
-      - 4Mohsen-2773
+      - 15|🇸🇬 狮城特殊|@ripaojiedian
+      - 15,16|台湾2|@ripaojiedian
+      - 15|🇰🇷 韩国特殊|@ripaojiedian
+      - _US_美国
+      - 4Mohsen-1527
+      - 4Sarina-3059
+      - 4Mohsen-2801
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -8026,13 +8026,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - "16|ç¾\x8eå\x9b½5|@ripaojiedian"
-      - 4Mohsen-2234
-      - 4Mohsen-2227
-      - 4Mohsen-2228
-      - 4FreeIran-2442
-      - 4Sarina-2454
-      - 4Mohsen-2773
+      - 15|🇸🇬 狮城特殊|@ripaojiedian
+      - 15,16|台湾2|@ripaojiedian
+      - 15|🇰🇷 韩国特殊|@ripaojiedian
+      - _US_美国
+      - 4Mohsen-1527
+      - 4Sarina-3059
+      - 4Mohsen-2801
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -8573,13 +8573,13 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
-      - "16|ç¾\x8eå\x9b½5|@ripaojiedian"
-      - 4Mohsen-2234
-      - 4Mohsen-2227
-      - 4Mohsen-2228
-      - 4FreeIran-2442
-      - 4Sarina-2454
-      - 4Mohsen-2773
+      - 15|🇸🇬 狮城特殊|@ripaojiedian
+      - 15,16|台湾2|@ripaojiedian
+      - 15|🇰🇷 韩国特殊|@ripaojiedian
+      - _US_美国
+      - 4Mohsen-1527
+      - 4Sarina-3059
+      - 4Mohsen-2801
   - name: 🐟 漏网之鱼
     type: select
     proxies:
