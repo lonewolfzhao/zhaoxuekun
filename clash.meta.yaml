@@ -13763,11 +13763,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- {name: 0|-https://t.me/MrXbin-25, server: 23.247.137.165, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)df1fab2:16569}, udp: true}
-- {name: 0|-https://t.me/MrXbin-32, server: 43.207.207.206, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)df1fab2:16569}, udp: true}
-- {name: 0|-https://t.me/MrXbin-4, server: 95.174.71.29, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)df1fab2:16569}, udp: true}
-- {name: 4Nika-2155, server: 23.157.40.5, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-- {name: 4Sarina-2298, server: 69.50.95.180, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+- {name: 4Nika-2828, server: 139.64.165.115, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+- {name: 4Sarina-2685, server: 69.50.95.165, port: 5499, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true}
+- {name: _US_美国, server: 69.50.95.218, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+- {name: 4Sarina-1595, server: 38.121.43.97, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -13780,11 +13779,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|-https://t.me/MrXbin-25
-      - 0|-https://t.me/MrXbin-32
-      - 0|-https://t.me/MrXbin-4
-      - 4Nika-2155
-      - 4Sarina-2298
+      - 4Nika-2828
+      - 4Sarina-2685
+      - _US_美国
+      - 4Sarina-1595
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -13796,11 +13794,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|-https://t.me/MrXbin-25
-      - 0|-https://t.me/MrXbin-32
-      - 0|-https://t.me/MrXbin-4
-      - 4Nika-2155
-      - 4Sarina-2298
+      - 4Nika-2828
+      - 4Sarina-2685
+      - _US_美国
+      - 4Sarina-1595
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -14726,11 +14723,10 @@ proxy-groups:
       - United States_None_hy2_2
       - United States_None_hy2_3
 
-      - 0|-https://t.me/MrXbin-25
-      - 0|-https://t.me/MrXbin-32
-      - 0|-https://t.me/MrXbin-4
-      - 4Nika-2155
-      - 4Sarina-2298
+      - 4Nika-2828
+      - 4Sarina-2685
+      - _US_美国
+      - 4Sarina-1595
   - name: 🐟 漏网之鱼
     type: select
     proxies:
