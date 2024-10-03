@@ -53,14 +53,14 @@ proxies:
 - {name: None_None_vmess_734, server: 104.19.45.17, port: 2096, type: vmess, uuid: 4bbc92db-5f8f-42fd-87ff-440e9040d23c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: www.dongtaiwang.com, headers: {Host: total-racial-eugene-index.trycloudflare.com}}, udp: true}
 - {name: None_None_vmess_14, server: 104.19.38.12, port: 2096, type: vmess, uuid: 4bbc92db-5f8f-42fd-87ff-440e9040d23c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: www.dongtaiwang.com, headers: {Host: total-racial-eugene-index.trycloudflare.com}}, udp: true}
 - {name: None_None_vmess_018, server: 104.19.47.65, port: 8443, type: vmess, uuid: 4bbc92db-5f8f-42fd-87ff-440e9040d23c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: www.dongtaiwang.com, headers: {Host: total-racial-eugene-index.trycloudflare.com}}, udp: true}
-- {name: 0|-https://t.me/MrXbin-50, server: 43.207.207.206, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)df1fab2:16569}, udp: true}
 - {name: 0|-https://t.me/MrXbin-40, server: 54.64.148.82, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)df1fab2:16569}, udp: true}
 - {name: 13|🇰🇷 韩国特殊|@ripaojiedian, server: 13.114.140.218, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 14|香港5|@ripaojiedian, server: ambxxid02hk.dorabbb.top, port: 44826, type: vmess, uuid: ff6588e1-b3dd-42e8-8f5c-ff90bfbd935d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 0|-https://t.me/MrXbin-54, server: 60.249.35.38, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}, udp: true}
-- {name: 13|🇯🇵 日本特殊|@ripaojiedian, server: 43.206.194.56, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "13,14|香港3|@ripaojiedian", server: cm.laoliu.live, port: 59501, type: vmess, uuid: 454e1e97-2dab-4abb-b770-adfa92be4d19, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /downloads_hk22, headers: {Host: hk22.laoliu.store}}, udp: true}
-- {name: "13,14|日本5|@ripaojiedian", server: 18.183.36.223, port: 443, type: trojan, password: 0b0387b8-5258-386b-8744-dcacb2320d94, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+- {name: 14|香港5|@ripaojiedian, server: ambxxid02hk.dorabbb.top, port: 44826, type: vmess, uuid: ff6588e1-b3dd-42e8-8f5c-ff90bfbd935d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-50, server: 43.207.207.206, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)df1fab2:16569}, udp: true}
+- {name: "13,14|新加坡2|@ripaojiedian", server: cm.laoliu.live, port: 59501, type: vmess, uuid: e7d89b98-eef9-40b3-e533-a92e981134bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /downloads_sg22, headers: {Host: sg22.laoliu.store}}, udp: true}
+- {name: 0|-https://t.me/MrXbin-48, server: 95.174.71.28, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)df1fab2:16569}, udp: true}
+- {name: 0|-https://t.me/MrXbin-55, server: 23.247.137.165, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)df1fab2:16569}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -73,14 +73,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|-https://t.me/MrXbin-50
       - 0|-https://t.me/MrXbin-40
       - 13|🇰🇷 韩国特殊|@ripaojiedian
-      - 14|香港5|@ripaojiedian
       - 0|-https://t.me/MrXbin-54
-      - 13|🇯🇵 日本特殊|@ripaojiedian
-      - 13,14|香港3|@ripaojiedian
-      - 13,14|日本5|@ripaojiedian
+      - 14|香港5|@ripaojiedian
+      - 0|-https://t.me/MrXbin-50
+      - 13,14|新加坡2|@ripaojiedian
+      - 0|-https://t.me/MrXbin-48
+      - 0|-https://t.me/MrXbin-55
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -92,14 +92,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|-https://t.me/MrXbin-50
       - 0|-https://t.me/MrXbin-40
       - 13|🇰🇷 韩国特殊|@ripaojiedian
-      - 14|香港5|@ripaojiedian
       - 0|-https://t.me/MrXbin-54
-      - 13|🇯🇵 日本特殊|@ripaojiedian
-      - 13,14|香港3|@ripaojiedian
-      - 13,14|日本5|@ripaojiedian
+      - 14|香港5|@ripaojiedian
+      - 0|-https://t.me/MrXbin-50
+      - 13,14|新加坡2|@ripaojiedian
+      - 0|-https://t.me/MrXbin-48
+      - 0|-https://t.me/MrXbin-55
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -134,14 +134,14 @@ proxy-groups:
       - None_None_vmess_14
       - None_None_vmess_018
 
-      - 0|-https://t.me/MrXbin-50
       - 0|-https://t.me/MrXbin-40
       - 13|🇰🇷 韩国特殊|@ripaojiedian
-      - 14|香港5|@ripaojiedian
       - 0|-https://t.me/MrXbin-54
-      - 13|🇯🇵 日本特殊|@ripaojiedian
-      - 13,14|香港3|@ripaojiedian
-      - 13,14|日本5|@ripaojiedian
+      - 14|香港5|@ripaojiedian
+      - 0|-https://t.me/MrXbin-50
+      - 13,14|新加坡2|@ripaojiedian
+      - 0|-https://t.me/MrXbin-48
+      - 0|-https://t.me/MrXbin-55
   - name: 🐟 漏网之鱼
     type: select
     proxies:
