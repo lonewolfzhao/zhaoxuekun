@@ -55,13 +55,8 @@ proxies:
 - {name: United States_San Francisco_vmess_064, server: 172.64.167.10, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}, udp: true}
 - {name: United States_San Francisco_vmess_164, server: 172.64.167.10, port: 2096, type: vmess, uuid: 4bbc92db-5f8f-42fd-87ff-440e9040d23c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: www.dongtaiwang.com, headers: {Host: total-racial-eugene-index.trycloudflare.com}}, udp: true}
 - {name: None_None_vmess_616, server: 104.19.46.103, port: 2095, type: vmess, uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.8084726.xyz}}, udp: true}
-- {name: 4Kian-33, server: deepf.hjkdsak2.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: 99301d55-a41f-4919-986b-1435996533aa, udp: true}
-- {name: 4FreeIran-2144, server: 69.50.92.111, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-- {name: _US_美国, server: 23.157.40.101, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-- {name: _US_美国 2, server: 69.50.92.99, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-- {name: _US_美国 3, server: 38.110.1.105, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-- {name: _US_美国 4, server: 38.110.1.105, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-- {name: 4FreeIran-1519, server: 23.154.136.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+- {name: _US_美国, server: 69.50.92.99, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+- {name: _US_美国 2, server: 23.157.40.101, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -74,13 +69,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4Kian-33
-      - 4FreeIran-2144
       - _US_美国
       - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
-      - 4FreeIran-1519
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -92,13 +82,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4Kian-33
-      - 4FreeIran-2144
       - _US_美国
       - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
-      - 4FreeIran-1519
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -135,13 +120,8 @@ proxy-groups:
       - United States_San Francisco_vmess_164
       - None_None_vmess_616
 
-      - 4Kian-33
-      - 4FreeIran-2144
       - _US_美国
       - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
-      - 4FreeIran-1519
   - name: 🐟 漏网之鱼
     type: select
     proxies:
