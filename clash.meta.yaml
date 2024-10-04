@@ -26,8 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: "11|美国 CloudFlare节点 #7", server: zula.ir, port: 443, type: vmess, uuid: 2b9c6f79-db7b-4935-9d83-7c52f30a2465, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@wolf_vpn02, headers: {Host: Minecraft.game-one.ir}}, udp: true}
-- {name: 4Sarina-2794, server: 38.114.114.143, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+- {name: United States_San Francisco_vmess_070, server: 172.64.167.35, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}, udp: true}
+- {name: _CN_中国->🇸🇪_SE_瑞典, server: deepf.hjkdsak2.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: 99301d55-a41f-4919-986b-1435996533aa, udp: true}
+- {name: 4Sarina-2378, server: 139.64.165.153, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+- {name: _US_美国, server: 139.64.165.115, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -40,8 +42,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - "11|美国 CloudFlare节点 #7"
-      - 4Sarina-2794
+      - _CN_中国->🇸🇪_SE_瑞典
+      - 4Sarina-2378
+      - _US_美国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -53,18 +56,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - "11|美国 CloudFlare节点 #7"
-      - 4Sarina-2794
+      - _CN_中国->🇸🇪_SE_瑞典
+      - 4Sarina-2378
+      - _US_美国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 60
     proxies:
+      - United States_San Francisco_vmess_070
 
-
-      - "11|美国 CloudFlare节点 #7"
-      - 4Sarina-2794
+      - _CN_中国->🇸🇪_SE_瑞典
+      - 4Sarina-2378
+      - _US_美国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
