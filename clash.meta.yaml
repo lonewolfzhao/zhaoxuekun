@@ -27,10 +27,13 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: United States_San Francisco_vmess_65, server: 172.64.175.88, port: 2095, type: vmess, uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.8084726.xyz}}, udp: true}
-- {name: _RU_俄罗斯, server: 217.30.10.18, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
 - {name: "13,14|韩国2|@ripaojiedian", server: 43.203.146.211, port: 443, type: trojan, password: 0b0387b8-5258-386b-8744-dcacb2320d94, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-- {name: "13,14|韩国|@ripaojiedian", server: 3.38.198.76, port: 443, type: trojan, password: 0b0387b8-5258-386b-8744-dcacb2320d94, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-- {name: _US_美国, server: 69.50.92.99, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+- {name: "13,14|美国2|@ripaojiedian", server: 183.232.159.2, port: 2000, type: trojan, password: 0b0387b8-5258-386b-8744-dcacb2320d94, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+- {name: 4Sarina-924, server: 54.250.49.16, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 13|🇯🇵 日本特殊|@ripaojiedian, server: 3.38.149.7, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Sarina-2779, server: 69.50.95.165, port: 5499, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true}
+- {name: 4FreeIran-1599, server: 139.64.165.115, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+- {name: 4Mohsen-2137, server: 69.50.92.110, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -43,10 +46,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - _RU_俄罗斯
       - 13,14|韩国2|@ripaojiedian
-      - 13,14|韩国|@ripaojiedian
-      - _US_美国
+      - 13,14|美国2|@ripaojiedian
+      - 4Sarina-924
+      - 13|🇯🇵 日本特殊|@ripaojiedian
+      - 4Sarina-2779
+      - 4FreeIran-1599
+      - 4Mohsen-2137
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -58,10 +64,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - _RU_俄罗斯
       - 13,14|韩国2|@ripaojiedian
-      - 13,14|韩国|@ripaojiedian
-      - _US_美国
+      - 13,14|美国2|@ripaojiedian
+      - 4Sarina-924
+      - 13|🇯🇵 日本特殊|@ripaojiedian
+      - 4Sarina-2779
+      - 4FreeIran-1599
+      - 4Mohsen-2137
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -70,10 +79,13 @@ proxy-groups:
     proxies:
       - United States_San Francisco_vmess_65
 
-      - _RU_俄罗斯
       - 13,14|韩国2|@ripaojiedian
-      - 13,14|韩国|@ripaojiedian
-      - _US_美国
+      - 13,14|美国2|@ripaojiedian
+      - 4Sarina-924
+      - 13|🇯🇵 日本特殊|@ripaojiedian
+      - 4Sarina-2779
+      - 4FreeIran-1599
+      - 4Mohsen-2137
   - name: 🐟 漏网之鱼
     type: select
     proxies:
