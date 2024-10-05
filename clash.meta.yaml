@@ -55,10 +55,8 @@ proxies:
 - {name: None_None_vmess_250, server: 104.26.5.123, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip4.6929198.xyz}}, udp: true}
 - {name: United States_San Francisco_vmess_685, server: 172.64.166.12, port: 2095, type: vmess, uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.8084726.xyz}}, udp: true}
 - {name: United States_San Francisco_vmess_664, server: 172.64.167.10, port: 2095, type: vmess, uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.8084726.xyz}}, udp: true}
-- {name: _CN_中国->🇸🇪_SE_瑞典, server: deepf.hjkdsak2.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: 99301d55-a41f-4919-986b-1435996533aa, udp: true}
-- {name: "11|美国 CloudFlare节点 #15", server: ozhjEJyMPvspLcYBAwxanOskKFweNiHSC.roxifa.ir, port: 443, type: vmess, uuid: f5fd9803-aaad-498f-af3d-8f34b1486f09, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/rafa?ed=2048", headers: {Host: ozhjEJyMPvspLcYBAwxanOskKFweNiHSC.roxifa.ir}}, udp: true}
-- {name: "11|美国 CloudFlare节点 #12", server: QISRreBvfmjANjwdKYbxHTiWULnOuDXZh.roxifa.ir, port: 443, type: vmess, uuid: f5fd9803-aaad-498f-af3d-8f34b1486f09, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/rafa?ed=2048", headers: {Host: QISRreBvfmjANjwdKYbxHTiWULnOuDXZh.roxifa.ir}}, udp: true}
-- {name: _GB_英国->🇺🇸_US_美国, server: 212.102.53.80, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+- {name: 13|🇰🇷 韩国特殊|@ripaojiedian, server: 54.249.192.248, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "11|ç¾\x8eå\x9b½ CloudFlareè\x8a\x82ç\x82¹ #8", server: xXouSRHWlAdexoupqwmsNFbInviJEhZaf.roxifa.ir, port: 443, type: vmess, uuid: f5fd9803-aaad-498f-af3d-8f34b1486f09, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/rafa?ed=2048", headers: {Host: xXouSRHWlAdexoupqwmsNFbInviJEhZaf.roxifa.ir}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -71,10 +69,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - _CN_中国->🇸🇪_SE_瑞典
-      - "11|美国 CloudFlare节点 #15"
-      - "11|美国 CloudFlare节点 #12"
-      - _GB_英国->🇺🇸_US_美国
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - "11|ç¾\x8eå\x9b½ CloudFlareè\x8a\x82ç\x82¹ #8"
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -86,10 +82,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - _CN_中国->🇸🇪_SE_瑞典
-      - "11|美国 CloudFlare节点 #15"
-      - "11|美国 CloudFlare节点 #12"
-      - _GB_英国->🇺🇸_US_美国
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - "11|ç¾\x8eå\x9b½ CloudFlareè\x8a\x82ç\x82¹ #8"
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -126,10 +120,8 @@ proxy-groups:
       - United States_San Francisco_vmess_685
       - United States_San Francisco_vmess_664
 
-      - _CN_中国->🇸🇪_SE_瑞典
-      - "11|美国 CloudFlare节点 #15"
-      - "11|美国 CloudFlare节点 #12"
-      - _GB_英国->🇺🇸_US_美国
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - "11|ç¾\x8eå\x9b½ CloudFlareè\x8a\x82ç\x82¹ #8"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
