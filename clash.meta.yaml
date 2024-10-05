@@ -55,10 +55,8 @@ proxies:
 - {name: None_None_vmess_617, server: 104.19.32.216, port: 2095, type: vmess, uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.8084726.xyz}}, udp: true}
 - {name: None_None_vmess_031, server: 104.19.45.11, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6016725.xyz}}, udp: true}
 - {name: United States_San Francisco_vmess_669, server: 172.64.167.29, port: 2095, type: vmess, uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.8084726.xyz}}, udp: true}
-- {name: 4FreeIran-922, server: 54.250.49.16, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _CN_中国->🇸🇪_SE_瑞典, server: deepf.hjkdsak2.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: 99301d55-a41f-4919-986b-1435996533aa, udp: true}
-- {name: 4Nika-1362, server: 23.154.136.176, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
 - {name: 13|🇰🇷 韩国特殊|@ripaojiedian, server: 54.249.192.248, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Jadi-536, server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -71,10 +69,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4FreeIran-922
-      - _CN_中国->🇸🇪_SE_瑞典
-      - 4Nika-1362
       - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 4Jadi-536
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -86,10 +82,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4FreeIran-922
-      - _CN_中国->🇸🇪_SE_瑞典
-      - 4Nika-1362
       - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 4Jadi-536
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -126,10 +120,8 @@ proxy-groups:
       - None_None_vmess_031
       - United States_San Francisco_vmess_669
 
-      - 4FreeIran-922
-      - _CN_中国->🇸🇪_SE_瑞典
-      - 4Nika-1362
       - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 4Jadi-536
   - name: 🐟 漏网之鱼
     type: select
     proxies:
