@@ -55,14 +55,11 @@ proxies:
 - {name: None_None_vmess_617, server: 104.19.32.216, port: 2095, type: vmess, uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.8084726.xyz}}, udp: true}
 - {name: None_None_vmess_031, server: 104.19.45.11, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6016725.xyz}}, udp: true}
 - {name: United States_San Francisco_vmess_669, server: 172.64.167.29, port: 2095, type: vmess, uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.8084726.xyz}}, udp: true}
-- {name: 13|🇸🇬 狮城特殊|@ripaojiedian, server: 52.78.193.3, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 13|🇹🇼 台湾|@ripaojiedian, server: hzhz1.sssyun.xyz, port: 39201, type: ss, cipher: chacha20-ietf-poly1305, password: 0c7dac8f-070d-44e0-9e8c-f25fa4604fe9, udp: true}
 - {name: 4Jadi-892, server: 43.202.54.30, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 13|🇸🇬 狮城特殊|@ripaojiedian, server: 52.78.193.3, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 13|🇰🇷 韩国特殊|@ripaojiedian, server: 3.36.113.244, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 13|🇺🇸 美国5|@ripaojiedian, server: 167.88.62.50, port: 1723, type: ss, cipher: chacha20-ietf-poly1305, password: Gru.a-XgKzY+=Nl_, udp: true}
-- {name: 13|🇯🇵 日本特殊|@ripaojiedian, server: 43.201.61.86, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4FreeIran-864, server: 13.114.140.218, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4FreeIran-541, server: 195.181.160.6, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 13|🇹🇼 台湾|@ripaojiedian, server: hzhz1.sssyun.xyz, port: 39201, type: ss, cipher: chacha20-ietf-poly1305, password: 0c7dac8f-070d-44e0-9e8c-f25fa4604fe9, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -75,14 +72,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
-      - 13|🇹🇼 台湾|@ripaojiedian
       - 4Jadi-892
+      - 13|🇸🇬 狮城特殊|@ripaojiedian
       - 13|🇰🇷 韩国特殊|@ripaojiedian
       - 13|🇺🇸 美国5|@ripaojiedian
-      - 13|🇯🇵 日本特殊|@ripaojiedian
-      - 4FreeIran-864
-      - 4FreeIran-541
+      - 13|🇹🇼 台湾|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -94,14 +88,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
-      - 13|🇹🇼 台湾|@ripaojiedian
       - 4Jadi-892
+      - 13|🇸🇬 狮城特殊|@ripaojiedian
       - 13|🇰🇷 韩国特殊|@ripaojiedian
       - 13|🇺🇸 美国5|@ripaojiedian
-      - 13|🇯🇵 日本特殊|@ripaojiedian
-      - 4FreeIran-864
-      - 4FreeIran-541
+      - 13|🇹🇼 台湾|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -138,14 +129,11 @@ proxy-groups:
       - None_None_vmess_031
       - United States_San Francisco_vmess_669
 
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
-      - 13|🇹🇼 台湾|@ripaojiedian
       - 4Jadi-892
+      - 13|🇸🇬 狮城特殊|@ripaojiedian
       - 13|🇰🇷 韩国特殊|@ripaojiedian
       - 13|🇺🇸 美国5|@ripaojiedian
-      - 13|🇯🇵 日本特殊|@ripaojiedian
-      - 4FreeIran-864
-      - 4FreeIran-541
+      - 13|🇹🇼 台湾|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
