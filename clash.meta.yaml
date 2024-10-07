@@ -55,10 +55,8 @@ proxies:
 - {name: None_None_vmess_245, server: 104.26.5.88, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip6.6929198.xyz}}, udp: true}
 - {name: None_None_vmess_31, server: 104.19.38.10, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip6.6929198.xyz}}, udp: true}
 - {name: United States_None_vmess_29, server: 172.64.198.249, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip6.6929198.xyz}}, udp: true}
-- {name: 13|🇯🇵 日本特殊|@ripaojiedian, server: 3.38.102.189, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Kian-434, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
-- {name: 13|🇺🇸 美国5|@ripaojiedian, server: 167.88.62.50, port: 1723, type: ss, cipher: chacha20-ietf-poly1305, password: Gru.a-XgKzY+=Nl_, udp: true}
-- {name: 13|🇸🇬 狮城特殊|@ripaojiedian, server: 43.203.245.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国, server: 69.50.92.111, port: 5499, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true}
+- {name: _US_美国 2, server: 69.50.95.180, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -71,10 +69,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13|🇯🇵 日本特殊|@ripaojiedian
-      - 4Kian-434
-      - 13|🇺🇸 美国5|@ripaojiedian
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - _US_美国
+      - _US_美国 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -86,10 +82,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13|🇯🇵 日本特殊|@ripaojiedian
-      - 4Kian-434
-      - 13|🇺🇸 美国5|@ripaojiedian
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - _US_美国
+      - _US_美国 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -126,10 +120,8 @@ proxy-groups:
       - None_None_vmess_31
       - United States_None_vmess_29
 
-      - 13|🇯🇵 日本特殊|@ripaojiedian
-      - 4Kian-434
-      - 13|🇺🇸 美国5|@ripaojiedian
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - _US_美国
+      - _US_美国 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
