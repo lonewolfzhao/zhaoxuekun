@@ -55,12 +55,11 @@ proxies:
 - {name: United States_San Francisco_vmess_65, server: 172.64.175.88, port: 2095, type: vmess, uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip7.8084726.xyz}}, udp: true}
 - {name: None_None_vmess_016, server: 104.19.46.103, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip6.6016725.xyz}}, udp: true}
 - {name: None_None_vmess_620, server: 104.19.55.49, port: 2095, type: vmess, uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip7.8084726.xyz}}, udp: true}
-- {name: _RU_俄罗斯, server: 217.30.10.18, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-- {name: _US_美国, server: 69.50.92.111, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-- {name: 13|🇺🇸 美国4|@ripaojiedian, server: 38.114.114.158, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-- {name: _CA_加拿大, server: 23.154.136.176, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-- {name: _US_美国 2, server: 139.64.165.153, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-- {name: _GB_英国, server: 212.102.53.80, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+- {name: _US_美国, server: 18.236.95.86, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 11|广东省广州市 移动, server: 120.232.153.27, port: 58831, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 13|🇰🇷 韩国特殊|@ripaojiedian, server: 52.78.63.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Sarina-900, server: 3.36.113.244, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "11|美国 CloudFlare节点 #22", server: www.speedtest.net, port: 2095, type: vmess, uuid: 777cde00-0656-4629-b565-3a74dea4b1a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aVa-pC.coM.ZoomiT.iR?ed=1024", headers: {Host: panel.SEYYEDmtmodidandansax.bloG.}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -73,12 +72,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - _RU_俄罗斯
       - _US_美国
-      - 13|🇺🇸 美国4|@ripaojiedian
-      - _CA_加拿大
-      - _US_美国 2
-      - _GB_英国
+      - 11|广东省广州市 移动
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 4Sarina-900
+      - "11|美国 CloudFlare节点 #22"
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -90,12 +88,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - _RU_俄罗斯
       - _US_美国
-      - 13|🇺🇸 美国4|@ripaojiedian
-      - _CA_加拿大
-      - _US_美国 2
-      - _GB_英国
+      - 11|广东省广州市 移动
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 4Sarina-900
+      - "11|美国 CloudFlare节点 #22"
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -132,12 +129,11 @@ proxy-groups:
       - None_None_vmess_016
       - None_None_vmess_620
 
-      - _RU_俄罗斯
       - _US_美国
-      - 13|🇺🇸 美国4|@ripaojiedian
-      - _CA_加拿大
-      - _US_美国 2
-      - _GB_英国
+      - 11|广东省广州市 移动
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 4Sarina-900
+      - "11|美国 CloudFlare节点 #22"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
