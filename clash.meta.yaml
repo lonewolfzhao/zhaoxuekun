@@ -26,17 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: None_None_vmess_642, server: 104.26.5.56, port: 2095, type: vmess, uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip5.8084726.xyz}}, udp: true}
-- {name: None_None_vmess_096, server: japan.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip5.6016725.xyz}}, udp: true}
-- {name: None_None_vmess_248, server: 104.26.5.112, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip6.6929198.xyz}}, udp: true}
-- {name: CN-183.236.51.50-2970, server: naiu-hk.05vr9nyqg5.download, port: 13007, type: trojan, password: d6d86a97-2bef-4f89-9527-ce2003377677, sni: naiu-hk.05vr9nyqg5.download, skip-cert-verify: true, udp: true}
-- {name: 13|🇸🇬 狮城特殊|@ripaojiedian, server: 3.35.222.240, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Sarina-898, server: 3.36.113.244, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Sarina-930, server: 43.203.245.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 13|🇯🇵 日本特殊|@ripaojiedian, server: 3.38.102.189, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 13|🇰🇷 韩国特殊|@ripaojiedian, server: 52.78.63.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Sarina-944, server: 52.78.193.3, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: KR-193.122.106.179-1382, server: ent1.imyourdaddy.top, port: 21027, type: vmess, uuid: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ent1.imyourdaddy.top}}, udp: true}
+- {name: "13,14|香港|@ripaojiedian", server: 223.244.26.216, port: 46001, type: vmess, uuid: c9bda0e7-4ffa-464f-84a0-41253180d04c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn}, udp: true}
+- {name: _US_美国, server: 18.236.95.86, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国 2, server: 35.87.156.159, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -49,14 +41,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - CN-183.236.51.50-2970
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
-      - 4Sarina-898
-      - 4Sarina-930
-      - 13|🇯🇵 日本特殊|@ripaojiedian
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
-      - 4Sarina-944
-      - KR-193.122.106.179-1382
+      - 13,14|香港|@ripaojiedian
+      - _US_美国
+      - _US_美国 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -68,32 +55,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - CN-183.236.51.50-2970
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
-      - 4Sarina-898
-      - 4Sarina-930
-      - 13|🇯🇵 日本特殊|@ripaojiedian
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
-      - 4Sarina-944
-      - KR-193.122.106.179-1382
+      - 13,14|香港|@ripaojiedian
+      - _US_美国
+      - _US_美国 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 60
     proxies:
-      - None_None_vmess_642
-      - None_None_vmess_096
-      - None_None_vmess_248
 
-      - CN-183.236.51.50-2970
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
-      - 4Sarina-898
-      - 4Sarina-930
-      - 13|🇯🇵 日本特殊|@ripaojiedian
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
-      - 4Sarina-944
-      - KR-193.122.106.179-1382
+
+      - 13,14|香港|@ripaojiedian
+      - _US_美国
+      - _US_美国 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
