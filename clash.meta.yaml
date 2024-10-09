@@ -56,7 +56,10 @@ proxies:
 - {name: None_None_vmess_097, server: malaysia.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip6.6016725.xyz}}, udp: true}
 - {name: None_None_vmess_019, server: 104.19.58.175, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip6.6016725.xyz}}, udp: true}
 - {name: 13|🇸🇬 新加坡4|@ripaojiedian, server: zf.egfu.cn, port: 58118, type: ss, cipher: chacha20-ietf-poly1305, password: 0f189a26-78f6-4bd2-9ea7-7a6bbdc443fe, udp: true}
-- {name: "13,14|香港|@ripaojiedian", server: 223.244.26.216, port: 46001, type: vmess, uuid: c9bda0e7-4ffa-464f-84a0-41253180d04c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn}, udp: true}
+- {name: 13|🇯🇵 日本特殊|@ripaojiedian, server: 43.201.48.132, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 13|🇭🇰 香港7|@ripaojiedian, server: hzhz2.sssyun.xyz, port: 40010, type: ss, cipher: chacha20-ietf-poly1305, password: 005c0d27-a407-4be9-9740-818da49a50be, udp: true}
+- {name: 0|-https://t.me/MrXbin-1, server: 18.176.215.63, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)ca5bef9:175503}, udp: true}
+- {name: 13|🇰🇷 韩国特殊|@ripaojiedian, server: 13.231.27.52, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -70,7 +73,10 @@ proxy-groups:
     interval: 60
     proxies:
       - 13|🇸🇬 新加坡4|@ripaojiedian
-      - 13,14|香港|@ripaojiedian
+      - 13|🇯🇵 日本特殊|@ripaojiedian
+      - 13|🇭🇰 香港7|@ripaojiedian
+      - 0|-https://t.me/MrXbin-1
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -83,7 +89,10 @@ proxy-groups:
     interval: 60
     proxies:
       - 13|🇸🇬 新加坡4|@ripaojiedian
-      - 13,14|香港|@ripaojiedian
+      - 13|🇯🇵 日本特殊|@ripaojiedian
+      - 13|🇭🇰 香港7|@ripaojiedian
+      - 0|-https://t.me/MrXbin-1
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -121,7 +130,10 @@ proxy-groups:
       - None_None_vmess_019
 
       - 13|🇸🇬 新加坡4|@ripaojiedian
-      - 13,14|香港|@ripaojiedian
+      - 13|🇯🇵 日本特殊|@ripaojiedian
+      - 13|🇭🇰 香港7|@ripaojiedian
+      - 0|-https://t.me/MrXbin-1
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
