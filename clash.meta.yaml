@@ -55,11 +55,10 @@ proxies:
 - {name: United States_San Francisco_vmess_068, server: 172.64.167.25, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip6.6016725.xyz}}, udp: true}
 - {name: United States_San Francisco_vmess_683, server: 172.64.166.8, port: 2095, type: vmess, uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip9.8084726.xyz}}, udp: true}
 - {name: United States_San Francisco_vmess_25, server: 172.64.175.88, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip9.6929198.xyz}}, udp: true}
-- {name: 15|CN_speednode_0022, server: cn1.cdn.xfltd-cdn.top, port: 12011, type: trojan, password: af46f520-a6a1-4207-b3c4-062493fb71d1, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
+- {name: 4Nika-930, server: 52.78.193.3, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Nika-81, server: soonfrk.soon.guru, port: 40011, type: ss, cipher: chacha20-ietf-poly1305, password: 29fefcc3-9ae1-4e01-a1d0-534fc1671121, udp: true}
-- {name: 4Nika-944, server: 43.201.61.86, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Nika-949, server: 43.202.68.249, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-26, server: 91.107.164.204, port: 443, type: vmess, uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /m28jcoZZUhkqg6pk11, headers: {Host: mehrjavan.ir}}, udp: true}
+- {name: 4Sarina-2041, server: 23.150.152.41, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+- {name: 4Sarina-2336, server: 142.202.49.122, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -72,11 +71,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 15|CN_speednode_0022
+      - 4Nika-930
       - 4Nika-81
-      - 4Nika-944
-      - 4Nika-949
-      - 0|-https://t.me/MrXbin-26
+      - 4Sarina-2041
+      - 4Sarina-2336
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -88,11 +86,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 15|CN_speednode_0022
+      - 4Nika-930
       - 4Nika-81
-      - 4Nika-944
-      - 4Nika-949
-      - 0|-https://t.me/MrXbin-26
+      - 4Sarina-2041
+      - 4Sarina-2336
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -129,11 +126,10 @@ proxy-groups:
       - United States_San Francisco_vmess_683
       - United States_San Francisco_vmess_25
 
-      - 15|CN_speednode_0022
+      - 4Nika-930
       - 4Nika-81
-      - 4Nika-944
-      - 4Nika-949
-      - 0|-https://t.me/MrXbin-26
+      - 4Sarina-2041
+      - 4Sarina-2336
   - name: 🐟 漏网之鱼
     type: select
     proxies:
