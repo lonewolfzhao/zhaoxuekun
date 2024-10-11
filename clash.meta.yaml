@@ -55,14 +55,10 @@ proxies:
 - {name: United States_San Francisco_vmess_091, server: 172.64.166.33, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip6.6016725.xyz}}, udp: true}
 - {name: None_None_vmess_056, server: 162.159.140.56, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip6.6016725.xyz}}, udp: true}
 - {name: None_None_vmess_018, server: 104.19.47.65, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip6.6016725.xyz}}, udp: true}
-- {name: 4FreeIran-546, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: gDFRe52uiIvVaxqPlqw439, udp: true}
-- {name: 4FreeIran-930, server: 43.201.61.86, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4FreeIran-902, server: 3.36.113.244, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4FreeIran-544, server: 45.87.175.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: gDFRe52uiIvVaxqPlqw439, udp: true}
-- {name: 13|🇯🇵 日本特殊|@ripaojiedian, server: 52.12.74.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Nika-930, server: 52.78.193.3, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "13,14|美国|@ripaojiedian", server: strw4.c6tu5uwk9.buzz, port: 80, type: vmess, uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us04.1761d77fead15f193490a0f11b83f3a4.buzz}}, udp: true}
-- {name: _DE_德国, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: gDFRe52uiIvVaxqPlqw439, udp: true}
+- {name: 14|香港2|@ripaojiedian, server: ambxxic01hk.dorabbb.top, port: 44803, type: vmess, uuid: b03ec976-3100-48ea-b1b1-767f8d425907, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Sarina-942, server: 43.202.68.249, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4FreeIran-1697, server: 69.50.95.218, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+- {name: 4Sarina-1223, server: 139.64.164.15, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -75,14 +71,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4FreeIran-546
-      - 4FreeIran-930
-      - 4FreeIran-902
-      - 4FreeIran-544
-      - 13|🇯🇵 日本特殊|@ripaojiedian
-      - 4Nika-930
-      - 13,14|美国|@ripaojiedian
-      - _DE_德国
+      - 14|香港2|@ripaojiedian
+      - 4Sarina-942
+      - 4FreeIran-1697
+      - 4Sarina-1223
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -94,14 +86,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4FreeIran-546
-      - 4FreeIran-930
-      - 4FreeIran-902
-      - 4FreeIran-544
-      - 13|🇯🇵 日本特殊|@ripaojiedian
-      - 4Nika-930
-      - 13,14|美国|@ripaojiedian
-      - _DE_德国
+      - 14|香港2|@ripaojiedian
+      - 4Sarina-942
+      - 4FreeIran-1697
+      - 4Sarina-1223
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -138,14 +126,10 @@ proxy-groups:
       - None_None_vmess_056
       - None_None_vmess_018
 
-      - 4FreeIran-546
-      - 4FreeIran-930
-      - 4FreeIran-902
-      - 4FreeIran-544
-      - 13|🇯🇵 日本特殊|@ripaojiedian
-      - 4Nika-930
-      - 13,14|美国|@ripaojiedian
-      - _DE_德国
+      - 14|香港2|@ripaojiedian
+      - 4Sarina-942
+      - 4FreeIran-1697
+      - 4Sarina-1223
   - name: 🐟 漏网之鱼
     type: select
     proxies:
