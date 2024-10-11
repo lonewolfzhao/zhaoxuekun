@@ -55,11 +55,10 @@ proxies:
 - {name: United States_San Francisco_vmess_084, server: 172.64.166.9, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip6.6016725.xyz}}, udp: true}
 - {name: None_None_vmess_695, server: ip.sb, port: 2095, type: vmess, uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip9.8084726.xyz}}, udp: true}
 - {name: United States_None_vmess_09, server: 172.64.198.249, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip6.6016725.xyz}}, udp: true}
-- {name: "13,14|美国|@ripaojiedian", server: strw4.c6tu5uwk9.buzz, port: 80, type: vmess, uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us04.1761d77fead15f193490a0f11b83f3a4.buzz}}, udp: true}
-- {name: 4Sarina-942, server: 43.202.68.249, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 13|🇰🇷 韩国特殊|@ripaojiedian, server: 3.36.69.3, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4FreeIran-2984, server: 69.50.95.218, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-- {name: 4Sarina-1223, server: 139.64.164.15, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+- {name: 4Kian-931, server: 43.201.61.86, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Kian-424, server: 13.42.86.228, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
+- {name: 4FreeIran-2201, server: 139.64.164.15, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+- {name: 4Kian-2182, server: 69.50.95.218, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -72,11 +71,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13,14|美国|@ripaojiedian
-      - 4Sarina-942
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
-      - 4FreeIran-2984
-      - 4Sarina-1223
+      - 4Kian-931
+      - 4Kian-424
+      - 4FreeIran-2201
+      - 4Kian-2182
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -88,11 +86,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13,14|美国|@ripaojiedian
-      - 4Sarina-942
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
-      - 4FreeIran-2984
-      - 4Sarina-1223
+      - 4Kian-931
+      - 4Kian-424
+      - 4FreeIran-2201
+      - 4Kian-2182
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -129,11 +126,10 @@ proxy-groups:
       - None_None_vmess_695
       - United States_None_vmess_09
 
-      - 13,14|美国|@ripaojiedian
-      - 4Sarina-942
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
-      - 4FreeIran-2984
-      - 4Sarina-1223
+      - 4Kian-931
+      - 4Kian-424
+      - 4FreeIran-2201
+      - 4Kian-2182
   - name: 🐟 漏网之鱼
     type: select
     proxies:
