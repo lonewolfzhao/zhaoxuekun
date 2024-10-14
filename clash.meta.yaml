@@ -56,13 +56,13 @@ proxies:
 - {name: United States_San Francisco_vmess_08, server: 172.64.175.213, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip9.6016725.xyz}}, udp: true}
 - {name: United States_San Francisco_vmess_090, server: 172.64.166.32, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip9.6016725.xyz}}, udp: true}
 - {name: 15|CN_speednode_0018, server: 36.151.192.201, port: 27131, type: trojan, password: wwTIozXY, skip-cert-verify: true, udp: true}
-- {name: 4FreeIran-958, server: 52.12.74.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Jadi-948, server: 43.202.68.249, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 13|🇺🇸 美国|@ripaojiedian, server: ba3l.thchroute.club, port: 38091, type: trojan, password: b382cb9d7924e76112ab30ad4e45b430, sni: ba3l.thchroute.club, skip-cert-verify: true, udp: true}
+- {name: 4Mohsen-897, server: 13.250.59.97, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|-https://t.me/MrXbin-51, server: 38.174.190.80, port: 38007, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/102206282005}, udp: true}
-- {name: 4FreeIran-923, server: 43.201.48.132, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4FreeIran-892, server: 18.142.178.38, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Mohsen-946, server: 43.203.254.79, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 13|🇺🇸 美国|@ripaojiedian, server: ba3l.thchroute.club, port: 38091, type: trojan, password: b382cb9d7924e76112ab30ad4e45b430, sni: ba3l.thchroute.club, skip-cert-verify: true, udp: true}
+- {name: 4Nika-984, server: 52.78.205.132, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 13|🇭🇰 香港|@ripaojiedian, server: cdn.node1.lilisi.link, port: 10004, type: ss, cipher: aes-128-gcm, password: 26f959e3-1a5e-3b3d-b4cd-fe04c80902bd, udp: true}
+- {name: 4Nika-928, server: 3.35.222.240, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Jadi-968, server: 52.78.193.3, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -76,13 +76,13 @@ proxy-groups:
     interval: 60
     proxies:
       - 15|CN_speednode_0018
-      - 4FreeIran-958
-      - 4Jadi-948
-      - 13|🇺🇸 美国|@ripaojiedian
+      - 4Mohsen-897
       - 0|-https://t.me/MrXbin-51
-      - 4FreeIran-923
-      - 4FreeIran-892
-      - 4Mohsen-946
+      - 13|🇺🇸 美国|@ripaojiedian
+      - 4Nika-984
+      - 13|🇭🇰 香港|@ripaojiedian
+      - 4Nika-928
+      - 4Jadi-968
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -95,13 +95,13 @@ proxy-groups:
     interval: 60
     proxies:
       - 15|CN_speednode_0018
-      - 4FreeIran-958
-      - 4Jadi-948
-      - 13|🇺🇸 美国|@ripaojiedian
+      - 4Mohsen-897
       - 0|-https://t.me/MrXbin-51
-      - 4FreeIran-923
-      - 4FreeIran-892
-      - 4Mohsen-946
+      - 13|🇺🇸 美国|@ripaojiedian
+      - 4Nika-984
+      - 13|🇭🇰 香港|@ripaojiedian
+      - 4Nika-928
+      - 4Jadi-968
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -139,13 +139,13 @@ proxy-groups:
       - United States_San Francisco_vmess_090
 
       - 15|CN_speednode_0018
-      - 4FreeIran-958
-      - 4Jadi-948
-      - 13|🇺🇸 美国|@ripaojiedian
+      - 4Mohsen-897
       - 0|-https://t.me/MrXbin-51
-      - 4FreeIran-923
-      - 4FreeIran-892
-      - 4Mohsen-946
+      - 13|🇺🇸 美国|@ripaojiedian
+      - 4Nika-984
+      - 13|🇭🇰 香港|@ripaojiedian
+      - 4Nika-928
+      - 4Jadi-968
   - name: 🐟 漏网之鱼
     type: select
     proxies:
