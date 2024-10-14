@@ -55,11 +55,7 @@ proxies:
 - {name: None_None_vmess_240, server: 104.19.45.50, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip13.6929198.xyz}}, udp: true}
 - {name: None_None_vmess_042, server: 104.26.5.56, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip9.6016725.xyz}}, udp: true}
 - {name: United States_San Francisco_vmess_282, server: 172.64.166.2, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip12.6929198.xyz}}, udp: true}
-- {name: _US_美国->🇷🇺_RU_俄罗斯, server: 52.43.33.6, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4FreeIran-962, server: 43.203.254.79, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|-https://t.me/MrXbin-51, server: 38.174.190.80, port: 38007, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/102206282005}, udp: true}
-- {name: 4FreeIran-958, server: 52.12.74.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国->🇨🇳_CN_中国, server: 54.244.188.170, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -72,11 +68,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - _US_美国->🇷🇺_RU_俄罗斯
-      - 4FreeIran-962
       - 0|-https://t.me/MrXbin-51
-      - 4FreeIran-958
-      - _US_美国->🇨🇳_CN_中国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -88,11 +80,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - _US_美国->🇷🇺_RU_俄罗斯
-      - 4FreeIran-962
       - 0|-https://t.me/MrXbin-51
-      - 4FreeIran-958
-      - _US_美国->🇨🇳_CN_中国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -129,11 +117,7 @@ proxy-groups:
       - None_None_vmess_042
       - United States_San Francisco_vmess_282
 
-      - _US_美国->🇷🇺_RU_俄罗斯
-      - 4FreeIran-962
       - 0|-https://t.me/MrXbin-51
-      - 4FreeIran-958
-      - _US_美国->🇨🇳_CN_中国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
