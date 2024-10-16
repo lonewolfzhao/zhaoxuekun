@@ -32,14 +32,14 @@ proxies:
 - {name: United States_San Francisco_vmess_065, server: 172.64.167.15, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip9.6016725.xyz}}, udp: true}
 - {name: None_None_vmess_218, server: 104.19.47.65, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip14.6929198.xyz}}, udp: true}
 - {name: United States_San Francisco_vmess_289, server: 172.64.166.28, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip14.6929198.xyz}}, udp: true}
-- {name: 15|CN_speednode_0003, server: 36.151.192.201, port: 27131, type: trojan, password: wwTIozXY, skip-cert-verify: true, udp: true}
-- {name: 13|🇸🇬 狮城特殊|@ripaojiedian, server: 13.112.168.104, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 13|🇰🇷 韩国特殊|@ripaojiedian, server: 18.182.55.134, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 13|🇯🇵 日本|@ripaojiedian, server: 120.232.81.50, port: 15084, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
 - {name: 13|🇯🇵 日本2|@ripaojiedian, server: biedazjyd.zhangwei.li, port: 50331, type: ss, cipher: aes-256-gcm, password: 8c052d7a-d5da-495a-abee-93f4bef380e1, udp: true}
-- {name: 13|🇺🇸 美国|@ripaojiedian, server: mmt.bjcu.donghui.tech, port: 35423, type: ss, cipher: aes-256-gcm, password: 8c052d7a-d5da-495a-abee-93f4bef380e1, udp: true}
+- {name: 15|CN_speednode_0003, server: 36.151.192.201, port: 27131, type: trojan, password: wwTIozXY, skip-cert-verify: true, udp: true}
 - {name: 4Sarina-927, server: 18.236.95.86, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 13|🇯🇵 日本4|@ripaojiedian, server: 61.172.235.22, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 5e169d24-64c5-4a31-8942-1e7b05e79db5, udp: true}
+- {name: 4FreeIran-977, server: 52.78.193.3, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Sarina-3057, server: 69.50.92.99, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+- {name: 4Sarina-2240, server: 69.50.95.218, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+- {name: 4Sarina-950, server: 35.94.175.12, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -52,14 +52,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 15|CN_speednode_0003
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
       - 13|🇯🇵 日本|@ripaojiedian
       - 13|🇯🇵 日本2|@ripaojiedian
-      - 13|🇺🇸 美国|@ripaojiedian
+      - 15|CN_speednode_0003
       - 4Sarina-927
-      - 13|🇯🇵 日本4|@ripaojiedian
+      - 4FreeIran-977
+      - 4Sarina-3057
+      - 4Sarina-2240
+      - 4Sarina-950
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -71,14 +71,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 15|CN_speednode_0003
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
       - 13|🇯🇵 日本|@ripaojiedian
       - 13|🇯🇵 日本2|@ripaojiedian
-      - 13|🇺🇸 美国|@ripaojiedian
+      - 15|CN_speednode_0003
       - 4Sarina-927
-      - 13|🇯🇵 日本4|@ripaojiedian
+      - 4FreeIran-977
+      - 4Sarina-3057
+      - 4Sarina-2240
+      - 4Sarina-950
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -92,14 +92,14 @@ proxy-groups:
       - None_None_vmess_218
       - United States_San Francisco_vmess_289
 
-      - 15|CN_speednode_0003
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
       - 13|🇯🇵 日本|@ripaojiedian
       - 13|🇯🇵 日本2|@ripaojiedian
-      - 13|🇺🇸 美国|@ripaojiedian
+      - 15|CN_speednode_0003
       - 4Sarina-927
-      - 13|🇯🇵 日本4|@ripaojiedian
+      - 4FreeIran-977
+      - 4Sarina-3057
+      - 4Sarina-2240
+      - 4Sarina-950
   - name: 🐟 漏网之鱼
     type: select
     proxies:
