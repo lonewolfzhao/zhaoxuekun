@@ -55,14 +55,14 @@ proxies:
 - {name: None_None_vmess_042, server: 104.26.5.56, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip11.6016725.xyz}}, udp: true}
 - {name: None_None_vmess_014, server: 104.19.21.230, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip11.6016725.xyz}}, udp: true}
 - {name: United States_None_vmess_09, server: 172.64.198.249, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip11.6016725.xyz}}, udp: true}
-- {name: 13|🇯🇵 日本4|@ripaojiedian, server: 61.172.235.22, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 9bfad321-59c2-42dc-be43-6985c6f84bba, udp: true}
-- {name: 13|🇹🇼 台湾|@ripaojiedian, server: hzhz1.sssyun.xyz, port: 39201, type: ss, cipher: chacha20-ietf-poly1305, password: 0143905a-7f2d-4f95-a2d6-9947d4017bcd, udp: true}
-- {name: 13|🇸🇬 狮城特殊|@ripaojiedian, server: 13.229.212.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 13|🇸🇬 新加坡|@ripaojiedian, server: hzhz2.sssyun.xyz, port: 40014, type: ss, cipher: chacha20-ietf-poly1305, password: 0143905a-7f2d-4f95-a2d6-9947d4017bcd, udp: true}
 - {name: ----就能继续使用----, server: gdgs.tarioblink.me, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: f7c2180f-1a93-4d65-9e66-7ad62401f783, udp: true}
+- {name: 13|🇸🇬 狮城特殊|@ripaojiedian, server: 13.229.212.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 13|🇸🇬 新加坡2|@ripaojiedian, server: winning-doe.sheepdog670.boats, port: 443, type: trojan, password: !<str> 3690911436885991424, sni: winning-doe.sheepdog670.boats, skip-cert-verify: true, udp: true}
-- {name: 4FreeIran-473, server: 45.158.171.44, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: a8bt9fY0QsLS6eLnXUe0Ym, udp: true}
-- {name: 13|🇭🇰 香港3|@ripaojiedian, server: hzhz1.sssyun.xyz, port: 39301, type: ss, cipher: chacha20-ietf-poly1305, password: 0143905a-7f2d-4f95-a2d6-9947d4017bcd, udp: true}
+- {name: 13|🇻🇳 越南|@ripaojiedian, server: 120.232.81.50, port: 15083, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
+- {name: 13|🇹🇼 台湾|@ripaojiedian, server: hzhz1.sssyun.xyz, port: 39201, type: ss, cipher: chacha20-ietf-poly1305, password: 0143905a-7f2d-4f95-a2d6-9947d4017bcd, udp: true}
+- {name: 11|广东省广州市 移动, server: 183.236.48.161, port: 33288, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4FreeIran-940, server: 3.35.222.240, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _CN_中国->🇺🇸_US_美国, server: 120.237.79.157, port: 46665, type: vmess, uuid: 3ac820af-becb-45d7-9e7a-e33d02961bb3, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -75,14 +75,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13|🇯🇵 日本4|@ripaojiedian
-      - 13|🇹🇼 台湾|@ripaojiedian
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
-      - 13|🇸🇬 新加坡|@ripaojiedian
       - ----就能继续使用----
+      - 13|🇸🇬 狮城特殊|@ripaojiedian
       - 13|🇸🇬 新加坡2|@ripaojiedian
-      - 4FreeIran-473
-      - 13|🇭🇰 香港3|@ripaojiedian
+      - 13|🇻🇳 越南|@ripaojiedian
+      - 13|🇹🇼 台湾|@ripaojiedian
+      - 11|广东省广州市 移动
+      - 4FreeIran-940
+      - _CN_中国->🇺🇸_US_美国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -94,14 +94,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13|🇯🇵 日本4|@ripaojiedian
-      - 13|🇹🇼 台湾|@ripaojiedian
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
-      - 13|🇸🇬 新加坡|@ripaojiedian
       - ----就能继续使用----
+      - 13|🇸🇬 狮城特殊|@ripaojiedian
       - 13|🇸🇬 新加坡2|@ripaojiedian
-      - 4FreeIran-473
-      - 13|🇭🇰 香港3|@ripaojiedian
+      - 13|🇻🇳 越南|@ripaojiedian
+      - 13|🇹🇼 台湾|@ripaojiedian
+      - 11|广东省广州市 移动
+      - 4FreeIran-940
+      - _CN_中国->🇺🇸_US_美国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -138,14 +138,14 @@ proxy-groups:
       - None_None_vmess_014
       - United States_None_vmess_09
 
-      - 13|🇯🇵 日本4|@ripaojiedian
-      - 13|🇹🇼 台湾|@ripaojiedian
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
-      - 13|🇸🇬 新加坡|@ripaojiedian
       - ----就能继续使用----
+      - 13|🇸🇬 狮城特殊|@ripaojiedian
       - 13|🇸🇬 新加坡2|@ripaojiedian
-      - 4FreeIran-473
-      - 13|🇭🇰 香港3|@ripaojiedian
+      - 13|🇻🇳 越南|@ripaojiedian
+      - 13|🇹🇼 台湾|@ripaojiedian
+      - 11|广东省广州市 移动
+      - 4FreeIran-940
+      - _CN_中国->🇺🇸_US_美国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
