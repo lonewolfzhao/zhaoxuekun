@@ -28,8 +28,11 @@ dns:
 proxies:
 - {name: United States_None_vmess_095, server: ip.sb, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip13.6016725.xyz}}, udp: true}
 - {name: None_None_vmess_226, server: 104.20.25.146, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip17.6929198.xyz}}, udp: true}
-- {name: 13|🇰🇷 韩国特殊|@ripaojiedian, server: 54.255.222.67, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Sarina-905, server: 13.229.212.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4FreeIran-915, server: 18.236.95.86, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Sarina-918, server: 18.142.243.72, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Sarina-997, server: 54.179.92.61, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _CN_中国->🇫🇷_FR_法国, server: 120.237.79.157, port: 46665, type: vmess, uuid: 3ac820af-becb-45d7-9e7a-e33d02961bb3, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 13|🇭🇰 香港6|@ripaojiedian, server: 183.240.255.75, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 84ebc90f-2c3f-4a23-b54f-4d4b2434597e, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -43,8 +46,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 4Sarina-905
       - 4FreeIran-915
+      - 4Sarina-918
+      - 4Sarina-997
+      - _CN_中国->🇫🇷_FR_法国
       - 13|🇭🇰 香港6|@ripaojiedian
   - name: 🔰 节点选择
     type: select
@@ -57,8 +63,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 4Sarina-905
       - 4FreeIran-915
+      - 4Sarina-918
+      - 4Sarina-997
+      - _CN_中国->🇫🇷_FR_法国
       - 13|🇭🇰 香港6|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
@@ -69,8 +78,11 @@ proxy-groups:
       - United States_None_vmess_095
       - None_None_vmess_226
 
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 4Sarina-905
       - 4FreeIran-915
+      - 4Sarina-918
+      - 4Sarina-997
+      - _CN_中国->🇫🇷_FR_法国
       - 13|🇭🇰 香港6|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
