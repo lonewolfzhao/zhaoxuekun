@@ -55,8 +55,8 @@ proxies:
 - {name: United States_San Francisco_vmess_270, server: 172.64.167.35, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, udp: true}
 - {name: None_None_vmess_021, server: 104.19.42.49, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip14.6016725.xyz}}, udp: true}
 - {name: United States_San Francisco_vmess_082, server: 172.64.166.2, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip14.6016725.xyz}}, udp: true}
-- {name: 4FreeIran-915, server: 18.236.95.86, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _CN_中国->🇺🇸_US_美国, server: 183.236.48.166, port: 33288, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 13|🇯🇵 日本特殊|@ripaojiedian, server: 13.114.133.24, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Mohsen-989, server: 54.249.192.248, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -69,8 +69,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4FreeIran-915
-      - _CN_中国->🇺🇸_US_美国
+      - 13|🇯🇵 日本特殊|@ripaojiedian
+      - 4Mohsen-989
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -82,8 +82,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4FreeIran-915
-      - _CN_中国->🇺🇸_US_美国
+      - 13|🇯🇵 日本特殊|@ripaojiedian
+      - 4Mohsen-989
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -120,8 +120,8 @@ proxy-groups:
       - None_None_vmess_021
       - United States_San Francisco_vmess_082
 
-      - 4FreeIran-915
-      - _CN_中国->🇺🇸_US_美国
+      - 13|🇯🇵 日本特殊|@ripaojiedian
+      - 4Mohsen-989
   - name: 🐟 漏网之鱼
     type: select
     proxies:
