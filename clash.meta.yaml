@@ -55,14 +55,8 @@ proxies:
 - {name: United States_San Francisco_vmess_083, server: 172.64.166.8, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip14.6016725.xyz}}, udp: true}
 - {name: United States_San Francisco_vmess_263, server: 172.64.167.8, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, udp: true}
 - {name: United States_San Francisco_vmess_283, server: 172.64.166.8, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, udp: true}
-- {name: 4Mohsen-894, server: 13.231.124.247, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国->🇨🇳_CN_中国, server: 216.128.147.13, port: 443, type: trojan, password: wkmY1R4EcP, sni: z-v2-003274.kailib.com, skip-cert-verify: true, udp: true}
-- {name: 0|-https://t.me/MrXbin-43, server: sure-mutt.sunbeam921.monster, port: 443, type: trojan, password: !<str> 3672449442956713984, sni: sure-mutt.sunbeam921.monster, skip-cert-verify: true, udp: true}
+- {name: 13|🇸🇬 狮城特殊|@ripaojiedian, server: 47.128.233.58, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 13|🇻🇳 越南|@ripaojiedian, server: 120.232.81.50, port: 15083, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
-- {name: 4Sarina-915, server: 18.236.95.86, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "11|美国 Fastly全球Anycast节点 #1", server: speedtest.net, port: 443, type: vmess, uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /m28jcoZZUhkqg6pk11, headers: {Host: mehrjavan.ir}}, udp: true}
-- {name: _CN_中国->🇫🇷_FR_法国, server: 120.237.79.157, port: 46665, type: vmess, uuid: 3ac820af-becb-45d7-9e7a-e33d02961bb3, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4Nika-428, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -75,14 +69,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4Mohsen-894
-      - _US_美国->🇨🇳_CN_中国
-      - 0|-https://t.me/MrXbin-43
+      - 13|🇸🇬 狮城特殊|@ripaojiedian
       - 13|🇻🇳 越南|@ripaojiedian
-      - 4Sarina-915
-      - "11|美国 Fastly全球Anycast节点 #1"
-      - _CN_中国->🇫🇷_FR_法国
-      - 4Nika-428
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -94,14 +82,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4Mohsen-894
-      - _US_美国->🇨🇳_CN_中国
-      - 0|-https://t.me/MrXbin-43
+      - 13|🇸🇬 狮城特殊|@ripaojiedian
       - 13|🇻🇳 越南|@ripaojiedian
-      - 4Sarina-915
-      - "11|美国 Fastly全球Anycast节点 #1"
-      - _CN_中国->🇫🇷_FR_法国
-      - 4Nika-428
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -138,14 +120,8 @@ proxy-groups:
       - United States_San Francisco_vmess_263
       - United States_San Francisco_vmess_283
 
-      - 4Mohsen-894
-      - _US_美国->🇨🇳_CN_中国
-      - 0|-https://t.me/MrXbin-43
+      - 13|🇸🇬 狮城特殊|@ripaojiedian
       - 13|🇻🇳 越南|@ripaojiedian
-      - 4Sarina-915
-      - "11|美国 Fastly全球Anycast节点 #1"
-      - _CN_中国->🇫🇷_FR_法国
-      - 4Nika-428
   - name: 🐟 漏网之鱼
     type: select
     proxies:
