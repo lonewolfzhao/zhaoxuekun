@@ -55,8 +55,9 @@ proxies:
 - {name: United States_San Francisco_vmess_083, server: 172.64.166.8, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip14.6016725.xyz}}, udp: true}
 - {name: United States_San Francisco_vmess_263, server: 172.64.167.8, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, udp: true}
 - {name: United States_San Francisco_vmess_283, server: 172.64.166.8, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, udp: true}
-- {name: 13|🇸🇬 狮城特殊|@ripaojiedian, server: 47.128.233.58, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 13|🇯🇵 日本特殊|@ripaojiedian, server: 54.169.216.179, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 13|🇻🇳 越南|@ripaojiedian, server: 120.232.81.50, port: 15083, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
+- {name: 13|🇸🇬 狮城特殊|@ripaojiedian, server: 47.128.233.58, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -69,8 +70,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - 13|🇯🇵 日本特殊|@ripaojiedian
       - 13|🇻🇳 越南|@ripaojiedian
+      - 13|🇸🇬 狮城特殊|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -82,8 +84,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - 13|🇯🇵 日本特殊|@ripaojiedian
       - 13|🇻🇳 越南|@ripaojiedian
+      - 13|🇸🇬 狮城特殊|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -120,8 +123,9 @@ proxy-groups:
       - United States_San Francisco_vmess_263
       - United States_San Francisco_vmess_283
 
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - 13|🇯🇵 日本特殊|@ripaojiedian
       - 13|🇻🇳 越南|@ripaojiedian
+      - 13|🇸🇬 狮城特殊|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
