@@ -27,10 +27,10 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: None_None_vmess_037, server: 104.19.45.35, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip15.6016725.xyz}}, udp: true}
-- {name: 4FreeIran-573, server: 103.36.91.23, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
 - {name: 13|🇯🇵 日本特殊|@ripaojiedian, server: 54.169.139.18, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "13,14|美国2|@ripaojiedian", server: naiu-us.05vr9nyqg5.download, port: 13021, type: trojan, password: 5b4becce-5739-483f-97ec-68b81a855d68, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
 - {name: 13|🇭🇰 香港7|@ripaojiedian, server: 144.202.112.106, port: 3913, type: ss, cipher: chacha20-ietf-poly1305, password: 76dze09gQEvqS_jOuo, udp: true}
-- {name: 13|🇸🇬 新加坡|@ripaojiedian, server: 221.181.185.71, port: 20705, type: ss, cipher: aes-256-cfb, password: 75ly0yJ90LP5Ural, udp: true}
+- {name: _RU_俄罗斯, server: 147.45.51.16, port: 2098, type: vmess, uuid: 83876222-64a4-4912-aa18-b7d9d34959de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -43,10 +43,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4FreeIran-573
       - 13|🇯🇵 日本特殊|@ripaojiedian
+      - 13,14|美国2|@ripaojiedian
       - 13|🇭🇰 香港7|@ripaojiedian
-      - 13|🇸🇬 新加坡|@ripaojiedian
+      - _RU_俄罗斯
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -58,10 +58,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4FreeIran-573
       - 13|🇯🇵 日本特殊|@ripaojiedian
+      - 13,14|美国2|@ripaojiedian
       - 13|🇭🇰 香港7|@ripaojiedian
-      - 13|🇸🇬 新加坡|@ripaojiedian
+      - _RU_俄罗斯
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -70,10 +70,10 @@ proxy-groups:
     proxies:
       - None_None_vmess_037
 
-      - 4FreeIran-573
       - 13|🇯🇵 日本特殊|@ripaojiedian
+      - 13,14|美国2|@ripaojiedian
       - 13|🇭🇰 香港7|@ripaojiedian
-      - 13|🇸🇬 新加坡|@ripaojiedian
+      - _RU_俄罗斯
   - name: 🐟 漏网之鱼
     type: select
     proxies:
