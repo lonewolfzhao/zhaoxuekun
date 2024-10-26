@@ -55,8 +55,14 @@ proxies:
 - {name: None_None_vmess_01, server: 104.21.238.100, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip16.6016725.xyz}}, udp: true}
 - {name: None_None_vmess_21, server: 104.19.38.9, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip21.6929198.xyz}}, udp: true}
 - {name: United States_None_vmess_26, server: 172.64.99.22, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip21.6929198.xyz}}, udp: true}
+- {name: 4Mohsen-902, server: 18.176.53.132, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Mohsen-635, server: 103.36.91.23, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
 - {name: 4Mohsen-389, server: 150.241.95.62, port: 58505, type: ss, cipher: chacha20-ietf-poly1305, password: MrOzz68-+v, udp: true}
+- {name: 4Mohsen-498, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+- {name: 4Mohsen-493, server: 45.87.175.154, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
 - {name: 4FreeIran-1119, server: 221.181.185.71, port: 23382, type: ss, cipher: aes-256-cfb, password: f52SZksXnGNfc72Q, udp: true}
+- {name: 4Mohsen-89, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
+- {name: 13|🇸🇬 新加坡|@ripaojiedian, server: 221.181.185.71, port: 20705, type: ss, cipher: aes-256-cfb, password: 75ly0yJ90LP5Ural, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -69,8 +75,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - 4Mohsen-902
+      - 4Mohsen-635
       - 4Mohsen-389
+      - 4Mohsen-498
+      - 4Mohsen-493
       - 4FreeIran-1119
+      - 4Mohsen-89
+      - 13|🇸🇬 新加坡|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -82,8 +94,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - 4Mohsen-902
+      - 4Mohsen-635
       - 4Mohsen-389
+      - 4Mohsen-498
+      - 4Mohsen-493
       - 4FreeIran-1119
+      - 4Mohsen-89
+      - 13|🇸🇬 新加坡|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -120,8 +138,14 @@ proxy-groups:
       - None_None_vmess_21
       - United States_None_vmess_26
 
+      - 4Mohsen-902
+      - 4Mohsen-635
       - 4Mohsen-389
+      - 4Mohsen-498
+      - 4Mohsen-493
       - 4FreeIran-1119
+      - 4Mohsen-89
+      - 13|🇸🇬 新加坡|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
