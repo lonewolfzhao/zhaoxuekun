@@ -55,14 +55,12 @@ proxies:
 - {name: None_None_vmess_017, server: 104.19.32.216, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip16.6016725.xyz}}, udp: true}
 - {name: None_None_vmess_013, server: 104.18.57.111, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip16.6016725.xyz}}, udp: true}
 - {name: None_None_vmess_024, server: 104.19.59.89, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip16.6016725.xyz}}, udp: true}
-- {name: 13|🇯🇵 日本|@ripaojiedian, server: d.baodesign.top, port: 25004, type: vmess, uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 未知, server: naiu-us.05vr9nyqg5.download, port: 13021, type: trojan, password: 5b4becce-5739-483f-97ec-68b81a855d68, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+- {name: 13|🇹🇼 台湾|@ripaojiedian, server: hzhz1.sssyun.xyz, port: 39201, type: ss, cipher: chacha20-ietf-poly1305, password: f2a7baac-c6d4-4d29-aab2-02426814f0ce, udp: true}
+- {name: 13|🇸🇬 新加坡|@ripaojiedian, server: osg020.nod3.org, port: 29971, type: ss, cipher: aes-128-gcm, password: 1c47b2d3-6ff0-491d-89fa-7f8a38e49c99, udp: true}
 - {name: 0|-https://t.me/MrXbin-5, server: 107.155.57.51, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: 4Jadi-392, server: 91.103.253.151, port: 19057, type: ss, cipher: chacha20-ietf-poly1305, password: PlTWGNu62VhPNOWWG9Fdx8, udp: true}
 - {name: _CN_中国->🇺🇸_US_美国, server: 183.236.48.161, port: 33288, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4FreeIran-1751, server: 69.50.92.72, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-- {name: 4Mohsen-2369, server: 23.150.152.41, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-- {name: 0|-https://t.me/MrXbin-3, server: 69.50.92.99, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-- {name: _US_美国, server: 38.114.114.193, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+- {name: 4Mohsen-2155, server: 23.150.152.41, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -75,14 +73,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13|🇯🇵 日本|@ripaojiedian
-      - 未知
+      - 13|🇹🇼 台湾|@ripaojiedian
+      - 13|🇸🇬 新加坡|@ripaojiedian
       - 0|-https://t.me/MrXbin-5
+      - 4Jadi-392
       - _CN_中国->🇺🇸_US_美国
-      - 4FreeIran-1751
-      - 4Mohsen-2369
-      - 0|-https://t.me/MrXbin-3
-      - _US_美国
+      - 4Mohsen-2155
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -94,14 +90,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13|🇯🇵 日本|@ripaojiedian
-      - 未知
+      - 13|🇹🇼 台湾|@ripaojiedian
+      - 13|🇸🇬 新加坡|@ripaojiedian
       - 0|-https://t.me/MrXbin-5
+      - 4Jadi-392
       - _CN_中国->🇺🇸_US_美国
-      - 4FreeIran-1751
-      - 4Mohsen-2369
-      - 0|-https://t.me/MrXbin-3
-      - _US_美国
+      - 4Mohsen-2155
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -138,14 +132,12 @@ proxy-groups:
       - None_None_vmess_013
       - None_None_vmess_024
 
-      - 13|🇯🇵 日本|@ripaojiedian
-      - 未知
+      - 13|🇹🇼 台湾|@ripaojiedian
+      - 13|🇸🇬 新加坡|@ripaojiedian
       - 0|-https://t.me/MrXbin-5
+      - 4Jadi-392
       - _CN_中国->🇺🇸_US_美国
-      - 4FreeIran-1751
-      - 4Mohsen-2369
-      - 0|-https://t.me/MrXbin-3
-      - _US_美国
+      - 4Mohsen-2155
   - name: 🐟 漏网之鱼
     type: select
     proxies:
