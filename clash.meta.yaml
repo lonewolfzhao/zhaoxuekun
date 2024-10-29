@@ -26,8 +26,8 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: None_None_vmess_039, server: 104.19.45.47, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip16.6016725.xyz}}, udp: true}
 - {name: None_None_vmess_038, server: 104.19.45.42, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip16.6016725.xyz}}, udp: true}
-- {name: None_None_vmess_040, server: 104.19.45.50, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip16.6016725.xyz}}, udp: true}
 - {name: 4Jadi-40, server: ah3-picfgde5bmwtmart.bestzumo.com, port: 13591, type: ss, cipher: chacha20-ietf-poly1305, password: 7ac75754-fde2-407d-ac00-17cd5ddc53d1, udp: true}
 - {name: 4Mohsen-573, server: 103.36.91.23, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
 - {name: 13|🇸🇬 狮城特殊|@ripaojiedian, server: 54.169.135.226, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
@@ -81,8 +81,8 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 60
     proxies:
+      - None_None_vmess_039
       - None_None_vmess_038
-      - None_None_vmess_040
 
       - 4Jadi-40
       - 4Mohsen-573
