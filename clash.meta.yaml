@@ -26,24 +26,15 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: None_None_vmess_01, server: 104.21.238.100, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip16.6016725.xyz}}, udp: true}
-- {name: None_None_vmess_252, server: 162.159.140.19, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip22.6929198.xyz}}, udp: true}
-- {name: None_None_vmess_038, server: 104.19.45.42, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip16.6016725.xyz}}, udp: true}
-- {name: None_None_vmess_239, server: 104.19.45.47, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip22.6929198.xyz}}, udp: true}
-- {name: None_None_vmess_238, server: 104.19.45.42, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip22.6929198.xyz}}, udp: true}
-- {name: None_None_vmess_21, server: 104.19.38.9, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip22.6929198.xyz}}, udp: true}
 - {name: None_None_vmess_039, server: 104.19.45.47, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip16.6016725.xyz}}, udp: true}
-- {name: United States_San Francisco_vmess_262, server: 172.64.167.5, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip22.6929198.xyz}}, udp: true}
-- {name: None_None_vmess_0101, server: www.visa.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip16.6016725.xyz}}, udp: true}
-- {name: None_None_vmess_044, server: 104.26.5.67, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip16.6016725.xyz}}, udp: true}
-- {name: 13|🇹🇼 台湾2|@ripaojiedian, server: 163.177.58.179, port: 1171, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 7c0ad96494.microsoft.com}, udp: true}
+- {name: None_None_vmess_239, server: 104.19.45.47, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip22.6929198.xyz}}, udp: true}
+- {name: 13|🇸🇬 新加坡|@ripaojiedian, server: 163.177.58.179, port: 1190, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 7c0ad96494.microsoft.com}, udp: true}
+- {name: 4Mohsen-573, server: 103.36.91.23, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+- {name: 4FreeIran-918, server: 52.43.127.109, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-5, server: 107.155.57.51, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: 13|🇰🇷 韩国特殊|@ripaojiedian, server: 44.244.21.125, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Mohsen-76, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
 - {name: 13|🇰🇷 韩国3|@ripaojiedian, server: hzhz1.sssyun.xyz, port: 39202, type: ss, cipher: chacha20-ietf-poly1305, password: f2a7baac-c6d4-4d29-aab2-02426814f0ce, udp: true}
-- {name: 13|🇸🇬 狮城特殊|@ripaojiedian, server: 54.169.135.226, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "13,14|日本2|@ripaojiedian", server: naiu-jp.05vr9nyqg5.download, port: 13013, type: trojan, password: 5b4becce-5739-483f-97ec-68b81a855d68, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-- {name: 13|🇯🇵 日本|@ripaojiedian, server: d.baodesign.top, port: 25004, type: vmess, uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 13|🇯🇵 日本3|@ripaojiedian, server: 3.112.215.69, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4FreeIran-915, server: 52.198.168.235, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4FreeIran-454, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -56,14 +47,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13|🇹🇼 台湾2|@ripaojiedian
+      - 13|🇸🇬 新加坡|@ripaojiedian
+      - 4Mohsen-573
+      - 4FreeIran-918
+      - 0|-https://t.me/MrXbin-5
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 4Mohsen-76
       - 13|🇰🇷 韩国3|@ripaojiedian
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
-      - 13,14|日本2|@ripaojiedian
-      - 13|🇯🇵 日本|@ripaojiedian
-      - 13|🇯🇵 日本3|@ripaojiedian
-      - 4FreeIran-915
-      - 4FreeIran-454
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -75,39 +65,29 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13|🇹🇼 台湾2|@ripaojiedian
+      - 13|🇸🇬 新加坡|@ripaojiedian
+      - 4Mohsen-573
+      - 4FreeIran-918
+      - 0|-https://t.me/MrXbin-5
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 4Mohsen-76
       - 13|🇰🇷 韩国3|@ripaojiedian
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
-      - 13,14|日本2|@ripaojiedian
-      - 13|🇯🇵 日本|@ripaojiedian
-      - 13|🇯🇵 日本3|@ripaojiedian
-      - 4FreeIran-915
-      - 4FreeIran-454
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 60
     proxies:
-      - None_None_vmess_01
-      - None_None_vmess_252
-      - None_None_vmess_038
-      - None_None_vmess_239
-      - None_None_vmess_238
-      - None_None_vmess_21
       - None_None_vmess_039
-      - United States_San Francisco_vmess_262
-      - None_None_vmess_0101
-      - None_None_vmess_044
+      - None_None_vmess_239
 
-      - 13|🇹🇼 台湾2|@ripaojiedian
+      - 13|🇸🇬 新加坡|@ripaojiedian
+      - 4Mohsen-573
+      - 4FreeIran-918
+      - 0|-https://t.me/MrXbin-5
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 4Mohsen-76
       - 13|🇰🇷 韩国3|@ripaojiedian
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
-      - 13,14|日本2|@ripaojiedian
-      - 13|🇯🇵 日本|@ripaojiedian
-      - 13|🇯🇵 日本3|@ripaojiedian
-      - 4FreeIran-915
-      - 4FreeIran-454
   - name: 🐟 漏网之鱼
     type: select
     proxies:
