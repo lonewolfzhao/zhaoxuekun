@@ -26,15 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: None_None_vmess_039, server: 104.19.45.47, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip16.6016725.xyz}}, udp: true}
-- {name: None_None_vmess_038, server: 104.19.45.42, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip16.6016725.xyz}}, udp: true}
-- {name: 4Jadi-40, server: ah3-picfgde5bmwtmart.bestzumo.com, port: 13591, type: ss, cipher: chacha20-ietf-poly1305, password: 7ac75754-fde2-407d-ac00-17cd5ddc53d1, udp: true}
-- {name: 4Mohsen-573, server: 103.36.91.23, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
-- {name: 13|🇸🇬 狮城特殊|@ripaojiedian, server: 54.169.135.226, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-5, server: 107.155.57.51, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: 4FreeIran-918, server: 52.43.127.109, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 13|🇸🇬 新加坡|@ripaojiedian, server: 163.177.58.179, port: 1190, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 7c0ad96494.microsoft.com}, udp: true}
-- {name: _RU_俄罗斯->🇯🇵_JP_日本, server: 147.45.51.16, port: 2098, type: vmess, uuid: 83876222-64a4-4912-aa18-b7d9d34959de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+- {name: None_None_vmess_251, server: 104.26.5.145, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip22.6929198.xyz}}, udp: true}
+- {name: None_None_vmess_239, server: 104.19.45.47, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip22.6929198.xyz}}, udp: true}
+- {name: 13|🇹🇼 台湾|@ripaojiedian, server: 163.177.58.179, port: 1170, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 7c0ad96494.microsoft.com}, udp: true}
 - {name: 13|🇯🇵 日本|@ripaojiedian, server: d.baodesign.top, port: 25004, type: vmess, uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -48,13 +42,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4Jadi-40
-      - 4Mohsen-573
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
-      - 0|-https://t.me/MrXbin-5
-      - 4FreeIran-918
-      - 13|🇸🇬 新加坡|@ripaojiedian
-      - _RU_俄罗斯->🇯🇵_JP_日本
+      - 13|🇹🇼 台湾|@ripaojiedian
       - 13|🇯🇵 日本|@ripaojiedian
   - name: 🔰 节点选择
     type: select
@@ -67,13 +55,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4Jadi-40
-      - 4Mohsen-573
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
-      - 0|-https://t.me/MrXbin-5
-      - 4FreeIran-918
-      - 13|🇸🇬 新加坡|@ripaojiedian
-      - _RU_俄罗斯->🇯🇵_JP_日本
+      - 13|🇹🇼 台湾|@ripaojiedian
       - 13|🇯🇵 日本|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
@@ -81,16 +63,10 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 60
     proxies:
-      - None_None_vmess_039
-      - None_None_vmess_038
+      - None_None_vmess_251
+      - None_None_vmess_239
 
-      - 4Jadi-40
-      - 4Mohsen-573
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
-      - 0|-https://t.me/MrXbin-5
-      - 4FreeIran-918
-      - 13|🇸🇬 新加坡|@ripaojiedian
-      - _RU_俄罗斯->🇯🇵_JP_日本
+      - 13|🇹🇼 台湾|@ripaojiedian
       - 13|🇯🇵 日本|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
