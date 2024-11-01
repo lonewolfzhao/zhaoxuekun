@@ -29,14 +29,14 @@ proxies:
 - {name: None_None_vmess_01, server: 104.21.238.100, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip18.6016725.xyz}}, udp: true}
 - {name: United States_San Francisco_vmess_064, server: 172.64.167.10, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip18.6016725.xyz}}, udp: true}
 - {name: None_None_vmess_023, server: 104.19.57.4, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip18.6016725.xyz}}, udp: true}
-- {name: 0|-https://t.me/MrXbin-5, server: 60.249.28.59, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}, udp: true}
-- {name: 0|-https://t.me/MrXbin-11, server: 60.249.35.3, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}, udp: true}
-- {name: 0|-https://t.me/MrXbin-9, server: 60.249.28.136, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}, udp: true}
-- {name: 0|-https://t.me/MrXbin-2, server: 211.22.161.134, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}, udp: true}
-- {name: 0|-https://t.me/MrXbin-18, server: 23.247.137.165, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)df1fab2:16569}, udp: true}
+- {name: 0|-https://t.me/MrXbin-17, server: 211.22.161.135, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}, udp: true}
 - {name: 0|-https://t.me/MrXbin-12, server: 95.174.71.29, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)df1fab2:16569}, udp: true}
-- {name: _US_美国, server: 44.243.115.246, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Jadi-977, server: 54.68.160.24, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-6, server: 60.249.35.59, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}, udp: true}
+- {name: 4Jadi-965, server: 54.213.247.125, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国, server: 35.94.16.186, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国 2, server: 34.209.103.254, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国->🇸🇬_SG_新加坡, server: 34.222.148.255, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "0,13|🇺🇸 美国2|@ripaojiedian", server: 107.155.57.51, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -49,14 +49,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|-https://t.me/MrXbin-5
-      - 0|-https://t.me/MrXbin-11
-      - 0|-https://t.me/MrXbin-9
-      - 0|-https://t.me/MrXbin-2
-      - 0|-https://t.me/MrXbin-18
+      - 0|-https://t.me/MrXbin-17
       - 0|-https://t.me/MrXbin-12
+      - 0|-https://t.me/MrXbin-6
+      - 4Jadi-965
       - _US_美国
-      - 4Jadi-977
+      - _US_美国 2
+      - _US_美国->🇸🇬_SG_新加坡
+      - 0,13|🇺🇸 美国2|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -68,14 +68,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|-https://t.me/MrXbin-5
-      - 0|-https://t.me/MrXbin-11
-      - 0|-https://t.me/MrXbin-9
-      - 0|-https://t.me/MrXbin-2
-      - 0|-https://t.me/MrXbin-18
+      - 0|-https://t.me/MrXbin-17
       - 0|-https://t.me/MrXbin-12
+      - 0|-https://t.me/MrXbin-6
+      - 4Jadi-965
       - _US_美国
-      - 4Jadi-977
+      - _US_美国 2
+      - _US_美国->🇸🇬_SG_新加坡
+      - 0,13|🇺🇸 美国2|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -86,14 +86,14 @@ proxy-groups:
       - United States_San Francisco_vmess_064
       - None_None_vmess_023
 
-      - 0|-https://t.me/MrXbin-5
-      - 0|-https://t.me/MrXbin-11
-      - 0|-https://t.me/MrXbin-9
-      - 0|-https://t.me/MrXbin-2
-      - 0|-https://t.me/MrXbin-18
+      - 0|-https://t.me/MrXbin-17
       - 0|-https://t.me/MrXbin-12
+      - 0|-https://t.me/MrXbin-6
+      - 4Jadi-965
       - _US_美国
-      - 4Jadi-977
+      - _US_美国 2
+      - _US_美国->🇸🇬_SG_新加坡
+      - 0,13|🇺🇸 美国2|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
