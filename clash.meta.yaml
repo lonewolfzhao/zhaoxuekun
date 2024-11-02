@@ -26,12 +26,15 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: None_None_vmess_01, server: 104.21.238.100, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip18.6016725.xyz}}, udp: true}
-- {name: United States_San Francisco_vmess_084, server: 172.64.166.9, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip18.6016725.xyz}}, udp: true}
-- {name: United States_San Francisco_vmess_069, server: 172.64.167.29, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip18.6016725.xyz}}, udp: true}
-- {name: 0|-https://t.me/MrXbin-17, server: 211.22.161.135, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}, udp: true}
+- {name: None_None_vmess_019, server: 104.19.58.175, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip18.6016725.xyz}}, udp: true}
+- {name: 13|🇯🇵 日本3|@ripaojiedian, server: 61.172.235.22, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: bea6b53a-420e-4098-af95-fab651ed6008, udp: true}
 - {name: 0|-https://t.me/MrXbin-6, server: 60.249.35.59, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}, udp: true}
+- {name: 0|-https://t.me/MrXbin-11, server: 23.247.137.165, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)df1fab2:16569}, udp: true}
+- {name: "14|香港3|@ripaojiedian #1", server: 183.236.51.23, port: 50037, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 13|🇭🇰 香港9|@ripaojiedian, server: 183.240.255.75, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: bea6b53a-420e-4098-af95-fab651ed6008, udp: true}
+- {name: 13|🇺🇸 美国3|@ripaojiedian, server: cqct.freebb.me, port: 55554, type: ss, cipher: aes-256-gcm, password: a0732697-ac50-4643-874d-328a5f112c02, udp: true}
 - {name: _US_美国->🇨🇳_CN_中国, server: 35.88.136.187, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国->🇨🇳_CN_中国 2, server: 34.222.148.255, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -44,9 +47,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|-https://t.me/MrXbin-17
+      - 13|🇯🇵 日本3|@ripaojiedian
       - 0|-https://t.me/MrXbin-6
+      - 0|-https://t.me/MrXbin-11
+      - "14|香港3|@ripaojiedian #1"
+      - 13|🇭🇰 香港9|@ripaojiedian
+      - 13|🇺🇸 美国3|@ripaojiedian
       - _US_美国->🇨🇳_CN_中国
+      - _US_美国->🇨🇳_CN_中国 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -58,22 +66,30 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|-https://t.me/MrXbin-17
+      - 13|🇯🇵 日本3|@ripaojiedian
       - 0|-https://t.me/MrXbin-6
+      - 0|-https://t.me/MrXbin-11
+      - "14|香港3|@ripaojiedian #1"
+      - 13|🇭🇰 香港9|@ripaojiedian
+      - 13|🇺🇸 美国3|@ripaojiedian
       - _US_美国->🇨🇳_CN_中国
+      - _US_美国->🇨🇳_CN_中国 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 60
     proxies:
-      - None_None_vmess_01
-      - United States_San Francisco_vmess_084
-      - United States_San Francisco_vmess_069
+      - None_None_vmess_019
 
-      - 0|-https://t.me/MrXbin-17
+      - 13|🇯🇵 日本3|@ripaojiedian
       - 0|-https://t.me/MrXbin-6
+      - 0|-https://t.me/MrXbin-11
+      - "14|香港3|@ripaojiedian #1"
+      - 13|🇭🇰 香港9|@ripaojiedian
+      - 13|🇺🇸 美国3|@ripaojiedian
       - _US_美国->🇨🇳_CN_中国
+      - _US_美国->🇨🇳_CN_中国 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
