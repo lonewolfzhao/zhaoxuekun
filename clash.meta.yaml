@@ -29,6 +29,8 @@ proxies:
 - {name: None_None_vmess_013, server: 104.18.57.111, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip18.6016725.xyz}}, udp: true}
 - {name: None_None_vmess_021, server: 104.19.42.49, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip18.6016725.xyz}}, udp: true}
 - {name: _US_美国, server: 35.88.136.187, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 13|🇯🇵 日本3|@ripaojiedian, server: 61.172.235.22, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: bea6b53a-420e-4098-af95-fab651ed6008, udp: true}
+- {name: _US_美国 2, server: 54.68.160.24, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,6 +44,8 @@ proxy-groups:
     interval: 60
     proxies:
       - _US_美国
+      - 13|🇯🇵 日本3|@ripaojiedian
+      - _US_美国 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -54,6 +58,8 @@ proxy-groups:
     interval: 60
     proxies:
       - _US_美国
+      - 13|🇯🇵 日本3|@ripaojiedian
+      - _US_美国 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -64,6 +70,8 @@ proxy-groups:
       - None_None_vmess_021
 
       - _US_美国
+      - 13|🇯🇵 日本3|@ripaojiedian
+      - _US_美国 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
