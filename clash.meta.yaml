@@ -26,12 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: _US_美国, server: 44.243.115.246, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: United States_None_vmess_295, server: ip.sb, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6929198.xyz}}, udp: true}
+- {name: United States_None_vmess_095, server: ip.sb, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip19.6016725.xyz}}, udp: true}
 - {name: _US_美国->🇸🇬_SG_新加坡, server: 34.209.142.200, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国->🇸🇬_SG_新加坡 2, server: 34.219.63.106, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国 2, server: 54.68.160.24, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国 3, server: 52.12.87.156, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 13|🇭🇰 香港3|@ripaojiedian, server: 183.236.51.23, port: 48009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _US_美国, server: 54.68.160.24, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -44,12 +42,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - _US_美国
       - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国->🇸🇬_SG_新加坡 2
-      - _US_美国 2
-      - _US_美国 3
-      - 13|🇭🇰 香港3|@ripaojiedian
+      - _US_美国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -61,25 +55,19 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - _US_美国
       - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国->🇸🇬_SG_新加坡 2
-      - _US_美国 2
-      - _US_美国 3
-      - 13|🇭🇰 香港3|@ripaojiedian
+      - _US_美国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 60
     proxies:
+      - United States_None_vmess_295
+      - United States_None_vmess_095
 
-      - _US_美国
       - _US_美国->🇸🇬_SG_新加坡
-      - _US_美国->🇸🇬_SG_新加坡 2
-      - _US_美国 2
-      - _US_美国 3
-      - 13|🇭🇰 香港3|@ripaojiedian
+      - _US_美国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
