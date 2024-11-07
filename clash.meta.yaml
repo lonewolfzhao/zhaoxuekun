@@ -34,8 +34,10 @@ proxies:
 - {name: United States_San Francisco_vmess_271, server: 172.64.167.44, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip28.6929198.xyz}}, udp: true}
 - {name: None_None_vmess_228, server: 104.26.7.132, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip28.6929198.xyz}}, udp: true}
 - {name: None_None_vmess_231, server: 104.19.45.11, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip28.6929198.xyz}}, udp: true}
-- {name: 4Jadi-987, server: 54.69.144.178, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国, server: 54.187.244.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 13|🇯🇵 日本|@ripaojiedian, server: 61.172.235.22, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 13391662-0c19-44cd-a283-2aaa91d87254, udp: true}
+- {name: _US_美国, server: 54.213.164.80, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国->🇰🇷_KR_韩国, server: 35.165.40.78, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国 2, server: 54.244.81.162, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -48,8 +50,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4Jadi-987
+      - 13|🇯🇵 日本|@ripaojiedian
       - _US_美国
+      - _US_美国->🇰🇷_KR_韩国
+      - _US_美国 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -61,8 +65,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4Jadi-987
+      - 13|🇯🇵 日本|@ripaojiedian
       - _US_美国
+      - _US_美国->🇰🇷_KR_韩国
+      - _US_美国 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -78,8 +84,10 @@ proxy-groups:
       - None_None_vmess_228
       - None_None_vmess_231
 
-      - 4Jadi-987
+      - 13|🇯🇵 日本|@ripaojiedian
       - _US_美国
+      - _US_美国->🇰🇷_KR_韩国
+      - _US_美国 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
