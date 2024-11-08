@@ -55,10 +55,7 @@ proxies:
 - {name: United States_None_vmess_29, server: 172.64.198.249, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip29.6929198.xyz}}, udp: true}
 - {name: None_None_vmess_045, server: 104.26.5.88, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip22.6016725.xyz}}, udp: true}
 - {name: None_None_vmess_049, server: 104.26.5.113, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip22.6016725.xyz}}, udp: true}
-- {name: _US_美国, server: 35.85.38.218, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Mohsen-478, server: 45.87.175.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-- {name: _US_美国 2, server: 54.187.244.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 13|🇯🇵 日本|@ripaojiedian, server: 61.172.235.22, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: a58a5239-3b34-4c35-8724-953ef363015c, udp: true}
+- {name: _SG_新加坡, server: 13.229.98.87, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -71,10 +68,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - _US_美国
-      - 4Mohsen-478
-      - _US_美国 2
-      - 13|🇯🇵 日本|@ripaojiedian
+      - _SG_新加坡
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -86,10 +80,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - _US_美国
-      - 4Mohsen-478
-      - _US_美国 2
-      - 13|🇯🇵 日本|@ripaojiedian
+      - _SG_新加坡
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -126,10 +117,7 @@ proxy-groups:
       - None_None_vmess_045
       - None_None_vmess_049
 
-      - _US_美国
-      - 4Mohsen-478
-      - _US_美国 2
-      - 13|🇯🇵 日本|@ripaojiedian
+      - _SG_新加坡
   - name: 🐟 漏网之鱼
     type: select
     proxies:
