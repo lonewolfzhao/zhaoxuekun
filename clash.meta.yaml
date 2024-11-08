@@ -55,14 +55,14 @@ proxies:
 - {name: United States_San Francisco_vmess_283, server: 172.64.166.8, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip28.6929198.xyz}}, udp: true}
 - {name: United States_San Francisco_vmess_070 2, server: 172.64.167.35, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip22.6016725.xyz}}, udp: true}
 - {name: United States_San Francisco_vmess_085, server: 172.64.166.12, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip22.6016725.xyz}}, udp: true}
+- {name: 13|🇰🇷 韩国特殊|@ripaojiedian, server: 3.112.215.69, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 13|🇯🇵 日本|@ripaojiedian, server: 61.172.235.22, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: a58a5239-3b34-4c35-8724-953ef363015c, udp: true}
+- {name: 4Sarina-1012, server: 57.181.42.181, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 13|🇹🇼 台湾2|@ripaojiedian, server: atom.986886.xyz, port: 42303, type: ss, cipher: chacha20-ietf-poly1305, password: 84856344-8644-46e0-98cb-5d54509ee059, udp: true}
 - {name: 4FreeIran-955, server: 52.198.194.170, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4FreeIran-993, server: 54.95.5.168, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4FreeIran-594, server: 103.36.91.23, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
-- {name: 4FreeIran-86, server: 45.87.175.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
-- {name: 4FreeIran-906, server: 34.217.179.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国, server: 54.149.182.67, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国->🇰🇷_KR_韩国, server: 35.165.40.78, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国 2, server: 54.213.164.80, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 13|🇰🇷 韩国|@ripaojiedian, server: atom.986886.xyz, port: 15760, type: ss, cipher: chacha20-ietf-poly1305, password: 84856344-8644-46e0-98cb-5d54509ee059, udp: true}
+- {name: 13|🇯🇵 日本2|@ripaojiedian, server: fleet-gopher.iguana938.mom, port: 443, type: trojan, password: !<str> 3669023833404481536, sni: fleet-gopher.iguana938.mom, skip-cert-verify: true, udp: true}
+- {name: _US_美国, server: 54.202.75.206, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -75,14 +75,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 13|🇯🇵 日本|@ripaojiedian
+      - 4Sarina-1012
+      - 13|🇹🇼 台湾2|@ripaojiedian
       - 4FreeIran-955
-      - 4FreeIran-993
-      - 4FreeIran-594
-      - 4FreeIran-86
-      - 4FreeIran-906
+      - 13|🇰🇷 韩国|@ripaojiedian
+      - 13|🇯🇵 日本2|@ripaojiedian
       - _US_美国
-      - _US_美国->🇰🇷_KR_韩国
-      - _US_美国 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -94,14 +94,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 13|🇯🇵 日本|@ripaojiedian
+      - 4Sarina-1012
+      - 13|🇹🇼 台湾2|@ripaojiedian
       - 4FreeIran-955
-      - 4FreeIran-993
-      - 4FreeIran-594
-      - 4FreeIran-86
-      - 4FreeIran-906
+      - 13|🇰🇷 韩国|@ripaojiedian
+      - 13|🇯🇵 日本2|@ripaojiedian
       - _US_美国
-      - _US_美国->🇰🇷_KR_韩国
-      - _US_美国 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -138,14 +138,14 @@ proxy-groups:
       - United States_San Francisco_vmess_070 2
       - United States_San Francisco_vmess_085
 
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 13|🇯🇵 日本|@ripaojiedian
+      - 4Sarina-1012
+      - 13|🇹🇼 台湾2|@ripaojiedian
       - 4FreeIran-955
-      - 4FreeIran-993
-      - 4FreeIran-594
-      - 4FreeIran-86
-      - 4FreeIran-906
+      - 13|🇰🇷 韩国|@ripaojiedian
+      - 13|🇯🇵 日本2|@ripaojiedian
       - _US_美国
-      - _US_美国->🇰🇷_KR_韩国
-      - _US_美国 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
