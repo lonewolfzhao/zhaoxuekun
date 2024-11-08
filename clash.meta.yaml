@@ -55,7 +55,8 @@ proxies:
 - {name: United States_None_vmess_29, server: 172.64.198.249, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip29.6929198.xyz}}, udp: true}
 - {name: None_None_vmess_045, server: 104.26.5.88, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip22.6016725.xyz}}, udp: true}
 - {name: None_None_vmess_049, server: 104.26.5.113, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip22.6016725.xyz}}, udp: true}
-- {name: _SG_新加坡, server: 13.229.98.87, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国, server: 35.85.38.218, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-9, server: 142.202.48.105, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -68,7 +69,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - _SG_新加坡
+      - _US_美国
+      - 0|-https://t.me/MrXbin-9
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -80,7 +82,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - _SG_新加坡
+      - _US_美国
+      - 0|-https://t.me/MrXbin-9
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -117,7 +120,8 @@ proxy-groups:
       - None_None_vmess_045
       - None_None_vmess_049
 
-      - _SG_新加坡
+      - _US_美国
+      - 0|-https://t.me/MrXbin-9
   - name: 🐟 漏网之鱼
     type: select
     proxies:
