@@ -55,13 +55,14 @@ proxies:
 - {name: None_None_vmess_038, server: 104.19.45.42, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip22.6016725.xyz}}, udp: true}
 - {name: None_None_vmess_033, server: 104.19.45.15, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip22.6016725.xyz}}, udp: true}
 - {name: None_None_vmess_043, server: 104.26.5.66, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip22.6016725.xyz}}, udp: true}
-- {name: 4Nika-978, server: 54.169.139.18, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Nika-1002, server: 54.69.144.178, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Kian-968, server: 54.169.135.226, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国, server: 54.244.81.162, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国, server: 34.209.103.254, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Kian-403, server: 91.103.253.151, port: 19057, type: ss, cipher: chacha20-ietf-poly1305, password: N8Hcr9S3vL81qcV3EGTWHS, udp: true}
+- {name: 4Kian-1002, server: 54.95.5.168, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国 2, server: 54.202.75.206, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 13|🇯🇵 日本|@ripaojiedian, server: 61.172.235.22, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: a58a5239-3b34-4c35-8724-953ef363015c, udp: true}
-- {name: 4FreeIran-906, server: 34.217.179.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Sarina-93, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
+- {name: _GB_英国, server: 141.98.101.182, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+- {name: 15|🇺🇸 美国4|@ripaojiedian, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4FreeIran-686, server: 141.98.101.179, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -74,13 +75,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4Nika-978
-      - 4Nika-1002
-      - 4Kian-968
       - _US_美国
+      - 4Kian-403
+      - 4Kian-1002
+      - _US_美国 2
       - 13|🇯🇵 日本|@ripaojiedian
-      - 4FreeIran-906
-      - 4Sarina-93
+      - _GB_英国
+      - 15|🇺🇸 美国4|@ripaojiedian
+      - 4FreeIran-686
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -92,13 +94,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4Nika-978
-      - 4Nika-1002
-      - 4Kian-968
       - _US_美国
+      - 4Kian-403
+      - 4Kian-1002
+      - _US_美国 2
       - 13|🇯🇵 日本|@ripaojiedian
-      - 4FreeIran-906
-      - 4Sarina-93
+      - _GB_英国
+      - 15|🇺🇸 美国4|@ripaojiedian
+      - 4FreeIran-686
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -135,13 +138,14 @@ proxy-groups:
       - None_None_vmess_033
       - None_None_vmess_043
 
-      - 4Nika-978
-      - 4Nika-1002
-      - 4Kian-968
       - _US_美国
+      - 4Kian-403
+      - 4Kian-1002
+      - _US_美国 2
       - 13|🇯🇵 日本|@ripaojiedian
-      - 4FreeIran-906
-      - 4Sarina-93
+      - _GB_英国
+      - 15|🇺🇸 美国4|@ripaojiedian
+      - 4FreeIran-686
   - name: 🐟 漏网之鱼
     type: select
     proxies:
