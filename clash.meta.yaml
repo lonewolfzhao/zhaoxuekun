@@ -26,17 +26,13 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: None_None_vmess_245, server: 104.26.5.88, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip29.6929198.xyz}}, udp: true}
-- {name: United States_San Francisco_vmess_265, server: 172.64.167.15, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip29.6929198.xyz}}, udp: true}
-- {name: None_None_vmess_240, server: 104.19.45.50, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip29.6929198.xyz}}, udp: true}
-- {name: 15|🇯🇵 日本3|@ripaojiedian, server: 61.172.235.22, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: cfa8359e-b5d5-4fa7-a182-18b85b41a9e2, udp: true}
+- {name: None_None_vmess_043, server: 104.26.5.66, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip22.6016725.xyz}}, udp: true}
+- {name: None_None_vmess_27, server: 104.19.21.71, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip29.6929198.xyz}}, udp: true}
+- {name: None_None_vmess_094, server: icook.tw, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip22.6016725.xyz}}, udp: true}
 - {name: 4FreeIran-963, server: 54.169.135.226, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4FreeIran-974, server: 54.202.75.206, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4FreeIran-961, server: 54.149.182.67, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4FreeIran-975, server: 54.213.164.80, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国, server: 54.244.81.162, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _DE_德国, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
-- {name: _US_美国->🇸🇬_SG_新加坡, server: 44.243.115.246, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4FreeIran-1014, server: 54.69.144.178, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 15|🇯🇵 日本3|@ripaojiedian, server: 61.172.235.22, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: cfa8359e-b5d5-4fa7-a182-18b85b41a9e2, udp: true}
+- {name: 4FreeIran-896, server: 13.250.3.43, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -49,14 +45,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 15|🇯🇵 日本3|@ripaojiedian
       - 4FreeIran-963
-      - 4FreeIran-974
-      - 4FreeIran-961
-      - 4FreeIran-975
-      - _US_美国
-      - _DE_德国
-      - _US_美国->🇸🇬_SG_新加坡
+      - 4FreeIran-1014
+      - 15|🇯🇵 日本3|@ripaojiedian
+      - 4FreeIran-896
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -68,32 +60,24 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 15|🇯🇵 日本3|@ripaojiedian
       - 4FreeIran-963
-      - 4FreeIran-974
-      - 4FreeIran-961
-      - 4FreeIran-975
-      - _US_美国
-      - _DE_德国
-      - _US_美国->🇸🇬_SG_新加坡
+      - 4FreeIran-1014
+      - 15|🇯🇵 日本3|@ripaojiedian
+      - 4FreeIran-896
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 60
     proxies:
-      - None_None_vmess_245
-      - United States_San Francisco_vmess_265
-      - None_None_vmess_240
+      - None_None_vmess_043
+      - None_None_vmess_27
+      - None_None_vmess_094
 
-      - 15|🇯🇵 日本3|@ripaojiedian
       - 4FreeIran-963
-      - 4FreeIran-974
-      - 4FreeIran-961
-      - 4FreeIran-975
-      - _US_美国
-      - _DE_德国
-      - _US_美国->🇸🇬_SG_新加坡
+      - 4FreeIran-1014
+      - 15|🇯🇵 日本3|@ripaojiedian
+      - 4FreeIran-896
   - name: 🐟 漏网之鱼
     type: select
     proxies:
