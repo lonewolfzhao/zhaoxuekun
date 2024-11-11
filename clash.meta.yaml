@@ -39,14 +39,14 @@ proxies:
 - {name: None_None_vmess_295, server: ip.sb, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip30.6929198.xyz}}, udp: true}
 - {name: None_None_vmess_234, server: 104.19.45.17, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip30.6929198.xyz}}, udp: true}
 - {name: None_None_vmess_232, server: 104.19.45.13, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip30.6929198.xyz}}, udp: true}
-- {name: 4FreeIran-23, server: 111.29.57.108, port: 31320, type: ss, cipher: chacha20-ietf-poly1305, password: 6d1a3101-7f94-4290-9a9a-9c238e161371, udp: true}
-- {name: "13,14|台湾|@ripaojiedian", server: svip.88de.hongxingdl.vip, port: 18147, type: trojan, password: 9cf656d0-6283-4a69-a64c-3806529ba2cd, sni: mm2.redapricotcloud.com, skip-cert-verify: true, udp: true}
-- {name: 4FreeIran-29, server: node1.cenxiwc.shop, port: 31618, type: ss, cipher: chacha20-ietf-poly1305, password: 6d1a3101-7f94-4290-9a9a-9c238e161371, udp: true}
-- {name: 4FreeIran-467, server: 45.87.175.171, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+- {name: _SG_新加坡->🇨🇳_CN_中国, server: 52.77.209.61, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|-https://t.me/MrXbin-5, server: 107.155.57.51, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: 4Jadi-95, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
-- {name: 13|🇸🇬 狮城特殊|@ripaojiedian, server: 43.203.218.87, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 13|🇭🇰 香港|@ripaojiedian, server: 183.240.255.75, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 94c4e6e0-85b4-4740-81c2-cc7d1afd3c02, udp: true}
+- {name: 4Kian-965, server: 54.255.237.249, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Kian-1557, server: 38.110.1.51, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+- {name: 4Jadi-1825, server: 38.121.43.204, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+- {name: 4Jadi-1557, server: 38.110.1.203, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+- {name: 4Jadi-880, server: 3.35.137.32, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Sarina-971, server: 52.198.194.170, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -59,14 +59,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4FreeIran-23
-      - 13,14|台湾|@ripaojiedian
-      - 4FreeIran-29
-      - 4FreeIran-467
+      - _SG_新加坡->🇨🇳_CN_中国
       - 0|-https://t.me/MrXbin-5
-      - 4Jadi-95
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
-      - 13|🇭🇰 香港|@ripaojiedian
+      - 4Kian-965
+      - 4Kian-1557
+      - 4Jadi-1825
+      - 4Jadi-1557
+      - 4Jadi-880
+      - 4Sarina-971
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -78,14 +78,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4FreeIran-23
-      - 13,14|台湾|@ripaojiedian
-      - 4FreeIran-29
-      - 4FreeIran-467
+      - _SG_新加坡->🇨🇳_CN_中国
       - 0|-https://t.me/MrXbin-5
-      - 4Jadi-95
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
-      - 13|🇭🇰 香港|@ripaojiedian
+      - 4Kian-965
+      - 4Kian-1557
+      - 4Jadi-1825
+      - 4Jadi-1557
+      - 4Jadi-880
+      - 4Sarina-971
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -106,14 +106,14 @@ proxy-groups:
       - None_None_vmess_234
       - None_None_vmess_232
 
-      - 4FreeIran-23
-      - 13,14|台湾|@ripaojiedian
-      - 4FreeIran-29
-      - 4FreeIran-467
+      - _SG_新加坡->🇨🇳_CN_中国
       - 0|-https://t.me/MrXbin-5
-      - 4Jadi-95
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
-      - 13|🇭🇰 香港|@ripaojiedian
+      - 4Kian-965
+      - 4Kian-1557
+      - 4Jadi-1825
+      - 4Jadi-1557
+      - 4Jadi-880
+      - 4Sarina-971
   - name: 🐟 漏网之鱼
     type: select
     proxies:
