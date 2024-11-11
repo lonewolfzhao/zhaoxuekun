@@ -42,11 +42,6 @@ proxies:
 - {name: _SG_新加坡->🇨🇳_CN_中国, server: 52.77.209.61, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|-https://t.me/MrXbin-5, server: 107.155.57.51, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
 - {name: 4Kian-965, server: 54.255.237.249, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Kian-1557, server: 38.110.1.51, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-- {name: 4Jadi-1825, server: 38.121.43.204, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-- {name: 4Jadi-1557, server: 38.110.1.203, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-- {name: 4Jadi-880, server: 3.35.137.32, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Sarina-971, server: 52.198.194.170, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -62,11 +57,6 @@ proxy-groups:
       - _SG_新加坡->🇨🇳_CN_中国
       - 0|-https://t.me/MrXbin-5
       - 4Kian-965
-      - 4Kian-1557
-      - 4Jadi-1825
-      - 4Jadi-1557
-      - 4Jadi-880
-      - 4Sarina-971
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -81,11 +71,6 @@ proxy-groups:
       - _SG_新加坡->🇨🇳_CN_中国
       - 0|-https://t.me/MrXbin-5
       - 4Kian-965
-      - 4Kian-1557
-      - 4Jadi-1825
-      - 4Jadi-1557
-      - 4Jadi-880
-      - 4Sarina-971
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -109,11 +94,6 @@ proxy-groups:
       - _SG_新加坡->🇨🇳_CN_中国
       - 0|-https://t.me/MrXbin-5
       - 4Kian-965
-      - 4Kian-1557
-      - 4Jadi-1825
-      - 4Jadi-1557
-      - 4Jadi-880
-      - 4Sarina-971
   - name: 🐟 漏网之鱼
     type: select
     proxies:
