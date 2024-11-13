@@ -26,19 +26,12 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: United States_San Francisco_vmess_282, server: 172.64.166.2, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip30.6929198.xyz}}, udp: true}
-- {name: None_None_vmess_020, server: 104.19.55.49, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip23.6016725.xyz}}, udp: true}
-- {name: None_None_vmess_041, server: 104.19.45.90, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip23.6016725.xyz}}, udp: true}
-- {name: United States_San Francisco_vmess_082, server: 172.64.166.2, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip23.6016725.xyz}}, udp: true}
-- {name: None_None_vmess_233, server: 104.19.45.15, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip30.6929198.xyz}}, udp: true}
-- {name: United States_San Francisco_vmess_087, server: 172.64.166.20, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip23.6016725.xyz}}, udp: true}
-- {name: None_None_vmess_2100, server: skk.moe, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip30.6929198.xyz}}, udp: true}
-- {name: United States_San Francisco_vmess_090, server: 172.64.166.32, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip23.6016725.xyz}}, udp: true}
-- {name: United States_San Francisco_vmess_065, server: 172.64.167.15, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip23.6016725.xyz}}, udp: true}
-- {name: None_None_vmess_243, server: 104.26.5.66, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip30.6929198.xyz}}, udp: true}
-- {name: 4FreeIran-962, server: 54.213.228.61, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4FreeIran-967, server: 54.244.81.162, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Kian-959, server: 54.187.244.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: None_None_vmess_225, server: 104.20.17.186, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip30.6929198.xyz}}, udp: true}
+- {name: None_None_vmess_049, server: 104.26.5.113, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip23.6016725.xyz}}, udp: true}
+- {name: None_None_vmess_043, server: 104.26.5.66, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip23.6016725.xyz}}, udp: true}
+- {name: None_None_vmess_246, server: 104.26.5.90, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip30.6929198.xyz}}, udp: true}
+- {name: 4Sarina-938, server: 54.149.182.67, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Sarina-543, server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -51,9 +44,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4FreeIran-962
-      - 4FreeIran-967
-      - 4Kian-959
+      - 4Sarina-938
+      - 4Sarina-543
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -65,29 +57,21 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4FreeIran-962
-      - 4FreeIran-967
-      - 4Kian-959
+      - 4Sarina-938
+      - 4Sarina-543
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 60
     proxies:
-      - United States_San Francisco_vmess_282
-      - None_None_vmess_020
-      - None_None_vmess_041
-      - United States_San Francisco_vmess_082
-      - None_None_vmess_233
-      - United States_San Francisco_vmess_087
-      - None_None_vmess_2100
-      - United States_San Francisco_vmess_090
-      - United States_San Francisco_vmess_065
-      - None_None_vmess_243
+      - None_None_vmess_225
+      - None_None_vmess_049
+      - None_None_vmess_043
+      - None_None_vmess_246
 
-      - 4FreeIran-962
-      - 4FreeIran-967
-      - 4Kian-959
+      - 4Sarina-938
+      - 4Sarina-543
   - name: 🐟 漏网之鱼
     type: select
     proxies:
