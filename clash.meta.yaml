@@ -32,10 +32,9 @@ proxies:
 - {name: None_None_vmess_246, server: 104.26.5.90, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip30.6929198.xyz}}, udp: true}
 - {name: None_None_vmess_01, server: 104.21.238.100, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip24.6016725.xyz}}, udp: true}
 - {name: None_None_vmess_253, server: 162.159.140.33, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip30.6929198.xyz}}, udp: true}
-- {name: 4Mohsen-933, server: 44.243.115.246, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-52, server: speedtest.net, port: 443, type: vmess, uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /m28jcoZZUhkqg6pk11, headers: {Host: mehrjavan.ir}}, udp: true}
-- {name: 0|-https://t.me/MrXbin-44, server: 216.221.214.50, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /obdii.cfd:443/linkws, headers: {Host: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com}}, udp: true}
-- {name: 4Sarina-91, server: 150.241.102.95, port: 21771, type: ss, cipher: chacha20-ietf-poly1305, password: 1HxItedQO6o3yjszsxIRFg, udp: true}
+- {name: 4Kian-926, server: 35.88.136.187, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Kian-971, server: 54.149.182.67, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Mohsen-936, server: 52.12.87.156, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -48,10 +47,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4Mohsen-933
-      - 0|-https://t.me/MrXbin-52
-      - 0|-https://t.me/MrXbin-44
-      - 4Sarina-91
+      - 4Kian-926
+      - 4Kian-971
+      - 4Mohsen-936
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -63,10 +61,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4Mohsen-933
-      - 0|-https://t.me/MrXbin-52
-      - 0|-https://t.me/MrXbin-44
-      - 4Sarina-91
+      - 4Kian-926
+      - 4Kian-971
+      - 4Mohsen-936
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -80,10 +77,9 @@ proxy-groups:
       - None_None_vmess_01
       - None_None_vmess_253
 
-      - 4Mohsen-933
-      - 0|-https://t.me/MrXbin-52
-      - 0|-https://t.me/MrXbin-44
-      - 4Sarina-91
+      - 4Kian-926
+      - 4Kian-971
+      - 4Mohsen-936
   - name: 🐟 漏网之鱼
     type: select
     proxies:
