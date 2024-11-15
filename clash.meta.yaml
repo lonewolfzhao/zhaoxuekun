@@ -26,12 +26,15 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: None_None_vmess_213, server: 104.18.57.111, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip30.6929198.xyz}}, udp: true}
-- {name: None_None_vmess_2100, server: skk.moe, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip30.6929198.xyz}}, udp: true}
-- {name: None_None_vmess_22, server: 104.26.0.56, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip30.6929198.xyz}}, udp: true}
-- {name: None_None_vmess_0100, server: skk.moe, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip23.6016725.xyz}}, udp: true}
-- {name: 0|-https://t.me/MrXbin-68, server: 216.128.147.13, port: 443, type: trojan, password: wkmY1R4EcP, sni: z-v2-003274.kailib.com, skip-cert-verify: true, udp: true}
-- {name: 4Sarina-1214, server: 148.113.196.75, port: 2759, type: ss, cipher: aes-256-cfb, password: u6002307504, udp: true}
+- {name: United States_San Francisco_vmess_262, server: 172.64.167.5, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip30.6929198.xyz}}, udp: true}
+- {name: 13|🇯🇵 日本3|@ripaojiedian, server: nagoya.meijireform.com, port: 443, type: trojan, password: AlXRB8wqec3pCYZgSNADxROFSEa0Saz3Z6O7u3FjIlDT4eDYxp89aCy35KC2yn, sni: nagoya.meijireform.com, skip-cert-verify: true, udp: true}
+- {name: 13|🇭🇰 香港4|@ripaojiedian, server: 183.240.255.75, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 87c6d447-b620-4c25-8386-e7f14b6de499, udp: true}
+- {name: "13,14|台湾|@ripaojiedian", server: aafrtpfxr.twl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27201, type: trojan, password: c4da094b-3487-4607-b703-bc380ea3f461, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true, udp: true}
+- {name: 4Sarina-961, server: 52.79.157.153, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 13|🇯🇵 日本|@ripaojiedian, server: 61.172.235.22, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: bb8b73a1-1b44-4e41-b032-f28e180a3827, udp: true}
+- {name: 13|🇰🇷 韩国特殊|@ripaojiedian, server: 43.201.72.28, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-9, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
+- {name: 0|-https://t.me/MrXbin-52, server: speedtest.net, port: 443, type: vmess, uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /m28jcoZZUhkqg6pk11, headers: {Host: mehrjavan.ir}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -44,8 +47,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|-https://t.me/MrXbin-68
-      - 4Sarina-1214
+      - 13|🇯🇵 日本3|@ripaojiedian
+      - 13|🇭🇰 香港4|@ripaojiedian
+      - 13,14|台湾|@ripaojiedian
+      - 4Sarina-961
+      - 13|🇯🇵 日本|@ripaojiedian
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 0|-https://t.me/MrXbin-9
+      - 0|-https://t.me/MrXbin-52
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,21 +66,30 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|-https://t.me/MrXbin-68
-      - 4Sarina-1214
+      - 13|🇯🇵 日本3|@ripaojiedian
+      - 13|🇭🇰 香港4|@ripaojiedian
+      - 13,14|台湾|@ripaojiedian
+      - 4Sarina-961
+      - 13|🇯🇵 日本|@ripaojiedian
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 0|-https://t.me/MrXbin-9
+      - 0|-https://t.me/MrXbin-52
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 60
     proxies:
-      - None_None_vmess_213
-      - None_None_vmess_2100
-      - None_None_vmess_22
-      - None_None_vmess_0100
+      - United States_San Francisco_vmess_262
 
-      - 0|-https://t.me/MrXbin-68
-      - 4Sarina-1214
+      - 13|🇯🇵 日本3|@ripaojiedian
+      - 13|🇭🇰 香港4|@ripaojiedian
+      - 13,14|台湾|@ripaojiedian
+      - 4Sarina-961
+      - 13|🇯🇵 日本|@ripaojiedian
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 0|-https://t.me/MrXbin-9
+      - 0|-https://t.me/MrXbin-52
   - name: 🐟 漏网之鱼
     type: select
     proxies:
