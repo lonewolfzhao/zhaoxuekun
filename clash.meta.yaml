@@ -26,15 +26,38 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: United States_San Francisco_vmess_068, server: 172.64.167.25, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip24.6016725.xyz}}, udp: true}
-- {name: None_None_vmess_038, server: 104.19.45.42, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip24.6016725.xyz}}, udp: true}
+- {name: None_None_vmess_018, server: 104.19.47.65, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: United States_None_vmess_06, server: 172.64.99.22, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: None_None_vmess_011, server: 104.19.21.63, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: None_None_vmess_04, server: 104.19.38.12, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: United States_San Francisco_vmess_065, server: 172.64.167.15, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: None_None_vmess_243, server: 104.26.5.66, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip30.6929198.xyz}}, udp: true}
+- {name: None_None_vmess_013, server: 104.18.57.111, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: United States_None_vmess_095, server: ip.sb, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: None_None_vmess_24, server: 104.19.38.12, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip30.6929198.xyz}}, udp: true}
+- {name: None_None_vmess_014, server: 104.19.21.230, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: None_None_vmess_096, server: japan.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: United States_San Francisco_vmess_071, server: 172.64.167.44, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: None_None_vmess_035, server: 104.19.45.19, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: None_None_vmess_021, server: 104.19.42.49, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: None_None_vmess_042, server: 104.26.5.56, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: United States_San Francisco_vmess_088, server: 172.64.166.22, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: United States_None_vmess_09, server: 172.64.198.249, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: None_None_vmess_01, server: 104.21.238.100, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: None_None_vmess_041, server: 104.19.45.90, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: None_None_vmess_036, server: 104.19.45.31, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: None_None_vmess_019, server: 104.19.58.175, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: United States_San Francisco_vmess_05, server: 172.64.175.88, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: None_None_vmess_094, server: icook.tw, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: None_None_vmess_017, server: 104.19.32.216, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: None_None_vmess_0100, server: skk.moe, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: United States_San Francisco_vmess_068, server: 172.64.167.25, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: None_None_vmess_032, server: 104.19.45.13, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: None_None_vmess_050, server: 104.26.5.123, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: United States_San Francisco_vmess_091, server: 172.64.166.33, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
 - {name: 14|香港5|@ripaojiedian, server: e00618c75712.uxzbpycs.xyz, port: 53385, type: vmess, uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "13,14|日本2|@ripaojiedian", server: svip.88de.hongxingdl.vip, port: 28721, type: trojan, password: 7c58bf11-9175-46d1-accf-e1883bf0d5f8, sni: mmbiz1.redapricotcloud.com, skip-cert-verify: true, udp: true}
-- {name: 13|🇭🇰 香港3|@ripaojiedian, server: ll-hg.mtls.xyz, port: 30474, type: ss, cipher: aes-256-gcm, password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5, udp: true}
 - {name: 4Jadi-898, server: 34.217.179.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Jadi-951, server: 54.149.182.67, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国->🇰🇷_KR_韩国, server: 54.244.81.162, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Jadi-50, server: node-a.dlg365.com, port: 49971, type: ss, cipher: chacha20-ietf-poly1305, password: 02da78ba-9f16-44e6-a0b6-d19ed9b8c94f, udp: true}
+- {name: 4FreeIran-2408, server: 142.202.48.105, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -48,12 +71,8 @@ proxy-groups:
     interval: 60
     proxies:
       - 14|香港5|@ripaojiedian
-      - 13,14|日本2|@ripaojiedian
-      - 13|🇭🇰 香港3|@ripaojiedian
       - 4Jadi-898
-      - 4Jadi-951
-      - _US_美国->🇰🇷_KR_韩国
-      - 4Jadi-50
+      - 4FreeIran-2408
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -66,28 +85,47 @@ proxy-groups:
     interval: 60
     proxies:
       - 14|香港5|@ripaojiedian
-      - 13,14|日本2|@ripaojiedian
-      - 13|🇭🇰 香港3|@ripaojiedian
       - 4Jadi-898
-      - 4Jadi-951
-      - _US_美国->🇰🇷_KR_韩国
-      - 4Jadi-50
+      - 4FreeIran-2408
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 60
     proxies:
+      - None_None_vmess_018
+      - United States_None_vmess_06
+      - None_None_vmess_011
+      - None_None_vmess_04
+      - United States_San Francisco_vmess_065
+      - None_None_vmess_243
+      - None_None_vmess_013
+      - United States_None_vmess_095
+      - None_None_vmess_24
+      - None_None_vmess_014
+      - None_None_vmess_096
+      - United States_San Francisco_vmess_071
+      - None_None_vmess_035
+      - None_None_vmess_021
+      - None_None_vmess_042
+      - United States_San Francisco_vmess_088
+      - United States_None_vmess_09
+      - None_None_vmess_01
+      - None_None_vmess_041
+      - None_None_vmess_036
+      - None_None_vmess_019
+      - United States_San Francisco_vmess_05
+      - None_None_vmess_094
+      - None_None_vmess_017
+      - None_None_vmess_0100
       - United States_San Francisco_vmess_068
-      - None_None_vmess_038
+      - None_None_vmess_032
+      - None_None_vmess_050
+      - United States_San Francisco_vmess_091
 
       - 14|香港5|@ripaojiedian
-      - 13,14|日本2|@ripaojiedian
-      - 13|🇭🇰 香港3|@ripaojiedian
       - 4Jadi-898
-      - 4Jadi-951
-      - _US_美国->🇰🇷_KR_韩国
-      - 4Jadi-50
+      - 4FreeIran-2408
   - name: 🐟 漏网之鱼
     type: select
     proxies:
