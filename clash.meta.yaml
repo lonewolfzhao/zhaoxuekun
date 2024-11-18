@@ -26,18 +26,26 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: United States_San Francisco_vmess_070, server: 172.64.167.35, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: None_None_vmess_012, server: 104.19.123.11, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: United States_San Francisco_vmess_066, server: 172.64.167.19, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
 - {name: None_None_vmess_031, server: 104.19.45.11, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
-- {name: United States_None_vmess_09, server: 172.64.198.249, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
-- {name: None_None_vmess_036, server: 104.19.45.31, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
-- {name: United States_None_vmess_099, server: singapore.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
-- {name: "13,14|台湾|@ripaojiedian", server: svip.88de.hongxingdl.vip, port: 18147, type: trojan, password: 9b59e769-4324-41dc-8a9c-bcd718a7a757, sni: mm2.redapricotcloud.com, skip-cert-verify: true, udp: true}
-- {name: 13|🇭🇰 香港|@ripaojiedian, server: 58.254.183.32, port: 12002, type: ss, cipher: chacha20-ietf-poly1305, password: 08d9dc3c-d2cc-4a08-961c-160c3cf00aed, udp: true}
+- {name: None_None_vmess_04, server: 104.19.38.12, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: None_None_vmess_040, server: 104.19.45.50, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: United States_San Francisco_vmess_071, server: 172.64.167.44, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: United States_San Francisco_vmess_067, server: 172.64.167.22, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: None_None_vmess_024, server: 104.19.59.89, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: None_None_vmess_017, server: 104.19.32.216, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: United States_San Francisco_vmess_083, server: 172.64.166.8, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: None_None_vmess_023, server: 104.19.57.4, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: United States_San Francisco_vmess_062, server: 172.64.167.5, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: None_None_vmess_011, server: 104.19.21.63, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: United States_San Francisco_vmess_090, server: 172.64.166.32, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip25.6016725.xyz}}, udp: true}
+- {name: United States_San Francisco_vmess_290, server: 172.64.166.32, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip30.6929198.xyz}}, udp: true}
 - {name: _SG_新加坡->🇨🇳_CN_中国, server: 52.221.236.136, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Sarina-567, server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
-- {name: _CN_中国->🇺🇸_US_美国, server: soonpr.soon.guru, port: 40030, type: ss, cipher: chacha20-ietf-poly1305, password: 29fefcc3-9ae1-4e01-a1d0-534fc1671121, udp: true}
-- {name: 4Sarina-869, server: 35.88.136.187, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 13|🇭🇰 香港7|@ripaojiedian, server: 183.240.253.26, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "13,14|日本|@ripaojiedian", server: 36.151.192.239, port: 17806, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
+- {name: "13,14|台湾|@ripaojiedian", server: svip.88de.hongxingdl.vip, port: 18147, type: trojan, password: 9b59e769-4324-41dc-8a9c-bcd718a7a757, sni: mm2.redapricotcloud.com, skip-cert-verify: true, udp: true}
+- {name: "13,14|香港3|@ripaojiedian", server: 36.151.192.198, port: 42292, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
+- {name: 4Sarina-706, server: 217.30.10.18, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -50,14 +58,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13,14|台湾|@ripaojiedian
-      - 13|🇭🇰 香港|@ripaojiedian
       - _SG_新加坡->🇨🇳_CN_中国
-      - 4Sarina-567
-      - _CN_中国->🇺🇸_US_美国
-      - 4Sarina-869
-      - 13|🇭🇰 香港7|@ripaojiedian
-      - 13,14|日本|@ripaojiedian
+      - 13,14|台湾|@ripaojiedian
+      - 13,14|香港3|@ripaojiedian
+      - 4Sarina-706
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -69,33 +73,37 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13,14|台湾|@ripaojiedian
-      - 13|🇭🇰 香港|@ripaojiedian
       - _SG_新加坡->🇨🇳_CN_中国
-      - 4Sarina-567
-      - _CN_中国->🇺🇸_US_美国
-      - 4Sarina-869
-      - 13|🇭🇰 香港7|@ripaojiedian
-      - 13,14|日本|@ripaojiedian
+      - 13,14|台湾|@ripaojiedian
+      - 13,14|香港3|@ripaojiedian
+      - 4Sarina-706
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 60
     proxies:
+      - United States_San Francisco_vmess_070
+      - None_None_vmess_012
+      - United States_San Francisco_vmess_066
       - None_None_vmess_031
-      - United States_None_vmess_09
-      - None_None_vmess_036
-      - United States_None_vmess_099
+      - None_None_vmess_04
+      - None_None_vmess_040
+      - United States_San Francisco_vmess_071
+      - United States_San Francisco_vmess_067
+      - None_None_vmess_024
+      - None_None_vmess_017
+      - United States_San Francisco_vmess_083
+      - None_None_vmess_023
+      - United States_San Francisco_vmess_062
+      - None_None_vmess_011
+      - United States_San Francisco_vmess_090
+      - United States_San Francisco_vmess_290
 
-      - 13,14|台湾|@ripaojiedian
-      - 13|🇭🇰 香港|@ripaojiedian
       - _SG_新加坡->🇨🇳_CN_中国
-      - 4Sarina-567
-      - _CN_中国->🇺🇸_US_美国
-      - 4Sarina-869
-      - 13|🇭🇰 香港7|@ripaojiedian
-      - 13,14|日本|@ripaojiedian
+      - 13,14|台湾|@ripaojiedian
+      - 13,14|香港3|@ripaojiedian
+      - 4Sarina-706
   - name: 🐟 漏网之鱼
     type: select
     proxies:
