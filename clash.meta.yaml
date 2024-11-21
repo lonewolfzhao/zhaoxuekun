@@ -55,14 +55,14 @@ proxies:
 - {name: None_None_vmess_023 2, server: 104.19.57.4, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: c2.6016725.xyz}}, udp: true}
 - {name: United States_San Francisco_vmess_063 2, server: 172.64.167.8, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: c2.6016725.xyz}}, udp: true}
 - {name: None_None_vmess_092, server: fbi.gov, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: c2.6016725.xyz}}, udp: true}
-- {name: "13,14|香港|@ripaojiedian", server: 36.151.192.242, port: 14505, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
-- {name: "13,14|台湾|@ripaojiedian", server: svip.88de.hongxingdl.vip, port: 18147, type: trojan, password: 32ec77ea-c54c-405a-add3-dea6b579c853, sni: mm2.redapricotcloud.com, skip-cert-verify: true, udp: true}
-- {name: _US_美国, server: 35.95.35.11, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: "13,14|香港2|@ripaojiedian", server: 36.151.192.196, port: 42395, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
-- {name: _US_美国 2, server: 34.219.157.214, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国 3, server: 35.88.126.102, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国 4, server: 44.244.35.146, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国 5, server: 35.165.251.42, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "13,14|台湾|@ripaojiedian", server: svip.88de.hongxingdl.vip, port: 18147, type: trojan, password: 32ec77ea-c54c-405a-add3-dea6b579c853, sni: mm2.redapricotcloud.com, skip-cert-verify: true, udp: true}
+- {name: 4FreeIran-895, server: 35.92.40.49, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国->🇯🇵_JP_日本, server: 52.25.20.41, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "13,14|香港|@ripaojiedian", server: 36.151.192.242, port: 14505, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
+- {name: _US_美国, server: 44.244.24.140, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国 2, server: 44.244.35.146, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国 3, server: 34.219.118.99, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -75,14 +75,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13,14|香港|@ripaojiedian
-      - 13,14|台湾|@ripaojiedian
-      - _US_美国
       - 13,14|香港2|@ripaojiedian
+      - 13,14|台湾|@ripaojiedian
+      - 4FreeIran-895
+      - _US_美国->🇯🇵_JP_日本
+      - 13,14|香港|@ripaojiedian
+      - _US_美国
       - _US_美国 2
       - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -94,14 +94,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13,14|香港|@ripaojiedian
-      - 13,14|台湾|@ripaojiedian
-      - _US_美国
       - 13,14|香港2|@ripaojiedian
+      - 13,14|台湾|@ripaojiedian
+      - 4FreeIran-895
+      - _US_美国->🇯🇵_JP_日本
+      - 13,14|香港|@ripaojiedian
+      - _US_美国
       - _US_美国 2
       - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -138,14 +138,14 @@ proxy-groups:
       - United States_San Francisco_vmess_063 2
       - None_None_vmess_092
 
-      - 13,14|香港|@ripaojiedian
-      - 13,14|台湾|@ripaojiedian
-      - _US_美国
       - 13,14|香港2|@ripaojiedian
+      - 13,14|台湾|@ripaojiedian
+      - 4FreeIran-895
+      - _US_美国->🇯🇵_JP_日本
+      - 13,14|香港|@ripaojiedian
+      - _US_美国
       - _US_美国 2
       - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
   - name: 🐟 漏网之鱼
     type: select
     proxies:
