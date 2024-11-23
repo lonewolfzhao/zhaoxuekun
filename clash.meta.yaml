@@ -55,9 +55,11 @@ proxies:
 - {name: None_None_vmess_012, server: 104.19.123.11, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: c2.6016725.xyz}}, udp: true}
 - {name: United States_San Francisco_vmess_064 2, server: 172.64.167.10, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: c2.6016725.xyz}}, udp: true}
 - {name: None_None_vmess_061, server: 162.159.140.93, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: c2.6016725.xyz}}, udp: true}
+- {name: "13,14|香港2|@ripaojiedian", server: 36.151.192.196, port: 42395, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
 - {name: "13,14|台湾|@ripaojiedian", server: svip.88de.hongxingdl.vip, port: 18147, type: trojan, password: e44b6ab7-c0c1-470a-86bc-bc6ccd5bab52, sni: mm2.redapricotcloud.com, skip-cert-verify: true, udp: true}
 - {name: "13,14|香港|@ripaojiedian", server: 36.151.192.242, port: 14505, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
 - {name: "13,14|韩国|@ripaojiedian", server: 36.151.192.198, port: 36900, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
+- {name: "13,14|日本|@ripaojiedian", server: 36.151.192.239, port: 17806, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
 - {name: 13|🇸🇬 狮城特殊|@ripaojiedian, server: 35.89.254.222, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|-https://t.me/MrXbin-25, server: 188.114.96.3, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}, udp: true}
 - {name: "11,16|æ\x97¥æ\x9c¬2|@ripaojiedian", server: 183.236.48.158, port: 59952, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -73,9 +75,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - 13,14|香港2|@ripaojiedian
       - 13,14|台湾|@ripaojiedian
       - 13,14|香港|@ripaojiedian
       - 13,14|韩国|@ripaojiedian
+      - 13,14|日本|@ripaojiedian
       - 13|🇸🇬 狮城特殊|@ripaojiedian
       - 0|-https://t.me/MrXbin-25
       - "11,16|æ\x97¥æ\x9c¬2|@ripaojiedian"
@@ -90,9 +94,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - 13,14|香港2|@ripaojiedian
       - 13,14|台湾|@ripaojiedian
       - 13,14|香港|@ripaojiedian
       - 13,14|韩国|@ripaojiedian
+      - 13,14|日本|@ripaojiedian
       - 13|🇸🇬 狮城特殊|@ripaojiedian
       - 0|-https://t.me/MrXbin-25
       - "11,16|æ\x97¥æ\x9c¬2|@ripaojiedian"
@@ -132,9 +138,11 @@ proxy-groups:
       - United States_San Francisco_vmess_064 2
       - None_None_vmess_061
 
+      - 13,14|香港2|@ripaojiedian
       - 13,14|台湾|@ripaojiedian
       - 13,14|香港|@ripaojiedian
       - 13,14|韩国|@ripaojiedian
+      - 13,14|日本|@ripaojiedian
       - 13|🇸🇬 狮城特殊|@ripaojiedian
       - 0|-https://t.me/MrXbin-25
       - "11,16|æ\x97¥æ\x9c¬2|@ripaojiedian"
