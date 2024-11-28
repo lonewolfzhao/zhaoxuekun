@@ -26,10 +26,15 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: None_None_vmess_059, server: 162.159.140.89, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: c3.6016725.xyz}}, udp: true}
-- {name: None_None_vmess_038, server: 104.19.45.42, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: c3.6016725.xyz}}, udp: true}
-- {name: _US_美国->🇯🇵_JP_日本, server: 44.243.115.246, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Jadi-1926, server: 23.157.40.89, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+- {name: None_None_vmess_4546, server: 104.18.114.46, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: p1.613055.xyz}}, udp: true}
+- {name: None_None_vmess_4590, server: 104.18.114.90, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: p1.613055.xyz}}, udp: true}
+- {name: None_None_vmess_4529, server: 104.18.114.29, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: p1.613055.xyz}}, udp: true}
+- {name: None_None_vmess_4147, server: 104.21.238.147, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: p1.613055.xyz}}, udp: true}
+- {name: "13,14|香港2|@ripaojiedian", server: 36.151.192.203, port: 18682, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
+- {name: "13,14|香港|@ripaojiedian", server: 36.151.192.201, port: 34185, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
+- {name: 4Nika-910, server: 52.77.236.51, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "13,14|香港7|@ripaojiedian", server: m.cnmjin.net, port: 16622, type: vmess, uuid: 1ba48a0e-af2e-45fb-9e15-2b2d4134657c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 3fe454755ea98eaa00f870f7fa2990c7.mobgslb.tbcache.com}}, udp: true}
+- {name: 4Nika-529, server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,8 +47,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - _US_美国->🇯🇵_JP_日本
-      - 4Jadi-1926
+      - 13,14|香港2|@ripaojiedian
+      - 13,14|香港|@ripaojiedian
+      - 4Nika-910
+      - 13,14|香港7|@ripaojiedian
+      - 4Nika-529
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -55,19 +63,27 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - _US_美国->🇯🇵_JP_日本
-      - 4Jadi-1926
+      - 13,14|香港2|@ripaojiedian
+      - 13,14|香港|@ripaojiedian
+      - 4Nika-910
+      - 13,14|香港7|@ripaojiedian
+      - 4Nika-529
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 60
     proxies:
-      - None_None_vmess_059
-      - None_None_vmess_038
+      - None_None_vmess_4546
+      - None_None_vmess_4590
+      - None_None_vmess_4529
+      - None_None_vmess_4147
 
-      - _US_美国->🇯🇵_JP_日本
-      - 4Jadi-1926
+      - 13,14|香港2|@ripaojiedian
+      - 13,14|香港|@ripaojiedian
+      - 4Nika-910
+      - 13,14|香港7|@ripaojiedian
+      - 4Nika-529
   - name: 🐟 漏网之鱼
     type: select
     proxies:
