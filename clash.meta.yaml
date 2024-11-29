@@ -28,11 +28,8 @@ dns:
 proxies:
 - {name: None_None_vmess_4564, server: 104.18.114.64, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: p2.613055.xyz}}, udp: true}
 - {name: None_None_vmess_486, server: 104.21.238.86, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: p2.613055.xyz}}, udp: true}
-- {name: "13,14|香港2|@ripaojiedian", server: 36.151.192.203, port: 18682, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
 - {name: "13,14|香港|@ripaojiedian", server: 36.151.192.201, port: 34185, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
-- {name: 0|-https://t.me/MrXbin-2, server: 138.199.42.68, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: 4Mohsen-914, server: 54.191.9.106, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "13,14|美国2|@ripaojiedian", server: naiu-us.05vr9nyqg5.download, port: 13020, type: trojan, password: 5e2ce79c-170e-484a-8802-40584a1a3a12, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+- {name: 4Nika-125, server: 16.24.17.134, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -45,11 +42,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13,14|香港2|@ripaojiedian
       - 13,14|香港|@ripaojiedian
-      - 0|-https://t.me/MrXbin-2
-      - 4Mohsen-914
-      - 13,14|美国2|@ripaojiedian
+      - 4Nika-125
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -61,11 +55,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13,14|香港2|@ripaojiedian
       - 13,14|香港|@ripaojiedian
-      - 0|-https://t.me/MrXbin-2
-      - 4Mohsen-914
-      - 13,14|美国2|@ripaojiedian
+      - 4Nika-125
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -75,11 +66,8 @@ proxy-groups:
       - None_None_vmess_4564
       - None_None_vmess_486
 
-      - 13,14|香港2|@ripaojiedian
       - 13,14|香港|@ripaojiedian
-      - 0|-https://t.me/MrXbin-2
-      - 4Mohsen-914
-      - 13,14|美国2|@ripaojiedian
+      - 4Nika-125
   - name: 🐟 漏网之鱼
     type: select
     proxies:
