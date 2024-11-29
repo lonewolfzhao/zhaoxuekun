@@ -31,10 +31,9 @@ proxies:
 - {name: None_None_vmess_4529, server: 104.18.114.29, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: p1.613055.xyz}}, udp: true}
 - {name: None_None_vmess_4147, server: 104.21.238.147, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: p1.613055.xyz}}, udp: true}
 - {name: 15|CN_speednode_0007, server: gyl.58n.net, port: 20309, type: trojan, password: f58da02d-f06b-3e2f-8956-67afe8f6a998, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
-- {name: "13,14|美国2|@ripaojiedian", server: naiu-us.05vr9nyqg5.download, port: 13020, type: trojan, password: 5e2ce79c-170e-484a-8802-40584a1a3a12, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-- {name: "13,14|香港|@ripaojiedian", server: 36.151.192.201, port: 34185, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
 - {name: "13,14|香港2|@ripaojiedian", server: 36.151.192.203, port: 18682, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
-- {name: 15|US_speednode_0069, server: 35.92.52.160, port: 443, type: trojan, password: 8cb7ad4e-2d61-3950-bb33-1d2cc3e653dd, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+- {name: "13,14|香港|@ripaojiedian", server: 36.151.192.201, port: 34185, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
+- {name: 4Kian-881, server: 43.203.249.198, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -48,10 +47,9 @@ proxy-groups:
     interval: 60
     proxies:
       - 15|CN_speednode_0007
-      - 13,14|美国2|@ripaojiedian
-      - 13,14|香港|@ripaojiedian
       - 13,14|香港2|@ripaojiedian
-      - 15|US_speednode_0069
+      - 13,14|香港|@ripaojiedian
+      - 4Kian-881
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -64,10 +62,9 @@ proxy-groups:
     interval: 60
     proxies:
       - 15|CN_speednode_0007
-      - 13,14|美国2|@ripaojiedian
-      - 13,14|香港|@ripaojiedian
       - 13,14|香港2|@ripaojiedian
-      - 15|US_speednode_0069
+      - 13,14|香港|@ripaojiedian
+      - 4Kian-881
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -80,10 +77,9 @@ proxy-groups:
       - None_None_vmess_4147
 
       - 15|CN_speednode_0007
-      - 13,14|美国2|@ripaojiedian
-      - 13,14|香港|@ripaojiedian
       - 13,14|香港2|@ripaojiedian
-      - 15|US_speednode_0069
+      - 13,14|香港|@ripaojiedian
+      - 4Kian-881
   - name: 🐟 漏网之鱼
     type: select
     proxies:
