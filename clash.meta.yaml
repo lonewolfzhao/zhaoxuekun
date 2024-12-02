@@ -57,7 +57,12 @@ proxies:
 - {name: None_None_vmess_4413, server: 104.26.0.163, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: p5.613055.xyz}}, udp: true}
 - {name: "13,14|香港2|@ripaojiedian", server: 36.151.192.239, port: 42395, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
 - {name: "13,14|香港|@ripaojiedian", server: 36.151.192.201, port: 51377, type: trojan, password: DNUMdmnJ, skip-cert-verify: true, udp: true}
+- {name: 4Jadi-437, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
 - {name: 14|香港3|@ripaojiedian, server: 120.232.153.63, port: 40972, type: vmess, uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: "13,14|韩国|@ripaojiedian", server: lmgj.hongxingdl.vip, port: 39593, type: trojan, password: 1f962f36-f751-40c3-91b3-cb6d2360b450, sni: mmbiz10.redapricotcloud.com, skip-cert-verify: true, udp: true}
+- {name: 13|🇭🇰 香港3|@ripaojiedian, server: 120.232.153.63, port: 40972, type: vmess, uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Jadi-623, server: 109.120.176.218, port: 2096, type: ss, cipher: aes-128-gcm, password: 5hUUaB6YaI0rzcrx6lwtEjp5vC1RVe8leUjaD2+Bgmo=, udp: true}
+- {name: "13,14|日本|@ripaojiedian", server: 36.151.192.242, port: 27381, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -72,7 +77,12 @@ proxy-groups:
     proxies:
       - 13,14|香港2|@ripaojiedian
       - 13,14|香港|@ripaojiedian
+      - 4Jadi-437
       - 14|香港3|@ripaojiedian
+      - 13,14|韩国|@ripaojiedian
+      - 13|🇭🇰 香港3|@ripaojiedian
+      - 4Jadi-623
+      - 13,14|日本|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -86,7 +96,12 @@ proxy-groups:
     proxies:
       - 13,14|香港2|@ripaojiedian
       - 13,14|香港|@ripaojiedian
+      - 4Jadi-437
       - 14|香港3|@ripaojiedian
+      - 13,14|韩国|@ripaojiedian
+      - 13|🇭🇰 香港3|@ripaojiedian
+      - 4Jadi-623
+      - 13,14|日本|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -125,7 +140,12 @@ proxy-groups:
 
       - 13,14|香港2|@ripaojiedian
       - 13,14|香港|@ripaojiedian
+      - 4Jadi-437
       - 14|香港3|@ripaojiedian
+      - 13,14|韩国|@ripaojiedian
+      - 13|🇭🇰 香港3|@ripaojiedian
+      - 4Jadi-623
+      - 13,14|日本|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
