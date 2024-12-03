@@ -25,28 +25,6 @@ dns:
     geoip-code: CN
     ipcidr:
     - 240.0.0.0/4
-unified-delay: true
-global-client-fingerprint: chrome
-dns:
-  enable: true
-  listen: :53
-  ipv6: true
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  default-nameserver:
-  - 223.5.5.5
-  - 8.8.8.8
-  nameserver:
-  - https://dns.alidns.com/dns-query
-  - https://doh.pub/dns-query
-  fallback:
-  - https://1.0.0.1/dns-query
-  - tls://dns.google
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
-    ipcidr:
-    - 240.0.0.0/4
 proxies:
 - {name: None_None_vmess_3582, server: 104.18.114.82, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m7.106778.xyz}}, udp: true}
 - {name: None_None_vmess_3732, server: 104.18.114.232, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m8.106778.xyz}}, udp: true}
@@ -68,19 +46,12 @@ proxies:
 - {name: None_None_vmess_3612, server: 104.18.114.112, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m8.106778.xyz}}, udp: true}
 - {name: None_None_vmess_3559, server: 104.18.114.59, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m8.106778.xyz}}, udp: true}
 - {name: None_None_vmess_3513, server: 104.18.114.13, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m8.106778.xyz}}, udp: true}
-- {name: None_None_vmess_3728, server: 104.18.114.228, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m7.106778.xyz}}, udp: true}
-- {name: None_None_vmess_3704, server: 104.18.114.204, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m7.106778.xyz}}, udp: true}
-- {name: None_None_vmess_3672, server: 104.18.114.172, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m7.106778.xyz}}, udp: true}
-- {name: None_None_vmess_3700, server: 104.18.114.200, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m7.106778.xyz}}, udp: true}
-- {name: None_None_vmess_3572, server: 104.18.114.72, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m7.106778.xyz}}, udp: true}
-- {name: 台湾 01, server: tw.miaolianyunapp.com, port: 51161, type: ss, cipher: chacha20-ietf-poly1305, password: 6d247617-01a8-4720-9c4e-c5c68ebf75c5, udp: true}
 - {name: "13,14|香港2|@ripaojiedian", server: 223.113.54.144, port: 17956, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
-- {name: 15|CN_speednode_0005, server: naiu-sg.05vr9nyqg5.download, port: 13028, type: trojan, password: 5e2ce79c-170e-484a-8802-40584a1a3a12, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-- {name: 4Sarina-780, server: 13.212.48.212, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Sarina-809, server: 18.143.178.37, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 台湾 01, server: tw.miaolianyunapp.com, port: 51161, type: ss, cipher: chacha20-ietf-poly1305, password: 6d247617-01a8-4720-9c4e-c5c68ebf75c5, udp: true}
+- {name: _SG_新加坡, server: 54.179.69.136, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Sarina-879, server: 54.169.221.192, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Mohsen-880, server: 47.128.246.130, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: _SG_新加坡->🇺🇸_US_美国, server: 18.142.177.205, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Sarina-100, server: 158.255.214.213, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 3d7uPkNdt1nGOMIWPUkhgW, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -93,14 +64,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 台湾 01
       - 13,14|香港2|@ripaojiedian
-      - 15|CN_speednode_0005
-      - 4Sarina-780
-      - 4Sarina-809
+      - 台湾 01
+      - _SG_新加坡
       - 4Sarina-879
+      - 4Mohsen-880
       - _SG_新加坡->🇺🇸_US_美国
-      - 4Sarina-100
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -112,34 +81,45 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 台湾 01
       - 13,14|香港2|@ripaojiedian
-      - 15|CN_speednode_0005
-      - 4Sarina-780
-      - 4Sarina-809
+      - 台湾 01
+      - _SG_新加坡
       - 4Sarina-879
+      - 4Mohsen-880
       - _SG_新加坡->🇺🇸_US_美国
-      - 4Sarina-100
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 60
     proxies:
-      - None_None_vmess_3728
+      - None_None_vmess_3582
+      - None_None_vmess_3732
+      - None_None_vmess_3699
+      - None_None_vmess_3568
+      - None_None_vmess_3596
+      - None_None_vmess_3577
+      - None_None_vmess_3621
+      - None_None_vmess_3679
+      - None_None_vmess_3708
+      - None_None_vmess_3628
+      - None_None_vmess_3737
+      - None_None_vmess_3619
       - None_None_vmess_3704
-      - None_None_vmess_3672
-      - None_None_vmess_3700
-      - None_None_vmess_3572
+      - None_None_vmess_3570
+      - None_None_vmess_3254
+      - None_None_vmess_3685
+      - None_None_vmess_3574
+      - None_None_vmess_3612
+      - None_None_vmess_3559
+      - None_None_vmess_3513
 
-      - 台湾 01
       - 13,14|香港2|@ripaojiedian
-      - 15|CN_speednode_0005
-      - 4Sarina-780
-      - 4Sarina-809
+      - 台湾 01
+      - _SG_新加坡
       - 4Sarina-879
+      - 4Mohsen-880
       - _SG_新加坡->🇺🇸_US_美国
-      - 4Sarina-100
   - name: 🐟 漏网之鱼
     type: select
     proxies:
