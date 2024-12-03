@@ -47,11 +47,13 @@ proxies:
 - {name: None_None_vmess_3559, server: 104.18.114.59, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m8.106778.xyz}}, udp: true}
 - {name: None_None_vmess_3513, server: 104.18.114.13, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m8.106778.xyz}}, udp: true}
 - {name: "13,14|香港2|@ripaojiedian", server: 223.113.54.144, port: 17956, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
-- {name: 台湾 01, server: tw.miaolianyunapp.com, port: 51161, type: ss, cipher: chacha20-ietf-poly1305, password: 6d247617-01a8-4720-9c4e-c5c68ebf75c5, udp: true}
-- {name: _SG_新加坡, server: 54.179.69.136, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "13,14|香港8|@ripaojiedian", server: naiu-hk.05vr9nyqg5.download, port: 13007, type: trojan, password: 5e2ce79c-170e-484a-8802-40584a1a3a12, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
 - {name: 4Sarina-879, server: 54.169.221.192, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Mohsen-880, server: 47.128.246.130, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _SG_新加坡->🇺🇸_US_美国, server: 18.142.177.205, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _SG_新加坡, server: 54.179.69.136, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _SG_新加坡->🇺🇸_US_美国, server: 3.1.203.16, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国, server: 54.189.131.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-3, server: 18.236.89.178, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国 2, server: 52.43.67.42, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -65,11 +67,13 @@ proxy-groups:
     interval: 60
     proxies:
       - 13,14|香港2|@ripaojiedian
-      - 台湾 01
-      - _SG_新加坡
+      - 13,14|香港8|@ripaojiedian
       - 4Sarina-879
-      - 4Mohsen-880
+      - _SG_新加坡
       - _SG_新加坡->🇺🇸_US_美国
+      - _US_美国
+      - 0|-https://t.me/MrXbin-3
+      - _US_美国 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -82,11 +86,13 @@ proxy-groups:
     interval: 60
     proxies:
       - 13,14|香港2|@ripaojiedian
-      - 台湾 01
-      - _SG_新加坡
+      - 13,14|香港8|@ripaojiedian
       - 4Sarina-879
-      - 4Mohsen-880
+      - _SG_新加坡
       - _SG_新加坡->🇺🇸_US_美国
+      - _US_美国
+      - 0|-https://t.me/MrXbin-3
+      - _US_美国 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -115,11 +121,13 @@ proxy-groups:
       - None_None_vmess_3513
 
       - 13,14|香港2|@ripaojiedian
-      - 台湾 01
-      - _SG_新加坡
+      - 13,14|香港8|@ripaojiedian
       - 4Sarina-879
-      - 4Mohsen-880
+      - _SG_新加坡
       - _SG_新加坡->🇺🇸_US_美国
+      - _US_美国
+      - 0|-https://t.me/MrXbin-3
+      - _US_美国 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
