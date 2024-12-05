@@ -55,9 +55,14 @@ proxies:
 - {name: None_None_vmess_3574, server: 104.18.114.74, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m10.106778.xyz}}, udp: true}
 - {name: None_None_vmess_3707, server: 104.18.114.207, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m10.106778.xyz}}, udp: true}
 - {name: None_None_vmess_3181, server: 104.21.238.181, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m10.106778.xyz}}, udp: true}
+- {name: 4Sarina-860, server: 34.216.7.165, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Sarina-919, server: 54.191.9.106, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国, server: 54.203.119.192, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国 2, server: 34.220.195.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Kian-897, server: 54.169.221.192, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Nika-857, server: 34.222.145.191, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "13,14|香港|@ripaojiedian", server: 36.151.192.242, port: 51377, type: trojan, password: DNUMdmnJ, skip-cert-verify: true, udp: true}
-- {name: _US_美国, server: 54.184.77.199, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国 3, server: 54.185.18.43, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 13|🇰🇷 韩国2|@ripaojiedian, server: 119.xn--fhqu06a8m1asto.icu, port: 10341, type: ss, cipher: chacha20-ietf-poly1305, password: ce3cfe20-10d6-4999-9078-f918cfbab937, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -70,9 +75,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4Nika-857
-      - 13,14|香港|@ripaojiedian
+      - 4Sarina-860
+      - 4Sarina-919
       - _US_美国
+      - _US_美国 2
+      - 4Kian-897
+      - 4Nika-857
+      - _US_美国 3
+      - 13|🇰🇷 韩国2|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -84,9 +94,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4Nika-857
-      - 13,14|香港|@ripaojiedian
+      - 4Sarina-860
+      - 4Sarina-919
       - _US_美国
+      - _US_美国 2
+      - 4Kian-897
+      - 4Nika-857
+      - _US_美国 3
+      - 13|🇰🇷 韩国2|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -123,9 +138,14 @@ proxy-groups:
       - None_None_vmess_3707
       - None_None_vmess_3181
 
-      - 4Nika-857
-      - 13,14|香港|@ripaojiedian
+      - 4Sarina-860
+      - 4Sarina-919
       - _US_美国
+      - _US_美国 2
+      - 4Kian-897
+      - 4Nika-857
+      - _US_美国 3
+      - 13|🇰🇷 韩国2|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
