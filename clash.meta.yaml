@@ -55,12 +55,14 @@ proxies:
 - {name: None_None_vmess_3574, server: 104.18.114.74, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m10.106778.xyz}}, udp: true}
 - {name: None_None_vmess_3707, server: 104.18.114.207, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m10.106778.xyz}}, udp: true}
 - {name: None_None_vmess_3181, server: 104.21.238.181, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m10.106778.xyz}}, udp: true}
-- {name: 4Jadi-912, server: 54.179.69.136, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国, server: 52.12.67.119, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-9, server: 44.244.25.243, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国 2, server: 54.185.18.43, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-7, server: 34.220.195.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Nika-915, server: 54.189.131.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "13,14|香港2|@ripaojiedian", server: 36.151.192.242, port: 18682, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
+- {name: "13,14|日本|@ripaojiedian", server: 36.151.192.239, port: 12176, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
+- {name: 4FreeIran-883, server: 47.128.215.67, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Nika-903, server: 54.169.221.192, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4FreeIran-884, server: 47.128.246.130, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4FreeIran-908, server: 54.203.119.192, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Jadi-865, server: 35.88.136.187, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Nika-856, server: 34.215.84.62, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -73,12 +75,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4Jadi-912
-      - _US_美国
-      - 0|-https://t.me/MrXbin-9
-      - _US_美国 2
-      - 0|-https://t.me/MrXbin-7
-      - 4Nika-915
+      - 13,14|香港2|@ripaojiedian
+      - 13,14|日本|@ripaojiedian
+      - 4FreeIran-883
+      - 4Nika-903
+      - 4FreeIran-884
+      - 4FreeIran-908
+      - 4Jadi-865
+      - 4Nika-856
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -90,12 +94,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4Jadi-912
-      - _US_美国
-      - 0|-https://t.me/MrXbin-9
-      - _US_美国 2
-      - 0|-https://t.me/MrXbin-7
-      - 4Nika-915
+      - 13,14|香港2|@ripaojiedian
+      - 13,14|日本|@ripaojiedian
+      - 4FreeIran-883
+      - 4Nika-903
+      - 4FreeIran-884
+      - 4FreeIran-908
+      - 4Jadi-865
+      - 4Nika-856
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -132,12 +138,14 @@ proxy-groups:
       - None_None_vmess_3707
       - None_None_vmess_3181
 
-      - 4Jadi-912
-      - _US_美国
-      - 0|-https://t.me/MrXbin-9
-      - _US_美国 2
-      - 0|-https://t.me/MrXbin-7
-      - 4Nika-915
+      - 13,14|香港2|@ripaojiedian
+      - 13,14|日本|@ripaojiedian
+      - 4FreeIran-883
+      - 4Nika-903
+      - 4FreeIran-884
+      - 4FreeIran-908
+      - 4Jadi-865
+      - 4Nika-856
   - name: 🐟 漏网之鱼
     type: select
     proxies:
