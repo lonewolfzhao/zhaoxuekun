@@ -55,7 +55,7 @@ proxies:
 - {name: None_None_vmess_3574, server: 104.18.114.74, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m10.106778.xyz}}, udp: true}
 - {name: None_None_vmess_3707, server: 104.18.114.207, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m10.106778.xyz}}, udp: true}
 - {name: None_None_vmess_3181, server: 104.21.238.181, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m10.106778.xyz}}, udp: true}
-- {name: 4Nika-560, server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+- {name: "0,15|HK_speednode_0039", server: dab1c8faaa893fecbc1e055db0894883.v1.cac.node-is.green, port: 46509, type: trojan, password: d75a2b07-34f4-454e-84ba-0de806c51b6d, sni: ca1.bilibili.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -68,7 +68,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4Nika-560
+      - 0,15|HK_speednode_0039
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -80,7 +80,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4Nika-560
+      - 0,15|HK_speednode_0039
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -117,7 +117,7 @@ proxy-groups:
       - None_None_vmess_3707
       - None_None_vmess_3181
 
-      - 4Nika-560
+      - 0,15|HK_speednode_0039
   - name: 🐟 漏网之鱼
     type: select
     proxies:
