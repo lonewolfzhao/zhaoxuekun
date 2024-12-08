@@ -52,9 +52,9 @@ proxies:
 - {name: None_None_vmess_4543, server: 104.18.114.43, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: p14.613055.xyz}}, udp: true}
 - {name: None_None_vmess_392, server: 104.21.238.92, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m14.106778.xyz}}, udp: true}
 - {name: None_None_vmess_4778, server: 162.159.45.28, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: p13.613055.xyz}}, udp: true}
-- {name: 0|-https://t.me/MrXbin-11, server: nsus3.irundns.net, port: 443, type: ssr, cipher: aes-128-cfb, password: +asd6a5s5df+, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "", obfs-param: "", udp: true}
-- {name: 0|-https://t.me/MrXbin-14, server: 34.215.84.62, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4FreeIran-555, server: 137.175.113.215, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+- {name: 4Nika-824, server: 18.136.207.46, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Nika-902, server: 52.37.226.24, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Nika-822, server: 175.41.187.222, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -67,9 +67,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|-https://t.me/MrXbin-11
-      - 0|-https://t.me/MrXbin-14
-      - 4FreeIran-555
+      - 4Nika-824
+      - 4Nika-902
+      - 4Nika-822
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -81,9 +81,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|-https://t.me/MrXbin-11
-      - 0|-https://t.me/MrXbin-14
-      - 4FreeIran-555
+      - 4Nika-824
+      - 4Nika-902
+      - 4Nika-822
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -117,9 +117,9 @@ proxy-groups:
       - None_None_vmess_392
       - None_None_vmess_4778
 
-      - 0|-https://t.me/MrXbin-11
-      - 0|-https://t.me/MrXbin-14
-      - 4FreeIran-555
+      - 4Nika-824
+      - 4Nika-902
+      - 4Nika-822
   - name: 🐟 漏网之鱼
     type: select
     proxies:
