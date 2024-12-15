@@ -56,8 +56,7 @@ proxies:
 - {name: None_None_vmess_1603, server: 104.18.114.103, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e3.285581.xyz}}, udp: true}
 - {name: None_None_vmess_1657, server: 104.18.114.157, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e3.285581.xyz}}, udp: true}
 - {name: 0|-https://t.me/MrXbin-2, server: 79.110.53.169, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: _RO_罗马尼亚, server: 194.5.215.59, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: 0|-https://t.me/MrXbin-3, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: 4Mohsen-1479, server: 23.154.136.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -71,8 +70,7 @@ proxy-groups:
     interval: 60
     proxies:
       - 0|-https://t.me/MrXbin-2
-      - _RO_罗马尼亚
-      - 0|-https://t.me/MrXbin-3
+      - 4Mohsen-1479
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -85,8 +83,7 @@ proxy-groups:
     interval: 60
     proxies:
       - 0|-https://t.me/MrXbin-2
-      - _RO_罗马尼亚
-      - 0|-https://t.me/MrXbin-3
+      - 4Mohsen-1479
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -124,8 +121,7 @@ proxy-groups:
       - None_None_vmess_1657
 
       - 0|-https://t.me/MrXbin-2
-      - _RO_罗马尼亚
-      - 0|-https://t.me/MrXbin-3
+      - 4Mohsen-1479
   - name: 🐟 漏网之鱼
     type: select
     proxies:
