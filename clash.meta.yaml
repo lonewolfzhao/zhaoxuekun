@@ -26,12 +26,12 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 0|-https://t.me/MrXbin-22, server: 3.1.79.116, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-4, server: 54.218.229.170, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "13,14|香港2|@ripaojiedian", server: 36.151.192.203, port: 25241, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
-- {name: 0|-https://t.me/MrXbin-52, server: 206.238.237.86, port: 2087, type: vmess, uuid: 19e06438-ea22-4478-b420-c3105bd493bb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/serv00?ed=2048", headers: {Host: argo12.zjccc.nyc.mn}}, udp: true}
-- {name: 0|-https://t.me/MrXbin-10, server: 44.243.243.198, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: _US_美国->🇮🇷_IR_伊朗, server: 34.222.132.123, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-10, server: 44.243.243.198, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-16, server: 43.200.1.13, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-4, server: 54.218.229.170, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国, server: us01.ssr.ee, port: 443, type: trojan, password: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a, sni: us01.ssr.ee, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-31, server: nsus3.irundns.net, port: 443, type: ssr, cipher: aes-128-cfb, password: +asd6a5s5df+, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "", obfs-param: "", udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -44,12 +44,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|-https://t.me/MrXbin-22
-      - 0|-https://t.me/MrXbin-4
-      - 13,14|香港2|@ripaojiedian
-      - 0|-https://t.me/MrXbin-52
-      - 0|-https://t.me/MrXbin-10
       - _US_美国->🇮🇷_IR_伊朗
+      - 0|-https://t.me/MrXbin-10
+      - 0|-https://t.me/MrXbin-16
+      - 0|-https://t.me/MrXbin-4
+      - _US_美国
+      - 0|-https://t.me/MrXbin-31
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -61,12 +61,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|-https://t.me/MrXbin-22
-      - 0|-https://t.me/MrXbin-4
-      - 13,14|香港2|@ripaojiedian
-      - 0|-https://t.me/MrXbin-52
-      - 0|-https://t.me/MrXbin-10
       - _US_美国->🇮🇷_IR_伊朗
+      - 0|-https://t.me/MrXbin-10
+      - 0|-https://t.me/MrXbin-16
+      - 0|-https://t.me/MrXbin-4
+      - _US_美国
+      - 0|-https://t.me/MrXbin-31
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -74,12 +74,12 @@ proxy-groups:
     interval: 60
     proxies:
 
-      - 0|-https://t.me/MrXbin-22
-      - 0|-https://t.me/MrXbin-4
-      - 13,14|香港2|@ripaojiedian
-      - 0|-https://t.me/MrXbin-52
-      - 0|-https://t.me/MrXbin-10
       - _US_美国->🇮🇷_IR_伊朗
+      - 0|-https://t.me/MrXbin-10
+      - 0|-https://t.me/MrXbin-16
+      - 0|-https://t.me/MrXbin-4
+      - _US_美国
+      - 0|-https://t.me/MrXbin-31
   - name: 🐟 漏网之鱼
     type: select
     proxies:
