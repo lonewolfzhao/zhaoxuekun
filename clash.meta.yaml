@@ -26,8 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: _RU_俄罗斯, server: 217.30.10.18, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-- {name: _RU_俄罗斯 2, server: 217.30.10.18, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+- {name: 0|-https://t.me/MrXbin-4, server: 34.215.192.217, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国, server: 34.222.136.128, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-2, server: 43.203.198.1, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|-https://t.me/MrXbin-3, server: 34.222.136.128, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -41,8 +42,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - _RU_俄罗斯
-      - _RU_俄罗斯 2
+      - 0|-https://t.me/MrXbin-4
+      - _US_美国
+      - 0|-https://t.me/MrXbin-2
       - 0|-https://t.me/MrXbin-3
   - name: 🔰 节点选择
     type: select
@@ -55,8 +57,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - _RU_俄罗斯
-      - _RU_俄罗斯 2
+      - 0|-https://t.me/MrXbin-4
+      - _US_美国
+      - 0|-https://t.me/MrXbin-2
       - 0|-https://t.me/MrXbin-3
   - name: ♻️ 可能受限
     type: load-balance
@@ -65,8 +68,9 @@ proxy-groups:
     interval: 60
     proxies:
 
-      - _RU_俄罗斯
-      - _RU_俄罗斯 2
+      - 0|-https://t.me/MrXbin-4
+      - _US_美国
+      - 0|-https://t.me/MrXbin-2
       - 0|-https://t.me/MrXbin-3
   - name: 🐟 漏网之鱼
     type: select
