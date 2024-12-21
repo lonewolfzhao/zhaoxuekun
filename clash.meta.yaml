@@ -26,12 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: "13,14|香港2|@ripaojiedian", server: 223.113.54.145, port: 36442, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-27, server: ssca.irundns.net, port: 443, type: ssr, cipher: aes-128-cfb, password: $$Turb0VPN$$, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "", obfs-param: "", udp: true}
 - {name: 0|-https://t.me/MrXbin-14, server: nsus3.irundns.net, port: 443, type: ssr, cipher: aes-128-cfb, password: +asd6a5s5df+, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "", obfs-param: "", udp: true}
-- {name: 15|US_speednode_0028, server: 104.219.41.229, port: 443, type: trojan, password: Julius, sni: miami.juliusnet.com, skip-cert-verify: true, udp: true}
-- {name: 0|-https://t.me/MrXbin-3, server: 43.203.243.93, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _BG_保加利亚->🇦🇺_AU_澳大利亚, server: 149.34.244.77, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-- {name: 4Mohsen-437, server: 109.120.138.94, port: 10851, type: ss, cipher: chacha20-ietf-poly1305, password: O4D8WTvkvIALxm+8sIH2rgpXizdNVcqjbcN0O1Rl9KQ=, udp: true}
+- {name: "13,14|香港2|@ripaojiedian", server: 223.113.54.145, port: 36442, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -44,12 +41,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13,14|香港2|@ripaojiedian
+      - 0|-https://t.me/MrXbin-27
       - 0|-https://t.me/MrXbin-14
-      - 15|US_speednode_0028
-      - 0|-https://t.me/MrXbin-3
-      - _BG_保加利亚->🇦🇺_AU_澳大利亚
-      - 4Mohsen-437
+      - 13,14|香港2|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -61,12 +55,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13,14|香港2|@ripaojiedian
+      - 0|-https://t.me/MrXbin-27
       - 0|-https://t.me/MrXbin-14
-      - 15|US_speednode_0028
-      - 0|-https://t.me/MrXbin-3
-      - _BG_保加利亚->🇦🇺_AU_澳大利亚
-      - 4Mohsen-437
+      - 13,14|香港2|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -74,12 +65,9 @@ proxy-groups:
     interval: 60
     proxies:
 
-      - 13,14|香港2|@ripaojiedian
+      - 0|-https://t.me/MrXbin-27
       - 0|-https://t.me/MrXbin-14
-      - 15|US_speednode_0028
-      - 0|-https://t.me/MrXbin-3
-      - _BG_保加利亚->🇦🇺_AU_澳大利亚
-      - 4Mohsen-437
+      - 13,14|香港2|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
