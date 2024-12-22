@@ -26,14 +26,11 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 13|🇰🇷 韩国特殊|@ripaojiedian, server: 52.68.44.53, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Mohsen-3395, server: 146.70.61.18, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
 - {name: 0|-https://t.me/MrXbin-1, server: 107.155.57.11, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: 15|CN_speednode_0002, server: 36.151.192.201, port: 34185, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
-- {name: 13|🇸🇬 新加坡2|@ripaojiedian, server: pudvkjvvgdol.xn--fiqs8sjz2bull.com, port: 50792, type: vmess, uuid: 99266723-0802-4ef4-9d6c-4dc84c2ffa08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Mohsen-3395, server: 146.70.61.18, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
 - {name: 4FreeIran-3797, server: 138.199.42.68, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: "0,15|US_speednode_0061", server: 38.59.245.38, port: 33261, type: trojan, password: UO2beikcWh, skip-cert-verify: true, udp: true}
-- {name: _US_美国, server: 54.201.174.149, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国, server: 51.158.244.38, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: 15|CN_speednode_0002, server: 36.151.192.201, port: 34185, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -46,14 +43,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
-      - 4Mohsen-3395
       - 0|-https://t.me/MrXbin-1
-      - 15|CN_speednode_0002
-      - 13|🇸🇬 新加坡2|@ripaojiedian
+      - 4Mohsen-3395
       - 4FreeIran-3797
-      - 0,15|US_speednode_0061
       - _US_美国
+      - 15|CN_speednode_0002
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -65,14 +59,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
-      - 4Mohsen-3395
       - 0|-https://t.me/MrXbin-1
-      - 15|CN_speednode_0002
-      - 13|🇸🇬 新加坡2|@ripaojiedian
+      - 4Mohsen-3395
       - 4FreeIran-3797
-      - 0,15|US_speednode_0061
       - _US_美国
+      - 15|CN_speednode_0002
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -80,14 +71,11 @@ proxy-groups:
     interval: 60
     proxies:
 
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
-      - 4Mohsen-3395
       - 0|-https://t.me/MrXbin-1
-      - 15|CN_speednode_0002
-      - 13|🇸🇬 新加坡2|@ripaojiedian
+      - 4Mohsen-3395
       - 4FreeIran-3797
-      - 0,15|US_speednode_0061
       - _US_美国
+      - 15|CN_speednode_0002
   - name: 🐟 漏网之鱼
     type: select
     proxies:
