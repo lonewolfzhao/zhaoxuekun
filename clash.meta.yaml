@@ -27,13 +27,13 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: 0|-https://t.me/MrXbin-1, server: 107.155.57.11, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: 0|-https://t.me/MrXbin-3, server: 52.32.68.164, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-30, server: 169.150.210.233, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: 15|CN_speednode_0002, server: 36.151.192.201, port: 34185, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
-- {name: 0|-https://t.me/MrXbin-17, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: 4Mohsen-3395, server: 146.70.61.18, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
 - {name: 0|-https://t.me/MrXbin-9, server: 79.110.53.169, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: _GB_英国, server: 212.102.53.193, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+- {name: 0|-https://t.me/MrXbin-17, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: 0|-https://t.me/MrXbin-12, server: 3.35.206.24, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-8, server: 43.200.1.13, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-18, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: "0,15|US_speednode_0054", server: jobsfortheworldtoday.com, port: 443, type: trojan, password: 71409d3e488548e8bb076d229778f008, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-30, server: 169.150.210.233, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -47,13 +47,13 @@ proxy-groups:
     interval: 60
     proxies:
       - 0|-https://t.me/MrXbin-1
-      - 0|-https://t.me/MrXbin-3
-      - 0|-https://t.me/MrXbin-30
-      - 15|CN_speednode_0002
-      - 0|-https://t.me/MrXbin-17
-      - 4Mohsen-3395
       - 0|-https://t.me/MrXbin-9
-      - _GB_英国
+      - 0|-https://t.me/MrXbin-17
+      - 0|-https://t.me/MrXbin-12
+      - 0|-https://t.me/MrXbin-8
+      - 0|-https://t.me/MrXbin-18
+      - 0,15|US_speednode_0054
+      - 0|-https://t.me/MrXbin-30
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -66,13 +66,13 @@ proxy-groups:
     interval: 60
     proxies:
       - 0|-https://t.me/MrXbin-1
-      - 0|-https://t.me/MrXbin-3
-      - 0|-https://t.me/MrXbin-30
-      - 15|CN_speednode_0002
-      - 0|-https://t.me/MrXbin-17
-      - 4Mohsen-3395
       - 0|-https://t.me/MrXbin-9
-      - _GB_英国
+      - 0|-https://t.me/MrXbin-17
+      - 0|-https://t.me/MrXbin-12
+      - 0|-https://t.me/MrXbin-8
+      - 0|-https://t.me/MrXbin-18
+      - 0,15|US_speednode_0054
+      - 0|-https://t.me/MrXbin-30
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -81,13 +81,13 @@ proxy-groups:
     proxies:
 
       - 0|-https://t.me/MrXbin-1
-      - 0|-https://t.me/MrXbin-3
-      - 0|-https://t.me/MrXbin-30
-      - 15|CN_speednode_0002
-      - 0|-https://t.me/MrXbin-17
-      - 4Mohsen-3395
       - 0|-https://t.me/MrXbin-9
-      - _GB_英国
+      - 0|-https://t.me/MrXbin-17
+      - 0|-https://t.me/MrXbin-12
+      - 0|-https://t.me/MrXbin-8
+      - 0|-https://t.me/MrXbin-18
+      - 0,15|US_speednode_0054
+      - 0|-https://t.me/MrXbin-30
   - name: 🐟 漏网之鱼
     type: select
     proxies:
