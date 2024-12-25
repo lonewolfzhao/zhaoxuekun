@@ -26,11 +26,14 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 0|-https://t.me/MrXbin-17, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: 0|-https://t.me/MrXbin-22, server: 194.5.215.59, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: "0,15|GB_speednode_0011", server: 172.99.190.180, port: 443, type: trojan, password: 4732adfa16c6450bbef87264e41332db, sni: bangladeshipatri.com, skip-cert-verify: true, udp: true}
 - {name: 15|CN_speednode_0001, server: 36.151.192.239, port: 42395, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-6, server: 43.203.243.93, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-18, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+- {name: 4Kian-152, server: 45.150.32.116, port: 39490, type: ss, cipher: chacha20-ietf-poly1305, password: zICSEUoR7VQVG9ayY/A0DxEnb2MaMqpT4UmE4L/hJWk=, udp: true}
 - {name: 0|-https://t.me/MrXbin-30, server: 169.150.210.233, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: 0|-https://t.me/MrXbin-22, server: 194.5.215.59, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: 0|-https://t.me/MrXbin-25, server: nsus3.irundns.net, port: 443, type: ssr, cipher: aes-128-cfb, password: +asd6a5s5df+, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "", obfs-param: "", udp: true}
+- {name: 4Kian-645, server: 107.148.6.121, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -43,11 +46,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|-https://t.me/MrXbin-17
-      - 0|-https://t.me/MrXbin-22
-      - 0,15|GB_speednode_0011
       - 15|CN_speednode_0001
+      - 0|-https://t.me/MrXbin-6
+      - 0|-https://t.me/MrXbin-18
+      - 4Kian-152
       - 0|-https://t.me/MrXbin-30
+      - 0|-https://t.me/MrXbin-22
+      - 0|-https://t.me/MrXbin-25
+      - 4Kian-645
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -59,11 +65,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|-https://t.me/MrXbin-17
-      - 0|-https://t.me/MrXbin-22
-      - 0,15|GB_speednode_0011
       - 15|CN_speednode_0001
+      - 0|-https://t.me/MrXbin-6
+      - 0|-https://t.me/MrXbin-18
+      - 4Kian-152
       - 0|-https://t.me/MrXbin-30
+      - 0|-https://t.me/MrXbin-22
+      - 0|-https://t.me/MrXbin-25
+      - 4Kian-645
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -71,11 +80,14 @@ proxy-groups:
     interval: 60
     proxies:
 
-      - 0|-https://t.me/MrXbin-17
-      - 0|-https://t.me/MrXbin-22
-      - 0,15|GB_speednode_0011
       - 15|CN_speednode_0001
+      - 0|-https://t.me/MrXbin-6
+      - 0|-https://t.me/MrXbin-18
+      - 4Kian-152
       - 0|-https://t.me/MrXbin-30
+      - 0|-https://t.me/MrXbin-22
+      - 0|-https://t.me/MrXbin-25
+      - 4Kian-645
   - name: 🐟 漏网之鱼
     type: select
     proxies:
