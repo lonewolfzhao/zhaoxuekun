@@ -26,12 +26,14 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 0|-https://t.me/MrXbin-5, server: 107.155.57.11, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: _US_美国, server: jobsfortheworldtoday.com, port: 443, type: trojan, password: 71409d3e488548e8bb076d229778f008, skip-cert-verify: true, udp: true}
-- {name: 0|-https://t.me/MrXbin-25, server: nsus3.irundns.net, port: 443, type: ssr, cipher: aes-128-cfb, password: +asd6a5s5df+, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "", obfs-param: "", udp: true}
-- {name: _US_美国 2, server: 3.66.82.205, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-- {name: 0|-https://t.me/MrXbin-60, server: 89.187.181.172, port: 43118, type: trojan, password: ypDt8RkT7J, sni: egcmi.phooeyunfold.com, skip-cert-verify: true, udp: true}
+- {name: 13|🇰🇷 韩国特殊|@ripaojiedian, server: 13.115.231.64, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4FreeIran-1084, server: 54.238.219.226, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 15|CN_speednode_0001, server: 36.151.192.239, port: 42395, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
+- {name: 13|🇸🇬 狮城特殊|@ripaojiedian, server: 3.112.236.3, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 13|🇹🇼 台湾|@ripaojiedian, server: fiwejniavzoj.xn--fiqs8sjz2bull.com, port: 60852, type: vmess, uuid: 17e51677-587d-4312-972a-3f51afd2fe4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-25, server: nsus3.irundns.net, port: 443, type: ssr, cipher: aes-128-cfb, password: +asd6a5s5df+, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "", obfs-param: "", udp: true}
+- {name: 0|-https://t.me/MrXbin-30, server: 169.150.210.233, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: 0|-https://t.me/MrXbin-12, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -44,12 +46,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|-https://t.me/MrXbin-5
-      - _US_美国
-      - 0|-https://t.me/MrXbin-25
-      - _US_美国 2
-      - 0|-https://t.me/MrXbin-60
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 4FreeIran-1084
       - 15|CN_speednode_0001
+      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - 13|🇹🇼 台湾|@ripaojiedian
+      - 0|-https://t.me/MrXbin-25
+      - 0|-https://t.me/MrXbin-30
+      - 0|-https://t.me/MrXbin-12
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -61,12 +65,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|-https://t.me/MrXbin-5
-      - _US_美国
-      - 0|-https://t.me/MrXbin-25
-      - _US_美国 2
-      - 0|-https://t.me/MrXbin-60
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 4FreeIran-1084
       - 15|CN_speednode_0001
+      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - 13|🇹🇼 台湾|@ripaojiedian
+      - 0|-https://t.me/MrXbin-25
+      - 0|-https://t.me/MrXbin-30
+      - 0|-https://t.me/MrXbin-12
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -74,12 +80,14 @@ proxy-groups:
     interval: 60
     proxies:
 
-      - 0|-https://t.me/MrXbin-5
-      - _US_美国
-      - 0|-https://t.me/MrXbin-25
-      - _US_美国 2
-      - 0|-https://t.me/MrXbin-60
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 4FreeIran-1084
       - 15|CN_speednode_0001
+      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - 13|🇹🇼 台湾|@ripaojiedian
+      - 0|-https://t.me/MrXbin-25
+      - 0|-https://t.me/MrXbin-30
+      - 0|-https://t.me/MrXbin-12
   - name: 🐟 漏网之鱼
     type: select
     proxies:
