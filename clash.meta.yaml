@@ -26,10 +26,13 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: "香港3区[转发1] [x1.0]", server: new-zf1.netcar.live, port: 34003, type: vmess, uuid: 7ceb308d-2404-4c23-bff8-f4b2661c7220, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "13,14|香港|@ripaojiedian", server: 36.150.215.196, port: 42395, type: trojan, password: lidnBTGb, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-3, server: 34.213.242.165, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Jadi-1009, server: 34.219.80.203, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国->🇷🇺_RU_俄罗斯, server: 54.245.207.144, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 11|0|--51, server: 199.180.101.29, port: 38004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1734770577466, headers: {Host: www.70778598.xyz}}, udp: true}
+- {name: _US_美国, server: 54.200.223.152, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国 2, server: 104.219.41.229, port: 443, type: trojan, password: Julius, sni: miami.juliusnet.com, skip-cert-verify: true, udp: true}
 - {name: 0|-https://t.me/MrXbin-31, server: 34.213.200.250, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 13|🇺🇸 美国|@ripaojiedian, server: console.02.aliyun.aq.kunlunaqs.com, port: 45938, type: ss, cipher: aes-128-gcm, password: 3938bfae997974860251, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
 - {name: 0|-https://t.me/MrXbin-34, server: ssca.irundns.net, port: 443, type: ssr, cipher: aes-128-cfb, password: $$Turb0VPN$$, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "", obfs-param: "", udp: true}
 - {name: 0|-https://t.me/MrXbin-19, server: 79.110.53.169, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
 proxy-groups:
@@ -44,10 +47,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 香港3区[转发1] [x1.0]
-      - 13,14|香港|@ripaojiedian
+      - 0|-https://t.me/MrXbin-3
+      - 4Jadi-1009
+      - _US_美国->🇷🇺_RU_俄罗斯
+      - 11|0|--51
+      - _US_美国
+      - _US_美国 2
       - 0|-https://t.me/MrXbin-31
-      - 13|🇺🇸 美国|@ripaojiedian
       - 0|-https://t.me/MrXbin-34
       - 0|-https://t.me/MrXbin-19
   - name: 🔰 节点选择
@@ -61,10 +67,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 香港3区[转发1] [x1.0]
-      - 13,14|香港|@ripaojiedian
+      - 0|-https://t.me/MrXbin-3
+      - 4Jadi-1009
+      - _US_美国->🇷🇺_RU_俄罗斯
+      - 11|0|--51
+      - _US_美国
+      - _US_美国 2
       - 0|-https://t.me/MrXbin-31
-      - 13|🇺🇸 美国|@ripaojiedian
       - 0|-https://t.me/MrXbin-34
       - 0|-https://t.me/MrXbin-19
   - name: ♻️ 可能受限
@@ -74,10 +83,13 @@ proxy-groups:
     interval: 60
     proxies:
 
-      - 香港3区[转发1] [x1.0]
-      - 13,14|香港|@ripaojiedian
+      - 0|-https://t.me/MrXbin-3
+      - 4Jadi-1009
+      - _US_美国->🇷🇺_RU_俄罗斯
+      - 11|0|--51
+      - _US_美国
+      - _US_美国 2
       - 0|-https://t.me/MrXbin-31
-      - 13|🇺🇸 美国|@ripaojiedian
       - 0|-https://t.me/MrXbin-34
       - 0|-https://t.me/MrXbin-19
   - name: 🐟 漏网之鱼
