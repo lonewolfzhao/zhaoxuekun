@@ -26,20 +26,14 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: "13,14|香港2|@ripaojiedian", server: 36.150.215.196, port: 18681, type: trojan, password: vzhXXZVw, skip-cert-verify: true, udp: true}
-- {name: 0|-https://t.me/MrXbin-4, server: 60.249.35.38, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}, udp: true}
-- {name: 0|-https://t.me/MrXbin-15, server: 60.249.28.137, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}, udp: true}
-- {name: 0|-https://t.me/MrXbin-5, server: 211.22.161.135, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}, udp: true}
-- {name: 0|-https://t.me/MrXbin-13, server: 60.249.28.136, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}, udp: true}
-- {name: "13,14|香港|@ripaojiedian", server: 36.150.215.222, port: 48544, type: trojan, password: vzhXXZVw, skip-cert-verify: true, udp: true}
-- {name: 4FreeIran-815, server: 217.30.10.18, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-- {name: 0|-https://t.me/MrXbin-40, server: 60.249.28.138, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}, udp: true}
 - {name: 0|-https://t.me/MrXbin-6, server: 60.249.35.39, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}, udp: true}
-- {name: 13|🇭🇰 香港6|@ripaojiedian, server: fiwejniavzoj.xn--fiqs8sjz2bull.com, port: 64667, type: vmess, uuid: 69cdf2a0-64cc-4cd3-8465-1e96dd24e395, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 0|-https://t.me/MrXbin-11, server: 60.249.35.3, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}, udp: true}
-- {name: 0|-https://t.me/MrXbin-38, server: 60.249.28.60, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}, udp: true}
-- {name: 0|-https://t.me/MrXbin-13 2, server: 60.249.35.59, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}, udp: true}
-- {name: 4FreeIran-68, server: 171.111.216.155, port: 30002, type: ss, cipher: chacha20-ietf-poly1305, password: 83aab5c7-ee19-4aad-90d4-743afd8f7bb6, udp: true}
+- {name: "13,14|香港2|@ripaojiedian", server: 36.150.215.196, port: 18681, type: trojan, password: vzhXXZVw, skip-cert-verify: true, udp: true}
+- {name: _US_美国, server: 169.150.210.233, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: 0|-https://t.me/MrXbin-8, server: 60.249.28.59, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}, udp: true}
+- {name: 0|-https://t.me/MrXbin-83, server: gs09.guoshi1520.com, port: 443, type: vmess, uuid: 681e76bc-c19e-4614-ca47-95ba2253a5a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /681e76bc, headers: {Host: gs09.guoshi1520.com}}, udp: true}
+- {name: 0|-https://t.me/MrXbin-38, server: 194.5.215.59, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: _US_美国->🇨🇳_CN_中国, server: 142.0.134.244, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-95, server: xcf024.facai2024.com, port: 443, type: vmess, uuid: 939e72f2-3567-4712-c560-3eb999ff2a82, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /939e72f2, headers: {Host: xcf024.facai2024.com}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -52,20 +46,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13,14|香港2|@ripaojiedian
-      - 0|-https://t.me/MrXbin-4
-      - 0|-https://t.me/MrXbin-15
-      - 0|-https://t.me/MrXbin-5
-      - 0|-https://t.me/MrXbin-13
-      - 13,14|香港|@ripaojiedian
-      - 4FreeIran-815
-      - 0|-https://t.me/MrXbin-40
       - 0|-https://t.me/MrXbin-6
-      - 13|🇭🇰 香港6|@ripaojiedian
-      - 0|-https://t.me/MrXbin-11
+      - 13,14|香港2|@ripaojiedian
+      - _US_美国
+      - 0|-https://t.me/MrXbin-8
+      - 0|-https://t.me/MrXbin-83
       - 0|-https://t.me/MrXbin-38
-      - 0|-https://t.me/MrXbin-13 2
-      - 4FreeIran-68
+      - _US_美国->🇨🇳_CN_中国
+      - 0|-https://t.me/MrXbin-95
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -77,20 +65,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13,14|香港2|@ripaojiedian
-      - 0|-https://t.me/MrXbin-4
-      - 0|-https://t.me/MrXbin-15
-      - 0|-https://t.me/MrXbin-5
-      - 0|-https://t.me/MrXbin-13
-      - 13,14|香港|@ripaojiedian
-      - 4FreeIran-815
-      - 0|-https://t.me/MrXbin-40
       - 0|-https://t.me/MrXbin-6
-      - 13|🇭🇰 香港6|@ripaojiedian
-      - 0|-https://t.me/MrXbin-11
+      - 13,14|香港2|@ripaojiedian
+      - _US_美国
+      - 0|-https://t.me/MrXbin-8
+      - 0|-https://t.me/MrXbin-83
       - 0|-https://t.me/MrXbin-38
-      - 0|-https://t.me/MrXbin-13 2
-      - 4FreeIran-68
+      - _US_美国->🇨🇳_CN_中国
+      - 0|-https://t.me/MrXbin-95
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -98,20 +80,14 @@ proxy-groups:
     interval: 60
     proxies:
 
-      - 13,14|香港2|@ripaojiedian
-      - 0|-https://t.me/MrXbin-4
-      - 0|-https://t.me/MrXbin-15
-      - 0|-https://t.me/MrXbin-5
-      - 0|-https://t.me/MrXbin-13
-      - 13,14|香港|@ripaojiedian
-      - 4FreeIran-815
-      - 0|-https://t.me/MrXbin-40
       - 0|-https://t.me/MrXbin-6
-      - 13|🇭🇰 香港6|@ripaojiedian
-      - 0|-https://t.me/MrXbin-11
+      - 13,14|香港2|@ripaojiedian
+      - _US_美国
+      - 0|-https://t.me/MrXbin-8
+      - 0|-https://t.me/MrXbin-83
       - 0|-https://t.me/MrXbin-38
-      - 0|-https://t.me/MrXbin-13 2
-      - 4FreeIran-68
+      - _US_美国->🇨🇳_CN_中国
+      - 0|-https://t.me/MrXbin-95
   - name: 🐟 漏网之鱼
     type: select
     proxies:
