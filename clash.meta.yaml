@@ -26,15 +26,13 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Mohsen-633, server: 103.36.90.195, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
 - {name: 0|-https://t.me/MrXbin-21, server: 107.155.57.11, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: 0|-https://t.me/MrXbin-30, server: 169.150.210.233, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: 0|-https://t.me/MrXbin-68, server: ssca.irundns.net, port: 443, type: ssr, cipher: aes-128-cfb, password: $$Turb0VPN$$, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "", obfs-param: "", udp: true}
-- {name: _US_美国, server: 54.245.207.144, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-65, server: 38.174.190.80, port: 38007, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/102206282005}, udp: true}
 - {name: _RO_罗马尼亚->🇷🇺_RU_俄罗斯, server: 194.5.215.59, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: 0|-https://t.me/MrXbin-29, server: 146.70.61.18, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: 4FreeIran-634, server: 137.175.113.215, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
-- {name: 4Mohsen-519, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+- {name: 4Kian-635, server: 107.148.6.121, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+- {name: 4Kian-412, server: 77.83.246.74, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Jb8HXFuvnTsZLHzBd2i9Xz, udp: true}
+- {name: 4Mohsen-633, server: 103.36.90.195, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+- {name: 4Kian-158, server: 157.241.33.97, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -47,15 +45,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4Mohsen-633
       - 0|-https://t.me/MrXbin-21
-      - 0|-https://t.me/MrXbin-30
-      - 0|-https://t.me/MrXbin-68
-      - _US_美国
+      - 0|-https://t.me/MrXbin-65
       - _RO_罗马尼亚->🇷🇺_RU_俄罗斯
-      - 0|-https://t.me/MrXbin-29
-      - 4FreeIran-634
-      - 4Mohsen-519
+      - 4Kian-635
+      - 4Kian-412
+      - 4Mohsen-633
+      - 4Kian-158
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -67,15 +63,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4Mohsen-633
       - 0|-https://t.me/MrXbin-21
-      - 0|-https://t.me/MrXbin-30
-      - 0|-https://t.me/MrXbin-68
-      - _US_美国
+      - 0|-https://t.me/MrXbin-65
       - _RO_罗马尼亚->🇷🇺_RU_俄罗斯
-      - 0|-https://t.me/MrXbin-29
-      - 4FreeIran-634
-      - 4Mohsen-519
+      - 4Kian-635
+      - 4Kian-412
+      - 4Mohsen-633
+      - 4Kian-158
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -83,15 +77,13 @@ proxy-groups:
     interval: 60
     proxies:
 
-      - 4Mohsen-633
       - 0|-https://t.me/MrXbin-21
-      - 0|-https://t.me/MrXbin-30
-      - 0|-https://t.me/MrXbin-68
-      - _US_美国
+      - 0|-https://t.me/MrXbin-65
       - _RO_罗马尼亚->🇷🇺_RU_俄罗斯
-      - 0|-https://t.me/MrXbin-29
-      - 4FreeIran-634
-      - 4Mohsen-519
+      - 4Kian-635
+      - 4Kian-412
+      - 4Mohsen-633
+      - 4Kian-158
   - name: 🐟 漏网之鱼
     type: select
     proxies:
