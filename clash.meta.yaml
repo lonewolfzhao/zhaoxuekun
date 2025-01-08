@@ -26,10 +26,11 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: _US_美国, server: 54.202.77.81, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4FreeIran-632, server: 107.148.6.121, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+- {name: 4FreeIran-119, server: 40.172.146.75, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, udp: true}
 - {name: 0|-https://t.me/MrXbin-32, server: 194.5.215.59, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
 - {name: 0|-https://t.me/MrXbin-53, server: nsus3.irundns.net, port: 443, type: ssr, cipher: aes-128-cfb, password: +asd6a5s5df+, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "", obfs-param: "", udp: true}
-- {name: 4Sarina-153, server: 51.158.252.130, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: BUoXMhSnoUlTAI4Rvf2TXe, udp: true}
-- {name: 4Sarina-161, server: 62.210.88.22, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: CjRl817CxXpVJ0j2nhJRWa, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +43,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - _US_美国
+      - 4FreeIran-632
+      - 4FreeIran-119
       - 0|-https://t.me/MrXbin-32
       - 0|-https://t.me/MrXbin-53
-      - 4Sarina-153
-      - 4Sarina-161
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,10 +59,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - _US_美国
+      - 4FreeIran-632
+      - 4FreeIran-119
       - 0|-https://t.me/MrXbin-32
       - 0|-https://t.me/MrXbin-53
-      - 4Sarina-153
-      - 4Sarina-161
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -68,10 +71,11 @@ proxy-groups:
     interval: 60
     proxies:
 
+      - _US_美国
+      - 4FreeIran-632
+      - 4FreeIran-119
       - 0|-https://t.me/MrXbin-32
       - 0|-https://t.me/MrXbin-53
-      - 4Sarina-153
-      - 4Sarina-161
   - name: 🐟 漏网之鱼
     type: select
     proxies:
