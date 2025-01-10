@@ -26,7 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Kian-954, server: 13.250.107.170, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "香港05{优化1|V2ray}", server: hk1.awslcn.info, port: 25244, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk1.awslcn.info}}, udp: true}
+- {name: "新加坡01{优化2|V2ray}", server: sg1.awslcn.info, port: 25245, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}, udp: true}
+- {name: "马来02{移动|V2ray}", server: cm1.awslcn.info, port: 25258, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}, udp: true}
+- {name: "英国01{移动|V2ray}", server: cm.awslcn.info, port: 25240, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}, udp: true}
 - {name: "13,14|香港2|@ripaojiedian", server: 36.150.215.196, port: 18681, type: trojan, password: vzhXXZVw, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -40,7 +43,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4Kian-954
+      - 香港05{优化1|V2ray}
+      - 新加坡01{优化2|V2ray}
+      - 马来02{移动|V2ray}
+      - 英国01{移动|V2ray}
       - 13,14|香港2|@ripaojiedian
   - name: 🔰 节点选择
     type: select
@@ -53,7 +59,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4Kian-954
+      - 香港05{优化1|V2ray}
+      - 新加坡01{优化2|V2ray}
+      - 马来02{移动|V2ray}
+      - 英国01{移动|V2ray}
       - 13,14|香港2|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
@@ -62,7 +71,10 @@ proxy-groups:
     interval: 60
     proxies:
 
-      - 4Kian-954
+      - 香港05{优化1|V2ray}
+      - 新加坡01{优化2|V2ray}
+      - 马来02{移动|V2ray}
+      - 英国01{移动|V2ray}
       - 13,14|香港2|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
