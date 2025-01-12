@@ -26,11 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: "香港04{优化1|V2ray}", server: hk1.awslcn.info, port: 25250, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk1.awslcn.info}}, udp: true}
-- {name: 4FreeIran-460, server: 2222222222safweqasfregthjgfbsdtgredgsdgwef24136547346452.chylink.xyz, port: 11005, type: ss, cipher: chacha20-ietf-poly1305, password: TojiWPLdkihmlVrg, udp: true}
+- {name: 4Sarina-457, server: 2222222222safweqasfregthjgfbsdtgredgsdgwef24136547346452.chylink.xyz, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: TojiWPLdkihmlVrg, udp: true}
 - {name: "13,14|香港|@ripaojiedian", server: 36.150.215.222, port: 12524, type: trojan, password: vzhXXZVw, skip-cert-verify: true, udp: true}
 - {name: "13,14|香港2|@ripaojiedian", server: 223.113.54.149, port: 51377, type: trojan, password: vzhXXZVw, skip-cert-verify: true, udp: true}
-- {name: _US_美国 3, server: 35.90.11.23, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -43,11 +41,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 香港04{优化1|V2ray}
-      - 4FreeIran-460
+      - 4Sarina-457
       - 13,14|香港|@ripaojiedian
       - 13,14|香港2|@ripaojiedian
-      - _US_美国 3
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -59,11 +55,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 香港04{优化1|V2ray}
-      - 4FreeIran-460
+      - 4Sarina-457
       - 13,14|香港|@ripaojiedian
       - 13,14|香港2|@ripaojiedian
-      - _US_美国 3
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -71,11 +65,9 @@ proxy-groups:
     interval: 60
     proxies:
 
-      - 香港04{优化1|V2ray}
-      - 4FreeIran-460
+      - 4Sarina-457
       - 13,14|香港|@ripaojiedian
       - 13,14|香港2|@ripaojiedian
-      - _US_美国 3
   - name: 🐟 漏网之鱼
     type: select
     proxies:
