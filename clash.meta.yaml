@@ -26,18 +26,13 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: "13,14|香港|@ripaojiedian", server: 36.150.215.196, port: 34188, type: trojan, password: phXKwfrd, skip-cert-verify: true, udp: true}
-- {name: 0|-https://t.me/MrXbin-7, server: 13.229.248.183, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-10, server: 3.1.204.240, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-31, server: 54.179.76.173, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-25, server: 18.142.51.90, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|-https://t.me/MrXbin-6, server: 13.250.30.129, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Jadi-1062, server: 54.179.104.38, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|-https://t.me/MrXbin-30, server: 54.179.150.222, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-10 2, server: 3.1.204.240, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-31 2, server: 54.179.76.173, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国, server: 35.89.145.123, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4FreeIran-14, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+- {name: 0|-https://t.me/MrXbin-12, server: 77.246.97.187, port: 7749, type: ss, cipher: chacha20-ietf-poly1305, password: 7kJQs2RYHhViTYWaf1RobB, udp: true}
 - {name: "13,14|香港2|@ripaojiedian", server: 223.113.54.145, port: 36442, type: trojan, password: phXKwfrd, skip-cert-verify: true, udp: true}
-- {name: 4Jadi-517, server: 45.87.175.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -50,18 +45,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13,14|香港|@ripaojiedian
-      - 0|-https://t.me/MrXbin-7
-      - 0|-https://t.me/MrXbin-10
-      - 0|-https://t.me/MrXbin-31
-      - 0|-https://t.me/MrXbin-25
       - 0|-https://t.me/MrXbin-6
       - 4Jadi-1062
       - 0|-https://t.me/MrXbin-30
-      - 0|-https://t.me/MrXbin-10 2
-      - 0|-https://t.me/MrXbin-31 2
+      - _US_美国
+      - 4FreeIran-14
+      - 0|-https://t.me/MrXbin-12
       - 13,14|香港2|@ripaojiedian
-      - 4Jadi-517
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -73,18 +63,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13,14|香港|@ripaojiedian
-      - 0|-https://t.me/MrXbin-7
-      - 0|-https://t.me/MrXbin-10
-      - 0|-https://t.me/MrXbin-31
-      - 0|-https://t.me/MrXbin-25
       - 0|-https://t.me/MrXbin-6
       - 4Jadi-1062
       - 0|-https://t.me/MrXbin-30
-      - 0|-https://t.me/MrXbin-10 2
-      - 0|-https://t.me/MrXbin-31 2
+      - _US_美国
+      - 4FreeIran-14
+      - 0|-https://t.me/MrXbin-12
       - 13,14|香港2|@ripaojiedian
-      - 4Jadi-517
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -92,18 +77,13 @@ proxy-groups:
     interval: 60
     proxies:
 
-      - 13,14|香港|@ripaojiedian
-      - 0|-https://t.me/MrXbin-7
-      - 0|-https://t.me/MrXbin-10
-      - 0|-https://t.me/MrXbin-31
-      - 0|-https://t.me/MrXbin-25
       - 0|-https://t.me/MrXbin-6
       - 4Jadi-1062
       - 0|-https://t.me/MrXbin-30
-      - 0|-https://t.me/MrXbin-10 2
-      - 0|-https://t.me/MrXbin-31 2
+      - _US_美国
+      - 4FreeIran-14
+      - 0|-https://t.me/MrXbin-12
       - 13,14|香港2|@ripaojiedian
-      - 4Jadi-517
   - name: 🐟 漏网之鱼
     type: select
     proxies:
