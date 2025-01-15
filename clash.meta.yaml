@@ -26,13 +26,14 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: "香港01{优化1|V2ray}", server: hk1.awslcn.info, port: 25242, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk1.awslcn.info}}, udp: true}
 - {name: 香港8|@ripaojiedian, server: console.02.aliyun.aq.kunlunaqs.com, port: 45578, type: ss, cipher: chacha20-ietf-poly1305, password: 7243745919d6de49a5db, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
+- {name: "香港05{优化1|V2ray}", server: hk1.awslcn.info, port: 25244, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk1.awslcn.info}}, udp: true}
 - {name: "13,14|香港|@ripaojiedian", server: 36.150.215.220, port: 42293, type: trojan, password: phXKwfrd, skip-cert-verify: true, udp: true}
-- {name: _US_美国->🇵🇱_PL_波兰, server: 52.27.15.25, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _CN_中国->🇺🇸_US_美国, server: 120.232.217.96, port: 21142, type: trojan, password: 0bc68743-cff8-4730-9818-9d8192ee335c, skip-cert-verify: true, udp: true}
 - {name: "13,14|香港2|@ripaojiedian", server: 223.113.54.145, port: 36442, type: trojan, password: phXKwfrd, skip-cert-verify: true, udp: true}
-- {name: _US_美国, server: 96.8.121.166, port: 443, type: trojan, password: fdd37849-e66c-464d-8b1c-56a1a16e05bf, sni: rnus.goudan.world, skip-cert-verify: true, udp: true}
+- {name: _US_美国->🏳️_unKnow_未知, server: 54.187.174.202, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _GB_英国, server: 146.70.61.18, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: _US_美国->🇵🇱_PL_波兰, server: 52.27.15.25, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国, server: 52.25.110.203, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -45,12 +46,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 香港01{优化1|V2ray}
       - 香港8|@ripaojiedian
+      - 香港05{优化1|V2ray}
       - 13,14|香港|@ripaojiedian
-      - _US_美国->🇵🇱_PL_波兰
-      - _CN_中国->🇺🇸_US_美国
       - 13,14|香港2|@ripaojiedian
+      - _US_美国->🏳️_unKnow_未知
+      - _GB_英国
+      - _US_美国->🇵🇱_PL_波兰
       - _US_美国
   - name: 🔰 节点选择
     type: select
@@ -63,12 +65,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 香港01{优化1|V2ray}
       - 香港8|@ripaojiedian
+      - 香港05{优化1|V2ray}
       - 13,14|香港|@ripaojiedian
-      - _US_美国->🇵🇱_PL_波兰
-      - _CN_中国->🇺🇸_US_美国
       - 13,14|香港2|@ripaojiedian
+      - _US_美国->🏳️_unKnow_未知
+      - _GB_英国
+      - _US_美国->🇵🇱_PL_波兰
       - _US_美国
   - name: ♻️ 可能受限
     type: load-balance
@@ -77,12 +80,13 @@ proxy-groups:
     interval: 60
     proxies:
 
-      - 香港01{优化1|V2ray}
       - 香港8|@ripaojiedian
+      - 香港05{优化1|V2ray}
       - 13,14|香港|@ripaojiedian
-      - _US_美国->🇵🇱_PL_波兰
-      - _CN_中国->🇺🇸_US_美国
       - 13,14|香港2|@ripaojiedian
+      - _US_美国->🏳️_unKnow_未知
+      - _GB_英国
+      - _US_美国->🇵🇱_PL_波兰
       - _US_美国
   - name: 🐟 漏网之鱼
     type: select
