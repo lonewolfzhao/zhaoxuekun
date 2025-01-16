@@ -27,13 +27,15 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: "13,14|香港|@ripaojiedian", server: 36.150.215.220, port: 42293, type: trojan, password: phXKwfrd, skip-cert-verify: true, udp: true}
-- {name: "日本2区[转发]-B [x1.0]", server: new-japan.netcar.live, port: 22984, type: vmess, uuid: 0032769e-a4c4-493c-bc2a-bbb175bb064b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "13,14|香港2|@ripaojiedian", server: 223.113.54.145, port: 36442, type: trojan, password: phXKwfrd, skip-cert-verify: true, udp: true}
+- {name: "台湾02{移动|V2ray}", server: cm.awslcn.info, port: 25233, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}, udp: true}
 - {name: _US_美国->🇵🇱_PL_波兰, server: 52.27.15.25, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _FI_芬兰, server: 95.217.72.126, port: 3882, type: ss, cipher: chacha20-ietf-poly1305, password: dEldTzkqVlhORUhbejg+MT5DPyhcVUowWl1aa0FsbVk=, udp: true}
+- {name: 4Sarina-89, server: 45.87.175.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
+- {name: "13,14|香港2|@ripaojiedian", server: 223.113.54.145, port: 36442, type: trojan, password: phXKwfrd, skip-cert-verify: true, udp: true}
 - {name: _US_美国->🏳️_unKnow_未知, server: 54.187.174.202, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _FI_芬兰, server: 95.217.72.126, port: 3882, type: ss, cipher: chacha20-ietf-poly1305, password: dEldTzkqVlhORUhbejg+MT5DPyhcVUowWl1aa0FsbVk=, udp: true}
+- {name: "13,14|香港2|@ripaojiedian 2", server: 36.150.215.219, port: 42395, type: trojan, password: phXKwfrd, skip-cert-verify: true, udp: true}
 - {name: 0|-https://t.me/MrXbin-13, server: 194.5.215.59, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: _US_美国, server: 52.25.110.203, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 15|CN_speednode_0003, server: 120.232.217.96, port: 16233, type: trojan, password: 0bc68743-cff8-4730-9818-9d8192ee335c, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -47,13 +49,15 @@ proxy-groups:
     interval: 60
     proxies:
       - 13,14|香港|@ripaojiedian
-      - 日本2区[转发]-B [x1.0]
-      - 13,14|香港2|@ripaojiedian
+      - 台湾02{移动|V2ray}
       - _US_美国->🇵🇱_PL_波兰
-      - _FI_芬兰
+      - 4Sarina-89
+      - 13,14|香港2|@ripaojiedian
       - _US_美国->🏳️_unKnow_未知
+      - _FI_芬兰
+      - 13,14|香港2|@ripaojiedian 2
       - 0|-https://t.me/MrXbin-13
-      - _US_美国
+      - 15|CN_speednode_0003
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -66,13 +70,15 @@ proxy-groups:
     interval: 60
     proxies:
       - 13,14|香港|@ripaojiedian
-      - 日本2区[转发]-B [x1.0]
-      - 13,14|香港2|@ripaojiedian
+      - 台湾02{移动|V2ray}
       - _US_美国->🇵🇱_PL_波兰
-      - _FI_芬兰
+      - 4Sarina-89
+      - 13,14|香港2|@ripaojiedian
       - _US_美国->🏳️_unKnow_未知
+      - _FI_芬兰
+      - 13,14|香港2|@ripaojiedian 2
       - 0|-https://t.me/MrXbin-13
-      - _US_美国
+      - 15|CN_speednode_0003
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -81,13 +87,15 @@ proxy-groups:
     proxies:
 
       - 13,14|香港|@ripaojiedian
-      - 日本2区[转发]-B [x1.0]
-      - 13,14|香港2|@ripaojiedian
+      - 台湾02{移动|V2ray}
       - _US_美国->🇵🇱_PL_波兰
-      - _FI_芬兰
+      - 4Sarina-89
+      - 13,14|香港2|@ripaojiedian
       - _US_美国->🏳️_unKnow_未知
+      - _FI_芬兰
+      - 13,14|香港2|@ripaojiedian 2
       - 0|-https://t.me/MrXbin-13
-      - _US_美国
+      - 15|CN_speednode_0003
   - name: 🐟 漏网之鱼
     type: select
     proxies:
