@@ -26,13 +26,18 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: _US_美国->🏳️_unKnow_未知, server: 54.187.174.202, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "13,14|香港2|@ripaojiedian", server: 223.113.54.145, port: 36442, type: trojan, password: phXKwfrd, skip-cert-verify: true, udp: true}
-- {name: 0|-https://t.me/MrXbin-3, server: 34.222.155.226, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: "13,14|香港|@ripaojiedian", server: 36.150.215.220, port: 42293, type: trojan, password: phXKwfrd, skip-cert-verify: true, udp: true}
-- {name: "13,14|香港2|@ripaojiedian 2", server: 36.150.215.219, port: 42395, type: trojan, password: phXKwfrd, skip-cert-verify: true, udp: true}
-- {name: 0|-https://t.me/MrXbin-13, server: 194.5.215.59, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: "台湾02{移动|V2ray}", server: cm.awslcn.info, port: 25233, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}, udp: true}
+- {name: _US_美国->🏳️_unKnow_未知, server: 54.187.174.202, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-3, server: 34.222.155.226, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "13,14|香港2|@ripaojiedian", server: 223.113.54.145, port: 36442, type: trojan, password: phXKwfrd, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-3 2, server: 34.222.155.226, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "13,14|香港2|@ripaojiedian 2", server: 223.113.54.145, port: 36442, type: trojan, password: phXKwfrd, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-8, server: 34.222.159.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|-https://t.me/MrXbin-5, server: 35.161.80.111, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-5 2, server: 52.41.3.89, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "13,14|香港2|@ripaojiedian 2 2", server: 36.150.215.219, port: 42395, type: trojan, password: phXKwfrd, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-13, server: 194.5.215.59, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -45,13 +50,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - _US_美国->🏳️_unKnow_未知
-      - 13,14|香港2|@ripaojiedian
-      - 0|-https://t.me/MrXbin-3
       - 13,14|香港|@ripaojiedian
+      - 台湾02{移动|V2ray}
+      - _US_美国->🏳️_unKnow_未知
+      - 0|-https://t.me/MrXbin-3
+      - 13,14|香港2|@ripaojiedian
+      - 0|-https://t.me/MrXbin-3 2
       - 13,14|香港2|@ripaojiedian 2
-      - 0|-https://t.me/MrXbin-13
+      - 0|-https://t.me/MrXbin-8
       - 0|-https://t.me/MrXbin-5
+      - 0|-https://t.me/MrXbin-5 2
+      - 13,14|香港2|@ripaojiedian 2 2
+      - 0|-https://t.me/MrXbin-13
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -63,13 +73,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - _US_美国->🏳️_unKnow_未知
-      - 13,14|香港2|@ripaojiedian
-      - 0|-https://t.me/MrXbin-3
       - 13,14|香港|@ripaojiedian
+      - 台湾02{移动|V2ray}
+      - _US_美国->🏳️_unKnow_未知
+      - 0|-https://t.me/MrXbin-3
+      - 13,14|香港2|@ripaojiedian
+      - 0|-https://t.me/MrXbin-3 2
       - 13,14|香港2|@ripaojiedian 2
-      - 0|-https://t.me/MrXbin-13
+      - 0|-https://t.me/MrXbin-8
       - 0|-https://t.me/MrXbin-5
+      - 0|-https://t.me/MrXbin-5 2
+      - 13,14|香港2|@ripaojiedian 2 2
+      - 0|-https://t.me/MrXbin-13
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -77,13 +92,18 @@ proxy-groups:
     interval: 60
     proxies:
 
-      - _US_美国->🏳️_unKnow_未知
-      - 13,14|香港2|@ripaojiedian
-      - 0|-https://t.me/MrXbin-3
       - 13,14|香港|@ripaojiedian
+      - 台湾02{移动|V2ray}
+      - _US_美国->🏳️_unKnow_未知
+      - 0|-https://t.me/MrXbin-3
+      - 13,14|香港2|@ripaojiedian
+      - 0|-https://t.me/MrXbin-3 2
       - 13,14|香港2|@ripaojiedian 2
-      - 0|-https://t.me/MrXbin-13
+      - 0|-https://t.me/MrXbin-8
       - 0|-https://t.me/MrXbin-5
+      - 0|-https://t.me/MrXbin-5 2
+      - 13,14|香港2|@ripaojiedian 2 2
+      - 0|-https://t.me/MrXbin-13
   - name: 🐟 漏网之鱼
     type: select
     proxies:
