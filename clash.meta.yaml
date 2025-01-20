@@ -26,16 +26,14 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 0|-https://t.me/MrXbin-41, server: 34.221.178.146, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|-https://t.me/MrXbin-43, server: 13.250.116.31, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|-https://t.me/MrXbin-45, server: 13.229.206.58, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国->🏳️_unKnow_未知, server: 54.187.174.202, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-42, server: 18.142.185.146, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4FreeIran-518, server: 45.87.175.171, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-- {name: 0|-https://t.me/MrXbin-41, server: 34.221.178.146, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Nika-519, server: 45.87.175.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+- {name: 0|-https://t.me/MrXbin-48, server: 45.158.171.110, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
 - {name: _US_美国->🇰🇷_KR_韩国, server: 35.165.138.69, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国->🏳️_unKnow_未知, server: 54.187.174.202, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-41 2, server: 34.221.178.146, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|-https://t.me/MrXbin-67, server: 64.225.109.206, port: 2082, type: vmess, uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-- {name: 0|-https://t.me/MrXbin-8, server: 79.137.202.71, port: 55198, type: ss, cipher: chacha20-ietf-poly1305, password: utPu0eizp4HYbLpn28OOEZ, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -48,16 +46,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - 0|-https://t.me/MrXbin-41
       - 0|-https://t.me/MrXbin-43
       - 0|-https://t.me/MrXbin-45
-      - _US_美国->🏳️_unKnow_未知
-      - 0|-https://t.me/MrXbin-42
-      - 4FreeIran-518
-      - 0|-https://t.me/MrXbin-41
-      - 4Nika-519
+      - 0|-https://t.me/MrXbin-48
       - _US_美国->🇰🇷_KR_韩国
+      - _US_美国->🏳️_unKnow_未知
+      - 0|-https://t.me/MrXbin-41 2
       - 0|-https://t.me/MrXbin-67
-      - 0|-https://t.me/MrXbin-8
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -69,16 +65,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - 0|-https://t.me/MrXbin-41
       - 0|-https://t.me/MrXbin-43
       - 0|-https://t.me/MrXbin-45
-      - _US_美国->🏳️_unKnow_未知
-      - 0|-https://t.me/MrXbin-42
-      - 4FreeIran-518
-      - 0|-https://t.me/MrXbin-41
-      - 4Nika-519
+      - 0|-https://t.me/MrXbin-48
       - _US_美国->🇰🇷_KR_韩国
+      - _US_美国->🏳️_unKnow_未知
+      - 0|-https://t.me/MrXbin-41 2
       - 0|-https://t.me/MrXbin-67
-      - 0|-https://t.me/MrXbin-8
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -86,16 +80,14 @@ proxy-groups:
     interval: 60
     proxies:
 
+      - 0|-https://t.me/MrXbin-41
       - 0|-https://t.me/MrXbin-43
       - 0|-https://t.me/MrXbin-45
-      - _US_美国->🏳️_unKnow_未知
-      - 0|-https://t.me/MrXbin-42
-      - 4FreeIran-518
-      - 0|-https://t.me/MrXbin-41
-      - 4Nika-519
+      - 0|-https://t.me/MrXbin-48
       - _US_美国->🇰🇷_KR_韩国
+      - _US_美国->🏳️_unKnow_未知
+      - 0|-https://t.me/MrXbin-41 2
       - 0|-https://t.me/MrXbin-67
-      - 0|-https://t.me/MrXbin-8
   - name: 🐟 漏网之鱼
     type: select
     proxies:
