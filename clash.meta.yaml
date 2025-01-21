@@ -27,15 +27,15 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: "香港05{优化1|V2ray}", server: hk1.awslcn.info, port: 25244, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk1.awslcn.info}}, udp: true}
-- {name: 0|-https://t.me/MrXbin-22, server: 13.213.58.54, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-29, server: 54.179.54.70, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-7, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-- {name: 0|-https://t.me/MrXbin-3, server: 34.219.177.229, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-31, server: 35.167.62.123, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|-https://t.me/MrXbin-17, server: 54.202.49.210, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-3, server: 34.219.177.229, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|-https://t.me/MrXbin-5, server: 34.210.56.216, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-60, server: s1.db-link01.top, port: 8880, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.95.35, headers: {Host: 100-250-32-53.s1.db-link01.top}}, udp: true}
+- {name: 0|-https://t.me/MrXbin-31, server: 35.167.62.123, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-33, server: 34.221.178.146, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-29, server: 54.190.19.18, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-17 2, server: 54.202.49.210, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|-https://t.me/MrXbin-2, server: 34.221.162.184, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-11, server: 34.211.250.149, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -49,15 +49,15 @@ proxy-groups:
     interval: 60
     proxies:
       - 香港05{优化1|V2ray}
-      - 0|-https://t.me/MrXbin-22
-      - 0|-https://t.me/MrXbin-29
-      - 0|-https://t.me/MrXbin-7
-      - 0|-https://t.me/MrXbin-3
-      - 0|-https://t.me/MrXbin-31
       - 0|-https://t.me/MrXbin-17
+      - 0|-https://t.me/MrXbin-3
       - 0|-https://t.me/MrXbin-5
-      - 0|-https://t.me/MrXbin-60
+      - 0|-https://t.me/MrXbin-31
+      - 0|-https://t.me/MrXbin-33
+      - 0|-https://t.me/MrXbin-29
+      - 0|-https://t.me/MrXbin-17 2
       - 0|-https://t.me/MrXbin-2
+      - 0|-https://t.me/MrXbin-11
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -70,15 +70,15 @@ proxy-groups:
     interval: 60
     proxies:
       - 香港05{优化1|V2ray}
-      - 0|-https://t.me/MrXbin-22
-      - 0|-https://t.me/MrXbin-29
-      - 0|-https://t.me/MrXbin-7
-      - 0|-https://t.me/MrXbin-3
-      - 0|-https://t.me/MrXbin-31
       - 0|-https://t.me/MrXbin-17
+      - 0|-https://t.me/MrXbin-3
       - 0|-https://t.me/MrXbin-5
-      - 0|-https://t.me/MrXbin-60
+      - 0|-https://t.me/MrXbin-31
+      - 0|-https://t.me/MrXbin-33
+      - 0|-https://t.me/MrXbin-29
+      - 0|-https://t.me/MrXbin-17 2
       - 0|-https://t.me/MrXbin-2
+      - 0|-https://t.me/MrXbin-11
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -87,15 +87,15 @@ proxy-groups:
     proxies:
 
       - 香港05{优化1|V2ray}
-      - 0|-https://t.me/MrXbin-22
-      - 0|-https://t.me/MrXbin-29
-      - 0|-https://t.me/MrXbin-7
-      - 0|-https://t.me/MrXbin-3
-      - 0|-https://t.me/MrXbin-31
       - 0|-https://t.me/MrXbin-17
+      - 0|-https://t.me/MrXbin-3
       - 0|-https://t.me/MrXbin-5
-      - 0|-https://t.me/MrXbin-60
+      - 0|-https://t.me/MrXbin-31
+      - 0|-https://t.me/MrXbin-33
+      - 0|-https://t.me/MrXbin-29
+      - 0|-https://t.me/MrXbin-17 2
       - 0|-https://t.me/MrXbin-2
+      - 0|-https://t.me/MrXbin-11
   - name: 🐟 漏网之鱼
     type: select
     proxies:
