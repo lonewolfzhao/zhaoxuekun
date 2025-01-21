@@ -26,14 +26,16 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 0|-https://t.me/MrXbin-45, server: 13.229.206.58, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国->🇰🇷_KR_韩国, server: 35.165.138.69, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-39, server: 138.199.42.68, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: 0|-https://t.me/MrXbin-67, server: 64.225.109.206, port: 2082, type: vmess, uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-- {name: _US_美国->🏳️_unKnow_未知, server: 54.187.174.202, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-40, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: "香港05{优化1|V2ray}", server: hk1.awslcn.info, port: 25244, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk1.awslcn.info}}, udp: true}
+- {name: 0|-https://t.me/MrXbin-22, server: 13.213.58.54, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|-https://t.me/MrXbin-29, server: 54.179.54.70, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4FreeIran-654, server: 194.41.59.80, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+- {name: 0|-https://t.me/MrXbin-7, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+- {name: 0|-https://t.me/MrXbin-3, server: 34.219.177.229, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-31, server: 35.167.62.123, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-17, server: 54.202.49.210, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-5, server: 34.210.56.216, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-60, server: s1.db-link01.top, port: 8880, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.95.35, headers: {Host: 100-250-32-53.s1.db-link01.top}}, udp: true}
+- {name: 0|-https://t.me/MrXbin-2, server: 34.221.162.184, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -46,14 +48,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|-https://t.me/MrXbin-45
-      - _US_美国->🇰🇷_KR_韩国
-      - 0|-https://t.me/MrXbin-39
-      - 0|-https://t.me/MrXbin-67
-      - _US_美国->🏳️_unKnow_未知
-      - 0|-https://t.me/MrXbin-40
+      - 香港05{优化1|V2ray}
+      - 0|-https://t.me/MrXbin-22
       - 0|-https://t.me/MrXbin-29
-      - 4FreeIran-654
+      - 0|-https://t.me/MrXbin-7
+      - 0|-https://t.me/MrXbin-3
+      - 0|-https://t.me/MrXbin-31
+      - 0|-https://t.me/MrXbin-17
+      - 0|-https://t.me/MrXbin-5
+      - 0|-https://t.me/MrXbin-60
+      - 0|-https://t.me/MrXbin-2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -65,14 +69,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|-https://t.me/MrXbin-45
-      - _US_美国->🇰🇷_KR_韩国
-      - 0|-https://t.me/MrXbin-39
-      - 0|-https://t.me/MrXbin-67
-      - _US_美国->🏳️_unKnow_未知
-      - 0|-https://t.me/MrXbin-40
+      - 香港05{优化1|V2ray}
+      - 0|-https://t.me/MrXbin-22
       - 0|-https://t.me/MrXbin-29
-      - 4FreeIran-654
+      - 0|-https://t.me/MrXbin-7
+      - 0|-https://t.me/MrXbin-3
+      - 0|-https://t.me/MrXbin-31
+      - 0|-https://t.me/MrXbin-17
+      - 0|-https://t.me/MrXbin-5
+      - 0|-https://t.me/MrXbin-60
+      - 0|-https://t.me/MrXbin-2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -80,14 +86,16 @@ proxy-groups:
     interval: 60
     proxies:
 
-      - 0|-https://t.me/MrXbin-45
-      - _US_美国->🇰🇷_KR_韩国
-      - 0|-https://t.me/MrXbin-39
-      - 0|-https://t.me/MrXbin-67
-      - _US_美国->🏳️_unKnow_未知
-      - 0|-https://t.me/MrXbin-40
+      - 香港05{优化1|V2ray}
+      - 0|-https://t.me/MrXbin-22
       - 0|-https://t.me/MrXbin-29
-      - 4FreeIran-654
+      - 0|-https://t.me/MrXbin-7
+      - 0|-https://t.me/MrXbin-3
+      - 0|-https://t.me/MrXbin-31
+      - 0|-https://t.me/MrXbin-17
+      - 0|-https://t.me/MrXbin-5
+      - 0|-https://t.me/MrXbin-60
+      - 0|-https://t.me/MrXbin-2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
