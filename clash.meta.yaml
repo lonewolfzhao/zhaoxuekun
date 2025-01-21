@@ -26,9 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: _US_美国->🇷🇺_RU_俄罗斯, server: 54.187.174.202, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Sarina-1053, server: 52.79.220.152, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|-https://t.me/MrXbin-3, server: 34.219.177.229, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-5, server: 34.210.56.216, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-17, server: 54.202.49.210, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -41,9 +41,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - _US_美国->🇷🇺_RU_俄罗斯
+      - 4Sarina-1053
       - 0|-https://t.me/MrXbin-3
-      - 0|-https://t.me/MrXbin-5
-      - 0|-https://t.me/MrXbin-17
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -55,9 +55,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - _US_美国->🇷🇺_RU_俄罗斯
+      - 4Sarina-1053
       - 0|-https://t.me/MrXbin-3
-      - 0|-https://t.me/MrXbin-5
-      - 0|-https://t.me/MrXbin-17
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -65,9 +65,9 @@ proxy-groups:
     interval: 60
     proxies:
 
+      - _US_美国->🇷🇺_RU_俄罗斯
+      - 4Sarina-1053
       - 0|-https://t.me/MrXbin-3
-      - 0|-https://t.me/MrXbin-5
-      - 0|-https://t.me/MrXbin-17
   - name: 🐟 漏网之鱼
     type: select
     proxies:
