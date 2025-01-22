@@ -26,9 +26,16 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: "13,14|香港2|@ripaojiedian", server: 36.150.215.196, port: 18681, type: trojan, password: phXKwfrd, skip-cert-verify: true, udp: true}
+- {name: "香港01{优化1|V2ray}", server: hk1.awslcn.info, port: 25242, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk1.awslcn.info}}, udp: true}
+- {name: 13|🇹🇼 台湾|@ripaojiedian, server: fiwejniavzoj.xn--fiqs8sjz2bull.com, port: 60852, type: vmess, uuid: cdc67dd7-1a08-4ac4-b04b-6f04d5dbadff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-13, server: 54.179.54.70, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 13|🇸🇬 狮城特殊|@ripaojiedian, server: 13.213.51.39, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-5, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
+- {name: "13,14|香港|@ripaojiedian", server: 223.113.54.145, port: 36442, type: trojan, password: phXKwfrd, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-67, server: 64.225.109.206, port: 2082, type: vmess, uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
 - {name: _US_美国->🇷🇺_RU_俄罗斯, server: 54.187.174.202, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Sarina-1053, server: 52.79.220.152, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-3, server: 34.219.177.229, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-6, server: 193.29.139.189, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -41,9 +48,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - 13,14|香港2|@ripaojiedian
+      - 香港01{优化1|V2ray}
+      - 13|🇹🇼 台湾|@ripaojiedian
+      - 0|-https://t.me/MrXbin-13
+      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - 0|-https://t.me/MrXbin-5
+      - 13,14|香港|@ripaojiedian
+      - 0|-https://t.me/MrXbin-67
       - _US_美国->🇷🇺_RU_俄罗斯
-      - 4Sarina-1053
-      - 0|-https://t.me/MrXbin-3
+      - 0|-https://t.me/MrXbin-6
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -55,9 +69,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - 13,14|香港2|@ripaojiedian
+      - 香港01{优化1|V2ray}
+      - 13|🇹🇼 台湾|@ripaojiedian
+      - 0|-https://t.me/MrXbin-13
+      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - 0|-https://t.me/MrXbin-5
+      - 13,14|香港|@ripaojiedian
+      - 0|-https://t.me/MrXbin-67
       - _US_美国->🇷🇺_RU_俄罗斯
-      - 4Sarina-1053
-      - 0|-https://t.me/MrXbin-3
+      - 0|-https://t.me/MrXbin-6
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -65,9 +86,16 @@ proxy-groups:
     interval: 60
     proxies:
 
+      - 13,14|香港2|@ripaojiedian
+      - 香港01{优化1|V2ray}
+      - 13|🇹🇼 台湾|@ripaojiedian
+      - 0|-https://t.me/MrXbin-13
+      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - 0|-https://t.me/MrXbin-5
+      - 13,14|香港|@ripaojiedian
+      - 0|-https://t.me/MrXbin-67
       - _US_美国->🇷🇺_RU_俄罗斯
-      - 4Sarina-1053
-      - 0|-https://t.me/MrXbin-3
+      - 0|-https://t.me/MrXbin-6
   - name: 🐟 漏网之鱼
     type: select
     proxies:
