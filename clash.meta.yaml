@@ -26,21 +26,19 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: "13,14|香港2|@ripaojiedian", server: 36.150.215.196, port: 18681, type: trojan, password: phXKwfrd, skip-cert-verify: true, udp: true}
-- {name: 0|-https://t.me/MrXbin-10, server: 13.212.185.199, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国, server: 34.216.219.123, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Kian-454, server: 45.158.171.136, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-- {name: 0|-https://t.me/MrXbin-9, server: 146.70.61.18, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: 0|-https://t.me/MrXbin-9 2, server: 54.185.31.212, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "13,14|香港|@ripaojiedian", server: 223.113.54.145, port: 36442, type: trojan, password: phXKwfrd, skip-cert-verify: true, udp: true}
-- {name: 4Kian-462, server: 45.87.175.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-- {name: 4Kian-395, server: 45.158.171.146, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
-- {name: 0|-https://t.me/MrXbin-43, server: 64.225.109.206, port: 2082, type: vmess, uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-- {name: 0|-https://t.me/MrXbin-40, server: ssca.irundns.net, port: 443, type: ssr, cipher: aes-128-cfb, password: $$Turb0VPN$$, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "", obfs-param: "", udp: true}
-- {name: _US_美国 2, server: 64.225.109.206, port: 2082, type: vmess, uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-- {name: _SG_新加坡->🇱🇹_LT_立陶宛, server: 13.250.47.75, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国 3, server: 54.188.41.183, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|-https://t.me/MrXbin-14, server: 107.155.57.11, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: 0|-https://t.me/MrXbin-9, server: 54.185.31.212, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-16, server: 169.150.210.233, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: 日本5-WAP, server: cu.awslcn.info, port: 25278, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}, udp: true}
+- {name: 0|-https://t.me/MrXbin-9 2, server: 146.70.61.18, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: 0|-https://t.me/MrXbin-43, server: 64.225.109.206, port: 2082, type: vmess, uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+- {name: 0|-https://t.me/MrXbin-9 2 2, server: 54.185.31.212, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-10, server: 13.212.185.199, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-9 3, server: 146.70.61.18, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: 0|-https://t.me/MrXbin-14 2, server: 107.155.57.11, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: _US_美国 3, server: 54.188.41.183, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-12, server: 38.107.226.238, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+- {name: 0|-https://t.me/MrXbin-43 2, server: 64.225.109.206, port: 2082, type: vmess, uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -53,21 +51,19 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13,14|香港2|@ripaojiedian
-      - 0|-https://t.me/MrXbin-10
-      - _US_美国
-      - 4Kian-454
-      - 0|-https://t.me/MrXbin-9
-      - 0|-https://t.me/MrXbin-9 2
-      - 13,14|香港|@ripaojiedian
-      - 4Kian-462
-      - 4Kian-395
-      - 0|-https://t.me/MrXbin-43
-      - 0|-https://t.me/MrXbin-40
-      - _US_美国 2
-      - _SG_新加坡->🇱🇹_LT_立陶宛
-      - _US_美国 3
       - 0|-https://t.me/MrXbin-14
+      - 0|-https://t.me/MrXbin-9
+      - 0|-https://t.me/MrXbin-16
+      - 日本5-WAP
+      - 0|-https://t.me/MrXbin-9 2
+      - 0|-https://t.me/MrXbin-43
+      - 0|-https://t.me/MrXbin-9 2 2
+      - 0|-https://t.me/MrXbin-10
+      - 0|-https://t.me/MrXbin-9 3
+      - 0|-https://t.me/MrXbin-14 2
+      - _US_美国 3
+      - 0|-https://t.me/MrXbin-12
+      - 0|-https://t.me/MrXbin-43 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -79,21 +75,19 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13,14|香港2|@ripaojiedian
-      - 0|-https://t.me/MrXbin-10
-      - _US_美国
-      - 4Kian-454
-      - 0|-https://t.me/MrXbin-9
-      - 0|-https://t.me/MrXbin-9 2
-      - 13,14|香港|@ripaojiedian
-      - 4Kian-462
-      - 4Kian-395
-      - 0|-https://t.me/MrXbin-43
-      - 0|-https://t.me/MrXbin-40
-      - _US_美国 2
-      - _SG_新加坡->🇱🇹_LT_立陶宛
-      - _US_美国 3
       - 0|-https://t.me/MrXbin-14
+      - 0|-https://t.me/MrXbin-9
+      - 0|-https://t.me/MrXbin-16
+      - 日本5-WAP
+      - 0|-https://t.me/MrXbin-9 2
+      - 0|-https://t.me/MrXbin-43
+      - 0|-https://t.me/MrXbin-9 2 2
+      - 0|-https://t.me/MrXbin-10
+      - 0|-https://t.me/MrXbin-9 3
+      - 0|-https://t.me/MrXbin-14 2
+      - _US_美国 3
+      - 0|-https://t.me/MrXbin-12
+      - 0|-https://t.me/MrXbin-43 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -101,21 +95,19 @@ proxy-groups:
     interval: 60
     proxies:
 
-      - 13,14|香港2|@ripaojiedian
-      - 0|-https://t.me/MrXbin-10
-      - _US_美国
-      - 4Kian-454
-      - 0|-https://t.me/MrXbin-9
-      - 0|-https://t.me/MrXbin-9 2
-      - 13,14|香港|@ripaojiedian
-      - 4Kian-462
-      - 4Kian-395
-      - 0|-https://t.me/MrXbin-43
-      - 0|-https://t.me/MrXbin-40
-      - _US_美国 2
-      - _SG_新加坡->🇱🇹_LT_立陶宛
-      - _US_美国 3
       - 0|-https://t.me/MrXbin-14
+      - 0|-https://t.me/MrXbin-9
+      - 0|-https://t.me/MrXbin-16
+      - 日本5-WAP
+      - 0|-https://t.me/MrXbin-9 2
+      - 0|-https://t.me/MrXbin-43
+      - 0|-https://t.me/MrXbin-9 2 2
+      - 0|-https://t.me/MrXbin-10
+      - 0|-https://t.me/MrXbin-9 3
+      - 0|-https://t.me/MrXbin-14 2
+      - _US_美国 3
+      - 0|-https://t.me/MrXbin-12
+      - 0|-https://t.me/MrXbin-43 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -1983,6 +1975,7 @@ rules:
   - DOMAIN-KEYWORD,alipansou,♻️ 情色可用
   - DOMAIN-KEYWORD,123av,♻️ 情色可用
   - DOMAIN-KEYWORD,avfever,♻️ 情色可用
+  - DOMAIN-KEYWORD,missav,♻️ 情色可用
   - DOMAIN-SUFFIX,cloudflare.com,♻️ 情色可用
   - DOMAIN-SUFFIX,google.hk,♻️ 情色可用
   - DOMAIN-SUFFIX,google.com,♻️ 情色可用
