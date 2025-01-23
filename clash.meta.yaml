@@ -27,12 +27,20 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: "13,14|香港2|@ripaojiedian", server: 36.150.215.196, port: 18681, type: trojan, password: phXKwfrd, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-10, server: 13.212.185.199, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: _US_美国, server: 34.216.219.123, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国->🇯🇵_JP_日本, server: 54.202.6.21, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Kian-454, server: 45.158.171.136, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+- {name: 0|-https://t.me/MrXbin-9, server: 146.70.61.18, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: 0|-https://t.me/MrXbin-9 2, server: 54.185.31.212, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: "13,14|香港|@ripaojiedian", server: 223.113.54.145, port: 36442, type: trojan, password: phXKwfrd, skip-cert-verify: true, udp: true}
+- {name: 4Kian-462, server: 45.87.175.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+- {name: 4Kian-395, server: 45.158.171.146, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
+- {name: 0|-https://t.me/MrXbin-43, server: 64.225.109.206, port: 2082, type: vmess, uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+- {name: 0|-https://t.me/MrXbin-40, server: ssca.irundns.net, port: 443, type: ssr, cipher: aes-128-cfb, password: $$Turb0VPN$$, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "", obfs-param: "", udp: true}
+- {name: _US_美国 2, server: 64.225.109.206, port: 2082, type: vmess, uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
 - {name: _SG_新加坡->🇱🇹_LT_立陶宛, server: 13.250.47.75, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Kian-585, server: 46.183.217.232, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 4Kian-410, server: 68.183.178.224, port: 14566, type: ss, cipher: chacha20-ietf-poly1305, password: InpOXxH30ZGfPp6Qkb9pl4, udp: true}
+- {name: _US_美国 3, server: 54.188.41.183, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-14, server: 107.155.57.11, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -46,12 +54,20 @@ proxy-groups:
     interval: 60
     proxies:
       - 13,14|香港2|@ripaojiedian
+      - 0|-https://t.me/MrXbin-10
       - _US_美国
-      - _US_美国->🇯🇵_JP_日本
+      - 4Kian-454
+      - 0|-https://t.me/MrXbin-9
+      - 0|-https://t.me/MrXbin-9 2
       - 13,14|香港|@ripaojiedian
+      - 4Kian-462
+      - 4Kian-395
+      - 0|-https://t.me/MrXbin-43
+      - 0|-https://t.me/MrXbin-40
+      - _US_美国 2
       - _SG_新加坡->🇱🇹_LT_立陶宛
-      - 4Kian-585
-      - 4Kian-410
+      - _US_美国 3
+      - 0|-https://t.me/MrXbin-14
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -64,12 +80,20 @@ proxy-groups:
     interval: 60
     proxies:
       - 13,14|香港2|@ripaojiedian
+      - 0|-https://t.me/MrXbin-10
       - _US_美国
-      - _US_美国->🇯🇵_JP_日本
+      - 4Kian-454
+      - 0|-https://t.me/MrXbin-9
+      - 0|-https://t.me/MrXbin-9 2
       - 13,14|香港|@ripaojiedian
+      - 4Kian-462
+      - 4Kian-395
+      - 0|-https://t.me/MrXbin-43
+      - 0|-https://t.me/MrXbin-40
+      - _US_美国 2
       - _SG_新加坡->🇱🇹_LT_立陶宛
-      - 4Kian-585
-      - 4Kian-410
+      - _US_美国 3
+      - 0|-https://t.me/MrXbin-14
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -78,12 +102,20 @@ proxy-groups:
     proxies:
 
       - 13,14|香港2|@ripaojiedian
+      - 0|-https://t.me/MrXbin-10
       - _US_美国
-      - _US_美国->🇯🇵_JP_日本
+      - 4Kian-454
+      - 0|-https://t.me/MrXbin-9
+      - 0|-https://t.me/MrXbin-9 2
       - 13,14|香港|@ripaojiedian
+      - 4Kian-462
+      - 4Kian-395
+      - 0|-https://t.me/MrXbin-43
+      - 0|-https://t.me/MrXbin-40
+      - _US_美国 2
       - _SG_新加坡->🇱🇹_LT_立陶宛
-      - 4Kian-585
-      - 4Kian-410
+      - _US_美国 3
+      - 0|-https://t.me/MrXbin-14
   - name: 🐟 漏网之鱼
     type: select
     proxies:
