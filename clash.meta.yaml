@@ -26,15 +26,8 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: "新加坡03{优化2|V2ray}", server: sg1.awslcn.info, port: 25221, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}, udp: true}
-- {name: "新加坡01{优化2|V2ray}", server: sg1.awslcn.info, port: 25245, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}, udp: true}
-- {name: 日本4-wap, server: cu.awslcn.info, port: 25277, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}, udp: true}
-- {name: 日本6-WAP, server: cu.awslcn.info, port: 25279, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}, udp: true}
-- {name: "英国02{移动|V2ray}", server: cm1.awslcn.info, port: 25240, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}, udp: true}
+- {name: _US_美国, server: 64.225.109.206, port: 2082, type: vmess, uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
 - {name: 0|-https://t.me/MrXbin-9, server: 54.185.31.212, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "香港02{优化2|V2ray}", server: hk2.awslcn.info, port: 25242, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk2.awslcn.info}}, udp: true}
-- {name: "泰国{移动|V2ray}", server: cm.awslcn.info, port: 25289, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}, udp: true}
-- {name: 0|-https://t.me/MrXbin-9 2, server: 54.185.31.212, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -47,15 +40,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 新加坡03{优化2|V2ray}
-      - 新加坡01{优化2|V2ray}
-      - 日本4-wap
-      - 日本6-WAP
-      - 英国02{移动|V2ray}
+      - _US_美国
       - 0|-https://t.me/MrXbin-9
-      - 香港02{优化2|V2ray}
-      - 泰国{移动|V2ray}
-      - 0|-https://t.me/MrXbin-9 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -67,15 +53,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 新加坡03{优化2|V2ray}
-      - 新加坡01{优化2|V2ray}
-      - 日本4-wap
-      - 日本6-WAP
-      - 英国02{移动|V2ray}
+      - _US_美国
       - 0|-https://t.me/MrXbin-9
-      - 香港02{优化2|V2ray}
-      - 泰国{移动|V2ray}
-      - 0|-https://t.me/MrXbin-9 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -83,15 +62,8 @@ proxy-groups:
     interval: 60
     proxies:
 
-      - 新加坡03{优化2|V2ray}
-      - 新加坡01{优化2|V2ray}
-      - 日本4-wap
-      - 日本6-WAP
-      - 英国02{移动|V2ray}
+      - _US_美国
       - 0|-https://t.me/MrXbin-9
-      - 香港02{优化2|V2ray}
-      - 泰国{移动|V2ray}
-      - 0|-https://t.me/MrXbin-9 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
