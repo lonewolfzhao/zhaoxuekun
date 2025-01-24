@@ -26,14 +26,12 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: "新加坡03{优化2|V2ray}", server: sg1.awslcn.info, port: 25221, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}, udp: true}
-- {name: "台湾02{移动|V2ray}", server: cm.awslcn.info, port: 25233, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}, udp: true}
-- {name: "台湾02{移动|V2ray} 2", server: cm.awslcn.info, port: 25233, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}, udp: true}
-- {name: _CN_中国->🇬🇧_GB_英国, server: cm1.awslcn.info, port: 25240, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}, udp: true}
-- {name: 日本4-wap, server: cu.awslcn.info, port: 25277, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}, udp: true}
-- {name: 日本6-WAP, server: cu.awslcn.info, port: 25279, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}, udp: true}
-- {name: 日本5-WAP, server: cu.awslcn.info, port: 25278, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}, udp: true}
+- {name: _RO_罗马尼亚, server: 194.5.215.59, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
 - {name: _IT_意大利, server: 37.143.129.230, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 0|-https://t.me/MrXbin-30, server: 64.225.109.206, port: 2082, type: vmess, uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+- {name: _RU_俄罗斯, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: _LV_拉脱维亚->🇹🇷_TR_土耳其, server: 46.183.217.232, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: _US_美国, server: 64.225.109.206, port: 2082, type: vmess, uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -46,14 +44,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 新加坡03{优化2|V2ray}
-      - 台湾02{移动|V2ray}
-      - 台湾02{移动|V2ray} 2
-      - _CN_中国->🇬🇧_GB_英国
-      - 日本4-wap
-      - 日本6-WAP
-      - 日本5-WAP
+      - _RO_罗马尼亚
       - _IT_意大利
+      - 0|-https://t.me/MrXbin-30
+      - _RU_俄罗斯
+      - _LV_拉脱维亚->🇹🇷_TR_土耳其
+      - _US_美国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -65,14 +61,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 新加坡03{优化2|V2ray}
-      - 台湾02{移动|V2ray}
-      - 台湾02{移动|V2ray} 2
-      - _CN_中国->🇬🇧_GB_英国
-      - 日本4-wap
-      - 日本6-WAP
-      - 日本5-WAP
+      - _RO_罗马尼亚
       - _IT_意大利
+      - 0|-https://t.me/MrXbin-30
+      - _RU_俄罗斯
+      - _LV_拉脱维亚->🇹🇷_TR_土耳其
+      - _US_美国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -80,14 +74,12 @@ proxy-groups:
     interval: 60
     proxies:
 
-      - 新加坡03{优化2|V2ray}
-      - 台湾02{移动|V2ray}
-      - 台湾02{移动|V2ray} 2
-      - _CN_中国->🇬🇧_GB_英国
-      - 日本4-wap
-      - 日本6-WAP
-      - 日本5-WAP
+      - _RO_罗马尼亚
       - _IT_意大利
+      - 0|-https://t.me/MrXbin-30
+      - _RU_俄罗斯
+      - _LV_拉脱维亚->🇹🇷_TR_土耳其
+      - _US_美国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -1956,6 +1948,7 @@ rules:
   - DOMAIN-KEYWORD,123av,♻️ 情色可用
   - DOMAIN-KEYWORD,avfever,♻️ 情色可用
   - DOMAIN-KEYWORD,missav,♻️ 情色可用
+  - DOMAIN-KEYWORD,skyearth8,♻️ 情色可用
   - DOMAIN-SUFFIX,mushroomtrack.com,♻️ 情色可用
   - DOMAIN-SUFFIX,cloudflare.com,♻️ 情色可用
   - DOMAIN-SUFFIX,google.hk,♻️ 情色可用
