@@ -26,12 +26,11 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 13|🇰🇷 韩国特殊|@ripaojiedian, server: 3.36.115.19, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: _RO_罗马尼亚, server: 194.5.215.59, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: _IT_意大利, server: 37.143.129.230, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 0|-https://t.me/MrXbin-30, server: 64.225.109.206, port: 2082, type: vmess, uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+- {name: _US_美国->🇮🇳_IN_印度, server: 137.175.113.215, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
 - {name: _RU_俄罗斯, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: _LV_拉脱维亚->🇹🇷_TR_土耳其, server: 46.183.217.232, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: _US_美国, server: 64.225.109.206, port: 2082, type: vmess, uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+- {name: 0|-https://t.me/MrXbin-44, server: 31.184.172.177, port: 26763, type: vmess, uuid: 09ffa976-e1ed-45e3-8a6b-1475e3893fee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [telewebion.com]}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -44,12 +43,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
       - _RO_罗马尼亚
-      - _IT_意大利
-      - 0|-https://t.me/MrXbin-30
+      - _US_美国->🇮🇳_IN_印度
       - _RU_俄罗斯
-      - _LV_拉脱维亚->🇹🇷_TR_土耳其
-      - _US_美国
+      - 0|-https://t.me/MrXbin-44
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -61,12 +59,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
       - _RO_罗马尼亚
-      - _IT_意大利
-      - 0|-https://t.me/MrXbin-30
+      - _US_美国->🇮🇳_IN_印度
       - _RU_俄罗斯
-      - _LV_拉脱维亚->🇹🇷_TR_土耳其
-      - _US_美国
+      - 0|-https://t.me/MrXbin-44
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -74,12 +71,11 @@ proxy-groups:
     interval: 60
     proxies:
 
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
       - _RO_罗马尼亚
-      - _IT_意大利
-      - 0|-https://t.me/MrXbin-30
+      - _US_美国->🇮🇳_IN_印度
       - _RU_俄罗斯
-      - _LV_拉脱维亚->🇹🇷_TR_土耳其
-      - _US_美国
+      - 0|-https://t.me/MrXbin-44
   - name: 🐟 漏网之鱼
     type: select
     proxies:
