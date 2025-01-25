@@ -26,9 +26,11 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: "印度02{移动|V2ray}", server: cm.awslcn.info, port: 25216, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}, udp: true}
 - {name: _RU_俄罗斯, server: 85.192.28.213, port: 6650, type: ss, cipher: chacha20-ietf-poly1305, password: 2f75IeSgXRNglLdvO61gIR, udp: true}
+- {name: _US_美国, server: 64.225.109.206, port: 2082, type: vmess, uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
 - {name: 13|🇭🇰 香港2|@ripaojiedian, server: 183.236.51.23, port: 48109, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "日本2区[转发]-B [x1.0]", server: new-japan.netcar.live, port: 22984, type: vmess, uuid: 0032769e-a4c4-493c-bc2a-bbb175bb064b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _SK_斯洛伐克, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -41,9 +43,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - 印度02{移动|V2ray}
       - _RU_俄罗斯
+      - _US_美国
       - 13|🇭🇰 香港2|@ripaojiedian
-      - 日本2区[转发]-B [x1.0]
+      - _SK_斯洛伐克
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -55,9 +59,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - 印度02{移动|V2ray}
       - _RU_俄罗斯
+      - _US_美国
       - 13|🇭🇰 香港2|@ripaojiedian
-      - 日本2区[转发]-B [x1.0]
+      - _SK_斯洛伐克
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -65,9 +71,11 @@ proxy-groups:
     interval: 60
     proxies:
 
+      - 印度02{移动|V2ray}
       - _RU_俄罗斯
+      - _US_美国
       - 13|🇭🇰 香港2|@ripaojiedian
-      - 日本2区[转发]-B [x1.0]
+      - _SK_斯洛伐克
   - name: 🐟 漏网之鱼
     type: select
     proxies:
