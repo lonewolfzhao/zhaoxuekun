@@ -26,11 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Kian-3042, server: sgp06.ctg.wtf, port: 24499, type: ss, cipher: rc4-md5, password: 4482Wi, udp: true}
-- {name: 4Kian-3047, server: zero01.graniterapids.com, port: 24499, type: ss, cipher: rc4-md5, password: 4482Wi, udp: true}
-- {name: _CN_中国->🇺🇸_US_美国, server: 219.135.231.205, port: 21019, type: trojan, password: 20a84ebf-9341-4f5f-8245-3975e2fdeee5, skip-cert-verify: true, udp: true}
 - {name: 4Kian-400, server: 193.29.139.138, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
-- {name: 未知, server: right-goldfish.goat627.mom, port: 443, type: trojan, password: !<str> 3763495894587285504, sni: right-goldfish.goat627.mom, skip-cert-verify: true, udp: true}
+- {name: _FR_法国->🇭🇺_HU_匈牙利, server: worthy-pheasant.goat627.mom, port: 443, type: trojan, password: !<str> 3763495894587285504, sni: worthy-pheasant.goat627.mom, skip-cert-verify: true, udp: true}
+- {name: _US_美国->🏳️_unKnow_未知, server: 3.67.55.100, port: 443, type: trojan, password: !<str> 3763495894587285504, sni: exact-stud.goat627.mom, skip-cert-verify: true, udp: true}
+- {name: _CN_中国->🇺🇸_US_美国, server: 219.135.231.205, port: 21019, type: trojan, password: 20a84ebf-9341-4f5f-8245-3975e2fdeee5, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -43,11 +42,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4Kian-3042
-      - 4Kian-3047
-      - _CN_中国->🇺🇸_US_美国
       - 4Kian-400
-      - 未知
+      - _FR_法国->🇭🇺_HU_匈牙利
+      - _US_美国->🏳️_unKnow_未知
+      - _CN_中国->🇺🇸_US_美国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -59,11 +57,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4Kian-3042
-      - 4Kian-3047
-      - _CN_中国->🇺🇸_US_美国
       - 4Kian-400
-      - 未知
+      - _FR_法国->🇭🇺_HU_匈牙利
+      - _US_美国->🏳️_unKnow_未知
+      - _CN_中国->🇺🇸_US_美国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -71,11 +68,10 @@ proxy-groups:
     interval: 60
     proxies:
 
-      - 4Kian-3042
-      - 4Kian-3047
-      - _CN_中国->🇺🇸_US_美国
       - 4Kian-400
-      - 未知
+      - _FR_法国->🇭🇺_HU_匈牙利
+      - _US_美国->🏳️_unKnow_未知
+      - _CN_中国->🇺🇸_US_美国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
