@@ -26,10 +26,16 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Kian-400, server: 193.29.139.138, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
+- {name: "香港02{优化2|V2ray}", server: hk2.awslcn.info, port: 25242, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk2.awslcn.info}}, udp: true}
+- {name: 4Mohsen-2345, server: 13.215.202.147, port: 80, type: ss, cipher: aes-256-gcm, password: amazonskr05, udp: true}
 - {name: _FR_法国->🇭🇺_HU_匈牙利, server: worthy-pheasant.goat627.mom, port: 443, type: trojan, password: !<str> 3763495894587285504, sni: worthy-pheasant.goat627.mom, skip-cert-verify: true, udp: true}
-- {name: _US_美国->🏳️_unKnow_未知, server: 3.67.55.100, port: 443, type: trojan, password: !<str> 3763495894587285504, sni: exact-stud.goat627.mom, skip-cert-verify: true, udp: true}
+- {name: _DE_德国->🇮🇪_IE_爱尔兰, server: 18.199.17.210, port: 443, type: trojan, password: !<str> 3763495894587285504, sni: in-bengal.treefrog761.one, skip-cert-verify: true, udp: true}
+- {name: _DE_德国->🇷🇺_RU_俄罗斯, server: in-bengal.treefrog761.one, port: 443, type: trojan, password: !<str> 3763495894587285504, sni: in-bengal.treefrog761.one, skip-cert-verify: true, udp: true}
 - {name: _CN_中国->🇺🇸_US_美国, server: 219.135.231.205, port: 21019, type: trojan, password: 20a84ebf-9341-4f5f-8245-3975e2fdeee5, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-30, server: 64.225.109.206, port: 2082, type: vmess, uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+- {name: _GB_英国->🇫🇷_FR_法国, server: 51.21.55.43, port: 443, type: trojan, password: !<str> 3763495894587285504, sni: refined-vervet.goat627.mom, skip-cert-verify: true, udp: true}
+- {name: _IE_爱尔兰->🇨🇳_CN_中国, server: 3.250.247.186, port: 443, type: trojan, password: !<str> 3763495894587285504, sni: daring-puma.goat627.mom, skip-cert-verify: true, udp: true}
+- {name: _GB_英国, server: 78.129.140.11, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: pDExaycAIr2Pim7P3oPSIH, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +48,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4Kian-400
+      - 香港02{优化2|V2ray}
+      - 4Mohsen-2345
       - _FR_法国->🇭🇺_HU_匈牙利
-      - _US_美国->🏳️_unKnow_未知
+      - _DE_德国->🇮🇪_IE_爱尔兰
+      - _DE_德国->🇷🇺_RU_俄罗斯
       - _CN_中国->🇺🇸_US_美国
+      - 0|-https://t.me/MrXbin-30
+      - _GB_英国->🇫🇷_FR_法国
+      - _IE_爱尔兰->🇨🇳_CN_中国
+      - _GB_英国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,10 +69,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4Kian-400
+      - 香港02{优化2|V2ray}
+      - 4Mohsen-2345
       - _FR_法国->🇭🇺_HU_匈牙利
-      - _US_美国->🏳️_unKnow_未知
+      - _DE_德国->🇮🇪_IE_爱尔兰
+      - _DE_德国->🇷🇺_RU_俄罗斯
       - _CN_中国->🇺🇸_US_美国
+      - 0|-https://t.me/MrXbin-30
+      - _GB_英国->🇫🇷_FR_法国
+      - _IE_爱尔兰->🇨🇳_CN_中国
+      - _GB_英国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -68,10 +86,16 @@ proxy-groups:
     interval: 60
     proxies:
 
-      - 4Kian-400
+      - 香港02{优化2|V2ray}
+      - 4Mohsen-2345
       - _FR_法国->🇭🇺_HU_匈牙利
-      - _US_美国->🏳️_unKnow_未知
+      - _DE_德国->🇮🇪_IE_爱尔兰
+      - _DE_德国->🇷🇺_RU_俄罗斯
       - _CN_中国->🇺🇸_US_美国
+      - 0|-https://t.me/MrXbin-30
+      - _GB_英国->🇫🇷_FR_法国
+      - _IE_爱尔兰->🇨🇳_CN_中国
+      - _GB_英国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
