@@ -27,13 +27,8 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: "香港01{优化1|V2ray}", server: hk1.awslcn.info, port: 25242, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk1.awslcn.info}}, udp: true}
-- {name: _RU_俄罗斯->🇨🇳_CN_中国, server: learning-cattle.treefrog761.one, port: 443, type: trojan, password: !<str> 3763495894587285504, sni: learning-cattle.treefrog761.one, skip-cert-verify: true, udp: true}
 - {name: 0|-https://t.me/MrXbin-8, server: 54.189.160.123, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _GB_英国->🇺🇸_US_美国, server: 78.129.140.11, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: KOFX69z7jmO32SZ247TazP, udp: true}
-- {name: 0|-https://t.me/MrXbin-55, server: 165.22.74.230, port: 443, type: trojan, password: 4732adfa16c6450bbef87264e41332db, sni: nextstepcareer.online, skip-cert-verify: true, udp: true}
-- {name: 0|-https://t.me/MrXbin-13, server: 43.203.201.77, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _RO_罗马尼亚, server: 188.214.36.155, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: _UA_乌克兰, server: 188.191.147.127, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: 6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6, udp: true}
+- {name: _US_美国->🇷🇴_RO_罗马尼亚, server: usable-toad.treefrog761.one, port: 443, type: trojan, password: !<str> 3763495894587285504, sni: usable-toad.treefrog761.one, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -47,13 +42,8 @@ proxy-groups:
     interval: 60
     proxies:
       - 香港01{优化1|V2ray}
-      - _RU_俄罗斯->🇨🇳_CN_中国
       - 0|-https://t.me/MrXbin-8
-      - _GB_英国->🇺🇸_US_美国
-      - 0|-https://t.me/MrXbin-55
-      - 0|-https://t.me/MrXbin-13
-      - _RO_罗马尼亚
-      - _UA_乌克兰
+      - _US_美国->🇷🇴_RO_罗马尼亚
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -66,13 +56,8 @@ proxy-groups:
     interval: 60
     proxies:
       - 香港01{优化1|V2ray}
-      - _RU_俄罗斯->🇨🇳_CN_中国
       - 0|-https://t.me/MrXbin-8
-      - _GB_英国->🇺🇸_US_美国
-      - 0|-https://t.me/MrXbin-55
-      - 0|-https://t.me/MrXbin-13
-      - _RO_罗马尼亚
-      - _UA_乌克兰
+      - _US_美国->🇷🇴_RO_罗马尼亚
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -81,13 +66,8 @@ proxy-groups:
     proxies:
 
       - 香港01{优化1|V2ray}
-      - _RU_俄罗斯->🇨🇳_CN_中国
       - 0|-https://t.me/MrXbin-8
-      - _GB_英国->🇺🇸_US_美国
-      - 0|-https://t.me/MrXbin-55
-      - 0|-https://t.me/MrXbin-13
-      - _RO_罗马尼亚
-      - _UA_乌克兰
+      - _US_美国->🇷🇴_RO_罗马尼亚
   - name: 🐟 漏网之鱼
     type: select
     proxies:
