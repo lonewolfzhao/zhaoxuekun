@@ -26,15 +26,17 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 13|🇰🇷 韩国特殊|@ripaojiedian, server: 13.229.117.61, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 13|🇸🇬 狮城特殊|@ripaojiedian, server: 18.143.147.45, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "台湾①{移动|V2ray}", server: cm1.awslcn.info, port: 25232, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}, udp: true}
+- {name: 0|-https://t.me/MrXbin-7, server: 47.128.239.238, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _NL_荷兰, server: 193.29.139.233, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
 - {name: _US_美国->🇷🇴_RO_罗马尼亚, server: usable-toad.treefrog761.one, port: 443, type: trojan, password: !<str> 3763495894587285504, sni: usable-toad.treefrog761.one, skip-cert-verify: true, udp: true}
-- {name: _US_美国, server: 34.214.166.173, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "13,14|美国4|@ripaojiedian", server: vip2.pmy666.xyz, port: 8080, type: vmess, uuid: b8b24778-ab3c-4d1a-9ab1-59f301d61c9f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: domg.pmy666.xyz}}, udp: true}
-- {name: 0|-https://t.me/MrXbin-7, server: 43.203.239.233, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-9, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-- {name: _US_美国 2, server: 54.146.207.76, port: 443, type: trojan, password: !<str> 3723507166611775488, sni: busy-buffalo.treefrog761.one, skip-cert-verify: true, udp: true}
-- {name: _GB_英国->🇺🇸_US_美国, server: 78.129.140.11, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: KOFX69z7jmO32SZ247TazP, udp: true}
+- {name: _US_美国, server: 35.94.24.233, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国 2, server: 34.214.166.173, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _RU_俄罗斯, server: major-ape.goat627.mom, port: 443, type: trojan, password: !<str> 3767107462583558144, sni: major-ape.goat627.mom, skip-cert-verify: true, udp: true}
+- {name: 0|-https://t.me/MrXbin-7 2, server: 43.203.239.233, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Jadi-958, server: 13.212.37.197, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 13|🇸🇬 狮城特殊|@ripaojiedian, server: 18.143.147.45, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国->🇫🇷_FR_法国, server: 35.155.4.93, port: 443, type: trojan, password: !<str> 3763495894587285504, sni: usable-toad.treefrog761.one, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -47,15 +49,17 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - 台湾①{移动|V2ray}
+      - 0|-https://t.me/MrXbin-7
+      - _NL_荷兰
       - _US_美国->🇷🇴_RO_罗马尼亚
       - _US_美国
-      - 13,14|美国4|@ripaojiedian
-      - 0|-https://t.me/MrXbin-7
-      - 0|-https://t.me/MrXbin-9
       - _US_美国 2
-      - _GB_英国->🇺🇸_US_美国
+      - _RU_俄罗斯
+      - 0|-https://t.me/MrXbin-7 2
+      - 4Jadi-958
+      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - _US_美国->🇫🇷_FR_法国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -67,15 +71,17 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - 台湾①{移动|V2ray}
+      - 0|-https://t.me/MrXbin-7
+      - _NL_荷兰
       - _US_美国->🇷🇴_RO_罗马尼亚
       - _US_美国
-      - 13,14|美国4|@ripaojiedian
-      - 0|-https://t.me/MrXbin-7
-      - 0|-https://t.me/MrXbin-9
       - _US_美国 2
-      - _GB_英国->🇺🇸_US_美国
+      - _RU_俄罗斯
+      - 0|-https://t.me/MrXbin-7 2
+      - 4Jadi-958
+      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - _US_美国->🇫🇷_FR_法国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -83,15 +89,17 @@ proxy-groups:
     interval: 60
     proxies:
 
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - 台湾①{移动|V2ray}
+      - 0|-https://t.me/MrXbin-7
+      - _NL_荷兰
       - _US_美国->🇷🇴_RO_罗马尼亚
       - _US_美国
-      - 13,14|美国4|@ripaojiedian
-      - 0|-https://t.me/MrXbin-7
-      - 0|-https://t.me/MrXbin-9
       - _US_美国 2
-      - _GB_英国->🇺🇸_US_美国
+      - _RU_俄罗斯
+      - 0|-https://t.me/MrXbin-7 2
+      - 4Jadi-958
+      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - _US_美国->🇫🇷_FR_法国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
