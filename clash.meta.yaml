@@ -26,15 +26,14 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Jadi-958, server: 13.212.37.197, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Mohsen-10, server: 45.158.171.136, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-- {name: 0|-https://t.me/MrXbin-8, server: 107.155.57.11, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: 0|-https://t.me/MrXbin-19, server: 169.150.210.233, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: _NL_荷兰, server: 45.158.171.136, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-- {name: 0|-https://t.me/MrXbin-7, server: 45.87.175.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-- {name: _US_美国, server: 34.217.72.81, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Mohsen-913, server: 13.124.182.234, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-8 2, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
+- {name: 0|-https://t.me/MrXbin-53, server: 54.254.91.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-49, server: 47.129.228.204, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-56, server: 46.137.229.233, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-14, server: 18.140.69.216, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-50, server: 18.140.68.245, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-12, server: 13.229.70.25, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-13, server: 54.169.214.126, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-37, server: 34.215.210.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -47,15 +46,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4Jadi-958
-      - 4Mohsen-10
-      - 0|-https://t.me/MrXbin-8
-      - 0|-https://t.me/MrXbin-19
-      - _NL_荷兰
-      - 0|-https://t.me/MrXbin-7
-      - _US_美国
-      - 4Mohsen-913
-      - 0|-https://t.me/MrXbin-8 2
+      - 0|-https://t.me/MrXbin-53
+      - 0|-https://t.me/MrXbin-49
+      - 0|-https://t.me/MrXbin-56
+      - 0|-https://t.me/MrXbin-14
+      - 0|-https://t.me/MrXbin-50
+      - 0|-https://t.me/MrXbin-12
+      - 0|-https://t.me/MrXbin-13
+      - 0|-https://t.me/MrXbin-37
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -67,15 +65,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 4Jadi-958
-      - 4Mohsen-10
-      - 0|-https://t.me/MrXbin-8
-      - 0|-https://t.me/MrXbin-19
-      - _NL_荷兰
-      - 0|-https://t.me/MrXbin-7
-      - _US_美国
-      - 4Mohsen-913
-      - 0|-https://t.me/MrXbin-8 2
+      - 0|-https://t.me/MrXbin-53
+      - 0|-https://t.me/MrXbin-49
+      - 0|-https://t.me/MrXbin-56
+      - 0|-https://t.me/MrXbin-14
+      - 0|-https://t.me/MrXbin-50
+      - 0|-https://t.me/MrXbin-12
+      - 0|-https://t.me/MrXbin-13
+      - 0|-https://t.me/MrXbin-37
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -83,15 +80,14 @@ proxy-groups:
     interval: 60
     proxies:
 
-      - 4Jadi-958
-      - 4Mohsen-10
-      - 0|-https://t.me/MrXbin-8
-      - 0|-https://t.me/MrXbin-19
-      - _NL_荷兰
-      - 0|-https://t.me/MrXbin-7
-      - _US_美国
-      - 4Mohsen-913
-      - 0|-https://t.me/MrXbin-8 2
+      - 0|-https://t.me/MrXbin-53
+      - 0|-https://t.me/MrXbin-49
+      - 0|-https://t.me/MrXbin-56
+      - 0|-https://t.me/MrXbin-14
+      - 0|-https://t.me/MrXbin-50
+      - 0|-https://t.me/MrXbin-12
+      - 0|-https://t.me/MrXbin-13
+      - 0|-https://t.me/MrXbin-37
   - name: 🐟 漏网之鱼
     type: select
     proxies:
