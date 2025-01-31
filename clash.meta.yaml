@@ -27,6 +27,15 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: 13|🇯🇵 日本|@ripaojiedian, server: ywtwepcnwlou.xn--fiqs8sjz2bull.com, port: 60717, type: vmess, uuid: dbb4c3e2-12de-4678-aafe-7e520b609098, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 13|🇰🇷 韩国特殊|@ripaojiedian, server: 3.0.91.253, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Jadi-958, server: 13.212.37.197, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-11, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+- {name: 0|-https://t.me/MrXbin-8, server: 107.155.57.11, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: 0|-https://t.me/MrXbin-19, server: 169.150.210.233, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: 0|-https://t.me/MrXbin-8 2, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
+- {name: _US_美国, server: 34.217.72.81, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-7, server: 45.87.175.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+- {name: _HU_匈牙利->🇬🇧_GB_英国, server: 62.112.221.209, port: 443, type: trojan, password: !<str> 3767107462583558144, sni: uncommon-dory.goat627.mom, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -40,6 +49,15 @@ proxy-groups:
     interval: 60
     proxies:
       - 13|🇯🇵 日本|@ripaojiedian
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 4Jadi-958
+      - 0|-https://t.me/MrXbin-11
+      - 0|-https://t.me/MrXbin-8
+      - 0|-https://t.me/MrXbin-19
+      - 0|-https://t.me/MrXbin-8 2
+      - _US_美国
+      - 0|-https://t.me/MrXbin-7
+      - _HU_匈牙利->🇬🇧_GB_英国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -52,6 +70,15 @@ proxy-groups:
     interval: 60
     proxies:
       - 13|🇯🇵 日本|@ripaojiedian
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 4Jadi-958
+      - 0|-https://t.me/MrXbin-11
+      - 0|-https://t.me/MrXbin-8
+      - 0|-https://t.me/MrXbin-19
+      - 0|-https://t.me/MrXbin-8 2
+      - _US_美国
+      - 0|-https://t.me/MrXbin-7
+      - _HU_匈牙利->🇬🇧_GB_英国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -60,6 +87,15 @@ proxy-groups:
     proxies:
 
       - 13|🇯🇵 日本|@ripaojiedian
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 4Jadi-958
+      - 0|-https://t.me/MrXbin-11
+      - 0|-https://t.me/MrXbin-8
+      - 0|-https://t.me/MrXbin-19
+      - 0|-https://t.me/MrXbin-8 2
+      - _US_美国
+      - 0|-https://t.me/MrXbin-7
+      - _HU_匈牙利->🇬🇧_GB_英国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
