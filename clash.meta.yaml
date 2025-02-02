@@ -26,14 +26,13 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 0|-https://t.me/MrXbin-56, server: 46.137.229.233, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-5, server: 35.85.136.7, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-27, server: 54.213.131.250, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-48, server: 34.222.145.125, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-34, server: 52.79.96.7, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-22, server: 60.249.35.38, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}, udp: true}
 - {name: 0|-https://t.me/MrXbin-53, server: 54.254.91.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _GB_英国, server: 89.213.40.225, port: 2333, type: trojan, password: 4db82bff-0889-4320-8944-7b8d8ee66ff5, sni: www, skip-cert-verify: true, udp: true}
-- {name: 4Mohsen-530, server: 45.158.171.151, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+- {name: 0|-https://t.me/MrXbin-27, server: 54.213.131.250, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-25, server: 34.222.65.155, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Jadi-30, server: th.fastsoonlink.com, port: 40009, type: ss, cipher: chacha20-ietf-poly1305, password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00, udp: true}
+- {name: 0|-https://t.me/MrXbin-52, server: 18.140.68.245, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-24, server: 52.10.15.85, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -46,14 +45,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|-https://t.me/MrXbin-56
-      - 0|-https://t.me/MrXbin-5
-      - 0|-https://t.me/MrXbin-27
-      - 0|-https://t.me/MrXbin-48
-      - 0|-https://t.me/MrXbin-34
+      - 0|-https://t.me/MrXbin-22
       - 0|-https://t.me/MrXbin-53
-      - _GB_英国
-      - 4Mohsen-530
+      - 0|-https://t.me/MrXbin-27
+      - 0|-https://t.me/MrXbin-25
+      - 4Jadi-30
+      - 0|-https://t.me/MrXbin-52
+      - 0|-https://t.me/MrXbin-24
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -65,14 +63,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|-https://t.me/MrXbin-56
-      - 0|-https://t.me/MrXbin-5
-      - 0|-https://t.me/MrXbin-27
-      - 0|-https://t.me/MrXbin-48
-      - 0|-https://t.me/MrXbin-34
+      - 0|-https://t.me/MrXbin-22
       - 0|-https://t.me/MrXbin-53
-      - _GB_英国
-      - 4Mohsen-530
+      - 0|-https://t.me/MrXbin-27
+      - 0|-https://t.me/MrXbin-25
+      - 4Jadi-30
+      - 0|-https://t.me/MrXbin-52
+      - 0|-https://t.me/MrXbin-24
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -80,14 +77,13 @@ proxy-groups:
     interval: 60
     proxies:
 
-      - 0|-https://t.me/MrXbin-56
-      - 0|-https://t.me/MrXbin-5
-      - 0|-https://t.me/MrXbin-27
-      - 0|-https://t.me/MrXbin-48
-      - 0|-https://t.me/MrXbin-34
+      - 0|-https://t.me/MrXbin-22
       - 0|-https://t.me/MrXbin-53
-      - _GB_英国
-      - 4Mohsen-530
+      - 0|-https://t.me/MrXbin-27
+      - 0|-https://t.me/MrXbin-25
+      - 4Jadi-30
+      - 0|-https://t.me/MrXbin-52
+      - 0|-https://t.me/MrXbin-24
   - name: 🐟 漏网之鱼
     type: select
     proxies:
