@@ -26,13 +26,16 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 0|-https://t.me/MrXbin-18, server: 95.174.71.29, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)df1fab2:16569}, udp: true}
-- {name: 0|-https://t.me/MrXbin-27, server: 54.213.131.250, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-53, server: 35.90.6.76, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-63, server: 34.221.203.0, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Nika-3127, server: 194.5.215.59, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: 0|-https://t.me/MrXbin-49, server: 54.200.108.181, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|-https://t.me/MrXbin-29, server: 35.95.28.198, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-51, server: 47.129.228.204, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-22, server: 60.249.35.38, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}, udp: true}
+- {name: 0|-https://t.me/MrXbin-46, server: 211.22.161.135, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}, udp: true}
+- {name: 4Jadi-735, server: pj.shakalaka.xyz, port: 11789, type: ss, cipher: aes-128-gcm, password: a3c29dd3-d366-4fc2-9efa-ec0c81519b75, udp: true}
+- {name: 13|🇸🇬 狮城特殊|@ripaojiedian, server: 54.151.148.166, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-56, server: 46.137.229.233, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|-https://t.me/MrXbin-35, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+- {name: _DE_德国, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+- {name: 0|-https://t.me/MrXbin-25, server: 34.222.65.155, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Jadi-86, server: gdgs.tarioblink.me, port: 30003, type: ss, cipher: chacha20-ietf-poly1305, password: 220401d9-d4bf-444e-a140-d6c650948e74, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -45,13 +48,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|-https://t.me/MrXbin-18
-      - 0|-https://t.me/MrXbin-27
-      - 0|-https://t.me/MrXbin-53
-      - 0|-https://t.me/MrXbin-63
-      - 4Nika-3127
-      - 0|-https://t.me/MrXbin-49
-      - 0|-https://t.me/MrXbin-29
+      - 0|-https://t.me/MrXbin-51
+      - 0|-https://t.me/MrXbin-22
+      - 0|-https://t.me/MrXbin-46
+      - 4Jadi-735
+      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - 0|-https://t.me/MrXbin-56
+      - 0|-https://t.me/MrXbin-35
+      - _DE_德国
+      - 0|-https://t.me/MrXbin-25
+      - 4Jadi-86
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -63,13 +69,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|-https://t.me/MrXbin-18
-      - 0|-https://t.me/MrXbin-27
-      - 0|-https://t.me/MrXbin-53
-      - 0|-https://t.me/MrXbin-63
-      - 4Nika-3127
-      - 0|-https://t.me/MrXbin-49
-      - 0|-https://t.me/MrXbin-29
+      - 0|-https://t.me/MrXbin-51
+      - 0|-https://t.me/MrXbin-22
+      - 0|-https://t.me/MrXbin-46
+      - 4Jadi-735
+      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - 0|-https://t.me/MrXbin-56
+      - 0|-https://t.me/MrXbin-35
+      - _DE_德国
+      - 0|-https://t.me/MrXbin-25
+      - 4Jadi-86
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -77,13 +86,16 @@ proxy-groups:
     interval: 60
     proxies:
 
-      - 0|-https://t.me/MrXbin-18
-      - 0|-https://t.me/MrXbin-27
-      - 0|-https://t.me/MrXbin-53
-      - 0|-https://t.me/MrXbin-63
-      - 4Nika-3127
-      - 0|-https://t.me/MrXbin-49
-      - 0|-https://t.me/MrXbin-29
+      - 0|-https://t.me/MrXbin-51
+      - 0|-https://t.me/MrXbin-22
+      - 0|-https://t.me/MrXbin-46
+      - 4Jadi-735
+      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - 0|-https://t.me/MrXbin-56
+      - 0|-https://t.me/MrXbin-35
+      - _DE_德国
+      - 0|-https://t.me/MrXbin-25
+      - 4Jadi-86
   - name: 🐟 漏网之鱼
     type: select
     proxies:
