@@ -27,7 +27,9 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: 4Nika-88, server: gdgs.tarioblink.me, port: 30003, type: ss, cipher: chacha20-ietf-poly1305, password: 220401d9-d4bf-444e-a140-d6c650948e74, udp: true}
+- {name: 4Mohsen-32, server: idn.fastsoonlink.com, port: 40033, type: ss, cipher: chacha20-ietf-poly1305, password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00, udp: true}
 - {name: 4Jadi-655, server: 103.149.183.61, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+- {name: 4Mohsen-692, server: 107.148.6.121, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -41,7 +43,9 @@ proxy-groups:
     interval: 60
     proxies:
       - 4Nika-88
+      - 4Mohsen-32
       - 4Jadi-655
+      - 4Mohsen-692
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -54,7 +58,9 @@ proxy-groups:
     interval: 60
     proxies:
       - 4Nika-88
+      - 4Mohsen-32
       - 4Jadi-655
+      - 4Mohsen-692
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -63,7 +69,9 @@ proxy-groups:
     proxies:
 
       - 4Nika-88
+      - 4Mohsen-32
       - 4Jadi-655
+      - 4Mohsen-692
   - name: 🐟 漏网之鱼
     type: select
     proxies:
