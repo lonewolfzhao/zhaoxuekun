@@ -26,11 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: _US_美国->🇨🇳_CN_中国, server: 54.71.17.51, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国->🇨🇳_CN_中国 2, server: 54.245.146.74, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国->🇸🇬_SG_新加坡, server: 35.91.132.50, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|🇸🇬3 |  6.5MB/s, server: 13.229.90.203, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|🇸🇬1 |  17.0MB/s, server: 54.254.233.138, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Jadi-655, server: 103.149.183.61, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
-- {name: 0|🇺🇸4 |  2.9MB/s, server: 35.163.107.154, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "11,16|æ\x96°å\x8a\xa0å\x9d¡2|@ripaojiedian", server: 50012.baidu-cdn.top, port: 50012, type: vmess, uuid: cdb49a9b-6e23-4d90-b2a8-5c158b437cf2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -43,11 +42,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - _US_美国->🇨🇳_CN_中国
+      - _US_美国->🇨🇳_CN_中国 2
+      - _US_美国->🇸🇬_SG_新加坡
       - 0|🇸🇬3 |  6.5MB/s
-      - 0|🇸🇬1 |  17.0MB/s
-      - 4Jadi-655
-      - 0|🇺🇸4 |  2.9MB/s
-      - "11,16|æ\x96°å\x8a\xa0å\x9d¡2|@ripaojiedian"
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -59,11 +57,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
+      - _US_美国->🇨🇳_CN_中国
+      - _US_美国->🇨🇳_CN_中国 2
+      - _US_美国->🇸🇬_SG_新加坡
       - 0|🇸🇬3 |  6.5MB/s
-      - 0|🇸🇬1 |  17.0MB/s
-      - 4Jadi-655
-      - 0|🇺🇸4 |  2.9MB/s
-      - "11,16|æ\x96°å\x8a\xa0å\x9d¡2|@ripaojiedian"
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -71,11 +68,10 @@ proxy-groups:
     interval: 60
     proxies:
 
+      - _US_美国->🇨🇳_CN_中国
+      - _US_美国->🇨🇳_CN_中国 2
+      - _US_美国->🇸🇬_SG_新加坡
       - 0|🇸🇬3 |  6.5MB/s
-      - 0|🇸🇬1 |  17.0MB/s
-      - 4Jadi-655
-      - 0|🇺🇸4 |  2.9MB/s
-      - "11,16|æ\x96°å\x8a\xa0å\x9d¡2|@ripaojiedian"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
