@@ -26,11 +26,11 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 0|🇸🇬1 |  4.0MB/s, server: 13.212.188.124, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Mohsen-633, server: 103.36.90.195, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
-- {name: 0|🇺🇸6 |  7.1MB/s, server: 52.37.136.134, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "13,14|台湾3|@ripaojiedian", server: nb_ae7a7.kaiqsz.com, port: 18147, type: trojan, password: 7cd29891-fe78-4f8f-8844-abb31b9d9a75, sni: mm2.redapricotcloud.com, skip-cert-verify: true, udp: true}
+- {name: 4Jadi-627, server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
 - {name: 0|🇺🇸3 |  1.2MB/s, server: 54.185.251.195, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 13|🇰🇷 韩国特殊|@ripaojiedian, server: 18.143.78.171, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|🇺🇸3 |  4.4MB/s, server: south.sf0jm.xyz, port: 49201, type: ss, cipher: aes-128-gcm, password: 2f3cd3b3-6ebe-4a32-99d7-2479086fb5fc, udp: true}
+- {name: 0|🇸🇬1 |  4.8MB/s, server: 13.212.113.186, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|🇺🇸1 |  3.3MB/s, server: 34.218.228.243, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -44,11 +44,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|🇸🇬1 |  4.0MB/s
-      - 4Mohsen-633
-      - 0|🇺🇸6 |  7.1MB/s
+      - 13,14|台湾3|@ripaojiedian
+      - 4Jadi-627
       - 0|🇺🇸3 |  1.2MB/s
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 0|🇺🇸3 |  4.4MB/s
+      - 0|🇸🇬1 |  4.8MB/s
       - 0|🇺🇸1 |  3.3MB/s
   - name: 🔰 节点选择
     type: select
@@ -61,11 +61,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|🇸🇬1 |  4.0MB/s
-      - 4Mohsen-633
-      - 0|🇺🇸6 |  7.1MB/s
+      - 13,14|台湾3|@ripaojiedian
+      - 4Jadi-627
       - 0|🇺🇸3 |  1.2MB/s
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 0|🇺🇸3 |  4.4MB/s
+      - 0|🇸🇬1 |  4.8MB/s
       - 0|🇺🇸1 |  3.3MB/s
   - name: ♻️ 可能受限
     type: load-balance
@@ -74,11 +74,11 @@ proxy-groups:
     interval: 60
     proxies:
 
-      - 0|🇸🇬1 |  4.0MB/s
-      - 4Mohsen-633
-      - 0|🇺🇸6 |  7.1MB/s
+      - 13,14|台湾3|@ripaojiedian
+      - 4Jadi-627
       - 0|🇺🇸3 |  1.2MB/s
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 0|🇺🇸3 |  4.4MB/s
+      - 0|🇸🇬1 |  4.8MB/s
       - 0|🇺🇸1 |  3.3MB/s
   - name: 🐟 漏网之鱼
     type: select
