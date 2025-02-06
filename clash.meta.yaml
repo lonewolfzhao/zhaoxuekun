@@ -26,12 +26,12 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 0|🇺🇸5 |  3.0MB/s, server: 54.190.43.178, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: _US_美国->🇨🇦_CA_加拿大, server: 34.217.145.61, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|🇳🇱1 |  5.5MB/s, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-- {name: 13|🇸🇬 狮城特殊|@ripaojiedian, server: 18.141.25.54, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 13|🇯🇵 日本特殊|@ripaojiedian, server: 47.129.38.168, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国, server: 54.214.157.34, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|🇺🇸4 |  1.5MB/s, server: 18.236.161.128, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|🇺🇸5 |  3.0MB/s, server: 54.190.43.178, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Mohsen-644, server: 154.197.26.237, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+- {name: 0|🇺🇸3 |  19.6MB/s, server: 66.42.86.202, port: 8881, type: vmess, uuid: db5afae4-ac23-41a6-8378-f307a9a47436, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -44,12 +44,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|🇺🇸5 |  3.0MB/s
       - _US_美国->🇨🇦_CA_加拿大
-      - 0|🇳🇱1 |  5.5MB/s
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
-      - 13|🇯🇵 日本特殊|@ripaojiedian
+      - _US_美国
+      - 0|🇺🇸4 |  1.5MB/s
+      - 0|🇺🇸5 |  3.0MB/s
       - 4Mohsen-644
+      - 0|🇺🇸3 |  19.6MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -61,12 +61,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|🇺🇸5 |  3.0MB/s
       - _US_美国->🇨🇦_CA_加拿大
-      - 0|🇳🇱1 |  5.5MB/s
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
-      - 13|🇯🇵 日本特殊|@ripaojiedian
+      - _US_美国
+      - 0|🇺🇸4 |  1.5MB/s
+      - 0|🇺🇸5 |  3.0MB/s
       - 4Mohsen-644
+      - 0|🇺🇸3 |  19.6MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -74,12 +74,12 @@ proxy-groups:
     interval: 60
     proxies:
 
-      - 0|🇺🇸5 |  3.0MB/s
       - _US_美国->🇨🇦_CA_加拿大
-      - 0|🇳🇱1 |  5.5MB/s
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
-      - 13|🇯🇵 日本特殊|@ripaojiedian
+      - _US_美国
+      - 0|🇺🇸4 |  1.5MB/s
+      - 0|🇺🇸5 |  3.0MB/s
       - 4Mohsen-644
+      - 0|🇺🇸3 |  19.6MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
