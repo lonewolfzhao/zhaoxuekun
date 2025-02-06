@@ -26,10 +26,17 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 0|🇸🇬3 |  1.9MB/s, server: 3.1.103.118, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|🇺🇸3 |  5.6MB/s, server: 44.243.30.0, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|🇸🇬1 |  1.7MB/s, server: 13.212.113.186, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|🇺🇸5 |  3.0MB/s, server: 54.190.43.178, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国->🇨🇦_CA_加拿大, server: 34.217.145.61, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|🇸🇬2 |  6.0MB/s, server: 18.136.211.144, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|🇺🇸6 |  7.5MB/s, server: 34.219.5.41, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|🇸🇬3 |  1.9MB/s, server: 3.1.103.118, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|🇺🇸4 |  1.5MB/s, server: 18.236.161.128, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|🇨🇦1 |  6.0MB/s, server: 47.129.207.193, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _UA_乌克兰, server: 176.103.53.105, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 4Mohsen-459, server: 146.103.40.29, port: 4017, type: ss, cipher: chacha20-ietf-poly1305, password: U4nFT9mjZMq5RcpTzrOukA, udp: true}
+- {name: 0|🇺🇸4 |  1.5MB/s 2, server: 18.236.161.128, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +49,17 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|🇸🇬3 |  1.9MB/s
+      - 0|🇺🇸3 |  5.6MB/s
+      - 0|🇸🇬1 |  1.7MB/s
       - 0|🇺🇸5 |  3.0MB/s
-      - _US_美国->🇨🇦_CA_加拿大
+      - 0|🇸🇬2 |  6.0MB/s
+      - 0|🇺🇸6 |  7.5MB/s
+      - 0|🇸🇬3 |  1.9MB/s
       - 0|🇺🇸4 |  1.5MB/s
+      - 0|🇨🇦1 |  6.0MB/s
+      - _UA_乌克兰
+      - 4Mohsen-459
+      - 0|🇺🇸4 |  1.5MB/s 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,10 +71,17 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 60
     proxies:
-      - 0|🇸🇬3 |  1.9MB/s
+      - 0|🇺🇸3 |  5.6MB/s
+      - 0|🇸🇬1 |  1.7MB/s
       - 0|🇺🇸5 |  3.0MB/s
-      - _US_美国->🇨🇦_CA_加拿大
+      - 0|🇸🇬2 |  6.0MB/s
+      - 0|🇺🇸6 |  7.5MB/s
+      - 0|🇸🇬3 |  1.9MB/s
       - 0|🇺🇸4 |  1.5MB/s
+      - 0|🇨🇦1 |  6.0MB/s
+      - _UA_乌克兰
+      - 4Mohsen-459
+      - 0|🇺🇸4 |  1.5MB/s 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -68,10 +89,17 @@ proxy-groups:
     interval: 60
     proxies:
 
-      - 0|🇸🇬3 |  1.9MB/s
+      - 0|🇺🇸3 |  5.6MB/s
+      - 0|🇸🇬1 |  1.7MB/s
       - 0|🇺🇸5 |  3.0MB/s
-      - _US_美国->🇨🇦_CA_加拿大
+      - 0|🇸🇬2 |  6.0MB/s
+      - 0|🇺🇸6 |  7.5MB/s
+      - 0|🇸🇬3 |  1.9MB/s
       - 0|🇺🇸4 |  1.5MB/s
+      - 0|🇨🇦1 |  6.0MB/s
+      - _UA_乌克兰
+      - 4Mohsen-459
+      - 0|🇺🇸4 |  1.5MB/s 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
