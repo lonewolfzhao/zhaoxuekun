@@ -26,11 +26,8 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: "11|0|ð\x9f\x87°ð\x9f\x87·1 |  2.7MB/s", server: sd3.forlive.live, port: 40396, type: vmess, uuid: 81e16736-5ede-4050-bc4c-3062a63c926d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+- {name: _US_美国, server: 169.150.210.233, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
 - {name: 0|🇺🇸5 |  3.0MB/s, server: 54.190.43.178, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 13|🇰🇷 韩国特殊|@ripaojiedian, server: 54.180.248.97, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国->🇷🇺_RU_俄罗斯, server: 54.212.56.86, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _RU_俄罗斯, server: 77.246.97.187, port: 7749, type: ss, cipher: chacha20-ietf-poly1305, password: 7kJQs2RYHhViTYWaf1RobB, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -43,11 +40,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - "11|0|ð\x9f\x87°ð\x9f\x87·1 |  2.7MB/s"
+      - _US_美国
       - 0|🇺🇸5 |  3.0MB/s
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
-      - _US_美国->🇷🇺_RU_俄罗斯
-      - _RU_俄罗斯
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -59,22 +53,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - "11|0|ð\x9f\x87°ð\x9f\x87·1 |  2.7MB/s"
+      - _US_美国
       - 0|🇺🇸5 |  3.0MB/s
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
-      - _US_美国->🇷🇺_RU_俄罗斯
-      - _RU_俄罗斯
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - "11|0|ð\x9f\x87°ð\x9f\x87·1 |  2.7MB/s"
+      - _US_美国
       - 0|🇺🇸5 |  3.0MB/s
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
-      - _US_美国->🇷🇺_RU_俄罗斯
-      - _RU_俄罗斯
   - name: 🐟 漏网之鱼
     type: select
     proxies:
