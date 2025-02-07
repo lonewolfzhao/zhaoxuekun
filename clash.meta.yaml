@@ -26,17 +26,11 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 0|🇨🇦1 |  6.0MB/s, server: 47.129.207.193, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|🇸🇬5 |  2.8MB/s, server: 13.250.99.8, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|🇸🇬1 |  10.9MB/s, server: 54.179.0.37, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|🇸🇬2 |  6.0MB/s, server: 18.136.211.144, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|🇺🇸4 |  4.7MB/s, server: 107.149.254.26, port: 158, type: trojan, password: 43af8cd1-b378-490e-bccf-f04628bc8db4, skip-cert-verify: true, udp: true}
-- {name: 0|🇺🇸3 |  5.6MB/s, server: 44.243.30.0, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|🇳🇱1 |  1.9MB/s, server: 45.158.171.146, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
-- {name: 0|🇺🇸4 |  1.5MB/s, server: 18.236.161.128, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|🇸🇬1 |  1.7MB/s, server: 13.212.113.186, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|🇺🇸1 |  6.8MB/s, server: 35.89.15.28, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|🇺🇸3 |  19.6MB/s, server: 66.42.86.202, port: 8881, type: vmess, uuid: db5afae4-ac23-41a6-8378-f307a9a47436, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+- {name: "11|0|ð\x9f\x87°ð\x9f\x87·1 |  2.7MB/s", server: sd3.forlive.live, port: 40396, type: vmess, uuid: 81e16736-5ede-4050-bc4c-3062a63c926d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+- {name: 0|🇺🇸5 |  3.0MB/s, server: 54.190.43.178, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 13|🇰🇷 韩国特殊|@ripaojiedian, server: 54.180.248.97, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国->🇷🇺_RU_俄罗斯, server: 54.212.56.86, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _RU_俄罗斯, server: 77.246.97.187, port: 7749, type: ss, cipher: chacha20-ietf-poly1305, password: 7kJQs2RYHhViTYWaf1RobB, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -47,19 +41,13 @@ proxy-groups:
     type: load-balance
     strategy: consistent-hashing
     url: https://www.xvideos.com
-    interval: 60
+    interval: 10
     proxies:
-      - 0|🇨🇦1 |  6.0MB/s
-      - 0|🇸🇬5 |  2.8MB/s
-      - 0|🇸🇬1 |  10.9MB/s
-      - 0|🇸🇬2 |  6.0MB/s
-      - 0|🇺🇸4 |  4.7MB/s
-      - 0|🇺🇸3 |  5.6MB/s
-      - 0|🇳🇱1 |  1.9MB/s
-      - 0|🇺🇸4 |  1.5MB/s
-      - 0|🇸🇬1 |  1.7MB/s
-      - 0|🇺🇸1 |  6.8MB/s
-      - 0|🇺🇸3 |  19.6MB/s
+      - "11|0|ð\x9f\x87°ð\x9f\x87·1 |  2.7MB/s"
+      - 0|🇺🇸5 |  3.0MB/s
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - _US_美国->🇷🇺_RU_俄罗斯
+      - _RU_俄罗斯
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -69,37 +57,24 @@ proxy-groups:
     type: load-balance
     strategy: consistent-hashing
     url: https://www.xvideos.com
-    interval: 60
+    interval: 10
     proxies:
-      - 0|🇨🇦1 |  6.0MB/s
-      - 0|🇸🇬5 |  2.8MB/s
-      - 0|🇸🇬1 |  10.9MB/s
-      - 0|🇸🇬2 |  6.0MB/s
-      - 0|🇺🇸4 |  4.7MB/s
-      - 0|🇺🇸3 |  5.6MB/s
-      - 0|🇳🇱1 |  1.9MB/s
-      - 0|🇺🇸4 |  1.5MB/s
-      - 0|🇸🇬1 |  1.7MB/s
-      - 0|🇺🇸1 |  6.8MB/s
-      - 0|🇺🇸3 |  19.6MB/s
+      - "11|0|ð\x9f\x87°ð\x9f\x87·1 |  2.7MB/s"
+      - 0|🇺🇸5 |  3.0MB/s
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - _US_美国->🇷🇺_RU_俄罗斯
+      - _RU_俄罗斯
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
-    interval: 60
+    interval: 10
     proxies:
-
-      - 0|🇨🇦1 |  6.0MB/s
-      - 0|🇸🇬5 |  2.8MB/s
-      - 0|🇸🇬1 |  10.9MB/s
-      - 0|🇸🇬2 |  6.0MB/s
-      - 0|🇺🇸4 |  4.7MB/s
-      - 0|🇺🇸3 |  5.6MB/s
-      - 0|🇳🇱1 |  1.9MB/s
-      - 0|🇺🇸4 |  1.5MB/s
-      - 0|🇸🇬1 |  1.7MB/s
-      - 0|🇺🇸1 |  6.8MB/s
-      - 0|🇺🇸3 |  19.6MB/s
+      - "11|0|ð\x9f\x87°ð\x9f\x87·1 |  2.7MB/s"
+      - 0|🇺🇸5 |  3.0MB/s
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - _US_美国->🇷🇺_RU_俄罗斯
+      - _RU_俄罗斯
   - name: 🐟 漏网之鱼
     type: select
     proxies:
