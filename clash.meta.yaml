@@ -26,8 +26,13 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 0|🇺🇸3 |  2.5MB/s, server: 107.155.57.11, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: 4Sarina-518, server: 45.158.171.136, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
 - {name: _US_美国, server: 169.150.210.233, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: 0|🇺🇸5 |  3.0MB/s, server: 54.190.43.178, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国->🇨🇳_CN_中国, server: 54.213.141.30, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国->🇷🇺_RU_俄罗斯, server: 54.212.56.86, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Sarina-744, server: cu1.guguyun.xyz, port: 23733, type: ss, cipher: aes-128-gcm, password: e2c62a73-3132-48a6-a020-25c3ae0d8af2, udp: true}
+- {name: _US_美国->🇨🇳_CN_中国 2, server: 34.221.94.162, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -40,8 +45,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 0|🇺🇸3 |  2.5MB/s
+      - 4Sarina-518
       - _US_美国
-      - 0|🇺🇸5 |  3.0MB/s
+      - _US_美国->🇨🇳_CN_中国
+      - _US_美国->🇷🇺_RU_俄罗斯
+      - 4Sarina-744
+      - _US_美国->🇨🇳_CN_中国 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -53,16 +63,26 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 0|🇺🇸3 |  2.5MB/s
+      - 4Sarina-518
       - _US_美国
-      - 0|🇺🇸5 |  3.0MB/s
+      - _US_美国->🇨🇳_CN_中国
+      - _US_美国->🇷🇺_RU_俄罗斯
+      - 4Sarina-744
+      - _US_美国->🇨🇳_CN_中国 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 0|🇺🇸3 |  2.5MB/s
+      - 4Sarina-518
       - _US_美国
-      - 0|🇺🇸5 |  3.0MB/s
+      - _US_美国->🇨🇳_CN_中国
+      - _US_美国->🇷🇺_RU_俄罗斯
+      - 4Sarina-744
+      - _US_美国->🇨🇳_CN_中国 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -1932,6 +1952,8 @@ rules:
   - DOMAIN-KEYWORD,avfever,♻️ 情色可用
   - DOMAIN-KEYWORD,missav,♻️ 情色可用
   - DOMAIN-KEYWORD,skyearth8,♻️ 情色可用
+  - DOMAIN-KEYWORD,greasyfork,♻️ 情色可用
+  - DOMAIN-KEYWORD,sleazyfork,♻️ 情色可用
   - DOMAIN-SUFFIX,mushroomtrack.com,♻️ 情色可用
   - DOMAIN-SUFFIX,cloudflare.com,♻️ 情色可用
   - DOMAIN-SUFFIX,google.hk,♻️ 情色可用
