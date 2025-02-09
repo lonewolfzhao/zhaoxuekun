@@ -26,14 +26,14 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Kian-499, server: gdgs.tarioblink.me, port: 30003, type: ss, cipher: chacha20-ietf-poly1305, password: a422f6de-f257-49d4-b4cf-1254fb9eb39e, udp: true}
 - {name: 0|🇸🇬3 |  6.0MB/s, server: 13.250.12.185, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|🇸🇬4 |  1.5MB/s, server: 3.0.147.242, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|🇸🇬2 |  4.4MB/s, server: 13.229.181.179, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "0,13|🇯🇵 日本特殊|@ripaojiedian", server: 3.0.17.42, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|🇷🇺1 |  1.9MB/s, server: south.sf0jm.xyz, port: 49217, type: ss, cipher: aes-128-gcm, password: e622f777-276a-45f1-849b-9d9ce03f64e3, udp: true}
+- {name: 0|🇺🇸4 |  6.0MB/s, server: 18.143.140.150, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|🇺🇸6 |  4.1MB/s, server: 18.143.174.188, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Jadi-11, server: 45.158.171.141, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-- {name: 0|🇺🇸5 |  1.6MB/s, server: 35.95.26.187, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|🇺🇸3 |  9.2MB/s, server: 3.36.57.236, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Jadi-527, server: 45.158.171.141, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+- {name: 13|🇬🇧 英国|@ripaojiedian, server: 78.129.140.11, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: uu5qbvqIk3NE8QQfx2CzzY, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -46,14 +46,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Kian-499
       - 0|🇸🇬3 |  6.0MB/s
-      - 0|🇸🇬4 |  1.5MB/s
       - 0|🇸🇬2 |  4.4MB/s
+      - 0,13|🇯🇵 日本特殊|@ripaojiedian
+      - 0|🇷🇺1 |  1.9MB/s
+      - 0|🇺🇸4 |  6.0MB/s
       - 0|🇺🇸6 |  4.1MB/s
-      - 4Jadi-11
-      - 0|🇺🇸5 |  1.6MB/s
-      - 0|🇺🇸3 |  9.2MB/s
+      - 4Jadi-527
+      - 13|🇬🇧 英国|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -65,28 +65,28 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Kian-499
       - 0|🇸🇬3 |  6.0MB/s
-      - 0|🇸🇬4 |  1.5MB/s
       - 0|🇸🇬2 |  4.4MB/s
+      - 0,13|🇯🇵 日本特殊|@ripaojiedian
+      - 0|🇷🇺1 |  1.9MB/s
+      - 0|🇺🇸4 |  6.0MB/s
       - 0|🇺🇸6 |  4.1MB/s
-      - 4Jadi-11
-      - 0|🇺🇸5 |  1.6MB/s
-      - 0|🇺🇸3 |  9.2MB/s
+      - 4Jadi-527
+      - 13|🇬🇧 英国|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Kian-499
       - 0|🇸🇬3 |  6.0MB/s
-      - 0|🇸🇬4 |  1.5MB/s
       - 0|🇸🇬2 |  4.4MB/s
+      - 0,13|🇯🇵 日本特殊|@ripaojiedian
+      - 0|🇷🇺1 |  1.9MB/s
+      - 0|🇺🇸4 |  6.0MB/s
       - 0|🇺🇸6 |  4.1MB/s
-      - 4Jadi-11
-      - 0|🇺🇸5 |  1.6MB/s
-      - 0|🇺🇸3 |  9.2MB/s
+      - 4Jadi-527
+      - 13|🇬🇧 英国|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
