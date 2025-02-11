@@ -26,12 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Kian-30, server: idn.fastsoonlink.com, port: 40033, type: ss, cipher: chacha20-ietf-poly1305, password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00, udp: true}
-- {name: _US_美国->🇸🇬_SG_新加坡, server: 35.95.26.187, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _NL_荷兰->🇺🇸_US_美国, server: 45.158.171.110, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+- {name: _US_美国, server: 155.138.208.122, port: 8881, type: vmess, uuid: db5afae4-ac23-41a6-8378-f307a9a47436, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+- {name: 16|日本|@ripaojiedian, server: ywtwepcnwlou.xn--fiqs8sjz2bull.com, port: 33184, type: vmess, uuid: e1541125-9df4-4ee7-bb05-e68f85d7937f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 15|🇭🇰 香港5|@ripaojiedian, server: console.02.aliyun.aq.kunlunaqs.com, port: 45578, type: ss, cipher: chacha20-ietf-poly1305, password: 7243745919d6de49a5db, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
-- {name: _US_美国, server: 38.110.1.202, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-- {name: _US_美国 2, server: 38.86.135.223, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+- {name: _US_美国 2, server: 38.110.1.202, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -44,11 +42,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Kian-30
-      - _US_美国->🇸🇬_SG_新加坡
-      - _NL_荷兰->🇺🇸_US_美国
-      - 15|🇭🇰 香港5|@ripaojiedian
       - _US_美国
+      - 16|日本|@ripaojiedian
+      - 15|🇭🇰 香港5|@ripaojiedian
       - _US_美国 2
   - name: 🔰 节点选择
     type: select
@@ -61,11 +57,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Kian-30
-      - _US_美国->🇸🇬_SG_新加坡
-      - _NL_荷兰->🇺🇸_US_美国
-      - 15|🇭🇰 香港5|@ripaojiedian
       - _US_美国
+      - 16|日本|@ripaojiedian
+      - 15|🇭🇰 香港5|@ripaojiedian
       - _US_美国 2
   - name: ♻️ 可能受限
     type: load-balance
@@ -73,11 +67,9 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Kian-30
-      - _US_美国->🇸🇬_SG_新加坡
-      - _NL_荷兰->🇺🇸_US_美国
-      - 15|🇭🇰 香港5|@ripaojiedian
       - _US_美国
+      - 16|日本|@ripaojiedian
+      - 15|🇭🇰 香港5|@ripaojiedian
       - _US_美国 2
   - name: 🐟 漏网之鱼
     type: select
