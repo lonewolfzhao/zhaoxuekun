@@ -26,10 +26,8 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: _RU_俄罗斯->🇧🇪_BE_比利时, server: 185.231.233.173, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: _IN_印度, server: 103.104.247.49, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
 - {name: _BG_保加利亚, server: 149.34.244.72, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-- {name: _IT_意大利, server: 37.143.129.230, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: _RU_俄罗斯->🇧🇪_BE_比利时, server: 185.231.233.173, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +40,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _RU_俄罗斯->🇧🇪_BE_比利时
-      - _IN_印度
       - _BG_保加利亚
-      - _IT_意大利
+      - _RU_俄罗斯->🇧🇪_BE_比利时
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,20 +53,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _RU_俄罗斯->🇧🇪_BE_比利时
-      - _IN_印度
       - _BG_保加利亚
-      - _IT_意大利
+      - _RU_俄罗斯->🇧🇪_BE_比利时
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - _RU_俄罗斯->🇧🇪_BE_比利时
-      - _IN_印度
       - _BG_保加利亚
-      - _IT_意大利
+      - _RU_俄罗斯->🇧🇪_BE_比利时
   - name: 🐟 漏网之鱼
     type: select
     proxies:
