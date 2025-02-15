@@ -26,7 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Nika-1476, server: 38.86.135.169, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+- {name: 4Kian-652, server: 107.148.6.121, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+- {name: _US_美国, server: 38.86.135.169, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+- {name: _US_美国 2, server: 38.91.107.72, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
 - {name: _RU_俄罗斯->🇧🇪_BE_比利时, server: 185.231.233.173, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -40,7 +42,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Nika-1476
+      - 4Kian-652
+      - _US_美国
+      - _US_美国 2
       - _RU_俄罗斯->🇧🇪_BE_比利时
   - name: 🔰 节点选择
     type: select
@@ -53,7 +57,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Nika-1476
+      - 4Kian-652
+      - _US_美国
+      - _US_美国 2
       - _RU_俄罗斯->🇧🇪_BE_比利时
   - name: ♻️ 可能受限
     type: load-balance
@@ -61,7 +67,9 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Nika-1476
+      - 4Kian-652
+      - _US_美国
+      - _US_美国 2
       - _RU_俄罗斯->🇧🇪_BE_比利时
   - name: 🐟 漏网之鱼
     type: select
