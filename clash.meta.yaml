@@ -26,12 +26,13 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4FreeIran-516, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
 - {name: _RO_罗马尼亚->🇭🇺_HU_匈牙利, server: 194.5.215.59, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: _IT_意大利, server: 37.143.129.230, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 4FreeIran-105, server: 45.158.171.141, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
-- {name: _RU_俄罗斯->🇧🇪_BE_比利时, server: 185.231.233.173, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: _US_美国, server: 34.220.100.94, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _RU_俄罗斯, server: 213.156.152.210, port: 443, type: trojan, password: !<str> 3747000103274291200, sni: game-condor.treefrog761.one, skip-cert-verify: true, udp: true}
+- {name: 4Kian-652, server: 107.148.6.121, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+- {name: _DE_德国, server: 45.87.175.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
+- {name: 4FreeIran-516, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+- {name: _US_美国, server: 38.143.66.64, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+- {name: _CH_瑞士, server: 84.17.53.160, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -44,12 +45,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4FreeIran-516
       - _RO_罗马尼亚->🇭🇺_HU_匈牙利
-      - _IT_意大利
-      - 4FreeIran-105
-      - _RU_俄罗斯->🇧🇪_BE_比利时
+      - _RU_俄罗斯
+      - 4Kian-652
+      - _DE_德国
+      - 4FreeIran-516
       - _US_美国
+      - _CH_瑞士
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -61,24 +63,26 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4FreeIran-516
       - _RO_罗马尼亚->🇭🇺_HU_匈牙利
-      - _IT_意大利
-      - 4FreeIran-105
-      - _RU_俄罗斯->🇧🇪_BE_比利时
+      - _RU_俄罗斯
+      - 4Kian-652
+      - _DE_德国
+      - 4FreeIran-516
       - _US_美国
+      - _CH_瑞士
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4FreeIran-516
       - _RO_罗马尼亚->🇭🇺_HU_匈牙利
-      - _IT_意大利
-      - 4FreeIran-105
-      - _RU_俄罗斯->🇧🇪_BE_比利时
+      - _RU_俄罗斯
+      - 4Kian-652
+      - _DE_德国
+      - 4FreeIran-516
       - _US_美国
+      - _CH_瑞士
   - name: 🐟 漏网之鱼
     type: select
     proxies:
