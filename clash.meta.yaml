@@ -26,8 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: _DE_德国, server: 45.87.175.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
-- {name: 4Kian-727, server: a1.1tsm-sab2qkybzqc4ujzufu5yqppaomvbqfmrjunx7dmbde1ktmr.cv, port: 58001, type: ss, cipher: aes-128-gcm, password: 64ddb7e7-618b-4413-bd14-8b28372cc2a3, udp: true}
+- {name: _GB_英国, server: 78.129.140.11, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Y3bjXCJbTPlRdyTqFAYGDZ, udp: true}
+- {name: 4Mohsen-132, server: sgp.fastsoonlink.com, port: 40005, type: ss, cipher: chacha20-ietf-poly1305, password: 3FB23A19-9424-40C7-9139-3540228283FA, udp: true}
+- {name: _RU_俄罗斯, server: 185.231.233.173, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: 4Kian-664, server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
 - {name: 4Jadi-1, server: gdgs.tarioblink.me, port: 30003, type: ss, cipher: chacha20-ietf-poly1305, password: 4619d5a0-258a-48f4-98bf-88843d5d7a83, udp: true}
 proxy-groups:
@@ -42,8 +43,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _DE_德国
-      - 4Kian-727
+      - _GB_英国
+      - 4Mohsen-132
+      - _RU_俄罗斯
       - 4Kian-664
       - 4Jadi-1
   - name: 🔰 节点选择
@@ -57,8 +59,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _DE_德国
-      - 4Kian-727
+      - _GB_英国
+      - 4Mohsen-132
+      - _RU_俄罗斯
       - 4Kian-664
       - 4Jadi-1
   - name: ♻️ 可能受限
@@ -67,8 +70,9 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - _DE_德国
-      - 4Kian-727
+      - _GB_英国
+      - 4Mohsen-132
+      - _RU_俄罗斯
       - 4Kian-664
       - 4Jadi-1
   - name: 🐟 漏网之鱼
