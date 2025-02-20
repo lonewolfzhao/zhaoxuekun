@@ -26,11 +26,11 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: _RU_俄罗斯->🇷🇴_RO_罗马尼亚, server: 46.8.237.183, port: 49148, type: vmess, uuid: 50bb8072-dd3d-4d1b-8b32-9520cb97f8c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _RU_俄罗斯, server: 185.231.233.173, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: _CH_瑞士, server: 84.17.53.160, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: 4Kian-664, server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
-- {name: _GB_英国, server: 62.100.205.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: _RU_俄罗斯, server: 217.30.10.18, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-- {name: 4Nika-637, server: 45.87.175.65, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-- {name: _UA_乌克兰, server: at1.opensocks.site, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: OWY4ODBm, udp: true}
+- {name: _RU_俄罗斯 2, server: 217.30.10.18, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -43,11 +43,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Kian-664
-      - _GB_英国
+      - _RU_俄罗斯->🇷🇴_RO_罗马尼亚
       - _RU_俄罗斯
-      - 4Nika-637
-      - _UA_乌克兰
+      - _CH_瑞士
+      - 4Kian-664
+      - _RU_俄罗斯 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -59,22 +59,22 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Kian-664
-      - _GB_英国
+      - _RU_俄罗斯->🇷🇴_RO_罗马尼亚
       - _RU_俄罗斯
-      - 4Nika-637
-      - _UA_乌克兰
+      - _CH_瑞士
+      - 4Kian-664
+      - _RU_俄罗斯 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Kian-664
-      - _GB_英国
+      - _RU_俄罗斯->🇷🇴_RO_罗马尼亚
       - _RU_俄罗斯
-      - 4Nika-637
-      - _UA_乌克兰
+      - _CH_瑞士
+      - 4Kian-664
+      - _RU_俄罗斯 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
