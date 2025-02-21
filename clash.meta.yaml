@@ -26,10 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 4Kian-524, server: 45.144.55.215, port: 5612, type: ss, cipher: chacha20-ietf-poly1305, password: cUb7qZdVRmxj5N2IYIblii, udp: true}
+- {name: 4Kian-603, server: 77.239.122.34, port: 46785, type: ss, cipher: chacha20-ietf-poly1305, password: gPQfQwohlAiyDweHDQkDUO, udp: true}
 - {name: 4Sarina-1099, server: 54.189.149.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Sarina-1069, server: 43.203.212.161, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _NL_荷兰->🇺🇸_US_美国, server: 45.158.171.132, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-- {name: _IT_意大利, server: 37.143.129.230, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +42,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Kian-524
+      - 4Kian-603
       - 4Sarina-1099
       - 4Sarina-1069
-      - _NL_荷兰->🇺🇸_US_美国
-      - _IT_意大利
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,20 +57,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Kian-524
+      - 4Kian-603
       - 4Sarina-1099
       - 4Sarina-1069
-      - _NL_荷兰->🇺🇸_US_美国
-      - _IT_意大利
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 4Kian-524
+      - 4Kian-603
       - 4Sarina-1099
       - 4Sarina-1069
-      - _NL_荷兰->🇺🇸_US_美国
-      - _IT_意大利
   - name: 🐟 漏网之鱼
     type: select
     proxies:
