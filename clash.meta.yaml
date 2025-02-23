@@ -26,13 +26,14 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 台湾|@ripaojiedian, server: console.03.aliyun.aq.kunlunaqs.com, port: 45573, type: ss, cipher: aes-128-gcm, password: 3e26a8cfb09fda219b36, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
-- {name: 2|🇸🇬2 |  5.6MB/s, server: 13.229.180.183, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国, server: 38.143.66.20, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-- {name: 4FreeIran-1176, server: 47.129.37.234, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 2|🇺🇸7 |  1.5MB/s, server: 35.94.23.23, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国 2, server: 38.143.66.20, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-- {name: _CN_中国, server: 107.155.57.11, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: 2|🇺🇸4 |  5.8MB/s, server: 54.244.78.72, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 2|🇺🇸7 |  3.6MB/s, server: 35.86.174.240, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 2|🇺🇸1 |  2.0MB/s, server: 54.213.120.25, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 2|🇺🇸12 |  3.3MB/s, server: busy-buffalo.treefrog761.one, port: 443, type: trojan, password: !<str> 3787016351714123776, sni: busy-buffalo.treefrog761.one, skip-cert-verify: true, udp: true}
+- {name: 1|🇺🇸1 |  3.2MB/s, server: 34.220.174.155, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 2|🇺🇸10 |  1.9MB/s, server: 35.160.134.223, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 12|🇭🇰 香港2|@ripaojiedian, server: hk01.x.quickcht3.club, port: 52611, type: ss, cipher: chacha20-ietf-poly1305, password: 2be0c954-4291-45ea-b47d-ca713180550b, udp: true}
+- {name: 新加坡|@ripaojiedian, server: console.03.aliyun.aq.kunlunaqs.com, port: 45917, type: ss, cipher: aes-128-gcm, password: f4cd0a554e9d0558c581, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -45,13 +46,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 台湾|@ripaojiedian
-      - 2|🇸🇬2 |  5.6MB/s
-      - _US_美国
-      - 4FreeIran-1176
-      - 2|🇺🇸7 |  1.5MB/s
-      - _US_美国 2
-      - _CN_中国
+      - 2|🇺🇸4 |  5.8MB/s
+      - 2|🇺🇸7 |  3.6MB/s
+      - 2|🇺🇸1 |  2.0MB/s
+      - 2|🇺🇸12 |  3.3MB/s
+      - 1|🇺🇸1 |  3.2MB/s
+      - 2|🇺🇸10 |  1.9MB/s
+      - 12|🇭🇰 香港2|@ripaojiedian
+      - 新加坡|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -63,26 +65,28 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 台湾|@ripaojiedian
-      - 2|🇸🇬2 |  5.6MB/s
-      - _US_美国
-      - 4FreeIran-1176
-      - 2|🇺🇸7 |  1.5MB/s
-      - _US_美国 2
-      - _CN_中国
+      - 2|🇺🇸4 |  5.8MB/s
+      - 2|🇺🇸7 |  3.6MB/s
+      - 2|🇺🇸1 |  2.0MB/s
+      - 2|🇺🇸12 |  3.3MB/s
+      - 1|🇺🇸1 |  3.2MB/s
+      - 2|🇺🇸10 |  1.9MB/s
+      - 12|🇭🇰 香港2|@ripaojiedian
+      - 新加坡|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 台湾|@ripaojiedian
-      - 2|🇸🇬2 |  5.6MB/s
-      - _US_美国
-      - 4FreeIran-1176
-      - 2|🇺🇸7 |  1.5MB/s
-      - _US_美国 2
-      - _CN_中国
+      - 2|🇺🇸4 |  5.8MB/s
+      - 2|🇺🇸7 |  3.6MB/s
+      - 2|🇺🇸1 |  2.0MB/s
+      - 2|🇺🇸12 |  3.3MB/s
+      - 1|🇺🇸1 |  3.2MB/s
+      - 2|🇺🇸10 |  1.9MB/s
+      - 12|🇭🇰 香港2|@ripaojiedian
+      - 新加坡|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
