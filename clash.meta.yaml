@@ -26,14 +26,13 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 2|🇳🇱1 |  5.0MB/s, server: 45.87.175.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-- {name: _DE_德国->🇷🇺_RU_俄罗斯, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-- {name: 4Kian-149, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
-- {name: 4Kian-1072, server: 13.212.143.247, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 12|🇺🇸 美国|@ripaojiedian, server: 50004.baidu-cdn.top, port: 50004, type: vmess, uuid: 4ce50179-f256-4509-bbd2-2a6ec957236e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 2|🇺🇸5 |  5.6MB/s, server: 35.91.187.73, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 2|🇺🇸6 |  2.2MB/s, server: 34.212.0.149, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Kian-1072, server: 13.212.143.247, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: _US_美国, server: 34.217.75.205, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Kian-1178, server: 52.34.200.48, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国 2, server: 44.243.45.146, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 2|🇺🇸6 |  2.2MB/s, server: 34.212.0.149, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Sarina-1199, server: 54.244.78.72, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -46,14 +45,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🇳🇱1 |  5.0MB/s
-      - _DE_德国->🇷🇺_RU_俄罗斯
-      - 4Kian-149
-      - 4Kian-1072
+      - 12|🇺🇸 美国|@ripaojiedian
       - 2|🇺🇸5 |  5.6MB/s
-      - 2|🇺🇸6 |  2.2MB/s
+      - 4Kian-1072
       - _US_美国
-      - 4Kian-1178
+      - _US_美国 2
+      - 2|🇺🇸6 |  2.2MB/s
+      - 4Sarina-1199
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -65,28 +63,26 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🇳🇱1 |  5.0MB/s
-      - _DE_德国->🇷🇺_RU_俄罗斯
-      - 4Kian-149
-      - 4Kian-1072
+      - 12|🇺🇸 美国|@ripaojiedian
       - 2|🇺🇸5 |  5.6MB/s
-      - 2|🇺🇸6 |  2.2MB/s
+      - 4Kian-1072
       - _US_美国
-      - 4Kian-1178
+      - _US_美国 2
+      - 2|🇺🇸6 |  2.2MB/s
+      - 4Sarina-1199
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 2|🇳🇱1 |  5.0MB/s
-      - _DE_德国->🇷🇺_RU_俄罗斯
-      - 4Kian-149
-      - 4Kian-1072
+      - 12|🇺🇸 美国|@ripaojiedian
       - 2|🇺🇸5 |  5.6MB/s
-      - 2|🇺🇸6 |  2.2MB/s
+      - 4Kian-1072
       - _US_美国
-      - 4Kian-1178
+      - _US_美国 2
+      - 2|🇺🇸6 |  2.2MB/s
+      - 4Sarina-1199
   - name: 🐟 漏网之鱼
     type: select
     proxies:
