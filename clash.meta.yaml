@@ -26,6 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 2|🇺🇸2 |  5.3MB/s, server: 17.mamamajd.site, port: 23617, type: vmess, uuid: fa04c4b5-7338-39c3-88d3-16be91168ee3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.mamamajd.site}}, udp: true}
+- {name: 2|🇨🇦1 |  9.8MB/s, server: 47.128.243.171, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4FreeIran-20, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
 - {name: _DE_德国, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
 - {name: _US_美国, server: 54.190.1.125, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
@@ -40,6 +43,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 2|🇺🇸2 |  5.3MB/s
+      - 2|🇨🇦1 |  9.8MB/s
+      - 4FreeIran-20
       - _DE_德国
       - _US_美国
   - name: 🔰 节点选择
@@ -53,6 +59,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 2|🇺🇸2 |  5.3MB/s
+      - 2|🇨🇦1 |  9.8MB/s
+      - 4FreeIran-20
       - _DE_德国
       - _US_美国
   - name: ♻️ 可能受限
@@ -61,6 +70,9 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 2|🇺🇸2 |  5.3MB/s
+      - 2|🇨🇦1 |  9.8MB/s
+      - 4FreeIran-20
       - _DE_德国
       - _US_美国
   - name: 🐟 漏网之鱼
