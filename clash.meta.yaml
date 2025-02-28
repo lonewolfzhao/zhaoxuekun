@@ -26,9 +26,13 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 2|🇺🇸8 |  1.0MB/s, server: 38.143.66.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-- {name: 1|🇸🇬3 |  1.2MB/s, server: 52.221.195.154, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 1|🇯🇵4 |  5.9MB/s, server: 35.72.9.98, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 2|🇸🇬1 |  6.1MB/s, server: 54.254.62.242, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 2|🇨🇦1 |  9.8MB/s, server: 47.128.243.171, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 2|🇭🇰2 |  2.9MB/s, server: sz-hk-09.grabgo.pro, port: 15129, type: vmess, uuid: f837b510-7050-4dec-b182-a777dc358469, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 2|🇹🇼1 |  5.3MB/s, server: tw-detour-23.grabgo.pro, port: 15223, type: vmess, uuid: f837b510-7050-4dec-b182-a777dc358469, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 1|🇸🇬3 |  1.2MB/s, server: 52.221.195.154, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 2|🇨🇦1 |  9.8MB/s 2, server: 47.128.243.171, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -41,9 +45,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🇺🇸8 |  1.0MB/s
-      - 1|🇸🇬3 |  1.2MB/s
+      - 1|🇯🇵4 |  5.9MB/s
+      - 2|🇸🇬1 |  6.1MB/s
       - 2|🇨🇦1 |  9.8MB/s
+      - 2|🇭🇰2 |  2.9MB/s
+      - 2|🇹🇼1 |  5.3MB/s
+      - 1|🇸🇬3 |  1.2MB/s
+      - 2|🇨🇦1 |  9.8MB/s 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -55,18 +63,26 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🇺🇸8 |  1.0MB/s
-      - 1|🇸🇬3 |  1.2MB/s
+      - 1|🇯🇵4 |  5.9MB/s
+      - 2|🇸🇬1 |  6.1MB/s
       - 2|🇨🇦1 |  9.8MB/s
+      - 2|🇭🇰2 |  2.9MB/s
+      - 2|🇹🇼1 |  5.3MB/s
+      - 1|🇸🇬3 |  1.2MB/s
+      - 2|🇨🇦1 |  9.8MB/s 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 2|🇺🇸8 |  1.0MB/s
-      - 1|🇸🇬3 |  1.2MB/s
+      - 1|🇯🇵4 |  5.9MB/s
+      - 2|🇸🇬1 |  6.1MB/s
       - 2|🇨🇦1 |  9.8MB/s
+      - 2|🇭🇰2 |  2.9MB/s
+      - 2|🇹🇼1 |  5.3MB/s
+      - 1|🇸🇬3 |  1.2MB/s
+      - 2|🇨🇦1 |  9.8MB/s 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
