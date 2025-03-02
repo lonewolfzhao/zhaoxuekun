@@ -27,12 +27,7 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: 1|🇯🇵3 |  3.0MB/s, server: 54.178.157.8, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "12,13|新加坡5|@ripaojiedian", server: wb.kaiqsz.com, port: 48291, type: trojan, password: 1e1f22c7-9cbf-4c02-a1eb-b47c7a8a915c, sni: mmbiz1.redapricotcloud.com, skip-cert-verify: true, udp: true}
-- {name: 1|🇯🇵1 |  6.0MB/s, server: 54.64.6.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Sarina-1290, server: 13.229.59.137, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _RU_俄罗斯, server: 185.231.233.173, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: "12,13|香港|@ripaojiedian", server: 104.251.227.182, port: 443, type: trojan, password: 1e63e585ab2fef3adcc9ea75a62abc23, sni: hezijiasuqi.com, skip-cert-verify: true, udp: true}
-- {name: 12|🇰🇷 韩国特殊|@ripaojiedian, server: 54.255.230.67, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Sarina-1360, server: 47.128.243.171, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -46,12 +41,7 @@ proxy-groups:
     interval: 10
     proxies:
       - 1|🇯🇵3 |  3.0MB/s
-      - 12,13|新加坡5|@ripaojiedian
-      - 1|🇯🇵1 |  6.0MB/s
-      - 4Sarina-1290
-      - _RU_俄罗斯
-      - 12,13|香港|@ripaojiedian
-      - 12|🇰🇷 韩国特殊|@ripaojiedian
+      - 4Sarina-1360
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -64,12 +54,7 @@ proxy-groups:
     interval: 10
     proxies:
       - 1|🇯🇵3 |  3.0MB/s
-      - 12,13|新加坡5|@ripaojiedian
-      - 1|🇯🇵1 |  6.0MB/s
-      - 4Sarina-1290
-      - _RU_俄罗斯
-      - 12,13|香港|@ripaojiedian
-      - 12|🇰🇷 韩国特殊|@ripaojiedian
+      - 4Sarina-1360
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -77,12 +62,7 @@ proxy-groups:
     interval: 10
     proxies:
       - 1|🇯🇵3 |  3.0MB/s
-      - 12,13|新加坡5|@ripaojiedian
-      - 1|🇯🇵1 |  6.0MB/s
-      - 4Sarina-1290
-      - _RU_俄罗斯
-      - 12,13|香港|@ripaojiedian
-      - 12|🇰🇷 韩国特殊|@ripaojiedian
+      - 4Sarina-1360
   - name: 🐟 漏网之鱼
     type: select
     proxies:
