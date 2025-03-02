@@ -28,13 +28,6 @@ dns:
 proxies:
 - {name: 4Jadi-1180, server: 18.181.211.125, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 2|🇯🇵3 |  5.0MB/s, server: 13.113.219.207, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 12|🇯🇵 日本特殊|@ripaojiedian, server: 13.229.213.8, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 2|🌀1- |  1.8MB/s, server: 13.229.55.109, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "12,13|香港|@ripaojiedian", server: 104.251.227.182, port: 443, type: trojan, password: 1e63e585ab2fef3adcc9ea75a62abc23, sni: hezijiasuqi.com, skip-cert-verify: true, udp: true}
-- {name: 2|🇯🇵2 |  1.7MB/s, server: 120.198.71.214, port: 35565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: _CN_中国->🇬🇧_GB_英国, server: fr.fastsoonlink.com, port: 40034, type: ss, cipher: chacha20-ietf-poly1305, password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4, udp: true}
-- {name: _CA_加拿大, server: 23.154.136.247, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-- {name: _SE_瑞典, server: 194.14.217.38, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -49,13 +42,6 @@ proxy-groups:
     proxies:
       - 4Jadi-1180
       - 2|🇯🇵3 |  5.0MB/s
-      - 12|🇯🇵 日本特殊|@ripaojiedian
-      - 2|🌀1- |  1.8MB/s
-      - 12,13|香港|@ripaojiedian
-      - 2|🇯🇵2 |  1.7MB/s
-      - _CN_中国->🇬🇧_GB_英国
-      - _CA_加拿大
-      - _SE_瑞典
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -69,13 +55,6 @@ proxy-groups:
     proxies:
       - 4Jadi-1180
       - 2|🇯🇵3 |  5.0MB/s
-      - 12|🇯🇵 日本特殊|@ripaojiedian
-      - 2|🌀1- |  1.8MB/s
-      - 12,13|香港|@ripaojiedian
-      - 2|🇯🇵2 |  1.7MB/s
-      - _CN_中国->🇬🇧_GB_英国
-      - _CA_加拿大
-      - _SE_瑞典
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -84,13 +63,6 @@ proxy-groups:
     proxies:
       - 4Jadi-1180
       - 2|🇯🇵3 |  5.0MB/s
-      - 12|🇯🇵 日本特殊|@ripaojiedian
-      - 2|🌀1- |  1.8MB/s
-      - 12,13|香港|@ripaojiedian
-      - 2|🇯🇵2 |  1.7MB/s
-      - _CN_中国->🇬🇧_GB_英国
-      - _CA_加拿大
-      - _SE_瑞典
   - name: 🐟 漏网之鱼
     type: select
     proxies:
