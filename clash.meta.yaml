@@ -26,6 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 0|🇯🇵7 |  3.4MB/s, server: 13.231.162.239, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|🇯🇵4 |  3.5MB/s, server: 18.183.221.195, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|🇺🇸1 |  5.6MB/s, server: 52.195.185.114, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|🇯🇵3 |  2.4MB/s, server: 13.230.20.120, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 2|🇯🇵3 |  5.0MB/s, server: 13.113.219.207, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 2|🇯🇵4 |  5.8MB/s, server: 13.230.186.166, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Jadi-1180, server: 18.181.211.125, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
@@ -43,6 +47,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 0|🇯🇵7 |  3.4MB/s
+      - 0|🇯🇵4 |  3.5MB/s
+      - 0|🇺🇸1 |  5.6MB/s
+      - 0|🇯🇵3 |  2.4MB/s
       - 2|🇯🇵3 |  5.0MB/s
       - 2|🇯🇵4 |  5.8MB/s
       - 4Jadi-1180
@@ -59,6 +67,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 0|🇯🇵7 |  3.4MB/s
+      - 0|🇯🇵4 |  3.5MB/s
+      - 0|🇺🇸1 |  5.6MB/s
+      - 0|🇯🇵3 |  2.4MB/s
       - 2|🇯🇵3 |  5.0MB/s
       - 2|🇯🇵4 |  5.8MB/s
       - 4Jadi-1180
@@ -70,6 +82,10 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 0|🇯🇵7 |  3.4MB/s
+      - 0|🇯🇵4 |  3.5MB/s
+      - 0|🇺🇸1 |  5.6MB/s
+      - 0|🇯🇵3 |  2.4MB/s
       - 2|🇯🇵3 |  5.0MB/s
       - 2|🇯🇵4 |  5.8MB/s
       - 4Jadi-1180
