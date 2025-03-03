@@ -26,15 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Jadi-1258, server: 47.129.7.198, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Mohsen-1185, server: 13.230.141.176, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|🇯🇵7 |  3.4MB/s, server: 13.231.162.239, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|🇯🇵4 |  3.5MB/s, server: 18.183.221.195, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|🇺🇸1 |  5.6MB/s, server: 52.195.185.114, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|🇯🇵3 |  2.4MB/s, server: 13.230.20.120, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 2|🇯🇵4 |  5.8MB/s, server: 13.230.186.166, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Jadi-1180, server: 18.181.211.125, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 2|🇺🇸1 |  5.9MB/s, server: 18.143.186.182, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Jadi-1144, server: 13.229.63.223, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Jadi-1258, server: 47.129.7.198, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -47,15 +42,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Jadi-1258
       - 4Mohsen-1185
-      - 0|🇯🇵7 |  3.4MB/s
       - 0|🇯🇵4 |  3.5MB/s
-      - 0|🇺🇸1 |  5.6MB/s
-      - 0|🇯🇵3 |  2.4MB/s
-      - 2|🇯🇵4 |  5.8MB/s
-      - 4Jadi-1180
-      - 2|🇺🇸1 |  5.9MB/s
+      - 4Jadi-1144
+      - 4Jadi-1258
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -67,30 +57,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Jadi-1258
       - 4Mohsen-1185
-      - 0|🇯🇵7 |  3.4MB/s
       - 0|🇯🇵4 |  3.5MB/s
-      - 0|🇺🇸1 |  5.6MB/s
-      - 0|🇯🇵3 |  2.4MB/s
-      - 2|🇯🇵4 |  5.8MB/s
-      - 4Jadi-1180
-      - 2|🇺🇸1 |  5.9MB/s
+      - 4Jadi-1144
+      - 4Jadi-1258
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Jadi-1258
       - 4Mohsen-1185
-      - 0|🇯🇵7 |  3.4MB/s
       - 0|🇯🇵4 |  3.5MB/s
-      - 0|🇺🇸1 |  5.6MB/s
-      - 0|🇯🇵3 |  2.4MB/s
-      - 2|🇯🇵4 |  5.8MB/s
-      - 4Jadi-1180
-      - 2|🇺🇸1 |  5.9MB/s
+      - 4Jadi-1144
+      - 4Jadi-1258
   - name: 🐟 漏网之鱼
     type: select
     proxies:
