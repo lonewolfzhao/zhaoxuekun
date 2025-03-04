@@ -26,9 +26,12 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Kian-1307, server: 57.180.54.251, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Mohsen-1188, server: 13.230.110.170, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Mohsen-1193, server: 13.231.193.189, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Kian-1305, server: 54.95.114.157, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|🇯🇵4 |  3.5MB/s, server: 18.183.221.195, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Kian-1307, server: 57.180.54.251, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Kian-1304, server: 54.64.6.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Mohsen-1199, server: 13.250.96.5, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -41,9 +44,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Kian-1307
+      - 4Mohsen-1188
+      - 4Mohsen-1193
       - 4Kian-1305
-      - 0|🇯🇵4 |  3.5MB/s
+      - 4Kian-1307
+      - 4Kian-1304
+      - 4Mohsen-1199
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -55,18 +61,24 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Kian-1307
+      - 4Mohsen-1188
+      - 4Mohsen-1193
       - 4Kian-1305
-      - 0|🇯🇵4 |  3.5MB/s
+      - 4Kian-1307
+      - 4Kian-1304
+      - 4Mohsen-1199
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Kian-1307
+      - 4Mohsen-1188
+      - 4Mohsen-1193
       - 4Kian-1305
-      - 0|🇯🇵4 |  3.5MB/s
+      - 4Kian-1307
+      - 4Kian-1304
+      - 4Mohsen-1199
   - name: 🐟 漏网之鱼
     type: select
     proxies:
