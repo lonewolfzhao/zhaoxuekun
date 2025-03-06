@@ -26,10 +26,8 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 2|🇯🇵2 |  1.3MB/s, server: 54.250.174.86, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _JP_日本->🇨🇦_CA_加拿大, server: us2.ssocks.wiki, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ZGY1N, udp: true}
-- {name: 台湾|@ripaojiedian, server: 125.227.86.44, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: 86e8c33.dl.microsoft.eu:61496}, udp: true}
-- {name: _US_美国, server: 69.50.93.80, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+- {name: 4Sarina-1224, server: 13.250.96.5, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Sarina-1220, server: 13.250.31.115, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +40,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🇯🇵2 |  1.3MB/s
-      - _JP_日本->🇨🇦_CA_加拿大
-      - 台湾|@ripaojiedian
-      - _US_美国
+      - 4Sarina-1224
+      - 4Sarina-1220
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,20 +53,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🇯🇵2 |  1.3MB/s
-      - _JP_日本->🇨🇦_CA_加拿大
-      - 台湾|@ripaojiedian
-      - _US_美国
+      - 4Sarina-1224
+      - 4Sarina-1220
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 2|🇯🇵2 |  1.3MB/s
-      - _JP_日本->🇨🇦_CA_加拿大
-      - 台湾|@ripaojiedian
-      - _US_美国
+      - 4Sarina-1224
+      - 4Sarina-1220
   - name: 🐟 漏网之鱼
     type: select
     proxies:
