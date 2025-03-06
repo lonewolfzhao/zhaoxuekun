@@ -26,11 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Kian-1270, server: 18.183.232.26, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 11|🇰🇷 韩国特殊|@ripaojiedian, server: 13.229.110.23, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 1|🇸🇬1 |  1.3MB/s, server: 13.229.242.248, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 11|🇹🇼 台湾|@ripaojiedian, server: 221.215.48.118, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: d6cb3d6.dl.microsoft.lt:47299}, udp: true}
-- {name: "0,12,13|香港|@ripaojiedian", server: 104.251.227.182, port: 443, type: trojan, password: 1e63e585ab2fef3adcc9ea75a62abc23, sni: hezijiasuqi.com, skip-cert-verify: true, udp: true}
+- {name: 2|🇯🇵2 |  1.3MB/s, server: 54.250.174.86, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _JP_日本->🇨🇦_CA_加拿大, server: us2.ssocks.wiki, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ZGY1N, udp: true}
+- {name: 台湾|@ripaojiedian, server: 125.227.86.44, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: 86e8c33.dl.microsoft.eu:61496}, udp: true}
+- {name: _US_美国, server: 69.50.93.80, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -43,11 +42,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Kian-1270
-      - 11|🇰🇷 韩国特殊|@ripaojiedian
-      - 1|🇸🇬1 |  1.3MB/s
-      - 11|🇹🇼 台湾|@ripaojiedian
-      - 0,12,13|香港|@ripaojiedian
+      - 2|🇯🇵2 |  1.3MB/s
+      - _JP_日本->🇨🇦_CA_加拿大
+      - 台湾|@ripaojiedian
+      - _US_美国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -59,22 +57,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Kian-1270
-      - 11|🇰🇷 韩国特殊|@ripaojiedian
-      - 1|🇸🇬1 |  1.3MB/s
-      - 11|🇹🇼 台湾|@ripaojiedian
-      - 0,12,13|香港|@ripaojiedian
+      - 2|🇯🇵2 |  1.3MB/s
+      - _JP_日本->🇨🇦_CA_加拿大
+      - 台湾|@ripaojiedian
+      - _US_美国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Kian-1270
-      - 11|🇰🇷 韩国特殊|@ripaojiedian
-      - 1|🇸🇬1 |  1.3MB/s
-      - 11|🇹🇼 台湾|@ripaojiedian
-      - 0,12,13|香港|@ripaojiedian
+      - 2|🇯🇵2 |  1.3MB/s
+      - _JP_日本->🇨🇦_CA_加拿大
+      - 台湾|@ripaojiedian
+      - _US_美国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
