@@ -26,9 +26,12 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: _US_美国, server: 139.64.165.123, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-- {name: _US_美国 2, server: 139.64.165.123, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-- {name: 4Sarina-1224, server: 13.250.96.5, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国, server: 139.64.165.123, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+- {name: 1|🇺🇸4 |  3.9MB/s, server: afrhms16v.bestxray.buzz, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: afrhms16v.bestxray.buzz}}, udp: true}
+- {name: _US_美国 2, server: 69.50.93.47, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+- {name: _US_美国 3, server: 142.202.49.111, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+- {name: _US_美国 4, server: 69.50.93.47, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+- {name: _SK_斯洛伐克, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,8 +45,11 @@ proxy-groups:
     interval: 10
     proxies:
       - _US_美国
+      - 1|🇺🇸4 |  3.9MB/s
       - _US_美国 2
-      - 4Sarina-1224
+      - _US_美国 3
+      - _US_美国 4
+      - _SK_斯洛伐克
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -56,8 +62,11 @@ proxy-groups:
     interval: 10
     proxies:
       - _US_美国
+      - 1|🇺🇸4 |  3.9MB/s
       - _US_美国 2
-      - 4Sarina-1224
+      - _US_美国 3
+      - _US_美国 4
+      - _SK_斯洛伐克
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -65,8 +74,11 @@ proxy-groups:
     interval: 10
     proxies:
       - _US_美国
+      - 1|🇺🇸4 |  3.9MB/s
       - _US_美国 2
-      - 4Sarina-1224
+      - _US_美国 3
+      - _US_美国 4
+      - _SK_斯洛伐克
   - name: 🐟 漏网之鱼
     type: select
     proxies:
