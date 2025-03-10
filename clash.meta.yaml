@@ -26,8 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 1|🇺🇸4 |  3.2MB/s, server: 3.38.97.249, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 1|🇸🇬3 |  5.9MB/s, server: 13.250.103.231, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: "1,12,13|台湾2|@ripaojiedian", server: gtm1.ktmwan.net, port: 12883, type: vmess, uuid: 9207a3fc-18cc-4af7-ab1c-1c0000e57e37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gtm1.ktmwan.net}}, udp: true}
-- {name: 0|🇺🇸3 |  5.4MB/s, server: 34.219.71.252, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -40,8 +41,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 1|🇺🇸4 |  3.2MB/s
+      - 1|🇸🇬3 |  5.9MB/s
       - 1,12,13|台湾2|@ripaojiedian
-      - 0|🇺🇸3 |  5.4MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -53,16 +55,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 1|🇺🇸4 |  3.2MB/s
+      - 1|🇸🇬3 |  5.9MB/s
       - 1,12,13|台湾2|@ripaojiedian
-      - 0|🇺🇸3 |  5.4MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 1|🇺🇸4 |  3.2MB/s
+      - 1|🇸🇬3 |  5.9MB/s
       - 1,12,13|台湾2|@ripaojiedian
-      - 0|🇺🇸3 |  5.4MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
