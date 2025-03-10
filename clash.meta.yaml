@@ -26,13 +26,8 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: _US_美国 2, server: 34.211.230.161, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|🇺🇸2 |  4.7MB/s, server: 35.95.37.205, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Kian-1339, server: 54.255.213.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国, server: 34.214.175.186, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国 3, server: 54.201.149.176, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "1,12,13|台湾2|@ripaojiedian", server: gtm1.ktmwan.net, port: 12883, type: vmess, uuid: 9207a3fc-18cc-4af7-ab1c-1c0000e57e37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gtm1.ktmwan.net}}, udp: true}
 - {name: 0|🇺🇸3 |  5.4MB/s, server: 34.219.71.252, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国->🇨🇳_CN_中国, server: 35.86.111.233, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -45,13 +40,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _US_美国 2
-      - 0|🇺🇸2 |  4.7MB/s
-      - 4Kian-1339
-      - _US_美国
-      - _US_美国 3
+      - 1,12,13|台湾2|@ripaojiedian
       - 0|🇺🇸3 |  5.4MB/s
-      - _US_美国->🇨🇳_CN_中国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -63,26 +53,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _US_美国 2
-      - 0|🇺🇸2 |  4.7MB/s
-      - 4Kian-1339
-      - _US_美国
-      - _US_美国 3
+      - 1,12,13|台湾2|@ripaojiedian
       - 0|🇺🇸3 |  5.4MB/s
-      - _US_美国->🇨🇳_CN_中国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - _US_美国 2
-      - 0|🇺🇸2 |  4.7MB/s
-      - 4Kian-1339
-      - _US_美国
-      - _US_美国 3
+      - 1,12,13|台湾2|@ripaojiedian
       - 0|🇺🇸3 |  5.4MB/s
-      - _US_美国->🇨🇳_CN_中国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
