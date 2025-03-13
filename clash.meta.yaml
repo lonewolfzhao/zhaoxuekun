@@ -26,9 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: "1,12|🇸🇬 狮城特殊|@ripaojiedian", server: 52.196.181.68, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 2|🇸🇬1 |  4.6MB/s, server: 54.254.138.40, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 2|🇯🇵2 |  3.7MB/s, server: 43.207.153.78, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 2|🇯🇵2 |  1.9MB/s, server: 43.203.229.162, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Sarina-8, server: 45.158.171.132, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -41,9 +42,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 1,12|🇸🇬 狮城特殊|@ripaojiedian
+      - 2|🇸🇬1 |  4.6MB/s
       - 2|🇯🇵2 |  3.7MB/s
       - 2|🇯🇵2 |  1.9MB/s
-      - 4Sarina-8
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -55,18 +57,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 1,12|🇸🇬 狮城特殊|@ripaojiedian
+      - 2|🇸🇬1 |  4.6MB/s
       - 2|🇯🇵2 |  3.7MB/s
       - 2|🇯🇵2 |  1.9MB/s
-      - 4Sarina-8
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 1,12|🇸🇬 狮城特殊|@ripaojiedian
+      - 2|🇸🇬1 |  4.6MB/s
       - 2|🇯🇵2 |  3.7MB/s
       - 2|🇯🇵2 |  1.9MB/s
-      - 4Sarina-8
   - name: 🐟 漏网之鱼
     type: select
     proxies:
