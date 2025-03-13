@@ -26,11 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 12|🇯🇵 日本特殊|@ripaojiedian, server: 18.181.194.77, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4FreeIran-1665, server: okanc.node-is.green, port: 21115, type: ss, cipher: aes-256-gcm, password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83, udp: true}
+- {name: 1|🇷🇺2 |  2.7MB/s, server: 185.22.152.236, port: 23011, type: vmess, uuid: 0b873d2f-41db-4f30-b1ac-6b315252bd6b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 - {name: _CH_瑞士, server: 84.17.53.160, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 4Kian-3386, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: 4Kian-1631, server: ti3hyra4.slashdevslashnetslashtun.net, port: 17006, type: ss, cipher: aes-256-gcm, password: 3D5E3GR6BW1N99NI, udp: true}
-- {name: 2|🇸🇬1 |  4.6MB/s, server: 54.254.138.40, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 11|🇰🇷 韩国特殊|@ripaojiedian, server: 52.198.107.245, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -43,11 +42,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 12|🇯🇵 日本特殊|@ripaojiedian
+      - 4FreeIran-1665
+      - 1|🇷🇺2 |  2.7MB/s
       - _CH_瑞士
-      - 4Kian-3386
-      - 4Kian-1631
-      - 2|🇸🇬1 |  4.6MB/s
+      - 11|🇰🇷 韩国特殊|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -59,22 +57,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 12|🇯🇵 日本特殊|@ripaojiedian
+      - 4FreeIran-1665
+      - 1|🇷🇺2 |  2.7MB/s
       - _CH_瑞士
-      - 4Kian-3386
-      - 4Kian-1631
-      - 2|🇸🇬1 |  4.6MB/s
+      - 11|🇰🇷 韩国特殊|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 12|🇯🇵 日本特殊|@ripaojiedian
+      - 4FreeIran-1665
+      - 1|🇷🇺2 |  2.7MB/s
       - _CH_瑞士
-      - 4Kian-3386
-      - 4Kian-1631
-      - 2|🇸🇬1 |  4.6MB/s
+      - 11|🇰🇷 韩国特殊|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
