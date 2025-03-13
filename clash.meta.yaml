@@ -26,10 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 2|🌀3- |  14.4MB/s, server: ti3hyra4.slashdevslashnetslashtun.net, port: 16008, type: ss, cipher: aes-256-gcm, password: A2IA8TWD9XT9TJUG, udp: true}
-- {name: 2|🇺🇸5 |  2.7MB/s, server: 206.245.211.15, port: 19005, type: ss, cipher: aes-256-gcm, password: ZZ742AZT1DKLRDIF, udp: true}
+- {name: 12|🇸🇬 狮城特殊|@ripaojiedian, server: 52.196.181.68, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 12|🇰🇷 韩国特殊|@ripaojiedian, server: 43.203.229.162, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: _CH_瑞士, server: 84.17.53.160, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 1|🇳🇱1 |  4.4MB/s, server: 51.15.27.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 2|🌀3- |  14.4MB/s, server: ti3hyra4.slashdevslashnetslashtun.net, port: 16008, type: ss, cipher: aes-256-gcm, password: A2IA8TWD9XT9TJUG, udp: true}
 - {name: 2|🇸🇬1 |  4.6MB/s, server: 54.254.138.40, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -43,10 +43,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🌀3- |  14.4MB/s
-      - 2|🇺🇸5 |  2.7MB/s
+      - 12|🇸🇬 狮城特殊|@ripaojiedian
+      - 12|🇰🇷 韩国特殊|@ripaojiedian
       - _CH_瑞士
-      - 1|🇳🇱1 |  4.4MB/s
+      - 2|🌀3- |  14.4MB/s
       - 2|🇸🇬1 |  4.6MB/s
   - name: 🔰 节点选择
     type: select
@@ -59,10 +59,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🌀3- |  14.4MB/s
-      - 2|🇺🇸5 |  2.7MB/s
+      - 12|🇸🇬 狮城特殊|@ripaojiedian
+      - 12|🇰🇷 韩国特殊|@ripaojiedian
       - _CH_瑞士
-      - 1|🇳🇱1 |  4.4MB/s
+      - 2|🌀3- |  14.4MB/s
       - 2|🇸🇬1 |  4.6MB/s
   - name: ♻️ 可能受限
     type: load-balance
@@ -70,10 +70,10 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 2|🌀3- |  14.4MB/s
-      - 2|🇺🇸5 |  2.7MB/s
+      - 12|🇸🇬 狮城特殊|@ripaojiedian
+      - 12|🇰🇷 韩国特殊|@ripaojiedian
       - _CH_瑞士
-      - 1|🇳🇱1 |  4.4MB/s
+      - 2|🌀3- |  14.4MB/s
       - 2|🇸🇬1 |  4.6MB/s
   - name: 🐟 漏网之鱼
     type: select
