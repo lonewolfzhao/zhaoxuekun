@@ -26,7 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 4Kian-304, server: 94.72.97.160, port: 11102, type: ss, cipher: chacha20-ietf-poly1305, password: 3b06f96b73d2584c, udp: true}
 - {name: 4Kian-87, server: 23.162.56.206, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 620c5b5108120a72, udp: true}
+- {name: _NL_荷兰, server: 45.158.171.110, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -39,7 +41,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Kian-304
       - 4Kian-87
+      - _NL_荷兰
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -51,14 +55,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Kian-304
       - 4Kian-87
+      - _NL_荷兰
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 4Kian-304
       - 4Kian-87
+      - _NL_荷兰
   - name: 🐟 漏网之鱼
     type: select
     proxies:
