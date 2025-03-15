@@ -26,7 +26,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Sarina-1297, server: 52.196.181.68, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 1|🇺🇸4 |  5.2MB/s, server: 34.210.253.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Sarina-1630, server: okanc.node-is.green, port: 21115, type: ss, cipher: aes-256-gcm, password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -40,7 +40,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Sarina-1297
+      - 1|🇺🇸4 |  5.2MB/s
       - 4Sarina-1630
   - name: 🔰 节点选择
     type: select
@@ -53,7 +53,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Sarina-1297
+      - 1|🇺🇸4 |  5.2MB/s
       - 4Sarina-1630
   - name: ♻️ 可能受限
     type: load-balance
@@ -61,7 +61,7 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Sarina-1297
+      - 1|🇺🇸4 |  5.2MB/s
       - 4Sarina-1630
   - name: 🐟 漏网之鱼
     type: select
