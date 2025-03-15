@@ -26,9 +26,8 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 4Sarina-1297, server: 52.196.181.68, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Sarina-1630, server: okanc.node-is.green, port: 21115, type: ss, cipher: aes-256-gcm, password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83, udp: true}
-- {name: 12|tg频道:@ripaojiedian, server: 35.77.94.139, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _GB_英国, server: 51.15.23.63, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -41,9 +40,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Sarina-1297
       - 4Sarina-1630
-      - 12|tg频道:@ripaojiedian
-      - _GB_英国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -55,18 +53,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Sarina-1297
       - 4Sarina-1630
-      - 12|tg频道:@ripaojiedian
-      - _GB_英国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 4Sarina-1297
       - 4Sarina-1630
-      - 12|tg频道:@ripaojiedian
-      - _GB_英国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
