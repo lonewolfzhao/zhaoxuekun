@@ -26,14 +26,14 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 2|🇭🇰4 |  4.3MB/s, server: 120.198.71.173, port: 12221, type: trojan, password: 64f4f8e7-cf41-4e53-b123-5e8e9f27defa, sni: mmbiz.redapricotcloud.com, skip-cert-verify: true, udp: true}
-- {name: 2|🇯🇵6 |  4.2MB/s, server: 18.182.5.123, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 2|🇹🇼2 |  1.6MB/s, server: sohtsa.taiwanesefood.link, port: 443, type: trojan, password: 7pE3OSjFe9xFey8YyCgaIaz3Zu2CORpananc34DRlgSyO83XTyNjC4xAIue30YKFCCDlx, sni: sohtsa.taiwanesefood.link, skip-cert-verify: true, udp: true}
-- {name: 4Sarina-1153, server: 13.114.76.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "2,12|🇯🇵 日本特殊|@ripaojiedian", server: 54.238.186.53, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 2|🇯🇵11 |  5.8MB/s, server: 13.230.168.61, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 2|🇯🇵10 |  6.0MB/s, server: 13.230.142.42, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 2|🇯🇵5 |  6.2MB/s, server: mailbox.meijireform.com, port: 443, type: trojan, password: FeCOjFDq3aXx8BD39R2O4zxSxNDY3R4zl3x6K2SZaZY3ElTRaO5EeR08yNnSI0Zew9lyC, sni: mailbox.meijireform.com, skip-cert-verify: true, udp: true}
-- {name: 4Sarina-1211, server: 3.112.13.110, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 2|🇭🇰4 |  4.3MB/s, server: 120.198.71.173, port: 12221, type: trojan, password: 64f4f8e7-cf41-4e53-b123-5e8e9f27defa, sni: mmbiz.redapricotcloud.com, skip-cert-verify: true, udp: true}
+- {name: 4Sarina-1153, server: 13.114.76.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 2|🇸🇬4 |  5.0MB/s, server: 13.229.233.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 2|🇸🇬2 |  5.7MB/s, server: 13.215.250.172, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Sarina-1280, server: 52.68.10.224, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 2|🇸🇬3 |  1.1MB/s, server: 54.179.179.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -46,14 +46,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🇭🇰4 |  4.3MB/s
-      - 2|🇯🇵6 |  4.2MB/s
-      - 2|🇹🇼2 |  1.6MB/s
-      - 4Sarina-1153
+      - 2,12|🇯🇵 日本特殊|@ripaojiedian
       - 2|🇯🇵11 |  5.8MB/s
-      - 2|🇯🇵10 |  6.0MB/s
-      - 2|🇯🇵5 |  6.2MB/s
-      - 4Sarina-1211
+      - 2|🇭🇰4 |  4.3MB/s
+      - 4Sarina-1153
+      - 2|🇸🇬4 |  5.0MB/s
+      - 2|🇸🇬2 |  5.7MB/s
+      - 4Sarina-1280
+      - 2|🇸🇬3 |  1.1MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -65,28 +65,28 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🇭🇰4 |  4.3MB/s
-      - 2|🇯🇵6 |  4.2MB/s
-      - 2|🇹🇼2 |  1.6MB/s
-      - 4Sarina-1153
+      - 2,12|🇯🇵 日本特殊|@ripaojiedian
       - 2|🇯🇵11 |  5.8MB/s
-      - 2|🇯🇵10 |  6.0MB/s
-      - 2|🇯🇵5 |  6.2MB/s
-      - 4Sarina-1211
+      - 2|🇭🇰4 |  4.3MB/s
+      - 4Sarina-1153
+      - 2|🇸🇬4 |  5.0MB/s
+      - 2|🇸🇬2 |  5.7MB/s
+      - 4Sarina-1280
+      - 2|🇸🇬3 |  1.1MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 2|🇭🇰4 |  4.3MB/s
-      - 2|🇯🇵6 |  4.2MB/s
-      - 2|🇹🇼2 |  1.6MB/s
-      - 4Sarina-1153
+      - 2,12|🇯🇵 日本特殊|@ripaojiedian
       - 2|🇯🇵11 |  5.8MB/s
-      - 2|🇯🇵10 |  6.0MB/s
-      - 2|🇯🇵5 |  6.2MB/s
-      - 4Sarina-1211
+      - 2|🇭🇰4 |  4.3MB/s
+      - 4Sarina-1153
+      - 2|🇸🇬4 |  5.0MB/s
+      - 2|🇸🇬2 |  5.7MB/s
+      - 4Sarina-1280
+      - 2|🇸🇬3 |  1.1MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -1958,6 +1958,7 @@ rules:
   - DOMAIN-KEYWORD,skyearth8,♻️ 情色可用
   - DOMAIN-KEYWORD,tbmedi,♻️ 情色可用
   - DOMAIN-KEYWORD,surrit,♻️ 情色可用
+  - DOMAIN-KEYWORD,avrebo,♻️ 情色可用
   - DOMAIN-SUFFIX,mushroomtrack.com,♻️ 情色可用
   - DOMAIN-SUFFIX,cloudflare.com,♻️ 情色可用
   - DOMAIN-SUFFIX,google.hk,♻️ 情色可用
