@@ -26,14 +26,11 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: "2,12|🇯🇵 日本特殊|@ripaojiedian", server: 54.238.186.53, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 2|🇯🇵11 |  5.8MB/s, server: 13.230.168.61, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 2|🇭🇰4 |  4.3MB/s, server: 120.198.71.173, port: 12221, type: trojan, password: 64f4f8e7-cf41-4e53-b123-5e8e9f27defa, sni: mmbiz.redapricotcloud.com, skip-cert-verify: true, udp: true}
+- {name: 1|🇯🇵3 |  5.5MB/s, server: sniffle.meijireform.com, port: 18332, type: trojan, password: OZy4RCjByzeYDSZR38Cep8uXA5a8jxxCCATE7B9qnx6N33O28epwa3AOSDw7IFK3YlllC, sni: sniffle.meijireform.com, skip-cert-verify: true, udp: true}
+- {name: 4FreeIran-1253, server: 18.181.194.77, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 1|🇯🇵2 |  2.4MB/s, server: 13.230.20.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 2|🇯🇵10 |  6.0MB/s, server: 13.230.142.42, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Sarina-1153, server: 13.114.76.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 2|🇸🇬4 |  5.0MB/s, server: 13.229.233.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 2|🇸🇬2 |  5.7MB/s, server: 13.215.250.172, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Sarina-1280, server: 52.68.10.224, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 2|🇸🇬3 |  1.1MB/s, server: 54.179.179.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -46,14 +43,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2,12|🇯🇵 日本特殊|@ripaojiedian
-      - 2|🇯🇵11 |  5.8MB/s
-      - 2|🇭🇰4 |  4.3MB/s
+      - 1|🇯🇵3 |  5.5MB/s
+      - 4FreeIran-1253
+      - 1|🇯🇵2 |  2.4MB/s
+      - 2|🇯🇵10 |  6.0MB/s
       - 4Sarina-1153
-      - 2|🇸🇬4 |  5.0MB/s
-      - 2|🇸🇬2 |  5.7MB/s
-      - 4Sarina-1280
-      - 2|🇸🇬3 |  1.1MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -65,28 +59,22 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2,12|🇯🇵 日本特殊|@ripaojiedian
-      - 2|🇯🇵11 |  5.8MB/s
-      - 2|🇭🇰4 |  4.3MB/s
+      - 1|🇯🇵3 |  5.5MB/s
+      - 4FreeIran-1253
+      - 1|🇯🇵2 |  2.4MB/s
+      - 2|🇯🇵10 |  6.0MB/s
       - 4Sarina-1153
-      - 2|🇸🇬4 |  5.0MB/s
-      - 2|🇸🇬2 |  5.7MB/s
-      - 4Sarina-1280
-      - 2|🇸🇬3 |  1.1MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 2,12|🇯🇵 日本特殊|@ripaojiedian
-      - 2|🇯🇵11 |  5.8MB/s
-      - 2|🇭🇰4 |  4.3MB/s
+      - 1|🇯🇵3 |  5.5MB/s
+      - 4FreeIran-1253
+      - 1|🇯🇵2 |  2.4MB/s
+      - 2|🇯🇵10 |  6.0MB/s
       - 4Sarina-1153
-      - 2|🇸🇬4 |  5.0MB/s
-      - 2|🇸🇬2 |  5.7MB/s
-      - 4Sarina-1280
-      - 2|🇸🇬3 |  1.1MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
