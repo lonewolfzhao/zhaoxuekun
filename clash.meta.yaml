@@ -26,10 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 1|🇯🇵3 |  5.5MB/s, server: sniffle.meijireform.com, port: 18332, type: trojan, password: OZy4RCjByzeYDSZR38Cep8uXA5a8jxxCCATE7B9qnx6N33O28epwa3AOSDw7IFK3YlllC, sni: sniffle.meijireform.com, skip-cert-verify: true, udp: true}
-- {name: 4FreeIran-1253, server: 18.181.194.77, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Sarina-1280, server: 52.68.10.224, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Sarina-1304, server: 54.251.193.0, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 1|🇯🇵2 |  2.4MB/s, server: 13.230.20.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 2|🇯🇵10 |  6.0MB/s, server: 13.230.142.42, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Sarina-1153, server: 13.114.76.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -43,10 +42,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 1|🇯🇵3 |  5.5MB/s
-      - 4FreeIran-1253
+      - 4Sarina-1280
+      - 4Sarina-1304
       - 1|🇯🇵2 |  2.4MB/s
-      - 2|🇯🇵10 |  6.0MB/s
       - 4Sarina-1153
   - name: 🔰 节点选择
     type: select
@@ -59,10 +57,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 1|🇯🇵3 |  5.5MB/s
-      - 4FreeIran-1253
+      - 4Sarina-1280
+      - 4Sarina-1304
       - 1|🇯🇵2 |  2.4MB/s
-      - 2|🇯🇵10 |  6.0MB/s
       - 4Sarina-1153
   - name: ♻️ 可能受限
     type: load-balance
@@ -70,10 +67,9 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 1|🇯🇵3 |  5.5MB/s
-      - 4FreeIran-1253
+      - 4Sarina-1280
+      - 4Sarina-1304
       - 1|🇯🇵2 |  2.4MB/s
-      - 2|🇯🇵10 |  6.0MB/s
       - 4Sarina-1153
   - name: 🐟 漏网之鱼
     type: select
