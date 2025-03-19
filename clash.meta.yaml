@@ -27,13 +27,11 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: 4Jadi-1187, server: 3.36.51.187, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 12|tg频道:@ripaojiedian, server: 13.229.209.178, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Jadi-1185, server: 3.34.253.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Jadi-1165, server: 18.142.182.250, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Nika-1199, server: 47.129.39.129, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: _US_美国, server: 54.184.74.88, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 2|🇩🇪1 |  3.2MB/s, server: 16.mamamajd.site, port: 23616, type: vmess, uuid: 195c1e0b-ef90-3321-98e8-eccd06880846, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 16.mamamajd.site}}, udp: true}
-- {name: _US_美国->🇨🇳_CN_中国, server: 54.218.61.43, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Sarina-1304, server: 54.251.193.0, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Sarina-1280, server: 52.68.10.224, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Nika-1179, server: 43.201.85.71, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -47,13 +45,11 @@ proxy-groups:
     interval: 10
     proxies:
       - 4Jadi-1187
-      - 12|tg频道:@ripaojiedian
-      - 4Jadi-1185
       - 4Jadi-1165
+      - 4Nika-1199
       - _US_美国
-      - 2|🇩🇪1 |  3.2MB/s
-      - _US_美国->🇨🇳_CN_中国
-      - 4Sarina-1304
+      - 4Sarina-1280
+      - 4Nika-1179
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -66,13 +62,11 @@ proxy-groups:
     interval: 10
     proxies:
       - 4Jadi-1187
-      - 12|tg频道:@ripaojiedian
-      - 4Jadi-1185
       - 4Jadi-1165
+      - 4Nika-1199
       - _US_美国
-      - 2|🇩🇪1 |  3.2MB/s
-      - _US_美国->🇨🇳_CN_中国
-      - 4Sarina-1304
+      - 4Sarina-1280
+      - 4Nika-1179
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -80,13 +74,11 @@ proxy-groups:
     interval: 10
     proxies:
       - 4Jadi-1187
-      - 12|tg频道:@ripaojiedian
-      - 4Jadi-1185
       - 4Jadi-1165
+      - 4Nika-1199
       - _US_美国
-      - 2|🇩🇪1 |  3.2MB/s
-      - _US_美国->🇨🇳_CN_中国
-      - 4Sarina-1304
+      - 4Sarina-1280
+      - 4Nika-1179
   - name: 🐟 漏网之鱼
     type: select
     proxies:
