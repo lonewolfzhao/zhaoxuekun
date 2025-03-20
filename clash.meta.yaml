@@ -27,6 +27,8 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: 4Mohsen-1285, server: 3.112.13.110, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 1|🇺🇸1 |  4.5MB/s, server: 194.5.215.59, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: 4Mohsen-1285 2, server: 3.112.13.110, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Mohsen-1289, server: 3.34.253.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Jadi-1187, server: 3.36.51.187, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
@@ -42,6 +44,8 @@ proxy-groups:
     interval: 10
     proxies:
       - 4Mohsen-1285
+      - 1|🇺🇸1 |  4.5MB/s
+      - 4Mohsen-1285 2
       - 4Mohsen-1289
       - 4Jadi-1187
   - name: 🔰 节点选择
@@ -56,6 +60,8 @@ proxy-groups:
     interval: 10
     proxies:
       - 4Mohsen-1285
+      - 1|🇺🇸1 |  4.5MB/s
+      - 4Mohsen-1285 2
       - 4Mohsen-1289
       - 4Jadi-1187
   - name: ♻️ 可能受限
@@ -65,6 +71,8 @@ proxy-groups:
     interval: 10
     proxies:
       - 4Mohsen-1285
+      - 1|🇺🇸1 |  4.5MB/s
+      - 4Mohsen-1285 2
       - 4Mohsen-1289
       - 4Jadi-1187
   - name: 🐟 漏网之鱼
