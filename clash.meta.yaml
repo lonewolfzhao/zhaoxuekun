@@ -26,10 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Jadi-1225, server: 47.129.37.231, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国, server: socepy.homeofbrave.net, port: 443, type: trojan, password: 3wXO97Y83a9ynFAgyajxxpz6qeSSCu6z3C3RDwTNYcDZyCAFglBE3ANDFA0e7SFaIlDOq, sni: socepy.homeofbrave.net, skip-cert-verify: true, udp: true}
+- {name: 4Mohsen-1285, server: 3.112.13.110, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Mohsen-1289, server: 3.34.253.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Jadi-1187, server: 3.36.51.187, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Sarina-1304, server: 54.251.193.0, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +41,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Jadi-1225
-      - _US_美国
+      - 4Mohsen-1285
+      - 4Mohsen-1289
       - 4Jadi-1187
-      - 4Sarina-1304
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,20 +55,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Jadi-1225
-      - _US_美国
+      - 4Mohsen-1285
+      - 4Mohsen-1289
       - 4Jadi-1187
-      - 4Sarina-1304
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Jadi-1225
-      - _US_美国
+      - 4Mohsen-1285
+      - 4Mohsen-1289
       - 4Jadi-1187
-      - 4Sarina-1304
   - name: 🐟 漏网之鱼
     type: select
     proxies:
