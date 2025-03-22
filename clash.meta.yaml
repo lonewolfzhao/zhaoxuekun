@@ -25,35 +25,11 @@ dns:
     geoip-code: CN
     ipcidr:
     - 240.0.0.0/4
-unified-delay: true
-global-client-fingerprint: chrome
-dns:
-  enable: true
-  listen: :53
-  ipv6: true
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  default-nameserver:
-  - 223.5.5.5
-  - 8.8.8.8
-  nameserver:
-  - https://dns.alidns.com/dns-query
-  - https://doh.pub/dns-query
-  fallback:
-  - https://1.0.0.1/dns-query
-  - tls://dns.google
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
-    ipcidr:
-    - 240.0.0.0/4
 proxies:
-- {name: 台湾1|BGP|0.2x, server: bgp-xdd.blue-bgp.xyz, port: 26021, type: vmess, uuid: 3a6c789f-0548-4ca3-83c0-2c78acbee811, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 1|🇯🇵10 |  5.2MB/s, server: 3.112.18.99, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 1|🇺🇸27 |  5.1MB/s, server: 18.236.187.71, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|🇺🇸22 |  5.4MB/s, server: 35.93.21.189, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Jadi-1349, server: 43.207.71.139, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 深圳香港IPLC专用网(精品网) - TAP, server: sz.common-buy-intl.aliyun.com-alipay.site, port: 34367, type: ssr, cipher: chacha20, password: 6QmZaM, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "a.tencdn.tk,b.tencdn.tk,c.tencdn.tk,d.tencdn.tk,img.tencdn.tk,g.tencdn.tk,i.tencdn.tk", udp: true}
+- {name: 美国洛杉矶IPLC专用网(精品网), server: oooimg.common-buy-intl.aliyun.com-alipay.site, port: 34367, type: ssr, cipher: chacha20, password: 6QmZaM, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "a.tencdn.tk,b.tencdn.tk,c.tencdn.tk,d.tencdn.tk,img.tencdn.tk,g.tencdn.tk,i.tencdn.tk", udp: true}
 - {name: 1|🇯🇵3 |  5.6MB/s, server: 54.248.66.29, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 1|🇯🇵3 |  5.6MB/s 2, server: 54.248.66.29, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -66,12 +42,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 台湾1|BGP|0.2x
-      - 1|🇯🇵10 |  5.2MB/s
-      - 1|🇺🇸27 |  5.1MB/s
-      - 0|🇺🇸22 |  5.4MB/s
-      - 4Jadi-1349
+      - 深圳香港IPLC专用网(精品网) - TAP
+      - 美国洛杉矶IPLC专用网(精品网)
       - 1|🇯🇵3 |  5.6MB/s
+      - 1|🇯🇵3 |  5.6MB/s 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -83,24 +57,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 台湾1|BGP|0.2x
-      - 1|🇯🇵10 |  5.2MB/s
-      - 1|🇺🇸27 |  5.1MB/s
-      - 0|🇺🇸22 |  5.4MB/s
-      - 4Jadi-1349
+      - 深圳香港IPLC专用网(精品网) - TAP
+      - 美国洛杉矶IPLC专用网(精品网)
       - 1|🇯🇵3 |  5.6MB/s
+      - 1|🇯🇵3 |  5.6MB/s 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 台湾1|BGP|0.2x
-      - 1|🇯🇵10 |  5.2MB/s
-      - 1|🇺🇸27 |  5.1MB/s
-      - 0|🇺🇸22 |  5.4MB/s
-      - 4Jadi-1349
+      - 深圳香港IPLC专用网(精品网) - TAP
+      - 美国洛杉矶IPLC专用网(精品网)
       - 1|🇯🇵3 |  5.6MB/s
+      - 1|🇯🇵3 |  5.6MB/s 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
