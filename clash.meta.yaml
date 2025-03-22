@@ -26,10 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 深圳香港IPLC专用网(精品网) - TAP, server: sz.common-buy-intl.aliyun.com-alipay.site, port: 34367, type: ssr, cipher: chacha20, password: 6QmZaM, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "a.tencdn.tk,b.tencdn.tk,c.tencdn.tk,d.tencdn.tk,img.tencdn.tk,g.tencdn.tk,i.tencdn.tk", udp: true}
-- {name: 美国洛杉矶IPLC专用网(精品网), server: oooimg.common-buy-intl.aliyun.com-alipay.site, port: 34367, type: ssr, cipher: chacha20, password: 6QmZaM, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "a.tencdn.tk,b.tencdn.tk,c.tencdn.tk,d.tencdn.tk,img.tencdn.tk,g.tencdn.tk,i.tencdn.tk", udp: true}
-- {name: 1|🇯🇵3 |  5.6MB/s, server: 54.248.66.29, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 1|🇯🇵3 |  5.6MB/s 2, server: 54.248.66.29, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 1|🇰🇷5 |  4.3MB/s, server: 54.180.1.213, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Jadi-1176, server: 18.179.8.12, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 1|🇰🇷2 |  5.9MB/s, server: 3.35.138.170, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +41,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 深圳香港IPLC专用网(精品网) - TAP
-      - 美国洛杉矶IPLC专用网(精品网)
-      - 1|🇯🇵3 |  5.6MB/s
-      - 1|🇯🇵3 |  5.6MB/s 2
+      - 1|🇰🇷5 |  4.3MB/s
+      - 4Jadi-1176
+      - 1|🇰🇷2 |  5.9MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,20 +55,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 深圳香港IPLC专用网(精品网) - TAP
-      - 美国洛杉矶IPLC专用网(精品网)
-      - 1|🇯🇵3 |  5.6MB/s
-      - 1|🇯🇵3 |  5.6MB/s 2
+      - 1|🇰🇷5 |  4.3MB/s
+      - 4Jadi-1176
+      - 1|🇰🇷2 |  5.9MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 深圳香港IPLC专用网(精品网) - TAP
-      - 美国洛杉矶IPLC专用网(精品网)
-      - 1|🇯🇵3 |  5.6MB/s
-      - 1|🇯🇵3 |  5.6MB/s 2
+      - 1|🇰🇷5 |  4.3MB/s
+      - 4Jadi-1176
+      - 1|🇰🇷2 |  5.9MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
