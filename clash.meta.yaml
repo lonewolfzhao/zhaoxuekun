@@ -26,11 +26,16 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 2|🇸🇬2 |  6.1MB/s, server: wb.kaiqsz.com, port: 48291, type: trojan, password: 1e1f22c7-9cbf-4c02-a1eb-b47c7a8a915c, sni: mmbiz1.redapricotcloud.com, skip-cert-verify: true, udp: true}
+- {name: 1|🇰🇷2 |  5.9MB/s, server: 3.35.138.170, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 2|🇰🇷12 |  6.0MB/s, server: 43.203.206.73, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 2|🇰🇷4 |  6.0MB/s, server: 3.38.213.181, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 13|香港5|@ripaojiedian, server: 120.198.71.184, port: 10701, type: vmess, uuid: CE361194-7D70-614C-780B-D3BDB61D0257, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 1|🇰🇷5 |  4.3MB/s, server: 54.180.1.213, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Sarina-1319, server: 54.169.134.156, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4FreeIran-1312, server: 52.195.175.110, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 2|🇺🇸37 |  5.6MB/s, server: 34.209.89.4, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 1|🇰🇷5 |  4.3MB/s 2, server: 54.180.1.213, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 2|🌀10-SE |  5.0MB/s, server: Support.onetwothree123.ir, port: 2083, type: vmess, uuid: 2ca1bdb5-41aa-4ecb-a779-de43825dda5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: Support.onetwothree123.ir}}, udp: true}
+- {name: _US_美国, server: 35.94.124.230, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国->🇸🇬_SG_新加坡, server: 35.87.37.159, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -43,11 +48,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 2|🇸🇬2 |  6.1MB/s
+      - 1|🇰🇷2 |  5.9MB/s
+      - 2|🇰🇷12 |  6.0MB/s
+      - 2|🇰🇷4 |  6.0MB/s
       - 13|香港5|@ripaojiedian
-      - 1|🇰🇷5 |  4.3MB/s
+      - 4Sarina-1319
       - 4FreeIran-1312
-      - 2|🇺🇸37 |  5.6MB/s
-      - 1|🇰🇷5 |  4.3MB/s 2
+      - 2|🌀10-SE |  5.0MB/s
+      - _US_美国
+      - _US_美国->🇸🇬_SG_新加坡
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -59,22 +69,32 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 2|🇸🇬2 |  6.1MB/s
+      - 1|🇰🇷2 |  5.9MB/s
+      - 2|🇰🇷12 |  6.0MB/s
+      - 2|🇰🇷4 |  6.0MB/s
       - 13|香港5|@ripaojiedian
-      - 1|🇰🇷5 |  4.3MB/s
+      - 4Sarina-1319
       - 4FreeIran-1312
-      - 2|🇺🇸37 |  5.6MB/s
-      - 1|🇰🇷5 |  4.3MB/s 2
+      - 2|🌀10-SE |  5.0MB/s
+      - _US_美国
+      - _US_美国->🇸🇬_SG_新加坡
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 2|🇸🇬2 |  6.1MB/s
+      - 1|🇰🇷2 |  5.9MB/s
+      - 2|🇰🇷12 |  6.0MB/s
+      - 2|🇰🇷4 |  6.0MB/s
       - 13|香港5|@ripaojiedian
-      - 1|🇰🇷5 |  4.3MB/s
+      - 4Sarina-1319
       - 4FreeIran-1312
-      - 2|🇺🇸37 |  5.6MB/s
-      - 1|🇰🇷5 |  4.3MB/s 2
+      - 2|🌀10-SE |  5.0MB/s
+      - _US_美国
+      - _US_美国->🇸🇬_SG_新加坡
   - name: 🐟 漏网之鱼
     type: select
     proxies:
