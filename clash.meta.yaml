@@ -26,9 +26,11 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 美国洛杉矶IPLC专用网(精品网), server: oooimg.common-buy-intl.aliyun.com-alipay.site, port: 34367, type: ssr, cipher: chacha20, password: 6QmZaM, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "a.tencdn.tk,b.tencdn.tk,c.tencdn.tk,d.tencdn.tk,img.tencdn.tk,g.tencdn.tk,i.tencdn.tk", udp: true}
-- {name: "11,16|日本5|@ripaojiedian", server: 120.198.71.184, port: 10703, type: vmess, uuid: 6A5C1155-BC24-F312-5E67-9E735E36E19A, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 2|🇸🇬2 |  6.1MB/s, server: wb.kaiqsz.com, port: 48291, type: trojan, password: 1e1f22c7-9cbf-4c02-a1eb-b47c7a8a915c, sni: mmbiz1.redapricotcloud.com, skip-cert-verify: true, udp: true}
+- {name: 2|🇯🇵4 |  4.2MB/s, server: 57.180.35.64, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国, server: 35.94.124.230, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国->🇨🇳_CN_中国, server: 34.209.89.4, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Kian-1206, server: 18.179.8.12, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 2|🌀10-SE |  5.0MB/s, server: Support.onetwothree123.ir, port: 2083, type: vmess, uuid: 2ca1bdb5-41aa-4ecb-a779-de43825dda5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: Support.onetwothree123.ir}}, udp: true}
 - {name: 4Sarina-1319, server: 54.169.134.156, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -42,9 +44,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国洛杉矶IPLC专用网(精品网)
-      - 11,16|日本5|@ripaojiedian
-      - 2|🇸🇬2 |  6.1MB/s
+      - 2|🇯🇵4 |  4.2MB/s
+      - _US_美国
+      - _US_美国->🇨🇳_CN_中国
+      - 4Kian-1206
+      - 2|🌀10-SE |  5.0MB/s
       - 4Sarina-1319
   - name: 🔰 节点选择
     type: select
@@ -57,9 +61,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国洛杉矶IPLC专用网(精品网)
-      - 11,16|日本5|@ripaojiedian
-      - 2|🇸🇬2 |  6.1MB/s
+      - 2|🇯🇵4 |  4.2MB/s
+      - _US_美国
+      - _US_美国->🇨🇳_CN_中国
+      - 4Kian-1206
+      - 2|🌀10-SE |  5.0MB/s
       - 4Sarina-1319
   - name: ♻️ 可能受限
     type: load-balance
@@ -67,9 +73,11 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 美国洛杉矶IPLC专用网(精品网)
-      - 11,16|日本5|@ripaojiedian
-      - 2|🇸🇬2 |  6.1MB/s
+      - 2|🇯🇵4 |  4.2MB/s
+      - _US_美国
+      - _US_美国->🇨🇳_CN_中国
+      - 4Kian-1206
+      - 2|🌀10-SE |  5.0MB/s
       - 4Sarina-1319
   - name: 🐟 漏网之鱼
     type: select
