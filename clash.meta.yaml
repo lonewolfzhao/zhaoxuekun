@@ -26,13 +26,12 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 2|🇰🇷1 |  6.0MB/s, server: 54.180.1.213, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 2|🇺🇸2 |  5.7MB/s, server: 54.244.97.108, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 2|🇺🇸4 |  5.4MB/s, server: 52.27.128.220, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Nika-1343, server: 54.179.97.253, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Nika-1224, server: 13.229.216.120, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Nika-1275, server: 34.222.2.112, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Nika-1353, server: 54.191.187.21, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Nika-1336, server: 54.169.103.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 2|🇺🇸13 |  5.7MB/s, server: 54.244.128.249, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 2|🇯🇵5 |  6.2MB/s, server: 52.197.235.237, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 2|🇺🇸5 |  4.4MB/s, server: 35.161.163.245, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国, server: 35.94.124.230, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -45,13 +44,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🇰🇷1 |  6.0MB/s
-      - 2|🇺🇸2 |  5.7MB/s
-      - 2|🇺🇸4 |  5.4MB/s
+      - 4Nika-1343
+      - 4Nika-1224
+      - 4Nika-1275
+      - 4Nika-1353
+      - 4Nika-1336
       - 2|🇺🇸13 |  5.7MB/s
-      - 2|🇯🇵5 |  6.2MB/s
-      - 2|🇺🇸5 |  4.4MB/s
-      - _US_美国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -63,26 +61,24 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🇰🇷1 |  6.0MB/s
-      - 2|🇺🇸2 |  5.7MB/s
-      - 2|🇺🇸4 |  5.4MB/s
+      - 4Nika-1343
+      - 4Nika-1224
+      - 4Nika-1275
+      - 4Nika-1353
+      - 4Nika-1336
       - 2|🇺🇸13 |  5.7MB/s
-      - 2|🇯🇵5 |  6.2MB/s
-      - 2|🇺🇸5 |  4.4MB/s
-      - _US_美国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 2|🇰🇷1 |  6.0MB/s
-      - 2|🇺🇸2 |  5.7MB/s
-      - 2|🇺🇸4 |  5.4MB/s
+      - 4Nika-1343
+      - 4Nika-1224
+      - 4Nika-1275
+      - 4Nika-1353
+      - 4Nika-1336
       - 2|🇺🇸13 |  5.7MB/s
-      - 2|🇯🇵5 |  6.2MB/s
-      - 2|🇺🇸5 |  4.4MB/s
-      - _US_美国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
