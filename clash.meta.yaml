@@ -26,10 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 4Mohsen-1169, server: 18.181.194.77, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 2|🇰🇷7 |  4.0MB/s, server: 43.203.206.73, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Kian-1316, server: 47.128.245.70, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 2|🇸🇬1 |  6.2MB/s, server: 54.169.134.156, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Kian-26, server: 37.60.249.220, port: 43045, type: ss, cipher: chacha20-ietf-poly1305, password: 6cefb8d588026975, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +41,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Mohsen-1169
       - 2|🇰🇷7 |  4.0MB/s
-      - 4Kian-1316
       - 2|🇸🇬1 |  6.2MB/s
-      - 4Kian-26
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,20 +55,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Mohsen-1169
       - 2|🇰🇷7 |  4.0MB/s
-      - 4Kian-1316
       - 2|🇸🇬1 |  6.2MB/s
-      - 4Kian-26
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 4Mohsen-1169
       - 2|🇰🇷7 |  4.0MB/s
-      - 4Kian-1316
       - 2|🇸🇬1 |  6.2MB/s
-      - 4Kian-26
   - name: 🐟 漏网之鱼
     type: select
     proxies:
