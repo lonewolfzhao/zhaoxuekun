@@ -27,11 +27,10 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: 1|🇸🇬9 |  6.1MB/s, server: 18.141.139.23, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 1|🇸🇬8 |  2.9MB/s, server: 13.229.73.58, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 2|🇸🇬4 |  6.2MB/s, server: 54.169.188.214, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Kian-1240, server: 3.36.72.86, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|🇸🇬6 |  3.9MB/s, server: 47.129.38.96, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Nika-1287, server: 54.199.64.156, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|🇰🇷1 |  5.7MB/s, server: 13.125.231.170, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|🇸🇬4 |  6.1MB/s, server: 54.169.64.23, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|🇰🇷1 |  6.1MB/s, server: 3.38.92.181, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 1|🇰🇷1 |  5.4MB/s, server: 13.125.21.61, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 1|🇰🇷4 |  5.6MB/s, server: 13.124.229.107, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
@@ -47,11 +46,10 @@ proxy-groups:
     interval: 10
     proxies:
       - 1|🇸🇬9 |  6.1MB/s
-      - 1|🇸🇬8 |  2.9MB/s
+      - 2|🇸🇬4 |  6.2MB/s
+      - 4Kian-1240
+      - 0|🇸🇬6 |  3.9MB/s
       - 4Nika-1287
-      - 0|🇰🇷1 |  5.7MB/s
-      - 0|🇸🇬4 |  6.1MB/s
-      - 0|🇰🇷1 |  6.1MB/s
       - 1|🇰🇷1 |  5.4MB/s
       - 1|🇰🇷4 |  5.6MB/s
   - name: 🔰 节点选择
@@ -66,11 +64,10 @@ proxy-groups:
     interval: 10
     proxies:
       - 1|🇸🇬9 |  6.1MB/s
-      - 1|🇸🇬8 |  2.9MB/s
+      - 2|🇸🇬4 |  6.2MB/s
+      - 4Kian-1240
+      - 0|🇸🇬6 |  3.9MB/s
       - 4Nika-1287
-      - 0|🇰🇷1 |  5.7MB/s
-      - 0|🇸🇬4 |  6.1MB/s
-      - 0|🇰🇷1 |  6.1MB/s
       - 1|🇰🇷1 |  5.4MB/s
       - 1|🇰🇷4 |  5.6MB/s
   - name: ♻️ 可能受限
@@ -80,11 +77,10 @@ proxy-groups:
     interval: 10
     proxies:
       - 1|🇸🇬9 |  6.1MB/s
-      - 1|🇸🇬8 |  2.9MB/s
+      - 2|🇸🇬4 |  6.2MB/s
+      - 4Kian-1240
+      - 0|🇸🇬6 |  3.9MB/s
       - 4Nika-1287
-      - 0|🇰🇷1 |  5.7MB/s
-      - 0|🇸🇬4 |  6.1MB/s
-      - 0|🇰🇷1 |  6.1MB/s
       - 1|🇰🇷1 |  5.4MB/s
       - 1|🇰🇷4 |  5.6MB/s
   - name: 🐟 漏网之鱼
