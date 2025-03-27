@@ -26,9 +26,16 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 0|🇯🇵1 |  3.2MB/s, server: 43.207.203.164, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Sarina-1130, server: 18.179.8.12, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|🇸🇬4 |  6.1MB/s, server: 54.169.64.23, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 2|🇰🇷7 |  4.0MB/s, server: 43.203.206.73, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|🇰🇷1 |  6.1MB/s, server: 3.38.92.181, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4FreeIran-1169, server: 13.213.69.248, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4FreeIran-622, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
 - {name: 2|🇺🇸24 |  5.3MB/s, server: 35.93.21.189, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Mohsen-1169, server: 18.181.194.77, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 2|🇰🇷7 |  4.0MB/s, server: 43.203.206.73, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 2|🇰🇷7 |  4.0MB/s 2, server: 43.203.206.73, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -41,9 +48,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 0|🇯🇵1 |  3.2MB/s
+      - 4Sarina-1130
+      - 0|🇸🇬4 |  6.1MB/s
+      - 2|🇰🇷7 |  4.0MB/s
+      - 0|🇰🇷1 |  6.1MB/s
+      - 4FreeIran-1169
+      - 4FreeIran-622
       - 2|🇺🇸24 |  5.3MB/s
       - 4Mohsen-1169
-      - 2|🇰🇷7 |  4.0MB/s
+      - 2|🇰🇷7 |  4.0MB/s 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -55,18 +69,32 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 0|🇯🇵1 |  3.2MB/s
+      - 4Sarina-1130
+      - 0|🇸🇬4 |  6.1MB/s
+      - 2|🇰🇷7 |  4.0MB/s
+      - 0|🇰🇷1 |  6.1MB/s
+      - 4FreeIran-1169
+      - 4FreeIran-622
       - 2|🇺🇸24 |  5.3MB/s
       - 4Mohsen-1169
-      - 2|🇰🇷7 |  4.0MB/s
+      - 2|🇰🇷7 |  4.0MB/s 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 0|🇯🇵1 |  3.2MB/s
+      - 4Sarina-1130
+      - 0|🇸🇬4 |  6.1MB/s
+      - 2|🇰🇷7 |  4.0MB/s
+      - 0|🇰🇷1 |  6.1MB/s
+      - 4FreeIran-1169
+      - 4FreeIran-622
       - 2|🇺🇸24 |  5.3MB/s
       - 4Mohsen-1169
-      - 2|🇰🇷7 |  4.0MB/s
+      - 2|🇰🇷7 |  4.0MB/s 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
