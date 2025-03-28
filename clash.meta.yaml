@@ -26,14 +26,11 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 2|🇸🇬6 |  6.0MB/s, server: okanc.node-is.green, port: 21114, type: ss, cipher: aes-256-gcm, password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83, udp: true}
 - {name: "2,12|🇸🇬 新加坡|@ripaojiedian", server: cm2.xcone.xyz, port: 56138, type: ssr, cipher: aes-256-cfb, password: uiACqrIr, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: sg2-cdn-route.couldflare-cdn.com, udp: true}
-- {name: 4FreeIran-1121, server: 13.250.106.255, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 2|🇺🇸9 |  5.4MB/s, server: 194.5.215.59, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: 4FreeIran-1219, server: 54.169.103.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Nika-1287, server: 54.199.64.156, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "2,12,13|台湾2|@ripaojiedian", server: wb.kaiqsz.com, port: 42765, type: trojan, password: 6e8b9913-5277-4627-95b0-86766ae65ad6, sni: mmbiz1.redapricotcloud.com, skip-cert-verify: true, udp: true}
-- {name: 1|🇰🇷4 |  5.6MB/s, server: 13.124.229.107, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 2|🇰🇷5 |  6.1MB/s, server: 3.36.26.148, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 2|🇯🇵2 |  3.7MB/s, server: 43.207.157.253, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4FreeIran-17, server: 45.87.175.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -46,14 +43,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 2|🇸🇬6 |  6.0MB/s
       - 2,12|🇸🇬 新加坡|@ripaojiedian
-      - 4FreeIran-1121
+      - 2|🇺🇸9 |  5.4MB/s
+      - 4FreeIran-1219
       - 4Nika-1287
-      - 2,12,13|台湾2|@ripaojiedian
-      - 1|🇰🇷4 |  5.6MB/s
-      - 2|🇰🇷5 |  6.1MB/s
-      - 2|🇯🇵2 |  3.7MB/s
-      - 4FreeIran-17
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -65,28 +59,22 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 2|🇸🇬6 |  6.0MB/s
       - 2,12|🇸🇬 新加坡|@ripaojiedian
-      - 4FreeIran-1121
+      - 2|🇺🇸9 |  5.4MB/s
+      - 4FreeIran-1219
       - 4Nika-1287
-      - 2,12,13|台湾2|@ripaojiedian
-      - 1|🇰🇷4 |  5.6MB/s
-      - 2|🇰🇷5 |  6.1MB/s
-      - 2|🇯🇵2 |  3.7MB/s
-      - 4FreeIran-17
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 2|🇸🇬6 |  6.0MB/s
       - 2,12|🇸🇬 新加坡|@ripaojiedian
-      - 4FreeIran-1121
+      - 2|🇺🇸9 |  5.4MB/s
+      - 4FreeIran-1219
       - 4Nika-1287
-      - 2,12,13|台湾2|@ripaojiedian
-      - 1|🇰🇷4 |  5.6MB/s
-      - 2|🇰🇷5 |  6.1MB/s
-      - 2|🇯🇵2 |  3.7MB/s
-      - 4FreeIran-17
   - name: 🐟 漏网之鱼
     type: select
     proxies:
