@@ -26,8 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4FreeIran-1224, server: 54.178.177.97, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 11|🇯🇵 日本特殊|@ripaojiedian, server: 43.203.206.73, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Mohsen-1266, server: 43.203.249.105, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 12|🇸🇬 新加坡|@ripaojiedian, server: cm2.xcone.xyz, port: 56138, type: ssr, cipher: aes-256-cfb, password: uiACqrIr, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: sg2-cdn-route.couldflare-cdn.com, udp: true}
+- {name: 4Mohsen-1264, server: 43.202.67.225, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Nika-1278, server: 54.199.64.156, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -40,8 +42,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4FreeIran-1224
-      - 11|🇯🇵 日本特殊|@ripaojiedian
+      - 4Mohsen-1266
+      - 12|🇸🇬 新加坡|@ripaojiedian
+      - 4Mohsen-1264
+      - 4Nika-1278
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -53,16 +57,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4FreeIran-1224
-      - 11|🇯🇵 日本特殊|@ripaojiedian
+      - 4Mohsen-1266
+      - 12|🇸🇬 新加坡|@ripaojiedian
+      - 4Mohsen-1264
+      - 4Nika-1278
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4FreeIran-1224
-      - 11|🇯🇵 日本特殊|@ripaojiedian
+      - 4Mohsen-1266
+      - 12|🇸🇬 新加坡|@ripaojiedian
+      - 4Mohsen-1264
+      - 4Nika-1278
   - name: 🐟 漏网之鱼
     type: select
     proxies:
