@@ -26,12 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: "香港01{优化1|V2ray}", server: hk1.awslcn.info, port: 25242, type: vmess, uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk1.awslcn.info}}, udp: true}
-- {name: 4Mohsen-1589, server: okanc.node-is.green, port: 21114, type: ss, cipher: aes-256-gcm, password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83, udp: true}
-- {name: "香港05{优化1|V2ray}", server: hk1.awslcn.info, port: 25244, type: vmess, uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk1.awslcn.info}}, udp: true}
-- {name: 4Kian-1248, server: 18.183.76.102, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Mohsen-1291, server: 54.69.142.224, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 1|🇸🇬2 |  2.6MB/s, server: 18.141.139.23, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "新加坡02{优化1|V2ray}", server: sg1.awslcn.info, port: 25243, type: vmess, uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}, udp: true}
+- {name: 2|🇺🇸8 |  3.9MB/s, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Sarina-1143, server: 3.38.92.181, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Sarina-1122, server: 18.179.8.12, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 2|🇸🇬2 |  5.9MB/s, server: 54.179.52.175, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -45,12 +43,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港01{优化1|V2ray}
-      - 4Mohsen-1589
-      - 香港05{优化1|V2ray}
-      - 4Kian-1248
-      - 4Mohsen-1291
-      - 1|🇸🇬2 |  2.6MB/s
+      - 新加坡02{优化1|V2ray}
+      - 2|🇺🇸8 |  3.9MB/s
+      - 4Sarina-1143
+      - 4Sarina-1122
       - 2|🇸🇬2 |  5.9MB/s
   - name: 🔰 节点选择
     type: select
@@ -63,12 +59,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港01{优化1|V2ray}
-      - 4Mohsen-1589
-      - 香港05{优化1|V2ray}
-      - 4Kian-1248
-      - 4Mohsen-1291
-      - 1|🇸🇬2 |  2.6MB/s
+      - 新加坡02{优化1|V2ray}
+      - 2|🇺🇸8 |  3.9MB/s
+      - 4Sarina-1143
+      - 4Sarina-1122
       - 2|🇸🇬2 |  5.9MB/s
   - name: ♻️ 可能受限
     type: load-balance
@@ -76,12 +70,10 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 香港01{优化1|V2ray}
-      - 4Mohsen-1589
-      - 香港05{优化1|V2ray}
-      - 4Kian-1248
-      - 4Mohsen-1291
-      - 1|🇸🇬2 |  2.6MB/s
+      - 新加坡02{优化1|V2ray}
+      - 2|🇺🇸8 |  3.9MB/s
+      - 4Sarina-1143
+      - 4Sarina-1122
       - 2|🇸🇬2 |  5.9MB/s
   - name: 🐟 漏网之鱼
     type: select
