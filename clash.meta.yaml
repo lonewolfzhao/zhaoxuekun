@@ -26,9 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Mohsen-1266, server: 43.203.249.105, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 12|🇸🇬 新加坡|@ripaojiedian, server: cm2.xcone.xyz, port: 56138, type: ssr, cipher: aes-256-cfb, password: uiACqrIr, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: sg2-cdn-route.couldflare-cdn.com, udp: true}
+- {name: 1|🇸🇬2 |  2.6MB/s, server: 18.141.139.23, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Mohsen-1264, server: 43.202.67.225, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 2|🇸🇬2 |  5.9MB/s, server: 54.179.52.175, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 12|🇸🇬 新加坡|@ripaojiedian, server: cm2.xcone.xyz, port: 56138, type: ssr, cipher: aes-256-cfb, password: uiACqrIr, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: sg2-cdn-route.couldflare-cdn.com, udp: true}
 - {name: 4Nika-1278, server: 54.199.64.156, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -42,9 +43,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Mohsen-1266
-      - 12|🇸🇬 新加坡|@ripaojiedian
+      - 1|🇸🇬2 |  2.6MB/s
       - 4Mohsen-1264
+      - 2|🇸🇬2 |  5.9MB/s
+      - 12|🇸🇬 新加坡|@ripaojiedian
       - 4Nika-1278
   - name: 🔰 节点选择
     type: select
@@ -57,9 +59,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Mohsen-1266
-      - 12|🇸🇬 新加坡|@ripaojiedian
+      - 1|🇸🇬2 |  2.6MB/s
       - 4Mohsen-1264
+      - 2|🇸🇬2 |  5.9MB/s
+      - 12|🇸🇬 新加坡|@ripaojiedian
       - 4Nika-1278
   - name: ♻️ 可能受限
     type: load-balance
@@ -67,9 +70,10 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Mohsen-1266
-      - 12|🇸🇬 新加坡|@ripaojiedian
+      - 1|🇸🇬2 |  2.6MB/s
       - 4Mohsen-1264
+      - 2|🇸🇬2 |  5.9MB/s
+      - 12|🇸🇬 新加坡|@ripaojiedian
       - 4Nika-1278
   - name: 🐟 漏网之鱼
     type: select
