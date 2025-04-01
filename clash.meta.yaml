@@ -26,12 +26,11 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: "[ss]新加坡 BGP IEPL专线 自动线路", server: iplc-9i6ouzip.hjoyaky.misakra.lat, port: 15538, type: ss, cipher: aes-128-gcm, password: 492e27b0-d18f-4851-bed4-6c6afe1307d7, udp: true}
-- {name: "[ss]日本-02", server: sq.yd.3.07.cdnlinkms001.xyz, port: 26417, type: ss, cipher: aes-128-gcm, password: 492e27b0-d18f-4851-bed4-6c6afe1307d7, udp: true}
-- {name: 1|🇸🇬10 |  6.3MB/s, server: 4f4f231e-su7xc0-su1oku-2gok.b.fosant.com, port: 3683, type: vmess, uuid: 17cdeb6c-f046-11ee-bdac-f23c93141fad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "[ss]德国-02", server: gtm-sg-acm44szjs05.gym0boy.com, port: 41909, type: ss, cipher: aes-128-gcm, password: 492e27b0-d18f-4851-bed4-6c6afe1307d7, udp: true}
-- {name: 4Jadi-1257, server: 43.202.67.225, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Nika-1285, server: 54.218.67.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 1|🇸🇬8 |  6.2MB/s, server: 098e0774-su7xc0-tcm6ys-deip.b.fosant.com, port: 3683, type: vmess, uuid: 7a2512b4-09ee-11f0-8d46-f23c9313b177, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: "[ss]日本-05", server: sq.yd.3.07.cdnlinkms001.xyz, port: 46182, type: ss, cipher: aes-128-gcm, password: 492e27b0-d18f-4851-bed4-6c6afe1307d7, udp: true}
+- {name: _US_美国, server: 52.88.180.184, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Jadi-1257, server: 43.202.67.225, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -44,12 +43,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - "[ss]新加坡 BGP IEPL专线 自动线路"
-      - "[ss]日本-02"
-      - 1|🇸🇬10 |  6.3MB/s
-      - "[ss]德国-02"
-      - 4Jadi-1257
       - 4Nika-1285
+      - 1|🇸🇬8 |  6.2MB/s
+      - "[ss]日本-05"
+      - _US_美国
+      - 4Jadi-1257
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -61,24 +59,22 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - "[ss]新加坡 BGP IEPL专线 自动线路"
-      - "[ss]日本-02"
-      - 1|🇸🇬10 |  6.3MB/s
-      - "[ss]德国-02"
-      - 4Jadi-1257
       - 4Nika-1285
+      - 1|🇸🇬8 |  6.2MB/s
+      - "[ss]日本-05"
+      - _US_美国
+      - 4Jadi-1257
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - "[ss]新加坡 BGP IEPL专线 自动线路"
-      - "[ss]日本-02"
-      - 1|🇸🇬10 |  6.3MB/s
-      - "[ss]德国-02"
-      - 4Jadi-1257
       - 4Nika-1285
+      - 1|🇸🇬8 |  6.2MB/s
+      - "[ss]日本-05"
+      - _US_美国
+      - 4Jadi-1257
   - name: 🐟 漏网之鱼
     type: select
     proxies:
