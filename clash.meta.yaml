@@ -26,14 +26,12 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Sarina-1164, server: 43.203.206.73, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国, server: 54.245.10.2, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国 2, server: 34.217.15.41, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 1|🇸🇬5 |  2.0MB/s, server: b953fc54-su2dc0-sv9ymy-dezg.b.fosant.com, port: 3683, type: vmess, uuid: 952f0a9a-097d-11f0-aa52-f23c93136cb3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 1|🇺🇸2 |  4.2MB/s, server: 54.200.186.111, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 1|🇺🇸14 |  5.6MB/s, server: 34.220.99.226, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 1|🇺🇸16 |  5.6MB/s, server: 54.69.221.160, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 1|🇺🇸19 |  5.5MB/s, server: 44.247.247.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "[ss]新加坡 BGP IEPL专线 自动线路", server: iplc-9i6ouzip.hjoyaky.misakra.lat, port: 15538, type: ss, cipher: aes-128-gcm, password: 492e27b0-d18f-4851-bed4-6c6afe1307d7, udp: true}
+- {name: "[ss]日本-02", server: sq.yd.3.07.cdnlinkms001.xyz, port: 26417, type: ss, cipher: aes-128-gcm, password: 492e27b0-d18f-4851-bed4-6c6afe1307d7, udp: true}
+- {name: 1|🇸🇬10 |  6.3MB/s, server: 4f4f231e-su7xc0-su1oku-2gok.b.fosant.com, port: 3683, type: vmess, uuid: 17cdeb6c-f046-11ee-bdac-f23c93141fad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: "[ss]德国-02", server: gtm-sg-acm44szjs05.gym0boy.com, port: 41909, type: ss, cipher: aes-128-gcm, password: 492e27b0-d18f-4851-bed4-6c6afe1307d7, udp: true}
+- {name: 4Jadi-1257, server: 43.202.67.225, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Nika-1285, server: 54.218.67.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -46,14 +44,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Sarina-1164
-      - _US_美国
-      - _US_美国 2
-      - 1|🇸🇬5 |  2.0MB/s
-      - 1|🇺🇸2 |  4.2MB/s
-      - 1|🇺🇸14 |  5.6MB/s
-      - 1|🇺🇸16 |  5.6MB/s
-      - 1|🇺🇸19 |  5.5MB/s
+      - "[ss]新加坡 BGP IEPL专线 自动线路"
+      - "[ss]日本-02"
+      - 1|🇸🇬10 |  6.3MB/s
+      - "[ss]德国-02"
+      - 4Jadi-1257
+      - 4Nika-1285
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -65,28 +61,24 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Sarina-1164
-      - _US_美国
-      - _US_美国 2
-      - 1|🇸🇬5 |  2.0MB/s
-      - 1|🇺🇸2 |  4.2MB/s
-      - 1|🇺🇸14 |  5.6MB/s
-      - 1|🇺🇸16 |  5.6MB/s
-      - 1|🇺🇸19 |  5.5MB/s
+      - "[ss]新加坡 BGP IEPL专线 自动线路"
+      - "[ss]日本-02"
+      - 1|🇸🇬10 |  6.3MB/s
+      - "[ss]德国-02"
+      - 4Jadi-1257
+      - 4Nika-1285
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Sarina-1164
-      - _US_美国
-      - _US_美国 2
-      - 1|🇸🇬5 |  2.0MB/s
-      - 1|🇺🇸2 |  4.2MB/s
-      - 1|🇺🇸14 |  5.6MB/s
-      - 1|🇺🇸16 |  5.6MB/s
-      - 1|🇺🇸19 |  5.5MB/s
+      - "[ss]新加坡 BGP IEPL专线 自动线路"
+      - "[ss]日本-02"
+      - 1|🇸🇬10 |  6.3MB/s
+      - "[ss]德国-02"
+      - 4Jadi-1257
+      - 4Nika-1285
   - name: 🐟 漏网之鱼
     type: select
     proxies:
