@@ -26,13 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Nika-1602, server: okanc.node-is.green, port: 21115, type: ss, cipher: aes-256-gcm, password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83, udp: true}
-- {name: 1|🇰🇷3 |  1.2MB/s, server: 3.38.92.181, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 2|🇺🇸3 |  3.7MB/s, server: 54.202.0.97, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 1|🇯🇵2 |  4.3MB/s, server: 57.181.29.160, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 12|🇯🇵 日本特殊|@ripaojiedian, server: 43.207.150.238, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 搬瓦工, server: 97.64.23.202, port: 16339, type: ss, cipher: aes-256-gcm, password: 3dfP6PjGUCzvML7n, udp: true}
 - {name: 4Mohsen-1285, server: 54.199.103.26, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国, server: 54.187.221.114, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Jadi-1257, server: 43.202.67.225, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|🇸🇬4 |  6.3MB/s, server: 0dc08664-su7b40-sv0q0f-9w5b.b.fosant.com, port: 3683, type: vmess, uuid: 47adbddb-3307-11ef-8002-f23c93136cb3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -45,13 +42,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Nika-1602
-      - 1|🇰🇷3 |  1.2MB/s
-      - 2|🇺🇸3 |  3.7MB/s
+      - 1|🇯🇵2 |  4.3MB/s
+      - 12|🇯🇵 日本特殊|@ripaojiedian
+      - 搬瓦工
       - 4Mohsen-1285
-      - _US_美国
-      - 4Jadi-1257
-      - 0|🇸🇬4 |  6.3MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -63,26 +57,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Nika-1602
-      - 1|🇰🇷3 |  1.2MB/s
-      - 2|🇺🇸3 |  3.7MB/s
+      - 1|🇯🇵2 |  4.3MB/s
+      - 12|🇯🇵 日本特殊|@ripaojiedian
+      - 搬瓦工
       - 4Mohsen-1285
-      - _US_美国
-      - 4Jadi-1257
-      - 0|🇸🇬4 |  6.3MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Nika-1602
-      - 1|🇰🇷3 |  1.2MB/s
-      - 2|🇺🇸3 |  3.7MB/s
+      - 1|🇯🇵2 |  4.3MB/s
+      - 12|🇯🇵 日本特殊|@ripaojiedian
+      - 搬瓦工
       - 4Mohsen-1285
-      - _US_美国
-      - 4Jadi-1257
-      - 0|🇸🇬4 |  6.3MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
