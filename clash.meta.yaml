@@ -26,13 +26,13 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 12|🇯🇵 日本4|@ripaojiedian, server: rk2.nynode0.cc, port: 22094, type: ss, cipher: chacha20-ietf-poly1305, password: 9d1ca3a4-fe0f-4afc-ab10-66a0476093cc, udp: true}
-- {name: 4Nika-1281, server: 54.169.188.214, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Sarina-1349, server: 47.129.51.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 1|🇸🇬4 |  2.1MB/s, server: 47.129.238.196, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Jadi-1215, server: 3.0.50.161, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 1|🇸🇬5 |  3.6MB/s, server: 54.169.64.13, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 2|🇯🇵21 |  1.9MB/s, server: 54.178.177.97, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Sarina-1349, server: 47.129.51.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 2|🌀6- |  3.9MB/s, server: 13.250.55.223, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 1|🇸🇬13 |  1.0MB/s, server: 46.137.227.253, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Sarina-1349 2, server: 47.129.51.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -45,13 +45,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 12|🇯🇵 日本4|@ripaojiedian
-      - 4Nika-1281
-      - 4Sarina-1349
+      - 1|🇸🇬4 |  2.1MB/s
+      - 4Jadi-1215
+      - 1|🇸🇬5 |  3.6MB/s
       - 2|🇯🇵21 |  1.9MB/s
+      - 4Sarina-1349
       - 2|🌀6- |  3.9MB/s
       - 1|🇸🇬13 |  1.0MB/s
-      - 4Sarina-1349 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -63,26 +63,26 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 12|🇯🇵 日本4|@ripaojiedian
-      - 4Nika-1281
-      - 4Sarina-1349
+      - 1|🇸🇬4 |  2.1MB/s
+      - 4Jadi-1215
+      - 1|🇸🇬5 |  3.6MB/s
       - 2|🇯🇵21 |  1.9MB/s
+      - 4Sarina-1349
       - 2|🌀6- |  3.9MB/s
       - 1|🇸🇬13 |  1.0MB/s
-      - 4Sarina-1349 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 12|🇯🇵 日本4|@ripaojiedian
-      - 4Nika-1281
-      - 4Sarina-1349
+      - 1|🇸🇬4 |  2.1MB/s
+      - 4Jadi-1215
+      - 1|🇸🇬5 |  3.6MB/s
       - 2|🇯🇵21 |  1.9MB/s
+      - 4Sarina-1349
       - 2|🌀6- |  3.9MB/s
       - 1|🇸🇬13 |  1.0MB/s
-      - 4Sarina-1349 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
