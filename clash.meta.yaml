@@ -26,10 +26,8 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 4Mohsen-1387, server: 47.129.238.196, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 1|🇯🇵8 |  4.4MB/s, server: 52.195.212.217, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 2|🇯🇵10 |  6.1MB/s, server: 175.41.230.149, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 12|tg频道:@ripaojiedian, server: 43.206.220.47, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 2|🇯🇵10 |  6.1MB/s 2, server: 175.41.230.149, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 1|🇯🇵4 |  5.4MB/s, server: 43.207.204.100, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -43,10 +41,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Mohsen-1387
       - 1|🇯🇵8 |  4.4MB/s
-      - 2|🇯🇵10 |  6.1MB/s
-      - 12|tg频道:@ripaojiedian
-      - 2|🇯🇵10 |  6.1MB/s 2
       - 1|🇯🇵4 |  5.4MB/s
   - name: 🔰 节点选择
     type: select
@@ -59,10 +55,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Mohsen-1387
       - 1|🇯🇵8 |  4.4MB/s
-      - 2|🇯🇵10 |  6.1MB/s
-      - 12|tg频道:@ripaojiedian
-      - 2|🇯🇵10 |  6.1MB/s 2
       - 1|🇯🇵4 |  5.4MB/s
   - name: ♻️ 可能受限
     type: load-balance
@@ -70,10 +64,8 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 4Mohsen-1387
       - 1|🇯🇵8 |  4.4MB/s
-      - 2|🇯🇵10 |  6.1MB/s
-      - 12|tg频道:@ripaojiedian
-      - 2|🇯🇵10 |  6.1MB/s 2
       - 1|🇯🇵4 |  5.4MB/s
   - name: 🐟 漏网之鱼
     type: select
