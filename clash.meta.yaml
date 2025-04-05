@@ -26,8 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Jadi-735, server: 45.87.175.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+- {name: 12|tg频道:@ripaojiedian, server: 54.199.167.92, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Jadi-1226, server: 18.183.76.102, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Sarina-1277, server: 43.202.67.225, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Sarina-1284, server: 43.207.203.164, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 1|🇯🇵8 |  4.4MB/s, server: 52.195.212.217, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -41,8 +43,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Jadi-735
+      - 12|tg频道:@ripaojiedian
       - 4Jadi-1226
+      - 4Sarina-1277
+      - 4Sarina-1284
       - 1|🇯🇵8 |  4.4MB/s
   - name: 🔰 节点选择
     type: select
@@ -55,8 +59,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Jadi-735
+      - 12|tg频道:@ripaojiedian
       - 4Jadi-1226
+      - 4Sarina-1277
+      - 4Sarina-1284
       - 1|🇯🇵8 |  4.4MB/s
   - name: ♻️ 可能受限
     type: load-balance
@@ -64,8 +70,10 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Jadi-735
+      - 12|tg频道:@ripaojiedian
       - 4Jadi-1226
+      - 4Sarina-1277
+      - 4Sarina-1284
       - 1|🇯🇵8 |  4.4MB/s
   - name: 🐟 漏网之鱼
     type: select
