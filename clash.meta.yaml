@@ -26,7 +26,6 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Mohsen-1368, server: 52.195.209.247, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Mohsen-1362, server: 47.129.230.32, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Mohsen-1361, server: 47.129.202.70, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
@@ -41,7 +40,6 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Mohsen-1368
       - 4Mohsen-1362
       - 4Mohsen-1361
   - name: 🔰 节点选择
@@ -55,7 +53,6 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Mohsen-1368
       - 4Mohsen-1362
       - 4Mohsen-1361
   - name: ♻️ 可能受限
@@ -64,7 +61,6 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Mohsen-1368
       - 4Mohsen-1362
       - 4Mohsen-1361
   - name: 🐟 漏网之鱼
