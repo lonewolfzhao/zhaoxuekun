@@ -26,12 +26,11 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 1|🇸🇬6 |  1.6MB/s, server: 54.254.9.107, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Mohsen-1362, server: 47.129.230.32, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Mohsen-1368, server: 52.195.209.247, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 1|🇯🇵5 |  6.2MB/s, server: 3.112.239.136, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 1|🇯🇵8 |  4.4MB/s, server: 52.195.212.217, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Mohsen-1361, server: 47.129.202.70, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Jadi-1226, server: 18.183.76.102, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 1|🇯🇵13 |  3.2MB/s, server: 52.198.238.20, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 12|tg频道:@ripaojiedian, server: 54.199.167.92, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Mohsen-1362, server: 47.129.230.32, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -44,12 +43,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 1|🇸🇬6 |  1.6MB/s
-      - 4Mohsen-1362
-      - 4Mohsen-1368
+      - 1|🇯🇵5 |  6.2MB/s
       - 1|🇯🇵8 |  4.4MB/s
-      - 4Mohsen-1361
-      - 4Jadi-1226
+      - 1|🇯🇵13 |  3.2MB/s
+      - 12|tg频道:@ripaojiedian
+      - 4Mohsen-1362
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -61,24 +59,22 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 1|🇸🇬6 |  1.6MB/s
-      - 4Mohsen-1362
-      - 4Mohsen-1368
+      - 1|🇯🇵5 |  6.2MB/s
       - 1|🇯🇵8 |  4.4MB/s
-      - 4Mohsen-1361
-      - 4Jadi-1226
+      - 1|🇯🇵13 |  3.2MB/s
+      - 12|tg频道:@ripaojiedian
+      - 4Mohsen-1362
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 1|🇸🇬6 |  1.6MB/s
-      - 4Mohsen-1362
-      - 4Mohsen-1368
+      - 1|🇯🇵5 |  6.2MB/s
       - 1|🇯🇵8 |  4.4MB/s
-      - 4Mohsen-1361
-      - 4Jadi-1226
+      - 1|🇯🇵13 |  3.2MB/s
+      - 12|tg频道:@ripaojiedian
+      - 4Mohsen-1362
   - name: 🐟 漏网之鱼
     type: select
     proxies:
