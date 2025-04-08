@@ -27,13 +27,10 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: 2|🇹🇼7 |  5.8MB/s, server: 118.184.136.138, port: 25245, type: ss, cipher: rc4-md5, password: z6D4Jf, udp: true}
-- {name: "1,11|🇩🇪 德国|@ripaojiedian", server: 156.226.174.40, port: 30004, type: ss, cipher: chacha20-ietf-poly1305, password: 95821db5-66eb-4b5f-a854-f129093e6d47, udp: true}
-- {name: 1|🇺🇸42 |  3.6MB/s, server: 141.101.120.41, port: 2053, type: vmess, uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1744007578.speed.zjgza.cccp.freefly.pp.ua}}, udp: true}
 - {name: 1|🇸🇬3 |  5.4MB/s, server: 54.255.184.248, port: 80, type: ss, cipher: aes-256-cfb, password: wiaimihu22, udp: true}
+- {name: 11|🇯🇵 东京特殊|@ripaojiedian, server: 13.230.226.50, port: 80, type: ss, cipher: aes-256-cfb, password: thisgou, udp: true}
+- {name: "1,11|🇩🇪 德国|@ripaojiedian", server: 156.226.174.40, port: 30004, type: ss, cipher: chacha20-ietf-poly1305, password: 95821db5-66eb-4b5f-a854-f129093e6d47, udp: true}
 - {name: 1|🇩🇪19 |  2.0MB/s, server: 172.67.163.102, port: 2087, type: vmess, uuid: 0e4c8497-749c-4cac-ebd1-4266b2ad9c75, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /frank1-dash.931.pp.ua, headers: {Host: frank1-dash.931.pp.ua}}, udp: true}
-- {name: 11|tg频道:@ripaojiedian, server: 52.33.3.233, port: 463, type: ss, cipher: aes-256-cfb, password: 463qwerty, udp: true}
-- {name: 11|🇭🇰 香港8|@ripaojiedian, server: 120.234.102.229, port: 31998, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4Jadi-959, server: 149.34.244.80, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -47,13 +44,10 @@ proxy-groups:
     interval: 10
     proxies:
       - 2|🇹🇼7 |  5.8MB/s
-      - 1,11|🇩🇪 德国|@ripaojiedian
-      - 1|🇺🇸42 |  3.6MB/s
       - 1|🇸🇬3 |  5.4MB/s
+      - 11|🇯🇵 东京特殊|@ripaojiedian
+      - 1,11|🇩🇪 德国|@ripaojiedian
       - 1|🇩🇪19 |  2.0MB/s
-      - 11|tg频道:@ripaojiedian
-      - 11|🇭🇰 香港8|@ripaojiedian
-      - 4Jadi-959
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -66,13 +60,10 @@ proxy-groups:
     interval: 10
     proxies:
       - 2|🇹🇼7 |  5.8MB/s
-      - 1,11|🇩🇪 德国|@ripaojiedian
-      - 1|🇺🇸42 |  3.6MB/s
       - 1|🇸🇬3 |  5.4MB/s
+      - 11|🇯🇵 东京特殊|@ripaojiedian
+      - 1,11|🇩🇪 德国|@ripaojiedian
       - 1|🇩🇪19 |  2.0MB/s
-      - 11|tg频道:@ripaojiedian
-      - 11|🇭🇰 香港8|@ripaojiedian
-      - 4Jadi-959
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -80,13 +71,10 @@ proxy-groups:
     interval: 10
     proxies:
       - 2|🇹🇼7 |  5.8MB/s
-      - 1,11|🇩🇪 德国|@ripaojiedian
-      - 1|🇺🇸42 |  3.6MB/s
       - 1|🇸🇬3 |  5.4MB/s
+      - 11|🇯🇵 东京特殊|@ripaojiedian
+      - 1,11|🇩🇪 德国|@ripaojiedian
       - 1|🇩🇪19 |  2.0MB/s
-      - 11|tg频道:@ripaojiedian
-      - 11|🇭🇰 香港8|@ripaojiedian
-      - 4Jadi-959
   - name: 🐟 漏网之鱼
     type: select
     proxies:
