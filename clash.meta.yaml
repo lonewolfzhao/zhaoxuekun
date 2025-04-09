@@ -26,9 +26,12 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 2|🌀5-CZ |  2.6MB/s, server: 89.18.58.104, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 2|🇹🇼7 |  5.8MB/s, server: 118.184.136.138, port: 25245, type: ss, cipher: rc4-md5, password: z6D4Jf, udp: true}
-- {name: _CH_瑞士, server: 84.17.53.160, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 1|🌀12- |  2.5MB/s, server: 89.18.58.206, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 1|🇳🇱4 |  2.3MB/s, server: 85.234.65.11, port: 443, type: trojan, password: !<str> 74260698218909400, sni: happy-bluebird.shiner427.skin, skip-cert-verify: true, udp: true}
+- {name: 1|🇯🇵9 |  2.2MB/s, server: fa7c2955-suif40-swjyj4-1mish.cm5.p5pv.com, port: 17233, type: vmess, uuid: 9eeeea88-f37b-11ed-bd3d-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 1|🇩🇪8 |  4.6MB/s, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: 1|🇵🇱1 |  4.7MB/s, server: 45.144.49.110, port: 18514, type: ss, cipher: chacha20-ietf-poly1305, password: usc9SJdfqUOgolaJCQfXc9, udp: true}
+- {name: _DE_德国, server: 18.192.154.236, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -41,9 +44,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🌀5-CZ |  2.6MB/s
-      - 2|🇹🇼7 |  5.8MB/s
-      - _CH_瑞士
+      - 1|🌀12- |  2.5MB/s
+      - 1|🇳🇱4 |  2.3MB/s
+      - 1|🇯🇵9 |  2.2MB/s
+      - 1|🇩🇪8 |  4.6MB/s
+      - 1|🇵🇱1 |  4.7MB/s
+      - _DE_德国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -55,18 +61,24 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🌀5-CZ |  2.6MB/s
-      - 2|🇹🇼7 |  5.8MB/s
-      - _CH_瑞士
+      - 1|🌀12- |  2.5MB/s
+      - 1|🇳🇱4 |  2.3MB/s
+      - 1|🇯🇵9 |  2.2MB/s
+      - 1|🇩🇪8 |  4.6MB/s
+      - 1|🇵🇱1 |  4.7MB/s
+      - _DE_德国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 2|🌀5-CZ |  2.6MB/s
-      - 2|🇹🇼7 |  5.8MB/s
-      - _CH_瑞士
+      - 1|🌀12- |  2.5MB/s
+      - 1|🇳🇱4 |  2.3MB/s
+      - 1|🇯🇵9 |  2.2MB/s
+      - 1|🇩🇪8 |  4.6MB/s
+      - 1|🇵🇱1 |  4.7MB/s
+      - _DE_德国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
