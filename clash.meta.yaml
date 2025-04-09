@@ -26,8 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 1|🇬🇧5 |  4.6MB/s, server: 109.107.159.124, port: 443, type: trojan, password: !<str> 74260698218909400, sni: ample-warthog.shiner427.skin, skip-cert-verify: true, udp: true}
-- {name: 1|🇯🇵9 |  2.2MB/s, server: fa7c2955-suif40-swjyj4-1mish.cm5.p5pv.com, port: 17233, type: vmess, uuid: 9eeeea88-f37b-11ed-bd3d-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 1|🇯🇵3 |  1.9MB/s, server: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com, port: 17233, type: vmess, uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Sarina-1272, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 1|🇩🇪8 |  4.6MB/s, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -40,8 +41,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 1|🇬🇧5 |  4.6MB/s
-      - 1|🇯🇵9 |  2.2MB/s
+      - 1|🇯🇵3 |  1.9MB/s
+      - 4Sarina-1272
+      - 1|🇩🇪8 |  4.6MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -53,16 +55,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 1|🇬🇧5 |  4.6MB/s
-      - 1|🇯🇵9 |  2.2MB/s
+      - 1|🇯🇵3 |  1.9MB/s
+      - 4Sarina-1272
+      - 1|🇩🇪8 |  4.6MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 1|🇬🇧5 |  4.6MB/s
-      - 1|🇯🇵9 |  2.2MB/s
+      - 1|🇯🇵3 |  1.9MB/s
+      - 4Sarina-1272
+      - 1|🇩🇪8 |  4.6MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
