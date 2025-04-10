@@ -26,8 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel..., server: free.2weradf.xyz, port: 36213, type: ss, cipher: chacha20-ietf-poly1305, password: 5c9c5e77-7bb4-4d8d-9678-da9bc390958c, udp: true}
 - {name: 2|🌀3-SE |  3.4MB/s, server: mehrnews.twn24.ir, port: 8443, type: vmess, uuid: f0baa770-0100-4ed2-aa60-b6bdd512cbb9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: mehrnews.twn24.ir}}, udp: true}
+- {name: _FR_法国, server: 151.115.88.168, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: sVjPo5m8PUrhHuB9lDZzNS, udp: true}
+- {name: _SK_斯洛伐克, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -40,8 +41,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
       - 2|🌀3-SE |  3.4MB/s
+      - _FR_法国
+      - _SK_斯洛伐克
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -53,16 +55,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
       - 2|🌀3-SE |  3.4MB/s
+      - _FR_法国
+      - _SK_斯洛伐克
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
       - 2|🌀3-SE |  3.4MB/s
+      - _FR_法国
+      - _SK_斯洛伐克
   - name: 🐟 漏网之鱼
     type: select
     proxies:
