@@ -26,6 +26,8 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 0|🇺🇸11 |  4.2MB/s, server: 8d3d7f83-suk9s0-sv6oiy-1p1b.cu.plebai.net, port: 5228, type: vmess, uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 0|🇺🇸1 |  5.7MB/s, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 1e537ee8-dc44-4c5b-8810-c41b4ae2e460, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/linkws?ed=2560", headers: {Host: MaxNEtvip-usa1.MAXnEtcLOUDsERvICe.COM}}, udp: true}
 - {name: 2|🌀3-SE |  3.4MB/s, server: mehrnews.twn24.ir, port: 8443, type: vmess, uuid: f0baa770-0100-4ed2-aa60-b6bdd512cbb9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: mehrnews.twn24.ir}}, udp: true}
 - {name: 4Jadi-291, server: 91.103.253.151, port: 19057, type: ss, cipher: chacha20-ietf-poly1305, password: ug3iPN0icnscCxjb1vxrfb, udp: true}
 proxy-groups:
@@ -40,6 +42,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 0|🇺🇸11 |  4.2MB/s
+      - 0|🇺🇸1 |  5.7MB/s
       - 2|🌀3-SE |  3.4MB/s
       - 4Jadi-291
   - name: 🔰 节点选择
@@ -53,6 +57,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 0|🇺🇸11 |  4.2MB/s
+      - 0|🇺🇸1 |  5.7MB/s
       - 2|🌀3-SE |  3.4MB/s
       - 4Jadi-291
   - name: ♻️ 可能受限
@@ -61,6 +67,8 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 0|🇺🇸11 |  4.2MB/s
+      - 0|🇺🇸1 |  5.7MB/s
       - 2|🌀3-SE |  3.4MB/s
       - 4Jadi-291
   - name: 🐟 漏网之鱼
