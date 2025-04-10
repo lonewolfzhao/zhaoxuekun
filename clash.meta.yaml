@@ -26,9 +26,8 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: _SK_斯洛伐克, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: 1|🇩🇪8 |  4.6MB/s, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: _FR_法国, server: 151.115.88.168, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: sVjPo5m8PUrhHuB9lDZzNS, udp: true}
-- {name: _GB_英国, server: 51.15.15.82, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -41,9 +40,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - _SK_斯洛伐克
       - 1|🇩🇪8 |  4.6MB/s
-      - _FR_法国
-      - _GB_英国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -55,18 +53,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - _SK_斯洛伐克
       - 1|🇩🇪8 |  4.6MB/s
-      - _FR_法国
-      - _GB_英国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - _SK_斯洛伐克
       - 1|🇩🇪8 |  4.6MB/s
-      - _FR_法国
-      - _GB_英国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
