@@ -26,9 +26,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 1|🇬🇧4 |  3.9MB/s, server: 78.129.140.11, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: iEKtgttwHhDjsbOki1a5BK, udp: true}
-- {name: 1|🇩🇪5 |  5.2MB/s, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: 0|🇺🇸44 |  5.4MB/s, server: 4466f722-sum4g0-szbau2-2d9v.cu.plebai.net, port: 5229, type: vmess, uuid: 554d0110-ce64-11ef-973a-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 1|🇺🇸14 |  5.8MB/s, server: 4466f722-sum4g0-szbau2-2d9v.cu.plebai.net, port: 5229, type: vmess, uuid: 554d0110-ce64-11ef-973a-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 0|🇺🇸1 |  5.7MB/s, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 1e537ee8-dc44-4c5b-8810-c41b4ae2e460, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/linkws?ed=2560", headers: {Host: MaxNEtvip-usa1.MAXnEtcLOUDsERvICe.COM}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -42,9 +40,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 1|🇬🇧4 |  3.9MB/s
-      - 1|🇩🇪5 |  5.2MB/s
-      - 0|🇺🇸44 |  5.4MB/s
+      - 1|🇺🇸14 |  5.8MB/s
       - 0|🇺🇸1 |  5.7MB/s
   - name: 🔰 节点选择
     type: select
@@ -57,9 +53,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 1|🇬🇧4 |  3.9MB/s
-      - 1|🇩🇪5 |  5.2MB/s
-      - 0|🇺🇸44 |  5.4MB/s
+      - 1|🇺🇸14 |  5.8MB/s
       - 0|🇺🇸1 |  5.7MB/s
   - name: ♻️ 可能受限
     type: load-balance
@@ -67,9 +61,7 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 1|🇬🇧4 |  3.9MB/s
-      - 1|🇩🇪5 |  5.2MB/s
-      - 0|🇺🇸44 |  5.4MB/s
+      - 1|🇺🇸14 |  5.8MB/s
       - 0|🇺🇸1 |  5.7MB/s
   - name: 🐟 漏网之鱼
     type: select
