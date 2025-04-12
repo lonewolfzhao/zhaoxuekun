@@ -26,8 +26,6 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: _US_美国->🇨🇳_CN_中国, server: 186.190.215.93, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: _IL_以色列->🇨🇷_CR_哥斯达黎加, server: 91.194.11.178, port: 28984, type: vmess, uuid: 9b2335af-f24c-4810-9c34-95568ebd579d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 1|🇺🇸28 |  5.8MB/s, server: 4f387ddd-sunz40-taklwz-12bd.cu.plebai.net, port: 5229, type: vmess, uuid: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: _FR_法国, server: 151.115.88.168, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: sVjPo5m8PUrhHuB9lDZzNS, udp: true}
 proxy-groups:
@@ -42,8 +40,6 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _US_美国->🇨🇳_CN_中国
-      - _IL_以色列->🇨🇷_CR_哥斯达黎加
       - 1|🇺🇸28 |  5.8MB/s
       - _FR_法国
   - name: 🔰 节点选择
@@ -57,8 +53,6 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _US_美国->🇨🇳_CN_中国
-      - _IL_以色列->🇨🇷_CR_哥斯达黎加
       - 1|🇺🇸28 |  5.8MB/s
       - _FR_法国
   - name: ♻️ 可能受限
@@ -67,8 +61,6 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - _US_美国->🇨🇳_CN_中国
-      - _IL_以色列->🇨🇷_CR_哥斯达黎加
       - 1|🇺🇸28 |  5.8MB/s
       - _FR_法国
   - name: 🐟 漏网之鱼
