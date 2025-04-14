@@ -26,10 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 2|🇸🇬1 |  1.7MB/s, server: cn09.closeai.one, port: 8215, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20581-passw0rd.download.microsoft.com, udp: true}
-- {name: 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8765, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202504140137024-Zlzv0ZMcwk.download.microsoft.com}, udp: true}
-- {name: 1|🇺🇸10 |  2.7MB/s, server: 185.189.32.179, port: 48737, type: vmess, uuid: 3680a006-d824-4574-90f3-21226dae6903, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 2|🇭🇰14 |  2.0MB/s, server: 183.240.116.144, port: 22745, type: trojan, password: ea2QsO, sni: ctldl.windowsupdate.com, skip-cert-verify: true, udp: true}
+- {name: 2|🇸🇬4 |  6.3MB/s, server: cn07.closeai.one, port: 8207, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20581-passw0rd.download.microsoft.com, udp: true}
+- {name: 2|🇷🇺1 |  5.1MB/s, server: 147.45.221.106, port: 46356, type: ss, cipher: chacha20-ietf-poly1305, password: m30QhUjzdUtXi1tsDsF7G1, udp: true}
+- {name: 4Sarina-287, server: 77.110.106.77, port: 36301, type: ss, cipher: chacha20-ietf-poly1305, password: v0NHlCl2nvVfC8AeZPMffi, udp: true}
+- {name: 2|🌀5-RS |  5.4MB/s, server: 185.186.77.220, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: 4Sarina-3165, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -43,10 +43,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🇸🇬1 |  1.7MB/s
-      - 日本|@ripaojiedian
-      - 1|🇺🇸10 |  2.7MB/s
-      - 2|🇭🇰14 |  2.0MB/s
+      - 2|🇸🇬4 |  6.3MB/s
+      - 2|🇷🇺1 |  5.1MB/s
+      - 4Sarina-287
+      - 2|🌀5-RS |  5.4MB/s
       - 4Sarina-3165
   - name: 🔰 节点选择
     type: select
@@ -59,10 +59,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🇸🇬1 |  1.7MB/s
-      - 日本|@ripaojiedian
-      - 1|🇺🇸10 |  2.7MB/s
-      - 2|🇭🇰14 |  2.0MB/s
+      - 2|🇸🇬4 |  6.3MB/s
+      - 2|🇷🇺1 |  5.1MB/s
+      - 4Sarina-287
+      - 2|🌀5-RS |  5.4MB/s
       - 4Sarina-3165
   - name: ♻️ 可能受限
     type: load-balance
@@ -70,10 +70,10 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 2|🇸🇬1 |  1.7MB/s
-      - 日本|@ripaojiedian
-      - 1|🇺🇸10 |  2.7MB/s
-      - 2|🇭🇰14 |  2.0MB/s
+      - 2|🇸🇬4 |  6.3MB/s
+      - 2|🇷🇺1 |  5.1MB/s
+      - 4Sarina-287
+      - 2|🌀5-RS |  5.4MB/s
       - 4Sarina-3165
   - name: 🐟 漏网之鱼
     type: select
