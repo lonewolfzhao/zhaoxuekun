@@ -26,6 +26,8 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 4Sarina-1653, server: okanc.node-is.green, port: 21115, type: ss, cipher: aes-256-gcm, password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83, udp: true}
+- {name: 2|🇭🇰14 |  2.0MB/s, server: 183.240.116.144, port: 22745, type: trojan, password: ea2QsO, sni: ctldl.windowsupdate.com, skip-cert-verify: true, udp: true}
 - {name: 1|🇺🇸10 |  2.7MB/s, server: 185.189.32.179, port: 48737, type: vmess, uuid: 3680a006-d824-4574-90f3-21226dae6903, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 4Sarina-3165, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
 proxy-groups:
@@ -40,6 +42,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Sarina-1653
+      - 2|🇭🇰14 |  2.0MB/s
       - 1|🇺🇸10 |  2.7MB/s
       - 4Sarina-3165
   - name: 🔰 节点选择
@@ -53,6 +57,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Sarina-1653
+      - 2|🇭🇰14 |  2.0MB/s
       - 1|🇺🇸10 |  2.7MB/s
       - 4Sarina-3165
   - name: ♻️ 可能受限
@@ -61,6 +67,8 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 4Sarina-1653
+      - 2|🇭🇰14 |  2.0MB/s
       - 1|🇺🇸10 |  2.7MB/s
       - 4Sarina-3165
   - name: 🐟 漏网之鱼
