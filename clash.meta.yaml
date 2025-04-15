@@ -26,11 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 11|🇰🇷 韩国特殊|@ripaojiedian, server: 54.249.151.205, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 11|tg频道:@ripaojiedian, server: 43.207.233.28, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 11|🇯🇵 日本特殊|@ripaojiedian, server: 52.78.214.206, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 1|🇺🇸24 |  3.6MB/s, server: f5f98477-sutj40-tdcdb7-1k27l.cu.plebai.net, port: 5229, type: vmess, uuid: ba4b1f2e-c985-11ed-9c0c-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 11|🇯🇵 日本4|@ripaojiedian, server: 81f6bf37-sutj40-svgpxu-y2gs.cm5.p5pv.com, port: 17233, type: vmess, uuid: b806b388-5f97-11ee-8014-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 11|🇹🇼 台湾|@ripaojiedian, server: fadawtawd.zhangwei.li, port: 46005, type: vmess, uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: fadawtawd.zhangwei.li}}, udp: true}
-- {name: "11,12|香港8|@ripaojiedian", server: aafrtpfxr.hkl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27101, type: trojan, password: 1d28a2a2-2fb3-4456-b119-749e75ad9c93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -43,11 +41,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 11|🇰🇷 韩国特殊|@ripaojiedian
-      - 11|tg频道:@ripaojiedian
-      - 11|🇯🇵 日本特殊|@ripaojiedian
+      - 1|🇺🇸24 |  3.6MB/s
+      - 11|🇯🇵 日本4|@ripaojiedian
       - 11|🇹🇼 台湾|@ripaojiedian
-      - 11,12|香港8|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -59,22 +55,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 11|🇰🇷 韩国特殊|@ripaojiedian
-      - 11|tg频道:@ripaojiedian
-      - 11|🇯🇵 日本特殊|@ripaojiedian
+      - 1|🇺🇸24 |  3.6MB/s
+      - 11|🇯🇵 日本4|@ripaojiedian
       - 11|🇹🇼 台湾|@ripaojiedian
-      - 11,12|香港8|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 11|🇰🇷 韩国特殊|@ripaojiedian
-      - 11|tg频道:@ripaojiedian
-      - 11|🇯🇵 日本特殊|@ripaojiedian
+      - 1|🇺🇸24 |  3.6MB/s
+      - 11|🇯🇵 日本4|@ripaojiedian
       - 11|🇹🇼 台湾|@ripaojiedian
-      - 11,12|香港8|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
