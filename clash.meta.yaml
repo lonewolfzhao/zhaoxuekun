@@ -26,11 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 12|🇯🇵 日本特殊|@ripaojiedian, server: 18.179.174.138, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "2,12|tg频道:@ripaojiedian", server: 18.246.215.6, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Nika-1599, server: 185.189.160.98, port: 64759, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 4FreeIran-964, server: 107.148.6.121, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
 - {name: 2|🇨🇭1 |  5.1MB/s, server: 178.209.50.206, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 2|🇺🇸16 |  1.0MB/s, server: tYu9G5.890617.Xyz, port: 443, type: vmess, uuid: d67cfeaf-b277-44ac-ab99-9dd02a7c5299, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /q2hGWwflPDbymaoOj85lz42MdhsCLV, headers: {Host: tYu9G5.890617.Xyz}}, udp: true}
-- {name: 2|🇸🇬4 |  6.1MB/s, server: okanc.node-is.green, port: 21115, type: ss, cipher: aes-256-gcm, password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83, udp: true}
 - {name: 2|🇨🇭1 |  5.1MB/s 2, server: 178.209.50.206, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -44,11 +42,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 12|🇯🇵 日本特殊|@ripaojiedian
-      - 2,12|tg频道:@ripaojiedian
+      - 4Nika-1599
+      - 4FreeIran-964
       - 2|🇨🇭1 |  5.1MB/s
-      - 2|🇺🇸16 |  1.0MB/s
-      - 2|🇸🇬4 |  6.1MB/s
       - 2|🇨🇭1 |  5.1MB/s 2
   - name: 🔰 节点选择
     type: select
@@ -61,11 +57,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 12|🇯🇵 日本特殊|@ripaojiedian
-      - 2,12|tg频道:@ripaojiedian
+      - 4Nika-1599
+      - 4FreeIran-964
       - 2|🇨🇭1 |  5.1MB/s
-      - 2|🇺🇸16 |  1.0MB/s
-      - 2|🇸🇬4 |  6.1MB/s
       - 2|🇨🇭1 |  5.1MB/s 2
   - name: ♻️ 可能受限
     type: load-balance
@@ -73,11 +67,9 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 12|🇯🇵 日本特殊|@ripaojiedian
-      - 2,12|tg频道:@ripaojiedian
+      - 4Nika-1599
+      - 4FreeIran-964
       - 2|🇨🇭1 |  5.1MB/s
-      - 2|🇺🇸16 |  1.0MB/s
-      - 2|🇸🇬4 |  6.1MB/s
       - 2|🇨🇭1 |  5.1MB/s 2
   - name: 🐟 漏网之鱼
     type: select
