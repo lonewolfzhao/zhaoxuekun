@@ -26,8 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 2|🌀6-CZ |  4.4MB/s, server: 89.18.58.71, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 2|🌀17-CZ |  2.8MB/s, server: 89.18.58.63, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 未知, server: 89.18.58.206, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 2|🌀6-CZ |  4.4MB/s, server: 89.18.58.71, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 4Nika-1599, server: 185.189.160.98, port: 64759, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -41,8 +42,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🌀6-CZ |  4.4MB/s
       - 2|🌀17-CZ |  2.8MB/s
+      - 未知
+      - 2|🌀6-CZ |  4.4MB/s
       - 4Nika-1599
   - name: 🔰 节点选择
     type: select
@@ -55,8 +57,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🌀6-CZ |  4.4MB/s
       - 2|🌀17-CZ |  2.8MB/s
+      - 未知
+      - 2|🌀6-CZ |  4.4MB/s
       - 4Nika-1599
   - name: ♻️ 可能受限
     type: load-balance
@@ -64,8 +67,9 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 2|🌀6-CZ |  4.4MB/s
       - 2|🌀17-CZ |  2.8MB/s
+      - 未知
+      - 2|🌀6-CZ |  4.4MB/s
       - 4Nika-1599
   - name: 🐟 漏网之鱼
     type: select
