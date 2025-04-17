@@ -26,7 +26,8 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Sarina-1603, server: okanc.node-is.green, port: 21114, type: ss, cipher: aes-256-gcm, password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83, udp: true}
+- {name: 2|🌀3-CZ |  5.6MB/s, server: 89.18.58.104, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 12|🇭🇰 香港5|@ripaojiedian, server: 183.236.51.38, port: 41291, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 2|🌀17-CZ |  2.8MB/s, server: 89.18.58.63, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -40,7 +41,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Sarina-1603
+      - 2|🌀3-CZ |  5.6MB/s
+      - 12|🇭🇰 香港5|@ripaojiedian
       - 2|🌀17-CZ |  2.8MB/s
   - name: 🔰 节点选择
     type: select
@@ -53,7 +55,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Sarina-1603
+      - 2|🌀3-CZ |  5.6MB/s
+      - 12|🇭🇰 香港5|@ripaojiedian
       - 2|🌀17-CZ |  2.8MB/s
   - name: ♻️ 可能受限
     type: load-balance
@@ -61,7 +64,8 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Sarina-1603
+      - 2|🌀3-CZ |  5.6MB/s
+      - 12|🇭🇰 香港5|@ripaojiedian
       - 2|🌀17-CZ |  2.8MB/s
   - name: 🐟 漏网之鱼
     type: select
