@@ -26,9 +26,8 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 1|🇺🇸6 |  4.7MB/s, server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+- {name: 未知, server: 89.18.58.104, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 4FreeIran-1730, server: okanc.node-is.green, port: 21115, type: ss, cipher: aes-256-gcm, password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83, udp: true}
-- {name: 12|🇭🇰 香港5|@ripaojiedian, server: 183.236.51.38, port: 41291, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -41,9 +40,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 1|🇺🇸6 |  4.7MB/s
+      - 未知
       - 4FreeIran-1730
-      - 12|🇭🇰 香港5|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -55,18 +53,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 1|🇺🇸6 |  4.7MB/s
+      - 未知
       - 4FreeIran-1730
-      - 12|🇭🇰 香港5|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 1|🇺🇸6 |  4.7MB/s
+      - 未知
       - 4FreeIran-1730
-      - 12|🇭🇰 香港5|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
