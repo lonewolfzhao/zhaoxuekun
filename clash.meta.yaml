@@ -26,12 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 4Sarina-702, server: 45.87.175.154, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+- {name: 0|🇭🇰1 |  2.4MB/s, server: 35.220.230.251, port: 30251, type: vmess, uuid: 86c9c119-c46d-45a9-82a6-75a886e5e795, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: "12,13|美国|@ripaojiedian", server: d2076047-suz340-tau0mq-1i41w.lza.plebai.net, port: 7615, type: vmess, uuid: d13637bd-0e24-11ed-9d0b-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 12|🇭🇰 香港5|@ripaojiedian, server: 183.236.51.38, port: 41291, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 12|🇭🇰 香港6|@ripaojiedian, server: 120.234.102.229, port: 43674, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 13|香港6|@ripaojiedian, server: 120.234.102.229, port: 43674, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4Jadi-12, server: 45.87.175.154, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-- {name: 未知, server: 89.18.58.104, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -44,12 +42,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Sarina-702
+      - 0|🇭🇰1 |  2.4MB/s
       - 12,13|美国|@ripaojiedian
-      - 12|🇭🇰 香港5|@ripaojiedian
       - 12|🇭🇰 香港6|@ripaojiedian
-      - 13|香港6|@ripaojiedian
-      - 4Jadi-12
-      - 未知
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -61,24 +57,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Sarina-702
+      - 0|🇭🇰1 |  2.4MB/s
       - 12,13|美国|@ripaojiedian
-      - 12|🇭🇰 香港5|@ripaojiedian
       - 12|🇭🇰 香港6|@ripaojiedian
-      - 13|香港6|@ripaojiedian
-      - 4Jadi-12
-      - 未知
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 4Sarina-702
+      - 0|🇭🇰1 |  2.4MB/s
       - 12,13|美国|@ripaojiedian
-      - 12|🇭🇰 香港5|@ripaojiedian
       - 12|🇭🇰 香港6|@ripaojiedian
-      - 13|香港6|@ripaojiedian
-      - 4Jadi-12
-      - 未知
   - name: 🐟 漏网之鱼
     type: select
     proxies:
