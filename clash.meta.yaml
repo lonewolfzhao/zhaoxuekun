@@ -26,6 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 2|🇩🇪8 |  2.7MB/s, server: 172.67.71.217, port: 443, type: vmess, uuid: 9072d339-3885-4fe1-b0bc-29fa7505410e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fixedfloati.cfd/linkwsd, headers: {Host: 1t3chx0.zed23.web1337.net}}, udp: true}
+- {name: 2|🇸🇬2 |  4.3MB/s, server: sla.cn.964e995b760.gogodns.xin, port: 27401, type: trojan, password: bd8ba262-8b50-49fd-ac60-e4840dc3da06, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true, udp: true}
+- {name: 2|🇺🇸1 |  3.3MB/s, server: 185.189.32.179, port: 22702, type: vmess, uuid: 483a1cce-af9b-4416-d7c6-10b9b63be66f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _DE_德国->🇺🇸_US_美国, server: 88.198.175.207, port: 33157, type: vmess, uuid: 26cf5624-fff0-4a66-9848-d2a0725297b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 2|🇺🇸7 |  5.4MB/s, server: de6657c6-sunz40-suqjqq-1pr35.sv.plebai.net, port: 1280, type: vmess, uuid: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
 - {name: 12|🇭🇰 香港6|@ripaojiedian, server: 120.234.102.229, port: 43674, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
@@ -40,6 +44,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 2|🇩🇪8 |  2.7MB/s
+      - 2|🇸🇬2 |  4.3MB/s
+      - 2|🇺🇸1 |  3.3MB/s
+      - _DE_德国->🇺🇸_US_美国
       - 2|🇺🇸7 |  5.4MB/s
       - 12|🇭🇰 香港6|@ripaojiedian
   - name: 🔰 节点选择
@@ -53,6 +61,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 2|🇩🇪8 |  2.7MB/s
+      - 2|🇸🇬2 |  4.3MB/s
+      - 2|🇺🇸1 |  3.3MB/s
+      - _DE_德国->🇺🇸_US_美国
       - 2|🇺🇸7 |  5.4MB/s
       - 12|🇭🇰 香港6|@ripaojiedian
   - name: ♻️ 可能受限
@@ -61,6 +73,10 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 2|🇩🇪8 |  2.7MB/s
+      - 2|🇸🇬2 |  4.3MB/s
+      - 2|🇺🇸1 |  3.3MB/s
+      - _DE_德国->🇺🇸_US_美国
       - 2|🇺🇸7 |  5.4MB/s
       - 12|🇭🇰 香港6|@ripaojiedian
   - name: 🐟 漏网之鱼
