@@ -26,9 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 1|🇺🇸30 |  3.4MB/s, server: sla.cn.964e995b760.gogodns.xin, port: 33505, type: trojan, password: 1a7e4dd1-fa44-4471-a3eb-40e3aa3630fa, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true, udp: true}
-- {name: 1|🌀12- |  5.3MB/s, server: 89.18.58.104, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 11|🇭🇰 香港5|@ripaojiedian, server: 183.236.51.38, port: 41291, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 未知, server: 89.18.58.63, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 1|🌀12- |  5.3MB/s, server: 89.18.58.104, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 13|香港8|@ripaojiedian, server: 120.198.71.214, port: 42375, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -42,9 +42,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 1|🇺🇸30 |  3.4MB/s
-      - 1|🌀12- |  5.3MB/s
+      - 11|🇭🇰 香港5|@ripaojiedian
       - 未知
+      - 1|🌀12- |  5.3MB/s
       - 13|香港8|@ripaojiedian
   - name: 🔰 节点选择
     type: select
@@ -57,9 +57,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 1|🇺🇸30 |  3.4MB/s
-      - 1|🌀12- |  5.3MB/s
+      - 11|🇭🇰 香港5|@ripaojiedian
       - 未知
+      - 1|🌀12- |  5.3MB/s
       - 13|香港8|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
@@ -67,9 +67,9 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 1|🇺🇸30 |  3.4MB/s
-      - 1|🌀12- |  5.3MB/s
+      - 11|🇭🇰 香港5|@ripaojiedian
       - 未知
+      - 1|🌀12- |  5.3MB/s
       - 13|香港8|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
