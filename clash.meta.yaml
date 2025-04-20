@@ -26,11 +26,8 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 12|🇸🇬 狮城特殊|@ripaojiedian, server: 34.217.76.113, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 2|🇭🇰1 |  6.3MB/s, server: sla.cn.964e995b760.gogodns.xin, port: 10465, type: trojan, password: 1d0d0aba-8b56-4a08-b3c4-e464a2475065, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true, udp: true}
-- {name: "2,12|🇰🇷 韩国特殊|@ripaojiedian", server: 13.212.117.64, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 1|🌀8-CZ |  5.0MB/s, server: 89.18.58.104, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 13|香港8|@ripaojiedian, server: 120.198.71.214, port: 42375, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 0|🌀3- |  4.3MB/s, server: 89.18.58.104, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -43,11 +40,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 12|🇸🇬 狮城特殊|@ripaojiedian
-      - 2|🇭🇰1 |  6.3MB/s
-      - 2,12|🇰🇷 韩国特殊|@ripaojiedian
+      - 1|🌀8-CZ |  5.0MB/s
       - 13|香港8|@ripaojiedian
-      - 0|🌀3- |  4.3MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -59,22 +53,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 12|🇸🇬 狮城特殊|@ripaojiedian
-      - 2|🇭🇰1 |  6.3MB/s
-      - 2,12|🇰🇷 韩国特殊|@ripaojiedian
+      - 1|🌀8-CZ |  5.0MB/s
       - 13|香港8|@ripaojiedian
-      - 0|🌀3- |  4.3MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 12|🇸🇬 狮城特殊|@ripaojiedian
-      - 2|🇭🇰1 |  6.3MB/s
-      - 2,12|🇰🇷 韩国特殊|@ripaojiedian
+      - 1|🌀8-CZ |  5.0MB/s
       - 13|香港8|@ripaojiedian
-      - 0|🌀3- |  4.3MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
