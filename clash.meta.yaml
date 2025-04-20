@@ -26,7 +26,8 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 2|🇭🇰25 |  1.2MB/s, server: a6fee8c7-sv0xs0-svak69-1f9n2.hk3.p5pv.com, port: 80, type: vmess, uuid: 0770871c-2e28-11ec-9ee8-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 2|🇺🇸41 |  3.5MB/s, server: e27ff635-sva740-t4cl3u-1mpen.cu.plebai.net, port: 5229, type: vmess, uuid: da1c411e-479f-11ee-9749-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 10|🇭🇰 香港8|@ripaojiedian, server: 120.198.71.214, port: 42375, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 未知, server: 89.18.58.63, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 2|🇭🇰21 |  1.7MB/s, server: 2e3ac5d1-sv2sg0-t7udc0-1pqhp.hk3.p5pv.com, port: 80, type: vmess, uuid: b02327ac-a49a-11ef-a673-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 2e3ac5d1-sv2sg0-t7udc0-1pqhp.hk3.p5pv.com}}, udp: true}
 proxy-groups:
@@ -41,7 +42,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🇭🇰25 |  1.2MB/s
+      - 2|🇺🇸41 |  3.5MB/s
+      - 10|🇭🇰 香港8|@ripaojiedian
       - 未知
       - 2|🇭🇰21 |  1.7MB/s
   - name: 🔰 节点选择
@@ -55,7 +57,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🇭🇰25 |  1.2MB/s
+      - 2|🇺🇸41 |  3.5MB/s
+      - 10|🇭🇰 香港8|@ripaojiedian
       - 未知
       - 2|🇭🇰21 |  1.7MB/s
   - name: ♻️ 可能受限
@@ -64,7 +67,8 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 2|🇭🇰25 |  1.2MB/s
+      - 2|🇺🇸41 |  3.5MB/s
+      - 10|🇭🇰 香港8|@ripaojiedian
       - 未知
       - 2|🇭🇰21 |  1.7MB/s
   - name: 🐟 漏网之鱼
