@@ -25,34 +25,12 @@ dns:
     geoip-code: CN
     ipcidr:
     - 240.0.0.0/4
-unified-delay: true
-global-client-fingerprint: chrome
-dns:
-  enable: true
-  listen: :53
-  ipv6: true
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  default-nameserver:
-  - 223.5.5.5
-  - 8.8.8.8
-  nameserver:
-  - https://dns.alidns.com/dns-query
-  - https://doh.pub/dns-query
-  fallback:
-  - https://1.0.0.1/dns-query
-  - tls://dns.google
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
-    ipcidr:
-    - 240.0.0.0/4
 proxies:
 - {name: 2|🇭🇰3 |  6.3MB/s, server: 118.184.136.48, port: 7780, type: ss, cipher: rc4-md5, password: 5czcr84s0ab, udp: true}
+- {name: 2|🇭🇰3 |  6.3MB/s 2, server: 118.184.136.48, port: 7780, type: ss, cipher: rc4-md5, password: 5czcr84s0ab, udp: true}
 - {name: 1|🌀13-CZ |  4.9MB/s, server: 89.18.58.104, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 未知, server: 89.18.58.63, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4FreeIran-1620, server: okanc.node-is.green, port: 21114, type: ss, cipher: aes-256-gcm, password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83, udp: true}
-- {name: "1,11|🇺🇸 美国3|@ripaojiedian", server: 97.107.140.236, port: 1234, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 1234, udp: true}
+- {name: 2|🇭🇰18 |  5.3MB/s, server: 118.184.136.53, port: 7780, type: ss, cipher: rc4-md5, password: 5czcr84s0ab, udp: true}
+- {name: _US_美国, server: 104.21.82.39, port: 80, type: vmess, uuid: 4be20cf1-6af1-4e87-ae5a-80d6ec30fecd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /WudQ2hzj2qjH1GhzxRV9PS, headers: {Host: 8uiop.191288.xyz}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -66,10 +44,10 @@ proxy-groups:
     interval: 10
     proxies:
       - 2|🇭🇰3 |  6.3MB/s
+      - 2|🇭🇰3 |  6.3MB/s 2
       - 1|🌀13-CZ |  4.9MB/s
-      - 未知
-      - 4FreeIran-1620
-      - 1,11|🇺🇸 美国3|@ripaojiedian
+      - 2|🇭🇰18 |  5.3MB/s
+      - _US_美国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -82,10 +60,10 @@ proxy-groups:
     interval: 10
     proxies:
       - 2|🇭🇰3 |  6.3MB/s
+      - 2|🇭🇰3 |  6.3MB/s 2
       - 1|🌀13-CZ |  4.9MB/s
-      - 未知
-      - 4FreeIran-1620
-      - 1,11|🇺🇸 美国3|@ripaojiedian
+      - 2|🇭🇰18 |  5.3MB/s
+      - _US_美国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -93,10 +71,10 @@ proxy-groups:
     interval: 10
     proxies:
       - 2|🇭🇰3 |  6.3MB/s
+      - 2|🇭🇰3 |  6.3MB/s 2
       - 1|🌀13-CZ |  4.9MB/s
-      - 未知
-      - 4FreeIran-1620
-      - 1,11|🇺🇸 美国3|@ripaojiedian
+      - 2|🇭🇰18 |  5.3MB/s
+      - _US_美国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
