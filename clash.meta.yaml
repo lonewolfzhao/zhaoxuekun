@@ -26,10 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 2|🇭🇰3 |  6.3MB/s, server: 118.184.136.48, port: 7780, type: ss, cipher: rc4-md5, password: 5czcr84s0ab, udp: true}
-- {name: 2|🇭🇰3 |  6.3MB/s 2, server: 118.184.136.48, port: 7780, type: ss, cipher: rc4-md5, password: 5czcr84s0ab, udp: true}
+- {name: 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202504212352625-1jaHlWfGGj.download.microsoft.com}, udp: true}
+- {name: 12|🇭🇰 香港5|@ripaojiedian, server: 183.236.51.38, port: 41291, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _DE_德国, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
 - {name: 1|🌀13-CZ |  4.9MB/s, server: 89.18.58.104, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 2|🇭🇰18 |  5.3MB/s, server: 118.184.136.53, port: 7780, type: ss, cipher: rc4-md5, password: 5czcr84s0ab, udp: true}
 - {name: _US_美国, server: 104.21.82.39, port: 80, type: vmess, uuid: 4be20cf1-6af1-4e87-ae5a-80d6ec30fecd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /WudQ2hzj2qjH1GhzxRV9PS, headers: {Host: 8uiop.191288.xyz}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -43,10 +43,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🇭🇰3 |  6.3MB/s
-      - 2|🇭🇰3 |  6.3MB/s 2
+      - 日本|@ripaojiedian
+      - 12|🇭🇰 香港5|@ripaojiedian
+      - _DE_德国
       - 1|🌀13-CZ |  4.9MB/s
-      - 2|🇭🇰18 |  5.3MB/s
       - _US_美国
   - name: 🔰 节点选择
     type: select
@@ -59,10 +59,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🇭🇰3 |  6.3MB/s
-      - 2|🇭🇰3 |  6.3MB/s 2
+      - 日本|@ripaojiedian
+      - 12|🇭🇰 香港5|@ripaojiedian
+      - _DE_德国
       - 1|🌀13-CZ |  4.9MB/s
-      - 2|🇭🇰18 |  5.3MB/s
       - _US_美国
   - name: ♻️ 可能受限
     type: load-balance
@@ -70,10 +70,10 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 2|🇭🇰3 |  6.3MB/s
-      - 2|🇭🇰3 |  6.3MB/s 2
+      - 日本|@ripaojiedian
+      - 12|🇭🇰 香港5|@ripaojiedian
+      - _DE_德国
       - 1|🌀13-CZ |  4.9MB/s
-      - 2|🇭🇰18 |  5.3MB/s
       - _US_美国
   - name: 🐟 漏网之鱼
     type: select
