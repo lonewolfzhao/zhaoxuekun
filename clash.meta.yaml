@@ -26,18 +26,15 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 2|🇹🇼5 |  3.5MB/s, server: wb.kaiqsz.com, port: 42765, type: trojan, password: d7d8a8cd-239b-4b4e-93d9-dc3d89332ac9, sni: mmbiz1.redapricotcloud.com, skip-cert-verify: true, udp: true}
-- {name: 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202504221857755-wjQtxZzCYu.download.microsoft.com}, udp: true}
-- {name: 13|CN_speednode_0038, server: 121.14.61.174, port: 8313, type: trojan, password: 2c605663-b89a-5734-a9d6-97d4743d72cf, sni: hk-13-568.flztjc.net, skip-cert-verify: true, udp: true}
-- {name: 12|tg频道:@ripaojiedian, server: 3.113.10.230, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "11,12|香港4|@ripaojiedian", server: dozo01.flztjc.top, port: 8313, type: trojan, password: 2c605663-b89a-5734-a9d6-97d4743d72cf, sni: hk-13-568.flztjc.net, skip-cert-verify: true, udp: true}
-- {name: 12|🇸🇬 狮城特殊|@ripaojiedian, server: 43.207.191.66, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 12|🇭🇰 香港9|@ripaojiedian, server: two.taki.wtf, port: 11111, type: ss, cipher: chacha20-ietf-poly1305, password: 05d0bad8-6f0c-44b9-ac62-2f672ef55cbe, udp: true}
-- {name: 12|🇯🇵 日本特殊|@ripaojiedian, server: 35.85.52.8, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国, server: trusty-mayfly.dolphin109.quest, port: 443, type: trojan, password: !<str> 3828095943467868160, sni: trusty-mayfly.dolphin109.quest, skip-cert-verify: true, udp: true}
-- {name: 1|🇬🇧1 |  2.9MB/s, server: 62.60.231.81, port: 39008, type: ss, cipher: chacha20-ietf-poly1305, password: W7fIo8Gp6TLb1YHZNH1fu5, udp: true}
-- {name: _ES_西班牙, server: 212.192.2.202, port: 443, type: trojan, password: !<str> 3828095943467868160, sni: lucky-lynx.dolphin109.quest, skip-cert-verify: true, udp: true}
+- {name: 4Sarina-1696, server: okanc.node-is.green, port: 21114, type: ss, cipher: aes-256-gcm, password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83, udp: true}
+- {name: 2|🌀3-CZ |  5.3MB/s, server: humble-shad.dolphin109.quest, port: 443, type: trojan, password: !<str> 3828095943467868160, sni: humble-shad.dolphin109.quest, skip-cert-verify: true, udp: true}
 - {name: 2|🇦🇪2 |  5.0MB/s, server: 212.192.2.253, port: 443, type: trojan, password: !<str> 3828095943467868160, sni: dynamic-dane.dolphin109.quest, skip-cert-verify: true, udp: true}
+- {name: 1|🇩🇪11 |  1.1MB/s, server: 202.78.163.146, port: 443, type: trojan, password: !<str> 3828095943467868160, sni: immense-goose.dolphin109.quest, skip-cert-verify: true, udp: true}
+- {name: _RU_俄罗斯, server: 95.85.93.192, port: 443, type: trojan, password: !<str> 3828095943467868160, sni: correct-pelican.dolphin109.quest, skip-cert-verify: true, udp: true}
+- {name: 12|🇭🇰 香港8|@ripaojiedian, server: 120.198.71.214, port: 42375, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _ES_西班牙, server: 212.192.2.202, port: 443, type: trojan, password: !<str> 3828095943467868160, sni: lucky-lynx.dolphin109.quest, skip-cert-verify: true, udp: true}
+- {name: 13|GB_speednode_0059, server: 202.78.163.141, port: 443, type: trojan, password: !<str> 3828095943467868160, sni: sharp-bear.dolphin109.quest, skip-cert-verify: true, udp: true}
+- {name: 2|🇳🇱7 |  1.1MB/s, server: 85.234.65.100, port: 443, type: trojan, password: !<str> 3828095943467868160, sni: handy-sparrow.dolphin109.quest, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -50,18 +47,15 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🇹🇼5 |  3.5MB/s
-      - 日本|@ripaojiedian
-      - 13|CN_speednode_0038
-      - 12|tg频道:@ripaojiedian
-      - 11,12|香港4|@ripaojiedian
-      - 12|🇸🇬 狮城特殊|@ripaojiedian
-      - 12|🇭🇰 香港9|@ripaojiedian
-      - 12|🇯🇵 日本特殊|@ripaojiedian
-      - _US_美国
-      - 1|🇬🇧1 |  2.9MB/s
-      - _ES_西班牙
+      - 4Sarina-1696
+      - 2|🌀3-CZ |  5.3MB/s
       - 2|🇦🇪2 |  5.0MB/s
+      - 1|🇩🇪11 |  1.1MB/s
+      - _RU_俄罗斯
+      - 12|🇭🇰 香港8|@ripaojiedian
+      - _ES_西班牙
+      - 13|GB_speednode_0059
+      - 2|🇳🇱7 |  1.1MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -73,36 +67,30 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🇹🇼5 |  3.5MB/s
-      - 日本|@ripaojiedian
-      - 13|CN_speednode_0038
-      - 12|tg频道:@ripaojiedian
-      - 11,12|香港4|@ripaojiedian
-      - 12|🇸🇬 狮城特殊|@ripaojiedian
-      - 12|🇭🇰 香港9|@ripaojiedian
-      - 12|🇯🇵 日本特殊|@ripaojiedian
-      - _US_美国
-      - 1|🇬🇧1 |  2.9MB/s
-      - _ES_西班牙
+      - 4Sarina-1696
+      - 2|🌀3-CZ |  5.3MB/s
       - 2|🇦🇪2 |  5.0MB/s
+      - 1|🇩🇪11 |  1.1MB/s
+      - _RU_俄罗斯
+      - 12|🇭🇰 香港8|@ripaojiedian
+      - _ES_西班牙
+      - 13|GB_speednode_0059
+      - 2|🇳🇱7 |  1.1MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 2|🇹🇼5 |  3.5MB/s
-      - 日本|@ripaojiedian
-      - 13|CN_speednode_0038
-      - 12|tg频道:@ripaojiedian
-      - 11,12|香港4|@ripaojiedian
-      - 12|🇸🇬 狮城特殊|@ripaojiedian
-      - 12|🇭🇰 香港9|@ripaojiedian
-      - 12|🇯🇵 日本特殊|@ripaojiedian
-      - _US_美国
-      - 1|🇬🇧1 |  2.9MB/s
-      - _ES_西班牙
+      - 4Sarina-1696
+      - 2|🌀3-CZ |  5.3MB/s
       - 2|🇦🇪2 |  5.0MB/s
+      - 1|🇩🇪11 |  1.1MB/s
+      - _RU_俄罗斯
+      - 12|🇭🇰 香港8|@ripaojiedian
+      - _ES_西班牙
+      - 13|GB_speednode_0059
+      - 2|🇳🇱7 |  1.1MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
