@@ -26,15 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Sarina-1696, server: okanc.node-is.green, port: 21114, type: ss, cipher: aes-256-gcm, password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83, udp: true}
-- {name: 2|🌀3-CZ |  5.3MB/s, server: humble-shad.dolphin109.quest, port: 443, type: trojan, password: !<str> 3828095943467868160, sni: humble-shad.dolphin109.quest, skip-cert-verify: true, udp: true}
-- {name: 2|🇦🇪2 |  5.0MB/s, server: 212.192.2.253, port: 443, type: trojan, password: !<str> 3828095943467868160, sni: dynamic-dane.dolphin109.quest, skip-cert-verify: true, udp: true}
-- {name: 1|🇩🇪11 |  1.1MB/s, server: 202.78.163.146, port: 443, type: trojan, password: !<str> 3828095943467868160, sni: immense-goose.dolphin109.quest, skip-cert-verify: true, udp: true}
-- {name: _RU_俄罗斯, server: 95.85.93.192, port: 443, type: trojan, password: !<str> 3828095943467868160, sni: correct-pelican.dolphin109.quest, skip-cert-verify: true, udp: true}
 - {name: 12|🇭🇰 香港8|@ripaojiedian, server: 120.198.71.214, port: 42375, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: _ES_西班牙, server: 212.192.2.202, port: 443, type: trojan, password: !<str> 3828095943467868160, sni: lucky-lynx.dolphin109.quest, skip-cert-verify: true, udp: true}
-- {name: 13|GB_speednode_0059, server: 202.78.163.141, port: 443, type: trojan, password: !<str> 3828095943467868160, sni: sharp-bear.dolphin109.quest, skip-cert-verify: true, udp: true}
-- {name: 2|🇳🇱7 |  1.1MB/s, server: 85.234.65.100, port: 443, type: trojan, password: !<str> 3828095943467868160, sni: handy-sparrow.dolphin109.quest, skip-cert-verify: true, udp: true}
+- {name: 2|🌀3-CZ |  5.3MB/s, server: humble-shad.dolphin109.quest, port: 443, type: trojan, password: !<str> 3828095943467868160, sni: humble-shad.dolphin109.quest, skip-cert-verify: true, udp: true}
+- {name: _AL_阿尔巴尼亚, server: 109.104.154.201, port: 443, type: trojan, password: !<str> 3828095943467868160, sni: choice-gar.dolphin109.quest, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -47,15 +41,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Sarina-1696
-      - 2|🌀3-CZ |  5.3MB/s
-      - 2|🇦🇪2 |  5.0MB/s
-      - 1|🇩🇪11 |  1.1MB/s
-      - _RU_俄罗斯
       - 12|🇭🇰 香港8|@ripaojiedian
-      - _ES_西班牙
-      - 13|GB_speednode_0059
-      - 2|🇳🇱7 |  1.1MB/s
+      - 2|🌀3-CZ |  5.3MB/s
+      - _AL_阿尔巴尼亚
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -67,30 +55,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Sarina-1696
-      - 2|🌀3-CZ |  5.3MB/s
-      - 2|🇦🇪2 |  5.0MB/s
-      - 1|🇩🇪11 |  1.1MB/s
-      - _RU_俄罗斯
       - 12|🇭🇰 香港8|@ripaojiedian
-      - _ES_西班牙
-      - 13|GB_speednode_0059
-      - 2|🇳🇱7 |  1.1MB/s
+      - 2|🌀3-CZ |  5.3MB/s
+      - _AL_阿尔巴尼亚
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Sarina-1696
-      - 2|🌀3-CZ |  5.3MB/s
-      - 2|🇦🇪2 |  5.0MB/s
-      - 1|🇩🇪11 |  1.1MB/s
-      - _RU_俄罗斯
       - 12|🇭🇰 香港8|@ripaojiedian
-      - _ES_西班牙
-      - 13|GB_speednode_0059
-      - 2|🇳🇱7 |  1.1MB/s
+      - 2|🌀3-CZ |  5.3MB/s
+      - _AL_阿尔巴尼亚
   - name: 🐟 漏网之鱼
     type: select
     proxies:
