@@ -27,8 +27,11 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: "2,12|🇸🇬 狮城特殊|@ripaojiedian", server: 43.207.139.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 2|🌀11-CZ |  4.8MB/s, server: 89.18.58.63, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: _CN_中国, server: 62.60.231.81, port: 39008, type: ss, cipher: chacha20-ietf-poly1305, password: W7fIo8Gp6TLb1YHZNH1fu5, udp: true}
+- {name: 12|🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202504231516596-2ovXmdP1DN.download.microsoft.com}, udp: true}
+- {name: 12|tg频道:@ripaojiedian, server: 13.125.78.63, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 1|🌀19- |  5.2MB/s, server: 89.18.58.206, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: "2,12|🇰🇷 韩国特殊|@ripaojiedian", server: 54.180.243.85, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 1|🇺🇸34 |  5.3MB/s, server: 3sdfgvcxxx.938.pp.ua, port: 443, type: vmess, uuid: 0212fab5-e93c-4904-b7a8-187fd535f354, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /P879mtCoHQqaWO67qEaMINZ1, headers: {Host: 3sdfgvcxxx.938.pp.ua}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,8 +45,11 @@ proxy-groups:
     interval: 10
     proxies:
       - 2,12|🇸🇬 狮城特殊|@ripaojiedian
-      - 2|🌀11-CZ |  4.8MB/s
-      - _CN_中国
+      - 12|🇺🇸 美国2|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
+      - 1|🌀19- |  5.2MB/s
+      - 2,12|🇰🇷 韩国特殊|@ripaojiedian
+      - 1|🇺🇸34 |  5.3MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -56,8 +62,11 @@ proxy-groups:
     interval: 10
     proxies:
       - 2,12|🇸🇬 狮城特殊|@ripaojiedian
-      - 2|🌀11-CZ |  4.8MB/s
-      - _CN_中国
+      - 12|🇺🇸 美国2|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
+      - 1|🌀19- |  5.2MB/s
+      - 2,12|🇰🇷 韩国特殊|@ripaojiedian
+      - 1|🇺🇸34 |  5.3MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -65,8 +74,11 @@ proxy-groups:
     interval: 10
     proxies:
       - 2,12|🇸🇬 狮城特殊|@ripaojiedian
-      - 2|🌀11-CZ |  4.8MB/s
-      - _CN_中国
+      - 12|🇺🇸 美国2|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
+      - 1|🌀19- |  5.2MB/s
+      - 2,12|🇰🇷 韩国特殊|@ripaojiedian
+      - 1|🇺🇸34 |  5.3MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
