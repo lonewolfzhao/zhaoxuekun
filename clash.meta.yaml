@@ -26,6 +26,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 12|🇭🇰 香港8|@ripaojiedian, server: 120.198.71.214, port: 42375, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 2|🌀7-CZ |  4.9MB/s, server: 89.18.58.206, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 0|🇸🇬2 |  5.9MB/s, server: 47.128.246.96, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 2|🌀5-ES |  2.4MB/s, server: v5.heduian.link, port: 30805, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v5.heduian.link}}, udp: true}
@@ -41,6 +42,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 12|🇭🇰 香港8|@ripaojiedian
       - 2|🌀7-CZ |  4.9MB/s
       - 0|🇸🇬2 |  5.9MB/s
       - 2|🌀5-ES |  2.4MB/s
@@ -55,6 +57,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 12|🇭🇰 香港8|@ripaojiedian
       - 2|🌀7-CZ |  4.9MB/s
       - 0|🇸🇬2 |  5.9MB/s
       - 2|🌀5-ES |  2.4MB/s
@@ -64,6 +67,7 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 12|🇭🇰 香港8|@ripaojiedian
       - 2|🌀7-CZ |  4.9MB/s
       - 0|🇸🇬2 |  5.9MB/s
       - 2|🌀5-ES |  2.4MB/s
