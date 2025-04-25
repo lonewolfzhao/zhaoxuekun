@@ -26,14 +26,16 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 2|🇯🇵1 |  3.7MB/s, server: 18.183.126.3, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 12|🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202504241555326-E76HVtFSaq.download.microsoft.com}, udp: true}
-- {name: "2,12|🇯🇵 日本特殊|@ripaojiedian", server: 13.229.212.103, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 2|🇰🇷4 |  1.7MB/s, server: 54.180.245.153, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 1|🇰🇷3 |  5.8MB/s, server: 3.34.133.66, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 1|🇰🇷9 |  6.0MB/s, server: 15.165.74.90, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 2|🌀7-CZ |  4.9MB/s, server: 89.18.58.206, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _US_美国, server: 34.217.58.77, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 2|🇯🇵3 |  6.1MB/s, server: 52.193.77.232, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 2|🇸🇬4 |  6.3MB/s, server: 54.251.144.227, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 1|🇺🇸12 |  4.3MB/s, server: 54.188.119.78, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 2|🇰🇷2 |  2.9MB/s, server: 3.38.99.70, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 12|🇰🇷 韩国特殊|@ripaojiedian, server: 13.231.81.63, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 2|🇭🇰11 |  1.2MB/s, server: 578e2eb9-svc1s0-t28b6o-ef48.hk3.p5pv.com, port: 8080, type: vmess, uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 4Kian-1327, server: 43.201.250.173, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 13|香港3|@ripaojiedian, server: 47.83.137.220, port: 57888, type: vmess, uuid: b68f8c35-935e-444f-8944-291bf15a56a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 2|🌀4-CZ |  5.5MB/s, server: 89.18.56.249, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -46,14 +48,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🇯🇵1 |  3.7MB/s
-      - 12|🇯🇵 日本|@ripaojiedian
-      - 2,12|🇯🇵 日本特殊|@ripaojiedian
+      - 2|🇰🇷4 |  1.7MB/s
+      - 1|🇰🇷3 |  5.8MB/s
+      - 1|🇰🇷9 |  6.0MB/s
+      - 2|🌀7-CZ |  4.9MB/s
+      - _US_美国
+      - 2|🇯🇵3 |  6.1MB/s
+      - 2|🇸🇬4 |  6.3MB/s
+      - 1|🇺🇸12 |  4.3MB/s
       - 2|🇰🇷2 |  2.9MB/s
-      - 12|🇰🇷 韩国特殊|@ripaojiedian
-      - 2|🇭🇰11 |  1.2MB/s
-      - 4Kian-1327
-      - 13|香港3|@ripaojiedian
+      - 2|🌀4-CZ |  5.5MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -65,28 +69,32 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🇯🇵1 |  3.7MB/s
-      - 12|🇯🇵 日本|@ripaojiedian
-      - 2,12|🇯🇵 日本特殊|@ripaojiedian
+      - 2|🇰🇷4 |  1.7MB/s
+      - 1|🇰🇷3 |  5.8MB/s
+      - 1|🇰🇷9 |  6.0MB/s
+      - 2|🌀7-CZ |  4.9MB/s
+      - _US_美国
+      - 2|🇯🇵3 |  6.1MB/s
+      - 2|🇸🇬4 |  6.3MB/s
+      - 1|🇺🇸12 |  4.3MB/s
       - 2|🇰🇷2 |  2.9MB/s
-      - 12|🇰🇷 韩国特殊|@ripaojiedian
-      - 2|🇭🇰11 |  1.2MB/s
-      - 4Kian-1327
-      - 13|香港3|@ripaojiedian
+      - 2|🌀4-CZ |  5.5MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 2|🇯🇵1 |  3.7MB/s
-      - 12|🇯🇵 日本|@ripaojiedian
-      - 2,12|🇯🇵 日本特殊|@ripaojiedian
+      - 2|🇰🇷4 |  1.7MB/s
+      - 1|🇰🇷3 |  5.8MB/s
+      - 1|🇰🇷9 |  6.0MB/s
+      - 2|🌀7-CZ |  4.9MB/s
+      - _US_美国
+      - 2|🇯🇵3 |  6.1MB/s
+      - 2|🇸🇬4 |  6.3MB/s
+      - 1|🇺🇸12 |  4.3MB/s
       - 2|🇰🇷2 |  2.9MB/s
-      - 12|🇰🇷 韩国特殊|@ripaojiedian
-      - 2|🇭🇰11 |  1.2MB/s
-      - 4Kian-1327
-      - 13|香港3|@ripaojiedian
+      - 2|🌀4-CZ |  5.5MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
