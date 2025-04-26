@@ -26,6 +26,14 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: "1,12|🇸🇬 狮城特殊|@ripaojiedian", server: 54.249.95.208, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 1|🇸🇬4 |  5.9MB/s, server: 18.141.233.166, port: 443, type: ss, cipher: aes-256-gcm, password: amazongreatvpn, udp: true}
+- {name: "1,12|🇰🇷 韩国特殊|@ripaojiedian", server: 13.114.44.55, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 1|🇺🇸50 |  5.3MB/s, server: 198.46.158.215, port: 23702, type: trojan, password: 72N7EE1m6s, skip-cert-verify: true, udp: true}
+- {name: 2|🇺🇸23 |  4.0MB/s, server: 44.204.173.8, port: 443, type: ss, cipher: aes-256-gcm, password: amazongreatvpn, udp: true}
+- {name: 4Jadi-12, server: 45.87.175.154, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+- {name: 4Jadi-1474, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: _US_美国, server: 13.52.214.17, port: 443, type: ss, cipher: aes-256-gcm, password: amazongreatvpn, udp: true}
 - {name: 2|🇺🇸17 |  5.6MB/s, server: tk.hzlt.tkddns.xyz, port: 22643, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
 - {name: 2|🇺🇸28 |  5.2MB/s, server: 34.219.82.5, port: 443, type: ss, cipher: aes-256-gcm, password: amazongreatvpn, udp: true}
 proxy-groups:
@@ -40,6 +48,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 1,12|🇸🇬 狮城特殊|@ripaojiedian
+      - 1|🇸🇬4 |  5.9MB/s
+      - 1,12|🇰🇷 韩国特殊|@ripaojiedian
+      - 1|🇺🇸50 |  5.3MB/s
+      - 2|🇺🇸23 |  4.0MB/s
+      - 4Jadi-12
+      - 4Jadi-1474
+      - _US_美国
       - 2|🇺🇸17 |  5.6MB/s
       - 2|🇺🇸28 |  5.2MB/s
   - name: 🔰 节点选择
@@ -53,6 +69,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 1,12|🇸🇬 狮城特殊|@ripaojiedian
+      - 1|🇸🇬4 |  5.9MB/s
+      - 1,12|🇰🇷 韩国特殊|@ripaojiedian
+      - 1|🇺🇸50 |  5.3MB/s
+      - 2|🇺🇸23 |  4.0MB/s
+      - 4Jadi-12
+      - 4Jadi-1474
+      - _US_美国
       - 2|🇺🇸17 |  5.6MB/s
       - 2|🇺🇸28 |  5.2MB/s
   - name: ♻️ 可能受限
@@ -61,6 +85,14 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 1,12|🇸🇬 狮城特殊|@ripaojiedian
+      - 1|🇸🇬4 |  5.9MB/s
+      - 1,12|🇰🇷 韩国特殊|@ripaojiedian
+      - 1|🇺🇸50 |  5.3MB/s
+      - 2|🇺🇸23 |  4.0MB/s
+      - 4Jadi-12
+      - 4Jadi-1474
+      - _US_美国
       - 2|🇺🇸17 |  5.6MB/s
       - 2|🇺🇸28 |  5.2MB/s
   - name: 🐟 漏网之鱼
