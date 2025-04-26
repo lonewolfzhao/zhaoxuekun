@@ -26,8 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: "1,12|🇸🇬 狮城特殊|@ripaojiedian", server: 54.249.95.208, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Jadi-145, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
+- {name: "1,12|🇭🇰 香港3|@ripaojiedian", server: 910281.chasel.sbs, port: 21202, type: ss, cipher: aes-256-gcm, password: 796EA43C-1A63-8C50-3745-FD3946149E4F, udp: true}
+- {name: 1|🇸🇬4 |  5.9MB/s, server: 18.141.233.166, port: 443, type: ss, cipher: aes-256-gcm, password: amazongreatvpn, udp: true}
+- {name: 4Jadi-1474, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: "1,12|🇰🇷 韩国|@ripaojiedian", server: 510613.frederica.xyz, port: 21154, type: ss, cipher: aes-256-gcm, password: 796EA43C-1A63-8C50-3745-FD3946149E4F, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -40,8 +42,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 1,12|🇸🇬 狮城特殊|@ripaojiedian
-      - 4Jadi-145
+      - 1,12|🇭🇰 香港3|@ripaojiedian
+      - 1|🇸🇬4 |  5.9MB/s
+      - 4Jadi-1474
+      - 1,12|🇰🇷 韩国|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -53,16 +57,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 1,12|🇸🇬 狮城特殊|@ripaojiedian
-      - 4Jadi-145
+      - 1,12|🇭🇰 香港3|@ripaojiedian
+      - 1|🇸🇬4 |  5.9MB/s
+      - 4Jadi-1474
+      - 1,12|🇰🇷 韩国|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 1,12|🇸🇬 狮城特殊|@ripaojiedian
-      - 4Jadi-145
+      - 1,12|🇭🇰 香港3|@ripaojiedian
+      - 1|🇸🇬4 |  5.9MB/s
+      - 4Jadi-1474
+      - 1,12|🇰🇷 韩国|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
