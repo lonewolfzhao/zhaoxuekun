@@ -26,9 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: "1,12|🇭🇰 香港3|@ripaojiedian", server: 910281.chasel.sbs, port: 21202, type: ss, cipher: aes-256-gcm, password: 796EA43C-1A63-8C50-3745-FD3946149E4F, udp: true}
-- {name: 2|🇭🇰6 |  2.4MB/s, server: db663bf2-sv2sg0-sv7gs8-1lkbs.hk.p5pv.com, port: 80, type: vmess, uuid: 5a4c13ae-6673-11ee-a149-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: db663bf2-sv2sg0-sv7gs8-1lkbs.hk.p5pv.com}}, udp: true}
-- {name: "1,12|🇰🇷 韩国|@ripaojiedian", server: 510613.frederica.xyz, port: 21154, type: ss, cipher: aes-256-gcm, password: 796EA43C-1A63-8C50-3745-FD3946149E4F, udp: true}
+- {name: 4Nika-1732, server: okanc.node-is.green, port: 21114, type: ss, cipher: aes-256-gcm, password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83, udp: true}
+- {name: 2|🇺🇸29 |  2.1MB/s, server: 142.171.118.132, port: 23564, type: vmess, uuid: 28cf94d4-46cc-4151-b94e-1073a4594dc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 2|🇺🇸32 |  1.0MB/s, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zxjp-a.tkong.cc}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -41,9 +41,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 1,12|🇭🇰 香港3|@ripaojiedian
-      - 2|🇭🇰6 |  2.4MB/s
-      - 1,12|🇰🇷 韩国|@ripaojiedian
+      - 4Nika-1732
+      - 2|🇺🇸29 |  2.1MB/s
+      - 2|🇺🇸32 |  1.0MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -55,18 +55,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 1,12|🇭🇰 香港3|@ripaojiedian
-      - 2|🇭🇰6 |  2.4MB/s
-      - 1,12|🇰🇷 韩国|@ripaojiedian
+      - 4Nika-1732
+      - 2|🇺🇸29 |  2.1MB/s
+      - 2|🇺🇸32 |  1.0MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 1,12|🇭🇰 香港3|@ripaojiedian
-      - 2|🇭🇰6 |  2.4MB/s
-      - 1,12|🇰🇷 韩国|@ripaojiedian
+      - 4Nika-1732
+      - 2|🇺🇸29 |  2.1MB/s
+      - 2|🇺🇸32 |  1.0MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
