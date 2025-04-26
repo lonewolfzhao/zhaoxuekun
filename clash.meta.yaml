@@ -27,8 +27,7 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: "1,12|🇭🇰 香港3|@ripaojiedian", server: 910281.chasel.sbs, port: 21202, type: ss, cipher: aes-256-gcm, password: 796EA43C-1A63-8C50-3745-FD3946149E4F, udp: true}
-- {name: 1|🇸🇬4 |  5.9MB/s, server: 18.141.233.166, port: 443, type: ss, cipher: aes-256-gcm, password: amazongreatvpn, udp: true}
-- {name: 4Jadi-1474, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 2|🇭🇰6 |  2.4MB/s, server: db663bf2-sv2sg0-sv7gs8-1lkbs.hk.p5pv.com, port: 80, type: vmess, uuid: 5a4c13ae-6673-11ee-a149-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: db663bf2-sv2sg0-sv7gs8-1lkbs.hk.p5pv.com}}, udp: true}
 - {name: "1,12|🇰🇷 韩国|@ripaojiedian", server: 510613.frederica.xyz, port: 21154, type: ss, cipher: aes-256-gcm, password: 796EA43C-1A63-8C50-3745-FD3946149E4F, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -43,8 +42,7 @@ proxy-groups:
     interval: 10
     proxies:
       - 1,12|🇭🇰 香港3|@ripaojiedian
-      - 1|🇸🇬4 |  5.9MB/s
-      - 4Jadi-1474
+      - 2|🇭🇰6 |  2.4MB/s
       - 1,12|🇰🇷 韩国|@ripaojiedian
   - name: 🔰 节点选择
     type: select
@@ -58,8 +56,7 @@ proxy-groups:
     interval: 10
     proxies:
       - 1,12|🇭🇰 香港3|@ripaojiedian
-      - 1|🇸🇬4 |  5.9MB/s
-      - 4Jadi-1474
+      - 2|🇭🇰6 |  2.4MB/s
       - 1,12|🇰🇷 韩国|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
@@ -68,8 +65,7 @@ proxy-groups:
     interval: 10
     proxies:
       - 1,12|🇭🇰 香港3|@ripaojiedian
-      - 1|🇸🇬4 |  5.9MB/s
-      - 4Jadi-1474
+      - 2|🇭🇰6 |  2.4MB/s
       - 1,12|🇰🇷 韩国|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
