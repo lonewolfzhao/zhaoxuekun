@@ -26,9 +26,12 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Nika-1732, server: okanc.node-is.green, port: 21114, type: ss, cipher: aes-256-gcm, password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83, udp: true}
-- {name: 2|🇺🇸29 |  2.1MB/s, server: 142.171.118.132, port: 23564, type: vmess, uuid: 28cf94d4-46cc-4151-b94e-1073a4594dc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 2|🇺🇸32 |  1.0MB/s, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zxjp-a.tkong.cc}}, udp: true}
+- {name: 12|tg频道:@ripaojiedian, server: 15.165.15.197, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|🇰🇷7 |  5.9MB/s, server: 3.35.238.196, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|🇺🇸11 |  2.2MB/s, server: 54.218.54.51, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 0|🇺🇸42 |  5.9MB/s, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
+- {name: _US_美国, server: 157.254.227.168, port: 25646, type: vmess, uuid: b53dea0b-748f-4247-9f50-c755ac728787, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 0|🇺🇸43 |  4.9MB/s, server: yymg02.haibo168.com, port: 443, type: vmess, uuid: e85aa4fe-5812-4356-e10e-b05840a6920d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /yymg1234, headers: {Host: yymg02.haibo168.com}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -41,9 +44,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Nika-1732
-      - 2|🇺🇸29 |  2.1MB/s
-      - 2|🇺🇸32 |  1.0MB/s
+      - 12|tg频道:@ripaojiedian
+      - 0|🇰🇷7 |  5.9MB/s
+      - 0|🇺🇸11 |  2.2MB/s
+      - 0|🇺🇸42 |  5.9MB/s
+      - _US_美国
+      - 0|🇺🇸43 |  4.9MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -55,18 +61,24 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Nika-1732
-      - 2|🇺🇸29 |  2.1MB/s
-      - 2|🇺🇸32 |  1.0MB/s
+      - 12|tg频道:@ripaojiedian
+      - 0|🇰🇷7 |  5.9MB/s
+      - 0|🇺🇸11 |  2.2MB/s
+      - 0|🇺🇸42 |  5.9MB/s
+      - _US_美国
+      - 0|🇺🇸43 |  4.9MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Nika-1732
-      - 2|🇺🇸29 |  2.1MB/s
-      - 2|🇺🇸32 |  1.0MB/s
+      - 12|tg频道:@ripaojiedian
+      - 0|🇰🇷7 |  5.9MB/s
+      - 0|🇺🇸11 |  2.2MB/s
+      - 0|🇺🇸42 |  5.9MB/s
+      - _US_美国
+      - 0|🇺🇸43 |  4.9MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
