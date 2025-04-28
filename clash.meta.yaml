@@ -26,8 +26,11 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 4Mohsen-1712, server: okanc.node-is.green, port: 21115, type: ss, cipher: aes-256-gcm, password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83, udp: true}
+- {name: 2|🇹🇼1 |  6.1MB/s, server: wb.kaiqsz.com, port: 42765, type: trojan, password: 6e8b9913-5277-4627-95b0-86766ae65ad6, sni: mmbiz1.redapricotcloud.com, skip-cert-verify: true, udp: true}
+- {name: "2,12,13|日本4|@ripaojiedian", server: 125.94.40.162, port: 21125, type: trojan, password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11, sni: k12.tudou211.com, skip-cert-verify: true, udp: true}
+- {name: 2|🇺🇸44 |  2.7MB/s, server: 192.227.175.225, port: 443, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.8.26}, udp: true}
 - {name: 1|🇫🇷3 |  1.1MB/s, server: v37.heduian.link, port: 30837, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v37.heduian.link}}, udp: true}
-- {name: 1|🇳🇱1 |  4.3MB/s, server: 212.34.150.176, port: 4199, type: ss, cipher: chacha20-ietf-poly1305, password: gpW0ffUApVv0u5q1NwGHAX, udp: true}
 - {name: 0|🇺🇸42 |  5.9MB/s, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -41,8 +44,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Mohsen-1712
+      - 2|🇹🇼1 |  6.1MB/s
+      - 2,12,13|日本4|@ripaojiedian
+      - 2|🇺🇸44 |  2.7MB/s
       - 1|🇫🇷3 |  1.1MB/s
-      - 1|🇳🇱1 |  4.3MB/s
       - 0|🇺🇸42 |  5.9MB/s
   - name: 🔰 节点选择
     type: select
@@ -55,8 +61,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Mohsen-1712
+      - 2|🇹🇼1 |  6.1MB/s
+      - 2,12,13|日本4|@ripaojiedian
+      - 2|🇺🇸44 |  2.7MB/s
       - 1|🇫🇷3 |  1.1MB/s
-      - 1|🇳🇱1 |  4.3MB/s
       - 0|🇺🇸42 |  5.9MB/s
   - name: ♻️ 可能受限
     type: load-balance
@@ -64,8 +73,11 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 4Mohsen-1712
+      - 2|🇹🇼1 |  6.1MB/s
+      - 2,12,13|日本4|@ripaojiedian
+      - 2|🇺🇸44 |  2.7MB/s
       - 1|🇫🇷3 |  1.1MB/s
-      - 1|🇳🇱1 |  4.3MB/s
       - 0|🇺🇸42 |  5.9MB/s
   - name: 🐟 漏网之鱼
     type: select
