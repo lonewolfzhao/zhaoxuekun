@@ -26,14 +26,15 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 11|tg频道:@ripaojiedian, server: 52.13.124.105, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 0|🇺🇸46 |  4.1MB/s, server: 18.190.62.192, port: 14743, type: ss, cipher: aes-256-gcm, password: JLMk9bhp, udp: true}
-- {name: 0|🇺🇦1 |  5.0MB/s, server: ua.mjt000.com, port: 443, type: trojan, password: 46dce50f-cb9a-45d0-99f8-0107ea567bf2, sni: ua.mjt000.com, skip-cert-verify: true, udp: true}
-- {name: 0|🇨🇦2 |  5.5MB/s, server: v25.heduian.link, port: 30825, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v25.heduian.link}}, udp: true}
-- {name: 0|🇯🇵1 |  5.4MB/s, server: green2.cdntencentmusic.com, port: 28507, type: trojan, password: 20cc1a99-a26e-4c6b-b0be-1ed331b0c271, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+- {name: 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202504281461390-eUluP1Ncv7.download.microsoft.com}, udp: true}
 - {name: 0|🇺🇸39 |  5.7MB/s, server: 141.101.121.127, port: 2053, type: vmess, uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1744007578.speed.mamha.cccp.freefly.pp.ua}}, udp: true}
+- {name: 11|tg频道:@ripaojiedian, server: 52.13.124.105, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 0|🇸🇬1 |  2.8MB/s, server: 125.94.40.162, port: 21170, type: trojan, password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11, sni: k39.tudou211.com, skip-cert-verify: true, udp: true}
+- {name: 4Mohsen-3326, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: 1|🇺🇸15 |  5.4MB/s, server: yymg18.haibo168.com, port: 443, type: vmess, uuid: 5fc5106c-2ada-4481-a5df-608d66f7eda0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /yymg1234, headers: {Host: yymg18.haibo168.com}}, udp: true}
 - {name: 0|🇺🇸42 |  5.9MB/s, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
+- {name: 1|🇹🇼22 |  3.2MB/s, server: csuzhou01.1cooldns.com, port: 64050, type: ss, cipher: aes-128-gcm, password: VMhGp5wEIyCDf90T, udp: true}
+- {name: 0|🇺🇸46 |  4.1MB/s, server: 18.190.62.192, port: 14743, type: ss, cipher: aes-256-gcm, password: JLMk9bhp, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -46,14 +47,15 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 11|tg频道:@ripaojiedian
-      - 0|🇺🇸46 |  4.1MB/s
-      - 0|🇺🇦1 |  5.0MB/s
-      - 0|🇨🇦2 |  5.5MB/s
-      - 0|🇯🇵1 |  5.4MB/s
+      - 美国2|@ripaojiedian
       - 0|🇺🇸39 |  5.7MB/s
+      - 11|tg频道:@ripaojiedian
       - 0|🇸🇬1 |  2.8MB/s
+      - 4Mohsen-3326
+      - 1|🇺🇸15 |  5.4MB/s
       - 0|🇺🇸42 |  5.9MB/s
+      - 1|🇹🇼22 |  3.2MB/s
+      - 0|🇺🇸46 |  4.1MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -65,28 +67,30 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 11|tg频道:@ripaojiedian
-      - 0|🇺🇸46 |  4.1MB/s
-      - 0|🇺🇦1 |  5.0MB/s
-      - 0|🇨🇦2 |  5.5MB/s
-      - 0|🇯🇵1 |  5.4MB/s
+      - 美国2|@ripaojiedian
       - 0|🇺🇸39 |  5.7MB/s
+      - 11|tg频道:@ripaojiedian
       - 0|🇸🇬1 |  2.8MB/s
+      - 4Mohsen-3326
+      - 1|🇺🇸15 |  5.4MB/s
       - 0|🇺🇸42 |  5.9MB/s
+      - 1|🇹🇼22 |  3.2MB/s
+      - 0|🇺🇸46 |  4.1MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 11|tg频道:@ripaojiedian
-      - 0|🇺🇸46 |  4.1MB/s
-      - 0|🇺🇦1 |  5.0MB/s
-      - 0|🇨🇦2 |  5.5MB/s
-      - 0|🇯🇵1 |  5.4MB/s
+      - 美国2|@ripaojiedian
       - 0|🇺🇸39 |  5.7MB/s
+      - 11|tg频道:@ripaojiedian
       - 0|🇸🇬1 |  2.8MB/s
+      - 4Mohsen-3326
+      - 1|🇺🇸15 |  5.4MB/s
       - 0|🇺🇸42 |  5.9MB/s
+      - 1|🇹🇼22 |  3.2MB/s
+      - 0|🇺🇸46 |  4.1MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
