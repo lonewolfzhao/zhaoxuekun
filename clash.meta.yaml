@@ -25,6 +25,28 @@ dns:
     geoip-code: CN
     ipcidr:
     - 240.0.0.0/4
+unified-delay: true
+global-client-fingerprint: chrome
+dns:
+  enable: true
+  listen: :53
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+  - 223.5.5.5
+  - 8.8.8.8
+  nameserver:
+  - https://dns.alidns.com/dns-query
+  - https://doh.pub/dns-query
+  fallback:
+  - https://1.0.0.1/dns-query
+  - tls://dns.google
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+    - 240.0.0.0/4
 proxies:
 - {name: 1|🇭🇰2 |  1.1MB/s, server: 114.132.40.118, port: 30018, type: ss, cipher: aes-256-gcm, password: ffc75281-6c9a-4cd7-8af6-aaa12eb7496f, udp: true}
 - {name: 4Mohsen-3326, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
