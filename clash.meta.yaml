@@ -25,33 +25,11 @@ dns:
     geoip-code: CN
     ipcidr:
     - 240.0.0.0/4
-unified-delay: true
-global-client-fingerprint: chrome
-dns:
-  enable: true
-  listen: :53
-  ipv6: true
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  default-nameserver:
-  - 223.5.5.5
-  - 8.8.8.8
-  nameserver:
-  - https://dns.alidns.com/dns-query
-  - https://doh.pub/dns-query
-  fallback:
-  - https://1.0.0.1/dns-query
-  - tls://dns.google
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
-    ipcidr:
-    - 240.0.0.0/4
 proxies:
+- {name: 4Mohsen-3326, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: 1|🇭🇰2 |  1.1MB/s, server: 114.132.40.118, port: 30018, type: ss, cipher: aes-256-gcm, password: ffc75281-6c9a-4cd7-8af6-aaa12eb7496f, udp: true}
+- {name: 4FreeIran-368, server: 178.22.31.239, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bgr6YBHEnpft, udp: true}
 - {name: 1|🇯🇵6 |  2.9MB/s, server: 125.94.40.162, port: 47479, type: trojan, password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11, sni: k74.tudou211.com, skip-cert-verify: true, udp: true}
-- {name: 0|🇺🇸39 |  5.7MB/s, server: 141.101.121.127, port: 2053, type: vmess, uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1744007578.speed.mamha.cccp.freefly.pp.ua}}, udp: true}
-- {name: 1|🇹🇼22 |  3.2MB/s, server: csuzhou01.1cooldns.com, port: 64050, type: ss, cipher: aes-128-gcm, password: VMhGp5wEIyCDf90T, udp: true}
-- {name: 1|🇺🇸56 |  3.1MB/s, server: xc131.meiziba5566.com, port: 443, type: vmess, uuid: 3e3d59fd-bc2f-407d-a8d3-a1dee0a257d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /3e3d59fd, headers: {Host: xc131.meiziba5566.com}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -64,10 +42,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Mohsen-3326
+      - 1|🇭🇰2 |  1.1MB/s
+      - 4FreeIran-368
       - 1|🇯🇵6 |  2.9MB/s
-      - 0|🇺🇸39 |  5.7MB/s
-      - 1|🇹🇼22 |  3.2MB/s
-      - 1|🇺🇸56 |  3.1MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -79,20 +57,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Mohsen-3326
+      - 1|🇭🇰2 |  1.1MB/s
+      - 4FreeIran-368
       - 1|🇯🇵6 |  2.9MB/s
-      - 0|🇺🇸39 |  5.7MB/s
-      - 1|🇹🇼22 |  3.2MB/s
-      - 1|🇺🇸56 |  3.1MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 4Mohsen-3326
+      - 1|🇭🇰2 |  1.1MB/s
+      - 4FreeIran-368
       - 1|🇯🇵6 |  2.9MB/s
-      - 0|🇺🇸39 |  5.7MB/s
-      - 1|🇹🇼22 |  3.2MB/s
-      - 1|🇺🇸56 |  3.1MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
