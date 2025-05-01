@@ -26,11 +26,12 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 3|🇺🇸59 |  2.1MB/s, server: 104a1dcf-sutj40-svgpxu-y2gs.cu.plebai.net, port: 5228, type: vmess, uuid: b806b388-5f97-11ee-8014-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 3|🇺🇸70 |  3.0MB/s, server: 89936472-svdwg0-t28b6o-ef48.cu.plebai.net, port: 5228, type: vmess, uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 3|🇺🇸35 |  1.6MB/s, server: 73618903-svhls0-t1bnjq-1krtb.cu.plebai.net, port: 5229, type: vmess, uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 3|🇺🇸44 |  4.1MB/s, server: c6147365-svjgg0-t28b6o-ef48.cu.plebai.net, port: 5228, type: vmess, uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 3|🇺🇸71 |  2.3MB/s, server: fb79be22-svfr40-t1bnjq-1krtb.cu.plebai.net, port: 5229, type: vmess, uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 2|🇭🇰20 |  6.0MB/s, server: 910281.chasel.sbs, port: 21202, type: ss, cipher: aes-256-gcm, password: 796EA43C-1A63-8C50-3745-FD3946149E4F, udp: true}
+- {name: 2|🇰🇷13 |  5.1MB/s, server: 510613.frederica.xyz, port: 21154, type: ss, cipher: aes-256-gcm, password: 796EA43C-1A63-8C50-3745-FD3946149E4F, udp: true}
+- {name: 2|🇺🇸11 |  4.9MB/s, server: ti3hyra4.slashdevslashnetslashtun.net, port: 17003, type: ss, cipher: aes-256-gcm, password: 5C9QXFPJLYCCQSMZ, udp: true}
+- {name: 4Nika-974, server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+- {name: 2|🇺🇸37 |  5.4MB/s, server: 34.219.163.102, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 13|🇸🇬 新加坡2|@ripaojiedian, server: blog.andnsqd.com, port: 5021, type: ss, cipher: chacha20-ietf-poly1305, password: 04a3ce12-5889-477f-a0b6-dbdee2ae198b, udp: true}
 - {name: 4Mohsen-3326, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -44,11 +45,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 3|🇺🇸59 |  2.1MB/s
-      - 3|🇺🇸70 |  3.0MB/s
-      - 3|🇺🇸35 |  1.6MB/s
-      - 3|🇺🇸44 |  4.1MB/s
-      - 3|🇺🇸71 |  2.3MB/s
+      - 2|🇭🇰20 |  6.0MB/s
+      - 2|🇰🇷13 |  5.1MB/s
+      - 2|🇺🇸11 |  4.9MB/s
+      - 4Nika-974
+      - 2|🇺🇸37 |  5.4MB/s
+      - 13|🇸🇬 新加坡2|@ripaojiedian
       - 4Mohsen-3326
   - name: 🔰 节点选择
     type: select
@@ -61,11 +63,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 3|🇺🇸59 |  2.1MB/s
-      - 3|🇺🇸70 |  3.0MB/s
-      - 3|🇺🇸35 |  1.6MB/s
-      - 3|🇺🇸44 |  4.1MB/s
-      - 3|🇺🇸71 |  2.3MB/s
+      - 2|🇭🇰20 |  6.0MB/s
+      - 2|🇰🇷13 |  5.1MB/s
+      - 2|🇺🇸11 |  4.9MB/s
+      - 4Nika-974
+      - 2|🇺🇸37 |  5.4MB/s
+      - 13|🇸🇬 新加坡2|@ripaojiedian
       - 4Mohsen-3326
   - name: ♻️ 可能受限
     type: load-balance
@@ -73,11 +76,12 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 3|🇺🇸59 |  2.1MB/s
-      - 3|🇺🇸70 |  3.0MB/s
-      - 3|🇺🇸35 |  1.6MB/s
-      - 3|🇺🇸44 |  4.1MB/s
-      - 3|🇺🇸71 |  2.3MB/s
+      - 2|🇭🇰20 |  6.0MB/s
+      - 2|🇰🇷13 |  5.1MB/s
+      - 2|🇺🇸11 |  4.9MB/s
+      - 4Nika-974
+      - 2|🇺🇸37 |  5.4MB/s
+      - 13|🇸🇬 新加坡2|@ripaojiedian
       - 4Mohsen-3326
   - name: 🐟 漏网之鱼
     type: select
