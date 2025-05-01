@@ -26,12 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 2|🇰🇷13 |  5.1MB/s, server: 510613.frederica.xyz, port: 21154, type: ss, cipher: aes-256-gcm, password: 796EA43C-1A63-8C50-3745-FD3946149E4F, udp: true}
-- {name: 2|🇺🇸11 |  4.9MB/s, server: ti3hyra4.slashdevslashnetslashtun.net, port: 17003, type: ss, cipher: aes-256-gcm, password: 5C9QXFPJLYCCQSMZ, udp: true}
-- {name: 2|🌀15- |  3.0MB/s, server: 3e1c8931-svhls0-t4yfev-1rz31.wtt5.p5pv.com, port: 8102, type: vmess, uuid: 7699767c-44ae-11ef-80c7-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 2|🇭🇰20 |  6.0MB/s, server: 910281.chasel.sbs, port: 21202, type: ss, cipher: aes-256-gcm, password: 796EA43C-1A63-8C50-3745-FD3946149E4F, udp: true}
-- {name: 2|🇺🇸37 |  5.4MB/s, server: 34.219.163.102, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 13|🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202504301450290-B3cnEnRz1z.download.microsoft.com}, udp: true}
 - {name: 4Mohsen-3326, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: 2|🌀15- |  3.0MB/s, server: 3e1c8931-svhls0-t4yfev-1rz31.wtt5.p5pv.com, port: 8102, type: vmess, uuid: 7699767c-44ae-11ef-80c7-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 4Mohsen-3326 2, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -44,12 +42,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🇰🇷13 |  5.1MB/s
-      - 2|🇺🇸11 |  4.9MB/s
-      - 2|🌀15- |  3.0MB/s
-      - 2|🇭🇰20 |  6.0MB/s
-      - 2|🇺🇸37 |  5.4MB/s
+      - 13|🇯🇵 日本|@ripaojiedian
       - 4Mohsen-3326
+      - 2|🌀15- |  3.0MB/s
+      - 4Mohsen-3326 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -61,24 +57,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🇰🇷13 |  5.1MB/s
-      - 2|🇺🇸11 |  4.9MB/s
-      - 2|🌀15- |  3.0MB/s
-      - 2|🇭🇰20 |  6.0MB/s
-      - 2|🇺🇸37 |  5.4MB/s
+      - 13|🇯🇵 日本|@ripaojiedian
       - 4Mohsen-3326
+      - 2|🌀15- |  3.0MB/s
+      - 4Mohsen-3326 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 2|🇰🇷13 |  5.1MB/s
-      - 2|🇺🇸11 |  4.9MB/s
-      - 2|🌀15- |  3.0MB/s
-      - 2|🇭🇰20 |  6.0MB/s
-      - 2|🇺🇸37 |  5.4MB/s
+      - 13|🇯🇵 日本|@ripaojiedian
       - 4Mohsen-3326
+      - 2|🌀15- |  3.0MB/s
+      - 4Mohsen-3326 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
