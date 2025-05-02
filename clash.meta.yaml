@@ -26,10 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 13|🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202505011468829-RVBML1Fkrz.download.microsoft.com}, udp: true}
 - {name: 4Nika-974, server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
 - {name: 1|🌀6-PT |  1.6MB/s, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 4Mohsen-3326, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: 1|🇨🇦1 |  2.2MB/s, server: 147.45.177.65, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: VekzIVJwbk1f, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +41,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 13|🇯🇵 日本|@ripaojiedian
       - 4Nika-974
       - 1|🌀6-PT |  1.6MB/s
-      - 4Mohsen-3326
-      - 1|🇨🇦1 |  2.2MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,20 +55,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 13|🇯🇵 日本|@ripaojiedian
       - 4Nika-974
       - 1|🌀6-PT |  1.6MB/s
-      - 4Mohsen-3326
-      - 1|🇨🇦1 |  2.2MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 13|🇯🇵 日本|@ripaojiedian
       - 4Nika-974
       - 1|🌀6-PT |  1.6MB/s
-      - 4Mohsen-3326
-      - 1|🇨🇦1 |  2.2MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
