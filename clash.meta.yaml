@@ -26,6 +26,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 14|JP_speednode_0079, server: in-honeybee.shiner427.skin, port: 443, type: trojan, password: !<str> 74260671232757400, sni: in-honeybee.shiner427.skin, skip-cert-verify: true, udp: true}
 - {name: 13|CN_speednode_0024, server: 113.99.140.184, port: 39001, type: trojan, password: b6200af42ccadea353f5b5856dd20d70, sni: 113.99.140.184, skip-cert-verify: true, udp: true}
 - {name: 20, server: cdn.jp2.cocoduck.vip, port: 25642, type: ss, cipher: aes-128-gcm, password: YzRlNjE4YjNiZDk0NDE1NDZlMmU5NGE1MmU1ZjBlZWY=, udp: true}
 proxy-groups:
@@ -40,6 +41,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 14|JP_speednode_0079
       - 13|CN_speednode_0024
       - 20
   - name: 🔰 节点选择
@@ -53,6 +55,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 14|JP_speednode_0079
       - 13|CN_speednode_0024
       - 20
   - name: ♻️ 可能受限
@@ -61,6 +64,7 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 14|JP_speednode_0079
       - 13|CN_speednode_0024
       - 20
   - name: 🐟 漏网之鱼
