@@ -26,9 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 14|JP_speednode_0079, server: in-honeybee.shiner427.skin, port: 443, type: trojan, password: !<str> 74260671232757400, sni: in-honeybee.shiner427.skin, skip-cert-verify: true, udp: true}
-- {name: 13|CN_speednode_0024, server: 113.99.140.184, port: 39001, type: trojan, password: b6200af42ccadea353f5b5856dd20d70, sni: 113.99.140.184, skip-cert-verify: true, udp: true}
-- {name: 20, server: cdn.jp2.cocoduck.vip, port: 25642, type: ss, cipher: aes-128-gcm, password: YzRlNjE4YjNiZDk0NDE1NDZlMmU5NGE1MmU1ZjBlZWY=, udp: true}
+- {name: 15|CN_speednode_0013, server: 113.99.140.184, port: 39001, type: trojan, password: b6200af42ccadea353f5b5856dd20d70, sni: 113.99.140.184, skip-cert-verify: true, udp: true}
+- {name: 4Jadi-329, server: 91.84.100.42, port: 1843, type: ss, cipher: chacha20-ietf-poly1305, password: F6MAAXTSLfz6ZSTk9gGabh, udp: true}
+- {name: 15|SG_speednode_0052, server: game-seagull.shiner427.skin, port: 443, type: trojan, password: !<str> 74260671232757400, sni: game-seagull.shiner427.skin, skip-cert-verify: true, udp: true}
+- {name: 4Nika-974, server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -41,9 +42,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 14|JP_speednode_0079
-      - 13|CN_speednode_0024
-      - 20
+      - 15|CN_speednode_0013
+      - 4Jadi-329
+      - 15|SG_speednode_0052
+      - 4Nika-974
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -55,18 +57,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 14|JP_speednode_0079
-      - 13|CN_speednode_0024
-      - 20
+      - 15|CN_speednode_0013
+      - 4Jadi-329
+      - 15|SG_speednode_0052
+      - 4Nika-974
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 14|JP_speednode_0079
-      - 13|CN_speednode_0024
-      - 20
+      - 15|CN_speednode_0013
+      - 4Jadi-329
+      - 15|SG_speednode_0052
+      - 4Nika-974
   - name: 🐟 漏网之鱼
     type: select
     proxies:
