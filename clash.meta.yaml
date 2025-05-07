@@ -26,7 +26,8 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202505041454917-UsWiINM30i.download.microsoft.com}, udp: true}
+- {name: _US_美国, server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
+- {name: _US_美国 2, server: 94.131.20.3, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: cache-giver-wife.stark-industries.solutions, skip-cert-verify: true, udp: true}
 - {name: 15|CN_speednode_0013, server: 113.99.140.184, port: 39001, type: trojan, password: b6200af42ccadea353f5b5856dd20d70, sni: 113.99.140.184, skip-cert-verify: true, udp: true}
 - {name: 3|🇺🇸16 |  1.6MB/s, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zxjp-a.tkong.cc}}, udp: true}
 proxy-groups:
@@ -41,7 +42,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国2|@ripaojiedian
+      - _US_美国
+      - _US_美国 2
       - 15|CN_speednode_0013
       - 3|🇺🇸16 |  1.6MB/s
   - name: 🔰 节点选择
@@ -55,7 +57,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国2|@ripaojiedian
+      - _US_美国
+      - _US_美国 2
       - 15|CN_speednode_0013
       - 3|🇺🇸16 |  1.6MB/s
   - name: ♻️ 可能受限
@@ -64,7 +67,8 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 美国2|@ripaojiedian
+      - _US_美国
+      - _US_美国 2
       - 15|CN_speednode_0013
       - 3|🇺🇸16 |  1.6MB/s
   - name: 🐟 漏网之鱼
