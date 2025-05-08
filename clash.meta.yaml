@@ -26,8 +26,12 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Sarina-2813, server: 114.132.40.118, port: 30018, type: ss, cipher: aes-256-gcm, password: ffc75281-6c9a-4cd7-8af6-aaa12eb7496f, udp: true}
+- {name: 12|🇯🇵 日本特殊|@ripaojiedian, server: 3.112.233.244, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
+- {name: 12|🇰🇷 韩国特殊|@ripaojiedian, server: 54.199.249.6, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
+- {name: 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202505061413967-ARiTaH7btE.download.microsoft.com}, udp: true}
+- {name: 12|tg频道:@ripaojiedian, server: 57.180.41.89, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
 - {name: 15|CN_speednode_0013, server: 113.99.140.184, port: 39001, type: trojan, password: b6200af42ccadea353f5b5856dd20d70, sni: 113.99.140.184, skip-cert-verify: true, udp: true}
+- {name: 4Sarina-2813, server: 114.132.40.118, port: 30018, type: ss, cipher: aes-256-gcm, password: ffc75281-6c9a-4cd7-8af6-aaa12eb7496f, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -40,8 +44,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Sarina-2813
+      - 12|🇯🇵 日本特殊|@ripaojiedian
+      - 12|🇰🇷 韩国特殊|@ripaojiedian
+      - 日本|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
       - 15|CN_speednode_0013
+      - 4Sarina-2813
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -53,16 +61,24 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Sarina-2813
+      - 12|🇯🇵 日本特殊|@ripaojiedian
+      - 12|🇰🇷 韩国特殊|@ripaojiedian
+      - 日本|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
       - 15|CN_speednode_0013
+      - 4Sarina-2813
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Sarina-2813
+      - 12|🇯🇵 日本特殊|@ripaojiedian
+      - 12|🇰🇷 韩国特殊|@ripaojiedian
+      - 日本|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
       - 15|CN_speednode_0013
+      - 4Sarina-2813
   - name: 🐟 漏网之鱼
     type: select
     proxies:
