@@ -27,13 +27,9 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: 13|🇹🇼 台湾|@ripaojiedian, server: a10.taipeicitygovernment.kyiv.ua, port: 3462, type: trojan, password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610, sni: 45.32.28.232, skip-cert-verify: true, udp: true}
-- {name: 12|🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202505081193439-fXcPpumg6a.download.microsoft.com}, udp: true}
-- {name: 13|🇯🇵 日本特殊|@ripaojiedian, server: 43.206.214.213, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
-- {name: 2|🇸🇬4 |  1.1MB/s|54%|Youtube|Ope..., server: cm2.xcone.xyz, port: 56138, type: ssr, cipher: aes-256-cfb, password: uiACqrIr, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: sg2-cdn-route.couldflare-cdn.com, udp: true}
-- {name: 13|tg频道:@ripaojiedian, server: 18.179.178.170, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
 - {name: 3|🇯🇵8 |  1.8MB/s|0%|Netflix|Disn..., server: 02.tokyometropolis.ivano-frankivsk.ua, port: 2053, type: trojan, password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610, sni: 45.32.28.232, skip-cert-verify: true, udp: true}
-- {name: 13|🇭🇰 香港4|@ripaojiedian, server: 43b5a616-sw04g0-swasv3-luwe.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 3|🇬🇧4 |  5.8MB/s|0%|Netflix|Disn..., server: uk.ir.iranigamepars.ir, port: 443, type: ss, cipher: aes-256-gcm, password: I1hTma0BoL, udp: true}
+- {name: 2|🇸🇬4 |  1.1MB/s|54%|Youtube|Ope..., server: cm2.xcone.xyz, port: 56138, type: ssr, cipher: aes-256-cfb, password: uiACqrIr, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: sg2-cdn-route.couldflare-cdn.com, udp: true}
+- {name: 2|🇸🇬4 |  1.1MB/s|54%|Youtube|Ope... 2, server: cm2.xcone.xyz, port: 56138, type: ssr, cipher: aes-256-cfb, password: uiACqrIr, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: sg2-cdn-route.couldflare-cdn.com, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -47,13 +43,9 @@ proxy-groups:
     interval: 10
     proxies:
       - 13|🇹🇼 台湾|@ripaojiedian
-      - 12|🇯🇵 日本|@ripaojiedian
-      - 13|🇯🇵 日本特殊|@ripaojiedian
-      - 2|🇸🇬4 |  1.1MB/s|54%|Youtube|Ope...
-      - 13|tg频道:@ripaojiedian
       - 3|🇯🇵8 |  1.8MB/s|0%|Netflix|Disn...
-      - 13|🇭🇰 香港4|@ripaojiedian
-      - 3|🇬🇧4 |  5.8MB/s|0%|Netflix|Disn...
+      - 2|🇸🇬4 |  1.1MB/s|54%|Youtube|Ope...
+      - 2|🇸🇬4 |  1.1MB/s|54%|Youtube|Ope... 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -66,13 +58,9 @@ proxy-groups:
     interval: 10
     proxies:
       - 13|🇹🇼 台湾|@ripaojiedian
-      - 12|🇯🇵 日本|@ripaojiedian
-      - 13|🇯🇵 日本特殊|@ripaojiedian
-      - 2|🇸🇬4 |  1.1MB/s|54%|Youtube|Ope...
-      - 13|tg频道:@ripaojiedian
       - 3|🇯🇵8 |  1.8MB/s|0%|Netflix|Disn...
-      - 13|🇭🇰 香港4|@ripaojiedian
-      - 3|🇬🇧4 |  5.8MB/s|0%|Netflix|Disn...
+      - 2|🇸🇬4 |  1.1MB/s|54%|Youtube|Ope...
+      - 2|🇸🇬4 |  1.1MB/s|54%|Youtube|Ope... 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -80,13 +68,9 @@ proxy-groups:
     interval: 10
     proxies:
       - 13|🇹🇼 台湾|@ripaojiedian
-      - 12|🇯🇵 日本|@ripaojiedian
-      - 13|🇯🇵 日本特殊|@ripaojiedian
-      - 2|🇸🇬4 |  1.1MB/s|54%|Youtube|Ope...
-      - 13|tg频道:@ripaojiedian
       - 3|🇯🇵8 |  1.8MB/s|0%|Netflix|Disn...
-      - 13|🇭🇰 香港4|@ripaojiedian
-      - 3|🇬🇧4 |  5.8MB/s|0%|Netflix|Disn...
+      - 2|🇸🇬4 |  1.1MB/s|54%|Youtube|Ope...
+      - 2|🇸🇬4 |  1.1MB/s|54%|Youtube|Ope... 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
