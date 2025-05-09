@@ -26,11 +26,8 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: "1,14|CN_speednode_0006", server: a02.taipeicitygovernment.chernovtsy.ua, port: 3462, type: trojan, password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610, sni: 45.32.28.232, skip-cert-verify: true, udp: true}
-- {name: 13|🇹🇼 台湾|@ripaojiedian, server: a10.taipeicitygovernment.kyiv.ua, port: 3462, type: trojan, password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610, sni: 45.32.28.232, skip-cert-verify: true, udp: true}
 - {name: 2|🇸🇬4 |  1.1MB/s|54%|Youtube|Ope..., server: cm2.xcone.xyz, port: 56138, type: ssr, cipher: aes-256-cfb, password: uiACqrIr, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: sg2-cdn-route.couldflare-cdn.com, udp: true}
-- {name: 3|🇯🇵8 |  1.8MB/s|0%|Netflix|Disn..., server: 02.tokyometropolis.ivano-frankivsk.ua, port: 2053, type: trojan, password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610, sni: 45.32.28.232, skip-cert-verify: true, udp: true}
-- {name: "1,14|CN_speednode_0007", server: a03.taipeicitygovernment.cn.ua, port: 3462, type: trojan, password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610, sni: 45.32.28.232, skip-cert-verify: true, udp: true}
+- {name: 1|🇺🇸36 |  3.7MB/s|31%|Openai|Gem..., server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zxjp-a.tkong.cc}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -43,11 +40,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 1,14|CN_speednode_0006
-      - 13|🇹🇼 台湾|@ripaojiedian
       - 2|🇸🇬4 |  1.1MB/s|54%|Youtube|Ope...
-      - 3|🇯🇵8 |  1.8MB/s|0%|Netflix|Disn...
-      - 1,14|CN_speednode_0007
+      - 1|🇺🇸36 |  3.7MB/s|31%|Openai|Gem...
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -59,22 +53,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 1,14|CN_speednode_0006
-      - 13|🇹🇼 台湾|@ripaojiedian
       - 2|🇸🇬4 |  1.1MB/s|54%|Youtube|Ope...
-      - 3|🇯🇵8 |  1.8MB/s|0%|Netflix|Disn...
-      - 1,14|CN_speednode_0007
+      - 1|🇺🇸36 |  3.7MB/s|31%|Openai|Gem...
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 1,14|CN_speednode_0006
-      - 13|🇹🇼 台湾|@ripaojiedian
       - 2|🇸🇬4 |  1.1MB/s|54%|Youtube|Ope...
-      - 3|🇯🇵8 |  1.8MB/s|0%|Netflix|Disn...
-      - 1,14|CN_speednode_0007
+      - 1|🇺🇸36 |  3.7MB/s|31%|Openai|Gem...
   - name: 🐟 漏网之鱼
     type: select
     proxies:
