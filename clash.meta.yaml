@@ -26,14 +26,14 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 1|🇰🇷11 |  2.4MB/s|Disney|Youtube..., server: kr02.kkp.wtf, port: 23752, type: ss, cipher: aes-256-cfb, password: 4QPol5, udp: true}
-- {name: 2|🇸🇬4 |  1.1MB/s|54%|Youtube|Ope..., server: cm2.xcone.xyz, port: 56138, type: ssr, cipher: aes-256-cfb, password: uiACqrIr, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: sg2-cdn-route.couldflare-cdn.com, udp: true}
+- {name: "2,12|🇰🇷 韩国特殊|@ripaojiedian", server: 52.197.184.25, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
+- {name: 2|🇫🇷5 |  4.8MB/s|38%|Openai, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: cbe129db-24fa-4bb5-99de-03a6e7b1604c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: MaxNEtVipAp-fr1.maXnEtServICES.onliNe}}, udp: true}
+- {name: 1|🇺🇸36 |  3.7MB/s|31%|Openai|Gem..., server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zxjp-a.tkong.cc}}, udp: true}
 - {name: 1|🇺🇸84 |  2.7MB/s|34%|Openai|Gem..., server: 35.91.223.234, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
-- {name: 13|🇭🇰 香港4|@ripaojiedian, server: 43b5a616-sw04g0-swasv3-luwe.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 1|🇺🇸90 |  3.5MB/s|47%|Openai, server: bbc02bbb-sw3ts0-sww7b0-1qwp5.la3.tcpbbr.net, port: 443, type: trojan, password: 6e9cdc20-b92a-11ef-973a-f23c913c8d2b, sni: bbc02bbb-sw3ts0-sww7b0-1qwp5.la3.tcpbbr.net, skip-cert-verify: true, udp: true}
-- {name: 1|🇺🇸88 |  5.6MB/s|47%|Openai, server: ce178cf5-sw3ts0-tchszt-1quq9.la3.tcpbbr.net, port: 443, type: trojan, password: 74e74e40-e134-11ee-bded-f23c913c8d2b, sni: ce178cf5-sw3ts0-tchszt-1quq9.la3.tcpbbr.net, skip-cert-verify: true, udp: true}
-- {name: 3|🇺🇸37 |  2.0MB/s|Openai, server: 5.10.244.72, port: 443, type: vmess, uuid: 9e43aec6-ba4d-4597-9344-4f6fcbd5c8a6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/vmess-argo?ed=2048", headers: {Host: digitaloceanus.lzj520hxw.dpdns.org}}, udp: true}
 - {name: 1|🇺🇸83 |  2.2MB/s|34%|Netflix|Op..., server: 52.35.51.80, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
+- {name: 2|🇺🇸82 |  4.4MB/s|34%|Openai|Gem..., server: 35.91.223.234, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
+- {name: 4Jadi-3263, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: 2|🇸🇬4 |  1.1MB/s|54%|Youtube|Ope..., server: cm2.xcone.xyz, port: 56138, type: ssr, cipher: aes-256-cfb, password: uiACqrIr, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: sg2-cdn-route.couldflare-cdn.com, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -46,14 +46,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 1|🇰🇷11 |  2.4MB/s|Disney|Youtube...
-      - 2|🇸🇬4 |  1.1MB/s|54%|Youtube|Ope...
+      - 2,12|🇰🇷 韩国特殊|@ripaojiedian
+      - 2|🇫🇷5 |  4.8MB/s|38%|Openai
+      - 1|🇺🇸36 |  3.7MB/s|31%|Openai|Gem...
       - 1|🇺🇸84 |  2.7MB/s|34%|Openai|Gem...
-      - 13|🇭🇰 香港4|@ripaojiedian
-      - 1|🇺🇸90 |  3.5MB/s|47%|Openai
-      - 1|🇺🇸88 |  5.6MB/s|47%|Openai
-      - 3|🇺🇸37 |  2.0MB/s|Openai
       - 1|🇺🇸83 |  2.2MB/s|34%|Netflix|Op...
+      - 2|🇺🇸82 |  4.4MB/s|34%|Openai|Gem...
+      - 4Jadi-3263
+      - 2|🇸🇬4 |  1.1MB/s|54%|Youtube|Ope...
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -65,28 +65,28 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 1|🇰🇷11 |  2.4MB/s|Disney|Youtube...
-      - 2|🇸🇬4 |  1.1MB/s|54%|Youtube|Ope...
+      - 2,12|🇰🇷 韩国特殊|@ripaojiedian
+      - 2|🇫🇷5 |  4.8MB/s|38%|Openai
+      - 1|🇺🇸36 |  3.7MB/s|31%|Openai|Gem...
       - 1|🇺🇸84 |  2.7MB/s|34%|Openai|Gem...
-      - 13|🇭🇰 香港4|@ripaojiedian
-      - 1|🇺🇸90 |  3.5MB/s|47%|Openai
-      - 1|🇺🇸88 |  5.6MB/s|47%|Openai
-      - 3|🇺🇸37 |  2.0MB/s|Openai
       - 1|🇺🇸83 |  2.2MB/s|34%|Netflix|Op...
+      - 2|🇺🇸82 |  4.4MB/s|34%|Openai|Gem...
+      - 4Jadi-3263
+      - 2|🇸🇬4 |  1.1MB/s|54%|Youtube|Ope...
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 1|🇰🇷11 |  2.4MB/s|Disney|Youtube...
-      - 2|🇸🇬4 |  1.1MB/s|54%|Youtube|Ope...
+      - 2,12|🇰🇷 韩国特殊|@ripaojiedian
+      - 2|🇫🇷5 |  4.8MB/s|38%|Openai
+      - 1|🇺🇸36 |  3.7MB/s|31%|Openai|Gem...
       - 1|🇺🇸84 |  2.7MB/s|34%|Openai|Gem...
-      - 13|🇭🇰 香港4|@ripaojiedian
-      - 1|🇺🇸90 |  3.5MB/s|47%|Openai
-      - 1|🇺🇸88 |  5.6MB/s|47%|Openai
-      - 3|🇺🇸37 |  2.0MB/s|Openai
       - 1|🇺🇸83 |  2.2MB/s|34%|Netflix|Op...
+      - 2|🇺🇸82 |  4.4MB/s|34%|Openai|Gem...
+      - 4Jadi-3263
+      - 2|🇸🇬4 |  1.1MB/s|54%|Youtube|Ope...
   - name: 🐟 漏网之鱼
     type: select
     proxies:
