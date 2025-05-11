@@ -26,7 +26,8 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: TG频道@stymei1丨新加坡01 | IEPL专线, server: cdn-p1-sg.weibo-dns.com, port: 11508, type: ss, cipher: aes-256-gcm, password: 423cf642-6528-410c-b542-2aae04113d33, udp: true}
+- {name: TG频道@stymei1丨新加坡08 | IEPL专线, server: ieplqz.youku-dns.com, port: 11536, type: ss, cipher: aes-256-gcm, password: 423cf642-6528-410c-b542-2aae04113d33, udp: true}
+- {name: TG频道@stymei1丨日本03 | IEPL专线, server: cdn-p1-jp.weibo-dns.com, port: 11506, type: ss, cipher: aes-256-gcm, password: 423cf642-6528-410c-b542-2aae04113d33, udp: true}
 - {name: 2|🇫🇷8 |  5.8MB/s|0%|Openai, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linvkws, headers: {Host: Fra-Vp-123.BLaZECLOUD.Site}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -40,7 +41,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - TG频道@stymei1丨新加坡01 | IEPL专线
+      - TG频道@stymei1丨新加坡08 | IEPL专线
+      - TG频道@stymei1丨日本03 | IEPL专线
       - 2|🇫🇷8 |  5.8MB/s|0%|Openai
   - name: 🔰 节点选择
     type: select
@@ -53,7 +55,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - TG频道@stymei1丨新加坡01 | IEPL专线
+      - TG频道@stymei1丨新加坡08 | IEPL专线
+      - TG频道@stymei1丨日本03 | IEPL专线
       - 2|🇫🇷8 |  5.8MB/s|0%|Openai
   - name: ♻️ 可能受限
     type: load-balance
@@ -61,7 +64,8 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - TG频道@stymei1丨新加坡01 | IEPL专线
+      - TG频道@stymei1丨新加坡08 | IEPL专线
+      - TG频道@stymei1丨日本03 | IEPL专线
       - 2|🇫🇷8 |  5.8MB/s|0%|Openai
   - name: 🐟 漏网之鱼
     type: select
