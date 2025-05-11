@@ -27,10 +27,7 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: TG频道@stymei1丨新加坡01 | IEPL专线, server: cdn-p1-sg.weibo-dns.com, port: 11508, type: ss, cipher: aes-256-gcm, password: 423cf642-6528-410c-b542-2aae04113d33, udp: true}
-- {name: TG频道@stymei1丨新加坡08 | IEPL专线, server: ieplqz.youku-dns.com, port: 11536, type: ss, cipher: aes-256-gcm, password: 423cf642-6528-410c-b542-2aae04113d33, udp: true}
-- {name: 韩国首尔家宽线路, server: 3.35.231.68, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
 - {name: 2|🇫🇷8 |  5.8MB/s|0%|Openai, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linvkws, headers: {Host: Fra-Vp-123.BLaZECLOUD.Site}}, udp: true}
-- {name: 1|🇺🇸36 |  3.7MB/s|31%|Openai|Gem..., server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zxjp-a.tkong.cc}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -44,10 +41,7 @@ proxy-groups:
     interval: 10
     proxies:
       - TG频道@stymei1丨新加坡01 | IEPL专线
-      - TG频道@stymei1丨新加坡08 | IEPL专线
-      - 韩国首尔家宽线路
       - 2|🇫🇷8 |  5.8MB/s|0%|Openai
-      - 1|🇺🇸36 |  3.7MB/s|31%|Openai|Gem...
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -60,10 +54,7 @@ proxy-groups:
     interval: 10
     proxies:
       - TG频道@stymei1丨新加坡01 | IEPL专线
-      - TG频道@stymei1丨新加坡08 | IEPL专线
-      - 韩国首尔家宽线路
       - 2|🇫🇷8 |  5.8MB/s|0%|Openai
-      - 1|🇺🇸36 |  3.7MB/s|31%|Openai|Gem...
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -71,10 +62,7 @@ proxy-groups:
     interval: 10
     proxies:
       - TG频道@stymei1丨新加坡01 | IEPL专线
-      - TG频道@stymei1丨新加坡08 | IEPL专线
-      - 韩国首尔家宽线路
       - 2|🇫🇷8 |  5.8MB/s|0%|Openai
-      - 1|🇺🇸36 |  3.7MB/s|31%|Openai|Gem...
   - name: 🐟 漏网之鱼
     type: select
     proxies:
