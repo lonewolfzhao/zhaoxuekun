@@ -26,9 +26,13 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 12|🇯🇵 日本特殊|@ripaojiedian, server: 43.202.68.234, port: 443, type: ss, cipher: aes-256-cfb, password: yijian0503, udp: true}
+- {name: 1|🇫🇮7 |  6.1MB/s|20%, server: ip.sb, port: 443, type: vmess, uuid: cfa8c36c-9652-484a-89e1-34dcc98faac3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: cdn.3iapps.com}}, udp: true}
+- {name: 0|🇰🇷韩国 01 | 1x KR, server: free.2apzhfa.xyz, port: 31311, type: ss, cipher: chacha20-ietf-poly1305, password: d5f76a4e-fe30-4ba4-b075-3bf0dec4004c, udp: true}
+- {name: 12|🇺🇸 美国5|@ripaojiedian, server: 120.198.71.216, port: 46759, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _US_美国, server: 142.4.116.177, port: 50009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 0|🇺🇸80 |  1.8MB/s|31%|Openai, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zxjp-a.tkong.cc}}, udp: true}
 - {name: 2|🇫🇷8 |  5.8MB/s|0%|Openai, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linvkws, headers: {Host: Fra-Vp-123.BLaZECLOUD.Site}}, udp: true}
-- {name: _CN_中国->🇺🇸_US_美国, server: c6b50ea5-sw5og0-t1bnjq-1krtb.cu.plebai.net, port: 15229, type: trojan, password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -41,9 +45,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 12|🇯🇵 日本特殊|@ripaojiedian
+      - 1|🇫🇮7 |  6.1MB/s|20%
+      - 0|🇰🇷韩国 01 | 1x KR
+      - 12|🇺🇸 美国5|@ripaojiedian
+      - _US_美国
       - 0|🇺🇸80 |  1.8MB/s|31%|Openai
       - 2|🇫🇷8 |  5.8MB/s|0%|Openai
-      - _CN_中国->🇺🇸_US_美国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -55,18 +63,26 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 12|🇯🇵 日本特殊|@ripaojiedian
+      - 1|🇫🇮7 |  6.1MB/s|20%
+      - 0|🇰🇷韩国 01 | 1x KR
+      - 12|🇺🇸 美国5|@ripaojiedian
+      - _US_美国
       - 0|🇺🇸80 |  1.8MB/s|31%|Openai
       - 2|🇫🇷8 |  5.8MB/s|0%|Openai
-      - _CN_中国->🇺🇸_US_美国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 12|🇯🇵 日本特殊|@ripaojiedian
+      - 1|🇫🇮7 |  6.1MB/s|20%
+      - 0|🇰🇷韩国 01 | 1x KR
+      - 12|🇺🇸 美国5|@ripaojiedian
+      - _US_美国
       - 0|🇺🇸80 |  1.8MB/s|31%|Openai
       - 2|🇫🇷8 |  5.8MB/s|0%|Openai
-      - _CN_中国->🇺🇸_US_美国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
