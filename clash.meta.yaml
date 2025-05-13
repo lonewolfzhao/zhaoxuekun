@@ -26,7 +26,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 1|🇺🇸125 |  6.0MB/s|31%|Openai, server: tk.hzlt.tkddns.xyz, port: 22643, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
+- {name: 0|🇺🇸80 |  1.8MB/s|31%|Openai, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zxjp-a.tkong.cc}}, udp: true}
 - {name: 2|🇫🇷8 |  5.8MB/s|0%|Openai, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linvkws, headers: {Host: Fra-Vp-123.BLaZECLOUD.Site}}, udp: true}
 - {name: 1|🇫🇮7 |  6.1MB/s|20%, server: ip.sb, port: 443, type: vmess, uuid: cfa8c36c-9652-484a-89e1-34dcc98faac3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: cdn.3iapps.com}}, udp: true}
 proxy-groups:
@@ -41,7 +41,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 1|🇺🇸125 |  6.0MB/s|31%|Openai
+      - 0|🇺🇸80 |  1.8MB/s|31%|Openai
       - 2|🇫🇷8 |  5.8MB/s|0%|Openai
       - 1|🇫🇮7 |  6.1MB/s|20%
   - name: 🔰 节点选择
@@ -55,7 +55,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 1|🇺🇸125 |  6.0MB/s|31%|Openai
+      - 0|🇺🇸80 |  1.8MB/s|31%|Openai
       - 2|🇫🇷8 |  5.8MB/s|0%|Openai
       - 1|🇫🇮7 |  6.1MB/s|20%
   - name: ♻️ 可能受限
@@ -64,7 +64,7 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 1|🇺🇸125 |  6.0MB/s|31%|Openai
+      - 0|🇺🇸80 |  1.8MB/s|31%|Openai
       - 2|🇫🇷8 |  5.8MB/s|0%|Openai
       - 1|🇫🇮7 |  6.1MB/s|20%
   - name: 🐟 漏网之鱼
