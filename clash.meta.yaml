@@ -26,11 +26,13 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 2|🇺🇸35 |  4.7MB/s|0%|Openai|Gemi..., server: 141.11.122.27, port: 47006, type: vmess, uuid: 364a033d-99bf-4610-d552-8516e63aaac5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+- {name: 2|🇯🇵3 |  5.9MB/s|0%|Netflix|Disn..., server: 45.159.50.57, port: 13883, type: vmess, uuid: e6d8237f-4bbf-4a62-af4f-b0844120e0b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+- {name: "2,14|US_speednode_0086", server: 103.79.118.14, port: 43456, type: trojan, password: 9107ad3d-747c-46c4-86b4-8438de3d21ce, skip-cert-verify: true, udp: true}
+- {name: "2,14|DE_speednode_0037", server: cuddly-finch.shiner427.skin, port: 443, type: trojan, password: !<str> 74260665780162200, sni: cuddly-finch.shiner427.skin, skip-cert-verify: true, udp: true}
+- {name: 2|🇺🇸110 |  5.8MB/s|Openai|Gemini, server: 36.151.251.59, port: 7815, type: trojan, password: RlzoEILU, skip-cert-verify: true, udp: true}
+- {name: "12,13|新加坡2|@ripaojiedian", server: 112.29.213.228, port: 46019, type: vmess, uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn}, udp: true}
 - {name: 2|🇺🇸31 |  5.2MB/s|0%|Openai, server: ljm005-2.facai202408.com, port: 443, type: vmess, uuid: b95bf0d8-c748-40b8-e243-6479d879c3d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: b95bf0d8-, headers: {Host: ljm005-2.facai202408.com}}, udp: true}
 - {name: 2|🇫🇷8 |  5.8MB/s|0%|Openai, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linvkws, headers: {Host: Fra-Vp-123.BLaZECLOUD.Site}}, udp: true}
-- {name: 2|🇺🇸44 |  3.6MB/s|29%|Openai, server: 52.80.232.93, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zxjp-a.tkong.cc}}, udp: true}
-- {name: "12,13|新加坡2|@ripaojiedian", server: 112.29.213.228, port: 46019, type: vmess, uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -43,11 +45,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🇺🇸35 |  4.7MB/s|0%|Openai|Gemi...
+      - 2|🇯🇵3 |  5.9MB/s|0%|Netflix|Disn...
+      - 2,14|US_speednode_0086
+      - 2,14|DE_speednode_0037
+      - 2|🇺🇸110 |  5.8MB/s|Openai|Gemini
+      - 12,13|新加坡2|@ripaojiedian
       - 2|🇺🇸31 |  5.2MB/s|0%|Openai
       - 2|🇫🇷8 |  5.8MB/s|0%|Openai
-      - 2|🇺🇸44 |  3.6MB/s|29%|Openai
-      - 12,13|新加坡2|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -59,22 +63,26 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🇺🇸35 |  4.7MB/s|0%|Openai|Gemi...
+      - 2|🇯🇵3 |  5.9MB/s|0%|Netflix|Disn...
+      - 2,14|US_speednode_0086
+      - 2,14|DE_speednode_0037
+      - 2|🇺🇸110 |  5.8MB/s|Openai|Gemini
+      - 12,13|新加坡2|@ripaojiedian
       - 2|🇺🇸31 |  5.2MB/s|0%|Openai
       - 2|🇫🇷8 |  5.8MB/s|0%|Openai
-      - 2|🇺🇸44 |  3.6MB/s|29%|Openai
-      - 12,13|新加坡2|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 2|🇺🇸35 |  4.7MB/s|0%|Openai|Gemi...
+      - 2|🇯🇵3 |  5.9MB/s|0%|Netflix|Disn...
+      - 2,14|US_speednode_0086
+      - 2,14|DE_speednode_0037
+      - 2|🇺🇸110 |  5.8MB/s|Openai|Gemini
+      - 12,13|新加坡2|@ripaojiedian
       - 2|🇺🇸31 |  5.2MB/s|0%|Openai
       - 2|🇫🇷8 |  5.8MB/s|0%|Openai
-      - 2|🇺🇸44 |  3.6MB/s|29%|Openai
-      - 12,13|新加坡2|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
