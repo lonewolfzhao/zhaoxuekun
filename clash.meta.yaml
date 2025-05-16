@@ -26,10 +26,11 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 2|🇫🇷8 |  5.8MB/s|0%|Openai, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linvkws, headers: {Host: Fra-Vp-123.BLaZECLOUD.Site}}, udp: true}
+- {name: 13|🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202505121278853-jDmMPlEOcQ.download.microsoft.com}, udp: true}
+- {name: 13|tg频道:@ripaojiedian, server: 35.90.251.87, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
 - {name: 2|🇯🇵1 |  4.9MB/s|54%|Youtube|Ope..., server: sslvpn.51job.com, port: 1443, type: vmess, uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /634c5c4f9782, headers: {Host: centos7}}, udp: true}
-- {name: 2|🇬🇧3 |  1.4MB/s|100%|Openai, server: 62.60.231.81, port: 59945, type: ss, cipher: chacha20-ietf-poly1305, password: VfaEatGj7iXncVpijKFC1e, udp: true}
-- {name: 13|🇭🇰 香港4|@ripaojiedian, server: 183.236.51.38, port: 43302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: "13,14|香港8|@ripaojiedian", server: 140d8a8d-swexs0-t5urb7-1i1.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 6bcf5a10-bfe8-11ec-bd7c-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 2|🇫🇷8 |  5.8MB/s|0%|Openai, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linvkws, headers: {Host: Fra-Vp-123.BLaZECLOUD.Site}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +43,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🇫🇷8 |  5.8MB/s|0%|Openai
+      - 13|🇺🇸 美国2|@ripaojiedian
+      - 13|tg频道:@ripaojiedian
       - 2|🇯🇵1 |  4.9MB/s|54%|Youtube|Ope...
-      - 2|🇬🇧3 |  1.4MB/s|100%|Openai
-      - 13|🇭🇰 香港4|@ripaojiedian
+      - 13,14|香港8|@ripaojiedian
+      - 2|🇫🇷8 |  5.8MB/s|0%|Openai
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,20 +59,22 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🇫🇷8 |  5.8MB/s|0%|Openai
+      - 13|🇺🇸 美国2|@ripaojiedian
+      - 13|tg频道:@ripaojiedian
       - 2|🇯🇵1 |  4.9MB/s|54%|Youtube|Ope...
-      - 2|🇬🇧3 |  1.4MB/s|100%|Openai
-      - 13|🇭🇰 香港4|@ripaojiedian
+      - 13,14|香港8|@ripaojiedian
+      - 2|🇫🇷8 |  5.8MB/s|0%|Openai
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 2|🇫🇷8 |  5.8MB/s|0%|Openai
+      - 13|🇺🇸 美国2|@ripaojiedian
+      - 13|tg频道:@ripaojiedian
       - 2|🇯🇵1 |  4.9MB/s|54%|Youtube|Ope...
-      - 2|🇬🇧3 |  1.4MB/s|100%|Openai
-      - 13|🇭🇰 香港4|@ripaojiedian
+      - 13,14|香港8|@ripaojiedian
+      - 2|🇫🇷8 |  5.8MB/s|0%|Openai
   - name: 🐟 漏网之鱼
     type: select
     proxies:
