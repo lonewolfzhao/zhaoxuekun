@@ -26,11 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: _US_美国, server: 13.37.39.124, port: 443, type: trojan, password: !<str> 74260665780162200, sni: noble-minnow.shiner427.skin, skip-cert-verify: true, udp: true}
-- {name: _DE_德国, server: 3.121.11.241, port: 443, type: trojan, password: !<str> 74260665780162200, sni: cuddly-finch.shiner427.skin, skip-cert-verify: true, udp: true}
-- {name: 2|🇫🇷3 |  4.8MB/s|Youtube|Openai, server: noble-minnow.shiner427.skin, port: 443, type: trojan, password: !<str> 74260665780162200, sni: noble-minnow.shiner427.skin, skip-cert-verify: true, udp: true}
 - {name: 2|🇫🇷8 |  5.8MB/s|0%|Openai, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linvkws, headers: {Host: Fra-Vp-123.BLaZECLOUD.Site}}, udp: true}
+- {name: 2|🇯🇵1 |  4.9MB/s|54%|Youtube|Ope..., server: sslvpn.51job.com, port: 1443, type: vmess, uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /634c5c4f9782, headers: {Host: centos7}}, udp: true}
 - {name: 2|🇬🇧3 |  1.4MB/s|100%|Openai, server: 62.60.231.81, port: 59945, type: ss, cipher: chacha20-ietf-poly1305, password: VfaEatGj7iXncVpijKFC1e, udp: true}
+- {name: 13|🇭🇰 香港4|@ripaojiedian, server: 183.236.51.38, port: 43302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -43,11 +42,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _US_美国
-      - _DE_德国
-      - 2|🇫🇷3 |  4.8MB/s|Youtube|Openai
       - 2|🇫🇷8 |  5.8MB/s|0%|Openai
+      - 2|🇯🇵1 |  4.9MB/s|54%|Youtube|Ope...
       - 2|🇬🇧3 |  1.4MB/s|100%|Openai
+      - 13|🇭🇰 香港4|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -59,22 +57,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _US_美国
-      - _DE_德国
-      - 2|🇫🇷3 |  4.8MB/s|Youtube|Openai
       - 2|🇫🇷8 |  5.8MB/s|0%|Openai
+      - 2|🇯🇵1 |  4.9MB/s|54%|Youtube|Ope...
       - 2|🇬🇧3 |  1.4MB/s|100%|Openai
+      - 13|🇭🇰 香港4|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - _US_美国
-      - _DE_德国
-      - 2|🇫🇷3 |  4.8MB/s|Youtube|Openai
       - 2|🇫🇷8 |  5.8MB/s|0%|Openai
+      - 2|🇯🇵1 |  4.9MB/s|54%|Youtube|Ope...
       - 2|🇬🇧3 |  1.4MB/s|100%|Openai
+      - 13|🇭🇰 香港4|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
