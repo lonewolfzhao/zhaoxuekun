@@ -27,10 +27,9 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: 2|🇫🇷8 |  5.8MB/s|0%|Openai, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linvkws, headers: {Host: Fra-Vp-123.BLaZECLOUD.Site}}, udp: true}
-- {name: 13|🇭🇰 香港|@ripaojiedian, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15010, type: ss, cipher: aes-256-gcm, password: ENYGONDU94UW1G6X, udp: true}
-- {name: "13,14|台湾|@ripaojiedian", server: wb.kaiqsz.com, port: 42765, type: trojan, password: 9f19a22d-60d0-4cf8-935d-ebcff8546054, sni: mmbiz1.redapricotcloud.com, skip-cert-verify: true, udp: true}
-- {name: _US_美国->🇨🇳_CN_中国, server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
+- {name: 3|🇺🇸5 |  3.0MB/s|Openai, server: 36.151.251.59, port: 7815, type: trojan, password: RlzoEILU, skip-cert-verify: true, udp: true}
 - {name: 3|🇺🇸28 |  2.8MB/s|29%|Openai, server: tk.hzlt.tkddns.xyz, port: 22643, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zxjp-c.tkong.cc}}, udp: true}
+- {name: 4FreeIran-546, server: 154.197.26.237, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -44,10 +43,9 @@ proxy-groups:
     interval: 10
     proxies:
       - 2|🇫🇷8 |  5.8MB/s|0%|Openai
-      - 13|🇭🇰 香港|@ripaojiedian
-      - 13,14|台湾|@ripaojiedian
-      - _US_美国->🇨🇳_CN_中国
+      - 3|🇺🇸5 |  3.0MB/s|Openai
       - 3|🇺🇸28 |  2.8MB/s|29%|Openai
+      - 4FreeIran-546
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -60,10 +58,9 @@ proxy-groups:
     interval: 10
     proxies:
       - 2|🇫🇷8 |  5.8MB/s|0%|Openai
-      - 13|🇭🇰 香港|@ripaojiedian
-      - 13,14|台湾|@ripaojiedian
-      - _US_美国->🇨🇳_CN_中国
+      - 3|🇺🇸5 |  3.0MB/s|Openai
       - 3|🇺🇸28 |  2.8MB/s|29%|Openai
+      - 4FreeIran-546
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -71,10 +68,9 @@ proxy-groups:
     interval: 10
     proxies:
       - 2|🇫🇷8 |  5.8MB/s|0%|Openai
-      - 13|🇭🇰 香港|@ripaojiedian
-      - 13,14|台湾|@ripaojiedian
-      - _US_美国->🇨🇳_CN_中国
+      - 3|🇺🇸5 |  3.0MB/s|Openai
       - 3|🇺🇸28 |  2.8MB/s|29%|Openai
+      - 4FreeIran-546
   - name: 🐟 漏网之鱼
     type: select
     proxies:
