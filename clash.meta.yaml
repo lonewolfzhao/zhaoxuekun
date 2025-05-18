@@ -26,9 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn..., server: 183.236.51.38, port: 49291, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 2|🇫🇷8 |  5.8MB/s|0%|Openai, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linvkws, headers: {Host: Fra-Vp-123.BLaZECLOUD.Site}}, udp: true}
 - {name: _CN_中国->🇺🇸_US_美国, server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, port: 15229, type: trojan, password: def14a51-e0d9-11ec-8429-f23c91cfbbc9, sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, skip-cert-verify: true, udp: true}
-- {name: 1|🇺🇸121 |  5.4MB/s|Netflix|Disne..., server: mg7.gy6688.xyz, port: 443, type: trojan, password: a07cebde-351d-4ad3-8045-3cd0aa3f586c, sni: mg7.gy6688.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -41,9 +41,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
       - 2|🇫🇷8 |  5.8MB/s|0%|Openai
       - _CN_中国->🇺🇸_US_美国
-      - 1|🇺🇸121 |  5.4MB/s|Netflix|Disne...
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -55,18 +55,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
       - 2|🇫🇷8 |  5.8MB/s|0%|Openai
       - _CN_中国->🇺🇸_US_美国
-      - 1|🇺🇸121 |  5.4MB/s|Netflix|Disne...
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
       - 2|🇫🇷8 |  5.8MB/s|0%|Openai
       - _CN_中国->🇺🇸_US_美国
-      - 1|🇺🇸121 |  5.4MB/s|Netflix|Disne...
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -8858,6 +8858,8 @@ rules:
   - DOMAIN-KEYWORD,v2rayse,🔰 节点选择
   - DOMAIN-KEYWORD,dubo,🔰 节点选择
   - DOMAIN-KEYWORD,boku,🔰 节点选择
+  - DOMAIN-KEYWORD,subhd,🔰 节点选择
+  - DOMAIN-KEYWORD,hibo,🔰 节点选择
   - DOMAIN-KEYWORD,greasyfork,🔰 节点选择
   - DOMAIN-KEYWORD,sleazyfork,🔰 节点选择
   - MATCH,🐟 漏网之鱼
