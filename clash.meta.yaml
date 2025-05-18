@@ -26,9 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 12|🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202505031478387-KuiKPndOsR.download.microsoft.com}, udp: true}
 - {name: 2|🇫🇷8 |  5.8MB/s|0%|Openai, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linvkws, headers: {Host: Fra-Vp-123.BLaZECLOUD.Site}}, udp: true}
-- {name: 3|🇺🇸5 |  3.0MB/s|Openai, server: 36.151.251.59, port: 7815, type: trojan, password: RlzoEILU, skip-cert-verify: true, udp: true}
+- {name: 4Nika-1544, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 4Nika-1262, server: 103.186.155.20, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-951, server: 107.148.6.121, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -41,9 +42,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 12|🇯🇵 日本|@ripaojiedian
       - 2|🇫🇷8 |  5.8MB/s|0%|Openai
-      - 3|🇺🇸5 |  3.0MB/s|Openai
+      - 4Nika-1544
+      - 4Nika-1262
+      - 4Nika-951
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -55,18 +57,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 12|🇯🇵 日本|@ripaojiedian
       - 2|🇫🇷8 |  5.8MB/s|0%|Openai
-      - 3|🇺🇸5 |  3.0MB/s|Openai
+      - 4Nika-1544
+      - 4Nika-1262
+      - 4Nika-951
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 12|🇯🇵 日本|@ripaojiedian
       - 2|🇫🇷8 |  5.8MB/s|0%|Openai
-      - 3|🇺🇸5 |  3.0MB/s|Openai
+      - 4Nika-1544
+      - 4Nika-1262
+      - 4Nika-951
   - name: 🐟 漏网之鱼
     type: select
     proxies:
