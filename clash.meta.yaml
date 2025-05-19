@@ -26,8 +26,11 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn..., server: 183.236.51.38, port: 49291, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202505181740997-PGL2R6MGpn.download.microsoft.com}, udp: true}
 - {name: 2|🇫🇷8 |  5.8MB/s|0%|Openai, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linvkws, headers: {Host: Fra-Vp-123.BLaZECLOUD.Site}}, udp: true}
+- {name: 11|tg频道:@ripaojiedian, server: 35.91.97.85, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
+- {name: 11|🇭🇰 香港|@ripaojiedian, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15010, type: ss, cipher: aes-256-gcm, password: ENYGONDU94UW1G6X, udp: true}
+- {name: 11|🇭🇰 香港4|@ripaojiedian, server: 103.30.76.66, port: 13651, type: vmess, uuid: 6831c9ce-4ca8-42c0-8181-fb1055710ccc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: _CN_中国->🇺🇸_US_美国, server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, port: 15229, type: trojan, password: def14a51-e0d9-11ec-8429-f23c91cfbbc9, sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -41,8 +44,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 日本|@ripaojiedian
       - 2|🇫🇷8 |  5.8MB/s|0%|Openai
+      - 11|tg频道:@ripaojiedian
+      - 11|🇭🇰 香港|@ripaojiedian
+      - 11|🇭🇰 香港4|@ripaojiedian
       - _CN_中国->🇺🇸_US_美国
   - name: 🔰 节点选择
     type: select
@@ -55,8 +61,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 日本|@ripaojiedian
       - 2|🇫🇷8 |  5.8MB/s|0%|Openai
+      - 11|tg频道:@ripaojiedian
+      - 11|🇭🇰 香港|@ripaojiedian
+      - 11|🇭🇰 香港4|@ripaojiedian
       - _CN_中国->🇺🇸_US_美国
   - name: ♻️ 可能受限
     type: load-balance
@@ -64,8 +73,11 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 日本|@ripaojiedian
       - 2|🇫🇷8 |  5.8MB/s|0%|Openai
+      - 11|tg频道:@ripaojiedian
+      - 11|🇭🇰 香港|@ripaojiedian
+      - 11|🇭🇰 香港4|@ripaojiedian
       - _CN_中国->🇺🇸_US_美国
   - name: 🐟 漏网之鱼
     type: select
