@@ -26,6 +26,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 4Sarina-1612, server: 62.100.205.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: 2|🇫🇷8 |  5.8MB/s|0%|Openai, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linvkws, headers: {Host: Fra-Vp-123.BLaZECLOUD.Site}}, udp: true}
 - {name: 13|🇸🇬 新加坡2|@ripaojiedian, server: 183.236.51.38, port: 49121, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 11|🇭🇰 香港8|@ripaojiedian, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15010, type: ss, cipher: aes-256-gcm, password: ENYGONDU94UW1G6X, udp: true}
@@ -41,6 +42,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Sarina-1612
       - 2|🇫🇷8 |  5.8MB/s|0%|Openai
       - 13|🇸🇬 新加坡2|@ripaojiedian
       - 11|🇭🇰 香港8|@ripaojiedian
@@ -55,6 +57,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Sarina-1612
       - 2|🇫🇷8 |  5.8MB/s|0%|Openai
       - 13|🇸🇬 新加坡2|@ripaojiedian
       - 11|🇭🇰 香港8|@ripaojiedian
@@ -64,6 +67,7 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 4Sarina-1612
       - 2|🇫🇷8 |  5.8MB/s|0%|Openai
       - 13|🇸🇬 新加坡2|@ripaojiedian
       - 11|🇭🇰 香港8|@ripaojiedian
