@@ -29,7 +29,7 @@ proxies:
 - {name: 12|tg频道:@ripaojiedian, server: 44.243.3.215, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
 - {name: 15|CN_speednode_0020, server: 36.156.102.124, port: 15624, type: trojan, password: RlzoEILU, sni: 36.156.102.124, skip-cert-verify: true, udp: true}
 - {name: 14|CN_speednode_0019, server: 36.151.251.60, port: 28296, type: trojan, password: RlzoEILU, sni: cdn.egvra.cn, skip-cert-verify: true, udp: true}
-- {name: 13|🇸🇬 新加坡2|@ripaojiedian, server: 183.236.51.38, port: 49121, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _RU_俄罗斯, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: _US_美国, server: 154.17.17.149, port: 28331, type: trojan, password: Z3aXaKZnXxNc3y03OnKcaq4CN3OcqA8SwSzSRZ3O3Sa3NnaFD4xzgCSR7AaOZ983y0yY3lBOYCAOAzx, sni: hanger.homeofbrave.net, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -46,7 +46,7 @@ proxy-groups:
       - 12|tg频道:@ripaojiedian
       - 15|CN_speednode_0020
       - 14|CN_speednode_0019
-      - 13|🇸🇬 新加坡2|@ripaojiedian
+      - _RU_俄罗斯
       - _US_美国
   - name: 🔰 节点选择
     type: select
@@ -62,7 +62,7 @@ proxy-groups:
       - 12|tg频道:@ripaojiedian
       - 15|CN_speednode_0020
       - 14|CN_speednode_0019
-      - 13|🇸🇬 新加坡2|@ripaojiedian
+      - _RU_俄罗斯
       - _US_美国
   - name: ♻️ 可能受限
     type: load-balance
@@ -73,7 +73,7 @@ proxy-groups:
       - 12|tg频道:@ripaojiedian
       - 15|CN_speednode_0020
       - 14|CN_speednode_0019
-      - 13|🇸🇬 新加坡2|@ripaojiedian
+      - _RU_俄罗斯
       - _US_美国
   - name: 🐟 漏网之鱼
     type: select
