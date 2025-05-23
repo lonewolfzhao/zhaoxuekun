@@ -26,11 +26,13 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 12|tg频道:@ripaojiedian, server: 44.243.3.215, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
 - {name: 15|CN_speednode_0020, server: 36.156.102.124, port: 15624, type: trojan, password: RlzoEILU, sni: 36.156.102.124, skip-cert-verify: true, udp: true}
+- {name: 12|tg频道:@ripaojiedian, server: 44.243.3.215, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
+- {name: 14|CN_speednode_0021, server: 36.156.102.123, port: 50723, type: trojan, password: RlzoEILU, sni: 36.156.102.123, skip-cert-verify: true, udp: true}
+- {name: 12|🇯🇵 日本4|@ripaojiedian, server: 45.159.51.205, port: 49163, type: vmess, uuid: 51faacca-b686-47ac-f85a-1088b35e7d6e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 12|tg频道:@ripaojiedian 2, server: 44.243.3.215, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
 - {name: 14|CN_speednode_0019, server: 36.151.251.60, port: 28296, type: trojan, password: RlzoEILU, sni: cdn.egvra.cn, skip-cert-verify: true, udp: true}
 - {name: _RU_俄罗斯, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: _US_美国, server: 154.17.17.149, port: 28331, type: trojan, password: Z3aXaKZnXxNc3y03OnKcaq4CN3OcqA8SwSzSRZ3O3Sa3NnaFD4xzgCSR7AaOZ983y0yY3lBOYCAOAzx, sni: hanger.homeofbrave.net, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -43,11 +45,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 12|tg频道:@ripaojiedian
       - 15|CN_speednode_0020
+      - 12|tg频道:@ripaojiedian
+      - 14|CN_speednode_0021
+      - 12|🇯🇵 日本4|@ripaojiedian
+      - 12|tg频道:@ripaojiedian 2
       - 14|CN_speednode_0019
       - _RU_俄罗斯
-      - _US_美国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -59,22 +63,26 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 12|tg频道:@ripaojiedian
       - 15|CN_speednode_0020
+      - 12|tg频道:@ripaojiedian
+      - 14|CN_speednode_0021
+      - 12|🇯🇵 日本4|@ripaojiedian
+      - 12|tg频道:@ripaojiedian 2
       - 14|CN_speednode_0019
       - _RU_俄罗斯
-      - _US_美国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 12|tg频道:@ripaojiedian
       - 15|CN_speednode_0020
+      - 12|tg频道:@ripaojiedian
+      - 14|CN_speednode_0021
+      - 12|🇯🇵 日本4|@ripaojiedian
+      - 12|tg频道:@ripaojiedian 2
       - 14|CN_speednode_0019
       - _RU_俄罗斯
-      - _US_美国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
