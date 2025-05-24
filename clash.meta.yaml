@@ -26,8 +26,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: _US_美国->🇨🇳_CN_中国, server: 142.4.116.177, port: 50009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 12|🇭🇰 香港|@ripaojiedian, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15010, type: ss, cipher: aes-256-gcm, password: ENYGONDU94UW1G6X, udp: true}
+- {name: 15|CN_speednode_0019, server: 36.151.251.60, port: 28296, type: trojan, password: RlzoEILU, sni: cdn.egvra.cn, skip-cert-verify: true, udp: true}
 - {name: 13|CN_speednode_0020, server: 36.156.102.124, port: 15624, type: trojan, password: RlzoEILU, sni: 36.156.102.124, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -41,8 +40,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _US_美国->🇨🇳_CN_中国
-      - 12|🇭🇰 香港|@ripaojiedian
+      - 15|CN_speednode_0019
       - 13|CN_speednode_0020
   - name: 🔰 节点选择
     type: select
@@ -55,8 +53,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _US_美国->🇨🇳_CN_中国
-      - 12|🇭🇰 香港|@ripaojiedian
+      - 15|CN_speednode_0019
       - 13|CN_speednode_0020
   - name: ♻️ 可能受限
     type: load-balance
@@ -64,8 +61,7 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - _US_美国->🇨🇳_CN_中国
-      - 12|🇭🇰 香港|@ripaojiedian
+      - 15|CN_speednode_0019
       - 13|CN_speednode_0020
   - name: 🐟 漏网之鱼
     type: select
