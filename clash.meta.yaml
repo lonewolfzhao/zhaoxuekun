@@ -27,6 +27,7 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: 15|CN_speednode_0019, server: 36.151.251.60, port: 28296, type: trojan, password: RlzoEILU, sni: cdn.egvra.cn, skip-cert-verify: true, udp: true}
+- {name: 12|🇺🇸 美国3|@ripaojiedian, server: 120.233.147.197, port: 23340, type: ss, cipher: chacha20-ietf-poly1305, password: 0fbed6c9-0fb4-4ec3-8582-f569f8d773d5, udp: true}
 - {name: "12,13|韩国2|@ripaojiedian", server: 36.151.251.59, port: 44907, type: trojan, password: RlzoEILU, sni: cdn.egvra.cn, skip-cert-verify: true, udp: true}
 - {name: 12|🇸🇬 新加坡5|@ripaojiedian, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 16014, type: ss, cipher: aes-256-gcm, password: FXLEJQN4Y4G6ZUHJ, udp: true}
 proxy-groups:
@@ -42,6 +43,7 @@ proxy-groups:
     interval: 10
     proxies:
       - 15|CN_speednode_0019
+      - 12|🇺🇸 美国3|@ripaojiedian
       - 12,13|韩国2|@ripaojiedian
       - 12|🇸🇬 新加坡5|@ripaojiedian
   - name: 🔰 节点选择
@@ -56,6 +58,7 @@ proxy-groups:
     interval: 10
     proxies:
       - 15|CN_speednode_0019
+      - 12|🇺🇸 美国3|@ripaojiedian
       - 12,13|韩国2|@ripaojiedian
       - 12|🇸🇬 新加坡5|@ripaojiedian
   - name: ♻️ 可能受限
@@ -65,6 +68,7 @@ proxy-groups:
     interval: 10
     proxies:
       - 15|CN_speednode_0019
+      - 12|🇺🇸 美国3|@ripaojiedian
       - 12,13|韩国2|@ripaojiedian
       - 12|🇸🇬 新加坡5|@ripaojiedian
   - name: 🐟 漏网之鱼
