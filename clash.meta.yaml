@@ -26,6 +26,8 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 4Nika-536, server: 77.246.98.67, port: 4343, type: ss, cipher: chacha20-ietf-poly1305, password: SmID3JBND9QFnpVRj7MeYF, udp: true}
+- {name: _RU_俄罗斯->🇨🇳_CN_中国, server: 81.177.215.84, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: tihAgVxZO12u, udp: true}
 - {name: 15|CN_speednode_0016, server: 36.156.102.123, port: 50723, type: trojan, password: RlzoEILU, sni: 36.156.102.123, skip-cert-verify: true, udp: true}
 - {name: 15|CN_speednode_0028, server: 36.151.251.61, port: 33097, type: trojan, password: RlzoEILU, sni: 36.151.251.61, skip-cert-verify: true, udp: true}
 proxy-groups:
@@ -40,6 +42,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Nika-536
+      - _RU_俄罗斯->🇨🇳_CN_中国
       - 15|CN_speednode_0016
       - 15|CN_speednode_0028
   - name: 🔰 节点选择
@@ -53,6 +57,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Nika-536
+      - _RU_俄罗斯->🇨🇳_CN_中国
       - 15|CN_speednode_0016
       - 15|CN_speednode_0028
   - name: ♻️ 可能受限
@@ -61,6 +67,8 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 4Nika-536
+      - _RU_俄罗斯->🇨🇳_CN_中国
       - 15|CN_speednode_0016
       - 15|CN_speednode_0028
   - name: 🐟 漏网之鱼
