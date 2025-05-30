@@ -27,12 +27,7 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: _RU_俄罗斯->🇨🇳_CN_中国, server: 81.177.215.84, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: tihAgVxZO12u, udp: true}
-- {name: 12|🇭🇰 香港|@ripaojiedian, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15010, type: ss, cipher: aes-256-gcm, password: ENYGONDU94UW1G6X, udp: true}
-- {name: _CN_中国->🇩🇪_DE_德国, server: 120.233.44.201, port: 21102, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: 120.233.44.201, skip-cert-verify: true, udp: true}
-- {name: _DE_德国, server: 165.22.74.230, port: 443, type: trojan, password: 4732adfa16c6450bbef87264e41332db, sni: nextstepcareer.online, skip-cert-verify: true, udp: true}
-- {name: 13|香港5|@ripaojiedian, server: 120.232.153.40, port: 52182, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 香港2|@ripaojiedian, server: hkkh11v1.xpmc.cc, port: 20273, type: ss, cipher: chacha20-ietf-poly1305, password: 91a41f4e02dc, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: hkkh11v1.xpmc.cc, path: /utvbnrzejpmt, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-- {name: 12|🇯🇵 日本2|@ripaojiedian, server: 43.226.17.17, port: 14312, type: ss, cipher: chacha20-ietf-poly1305, password: 2e96aa2f3054, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: kr7v1.pmxiaonan.xyz, path: /lornlqecrjwe, tls: true, mux: true, skip-cert-verify: true}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -46,12 +41,7 @@ proxy-groups:
     interval: 10
     proxies:
       - _RU_俄罗斯->🇨🇳_CN_中国
-      - 12|🇭🇰 香港|@ripaojiedian
-      - _CN_中国->🇩🇪_DE_德国
-      - _DE_德国
-      - 13|香港5|@ripaojiedian
       - 香港2|@ripaojiedian
-      - 12|🇯🇵 日本2|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -64,12 +54,7 @@ proxy-groups:
     interval: 10
     proxies:
       - _RU_俄罗斯->🇨🇳_CN_中国
-      - 12|🇭🇰 香港|@ripaojiedian
-      - _CN_中国->🇩🇪_DE_德国
-      - _DE_德国
-      - 13|香港5|@ripaojiedian
       - 香港2|@ripaojiedian
-      - 12|🇯🇵 日本2|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -77,12 +62,7 @@ proxy-groups:
     interval: 10
     proxies:
       - _RU_俄罗斯->🇨🇳_CN_中国
-      - 12|🇭🇰 香港|@ripaojiedian
-      - _CN_中国->🇩🇪_DE_德国
-      - _DE_德国
-      - 13|香港5|@ripaojiedian
       - 香港2|@ripaojiedian
-      - 12|🇯🇵 日本2|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
