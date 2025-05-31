@@ -26,9 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: _IT_意大利, server: 185.213.23.226, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: _US_美国, server: panels.wireshop.net, port: 443, type: trojan, password: OX32x3nNZ0eFYcwzyDl2pISqeRETDZnDYyDwyFTlCaAa9SAlCOOSF36CXYSRzS4A3xaR8, skip-cert-verify: true, udp: true}
+- {name: 13|🇯🇵 日本2|@ripaojiedian, server: 43.226.17.17, port: 19363, type: ss, cipher: chacha20-ietf-poly1305, password: 2e96aa2f3054, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: kr7v1.pmxiaonan.xyz, path: /lornlqecrjwe, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+- {name: 13|🇭🇰 香港|@ripaojiedian, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15010, type: ss, cipher: aes-256-gcm, password: ENYGONDU94UW1G6X, udp: true}
 - {name: 15|CN_speednode_0016, server: 36.156.102.123, port: 50723, type: trojan, password: RlzoEILU, sni: 36.156.102.123, skip-cert-verify: true, udp: true}
+- {name: 15|CN_speednode_0028, server: 36.151.251.61, port: 33097, type: trojan, password: RlzoEILU, sni: 36.151.251.61, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -41,9 +42,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _IT_意大利
-      - _US_美国
+      - 13|🇯🇵 日本2|@ripaojiedian
+      - 13|🇭🇰 香港|@ripaojiedian
       - 15|CN_speednode_0016
+      - 15|CN_speednode_0028
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -55,18 +57,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _IT_意大利
-      - _US_美国
+      - 13|🇯🇵 日本2|@ripaojiedian
+      - 13|🇭🇰 香港|@ripaojiedian
       - 15|CN_speednode_0016
+      - 15|CN_speednode_0028
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - _IT_意大利
-      - _US_美国
+      - 13|🇯🇵 日本2|@ripaojiedian
+      - 13|🇭🇰 香港|@ripaojiedian
       - 15|CN_speednode_0016
+      - 15|CN_speednode_0028
   - name: 🐟 漏网之鱼
     type: select
     proxies:
