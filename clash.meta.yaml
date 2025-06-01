@@ -26,8 +26,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: TG频道@stymei1丨4, server: 910281.chasel.sbs, port: 21227, type: ss, cipher: aes-256-gcm, password: 796EA43C-1A63-8C50-3745-FD3946149E4F, udp: true}
-- {name: 4FreeIran-1125, server: 103.186.154.26, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 12|🇺🇸 美国4|@ripaojiedian, server: cm55-zz.moonwang.xyz, port: 54322, type: ss, cipher: chacha20-ietf-poly1305, password: 26270a5c-cc66-4bb5-b058-c75d09d615e5, udp: true}
 - {name: 15|CN_speednode_0016, server: 36.156.102.123, port: 50723, type: trojan, password: RlzoEILU, sni: 36.156.102.123, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -41,8 +40,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - TG频道@stymei1丨4
-      - 4FreeIran-1125
+      - 12|🇺🇸 美国4|@ripaojiedian
       - 15|CN_speednode_0016
   - name: 🔰 节点选择
     type: select
@@ -55,8 +53,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - TG频道@stymei1丨4
-      - 4FreeIran-1125
+      - 12|🇺🇸 美国4|@ripaojiedian
       - 15|CN_speednode_0016
   - name: ♻️ 可能受限
     type: load-balance
@@ -64,8 +61,7 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - TG频道@stymei1丨4
-      - 4FreeIran-1125
+      - 12|🇺🇸 美国4|@ripaojiedian
       - 15|CN_speednode_0016
   - name: 🐟 漏网之鱼
     type: select
