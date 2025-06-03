@@ -26,8 +26,11 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Nika-1584, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15008, type: ss, cipher: aes-256-gcm, password: 0S43J3FD6L7IEKGQ, udp: true}
-- {name: _CN_中国->🇺🇸_US_美国, server: 36.151.251.61, port: 33097, type: trojan, password: RlzoEILU, sni: 36.151.251.61, skip-cert-verify: true, udp: true}
+- {name: 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202505282364048-i8kTAe6y0O.download.microsoft.com}, udp: true}
+- {name: _CN_中国->🇺🇸_US_美国, server: 36.151.251.62, port: 3330, type: trojan, password: RlzoEILU, sni: cdn.egvra.cn, skip-cert-verify: true, udp: true}
+- {name: _CN_中国->🇺🇸_US_美国 2, server: 36.151.251.61, port: 33097, type: trojan, password: RlzoEILU, sni: 36.151.251.61, skip-cert-verify: true, udp: true}
+- {name: 13|tg频道:@ripaojiedian, server: 3.34.131.22, port: 443, type: ss, cipher: aes-256-cfb, password: yijian0503, udp: true}
+- {name: _IR_伊朗->🇺🇸_US_美国, server: 178.22.121.98, port: 1091, type: vmess, uuid: 6ef3b433-eea7-4e5d-95a5-c5f742ce2fb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -40,8 +43,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Nika-1584
+      - 日本|@ripaojiedian
       - _CN_中国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国 2
+      - 13|tg频道:@ripaojiedian
+      - _IR_伊朗->🇺🇸_US_美国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -53,16 +59,22 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Nika-1584
+      - 日本|@ripaojiedian
       - _CN_中国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国 2
+      - 13|tg频道:@ripaojiedian
+      - _IR_伊朗->🇺🇸_US_美国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Nika-1584
+      - 日本|@ripaojiedian
       - _CN_中国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国 2
+      - 13|tg频道:@ripaojiedian
+      - _IR_伊朗->🇺🇸_US_美国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
