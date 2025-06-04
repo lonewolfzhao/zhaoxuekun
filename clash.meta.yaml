@@ -26,10 +26,8 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 13|tg频道:@ripaojiedian, server: 3.34.131.22, port: 443, type: ss, cipher: aes-256-cfb, password: yijian0503, udp: true}
 - {name: _CN_中国->🇺🇸_US_美国, server: 36.151.251.62, port: 3330, type: trojan, password: RlzoEILU, sni: cdn.egvra.cn, skip-cert-verify: true, udp: true}
 - {name: _CN_中国->🇺🇸_US_美国 2, server: 36.151.251.61, port: 33097, type: trojan, password: RlzoEILU, sni: 36.151.251.61, skip-cert-verify: true, udp: true}
-- {name: _NL_荷兰->🇫🇷_FR_法国, server: 45.144.54.33, port: 52703, type: ss, cipher: chacha20-ietf-poly1305, password: l3gh4XX7l9nuQwETBNU85v, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +40,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 13|tg频道:@ripaojiedian
       - _CN_中国->🇺🇸_US_美国
       - _CN_中国->🇺🇸_US_美国 2
-      - _NL_荷兰->🇫🇷_FR_法国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,20 +53,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 13|tg频道:@ripaojiedian
       - _CN_中国->🇺🇸_US_美国
       - _CN_中国->🇺🇸_US_美国 2
-      - _NL_荷兰->🇫🇷_FR_法国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 13|tg频道:@ripaojiedian
       - _CN_中国->🇺🇸_US_美国
       - _CN_中国->🇺🇸_US_美国 2
-      - _NL_荷兰->🇫🇷_FR_法国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
