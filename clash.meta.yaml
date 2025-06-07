@@ -27,11 +27,9 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: "12,13|香港7|@ripaojiedian", server: 113.99.140.184, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: www.yrtok.com, skip-cert-verify: true, udp: true}
-- {name: 12|🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202505310989964-u6lMbYHt99.download.microsoft.com}, udp: true}
+- {name: 12|🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202505310989964-u6lMbYHt99.download.microsoft.com}, udp: true}
+- {name: 12|tg频道:@ripaojiedian, server: 43.203.225.190, port: 443, type: ss, cipher: aes-256-cfb, password: yijian0503, udp: true}
 - {name: _CN_中国, server: e0fc3fd6-sxc9s0-t5cryd-4w8.cu.plebai.net, port: 15229, type: trojan, password: ba7a37e3-033a-e1ab-06f6-9027aa4630f5, sni: e0fc3fd6-sxc9s0-t5cryd-4w8.cu.plebai.net, skip-cert-verify: true, udp: true}
-- {name: 4FreeIran-19, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-- {name: _CN_中国->🇺🇸_US_美国, server: 68e85139-sxc9s0-t1jkae-18y1l.cu.plebai.net, port: 15229, type: trojan, password: 96c5f18c-9390-11eb-86a4-f23c913c8d2b, sni: 68e85139-sxc9s0-t1jkae-18y1l.cu.plebai.net, skip-cert-verify: true, udp: true}
-- {name: _CN_中国->🇺🇸_US_美国 2, server: c5d812aa-sx4v40-sx7hbg-1mmbp.cu.plebai.net, port: 15229, type: trojan, password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b, sni: c5d812aa-sx4v40-sx7hbg-1mmbp.cu.plebai.net, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -45,11 +43,9 @@ proxy-groups:
     interval: 10
     proxies:
       - 12,13|香港7|@ripaojiedian
-      - 12|🇯🇵 日本|@ripaojiedian
+      - 12|🇺🇸 美国2|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
       - _CN_中国
-      - 4FreeIran-19
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -62,11 +58,9 @@ proxy-groups:
     interval: 10
     proxies:
       - 12,13|香港7|@ripaojiedian
-      - 12|🇯🇵 日本|@ripaojiedian
+      - 12|🇺🇸 美国2|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
       - _CN_中国
-      - 4FreeIran-19
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -74,11 +68,9 @@ proxy-groups:
     interval: 10
     proxies:
       - 12,13|香港7|@ripaojiedian
-      - 12|🇯🇵 日本|@ripaojiedian
+      - 12|🇺🇸 美国2|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
       - _CN_中国
-      - 4FreeIran-19
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
