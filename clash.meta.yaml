@@ -26,9 +26,8 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: _IT_意大利, server: 185.213.23.226, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 4FreeIran-880, server: 194.41.59.80, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
 - {name: "12,13|香港7|@ripaojiedian", server: 113.99.140.184, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: www.yrtok.com, skip-cert-verify: true, udp: true}
-- {name: 13|tg频道:@ripaojiedian, server: 13.229.50.252, port: 443, type: ss, cipher: aes-256-cfb, password: qawszxc123, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -41,9 +40,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _IT_意大利
+      - 4FreeIran-880
       - 12,13|香港7|@ripaojiedian
-      - 13|tg频道:@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -55,18 +53,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _IT_意大利
+      - 4FreeIran-880
       - 12,13|香港7|@ripaojiedian
-      - 13|tg频道:@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - _IT_意大利
+      - 4FreeIran-880
       - 12,13|香港7|@ripaojiedian
-      - 13|tg频道:@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
