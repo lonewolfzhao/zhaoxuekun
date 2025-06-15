@@ -26,8 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: _DE_德国, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: _US_美国, server: 38.180.158.38, port: 5555, type: ss, cipher: chacha20-ietf-poly1305, password: HU3ZebY2-OMZ9ErvsG_0zg, udp: true}
+- {name: _CN_中国->🇷🇺_RU_俄罗斯, server: e312e558-sxusg0-t3f7qr-141tv.cu.plebai.net, port: 15229, type: trojan, password: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b, sni: e312e558-sxusg0-t3f7qr-141tv.cu.plebai.net, skip-cert-verify: true, udp: true}
+- {name: 15|CN_speednode_0030, server: 116.31.75.150, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: www.yrtok.com, skip-cert-verify: true, udp: true}
+- {name: TG频道@stymei1丨16, server: 5.10.245.89, port: 443, type: vmess, uuid: 8913bd2c-fd6b-4253-9076-753edbbbc90c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fd6b, headers: {Host: us1.lzjnb.shop}}, udp: true}
 - {name: "12,13|香港7|@ripaojiedian", server: 113.99.140.184, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: www.yrtok.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -41,8 +42,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _DE_德国
-      - _US_美国
+      - _CN_中国->🇷🇺_RU_俄罗斯
+      - 15|CN_speednode_0030
+      - TG频道@stymei1丨16
       - 12,13|香港7|@ripaojiedian
   - name: 🔰 节点选择
     type: select
@@ -55,8 +57,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _DE_德国
-      - _US_美国
+      - _CN_中国->🇷🇺_RU_俄罗斯
+      - 15|CN_speednode_0030
+      - TG频道@stymei1丨16
       - 12,13|香港7|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
@@ -64,8 +67,9 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - _DE_德国
-      - _US_美国
+      - _CN_中国->🇷🇺_RU_俄罗斯
+      - 15|CN_speednode_0030
+      - TG频道@stymei1丨16
       - 12,13|香港7|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
