@@ -26,10 +26,11 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Nika-1608, server: 51.178.41.178, port: 8443, type: ss, cipher: aes-256-gcm, password: 7cbd03ea-00d4-43eb-b4e2-1b4f2275d6b5, udp: true}
+- {name: 12|🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202506131022370-yLzbxEkmoB.download.microsoft.com}, udp: true}
 - {name: "12,13|香港7|@ripaojiedian", server: 113.99.140.184, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: www.yrtok.com, skip-cert-verify: true, udp: true}
-- {name: _CN_中国->🇷🇺_RU_俄罗斯, server: e312e558-sxusg0-t3f7qr-141tv.cu.plebai.net, port: 15229, type: trojan, password: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b, sni: e312e558-sxusg0-t3f7qr-141tv.cu.plebai.net, skip-cert-verify: true, udp: true}
+- {name: 12|tg频道:@ripaojiedian, server: 43.203.219.33, port: 443, type: ss, cipher: aes-256-cfb, password: yijian0503, udp: true}
 - {name: 15|CN_speednode_0030, server: 116.31.75.150, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: www.yrtok.com, skip-cert-verify: true, udp: true}
+- {name: 4Nika-1608, server: 51.178.41.178, port: 8443, type: ss, cipher: aes-256-gcm, password: 7cbd03ea-00d4-43eb-b4e2-1b4f2275d6b5, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +43,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Nika-1608
+      - 12|🇺🇸 美国2|@ripaojiedian
       - 12,13|香港7|@ripaojiedian
-      - _CN_中国->🇷🇺_RU_俄罗斯
+      - 12|tg频道:@ripaojiedian
       - 15|CN_speednode_0030
+      - 4Nika-1608
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,20 +59,22 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Nika-1608
+      - 12|🇺🇸 美国2|@ripaojiedian
       - 12,13|香港7|@ripaojiedian
-      - _CN_中国->🇷🇺_RU_俄罗斯
+      - 12|tg频道:@ripaojiedian
       - 15|CN_speednode_0030
+      - 4Nika-1608
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Nika-1608
+      - 12|🇺🇸 美国2|@ripaojiedian
       - 12,13|香港7|@ripaojiedian
-      - _CN_中国->🇷🇺_RU_俄罗斯
+      - 12|tg频道:@ripaojiedian
       - 15|CN_speednode_0030
+      - 4Nika-1608
   - name: 🐟 漏网之鱼
     type: select
     proxies:
