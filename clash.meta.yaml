@@ -26,7 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 15|CN_speednode_0030, server: 116.31.75.150, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: www.yrtok.com, skip-cert-verify: true, udp: true}
+- {name: 12|🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202506131022370-H9pCj24A70.download.microsoft.com}, udp: true}
+- {name: 12|tg频道:@ripaojiedian, server: 47.129.223.224, port: 443, type: ss, cipher: aes-256-cfb, password: qawszxc123, udp: true}
+- {name: 12|🇭🇰 香港5|@ripaojiedian, server: 120.232.220.156, port: 20406, type: ss, cipher: aes-256-gcm, password: dwz1GtF7, udp: true}
 - {name: "12,13|香港7|@ripaojiedian", server: 113.99.140.184, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: www.yrtok.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -40,7 +42,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 15|CN_speednode_0030
+      - 12|🇯🇵 日本|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
+      - 12|🇭🇰 香港5|@ripaojiedian
       - 12,13|香港7|@ripaojiedian
   - name: 🔰 节点选择
     type: select
@@ -53,7 +57,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 15|CN_speednode_0030
+      - 12|🇯🇵 日本|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
+      - 12|🇭🇰 香港5|@ripaojiedian
       - 12,13|香港7|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
@@ -61,7 +67,9 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 15|CN_speednode_0030
+      - 12|🇯🇵 日本|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
+      - 12|🇭🇰 香港5|@ripaojiedian
       - 12,13|香港7|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
