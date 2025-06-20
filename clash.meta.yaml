@@ -26,6 +26,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 13|tg频道:@ripaojiedian, server: 18.183.222.24, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
 - {name: _MD_摩尔多瓦->🇰🇷_KR_韩国, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: 14|CN_speednode_0006, server: 116.31.75.150, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: www.yrtok.com, skip-cert-verify: true, udp: true}
 - {name: _CN_中国->🇷🇺_RU_俄罗斯, server: zf1.10101251.xyz, port: 46924, type: ss, cipher: aes-256-gcm, password: 3ee90aa9-8831-4ea3-9425-c361090a938d, udp: true}
@@ -42,6 +43,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 13|tg频道:@ripaojiedian
       - _MD_摩尔多瓦->🇰🇷_KR_韩国
       - 14|CN_speednode_0006
       - _CN_中国->🇷🇺_RU_俄罗斯
@@ -57,6 +59,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 13|tg频道:@ripaojiedian
       - _MD_摩尔多瓦->🇰🇷_KR_韩国
       - 14|CN_speednode_0006
       - _CN_中国->🇷🇺_RU_俄罗斯
@@ -67,6 +70,7 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 13|tg频道:@ripaojiedian
       - _MD_摩尔多瓦->🇰🇷_KR_韩国
       - 14|CN_speednode_0006
       - _CN_中国->🇷🇺_RU_俄罗斯
