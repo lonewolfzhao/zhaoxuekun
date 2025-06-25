@@ -26,6 +26,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: "11,12|香港4|@ripaojiedian", server: 116.31.75.150, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: www.yrtok.com, skip-cert-verify: true, udp: true}
 - {name: _GB_英国, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: _MD_摩尔多瓦->🇺🇸_US_美国, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: "12,13|香港7|@ripaojiedian", server: 113.99.140.184, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: www.yrtok.com, skip-cert-verify: true, udp: true}
@@ -41,6 +42,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 11,12|香港4|@ripaojiedian
       - _GB_英国
       - _MD_摩尔多瓦->🇺🇸_US_美国
       - 12,13|香港7|@ripaojiedian
@@ -55,6 +57,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 11,12|香港4|@ripaojiedian
       - _GB_英国
       - _MD_摩尔多瓦->🇺🇸_US_美国
       - 12,13|香港7|@ripaojiedian
@@ -64,6 +67,7 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 11,12|香港4|@ripaojiedian
       - _GB_英国
       - _MD_摩尔多瓦->🇺🇸_US_美国
       - 12,13|香港7|@ripaojiedian
