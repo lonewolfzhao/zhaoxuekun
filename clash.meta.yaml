@@ -26,12 +26,8 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: "12,13|香港7|@ripaojiedian", server: 113.99.140.184, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: www.yrtok.com, skip-cert-verify: true, udp: true}
-- {name: _US_美国->🇫🇷_FR_法国, server: 172.67.175.139, port: 80, type: vmess, uuid: 9486ff17-2481-40c7-a5c4-d0d307de2509, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /T12gH9hdU239ar, headers: {Host: rrrrrrrt.859886.xyz}}, udp: true}
-- {name: tg频道:@ripaojiedian, server: 54.168.216.169, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
-- {name: "11,12|香港4|@ripaojiedian", server: 116.31.75.150, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: www.yrtok.com, skip-cert-verify: true, udp: true}
-- {name: 香港5|@ripaojiedian, server: 120.234.102.229, port: 41174, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4Sarina-1392, server: 103.186.154.18, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: _MD_摩尔多瓦, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 4Sarina-400, server: 158.255.77.34, port: 35390, type: ss, cipher: chacha20-ietf-poly1305, password: BAdQSwzquOXD2rgRjJgTdh, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -44,12 +40,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 12,13|香港7|@ripaojiedian
-      - _US_美国->🇫🇷_FR_法国
-      - tg频道:@ripaojiedian
-      - 11,12|香港4|@ripaojiedian
-      - 香港5|@ripaojiedian
-      - 4Sarina-1392
+      - _MD_摩尔多瓦
+      - 4Sarina-400
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -61,24 +53,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 12,13|香港7|@ripaojiedian
-      - _US_美国->🇫🇷_FR_法国
-      - tg频道:@ripaojiedian
-      - 11,12|香港4|@ripaojiedian
-      - 香港5|@ripaojiedian
-      - 4Sarina-1392
+      - _MD_摩尔多瓦
+      - 4Sarina-400
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 12,13|香港7|@ripaojiedian
-      - _US_美国->🇫🇷_FR_法国
-      - tg频道:@ripaojiedian
-      - 11,12|香港4|@ripaojiedian
-      - 香港5|@ripaojiedian
-      - 4Sarina-1392
+      - _MD_摩尔多瓦
+      - 4Sarina-400
   - name: 🐟 漏网之鱼
     type: select
     proxies:
