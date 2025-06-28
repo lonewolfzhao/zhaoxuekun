@@ -26,16 +26,14 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: "[SSR] TG频道@stymei1 5", server: cnamepc02-d2zdrzg6ilecsynk.bestdosas.com, port: 9041, type: ssr, cipher: chacha20-ietf, password: ygUo3W, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 99935:vb3TTF, obfs-param: dfde699935.microsoft.com, udp: true}
-- {name: 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202506261935105-W24XiAXvfE.download.microsoft.com}, udp: true}
-- {name: "[SSR] TG频道@stymei1 9", server: cname04b-srmkx6ffsizssmjw.bestruisleipa.com, port: 9011, type: ssr, cipher: chacha20-ietf, password: ygUo3W, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 99935:vb3TTF, obfs-param: dfde699935.microsoft.com, udp: true}
-- {name: 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202506261935105-W24XiAXvfE.download.microsoft.com}, udp: true}
-- {name: "[SSR] TG频道@stymei1 6", server: cname04b-srmkx6ffsizssmjw.bestruisleipa.com, port: 9061, type: ssr, cipher: chacha20-ietf, password: ygUo3W, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 99935:vb3TTF, obfs-param: dfde699935.microsoft.com, udp: true}
-- {name: "[SSR] TG频道@stymei1 7", server: cnamelm-dwzksl7kzye3rdby.bestbrocciu.com, port: 9031, type: ssr, cipher: chacha20-ietf, password: ygUo3W, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 99935:vb3TTF, obfs-param: dfde699935.microsoft.com, udp: true}
-- {name: tg频道:@ripaojiedian, server: 54.178.52.87, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
-- {name: 日本2|@ripaojiedian, server: 43.226.17.8, port: 636, type: ss, cipher: aes-256-gcm, password: 1ad90a422096, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: kr6v1.dashengjs.net, path: /jwuctcuhriiw, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-- {name: "[SSR] TG频道@stymei1 3", server: pro-twa.ginkgolink.me, port: 31501, type: ssr, cipher: aes-256-cfb, password: hrkycyiepu, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 502:DzrH8M, obfs-param: 0f2a3502.ikea.com, udp: true}
 - {name: "12,13|香港7|@ripaojiedian", server: 113.99.140.184, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: www.yrtok.com, skip-cert-verify: true, udp: true}
+- {name: "[SSR] TG频道@stymei1 5", server: cnamepc02-d2zdrzg6ilecsynk.bestdosas.com, port: 9041, type: ssr, cipher: chacha20-ietf, password: ygUo3W, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 99935:vb3TTF, obfs-param: dfde699935.microsoft.com, udp: true}
+- {name: "[SSR] TG频道@stymei1 9", server: cname04b-srmkx6ffsizssmjw.bestruisleipa.com, port: 9011, type: ssr, cipher: chacha20-ietf, password: ygUo3W, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 99935:vb3TTF, obfs-param: dfde699935.microsoft.com, udp: true}
+- {name: "[SSR] TG频道@stymei1 9 2", server: cname04b-srmkx6ffsizssmjw.bestruisleipa.com, port: 9011, type: ssr, cipher: chacha20-ietf, password: ygUo3W, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 99935:vb3TTF, obfs-param: dfde699935.microsoft.com, udp: true}
+- {name: "[SSR] TG频道@stymei1 7", server: cnamelm-dwzksl7kzye3rdby.bestbrocciu.com, port: 9031, type: ssr, cipher: chacha20-ietf, password: ygUo3W, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 99935:vb3TTF, obfs-param: dfde699935.microsoft.com, udp: true}
+- {name: "[SSR] TG频道@stymei1 5 2", server: cnamepc02-d2zdrzg6ilecsynk.bestdosas.com, port: 9041, type: ssr, cipher: chacha20-ietf, password: ygUo3W, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 99935:vb3TTF, obfs-param: dfde699935.microsoft.com, udp: true}
+- {name: "[SSR] TG频道@stymei1 6", server: cname04b-srmkx6ffsizssmjw.bestruisleipa.com, port: 9061, type: ssr, cipher: chacha20-ietf, password: ygUo3W, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 99935:vb3TTF, obfs-param: dfde699935.microsoft.com, udp: true}
+- {name: "[SSR] TG频道@stymei1 6 2", server: cname04b-srmkx6ffsizssmjw.bestruisleipa.com, port: 9061, type: ssr, cipher: chacha20-ietf, password: ygUo3W, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 99935:vb3TTF, obfs-param: dfde699935.microsoft.com, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -48,16 +46,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - "[SSR] TG频道@stymei1 5"
-      - 日本|@ripaojiedian
-      - "[SSR] TG频道@stymei1 9"
-      - 美国2|@ripaojiedian
-      - "[SSR] TG频道@stymei1 6"
-      - "[SSR] TG频道@stymei1 7"
-      - tg频道:@ripaojiedian
-      - 日本2|@ripaojiedian
-      - "[SSR] TG频道@stymei1 3"
       - 12,13|香港7|@ripaojiedian
+      - "[SSR] TG频道@stymei1 5"
+      - "[SSR] TG频道@stymei1 9"
+      - "[SSR] TG频道@stymei1 9 2"
+      - "[SSR] TG频道@stymei1 7"
+      - "[SSR] TG频道@stymei1 5 2"
+      - "[SSR] TG频道@stymei1 6"
+      - "[SSR] TG频道@stymei1 6 2"
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -69,32 +65,28 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - "[SSR] TG频道@stymei1 5"
-      - 日本|@ripaojiedian
-      - "[SSR] TG频道@stymei1 9"
-      - 美国2|@ripaojiedian
-      - "[SSR] TG频道@stymei1 6"
-      - "[SSR] TG频道@stymei1 7"
-      - tg频道:@ripaojiedian
-      - 日本2|@ripaojiedian
-      - "[SSR] TG频道@stymei1 3"
       - 12,13|香港7|@ripaojiedian
+      - "[SSR] TG频道@stymei1 5"
+      - "[SSR] TG频道@stymei1 9"
+      - "[SSR] TG频道@stymei1 9 2"
+      - "[SSR] TG频道@stymei1 7"
+      - "[SSR] TG频道@stymei1 5 2"
+      - "[SSR] TG频道@stymei1 6"
+      - "[SSR] TG频道@stymei1 6 2"
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - "[SSR] TG频道@stymei1 5"
-      - 日本|@ripaojiedian
-      - "[SSR] TG频道@stymei1 9"
-      - 美国2|@ripaojiedian
-      - "[SSR] TG频道@stymei1 6"
-      - "[SSR] TG频道@stymei1 7"
-      - tg频道:@ripaojiedian
-      - 日本2|@ripaojiedian
-      - "[SSR] TG频道@stymei1 3"
       - 12,13|香港7|@ripaojiedian
+      - "[SSR] TG频道@stymei1 5"
+      - "[SSR] TG频道@stymei1 9"
+      - "[SSR] TG频道@stymei1 9 2"
+      - "[SSR] TG频道@stymei1 7"
+      - "[SSR] TG频道@stymei1 5 2"
+      - "[SSR] TG频道@stymei1 6"
+      - "[SSR] TG频道@stymei1 6 2"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
