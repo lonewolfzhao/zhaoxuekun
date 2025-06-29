@@ -28,7 +28,6 @@ dns:
 proxies:
 - {name: _MD_摩尔多瓦, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: 4Nika-38, server: 89.35.119.87, port: 5904, type: ss, cipher: chacha20-ietf-poly1305, password: 5TZnwPb23pQS39lIucspJw, udp: true}
-- {name: "[SSR] TG频道@stymei1 10", server: y66.ffd.mt5888.top, port: 41114, type: ssr, cipher: dummy, password: mantouyun888, protocol: auth_chain_a, obfs: plain, protocol-param: 8198:CsJt8BBrKFOSrjv2, obfs-param: cbcdc8198.microsoft.com, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -43,7 +42,6 @@ proxy-groups:
     proxies:
       - _MD_摩尔多瓦
       - 4Nika-38
-      - "[SSR] TG频道@stymei1 10"
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,7 +55,6 @@ proxy-groups:
     proxies:
       - _MD_摩尔多瓦
       - 4Nika-38
-      - "[SSR] TG频道@stymei1 10"
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -66,7 +63,6 @@ proxy-groups:
     proxies:
       - _MD_摩尔多瓦
       - 4Nika-38
-      - "[SSR] TG频道@stymei1 10"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
