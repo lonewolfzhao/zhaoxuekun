@@ -26,8 +26,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: tg频道:@ripaojiedian, server: 52.221.255.116, port: 443, type: ss, cipher: aes-256-cfb, password: qawszxc123, udp: true}
-- {name: tg频道:@ripaojiedian 2, server: 43.203.249.172, port: 443, type: ss, cipher: aes-256-cfb, password: yijian0503, udp: true}
+- {name: _GB_英国->🇦🇺_AU_澳大利亚, server: 85.210.120.237, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
 - {name: _NL_荷兰->🇺🇸_US_美国, server: 45.153.124.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: _MD_摩尔多瓦, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
@@ -42,8 +41,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - tg频道:@ripaojiedian
-      - tg频道:@ripaojiedian 2
+      - _GB_英国->🇦🇺_AU_澳大利亚
       - _NL_荷兰->🇺🇸_US_美国
       - _MD_摩尔多瓦
   - name: 🔰 节点选择
@@ -57,8 +55,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - tg频道:@ripaojiedian
-      - tg频道:@ripaojiedian 2
+      - _GB_英国->🇦🇺_AU_澳大利亚
       - _NL_荷兰->🇺🇸_US_美国
       - _MD_摩尔多瓦
   - name: ♻️ 可能受限
@@ -67,8 +64,7 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - tg频道:@ripaojiedian
-      - tg频道:@ripaojiedian 2
+      - _GB_英国->🇦🇺_AU_澳大利亚
       - _NL_荷兰->🇺🇸_US_美国
       - _MD_摩尔多瓦
   - name: 🐟 漏网之鱼
