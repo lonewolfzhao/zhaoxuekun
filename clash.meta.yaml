@@ -26,7 +26,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: tg频道:@ripaojiedian, server: 52.221.255.116, port: 443, type: ss, cipher: aes-256-cfb, password: qawszxc123, udp: true}
+- {name: _NL_荷兰->🇺🇸_US_美国, server: 45.153.124.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: _MD_摩尔多瓦, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -40,7 +40,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - tg频道:@ripaojiedian
+      - _NL_荷兰->🇺🇸_US_美国
       - _MD_摩尔多瓦
   - name: 🔰 节点选择
     type: select
@@ -53,7 +53,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - tg频道:@ripaojiedian
+      - _NL_荷兰->🇺🇸_US_美国
       - _MD_摩尔多瓦
   - name: ♻️ 可能受限
     type: load-balance
@@ -61,7 +61,7 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - tg频道:@ripaojiedian
+      - _NL_荷兰->🇺🇸_US_美国
       - _MD_摩尔多瓦
   - name: 🐟 漏网之鱼
     type: select
