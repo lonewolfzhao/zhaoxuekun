@@ -27,9 +27,9 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: 4Kian-867, server: 45.87.175.92, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-- {name: 4Kian-1198, server: 103.186.154.38, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Kian-1197, server: 103.186.154.37, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 - {name: 4Kian-1193, server: 103.186.154.32, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Kian-864, server: 45.87.175.58, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+- {name: 4Kian-1198, server: 103.186.154.38, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -43,9 +43,9 @@ proxy-groups:
     interval: 10
     proxies:
       - 4Kian-867
-      - 4Kian-1198
-      - 4Kian-1197
       - 4Kian-1193
+      - 4Kian-864
+      - 4Kian-1198
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -58,9 +58,9 @@ proxy-groups:
     interval: 10
     proxies:
       - 4Kian-867
-      - 4Kian-1198
-      - 4Kian-1197
       - 4Kian-1193
+      - 4Kian-864
+      - 4Kian-1198
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -68,9 +68,9 @@ proxy-groups:
     interval: 10
     proxies:
       - 4Kian-867
-      - 4Kian-1198
-      - 4Kian-1197
       - 4Kian-1193
+      - 4Kian-864
+      - 4Kian-1198
   - name: 🐟 漏网之鱼
     type: select
     proxies:
