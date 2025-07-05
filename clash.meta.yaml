@@ -27,6 +27,7 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: tg频道:@ripaojiedian, server: 52.195.220.57, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
+- {name: 4Kian-867, server: 45.87.175.92, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
 - {name: 4Kian-864, server: 45.87.175.58, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -41,6 +42,7 @@ proxy-groups:
     interval: 10
     proxies:
       - tg频道:@ripaojiedian
+      - 4Kian-867
       - 4Kian-864
   - name: 🔰 节点选择
     type: select
@@ -54,6 +56,7 @@ proxy-groups:
     interval: 10
     proxies:
       - tg频道:@ripaojiedian
+      - 4Kian-867
       - 4Kian-864
   - name: ♻️ 可能受限
     type: load-balance
@@ -62,6 +65,7 @@ proxy-groups:
     interval: 10
     proxies:
       - tg频道:@ripaojiedian
+      - 4Kian-867
       - 4Kian-864
   - name: 🐟 漏网之鱼
     type: select
