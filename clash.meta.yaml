@@ -26,6 +26,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 4Nika-116, server: 45.158.171.136, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
 - {name: _DE_德国, server: 45.87.175.58, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
 - {name: _DE_德国->🇺🇸_US_美国, server: 45.87.175.92, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
 proxy-groups:
@@ -40,6 +41,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Nika-116
       - _DE_德国
       - _DE_德国->🇺🇸_US_美国
   - name: 🔰 节点选择
@@ -53,6 +55,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Nika-116
       - _DE_德国
       - _DE_德国->🇺🇸_US_美国
   - name: ♻️ 可能受限
@@ -61,6 +64,7 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 4Nika-116
       - _DE_德国
       - _DE_德国->🇺🇸_US_美国
   - name: 🐟 漏网之鱼
