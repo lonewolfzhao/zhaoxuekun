@@ -26,6 +26,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 12|🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202507031938065-kCgyohOaHg.download.microsoft.com}, udp: true}
 - {name: tg频道:@ripaojiedian, server: 57.180.12.240, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
 - {name: 4Nika-1530, server: 45.154.206.192, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
@@ -40,6 +41,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 12|🇯🇵 日本|@ripaojiedian
       - tg频道:@ripaojiedian
       - 4Nika-1530
   - name: 🔰 节点选择
@@ -53,6 +55,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 12|🇯🇵 日本|@ripaojiedian
       - tg频道:@ripaojiedian
       - 4Nika-1530
   - name: ♻️ 可能受限
@@ -61,6 +64,7 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 12|🇯🇵 日本|@ripaojiedian
       - tg频道:@ripaojiedian
       - 4Nika-1530
   - name: 🐟 漏网之鱼
