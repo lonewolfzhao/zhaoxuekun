@@ -29,6 +29,8 @@ proxies:
 - {name: US_23 | ⬇️ 9.9MB/s, server: 79.110.53.169, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
 - {name: _DE_德国, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
 - {name: 新加坡2|@ripaojiedian, server: 36.151.251.61, port: 7041, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+- {name: tg频道:@ripaojiedian, server: 13.229.183.5, port: 443, type: ss, cipher: aes-256-cfb, password: qawszxc123, udp: true}
+- {name: US_13 | ⬇️ 13.4MB/s, server: 18.143.168.193, port: 443, type: ss, cipher: aes-256-cfb, password: qawszxc123, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -44,6 +46,8 @@ proxy-groups:
       - US_23 | ⬇️ 9.9MB/s
       - _DE_德国
       - 新加坡2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - US_13 | ⬇️ 13.4MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -58,6 +62,8 @@ proxy-groups:
       - US_23 | ⬇️ 9.9MB/s
       - _DE_德国
       - 新加坡2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - US_13 | ⬇️ 13.4MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -67,6 +73,8 @@ proxy-groups:
       - US_23 | ⬇️ 9.9MB/s
       - _DE_德国
       - 新加坡2|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - US_13 | ⬇️ 13.4MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
