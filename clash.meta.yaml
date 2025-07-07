@@ -26,10 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: US_11 | ⬇️ 10.7MB/s, server: cm2.xcone.xyz, port: 56138, type: ssr, cipher: aes-256-cfb, password: uiACqrIr, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: sg2-cdn-route.couldflare-cdn.com, udp: true}
+- {name: tg频道:@ripaojiedian, server: 13.229.183.5, port: 443, type: ss, cipher: aes-256-cfb, password: qawszxc123, udp: true}
+- {name: US_13 | ⬇️ 13.4MB/s, server: 18.143.168.193, port: 443, type: ss, cipher: aes-256-cfb, password: qawszxc123, udp: true}
+- {name: _DE_德国, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
 - {name: US_70 | ⬇️ 5.5MB/s, server: 103.104.247.45, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-- {name: US_102 | ⬇️ 10.3MB/s, server: 45.87.175.183, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-- {name: US_105 | ⬇️ 10.1MB/s, server: 45.87.175.165, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +42,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - US_11 | ⬇️ 10.7MB/s
+      - tg频道:@ripaojiedian
+      - US_13 | ⬇️ 13.4MB/s
+      - _DE_德国
       - US_70 | ⬇️ 5.5MB/s
-      - US_102 | ⬇️ 10.3MB/s
-      - US_105 | ⬇️ 10.1MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,20 +57,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - US_11 | ⬇️ 10.7MB/s
+      - tg频道:@ripaojiedian
+      - US_13 | ⬇️ 13.4MB/s
+      - _DE_德国
       - US_70 | ⬇️ 5.5MB/s
-      - US_102 | ⬇️ 10.3MB/s
-      - US_105 | ⬇️ 10.1MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - US_11 | ⬇️ 10.7MB/s
+      - tg频道:@ripaojiedian
+      - US_13 | ⬇️ 13.4MB/s
+      - _DE_德国
       - US_70 | ⬇️ 5.5MB/s
-      - US_102 | ⬇️ 10.3MB/s
-      - US_105 | ⬇️ 10.1MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
