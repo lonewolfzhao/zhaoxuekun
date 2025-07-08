@@ -26,7 +26,8 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 美国 V2CROSS.COM, server: nextstepcareer.online, port: 443, type: trojan, password: 4732adfa16c6450bbef87264e41332db, skip-cert-verify: true, udp: true}
+- {name: 美国 V2CROSS.COM, server: 165.22.74.230, port: 443, type: trojan, password: 4732adfa16c6450bbef87264e41332db, sni: nextstepcareer.online, skip-cert-verify: true, udp: true}
+- {name: 美国 V2CROSS.COM 2, server: nextstepcareer.online, port: 443, type: trojan, password: 4732adfa16c6450bbef87264e41332db, skip-cert-verify: true, udp: true}
 - {name: 台湾|@ripaojiedian, server: gz-43e866.kaiqsz.com, port: 42765, type: trojan, password: 77c0e69d-f479-4636-bbe5-e79001d5708b, sni: mmbiz1.redapricotcloud.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -41,6 +42,7 @@ proxy-groups:
     interval: 10
     proxies:
       - 美国 V2CROSS.COM
+      - 美国 V2CROSS.COM 2
       - 台湾|@ripaojiedian
   - name: 🔰 节点选择
     type: select
@@ -54,6 +56,7 @@ proxy-groups:
     interval: 10
     proxies:
       - 美国 V2CROSS.COM
+      - 美国 V2CROSS.COM 2
       - 台湾|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
@@ -62,6 +65,7 @@ proxy-groups:
     interval: 10
     proxies:
       - 美国 V2CROSS.COM
+      - 美国 V2CROSS.COM 2
       - 台湾|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
