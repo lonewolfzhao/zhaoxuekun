@@ -26,12 +26,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: CA-45.154.204.13-5051, server: ssca.irundns.net, port: 443, type: ssr, cipher: aes-128-cfb, password: $$Turb0VPN$$, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "", obfs-param: "", udp: true}
 - {name: 台湾|@ripaojiedian, server: gz-43e866.kaiqsz.com, port: 42765, type: trojan, password: 77c0e69d-f479-4636-bbe5-e79001d5708b, sni: mmbiz1.redapricotcloud.com, skip-cert-verify: true, udp: true}
-- {name: US_23 | ⬇️ 9.9MB/s, server: 79.110.53.169, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: GB-62.100.205.48-4980, server: 62.100.205.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: tg频道:@ripaojiedian, server: 43.203.213.154, port: 443, type: ss, cipher: aes-256-cfb, password: yijian0503, udp: true}
-- {name: _DE_德国, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -44,12 +39,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - CA-45.154.204.13-5051
       - 台湾|@ripaojiedian
-      - US_23 | ⬇️ 9.9MB/s
-      - GB-62.100.205.48-4980
-      - tg频道:@ripaojiedian
-      - _DE_德国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -61,24 +51,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - CA-45.154.204.13-5051
       - 台湾|@ripaojiedian
-      - US_23 | ⬇️ 9.9MB/s
-      - GB-62.100.205.48-4980
-      - tg频道:@ripaojiedian
-      - _DE_德国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - CA-45.154.204.13-5051
       - 台湾|@ripaojiedian
-      - US_23 | ⬇️ 9.9MB/s
-      - GB-62.100.205.48-4980
-      - tg频道:@ripaojiedian
-      - _DE_德国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
