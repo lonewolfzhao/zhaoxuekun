@@ -26,7 +26,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: CA-45.154.204.13-5051, server: ssca.irundns.net, port: 443, type: ssr, cipher: aes-128-cfb, password: $$Turb0VPN$$, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "", obfs-param: "", udp: true}
+- {name: _DE_德国, server: 45.87.175.22, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
 - {name: 美国 V2CROSS.COM 2, server: nextstepcareer.online, port: 443, type: trojan, password: 4732adfa16c6450bbef87264e41332db, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -40,7 +40,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - CA-45.154.204.13-5051
+      - _DE_德国
       - 美国 V2CROSS.COM 2
   - name: 🔰 节点选择
     type: select
@@ -53,7 +53,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - CA-45.154.204.13-5051
+      - _DE_德国
       - 美国 V2CROSS.COM 2
   - name: ♻️ 可能受限
     type: load-balance
@@ -61,7 +61,7 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - CA-45.154.204.13-5051
+      - _DE_德国
       - 美国 V2CROSS.COM 2
   - name: 🐟 漏网之鱼
     type: select
