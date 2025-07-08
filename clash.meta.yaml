@@ -27,7 +27,7 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: CA-45.154.204.13-5051, server: ssca.irundns.net, port: 443, type: ssr, cipher: aes-128-cfb, password: $$Turb0VPN$$, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "", obfs-param: "", udp: true}
-- {name: US_7 | ⬇️ 11.2MB/s, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+- {name: 美国 V2CROSS.COM 2, server: nextstepcareer.online, port: 443, type: trojan, password: 4732adfa16c6450bbef87264e41332db, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -41,7 +41,7 @@ proxy-groups:
     interval: 10
     proxies:
       - CA-45.154.204.13-5051
-      - US_7 | ⬇️ 11.2MB/s
+      - 美国 V2CROSS.COM 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -54,7 +54,7 @@ proxy-groups:
     interval: 10
     proxies:
       - CA-45.154.204.13-5051
-      - US_7 | ⬇️ 11.2MB/s
+      - 美国 V2CROSS.COM 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -62,7 +62,7 @@ proxy-groups:
     interval: 10
     proxies:
       - CA-45.154.204.13-5051
-      - US_7 | ⬇️ 11.2MB/s
+      - 美国 V2CROSS.COM 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
