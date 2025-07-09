@@ -27,7 +27,8 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: US_71 | ⬇️ 6.4MB/s, server: www.meter.net, port: 2083, type: vmess, uuid: c208e0ae-6f6d-4745-99da-44a44744c530, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkwsrt, headers: {Host: blaze-ger-248.blazecloudmain.site}}, udp: true}
-- {name: 4Nika-5, server: 45.158.171.141, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+- {name: 美国4|@ripaojiedian, server: 36.156.102.123, port: 8657, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+- {name: _DE_德国, server: 45.87.175.22, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -41,7 +42,8 @@ proxy-groups:
     interval: 10
     proxies:
       - US_71 | ⬇️ 6.4MB/s
-      - 4Nika-5
+      - 美国4|@ripaojiedian
+      - _DE_德国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -54,7 +56,8 @@ proxy-groups:
     interval: 10
     proxies:
       - US_71 | ⬇️ 6.4MB/s
-      - 4Nika-5
+      - 美国4|@ripaojiedian
+      - _DE_德国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -62,7 +65,8 @@ proxy-groups:
     interval: 10
     proxies:
       - US_71 | ⬇️ 6.4MB/s
-      - 4Nika-5
+      - 美国4|@ripaojiedian
+      - _DE_德国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
