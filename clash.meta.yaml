@@ -26,10 +26,8 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 4Nika-962, server: 154.223.16.212, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: US_71 | ⬇️ 6.4MB/s 2, server: www.meter.net, port: 2083, type: vmess, uuid: c208e0ae-6f6d-4745-99da-44a44744c530, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkwsrt, headers: {Host: blaze-ger-248.blazecloudmain.site}}, udp: true}
-- {name: tg频道:@ripaojiedian, server: 43.201.46.211, port: 443, type: ss, cipher: aes-256-cfb, password: yijian0503, udp: true}
-- {name: 美国4|@ripaojiedian, server: 36.156.102.123, port: 8657, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
-- {name: 日本4|@ripaojiedian, server: 36.151.192.27, port: 53248, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +40,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Nika-962
       - US_71 | ⬇️ 6.4MB/s 2
-      - tg频道:@ripaojiedian
-      - 美国4|@ripaojiedian
-      - 日本4|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,20 +53,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Nika-962
       - US_71 | ⬇️ 6.4MB/s 2
-      - tg频道:@ripaojiedian
-      - 美国4|@ripaojiedian
-      - 日本4|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 4Nika-962
       - US_71 | ⬇️ 6.4MB/s 2
-      - tg频道:@ripaojiedian
-      - 美国4|@ripaojiedian
-      - 日本4|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
