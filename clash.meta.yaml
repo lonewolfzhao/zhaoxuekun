@@ -26,8 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: _NL_荷兰, server: 45.153.124.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: tg频道:@ripaojiedian, server: 54.168.210.205, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
 - {name: US_71 | ⬇️ 6.4MB/s 2, server: www.meter.net, port: 2083, type: vmess, uuid: c208e0ae-6f6d-4745-99da-44a44744c530, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkwsrt, headers: {Host: blaze-ger-248.blazecloudmain.site}}, udp: true}
+- {name: _NL_荷兰, server: 45.153.124.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -40,8 +41,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _NL_荷兰
+      - tg频道:@ripaojiedian
       - US_71 | ⬇️ 6.4MB/s 2
+      - _NL_荷兰
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -53,16 +55,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _NL_荷兰
+      - tg频道:@ripaojiedian
       - US_71 | ⬇️ 6.4MB/s 2
+      - _NL_荷兰
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - _NL_荷兰
+      - tg频道:@ripaojiedian
       - US_71 | ⬇️ 6.4MB/s 2
+      - _NL_荷兰
   - name: 🐟 漏网之鱼
     type: select
     proxies:
