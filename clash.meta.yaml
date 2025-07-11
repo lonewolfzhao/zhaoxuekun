@@ -28,6 +28,8 @@ dns:
 proxies:
 - {name: tg频道:@ripaojiedian, server: 54.168.210.205, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
 - {name: US_71 | ⬇️ 6.4MB/s 2, server: www.meter.net, port: 2083, type: vmess, uuid: c208e0ae-6f6d-4745-99da-44a44744c530, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkwsrt, headers: {Host: blaze-ger-248.blazecloudmain.site}}, udp: true}
+- {name: 新加坡|@ripaojiedian, server: 36.151.192.26, port: 7571, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+- {name: _US_美国, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,6 +44,8 @@ proxy-groups:
     proxies:
       - tg频道:@ripaojiedian
       - US_71 | ⬇️ 6.4MB/s 2
+      - 新加坡|@ripaojiedian
+      - _US_美国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -55,6 +59,8 @@ proxy-groups:
     proxies:
       - tg频道:@ripaojiedian
       - US_71 | ⬇️ 6.4MB/s 2
+      - 新加坡|@ripaojiedian
+      - _US_美国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -63,6 +69,8 @@ proxy-groups:
     proxies:
       - tg频道:@ripaojiedian
       - US_71 | ⬇️ 6.4MB/s 2
+      - 新加坡|@ripaojiedian
+      - _US_美国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
