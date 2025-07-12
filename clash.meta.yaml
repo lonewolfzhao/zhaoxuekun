@@ -26,7 +26,16 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 馃嚚馃嚦_CN_涓浗->馃嚭馃嚫_US_缇庡浗, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v29.heduian.link}}, udp: true}
+- {name: 馃嚭馃嚫_US_缇庡浗, server: 104.21.6.179, port: 443, type: trojan, password: 6757b7d6-fa32-4708-b5d1-30e3cf928b51, sni: ZZzzzZZ.890601.XYZ, skip-cert-verify: true, udp: true}
 - {name: 馃嚢馃嚪_KR_闊╁浗->馃嚙馃嚜_BE_姣斿埄鏃�, server: p222.panda001.net, port: 15098, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 馃嚭馃嚫_US_缇庡浗_1, server: aAZXsdE.003330333.xYZ, port: 80, type: vmess, uuid: 10b1e371-d734-4306-b67f-0fc1f95c2485, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /SXjq8YlnGNBlbnEsM, headers: {Host: aAZXsdE.003330333.xYZ}}, udp: true}
+- {name: 馃嚦馃嚤_NL_鑽峰叞, server: 45.153.124.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 馃嚭馃嚫_US_缇庡浗_2, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 馃嚞馃嚙_GB_鑻卞浗->馃嚢馃嚪_KR_闊╁浗, server: 85.210.120.237, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
+- {name: 馃嚥馃嚛_MD_鎽╁皵澶氱摝, server: 91.132.94.200, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 馃嚡馃嚧_JO_绾︽棪, server: 109.107.159.246, port: 17228, type: ss, cipher: aes-256-gcm, password: psamSbJq, udp: true}
+- {name: 德国(yfuye.com免费节点)_2, server: 185.189.58.195, port: 8080, type: vmess, uuid: 0d1da504-fd3d-5192-8a52-90c87bc5e5ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -39,7 +48,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 馃嚚馃嚦_CN_涓浗->馃嚭馃嚫_US_缇庡浗
+      - 馃嚭馃嚫_US_缇庡浗
       - 馃嚢馃嚪_KR_闊╁浗->馃嚙馃嚜_BE_姣斿埄鏃�
+      - 馃嚭馃嚫_US_缇庡浗_1
+      - 馃嚦馃嚤_NL_鑽峰叞
+      - 馃嚭馃嚫_US_缇庡浗_2
+      - 馃嚞馃嚙_GB_鑻卞浗->馃嚢馃嚪_KR_闊╁浗
+      - 馃嚥馃嚛_MD_鎽╁皵澶氱摝
+      - 馃嚡馃嚧_JO_绾︽棪
+      - 德国(yfuye.com免费节点)_2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -51,14 +69,32 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 馃嚚馃嚦_CN_涓浗->馃嚭馃嚫_US_缇庡浗
+      - 馃嚭馃嚫_US_缇庡浗
       - 馃嚢馃嚪_KR_闊╁浗->馃嚙馃嚜_BE_姣斿埄鏃�
+      - 馃嚭馃嚫_US_缇庡浗_1
+      - 馃嚦馃嚤_NL_鑽峰叞
+      - 馃嚭馃嚫_US_缇庡浗_2
+      - 馃嚞馃嚙_GB_鑻卞浗->馃嚢馃嚪_KR_闊╁浗
+      - 馃嚥馃嚛_MD_鎽╁皵澶氱摝
+      - 馃嚡馃嚧_JO_绾︽棪
+      - 德国(yfuye.com免费节点)_2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 馃嚚馃嚦_CN_涓浗->馃嚭馃嚫_US_缇庡浗
+      - 馃嚭馃嚫_US_缇庡浗
       - 馃嚢馃嚪_KR_闊╁浗->馃嚙馃嚜_BE_姣斿埄鏃�
+      - 馃嚭馃嚫_US_缇庡浗_1
+      - 馃嚦馃嚤_NL_鑽峰叞
+      - 馃嚭馃嚫_US_缇庡浗_2
+      - 馃嚞馃嚙_GB_鑻卞浗->馃嚢馃嚪_KR_闊╁浗
+      - 馃嚥馃嚛_MD_鎽╁皵澶氱摝
+      - 馃嚡馃嚧_JO_绾︽棪
+      - 德国(yfuye.com免费节点)_2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
