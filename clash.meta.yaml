@@ -26,7 +26,11 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: _UA_乌克兰, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
+- {name: 馃嚢馃嚪_KR_闊╁浗->馃嚙馃嚜_BE_姣斿埄鏃�, server: p222.panda001.net, port: 15098, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 馃嚭馃嚫_US_缇庡浗_1, server: aAZXsdE.003330333.xYZ, port: 80, type: vmess, uuid: 10b1e371-d734-4306-b67f-0fc1f95c2485, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /SXjq8YlnGNBlbnEsM, headers: {Host: aAZXsdE.003330333.xYZ}}, udp: true}
+- {name: 馃嚦馃嚤_NL_鑽峰叞, server: 45.153.124.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 馃嚭馃嚫_US_缇庡浗_2, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 馃嚞馃嚙_GB_鑻卞浗->馃嚢馃嚪_KR_闊╁浗, server: 85.210.120.237, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -39,7 +43,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _UA_乌克兰
+      - 馃嚢馃嚪_KR_闊╁浗->馃嚙馃嚜_BE_姣斿埄鏃�
+      - 馃嚭馃嚫_US_缇庡浗_1
+      - 馃嚦馃嚤_NL_鑽峰叞
+      - 馃嚭馃嚫_US_缇庡浗_2
+      - 馃嚞馃嚙_GB_鑻卞浗->馃嚢馃嚪_KR_闊╁浗
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -51,14 +59,22 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _UA_乌克兰
+      - 馃嚢馃嚪_KR_闊╁浗->馃嚙馃嚜_BE_姣斿埄鏃�
+      - 馃嚭馃嚫_US_缇庡浗_1
+      - 馃嚦馃嚤_NL_鑽峰叞
+      - 馃嚭馃嚫_US_缇庡浗_2
+      - 馃嚞馃嚙_GB_鑻卞浗->馃嚢馃嚪_KR_闊╁浗
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - _UA_乌克兰
+      - 馃嚢馃嚪_KR_闊╁浗->馃嚙馃嚜_BE_姣斿埄鏃�
+      - 馃嚭馃嚫_US_缇庡浗_1
+      - 馃嚦馃嚤_NL_鑽峰叞
+      - 馃嚭馃嚫_US_缇庡浗_2
+      - 馃嚞馃嚙_GB_鑻卞浗->馃嚢馃嚪_KR_闊╁浗
   - name: 🐟 漏网之鱼
     type: select
     proxies:
