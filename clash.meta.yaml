@@ -26,7 +26,6 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202507031938065-xSDyIYO2PY.download.microsoft.com}, udp: true}
 - {name: tg频道:@ripaojiedian, server: 3.39.249.233, port: 443, type: ss, cipher: aes-256-cfb, password: yijian0503, udp: true}
 - {name: US_71 | ⬇️ 6.4MB/s 2, server: www.meter.net, port: 2083, type: vmess, uuid: c208e0ae-6f6d-4745-99da-44a44744c530, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkwsrt, headers: {Host: blaze-ger-248.blazecloudmain.site}}, udp: true}
 proxy-groups:
@@ -41,7 +40,6 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 日本|@ripaojiedian
       - tg频道:@ripaojiedian
       - US_71 | ⬇️ 6.4MB/s 2
   - name: 🔰 节点选择
@@ -55,7 +53,6 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 日本|@ripaojiedian
       - tg频道:@ripaojiedian
       - US_71 | ⬇️ 6.4MB/s 2
   - name: ♻️ 可能受限
@@ -64,7 +61,6 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 日本|@ripaojiedian
       - tg频道:@ripaojiedian
       - US_71 | ⬇️ 6.4MB/s 2
   - name: 🐟 漏网之鱼
