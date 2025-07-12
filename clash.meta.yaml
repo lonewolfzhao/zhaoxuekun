@@ -27,6 +27,8 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: 4Mohsen-487, server: 103.149.183.61, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+- {name: _CN_中国->🇧🇪_BE_比利时, server: dozo01.flztjc.top, port: 8313, type: trojan, password: 2c605663-b89a-5734-a9d6-97d4743d72cf, sni: hk-13-568.flztjc.net, skip-cert-verify: true, udp: true}
+- {name: _UA_乌克兰, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -40,6 +42,8 @@ proxy-groups:
     interval: 10
     proxies:
       - 4Mohsen-487
+      - _CN_中国->🇧🇪_BE_比利时
+      - _UA_乌克兰
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -52,6 +56,8 @@ proxy-groups:
     interval: 10
     proxies:
       - 4Mohsen-487
+      - _CN_中国->🇧🇪_BE_比利时
+      - _UA_乌克兰
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -59,6 +65,8 @@ proxy-groups:
     interval: 10
     proxies:
       - 4Mohsen-487
+      - _CN_中国->🇧🇪_BE_比利时
+      - _UA_乌克兰
   - name: 🐟 漏网之鱼
     type: select
     proxies:
