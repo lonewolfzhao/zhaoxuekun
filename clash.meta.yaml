@@ -26,6 +26,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: _GB_英国->🇲🇩_MD_摩尔多瓦, server: pt.mjt000.com, port: 443, type: trojan, password: 84587c21-9938-42fc-a4b0-4f72dd72b7aa, sni: pt.mjt000.com, skip-cert-verify: true, udp: true}
 - {name: TG频道@stymei1_10, server: gzdata1.233netcloud.com, port: 10003, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 28955d4c14.m.ctrip.com}, udp: true}
 - {name: TG频道@stymei1, server: 101.32.15.39, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: 77c2a48f-e9d4-4493-b1f6-2c625c603d2f, udp: true}
 - {name: US_60 | ⬇️ 6.7MB/s, server: it.mjt000.com, port: 443, type: trojan, password: 84587c21-9938-42fc-a4b0-4f72dd72b7aa, sni: it.mjt000.com, skip-cert-verify: true, udp: true}
@@ -42,6 +43,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - _GB_英国->🇲🇩_MD_摩尔多瓦
       - TG频道@stymei1_10
       - TG频道@stymei1
       - US_60 | ⬇️ 6.7MB/s
@@ -57,6 +59,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - _GB_英国->🇲🇩_MD_摩尔多瓦
       - TG频道@stymei1_10
       - TG频道@stymei1
       - US_60 | ⬇️ 6.7MB/s
@@ -67,6 +70,7 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - _GB_英国->🇲🇩_MD_摩尔多瓦
       - TG频道@stymei1_10
       - TG频道@stymei1
       - US_60 | ⬇️ 6.7MB/s
