@@ -26,15 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 美国(yfuye.com免费节点)_60, server: dDdDdDdddDDDDyUUUIO.4444926.XyZ, port: 80, type: vmess, uuid: dc50eb1d-244d-4711-b168-a101a5e6fb1b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /awmqq79B17rfnpXiNaWb, headers: {Host: dDdDdDdddDDDDyUUUIO.4444926.XyZ}}, udp: true}
-- {name: _MD_摩尔多瓦, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: US_4 | ⬇️ 6.7MB/s, server: 36.151.192.26, port: 4445, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
-- {name: "12,13|香港4|@ripaojiedian", server: 36.151.192.59, port: 9141, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
 - {name: 香港2|@ripaojiedian, server: 103.103.245.158, port: 636, type: ss, cipher: aes-256-gcm, password: 9bfdde71b4c0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /cauejypbltqt, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-- {name: 德国(yfuye.com免费节点)_2, server: 185.189.58.195, port: 8080, type: vmess, uuid: 0d1da504-fd3d-5192-8a52-90c87bc5e5ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: _UA_乌克兰, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
-- {name: 馃嚥馃嚛_MD_鎽╁皵澶氱摝, server: 91.132.94.200, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 德国(yfuye.com免费节点)_2 2, server: 185.189.58.195, port: 8080, type: vmess, uuid: 0d1da504-fd3d-5192-8a52-90c87bc5e5ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _MD_摩尔多瓦, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 德国(yfuye.com免费节点)_2, server: 185.189.58.195, port: 8080, type: vmess, uuid: 0d1da504-fd3d-5192-8a52-90c87bc5e5ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -47,15 +42,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国(yfuye.com免费节点)_60
-      - _MD_摩尔多瓦
-      - US_4 | ⬇️ 6.7MB/s
-      - 12,13|香港4|@ripaojiedian
       - 香港2|@ripaojiedian
-      - 德国(yfuye.com免费节点)_2
       - _UA_乌克兰
-      - 馃嚥馃嚛_MD_鎽╁皵澶氱摝
-      - 德国(yfuye.com免费节点)_2 2
+      - _MD_摩尔多瓦
+      - 德国(yfuye.com免费节点)_2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -67,30 +57,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国(yfuye.com免费节点)_60
-      - _MD_摩尔多瓦
-      - US_4 | ⬇️ 6.7MB/s
-      - 12,13|香港4|@ripaojiedian
       - 香港2|@ripaojiedian
-      - 德国(yfuye.com免费节点)_2
       - _UA_乌克兰
-      - 馃嚥馃嚛_MD_鎽╁皵澶氱摝
-      - 德国(yfuye.com免费节点)_2 2
+      - _MD_摩尔多瓦
+      - 德国(yfuye.com免费节点)_2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 美国(yfuye.com免费节点)_60
-      - _MD_摩尔多瓦
-      - US_4 | ⬇️ 6.7MB/s
-      - 12,13|香港4|@ripaojiedian
       - 香港2|@ripaojiedian
-      - 德国(yfuye.com免费节点)_2
       - _UA_乌克兰
-      - 馃嚥馃嚛_MD_鎽╁皵澶氱摝
-      - 德国(yfuye.com免费节点)_2 2
+      - _MD_摩尔多瓦
+      - 德国(yfuye.com免费节点)_2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
