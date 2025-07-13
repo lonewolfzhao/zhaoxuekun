@@ -26,6 +26,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: tg频道:@ripaojiedian, server: 13.212.185.27, port: 443, type: ss, cipher: aes-256-cfb, password: qawszxc123, udp: true}
 - {name: _UA_乌克兰, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
 - {name: _MD_摩尔多瓦, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: 德国(yfuye.com免费节点)_2, server: 185.189.58.195, port: 8080, type: vmess, uuid: 0d1da504-fd3d-5192-8a52-90c87bc5e5ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -41,6 +42,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - tg频道:@ripaojiedian
       - _UA_乌克兰
       - _MD_摩尔多瓦
       - 德国(yfuye.com免费节点)_2
@@ -55,6 +57,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - tg频道:@ripaojiedian
       - _UA_乌克兰
       - _MD_摩尔多瓦
       - 德国(yfuye.com免费节点)_2
@@ -64,6 +67,7 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - tg频道:@ripaojiedian
       - _UA_乌克兰
       - _MD_摩尔多瓦
       - 德国(yfuye.com免费节点)_2
