@@ -26,12 +26,12 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 香港5|@ripaojiedian, server: 36.151.192.59, port: 24903, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
-- {name: 美国3|@ripaojiedian, server: 36.151.192.26, port: 4447, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
-- {name: _RU_俄罗斯, server: 46.17.40.169, port: 30198, type: ss, cipher: aes-256-gcm, password: f34579d0148b2581, udp: true}
+- {name: _RU_俄罗斯, server: 176.32.35.68, port: 30101, type: ss, cipher: aes-256-gcm, password: 4194ce5b1f36f660, udp: true}
+- {name: US_7 | ⬇️ 4.2MB/s, server: codepen.io, port: 443, type: vmess, uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /us.kkp.me.eu.org/aa, headers: {Host: farid.1.berozha.ir}}, udp: true}
 - {name: _MD_摩尔多瓦, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: _RU_俄罗斯 2, server: 185.22.152.92, port: 30190, type: ss, cipher: aes-256-gcm, password: d989ff3d46a63f63, udp: true}
-- {name: _GB_英国->🇲🇩_MD_摩尔多瓦, server: pt.mjt000.com, port: 443, type: trojan, password: 84587c21-9938-42fc-a4b0-4f72dd72b7aa, sni: pt.mjt000.com, skip-cert-verify: true, udp: true}
+- {name: _RU_俄罗斯 2, server: 176.32.35.51, port: 10601, type: ss, cipher: aes-256-gcm, password: 40bdc52dcffa6942, udp: true}
+- {name: _RU_俄罗斯 3, server: 185.22.153.235, port: 30191, type: ss, cipher: aes-256-gcm, password: 058798d9a3087e43, udp: true}
+- {name: _RU_俄罗斯 4, server: 46.17.40.169, port: 30198, type: ss, cipher: aes-256-gcm, password: f34579d0148b2581, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -44,12 +44,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港5|@ripaojiedian
-      - 美国3|@ripaojiedian
       - _RU_俄罗斯
+      - US_7 | ⬇️ 4.2MB/s
       - _MD_摩尔多瓦
       - _RU_俄罗斯 2
-      - _GB_英国->🇲🇩_MD_摩尔多瓦
+      - _RU_俄罗斯 3
+      - _RU_俄罗斯 4
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -61,24 +61,24 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港5|@ripaojiedian
-      - 美国3|@ripaojiedian
       - _RU_俄罗斯
+      - US_7 | ⬇️ 4.2MB/s
       - _MD_摩尔多瓦
       - _RU_俄罗斯 2
-      - _GB_英国->🇲🇩_MD_摩尔多瓦
+      - _RU_俄罗斯 3
+      - _RU_俄罗斯 4
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 香港5|@ripaojiedian
-      - 美国3|@ripaojiedian
       - _RU_俄罗斯
+      - US_7 | ⬇️ 4.2MB/s
       - _MD_摩尔多瓦
       - _RU_俄罗斯 2
-      - _GB_英国->🇲🇩_MD_摩尔多瓦
+      - _RU_俄罗斯 3
+      - _RU_俄罗斯 4
   - name: 🐟 漏网之鱼
     type: select
     proxies:
