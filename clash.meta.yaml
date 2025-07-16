@@ -26,10 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Mohsen-1947, server: 103.15.91.171, port: 52327, type: ss, cipher: aes-256-gcm, password: atjgsJXmcv, udp: true}
+- {name: 62 |  3.3MB/s|Openai|Gemini, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
+- {name: 4Mohsen-1573, server: 152.53.2.128, port: 34045, type: ss, cipher: aes-256-gcm, password: "TG:@Enkelte_notif&&TG:@Notif_Chat", udp: true}
 - {name: TG频道@stymei1丨7, server: 147.45.178.200, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: a58fa62b4944ddbf, udp: true}
-- {name: _MD_摩尔多瓦, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: US_71 | ⬇️ 6.4MB/s 2, server: www.meter.net, port: 2083, type: vmess, uuid: c208e0ae-6f6d-4745-99da-44a44744c530, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkwsrt, headers: {Host: blaze-ger-248.blazecloudmain.site}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +41,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Mohsen-1947
+      - 62 |  3.3MB/s|Openai|Gemini
+      - 4Mohsen-1573
       - TG频道@stymei1丨7
-      - _MD_摩尔多瓦
-      - US_71 | ⬇️ 6.4MB/s 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,20 +55,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Mohsen-1947
+      - 62 |  3.3MB/s|Openai|Gemini
+      - 4Mohsen-1573
       - TG频道@stymei1丨7
-      - _MD_摩尔多瓦
-      - US_71 | ⬇️ 6.4MB/s 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Mohsen-1947
+      - 62 |  3.3MB/s|Openai|Gemini
+      - 4Mohsen-1573
       - TG频道@stymei1丨7
-      - _MD_摩尔多瓦
-      - US_71 | ⬇️ 6.4MB/s 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
