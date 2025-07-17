@@ -28,8 +28,6 @@ dns:
 proxies:
 - {name: "12,13,14|CN_speednode_0010", server: 36.151.251.48, port: 41225, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
 - {name: "12,13,14|CN_speednode_0015", server: 36.151.192.13, port: 1122, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
-- {name: _CN_中国->🇺🇸_US_美国, server: v5.heduian.link, port: 30805, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v5.heduian.link}}, udp: true}
-- {name: _DE_德国->🇹🇷_TR_土耳其, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -44,8 +42,6 @@ proxy-groups:
     proxies:
       - 12,13,14|CN_speednode_0010
       - 12,13,14|CN_speednode_0015
-      - _CN_中国->🇺🇸_US_美国
-      - _DE_德国->🇹🇷_TR_土耳其
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -59,8 +55,6 @@ proxy-groups:
     proxies:
       - 12,13,14|CN_speednode_0010
       - 12,13,14|CN_speednode_0015
-      - _CN_中国->🇺🇸_US_美国
-      - _DE_德国->🇹🇷_TR_土耳其
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -69,8 +63,6 @@ proxy-groups:
     proxies:
       - 12,13,14|CN_speednode_0010
       - 12,13,14|CN_speednode_0015
-      - _CN_中国->🇺🇸_US_美国
-      - _DE_德国->🇹🇷_TR_土耳其
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -8864,7 +8856,7 @@ rules:
   - DOMAIN-KEYWORD,dabo,🔰 节点选择
   - DOMAIN-KEYWORD,boku,🔰 节点选择
   - DOMAIN-KEYWORD,uvod,🔰 节点选择
-  - DOMAIN-KEYWORD,huaren.live,🔰 节点选择
+  - DOMAIN-KEYWORD,huaren,🔰 节点选择
   - DOMAIN-KEYWORD,abccdn,🔰 节点选择
   - DOMAIN-KEYWORD,subhd,🔰 节点选择
   - DOMAIN-KEYWORD,hibo,🔰 节点选择
