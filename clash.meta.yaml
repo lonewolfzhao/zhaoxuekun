@@ -26,10 +26,8 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: _CN_中国->🇨🇦_CA_加拿大, server: v8.heduian.link, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v8.heduian.link}}, udp: true}
-- {name: 4Jadi-70, server: fr.fastsoonlink.com, port: 40034, type: ss, cipher: chacha20-ietf-poly1305, password: 79:99:78:D4:99:31:C3:AC:0B:6C:11:6D:5F:1B:A8:A5:7F:08:08:28:02:3C:C8:95:26:63:9A:B0:3B:18:62:35, udp: true}
-- {name: 4Jadi-210, server: 213.111.181.38, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: wyAYmMVbmLC5JzC4OxpD7m, udp: true}
-- {name: 4Mohsen-210, server: 213.111.183.230, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: wkZBPvfOlXYGs1BKXg27nZ, udp: true}
+- {name: 62 |  3.3MB/s|Openai|Gemini, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
+- {name: 4Nika-74, server: 78.153.131.96, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 7jvHHF5SaFob, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +40,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _CN_中国->🇨🇦_CA_加拿大
-      - 4Jadi-70
-      - 4Jadi-210
-      - 4Mohsen-210
+      - 62 |  3.3MB/s|Openai|Gemini
+      - 4Nika-74
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,20 +53,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _CN_中国->🇨🇦_CA_加拿大
-      - 4Jadi-70
-      - 4Jadi-210
-      - 4Mohsen-210
+      - 62 |  3.3MB/s|Openai|Gemini
+      - 4Nika-74
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - _CN_中国->🇨🇦_CA_加拿大
-      - 4Jadi-70
-      - 4Jadi-210
-      - 4Mohsen-210
+      - 62 |  3.3MB/s|Openai|Gemini
+      - 4Nika-74
   - name: 🐟 漏网之鱼
     type: select
     proxies:
