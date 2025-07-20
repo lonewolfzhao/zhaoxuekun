@@ -26,8 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 62 |  3.3MB/s|Openai|Gemini, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
-- {name: 4Nika-74, server: 78.153.131.96, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 7jvHHF5SaFob, udp: true}
+- {name: 香港5|@ripaojiedian, server: 36.151.192.62, port: 2078, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+- {name: 4Nika-692, server: 45.156.25.36, port: 24651, type: ss, cipher: chacha20-ietf-poly1305, password: bjLkRcb9HfFOoi6PM6Zv1Sfi5UKRM+gYiDIFDyXpQFw=, udp: true}
+- {name: 日本3|@ripaojiedian, server: 36.151.192.239, port: 41225, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -40,8 +41,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 62 |  3.3MB/s|Openai|Gemini
-      - 4Nika-74
+      - 香港5|@ripaojiedian
+      - 4Nika-692
+      - 日本3|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -53,16 +55,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 62 |  3.3MB/s|Openai|Gemini
-      - 4Nika-74
+      - 香港5|@ripaojiedian
+      - 4Nika-692
+      - 日本3|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 62 |  3.3MB/s|Openai|Gemini
-      - 4Nika-74
+      - 香港5|@ripaojiedian
+      - 4Nika-692
+      - 日本3|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
