@@ -26,8 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: tg频道:@ripaojiedian, server: 13.239.86.13, port: 80, type: ss, cipher: aes-256-gcm, password: amazonskr05, udp: true}
 - {name: 4Nika-570, server: 193.29.139.217, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
-- {name: "11,12|日本3|@ripaojiedian", server: 36.151.192.239, port: 41225, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+- {name: "11,12|新加坡|@ripaojiedian", server: 36.151.192.239, port: 32063, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
 - {name: "11,12|香港4|@ripaojiedian", server: 36.151.192.62, port: 14495, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -41,8 +42,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - tg频道:@ripaojiedian
       - 4Nika-570
-      - 11,12|日本3|@ripaojiedian
+      - 11,12|新加坡|@ripaojiedian
       - 11,12|香港4|@ripaojiedian
   - name: 🔰 节点选择
     type: select
@@ -55,8 +57,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - tg频道:@ripaojiedian
       - 4Nika-570
-      - 11,12|日本3|@ripaojiedian
+      - 11,12|新加坡|@ripaojiedian
       - 11,12|香港4|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
@@ -64,8 +67,9 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - tg频道:@ripaojiedian
       - 4Nika-570
-      - 11,12|日本3|@ripaojiedian
+      - 11,12|新加坡|@ripaojiedian
       - 11,12|香港4|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
