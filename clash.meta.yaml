@@ -29,6 +29,7 @@ proxies:
 - {name: 12|🇸🇬 新加坡|@ripaojiedian, server: 36.151.251.7, port: 25618, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
 - {name: 12|🇯🇵 日本4|@ripaojiedian, server: 36.151.251.7, port: 41225, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
 - {name: 12|🇰🇷 韩国|@ripaojiedian, server: 36.151.251.7, port: 4448, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+- {name: 美国 CloudFlare节点, server: awetdfgn_cdn.hfhfb.homes, port: 2086, type: vmess, uuid: 1ae7b2ce-393d-4b22-ab55-a8d3e319f1a9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/market?ed=1024", headers: {Host: mgcdn10.hfhfb.homes}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -44,6 +45,7 @@ proxy-groups:
       - 12|🇸🇬 新加坡|@ripaojiedian
       - 12|🇯🇵 日本4|@ripaojiedian
       - 12|🇰🇷 韩国|@ripaojiedian
+      - 美国 CloudFlare节点
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -58,6 +60,7 @@ proxy-groups:
       - 12|🇸🇬 新加坡|@ripaojiedian
       - 12|🇯🇵 日本4|@ripaojiedian
       - 12|🇰🇷 韩国|@ripaojiedian
+      - 美国 CloudFlare节点
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -67,6 +70,7 @@ proxy-groups:
       - 12|🇸🇬 新加坡|@ripaojiedian
       - 12|🇯🇵 日本4|@ripaojiedian
       - 12|🇰🇷 韩国|@ripaojiedian
+      - 美国 CloudFlare节点
   - name: 🐟 漏网之鱼
     type: select
     proxies:
