@@ -30,8 +30,6 @@ proxies:
 - {name: 4Mohsen-71, server: hk.fastsoonlink.com, port: 40000, type: ss, cipher: chacha20-ietf-poly1305, password: 79:99:78:D4:99:31:C3:AC:0B:6C:11:6D:5F:1B:A8:A5:7F:08:08:28:02:3C:C8:95:26:63:9A:B0:3B:18:62:35, udp: true}
 - {name: 4Mohsen-70, server: fr.fastsoonlink.com, port: 40034, type: ss, cipher: chacha20-ietf-poly1305, password: 79:99:78:D4:99:31:C3:AC:0B:6C:11:6D:5F:1B:A8:A5:7F:08:08:28:02:3C:C8:95:26:63:9A:B0:3B:18:62:35, udp: true}
 - {name: 4Nika-572, server: 193.29.139.227, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
-- {name: tg频道:@ripaojiedian, server: 35.94.141.91, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 台湾|@ripaojiedian, server: 183.249.207.249, port: 40180, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -48,8 +46,6 @@ proxy-groups:
       - 4Mohsen-71
       - 4Mohsen-70
       - 4Nika-572
-      - tg频道:@ripaojiedian
-      - 台湾|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -65,8 +61,6 @@ proxy-groups:
       - 4Mohsen-71
       - 4Mohsen-70
       - 4Nika-572
-      - tg频道:@ripaojiedian
-      - 台湾|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -77,8 +71,6 @@ proxy-groups:
       - 4Mohsen-71
       - 4Mohsen-70
       - 4Nika-572
-      - tg频道:@ripaojiedian
-      - 台湾|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
