@@ -26,9 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 12|🇸🇬 新加坡|@ripaojiedian, server: 36.151.251.7, port: 25618, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+- {name: tg频道:@ripaojiedian, server: 35.94.141.91, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Nika-572, server: 193.29.139.227, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
+- {name: 台湾|@ripaojiedian, server: 183.249.207.249, port: 40180, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 12|🇯🇵 日本4|@ripaojiedian, server: 36.151.251.7, port: 41225, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
-- {name: 12|🇰🇷 韩国|@ripaojiedian, server: 36.151.251.7, port: 4448, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
 - {name: 美国 CloudFlare节点, server: awetdfgn_cdn.hfhfb.homes, port: 2086, type: vmess, uuid: 1ae7b2ce-393d-4b22-ab55-a8d3e319f1a9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/market?ed=1024", headers: {Host: mgcdn10.hfhfb.homes}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -42,9 +43,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 12|🇸🇬 新加坡|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 4Nika-572
+      - 台湾|@ripaojiedian
       - 12|🇯🇵 日本4|@ripaojiedian
-      - 12|🇰🇷 韩国|@ripaojiedian
       - 美国 CloudFlare节点
   - name: 🔰 节点选择
     type: select
@@ -57,9 +59,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 12|🇸🇬 新加坡|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 4Nika-572
+      - 台湾|@ripaojiedian
       - 12|🇯🇵 日本4|@ripaojiedian
-      - 12|🇰🇷 韩国|@ripaojiedian
       - 美国 CloudFlare节点
   - name: ♻️ 可能受限
     type: load-balance
@@ -67,9 +70,10 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 12|🇸🇬 新加坡|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - 4Nika-572
+      - 台湾|@ripaojiedian
       - 12|🇯🇵 日本4|@ripaojiedian
-      - 12|🇰🇷 韩国|@ripaojiedian
       - 美国 CloudFlare节点
   - name: 🐟 漏网之鱼
     type: select
