@@ -26,6 +26,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 印度尼西亚, server: iepl.huli168.com, port: 42277, type: ss, cipher: aes-256-gcm, password: cj3STx+0NwLUQFvJWHbKmQ==, udp: true}
 - {name: 4Nika-572, server: 193.29.139.227, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
 - {name: 4Mohsen-73, server: tur.fastsoonlink.com, port: 40019, type: ss, cipher: chacha20-ietf-poly1305, password: 79:99:78:D4:99:31:C3:AC:0B:6C:11:6D:5F:1B:A8:A5:7F:08:08:28:02:3C:C8:95:26:63:9A:B0:3B:18:62:35, udp: true}
 proxy-groups:
@@ -40,6 +41,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 印度尼西亚
       - 4Nika-572
       - 4Mohsen-73
   - name: 🔰 节点选择
@@ -53,6 +55,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 印度尼西亚
       - 4Nika-572
       - 4Mohsen-73
   - name: ♻️ 可能受限
@@ -61,6 +64,7 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 印度尼西亚
       - 4Nika-572
       - 4Mohsen-73
   - name: 🐟 漏网之鱼
