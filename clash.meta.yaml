@@ -28,9 +28,10 @@ dns:
 proxies:
 - {name: 香港5|@ripaojiedian, server: 36.151.251.7, port: 443, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: m.avhxc.cn, skip-cert-verify: true, udp: true}
 - {name: 韩国|@ripaojiedian, server: 36.151.251.7, port: 4448, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
-- {name: 美国4|@ripaojiedian, server: 36.151.251.7, port: 32962, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
-- {name: 日本4|@ripaojiedian, server: 36.151.251.7, port: 41225, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
-- {name: 4Nika-572, server: 193.29.139.227, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
+- {name: 新加坡2|@ripaojiedian, server: 36.151.251.7, port: 44123, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+- {name: 4Mohsen-74, server: ru.fastsoonlink.com, port: 40031, type: ss, cipher: chacha20-ietf-poly1305, password: 79:99:78:D4:99:31:C3:AC:0B:6C:11:6D:5F:1B:A8:A5:7F:08:08:28:02:3C:C8:95:26:63:9A:B0:3B:18:62:35, udp: true}
+- {name: 4Mohsen-73, server: tur.fastsoonlink.com, port: 40019, type: ss, cipher: chacha20-ietf-poly1305, password: 79:99:78:D4:99:31:C3:AC:0B:6C:11:6D:5F:1B:A8:A5:7F:08:08:28:02:3C:C8:95:26:63:9A:B0:3B:18:62:35, udp: true}
+- {name: 4Mohsen-73 2, server: ml.fastsoonlink.com, port: 40006, type: ss, cipher: chacha20-ietf-poly1305, password: 79:99:78:D4:99:31:C3:AC:0B:6C:11:6D:5F:1B:A8:A5:7F:08:08:28:02:3C:C8:95:26:63:9A:B0:3B:18:62:35, udp: true}
 - {name: TG频道@stymei1丨3, server: v25.heduian.link, port: 30825, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -46,9 +47,10 @@ proxy-groups:
     proxies:
       - 香港5|@ripaojiedian
       - 韩国|@ripaojiedian
-      - 美国4|@ripaojiedian
-      - 日本4|@ripaojiedian
-      - 4Nika-572
+      - 新加坡2|@ripaojiedian
+      - 4Mohsen-74
+      - 4Mohsen-73
+      - 4Mohsen-73 2
       - TG频道@stymei1丨3
   - name: 🔰 节点选择
     type: select
@@ -63,9 +65,10 @@ proxy-groups:
     proxies:
       - 香港5|@ripaojiedian
       - 韩国|@ripaojiedian
-      - 美国4|@ripaojiedian
-      - 日本4|@ripaojiedian
-      - 4Nika-572
+      - 新加坡2|@ripaojiedian
+      - 4Mohsen-74
+      - 4Mohsen-73
+      - 4Mohsen-73 2
       - TG频道@stymei1丨3
   - name: ♻️ 可能受限
     type: load-balance
@@ -75,9 +78,10 @@ proxy-groups:
     proxies:
       - 香港5|@ripaojiedian
       - 韩国|@ripaojiedian
-      - 美国4|@ripaojiedian
-      - 日本4|@ripaojiedian
-      - 4Nika-572
+      - 新加坡2|@ripaojiedian
+      - 4Mohsen-74
+      - 4Mohsen-73
+      - 4Mohsen-73 2
       - TG频道@stymei1丨3
   - name: 🐟 漏网之鱼
     type: select
