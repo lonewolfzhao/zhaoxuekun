@@ -26,6 +26,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: ⚡ b2n.ir/v2ray-configs | 330, server: 45.87.175.22, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
 - {name: tg频道:@ripaojiedian, server: 3.38.148.178, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Nika-957, server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
 proxy-groups:
@@ -40,6 +41,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - ⚡ b2n.ir/v2ray-configs | 330
       - tg频道:@ripaojiedian
       - 4Nika-957
   - name: 🔰 节点选择
@@ -53,6 +55,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - ⚡ b2n.ir/v2ray-configs | 330
       - tg频道:@ripaojiedian
       - 4Nika-957
   - name: ♻️ 可能受限
@@ -61,6 +64,7 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - ⚡ b2n.ir/v2ray-configs | 330
       - tg频道:@ripaojiedian
       - 4Nika-957
   - name: 🐟 漏网之鱼
