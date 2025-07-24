@@ -26,6 +26,8 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: _27, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: 4Sarina-74, server: ml.fastsoonlink.com, port: 40006, type: ss, cipher: chacha20-ietf-poly1305, password: 79:99:78:D4:99:31:C3:AC:0B:6C:11:6D:5F:1B:A8:A5:7F:08:08:28:02:3C:C8:95:26:63:9A:B0:3B:18:62:35, udp: true}
 - {name: آمریکا 🇺🇸 @V2xay, server: 198.2.218.216, port: 44883, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: ⚡ b2n.ir/v2ray-configs | 330, server: 45.87.175.22, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
 - {name: tg频道:@ripaojiedian, server: 3.38.148.178, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
@@ -42,6 +44,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - _27
+      - 4Sarina-74
       - آمریکا 🇺🇸 @V2xay
       - ⚡ b2n.ir/v2ray-configs | 330
       - tg频道:@ripaojiedian
@@ -57,6 +61,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - _27
+      - 4Sarina-74
       - آمریکا 🇺🇸 @V2xay
       - ⚡ b2n.ir/v2ray-configs | 330
       - tg频道:@ripaojiedian
@@ -67,6 +73,8 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - _27
+      - 4Sarina-74
       - آمریکا 🇺🇸 @V2xay
       - ⚡ b2n.ir/v2ray-configs | 330
       - tg频道:@ripaojiedian
