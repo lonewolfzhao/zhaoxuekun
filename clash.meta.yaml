@@ -26,11 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: _27, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: 4Nika-1564, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 4Nika-73, server: fr.fastsoonlink.com, port: 40034, type: ss, cipher: chacha20-ietf-poly1305, password: 79:99:78:D4:99:31:C3:AC:0B:6C:11:6D:5F:1B:A8:A5:7F:08:08:28:02:3C:C8:95:26:63:9A:B0:3B:18:62:35, udp: true}
+- {name: IT_88, server: 185.213.23.226, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: 4Sarina-74, server: ml.fastsoonlink.com, port: 40006, type: ss, cipher: chacha20-ietf-poly1305, password: 79:99:78:D4:99:31:C3:AC:0B:6C:11:6D:5F:1B:A8:A5:7F:08:08:28:02:3C:C8:95:26:63:9A:B0:3B:18:62:35, udp: true}
-- {name: آمریکا 🇺🇸 @V2xay, server: 198.2.218.216, port: 44883, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: ⚡ b2n.ir/v2ray-configs | 330, server: 45.87.175.22, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-- {name: tg频道:@ripaojiedian, server: 3.38.148.178, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Nika-957, server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -44,11 +43,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _27
+      - 4Nika-1564
+      - 4Nika-73
+      - IT_88
       - 4Sarina-74
-      - آمریکا 🇺🇸 @V2xay
-      - ⚡ b2n.ir/v2ray-configs | 330
-      - tg频道:@ripaojiedian
       - 4Nika-957
   - name: 🔰 节点选择
     type: select
@@ -61,11 +59,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _27
+      - 4Nika-1564
+      - 4Nika-73
+      - IT_88
       - 4Sarina-74
-      - آمریکا 🇺🇸 @V2xay
-      - ⚡ b2n.ir/v2ray-configs | 330
-      - tg频道:@ripaojiedian
       - 4Nika-957
   - name: ♻️ 可能受限
     type: load-balance
@@ -73,11 +70,10 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - _27
+      - 4Nika-1564
+      - 4Nika-73
+      - IT_88
       - 4Sarina-74
-      - آمریکا 🇺🇸 @V2xay
-      - ⚡ b2n.ir/v2ray-configs | 330
-      - tg频道:@ripaojiedian
       - 4Nika-957
   - name: 🐟 漏网之鱼
     type: select
