@@ -26,14 +26,14 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 1|🇺🇸62 |  3.3MB/s|Openai|Gemini, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
+- {name: xx|62ad|puddincat07@Telegram, server: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top}}, udp: true}
 - {name: RU_138, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: vn|eb9d|puddincat07@Telegram, server: 103.186.154.26, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 - {name: fr|7911|puddincat07@Telegram, server: 195.154.169.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 12|🇯🇵 日本2|@ripaojiedian, server: 137.220.191.40, port: 636, type: ss, cipher: aes-256-gcm, password: 823e135ed103, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp7v1.lingjfjkm002.com, path: /dchlbvrbbotc, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-- {name: "12,13|香港6|@ripaojiedian", server: 14269f63-t049s0-t1kmeg-mv7m.hk3.p5pv.com, port: 80, type: vmess, uuid: 94d40708-8273-11ea-8fc9-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: xx|62ad|puddincat07@Telegram, server: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top}}, udp: true}
-- {name: 12|🇰🇷 韩国|@ripaojiedian, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: RU_138 2, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: fr|7911|puddincat07@Telegram 2, server: 195.154.169.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: vn|eb9d|puddincat07@Telegram 2, server: 103.186.154.26, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: xx|62ad|puddincat07@Telegram 2, server: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -46,14 +46,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 1|🇺🇸62 |  3.3MB/s|Openai|Gemini
+      - xx|62ad|puddincat07@Telegram
       - RU_138
       - vn|eb9d|puddincat07@Telegram
       - fr|7911|puddincat07@Telegram
-      - 12|🇯🇵 日本2|@ripaojiedian
-      - 12,13|香港6|@ripaojiedian
-      - xx|62ad|puddincat07@Telegram
-      - 12|🇰🇷 韩国|@ripaojiedian
+      - RU_138 2
+      - fr|7911|puddincat07@Telegram 2
+      - vn|eb9d|puddincat07@Telegram 2
+      - xx|62ad|puddincat07@Telegram 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -65,28 +65,28 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 1|🇺🇸62 |  3.3MB/s|Openai|Gemini
+      - xx|62ad|puddincat07@Telegram
       - RU_138
       - vn|eb9d|puddincat07@Telegram
       - fr|7911|puddincat07@Telegram
-      - 12|🇯🇵 日本2|@ripaojiedian
-      - 12,13|香港6|@ripaojiedian
-      - xx|62ad|puddincat07@Telegram
-      - 12|🇰🇷 韩国|@ripaojiedian
+      - RU_138 2
+      - fr|7911|puddincat07@Telegram 2
+      - vn|eb9d|puddincat07@Telegram 2
+      - xx|62ad|puddincat07@Telegram 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 1|🇺🇸62 |  3.3MB/s|Openai|Gemini
+      - xx|62ad|puddincat07@Telegram
       - RU_138
       - vn|eb9d|puddincat07@Telegram
       - fr|7911|puddincat07@Telegram
-      - 12|🇯🇵 日本2|@ripaojiedian
-      - 12,13|香港6|@ripaojiedian
-      - xx|62ad|puddincat07@Telegram
-      - 12|🇰🇷 韩国|@ripaojiedian
+      - RU_138 2
+      - fr|7911|puddincat07@Telegram 2
+      - vn|eb9d|puddincat07@Telegram 2
+      - xx|62ad|puddincat07@Telegram 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
