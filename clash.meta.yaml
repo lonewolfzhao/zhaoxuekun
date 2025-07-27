@@ -27,14 +27,14 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: RU_138, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: US_2 | ⬇️ 5.1MB/s, server: p03.xiaohezi.it.eu.org, port: 443, type: vmess, uuid: eeeb949c-5629-4bb6-b41f-64cd8643154f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: p03.xiaohezi.it.eu.org}}, udp: true}
-- {name: US_3 | ⬇️ 5.8MB/s, server: 104.21.63.135, port: 443, type: trojan, password: fa050497-fc2a-45ee-89c0-96670c4ecb65, sni: Rrr4.8906004.xYZ, skip-cert-verify: true, udp: true}
-- {name: DE_1 | ⬇️ 4.4MB/s, server: 154.83.2.94, port: 2053, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubsvip.dpdns.org, skip-cert-verify: true, udp: true}
-- {name: US_4 | ⬇️ 5.4MB/s, server: 172.67.131.27, port: 443, type: trojan, password: 509ed9b7-8d64-4204-8ec8-6b749020ac3f, sni: CcCVfGTyU.89060004.Xyz, skip-cert-verify: true, udp: true}
-- {name: US_5 | ⬇️ 4.7MB/s, server: 92.243.75.49, port: 2087, type: trojan, password: wb6368, sni: hsdgbuys.pages.dev, skip-cert-verify: true, udp: true}
-- {name: DE_2 | ⬇️ 3.9MB/s, server: do-itforyou.pages.dev, port: 2083, type: trojan, password: $_qP4V4U26sb%7B04A, sni: do-itfORYOU.PAGEs.deV, skip-cert-verify: true, udp: true}
-- {name: US_6 | ⬇️ 4.3MB/s, server: sssdddffgbnhju.2030.pp.ua, port: 443, type: trojan, password: da128246-33b0-4c88-a44e-d91e9e0a1e05, sni: SsSDdDffGBNhJu.2030.Pp.Ua, skip-cert-verify: true, udp: true}
-- {name: US_7 | ⬇️ 4.4MB/s, server: uuuuuuuuuu.222769.xyz, port: 443, type: trojan, password: 2e65577e-8fdb-4bb1-a495-96f3122099a7, sni: UUuUUUUuuu.222769.XYZ, skip-cert-verify: true, udp: true}
+- {name: fr|7911|puddincat07@Telegram, server: 195.154.169.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: vn|eb9d|puddincat07@Telegram, server: 103.186.154.26, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: xx|62ad|puddincat07@Telegram, server: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top}}, udp: true}
+- {name: gb|0fe3|puddincat07@Telegram, server: 91.193.58.0, port: 443, type: trojan, password: trojan, sni: wahaha.yingyangkuaixian.dpdns.org, skip-cert-verify: true, udp: true}
+- {name: kz|f470|puddincat07@Telegram, server: 194.76.18.129, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, udp: true}
+- {name: ru|ced1|puddincat07@Telegram, server: 45.67.215.95, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, udp: true}
+- {name: us|b9d7|puddincat07@Telegram, server: 216.24.57.30, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, udp: true}
+- {name: xx|a568|puddincat07@Telegram, server: v5.heduian.link, port: 30805, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v5.heduian.link}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -48,14 +48,14 @@ proxy-groups:
     interval: 10
     proxies:
       - RU_138
-      - US_2 | ⬇️ 5.1MB/s
-      - US_3 | ⬇️ 5.8MB/s
-      - DE_1 | ⬇️ 4.4MB/s
-      - US_4 | ⬇️ 5.4MB/s
-      - US_5 | ⬇️ 4.7MB/s
-      - DE_2 | ⬇️ 3.9MB/s
-      - US_6 | ⬇️ 4.3MB/s
-      - US_7 | ⬇️ 4.4MB/s
+      - fr|7911|puddincat07@Telegram
+      - vn|eb9d|puddincat07@Telegram
+      - xx|62ad|puddincat07@Telegram
+      - gb|0fe3|puddincat07@Telegram
+      - kz|f470|puddincat07@Telegram
+      - ru|ced1|puddincat07@Telegram
+      - us|b9d7|puddincat07@Telegram
+      - xx|a568|puddincat07@Telegram
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -68,14 +68,14 @@ proxy-groups:
     interval: 10
     proxies:
       - RU_138
-      - US_2 | ⬇️ 5.1MB/s
-      - US_3 | ⬇️ 5.8MB/s
-      - DE_1 | ⬇️ 4.4MB/s
-      - US_4 | ⬇️ 5.4MB/s
-      - US_5 | ⬇️ 4.7MB/s
-      - DE_2 | ⬇️ 3.9MB/s
-      - US_6 | ⬇️ 4.3MB/s
-      - US_7 | ⬇️ 4.4MB/s
+      - fr|7911|puddincat07@Telegram
+      - vn|eb9d|puddincat07@Telegram
+      - xx|62ad|puddincat07@Telegram
+      - gb|0fe3|puddincat07@Telegram
+      - kz|f470|puddincat07@Telegram
+      - ru|ced1|puddincat07@Telegram
+      - us|b9d7|puddincat07@Telegram
+      - xx|a568|puddincat07@Telegram
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -83,14 +83,14 @@ proxy-groups:
     interval: 10
     proxies:
       - RU_138
-      - US_2 | ⬇️ 5.1MB/s
-      - US_3 | ⬇️ 5.8MB/s
-      - DE_1 | ⬇️ 4.4MB/s
-      - US_4 | ⬇️ 5.4MB/s
-      - US_5 | ⬇️ 4.7MB/s
-      - DE_2 | ⬇️ 3.9MB/s
-      - US_6 | ⬇️ 4.3MB/s
-      - US_7 | ⬇️ 4.4MB/s
+      - fr|7911|puddincat07@Telegram
+      - vn|eb9d|puddincat07@Telegram
+      - xx|62ad|puddincat07@Telegram
+      - gb|0fe3|puddincat07@Telegram
+      - kz|f470|puddincat07@Telegram
+      - ru|ced1|puddincat07@Telegram
+      - us|b9d7|puddincat07@Telegram
+      - xx|a568|puddincat07@Telegram
   - name: 🐟 漏网之鱼
     type: select
     proxies:
