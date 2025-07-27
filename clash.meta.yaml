@@ -27,6 +27,11 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: xx|69b1|puddincat07@Telegram, server: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top}}, udp: true}
+- {name: "12,13|新加坡2|@ripaojiedian", server: 36.151.251.7, port: 9161, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+- {name: fr|916f|puddincat07@Telegram, server: 195.154.169.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: md|1f6b|puddincat07@Telegram, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: "12,13|新加坡|@ripaojiedian", server: 36.151.251.7, port: 25618, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+- {name: 12|🇻🇳 越南|@ripaojiedian, server: 103.186.154.26, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -40,6 +45,11 @@ proxy-groups:
     interval: 10
     proxies:
       - xx|69b1|puddincat07@Telegram
+      - 12,13|新加坡2|@ripaojiedian
+      - fr|916f|puddincat07@Telegram
+      - md|1f6b|puddincat07@Telegram
+      - 12,13|新加坡|@ripaojiedian
+      - 12|🇻🇳 越南|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -52,6 +62,11 @@ proxy-groups:
     interval: 10
     proxies:
       - xx|69b1|puddincat07@Telegram
+      - 12,13|新加坡2|@ripaojiedian
+      - fr|916f|puddincat07@Telegram
+      - md|1f6b|puddincat07@Telegram
+      - 12,13|新加坡|@ripaojiedian
+      - 12|🇻🇳 越南|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -59,6 +74,11 @@ proxy-groups:
     interval: 10
     proxies:
       - xx|69b1|puddincat07@Telegram
+      - 12,13|新加坡2|@ripaojiedian
+      - fr|916f|puddincat07@Telegram
+      - md|1f6b|puddincat07@Telegram
+      - 12,13|新加坡|@ripaojiedian
+      - 12|🇻🇳 越南|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
