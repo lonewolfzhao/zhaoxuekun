@@ -27,8 +27,8 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: 香港 | HKG 2, server: ae5b7841-t064g0-t4nxvc-1p1b.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: tg频道:@ripaojiedian, server: 35.86.81.76, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 英国 | GBR, server: www.meter.net, port: 2083, type: vmess, uuid: d218dfe5-fae6-408e-b615-8666df7f0924, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wssss, headers: {Host: blaze-uk-48.pinkle7.site}}, udp: true}
+- {name: 4FreeIran-1187, server: 103.186.154.21, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 - {name: 日本 | JPN 2, server: 137.220.142.139, port: 636, type: ss, cipher: aes-256-gcm, password: 70a0b8103356, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp5v1.lingjfjkm002.com, path: /bezradrqccl, tls: true, mux: true, skip-cert-verify: true}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -43,8 +43,8 @@ proxy-groups:
     interval: 10
     proxies:
       - 香港 | HKG 2
-      - tg频道:@ripaojiedian
       - 英国 | GBR
+      - 4FreeIran-1187
       - 日本 | JPN 2
   - name: 🔰 节点选择
     type: select
@@ -58,8 +58,8 @@ proxy-groups:
     interval: 10
     proxies:
       - 香港 | HKG 2
-      - tg频道:@ripaojiedian
       - 英国 | GBR
+      - 4FreeIran-1187
       - 日本 | JPN 2
   - name: ♻️ 可能受限
     type: load-balance
@@ -68,8 +68,8 @@ proxy-groups:
     interval: 10
     proxies:
       - 香港 | HKG 2
-      - tg频道:@ripaojiedian
       - 英国 | GBR
+      - 4FreeIran-1187
       - 日本 | JPN 2
   - name: 🐟 漏网之鱼
     type: select
