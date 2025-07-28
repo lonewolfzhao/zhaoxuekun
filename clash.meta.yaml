@@ -27,12 +27,9 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: 香港 | HKG 2, server: ae5b7841-t064g0-t4nxvc-1p1b.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 日本 | JPN 2, server: 137.220.142.139, port: 636, type: ss, cipher: aes-256-gcm, password: 70a0b8103356, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp5v1.lingjfjkm002.com, path: /bezradrqccl, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-- {name: xx|69b1|puddincat07@Telegram, server: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top}}, udp: true}
-- {name: 英国 | GBR, server: www.meter.net, port: 2083, type: vmess, uuid: d218dfe5-fae6-408e-b615-8666df7f0924, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wssss, headers: {Host: blaze-uk-48.pinkle7.site}}, udp: true}
-- {name: 4FreeIran-1187, server: 103.186.154.21, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: xx|d72f|puddincat07@Telegram, server: 83da64f6-szi1s0-t0y0nd-1mmbp.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 607d365e-7ea1-11ee-95e9-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
 - {name: tg频道:@ripaojiedian, server: 35.86.81.76, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 英国 | GBR, server: www.meter.net, port: 2083, type: vmess, uuid: d218dfe5-fae6-408e-b615-8666df7f0924, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wssss, headers: {Host: blaze-uk-48.pinkle7.site}}, udp: true}
+- {name: 日本 | JPN 2, server: 137.220.142.139, port: 636, type: ss, cipher: aes-256-gcm, password: 70a0b8103356, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp5v1.lingjfjkm002.com, path: /bezradrqccl, tls: true, mux: true, skip-cert-verify: true}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -46,12 +43,9 @@ proxy-groups:
     interval: 10
     proxies:
       - 香港 | HKG 2
-      - 日本 | JPN 2
-      - xx|69b1|puddincat07@Telegram
-      - 英国 | GBR
-      - 4FreeIran-1187
-      - xx|d72f|puddincat07@Telegram
       - tg频道:@ripaojiedian
+      - 英国 | GBR
+      - 日本 | JPN 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -64,12 +58,9 @@ proxy-groups:
     interval: 10
     proxies:
       - 香港 | HKG 2
-      - 日本 | JPN 2
-      - xx|69b1|puddincat07@Telegram
-      - 英国 | GBR
-      - 4FreeIran-1187
-      - xx|d72f|puddincat07@Telegram
       - tg频道:@ripaojiedian
+      - 英国 | GBR
+      - 日本 | JPN 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -77,12 +68,9 @@ proxy-groups:
     interval: 10
     proxies:
       - 香港 | HKG 2
-      - 日本 | JPN 2
-      - xx|69b1|puddincat07@Telegram
-      - 英国 | GBR
-      - 4FreeIran-1187
-      - xx|d72f|puddincat07@Telegram
       - tg频道:@ripaojiedian
+      - 英国 | GBR
+      - 日本 | JPN 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
