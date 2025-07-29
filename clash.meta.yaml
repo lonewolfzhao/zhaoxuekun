@@ -26,11 +26,14 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 香港 | HKG 2, server: 9365484c-t07z40-t2lc1c-1mim2.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 6e3ee1de-381f-11ee-87f9-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 香港 | HKG 17, server: e0f64688-t07z40-t5wcb1-13x18.hkt.tcpbbr.net, port: 80, type: vmess, uuid: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 香港 | HKG 13, server: 90898174-t07z40-ta5i1s-1j61y.hkt.tcpbbr.net, port: 80, type: vmess, uuid: f13f964e-f06c-11ec-a858-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
 - {name: 日本 | JPN 2, server: 137.220.142.139, port: 636, type: ss, cipher: aes-256-gcm, password: 70a0b8103356, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp5v1.lingjfjkm002.com, path: /bezradrqccl, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-- {name: 英国 | GBR, server: www.meter.net, port: 2083, type: vmess, uuid: d218dfe5-fae6-408e-b615-8666df7f0924, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wssss, headers: {Host: blaze-uk-48.pinkle7.site}}, udp: true}
-- {name: 4Nika-573, server: 193.29.139.217, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
+- {name: 香港 | HKG 10, server: d9e89a87-t07z40-t3kcqg-1hd7v.hkt.tcpbbr.net, port: 80, type: vmess, uuid: f73c64bc-9e8c-11ec-bd7c-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 香港 | HKG 16, server: 9fd853df-t07z40-td1l1t-1s824.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
 - {name: xx|0c76|puddincat07@Telegram, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: b68f4b4c-2d02-11ec-9ee8-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
-- {name: _中国, server: v5.heduian.link, port: 30805, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v5.heduian.link}}, udp: true}
+- {name: 香港 | HKG, server: 0f7a3ee6-t07z40-tasors-1tdqt.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 167db97c-ee01-11ef-b737-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -43,11 +46,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 香港 | HKG 2
+      - 香港 | HKG 17
+      - 香港 | HKG 13
       - 日本 | JPN 2
-      - 英国 | GBR
-      - 4Nika-573
+      - 香港 | HKG 10
+      - 香港 | HKG 16
       - xx|0c76|puddincat07@Telegram
-      - _中国
+      - 香港 | HKG
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -59,22 +65,28 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 香港 | HKG 2
+      - 香港 | HKG 17
+      - 香港 | HKG 13
       - 日本 | JPN 2
-      - 英国 | GBR
-      - 4Nika-573
+      - 香港 | HKG 10
+      - 香港 | HKG 16
       - xx|0c76|puddincat07@Telegram
-      - _中国
+      - 香港 | HKG
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 香港 | HKG 2
+      - 香港 | HKG 17
+      - 香港 | HKG 13
       - 日本 | JPN 2
-      - 英国 | GBR
-      - 4Nika-573
+      - 香港 | HKG 10
+      - 香港 | HKG 16
       - xx|0c76|puddincat07@Telegram
-      - _中国
+      - 香港 | HKG
   - name: 🐟 漏网之鱼
     type: select
     proxies:
