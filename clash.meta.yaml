@@ -26,19 +26,11 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: xx|81ca|puddincat07@Telegram, server: baeb9e1b-sv6hs0-svewl8-xu74.hk.p5pv.com, port: 80, type: vmess, uuid: 715a2574-9c25-11eb-8673-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 英国 | GBR, server: www.meter.net, port: 2083, type: vmess, uuid: d218dfe5-fae6-408e-b615-8666df7f0924, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wssss, headers: {Host: blaze-uk-48.pinkle7.site}}, udp: true}
-- {name: xx|a448|puddincat07@Telegram, server: 67651861-sv2sg0-sx16xo-1j3zm.hk.p5pv.com, port: 80, type: vmess, uuid: 6ce63b80-8b5b-11ef-b635-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 67651861-sv2sg0-sx16xo-1j3zm.hk.p5pv.com}}, udp: true}
-- {name: xx|e192|puddincat07@Telegram, server: d514a957-sv2sg0-swfla6-1rdqg.hk.p5pv.com, port: 80, type: vmess, uuid: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d514a957-sv2sg0-swfla6-1rdqg.hk.p5pv.com}}, udp: true}
-- {name: xx|774e|puddincat07@Telegram, server: 60cd512f-sv2sg0-swbdgq-1iddy.hk.p5pv.com, port: 80, type: vmess, uuid: e168c43e-c6d9-11ed-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
 - {name: 日本 | JPN 2, server: 137.220.142.139, port: 636, type: ss, cipher: aes-256-gcm, password: 70a0b8103356, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp5v1.lingjfjkm002.com, path: /bezradrqccl, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-- {name: xx|c79c|puddincat07@Telegram, server: 055dc4d8-sz8sg0-tfvcxz-1nq4g.hk.p5pv.com, port: 80, type: vmess, uuid: 80aa5178-f936-11ed-8ce6-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 英国 | GBR, server: www.meter.net, port: 2083, type: vmess, uuid: d218dfe5-fae6-408e-b615-8666df7f0924, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wssss, headers: {Host: blaze-uk-48.pinkle7.site}}, udp: true}
+- {name: 4Nika-573, server: 193.29.139.217, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
 - {name: xx|0c76|puddincat07@Telegram, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: b68f4b4c-2d02-11ec-9ee8-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
-- {name: xx|548a|puddincat07@Telegram, server: ccc83925-sv2sg0-t917sa-12ach.hk.p5pv.com, port: 80, type: vmess, uuid: fc5ba91a-acd7-11ef-97e0-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ccc83925-sv2sg0-t917sa-12ach.hk.p5pv.com}}, udp: true}
-- {name: 4Mohsen-1598, server: 218.237.185.230, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 11|🇯🇵 日本2|@ripaojiedian, server: 137.220.191.40, port: 636, type: ss, cipher: aes-256-gcm, password: 823e135ed103, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp7v1.lingjfjkm002.com, path: /dchlbvrbbotc, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-- {name: RU_317, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 11|🇭🇰 香港6|@ripaojiedian, server: 103.181.165.26, port: 49597, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _中国, server: v5.heduian.link, port: 30805, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v5.heduian.link}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -51,19 +43,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - xx|81ca|puddincat07@Telegram
-      - 英国 | GBR
-      - xx|a448|puddincat07@Telegram
-      - xx|e192|puddincat07@Telegram
-      - xx|774e|puddincat07@Telegram
       - 日本 | JPN 2
-      - xx|c79c|puddincat07@Telegram
+      - 英国 | GBR
+      - 4Nika-573
       - xx|0c76|puddincat07@Telegram
-      - xx|548a|puddincat07@Telegram
-      - 4Mohsen-1598
-      - 11|🇯🇵 日本2|@ripaojiedian
-      - RU_317
-      - 11|🇭🇰 香港6|@ripaojiedian
+      - _中国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -75,38 +59,22 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - xx|81ca|puddincat07@Telegram
-      - 英国 | GBR
-      - xx|a448|puddincat07@Telegram
-      - xx|e192|puddincat07@Telegram
-      - xx|774e|puddincat07@Telegram
       - 日本 | JPN 2
-      - xx|c79c|puddincat07@Telegram
+      - 英国 | GBR
+      - 4Nika-573
       - xx|0c76|puddincat07@Telegram
-      - xx|548a|puddincat07@Telegram
-      - 4Mohsen-1598
-      - 11|🇯🇵 日本2|@ripaojiedian
-      - RU_317
-      - 11|🇭🇰 香港6|@ripaojiedian
+      - _中国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - xx|81ca|puddincat07@Telegram
-      - 英国 | GBR
-      - xx|a448|puddincat07@Telegram
-      - xx|e192|puddincat07@Telegram
-      - xx|774e|puddincat07@Telegram
       - 日本 | JPN 2
-      - xx|c79c|puddincat07@Telegram
+      - 英国 | GBR
+      - 4Nika-573
       - xx|0c76|puddincat07@Telegram
-      - xx|548a|puddincat07@Telegram
-      - 4Mohsen-1598
-      - 11|🇯🇵 日本2|@ripaojiedian
-      - RU_317
-      - 11|🇭🇰 香港6|@ripaojiedian
+      - _中国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
