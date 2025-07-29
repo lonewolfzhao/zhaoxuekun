@@ -26,13 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: xx|0c76|puddincat07@Telegram, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: b68f4b4c-2d02-11ec-9ee8-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
 - {name: 日本 | JPN 2, server: 137.220.142.139, port: 636, type: ss, cipher: aes-256-gcm, password: 70a0b8103356, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp5v1.lingjfjkm002.com, path: /bezradrqccl, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-- {name: 香港 | HKG 13, server: 90898174-t07z40-ta5i1s-1j61y.hkt.tcpbbr.net, port: 80, type: vmess, uuid: f13f964e-f06c-11ec-a858-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: _中国, server: v5.heduian.link, port: 30805, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v5.heduian.link}}, udp: true}
 - {name: 4Nika-3110, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: 12|tg频道:@ripaojiedian, server: 43.203.107.212, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 香港 | HKG 17, server: e0f64688-t07z40-t5wcb1-13x18.hkt.tcpbbr.net, port: 80, type: vmess, uuid: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 香港 | HKG 10, server: d9e89a87-t07z40-t3kcqg-1hd7v.hkt.tcpbbr.net, port: 80, type: vmess, uuid: f73c64bc-9e8c-11ec-bd7c-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -45,13 +41,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - xx|0c76|puddincat07@Telegram
       - 日本 | JPN 2
-      - 香港 | HKG 13
+      - _中国
       - 4Nika-3110
-      - 12|tg频道:@ripaojiedian
-      - 香港 | HKG 17
-      - 香港 | HKG 10
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -63,26 +55,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - xx|0c76|puddincat07@Telegram
       - 日本 | JPN 2
-      - 香港 | HKG 13
+      - _中国
       - 4Nika-3110
-      - 12|tg频道:@ripaojiedian
-      - 香港 | HKG 17
-      - 香港 | HKG 10
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - xx|0c76|puddincat07@Telegram
       - 日本 | JPN 2
-      - 香港 | HKG 13
+      - _中国
       - 4Nika-3110
-      - 12|tg频道:@ripaojiedian
-      - 香港 | HKG 17
-      - 香港 | HKG 10
   - name: 🐟 漏网之鱼
     type: select
     proxies:
