@@ -26,10 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 日本 | JPN 2, server: 137.220.142.139, port: 636, type: ss, cipher: aes-256-gcm, password: 70a0b8103356, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp5v1.lingjfjkm002.com, path: /bezradrqccl, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-- {name: 香港 | HKG 5, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: ca506e08-ce3d-5e5a-c128-6358caca15e5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 4Nika-3110, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: md|a977|puddincat07@Telegram, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 香港 | HKG 20, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 美国【机场推荐：https://a0a.xyz/】97, server: s5.cn-db.top, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.44.60, headers: {Host: 100-172-73-121.s5.cn-db.top}}, udp: true}
+- {name: 美国【机场推荐：https://a0a.xyz/】150, server: s3.db-link01.top, port: 8080, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.241.15, headers: {Host: 100-40-23-147.s3.db-link01.top}}, udp: true}
+- {name: 美国【机场推荐：https://a0a.xyz/】99, server: s3.cn-db.top, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.122.177, headers: {Host: 100-139-198-255.s3.cn-db.top}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +42,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 日本 | JPN 2
-      - 香港 | HKG 5
-      - 4Nika-3110
-      - md|a977|puddincat07@Telegram
+      - 香港 | HKG 20
+      - 美国【机场推荐：https://a0a.xyz/】97
+      - 美国【机场推荐：https://a0a.xyz/】150
+      - 美国【机场推荐：https://a0a.xyz/】99
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,20 +57,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 日本 | JPN 2
-      - 香港 | HKG 5
-      - 4Nika-3110
-      - md|a977|puddincat07@Telegram
+      - 香港 | HKG 20
+      - 美国【机场推荐：https://a0a.xyz/】97
+      - 美国【机场推荐：https://a0a.xyz/】150
+      - 美国【机场推荐：https://a0a.xyz/】99
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 日本 | JPN 2
-      - 香港 | HKG 5
-      - 4Nika-3110
-      - md|a977|puddincat07@Telegram
+      - 香港 | HKG 20
+      - 美国【机场推荐：https://a0a.xyz/】97
+      - 美国【机场推荐：https://a0a.xyz/】150
+      - 美国【机场推荐：https://a0a.xyz/】99
   - name: 🐟 漏网之鱼
     type: select
     proxies:
