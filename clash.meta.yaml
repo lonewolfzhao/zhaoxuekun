@@ -32,7 +32,8 @@ proxies:
 - {name: md|a977|puddincat07@Telegram, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: 香港 | HKG 24, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 40d572ec-7f67-11ed-bf1f-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
 - {name: "加拿大【机场推荐：https://a0a.xyz/】46\r", server: 167.17.190.41, port: 63089, type: ss, cipher: chacha20-ietf-poly1305, password: 8WE1wtdKhEnE9X92kqh6Ut, udp: true}
-- {name: 香港 | HKG 5, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: ca506e08-ce3d-5e5a-c128-6358caca15e5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: US_24 |7.3MB/s|GPT|NF|GM|51%, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v29.heduian.link}}, udp: true}
+- {name: "美国【机场推荐：https://a0a.xyz/】154\r", server: x1-sweden-linode-v2-71u92.devefun.org, port: 1935, type: trojan, password: 1CvlKYj1aU, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -51,7 +52,8 @@ proxy-groups:
       - md|a977|puddincat07@Telegram
       - 香港 | HKG 24
       - "加拿大【机场推荐：https://a0a.xyz/】46\r"
-      - 香港 | HKG 5
+      - US_24 |7.3MB/s|GPT|NF|GM|51%
+      - "美国【机场推荐：https://a0a.xyz/】154\r"
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -69,7 +71,8 @@ proxy-groups:
       - md|a977|puddincat07@Telegram
       - 香港 | HKG 24
       - "加拿大【机场推荐：https://a0a.xyz/】46\r"
-      - 香港 | HKG 5
+      - US_24 |7.3MB/s|GPT|NF|GM|51%
+      - "美国【机场推荐：https://a0a.xyz/】154\r"
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -82,7 +85,8 @@ proxy-groups:
       - md|a977|puddincat07@Telegram
       - 香港 | HKG 24
       - "加拿大【机场推荐：https://a0a.xyz/】46\r"
-      - 香港 | HKG 5
+      - US_24 |7.3MB/s|GPT|NF|GM|51%
+      - "美国【机场推荐：https://a0a.xyz/】154\r"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
