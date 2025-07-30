@@ -26,7 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 香港 | HKG 20, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 日本 | JPN 2, server: 137.220.142.139, port: 636, type: ss, cipher: aes-256-gcm, password: 70a0b8103356, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp5v1.lingjfjkm002.com, path: /bezradrqccl, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+- {name: 香港 | HKG 27, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: de003c72-0157-11ef-86da-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 4Nika-3110, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: 4FreeIran-1206, server: 103.186.155.18, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 - {name: 美国【机场推荐：https://a0a.xyz/】97, server: s5.cn-db.top, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.44.60, headers: {Host: 100-172-73-121.s5.cn-db.top}}, udp: true}
 - {name: 美国【机场推荐：https://a0a.xyz/】150, server: s3.db-link01.top, port: 8080, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.241.15, headers: {Host: 100-40-23-147.s3.db-link01.top}}, udp: true}
 - {name: 美国【机场推荐：https://a0a.xyz/】99, server: s3.cn-db.top, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.122.177, headers: {Host: 100-139-198-255.s3.cn-db.top}}, udp: true}
@@ -42,7 +45,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港 | HKG 20
+      - 日本 | JPN 2
+      - 香港 | HKG 27
+      - 4Nika-3110
+      - 4FreeIran-1206
       - 美国【机场推荐：https://a0a.xyz/】97
       - 美国【机场推荐：https://a0a.xyz/】150
       - 美国【机场推荐：https://a0a.xyz/】99
@@ -57,7 +63,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港 | HKG 20
+      - 日本 | JPN 2
+      - 香港 | HKG 27
+      - 4Nika-3110
+      - 4FreeIran-1206
       - 美国【机场推荐：https://a0a.xyz/】97
       - 美国【机场推荐：https://a0a.xyz/】150
       - 美国【机场推荐：https://a0a.xyz/】99
@@ -67,7 +76,10 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 香港 | HKG 20
+      - 日本 | JPN 2
+      - 香港 | HKG 27
+      - 4Nika-3110
+      - 4FreeIran-1206
       - 美国【机场推荐：https://a0a.xyz/】97
       - 美国【机场推荐：https://a0a.xyz/】150
       - 美国【机场推荐：https://a0a.xyz/】99
