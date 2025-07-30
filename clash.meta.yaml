@@ -25,37 +25,15 @@ dns:
     geoip-code: CN
     ipcidr:
     - 240.0.0.0/4
-unified-delay: true
-global-client-fingerprint: chrome
-dns:
-  enable: true
-  listen: :53
-  ipv6: true
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  default-nameserver:
-  - 223.5.5.5
-  - 8.8.8.8
-  nameserver:
-  - https://dns.alidns.com/dns-query
-  - https://doh.pub/dns-query
-  fallback:
-  - https://1.0.0.1/dns-query
-  - tls://dns.google
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
-    ipcidr:
-    - 240.0.0.0/4
 proxies:
-- {name: 丹麦【机场推荐：https://a0a.xyz/】42, server: fastcup.net, port: 80, type: vmess, uuid: 1688c7ee-35b3-4bfb-ab88-f8ce846daeb6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: cdn-node-oss-99.paofu.de}}, udp: true}
 - {name: 日本 | JPN 2, server: 137.220.142.139, port: 636, type: ss, cipher: aes-256-gcm, password: 70a0b8103356, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp5v1.lingjfjkm002.com, path: /bezradrqccl, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-- {name: 4Nika-3110, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: md|a977|puddincat07@Telegram, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 香港 | HKG 5, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: ca506e08-ce3d-5e5a-c128-6358caca15e5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 香港 | HKG 6, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: d6e1207c-f41a-11ef-9495-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
 - {name: 香港 | HKG 24, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 40d572ec-7f67-11ed-bf1f-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: "加拿大【机场推荐：https://a0a.xyz/】46\r", server: 167.17.190.41, port: 63089, type: ss, cipher: chacha20-ietf-poly1305, password: 8WE1wtdKhEnE9X92kqh6Ut, udp: true}
-- {name: US_24 |7.3MB/s|GPT|NF|GM|51%, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v29.heduian.link}}, udp: true}
-- {name: "美国【机场推荐：https://a0a.xyz/】154\r", server: x1-sweden-linode-v2-71u92.devefun.org, port: 1935, type: trojan, password: 1CvlKYj1aU, skip-cert-verify: true, udp: true}
+- {name: 香港 | HKG 27, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: de003c72-0157-11ef-86da-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: "12,13|香港6|@ripaojiedian", server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 9b604194-17b7-11ef-80b0-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 香港 | HKG 24 2, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 40d572ec-7f67-11ed-bf1f-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 4Nika-3110, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -68,14 +46,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 丹麦【机场推荐：https://a0a.xyz/】42
       - 日本 | JPN 2
-      - 4Nika-3110
-      - md|a977|puddincat07@Telegram
+      - 香港 | HKG 5
+      - 香港 | HKG 6
       - 香港 | HKG 24
-      - "加拿大【机场推荐：https://a0a.xyz/】46\r"
-      - US_24 |7.3MB/s|GPT|NF|GM|51%
-      - "美国【机场推荐：https://a0a.xyz/】154\r"
+      - 香港 | HKG 27
+      - 12,13|香港6|@ripaojiedian
+      - 香港 | HKG 24 2
+      - 4Nika-3110
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -87,28 +65,28 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 丹麦【机场推荐：https://a0a.xyz/】42
       - 日本 | JPN 2
-      - 4Nika-3110
-      - md|a977|puddincat07@Telegram
+      - 香港 | HKG 5
+      - 香港 | HKG 6
       - 香港 | HKG 24
-      - "加拿大【机场推荐：https://a0a.xyz/】46\r"
-      - US_24 |7.3MB/s|GPT|NF|GM|51%
-      - "美国【机场推荐：https://a0a.xyz/】154\r"
+      - 香港 | HKG 27
+      - 12,13|香港6|@ripaojiedian
+      - 香港 | HKG 24 2
+      - 4Nika-3110
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 丹麦【机场推荐：https://a0a.xyz/】42
       - 日本 | JPN 2
-      - 4Nika-3110
-      - md|a977|puddincat07@Telegram
+      - 香港 | HKG 5
+      - 香港 | HKG 6
       - 香港 | HKG 24
-      - "加拿大【机场推荐：https://a0a.xyz/】46\r"
-      - US_24 |7.3MB/s|GPT|NF|GM|51%
-      - "美国【机场推荐：https://a0a.xyz/】154\r"
+      - 香港 | HKG 27
+      - 12,13|香港6|@ripaojiedian
+      - 香港 | HKG 24 2
+      - 4Nika-3110
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -1979,6 +1957,7 @@ rules:
   - DOMAIN-KEYWORD,tbmedi,♻️ 情色可用
   - DOMAIN-KEYWORD,surrit,♻️ 情色可用
   - DOMAIN-KEYWORD,avrebo,♻️ 情色可用
+  - DOMAIN-KEYWORD,agu3000,♻️ 情色可用
   - DOMAIN-SUFFIX,qrserver.com,♻️ 情色可用
   - DOMAIN-SUFFIX,mushroomtrack.com,♻️ 情色可用
   - DOMAIN-SUFFIX,cloudflare.com,♻️ 情色可用
