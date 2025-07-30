@@ -26,13 +26,13 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 香港 | HKG 27, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: de003c72-0157-11ef-86da-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 4Nika-3110, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: "美国【机场推荐：https://a0a.xyz/】154\r", server: x1-sweden-linode-v2-71u92.devefun.org, port: 1935, type: trojan, password: 1CvlKYj1aU, skip-cert-verify: true, udp: true}
-- {name: 香港 | HKG 23, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 24e32978-4858-11eb-8684-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 日本 | JPN 2, server: 137.220.142.139, port: 636, type: ss, cipher: aes-256-gcm, password: 70a0b8103356, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp5v1.lingjfjkm002.com, path: /bezradrqccl, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-- {name: "加拿大【机场推荐：https://a0a.xyz/】46\r", server: 167.17.190.41, port: 63089, type: ss, cipher: chacha20-ietf-poly1305, password: 8WE1wtdKhEnE9X92kqh6Ut, udp: true}
 - {name: 丹麦【机场推荐：https://a0a.xyz/】42, server: fastcup.net, port: 80, type: vmess, uuid: 1688c7ee-35b3-4bfb-ab88-f8ce846daeb6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: cdn-node-oss-99.paofu.de}}, udp: true}
+- {name: 日本 | JPN 2, server: 137.220.142.139, port: 636, type: ss, cipher: aes-256-gcm, password: 70a0b8103356, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp5v1.lingjfjkm002.com, path: /bezradrqccl, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+- {name: 4Nika-3110, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: md|a977|puddincat07@Telegram, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 香港 | HKG 24, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 40d572ec-7f67-11ed-bf1f-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: "加拿大【机场推荐：https://a0a.xyz/】46\r", server: 167.17.190.41, port: 63089, type: ss, cipher: chacha20-ietf-poly1305, password: 8WE1wtdKhEnE9X92kqh6Ut, udp: true}
+- {name: 香港 | HKG 5, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: ca506e08-ce3d-5e5a-c128-6358caca15e5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -45,13 +45,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港 | HKG 27
-      - 4Nika-3110
-      - "美国【机场推荐：https://a0a.xyz/】154\r"
-      - 香港 | HKG 23
-      - 日本 | JPN 2
-      - "加拿大【机场推荐：https://a0a.xyz/】46\r"
       - 丹麦【机场推荐：https://a0a.xyz/】42
+      - 日本 | JPN 2
+      - 4Nika-3110
+      - md|a977|puddincat07@Telegram
+      - 香港 | HKG 24
+      - "加拿大【机场推荐：https://a0a.xyz/】46\r"
+      - 香港 | HKG 5
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -63,26 +63,26 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港 | HKG 27
-      - 4Nika-3110
-      - "美国【机场推荐：https://a0a.xyz/】154\r"
-      - 香港 | HKG 23
-      - 日本 | JPN 2
-      - "加拿大【机场推荐：https://a0a.xyz/】46\r"
       - 丹麦【机场推荐：https://a0a.xyz/】42
+      - 日本 | JPN 2
+      - 4Nika-3110
+      - md|a977|puddincat07@Telegram
+      - 香港 | HKG 24
+      - "加拿大【机场推荐：https://a0a.xyz/】46\r"
+      - 香港 | HKG 5
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 香港 | HKG 27
-      - 4Nika-3110
-      - "美国【机场推荐：https://a0a.xyz/】154\r"
-      - 香港 | HKG 23
-      - 日本 | JPN 2
-      - "加拿大【机场推荐：https://a0a.xyz/】46\r"
       - 丹麦【机场推荐：https://a0a.xyz/】42
+      - 日本 | JPN 2
+      - 4Nika-3110
+      - md|a977|puddincat07@Telegram
+      - 香港 | HKG 24
+      - "加拿大【机场推荐：https://a0a.xyz/】46\r"
+      - 香港 | HKG 5
   - name: 🐟 漏网之鱼
     type: select
     proxies:
