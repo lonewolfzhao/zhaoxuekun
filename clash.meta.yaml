@@ -26,9 +26,14 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 香港 | HKG 22, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: e6aa39b6-f0b5-11ef-bca1-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 香港 | HKG 14, server: 27d1cce4-t0dj40-t4v5wg-z93q.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 40639730-e027-11ea-87ad-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 香港 | HKG 12, server: 11811343-t0dj40-tlm64c-xm0q.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 3437f34e-1b77-11eb-8684-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 香港 | HKG 4, server: 7b790c48-t0dj40-t51upj-ochh.hkt.tcpbbr.net, port: 80, type: vmess, uuid: cf89e064-5c77-11eb-bd3a-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 香港 | HKG 30, server: 9fb3241f-t0dj40-t09t13-z7a1.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 3bd247a8-993e-11ec-a8bf-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 香港 | HKG 27, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 99cb27a0-6748-11ef-b3da-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 香港 | HKG 25, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 40e084d6-0316-11f0-90e2-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 香港 | HKG 7, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 989aa406-ea9b-11ef-97da-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
+- {name: 香港 | HKG 13, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 32315324-cf6b-11ed-979b-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 香港 | HKG 8, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: f609abb4-ed17-11ee-9fa2-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 4Mohsen-1214, server: 103.186.155.30, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -41,9 +46,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港 | HKG 22
-      - 香港 | HKG 14
-      - 香港 | HKG 12
+      - 香港 | HKG 4
+      - 香港 | HKG 30
+      - 香港 | HKG 27
+      - 香港 | HKG 25
+      - 香港 | HKG 7
+      - 香港 | HKG 13
+      - 香港 | HKG 8
+      - 4Mohsen-1214
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -55,18 +65,28 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港 | HKG 22
-      - 香港 | HKG 14
-      - 香港 | HKG 12
+      - 香港 | HKG 4
+      - 香港 | HKG 30
+      - 香港 | HKG 27
+      - 香港 | HKG 25
+      - 香港 | HKG 7
+      - 香港 | HKG 13
+      - 香港 | HKG 8
+      - 4Mohsen-1214
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 香港 | HKG 22
-      - 香港 | HKG 14
-      - 香港 | HKG 12
+      - 香港 | HKG 4
+      - 香港 | HKG 30
+      - 香港 | HKG 27
+      - 香港 | HKG 25
+      - 香港 | HKG 7
+      - 香港 | HKG 13
+      - 香港 | HKG 8
+      - 4Mohsen-1214
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -8869,4 +8889,5 @@ rules:
   - DOMAIN-KEYWORD,hibo,🔰 节点选择
   - DOMAIN-KEYWORD,greasyfork,🔰 节点选择
   - DOMAIN-KEYWORD,sleazyfork,🔰 节点选择
+  - DOMAIN-KEYWORD,starvibe24,🔰 节点选择
   - MATCH,🐟 漏网之鱼
