@@ -26,20 +26,13 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 香港 | HKG 8, server: f555fcac-t0bog0-tcdlur-1qwom.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
 - {name: 香港 | HKG 2, server: 04261573-t07z40-t7k911-1gxvd.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 398e0d38-8649-11ef-959c-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 日本 | JPN 2, server: 137.220.142.139, port: 636, type: ss, cipher: aes-256-gcm, password: 70a0b8103356, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp5v1.lingjfjkm002.com, path: /bezradrqccl, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-- {name: 香港 | HKG 28, server: f4096faa-t0bog0-ta5i1s-1j61y.hkt.tcpbbr.net, port: 80, type: vmess, uuid: f13f964e-f06c-11ec-a858-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 4Sarina-737, server: 103.186.154.32, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 - {name: 4Mohsen-1214, server: 103.186.155.30, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-732, server: 103.186.154.27, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 美国【机场推荐：https://a0a.xyz/】90, server: s1.cn-db.top, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.103.194, headers: {Host: 100-13-4-230.s1.cn-db.top}}, udp: true}
-- {name: 美国【机场推荐：https://a0a.xyz/】75, server: s3.db-link01.top, port: 2086, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.54.184, headers: {Host: 100-238-61-234.s3.db-link01.top}}, udp: true}
-- {name: 美国【机场推荐：https://a0a.xyz/】157, server: s5.db-link02.top, port: 80, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.56.227, headers: {Host: 100-251-212-174.s5.db-link02.top}}, udp: true}
-- {name: 美国【机场推荐：https://a0a.xyz/】97, server: s5.cn-db.top, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.44.60, headers: {Host: 100-172-73-121.s5.cn-db.top}}, udp: true}
+- {name: 4FreeIran-495, server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+- {name: 日本 | JPN 2, server: 137.220.142.139, port: 636, type: ss, cipher: aes-256-gcm, password: 70a0b8103356, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp5v1.lingjfjkm002.com, path: /bezradrqccl, tls: true, mux: true, skip-cert-verify: true}, udp: true}
 - {name: 香港 | HKG 7, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 2ec58858-976b-11ea-82ef-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 4Sarina-1031, server: 37.235.49.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 日本2|@ripaojiedian, server: 137.220.191.40, port: 636, type: ss, cipher: aes-256-gcm, password: 823e135ed103, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp7v1.lingjfjkm002.com, path: /dchlbvrbbotc, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+- {name: 香港 | HKG 8, server: f555fcac-t0bog0-tcdlur-1qwom.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 香港 | HKG 4, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 2c01eae6-0b6a-11ee-a058-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -52,20 +45,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港 | HKG 8
       - 香港 | HKG 2
-      - 日本 | JPN 2
-      - 香港 | HKG 28
-      - 4Sarina-737
       - 4Mohsen-1214
-      - 4Sarina-732
-      - 美国【机场推荐：https://a0a.xyz/】90
-      - 美国【机场推荐：https://a0a.xyz/】75
-      - 美国【机场推荐：https://a0a.xyz/】157
-      - 美国【机场推荐：https://a0a.xyz/】97
+      - 4FreeIran-495
+      - 日本 | JPN 2
       - 香港 | HKG 7
-      - 4Sarina-1031
-      - 日本2|@ripaojiedian
+      - 香港 | HKG 8
+      - 香港 | HKG 4
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -77,40 +63,26 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港 | HKG 8
       - 香港 | HKG 2
-      - 日本 | JPN 2
-      - 香港 | HKG 28
-      - 4Sarina-737
       - 4Mohsen-1214
-      - 4Sarina-732
-      - 美国【机场推荐：https://a0a.xyz/】90
-      - 美国【机场推荐：https://a0a.xyz/】75
-      - 美国【机场推荐：https://a0a.xyz/】157
-      - 美国【机场推荐：https://a0a.xyz/】97
+      - 4FreeIran-495
+      - 日本 | JPN 2
       - 香港 | HKG 7
-      - 4Sarina-1031
-      - 日本2|@ripaojiedian
+      - 香港 | HKG 8
+      - 香港 | HKG 4
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 香港 | HKG 8
       - 香港 | HKG 2
-      - 日本 | JPN 2
-      - 香港 | HKG 28
-      - 4Sarina-737
       - 4Mohsen-1214
-      - 4Sarina-732
-      - 美国【机场推荐：https://a0a.xyz/】90
-      - 美国【机场推荐：https://a0a.xyz/】75
-      - 美国【机场推荐：https://a0a.xyz/】157
-      - 美国【机场推荐：https://a0a.xyz/】97
+      - 4FreeIran-495
+      - 日本 | JPN 2
       - 香港 | HKG 7
-      - 4Sarina-1031
-      - 日本2|@ripaojiedian
+      - 香港 | HKG 8
+      - 香港 | HKG 4
   - name: 🐟 漏网之鱼
     type: select
     proxies:
