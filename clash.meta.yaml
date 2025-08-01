@@ -26,26 +26,28 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 香港 | HKG 5, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 4Nika-1201, server: 103.186.154.30, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: ⚡ b2n.ir/v2ray-configs | 628, server: p222.panda001.net, port: 15098, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: RU_437, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: 4Sarina-719, server: 103.186.154.20, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Nika-1208, server: 103.186.154.38, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 - {name: 4Nika-1209, server: 103.186.155.133, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 香港 | HKG 13, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 32315324-cf6b-11ed-979b-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 香港 | HKG 4, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 香港 | HKG 12, server: 11811343-t0dj40-tlm64c-xm0q.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 3437f34e-1b77-11eb-8684-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 香港 | HKG 9, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: d70a9508-5477-11ef-bf61-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
 - {name: 日本2|@ripaojiedian, server: 137.220.191.40, port: 636, type: ss, cipher: aes-256-gcm, password: 823e135ed103, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp7v1.lingjfjkm002.com, path: /dchlbvrbbotc, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-- {name: 香港 | HKG 8, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: f609abb4-ed17-11ee-9fa2-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 香港 | HKG 22, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: e6aa39b6-f0b5-11ef-bca1-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 香港 | HKG 6, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 460749c2-bcef-11ee-89fc-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 香港 | HKG 7, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 989aa406-ea9b-11ef-97da-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
-- {name: 香港 | HKG 12 2, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: cf89e064-5c77-11eb-bd3a-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: xx|d1c7|puddincat07@Telegram, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 9b604194-17b7-11ef-80b0-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
 - {name: 香港 | HKG 9 2, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 602e99aa-718d-11eb-b77b-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 香港 | HKG 27, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 99cb27a0-6748-11ef-b3da-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 香港 | HKG 25, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 40e084d6-0316-11f0-90e2-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 香港 | HKG 4, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 香港 | HKG 8, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: f609abb4-ed17-11ee-9fa2-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 香港 | HKG 12, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: cf89e064-5c77-11eb-bd3a-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 香港 | HKG 5, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
 - {name: 香港 | HKG 11, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 4Nika-1645, server: 137.220.191.40, port: 636, type: ss, cipher: aes-256-gcm, password: 823e135ed103, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp7v1.lingjfjkm002.com, path: /dchlbvrbbotc, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+- {name: 香港 | HKG 7, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 989aa406-ea9b-11ef-97da-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
+- {name: 香港 | HKG 27, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 99cb27a0-6748-11ef-b3da-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
 - {name: 香港 | HKG 8 2, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 1c641c86-5078-11ef-a585-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 香港5|@ripaojiedian, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 64617ed2-4823-11ef-9f2d-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 香港 | HKG 9, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: d70a9508-5477-11ef-bf61-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 4Nika-1208, server: 103.186.154.38, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 香港 | HKG 22, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: e6aa39b6-f0b5-11ef-bca1-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 香港 | HKG 13, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 32315324-cf6b-11ed-979b-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 香港 | HKG 6, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 460749c2-bcef-11ee-89fc-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -58,26 +60,28 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港 | HKG 5
-      - 4Nika-1201
+      - ⚡ b2n.ir/v2ray-configs | 628
+      - RU_437
       - 4Sarina-719
-      - 4Nika-1208
       - 4Nika-1209
-      - 香港 | HKG 13
-      - 香港 | HKG 4
-      - 香港 | HKG 12
-      - 香港 | HKG 9
       - 日本2|@ripaojiedian
-      - 香港 | HKG 8
-      - 香港 | HKG 22
-      - 香港 | HKG 6
-      - 香港 | HKG 7
-      - 香港 | HKG 12 2
+      - xx|d1c7|puddincat07@Telegram
       - 香港 | HKG 9 2
-      - 香港 | HKG 27
+      - 香港 | HKG 25
+      - 香港 | HKG 4
+      - 香港 | HKG 8
+      - 香港 | HKG 12
+      - 香港 | HKG 5
       - 香港 | HKG 11
-      - 4Nika-1645
+      - 香港 | HKG 7
+      - 香港 | HKG 27
       - 香港 | HKG 8 2
+      - 香港5|@ripaojiedian
+      - 香港 | HKG 9
+      - 4Nika-1208
+      - 香港 | HKG 22
+      - 香港 | HKG 13
+      - 香港 | HKG 6
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -89,52 +93,56 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港 | HKG 5
-      - 4Nika-1201
+      - ⚡ b2n.ir/v2ray-configs | 628
+      - RU_437
       - 4Sarina-719
-      - 4Nika-1208
       - 4Nika-1209
-      - 香港 | HKG 13
-      - 香港 | HKG 4
-      - 香港 | HKG 12
-      - 香港 | HKG 9
       - 日本2|@ripaojiedian
-      - 香港 | HKG 8
-      - 香港 | HKG 22
-      - 香港 | HKG 6
-      - 香港 | HKG 7
-      - 香港 | HKG 12 2
+      - xx|d1c7|puddincat07@Telegram
       - 香港 | HKG 9 2
-      - 香港 | HKG 27
+      - 香港 | HKG 25
+      - 香港 | HKG 4
+      - 香港 | HKG 8
+      - 香港 | HKG 12
+      - 香港 | HKG 5
       - 香港 | HKG 11
-      - 4Nika-1645
+      - 香港 | HKG 7
+      - 香港 | HKG 27
       - 香港 | HKG 8 2
+      - 香港5|@ripaojiedian
+      - 香港 | HKG 9
+      - 4Nika-1208
+      - 香港 | HKG 22
+      - 香港 | HKG 13
+      - 香港 | HKG 6
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 香港 | HKG 5
-      - 4Nika-1201
+      - ⚡ b2n.ir/v2ray-configs | 628
+      - RU_437
       - 4Sarina-719
-      - 4Nika-1208
       - 4Nika-1209
-      - 香港 | HKG 13
-      - 香港 | HKG 4
-      - 香港 | HKG 12
-      - 香港 | HKG 9
       - 日本2|@ripaojiedian
-      - 香港 | HKG 8
-      - 香港 | HKG 22
-      - 香港 | HKG 6
-      - 香港 | HKG 7
-      - 香港 | HKG 12 2
+      - xx|d1c7|puddincat07@Telegram
       - 香港 | HKG 9 2
-      - 香港 | HKG 27
+      - 香港 | HKG 25
+      - 香港 | HKG 4
+      - 香港 | HKG 8
+      - 香港 | HKG 12
+      - 香港 | HKG 5
       - 香港 | HKG 11
-      - 4Nika-1645
+      - 香港 | HKG 7
+      - 香港 | HKG 27
       - 香港 | HKG 8 2
+      - 香港5|@ripaojiedian
+      - 香港 | HKG 9
+      - 4Nika-1208
+      - 香港 | HKG 22
+      - 香港 | HKG 13
+      - 香港 | HKG 6
   - name: 🐟 漏网之鱼
     type: select
     proxies:
