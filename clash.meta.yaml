@@ -26,10 +26,8 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: _中国, server: v5.heduian.link, port: 30805, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v5.heduian.link}}, udp: true}
-- {name: 香港 | HKG 11, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 香港 | HKG 25, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: dfb6b402-f422-11ef-80e5-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
-- {name: 香港 | HKG 5, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 台湾 | TWN 5, server: 037eeafe-t0msg0-t3l98h-2gok.77.iwskwai.com, port: 3687, type: vmess, uuid: 17cdeb6c-f046-11ee-bdac-f23c93141fad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 香港 | HKG 16, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: adbd0a82-3336-11ed-bd7c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +40,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _中国
-      - 香港 | HKG 11
-      - 香港 | HKG 25
-      - 香港 | HKG 5
+      - 台湾 | TWN 5
+      - 香港 | HKG 16
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,20 +53,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _中国
-      - 香港 | HKG 11
-      - 香港 | HKG 25
-      - 香港 | HKG 5
+      - 台湾 | TWN 5
+      - 香港 | HKG 16
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - _中国
-      - 香港 | HKG 11
-      - 香港 | HKG 25
-      - 香港 | HKG 5
+      - 台湾 | TWN 5
+      - 香港 | HKG 16
   - name: 🐟 漏网之鱼
     type: select
     proxies:
