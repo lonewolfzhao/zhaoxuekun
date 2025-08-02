@@ -26,6 +26,8 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 台湾 | TWN, server: 7810abb0-t0fds0-t48q54-4550.82.iwskwai.com, port: 3690, type: vmess, uuid: 6286105c-fb6d-11ef-be96-f23c93136cb3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 12|🇸🇬 新加坡5|@ripaojiedian, server: 51e48c04-t0fds0-t3fjp7-cdfn.82.iwskwai.com, port: 3683, type: vmess, uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: RU_437, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: tg频道:@ripaojiedian, server: 54.189.166.94, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 香港 | HKG 22, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: a33115b6-75fa-11ed-8826-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
@@ -41,6 +43,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 台湾 | TWN
+      - 12|🇸🇬 新加坡5|@ripaojiedian
       - RU_437
       - tg频道:@ripaojiedian
       - 香港 | HKG 22
@@ -55,6 +59,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 台湾 | TWN
+      - 12|🇸🇬 新加坡5|@ripaojiedian
       - RU_437
       - tg频道:@ripaojiedian
       - 香港 | HKG 22
@@ -64,6 +70,8 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 台湾 | TWN
+      - 12|🇸🇬 新加坡5|@ripaojiedian
       - RU_437
       - tg频道:@ripaojiedian
       - 香港 | HKG 22
