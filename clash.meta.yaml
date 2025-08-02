@@ -26,7 +26,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Mohsen-1600, server: p222.panda001.net, port: 15098, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: RU_437, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: tg频道:@ripaojiedian, server: 54.189.166.94, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 香港 | HKG 22, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: a33115b6-75fa-11ed-8826-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
 proxy-groups:
@@ -41,7 +41,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Mohsen-1600
+      - RU_437
       - tg频道:@ripaojiedian
       - 香港 | HKG 22
   - name: 🔰 节点选择
@@ -55,7 +55,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Mohsen-1600
+      - RU_437
       - tg频道:@ripaojiedian
       - 香港 | HKG 22
   - name: ♻️ 可能受限
@@ -64,7 +64,7 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Mohsen-1600
+      - RU_437
       - tg频道:@ripaojiedian
       - 香港 | HKG 22
   - name: 🐟 漏网之鱼
