@@ -26,27 +26,13 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: tg频道:@ripaojiedian, server: 3.110.161.102, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Mohsen-18, server: 151.242.251.144, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-- {name: IR_396, server: 151.242.251.131, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
-- {name: IR_395, server: 151.242.251.153, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
-- {name: IR_394, server: 151.242.251.147, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
-- {name: RU_466, server: 95.163.176.37, port: 8506, type: ss, cipher: chacha20-ietf-poly1305, password: eUh4lSpi7nOYj0vSrqLUh0, udp: true}
-- {name: 4Nika-1197, server: 103.186.154.19, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 香港 | HKG 16, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 9cccea7a-b6ab-11eb-a0fc-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: xx|40ab|puddincat07@Telegram, server: 4a1ed0f2-sv0xs0-tbvl5i-1mebs.hk.p5pv.com, port: 80, type: vmess, uuid: 80f73b42-8264-11ef-8dc4-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 4a1ed0f2-sv0xs0-tbvl5i-1mebs.hk.p5pv.com}}, udp: true}
+- {name: xx|453e|puddincat07@Telegram, server: 3ded3a7f-svlb40-sz052u-amya.hk.p5pv.com, port: 80, type: vmess, uuid: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 3ded3a7f-svlb40-sz052u-amya.hk.p5pv.com}}, udp: true}
+- {name: xx|b77b|puddincat07@Telegram, server: 2f692aa9-sv2sg0-svs488-n09f.hk.p5pv.com, port: 80, type: vmess, uuid: 89b0ea8c-806b-11ed-94ba-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 2f692aa9-sv2sg0-svs488-n09f.hk.p5pv.com}}, udp: true}
+- {name: "[Rawdroid/Free-servers]美国 加州", server: 64.81.27.65, port: 20521, type: vmess, uuid: a36885a5-6d97-45d7-85c1-cc11e1cece4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- {name: 台湾 | TWN, server: 47fecf30-t0fds0-tclkqs-deip.77.iwskwai.com, port: 3687, type: vmess, uuid: 7a2512b4-09ee-11f0-8d46-f23c9313b177, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 香港 | HKG 7, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 台湾2|@ripaojiedian, server: 615c0f38-t0h8g0-tgxeiy-3kis.77.iwskwai.com, port: 3687, type: vmess, uuid: 117fc3d8-fd04-11ed-b345-f23c93136cb3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 台湾2|@ripaojiedian 2, server: 615c0f38-t0h8g0-tgxeiy-3kis.77.iwskwai.com, port: 3687, type: vmess, uuid: 117fc3d8-fd04-11ed-b345-f23c93136cb3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 香港 | HKG 4, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: bf36227c-0191-11f0-aee1-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 台湾2|@ripaojiedian 3, server: 615c0f38-t0h8g0-tgxeiy-3kis.77.iwskwai.com, port: 3687, type: vmess, uuid: 117fc3d8-fd04-11ed-b345-f23c93136cb3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 香港 | HKG 5, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 希腊 | GRC, server: 192.71.166.100, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: TR-62.133.63.212-5497, server: 62.133.63.212, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: c40641c1f89e7acb, udp: true}
-- {name: RU_418, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: "[By EbraSha] ss-DE 🔒", server: 91.219.23.165, port: 12445, type: ss, cipher: chacha20-ietf-poly1305, password: Wxnt17A2bShe9u2pI2o62K, udp: true}
-- {name: 香港 | HKG 8, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: bb85e074-b0c2-11ea-ad28-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
-- {name: RU_464, server: tr.vpnsparta.pro, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: c40641c1f89e7acb, udp: true}
-- {name: 4Jadi-1196, server: 103.186.154.20, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: xx|ea07|puddincat07@Telegram, server: c4d1a16b-szg740-t41p4y-1hpo0.hk.p5pv.com, port: 80, type: vmess, uuid: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: c4d1a16b-szg740-t41p4y-1hpo0.hk.p5pv.com}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -59,27 +45,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - tg频道:@ripaojiedian
-      - 4Mohsen-18
-      - IR_396
-      - IR_395
-      - IR_394
-      - RU_466
-      - 4Nika-1197
-      - 香港 | HKG 16
+      - xx|40ab|puddincat07@Telegram
+      - xx|453e|puddincat07@Telegram
+      - xx|b77b|puddincat07@Telegram
+      - "[Rawdroid/Free-servers]美国 加州"
+      - 台湾 | TWN
       - 香港 | HKG 7
-      - 台湾2|@ripaojiedian
-      - 台湾2|@ripaojiedian 2
-      - 香港 | HKG 4
-      - 台湾2|@ripaojiedian 3
-      - 香港 | HKG 5
-      - 希腊 | GRC
-      - TR-62.133.63.212-5497
-      - RU_418
-      - "[By EbraSha] ss-DE 🔒"
-      - 香港 | HKG 8
-      - RU_464
-      - 4Jadi-1196
+      - xx|ea07|puddincat07@Telegram
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -91,54 +63,26 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - tg频道:@ripaojiedian
-      - 4Mohsen-18
-      - IR_396
-      - IR_395
-      - IR_394
-      - RU_466
-      - 4Nika-1197
-      - 香港 | HKG 16
+      - xx|40ab|puddincat07@Telegram
+      - xx|453e|puddincat07@Telegram
+      - xx|b77b|puddincat07@Telegram
+      - "[Rawdroid/Free-servers]美国 加州"
+      - 台湾 | TWN
       - 香港 | HKG 7
-      - 台湾2|@ripaojiedian
-      - 台湾2|@ripaojiedian 2
-      - 香港 | HKG 4
-      - 台湾2|@ripaojiedian 3
-      - 香港 | HKG 5
-      - 希腊 | GRC
-      - TR-62.133.63.212-5497
-      - RU_418
-      - "[By EbraSha] ss-DE 🔒"
-      - 香港 | HKG 8
-      - RU_464
-      - 4Jadi-1196
+      - xx|ea07|puddincat07@Telegram
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - tg频道:@ripaojiedian
-      - 4Mohsen-18
-      - IR_396
-      - IR_395
-      - IR_394
-      - RU_466
-      - 4Nika-1197
-      - 香港 | HKG 16
+      - xx|40ab|puddincat07@Telegram
+      - xx|453e|puddincat07@Telegram
+      - xx|b77b|puddincat07@Telegram
+      - "[Rawdroid/Free-servers]美国 加州"
+      - 台湾 | TWN
       - 香港 | HKG 7
-      - 台湾2|@ripaojiedian
-      - 台湾2|@ripaojiedian 2
-      - 香港 | HKG 4
-      - 台湾2|@ripaojiedian 3
-      - 香港 | HKG 5
-      - 希腊 | GRC
-      - TR-62.133.63.212-5497
-      - RU_418
-      - "[By EbraSha] ss-DE 🔒"
-      - 香港 | HKG 8
-      - RU_464
-      - 4Jadi-1196
+      - xx|ea07|puddincat07@Telegram
   - name: 🐟 漏网之鱼
     type: select
     proxies:
