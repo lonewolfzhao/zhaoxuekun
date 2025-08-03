@@ -26,13 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: xx|40ab|puddincat07@Telegram, server: 4a1ed0f2-sv0xs0-tbvl5i-1mebs.hk.p5pv.com, port: 80, type: vmess, uuid: 80f73b42-8264-11ef-8dc4-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 4a1ed0f2-sv0xs0-tbvl5i-1mebs.hk.p5pv.com}}, udp: true}
 - {name: xx|453e|puddincat07@Telegram, server: 3ded3a7f-svlb40-sz052u-amya.hk.p5pv.com, port: 80, type: vmess, uuid: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 3ded3a7f-svlb40-sz052u-amya.hk.p5pv.com}}, udp: true}
-- {name: xx|b77b|puddincat07@Telegram, server: 2f692aa9-sv2sg0-svs488-n09f.hk.p5pv.com, port: 80, type: vmess, uuid: 89b0ea8c-806b-11ed-94ba-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 2f692aa9-sv2sg0-svs488-n09f.hk.p5pv.com}}, udp: true}
-- {name: "[Rawdroid/Free-servers]美国 加州", server: 64.81.27.65, port: 20521, type: vmess, uuid: a36885a5-6d97-45d7-85c1-cc11e1cece4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: 台湾 | TWN, server: 47fecf30-t0fds0-tclkqs-deip.77.iwskwai.com, port: 3687, type: vmess, uuid: 7a2512b4-09ee-11f0-8d46-f23c9313b177, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 香港 | HKG 7, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: xx|ea07|puddincat07@Telegram, server: c4d1a16b-szg740-t41p4y-1hpo0.hk.p5pv.com, port: 80, type: vmess, uuid: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: c4d1a16b-szg740-t41p4y-1hpo0.hk.p5pv.com}}, udp: true}
+- {name: xx|40ab|puddincat07@Telegram, server: 4a1ed0f2-sv0xs0-tbvl5i-1mebs.hk.p5pv.com, port: 80, type: vmess, uuid: 80f73b42-8264-11ef-8dc4-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 4a1ed0f2-sv0xs0-tbvl5i-1mebs.hk.p5pv.com}}, udp: true}
+- {name: 日本2|@ripaojiedian, server: 137.220.191.40, port: 636, type: ss, cipher: aes-256-gcm, password: 823e135ed103, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp7v1.lingjfjkm002.com, path: /dchlbvrbbotc, tls: true, mux: true, skip-cert-verify: true}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -45,13 +41,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - xx|40ab|puddincat07@Telegram
       - xx|453e|puddincat07@Telegram
-      - xx|b77b|puddincat07@Telegram
-      - "[Rawdroid/Free-servers]美国 加州"
-      - 台湾 | TWN
-      - 香港 | HKG 7
-      - xx|ea07|puddincat07@Telegram
+      - xx|40ab|puddincat07@Telegram
+      - 日本2|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -63,26 +55,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - xx|40ab|puddincat07@Telegram
       - xx|453e|puddincat07@Telegram
-      - xx|b77b|puddincat07@Telegram
-      - "[Rawdroid/Free-servers]美国 加州"
-      - 台湾 | TWN
-      - 香港 | HKG 7
-      - xx|ea07|puddincat07@Telegram
+      - xx|40ab|puddincat07@Telegram
+      - 日本2|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - xx|40ab|puddincat07@Telegram
       - xx|453e|puddincat07@Telegram
-      - xx|b77b|puddincat07@Telegram
-      - "[Rawdroid/Free-servers]美国 加州"
-      - 台湾 | TWN
-      - 香港 | HKG 7
-      - xx|ea07|puddincat07@Telegram
+      - xx|40ab|puddincat07@Telegram
+      - 日本2|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
