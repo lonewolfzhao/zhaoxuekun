@@ -26,10 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: cn|f325|puddincat07@Telegram, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: CA_2 |6.8MB/s|GPT|YT-CA|NF|GM|51%, server: test.flha.ru, port: 80, type: vmess, uuid: 2bab6b8f-8d6e-463a-8331-b9de3d56921d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2bab6b8f-8d6e-463a-8331-b9de3d56921d-vmess, headers: {Host: test.flha.ru}}, udp: true}
 - {name: tg频道:@ripaojiedian, server: 13.234.32.160, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 荷兰 38, server: c9423c1a-t0j340-t56cmu-cw9v.77.iwskwai.com, port: 3686, type: vmess, uuid: f39baabc-ef78-11ef-b714-f23c93136cb3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 香港 | HKG 8, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 48e51dfa-db8f-11ed-a23f-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: CA_2 |6.8MB/s|GPT|YT-CA|NF|GM|51%, server: test.flha.ru, port: 80, type: vmess, uuid: 2bab6b8f-8d6e-463a-8331-b9de3d56921d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2bab6b8f-8d6e-463a-8331-b9de3d56921d-vmess, headers: {Host: test.flha.ru}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +42,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - cn|f325|puddincat07@Telegram
-      - CA_2 |6.8MB/s|GPT|YT-CA|NF|GM|51%
       - tg频道:@ripaojiedian
+      - 荷兰 38
       - 香港 | HKG 8
+      - CA_2 |6.8MB/s|GPT|YT-CA|NF|GM|51%
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,20 +57,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - cn|f325|puddincat07@Telegram
-      - CA_2 |6.8MB/s|GPT|YT-CA|NF|GM|51%
       - tg频道:@ripaojiedian
+      - 荷兰 38
       - 香港 | HKG 8
+      - CA_2 |6.8MB/s|GPT|YT-CA|NF|GM|51%
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - cn|f325|puddincat07@Telegram
-      - CA_2 |6.8MB/s|GPT|YT-CA|NF|GM|51%
       - tg频道:@ripaojiedian
+      - 荷兰 38
       - 香港 | HKG 8
+      - CA_2 |6.8MB/s|GPT|YT-CA|NF|GM|51%
   - name: 🐟 漏网之鱼
     type: select
     proxies:
