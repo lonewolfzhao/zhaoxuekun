@@ -26,7 +26,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 香港 | HKG 2, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 3952a514-eaa7-11ef-97da-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: "@V2RAY_VMESS_free", server: 47.116.166.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: CA_2 |6.8MB/s|GPT|YT-CA|NF|GM|51%, server: test.flha.ru, port: 80, type: vmess, uuid: 2bab6b8f-8d6e-463a-8331-b9de3d56921d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2bab6b8f-8d6e-463a-8331-b9de3d56921d-vmess, headers: {Host: test.flha.ru}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -40,7 +40,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港 | HKG 2
+      - "@V2RAY_VMESS_free"
       - CA_2 |6.8MB/s|GPT|YT-CA|NF|GM|51%
   - name: 🔰 节点选择
     type: select
@@ -53,7 +53,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港 | HKG 2
+      - "@V2RAY_VMESS_free"
       - CA_2 |6.8MB/s|GPT|YT-CA|NF|GM|51%
   - name: ♻️ 可能受限
     type: load-balance
@@ -61,7 +61,7 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 香港 | HKG 2
+      - "@V2RAY_VMESS_free"
       - CA_2 |6.8MB/s|GPT|YT-CA|NF|GM|51%
   - name: 🐟 漏网之鱼
     type: select
