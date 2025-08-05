@@ -27,11 +27,7 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: 日本2|@ripaojiedian, server: 137.220.191.40, port: 636, type: ss, cipher: aes-256-gcm, password: 823e135ed103, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp7v1.lingjfjkm002.com, path: /dchlbvrbbotc, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-- {name: 4Nika-1196, server: 103.186.154.21, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Mohsen-1216, server: 103.186.155.20, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Nika-1524, server: 192.71.166.100, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 香港 | HKG 8, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 48e51dfa-db8f-11ed-a23f-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 4Nika-1591, server: 218.237.185.230, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 香港 | HKG, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 8bb68d04-6973-11ee-b518-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
 - {name: CA_2 |6.8MB/s|GPT|YT-CA|NF|GM|51%, server: test.flha.ru, port: 80, type: vmess, uuid: 2bab6b8f-8d6e-463a-8331-b9de3d56921d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2bab6b8f-8d6e-463a-8331-b9de3d56921d-vmess, headers: {Host: test.flha.ru}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -46,11 +42,7 @@ proxy-groups:
     interval: 10
     proxies:
       - 日本2|@ripaojiedian
-      - 4Nika-1196
-      - 4Mohsen-1216
-      - 4Nika-1524
-      - 香港 | HKG 8
-      - 4Nika-1591
+      - 香港 | HKG
       - CA_2 |6.8MB/s|GPT|YT-CA|NF|GM|51%
   - name: 🔰 节点选择
     type: select
@@ -64,11 +56,7 @@ proxy-groups:
     interval: 10
     proxies:
       - 日本2|@ripaojiedian
-      - 4Nika-1196
-      - 4Mohsen-1216
-      - 4Nika-1524
-      - 香港 | HKG 8
-      - 4Nika-1591
+      - 香港 | HKG
       - CA_2 |6.8MB/s|GPT|YT-CA|NF|GM|51%
   - name: ♻️ 可能受限
     type: load-balance
@@ -77,11 +65,7 @@ proxy-groups:
     interval: 10
     proxies:
       - 日本2|@ripaojiedian
-      - 4Nika-1196
-      - 4Mohsen-1216
-      - 4Nika-1524
-      - 香港 | HKG 8
-      - 4Nika-1591
+      - 香港 | HKG
       - CA_2 |6.8MB/s|GPT|YT-CA|NF|GM|51%
   - name: 🐟 漏网之鱼
     type: select
