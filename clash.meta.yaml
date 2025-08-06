@@ -26,10 +26,11 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: "@V2RAY_VMESS_free", server: 47.116.166.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Mohsen-526, server: 109.172.55.39, port: 16539, type: ss, cipher: chacha20-ietf-poly1305, password: GOnjERQT4Tew3KIc8bY0Zu, udp: true}
+- {name: 4Nika-1209, server: 103.186.154.29, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 - {name: US_37 |4.9MB/s|50%, server: 188.164.248.7, port: 8880, type: vmess, uuid: 2d86bf09-0810-3c29-a74c-ba7150848cff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/", headers: {Host: TG.WangCai2.s4.cn-db.top}}, udp: true}
-- {name: 4Nika-1202, server: 103.186.154.35, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Nika-1469, server: 154.223.20.79, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: tg频道:@ripaojiedian, server: 65.0.98.253, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Mohsen-244, server: 68.183.226.95, port: 52042, type: ss, cipher: chacha20-ietf-poly1305, password: xMUVeKCBmgwJOjGtsbQ2JF, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +43,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - "@V2RAY_VMESS_free"
+      - 4Mohsen-526
+      - 4Nika-1209
       - US_37 |4.9MB/s|50%
-      - 4Nika-1202
-      - 4Nika-1469
-      - tg频道:@ripaojiedian
+      - 4Mohsen-244
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,20 +59,22 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - "@V2RAY_VMESS_free"
+      - 4Mohsen-526
+      - 4Nika-1209
       - US_37 |4.9MB/s|50%
-      - 4Nika-1202
-      - 4Nika-1469
-      - tg频道:@ripaojiedian
+      - 4Mohsen-244
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - "@V2RAY_VMESS_free"
+      - 4Mohsen-526
+      - 4Nika-1209
       - US_37 |4.9MB/s|50%
-      - 4Nika-1202
-      - 4Nika-1469
-      - tg频道:@ripaojiedian
+      - 4Mohsen-244
   - name: 🐟 漏网之鱼
     type: select
     proxies:
