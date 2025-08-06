@@ -26,8 +26,11 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: "@V2RAY_VMESS_free", server: 47.116.166.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: CA_2 |6.8MB/s|GPT|YT-CA|NF|GM|51%, server: test.flha.ru, port: 80, type: vmess, uuid: 2bab6b8f-8d6e-463a-8331-b9de3d56921d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2bab6b8f-8d6e-463a-8331-b9de3d56921d-vmess, headers: {Host: test.flha.ru}}, udp: true}
+- {name: 新加坡3|@ripaojiedian, server: okanc.iepl.cac.cab, port: 23012, type: trojan, password: 02491ccf-e969-4200-9ebd-5e0da4eff308, sni: www.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202507282137611-RCmbvsdXhz.download.microsoft.com}, udp: true}
+- {name: tg频道:@ripaojiedian, server: 65.0.98.253, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: US_37 |4.9MB/s|50%, server: 188.164.248.7, port: 8880, type: vmess, uuid: 2d86bf09-0810-3c29-a74c-ba7150848cff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/", headers: {Host: TG.WangCai2.s4.cn-db.top}}, udp: true}
+- {name: _MD_摩尔多瓦->🇺🇸_US_美国, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -40,8 +43,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - "@V2RAY_VMESS_free"
-      - CA_2 |6.8MB/s|GPT|YT-CA|NF|GM|51%
+      - 新加坡3|@ripaojiedian
+      - 日本|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - US_37 |4.9MB/s|50%
+      - _MD_摩尔多瓦->🇺🇸_US_美国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -53,16 +59,22 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - "@V2RAY_VMESS_free"
-      - CA_2 |6.8MB/s|GPT|YT-CA|NF|GM|51%
+      - 新加坡3|@ripaojiedian
+      - 日本|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - US_37 |4.9MB/s|50%
+      - _MD_摩尔多瓦->🇺🇸_US_美国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - "@V2RAY_VMESS_free"
-      - CA_2 |6.8MB/s|GPT|YT-CA|NF|GM|51%
+      - 新加坡3|@ripaojiedian
+      - 日本|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - US_37 |4.9MB/s|50%
+      - _MD_摩尔多瓦->🇺🇸_US_美国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
