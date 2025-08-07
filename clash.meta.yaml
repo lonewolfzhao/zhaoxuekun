@@ -26,8 +26,11 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: "@V2RAY_VMESS_free", server: 47.116.166.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 韩国|@ripaojiedian, server: okanc.iepl.cac.cab, port: 24001, type: trojan, password: 6b5b43c9-05bd-471e-b502-d52c0dbd55fd, sni: www.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: TW_1 |6.3MB/s|GPT|YT-TW|NF|D+|GM|1%, server: 080c3c7c-409f-4365-b986-b13992dabe0c.blue-bgp.xyz, port: 50022, type: trojan, password: 3c3e2f4f-0c77-4e2d-ab27-c3f12b31de8d, sni: upos-sz-mirrorcosb.bilivideo.com, skip-cert-verify: true, udp: true}
+- {name: tg频道:@ripaojiedian, server: 18.130.58.99, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Mohsen-526, server: 109.172.55.39, port: 16539, type: ss, cipher: chacha20-ietf-poly1305, password: GOnjERQT4Tew3KIc8bY0Zu, udp: true}
+- {name: HK_1 |7.9MB/s|YT-HK, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 0de37cdc-abff-11ef-b7c6-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
 - {name: 4Nika-1209, server: 103.186.154.29, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 - {name: US_37 |4.9MB/s|50%, server: 188.164.248.7, port: 8880, type: vmess, uuid: 2d86bf09-0810-3c29-a74c-ba7150848cff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/", headers: {Host: TG.WangCai2.s4.cn-db.top}}, udp: true}
 - {name: 4Mohsen-244, server: 68.183.226.95, port: 52042, type: ss, cipher: chacha20-ietf-poly1305, password: xMUVeKCBmgwJOjGtsbQ2JF, udp: true}
@@ -43,8 +46,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - "@V2RAY_VMESS_free"
+      - 韩国|@ripaojiedian
+      - TW_1 |6.3MB/s|GPT|YT-TW|NF|D+|GM|1%
+      - tg频道:@ripaojiedian
       - 4Mohsen-526
+      - HK_1 |7.9MB/s|YT-HK
       - 4Nika-1209
       - US_37 |4.9MB/s|50%
       - 4Mohsen-244
@@ -59,8 +65,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - "@V2RAY_VMESS_free"
+      - 韩国|@ripaojiedian
+      - TW_1 |6.3MB/s|GPT|YT-TW|NF|D+|GM|1%
+      - tg频道:@ripaojiedian
       - 4Mohsen-526
+      - HK_1 |7.9MB/s|YT-HK
       - 4Nika-1209
       - US_37 |4.9MB/s|50%
       - 4Mohsen-244
@@ -70,8 +79,11 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - "@V2RAY_VMESS_free"
+      - 韩国|@ripaojiedian
+      - TW_1 |6.3MB/s|GPT|YT-TW|NF|D+|GM|1%
+      - tg频道:@ripaojiedian
       - 4Mohsen-526
+      - HK_1 |7.9MB/s|YT-HK
       - 4Nika-1209
       - US_37 |4.9MB/s|50%
       - 4Mohsen-244
