@@ -34,24 +34,6 @@ proxies:
 - {name: 4Mohsen-1194, server: 103.186.154.33, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 - {name: 4Nika-924, server: 103.149.182.191, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
 - {name: NL-193.29.139.217-0238, server: 193.29.139.217, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
-- {name: ir|628e|puddincat07@Telegram, server: 151.242.251.153, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
-- {name: us|13e1|puddincat07@Telegram, server: 45.158.171.60, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-- {name: 4Mohsen-996, server: 160.16.123.124, port: 10087, type: ss, cipher: aes-128-gcm, password: !<str> 10086, udp: true}
-- {name: 4Mohsen-30, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-- {name: "@V2RAY_VMESS_free", server: 47.116.166.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4Mohsen-137, server: 45.87.175.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
-- {name: 4Mohsen-186, server: 194.87.118.34, port: 2222, type: ss, cipher: chacha20-ietf-poly1305, password: trErto8XzLALaQEslTp_jw, udp: true}
-- {name: HK_1 |7.9MB/s|YT-HK, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 0de37cdc-abff-11ef-b7c6-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
-- {name: 4Mohsen-140, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
-- {name: us|a62e|puddincat07@Telegram, server: 198.2.218.216, port: 44883, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4Mohsen-189, server: universal.opengate.wiki, port: 2222, type: ss, cipher: chacha20-ietf-poly1305, password: trErto8XzLALaQEslTp_jw, udp: true}
-- {name: tg频道:@ripaojiedian, server: 18.130.58.99, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Mohsen-27, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-- {name: 4Mohsen-28, server: 45.87.175.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-- {name: 4Mohsen-2086, server: 152.53.2.128, port: 34045, type: ss, cipher: aes-256-gcm, password: "TG:@Enkelte_notif&&TG:@Notif_Chat", udp: true}
-- {name: LT_331, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-- {name: 4Mohsen-18, server: 151.242.251.144, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-- {name: 其他3-SK | ⬇️ 5.0MB/s|0%|Youtub..., server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -72,24 +54,6 @@ proxy-groups:
       - 4Mohsen-1194
       - 4Nika-924
       - NL-193.29.139.217-0238
-      - ir|628e|puddincat07@Telegram
-      - us|13e1|puddincat07@Telegram
-      - 4Mohsen-996
-      - 4Mohsen-30
-      - "@V2RAY_VMESS_free"
-      - 4Mohsen-137
-      - 4Mohsen-186
-      - HK_1 |7.9MB/s|YT-HK
-      - 4Mohsen-140
-      - us|a62e|puddincat07@Telegram
-      - 4Mohsen-189
-      - tg频道:@ripaojiedian
-      - 4Mohsen-27
-      - 4Mohsen-28
-      - 4Mohsen-2086
-      - LT_331
-      - 4Mohsen-18
-      - 其他3-SK | ⬇️ 5.0MB/s|0%|Youtub...
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -109,24 +73,6 @@ proxy-groups:
       - 4Mohsen-1194
       - 4Nika-924
       - NL-193.29.139.217-0238
-      - ir|628e|puddincat07@Telegram
-      - us|13e1|puddincat07@Telegram
-      - 4Mohsen-996
-      - 4Mohsen-30
-      - "@V2RAY_VMESS_free"
-      - 4Mohsen-137
-      - 4Mohsen-186
-      - HK_1 |7.9MB/s|YT-HK
-      - 4Mohsen-140
-      - us|a62e|puddincat07@Telegram
-      - 4Mohsen-189
-      - tg频道:@ripaojiedian
-      - 4Mohsen-27
-      - 4Mohsen-28
-      - 4Mohsen-2086
-      - LT_331
-      - 4Mohsen-18
-      - 其他3-SK | ⬇️ 5.0MB/s|0%|Youtub...
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -141,24 +87,6 @@ proxy-groups:
       - 4Mohsen-1194
       - 4Nika-924
       - NL-193.29.139.217-0238
-      - ir|628e|puddincat07@Telegram
-      - us|13e1|puddincat07@Telegram
-      - 4Mohsen-996
-      - 4Mohsen-30
-      - "@V2RAY_VMESS_free"
-      - 4Mohsen-137
-      - 4Mohsen-186
-      - HK_1 |7.9MB/s|YT-HK
-      - 4Mohsen-140
-      - us|a62e|puddincat07@Telegram
-      - 4Mohsen-189
-      - tg频道:@ripaojiedian
-      - 4Mohsen-27
-      - 4Mohsen-28
-      - 4Mohsen-2086
-      - LT_331
-      - 4Mohsen-18
-      - 其他3-SK | ⬇️ 5.0MB/s|0%|Youtub...
   - name: 🐟 漏网之鱼
     type: select
     proxies:
