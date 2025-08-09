@@ -26,72 +26,18 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 日本5|@ripaojiedian, server: okanc.iepl.cac.cab, port: 23007, type: trojan, password: 6bc1c915-2fee-469b-b0e2-01968be45bf6, sni: www.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 韩国|@ripaojiedian, server: okanc.iepl.cac.cab, port: 24001, type: trojan, password: 6bc1c915-2fee-469b-b0e2-01968be45bf6, sni: www.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 韩国2|@ripaojiedian, server: 139.199.194.86, port: 36009, type: trojan, password: 005fddef-e432-482f-a98c-2715563a2b25, skip-cert-verify: true, udp: true}
-- {name: de|94ea|puddincat07@Telegram, server: 91.99.185.216, port: 20086, type: vmess, uuid: 7bd6a1ea-a220-4f1c-afed-6cfb8ab96ad9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 91.99.185.216}}, udp: true}
-- {name: us|65ad|puddincat07@Telegram, server: 23.27.22.236, port: 20086, type: vmess, uuid: 9e787b94-ecac-43f1-b171-a8a6010a8782, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 23.27.22.236}}, udp: true}
-- {name: tg频道:@ripaojiedian, server: 18.130.58.99, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: ⚡ b2n.ir/v2ray-configs | 126, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: "12,13|韩国|@ripaojiedian", server: okanc.iepl.cac.cab, port: 24001, type: trojan, password: 82d0fb76-b9ff-41c2-ba15-2aec44f78e7c, sni: www.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: "12,13|新加坡3|@ripaojiedian", server: okanc.iepl.cac.cab, port: 23012, type: trojan, password: 82d0fb76-b9ff-41c2-ba15-2aec44f78e7c, sni: www.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: "12,13|香港3|@ripaojiedian", server: okanc.iepl.cac.cab, port: 23001, type: trojan, password: 82d0fb76-b9ff-41c2-ba15-2aec44f78e7c, sni: www.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 12|tg频道:@ripaojiedian, server: 13.239.86.92, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: cn|ca2e|puddincat07@Telegram, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Mohsen-1205, server: 103.186.155.23, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 - {name: "@V2RAY_VMESS_free", server: 47.116.166.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4Mohsen-3020, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: 4Nika-586, server: 45.158.171.146, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
-- {name: 4Mohsen-1194, server: 103.186.154.33, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 伊朗 V2CROSS.COM, server: 151.242.251.131, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
-- {name: LT_351, server: 45.87.175.154, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
-- {name: 4Mohsen-1197, server: 103.186.154.37, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Nika-1171, server: 103.186.154.21, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Nika-1176, server: 103.186.154.26, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: vn|6a8b|puddincat07@Telegram, server: 103.186.155.20, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Mohsen-1193, server: 103.186.154.32, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Nika-132, server: 45.87.175.154, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
-- {name: LT_336, server: 45.87.175.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
-- {name: 4Mohsen-1203, server: 103.186.155.21, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Nika-1178, server: 103.186.154.28, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: ir|c1b1|puddincat07@Telegram, server: 62.60.152.170, port: 20086, type: vmess, uuid: dbd9beec-4519-4a7c-b59b-1ea9252e3f4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 62.60.152.170}}, udp: true}
-- {name: LT_331, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-- {name: 4Mohsen-1199, server: 103.186.155.133, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Nika-1169, server: 103.186.154.19, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: RU_225, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: KR_1 |5.8MB/s|GPT|NF|D+|39%, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 4Sarina-265, server: sakura.outlinekeys.net, port: 1235, type: ss, cipher: chacha20-ietf-poly1305, password: DUsnjmWz0Bhz27aFh68WHr, udp: true}
 - {name: 4Nika-1203, server: 103.186.154.38, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Nika-184, server: 2.59.133.216, port: 2222, type: ss, cipher: chacha20-ietf-poly1305, password: trErto8XzLALaQEslTp_jw, udp: true}
-- {name: 4Nika-23, server: 45.87.175.154, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-- {name: 越南 | VNM, server: 103.186.154.29, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 - {name: 4Nika-1180, server: 103.186.154.30, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Nika-185, server: main.opengate.wiki, port: 2222, type: ss, cipher: chacha20-ietf-poly1305, password: trErto8XzLALaQEslTp_jw, udp: true}
-- {name: 4Nika-1211, server: 103.186.155.24, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Nika-1209, server: 103.186.155.22, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: US_366, server: 38.58.60.127, port: 20086, type: vmess, uuid: 66d508ed-1ee6-412d-97a8-eedf849bad57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: 美国 V2CROSS.COM, server: 154.62.185.216, port: 20086, type: vmess, uuid: 20ed1673-8f9e-485b-9956-147768fce851, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: 美国 得克萨斯州达拉斯县达拉斯市Nobis技术集团有限公司Ubiquity达拉斯数据中心, server: 173.208.51.193, port: 20086, type: vmess, uuid: b1726eb2-271b-4cb6-bae8-37647e78b776, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: 4Mohsen-1196, server: 103.186.154.36, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: au|f0b4|puddincat07@Telegram, server: 91.108.248.6, port: 20086, type: vmess, uuid: dc90a447-77e8-4dcd-aad5-e940da5d4660, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 91.108.248.6}}, udp: true}
-- {name: NL_3 |4.9MB/s|GPT|NF|100%, server: 151.242.251.147, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
-- {name: 美国 V2CROSS.COM 2, server: 137.175.124.167, port: 20086, type: vmess, uuid: b4bce500-11fe-4f8f-a344-01ac247af9bd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: 4Nika-1205, server: 103.186.155.18, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Nika-1545, server: p222.panda001.net, port: 15098, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 俄罗斯 V2CROSS.COM, server: 77.221.143.225, port: 20086, type: vmess, uuid: 149b4663-aece-486a-b92c-392c41727ac1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: us|a77a|puddincat07@Telegram, server: 38.244.18.220, port: 20086, type: vmess, uuid: 62eec023-043f-42b9-9abe-61cb1042401f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 38.244.18.220}}, udp: true}
-- {name: 4Nika-813, server: 18.162.146.85, port: 8316, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-- {name: 4Nika-814, server: 18.162.146.85, port: 8319, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-- {name: 4Nika-186, server: universal.opengate.wiki, port: 2222, type: ss, cipher: chacha20-ietf-poly1305, password: trErto8XzLALaQEslTp_jw, udp: true}
-- {name: 4Nika-812, server: 18.162.146.85, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-- {name: 4Mohsen-18, server: 151.242.251.144, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-- {name: 美国 V2CROSS.COM 3, server: vall.codefyinc.com, port: 443, type: vmess, uuid: 606ece17-7279-4a43-b879-f8502103de8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmessws, headers: {Host: vall.codefyinc.com}}, udp: true}
-- {name: 美国 Amazon EC2服务器, server: 3.149.233.188, port: 20086, type: vmess, uuid: 158ee47c-c5f6-4892-8662-8fc113fb3d6b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: us|a62e|puddincat07@Telegram, server: 198.2.218.216, port: 44883, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4Nika-730, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-- {name: _27, server: 46.183.184.60, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 4Mohsen-526, server: 109.172.55.39, port: 16539, type: ss, cipher: chacha20-ietf-poly1305, password: GOnjERQT4Tew3KIc8bY0Zu, udp: true}
-- {name: 4Mohsen-29, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-- {name: 4Nika-149, server: 195.133.88.97, port: 50319, type: ss, cipher: chacha20-ietf-poly1305, password: 1zOpRxi2fHz8O076ov60qn, udp: true}
-- {name: 立陶宛 | LTU 2, server: 45.87.175.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-- {name: 4Nika-1455, server: 154.90.63.177, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 美国 华盛顿Cogent通信公司, server: 38.244.28.221, port: 20086, type: vmess, uuid: 37872214-0445-4cff-a1a8-670333c1d3c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: 4Mohsen-142, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
-- {name: 4Nika-1212, server: 103.186.155.25, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Nika-592, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
-- {name: 4Nika-593, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
-- {name: LT_369, server: 45.87.175.28, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -104,72 +50,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 日本5|@ripaojiedian
-      - 韩国|@ripaojiedian
-      - 韩国2|@ripaojiedian
-      - de|94ea|puddincat07@Telegram
-      - us|65ad|puddincat07@Telegram
-      - tg频道:@ripaojiedian
-      - ⚡ b2n.ir/v2ray-configs | 126
+      - 12,13|韩国|@ripaojiedian
+      - 12,13|新加坡3|@ripaojiedian
+      - 12,13|香港3|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
+      - cn|ca2e|puddincat07@Telegram
+      - 4Mohsen-1205
       - "@V2RAY_VMESS_free"
-      - 4Mohsen-3020
-      - 4Nika-586
-      - 4Mohsen-1194
-      - 伊朗 V2CROSS.COM
-      - LT_351
-      - 4Mohsen-1197
-      - 4Nika-1171
-      - 4Nika-1176
-      - vn|6a8b|puddincat07@Telegram
-      - 4Mohsen-1193
-      - 4Nika-132
-      - LT_336
-      - 4Mohsen-1203
-      - 4Nika-1178
-      - ir|c1b1|puddincat07@Telegram
-      - LT_331
-      - 4Mohsen-1199
-      - 4Nika-1169
+      - RU_225
+      - KR_1 |5.8MB/s|GPT|NF|D+|39%
+      - 4Sarina-265
       - 4Nika-1203
-      - 4Nika-184
-      - 4Nika-23
-      - 越南 | VNM
       - 4Nika-1180
-      - 4Nika-185
-      - 4Nika-1211
-      - 4Nika-1209
-      - US_366
-      - 美国 V2CROSS.COM
-      - 美国 得克萨斯州达拉斯县达拉斯市Nobis技术集团有限公司Ubiquity达拉斯数据中心
-      - 4Mohsen-1196
-      - au|f0b4|puddincat07@Telegram
-      - NL_3 |4.9MB/s|GPT|NF|100%
-      - 美国 V2CROSS.COM 2
-      - 4Nika-1205
-      - 4Nika-1545
-      - 俄罗斯 V2CROSS.COM
-      - us|a77a|puddincat07@Telegram
-      - 4Nika-813
-      - 4Nika-814
-      - 4Nika-186
-      - 4Nika-812
-      - 4Mohsen-18
-      - 美国 V2CROSS.COM 3
-      - 美国 Amazon EC2服务器
-      - us|a62e|puddincat07@Telegram
-      - 4Nika-730
-      - _27
-      - 4Mohsen-526
-      - 4Mohsen-29
-      - 4Nika-149
-      - 立陶宛 | LTU 2
-      - 4Nika-1455
-      - 美国 华盛顿Cogent通信公司
-      - 4Mohsen-142
-      - 4Nika-1212
-      - 4Nika-592
-      - 4Nika-593
-      - LT_369
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -181,144 +73,36 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 日本5|@ripaojiedian
-      - 韩国|@ripaojiedian
-      - 韩国2|@ripaojiedian
-      - de|94ea|puddincat07@Telegram
-      - us|65ad|puddincat07@Telegram
-      - tg频道:@ripaojiedian
-      - ⚡ b2n.ir/v2ray-configs | 126
+      - 12,13|韩国|@ripaojiedian
+      - 12,13|新加坡3|@ripaojiedian
+      - 12,13|香港3|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
+      - cn|ca2e|puddincat07@Telegram
+      - 4Mohsen-1205
       - "@V2RAY_VMESS_free"
-      - 4Mohsen-3020
-      - 4Nika-586
-      - 4Mohsen-1194
-      - 伊朗 V2CROSS.COM
-      - LT_351
-      - 4Mohsen-1197
-      - 4Nika-1171
-      - 4Nika-1176
-      - vn|6a8b|puddincat07@Telegram
-      - 4Mohsen-1193
-      - 4Nika-132
-      - LT_336
-      - 4Mohsen-1203
-      - 4Nika-1178
-      - ir|c1b1|puddincat07@Telegram
-      - LT_331
-      - 4Mohsen-1199
-      - 4Nika-1169
+      - RU_225
+      - KR_1 |5.8MB/s|GPT|NF|D+|39%
+      - 4Sarina-265
       - 4Nika-1203
-      - 4Nika-184
-      - 4Nika-23
-      - 越南 | VNM
       - 4Nika-1180
-      - 4Nika-185
-      - 4Nika-1211
-      - 4Nika-1209
-      - US_366
-      - 美国 V2CROSS.COM
-      - 美国 得克萨斯州达拉斯县达拉斯市Nobis技术集团有限公司Ubiquity达拉斯数据中心
-      - 4Mohsen-1196
-      - au|f0b4|puddincat07@Telegram
-      - NL_3 |4.9MB/s|GPT|NF|100%
-      - 美国 V2CROSS.COM 2
-      - 4Nika-1205
-      - 4Nika-1545
-      - 俄罗斯 V2CROSS.COM
-      - us|a77a|puddincat07@Telegram
-      - 4Nika-813
-      - 4Nika-814
-      - 4Nika-186
-      - 4Nika-812
-      - 4Mohsen-18
-      - 美国 V2CROSS.COM 3
-      - 美国 Amazon EC2服务器
-      - us|a62e|puddincat07@Telegram
-      - 4Nika-730
-      - _27
-      - 4Mohsen-526
-      - 4Mohsen-29
-      - 4Nika-149
-      - 立陶宛 | LTU 2
-      - 4Nika-1455
-      - 美国 华盛顿Cogent通信公司
-      - 4Mohsen-142
-      - 4Nika-1212
-      - 4Nika-592
-      - 4Nika-593
-      - LT_369
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 日本5|@ripaojiedian
-      - 韩国|@ripaojiedian
-      - 韩国2|@ripaojiedian
-      - de|94ea|puddincat07@Telegram
-      - us|65ad|puddincat07@Telegram
-      - tg频道:@ripaojiedian
-      - ⚡ b2n.ir/v2ray-configs | 126
+      - 12,13|韩国|@ripaojiedian
+      - 12,13|新加坡3|@ripaojiedian
+      - 12,13|香港3|@ripaojiedian
+      - 12|tg频道:@ripaojiedian
+      - cn|ca2e|puddincat07@Telegram
+      - 4Mohsen-1205
       - "@V2RAY_VMESS_free"
-      - 4Mohsen-3020
-      - 4Nika-586
-      - 4Mohsen-1194
-      - 伊朗 V2CROSS.COM
-      - LT_351
-      - 4Mohsen-1197
-      - 4Nika-1171
-      - 4Nika-1176
-      - vn|6a8b|puddincat07@Telegram
-      - 4Mohsen-1193
-      - 4Nika-132
-      - LT_336
-      - 4Mohsen-1203
-      - 4Nika-1178
-      - ir|c1b1|puddincat07@Telegram
-      - LT_331
-      - 4Mohsen-1199
-      - 4Nika-1169
+      - RU_225
+      - KR_1 |5.8MB/s|GPT|NF|D+|39%
+      - 4Sarina-265
       - 4Nika-1203
-      - 4Nika-184
-      - 4Nika-23
-      - 越南 | VNM
       - 4Nika-1180
-      - 4Nika-185
-      - 4Nika-1211
-      - 4Nika-1209
-      - US_366
-      - 美国 V2CROSS.COM
-      - 美国 得克萨斯州达拉斯县达拉斯市Nobis技术集团有限公司Ubiquity达拉斯数据中心
-      - 4Mohsen-1196
-      - au|f0b4|puddincat07@Telegram
-      - NL_3 |4.9MB/s|GPT|NF|100%
-      - 美国 V2CROSS.COM 2
-      - 4Nika-1205
-      - 4Nika-1545
-      - 俄罗斯 V2CROSS.COM
-      - us|a77a|puddincat07@Telegram
-      - 4Nika-813
-      - 4Nika-814
-      - 4Nika-186
-      - 4Nika-812
-      - 4Mohsen-18
-      - 美国 V2CROSS.COM 3
-      - 美国 Amazon EC2服务器
-      - us|a62e|puddincat07@Telegram
-      - 4Nika-730
-      - _27
-      - 4Mohsen-526
-      - 4Mohsen-29
-      - 4Nika-149
-      - 立陶宛 | LTU 2
-      - 4Nika-1455
-      - 美国 华盛顿Cogent通信公司
-      - 4Mohsen-142
-      - 4Nika-1212
-      - 4Nika-592
-      - 4Nika-593
-      - LT_369
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -9123,4 +8907,5 @@ rules:
   - DOMAIN-KEYWORD,sleazyfork,🔰 节点选择
   - DOMAIN-KEYWORD,starvibe24,🔰 节点选择
   - DOMAIN-KEYWORD,fdcservers,🔰 节点选择
+  - DOMAIN-KEYWORD,a2507app,🔰 节点选择
   - MATCH,🐟 漏网之鱼
