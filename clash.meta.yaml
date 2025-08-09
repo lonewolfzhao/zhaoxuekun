@@ -26,14 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: cn|ca2e|puddincat07@Telegram, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: xx|453a|puddincat07@Telegram, server: www.meter.net, port: 2083, type: vmess, uuid: d218dfe5-fae6-408e-b615-8666df7f0924, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wssss, headers: {Host: blaze-uk-48.pinkle7.site}}, udp: true}
-- {name: 4Nika-1203, server: 103.186.154.38, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 - {name: RU_225, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 4Mohsen-526, server: 109.172.55.39, port: 16539, type: ss, cipher: chacha20-ietf-poly1305, password: GOnjERQT4Tew3KIc8bY0Zu, udp: true}
-- {name: 12|tg频道:@ripaojiedian, server: 13.239.86.92, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: "@V2RAY_VMESS_free", server: 47.116.166.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4Sarina-265, server: sakura.outlinekeys.net, port: 1235, type: ss, cipher: chacha20-ietf-poly1305, password: DUsnjmWz0Bhz27aFh68WHr, udp: true}
+- {name: 4Mohsen-1514, server: p222.panda001.net, port: 15098, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -46,14 +41,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - cn|ca2e|puddincat07@Telegram
-      - xx|453a|puddincat07@Telegram
-      - 4Nika-1203
       - RU_225
-      - 4Mohsen-526
-      - 12|tg频道:@ripaojiedian
       - "@V2RAY_VMESS_free"
-      - 4Sarina-265
+      - 4Mohsen-1514
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -65,28 +55,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - cn|ca2e|puddincat07@Telegram
-      - xx|453a|puddincat07@Telegram
-      - 4Nika-1203
       - RU_225
-      - 4Mohsen-526
-      - 12|tg频道:@ripaojiedian
       - "@V2RAY_VMESS_free"
-      - 4Sarina-265
+      - 4Mohsen-1514
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - cn|ca2e|puddincat07@Telegram
-      - xx|453a|puddincat07@Telegram
-      - 4Nika-1203
       - RU_225
-      - 4Mohsen-526
-      - 12|tg频道:@ripaojiedian
       - "@V2RAY_VMESS_free"
-      - 4Sarina-265
+      - 4Mohsen-1514
   - name: 🐟 漏网之鱼
     type: select
     proxies:
