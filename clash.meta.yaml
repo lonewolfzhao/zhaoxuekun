@@ -27,8 +27,16 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: 4Mohsen-1514, server: p222.panda001.net, port: 15098, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: RU_225, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 4Nika-1203, server: 103.186.154.38, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 - {name: "@V2RAY_VMESS_free", server: 47.116.166.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Mohsen-1205, server: 103.186.155.23, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 韩国2|@ripaojiedian, server: 139.199.194.86, port: 36009, type: trojan, password: 005fddef-e432-482f-a98c-2715563a2b25, skip-cert-verify: true, udp: true}
+- {name: CN_68, server: awes35lesl.blhao0o.dpdns.org, port: 12023, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
+- {name: _CN_中国->🇺🇸_US_美国, server: awes35lesl.blhao0o.dpdns.org, port: 12017, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
+- {name: 4Kian-1140, server: 103.186.154.27, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: CN-183.236.51.11-4874, server: awes35lesl.blhao0o.dpdns.org, port: 12024, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
+- {name: RU_225, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 4Jadi-1160, server: 103.186.155.30, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,8 +50,16 @@ proxy-groups:
     interval: 10
     proxies:
       - 4Mohsen-1514
-      - RU_225
+      - 4Nika-1203
       - "@V2RAY_VMESS_free"
+      - 4Mohsen-1205
+      - 韩国2|@ripaojiedian
+      - CN_68
+      - _CN_中国->🇺🇸_US_美国
+      - 4Kian-1140
+      - CN-183.236.51.11-4874
+      - RU_225
+      - 4Jadi-1160
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -56,8 +72,16 @@ proxy-groups:
     interval: 10
     proxies:
       - 4Mohsen-1514
-      - RU_225
+      - 4Nika-1203
       - "@V2RAY_VMESS_free"
+      - 4Mohsen-1205
+      - 韩国2|@ripaojiedian
+      - CN_68
+      - _CN_中国->🇺🇸_US_美国
+      - 4Kian-1140
+      - CN-183.236.51.11-4874
+      - RU_225
+      - 4Jadi-1160
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -65,8 +89,16 @@ proxy-groups:
     interval: 10
     proxies:
       - 4Mohsen-1514
-      - RU_225
+      - 4Nika-1203
       - "@V2RAY_VMESS_free"
+      - 4Mohsen-1205
+      - 韩国2|@ripaojiedian
+      - CN_68
+      - _CN_中国->🇺🇸_US_美国
+      - 4Kian-1140
+      - CN-183.236.51.11-4874
+      - RU_225
+      - 4Jadi-1160
   - name: 🐟 漏网之鱼
     type: select
     proxies:
