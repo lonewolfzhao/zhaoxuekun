@@ -26,20 +26,12 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 香港5|@ripaojiedian, server: 106.53.211.194, port: 36026, type: trojan, password: c7a5a064-ac05-44ea-a449-0c0c7cae19f7, skip-cert-verify: true, udp: true}
-- {name: 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202507282137611-ABbKq8VLBc.download.microsoft.com}, udp: true}
-- {name: 4Nika-526, server: 38.180.211.126, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Kuiqk2cP0BMWrgme9IfEvp, udp: true}
-- {name: 4Nika-516, server: 84.234.31.193, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: HW5BrP48QU4Q9VPdJWs-Pw, udp: true}
-- {name: 4Jadi-1160, server: 103.186.155.30, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: tg频道:@ripaojiedian, server: 34.203.13.163, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: "@V2RAY_VMESS_free", server: 47.116.166.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: Telegram | @FNET00📱, server: v2ray.codefyinc.com, port: 443, type: vmess, uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmessws, headers: {Host: v2ray.codefyinc.com}}, udp: true}
-- {name: 4Mohsen-1205, server: 103.186.155.23, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: RU_225, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 12|🇯🇵 日本2|@ripaojiedian, server: 137.220.191.40, port: 636, type: ss, cipher: aes-256-gcm, password: 823e135ed103, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp7v1.lingjfjkm002.com, path: /dchlbvrbbotc, tls: true, mux: true, skip-cert-verify: true}, udp: true}
 - {name: 4Sarina-169, server: 80.93.218.250, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: tr8cUskcAr14gUJuaIfF02, udp: true}
-- {name: 4Kian-1140, server: 103.186.154.27, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 江苏省 移动, server: v33.heduian.link, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v33.heduian.link}}, udp: true}
+- {name: RU_225, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: KR_1 |5.8MB/s|GPT|NF|D+|39%, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 4Mohsen-1205, server: 103.186.155.23, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -52,20 +44,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港5|@ripaojiedian
-      - 日本|@ripaojiedian
-      - 4Nika-526
-      - 4Nika-516
-      - 4Jadi-1160
+      - tg频道:@ripaojiedian
       - "@V2RAY_VMESS_free"
-      - Telegram | @FNET00📱
-      - 4Mohsen-1205
-      - RU_225
-      - 12|🇯🇵 日本2|@ripaojiedian
       - 4Sarina-169
-      - 4Kian-1140
-      - 江苏省 移动
+      - RU_225
       - KR_1 |5.8MB/s|GPT|NF|D+|39%
+      - 4Mohsen-1205
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -77,40 +61,24 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港5|@ripaojiedian
-      - 日本|@ripaojiedian
-      - 4Nika-526
-      - 4Nika-516
-      - 4Jadi-1160
+      - tg频道:@ripaojiedian
       - "@V2RAY_VMESS_free"
-      - Telegram | @FNET00📱
-      - 4Mohsen-1205
-      - RU_225
-      - 12|🇯🇵 日本2|@ripaojiedian
       - 4Sarina-169
-      - 4Kian-1140
-      - 江苏省 移动
+      - RU_225
       - KR_1 |5.8MB/s|GPT|NF|D+|39%
+      - 4Mohsen-1205
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 香港5|@ripaojiedian
-      - 日本|@ripaojiedian
-      - 4Nika-526
-      - 4Nika-516
-      - 4Jadi-1160
+      - tg频道:@ripaojiedian
       - "@V2RAY_VMESS_free"
-      - Telegram | @FNET00📱
-      - 4Mohsen-1205
-      - RU_225
-      - 12|🇯🇵 日本2|@ripaojiedian
       - 4Sarina-169
-      - 4Kian-1140
-      - 江苏省 移动
+      - RU_225
       - KR_1 |5.8MB/s|GPT|NF|D+|39%
+      - 4Mohsen-1205
   - name: 🐟 漏网之鱼
     type: select
     proxies:
