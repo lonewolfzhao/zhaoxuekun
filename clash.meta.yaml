@@ -25,21 +25,56 @@ dns:
     geoip-code: CN
     ipcidr:
     - 240.0.0.0/4
+unified-delay: true
+global-client-fingerprint: chrome
+dns:
+  enable: true
+  listen: :53
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+  - 223.5.5.5
+  - 8.8.8.8
+  nameserver:
+  - https://dns.alidns.com/dns-query
+  - https://doh.pub/dns-query
+  fallback:
+  - https://1.0.0.1/dns-query
+  - tls://dns.google
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+    - 240.0.0.0/4
 proxies:
+- {name: "@V2RAY_VMESS_free 3", server: 47.116.166.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: CN_b5fcf_0017, server: 183.240.245.240, port: 44009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: "@V2RAY_VMESS_free", server: 47.116.166.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: "@V2RAY_VMESS_free 3 2", server: 47.116.166.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: CN_b5fcf_0017 2 2, server: 183.240.245.240, port: 44009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: "@V2RAY_VMESS_free 2", server: 47.116.166.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 香港3|@ripaojiedian, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 31676725-b0fd-fed2-c857-2da8ce5a6e4f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
-- {name: CN-103.181.165.246-0684, server: awes35lesl.blhao0o.dpdns.org, port: 12024, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
 - {name: 法国 | FRA 2, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linvkws, headers: {Host: Fra-Vp-123.BLaZECLOUD.Site}}, udp: true}
-- {name: 4Nika-237, server: 77.83.245.171, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: AKhiUzBeTzHy, udp: true}
-- {name: tg频道:@ripaojiedian, server: 13.38.30.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "@V2RAY_VMESS_free 4", server: 47.116.166.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 4Nika-526, server: 38.180.211.126, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Kuiqk2cP0BMWrgme9IfEvp, udp: true}
-- {name: 马来西亚|@ripaojiedian, server: manager.gghbjnjbff.shop, port: 10004, type: vmess, uuid: d54e3755-daf5-4aa0-b423-c62bde1a67ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: RU_154, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: KR_1 |5.8MB/s|GPT|NF|D+|39%, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 马来西亚|@ripaojiedian 4, server: manager.gghbjnjbff.shop, port: 10004, type: vmess, uuid: d54e3755-daf5-4aa0-b423-c62bde1a67ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Nika-237, server: 77.83.245.171, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: AKhiUzBeTzHy, udp: true}
+- {name: 日本5|@ripaojiedian, server: 120.240.118.142, port: 8123, type: trojan, password: f60cd513-7b83-4b64-936c-f7e88e95dacd, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
+- {name: 新加坡3|@ripaojiedian, server: 120.240.118.187, port: 8233, type: trojan, password: f60cd513-7b83-4b64-936c-f7e88e95dacd, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
+- {name: 11|🇯🇵 日本2|@ripaojiedian, server: 137.220.191.40, port: 636, type: ss, cipher: aes-256-gcm, password: 823e135ed103, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp7v1.lingjfjkm002.com, path: /dchlbvrbbotc, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+- {name: 马来西亚|@ripaojiedian, server: manager.gghbjnjbff.shop, port: 10004, type: vmess, uuid: d54e3755-daf5-4aa0-b423-c62bde1a67ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 香港 | HKG, server: 183.240.245.240, port: 44009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _CN_中国->🇬🇧_GB_英国, server: v36.heduian.link, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v36.heduian.link}}, udp: true}
+- {name: 4Kian-1137, server: 103.186.154.22, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: "11,12|香港8|@ripaojiedian", server: 120.240.118.142, port: 9231, type: trojan, password: f60cd513-7b83-4b64-936c-f7e88e95dacd, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
+- {name: "12,13|香港3|@ripaojiedian", server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 31676725-b0fd-fed2-c857-2da8ce5a6e4f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
+- {name: tg频道:@ripaojiedian, server: 13.38.30.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: US_6 |6.3MB/s|GPT|NF|GM|52%, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
+- {name: CN-103.181.165.246-0684, server: awes35lesl.blhao0o.dpdns.org, port: 12024, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
+- {name: 丹麦 V2CROSS.COM, server: pubg.ac, port: 80, type: vmess, uuid: 27425750-5bf5-497b-92d4-16e67030e154, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: cdn-node-oss-99.paofu.de}}, udp: true}
 - {name: tg频道:@ripaojiedian 2, server: 34.203.13.163, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Sarina-169, server: 80.93.218.250, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: tr8cUskcAr14gUJuaIfF02, udp: true}
-- {name: RU_225, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: 4Mohsen-1205, server: 103.186.155.23, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -53,20 +88,33 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - "@V2RAY_VMESS_free 3"
+      - CN_b5fcf_0017
       - "@V2RAY_VMESS_free"
+      - "@V2RAY_VMESS_free 3 2"
+      - CN_b5fcf_0017 2 2
       - "@V2RAY_VMESS_free 2"
-      - 香港3|@ripaojiedian
-      - CN-103.181.165.246-0684
       - 法国 | FRA 2
-      - 4Nika-237
-      - tg频道:@ripaojiedian
+      - "@V2RAY_VMESS_free 4"
       - 4Nika-526
-      - 马来西亚|@ripaojiedian
+      - RU_154
       - KR_1 |5.8MB/s|GPT|NF|D+|39%
-      - 马来西亚|@ripaojiedian 4
+      - 4Nika-237
+      - 日本5|@ripaojiedian
+      - 新加坡3|@ripaojiedian
+      - 11|🇯🇵 日本2|@ripaojiedian
+      - 马来西亚|@ripaojiedian
+      - 香港 | HKG
+      - _CN_中国->🇬🇧_GB_英国
+      - 4Kian-1137
+      - 11,12|香港8|@ripaojiedian
+      - 12,13|香港3|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - US_6 |6.3MB/s|GPT|NF|GM|52%
+      - CN-103.181.165.246-0684
+      - 丹麦 V2CROSS.COM
       - tg频道:@ripaojiedian 2
       - 4Sarina-169
-      - RU_225
       - 4Mohsen-1205
   - name: 🔰 节点选择
     type: select
@@ -79,20 +127,33 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - "@V2RAY_VMESS_free 3"
+      - CN_b5fcf_0017
       - "@V2RAY_VMESS_free"
+      - "@V2RAY_VMESS_free 3 2"
+      - CN_b5fcf_0017 2 2
       - "@V2RAY_VMESS_free 2"
-      - 香港3|@ripaojiedian
-      - CN-103.181.165.246-0684
       - 法国 | FRA 2
-      - 4Nika-237
-      - tg频道:@ripaojiedian
+      - "@V2RAY_VMESS_free 4"
       - 4Nika-526
-      - 马来西亚|@ripaojiedian
+      - RU_154
       - KR_1 |5.8MB/s|GPT|NF|D+|39%
-      - 马来西亚|@ripaojiedian 4
+      - 4Nika-237
+      - 日本5|@ripaojiedian
+      - 新加坡3|@ripaojiedian
+      - 11|🇯🇵 日本2|@ripaojiedian
+      - 马来西亚|@ripaojiedian
+      - 香港 | HKG
+      - _CN_中国->🇬🇧_GB_英国
+      - 4Kian-1137
+      - 11,12|香港8|@ripaojiedian
+      - 12,13|香港3|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - US_6 |6.3MB/s|GPT|NF|GM|52%
+      - CN-103.181.165.246-0684
+      - 丹麦 V2CROSS.COM
       - tg频道:@ripaojiedian 2
       - 4Sarina-169
-      - RU_225
       - 4Mohsen-1205
   - name: ♻️ 可能受限
     type: load-balance
@@ -100,20 +161,33 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - "@V2RAY_VMESS_free 3"
+      - CN_b5fcf_0017
       - "@V2RAY_VMESS_free"
+      - "@V2RAY_VMESS_free 3 2"
+      - CN_b5fcf_0017 2 2
       - "@V2RAY_VMESS_free 2"
-      - 香港3|@ripaojiedian
-      - CN-103.181.165.246-0684
       - 法国 | FRA 2
-      - 4Nika-237
-      - tg频道:@ripaojiedian
+      - "@V2RAY_VMESS_free 4"
       - 4Nika-526
-      - 马来西亚|@ripaojiedian
+      - RU_154
       - KR_1 |5.8MB/s|GPT|NF|D+|39%
-      - 马来西亚|@ripaojiedian 4
+      - 4Nika-237
+      - 日本5|@ripaojiedian
+      - 新加坡3|@ripaojiedian
+      - 11|🇯🇵 日本2|@ripaojiedian
+      - 马来西亚|@ripaojiedian
+      - 香港 | HKG
+      - _CN_中国->🇬🇧_GB_英国
+      - 4Kian-1137
+      - 11,12|香港8|@ripaojiedian
+      - 12,13|香港3|@ripaojiedian
+      - tg频道:@ripaojiedian
+      - US_6 |6.3MB/s|GPT|NF|GM|52%
+      - CN-103.181.165.246-0684
+      - 丹麦 V2CROSS.COM
       - tg频道:@ripaojiedian 2
       - 4Sarina-169
-      - RU_225
       - 4Mohsen-1205
   - name: 🐟 漏网之鱼
     type: select
