@@ -26,15 +26,17 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 法国 | FRA 2, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linvkws, headers: {Host: Fra-Vp-123.BLaZECLOUD.Site}}, udp: true}
-- {name: tg频道:@ripaojiedian, server: 13.38.30.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: "@V2RAY_VMESS_free", server: 47.116.166.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4Nika-237, server: 77.83.245.171, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: AKhiUzBeTzHy, udp: true}
-- {name: 4Nika-526, server: 38.180.211.126, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Kuiqk2cP0BMWrgme9IfEvp, udp: true}
+- {name: "@V2RAY_VMESS_free 2", server: 47.116.166.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 香港3|@ripaojiedian, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 31676725-b0fd-fed2-c857-2da8ce5a6e4f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
-- {name: KR_1 |5.8MB/s|GPT|NF|D+|39%, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
 - {name: CN-103.181.165.246-0684, server: awes35lesl.blhao0o.dpdns.org, port: 12024, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
+- {name: 法国 | FRA 2, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linvkws, headers: {Host: Fra-Vp-123.BLaZECLOUD.Site}}, udp: true}
+- {name: 4Nika-237, server: 77.83.245.171, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: AKhiUzBeTzHy, udp: true}
+- {name: tg频道:@ripaojiedian, server: 13.38.30.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Nika-526, server: 38.180.211.126, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Kuiqk2cP0BMWrgme9IfEvp, udp: true}
 - {name: 马来西亚|@ripaojiedian, server: manager.gghbjnjbff.shop, port: 10004, type: vmess, uuid: d54e3755-daf5-4aa0-b423-c62bde1a67ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: KR_1 |5.8MB/s|GPT|NF|D+|39%, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 马来西亚|@ripaojiedian 4, server: manager.gghbjnjbff.shop, port: 10004, type: vmess, uuid: d54e3755-daf5-4aa0-b423-c62bde1a67ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: tg频道:@ripaojiedian 2, server: 34.203.13.163, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Sarina-169, server: 80.93.218.250, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: tr8cUskcAr14gUJuaIfF02, udp: true}
 - {name: RU_225, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -51,15 +53,17 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 法国 | FRA 2
-      - tg频道:@ripaojiedian
       - "@V2RAY_VMESS_free"
-      - 4Nika-237
-      - 4Nika-526
+      - "@V2RAY_VMESS_free 2"
       - 香港3|@ripaojiedian
-      - KR_1 |5.8MB/s|GPT|NF|D+|39%
       - CN-103.181.165.246-0684
+      - 法国 | FRA 2
+      - 4Nika-237
+      - tg频道:@ripaojiedian
+      - 4Nika-526
       - 马来西亚|@ripaojiedian
+      - KR_1 |5.8MB/s|GPT|NF|D+|39%
+      - 马来西亚|@ripaojiedian 4
       - tg频道:@ripaojiedian 2
       - 4Sarina-169
       - RU_225
@@ -75,15 +79,17 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 法国 | FRA 2
-      - tg频道:@ripaojiedian
       - "@V2RAY_VMESS_free"
-      - 4Nika-237
-      - 4Nika-526
+      - "@V2RAY_VMESS_free 2"
       - 香港3|@ripaojiedian
-      - KR_1 |5.8MB/s|GPT|NF|D+|39%
       - CN-103.181.165.246-0684
+      - 法国 | FRA 2
+      - 4Nika-237
+      - tg频道:@ripaojiedian
+      - 4Nika-526
       - 马来西亚|@ripaojiedian
+      - KR_1 |5.8MB/s|GPT|NF|D+|39%
+      - 马来西亚|@ripaojiedian 4
       - tg频道:@ripaojiedian 2
       - 4Sarina-169
       - RU_225
@@ -94,15 +100,17 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 法国 | FRA 2
-      - tg频道:@ripaojiedian
       - "@V2RAY_VMESS_free"
-      - 4Nika-237
-      - 4Nika-526
+      - "@V2RAY_VMESS_free 2"
       - 香港3|@ripaojiedian
-      - KR_1 |5.8MB/s|GPT|NF|D+|39%
       - CN-103.181.165.246-0684
+      - 法国 | FRA 2
+      - 4Nika-237
+      - tg频道:@ripaojiedian
+      - 4Nika-526
       - 马来西亚|@ripaojiedian
+      - KR_1 |5.8MB/s|GPT|NF|D+|39%
+      - 马来西亚|@ripaojiedian 4
       - tg频道:@ripaojiedian 2
       - 4Sarina-169
       - RU_225
