@@ -26,8 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 日本 | JPN, server: 137.220.142.139, port: 636, type: ss, cipher: aes-256-gcm, password: 70a0b8103356, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp5v1.lingjfjkm002.com, path: /bezradrqccl, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-- {name: "12,13|香港3|@ripaojiedian", server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 4Mohsen-1145, server: 103.186.154.20, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: "12,13|香港5|@ripaojiedian", server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: f5c0eda2-4b97-11ed-bd7c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 4FreeIran-1514, server: 218.237.185.230, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: CN_283a2_0017, server: 183.240.245.240, port: 44009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -40,8 +42,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 日本 | JPN
-      - 12,13|香港3|@ripaojiedian
+      - 4Mohsen-1145
+      - 12,13|香港5|@ripaojiedian
+      - 4FreeIran-1514
+      - CN_283a2_0017
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -53,16 +57,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 日本 | JPN
-      - 12,13|香港3|@ripaojiedian
+      - 4Mohsen-1145
+      - 12,13|香港5|@ripaojiedian
+      - 4FreeIran-1514
+      - CN_283a2_0017
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 日本 | JPN
-      - 12,13|香港3|@ripaojiedian
+      - 4Mohsen-1145
+      - 12,13|香港5|@ripaojiedian
+      - 4FreeIran-1514
+      - CN_283a2_0017
   - name: 🐟 漏网之鱼
     type: select
     proxies:
