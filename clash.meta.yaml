@@ -25,79 +25,27 @@ dns:
     geoip-code: CN
     ipcidr:
     - 240.0.0.0/4
-unified-delay: true
-global-client-fingerprint: chrome
-dns:
-  enable: true
-  listen: :53
-  ipv6: true
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  default-nameserver:
-  - 223.5.5.5
-  - 8.8.8.8
-  nameserver:
-  - https://dns.alidns.com/dns-query
-  - https://doh.pub/dns-query
-  fallback:
-  - https://1.0.0.1/dns-query
-  - tls://dns.google
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
-    ipcidr:
-    - 240.0.0.0/4
-unified-delay: true
-global-client-fingerprint: chrome
-dns:
-  enable: true
-  listen: :53
-  ipv6: true
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  default-nameserver:
-  - 223.5.5.5
-  - 8.8.8.8
-  nameserver:
-  - https://dns.alidns.com/dns-query
-  - https://doh.pub/dns-query
-  fallback:
-  - https://1.0.0.1/dns-query
-  - tls://dns.google
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
-    ipcidr:
-    - 240.0.0.0/4
-unified-delay: true
-global-client-fingerprint: chrome
-dns:
-  enable: true
-  listen: :53
-  ipv6: true
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  default-nameserver:
-  - 223.5.5.5
-  - 8.8.8.8
-  nameserver:
-  - https://dns.alidns.com/dns-query
-  - https://doh.pub/dns-query
-  fallback:
-  - https://1.0.0.1/dns-query
-  - tls://dns.google
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
-    ipcidr:
-    - 240.0.0.0/4
 proxies:
-- {name: tg频道:@ripaojiedian, server: 13.239.17.206, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: CN_283a2_0017, server: 183.240.245.240, port: 44009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 未知, server: awes35lesl.blhao0o.dpdns.org, port: 12028, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
-- {name: CN-103.181.165.246-0684, server: awes35lesl.blhao0o.dpdns.org, port: 12024, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
-- {name: RU_157, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: _CN_中国->🇬🇧_GB_英国, server: v36.heduian.link, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v36.heduian.link}}, udp: true}
+- {name: US_30 |5.3MB/s|GPT|NF|GM|83%, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: 4Mohsen-1169, server: 103.186.155.24, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Kian-1151, server: 103.186.154.31, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1143, server: 103.186.154.19, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1151, server: 103.186.154.32, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1160, server: 103.186.155.20, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1148, server: 103.186.154.29, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1147, server: 103.186.154.23, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1150, server: 103.186.154.26, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1162, server: 103.186.155.22, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1148, server: 103.186.154.24, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1161, server: 103.186.155.21, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1152, server: 103.186.154.35, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1152 2, server: 103.186.154.33, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1158, server: 103.186.155.18, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1142, server: 103.186.154.18, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 荷兰 | NLD 4, server: v30.heduian.link, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
+- {name: FR_1 |5.0MB/s|GPT|YT-FR|NF|25%, server: v37.heduian.link, port: 30837, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v37.heduian.link}}, udp: true}
+- {name: cn|3ca0|puddincat07@Telegram, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: cn|3ca0|puddincat07@Telegram 2, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -110,12 +58,26 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - tg频道:@ripaojiedian
-      - CN_283a2_0017
-      - 未知
-      - CN-103.181.165.246-0684
-      - RU_157
-      - _CN_中国->🇬🇧_GB_英国
+      - US_30 |5.3MB/s|GPT|NF|GM|83%
+      - 4Mohsen-1169
+      - 4Kian-1151
+      - 4Nika-1143
+      - 4Sarina-1151
+      - 4Sarina-1160
+      - 4Sarina-1148
+      - 4Nika-1147
+      - 4Nika-1150
+      - 4Sarina-1162
+      - 4Nika-1148
+      - 4Sarina-1161
+      - 4Sarina-1152
+      - 4Sarina-1152 2
+      - 4Sarina-1158
+      - 4Nika-1142
+      - 荷兰 | NLD 4
+      - FR_1 |5.0MB/s|GPT|YT-FR|NF|25%
+      - cn|3ca0|puddincat07@Telegram
+      - cn|3ca0|puddincat07@Telegram 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -127,24 +89,52 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - tg频道:@ripaojiedian
-      - CN_283a2_0017
-      - 未知
-      - CN-103.181.165.246-0684
-      - RU_157
-      - _CN_中国->🇬🇧_GB_英国
+      - US_30 |5.3MB/s|GPT|NF|GM|83%
+      - 4Mohsen-1169
+      - 4Kian-1151
+      - 4Nika-1143
+      - 4Sarina-1151
+      - 4Sarina-1160
+      - 4Sarina-1148
+      - 4Nika-1147
+      - 4Nika-1150
+      - 4Sarina-1162
+      - 4Nika-1148
+      - 4Sarina-1161
+      - 4Sarina-1152
+      - 4Sarina-1152 2
+      - 4Sarina-1158
+      - 4Nika-1142
+      - 荷兰 | NLD 4
+      - FR_1 |5.0MB/s|GPT|YT-FR|NF|25%
+      - cn|3ca0|puddincat07@Telegram
+      - cn|3ca0|puddincat07@Telegram 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - tg频道:@ripaojiedian
-      - CN_283a2_0017
-      - 未知
-      - CN-103.181.165.246-0684
-      - RU_157
-      - _CN_中国->🇬🇧_GB_英国
+      - US_30 |5.3MB/s|GPT|NF|GM|83%
+      - 4Mohsen-1169
+      - 4Kian-1151
+      - 4Nika-1143
+      - 4Sarina-1151
+      - 4Sarina-1160
+      - 4Sarina-1148
+      - 4Nika-1147
+      - 4Nika-1150
+      - 4Sarina-1162
+      - 4Nika-1148
+      - 4Sarina-1161
+      - 4Sarina-1152
+      - 4Sarina-1152 2
+      - 4Sarina-1158
+      - 4Nika-1142
+      - 荷兰 | NLD 4
+      - FR_1 |5.0MB/s|GPT|YT-FR|NF|25%
+      - cn|3ca0|puddincat07@Telegram
+      - cn|3ca0|puddincat07@Telegram 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
