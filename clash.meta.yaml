@@ -26,26 +26,22 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: US_30 |5.3MB/s|GPT|NF|GM|83%, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: 4Mohsen-1169, server: 103.186.155.24, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Kian-1151, server: 103.186.154.31, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Nika-1143, server: 103.186.154.19, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1151, server: 103.186.154.32, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1160, server: 103.186.155.20, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1148, server: 103.186.154.29, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Nika-1147, server: 103.186.154.23, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Nika-1150, server: 103.186.154.26, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1162, server: 103.186.155.22, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Nika-1148, server: 103.186.154.24, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1161, server: 103.186.155.21, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1152, server: 103.186.154.35, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1152 2, server: 103.186.154.33, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1158, server: 103.186.155.18, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Nika-1142, server: 103.186.154.18, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 荷兰 | NLD 4, server: v30.heduian.link, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
-- {name: FR_1 |5.0MB/s|GPT|YT-FR|NF|25%, server: v37.heduian.link, port: 30837, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v37.heduian.link}}, udp: true}
 - {name: cn|3ca0|puddincat07@Telegram, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: cn|3ca0|puddincat07@Telegram 2, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: US_30 |5.3MB/s|GPT|NF|GM|83%, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: xx|0139|puddincat07@Telegram, server: fk1.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fk1.620720.xyz}}, udp: true}
+- {name: 4Sarina-1158, server: 103.186.155.18, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Mohsen-1169, server: 103.186.155.24, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1148, server: 103.186.154.29, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Mohsen-1140, server: 103.186.154.20, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1150, server: 103.186.154.26, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 伊朗 V2CROSS.COM, server: dl01.armod.top, port: 443, type: vmess, uuid: cd11391b-9f7a-4478-b624-3a1d5d81d426, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Nika-1148, server: 103.186.154.24, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1161, server: 103.186.155.21, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 伊朗 V2CROSS.COM 2, server: dl01.armod.top, port: 443, type: vmess, uuid: cd11391b-9f7a-4478-b624-3a1d5d81d426, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: cn|3ca0|puddincat07@Telegram 2 2, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 德国 | DEU 5, server: fk4.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fk4.620720.xyz}}, udp: true}
+- {name: cn|3ca0|puddincat07@Telegram 3, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -58,26 +54,22 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - US_30 |5.3MB/s|GPT|NF|GM|83%
-      - 4Mohsen-1169
-      - 4Kian-1151
-      - 4Nika-1143
-      - 4Sarina-1151
-      - 4Sarina-1160
-      - 4Sarina-1148
-      - 4Nika-1147
-      - 4Nika-1150
-      - 4Sarina-1162
-      - 4Nika-1148
-      - 4Sarina-1161
-      - 4Sarina-1152
-      - 4Sarina-1152 2
-      - 4Sarina-1158
-      - 4Nika-1142
-      - 荷兰 | NLD 4
-      - FR_1 |5.0MB/s|GPT|YT-FR|NF|25%
       - cn|3ca0|puddincat07@Telegram
       - cn|3ca0|puddincat07@Telegram 2
+      - US_30 |5.3MB/s|GPT|NF|GM|83%
+      - xx|0139|puddincat07@Telegram
+      - 4Sarina-1158
+      - 4Mohsen-1169
+      - 4Sarina-1148
+      - 4Mohsen-1140
+      - 4Nika-1150
+      - 伊朗 V2CROSS.COM
+      - 4Nika-1148
+      - 4Sarina-1161
+      - 伊朗 V2CROSS.COM 2
+      - cn|3ca0|puddincat07@Telegram 2 2
+      - 德国 | DEU 5
+      - cn|3ca0|puddincat07@Telegram 3
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -89,52 +81,44 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - US_30 |5.3MB/s|GPT|NF|GM|83%
-      - 4Mohsen-1169
-      - 4Kian-1151
-      - 4Nika-1143
-      - 4Sarina-1151
-      - 4Sarina-1160
-      - 4Sarina-1148
-      - 4Nika-1147
-      - 4Nika-1150
-      - 4Sarina-1162
-      - 4Nika-1148
-      - 4Sarina-1161
-      - 4Sarina-1152
-      - 4Sarina-1152 2
-      - 4Sarina-1158
-      - 4Nika-1142
-      - 荷兰 | NLD 4
-      - FR_1 |5.0MB/s|GPT|YT-FR|NF|25%
       - cn|3ca0|puddincat07@Telegram
       - cn|3ca0|puddincat07@Telegram 2
+      - US_30 |5.3MB/s|GPT|NF|GM|83%
+      - xx|0139|puddincat07@Telegram
+      - 4Sarina-1158
+      - 4Mohsen-1169
+      - 4Sarina-1148
+      - 4Mohsen-1140
+      - 4Nika-1150
+      - 伊朗 V2CROSS.COM
+      - 4Nika-1148
+      - 4Sarina-1161
+      - 伊朗 V2CROSS.COM 2
+      - cn|3ca0|puddincat07@Telegram 2 2
+      - 德国 | DEU 5
+      - cn|3ca0|puddincat07@Telegram 3
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - US_30 |5.3MB/s|GPT|NF|GM|83%
-      - 4Mohsen-1169
-      - 4Kian-1151
-      - 4Nika-1143
-      - 4Sarina-1151
-      - 4Sarina-1160
-      - 4Sarina-1148
-      - 4Nika-1147
-      - 4Nika-1150
-      - 4Sarina-1162
-      - 4Nika-1148
-      - 4Sarina-1161
-      - 4Sarina-1152
-      - 4Sarina-1152 2
-      - 4Sarina-1158
-      - 4Nika-1142
-      - 荷兰 | NLD 4
-      - FR_1 |5.0MB/s|GPT|YT-FR|NF|25%
       - cn|3ca0|puddincat07@Telegram
       - cn|3ca0|puddincat07@Telegram 2
+      - US_30 |5.3MB/s|GPT|NF|GM|83%
+      - xx|0139|puddincat07@Telegram
+      - 4Sarina-1158
+      - 4Mohsen-1169
+      - 4Sarina-1148
+      - 4Mohsen-1140
+      - 4Nika-1150
+      - 伊朗 V2CROSS.COM
+      - 4Nika-1148
+      - 4Sarina-1161
+      - 伊朗 V2CROSS.COM 2
+      - cn|3ca0|puddincat07@Telegram 2 2
+      - 德国 | DEU 5
+      - cn|3ca0|puddincat07@Telegram 3
   - name: 🐟 漏网之鱼
     type: select
     proxies:
