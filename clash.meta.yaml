@@ -26,10 +26,8 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: US_3cb63_0259, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: 美国4|@ripaojiedian, server: 36.156.102.67, port: 22006, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true, udp: true}
-- {name: RU_130, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 4Jadi-146, server: 94.131.22.134, port: 40565, type: ss, cipher: chacha20-ietf-poly1305, password: 2PQVPJEWXxMkkdE82AW7qEj7jxQrZxqFUj3zheLjFArvtmuzUXNp9JUwzXGD1yJEHcDyH41HfPNo37vHWuLBp3guiRSuUZ6v, udp: true}
+- {name: 12|tg频道:@ripaojiedian, server: 34.244.73.113, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Sarina-718, server: 77.83.245.195, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: i0Dn5sYOohtx, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +40,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - US_3cb63_0259
-      - 美国4|@ripaojiedian
-      - RU_130
-      - 4Jadi-146
+      - 12|tg频道:@ripaojiedian
+      - 4Sarina-718
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,20 +53,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - US_3cb63_0259
-      - 美国4|@ripaojiedian
-      - RU_130
-      - 4Jadi-146
+      - 12|tg频道:@ripaojiedian
+      - 4Sarina-718
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - US_3cb63_0259
-      - 美国4|@ripaojiedian
-      - RU_130
-      - 4Jadi-146
+      - 12|tg频道:@ripaojiedian
+      - 4Sarina-718
   - name: 🐟 漏网之鱼
     type: select
     proxies:
