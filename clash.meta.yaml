@@ -26,16 +26,12 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: IT_1|5.7MB/s|GPT⁺|YT-IT|24%, server: v5.heduian.link, port: 30805, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v5.heduian.link}}, udp: true}
 - {name: tg频道:@ripaojiedian, server: 52.215.235.115, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 日本2|@ripaojiedian, server: 137.220.191.40, port: 636, type: ss, cipher: aes-256-gcm, password: 823e135ed103, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp7v1.lingjfjkm002.com, path: /dchlbvrbbotc, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-- {name: 美国|@ripaojiedian, server: usa022.tmdns-sing.top, port: 13892, type: ss, cipher: aes-128-gcm, password: 6b1e5475-7661-4921-aa26-d11758b2f3f1, udp: true}
 - {name: 越南|@ripaojiedian, server: 103.186.154.31, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: RU_123, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 美国5|@ripaojiedian, server: usa20250815010624020199.tmdns-sing.top, port: 13874, type: ss, cipher: aes-128-gcm, password: 6b1e5475-7661-4921-aa26-d11758b2f3f1, udp: true}
-- {name: 4Jadi-569, server: 167.71.235.238, port: 47347, type: ss, cipher: chacha20-ietf-poly1305, password: WgACwLy1BPk47JOzHyA7zu, udp: true}
-- {name: 4Jadi-1090, server: 103.186.154.30, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1098, server: 103.186.155.133, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1107, server: 103.186.155.30, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1082, server: 103.186.154.25, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1094, server: 103.186.154.38, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1095, server: 103.186.155.133, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -48,16 +44,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - IT_1|5.7MB/s|GPT⁺|YT-IT|24%
       - tg频道:@ripaojiedian
-      - 日本2|@ripaojiedian
-      - 美国|@ripaojiedian
       - 越南|@ripaojiedian
-      - RU_123
-      - 美国5|@ripaojiedian
-      - 4Jadi-569
-      - 4Jadi-1090
-      - 4Jadi-1098
-      - 4Jadi-1107
+      - 4Jadi-1082
+      - 4Jadi-1094
+      - 4Jadi-1095
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -69,32 +61,24 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - IT_1|5.7MB/s|GPT⁺|YT-IT|24%
       - tg频道:@ripaojiedian
-      - 日本2|@ripaojiedian
-      - 美国|@ripaojiedian
       - 越南|@ripaojiedian
-      - RU_123
-      - 美国5|@ripaojiedian
-      - 4Jadi-569
-      - 4Jadi-1090
-      - 4Jadi-1098
-      - 4Jadi-1107
+      - 4Jadi-1082
+      - 4Jadi-1094
+      - 4Jadi-1095
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - IT_1|5.7MB/s|GPT⁺|YT-IT|24%
       - tg频道:@ripaojiedian
-      - 日本2|@ripaojiedian
-      - 美国|@ripaojiedian
       - 越南|@ripaojiedian
-      - RU_123
-      - 美国5|@ripaojiedian
-      - 4Jadi-569
-      - 4Jadi-1090
-      - 4Jadi-1098
-      - 4Jadi-1107
+      - 4Jadi-1082
+      - 4Jadi-1094
+      - 4Jadi-1095
   - name: 🐟 漏网之鱼
     type: select
     proxies:
