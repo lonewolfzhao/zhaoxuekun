@@ -26,14 +26,14 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Mohsen-2437, server: 212.192.221.139, port: 50901, type: ss, cipher: aes-256-gcm, password: eb3d8e57e98343ad, udp: true}
-- {name: 日本 | JPN 6, server: 137.220.142.139, port: 636, type: ss, cipher: aes-256-gcm, password: 70a0b8103356, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp5v1.lingjfjkm002.com, path: /bezradrqccl, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-- {name: 4Sarina-41, server: 36.141.40.46, port: 15111, type: ss, cipher: chacha20-ietf-poly1305, password: 5b751724-20b0-49a5-87fb-b0eb95b4485e, udp: true}
-- {name: 4Sarina-43, server: 36.141.40.46, port: 15131, type: ss, cipher: chacha20-ietf-poly1305, password: 5b751724-20b0-49a5-87fb-b0eb95b4485e, udp: true}
-- {name: 4Sarina-44, server: 36.141.40.46, port: 15141, type: ss, cipher: chacha20-ietf-poly1305, password: 5b751724-20b0-49a5-87fb-b0eb95b4485e, udp: true}
-- {name: 4Sarina-45, server: 36.141.40.46, port: 15151, type: ss, cipher: chacha20-ietf-poly1305, password: 5b751724-20b0-49a5-87fb-b0eb95b4485e, udp: true}
-- {name: 4Sarina-46, server: 36.141.40.46, port: 15161, type: ss, cipher: chacha20-ietf-poly1305, password: 5b751724-20b0-49a5-87fb-b0eb95b4485e, udp: true}
-- {name: 4Sarina-1136, server: 103.186.155.30, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: NL_1|5.6MB/s|GPT⁺|NF|100%, server: 45.158.171.146, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
+- {name: IE_1|5.0MB/s|GPT⁺|YT-IE|NF|0%, server: 176.34.150.214, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: NL_2|5.2MB/s|GPT⁺|NF|100%, server: 45.158.171.146, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
+- {name: CN_41f0e_0001, server: awes35lesl.blhao0o.dpdns.org, port: 12031, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
+- {name: 4Kian-1130, server: 103.186.154.37, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-2457, server: 212.192.221.139, port: 50901, type: ss, cipher: aes-256-gcm, password: eb3d8e57e98343ad, udp: true}
+- {name: 4Sarina-1122, server: 103.186.154.28, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1124, server: 103.186.154.30, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -46,14 +46,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Mohsen-2437
-      - 日本 | JPN 6
-      - 4Sarina-41
-      - 4Sarina-43
-      - 4Sarina-44
-      - 4Sarina-45
-      - 4Sarina-46
-      - 4Sarina-1136
+      - NL_1|5.6MB/s|GPT⁺|NF|100%
+      - IE_1|5.0MB/s|GPT⁺|YT-IE|NF|0%
+      - NL_2|5.2MB/s|GPT⁺|NF|100%
+      - CN_41f0e_0001
+      - 4Kian-1130
+      - 4Jadi-2457
+      - 4Sarina-1122
+      - 4Sarina-1124
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -65,28 +65,28 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Mohsen-2437
-      - 日本 | JPN 6
-      - 4Sarina-41
-      - 4Sarina-43
-      - 4Sarina-44
-      - 4Sarina-45
-      - 4Sarina-46
-      - 4Sarina-1136
+      - NL_1|5.6MB/s|GPT⁺|NF|100%
+      - IE_1|5.0MB/s|GPT⁺|YT-IE|NF|0%
+      - NL_2|5.2MB/s|GPT⁺|NF|100%
+      - CN_41f0e_0001
+      - 4Kian-1130
+      - 4Jadi-2457
+      - 4Sarina-1122
+      - 4Sarina-1124
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Mohsen-2437
-      - 日本 | JPN 6
-      - 4Sarina-41
-      - 4Sarina-43
-      - 4Sarina-44
-      - 4Sarina-45
-      - 4Sarina-46
-      - 4Sarina-1136
+      - NL_1|5.6MB/s|GPT⁺|NF|100%
+      - IE_1|5.0MB/s|GPT⁺|YT-IE|NF|0%
+      - NL_2|5.2MB/s|GPT⁺|NF|100%
+      - CN_41f0e_0001
+      - 4Kian-1130
+      - 4Jadi-2457
+      - 4Sarina-1122
+      - 4Sarina-1124
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -8897,4 +8897,6 @@ rules:
   - DOMAIN-KEYWORD,starvibe24,🔰 节点选择
   - DOMAIN-KEYWORD,fdcservers,🔰 节点选择
   - DOMAIN-KEYWORD,a2507app,🔰 节点选择
+  - DOMAIN-KEYWORD,prefecturesuggestions,🔰 节点选择
+  - DOMAIN-KEYWORD,surrit.store,🔰 节点选择
   - MATCH,🐟 漏网之鱼
