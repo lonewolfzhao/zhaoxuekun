@@ -26,17 +26,17 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: CN_d56e5_0001, server: awes35lesl.blhao0o.dpdns.org, port: 12031, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
+- {name: CN_d56e5_0004, server: awes35lesl.blhao0o.dpdns.org, port: 12012, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
+- {name: 300گیگ 39تومان! تست‌رایگان🔥TickV2Bot@, server: 188.121.105.248, port: 4040, type: vmess, uuid: d6fd109d-e147-4253-83f1-50b3401fb8da, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Mohsen-1115, server: 103.186.154.21, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Mohsen-55, server: fox-usa.outlinekeys.net, port: 34868, type: ss, cipher: chacha20-ietf-poly1305, password: 6HxRsF0fXlODpq8QbJWsS9, udp: true}
+- {name: 4Mohsen-1115 2, server: 103.186.154.23, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 - {name: 香港 | HKG, server: 697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
 - {name: NL-51.15.23.63-0287, server: 51.15.23.63, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: 4Mohsen-1124, server: 103.186.154.30, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Mohsen-55, server: fox-usa.outlinekeys.net, port: 34868, type: ss, cipher: chacha20-ietf-poly1305, password: 6HxRsF0fXlODpq8QbJWsS9, udp: true}
-- {name: 4Mohsen-1115, server: 103.186.154.21, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Mohsen-1115 2, server: 103.186.154.23, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 - {name: 4Mohsen-1122, server: 103.186.154.28, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Mohsen-1119, server: 103.186.154.25, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Mohsen-1112, server: 103.186.154.18, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 - {name: CN_d56e5_0002, server: awes35lesl.blhao0o.dpdns.org, port: 12034, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
-- {name: 300گیگ 39تومان! تست‌رایگان🔥TickV2Bot@, server: 188.121.105.248, port: 4040, type: vmess, uuid: d6fd109d-e147-4253-83f1-50b3401fb8da, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -49,17 +49,17 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - CN_d56e5_0001
+      - CN_d56e5_0004
+      - 300گیگ 39تومان! تست‌رایگان🔥TickV2Bot@
+      - 4Mohsen-1115
+      - 4Mohsen-55
+      - 4Mohsen-1115 2
       - 香港 | HKG
       - NL-51.15.23.63-0287
       - 4Mohsen-1124
-      - 4Mohsen-55
-      - 4Mohsen-1115
-      - 4Mohsen-1115 2
       - 4Mohsen-1122
-      - 4Mohsen-1119
-      - 4Mohsen-1112
       - CN_d56e5_0002
-      - 300گیگ 39تومان! تست‌رایگان🔥TickV2Bot@
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -71,34 +71,34 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - CN_d56e5_0001
+      - CN_d56e5_0004
+      - 300گیگ 39تومان! تست‌رایگان🔥TickV2Bot@
+      - 4Mohsen-1115
+      - 4Mohsen-55
+      - 4Mohsen-1115 2
       - 香港 | HKG
       - NL-51.15.23.63-0287
       - 4Mohsen-1124
-      - 4Mohsen-55
-      - 4Mohsen-1115
-      - 4Mohsen-1115 2
       - 4Mohsen-1122
-      - 4Mohsen-1119
-      - 4Mohsen-1112
       - CN_d56e5_0002
-      - 300گیگ 39تومان! تست‌رایگان🔥TickV2Bot@
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - CN_d56e5_0001
+      - CN_d56e5_0004
+      - 300گیگ 39تومان! تست‌رایگان🔥TickV2Bot@
+      - 4Mohsen-1115
+      - 4Mohsen-55
+      - 4Mohsen-1115 2
       - 香港 | HKG
       - NL-51.15.23.63-0287
       - 4Mohsen-1124
-      - 4Mohsen-55
-      - 4Mohsen-1115
-      - 4Mohsen-1115 2
       - 4Mohsen-1122
-      - 4Mohsen-1119
-      - 4Mohsen-1112
       - CN_d56e5_0002
-      - 300گیگ 39تومان! تست‌رایگان🔥TickV2Bot@
   - name: 🐟 漏网之鱼
     type: select
     proxies:
