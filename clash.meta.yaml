@@ -26,21 +26,31 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Jadi-1139, server: 103.186.154.33, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1127, server: 103.186.154.21, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1142, server: 103.186.154.37, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: IR🇮🇷 | 188.121.105.248-4040 | 176.67ms, server: 188.121.105.248, port: 4040, type: vmess, uuid: d6fd109d-e147-4253-83f1-50b3401fb8da, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4Jadi-1129, server: 103.186.154.23, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1136, server: 103.186.154.30, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1138, server: 103.186.154.32, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-241, server: 138.197.192.62, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: CGCYQgKSHn6DRoihc1mPZl, udp: true}
-- {name: IR🇮🇷 | 188.121.105.248-4040 | 176.67ms 2, server: 188.121.105.248, port: 4040, type: vmess, uuid: d6fd109d-e147-4253-83f1-50b3401fb8da, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4Jadi-1131, server: 103.186.154.25, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1528, server: 192.142.18.127, port: 443, type: ss, cipher: aes-256-gcm, password: 68439b46-0223-4e76-9757-f15f17a41b71, udp: true}
-- {name: _CN_中国->🇺🇸_US_美国, server: v33.heduian.link, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v33.heduian.link}}, udp: true}
-- {name: 4Jadi-1141, server: 103.186.154.36, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 - {name: 香港 | HKG, server: 697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 4Jadi-1129, server: 103.186.154.23, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: CN_eaf55_0007, server: awes35lesl.blhao0o.dpdns.org, port: 12020, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
+- {name: 4FreeIran-1128, server: 103.186.155.21, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 台湾 | TWN 17, server: 1.170.29.178, port: 10119, type: ss, cipher: chacha20-ietf-poly1305, password: d15cdca5-c8a6-41fc-adaf-fb0555a9673b, udp: true}
+- {name: CN_eaf55_0008, server: awes35lesl.blhao0o.dpdns.org, port: 12030, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
+- {name: 台湾 | TWN 21, server: 125.228.162.233, port: 10145, type: ss, cipher: chacha20-ietf-poly1305, password: a2c21525-ebe9-4cd7-b74b-d8bd5348281c, udp: true}
+- {name: 台湾 | TWN 42, server: 1.165.79.32, port: 10034, type: ss, cipher: chacha20-ietf-poly1305, password: f03bced5-7130-4c3e-9367-d3dffdd69751, udp: true}
+- {name: 台湾 | TWN 14, server: 114.33.53.213, port: 10037, type: ss, cipher: chacha20-ietf-poly1305, password: f75d3f26-038e-4f53-b81b-ae2e05ebef33, udp: true}
+- {name: 台湾 | TWN 25, server: 1.170.51.75, port: 10084, type: ss, cipher: chacha20-ietf-poly1305, password: 22b620c9-4069-484f-9561-6545e1581254, udp: true}
+- {name: 4Jadi-1139, server: 103.186.154.33, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 台湾 | TWN 31, server: 36.232.90.197, port: 10135, type: ss, cipher: chacha20-ietf-poly1305, password: d00ad149-7c56-44d3-9fdc-7cb260f737e3, udp: true}
+- {name: 4FreeIran-1106, server: 103.186.154.20, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1136, server: 103.186.154.30, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 台湾 | TWN 27, server: 114.46.94.65, port: 10070, type: ss, cipher: chacha20-ietf-poly1305, password: d00ad149-7c56-44d3-9fdc-7cb260f737e3, udp: true}
+- {name: FR_1|4.9MB/s|GPT⁺|NF, server: www.speedtest.net, port: 443, type: vmess, uuid: b7acf44f-3c3a-430c-8ed0-fb64ccc9a13a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvkwss, headers: {Host: BLaZE-fRA-64.BLaZECLOuD.sitE}}, udp: true}
+- {name: 4Sarina-1123, server: 103.186.155.19, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1131, server: 103.186.154.25, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-1104, server: 103.186.154.18, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1138, server: 103.186.154.32, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-1120, server: 103.186.154.35, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1141, server: 103.186.154.36, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 - {name: 4Jadi-1134, server: 103.186.154.28, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: FR_b2a09_0021, server: 51.15.23.63, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 俄罗斯 | RUS 2, server: 45.136.245.177, port: 23163, type: vmess, uuid: 1209fd51-bf42-4ed0-bd15-c1ff130c69df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -53,21 +63,31 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Jadi-1139
-      - 4Jadi-1127
-      - 4Jadi-1142
-      - IR🇮🇷 | 188.121.105.248-4040 | 176.67ms
-      - 4Jadi-1129
-      - 4Jadi-1136
-      - 4Jadi-1138
-      - 4Sarina-241
-      - IR🇮🇷 | 188.121.105.248-4040 | 176.67ms 2
-      - 4Jadi-1131
-      - 4Jadi-1528
-      - _CN_中国->🇺🇸_US_美国
-      - 4Jadi-1141
       - 香港 | HKG
+      - 4Jadi-1129
+      - CN_eaf55_0007
+      - 4FreeIran-1128
+      - 台湾 | TWN 17
+      - CN_eaf55_0008
+      - 台湾 | TWN 21
+      - 台湾 | TWN 42
+      - 台湾 | TWN 14
+      - 台湾 | TWN 25
+      - 4Jadi-1139
+      - 台湾 | TWN 31
+      - 4FreeIran-1106
+      - 4Jadi-1136
+      - 台湾 | TWN 27
+      - FR_1|4.9MB/s|GPT⁺|NF
+      - 4Sarina-1123
+      - 4Jadi-1131
+      - 4FreeIran-1104
+      - 4Jadi-1138
+      - 4FreeIran-1120
+      - 4Jadi-1141
       - 4Jadi-1134
+      - FR_b2a09_0021
+      - 俄罗斯 | RUS 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -79,42 +99,62 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Jadi-1139
-      - 4Jadi-1127
-      - 4Jadi-1142
-      - IR🇮🇷 | 188.121.105.248-4040 | 176.67ms
-      - 4Jadi-1129
-      - 4Jadi-1136
-      - 4Jadi-1138
-      - 4Sarina-241
-      - IR🇮🇷 | 188.121.105.248-4040 | 176.67ms 2
-      - 4Jadi-1131
-      - 4Jadi-1528
-      - _CN_中国->🇺🇸_US_美国
-      - 4Jadi-1141
       - 香港 | HKG
+      - 4Jadi-1129
+      - CN_eaf55_0007
+      - 4FreeIran-1128
+      - 台湾 | TWN 17
+      - CN_eaf55_0008
+      - 台湾 | TWN 21
+      - 台湾 | TWN 42
+      - 台湾 | TWN 14
+      - 台湾 | TWN 25
+      - 4Jadi-1139
+      - 台湾 | TWN 31
+      - 4FreeIran-1106
+      - 4Jadi-1136
+      - 台湾 | TWN 27
+      - FR_1|4.9MB/s|GPT⁺|NF
+      - 4Sarina-1123
+      - 4Jadi-1131
+      - 4FreeIran-1104
+      - 4Jadi-1138
+      - 4FreeIran-1120
+      - 4Jadi-1141
       - 4Jadi-1134
+      - FR_b2a09_0021
+      - 俄罗斯 | RUS 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Jadi-1139
-      - 4Jadi-1127
-      - 4Jadi-1142
-      - IR🇮🇷 | 188.121.105.248-4040 | 176.67ms
-      - 4Jadi-1129
-      - 4Jadi-1136
-      - 4Jadi-1138
-      - 4Sarina-241
-      - IR🇮🇷 | 188.121.105.248-4040 | 176.67ms 2
-      - 4Jadi-1131
-      - 4Jadi-1528
-      - _CN_中国->🇺🇸_US_美国
-      - 4Jadi-1141
       - 香港 | HKG
+      - 4Jadi-1129
+      - CN_eaf55_0007
+      - 4FreeIran-1128
+      - 台湾 | TWN 17
+      - CN_eaf55_0008
+      - 台湾 | TWN 21
+      - 台湾 | TWN 42
+      - 台湾 | TWN 14
+      - 台湾 | TWN 25
+      - 4Jadi-1139
+      - 台湾 | TWN 31
+      - 4FreeIran-1106
+      - 4Jadi-1136
+      - 台湾 | TWN 27
+      - FR_1|4.9MB/s|GPT⁺|NF
+      - 4Sarina-1123
+      - 4Jadi-1131
+      - 4FreeIran-1104
+      - 4Jadi-1138
+      - 4FreeIran-1120
+      - 4Jadi-1141
       - 4Jadi-1134
+      - FR_b2a09_0021
+      - 俄罗斯 | RUS 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
