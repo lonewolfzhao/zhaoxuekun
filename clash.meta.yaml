@@ -26,31 +26,22 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 香港 | HKG, server: 697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 4Jadi-1129, server: 103.186.154.23, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: CN_eaf55_0007, server: awes35lesl.blhao0o.dpdns.org, port: 12020, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
-- {name: 4FreeIran-1128, server: 103.186.155.21, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 台湾 | TWN 17, server: 1.170.29.178, port: 10119, type: ss, cipher: chacha20-ietf-poly1305, password: d15cdca5-c8a6-41fc-adaf-fb0555a9673b, udp: true}
-- {name: CN_eaf55_0008, server: awes35lesl.blhao0o.dpdns.org, port: 12030, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
-- {name: 台湾 | TWN 21, server: 125.228.162.233, port: 10145, type: ss, cipher: chacha20-ietf-poly1305, password: a2c21525-ebe9-4cd7-b74b-d8bd5348281c, udp: true}
-- {name: 台湾 | TWN 42, server: 1.165.79.32, port: 10034, type: ss, cipher: chacha20-ietf-poly1305, password: f03bced5-7130-4c3e-9367-d3dffdd69751, udp: true}
-- {name: 台湾 | TWN 14, server: 114.33.53.213, port: 10037, type: ss, cipher: chacha20-ietf-poly1305, password: f75d3f26-038e-4f53-b81b-ae2e05ebef33, udp: true}
-- {name: 台湾 | TWN 25, server: 1.170.51.75, port: 10084, type: ss, cipher: chacha20-ietf-poly1305, password: 22b620c9-4069-484f-9561-6545e1581254, udp: true}
-- {name: 4Jadi-1139, server: 103.186.154.33, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 台湾 | TWN 31, server: 36.232.90.197, port: 10135, type: ss, cipher: chacha20-ietf-poly1305, password: d00ad149-7c56-44d3-9fdc-7cb260f737e3, udp: true}
-- {name: 4FreeIran-1106, server: 103.186.154.20, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1136, server: 103.186.154.30, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 台湾 | TWN 27, server: 114.46.94.65, port: 10070, type: ss, cipher: chacha20-ietf-poly1305, password: d00ad149-7c56-44d3-9fdc-7cb260f737e3, udp: true}
 - {name: FR_1|4.9MB/s|GPT⁺|NF, server: www.speedtest.net, port: 443, type: vmess, uuid: b7acf44f-3c3a-430c-8ed0-fb64ccc9a13a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvkwss, headers: {Host: BLaZE-fRA-64.BLaZECLOuD.sitE}}, udp: true}
-- {name: 4Sarina-1123, server: 103.186.155.19, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1131, server: 103.186.154.25, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1104, server: 103.186.154.18, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1138, server: 103.186.154.32, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1120, server: 103.186.154.35, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: CN_eaf55_0008, server: awes35lesl.blhao0o.dpdns.org, port: 12030, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
+- {name: 美国01付费推荐：https://dafei.de, server: csgo.com, port: 80, type: vmess, uuid: 62e4250a-fe02-40cc-ad32-c847389956cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: cdn-node-oss-99.paofu.de}}, udp: true}
+- {name: CN_eaf55_0007, server: awes35lesl.blhao0o.dpdns.org, port: 12020, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
+- {name: 台湾 | TWN 53, server: 1.170.13.23, port: 10112, type: ss, cipher: chacha20-ietf-poly1305, password: b12d7bef-dbe6-4eca-bc40-9a2333dcf918, udp: true}
+- {name: 4FreeIran-1128, server: 103.186.155.21, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 台湾 | TWN 29, server: 125.228.180.215, port: 10089, type: ss, cipher: chacha20-ietf-poly1305, password: bc60ddcd-d5bc-4212-a319-7dd59e991d25, udp: true}
+- {name: 台湾 | TWN 49, server: 36.232.91.227, port: 10147, type: ss, cipher: chacha20-ietf-poly1305, password: 26997e99-57a0-48e3-8aea-8cebab89fecd, udp: true}
+- {name: 美国02付费推荐：https://dafei.de, server: fastcup.net, port: 80, type: vmess, uuid: 62e4250a-fe02-40cc-ad32-c847389956cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: cdn-node-oss-99.paofu.de}}, udp: true}
+- {name: 4Jadi-1139, server: 103.186.154.33, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 - {name: 4Jadi-1141, server: 103.186.154.36, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1134, server: 103.186.154.28, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: FR_b2a09_0021, server: 51.15.23.63, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 俄罗斯 | RUS 2, server: 45.136.245.177, port: 23163, type: vmess, uuid: 1209fd51-bf42-4ed0-bd15-c1ff130c69df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- {name: 4Jadi-1129, server: 103.186.154.23, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1131, server: 103.186.154.25, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 台湾 | TWN 17, server: 114.46.90.10, port: 10056, type: ss, cipher: chacha20-ietf-poly1305, password: 1c2fa5ce-bb64-4e10-8b22-fa5d81c095fd, udp: true}
+- {name: vn|cec0|puddincat07@Telegram, server: 103.186.154.32, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-62, server: 83.217.9.120, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 7bO8akoRoM2M, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -63,31 +54,22 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港 | HKG
-      - 4Jadi-1129
-      - CN_eaf55_0007
-      - 4FreeIran-1128
-      - 台湾 | TWN 17
-      - CN_eaf55_0008
-      - 台湾 | TWN 21
-      - 台湾 | TWN 42
-      - 台湾 | TWN 14
-      - 台湾 | TWN 25
-      - 4Jadi-1139
-      - 台湾 | TWN 31
-      - 4FreeIran-1106
-      - 4Jadi-1136
-      - 台湾 | TWN 27
       - FR_1|4.9MB/s|GPT⁺|NF
-      - 4Sarina-1123
-      - 4Jadi-1131
-      - 4FreeIran-1104
-      - 4Jadi-1138
-      - 4FreeIran-1120
+      - CN_eaf55_0008
+      - 美国01付费推荐：https://dafei.de
+      - CN_eaf55_0007
+      - 台湾 | TWN 53
+      - 4FreeIran-1128
+      - 台湾 | TWN 29
+      - 台湾 | TWN 49
+      - 美国02付费推荐：https://dafei.de
+      - 4Jadi-1139
       - 4Jadi-1141
-      - 4Jadi-1134
-      - FR_b2a09_0021
-      - 俄罗斯 | RUS 2
+      - 4Jadi-1129
+      - 4Jadi-1131
+      - 台湾 | TWN 17
+      - vn|cec0|puddincat07@Telegram
+      - 4Sarina-62
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -99,62 +81,44 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港 | HKG
-      - 4Jadi-1129
-      - CN_eaf55_0007
-      - 4FreeIran-1128
-      - 台湾 | TWN 17
-      - CN_eaf55_0008
-      - 台湾 | TWN 21
-      - 台湾 | TWN 42
-      - 台湾 | TWN 14
-      - 台湾 | TWN 25
-      - 4Jadi-1139
-      - 台湾 | TWN 31
-      - 4FreeIran-1106
-      - 4Jadi-1136
-      - 台湾 | TWN 27
       - FR_1|4.9MB/s|GPT⁺|NF
-      - 4Sarina-1123
-      - 4Jadi-1131
-      - 4FreeIran-1104
-      - 4Jadi-1138
-      - 4FreeIran-1120
+      - CN_eaf55_0008
+      - 美国01付费推荐：https://dafei.de
+      - CN_eaf55_0007
+      - 台湾 | TWN 53
+      - 4FreeIran-1128
+      - 台湾 | TWN 29
+      - 台湾 | TWN 49
+      - 美国02付费推荐：https://dafei.de
+      - 4Jadi-1139
       - 4Jadi-1141
-      - 4Jadi-1134
-      - FR_b2a09_0021
-      - 俄罗斯 | RUS 2
+      - 4Jadi-1129
+      - 4Jadi-1131
+      - 台湾 | TWN 17
+      - vn|cec0|puddincat07@Telegram
+      - 4Sarina-62
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 香港 | HKG
-      - 4Jadi-1129
-      - CN_eaf55_0007
-      - 4FreeIran-1128
-      - 台湾 | TWN 17
-      - CN_eaf55_0008
-      - 台湾 | TWN 21
-      - 台湾 | TWN 42
-      - 台湾 | TWN 14
-      - 台湾 | TWN 25
-      - 4Jadi-1139
-      - 台湾 | TWN 31
-      - 4FreeIran-1106
-      - 4Jadi-1136
-      - 台湾 | TWN 27
       - FR_1|4.9MB/s|GPT⁺|NF
-      - 4Sarina-1123
-      - 4Jadi-1131
-      - 4FreeIran-1104
-      - 4Jadi-1138
-      - 4FreeIran-1120
+      - CN_eaf55_0008
+      - 美国01付费推荐：https://dafei.de
+      - CN_eaf55_0007
+      - 台湾 | TWN 53
+      - 4FreeIran-1128
+      - 台湾 | TWN 29
+      - 台湾 | TWN 49
+      - 美国02付费推荐：https://dafei.de
+      - 4Jadi-1139
       - 4Jadi-1141
-      - 4Jadi-1134
-      - FR_b2a09_0021
-      - 俄罗斯 | RUS 2
+      - 4Jadi-1129
+      - 4Jadi-1131
+      - 台湾 | TWN 17
+      - vn|cec0|puddincat07@Telegram
+      - 4Sarina-62
   - name: 🐟 漏网之鱼
     type: select
     proxies:
