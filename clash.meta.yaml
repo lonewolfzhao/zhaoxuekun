@@ -26,16 +26,20 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 日本 | JPN, server: 137.220.142.139, port: 636, type: ss, cipher: aes-256-gcm, password: 70a0b8103356, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp5v1.lingjfjkm002.com, path: /bezradrqccl, tls: true, mux: true, skip-cert-verify: true}, udp: true}
 - {name: 香港 | HKG, server: 697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 日本2|@ripaojiedian, server: 137.220.191.40, port: 636, type: ss, cipher: aes-256-gcm, password: 823e135ed103, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp7v1.lingjfjkm002.com, path: /dchlbvrbbotc, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-- {name: 4Kian-591, server: hackney-latest-strike.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XUMTygEM1jVYIvysXKqA5T, udp: true}
-- {name: 台湾 | TWN 4, server: 114.46.126.9, port: 10060, type: ss, cipher: chacha20-ietf-poly1305, password: face09df-dd67-423a-91c6-bca3ba4ea615, udp: true}
-- {name: 台湾 | TWN 21, server: 125.229.191.104, port: 10033, type: ss, cipher: chacha20-ietf-poly1305, password: cb8c9b66-cf5d-4c20-a6d9-459073dc4bb2, udp: true}
-- {name: 台湾 | TWN 33, server: 111.253.195.213, port: 10135, type: ss, cipher: chacha20-ietf-poly1305, password: a48c11be-f5e3-4a9f-b2a1-27458d480951, udp: true}
-- {name: 台湾 | TWN 38, server: 1.170.0.178, port: 10133, type: ss, cipher: chacha20-ietf-poly1305, password: 72ba05a3-632e-490b-ad00-158578664c18, udp: true}
-- {name: 台湾 | TWN 10, server: 36.232.80.11, port: 10134, type: ss, cipher: chacha20-ietf-poly1305, password: e284a8b2-a3b4-47a9-9f27-a0ac8e281812, udp: true}
-- {name: 德国 V2CROSS.COM, server: 185.16.110.212, port: 8880, type: vmess, uuid: b209dfbf-6bb0-30b2-a77a-286e230466b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", headers: {Host: TG.WangCai2.s4.db-link02.top}}, udp: true}
-- {name: 4Sarina-827, server: 216.9.225.179, port: 2020, type: ss, cipher: chacha20-ietf-poly1305, password: rnnvS1UFeNOEvM8aAViqZA, udp: true}
+- {name: 台湾 | TWN 25, server: 125.231.88.69, port: 10052, type: ss, cipher: chacha20-ietf-poly1305, password: c9fd29d2-3c04-42cf-b60b-bbf3115a4e7c, udp: true}
+- {name: 英国 | GBR, server: uk045.jd.kunlunpx.com, port: 45929, type: ss, cipher: aes-128-gcm, password: c8a1d0a69902859d209f, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
+- {name: US_16|5.0MB/s|GPT⁺|NF|D+|67%, server: 45.159.217.223, port: 8880, type: vmess, uuid: 125f71e4-79d6-36c3-943b-d753b440dd09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/", headers: {Host: TG.WangCai2.s4.db-link02.top}}, udp: true}
+- {name: 台湾 | TWN 3, server: 36.232.100.63, port: 10125, type: ss, cipher: chacha20-ietf-poly1305, password: 73a56277-ecff-45dd-8b1f-0fd659af774c, udp: true}
+- {name: 台湾 | TWN 35, server: 36.232.123.141, port: 10151, type: ss, cipher: chacha20-ietf-poly1305, password: 6d354e84-8af8-4e87-98f2-3a77b997685e, udp: true}
+- {name: 台湾 | TWN 65, server: 1.170.34.72, port: 10106, type: ss, cipher: chacha20-ietf-poly1305, password: 456f1a9d-83e3-42c1-940d-5d8520edcc70, udp: true}
+- {name: 台湾 | TWN 50, server: 36.232.79.188, port: 10131, type: ss, cipher: chacha20-ietf-poly1305, password: e3197345-2ae8-40cb-948f-bcb0fbca6592, udp: true}
+- {name: 台湾 | TWN 22, server: 1.165.74.83, port: 10011, type: ss, cipher: chacha20-ietf-poly1305, password: 3342be2a-9325-4fd9-8369-b0898ca0dea1, udp: true}
+- {name: 台湾 | TWN 30, server: 118.170.209.105, port: 10054, type: ss, cipher: chacha20-ietf-poly1305, password: 5ad1b04a-5745-4a76-a7c7-6b6c1b4b3c3d, udp: true}
+- {name: 台湾 | TWN 54, server: 36.234.74.183, port: 10062, type: ss, cipher: chacha20-ietf-poly1305, password: ec936ba0-462f-4ab4-88d8-d60fbc322a06, udp: true}
+- {name: 4Kian-693, server: 95.163.176.37, port: 8506, type: ss, cipher: chacha20-ietf-poly1305, password: eUh4lSpi7nOYj0vSrqLUh0, udp: true}
+- {name: 4Sarina-1488, server: 45.140.169.26, port: 1901, type: ss, cipher: aes-256-gcm, password: 7ae4e68cf77f6089, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -48,16 +52,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 日本 | JPN
       - 香港 | HKG
-      - 日本2|@ripaojiedian
-      - 4Kian-591
-      - 台湾 | TWN 4
-      - 台湾 | TWN 21
-      - 台湾 | TWN 33
-      - 台湾 | TWN 38
-      - 台湾 | TWN 10
-      - 德国 V2CROSS.COM
-      - 4Sarina-827
+      - 台湾 | TWN 25
+      - 英国 | GBR
+      - US_16|5.0MB/s|GPT⁺|NF|D+|67%
+      - 台湾 | TWN 3
+      - 台湾 | TWN 35
+      - 台湾 | TWN 65
+      - 台湾 | TWN 50
+      - 台湾 | TWN 22
+      - 台湾 | TWN 30
+      - 台湾 | TWN 54
+      - 4Kian-693
+      - 4Sarina-1488
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -69,32 +77,40 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 日本 | JPN
       - 香港 | HKG
-      - 日本2|@ripaojiedian
-      - 4Kian-591
-      - 台湾 | TWN 4
-      - 台湾 | TWN 21
-      - 台湾 | TWN 33
-      - 台湾 | TWN 38
-      - 台湾 | TWN 10
-      - 德国 V2CROSS.COM
-      - 4Sarina-827
+      - 台湾 | TWN 25
+      - 英国 | GBR
+      - US_16|5.0MB/s|GPT⁺|NF|D+|67%
+      - 台湾 | TWN 3
+      - 台湾 | TWN 35
+      - 台湾 | TWN 65
+      - 台湾 | TWN 50
+      - 台湾 | TWN 22
+      - 台湾 | TWN 30
+      - 台湾 | TWN 54
+      - 4Kian-693
+      - 4Sarina-1488
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 日本 | JPN
       - 香港 | HKG
-      - 日本2|@ripaojiedian
-      - 4Kian-591
-      - 台湾 | TWN 4
-      - 台湾 | TWN 21
-      - 台湾 | TWN 33
-      - 台湾 | TWN 38
-      - 台湾 | TWN 10
-      - 德国 V2CROSS.COM
-      - 4Sarina-827
+      - 台湾 | TWN 25
+      - 英国 | GBR
+      - US_16|5.0MB/s|GPT⁺|NF|D+|67%
+      - 台湾 | TWN 3
+      - 台湾 | TWN 35
+      - 台湾 | TWN 65
+      - 台湾 | TWN 50
+      - 台湾 | TWN 22
+      - 台湾 | TWN 30
+      - 台湾 | TWN 54
+      - 4Kian-693
+      - 4Sarina-1488
   - name: 🐟 漏网之鱼
     type: select
     proxies:
