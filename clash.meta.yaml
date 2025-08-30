@@ -26,20 +26,18 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 日本 | JPN, server: 137.220.142.139, port: 636, type: ss, cipher: aes-256-gcm, password: 70a0b8103356, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp5v1.lingjfjkm002.com, path: /bezradrqccl, tls: true, mux: true, skip-cert-verify: true}, udp: true}
 - {name: 香港 | HKG, server: 697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 台湾 | TWN 25, server: 125.231.88.69, port: 10052, type: ss, cipher: chacha20-ietf-poly1305, password: c9fd29d2-3c04-42cf-b60b-bbf3115a4e7c, udp: true}
-- {name: 英国 | GBR, server: uk045.jd.kunlunpx.com, port: 45929, type: ss, cipher: aes-128-gcm, password: c8a1d0a69902859d209f, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
-- {name: US_16|5.0MB/s|GPT⁺|NF|D+|67%, server: 45.159.217.223, port: 8880, type: vmess, uuid: 125f71e4-79d6-36c3-943b-d753b440dd09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/", headers: {Host: TG.WangCai2.s4.db-link02.top}}, udp: true}
-- {name: 台湾 | TWN 3, server: 36.232.100.63, port: 10125, type: ss, cipher: chacha20-ietf-poly1305, password: 73a56277-ecff-45dd-8b1f-0fd659af774c, udp: true}
-- {name: 台湾 | TWN 35, server: 36.232.123.141, port: 10151, type: ss, cipher: chacha20-ietf-poly1305, password: 6d354e84-8af8-4e87-98f2-3a77b997685e, udp: true}
-- {name: 台湾 | TWN 65, server: 1.170.34.72, port: 10106, type: ss, cipher: chacha20-ietf-poly1305, password: 456f1a9d-83e3-42c1-940d-5d8520edcc70, udp: true}
-- {name: 台湾 | TWN 50, server: 36.232.79.188, port: 10131, type: ss, cipher: chacha20-ietf-poly1305, password: e3197345-2ae8-40cb-948f-bcb0fbca6592, udp: true}
-- {name: 台湾 | TWN 22, server: 1.165.74.83, port: 10011, type: ss, cipher: chacha20-ietf-poly1305, password: 3342be2a-9325-4fd9-8369-b0898ca0dea1, udp: true}
-- {name: 台湾 | TWN 30, server: 118.170.209.105, port: 10054, type: ss, cipher: chacha20-ietf-poly1305, password: 5ad1b04a-5745-4a76-a7c7-6b6c1b4b3c3d, udp: true}
-- {name: 台湾 | TWN 54, server: 36.234.74.183, port: 10062, type: ss, cipher: chacha20-ietf-poly1305, password: ec936ba0-462f-4ab4-88d8-d60fbc322a06, udp: true}
-- {name: 4Kian-693, server: 95.163.176.37, port: 8506, type: ss, cipher: chacha20-ietf-poly1305, password: eUh4lSpi7nOYj0vSrqLUh0, udp: true}
-- {name: 4Sarina-1488, server: 45.140.169.26, port: 1901, type: ss, cipher: aes-256-gcm, password: 7ae4e68cf77f6089, udp: true}
+- {name: 台湾 | TWN 69, server: 111.253.198.186, port: 10136, type: ss, cipher: chacha20-ietf-poly1305, password: ca36a0a3-02c6-489e-b9ba-125f9f2e58cb, udp: true}
+- {name: 台湾 | TWN 13, server: 1.170.38.158, port: 10084, type: ss, cipher: chacha20-ietf-poly1305, password: 26ef397d-9b4a-4d01-a683-da08791c3984, udp: true}
+- {name: 台湾 | TWN 32, server: 1.165.123.195, port: 10028, type: ss, cipher: chacha20-ietf-poly1305, password: dca9d9f1-5640-4fed-b443-b75c10bfe2cd, udp: true}
+- {name: "@v2ray_configs_pool", server: 154.93.37.21, port: 443, type: vmess, uuid: 64a37ce5-e713-4ad4-c1de-b68761e9fef6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 台湾 | TWN 15, server: 114.46.66.211, port: 10077, type: ss, cipher: chacha20-ietf-poly1305, password: c408f6c1-c3e7-4577-b8ad-2b28af94781a, udp: true}
+- {name: 台湾 | TWN 46, server: 36.234.79.114, port: 10060, type: ss, cipher: chacha20-ietf-poly1305, password: c0326e3b-33e1-49c5-82e4-09541adf5e7e, udp: true}
+- {name: 4Kian-699, server: 213.111.128.57, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ehc3S2iQqBknFrL6IecAp2, udp: true}
+- {name: 4Kian-245, server: 213.183.48.134, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: B03ri7YoJwMjTf55benY0X, udp: true}
+- {name: 4Sarina-1115, server: 103.186.155.133, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: "@v2ray_configs_pool 2", server: 154.93.37.21, port: 443, type: vmess, uuid: 64a37ce5-e713-4ad4-c1de-b68761e9fef6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: "@v2ray_configs_pool 3", server: 154.93.37.21, port: 443, type: vmess, uuid: 64a37ce5-e713-4ad4-c1de-b68761e9fef6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -52,20 +50,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 日本 | JPN
       - 香港 | HKG
-      - 台湾 | TWN 25
-      - 英国 | GBR
-      - US_16|5.0MB/s|GPT⁺|NF|D+|67%
-      - 台湾 | TWN 3
-      - 台湾 | TWN 35
-      - 台湾 | TWN 65
-      - 台湾 | TWN 50
-      - 台湾 | TWN 22
-      - 台湾 | TWN 30
-      - 台湾 | TWN 54
-      - 4Kian-693
-      - 4Sarina-1488
+      - 台湾 | TWN 69
+      - 台湾 | TWN 13
+      - 台湾 | TWN 32
+      - "@v2ray_configs_pool"
+      - 台湾 | TWN 15
+      - 台湾 | TWN 46
+      - 4Kian-699
+      - 4Kian-245
+      - 4Sarina-1115
+      - "@v2ray_configs_pool 2"
+      - "@v2ray_configs_pool 3"
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -77,40 +73,36 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 日本 | JPN
       - 香港 | HKG
-      - 台湾 | TWN 25
-      - 英国 | GBR
-      - US_16|5.0MB/s|GPT⁺|NF|D+|67%
-      - 台湾 | TWN 3
-      - 台湾 | TWN 35
-      - 台湾 | TWN 65
-      - 台湾 | TWN 50
-      - 台湾 | TWN 22
-      - 台湾 | TWN 30
-      - 台湾 | TWN 54
-      - 4Kian-693
-      - 4Sarina-1488
+      - 台湾 | TWN 69
+      - 台湾 | TWN 13
+      - 台湾 | TWN 32
+      - "@v2ray_configs_pool"
+      - 台湾 | TWN 15
+      - 台湾 | TWN 46
+      - 4Kian-699
+      - 4Kian-245
+      - 4Sarina-1115
+      - "@v2ray_configs_pool 2"
+      - "@v2ray_configs_pool 3"
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 日本 | JPN
       - 香港 | HKG
-      - 台湾 | TWN 25
-      - 英国 | GBR
-      - US_16|5.0MB/s|GPT⁺|NF|D+|67%
-      - 台湾 | TWN 3
-      - 台湾 | TWN 35
-      - 台湾 | TWN 65
-      - 台湾 | TWN 50
-      - 台湾 | TWN 22
-      - 台湾 | TWN 30
-      - 台湾 | TWN 54
-      - 4Kian-693
-      - 4Sarina-1488
+      - 台湾 | TWN 69
+      - 台湾 | TWN 13
+      - 台湾 | TWN 32
+      - "@v2ray_configs_pool"
+      - 台湾 | TWN 15
+      - 台湾 | TWN 46
+      - 4Kian-699
+      - 4Kian-245
+      - 4Sarina-1115
+      - "@v2ray_configs_pool 2"
+      - "@v2ray_configs_pool 3"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
