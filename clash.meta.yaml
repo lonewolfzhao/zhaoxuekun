@@ -26,18 +26,15 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 台湾 | TWN 17, server: 118.170.208.178, port: 10061, type: ss, cipher: chacha20-ietf-poly1305, password: 23ae4c4f-44fb-4c7f-bad0-6dfc41ef0620, udp: true}
+- {name: 台湾 | TWN 72, server: 114.46.66.211, port: 10077, type: ss, cipher: chacha20-ietf-poly1305, password: b5e61b40-eb02-4aaf-9e70-be3f9dd07f05, udp: true}
+- {name: 美国|@ripaojiedian, server: 165.140.216.141, port: 443, type: vmess, uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Sarina-1108, server: 103.186.154.19, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 12|美国|@ripaojiedian, server: 165.140.216.141, port: 443, type: vmess, uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: us|b241|puddincat07@Telegram, server: 165.140.216.141, port: 443, type: vmess, uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 新加坡4|@ripaojiedian, server: awes35lesl.blhao0o.dpdns.org, port: 12020, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
+- {name: 香港2|@ripaojiedian, server: 156.251.179.135, port: 443, type: ss, cipher: aes-256-gcm, password: 9969db7a2f51, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: hk6v1.dsjsapp.com, path: /fgsauuoqxwx, tls: true, mux: true, skip-cert-verify: true}, udp: true}
 - {name: 香港 | HKG, server: 697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 台湾 | TWN 69, server: 111.253.198.186, port: 10136, type: ss, cipher: chacha20-ietf-poly1305, password: ca36a0a3-02c6-489e-b9ba-125f9f2e58cb, udp: true}
-- {name: 台湾 | TWN 13, server: 1.170.38.158, port: 10084, type: ss, cipher: chacha20-ietf-poly1305, password: 26ef397d-9b4a-4d01-a683-da08791c3984, udp: true}
-- {name: 台湾 | TWN 32, server: 1.165.123.195, port: 10028, type: ss, cipher: chacha20-ietf-poly1305, password: dca9d9f1-5640-4fed-b443-b75c10bfe2cd, udp: true}
-- {name: "@v2ray_configs_pool", server: 154.93.37.21, port: 443, type: vmess, uuid: 64a37ce5-e713-4ad4-c1de-b68761e9fef6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 台湾 | TWN 15, server: 114.46.66.211, port: 10077, type: ss, cipher: chacha20-ietf-poly1305, password: c408f6c1-c3e7-4577-b8ad-2b28af94781a, udp: true}
-- {name: 台湾 | TWN 46, server: 36.234.79.114, port: 10060, type: ss, cipher: chacha20-ietf-poly1305, password: c0326e3b-33e1-49c5-82e4-09541adf5e7e, udp: true}
-- {name: 4Kian-699, server: 213.111.128.57, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ehc3S2iQqBknFrL6IecAp2, udp: true}
-- {name: 4Kian-245, server: 213.183.48.134, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: B03ri7YoJwMjTf55benY0X, udp: true}
-- {name: 4Sarina-1115, server: 103.186.155.133, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: "@v2ray_configs_pool 2", server: 154.93.37.21, port: 443, type: vmess, uuid: 64a37ce5-e713-4ad4-c1de-b68761e9fef6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "@v2ray_configs_pool 3", server: 154.93.37.21, port: 443, type: vmess, uuid: 64a37ce5-e713-4ad4-c1de-b68761e9fef6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -50,18 +47,15 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 台湾 | TWN 17
+      - 台湾 | TWN 72
+      - 美国|@ripaojiedian
+      - 4Sarina-1108
+      - 12|美国|@ripaojiedian
+      - us|b241|puddincat07@Telegram
+      - 新加坡4|@ripaojiedian
+      - 香港2|@ripaojiedian
       - 香港 | HKG
-      - 台湾 | TWN 69
-      - 台湾 | TWN 13
-      - 台湾 | TWN 32
-      - "@v2ray_configs_pool"
-      - 台湾 | TWN 15
-      - 台湾 | TWN 46
-      - 4Kian-699
-      - 4Kian-245
-      - 4Sarina-1115
-      - "@v2ray_configs_pool 2"
-      - "@v2ray_configs_pool 3"
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -73,36 +67,30 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 台湾 | TWN 17
+      - 台湾 | TWN 72
+      - 美国|@ripaojiedian
+      - 4Sarina-1108
+      - 12|美国|@ripaojiedian
+      - us|b241|puddincat07@Telegram
+      - 新加坡4|@ripaojiedian
+      - 香港2|@ripaojiedian
       - 香港 | HKG
-      - 台湾 | TWN 69
-      - 台湾 | TWN 13
-      - 台湾 | TWN 32
-      - "@v2ray_configs_pool"
-      - 台湾 | TWN 15
-      - 台湾 | TWN 46
-      - 4Kian-699
-      - 4Kian-245
-      - 4Sarina-1115
-      - "@v2ray_configs_pool 2"
-      - "@v2ray_configs_pool 3"
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 台湾 | TWN 17
+      - 台湾 | TWN 72
+      - 美国|@ripaojiedian
+      - 4Sarina-1108
+      - 12|美国|@ripaojiedian
+      - us|b241|puddincat07@Telegram
+      - 新加坡4|@ripaojiedian
+      - 香港2|@ripaojiedian
       - 香港 | HKG
-      - 台湾 | TWN 69
-      - 台湾 | TWN 13
-      - 台湾 | TWN 32
-      - "@v2ray_configs_pool"
-      - 台湾 | TWN 15
-      - 台湾 | TWN 46
-      - 4Kian-699
-      - 4Kian-245
-      - 4Sarina-1115
-      - "@v2ray_configs_pool 2"
-      - "@v2ray_configs_pool 3"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
