@@ -26,26 +26,20 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 香港 | HKG, server: 697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 台湾 | TWN 52, server: 111.253.199.25, port: 10148, type: ss, cipher: chacha20-ietf-poly1305, password: 3feeea71-239c-43f0-a86d-5174f4a3980a, udp: true}
-- {name: DE_6|2.7MB/s, server: 188.114.98.178, port: 443, type: vmess, uuid: 25a3f54d-c543-4fd1-e202-ccfc01d043d6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: web.paRSKish.online}}, udp: true}
-- {name: 台湾 | TWN 66, server: 111.253.199.25, port: 10148, type: ss, cipher: chacha20-ietf-poly1305, password: c6081e42-2dac-4ca0-ab51-176be0f479e7, udp: true}
-- {name: 台湾 | TWN 55, server: 125.228.34.244, port: 10105, type: ss, cipher: chacha20-ietf-poly1305, password: 65057deb-a784-4b97-a912-05880567d1ee, udp: true}
-- {name: US_8|2.7MB/s, server: 95.174.71.28, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4fa101a:48723}, udp: true}
-- {name: US_66cfc_0024, server: 66.253.5.58, port: 40083, type: vmess, uuid: 19003217-0407-43d5-bf22-9aa642469a83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: US_66cfc_0024 2, server: 66.253.5.58, port: 40083, type: vmess, uuid: 19003217-0407-43d5-bf22-9aa642469a83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: US_66cfc_0024 3, server: 66.253.5.58, port: 40083, type: vmess, uuid: 19003217-0407-43d5-bf22-9aa642469a83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 台湾 | TWN 36, server: 125.228.180.250, port: 10081, type: ss, cipher: chacha20-ietf-poly1305, password: 5f1cdb54-70ee-4f52-a8d3-db5bf6f2729c, udp: true}
-- {name: 台湾 | TWN 38, server: 114.46.66.211, port: 10077, type: ss, cipher: chacha20-ietf-poly1305, password: 6b018505-872c-49ea-8030-4db735161a47, udp: true}
-- {name: HK_1|2.2MB/s, server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com}}, udp: true}
-- {name: 台湾 | TWN 4, server: 114.46.66.211, port: 10077, type: ss, cipher: chacha20-ietf-poly1305, password: edb1f1c1-8b1d-4035-ba94-94a0cfd8ef82, udp: true}
-- {name: 台湾 | TWN 2, server: 114.46.66.211, port: 10077, type: ss, cipher: chacha20-ietf-poly1305, password: 9cd50d98-7e20-4b5f-8c1c-23a81de7a541, udp: true}
-- {name: 台湾 | TWN 11, server: 125.228.34.244, port: 10105, type: ss, cipher: chacha20-ietf-poly1305, password: 3feeea71-239c-43f0-a86d-5174f4a3980a, udp: true}
-- {name: US_66cfc_0021, server: 192.3.216.180, port: 25740, type: vmess, uuid: 43cf14a5-5b85-47e2-a4c2-b514beab7054, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-- {name: CN_66cfc_0002, server: awes35lesl.blhao0o.dpdns.org, port: 12006, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
+- {name: ir|618b|puddincat07@Telegram, server: 31.56.204.125, port: 47535, type: vmess, uuid: bd31942b-9b80-4f70-893a-c75604228b84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: GB_7a412_0013, server: 31.56.204.125, port: 47535, type: vmess, uuid: bd31942b-9b80-4f70-893a-c75604228b84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4FreeIran-1484, server: 192.142.18.127, port: 443, type: ss, cipher: aes-256-gcm, password: 7f1864fc-5845-44c3-a218-bc4fa595a1a4, udp: true}
+- {name: VN_7ebda_0055, server: 103.186.154.37, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: CN_7a412_0002, server: v6.heduian.link, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
+- {name: HK_7ebda_0008, server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: ir|618b|puddincat07@Telegram 2, server: 31.56.204.125, port: 47535, type: vmess, uuid: bd31942b-9b80-4f70-893a-c75604228b84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 4FreeIran-594, server: 138.68.6.88, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: WStKA4n7KqAFCJxzw8cuM0, udp: true}
-- {name: 4Mohsen-529, server: 83.217.9.101, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: NbQNqngaIwS7, udp: true}
-- {name: 4Sarina-1108, server: 103.186.154.19, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-104, server: promo1o.bystrivpn.ru, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0NeN5ta7FLa5B9DLytU0um, udp: true}
+- {name: CN_8144f_0004, server: v8.heduian.link, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
+- {name: ir|618b|puddincat07@Telegram 2 2, server: 31.56.204.125, port: 47535, type: vmess, uuid: bd31942b-9b80-4f70-893a-c75604228b84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: CN_7a412_0006, server: freed.themars.top, port: 31101, type: ss, cipher: chacha20-ietf-poly1305, password: D8FCC5C0-4AB6-4978-BAC7-55B31D67D76E, udp: true}
+- {name: 4Sarina-1377, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: CN_7ebda_0001, server: awes35lesl.blhao0o.dpdns.org, port: 12030, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -58,26 +52,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港 | HKG
-      - 台湾 | TWN 52
-      - DE_6|2.7MB/s
-      - 台湾 | TWN 66
-      - 台湾 | TWN 55
-      - US_8|2.7MB/s
-      - US_66cfc_0024
-      - US_66cfc_0024 2
-      - US_66cfc_0024 3
-      - 台湾 | TWN 36
-      - 台湾 | TWN 38
-      - HK_1|2.2MB/s
-      - 台湾 | TWN 4
-      - 台湾 | TWN 2
-      - 台湾 | TWN 11
-      - US_66cfc_0021
-      - CN_66cfc_0002
+      - ir|618b|puddincat07@Telegram
+      - GB_7a412_0013
+      - 4FreeIran-1484
+      - VN_7ebda_0055
+      - CN_7a412_0002
+      - HK_7ebda_0008
+      - ir|618b|puddincat07@Telegram 2
       - 4FreeIran-594
-      - 4Mohsen-529
-      - 4Sarina-1108
+      - 4FreeIran-104
+      - CN_8144f_0004
+      - ir|618b|puddincat07@Telegram 2 2
+      - CN_7a412_0006
+      - 4Sarina-1377
+      - CN_7ebda_0001
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -89,52 +77,40 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港 | HKG
-      - 台湾 | TWN 52
-      - DE_6|2.7MB/s
-      - 台湾 | TWN 66
-      - 台湾 | TWN 55
-      - US_8|2.7MB/s
-      - US_66cfc_0024
-      - US_66cfc_0024 2
-      - US_66cfc_0024 3
-      - 台湾 | TWN 36
-      - 台湾 | TWN 38
-      - HK_1|2.2MB/s
-      - 台湾 | TWN 4
-      - 台湾 | TWN 2
-      - 台湾 | TWN 11
-      - US_66cfc_0021
-      - CN_66cfc_0002
+      - ir|618b|puddincat07@Telegram
+      - GB_7a412_0013
+      - 4FreeIran-1484
+      - VN_7ebda_0055
+      - CN_7a412_0002
+      - HK_7ebda_0008
+      - ir|618b|puddincat07@Telegram 2
       - 4FreeIran-594
-      - 4Mohsen-529
-      - 4Sarina-1108
+      - 4FreeIran-104
+      - CN_8144f_0004
+      - ir|618b|puddincat07@Telegram 2 2
+      - CN_7a412_0006
+      - 4Sarina-1377
+      - CN_7ebda_0001
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 香港 | HKG
-      - 台湾 | TWN 52
-      - DE_6|2.7MB/s
-      - 台湾 | TWN 66
-      - 台湾 | TWN 55
-      - US_8|2.7MB/s
-      - US_66cfc_0024
-      - US_66cfc_0024 2
-      - US_66cfc_0024 3
-      - 台湾 | TWN 36
-      - 台湾 | TWN 38
-      - HK_1|2.2MB/s
-      - 台湾 | TWN 4
-      - 台湾 | TWN 2
-      - 台湾 | TWN 11
-      - US_66cfc_0021
-      - CN_66cfc_0002
+      - ir|618b|puddincat07@Telegram
+      - GB_7a412_0013
+      - 4FreeIran-1484
+      - VN_7ebda_0055
+      - CN_7a412_0002
+      - HK_7ebda_0008
+      - ir|618b|puddincat07@Telegram 2
       - 4FreeIran-594
-      - 4Mohsen-529
-      - 4Sarina-1108
+      - 4FreeIran-104
+      - CN_8144f_0004
+      - ir|618b|puddincat07@Telegram 2 2
+      - CN_7a412_0006
+      - 4Sarina-1377
+      - CN_7ebda_0001
   - name: 🐟 漏网之鱼
     type: select
     proxies:
