@@ -26,20 +26,13 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: ir|618b|puddincat07@Telegram, server: 31.56.204.125, port: 47535, type: vmess, uuid: bd31942b-9b80-4f70-893a-c75604228b84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: GB_7a412_0013, server: 31.56.204.125, port: 47535, type: vmess, uuid: bd31942b-9b80-4f70-893a-c75604228b84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4FreeIran-1484, server: 192.142.18.127, port: 443, type: ss, cipher: aes-256-gcm, password: 7f1864fc-5845-44c3-a218-bc4fa595a1a4, udp: true}
-- {name: VN_7ebda_0055, server: 103.186.154.37, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: CN_7a412_0002, server: v6.heduian.link, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
-- {name: HK_7ebda_0008, server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: ir|618b|puddincat07@Telegram 2, server: 31.56.204.125, port: 47535, type: vmess, uuid: bd31942b-9b80-4f70-893a-c75604228b84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4FreeIran-594, server: 138.68.6.88, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: WStKA4n7KqAFCJxzw8cuM0, udp: true}
-- {name: 4FreeIran-104, server: promo1o.bystrivpn.ru, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0NeN5ta7FLa5B9DLytU0um, udp: true}
-- {name: CN_8144f_0004, server: v8.heduian.link, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
-- {name: ir|618b|puddincat07@Telegram 2 2, server: 31.56.204.125, port: 47535, type: vmess, uuid: bd31942b-9b80-4f70-893a-c75604228b84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: CN_7a412_0006, server: freed.themars.top, port: 31101, type: ss, cipher: chacha20-ietf-poly1305, password: D8FCC5C0-4AB6-4978-BAC7-55B31D67D76E, udp: true}
-- {name: 4Sarina-1377, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: CN_7ebda_0001, server: awes35lesl.blhao0o.dpdns.org, port: 12030, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
+- {name: 4Sarina-703, server: 77.83.245.192, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oKgwqmnYwDsX, udp: true}
+- {name: US_14|4.5MB/s, server: all.primenet4.shop, port: 54797, type: vmess, uuid: 56ecc5b6-c89d-42d7-a432-e2cebeab798b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [speedtest.net]}}, udp: true}
+- {name: VN_0a664_0019, server: 103.186.155.21, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Kian-1004, server: 103.186.154.32, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: HK香港(mibei77.com 米贝节点分享), server: awes35lesl.blhao0o.dpdns.org, port: 12009, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
+- {name: IE_1|5.0MB/s, server: 52.213.50.72, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: wchV4YUUanCPEXcNfd8U6Z, udp: true}
+- {name: VN_0a664_0018, server: 103.186.154.35, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -52,20 +45,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - ir|618b|puddincat07@Telegram
-      - GB_7a412_0013
-      - 4FreeIran-1484
-      - VN_7ebda_0055
-      - CN_7a412_0002
-      - HK_7ebda_0008
-      - ir|618b|puddincat07@Telegram 2
-      - 4FreeIran-594
-      - 4FreeIran-104
-      - CN_8144f_0004
-      - ir|618b|puddincat07@Telegram 2 2
-      - CN_7a412_0006
-      - 4Sarina-1377
-      - CN_7ebda_0001
+      - 4Sarina-703
+      - US_14|4.5MB/s
+      - VN_0a664_0019
+      - 4Kian-1004
+      - HK香港(mibei77.com 米贝节点分享)
+      - IE_1|5.0MB/s
+      - VN_0a664_0018
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -77,40 +63,26 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - ir|618b|puddincat07@Telegram
-      - GB_7a412_0013
-      - 4FreeIran-1484
-      - VN_7ebda_0055
-      - CN_7a412_0002
-      - HK_7ebda_0008
-      - ir|618b|puddincat07@Telegram 2
-      - 4FreeIran-594
-      - 4FreeIran-104
-      - CN_8144f_0004
-      - ir|618b|puddincat07@Telegram 2 2
-      - CN_7a412_0006
-      - 4Sarina-1377
-      - CN_7ebda_0001
+      - 4Sarina-703
+      - US_14|4.5MB/s
+      - VN_0a664_0019
+      - 4Kian-1004
+      - HK香港(mibei77.com 米贝节点分享)
+      - IE_1|5.0MB/s
+      - VN_0a664_0018
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - ir|618b|puddincat07@Telegram
-      - GB_7a412_0013
-      - 4FreeIran-1484
-      - VN_7ebda_0055
-      - CN_7a412_0002
-      - HK_7ebda_0008
-      - ir|618b|puddincat07@Telegram 2
-      - 4FreeIran-594
-      - 4FreeIran-104
-      - CN_8144f_0004
-      - ir|618b|puddincat07@Telegram 2 2
-      - CN_7a412_0006
-      - 4Sarina-1377
-      - CN_7ebda_0001
+      - 4Sarina-703
+      - US_14|4.5MB/s
+      - VN_0a664_0019
+      - 4Kian-1004
+      - HK香港(mibei77.com 米贝节点分享)
+      - IE_1|5.0MB/s
+      - VN_0a664_0018
   - name: 🐟 漏网之鱼
     type: select
     proxies:
