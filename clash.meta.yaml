@@ -26,12 +26,11 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: US_14|4.5MB/s, server: all.primenet4.shop, port: 54797, type: vmess, uuid: 56ecc5b6-c89d-42d7-a432-e2cebeab798b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [speedtest.net]}}, udp: true}
 - {name: VN_0a664_0019, server: 103.186.155.21, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 香港 | HKG, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
+- {name: VN_efbd0_0034, server: 103.186.154.27, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 - {name: VN_0a664_0018, server: 103.186.154.35, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 11|🇹🇼 台湾2|@ripaojiedian, server: 47.116.166.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 12|台湾2|@ripaojiedian, server: 47.116.166.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4Sarina-703, server: 77.83.245.192, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oKgwqmnYwDsX, udp: true}
+- {name: US_14|4.5MB/s, server: all.primenet4.shop, port: 54797, type: vmess, uuid: 56ecc5b6-c89d-42d7-a432-e2cebeab798b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [speedtest.net]}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -44,12 +43,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - US_14|4.5MB/s
       - VN_0a664_0019
+      - 香港 | HKG
+      - VN_efbd0_0034
       - VN_0a664_0018
-      - 11|🇹🇼 台湾2|@ripaojiedian
-      - 12|台湾2|@ripaojiedian
-      - 4Sarina-703
+      - US_14|4.5MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -61,24 +59,22 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - US_14|4.5MB/s
       - VN_0a664_0019
+      - 香港 | HKG
+      - VN_efbd0_0034
       - VN_0a664_0018
-      - 11|🇹🇼 台湾2|@ripaojiedian
-      - 12|台湾2|@ripaojiedian
-      - 4Sarina-703
+      - US_14|4.5MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - US_14|4.5MB/s
       - VN_0a664_0019
+      - 香港 | HKG
+      - VN_efbd0_0034
       - VN_0a664_0018
-      - 11|🇹🇼 台湾2|@ripaojiedian
-      - 12|台湾2|@ripaojiedian
-      - 4Sarina-703
+      - US_14|4.5MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
