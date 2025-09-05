@@ -26,11 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: VN_0a664_0019, server: 103.186.155.21, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 香港 | HKG, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
-- {name: VN_efbd0_0034, server: 103.186.154.27, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN_0a664_0018, server: 103.186.154.35, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: US_14|4.5MB/s, server: all.primenet4.shop, port: 54797, type: vmess, uuid: 56ecc5b6-c89d-42d7-a432-e2cebeab798b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [speedtest.net]}}, udp: true}
+- {name: SG_50f02_0028, server: 8.219.14.179, port: 19795, type: vmess, uuid: 12b974f4-0a24-4bed-86d8-80dd4ae14601, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+- {name: SG_50f02_0030, server: 8.219.14.179, port: 38071, type: vmess, uuid: c28cfb2c-8225-4648-c0aa-192f52df1ca3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+- {name: SG_50f02_0029, server: 8.219.14.179, port: 59286, type: vmess, uuid: e911d420-0f9f-4985-9483-03f5c8b00205, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+- {name: 4Kian-148, server: 94.131.22.134, port: 40565, type: ss, cipher: chacha20-ietf-poly1305, password: 2JK8CwhNFuy3uQo5yHwHvRuEXKLnnrKW7T3snXFQ25yt27PGLKoLXMFrSFFoVgB5SQMeAHx8ZaQXx9mAY55cYskUyVaP6Rum, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -43,11 +42,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - VN_0a664_0019
-      - 香港 | HKG
-      - VN_efbd0_0034
-      - VN_0a664_0018
-      - US_14|4.5MB/s
+      - SG_50f02_0028
+      - SG_50f02_0030
+      - SG_50f02_0029
+      - 4Kian-148
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -59,22 +57,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - VN_0a664_0019
-      - 香港 | HKG
-      - VN_efbd0_0034
-      - VN_0a664_0018
-      - US_14|4.5MB/s
+      - SG_50f02_0028
+      - SG_50f02_0030
+      - SG_50f02_0029
+      - 4Kian-148
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - VN_0a664_0019
-      - 香港 | HKG
-      - VN_efbd0_0034
-      - VN_0a664_0018
-      - US_14|4.5MB/s
+      - SG_50f02_0028
+      - SG_50f02_0030
+      - SG_50f02_0029
+      - 4Kian-148
   - name: 🐟 漏网之鱼
     type: select
     proxies:
