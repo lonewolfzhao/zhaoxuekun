@@ -26,14 +26,19 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509031722041-Q3bErDTbkB.download.microsoft.com}, udp: true}
-- {name: 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509031722041-Q3bErDTbkB.download.microsoft.com}, udp: true}
-- {name: SG_50f02_0030, server: 8.219.14.179, port: 38071, type: vmess, uuid: c28cfb2c-8225-4648-c0aa-192f52df1ca3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-- {name: 香港3|@ripaojiedian, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
-- {name: 4Kian-148, server: 94.131.22.134, port: 40565, type: ss, cipher: chacha20-ietf-poly1305, password: 2JK8CwhNFuy3uQo5yHwHvRuEXKLnnrKW7T3snXFQ25yt27PGLKoLXMFrSFFoVgB5SQMeAHx8ZaQXx9mAY55cYskUyVaP6Rum, udp: true}
+- {name: 4Nika-1386, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: ⚡ b2n.ir/v2ray-configs | 687, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 4Kian-64, server: 45.79.238.56, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 6h9YMOcuAqNT8tRUvQWiEz, udp: true}
 - {name: DE_2|4.2MB/s, server: npmjs.com, port: 443, type: vmess, uuid: telegram-channel-freewireguard, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: Q4.19kAlA.co}}, udp: true}
-- {name: 4Kian-86, server: 77.110.110.117, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9JeYy8SkViXuSHVs9GFeSe, udp: true}
-- {name: 4Kian-87, server: promo6v.bystrivpn.ru, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9JeYy8SkViXuSHVs9GFeSe, udp: true}
+- {name: 4Kian-148, server: 94.131.22.134, port: 40565, type: ss, cipher: chacha20-ietf-poly1305, password: 2JK8CwhNFuy3uQo5yHwHvRuEXKLnnrKW7T3snXFQ25yt27PGLKoLXMFrSFFoVgB5SQMeAHx8ZaQXx9mAY55cYskUyVaP6Rum, udp: true}
+- {name: KR_a54a9_0028, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: ⚡ b2n.ir/v2ray-configs | 251, server: 103.104.247.47, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+- {name: 4Sarina-1055, server: 103.186.154.22, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: RU_147, server: 95.163.176.37, port: 8506, type: ss, cipher: chacha20-ietf-poly1305, password: eUh4lSpi7nOYj0vSrqLUh0, udp: true}
+- {name: CN_276e0_0003, server: awes35lesl.blhao0o.dpdns.org, port: 12023, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
+- {name: CN_a54a9_0004, server: awes35lesl.blhao0o.dpdns.org, port: 12030, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
+- {name: LB_a54a9_0030, server: 77.110.110.117, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9JeYy8SkViXuSHVs9GFeSe, udp: true}
+- {name: TR_1|2.0MB/s, server: 5.188.36.93, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: nYRhTCZdQLExK6ewVHgHS2mlv4FCysKyeyTTfhRdEgdeeRN0, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -46,14 +51,19 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 日本|@ripaojiedian
-      - 美国2|@ripaojiedian
-      - SG_50f02_0030
-      - 香港3|@ripaojiedian
-      - 4Kian-148
+      - 4Nika-1386
+      - ⚡ b2n.ir/v2ray-configs | 687
+      - 4Kian-64
       - DE_2|4.2MB/s
-      - 4Kian-86
-      - 4Kian-87
+      - 4Kian-148
+      - KR_a54a9_0028
+      - ⚡ b2n.ir/v2ray-configs | 251
+      - 4Sarina-1055
+      - RU_147
+      - CN_276e0_0003
+      - CN_a54a9_0004
+      - LB_a54a9_0030
+      - TR_1|2.0MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -65,28 +75,38 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 日本|@ripaojiedian
-      - 美国2|@ripaojiedian
-      - SG_50f02_0030
-      - 香港3|@ripaojiedian
-      - 4Kian-148
+      - 4Nika-1386
+      - ⚡ b2n.ir/v2ray-configs | 687
+      - 4Kian-64
       - DE_2|4.2MB/s
-      - 4Kian-86
-      - 4Kian-87
+      - 4Kian-148
+      - KR_a54a9_0028
+      - ⚡ b2n.ir/v2ray-configs | 251
+      - 4Sarina-1055
+      - RU_147
+      - CN_276e0_0003
+      - CN_a54a9_0004
+      - LB_a54a9_0030
+      - TR_1|2.0MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 日本|@ripaojiedian
-      - 美国2|@ripaojiedian
-      - SG_50f02_0030
-      - 香港3|@ripaojiedian
-      - 4Kian-148
+      - 4Nika-1386
+      - ⚡ b2n.ir/v2ray-configs | 687
+      - 4Kian-64
       - DE_2|4.2MB/s
-      - 4Kian-86
-      - 4Kian-87
+      - 4Kian-148
+      - KR_a54a9_0028
+      - ⚡ b2n.ir/v2ray-configs | 251
+      - 4Sarina-1055
+      - RU_147
+      - CN_276e0_0003
+      - CN_a54a9_0004
+      - LB_a54a9_0030
+      - TR_1|2.0MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
