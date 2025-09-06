@@ -26,10 +26,14 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: SG_50f02_0028, server: 8.219.14.179, port: 19795, type: vmess, uuid: 12b974f4-0a24-4bed-86d8-80dd4ae14601, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+- {name: 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509031722041-Q3bErDTbkB.download.microsoft.com}, udp: true}
+- {name: 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509031722041-Q3bErDTbkB.download.microsoft.com}, udp: true}
 - {name: SG_50f02_0030, server: 8.219.14.179, port: 38071, type: vmess, uuid: c28cfb2c-8225-4648-c0aa-192f52df1ca3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-- {name: SG_50f02_0029, server: 8.219.14.179, port: 59286, type: vmess, uuid: e911d420-0f9f-4985-9483-03f5c8b00205, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+- {name: 香港3|@ripaojiedian, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
 - {name: 4Kian-148, server: 94.131.22.134, port: 40565, type: ss, cipher: chacha20-ietf-poly1305, password: 2JK8CwhNFuy3uQo5yHwHvRuEXKLnnrKW7T3snXFQ25yt27PGLKoLXMFrSFFoVgB5SQMeAHx8ZaQXx9mAY55cYskUyVaP6Rum, udp: true}
+- {name: DE_2|4.2MB/s, server: npmjs.com, port: 443, type: vmess, uuid: telegram-channel-freewireguard, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: Q4.19kAlA.co}}, udp: true}
+- {name: 4Kian-86, server: 77.110.110.117, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9JeYy8SkViXuSHVs9GFeSe, udp: true}
+- {name: 4Kian-87, server: promo6v.bystrivpn.ru, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9JeYy8SkViXuSHVs9GFeSe, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +46,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - SG_50f02_0028
+      - 日本|@ripaojiedian
+      - 美国2|@ripaojiedian
       - SG_50f02_0030
-      - SG_50f02_0029
+      - 香港3|@ripaojiedian
       - 4Kian-148
+      - DE_2|4.2MB/s
+      - 4Kian-86
+      - 4Kian-87
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,20 +65,28 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - SG_50f02_0028
+      - 日本|@ripaojiedian
+      - 美国2|@ripaojiedian
       - SG_50f02_0030
-      - SG_50f02_0029
+      - 香港3|@ripaojiedian
       - 4Kian-148
+      - DE_2|4.2MB/s
+      - 4Kian-86
+      - 4Kian-87
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - SG_50f02_0028
+      - 日本|@ripaojiedian
+      - 美国2|@ripaojiedian
       - SG_50f02_0030
-      - SG_50f02_0029
+      - 香港3|@ripaojiedian
       - 4Kian-148
+      - DE_2|4.2MB/s
+      - 4Kian-86
+      - 4Kian-87
   - name: 🐟 漏网之鱼
     type: select
     proxies:
