@@ -26,8 +26,18 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 台湾 | TWN 33, server: 114.33.53.213, port: 10037, type: ss, cipher: chacha20-ietf-poly1305, password: 85ce0ad1-2da5-48f3-a4b8-7a4bd101c306, udp: true}
-- {name: 4Kian-150, server: 94.131.22.134, port: 40565, type: ss, cipher: chacha20-ietf-poly1305, password: 2JK8CwhNFuy3uQo5yHwHvRuEXKLnnrKW7T3snXFQ25yt27PGLKoLXMFrSFFoVgB5SQMeAHx8ZaQXx9mAY55cYskUyVaP6Rum, udp: true}
+- {name: HK_1|4.3MB/s, server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com}}, udp: true}
+- {name: 美国 | USA 8, server: v4.heduian.link, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
+- {name: TG频道@stymei1丨2, server: v6.heduian.link, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
+- {name: HK_b49c8_0031, server: 103.242.15.203, port: 16586, type: vmess, uuid: fdc06424-65da-4133-953a-51e33e3e6d37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: HK_b49c8_0031 2, server: 103.242.15.203, port: 16586, type: vmess, uuid: fdc06424-65da-4133-953a-51e33e3e6d37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: hk|6aea|puddincat07@Telegram, server: 103.242.15.203, port: 16586, type: vmess, uuid: fdc06424-65da-4133-953a-51e33e3e6d37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: hk|4754|puddincat07@Telegram, server: 103.242.15.203, port: 16586, type: vmess, uuid: fdc06424-65da-4133-953a-51e33e3e6d37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: 台湾 | TWN 50, server: 1.170.16.155, port: 10152, type: ss, cipher: chacha20-ietf-poly1305, password: 72cb20b6-19d1-49f3-887b-801331e93369, udp: true}
+- {name: TG频道@stymei1丨3, server: awes35lesl.blhao0o.dpdns.org, port: 12011, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
+- {name: HK_b49c8_0031 3, server: 103.242.15.203, port: 16586, type: vmess, uuid: fdc06424-65da-4133-953a-51e33e3e6d37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: 香港2|@ripaojiedian, server: 156.251.179.135, port: 443, type: ss, cipher: aes-256-gcm, password: 2b5fad3874e5, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: hk6v1.dsjsapp.com, path: /aqwshiog, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+- {name: HK_b49c8_0031 2 2, server: 103.242.15.203, port: 16586, type: vmess, uuid: fdc06424-65da-4133-953a-51e33e3e6d37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -40,8 +50,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 台湾 | TWN 33
-      - 4Kian-150
+      - HK_1|4.3MB/s
+      - 美国 | USA 8
+      - TG频道@stymei1丨2
+      - HK_b49c8_0031
+      - HK_b49c8_0031 2
+      - hk|6aea|puddincat07@Telegram
+      - hk|4754|puddincat07@Telegram
+      - 台湾 | TWN 50
+      - TG频道@stymei1丨3
+      - HK_b49c8_0031 3
+      - 香港2|@ripaojiedian
+      - HK_b49c8_0031 2 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -53,16 +73,36 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 台湾 | TWN 33
-      - 4Kian-150
+      - HK_1|4.3MB/s
+      - 美国 | USA 8
+      - TG频道@stymei1丨2
+      - HK_b49c8_0031
+      - HK_b49c8_0031 2
+      - hk|6aea|puddincat07@Telegram
+      - hk|4754|puddincat07@Telegram
+      - 台湾 | TWN 50
+      - TG频道@stymei1丨3
+      - HK_b49c8_0031 3
+      - 香港2|@ripaojiedian
+      - HK_b49c8_0031 2 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 台湾 | TWN 33
-      - 4Kian-150
+      - HK_1|4.3MB/s
+      - 美国 | USA 8
+      - TG频道@stymei1丨2
+      - HK_b49c8_0031
+      - HK_b49c8_0031 2
+      - hk|6aea|puddincat07@Telegram
+      - hk|4754|puddincat07@Telegram
+      - 台湾 | TWN 50
+      - TG频道@stymei1丨3
+      - HK_b49c8_0031 3
+      - 香港2|@ripaojiedian
+      - HK_b49c8_0031 2 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
