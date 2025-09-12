@@ -26,16 +26,15 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509031722041-lmIPZ06Vxb.download.microsoft.com}, udp: true}
+- {name: 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509031722041-lmIPZ06Vxb.download.microsoft.com}, udp: true}
+- {name: PL_1|2.3MB/s, server: tunir.pl.time.aluwindoor.ir, port: 1616, type: vmess, uuid: de572177-9adc-40f7-957d-453b0fbf1acf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [goftino.com]}}, udp: true}
+- {name: JP_1|6.1MB/s, server: gw.liangyuandianwan.com, port: 35603, type: ss, cipher: chacha20-ietf-poly1305, password: 177101d3-4c95-4a8f-938c-709a56f25752, udp: true}
+- {name: TG频道@stymei1丨17, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
 - {name: 香港3|@ripaojiedian, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
 - {name: TG频道@stymei1丨3, server: awes35lesl.blhao0o.dpdns.org, port: 12011, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
-- {name: 4Mohsen-1056, server: 103.186.154.37, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 台湾 | TWN 22, server: 111.253.205.190, port: 10136, type: ss, cipher: chacha20-ietf-poly1305, password: 68583720-52f5-46d6-82a2-5d23a0ddea71, udp: true}
-- {name: 4Mohsen-1065, server: 103.186.155.24, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 - {name: 4Mohsen-1060, server: 103.186.155.19, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-46, server: 84.200.91.228, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: 5ZQh4pssSk4aK1JG1XhBRg, udp: true}
-- {name: 台湾 | TWN 2, server: 111.253.209.194, port: 10148, type: ss, cipher: chacha20-ietf-poly1305, password: 91150b80-f171-49f8-8998-952143df9aea, udp: true}
 - {name: 4Mohsen-1045, server: 103.186.154.25, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: TG频道@stymei1丨17, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -48,16 +47,15 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 日本|@ripaojiedian
+      - 美国2|@ripaojiedian
+      - PL_1|2.3MB/s
+      - JP_1|6.1MB/s
+      - TG频道@stymei1丨17
       - 香港3|@ripaojiedian
       - TG频道@stymei1丨3
-      - 4Mohsen-1056
-      - 台湾 | TWN 22
-      - 4Mohsen-1065
       - 4Mohsen-1060
-      - 4FreeIran-46
-      - 台湾 | TWN 2
       - 4Mohsen-1045
-      - TG频道@stymei1丨17
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -69,32 +67,30 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 日本|@ripaojiedian
+      - 美国2|@ripaojiedian
+      - PL_1|2.3MB/s
+      - JP_1|6.1MB/s
+      - TG频道@stymei1丨17
       - 香港3|@ripaojiedian
       - TG频道@stymei1丨3
-      - 4Mohsen-1056
-      - 台湾 | TWN 22
-      - 4Mohsen-1065
       - 4Mohsen-1060
-      - 4FreeIran-46
-      - 台湾 | TWN 2
       - 4Mohsen-1045
-      - TG频道@stymei1丨17
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 日本|@ripaojiedian
+      - 美国2|@ripaojiedian
+      - PL_1|2.3MB/s
+      - JP_1|6.1MB/s
+      - TG频道@stymei1丨17
       - 香港3|@ripaojiedian
       - TG频道@stymei1丨3
-      - 4Mohsen-1056
-      - 台湾 | TWN 22
-      - 4Mohsen-1065
       - 4Mohsen-1060
-      - 4FreeIran-46
-      - 台湾 | TWN 2
       - 4Mohsen-1045
-      - TG频道@stymei1丨17
   - name: 🐟 漏网之鱼
     type: select
     proxies:
