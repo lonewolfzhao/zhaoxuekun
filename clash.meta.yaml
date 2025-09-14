@@ -26,21 +26,15 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: US_6|4.0MB/s, server: 38.12.83.217, port: 30002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 台湾 | TWN 55, server: 125.228.180.250, port: 10081, type: ss, cipher: chacha20-ietf-poly1305, password: 9147add3-109d-4eba-9b2b-aecd24b847e0, udp: true}
-- {name: 台湾 | TWN 5, server: 36.232.108.77, port: 10142, type: ss, cipher: chacha20-ietf-poly1305, password: 0e3ce90c-16c1-4d05-a065-f129c84b473f, udp: true}
-- {name: 台湾 | TWN 54, server: 111.253.194.5, port: 10127, type: ss, cipher: chacha20-ietf-poly1305, password: 67de493e-422d-4528-b337-2963d597f7cd, udp: true}
-- {name: 4Nika-1326, server: 37.235.49.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 台湾 | TWN 43, server: 19.mamamajd.site, port: 23619, type: vmess, uuid: 4a562cee-d2d8-3b02-bae9-d074f927c376, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 台湾 | TWN 44, server: 125.230.22.83, port: 10035, type: ss, cipher: chacha20-ietf-poly1305, password: 0543b5c3-b84e-4ee4-b037-c692829eb2ed, udp: true}
-- {name: 台湾 | TWN 66, server: 125.229.88.58, port: 10121, type: ss, cipher: chacha20-ietf-poly1305, password: 4fd57160-1025-46ed-a95d-ee0cbc971d80, udp: true}
-- {name: 台湾 | TWN, server: 114.46.94.126, port: 10076, type: ss, cipher: chacha20-ietf-poly1305, password: b477d593-9994-4775-b2d5-c73064ee4f21, udp: true}
-- {name: 4Mohsen-1045, server: 103.186.154.25, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-560, server: 45.144.235.103, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: aE5rFdxzG8GQf5TAQhZhRA, udp: true}
-- {name: 4Mohsen-1060, server: 103.186.155.19, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Nika-1325, server: 37.235.49.152, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: TW_2|4.2MB/s, server: 118.170.212.135, port: 10017, type: ss, cipher: chacha20-ietf-poly1305, password: ac986a2e-b5b9-4da6-8e58-7a7f43f8809a, udp: true}
+- {name: NL_1|3.0MB/s, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: TG频道@stymei1丨17, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 4Sarina-3007, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: 4Jadi-560, server: 45.144.235.103, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: aE5rFdxzG8GQf5TAQhZhRA, udp: true}
+- {name: NL_1|2.8MB/s, server: s3.ghostrke.sbs, port: 8880, type: vmess, uuid: 7124cc30-b751-47c5-b87a-02db8c67ce64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: grpc, servername: s3.ghostrke.sbs, grpc-opts: {grpc-service-name: "@Ghostray_NG"}, udp: true}
+- {name: 越南 | VNM, server: vn.ourspce.fun, port: 302, type: trojan, password: d8068f7e-c832-450e-af2d-58ec48aa7ba1, skip-cert-verify: true, udp: true}
+- {name: DE_4|4.1MB/s, server: serkat.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: serkat.org}}, udp: true}
+- {name: GB_4|2.2MB/s, server: uk.fastsoonlink.com, port: 40008, type: ss, cipher: chacha20-ietf-poly1305, password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41, udp: true}
+- {name: 12|🇭🇰 香港7|@ripaojiedian, server: 8.138.9.184, port: 50803, type: ss, cipher: aes-256-gcm, password: RGl5M0p1UHhZSExJM3VwNGFsd3l1WHpmWTVheVRHVWM=, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -53,21 +47,15 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - US_6|4.0MB/s
-      - 台湾 | TWN 55
-      - 台湾 | TWN 5
-      - 台湾 | TWN 54
-      - 4Nika-1326
-      - 台湾 | TWN 43
-      - 台湾 | TWN 44
-      - 台湾 | TWN 66
-      - 台湾 | TWN
-      - 4Mohsen-1045
-      - 4Jadi-560
-      - 4Mohsen-1060
-      - 4Nika-1325
-      - TW_2|4.2MB/s
+      - NL_1|3.0MB/s
       - TG频道@stymei1丨17
+      - 4Sarina-3007
+      - 4Jadi-560
+      - NL_1|2.8MB/s
+      - 越南 | VNM
+      - DE_4|4.1MB/s
+      - GB_4|2.2MB/s
+      - 12|🇭🇰 香港7|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -79,42 +67,30 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - US_6|4.0MB/s
-      - 台湾 | TWN 55
-      - 台湾 | TWN 5
-      - 台湾 | TWN 54
-      - 4Nika-1326
-      - 台湾 | TWN 43
-      - 台湾 | TWN 44
-      - 台湾 | TWN 66
-      - 台湾 | TWN
-      - 4Mohsen-1045
-      - 4Jadi-560
-      - 4Mohsen-1060
-      - 4Nika-1325
-      - TW_2|4.2MB/s
+      - NL_1|3.0MB/s
       - TG频道@stymei1丨17
+      - 4Sarina-3007
+      - 4Jadi-560
+      - NL_1|2.8MB/s
+      - 越南 | VNM
+      - DE_4|4.1MB/s
+      - GB_4|2.2MB/s
+      - 12|🇭🇰 香港7|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - US_6|4.0MB/s
-      - 台湾 | TWN 55
-      - 台湾 | TWN 5
-      - 台湾 | TWN 54
-      - 4Nika-1326
-      - 台湾 | TWN 43
-      - 台湾 | TWN 44
-      - 台湾 | TWN 66
-      - 台湾 | TWN
-      - 4Mohsen-1045
-      - 4Jadi-560
-      - 4Mohsen-1060
-      - 4Nika-1325
-      - TW_2|4.2MB/s
+      - NL_1|3.0MB/s
       - TG频道@stymei1丨17
+      - 4Sarina-3007
+      - 4Jadi-560
+      - NL_1|2.8MB/s
+      - 越南 | VNM
+      - DE_4|4.1MB/s
+      - GB_4|2.2MB/s
+      - 12|🇭🇰 香港7|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
