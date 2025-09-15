@@ -26,15 +26,12 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: NL_1|3.0MB/s, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: TG频道@stymei1丨17, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 4Sarina-3007, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: py|51da|puddincat07@Telegram, server: 38.165.233.93, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: gr|a489|puddincat07@Telegram, server: 192.71.166.100, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: br|72d3|puddincat07@Telegram, server: 38.54.57.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: 4Jadi-560, server: 45.144.235.103, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: aE5rFdxzG8GQf5TAQhZhRA, udp: true}
-- {name: NL_1|2.8MB/s, server: s3.ghostrke.sbs, port: 8880, type: vmess, uuid: 7124cc30-b751-47c5-b87a-02db8c67ce64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: grpc, servername: s3.ghostrke.sbs, grpc-opts: {grpc-service-name: "@Ghostray_NG"}, udp: true}
-- {name: 越南 | VNM, server: vn.ourspce.fun, port: 302, type: trojan, password: d8068f7e-c832-450e-af2d-58ec48aa7ba1, skip-cert-verify: true, udp: true}
-- {name: DE_4|4.1MB/s, server: serkat.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: serkat.org}}, udp: true}
-- {name: GB_4|2.2MB/s, server: uk.fastsoonlink.com, port: 40008, type: ss, cipher: chacha20-ietf-poly1305, password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41, udp: true}
-- {name: 12|🇭🇰 香港7|@ripaojiedian, server: 8.138.9.184, port: 50803, type: ss, cipher: aes-256-gcm, password: RGl5M0p1UHhZSExJM3VwNGFsd3l1WHpmWTVheVRHVWM=, udp: true}
+- {name: 4Sarina-3007, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: NL_1|3.0MB/s, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -47,15 +44,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - NL_1|3.0MB/s
-      - TG频道@stymei1丨17
-      - 4Sarina-3007
+      - py|51da|puddincat07@Telegram
+      - gr|a489|puddincat07@Telegram
+      - br|72d3|puddincat07@Telegram
       - 4Jadi-560
-      - NL_1|2.8MB/s
-      - 越南 | VNM
-      - DE_4|4.1MB/s
-      - GB_4|2.2MB/s
-      - 12|🇭🇰 香港7|@ripaojiedian
+      - 4Sarina-3007
+      - NL_1|3.0MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -67,30 +61,24 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - NL_1|3.0MB/s
-      - TG频道@stymei1丨17
-      - 4Sarina-3007
+      - py|51da|puddincat07@Telegram
+      - gr|a489|puddincat07@Telegram
+      - br|72d3|puddincat07@Telegram
       - 4Jadi-560
-      - NL_1|2.8MB/s
-      - 越南 | VNM
-      - DE_4|4.1MB/s
-      - GB_4|2.2MB/s
-      - 12|🇭🇰 香港7|@ripaojiedian
+      - 4Sarina-3007
+      - NL_1|3.0MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - NL_1|3.0MB/s
-      - TG频道@stymei1丨17
-      - 4Sarina-3007
+      - py|51da|puddincat07@Telegram
+      - gr|a489|puddincat07@Telegram
+      - br|72d3|puddincat07@Telegram
       - 4Jadi-560
-      - NL_1|2.8MB/s
-      - 越南 | VNM
-      - DE_4|4.1MB/s
-      - GB_4|2.2MB/s
-      - 12|🇭🇰 香港7|@ripaojiedian
+      - 4Sarina-3007
+      - NL_1|3.0MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
