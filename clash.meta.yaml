@@ -26,12 +26,20 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: py|51da|puddincat07@Telegram, server: 38.165.233.93, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: gr|a489|puddincat07@Telegram, server: 192.71.166.100, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: br|72d3|puddincat07@Telegram, server: 38.54.57.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 香港 | HKG 3, server: 106.75.134.1, port: 12000, type: trojan, password: 2fd0d127-266d-4d0b-b453-f94659a132fc, sni: aliyun.com, skip-cert-verify: true, udp: true}
+- {name: md|c352|puddincat07@Telegram, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: TG频道@stymei1丨17, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
 - {name: 4Jadi-560, server: 45.144.235.103, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: aE5rFdxzG8GQf5TAQhZhRA, udp: true}
-- {name: 4Sarina-3007, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: br|72d3|puddincat07@Telegram, server: 38.54.57.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 4FreeIran-472, server: uae1.power-draco.com, port: 1097, type: ss, cipher: chacha20-ietf-poly1305, password: MZBQSdGpTX2MPP5D6fSEQA, udp: true}
+- {name: 美国 | USA 2, server: yd-02.paofunlink.com, port: 1083, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 222545:TIvS2C, obfs-param: 45672222545.microsoft.com, udp: true}
+- {name: py|51da|puddincat07@Telegram, server: 38.165.233.93, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: xx|c6d2|puddincat07@Telegram, server: v8.heduian.link, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
 - {name: NL_1|3.0MB/s, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 德国 | DEU, server: 23.165.200.112, port: 26902, type: ss, cipher: chacha20-ietf-poly1305, password: zaq1@WSXcde3$RFV, plugin: obfs, plugin-opts: {mode: tls, host: falkenstein.ticoag.fun}, udp: true}
+- {name: gr|a489|puddincat07@Telegram, server: 192.71.166.100, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: PL_1|2.8MB/s, server: ss.80808.sbs, port: 20, type: ss, cipher: aes-256-gcm, password: a4VtqRwhj6gWbHwL4Jt26w, udp: true}
+- {name: 英国 | GBR 3, server: uk.viefast.net, port: 443, type: trojan, password: 9e76767d-4bfa-4f04-a800-42e2f63afed2, sni: csapp.catch.net.tw, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -44,12 +52,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - py|51da|puddincat07@Telegram
-      - gr|a489|puddincat07@Telegram
-      - br|72d3|puddincat07@Telegram
+      - 香港 | HKG 3
+      - md|c352|puddincat07@Telegram
+      - TG频道@stymei1丨17
       - 4Jadi-560
-      - 4Sarina-3007
+      - br|72d3|puddincat07@Telegram
+      - 4FreeIran-472
+      - 美国 | USA 2
+      - py|51da|puddincat07@Telegram
+      - xx|c6d2|puddincat07@Telegram
       - NL_1|3.0MB/s
+      - 德国 | DEU
+      - gr|a489|puddincat07@Telegram
+      - PL_1|2.8MB/s
+      - 英国 | GBR 3
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -61,24 +77,40 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - py|51da|puddincat07@Telegram
-      - gr|a489|puddincat07@Telegram
-      - br|72d3|puddincat07@Telegram
+      - 香港 | HKG 3
+      - md|c352|puddincat07@Telegram
+      - TG频道@stymei1丨17
       - 4Jadi-560
-      - 4Sarina-3007
+      - br|72d3|puddincat07@Telegram
+      - 4FreeIran-472
+      - 美国 | USA 2
+      - py|51da|puddincat07@Telegram
+      - xx|c6d2|puddincat07@Telegram
       - NL_1|3.0MB/s
+      - 德国 | DEU
+      - gr|a489|puddincat07@Telegram
+      - PL_1|2.8MB/s
+      - 英国 | GBR 3
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - py|51da|puddincat07@Telegram
-      - gr|a489|puddincat07@Telegram
-      - br|72d3|puddincat07@Telegram
+      - 香港 | HKG 3
+      - md|c352|puddincat07@Telegram
+      - TG频道@stymei1丨17
       - 4Jadi-560
-      - 4Sarina-3007
+      - br|72d3|puddincat07@Telegram
+      - 4FreeIran-472
+      - 美国 | USA 2
+      - py|51da|puddincat07@Telegram
+      - xx|c6d2|puddincat07@Telegram
       - NL_1|3.0MB/s
+      - 德国 | DEU
+      - gr|a489|puddincat07@Telegram
+      - PL_1|2.8MB/s
+      - 英国 | GBR 3
   - name: 🐟 漏网之鱼
     type: select
     proxies:
