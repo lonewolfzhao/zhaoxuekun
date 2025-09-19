@@ -25,49 +25,23 @@ dns:
     geoip-code: CN
     ipcidr:
     - 240.0.0.0/4
-unified-delay: true
-global-client-fingerprint: chrome
-dns:
-  enable: true
-  listen: :53
-  ipv6: true
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  default-nameserver:
-  - 223.5.5.5
-  - 8.8.8.8
-  nameserver:
-  - https://dns.alidns.com/dns-query
-  - https://doh.pub/dns-query
-  fallback:
-  - https://1.0.0.1/dns-query
-  - tls://dns.google
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
-    ipcidr:
-    - 240.0.0.0/4
 proxies:
-- {name: DE_71ed6_0008, server: kampong.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: kampong.org}}, udp: true}
-- {name: DE_71ed6_0007, server: kampong.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: kampong.org}}, udp: true}
-- {name: FR_1|3.5MB/s, server: kampong.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: kampong.org}}, udp: true}
-- {name: 美国 | USA 2, server: yd-02.paofunlink.com, port: 1083, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 222545:TIvS2C, obfs-param: 45672222545.microsoft.com, udp: true}
-- {name: 英国 | GBR 3, server: uk.viefast.net, port: 443, type: trojan, password: 9e76767d-4bfa-4f04-a800-42e2f63afed2, sni: csapp.catch.net.tw, skip-cert-verify: true, udp: true}
-- {name: SG_1|2.4MB/s, server: yd-02.paofunlink.com, port: 1092, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 222545:TIvS2C, obfs-param: 45672222545.microsoft.com, udp: true}
-- {name: TG频道@stymei1丨17, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 德国 | DEU, server: 23.165.200.112, port: 26902, type: ss, cipher: chacha20-ietf-poly1305, password: zaq1@WSXcde3$RFV, plugin: obfs, plugin-opts: {mode: tls, host: falkenstein.ticoag.fun}, udp: true}
-- {name: py|51da|puddincat07@Telegram, server: 38.165.233.93, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: FR_2|2.2MB/s, server: 57.128.189.253, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
-- {name: xx|c6d2|puddincat07@Telegram, server: v8.heduian.link, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
-- {name: 4Sarina-526, server: hackney-latest-strike.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XUMTygEM1jVYIvysXKqA5T, udp: true}
-- {name: NL_1|3.0MB/s, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 4FreeIran-1558, server: 218.237.185.230, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
 - {name: gr|a489|puddincat07@Telegram, server: 192.71.166.100, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 4Sarina-709, server: 45.87.175.58, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
 - {name: br|72d3|puddincat07@Telegram, server: 38.54.57.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: CN_71ed6_0006, server: 183.240.180.47, port: 52512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: HK_1|3.5MB/s, server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com}}, udp: true}
+- {name: NL_1|3.0MB/s, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: CN_3a042_0006, server: suningyunyou.judelvin.com, port: 13028, type: trojan, password: 453121aa-6c1d-33ed-a175-cb46aa8f22f0, sni: 3t49hrhac.qqtoup81.top, skip-cert-verify: true, udp: true}
+- {name: DE_5|4.3MB/s, server: 57.129.24.131, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: kampong.org}}, udp: true}
+- {name: FR_2|2.2MB/s, server: 57.128.189.253, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
+- {name: 4Mohsen-474, server: 142.93.166.6, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: O3k5u79Rzc8fAcwLf2cQy3, udp: true}
+- {name: py|51da|puddincat07@Telegram, server: 38.165.233.93, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: FR_1|4.7MB/s, server: 57.128.189.240, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
+- {name: IN_9a196_0013, server: 159.65.155.229, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: bvr9u3aeRQwAafhjmvHtwH, udp: true}
 - {name: md|c352|puddincat07@Telegram, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: IN_91ea6_0010, server: 123.58.203.92, port: 18872, type: vmess, uuid: edfe29a5-cc54-488d-a31d-ca71f39e38d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+- {name: 4Sarina-529, server: hackney-latest-strike.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XUMTygEM1jVYIvysXKqA5T, udp: true}
+- {name: TG频道@stymei1丨17, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 4FreeIran-1558, server: 218.237.185.230, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: CN_e36cb_0007, server: v36.heduian.link, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -80,26 +54,22 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - DE_71ed6_0008
-      - DE_71ed6_0007
-      - FR_1|3.5MB/s
-      - 美国 | USA 2
-      - 英国 | GBR 3
-      - SG_1|2.4MB/s
-      - TG频道@stymei1丨17
-      - 德国 | DEU
-      - py|51da|puddincat07@Telegram
-      - FR_2|2.2MB/s
-      - xx|c6d2|puddincat07@Telegram
-      - 4Sarina-526
-      - NL_1|3.0MB/s
-      - 4FreeIran-1558
       - gr|a489|puddincat07@Telegram
-      - 4Sarina-709
       - br|72d3|puddincat07@Telegram
-      - CN_71ed6_0006
-      - HK_1|3.5MB/s
+      - NL_1|3.0MB/s
+      - CN_3a042_0006
+      - DE_5|4.3MB/s
+      - FR_2|2.2MB/s
+      - 4Mohsen-474
+      - py|51da|puddincat07@Telegram
+      - FR_1|4.7MB/s
+      - IN_9a196_0013
       - md|c352|puddincat07@Telegram
+      - IN_91ea6_0010
+      - 4Sarina-529
+      - TG频道@stymei1丨17
+      - 4FreeIran-1558
+      - CN_e36cb_0007
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -111,52 +81,44 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - DE_71ed6_0008
-      - DE_71ed6_0007
-      - FR_1|3.5MB/s
-      - 美国 | USA 2
-      - 英国 | GBR 3
-      - SG_1|2.4MB/s
-      - TG频道@stymei1丨17
-      - 德国 | DEU
-      - py|51da|puddincat07@Telegram
-      - FR_2|2.2MB/s
-      - xx|c6d2|puddincat07@Telegram
-      - 4Sarina-526
-      - NL_1|3.0MB/s
-      - 4FreeIran-1558
       - gr|a489|puddincat07@Telegram
-      - 4Sarina-709
       - br|72d3|puddincat07@Telegram
-      - CN_71ed6_0006
-      - HK_1|3.5MB/s
+      - NL_1|3.0MB/s
+      - CN_3a042_0006
+      - DE_5|4.3MB/s
+      - FR_2|2.2MB/s
+      - 4Mohsen-474
+      - py|51da|puddincat07@Telegram
+      - FR_1|4.7MB/s
+      - IN_9a196_0013
       - md|c352|puddincat07@Telegram
+      - IN_91ea6_0010
+      - 4Sarina-529
+      - TG频道@stymei1丨17
+      - 4FreeIran-1558
+      - CN_e36cb_0007
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - DE_71ed6_0008
-      - DE_71ed6_0007
-      - FR_1|3.5MB/s
-      - 美国 | USA 2
-      - 英国 | GBR 3
-      - SG_1|2.4MB/s
-      - TG频道@stymei1丨17
-      - 德国 | DEU
-      - py|51da|puddincat07@Telegram
-      - FR_2|2.2MB/s
-      - xx|c6d2|puddincat07@Telegram
-      - 4Sarina-526
-      - NL_1|3.0MB/s
-      - 4FreeIran-1558
       - gr|a489|puddincat07@Telegram
-      - 4Sarina-709
       - br|72d3|puddincat07@Telegram
-      - CN_71ed6_0006
-      - HK_1|3.5MB/s
+      - NL_1|3.0MB/s
+      - CN_3a042_0006
+      - DE_5|4.3MB/s
+      - FR_2|2.2MB/s
+      - 4Mohsen-474
+      - py|51da|puddincat07@Telegram
+      - FR_1|4.7MB/s
+      - IN_9a196_0013
       - md|c352|puddincat07@Telegram
+      - IN_91ea6_0010
+      - 4Sarina-529
+      - TG频道@stymei1丨17
+      - 4FreeIran-1558
+      - CN_e36cb_0007
   - name: 🐟 漏网之鱼
     type: select
     proxies:
