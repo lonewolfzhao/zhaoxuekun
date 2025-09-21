@@ -26,36 +26,39 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: SK_1|2.6MB/s, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: "Channel id: @ShadowProxy66🇺🇸", server: delight.appagent.net, port: 443, type: trojan, password: D0AASSpCKFjOBSwlwqylnOep8BDlgN3e3RY9S3Op2RaZZ58gID8yY3ej56CSuYacZz3EA, skip-cert-verify: true, udp: true}
+- {name: "Channel id: @ShadowProxy66🇺🇸 2", server: pricey.appagent.net, port: 28334, type: trojan, password: F9OKESxKjSDExSeaOw7XyINxDzaOZqeKxCeIczYYED8ewZ2Yl9AppAySO3XwFNy3lCaXDDCFnlACSB0, skip-cert-verify: true, udp: true}
+- {name: "Channel id: @ShadowProxy66🇺🇸 3", server: bolster.appagent.net, port: 28332, type: trojan, password: OaFFcTDe9pSlez6x3SY8AARXwClzCRRDwSN8F3OqZAEYC0SE6F8gp3wCTCSTDYllcNceagCDD2C59S3, skip-cert-verify: true, udp: true}
+- {name: US_1|3.5MB/s, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: "Channel id: @ShadowProxy66🇺🇸 4", server: kasheet.appagent.net, port: 18333, type: trojan, password: B3AO9XlcTxaIATp08S29pS6luwZ8C4qDFzaCFYEDDSA5YDeKZAy3e2ZXRe73zIpxwByN7, skip-cert-verify: true, udp: true}
+- {name: CA_1|2.8MB/s, server: ssca.irundns.net, port: 443, type: ssr, cipher: aes-128-cfb, password: $$Turb0VPN$$, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "", obfs-param: "", udp: true}
+- {name: us|a6b0|puddincat07@Telegram, server: 38.59.241.141, port: 42538, type: trojan, password: c4njgwUZU5, skip-cert-verify: true, udp: true}
 - {name: NO_1|3.1MB/s, server: 185.213.23.226, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: NL_1|3.0MB/s, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: CA_1|2.8MB/s, server: ssca.irundns.net, port: 443, type: ssr, cipher: aes-128-cfb, password: $$Turb0VPN$$, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "", obfs-param: "", udp: true}
-- {name: 4Nika-194, server: 95.181.162.236, port: 20904, type: ss, cipher: chacha20-ietf-poly1305, password: xwhJKQGU6EBtCQWwSf4kOk, udp: true}
-- {name: US_1|3.5MB/s, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: tg频道:@ripaojiedian, server: 13.61.188.86, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: TG频道@stymei1丨17, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 12|🇭🇰 香港10|@ripaojiedian, server: 103.224.80.45, port: 32026, type: vmess, uuid: 1193769d-bea4-4f0e-bab7-70640e1a0b2e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-- {name: 4Nika-483, server: 80.242.56.218, port: 50042, type: ss, cipher: chacha20-ietf-poly1305, password: Pmv1JTWlDUABkAbOnaJ4Tf, udp: true}
-- {name: 4Nika-507, server: 77.238.224.29, port: 55702, type: ss, cipher: chacha20-ietf-poly1305, password: S2QudBxi0vRySw4YRLloPq, udp: true}
-- {name: gr|a489|puddincat07@Telegram, server: 192.71.166.100, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: md|c352|puddincat07@Telegram, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: SK_1|2.6MB/s, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: "Channel id: @ShadowProxy66🇺🇸 5", server: toaster.isquirrel.net, port: 443, type: trojan, password: 3ZFDxASRw0XIcKYFlp4RSCeSwA8ap7lEAzZB7uNnO38yDYOzDe3p23CxF0OlTx6YSK3j3, skip-cert-verify: true, udp: true}
+- {name: "Channel id: @ShadowProxy66🇺🇸 6", server: seginus.appagent.net, port: 28331, type: trojan, password: nzSaSa3SFaCNFDCjOCg8A39e53p8l2xaTFCOu7qZx2Z8px4CK3DXeZYAwRRS3zY66laOE, skip-cert-verify: true, udp: true}
+- {name: "Channel id: @ShadowProxy66🇺🇸 7", server: metallic.isquirrel.net, port: 443, type: trojan, password: Npgx9nO3OBaZF5yxARYl93lFX08TlR3waDla733az8SqXe3YS3zjESECSZpAw428a6SID, skip-cert-verify: true, udp: true}
+- {name: "Channel id: @ShadowProxy66🇺🇸 8", server: connect.appagent.net, port: 28333, type: trojan, password: eYaw9xlNDu4695IF3CyY2leZOTnY8ZSOD3Xa3DClz0xqZy7Z3eaBFaTKOSwCSAOyEap4D, skip-cert-verify: true, udp: true}
+- {name: "Channel id: @ShadowProxy66🇺🇸 9", server: sirens.isquirrel.net, port: 28334, type: trojan, password: RzFSy3laClaxnYCcO3jBEpYgDyZx2CO78IC3X46ATFD73RSSZZTx8yCOKYDOqeD8pSeRa, skip-cert-verify: true, udp: true}
+- {name: "Channel id: @ShadowProxy66🇺🇸 10", server: hanger.appagent.net, port: 28331, type: trojan, password: Z3aK0aZqwyNcz7S3l3ncNCODYxNFnA8SCOOSOZ3y3AX8xA4a0RZ3gxn39aqYAaBOyzR43acKOCzSX3S, skip-cert-verify: true, udp: true}
+- {name: "Channel id: @ShadowProxy66🇺🇸 11", server: blength.appagent.net, port: 18332, type: trojan, password: 0C3YaEDx46ODTFTcaF8lXlZ3zeqSlF33wZagexzRjIyODa8RDwp8XSCO93ygCSYcSYABA, skip-cert-verify: true, udp: true}
+- {name: "Channel id: @ShadowProxy66🇺🇸 12", server: mintaka.appagent.net, port: 443, type: trojan, password: 4xS33pu88RaTF37ZxRjzAZc9zxe8OaYBX9CSO3p5SSxquFOFEySnDlCleCFA2DN3gaeDl, skip-cert-verify: true, udp: true}
 - {name: FR_1|4.7MB/s, server: 57.128.189.240, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
-- {name: 4FreeIran-1558, server: 218.237.185.230, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: br|72d3|puddincat07@Telegram, server: 38.54.57.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: "12,13|香港6|@ripaojiedian", server: 160.16.70.180, port: 447, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-- {name: "12,13|新加坡|@ripaojiedian", server: 160.16.130.66, port: 2045, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-- {name: py|51da|puddincat07@Telegram, server: 38.165.233.93, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 12|🇭🇰 香港7|@ripaojiedian, server: 38.147.188.25, port: 25119, type: vmess, uuid: 361f1769-cac1-4dd1-adca-92592929b3de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-- {name: 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509121565513-QOZnRQnbPm.download.microsoft.com}, udp: true}
-- {name: 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509121565513-QOZnRQnbPm.download.microsoft.com}, udp: true}
-- {name: FR_2|2.2MB/s, server: 57.128.189.253, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
-- {name: TR_2|2.4MB/s, server: 193.124.46.134, port: 8441, type: trojan, password: tunnel-astrovpn_official927, sni: zula.ir.AstroVPN-official.AstroVPN-official.workers.dev.AstroVPN_Official.org.AstroVPN.com.AstroVPN_Official.xyz.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.monster.AstroVPN_OfficialJoinTelegram-------------AstroVPN_Official----------Join.ir, skip-cert-verify: true, udp: true}
+- {name: HK_3|4.4MB/s, server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net}}, udp: true}
+- {name: 4Nika-1599, server: 37.235.49.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: IN_91ea6_0010, server: 123.58.203.92, port: 18872, type: vmess, uuid: edfe29a5-cc54-488d-a31d-ca71f39e38d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-- {name: CN_e36cb_0007, server: v36.heduian.link, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
-- {name: 4FreeIran-579, server: 45.87.175.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-- {name: 4FreeIran-489, server: 45.87.175.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
-- {name: 4Nika-119, server: 45.87.175.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
-- {name: 4Nika-30, server: 45.87.175.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+- {name: ⚡ b2n.ir/v2ray-configs | 325, server: 38.165.233.93, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: gr|a489|puddincat07@Telegram, server: 192.71.166.100, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: CH_1|2.5MB/s, server: ch1.opensocks.site, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: N2YzN, udp: true}
+- {name: ⚡ b2n.ir/v2ray-configs | 904, server: 154.223.16.212, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: br|72d3|puddincat07@Telegram, server: 38.54.57.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: tg频道:@ripaojiedian, server: 18.159.61.225, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4FreeIran-1558, server: 218.237.185.230, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 4Nika-483, server: 80.242.56.218, port: 50042, type: ss, cipher: chacha20-ietf-poly1305, password: Pmv1JTWlDUABkAbOnaJ4Tf, udp: true}
+- {name: 英国 | GBR 4, server: uk.fastsoonlink.com, port: 40008, type: ss, cipher: chacha20-ietf-poly1305, password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41, udp: true}
+- {name: TG频道@stymei1丨17, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 4Nika-507, server: 77.238.224.29, port: 55702, type: ss, cipher: chacha20-ietf-poly1305, password: S2QudBxi0vRySw4YRLloPq, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -68,36 +71,39 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - SK_1|2.6MB/s
+      - "Channel id: @ShadowProxy66🇺🇸"
+      - "Channel id: @ShadowProxy66🇺🇸 2"
+      - "Channel id: @ShadowProxy66🇺🇸 3"
+      - US_1|3.5MB/s
+      - "Channel id: @ShadowProxy66🇺🇸 4"
+      - CA_1|2.8MB/s
+      - us|a6b0|puddincat07@Telegram
       - NO_1|3.1MB/s
       - NL_1|3.0MB/s
-      - CA_1|2.8MB/s
-      - 4Nika-194
-      - US_1|3.5MB/s
-      - tg频道:@ripaojiedian
-      - TG频道@stymei1丨17
-      - 12|🇭🇰 香港10|@ripaojiedian
-      - 4Nika-483
-      - 4Nika-507
-      - gr|a489|puddincat07@Telegram
-      - md|c352|puddincat07@Telegram
+      - SK_1|2.6MB/s
+      - "Channel id: @ShadowProxy66🇺🇸 5"
+      - "Channel id: @ShadowProxy66🇺🇸 6"
+      - "Channel id: @ShadowProxy66🇺🇸 7"
+      - "Channel id: @ShadowProxy66🇺🇸 8"
+      - "Channel id: @ShadowProxy66🇺🇸 9"
+      - "Channel id: @ShadowProxy66🇺🇸 10"
+      - "Channel id: @ShadowProxy66🇺🇸 11"
+      - "Channel id: @ShadowProxy66🇺🇸 12"
       - FR_1|4.7MB/s
-      - 4FreeIran-1558
-      - br|72d3|puddincat07@Telegram
-      - 12,13|香港6|@ripaojiedian
-      - 12,13|新加坡|@ripaojiedian
-      - py|51da|puddincat07@Telegram
-      - 12|🇭🇰 香港7|@ripaojiedian
-      - 日本|@ripaojiedian
-      - 美国2|@ripaojiedian
-      - FR_2|2.2MB/s
-      - TR_2|2.4MB/s
+      - HK_3|4.4MB/s
+      - 4Nika-1599
       - IN_91ea6_0010
-      - CN_e36cb_0007
-      - 4FreeIran-579
-      - 4FreeIran-489
-      - 4Nika-119
-      - 4Nika-30
+      - ⚡ b2n.ir/v2ray-configs | 325
+      - gr|a489|puddincat07@Telegram
+      - CH_1|2.5MB/s
+      - ⚡ b2n.ir/v2ray-configs | 904
+      - br|72d3|puddincat07@Telegram
+      - tg频道:@ripaojiedian
+      - 4FreeIran-1558
+      - 4Nika-483
+      - 英国 | GBR 4
+      - TG频道@stymei1丨17
+      - 4Nika-507
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -109,72 +115,78 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - SK_1|2.6MB/s
+      - "Channel id: @ShadowProxy66🇺🇸"
+      - "Channel id: @ShadowProxy66🇺🇸 2"
+      - "Channel id: @ShadowProxy66🇺🇸 3"
+      - US_1|3.5MB/s
+      - "Channel id: @ShadowProxy66🇺🇸 4"
+      - CA_1|2.8MB/s
+      - us|a6b0|puddincat07@Telegram
       - NO_1|3.1MB/s
       - NL_1|3.0MB/s
-      - CA_1|2.8MB/s
-      - 4Nika-194
-      - US_1|3.5MB/s
-      - tg频道:@ripaojiedian
-      - TG频道@stymei1丨17
-      - 12|🇭🇰 香港10|@ripaojiedian
-      - 4Nika-483
-      - 4Nika-507
-      - gr|a489|puddincat07@Telegram
-      - md|c352|puddincat07@Telegram
+      - SK_1|2.6MB/s
+      - "Channel id: @ShadowProxy66🇺🇸 5"
+      - "Channel id: @ShadowProxy66🇺🇸 6"
+      - "Channel id: @ShadowProxy66🇺🇸 7"
+      - "Channel id: @ShadowProxy66🇺🇸 8"
+      - "Channel id: @ShadowProxy66🇺🇸 9"
+      - "Channel id: @ShadowProxy66🇺🇸 10"
+      - "Channel id: @ShadowProxy66🇺🇸 11"
+      - "Channel id: @ShadowProxy66🇺🇸 12"
       - FR_1|4.7MB/s
-      - 4FreeIran-1558
-      - br|72d3|puddincat07@Telegram
-      - 12,13|香港6|@ripaojiedian
-      - 12,13|新加坡|@ripaojiedian
-      - py|51da|puddincat07@Telegram
-      - 12|🇭🇰 香港7|@ripaojiedian
-      - 日本|@ripaojiedian
-      - 美国2|@ripaojiedian
-      - FR_2|2.2MB/s
-      - TR_2|2.4MB/s
+      - HK_3|4.4MB/s
+      - 4Nika-1599
       - IN_91ea6_0010
-      - CN_e36cb_0007
-      - 4FreeIran-579
-      - 4FreeIran-489
-      - 4Nika-119
-      - 4Nika-30
+      - ⚡ b2n.ir/v2ray-configs | 325
+      - gr|a489|puddincat07@Telegram
+      - CH_1|2.5MB/s
+      - ⚡ b2n.ir/v2ray-configs | 904
+      - br|72d3|puddincat07@Telegram
+      - tg频道:@ripaojiedian
+      - 4FreeIran-1558
+      - 4Nika-483
+      - 英国 | GBR 4
+      - TG频道@stymei1丨17
+      - 4Nika-507
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - SK_1|2.6MB/s
+      - "Channel id: @ShadowProxy66🇺🇸"
+      - "Channel id: @ShadowProxy66🇺🇸 2"
+      - "Channel id: @ShadowProxy66🇺🇸 3"
+      - US_1|3.5MB/s
+      - "Channel id: @ShadowProxy66🇺🇸 4"
+      - CA_1|2.8MB/s
+      - us|a6b0|puddincat07@Telegram
       - NO_1|3.1MB/s
       - NL_1|3.0MB/s
-      - CA_1|2.8MB/s
-      - 4Nika-194
-      - US_1|3.5MB/s
-      - tg频道:@ripaojiedian
-      - TG频道@stymei1丨17
-      - 12|🇭🇰 香港10|@ripaojiedian
-      - 4Nika-483
-      - 4Nika-507
-      - gr|a489|puddincat07@Telegram
-      - md|c352|puddincat07@Telegram
+      - SK_1|2.6MB/s
+      - "Channel id: @ShadowProxy66🇺🇸 5"
+      - "Channel id: @ShadowProxy66🇺🇸 6"
+      - "Channel id: @ShadowProxy66🇺🇸 7"
+      - "Channel id: @ShadowProxy66🇺🇸 8"
+      - "Channel id: @ShadowProxy66🇺🇸 9"
+      - "Channel id: @ShadowProxy66🇺🇸 10"
+      - "Channel id: @ShadowProxy66🇺🇸 11"
+      - "Channel id: @ShadowProxy66🇺🇸 12"
       - FR_1|4.7MB/s
-      - 4FreeIran-1558
-      - br|72d3|puddincat07@Telegram
-      - 12,13|香港6|@ripaojiedian
-      - 12,13|新加坡|@ripaojiedian
-      - py|51da|puddincat07@Telegram
-      - 12|🇭🇰 香港7|@ripaojiedian
-      - 日本|@ripaojiedian
-      - 美国2|@ripaojiedian
-      - FR_2|2.2MB/s
-      - TR_2|2.4MB/s
+      - HK_3|4.4MB/s
+      - 4Nika-1599
       - IN_91ea6_0010
-      - CN_e36cb_0007
-      - 4FreeIran-579
-      - 4FreeIran-489
-      - 4Nika-119
-      - 4Nika-30
+      - ⚡ b2n.ir/v2ray-configs | 325
+      - gr|a489|puddincat07@Telegram
+      - CH_1|2.5MB/s
+      - ⚡ b2n.ir/v2ray-configs | 904
+      - br|72d3|puddincat07@Telegram
+      - tg频道:@ripaojiedian
+      - 4FreeIran-1558
+      - 4Nika-483
+      - 英国 | GBR 4
+      - TG频道@stymei1丨17
+      - 4Nika-507
   - name: 🐟 漏网之鱼
     type: select
     proxies:
