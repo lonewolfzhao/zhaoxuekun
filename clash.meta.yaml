@@ -26,17 +26,30 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: NL-51.15.23.63-0249, server: 51.15.23.63, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: FR_1|4.7MB/s, server: 57.128.189.240, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
+- {name: 美国3|@ripaojiedian, server: 153.121.45.139, port: 1700, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
 - {name: SK_1|2.6MB/s, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: US-104.192.226.106-0210, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: NL_1|3.0MB/s, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 香港 | HKG 13, server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com}}, udp: true}
+- {name: CN_67467_0004, server: v8.heduian.link, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
+- {name: 香港4|@ripaojiedian, server: 202.181.103.246, port: 443, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
 - {name: NO-185.213.23.226-0216, server: 185.213.23.226, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: _US_美国, server: 38.165.233.93, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: NL_1|3.0MB/s, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: ⚡ b2n.ir/v2ray-configs | 904, server: 154.223.16.212, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: CN_800f4_0004, server: sgp.fastsoonlink.com, port: 40005, type: ss, cipher: chacha20-ietf-poly1305, password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41, udp: true}
+- {name: _DE_德国, server: 46.183.184.60, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 新加坡|@ripaojiedian, server: 160.16.130.66, port: 2045, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+- {name: 香港6|@ripaojiedian, server: 160.16.236.32, port: 443, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+- {name: _IS_冰岛, server: 37.235.49.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 日本3|@ripaojiedian, server: 160.16.231.103, port: 1331, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+- {name: NL-51.15.23.63-0249, server: 51.15.23.63, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: SG_5b132_0059, server: 8.219.14.179, port: 22286, type: vmess, uuid: 8646218f-a600-4b73-8721-aa5d4567819e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+- {name: FR_1|4.7MB/s, server: 57.128.189.240, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
+- {name: MY_5b132_0050, server: 38.54.98.110, port: 2052, type: vmess, uuid: 665d9b8f-153d-4907-adac-de12afd9c851, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: 4Nika-192, server: 83.217.9.4, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: v2LBhok5lvjR, udp: true}
 - {name: 4Nika-507, server: 77.238.224.29, port: 55702, type: ss, cipher: chacha20-ietf-poly1305, password: S2QudBxi0vRySw4YRLloPq, udp: true}
+- {name: 香港 | HKG 13, server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com}}, udp: true}
+- {name: 4Sarina-647, server: 71.19.148.74, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: gqkUCvmeOTghYJXF1YIuk5, udp: true}
+- {name: 4Sarina-520, server: hackney-latest-strike.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XUMTygEM1jVYIvysXKqA5T, udp: true}
+- {name: US-104.192.226.106-0210, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: CN_800f4_0004, server: sgp.fastsoonlink.com, port: 40005, type: ss, cipher: chacha20-ietf-poly1305, password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41, udp: true}
 - {name: 4Jadi-1680, server: 45.140.169.26, port: 30102, type: ss, cipher: aes-256-gcm, password: 7ae4e68cf77f6089, udp: true}
 - {name: "Channel id: @ShadowProxy66🇺🇸 7", server: metallic.isquirrel.net, port: 443, type: trojan, password: Npgx9nO3OBaZF5yxARYl93lFX08TlR3waDla733az8SqXe3YS3zjESECSZpAw428a6SID, skip-cert-verify: true, udp: true}
 - {name: "Channel id: @ShadowProxy66🇺🇸 2", server: pricey.appagent.net, port: 28334, type: trojan, password: F9OKESxKjSDExSeaOw7XyINxDzaOZqeKxCeIczYYED8ewZ2Yl9AppAySO3XwFNy3lCaXDDCFnlACSB0, skip-cert-verify: true, udp: true}
@@ -52,17 +65,30 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - NL-51.15.23.63-0249
-      - FR_1|4.7MB/s
+      - 美国3|@ripaojiedian
       - SK_1|2.6MB/s
-      - US-104.192.226.106-0210
-      - NL_1|3.0MB/s
-      - 香港 | HKG 13
+      - CN_67467_0004
+      - 香港4|@ripaojiedian
       - NO-185.213.23.226-0216
       - _US_美国
+      - NL_1|3.0MB/s
       - ⚡ b2n.ir/v2ray-configs | 904
-      - CN_800f4_0004
+      - _DE_德国
+      - 新加坡|@ripaojiedian
+      - 香港6|@ripaojiedian
+      - _IS_冰岛
+      - 日本3|@ripaojiedian
+      - NL-51.15.23.63-0249
+      - SG_5b132_0059
+      - FR_1|4.7MB/s
+      - MY_5b132_0050
+      - 4Nika-192
       - 4Nika-507
+      - 香港 | HKG 13
+      - 4Sarina-647
+      - 4Sarina-520
+      - US-104.192.226.106-0210
+      - CN_800f4_0004
       - 4Jadi-1680
       - "Channel id: @ShadowProxy66🇺🇸 7"
       - "Channel id: @ShadowProxy66🇺🇸 2"
@@ -77,17 +103,30 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - NL-51.15.23.63-0249
-      - FR_1|4.7MB/s
+      - 美国3|@ripaojiedian
       - SK_1|2.6MB/s
-      - US-104.192.226.106-0210
-      - NL_1|3.0MB/s
-      - 香港 | HKG 13
+      - CN_67467_0004
+      - 香港4|@ripaojiedian
       - NO-185.213.23.226-0216
       - _US_美国
+      - NL_1|3.0MB/s
       - ⚡ b2n.ir/v2ray-configs | 904
-      - CN_800f4_0004
+      - _DE_德国
+      - 新加坡|@ripaojiedian
+      - 香港6|@ripaojiedian
+      - _IS_冰岛
+      - 日本3|@ripaojiedian
+      - NL-51.15.23.63-0249
+      - SG_5b132_0059
+      - FR_1|4.7MB/s
+      - MY_5b132_0050
+      - 4Nika-192
       - 4Nika-507
+      - 香港 | HKG 13
+      - 4Sarina-647
+      - 4Sarina-520
+      - US-104.192.226.106-0210
+      - CN_800f4_0004
       - 4Jadi-1680
       - "Channel id: @ShadowProxy66🇺🇸 7"
       - "Channel id: @ShadowProxy66🇺🇸 2"
@@ -97,17 +136,30 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - NL-51.15.23.63-0249
-      - FR_1|4.7MB/s
+      - 美国3|@ripaojiedian
       - SK_1|2.6MB/s
-      - US-104.192.226.106-0210
-      - NL_1|3.0MB/s
-      - 香港 | HKG 13
+      - CN_67467_0004
+      - 香港4|@ripaojiedian
       - NO-185.213.23.226-0216
       - _US_美国
+      - NL_1|3.0MB/s
       - ⚡ b2n.ir/v2ray-configs | 904
-      - CN_800f4_0004
+      - _DE_德国
+      - 新加坡|@ripaojiedian
+      - 香港6|@ripaojiedian
+      - _IS_冰岛
+      - 日本3|@ripaojiedian
+      - NL-51.15.23.63-0249
+      - SG_5b132_0059
+      - FR_1|4.7MB/s
+      - MY_5b132_0050
+      - 4Nika-192
       - 4Nika-507
+      - 香港 | HKG 13
+      - 4Sarina-647
+      - 4Sarina-520
+      - US-104.192.226.106-0210
+      - CN_800f4_0004
       - 4Jadi-1680
       - "Channel id: @ShadowProxy66🇺🇸 7"
       - "Channel id: @ShadowProxy66🇺🇸 2"
