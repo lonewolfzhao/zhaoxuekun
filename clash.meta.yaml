@@ -26,16 +26,15 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 德国 | DEU 2, server: buyix.qzz.io, port: 8443, type: vmess, uuid: 2d24d147-366a-4cfa-9f15-c86402d3840d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /2d24d147-366a-4cfa-9f15-c86402d3840d-vm, headers: {Host: buyix.qzz.io}}, udp: true}
+- {name: 韩国家宽 01-165, server: 121.170.203.147, port: 2520, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: SK_1|3.9MB/s, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 德国 | DEU 5, server: switzerland.cloudflareservervpn.sbs, port: 8443, type: vmess, uuid: 8c111c4f-af43-43fe-bbf8-d7e075479557, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /d1daf, headers: {Host: switzerland.cloudflareservervpn.sbs}}, udp: true}
 - {name: NL_1|3.0MB/s, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: MY_speednode_0019, server: 38.54.98.110, port: 2052, type: vmess, uuid: 665d9b8f-153d-4907-adac-de12afd9c851, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-- {name: MY_speednode_0019 2, server: 38.54.98.110, port: 2052, type: vmess, uuid: 665d9b8f-153d-4907-adac-de12afd9c851, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-- {name: 4Mohsen-1633, server: 218.237.185.230, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: ⚡ b2n.ir/v2ray-configs | 904, server: 154.223.16.212, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: RU_162, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: JP_1|2.5MB/s, server: sakura.outlinekeys.net, port: 1235, type: ss, cipher: chacha20-ietf-poly1305, password: AIlKLws5WOwElkhke1F1yc, udp: true}
 - {name: 4Sarina-1647, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: tg频道:@ripaojiedian, server: 18.185.56.207, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: PL_2|4.7MB/s, server: 57.128.216.125, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: kampong.org}}, udp: true}
 - {name: _IS_冰岛, server: 37.235.49.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: ⚡ b2n.ir/v2ray-configs | 373, server: 134.209.147.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -48,16 +47,15 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 德国 | DEU 2
+      - 韩国家宽 01-165
+      - SK_1|3.9MB/s
+      - 德国 | DEU 5
       - NL_1|3.0MB/s
-      - MY_speednode_0019
-      - MY_speednode_0019 2
-      - 4Mohsen-1633
-      - ⚡ b2n.ir/v2ray-configs | 904
-      - RU_162
+      - JP_1|2.5MB/s
       - 4Sarina-1647
-      - tg频道:@ripaojiedian
+      - PL_2|4.7MB/s
       - _IS_冰岛
+      - ⚡ b2n.ir/v2ray-configs | 373
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -69,32 +67,30 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 德国 | DEU 2
+      - 韩国家宽 01-165
+      - SK_1|3.9MB/s
+      - 德国 | DEU 5
       - NL_1|3.0MB/s
-      - MY_speednode_0019
-      - MY_speednode_0019 2
-      - 4Mohsen-1633
-      - ⚡ b2n.ir/v2ray-configs | 904
-      - RU_162
+      - JP_1|2.5MB/s
       - 4Sarina-1647
-      - tg频道:@ripaojiedian
+      - PL_2|4.7MB/s
       - _IS_冰岛
+      - ⚡ b2n.ir/v2ray-configs | 373
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 德国 | DEU 2
+      - 韩国家宽 01-165
+      - SK_1|3.9MB/s
+      - 德国 | DEU 5
       - NL_1|3.0MB/s
-      - MY_speednode_0019
-      - MY_speednode_0019 2
-      - 4Mohsen-1633
-      - ⚡ b2n.ir/v2ray-configs | 904
-      - RU_162
+      - JP_1|2.5MB/s
       - 4Sarina-1647
-      - tg频道:@ripaojiedian
+      - PL_2|4.7MB/s
       - _IS_冰岛
+      - ⚡ b2n.ir/v2ray-configs | 373
   - name: 🐟 漏网之鱼
     type: select
     proxies:
