@@ -222,38 +222,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Los Angeles_hy2_0
-  type: hysteria2
-  server: 104.168.10.176
-  port: 35205
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
-- name: United States_Los Angeles_hy2_1
-  type: hysteria2
-  server: 104.168.10.176
-  port: 35205
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
-- name: United States_Los Angeles_hy2_2
-  type: hysteria2
-  server: 104.168.10.176
-  port: 35205
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
-- name: United States_Los Angeles_hy2_3
-  type: hysteria2
-  server: 104.168.10.176
-  port: 35205
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -317,10 +285,6 @@ proxy-groups:
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
   - The Netherlands_Amsterdam_hy_3
-  - United States_Los Angeles_hy2_0
-  - United States_Los Angeles_hy2_1
-  - United States_Los Angeles_hy2_2
-  - United States_Los Angeles_hy2_3
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 手动选择
@@ -340,10 +304,6 @@ proxy-groups:
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
   - The Netherlands_Amsterdam_hy_3
-  - United States_Los Angeles_hy2_0
-  - United States_Los Angeles_hy2_1
-  - United States_Los Angeles_hy2_2
-  - United States_Los Angeles_hy2_3
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 负载均衡
@@ -363,10 +323,6 @@ proxy-groups:
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
   - The Netherlands_Amsterdam_hy_3
-  - United States_Los Angeles_hy2_0
-  - United States_Los Angeles_hy2_1
-  - United States_Los Angeles_hy2_2
-  - United States_Los Angeles_hy2_3
   - Unknown_reality_0
   - Unknown_reality_3
   url: http://www.gstatic.com/generate_204
