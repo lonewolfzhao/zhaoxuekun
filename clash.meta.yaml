@@ -26,15 +26,21 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 韩国家宽 01-165, server: 121.170.203.147, port: 2520, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: SK_1|3.9MB/s, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 德国 | DEU 5, server: switzerland.cloudflareservervpn.sbs, port: 8443, type: vmess, uuid: 8c111c4f-af43-43fe-bbf8-d7e075479557, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /d1daf, headers: {Host: switzerland.cloudflareservervpn.sbs}}, udp: true}
-- {name: NL_1|3.0MB/s, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: JP_1|2.5MB/s, server: sakura.outlinekeys.net, port: 1235, type: ss, cipher: chacha20-ietf-poly1305, password: AIlKLws5WOwElkhke1F1yc, udp: true}
-- {name: 4Sarina-1647, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: PL_2|4.7MB/s, server: 57.128.216.125, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: kampong.org}}, udp: true}
-- {name: _IS_冰岛, server: 37.235.49.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 美国|@ripaojiedian, server: 160.16.87.174, port: 1700, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+- {name: 新加坡|@ripaojiedian, server: 160.16.130.66, port: 2045, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+- {name: HK_8bee4_0016, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
+- {name: 香港4|@ripaojiedian, server: 202.181.103.246, port: 443, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
 - {name: ⚡ b2n.ir/v2ray-configs | 373, server: 134.209.147.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 4Nika-518, server: 77.83.245.169, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: X2ocJWZohXrE, udp: true}
+- {name: 韩国家宽 01-165, server: 121.170.203.147, port: 2520, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: CO-154.223.16.212-4929, server: 154.223.16.212, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: "美国【机场推荐：https://a0a.xyz/】16\r", server: uk-03.allhubb.info, port: 8443, type: trojan, password: 1ce1df7962f71c6f, skip-cert-verify: true, udp: true}
+- {name: 4Jadi-1618, server: 218.237.185.230, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 俄罗斯 V2CROSS.COM, server: 185.138.88.36, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: POaiVNMig8KH, udp: true}
+- {name: CN_8bee4_0005, server: 106.75.134.1, port: 12000, type: trojan, password: 2fd0d127-266d-4d0b-b453-f94659a132fc, sni: aliyun.com, skip-cert-verify: true, udp: true}
+- {name: 4Sarina-1647, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: RU_162, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: FI_5|3.5MB/s, server: 65.109.217.125, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: bfUM594DfkimJL4s2LGOFA, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -47,15 +53,21 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 韩国家宽 01-165
-      - SK_1|3.9MB/s
-      - 德国 | DEU 5
-      - NL_1|3.0MB/s
-      - JP_1|2.5MB/s
-      - 4Sarina-1647
-      - PL_2|4.7MB/s
-      - _IS_冰岛
+      - 美国|@ripaojiedian
+      - 新加坡|@ripaojiedian
+      - HK_8bee4_0016
+      - 香港4|@ripaojiedian
       - ⚡ b2n.ir/v2ray-configs | 373
+      - 4Nika-518
+      - 韩国家宽 01-165
+      - CO-154.223.16.212-4929
+      - "美国【机场推荐：https://a0a.xyz/】16\r"
+      - 4Jadi-1618
+      - 俄罗斯 V2CROSS.COM
+      - CN_8bee4_0005
+      - 4Sarina-1647
+      - RU_162
+      - FI_5|3.5MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -67,30 +79,42 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 韩国家宽 01-165
-      - SK_1|3.9MB/s
-      - 德国 | DEU 5
-      - NL_1|3.0MB/s
-      - JP_1|2.5MB/s
-      - 4Sarina-1647
-      - PL_2|4.7MB/s
-      - _IS_冰岛
+      - 美国|@ripaojiedian
+      - 新加坡|@ripaojiedian
+      - HK_8bee4_0016
+      - 香港4|@ripaojiedian
       - ⚡ b2n.ir/v2ray-configs | 373
+      - 4Nika-518
+      - 韩国家宽 01-165
+      - CO-154.223.16.212-4929
+      - "美国【机场推荐：https://a0a.xyz/】16\r"
+      - 4Jadi-1618
+      - 俄罗斯 V2CROSS.COM
+      - CN_8bee4_0005
+      - 4Sarina-1647
+      - RU_162
+      - FI_5|3.5MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 韩国家宽 01-165
-      - SK_1|3.9MB/s
-      - 德国 | DEU 5
-      - NL_1|3.0MB/s
-      - JP_1|2.5MB/s
-      - 4Sarina-1647
-      - PL_2|4.7MB/s
-      - _IS_冰岛
+      - 美国|@ripaojiedian
+      - 新加坡|@ripaojiedian
+      - HK_8bee4_0016
+      - 香港4|@ripaojiedian
       - ⚡ b2n.ir/v2ray-configs | 373
+      - 4Nika-518
+      - 韩国家宽 01-165
+      - CO-154.223.16.212-4929
+      - "美国【机场推荐：https://a0a.xyz/】16\r"
+      - 4Jadi-1618
+      - 俄罗斯 V2CROSS.COM
+      - CN_8bee4_0005
+      - 4Sarina-1647
+      - RU_162
+      - FI_5|3.5MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
