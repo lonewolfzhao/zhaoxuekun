@@ -26,21 +26,17 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 美国|@ripaojiedian, server: 160.16.87.174, port: 1700, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-- {name: 新加坡|@ripaojiedian, server: 160.16.130.66, port: 2045, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-- {name: HK_8bee4_0016, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
-- {name: 香港4|@ripaojiedian, server: 202.181.103.246, port: 443, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-- {name: ⚡ b2n.ir/v2ray-configs | 373, server: 134.209.147.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 4Nika-518, server: 77.83.245.169, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: X2ocJWZohXrE, udp: true}
 - {name: 韩国家宽 01-165, server: 121.170.203.147, port: 2520, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: CO-154.223.16.212-4929, server: 154.223.16.212, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: "美国【机场推荐：https://a0a.xyz/】16\r", server: uk-03.allhubb.info, port: 8443, type: trojan, password: 1ce1df7962f71c6f, skip-cert-verify: true, udp: true}
-- {name: 4Jadi-1618, server: 218.237.185.230, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 俄罗斯 V2CROSS.COM, server: 185.138.88.36, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: POaiVNMig8KH, udp: true}
-- {name: CN_8bee4_0005, server: 106.75.134.1, port: 12000, type: trojan, password: 2fd0d127-266d-4d0b-b453-f94659a132fc, sni: aliyun.com, skip-cert-verify: true, udp: true}
+- {name: CN_a8f9a_0005, server: 106.75.134.1, port: 12000, type: trojan, password: 2fd0d127-266d-4d0b-b453-f94659a132fc, sni: aliyun.com, skip-cert-verify: true, udp: true}
+- {name: 摩尔多瓦 | MDA, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: ❓Other_1|2.2MB/s, server: 123.58.203.92, port: 18872, type: vmess, uuid: edfe29a5-cc54-488d-a31d-ca71f39e38d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
 - {name: 4Sarina-1647, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: RU_162, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: FI_5|3.5MB/s, server: 65.109.217.125, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: bfUM594DfkimJL4s2LGOFA, udp: true}
+- {name: kr|7810|puddincat07@Telegram, server: 154.90.62.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 12|tg频道:@ripaojiedian, server: 3.250.25.159, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "12,13|日本3|@ripaojiedian", server: 160.16.231.103, port: 1331, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+- {name: 4FreeIran-898, server: 217.30.10.70, port: 9044, type: ss, cipher: aes-256-cfb, password: KBGjZYcy4SyRShmA, udp: true}
+- {name: "12,13|美国|@ripaojiedian", server: 160.16.87.174, port: 1700, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+- {name: "美国【机场推荐：https://a0a.xyz/】16\r", server: uk-03.allhubb.info, port: 8443, type: trojan, password: 1ce1df7962f71c6f, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -53,21 +49,17 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国|@ripaojiedian
-      - 新加坡|@ripaojiedian
-      - HK_8bee4_0016
-      - 香港4|@ripaojiedian
-      - ⚡ b2n.ir/v2ray-configs | 373
-      - 4Nika-518
       - 韩国家宽 01-165
-      - CO-154.223.16.212-4929
-      - "美国【机场推荐：https://a0a.xyz/】16\r"
-      - 4Jadi-1618
-      - 俄罗斯 V2CROSS.COM
-      - CN_8bee4_0005
+      - CN_a8f9a_0005
+      - 摩尔多瓦 | MDA
+      - ❓Other_1|2.2MB/s
       - 4Sarina-1647
-      - RU_162
-      - FI_5|3.5MB/s
+      - kr|7810|puddincat07@Telegram
+      - 12|tg频道:@ripaojiedian
+      - 12,13|日本3|@ripaojiedian
+      - 4FreeIran-898
+      - 12,13|美国|@ripaojiedian
+      - "美国【机场推荐：https://a0a.xyz/】16\r"
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -79,42 +71,34 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国|@ripaojiedian
-      - 新加坡|@ripaojiedian
-      - HK_8bee4_0016
-      - 香港4|@ripaojiedian
-      - ⚡ b2n.ir/v2ray-configs | 373
-      - 4Nika-518
       - 韩国家宽 01-165
-      - CO-154.223.16.212-4929
-      - "美国【机场推荐：https://a0a.xyz/】16\r"
-      - 4Jadi-1618
-      - 俄罗斯 V2CROSS.COM
-      - CN_8bee4_0005
+      - CN_a8f9a_0005
+      - 摩尔多瓦 | MDA
+      - ❓Other_1|2.2MB/s
       - 4Sarina-1647
-      - RU_162
-      - FI_5|3.5MB/s
+      - kr|7810|puddincat07@Telegram
+      - 12|tg频道:@ripaojiedian
+      - 12,13|日本3|@ripaojiedian
+      - 4FreeIran-898
+      - 12,13|美国|@ripaojiedian
+      - "美国【机场推荐：https://a0a.xyz/】16\r"
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 美国|@ripaojiedian
-      - 新加坡|@ripaojiedian
-      - HK_8bee4_0016
-      - 香港4|@ripaojiedian
-      - ⚡ b2n.ir/v2ray-configs | 373
-      - 4Nika-518
       - 韩国家宽 01-165
-      - CO-154.223.16.212-4929
-      - "美国【机场推荐：https://a0a.xyz/】16\r"
-      - 4Jadi-1618
-      - 俄罗斯 V2CROSS.COM
-      - CN_8bee4_0005
+      - CN_a8f9a_0005
+      - 摩尔多瓦 | MDA
+      - ❓Other_1|2.2MB/s
       - 4Sarina-1647
-      - RU_162
-      - FI_5|3.5MB/s
+      - kr|7810|puddincat07@Telegram
+      - 12|tg频道:@ripaojiedian
+      - 12,13|日本3|@ripaojiedian
+      - 4FreeIran-898
+      - 12,13|美国|@ripaojiedian
+      - "美国【机场推荐：https://a0a.xyz/】16\r"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
