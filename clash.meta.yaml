@@ -26,17 +26,13 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 4Jadi-197, server: 31.57.24.53, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: yzWahvb3MeBEx48092XXkP, udp: true}
 - {name: 韩国家宽 01-165, server: 121.170.203.147, port: 2520, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: CN_a8f9a_0005, server: 106.75.134.1, port: 12000, type: trojan, password: 2fd0d127-266d-4d0b-b453-f94659a132fc, sni: aliyun.com, skip-cert-verify: true, udp: true}
-- {name: 摩尔多瓦 | MDA, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: ❓Other_1|2.2MB/s, server: 123.58.203.92, port: 18872, type: vmess, uuid: edfe29a5-cc54-488d-a31d-ca71f39e38d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-- {name: 4Sarina-1647, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
 - {name: kr|7810|puddincat07@Telegram, server: 154.90.62.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 12|tg频道:@ripaojiedian, server: 3.250.25.159, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "12,13|日本3|@ripaojiedian", server: 160.16.231.103, port: 1331, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-- {name: 4FreeIran-898, server: 217.30.10.70, port: 9044, type: ss, cipher: aes-256-cfb, password: KBGjZYcy4SyRShmA, udp: true}
-- {name: "12,13|美国|@ripaojiedian", server: 160.16.87.174, port: 1700, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-- {name: "美国【机场推荐：https://a0a.xyz/】16\r", server: uk-03.allhubb.info, port: 8443, type: trojan, password: 1ce1df7962f71c6f, skip-cert-verify: true, udp: true}
+- {name: 摩尔多瓦 | MDA, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 4Mohsen-1643, server: 218.237.185.230, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 4Sarina-1647, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: CN_a8f9a_0005, server: 106.75.134.1, port: 12000, type: trojan, password: 2fd0d127-266d-4d0b-b453-f94659a132fc, sni: aliyun.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -49,17 +45,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Jadi-197
       - 韩国家宽 01-165
-      - CN_a8f9a_0005
-      - 摩尔多瓦 | MDA
-      - ❓Other_1|2.2MB/s
-      - 4Sarina-1647
       - kr|7810|puddincat07@Telegram
-      - 12|tg频道:@ripaojiedian
-      - 12,13|日本3|@ripaojiedian
-      - 4FreeIran-898
-      - 12,13|美国|@ripaojiedian
-      - "美国【机场推荐：https://a0a.xyz/】16\r"
+      - 摩尔多瓦 | MDA
+      - 4Mohsen-1643
+      - 4Sarina-1647
+      - CN_a8f9a_0005
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -71,34 +63,26 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Jadi-197
       - 韩国家宽 01-165
-      - CN_a8f9a_0005
-      - 摩尔多瓦 | MDA
-      - ❓Other_1|2.2MB/s
-      - 4Sarina-1647
       - kr|7810|puddincat07@Telegram
-      - 12|tg频道:@ripaojiedian
-      - 12,13|日本3|@ripaojiedian
-      - 4FreeIran-898
-      - 12,13|美国|@ripaojiedian
-      - "美国【机场推荐：https://a0a.xyz/】16\r"
+      - 摩尔多瓦 | MDA
+      - 4Mohsen-1643
+      - 4Sarina-1647
+      - CN_a8f9a_0005
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 4Jadi-197
       - 韩国家宽 01-165
-      - CN_a8f9a_0005
-      - 摩尔多瓦 | MDA
-      - ❓Other_1|2.2MB/s
-      - 4Sarina-1647
       - kr|7810|puddincat07@Telegram
-      - 12|tg频道:@ripaojiedian
-      - 12,13|日本3|@ripaojiedian
-      - 4FreeIran-898
-      - 12,13|美国|@ripaojiedian
-      - "美国【机场推荐：https://a0a.xyz/】16\r"
+      - 摩尔多瓦 | MDA
+      - 4Mohsen-1643
+      - 4Sarina-1647
+      - CN_a8f9a_0005
   - name: 🐟 漏网之鱼
     type: select
     proxies:
