@@ -26,22 +26,27 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: SG_2|5.9MB/s, server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
-- {name: US_10|2.9MB/s, server: 198.23.148.39, port: 16082, type: vmess, uuid: f96e94b6-1d90-4984-9388-66295fcb27e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4Jadi-441, server: 193.29.12.15, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: GTbV8LasBw4b8M0vEIrzYv, udp: true}
-- {name: cn|08c4|puddincat07@Telegram, server: 112.132.215.34, port: 50007, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: HK_ea241_0010, server: 154.21.201.83, port: 443, type: vmess, uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /aa, headers: {Host: hk.nbee.pp.ua}}, udp: true}
-- {name: 4Jadi-137, server: 134.255.210.209, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: 2AGpqmflUUJHtBUpq4iCUf, udp: true}
-- {name: 韩国家宽 01-165, server: 121.170.203.147, port: 2520, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 4Mohsen-444, server: 188.132.237.3, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: H8swxNaWGaoaJl1phZCWaf, udp: true}
+- {name: 4Mohsen-185, server: 170.80.109.204, port: 8756, type: ss, cipher: chacha20-ietf-poly1305, password: xdEo6hyA8x6cj79qVQmYAo, udp: true}
+- {name: 4Nika-1640, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
 - {name: 4Mohsen-1643, server: 218.237.185.230, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: SG_2|5.9MB/s, server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+- {name: HK_c6f21_0011, server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net}}, udp: true}
+- {name: xx|493a|puddincat07@Telegram, server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: cn|08c4|puddincat07@Telegram, server: 112.132.215.34, port: 50007, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 香港 | HKG 3, server: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com}}, udp: true}
+- {name: US_10|2.9MB/s, server: 198.23.148.39, port: 16082, type: vmess, uuid: f96e94b6-1d90-4984-9388-66295fcb27e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 香港 | HKG 2, server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com}}, udp: true}
+- {name: LT_1|3.0MB/s, server: 95.81.85.102, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: oGOnNFGhv1SAL5rKSYCdVv, udp: true}
+- {name: xx|d1a1|puddincat07@Telegram, server: promo18v.bystrivpn.ru, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: dAHM1pm8ag7KdlrUylQi6t, udp: true}
+- {name: "@V2rayNGVPN <- کانفیگ رایگان", server: panel-de2.turkcloud.ir, port: 8443, type: vmess, uuid: 6b3a7034-39ec-f057-377d-cf6af57b4db4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: AZ_1|2.1MB/s, server: 180.149.44.105, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: 3pze4lyj8FFdDixOkf2K2oQ4rHX7Vq9xC9uKwBgvQYDNxLf8, udp: true}
+- {name: nl|4b4f|puddincat07@Telegram, server: 194.135.46.13, port: 1419, type: ss, cipher: chacha20-ietf-poly1305, password: EacZIMFwmMCR6dWqN5Ah0c, udp: true}
+- {name: "@V2rayNGVPN <- کانفیگ رایگان 2", server: panel-de2.turkcloud.ir, port: 8443, type: vmess, uuid: 6b3a7034-39ec-f057-377d-cf6af57b4db4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 摩尔多瓦 | MDA, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 4Nika-1611, server: 38.165.233.93, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: "DE | 🔓 VMESS | @config_proxy [67]", server: 91.98.90.61, port: 8880, type: vmess, uuid: 9eaf5afd-fe08-4e07-9680-ed2ef6766b78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4Jadi-585, server: 159.65.14.47, port: 4580, type: ss, cipher: chacha20-ietf-poly1305, password: cNwOagFpc2xuP1MmsrE3iw, udp: true}
-- {name: US_177, server: 38.54.57.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: my|7e2a|puddincat07@Telegram, server: 38.54.98.110, port: 2052, type: vmess, uuid: 665d9b8f-153d-4907-adac-de12afd9c851, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-- {name: SE_1|2.4MB/s, server: 78.40.117.109, port: 37538, type: ss, cipher: chacha20-ietf-poly1305, password: RP767jpZVarzQ0iI0vbTuA, udp: true}
 - {name: CN_a8f9a_0005, server: 106.75.134.1, port: 12000, type: trojan, password: 2fd0d127-266d-4d0b-b453-f94659a132fc, sni: aliyun.com, skip-cert-verify: true, udp: true}
+- {name: ZZ_216, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -54,22 +59,27 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - SG_2|5.9MB/s
-      - US_10|2.9MB/s
-      - 4Jadi-441
-      - cn|08c4|puddincat07@Telegram
       - HK_ea241_0010
-      - 4Jadi-137
-      - 韩国家宽 01-165
+      - 4Mohsen-444
+      - 4Mohsen-185
+      - 4Nika-1640
       - 4Mohsen-1643
+      - SG_2|5.9MB/s
+      - HK_c6f21_0011
+      - xx|493a|puddincat07@Telegram
+      - cn|08c4|puddincat07@Telegram
+      - 香港 | HKG 3
+      - US_10|2.9MB/s
+      - 香港 | HKG 2
+      - LT_1|3.0MB/s
+      - xx|d1a1|puddincat07@Telegram
+      - "@V2rayNGVPN <- کانفیگ رایگان"
+      - AZ_1|2.1MB/s
+      - nl|4b4f|puddincat07@Telegram
+      - "@V2rayNGVPN <- کانفیگ رایگان 2"
       - 摩尔多瓦 | MDA
-      - 4Nika-1611
-      - DE | 🔓 VMESS | @config_proxy [67]
-      - 4Jadi-585
-      - US_177
-      - my|7e2a|puddincat07@Telegram
-      - SE_1|2.4MB/s
       - CN_a8f9a_0005
+      - ZZ_216
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -81,44 +91,54 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - SG_2|5.9MB/s
-      - US_10|2.9MB/s
-      - 4Jadi-441
-      - cn|08c4|puddincat07@Telegram
       - HK_ea241_0010
-      - 4Jadi-137
-      - 韩国家宽 01-165
+      - 4Mohsen-444
+      - 4Mohsen-185
+      - 4Nika-1640
       - 4Mohsen-1643
+      - SG_2|5.9MB/s
+      - HK_c6f21_0011
+      - xx|493a|puddincat07@Telegram
+      - cn|08c4|puddincat07@Telegram
+      - 香港 | HKG 3
+      - US_10|2.9MB/s
+      - 香港 | HKG 2
+      - LT_1|3.0MB/s
+      - xx|d1a1|puddincat07@Telegram
+      - "@V2rayNGVPN <- کانفیگ رایگان"
+      - AZ_1|2.1MB/s
+      - nl|4b4f|puddincat07@Telegram
+      - "@V2rayNGVPN <- کانفیگ رایگان 2"
       - 摩尔多瓦 | MDA
-      - 4Nika-1611
-      - DE | 🔓 VMESS | @config_proxy [67]
-      - 4Jadi-585
-      - US_177
-      - my|7e2a|puddincat07@Telegram
-      - SE_1|2.4MB/s
       - CN_a8f9a_0005
+      - ZZ_216
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - SG_2|5.9MB/s
-      - US_10|2.9MB/s
-      - 4Jadi-441
-      - cn|08c4|puddincat07@Telegram
       - HK_ea241_0010
-      - 4Jadi-137
-      - 韩国家宽 01-165
+      - 4Mohsen-444
+      - 4Mohsen-185
+      - 4Nika-1640
       - 4Mohsen-1643
+      - SG_2|5.9MB/s
+      - HK_c6f21_0011
+      - xx|493a|puddincat07@Telegram
+      - cn|08c4|puddincat07@Telegram
+      - 香港 | HKG 3
+      - US_10|2.9MB/s
+      - 香港 | HKG 2
+      - LT_1|3.0MB/s
+      - xx|d1a1|puddincat07@Telegram
+      - "@V2rayNGVPN <- کانفیگ رایگان"
+      - AZ_1|2.1MB/s
+      - nl|4b4f|puddincat07@Telegram
+      - "@V2rayNGVPN <- کانفیگ رایگان 2"
       - 摩尔多瓦 | MDA
-      - 4Nika-1611
-      - DE | 🔓 VMESS | @config_proxy [67]
-      - 4Jadi-585
-      - US_177
-      - my|7e2a|puddincat07@Telegram
-      - SE_1|2.4MB/s
       - CN_a8f9a_0005
+      - ZZ_216
   - name: 🐟 漏网之鱼
     type: select
     proxies:
