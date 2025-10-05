@@ -26,24 +26,15 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: cn|5467|puddincat07@Telegram, server: 112.132.215.34, port: 50007, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: HK_5a6ae_0010, server: 697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com}}, udp: true}
-- {name: cn|5467|puddincat07@Telegram 2, server: 112.132.215.34, port: 50007, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4Nika-1602, server: 37.235.49.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 4Nika-1640, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 4FreeIran-1623, server: 91.132.94.200, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: cn|8dcb|puddincat07@Telegram, server: 139.129.20.6, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4Mohsen-1643, server: 218.237.185.230, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 4Sarina-513, server: 5.129.231.197, port: 46024, type: ss, cipher: chacha20-ietf-poly1305, password: V23RaFkRzP8c88y0VzOj0F, udp: true}
-- {name: 新加坡|@ripaojiedian, server: 160.16.138.24, port: 2283, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-- {name: xx|1172|puddincat07@Telegram, server: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com}}, udp: true}
-- {name: "11,12|香港5|@ripaojiedian", server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 日本3|@ripaojiedian, server: 36.156.102.88, port: 1924, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-- {name: 美国2|@ripaojiedian, server: 36.156.102.88, port: 472, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-- {name: HK_1|4.2MB/s, server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com}}, udp: true}
-- {name: DE_1|3.4MB/s, server: mm.huawei-api.top, port: 19585, type: ss, cipher: chacha20-ietf-poly1305, password: c3ffd605-d9fb-42b7-98f2-a29fb999e5b6, udp: true}
+- {name: cn|0416|puddincat07@Telegram, server: 139.129.20.6, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: SG_4|5.8MB/s, server: entrance03.qqa678.cc, port: 37086, type: ss, cipher: aes-256-gcm, password: 4752fc27-8959-4082-9cf4-ccc84096f31e, udp: true}
+- {name: cn|5467|puddincat07@Telegram 2, server: 112.132.215.34, port: 50007, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 摩尔多瓦 | MDA, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 英国 | GBR, server: mm.huawei-api.top, port: 19587, type: ss, cipher: chacha20-ietf-poly1305, password: c3ffd605-d9fb-42b7-98f2-a29fb999e5b6, udp: true}
+- {name: 江苏省 移动, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
+- {name: 4Mohsen-1643, server: 218.237.185.230, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 4Nika-1602, server: 37.235.49.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: cn|5467|puddincat07@Telegram 2 2, server: 112.132.215.34, port: 50007, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -56,24 +47,15 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - cn|5467|puddincat07@Telegram
-      - HK_5a6ae_0010
-      - cn|5467|puddincat07@Telegram 2
-      - 4Nika-1602
-      - 4Nika-1640
-      - 4FreeIran-1623
       - cn|8dcb|puddincat07@Telegram
-      - 4Mohsen-1643
-      - 4Sarina-513
-      - 新加坡|@ripaojiedian
-      - xx|1172|puddincat07@Telegram
-      - 11,12|香港5|@ripaojiedian
-      - 日本3|@ripaojiedian
-      - 美国2|@ripaojiedian
-      - HK_1|4.2MB/s
-      - DE_1|3.4MB/s
+      - cn|0416|puddincat07@Telegram
+      - SG_4|5.8MB/s
+      - cn|5467|puddincat07@Telegram 2
       - 摩尔多瓦 | MDA
-      - 英国 | GBR
+      - 江苏省 移动
+      - 4Mohsen-1643
+      - 4Nika-1602
+      - cn|5467|puddincat07@Telegram 2 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -85,48 +67,30 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - cn|5467|puddincat07@Telegram
-      - HK_5a6ae_0010
-      - cn|5467|puddincat07@Telegram 2
-      - 4Nika-1602
-      - 4Nika-1640
-      - 4FreeIran-1623
       - cn|8dcb|puddincat07@Telegram
-      - 4Mohsen-1643
-      - 4Sarina-513
-      - 新加坡|@ripaojiedian
-      - xx|1172|puddincat07@Telegram
-      - 11,12|香港5|@ripaojiedian
-      - 日本3|@ripaojiedian
-      - 美国2|@ripaojiedian
-      - HK_1|4.2MB/s
-      - DE_1|3.4MB/s
+      - cn|0416|puddincat07@Telegram
+      - SG_4|5.8MB/s
+      - cn|5467|puddincat07@Telegram 2
       - 摩尔多瓦 | MDA
-      - 英国 | GBR
+      - 江苏省 移动
+      - 4Mohsen-1643
+      - 4Nika-1602
+      - cn|5467|puddincat07@Telegram 2 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - cn|5467|puddincat07@Telegram
-      - HK_5a6ae_0010
-      - cn|5467|puddincat07@Telegram 2
-      - 4Nika-1602
-      - 4Nika-1640
-      - 4FreeIran-1623
       - cn|8dcb|puddincat07@Telegram
-      - 4Mohsen-1643
-      - 4Sarina-513
-      - 新加坡|@ripaojiedian
-      - xx|1172|puddincat07@Telegram
-      - 11,12|香港5|@ripaojiedian
-      - 日本3|@ripaojiedian
-      - 美国2|@ripaojiedian
-      - HK_1|4.2MB/s
-      - DE_1|3.4MB/s
+      - cn|0416|puddincat07@Telegram
+      - SG_4|5.8MB/s
+      - cn|5467|puddincat07@Telegram 2
       - 摩尔多瓦 | MDA
-      - 英国 | GBR
+      - 江苏省 移动
+      - 4Mohsen-1643
+      - 4Nika-1602
+      - cn|5467|puddincat07@Telegram 2 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
