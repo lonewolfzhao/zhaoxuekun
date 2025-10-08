@@ -26,22 +26,19 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: cn|2988|puddincat07@Telegram, server: 139.129.20.6, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 香港 | HKG 3, server: entrance03.qqa678.cc, port: 47081, type: ss, cipher: aes-256-gcm, password: 8e94ed0e-3717-4c46-aa13-6757a89b392e, udp: true}
+- {name: ⚡ b2n.ir/v2ray-configs | 565, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: "12,13|日本2|@ripaojiedian", server: 160.16.136.130, port: 4451, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+- {name: 摩尔多瓦 | MDA, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 4FreeIran-712, server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+- {name: 12|🇭🇰 香港5|@ripaojiedian, server: 36.139.201.35, port: 10002, type: vmess, uuid: 8d717e5a-dab5-4b99-af4f-ea29ef8eebed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: cn|0416|puddincat07@Telegram, server: 139.129.20.6, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: cn|b358|puddincat07@Telegram, server: 112.132.215.34, port: 50007, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: cn|b358|puddincat07@Telegram 2, server: 112.132.215.34, port: 50007, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: AT_1|4.6MB/s, server: 51.15.23.63, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: 4Nika-1609, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: US_149, server: 15.204.234.200, port: 41100, type: vmess, uuid: c7f169a3-2e9a-4894-ba53-7b2fa6fd08b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4Nika-156, server: 91.204.75.128, port: 14731, type: ss, cipher: chacha20-ietf-poly1305, password: uSP0xCMu9d6cdVxkH9JMDE, udp: true}
-- {name: SG_4|5.8MB/s, server: entrance03.qqa678.cc, port: 37086, type: ss, cipher: aes-256-gcm, password: 4752fc27-8959-4082-9cf4-ccc84096f31e, udp: true}
 - {name: 4Mohsen-1643, server: 218.237.185.230, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 4Mohsen-567, server: 45.87.175.193, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-- {name: 摩尔多瓦 | MDA, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 4Mohsen-559, server: 45.87.175.177, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-- {name: 4FreeIran-481, server: 45.159.208.222, port: 51319, type: ss, cipher: chacha20-ietf-poly1305, password: U0i4gb7Iz8woWEzNCaQBQw, udp: true}
-- {name: 4FreeIran-572, server: fl01.lr9soflhleb.top, port: 31013, type: ss, cipher: chacha20-ietf-poly1305, password: dc9ea653-becc-44f1-95f9-16773a0519e9, udp: true}
-- {name: 江苏省 移动, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
-- {name: US_7|3.2MB/s, server: us1.opensocks.site, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: ZmQyM, udp: true}
-- {name: 4Nika-1602, server: 37.235.49.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 葡萄牙 01, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -54,22 +51,19 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - cn|2988|puddincat07@Telegram
+      - 香港 | HKG 3
+      - ⚡ b2n.ir/v2ray-configs | 565
+      - 12,13|日本2|@ripaojiedian
+      - 摩尔多瓦 | MDA
+      - 4FreeIran-712
+      - 12|🇭🇰 香港5|@ripaojiedian
       - cn|0416|puddincat07@Telegram
       - cn|b358|puddincat07@Telegram
+      - cn|b358|puddincat07@Telegram 2
+      - AT_1|4.6MB/s
       - 4Nika-1609
-      - US_149
-      - 4Nika-156
-      - SG_4|5.8MB/s
       - 4Mohsen-1643
-      - 4Mohsen-567
-      - 摩尔多瓦 | MDA
-      - 4Mohsen-559
-      - 4FreeIran-481
-      - 4FreeIran-572
-      - 江苏省 移动
-      - US_7|3.2MB/s
-      - 4Nika-1602
+      - 葡萄牙 01
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -81,44 +75,38 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - cn|2988|puddincat07@Telegram
+      - 香港 | HKG 3
+      - ⚡ b2n.ir/v2ray-configs | 565
+      - 12,13|日本2|@ripaojiedian
+      - 摩尔多瓦 | MDA
+      - 4FreeIran-712
+      - 12|🇭🇰 香港5|@ripaojiedian
       - cn|0416|puddincat07@Telegram
       - cn|b358|puddincat07@Telegram
+      - cn|b358|puddincat07@Telegram 2
+      - AT_1|4.6MB/s
       - 4Nika-1609
-      - US_149
-      - 4Nika-156
-      - SG_4|5.8MB/s
       - 4Mohsen-1643
-      - 4Mohsen-567
-      - 摩尔多瓦 | MDA
-      - 4Mohsen-559
-      - 4FreeIran-481
-      - 4FreeIran-572
-      - 江苏省 移动
-      - US_7|3.2MB/s
-      - 4Nika-1602
+      - 葡萄牙 01
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - cn|2988|puddincat07@Telegram
+      - 香港 | HKG 3
+      - ⚡ b2n.ir/v2ray-configs | 565
+      - 12,13|日本2|@ripaojiedian
+      - 摩尔多瓦 | MDA
+      - 4FreeIran-712
+      - 12|🇭🇰 香港5|@ripaojiedian
       - cn|0416|puddincat07@Telegram
       - cn|b358|puddincat07@Telegram
+      - cn|b358|puddincat07@Telegram 2
+      - AT_1|4.6MB/s
       - 4Nika-1609
-      - US_149
-      - 4Nika-156
-      - SG_4|5.8MB/s
       - 4Mohsen-1643
-      - 4Mohsen-567
-      - 摩尔多瓦 | MDA
-      - 4Mohsen-559
-      - 4FreeIran-481
-      - 4FreeIran-572
-      - 江苏省 移动
-      - US_7|3.2MB/s
-      - 4Nika-1602
+      - 葡萄牙 01
   - name: 🐟 漏网之鱼
     type: select
     proxies:
