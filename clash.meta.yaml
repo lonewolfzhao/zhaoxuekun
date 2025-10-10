@@ -26,20 +26,17 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: cn|2ab0|puddincat07@Telegram, server: 112.132.215.34, port: 50007, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: cn|62be|puddincat07@Telegram, server: 112.132.215.34, port: 50007, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: AT_1|4.6MB/s, server: 51.15.23.63, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: my|370a|puddincat07@Telegram, server: 38.54.98.110, port: 2052, type: vmess, uuid: 665d9b8f-153d-4907-adac-de12afd9c851, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-- {name: _US_美国, server: 38.165.233.93, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: ⚡ b2n.ir/v2ray-configs | 812, server: 91.132.94.200, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 摩尔多瓦 | MDA, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: cn|0416|puddincat07@Telegram, server: 139.129.20.6, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4Sarina-177, server: 37.143.130.203, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
-- {name: ⚡ b2n.ir/v2ray-configs | 567, server: 37.235.49.152, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: HK_2|2.0MB/s, server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 4Sarina-178, server: 38.54.59.180, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
-- {name: HK_3|5.6MB/s, server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com}}, udp: true}
+- {name: cn|6e69|puddincat07@Telegram, server: 139.129.20.6, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: cn|6e69|puddincat07@Telegram 2, server: 139.129.20.6, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: cn|6f6b|puddincat07@Telegram, server: 112.132.215.34, port: 50007, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Kian-1531, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: HK_eb0d1_0024, server: 47.242.90.210, port: 31212, type: vmess, uuid: 3a4271fb-2718-4489-da78-80a8e7701aa5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+- {name: 4Kian-104, server: 45.87.175.166, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
 - {name: 香港5|@ripaojiedian, server: kf5uhgscrdl73kmihv8c.appsworld.shop, port: 21791, type: vmess, uuid: 3b14ba6e-786f-3b86-8bce-2803ea19b8cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cbf7f6acabd0dde4bef067580c126fed77a00de7, headers: {Host: www.baidu.com}}, udp: true}
+- {name: my|370a|puddincat07@Telegram, server: 38.54.98.110, port: 2052, type: vmess, uuid: 665d9b8f-153d-4907-adac-de12afd9c851, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: 4Sarina-1510, server: 38.54.57.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 4Sarina-177, server: 37.143.130.203, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
+- {name: RU_127, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -52,20 +49,17 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - cn|2ab0|puddincat07@Telegram
-      - cn|62be|puddincat07@Telegram
-      - AT_1|4.6MB/s
-      - my|370a|puddincat07@Telegram
-      - _US_美国
-      - ⚡ b2n.ir/v2ray-configs | 812
-      - 摩尔多瓦 | MDA
-      - cn|0416|puddincat07@Telegram
-      - 4Sarina-177
-      - ⚡ b2n.ir/v2ray-configs | 567
-      - HK_2|2.0MB/s
-      - 4Sarina-178
-      - HK_3|5.6MB/s
+      - cn|6e69|puddincat07@Telegram
+      - cn|6e69|puddincat07@Telegram 2
+      - cn|6f6b|puddincat07@Telegram
+      - 4Kian-1531
+      - HK_eb0d1_0024
+      - 4Kian-104
       - 香港5|@ripaojiedian
+      - my|370a|puddincat07@Telegram
+      - 4Sarina-1510
+      - 4Sarina-177
+      - RU_127
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -77,40 +71,34 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - cn|2ab0|puddincat07@Telegram
-      - cn|62be|puddincat07@Telegram
-      - AT_1|4.6MB/s
-      - my|370a|puddincat07@Telegram
-      - _US_美国
-      - ⚡ b2n.ir/v2ray-configs | 812
-      - 摩尔多瓦 | MDA
-      - cn|0416|puddincat07@Telegram
-      - 4Sarina-177
-      - ⚡ b2n.ir/v2ray-configs | 567
-      - HK_2|2.0MB/s
-      - 4Sarina-178
-      - HK_3|5.6MB/s
+      - cn|6e69|puddincat07@Telegram
+      - cn|6e69|puddincat07@Telegram 2
+      - cn|6f6b|puddincat07@Telegram
+      - 4Kian-1531
+      - HK_eb0d1_0024
+      - 4Kian-104
       - 香港5|@ripaojiedian
+      - my|370a|puddincat07@Telegram
+      - 4Sarina-1510
+      - 4Sarina-177
+      - RU_127
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - cn|2ab0|puddincat07@Telegram
-      - cn|62be|puddincat07@Telegram
-      - AT_1|4.6MB/s
-      - my|370a|puddincat07@Telegram
-      - _US_美国
-      - ⚡ b2n.ir/v2ray-configs | 812
-      - 摩尔多瓦 | MDA
-      - cn|0416|puddincat07@Telegram
-      - 4Sarina-177
-      - ⚡ b2n.ir/v2ray-configs | 567
-      - HK_2|2.0MB/s
-      - 4Sarina-178
-      - HK_3|5.6MB/s
+      - cn|6e69|puddincat07@Telegram
+      - cn|6e69|puddincat07@Telegram 2
+      - cn|6f6b|puddincat07@Telegram
+      - 4Kian-1531
+      - HK_eb0d1_0024
+      - 4Kian-104
       - 香港5|@ripaojiedian
+      - my|370a|puddincat07@Telegram
+      - 4Sarina-1510
+      - 4Sarina-177
+      - RU_127
   - name: 🐟 漏网之鱼
     type: select
     proxies:
