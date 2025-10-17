@@ -26,16 +26,44 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: cn|f736|puddincat07@Telegram, server: 139.129.20.6, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 新加坡 | SGP 5, server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+- {name: cn|345a|puddincat07@Telegram, server: 106.14.75.114, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: HK_4|2.4MB/s, server: 54d2d7fc-t3kcg0-tdnzz0-1qtp7.hk3.p5pv.com, port: 80, type: vmess, uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 54d2d7fc-t3kcg0-tdnzz0-1qtp7.hk3.p5pv.com}}, udp: true}
+- {name: 4Kian-197, server: 109.61.39.28, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
+- {name: 荷兰 | NLD, server: 178.208.78.170, port: 23822, type: ss, cipher: chacha20-ietf-poly1305, password: 6hWNCD6EzQuP3V2aEFURwS, udp: true}
+- {name: SG_b62b2_0019, server: 5.44.249.42, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)26af988:57468}, udp: true}
+- {name: 4Mohsen-146, server: 5.44.249.42, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: 4a81070:6193}, udp: true}
+- {name: 4Mohsen-148, server: 5.44.249.42, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: d4cbbb2:42774}, udp: true}
+- {name: 11|🇸🇬 新加坡3|@ripaojiedian, server: 5.44.249.42, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: 4a81070:6193}, udp: true}
+- {name: 4Kian-40, server: 39.104.68.204, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: 6hVowjcc82p6Nu9UvOXhhF, udp: true}
+- {name: xx|ce5c|puddincat07@Telegram, server: 38721ce7-t3rr40-tdnzz0-1qtp7.hk3.p5pv.com, port: 80, type: vmess, uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 38721ce7-t3rr40-tdnzz0-1qtp7.hk3.p5pv.com}}, udp: true}
+- {name: 4Mohsen-147, server: 5.44.249.42, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: 874b20d:48331}, udp: true}
+- {name: 4Mohsen-148 2, server: 5.44.249.42, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: d4cbbb2:42774}, udp: true}
+- {name: HK_893eb_0004, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
+- {name: 4Mohsen-147 2, server: 5.44.249.42, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: 874b20d:48331}, udp: true}
+- {name: 瑞典 V2CROSS.COM, server: 157.180.123.212, port: 10100, type: vmess, uuid: 14fd5c56-2d55-44a5-9876-6ce27d3aec44, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 瑞典 V2CROSS.COM 2, server: 157.180.123.212, port: 10100, type: vmess, uuid: 14fd5c56-2d55-44a5-9876-6ce27d3aec44, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 加拿大 | CAN 7, server: 137.184.174.93, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: 4Sarina-226, server: 188.214.157.30, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
+- {name: cn|345a|puddincat07@Telegram 2, server: 106.14.75.114, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: RU_153, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: FR_1|5.7MB/s, server: 35.180.193.77, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: HK_1|3.9MB/s, server: 09f05870-t35j40-tdnzz0-1qtp7.hk3.p5pv.com, port: 80, type: vmess, uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
 - {name: US_4|2.8MB/s, server: 54.242.126.43, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 法国 | FRA 2, server: 15.237.208.55, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: FR_1|5.7MB/s, server: 35.180.193.77, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 美国 219, server: 54.84.99.165, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: SG_b62b2_0019, server: 5.44.249.42, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)26af988:57468}, udp: true}
-- {name: 新加坡 | SGP 5, server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+- {name: _IS_冰岛, server: 37.235.49.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: 4Kian-519, server: 176.97.77.71, port: 31778, type: ss, cipher: chacha20-ietf-poly1305, password: Iel2tlruoGON1PooiQy0G3, udp: true}
+- {name: 香港4|@ripaojiedian, server: 58.152.30.87, port: 443, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+- {name: 瑞典 | SWE, server: 13.60.209.163, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: LT-45.87.175.193-5391, server: 45.87.175.193, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+- {name: 美国 219, server: 54.84.99.165, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 美国 | USA 22, server: 54.90.199.180, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 香港3|@ripaojiedian, server: naiu-hk.05vr9nyqg5.download, port: 13007, type: trojan, password: dce3c42b-f259-4b18-b5c1-a42ebef4e732, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+- {name: 香港3|@ripaojiedian 2, server: 38.55.106.62, port: 41199, type: vmess, uuid: e18650e9-264b-4bf7-bbce-d846642dcf26, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /hk-vmiss-n4/getData, headers: {Host: hk-vmiss-n4.nebulacloud.win}}, udp: true}
+- {name: 新加坡 | SGP, server: 174.138.29.1, port: 60523, type: ss, cipher: chacha20-ietf-poly1305, password: X2UQXuTGxwxE1ZMaTQwtxS, udp: true}
+- {name: 法国 | FRA 2, server: 15.237.208.55, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 澳大利亚 | AUS 2, server: 3.25.243.255, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: ⚡ b2n.ir/v2ray-configs | 254, server: 91.132.94.200, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: 4FreeIran-618, server: 45.87.175.177, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -49,16 +77,44 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - cn|f736|puddincat07@Telegram
+      - 新加坡 | SGP 5
+      - cn|345a|puddincat07@Telegram
+      - HK_4|2.4MB/s
+      - 4Kian-197
+      - 荷兰 | NLD
+      - SG_b62b2_0019
+      - 4Mohsen-146
+      - 4Mohsen-148
+      - 11|🇸🇬 新加坡3|@ripaojiedian
+      - 4Kian-40
+      - xx|ce5c|puddincat07@Telegram
+      - 4Mohsen-147
+      - 4Mohsen-148 2
+      - HK_893eb_0004
+      - 4Mohsen-147 2
+      - 瑞典 V2CROSS.COM
+      - 瑞典 V2CROSS.COM 2
+      - 加拿大 | CAN 7
+      - 4Sarina-226
+      - cn|345a|puddincat07@Telegram 2
+      - RU_153
+      - FR_1|5.7MB/s
       - HK_1|3.9MB/s
       - US_4|2.8MB/s
-      - 法国 | FRA 2
-      - FR_1|5.7MB/s
-      - 美国 219
-      - SG_b62b2_0019
-      - 新加坡 | SGP 5
+      - _IS_冰岛
       - 4Kian-519
+      - 香港4|@ripaojiedian
+      - 瑞典 | SWE
       - LT-45.87.175.193-5391
+      - 美国 219
+      - 美国 | USA 22
       - 香港3|@ripaojiedian
+      - 香港3|@ripaojiedian 2
+      - 新加坡 | SGP
+      - 法国 | FRA 2
+      - 澳大利亚 | AUS 2
+      - ⚡ b2n.ir/v2ray-configs | 254
       - 4FreeIran-618
   - name: 🔰 节点选择
     type: select
@@ -71,16 +127,44 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - cn|f736|puddincat07@Telegram
+      - 新加坡 | SGP 5
+      - cn|345a|puddincat07@Telegram
+      - HK_4|2.4MB/s
+      - 4Kian-197
+      - 荷兰 | NLD
+      - SG_b62b2_0019
+      - 4Mohsen-146
+      - 4Mohsen-148
+      - 11|🇸🇬 新加坡3|@ripaojiedian
+      - 4Kian-40
+      - xx|ce5c|puddincat07@Telegram
+      - 4Mohsen-147
+      - 4Mohsen-148 2
+      - HK_893eb_0004
+      - 4Mohsen-147 2
+      - 瑞典 V2CROSS.COM
+      - 瑞典 V2CROSS.COM 2
+      - 加拿大 | CAN 7
+      - 4Sarina-226
+      - cn|345a|puddincat07@Telegram 2
+      - RU_153
+      - FR_1|5.7MB/s
       - HK_1|3.9MB/s
       - US_4|2.8MB/s
-      - 法国 | FRA 2
-      - FR_1|5.7MB/s
-      - 美国 219
-      - SG_b62b2_0019
-      - 新加坡 | SGP 5
+      - _IS_冰岛
       - 4Kian-519
+      - 香港4|@ripaojiedian
+      - 瑞典 | SWE
       - LT-45.87.175.193-5391
+      - 美国 219
+      - 美国 | USA 22
       - 香港3|@ripaojiedian
+      - 香港3|@ripaojiedian 2
+      - 新加坡 | SGP
+      - 法国 | FRA 2
+      - 澳大利亚 | AUS 2
+      - ⚡ b2n.ir/v2ray-configs | 254
       - 4FreeIran-618
   - name: ♻️ 可能受限
     type: load-balance
@@ -88,16 +172,44 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - cn|f736|puddincat07@Telegram
+      - 新加坡 | SGP 5
+      - cn|345a|puddincat07@Telegram
+      - HK_4|2.4MB/s
+      - 4Kian-197
+      - 荷兰 | NLD
+      - SG_b62b2_0019
+      - 4Mohsen-146
+      - 4Mohsen-148
+      - 11|🇸🇬 新加坡3|@ripaojiedian
+      - 4Kian-40
+      - xx|ce5c|puddincat07@Telegram
+      - 4Mohsen-147
+      - 4Mohsen-148 2
+      - HK_893eb_0004
+      - 4Mohsen-147 2
+      - 瑞典 V2CROSS.COM
+      - 瑞典 V2CROSS.COM 2
+      - 加拿大 | CAN 7
+      - 4Sarina-226
+      - cn|345a|puddincat07@Telegram 2
+      - RU_153
+      - FR_1|5.7MB/s
       - HK_1|3.9MB/s
       - US_4|2.8MB/s
-      - 法国 | FRA 2
-      - FR_1|5.7MB/s
-      - 美国 219
-      - SG_b62b2_0019
-      - 新加坡 | SGP 5
+      - _IS_冰岛
       - 4Kian-519
+      - 香港4|@ripaojiedian
+      - 瑞典 | SWE
       - LT-45.87.175.193-5391
+      - 美国 219
+      - 美国 | USA 22
       - 香港3|@ripaojiedian
+      - 香港3|@ripaojiedian 2
+      - 新加坡 | SGP
+      - 法国 | FRA 2
+      - 澳大利亚 | AUS 2
+      - ⚡ b2n.ir/v2ray-configs | 254
       - 4FreeIran-618
   - name: 🐟 漏网之鱼
     type: select
