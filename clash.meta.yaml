@@ -26,8 +26,14 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4FreeIran-1751, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 4Sarina-1718, server: 46.183.184.60, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 4Sarina-535, server: 46.253.4.25, port: 35916, type: ss, cipher: chacha20-ietf-poly1305, password: K0McnRF6v64k7o3teZ6F49, udp: true}
+- {name: 4Sarina-611, server: 206.206.125.53, port: 20199, type: ss, cipher: chacha20-ietf-poly1305, password: W4ULRoPY8DvUhnbfKnjSWD, udp: true}
+- {name: 4Sarina-84, server: 172.238.21.121, port: 64919, type: ss, cipher: chacha20-ietf-poly1305, password: 0ghZkORvV4grvekDJ9Wcge, udp: true}
+- {name: 4Sarina-269, server: 62.133.63.222, port: 48981, type: ss, cipher: chacha20-ietf-poly1305, password: CDAGEYAB1gvcIrFZYhUbEM, udp: true}
+- {name: 4FreeIran-1682, server: 194.68.27.76, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 4FreeIran-62, server: 172.238.21.207, port: 38666, type: ss, cipher: chacha20-ietf-poly1305, password: 94rUxNcHIct9OGdF0DTAPX, udp: true}
+- {name: ⚡ b2n.ir/v2ray-configs | 599, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 4Jadi-230, server: 188.214.157.30, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -40,8 +46,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4FreeIran-1751
-      - 4Sarina-1718
+      - 4Sarina-535
+      - 4Sarina-611
+      - 4Sarina-84
+      - 4Sarina-269
+      - 4FreeIran-1682
+      - 4FreeIran-62
+      - ⚡ b2n.ir/v2ray-configs | 599
+      - 4Jadi-230
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -53,16 +65,28 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4FreeIran-1751
-      - 4Sarina-1718
+      - 4Sarina-535
+      - 4Sarina-611
+      - 4Sarina-84
+      - 4Sarina-269
+      - 4FreeIran-1682
+      - 4FreeIran-62
+      - ⚡ b2n.ir/v2ray-configs | 599
+      - 4Jadi-230
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4FreeIran-1751
-      - 4Sarina-1718
+      - 4Sarina-535
+      - 4Sarina-611
+      - 4Sarina-84
+      - 4Sarina-269
+      - 4FreeIran-1682
+      - 4FreeIran-62
+      - ⚡ b2n.ir/v2ray-configs | 599
+      - 4Jadi-230
   - name: 🐟 漏网之鱼
     type: select
     proxies:
