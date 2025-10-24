@@ -26,11 +26,20 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 最低2块钱1000G流量, server: 139.129.20.6, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 超低价付费加速器梯子推荐, server: 106.14.75.114, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 超低价付费加速器梯子推荐 2, server: 106.14.75.114, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _IR_伊朗_1, server: 37.202.200.11, port: 12412, type: trojan, password: 898e1dca-14b2-4371-abc8-1b9f839bff6d, sni: wjp04.weyaf9sdoh2h.space, skip-cert-verify: true, udp: true}
+- {name: _IR_伊朗, server: 37.202.200.19, port: 15013, type: trojan, password: 898e1dca-14b2-4371-abc8-1b9f839bff6d, sni: jp02.weyaf9sdoh2h.space, skip-cert-verify: true, udp: true}
+- {name: 4Sarina-152, server: 46.246.97.245, port: 2340, type: ss, cipher: chacha20-ietf-poly1305, password: tgKls86JHy7cJPUlnkWpNZ, udp: true}
 - {name: _KR_韩国, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: ⚡ b2n.ir/v2ray-configs | 148, server: 91.132.94.200, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 - {name: ⚡ b2n.ir/v2ray-configs | 599, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 4Mohsen-697, server: 45.87.175.193, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+- {name: 4Jadi-225, server: 173.234.29.2, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
+- {name: 4Jadi-1503, server: 35.180.193.77, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Sarina-1741, server: 218.237.185.230, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
 - {name: 新加坡 | SGP 8, server: v4.heduian.link, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
+- {name: 香港4|@ripaojiedian, server: 58.152.30.133, port: 443, type: trojan, password: ea39fa94f1ee00999337ea1fd3318e69, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -43,11 +52,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 最低2块钱1000G流量
+      - 超低价付费加速器梯子推荐
+      - 超低价付费加速器梯子推荐 2
+      - _IR_伊朗_1
+      - _IR_伊朗
+      - 4Sarina-152
       - _KR_韩国
-      - ⚡ b2n.ir/v2ray-configs | 148
       - ⚡ b2n.ir/v2ray-configs | 599
+      - 4Mohsen-697
+      - 4Jadi-225
+      - 4Jadi-1503
       - 4Sarina-1741
       - 新加坡 | SGP 8
+      - 香港4|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -59,22 +77,40 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 最低2块钱1000G流量
+      - 超低价付费加速器梯子推荐
+      - 超低价付费加速器梯子推荐 2
+      - _IR_伊朗_1
+      - _IR_伊朗
+      - 4Sarina-152
       - _KR_韩国
-      - ⚡ b2n.ir/v2ray-configs | 148
       - ⚡ b2n.ir/v2ray-configs | 599
+      - 4Mohsen-697
+      - 4Jadi-225
+      - 4Jadi-1503
       - 4Sarina-1741
       - 新加坡 | SGP 8
+      - 香港4|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 最低2块钱1000G流量
+      - 超低价付费加速器梯子推荐
+      - 超低价付费加速器梯子推荐 2
+      - _IR_伊朗_1
+      - _IR_伊朗
+      - 4Sarina-152
       - _KR_韩国
-      - ⚡ b2n.ir/v2ray-configs | 148
       - ⚡ b2n.ir/v2ray-configs | 599
+      - 4Mohsen-697
+      - 4Jadi-225
+      - 4Jadi-1503
       - 4Sarina-1741
       - 新加坡 | SGP 8
+      - 香港4|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
