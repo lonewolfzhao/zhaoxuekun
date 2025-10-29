@@ -26,15 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 最高200元永久无限流量, server: 3.79.117.45, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 解锁奈飞, server: 35.183.43.124, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 荷兰 | NLD, server: xce11lxz.pet0er23mh21qq.com, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: aYEzEWyquHob4y8-ZzJ6aw, udp: true}
-- {name: 摩尔多瓦 | MDA, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 最低2元1000 G流量, server: 18.184.229.8, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 日本 | JPN 11, server: 113.99.143.139, port: 40316, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2, udp: true}
+- {name: 4Nika-660, server: 170.168.61.141, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: aYEzEWyquHob4y8-ZzJ6aw, udp: true}
+- {name: hk|e2dd|puddincat07@Telegram, server: 58.152.46.98, port: 443, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
 - {name: 12|🇸🇬 新加坡4|@ripaojiedian, server: 113.99.143.139, port: 26470, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2, udp: true}
-- {name: xx|9ff6|puddincat07@Telegram, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 4Kian-1780, server: 218.237.185.230, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -47,15 +42,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 最高200元永久无限流量
-      - 解锁奈飞
       - 荷兰 | NLD
-      - 摩尔多瓦 | MDA
-      - 最低2元1000 G流量
-      - 日本 | JPN 11
+      - 4Nika-660
+      - hk|e2dd|puddincat07@Telegram
       - 12|🇸🇬 新加坡4|@ripaojiedian
-      - xx|9ff6|puddincat07@Telegram
-      - 4Kian-1780
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -67,30 +57,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 最高200元永久无限流量
-      - 解锁奈飞
       - 荷兰 | NLD
-      - 摩尔多瓦 | MDA
-      - 最低2元1000 G流量
-      - 日本 | JPN 11
+      - 4Nika-660
+      - hk|e2dd|puddincat07@Telegram
       - 12|🇸🇬 新加坡4|@ripaojiedian
-      - xx|9ff6|puddincat07@Telegram
-      - 4Kian-1780
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 最高200元永久无限流量
-      - 解锁奈飞
       - 荷兰 | NLD
-      - 摩尔多瓦 | MDA
-      - 最低2元1000 G流量
-      - 日本 | JPN 11
+      - 4Nika-660
+      - hk|e2dd|puddincat07@Telegram
       - 12|🇸🇬 新加坡4|@ripaojiedian
-      - xx|9ff6|puddincat07@Telegram
-      - 4Kian-1780
   - name: 🐟 漏网之鱼
     type: select
     proxies:
