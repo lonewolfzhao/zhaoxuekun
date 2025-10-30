@@ -25,11 +25,39 @@ dns:
     geoip-code: CN
     ipcidr:
     - 240.0.0.0/4
+unified-delay: true
+global-client-fingerprint: chrome
+dns:
+  enable: true
+  listen: :53
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+  - 223.5.5.5
+  - 8.8.8.8
+  nameserver:
+  - https://dns.alidns.com/dns-query
+  - https://doh.pub/dns-query
+  fallback:
+  - https://1.0.0.1/dns-query
+  - tls://dns.google
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+    - 240.0.0.0/4
 proxies:
+- {name: cn|3c2a|puddincat07@Telegram, server: 139.129.20.6, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: cn|3c2a|puddincat07@Telegram 2, server: 139.129.20.6, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: hk|e2dd|puddincat07@Telegram, server: 58.152.46.98, port: 443, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
+- {name: FR_2|3.6MB/s, server: 195.154.119.77, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 4Kian-631, server: 62.133.63.21, port: 65262, type: ss, cipher: chacha20-ietf-poly1305, password: WjfN0ncDH8Saa7DfIIrjuR, udp: true}
+- {name: 7, server: 18.116.40.29, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "@V2rayNG3 19", server: 37.27.249.93, port: 30000, type: vmess, uuid: 31af18ca-127a-4b04-9cfb-c4616d6ada60, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 荷兰 | NLD, server: xce11lxz.pet0er23mh21qq.com, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: aYEzEWyquHob4y8-ZzJ6aw, udp: true}
 - {name: 4Nika-660, server: 170.168.61.141, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: aYEzEWyquHob4y8-ZzJ6aw, udp: true}
-- {name: hk|e2dd|puddincat07@Telegram, server: 58.152.46.98, port: 443, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
-- {name: 12|🇸🇬 新加坡4|@ripaojiedian, server: 113.99.143.139, port: 26470, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2, udp: true}
+- {name: "11,12|香港5|@ripaojiedian", server: 58.152.53.3, port: 443, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +70,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - cn|3c2a|puddincat07@Telegram
+      - cn|3c2a|puddincat07@Telegram 2
+      - hk|e2dd|puddincat07@Telegram
+      - FR_2|3.6MB/s
+      - 4Kian-631
+      - 7
+      - "@V2rayNG3 19"
       - 荷兰 | NLD
       - 4Nika-660
-      - hk|e2dd|puddincat07@Telegram
-      - 12|🇸🇬 新加坡4|@ripaojiedian
+      - 11,12|香港5|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,20 +91,32 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - cn|3c2a|puddincat07@Telegram
+      - cn|3c2a|puddincat07@Telegram 2
+      - hk|e2dd|puddincat07@Telegram
+      - FR_2|3.6MB/s
+      - 4Kian-631
+      - 7
+      - "@V2rayNG3 19"
       - 荷兰 | NLD
       - 4Nika-660
-      - hk|e2dd|puddincat07@Telegram
-      - 12|🇸🇬 新加坡4|@ripaojiedian
+      - 11,12|香港5|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - cn|3c2a|puddincat07@Telegram
+      - cn|3c2a|puddincat07@Telegram 2
+      - hk|e2dd|puddincat07@Telegram
+      - FR_2|3.6MB/s
+      - 4Kian-631
+      - 7
+      - "@V2rayNG3 19"
       - 荷兰 | NLD
       - 4Nika-660
-      - hk|e2dd|puddincat07@Telegram
-      - 12|🇸🇬 新加坡4|@ripaojiedian
+      - 11,12|香港5|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
