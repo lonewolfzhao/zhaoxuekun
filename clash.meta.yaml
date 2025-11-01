@@ -26,14 +26,23 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: cn|466a|puddincat07@Telegram, server: 139.129.20.6, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4Sarina-1685, server: 14.18.106.88, port: 6100, type: ss, cipher: aes-256-gcm, password: !<str> 123, udp: true}
+- {name: cn|53fd|puddincat07@Telegram, server: 39.107.155.11, port: 30302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: cn|b365|puddincat07@Telegram, server: 139.129.20.6, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 14, server: 18.199.98.206, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 13, server: 18.184.173.223, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: FR_2|3.6MB/s, server: 195.154.119.77, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: _KR_韩国, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: "12,13|台湾|@ripaojiedian", server: hxfz940e90d9.nfwzdm.com, port: 42765, type: trojan, password: b00abf05-5768-4ac9-8d20-6b1bd605bcf6, sni: v1-dy.ixigua.com, skip-cert-verify: true, udp: true}
-- {name: HK-1.36.223.36-5193, server: fb6f1580-sv2sg0-svpmdc-nx3b.hk3.p5pv.com, port: 80, type: vmess, uuid: 32315324-cf6b-11ed-979b-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fb6f1580-sv2sg0-svpmdc-nx3b.hk3.p5pv.com}}, udp: true}
-- {name: 荷兰 | NLD, server: xce11lxz.pet0er23mh21qq.com, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: aYEzEWyquHob4y8-ZzJ6aw, udp: true}
-- {name: 18, server: 58.152.46.98, port: 443, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
+- {name: 9, server: 15.157.66.237, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: HK_4|2.4MB/s, server: cn01.efan8867801.xyz, port: 6001, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: xx|4e34|puddincat07@Telegram, server: 5c4dc91c-sv2sg0-tbnucr-1thfv.hk3.p5pv.com, port: 80, type: vmess, uuid: 0a4d1c88-fb3a-11ef-8c3f-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 4Jadi-115, server: 45.87.175.166, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
+- {name: xx|6abf|puddincat07@Telegram, server: 1dd7778a-sv4n40-szxh9w-46gc.hk3.p5pv.com, port: 80, type: vmess, uuid: 225d1cca-d744-11ef-b790-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: xx|de75|puddincat07@Telegram, server: 0f64e685-sv0xs0-svwnuh-1t4wg.hk3.p5pv.com, port: 80, type: vmess, uuid: 1b13e20c-e778-11ef-907f-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 美国 CloudFlare节点, server: 104.18.240.238, port: 80, type: vmess, uuid: d967ffca-de90-4daa-bd00-d527e5bae11f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)", headers: {Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.}}, udp: true}
+- {name: HK-1.36.223.11-5016, server: a818614b-sv0xs0-t2p691-1s4hc.hk3.p5pv.com, port: 80, type: vmess, uuid: aafedc64-9c23-11ef-a79f-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a818614b-sv0xs0-t2p691-1s4hc.hk3.p5pv.com}}, udp: true}
+- {name: 4Jadi-603, server: 62.133.63.21, port: 65262, type: ss, cipher: chacha20-ietf-poly1305, password: bGefVJoPLpV7DxUUQoL0mv, udp: true}
+- {name: 16, server: 3.120.111.227, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Sarina-1685, server: 14.18.106.88, port: 6100, type: ss, cipher: aes-256-gcm, password: !<str> 123, udp: true}
+- {name: 4Nika-474, server: 109.122.197.192, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: JNK7CvuvWTpF2ZY3d9ygt1, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -46,14 +55,23 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - cn|466a|puddincat07@Telegram
-      - 4Sarina-1685
+      - cn|53fd|puddincat07@Telegram
+      - cn|b365|puddincat07@Telegram
+      - 14
+      - 13
       - FR_2|3.6MB/s
-      - _KR_韩国
-      - 12,13|台湾|@ripaojiedian
-      - HK-1.36.223.36-5193
-      - 荷兰 | NLD
-      - 18
+      - 9
+      - HK_4|2.4MB/s
+      - xx|4e34|puddincat07@Telegram
+      - 4Jadi-115
+      - xx|6abf|puddincat07@Telegram
+      - xx|de75|puddincat07@Telegram
+      - 美国 CloudFlare节点
+      - HK-1.36.223.11-5016
+      - 4Jadi-603
+      - 16
+      - 4Sarina-1685
+      - 4Nika-474
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -65,28 +83,46 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - cn|466a|puddincat07@Telegram
-      - 4Sarina-1685
+      - cn|53fd|puddincat07@Telegram
+      - cn|b365|puddincat07@Telegram
+      - 14
+      - 13
       - FR_2|3.6MB/s
-      - _KR_韩国
-      - 12,13|台湾|@ripaojiedian
-      - HK-1.36.223.36-5193
-      - 荷兰 | NLD
-      - 18
+      - 9
+      - HK_4|2.4MB/s
+      - xx|4e34|puddincat07@Telegram
+      - 4Jadi-115
+      - xx|6abf|puddincat07@Telegram
+      - xx|de75|puddincat07@Telegram
+      - 美国 CloudFlare节点
+      - HK-1.36.223.11-5016
+      - 4Jadi-603
+      - 16
+      - 4Sarina-1685
+      - 4Nika-474
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - cn|466a|puddincat07@Telegram
-      - 4Sarina-1685
+      - cn|53fd|puddincat07@Telegram
+      - cn|b365|puddincat07@Telegram
+      - 14
+      - 13
       - FR_2|3.6MB/s
-      - _KR_韩国
-      - 12,13|台湾|@ripaojiedian
-      - HK-1.36.223.36-5193
-      - 荷兰 | NLD
-      - 18
+      - 9
+      - HK_4|2.4MB/s
+      - xx|4e34|puddincat07@Telegram
+      - 4Jadi-115
+      - xx|6abf|puddincat07@Telegram
+      - xx|de75|puddincat07@Telegram
+      - 美国 CloudFlare节点
+      - HK-1.36.223.11-5016
+      - 4Jadi-603
+      - 16
+      - 4Sarina-1685
+      - 4Nika-474
   - name: 🐟 漏网之鱼
     type: select
     proxies:
