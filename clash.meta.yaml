@@ -26,11 +26,18 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: "12,13|新加坡|@ripaojiedian", server: 117.172.176.24, port: 2283, type: trojan, password: bca467b8c15211d189008a93c7519d3b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-- {name: 意大利 01, server: v5.heduian.link, port: 30805, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: US_4|4.0MB/s, server: 104.168.94.41, port: 32301, type: vmess, uuid: a2235b72-fd9c-404f-be5a-53b2de0cb798, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-- {name: 香港3|@ripaojiedian, server: 58.152.53.42, port: 443, type: trojan, password: bca467b8c15211d189008a93c7519d3b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-- {name: 香港6|@ripaojiedian, server: 36.133.73.36, port: 11819, type: vmess, uuid: de32752c-0661-467e-82d3-35bc740a787f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 最低2元1000G, server: 35.176.123.151, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 美国盐湖城家宽, server: 18.188.211.45, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Mohsen-1728, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: IEPL深港专线, server: 18.188.227.100, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 解锁声破天, server: 3.127.136.134, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Sarina-1660, server: 217.30.10.70, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+- {name: 解锁TikTok, server: 18.133.78.96, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 三网优化|x0x, server: 18.130.171.251, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Sarina-1030, server: 217.30.10.70, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+- {name: 4Mohsen-596, server: 45.12.150.199, port: 39447, type: ss, cipher: chacha20-ietf-poly1305, password: VnSL5YmYusDmMsUV2Y9dh7, udp: true}
+- {name: 4Sarina-1717, server: 37.235.49.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 4Mohsen-83, server: sl.fgmcx.top, port: 41047, type: ss, cipher: chacha20-ietf-poly1305, password: 014e90df-a3ee-4654-a9f6-d118e02dd02a, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -43,11 +50,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 12,13|新加坡|@ripaojiedian
-      - 意大利 01
-      - US_4|4.0MB/s
-      - 香港3|@ripaojiedian
-      - 香港6|@ripaojiedian
+      - 最低2元1000G
+      - 美国盐湖城家宽
+      - 4Mohsen-1728
+      - IEPL深港专线
+      - 解锁声破天
+      - 4Sarina-1660
+      - 解锁TikTok
+      - 三网优化|x0x
+      - 4Sarina-1030
+      - 4Mohsen-596
+      - 4Sarina-1717
+      - 4Mohsen-83
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -59,22 +73,36 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 12,13|新加坡|@ripaojiedian
-      - 意大利 01
-      - US_4|4.0MB/s
-      - 香港3|@ripaojiedian
-      - 香港6|@ripaojiedian
+      - 最低2元1000G
+      - 美国盐湖城家宽
+      - 4Mohsen-1728
+      - IEPL深港专线
+      - 解锁声破天
+      - 4Sarina-1660
+      - 解锁TikTok
+      - 三网优化|x0x
+      - 4Sarina-1030
+      - 4Mohsen-596
+      - 4Sarina-1717
+      - 4Mohsen-83
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 12,13|新加坡|@ripaojiedian
-      - 意大利 01
-      - US_4|4.0MB/s
-      - 香港3|@ripaojiedian
-      - 香港6|@ripaojiedian
+      - 最低2元1000G
+      - 美国盐湖城家宽
+      - 4Mohsen-1728
+      - IEPL深港专线
+      - 解锁声破天
+      - 4Sarina-1660
+      - 解锁TikTok
+      - 三网优化|x0x
+      - 4Sarina-1030
+      - 4Mohsen-596
+      - 4Sarina-1717
+      - 4Mohsen-83
   - name: 🐟 漏网之鱼
     type: select
     proxies:
