@@ -130,9 +130,9 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_hysteria_71
+- name: France_None_hysteria_71
   type: hysteria
-  server: 62.210.127.217
+  server: 62.210.10.186
   port: 50011
   auth-str: dongtaiwang.com
   sni: apple.com
@@ -278,7 +278,7 @@ proxy-groups:
   - Unknown_tuic_41
   - Unknown_hysteria2_51
   - Unknown_hysteria_61
-  - France_Paris_hysteria_71
+  - France_None_hysteria_71
   - France_Paris_hysteria_81
   - Unknown_hysteria_91
   - The Netherlands_Amsterdam_hy_0
@@ -297,7 +297,7 @@ proxy-groups:
   - Unknown_tuic_41
   - Unknown_hysteria2_51
   - Unknown_hysteria_61
-  - France_Paris_hysteria_71
+  - France_None_hysteria_71
   - France_Paris_hysteria_81
   - Unknown_hysteria_91
   - The Netherlands_Amsterdam_hy_0
@@ -316,7 +316,7 @@ proxy-groups:
   - Unknown_tuic_41
   - Unknown_hysteria2_51
   - Unknown_hysteria_61
-  - France_Paris_hysteria_71
+  - France_None_hysteria_71
   - France_Paris_hysteria_81
   - Unknown_hysteria_91
   - The Netherlands_Amsterdam_hy_0
