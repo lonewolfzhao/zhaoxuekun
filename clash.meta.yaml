@@ -26,16 +26,13 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 香港4|@ripaojiedian, server: 36.150.215.231, port: 1655, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
-- {name: 4Mohsen-580, server: h110vpnde.outlinekeys.net, port: 7048, type: ss, cipher: chacha20-ietf-poly1305, password: UpvYdhs8bc37DeJC3noLMh, udp: true}
-- {name: "12,13|美国|@ripaojiedian", server: 117.172.176.23, port: 4553, type: trojan, password: e4e262d453466988575c397a30562337, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+- {name: 美国 | USA 28, server: mg03.gnzzrk001.top, port: 30075, type: ss, cipher: chacha20-ietf-poly1305, password: dc9ea653-becc-44f1-95f9-16773a0519e9, udp: true}
+- {name: HK_3|5.2MB/s, server: 06e6b075-sum4g0-sx1cxx-1tfjk.hk3.p5pv.com, port: 80, type: vmess, uuid: 49396d98-f4b4-11ef-8c3f-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: US_2|3.9MB/s, server: 13.59.110.241, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: TH_1|3.1MB/s, server: tg01.gnzzrk001.top, port: 30163, type: ss, cipher: chacha20-ietf-poly1305, password: dc9ea653-becc-44f1-95f9-16773a0519e9, udp: true}
+- {name: 美国 | USA 25, server: 3.129.21.37, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: CN_38bcb_0006, server: fl01.lr9soflhleb.top, port: 31013, type: ss, cipher: chacha20-ietf-poly1305, password: dc9ea653-becc-44f1-95f9-16773a0519e9, udp: true}
 - {name: 韩国 | KOR, server: 221.139.79.57, port: 37008, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 泰国 | THA, server: tkcmi.5tk.top, port: 38637, type: vmess, uuid: 93058ab5-bb29-44d4-c309-d224c0967732, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 香港6|@ripaojiedian, server: 36.133.73.36, port: 11819, type: vmess, uuid: de32752c-0661-467e-82d3-35bc740a787f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 越南 | VNM, server: 103.197.185.149, port: 23806, type: vmess, uuid: 841550b4-d4bf-4e3e-de9c-cff7baa47df3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-- {name: 泰国 | THA 2, server: tkcmi.5tk.top, port: 38637, type: vmess, uuid: 93058ab5-bb29-44d4-c309-d224c0967732, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 泰国 | THA 3, server: tkcmi.5tk.top, port: 38637, type: vmess, uuid: 93058ab5-bb29-44d4-c309-d224c0967732, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 新加坡3|@ripaojiedian, server: 36.150.215.137, port: 9713, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -48,16 +45,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港4|@ripaojiedian
-      - 4Mohsen-580
-      - 12,13|美国|@ripaojiedian
+      - 美国 | USA 28
+      - HK_3|5.2MB/s
+      - US_2|3.9MB/s
+      - TH_1|3.1MB/s
+      - 美国 | USA 25
+      - CN_38bcb_0006
       - 韩国 | KOR
-      - 泰国 | THA
-      - 香港6|@ripaojiedian
-      - 越南 | VNM
-      - 泰国 | THA 2
-      - 泰国 | THA 3
-      - 新加坡3|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -69,32 +63,26 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港4|@ripaojiedian
-      - 4Mohsen-580
-      - 12,13|美国|@ripaojiedian
+      - 美国 | USA 28
+      - HK_3|5.2MB/s
+      - US_2|3.9MB/s
+      - TH_1|3.1MB/s
+      - 美国 | USA 25
+      - CN_38bcb_0006
       - 韩国 | KOR
-      - 泰国 | THA
-      - 香港6|@ripaojiedian
-      - 越南 | VNM
-      - 泰国 | THA 2
-      - 泰国 | THA 3
-      - 新加坡3|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 香港4|@ripaojiedian
-      - 4Mohsen-580
-      - 12,13|美国|@ripaojiedian
+      - 美国 | USA 28
+      - HK_3|5.2MB/s
+      - US_2|3.9MB/s
+      - TH_1|3.1MB/s
+      - 美国 | USA 25
+      - CN_38bcb_0006
       - 韩国 | KOR
-      - 泰国 | THA
-      - 香港6|@ripaojiedian
-      - 越南 | VNM
-      - 泰国 | THA 2
-      - 泰国 | THA 3
-      - 新加坡3|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
