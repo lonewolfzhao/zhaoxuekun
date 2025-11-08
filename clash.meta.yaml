@@ -26,19 +26,19 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: _CN_中国, server: oss-cn-shanghai.letssepub.com, port: 20021, type: trojan, password: adbac894-90b9-4913-b77e-a715a8d4ebc8, sni: dingding-doc.com, skip-cert-verify: true, udp: true}
-- {name: 1, server: 3.141.46.88, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: CA_aa986_0001, server: 15.223.194.229, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 8, server: 3.148.145.1, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 2, server: 3.137.215.129, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 10, server: 3.9.16.64, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 15, server: 18.218.15.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 9, server: 54.93.193.217, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: GB_aa986_0012, server: 3.8.49.30, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "12,13|香港3|@ripaojiedian", server: 203.198.122.194, port: 443, type: trojan, password: 1b57001bd214304027025a740b6cf1ac, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-- {name: _CN_中国 2, server: 58.152.46.98, port: 443, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
-- {name: 香港5|@ripaojiedian, server: 203.198.122.129, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
-- {name: DK_1|4.8MB/s, server: 95.164.10.228, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: SDaFISr3Gfm6YkBSSrFIEwwWjEEU7Xbo, udp: true}
+- {name: 7, server: 1762596741.bilibiliapp.cn, port: 443, type: vmess, uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lxjm8z0tq.speed.ydnxyd.cccp.useraaca.pp.ua}}, udp: true}
+- {name: 3, server: 1762596741.bilibiliapp.cn, port: 443, type: vmess, uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 6omstg.speed.thasduba.cccp.useraaca.pp.ua}}, udp: true}
+- {name: 最低2元1000G流量, server: 1762596741.bilibiliapp.cn, port: 443, type: vmess, uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 7wl26h.speed.jpsacibna.cccp.useraaca.pp.ua}}, udp: true}
+- {name: 8, server: 1762596741.bilibiliapp.cn, port: 443, type: vmess, uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mrotr1mrl.speed.ydindda.cccp.useraaca.pp.ua}}, udp: true}
+- {name: 5, server: 1762596741.bilibiliapp.cn, port: 443, type: vmess, uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: crfldsl.speed.ydnxyb.cccp.useraaca.pp.ua}}, udp: true}
+- {name: 4, server: 1762596741.bilibiliapp.cn, port: 443, type: vmess, uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: i5z5l83j3.speed.ydnxya.cccp.useraaca.pp.ua}}, udp: true}
+- {name: xx|43a2|puddincat07@Telegram, server: naiu-hk.05vr9nyqg5.download, port: 13007, type: trojan, password: dce3c42b-f259-4b18-b5c1-a42ebef4e732, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+- {name: _KR_韩国, server: 221.139.79.57, port: 37008, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: RU_1|5.7MB/s, server: 45.144.31.24, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 7HQ8w1YWMdNjq68bZt1tNfpDHLFA1BPA, udp: true}
+- {name: SI_1|3.3MB/s, server: 45.83.131.43, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: HfAiyrdFbKJuKIQkGjvJrDFefmH8YDSC, udp: true}
+- {name: 4Nika-1766, server: 218.237.185.230, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 广东省广州市 移动, server: tkcmi.5tk.top, port: 38637, type: vmess, uuid: 93058ab5-bb29-44d4-c309-d224c0967732, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: "12,13|美国3|@ripaojiedian", server: 36.151.251.38, port: 25891, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -51,19 +51,19 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _CN_中国
-      - 1
-      - CA_aa986_0001
+      - 7
+      - 3
+      - 最低2元1000G流量
       - 8
-      - 2
-      - 10
-      - 15
-      - 9
-      - GB_aa986_0012
-      - 12,13|香港3|@ripaojiedian
-      - _CN_中国 2
-      - 香港5|@ripaojiedian
-      - DK_1|4.8MB/s
+      - 5
+      - 4
+      - xx|43a2|puddincat07@Telegram
+      - _KR_韩国
+      - RU_1|5.7MB/s
+      - SI_1|3.3MB/s
+      - 4Nika-1766
+      - 广东省广州市 移动
+      - 12,13|美国3|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -75,38 +75,38 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _CN_中国
-      - 1
-      - CA_aa986_0001
+      - 7
+      - 3
+      - 最低2元1000G流量
       - 8
-      - 2
-      - 10
-      - 15
-      - 9
-      - GB_aa986_0012
-      - 12,13|香港3|@ripaojiedian
-      - _CN_中国 2
-      - 香港5|@ripaojiedian
-      - DK_1|4.8MB/s
+      - 5
+      - 4
+      - xx|43a2|puddincat07@Telegram
+      - _KR_韩国
+      - RU_1|5.7MB/s
+      - SI_1|3.3MB/s
+      - 4Nika-1766
+      - 广东省广州市 移动
+      - 12,13|美国3|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - _CN_中国
-      - 1
-      - CA_aa986_0001
+      - 7
+      - 3
+      - 最低2元1000G流量
       - 8
-      - 2
-      - 10
-      - 15
-      - 9
-      - GB_aa986_0012
-      - 12,13|香港3|@ripaojiedian
-      - _CN_中国 2
-      - 香港5|@ripaojiedian
-      - DK_1|4.8MB/s
+      - 5
+      - 4
+      - xx|43a2|puddincat07@Telegram
+      - _KR_韩国
+      - RU_1|5.7MB/s
+      - SI_1|3.3MB/s
+      - 4Nika-1766
+      - 广东省广州市 移动
+      - 12,13|美国3|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
