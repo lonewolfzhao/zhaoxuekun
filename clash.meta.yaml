@@ -26,10 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: PT_1|3.1MB/s, server: 45.83.142.237, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: nxgsmHkP3JU7hbQkJfxgpXh5tlvXe1en, udp: true}
-- {name: kr|3810|puddincat07@Telegram, server: 221.139.79.57, port: 37008, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 4Jadi-529, server: 45.12.150.212, port: 22658, type: ss, cipher: chacha20-ietf-poly1305, password: NiPzObWODHbCoAI8f1Ty3X, udp: true}
-- {name: NL_3|3.4MB/s, server: 45.14.245.2, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 17ZDORWIliQHuO6WRGHChXYMzdRtAYVP, udp: true}
+- {name: "12,13|香港4|@ripaojiedian", server: 203.198.122.97, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
+- {name: 4Sarina-657, server: 45.87.175.193, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+- {name: 4Mohsen-1655, server: 221.139.79.57, port: 37008, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 美国 | USA 46, server: 146.19.49.251, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +42,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - PT_1|3.1MB/s
-      - kr|3810|puddincat07@Telegram
-      - 4Jadi-529
-      - NL_3|3.4MB/s
+      - 12,13|香港4|@ripaojiedian
+      - 4Sarina-657
+      - 4Mohsen-1655
+      - 美国 | USA 46
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,20 +57,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - PT_1|3.1MB/s
-      - kr|3810|puddincat07@Telegram
-      - 4Jadi-529
-      - NL_3|3.4MB/s
+      - 12,13|香港4|@ripaojiedian
+      - 4Sarina-657
+      - 4Mohsen-1655
+      - 美国 | USA 46
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - PT_1|3.1MB/s
-      - kr|3810|puddincat07@Telegram
-      - 4Jadi-529
-      - NL_3|3.4MB/s
+      - 12,13|香港4|@ripaojiedian
+      - 4Sarina-657
+      - 4Mohsen-1655
+      - 美国 | USA 46
   - name: 🐟 漏网之鱼
     type: select
     proxies:
