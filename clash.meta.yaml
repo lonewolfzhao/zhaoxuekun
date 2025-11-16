@@ -26,10 +26,13 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 4Jadi-1740, server: 14.18.106.88, port: 6100, type: ss, cipher: aes-256-gcm, password: !<str> 123, udp: true}
+- {name: SE_1|3.6MB/s, server: dir.lightnright.com, port: 5228, type: vmess, uuid: 6202ab997f570a6a180ae980b41f5789, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: _US_美国, server: 18.130.251.29, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "12,13|香港3|@ripaojiedian", server: 58.152.110.216, port: 443, type: trojan, password: 2274c52572e721086f8bd8f88984643c, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-- {name: FR_36486_0006, server: 51.158.204.165, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0KDTVV9wFm2pvQUnQftJDWgXbaY8kIfG, udp: true}
-- {name: 摩尔多瓦 | MDA, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: _IR_伊朗, server: 151.242.251.137, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: o5osZg269v5zHpYjr1xY9s, udp: true}
+- {name: HK_5e3ab_0003, server: 58.152.26.173, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
+- {name: 4Sarina-1721, server: 221.139.79.57, port: 37008, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: IT²_1|1.6MB/s|TK-NL|X|KeepHistory, server: v5.heduian.link, port: 30805, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +45,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Jadi-1740
+      - SE_1|3.6MB/s
       - _US_美国
-      - 12,13|香港3|@ripaojiedian
-      - FR_36486_0006
-      - 摩尔多瓦 | MDA
+      - _IR_伊朗
+      - HK_5e3ab_0003
+      - 4Sarina-1721
+      - IT²_1|1.6MB/s|TK-NL|X|KeepHistory
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,20 +63,26 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Jadi-1740
+      - SE_1|3.6MB/s
       - _US_美国
-      - 12,13|香港3|@ripaojiedian
-      - FR_36486_0006
-      - 摩尔多瓦 | MDA
+      - _IR_伊朗
+      - HK_5e3ab_0003
+      - 4Sarina-1721
+      - IT²_1|1.6MB/s|TK-NL|X|KeepHistory
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 4Jadi-1740
+      - SE_1|3.6MB/s
       - _US_美国
-      - 12,13|香港3|@ripaojiedian
-      - FR_36486_0006
-      - 摩尔多瓦 | MDA
+      - _IR_伊朗
+      - HK_5e3ab_0003
+      - 4Sarina-1721
+      - IT²_1|1.6MB/s|TK-NL|X|KeepHistory
   - name: 🐟 漏网之鱼
     type: select
     proxies:
