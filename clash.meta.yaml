@@ -25,29 +25,9 @@ dns:
     geoip-code: CN
     ipcidr:
     - 240.0.0.0/4
-unified-delay: true
-global-client-fingerprint: chrome
-dns:
-  enable: true
-  listen: :53
-  ipv6: true
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  default-nameserver:
-  - 223.5.5.5
-  - 8.8.8.8
-  nameserver:
-  - https://dns.alidns.com/dns-query
-  - https://doh.pub/dns-query
-  fallback:
-  - https://1.0.0.1/dns-query
-  - tls://dns.google
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
-    ipcidr:
-    - 240.0.0.0/4
 proxies:
+- {name: _CN_中国, server: 103.149.182.191, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+- {name: _CN_中国 2, server: 103.149.183.200, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
 - {name: 4Nika-1768, server: 14.18.106.88, port: 6100, type: ss, cipher: aes-256-gcm, password: !<str> 123, udp: true}
 - {name: 4FreeIran-215, server: 81.90.29.126, port: 53672, type: ss, cipher: chacha20-ietf-poly1305, password: yprgZbB7xDL4PSvE4wJU4m, udp: true}
 proxy-groups:
@@ -62,6 +42,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - _CN_中国
+      - _CN_中国 2
       - 4Nika-1768
       - 4FreeIran-215
   - name: 🔰 节点选择
@@ -75,6 +57,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - _CN_中国
+      - _CN_中国 2
       - 4Nika-1768
       - 4FreeIran-215
   - name: ♻️ 可能受限
@@ -83,6 +67,8 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - _CN_中国
+      - _CN_中国 2
       - 4Nika-1768
       - 4FreeIran-215
   - name: 🐟 漏网之鱼
