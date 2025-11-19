@@ -26,23 +26,17 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: _AU_澳大利亚, server: 43.201.70.24, port: 80, type: ss, cipher: aes-256-gcm, password: dada0801, udp: true}
+- {name: 台湾|@ripaojiedian, server: 8.138.145.90, port: 11223, type: vmess, uuid: 2a49163d-eaff-38d2-bb0e-5048a031f6b6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 4Sarina-1781, server: 14.18.106.88, port: 6100, type: ss, cipher: aes-256-gcm, password: !<str> 123, udp: true}
-- {name: _US_美国, server: 63.178.2.18, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _KR_韩国, server: 54.180.202.139, port: 80, type: ss, cipher: aes-256-gcm, password: dada0801, udp: true}
-- {name: _US_美国 2, server: 3.72.36.217, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _AU_澳大利亚 2, server: 43.203.199.246, port: 80, type: ss, cipher: aes-256-gcm, password: dada0801, udp: true}
-- {name: _US_美国 3, server: 52.33.246.24, port: 80, type: ss, cipher: aes-256-gcm, password: dada0801, udp: true}
-- {name: _CN_中国, server: krhtybay.catcat321.com, port: 20026, type: trojan, password: a0d6e36b-0233-4985-bc99-db6ed83b8dd8, sni: iepl.ruz1.cat.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: DE_1|3.8MB/s, server: 18.197.20.26, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国 4, server: 98.80.123.78, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _US_美国 5, server: 13.209.14.105, port: 80, type: ss, cipher: aes-256-gcm, password: dada0801, udp: true}
-- {name: FR_1|2.6MB/s, server: 195.154.119.77, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 14|IL_speednode_0006, server: 45.144.172.243, port: 443, type: trojan, password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f, sni: www.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 英国 01, server: v36.heduian.link, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 台湾|@ripaojiedian 2, server: 8.138.145.90, port: 11223, type: vmess, uuid: 2a49163d-eaff-38d2-bb0e-5048a031f6b6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 14|CH_speednode_0001, server: 194.87.18.124, port: 443, type: trojan, password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f, sni: www.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 英国 01 2, server: v36.heduian.link, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4Kian-182, server: 62.133.60.43, port: 36456, type: ss, cipher: chacha20-ietf-poly1305, password: uDp3hz2qKvH0A6RNxxLqYX, udp: true}
+- {name: _JP_日本, server: tksjx.zippydeal.xyz, port: 5517, type: trojan, password: fg20mtCFHy, sni: tksjx.zippydeal.xyz, skip-cert-verify: true, udp: true}
+- {name: 4Sarina-606, server: 62.133.63.21, port: 65262, type: ss, cipher: chacha20-ietf-poly1305, password: TxFqutU8NnbrzOOnMCIekN, udp: true}
+- {name: 4Sarina-200, server: 81.90.29.126, port: 53672, type: ss, cipher: chacha20-ietf-poly1305, password: yprgZbB7xDL4PSvE4wJU4m, udp: true}
+- {name: _KR_韩国, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 英国 01, server: v36.heduian.link, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Nika-629, server: 213.173.33.38, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: W67q2pExiQsSXKbBNQ6dTq, udp: true}
+- {name: 4Jadi-1685, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -55,23 +49,17 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _AU_澳大利亚
+      - 台湾|@ripaojiedian
       - 4Sarina-1781
-      - _US_美国
-      - _KR_韩国
-      - _US_美国 2
-      - _AU_澳大利亚 2
-      - _US_美国 3
-      - _CN_中国
-      - DE_1|3.8MB/s
-      - _US_美国 4
-      - _US_美国 5
-      - FR_1|2.6MB/s
-      - 14|IL_speednode_0006
-      - 英国 01
+      - 台湾|@ripaojiedian 2
       - 14|CH_speednode_0001
-      - 英国 01 2
-      - 4Kian-182
+      - _JP_日本
+      - 4Sarina-606
+      - 4Sarina-200
+      - _KR_韩国
+      - 英国 01
+      - 4Nika-629
+      - 4Jadi-1685
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -83,46 +71,34 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _AU_澳大利亚
+      - 台湾|@ripaojiedian
       - 4Sarina-1781
-      - _US_美国
-      - _KR_韩国
-      - _US_美国 2
-      - _AU_澳大利亚 2
-      - _US_美国 3
-      - _CN_中国
-      - DE_1|3.8MB/s
-      - _US_美国 4
-      - _US_美国 5
-      - FR_1|2.6MB/s
-      - 14|IL_speednode_0006
-      - 英国 01
+      - 台湾|@ripaojiedian 2
       - 14|CH_speednode_0001
-      - 英国 01 2
-      - 4Kian-182
+      - _JP_日本
+      - 4Sarina-606
+      - 4Sarina-200
+      - _KR_韩国
+      - 英国 01
+      - 4Nika-629
+      - 4Jadi-1685
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - _AU_澳大利亚
+      - 台湾|@ripaojiedian
       - 4Sarina-1781
-      - _US_美国
-      - _KR_韩国
-      - _US_美国 2
-      - _AU_澳大利亚 2
-      - _US_美国 3
-      - _CN_中国
-      - DE_1|3.8MB/s
-      - _US_美国 4
-      - _US_美国 5
-      - FR_1|2.6MB/s
-      - 14|IL_speednode_0006
-      - 英国 01
+      - 台湾|@ripaojiedian 2
       - 14|CH_speednode_0001
-      - 英国 01 2
-      - 4Kian-182
+      - _JP_日本
+      - 4Sarina-606
+      - 4Sarina-200
+      - _KR_韩国
+      - 英国 01
+      - 4Nika-629
+      - 4Jadi-1685
   - name: 🐟 漏网之鱼
     type: select
     proxies:
