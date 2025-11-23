@@ -26,19 +26,17 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: _CN_中国, server: 103.149.182.79, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
-- {name: _CN_中国 2, server: 103.149.182.158, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
-- {name: _CN_中国 3, server: 103.219.103.217, port: 23344, type: ss, cipher: aes-128-gcm, password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74, udp: true}
-- {name: US²_1|0.9MB/s|0%|GPT⁺|YT|TK|NF|X|KeepSucceed, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: HK_66, server: dfed4efb-t4n8g0-t636g9-luwe.hk3.p5pv.com, port: 80, type: vmess, uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 4Mohsen-616, server: 23.95.72.81, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG, udp: true}
+- {name: _CN_中国, server: 103.149.182.105, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+- {name: 4Kian-1780, server: 14.18.106.88, port: 6100, type: ss, cipher: aes-256-gcm, password: !<str> 123, udp: true}
+- {name: cn|cdb0|puddincat07@Telegram 2, server: 113.57.36.148, port: 3304, type: vmess, uuid: f0305e21-30bb-32f9-9b1b-9e02dcf3af54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: cn|cdb0|puddincat07@Telegram 2 2, server: 113.57.36.148, port: 3304, type: vmess, uuid: f0305e21-30bb-32f9-9b1b-9e02dcf3af54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: CN_055ff_0002, server: 113.57.36.148, port: 3304, type: vmess, uuid: f0305e21-30bb-32f9-9b1b-9e02dcf3af54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: cn|cdb0|puddincat07@Telegram, server: 113.57.36.148, port: 3304, type: vmess, uuid: f0305e21-30bb-32f9-9b1b-9e02dcf3af54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 克罗地亚 | HRV, server: 185.156.110.92, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: gXOXk2FJwsz9P6nXIICuDNOqF9gWX1dn, udp: true}
-- {name: 4Kian-1762, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: IT_539e7_0031, server: 185.247.184.27, port: 42203, type: ss, cipher: chacha20-ietf-poly1305, password: yDAMsX678XsjsESR4UJlAI, udp: true}
-- {name: IR_1|3.1MB/s, server: 213.176.16.71, port: 4966, type: ss, cipher: chacha20-ietf-poly1305, password: lXOVjEMsx00jeOQzHsQrkL, udp: true}
-- {name: MD_1|3.7MB/s, server: 213.159.67.124, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp, udp: true}
-- {name: 香港3|@ripaojiedian, server: 58.152.18.98, port: 443, type: trojan, password: dd2f25b4c70689de8bc0f7fa9d6591cb, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-- {name: IL_539e7_0027, server: 45.93.94.237, port: 8618, type: ss, cipher: chacha20-ietf-poly1305, password: 4lUEC91c1d8oeClzDbYpXA, udp: true}
+- {name: 4Nika-114, server: 45.87.175.166, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
+- {name: 摩尔多瓦 | MDA 2, server: 213.159.67.124, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp, udp: true}
+- {name: 4Sarina-621, server: 23.95.72.81, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG, udp: true}
+- {name: US²_2|0.6MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed, server: n1749032902.xlxzzx.com, port: 443, type: vmess, uuid: 6f932d64-1eb4-4160-bc8d-6085cfd4d37d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: n1749032902.xlxzzx.com}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -52,18 +50,16 @@ proxy-groups:
     interval: 10
     proxies:
       - _CN_中国
-      - _CN_中国 2
-      - _CN_中国 3
-      - US²_1|0.9MB/s|0%|GPT⁺|YT|TK|NF|X|KeepSucceed
-      - HK_66
-      - 4Mohsen-616
+      - 4Kian-1780
+      - cn|cdb0|puddincat07@Telegram 2
+      - cn|cdb0|puddincat07@Telegram 2 2
+      - CN_055ff_0002
+      - cn|cdb0|puddincat07@Telegram
       - 克罗地亚 | HRV
-      - 4Kian-1762
-      - IT_539e7_0031
-      - IR_1|3.1MB/s
-      - MD_1|3.7MB/s
-      - 香港3|@ripaojiedian
-      - IL_539e7_0027
+      - 4Nika-114
+      - 摩尔多瓦 | MDA 2
+      - 4Sarina-621
+      - US²_2|0.6MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -76,18 +72,16 @@ proxy-groups:
     interval: 10
     proxies:
       - _CN_中国
-      - _CN_中国 2
-      - _CN_中国 3
-      - US²_1|0.9MB/s|0%|GPT⁺|YT|TK|NF|X|KeepSucceed
-      - HK_66
-      - 4Mohsen-616
+      - 4Kian-1780
+      - cn|cdb0|puddincat07@Telegram 2
+      - cn|cdb0|puddincat07@Telegram 2 2
+      - CN_055ff_0002
+      - cn|cdb0|puddincat07@Telegram
       - 克罗地亚 | HRV
-      - 4Kian-1762
-      - IT_539e7_0031
-      - IR_1|3.1MB/s
-      - MD_1|3.7MB/s
-      - 香港3|@ripaojiedian
-      - IL_539e7_0027
+      - 4Nika-114
+      - 摩尔多瓦 | MDA 2
+      - 4Sarina-621
+      - US²_2|0.6MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -95,18 +89,16 @@ proxy-groups:
     interval: 10
     proxies:
       - _CN_中国
-      - _CN_中国 2
-      - _CN_中国 3
-      - US²_1|0.9MB/s|0%|GPT⁺|YT|TK|NF|X|KeepSucceed
-      - HK_66
-      - 4Mohsen-616
+      - 4Kian-1780
+      - cn|cdb0|puddincat07@Telegram 2
+      - cn|cdb0|puddincat07@Telegram 2 2
+      - CN_055ff_0002
+      - cn|cdb0|puddincat07@Telegram
       - 克罗地亚 | HRV
-      - 4Kian-1762
-      - IT_539e7_0031
-      - IR_1|3.1MB/s
-      - MD_1|3.7MB/s
-      - 香港3|@ripaojiedian
-      - IL_539e7_0027
+      - 4Nika-114
+      - 摩尔多瓦 | MDA 2
+      - 4Sarina-621
+      - US²_2|0.6MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed
   - name: 🐟 漏网之鱼
     type: select
     proxies:
