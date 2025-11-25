@@ -26,23 +26,21 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: DE_2|2.5MB/s, server: clr.ducks.tel, port: 17844, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 907560230, udp: true}
 - {name: 4Jadi-1792, server: 14.18.106.88, port: 6100, type: ss, cipher: aes-256-gcm, password: !<str> 123, udp: true}
-- {name: US_3|2.3MB/s, server: clr.ducks.tel, port: 17847, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 907560230, udp: true}
-- {name: 4Jadi-1739, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 4FreeIran-114, server: 45.14.245.2, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 17ZDORWIliQHuO6WRGHChXYMzdRtAYVP, udp: true}
-- {name: 4Sarina-621, server: 23.95.72.81, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG, udp: true}
-- {name: 美国 | USA 23, server: huojian1.vn9987.top, port: 51004, type: ss, cipher: chacha20-ietf-poly1305, password: f1fa04be-bdf6-477e-81d0-b46232227455, udp: true}
-- {name: 美国 | USA 28, server: huojian1.vn9987.top, port: 51004, type: ss, cipher: chacha20-ietf-poly1305, password: 2eaa2cc3-9b7d-4bed-a8f9-c509d76cf57f, udp: true}
-- {name: 美国 | USA 35, server: huojian1.vn9987.top, port: 51004, type: ss, cipher: chacha20-ietf-poly1305, password: 7142d7c5-fb76-4c9c-9b90-ba0c325aec4d, udp: true}
+- {name: DE_2|2.5MB/s, server: clr.ducks.tel, port: 17844, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 907560230, udp: true}
+- {name: 土耳其 | TUR 3, server: 185.39.204.189, port: 34085, type: ss, cipher: chacha20-ietf-poly1305, password: depjSbjv2Uql6W4Vge7sDf, udp: true}
+- {name: 4Mohsen-1700, server: 217.30.10.70, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+- {name: US_5|2.2MB/s, server: clr.ducks.tel, port: 17847, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 907560230, udp: true}
+- {name: us|f705|puddincat07@Telegram, server: 23.95.75.146, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: NDRySIABARbErNIVsCNVkyYAHiBzhveT, udp: true}
 - {name: NL_1|3.3MB/s, server: 45.87.175.166, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
-- {name: 摩尔多瓦 | MDA 2, server: 213.159.67.124, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp, udp: true}
+- {name: 荷兰 | NLD, server: 213.176.16.77, port: 7022, type: ss, cipher: chacha20-ietf-poly1305, password: 8HtC7rj6NfZncXYvAjDV5t, udp: true}
 - {name: 荷兰 | NLD 8, server: 5.129.214.186, port: 6403, type: ss, cipher: chacha20-ietf-poly1305, password: HWNsKy61qPyoDtrEYEtZuk, udp: true}
-- {name: 新加坡 | SGP 4, server: 104.248.149.243, port: 2218, type: ss, cipher: chacha20-ietf-poly1305, password: A9CgxhCcHPAZeiTRHS1wwI, udp: true}
-- {name: 4FreeIran-572, server: 146.19.49.251, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6, udp: true}
-- {name: 美国 | USA 18, server: huojian1.vn9987.top, port: 51004, type: ss, cipher: chacha20-ietf-poly1305, password: 65e3253e-3707-49ec-b91a-c8b3546497cc, udp: true}
-- {name: MD_c0591_0034, server: 213.159.66.206, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu, udp: true}
-- {name: 4FreeIran-569, server: 23.95.75.146, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: NDRySIABARbErNIVsCNVkyYAHiBzhveT, udp: true}
+- {name: hr|4600|puddincat07@Telegram, server: 185.156.110.92, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: gXOXk2FJwsz9P6nXIICuDNOqF9gWX1dn, udp: true}
+- {name: 4Mohsen-819, server: 82.38.31.176, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
+- {name: 西班牙 | ESP, server: 213.159.67.124, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp, udp: true}
+- {name: 4Sarina-621, server: 23.95.72.81, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG, udp: true}
+- {name: 4Mohsen-878, server: 213.159.66.206, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu, udp: true}
+- {name: 4Mohsen-209, server: 78.40.116.178, port: 34094, type: ss, cipher: chacha20-ietf-poly1305, password: yo6h9qkhwz8UJoTZCRtoSi, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -55,23 +53,21 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - DE_2|2.5MB/s
       - 4Jadi-1792
-      - US_3|2.3MB/s
-      - 4Jadi-1739
-      - 4FreeIran-114
-      - 4Sarina-621
-      - 美国 | USA 23
-      - 美国 | USA 28
-      - 美国 | USA 35
+      - DE_2|2.5MB/s
+      - 土耳其 | TUR 3
+      - 4Mohsen-1700
+      - US_5|2.2MB/s
+      - us|f705|puddincat07@Telegram
       - NL_1|3.3MB/s
-      - 摩尔多瓦 | MDA 2
+      - 荷兰 | NLD
       - 荷兰 | NLD 8
-      - 新加坡 | SGP 4
-      - 4FreeIran-572
-      - 美国 | USA 18
-      - MD_c0591_0034
-      - 4FreeIran-569
+      - hr|4600|puddincat07@Telegram
+      - 4Mohsen-819
+      - 西班牙 | ESP
+      - 4Sarina-621
+      - 4Mohsen-878
+      - 4Mohsen-209
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -83,46 +79,42 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - DE_2|2.5MB/s
       - 4Jadi-1792
-      - US_3|2.3MB/s
-      - 4Jadi-1739
-      - 4FreeIran-114
-      - 4Sarina-621
-      - 美国 | USA 23
-      - 美国 | USA 28
-      - 美国 | USA 35
+      - DE_2|2.5MB/s
+      - 土耳其 | TUR 3
+      - 4Mohsen-1700
+      - US_5|2.2MB/s
+      - us|f705|puddincat07@Telegram
       - NL_1|3.3MB/s
-      - 摩尔多瓦 | MDA 2
+      - 荷兰 | NLD
       - 荷兰 | NLD 8
-      - 新加坡 | SGP 4
-      - 4FreeIran-572
-      - 美国 | USA 18
-      - MD_c0591_0034
-      - 4FreeIran-569
+      - hr|4600|puddincat07@Telegram
+      - 4Mohsen-819
+      - 西班牙 | ESP
+      - 4Sarina-621
+      - 4Mohsen-878
+      - 4Mohsen-209
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - DE_2|2.5MB/s
       - 4Jadi-1792
-      - US_3|2.3MB/s
-      - 4Jadi-1739
-      - 4FreeIran-114
-      - 4Sarina-621
-      - 美国 | USA 23
-      - 美国 | USA 28
-      - 美国 | USA 35
+      - DE_2|2.5MB/s
+      - 土耳其 | TUR 3
+      - 4Mohsen-1700
+      - US_5|2.2MB/s
+      - us|f705|puddincat07@Telegram
       - NL_1|3.3MB/s
-      - 摩尔多瓦 | MDA 2
+      - 荷兰 | NLD
       - 荷兰 | NLD 8
-      - 新加坡 | SGP 4
-      - 4FreeIran-572
-      - 美国 | USA 18
-      - MD_c0591_0034
-      - 4FreeIran-569
+      - hr|4600|puddincat07@Telegram
+      - 4Mohsen-819
+      - 西班牙 | ESP
+      - 4Sarina-621
+      - 4Mohsen-878
+      - 4Mohsen-209
   - name: 🐟 漏网之鱼
     type: select
     proxies:
