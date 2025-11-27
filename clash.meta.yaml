@@ -26,21 +26,20 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 香港5|@ripaojiedian, server: 112.120.31.179, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
-- {name: HK_71, server: 4b718efc-sv2sg0-t65a3e-tqgz.hk3.p5pv.com, port: 80, type: vmess, uuid: 88da0d21-b25d-11ec-b9f7-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: HK_70, server: 865c5c01-sv4n40-t65a3e-tqgz.hk3.p5pv.com, port: 80, type: vmess, uuid: 88da0d21-b25d-11ec-b9f7-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: FR_1|4.5MB/s, server: 13.38.88.41, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _FR_法国, server: 35.180.122.182, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Sarina-1609, server: 63.180.174.194, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: NL_1|3.3MB/s, server: 45.87.175.166, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
-- {name: DE_2|3.5MB/s, server: 54.93.211.165, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: FR_4|1.7MB/s, server: 195.154.119.77, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 4Sarina-841, server: 82.38.31.187, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
-- {name: ‍☠_1🇸🇬SG²_3|2.5MB/s|X|KeepHistory, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 法国 | FRA, server: tr.node1link.xyz, port: 23017, type: trojan, password: 9ba175d0-e602-4997-8603-7b42b13ef15f, skip-cert-verify: true, udp: true}
+- {name: _CN_中国, server: 103.149.182.158, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+- {name: lt|b585|puddincat07@Telegram, server: 45.87.175.174, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
+- {name: DE_2|1.7MB/s, server: 54.93.101.215, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Nika-1883, server: 14.18.106.88, port: 6100, type: ss, cipher: aes-256-gcm, password: !<str> 123, udp: true}
+- {name: NL_3|2.5MB/s, server: 82.38.31.218, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
+- {name: DE_1|2.4MB/s, server: 3.72.36.217, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: lt|473e|puddincat07@Telegram, server: 45.87.175.155, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
+- {name: 4Sarina-590, server: 23.95.75.146, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: NDRySIABARbErNIVsCNVkyYAHiBzhveT, udp: true}
+- {name: 4Sarina-593, server: 146.19.49.251, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6, udp: true}
 - {name: 西班牙 | ESP, server: 213.159.67.124, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp, udp: true}
-- {name: 4FreeIran-648, server: 23.95.72.81, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG, udp: true}
-- {name: us|d9c4|puddincat07@Telegram, server: 167.150.100.115, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz, udp: true}
-- {name: 加拿大 | CAN 5, server: 137.184.174.93, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: 香港 | HKG 4, server: 47.242.225.242, port: 443, type: trojan, password: 92690597d6298061459918a371e8d77d, sni: hezijiasuqi.com, skip-cert-verify: true, udp: true}
+- {name: 香港5|@ripaojiedian, server: 112.120.31.179, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
+- {name: 4Jadi-1774, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -53,21 +52,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港5|@ripaojiedian
-      - HK_71
-      - HK_70
-      - FR_1|4.5MB/s
-      - _FR_法国
-      - 4Sarina-1609
-      - NL_1|3.3MB/s
-      - DE_2|3.5MB/s
-      - FR_4|1.7MB/s
-      - 4Sarina-841
-      - ‍☠_1🇸🇬SG²_3|2.5MB/s|X|KeepHistory
+      - 法国 | FRA
+      - _CN_中国
+      - lt|b585|puddincat07@Telegram
+      - DE_2|1.7MB/s
+      - 4Nika-1883
+      - NL_3|2.5MB/s
+      - DE_1|2.4MB/s
+      - lt|473e|puddincat07@Telegram
+      - 4Sarina-590
+      - 4Sarina-593
       - 西班牙 | ESP
-      - 4FreeIran-648
-      - us|d9c4|puddincat07@Telegram
-      - 加拿大 | CAN 5
+      - 香港 | HKG 4
+      - 香港5|@ripaojiedian
+      - 4Jadi-1774
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -79,42 +77,40 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港5|@ripaojiedian
-      - HK_71
-      - HK_70
-      - FR_1|4.5MB/s
-      - _FR_法国
-      - 4Sarina-1609
-      - NL_1|3.3MB/s
-      - DE_2|3.5MB/s
-      - FR_4|1.7MB/s
-      - 4Sarina-841
-      - ‍☠_1🇸🇬SG²_3|2.5MB/s|X|KeepHistory
+      - 法国 | FRA
+      - _CN_中国
+      - lt|b585|puddincat07@Telegram
+      - DE_2|1.7MB/s
+      - 4Nika-1883
+      - NL_3|2.5MB/s
+      - DE_1|2.4MB/s
+      - lt|473e|puddincat07@Telegram
+      - 4Sarina-590
+      - 4Sarina-593
       - 西班牙 | ESP
-      - 4FreeIran-648
-      - us|d9c4|puddincat07@Telegram
-      - 加拿大 | CAN 5
+      - 香港 | HKG 4
+      - 香港5|@ripaojiedian
+      - 4Jadi-1774
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 香港5|@ripaojiedian
-      - HK_71
-      - HK_70
-      - FR_1|4.5MB/s
-      - _FR_法国
-      - 4Sarina-1609
-      - NL_1|3.3MB/s
-      - DE_2|3.5MB/s
-      - FR_4|1.7MB/s
-      - 4Sarina-841
-      - ‍☠_1🇸🇬SG²_3|2.5MB/s|X|KeepHistory
+      - 法国 | FRA
+      - _CN_中国
+      - lt|b585|puddincat07@Telegram
+      - DE_2|1.7MB/s
+      - 4Nika-1883
+      - NL_3|2.5MB/s
+      - DE_1|2.4MB/s
+      - lt|473e|puddincat07@Telegram
+      - 4Sarina-590
+      - 4Sarina-593
       - 西班牙 | ESP
-      - 4FreeIran-648
-      - us|d9c4|puddincat07@Telegram
-      - 加拿大 | CAN 5
+      - 香港 | HKG 4
+      - 香港5|@ripaojiedian
+      - 4Jadi-1774
   - name: 🐟 漏网之鱼
     type: select
     proxies:
