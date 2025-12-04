@@ -26,26 +26,12 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: TW_1|2.3MB/s, server: 118.163.198.43, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: 88a027c.dl.microsoft.lu:14333}, udp: true}
-- {name: HK_e00f8_0009, server: 58.152.30.175, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
-- {name: HK-1.36.218.178-5373, server: 87a8ce25-sv2sg0-tbicd9-1go3q.hk3.p5pv.com, port: 80, type: vmess, uuid: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 87a8ce25-sv2sg0-tbicd9-1go3q.hk3.p5pv.com}}, udp: true}
-- {name: HK-1.36.223.11-4974, server: 80f0806d-szg740-t41p4y-1hpo0.hk3.p5pv.com, port: 80, type: vmess, uuid: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 80f0806d-szg740-t41p4y-1hpo0.hk3.p5pv.com}}, udp: true}
-- {name: HK²_55|0.9MB/s|2%|YT|X, server: 2cf01224-sv4n40-taj9mo-1tco3.hk3.p5pv.com, port: 80, type: vmess, uuid: e29de954-ea01-11ef-a271-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 2cf01224-sv4n40-taj9mo-1tco3.hk3.p5pv.com}}, udp: true}
-- {name: HK_124, server: a0ae8f27-sv4n40-sw5wi7-ufc0.hk3.p5pv.com, port: 80, type: vmess, uuid: 22308988-8548-11ea-a22e-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: PT_1|2.4MB/s, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: HK²_28|2.9MB/s|0%|NF|X, server: eb328762-t6ngg0-t85e8f-141tv.hk3.p5pv.com, port: 80, type: vmess, uuid: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: HK_168, server: 2e617951-sv2sg0-taj9mo-1tco3.hk3.p5pv.com, port: 80, type: vmess, uuid: e29de954-ea01-11ef-a271-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: HK_7|1.9MB/s, server: a2121958-sv0xs0-tb36ag-1jfq7.hk3.p5pv.com, port: 80, type: vmess, uuid: baa46fd6-63c1-11ed-8ea9-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: HK_104, server: 10cd2f16-sv2sg0-t7hu58-1q1la.hk3.p5pv.com, port: 80, type: vmess, uuid: 25b46954-9a33-11ee-8b86-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: HK²_55|1.5MB/s|YT|NF|X, server: 73256a3a-t53wg0-teivih-1rz31.hk3.p5pv.com, port: 80, type: vmess, uuid: 7699767c-44ae-11ef-80c7-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 73256a3a-t53wg0-teivih-1rz31.hk3.p5pv.com}}, udp: true}
 - {name: HK_172, server: 04e4679b-sv2sg0-swfla6-1rdqg.hk3.p5pv.com, port: 80, type: vmess, uuid: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: HK²_21|0.5MB/s|2%|YT|NF|X, server: 0abe747a-t59gg0-t5wcb1-13x18.hk3.p5pv.com, port: 80, type: vmess, uuid: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 0abe747a-t59gg0-t5wcb1-13x18.hk3.p5pv.com}}, udp: true}
-- {name: _15, server: 5b2c09e0-suvds0-t2oosc-xm0q.hk3.p5pv.com, port: 80, type: vmess, uuid: 3437f34e-1b77-11eb-8684-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5b2c09e0-suvds0-t2oosc-xm0q.hk3.p5pv.com}}, udp: true}
-- {name: HK_8|2.0MB/s, server: 00711758-sva740-tbrhck-1thqb.hk3.p5pv.com, port: 80, type: vmess, uuid: 4f4c6876-fcf6-11ef-94aa-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 香港 | HKG 82, server: 0b98b5a5-sv2sg0-tc2sod-1tizo.hk3.p5pv.com, port: 80, type: vmess, uuid: bf36227c-0191-11f0-aee1-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 0b98b5a5-sv2sg0-tc2sod-1tizo.hk3.p5pv.com}}, udp: true}
-- {name: HK_179, server: 1dd7778a-sv4n40-szxh9w-46gc.hk3.p5pv.com, port: 80, type: vmess, uuid: 225d1cca-d744-11ef-b790-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 香港 | HKG 5, server: da79f07b-sv0xs0-t7hu58-1q1la.hk3.p5pv.com, port: 80, type: vmess, uuid: 25b46954-9a33-11ee-8b86-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: da79f07b-sv0xs0-t7hu58-1q1la.hk3.p5pv.com}}, udp: true}
-- {name: 阿尔巴尼亚 | ALB, server: 87.121.162.249, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: JGv616hMWdjfuZ00jYfq7XkBHJZrOBrg, udp: true}
+- {name: _KR_韩国, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: "12,13|香港5|@ripaojiedian", server: 58.152.30.175, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
+- {name: 4Jadi-1808, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 14|US_speednode_0012, server: 63.180.93.12, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+- {name: 14|FR_speednode_0001, server: 13.39.61.165, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -58,26 +44,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - TW_1|2.3MB/s
-      - HK_e00f8_0009
-      - HK-1.36.218.178-5373
-      - HK-1.36.223.11-4974
-      - HK²_55|0.9MB/s|2%|YT|X
-      - HK_124
-      - PT_1|2.4MB/s
-      - HK²_28|2.9MB/s|0%|NF|X
-      - HK_168
-      - HK_7|1.9MB/s
-      - HK_104
-      - HK²_55|1.5MB/s|YT|NF|X
       - HK_172
-      - HK²_21|0.5MB/s|2%|YT|NF|X
-      - _15
-      - HK_8|2.0MB/s
-      - 香港 | HKG 82
-      - HK_179
-      - 香港 | HKG 5
-      - 阿尔巴尼亚 | ALB
+      - _KR_韩国
+      - 12,13|香港5|@ripaojiedian
+      - 4Jadi-1808
+      - 14|US_speednode_0012
+      - 14|FR_speednode_0001
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -89,52 +61,24 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - TW_1|2.3MB/s
-      - HK_e00f8_0009
-      - HK-1.36.218.178-5373
-      - HK-1.36.223.11-4974
-      - HK²_55|0.9MB/s|2%|YT|X
-      - HK_124
-      - PT_1|2.4MB/s
-      - HK²_28|2.9MB/s|0%|NF|X
-      - HK_168
-      - HK_7|1.9MB/s
-      - HK_104
-      - HK²_55|1.5MB/s|YT|NF|X
       - HK_172
-      - HK²_21|0.5MB/s|2%|YT|NF|X
-      - _15
-      - HK_8|2.0MB/s
-      - 香港 | HKG 82
-      - HK_179
-      - 香港 | HKG 5
-      - 阿尔巴尼亚 | ALB
+      - _KR_韩国
+      - 12,13|香港5|@ripaojiedian
+      - 4Jadi-1808
+      - 14|US_speednode_0012
+      - 14|FR_speednode_0001
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - TW_1|2.3MB/s
-      - HK_e00f8_0009
-      - HK-1.36.218.178-5373
-      - HK-1.36.223.11-4974
-      - HK²_55|0.9MB/s|2%|YT|X
-      - HK_124
-      - PT_1|2.4MB/s
-      - HK²_28|2.9MB/s|0%|NF|X
-      - HK_168
-      - HK_7|1.9MB/s
-      - HK_104
-      - HK²_55|1.5MB/s|YT|NF|X
       - HK_172
-      - HK²_21|0.5MB/s|2%|YT|NF|X
-      - _15
-      - HK_8|2.0MB/s
-      - 香港 | HKG 82
-      - HK_179
-      - 香港 | HKG 5
-      - 阿尔巴尼亚 | ALB
+      - _KR_韩国
+      - 12,13|香港5|@ripaojiedian
+      - 4Jadi-1808
+      - 14|US_speednode_0012
+      - 14|FR_speednode_0001
   - name: 🐟 漏网之鱼
     type: select
     proxies:
