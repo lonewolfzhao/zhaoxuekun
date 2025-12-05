@@ -26,12 +26,12 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: HK_172, server: 04e4679b-sv2sg0-swfla6-1rdqg.hk3.p5pv.com, port: 80, type: vmess, uuid: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: _KR_韩国, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: "12,13|香港5|@ripaojiedian", server: 58.152.30.175, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
-- {name: 4Jadi-1808, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 14|US_speednode_0012, server: 63.180.93.12, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-- {name: 14|FR_speednode_0001, server: 13.39.61.165, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+- {name: 4Sarina-1789, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: HK²_26|3.5MB/s|2%|YT|NF|D+|X, server: 4c525362-t6uv40-tpn98f-1rcxl.hk3.p5pv.com, port: 80, type: vmess, uuid: 9141f048-0b70-11ef-9eb1-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 4c525362-t6uv40-tpn98f-1rcxl.hk3.p5pv.com}}, udp: true}
+- {name: ru|c653|puddincat07@Telegram, server: 38.60.223.8, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: in|c4f4|puddincat07@Telegram, server: 134.209.147.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 4Sarina-1805, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 香港5|@ripaojiedian, server: 58.152.25.242, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -44,12 +44,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - HK_172
-      - _KR_韩国
-      - 12,13|香港5|@ripaojiedian
-      - 4Jadi-1808
-      - 14|US_speednode_0012
-      - 14|FR_speednode_0001
+      - 4Sarina-1789
+      - HK²_26|3.5MB/s|2%|YT|NF|D+|X
+      - ru|c653|puddincat07@Telegram
+      - in|c4f4|puddincat07@Telegram
+      - 4Sarina-1805
+      - 香港5|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -61,24 +61,24 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - HK_172
-      - _KR_韩国
-      - 12,13|香港5|@ripaojiedian
-      - 4Jadi-1808
-      - 14|US_speednode_0012
-      - 14|FR_speednode_0001
+      - 4Sarina-1789
+      - HK²_26|3.5MB/s|2%|YT|NF|D+|X
+      - ru|c653|puddincat07@Telegram
+      - in|c4f4|puddincat07@Telegram
+      - 4Sarina-1805
+      - 香港5|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - HK_172
-      - _KR_韩国
-      - 12,13|香港5|@ripaojiedian
-      - 4Jadi-1808
-      - 14|US_speednode_0012
-      - 14|FR_speednode_0001
+      - 4Sarina-1789
+      - HK²_26|3.5MB/s|2%|YT|NF|D+|X
+      - ru|c653|puddincat07@Telegram
+      - in|c4f4|puddincat07@Telegram
+      - 4Sarina-1805
+      - 香港5|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
