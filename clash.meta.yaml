@@ -26,8 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: _KR_韩国, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: _FR_法国, server: clr.ducks.tel, port: 17847, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 907560230, udp: true}
+- {name: US²_7|1.7MB/s|0%|GPT⁺|GM|YT|TK|X|KeepHistory, server: v8.hdacd.com, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _RU_俄罗斯, server: 46.29.161.237, port: 443, type: trojan, password: 3ef03de40a234d209bb2d3807ca0d643, sni: 46.29.161.237, skip-cert-verify: true, udp: true}
+- {name: _FR_法国, server: clr.ducks.tel, port: 17844, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 907560230, udp: true}
+- {name: _CN_中国, server: 58.152.25.20, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -40,8 +42,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _KR_韩国
+      - US²_7|1.7MB/s|0%|GPT⁺|GM|YT|TK|X|KeepHistory
+      - _RU_俄罗斯
       - _FR_法国
+      - _CN_中国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -53,16 +57,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _KR_韩国
+      - US²_7|1.7MB/s|0%|GPT⁺|GM|YT|TK|X|KeepHistory
+      - _RU_俄罗斯
       - _FR_法国
+      - _CN_中国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - _KR_韩国
+      - US²_7|1.7MB/s|0%|GPT⁺|GM|YT|TK|X|KeepHistory
+      - _RU_俄罗斯
       - _FR_法国
+      - _CN_中国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
