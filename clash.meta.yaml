@@ -26,10 +26,15 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Sarina-1076, server: 146.70.90.196, port: 17454, type: ss, cipher: aes-128-gcm, password: u8gp148iz90ddoo6ms37, udp: true}
-- {name: 4Mohsen-1821, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: HK-219.79.49.61-7419, server: 8546e833-sv4n40-t4v3jz-1k8ga.hk3.p5pv.com, port: 80, type: vmess, uuid: f860f2da-5035-11ed-bb74-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 8546e833-sv4n40-t4v3jz-1k8ga.hk3.p5pv.com}}, udp: true}
-- {name: 4Mohsen-692, server: 83.217.9.17, port: 25232, type: ss, cipher: chacha20-ietf-poly1305, password: YHtXD4pojvormVWRiHgIfv, udp: true}
+- {name: HK_124, server: b1601217-sv2sg0-tcdlur-1qwom.hk3.p5pv.com, port: 80, type: vmess, uuid: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 4Sarina-1500, server: 103.186.155.40, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1507, server: 103.186.155.47, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1341, server: 103.186.154.40, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1520, server: 103.186.155.5, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1516, server: 103.186.155.56, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1496, server: 103.186.155.37, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1306, server: 103.186.154.235, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: SG_d7442_0035, server: 43.165.7.71, port: 19751, type: vmess, uuid: 6cfa6103-5d06-40cb-f452-b563db578288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +47,15 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Sarina-1076
-      - 4Mohsen-1821
-      - HK-219.79.49.61-7419
-      - 4Mohsen-692
+      - HK_124
+      - 4Sarina-1500
+      - 4Sarina-1507
+      - 4Sarina-1341
+      - 4Sarina-1520
+      - 4Sarina-1516
+      - 4Sarina-1496
+      - 4Sarina-1306
+      - SG_d7442_0035
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,20 +67,30 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Sarina-1076
-      - 4Mohsen-1821
-      - HK-219.79.49.61-7419
-      - 4Mohsen-692
+      - HK_124
+      - 4Sarina-1500
+      - 4Sarina-1507
+      - 4Sarina-1341
+      - 4Sarina-1520
+      - 4Sarina-1516
+      - 4Sarina-1496
+      - 4Sarina-1306
+      - SG_d7442_0035
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Sarina-1076
-      - 4Mohsen-1821
-      - HK-219.79.49.61-7419
-      - 4Mohsen-692
+      - HK_124
+      - 4Sarina-1500
+      - 4Sarina-1507
+      - 4Sarina-1341
+      - 4Sarina-1520
+      - 4Sarina-1516
+      - 4Sarina-1496
+      - 4Sarina-1306
+      - SG_d7442_0035
   - name: 🐟 漏网之鱼
     type: select
     proxies:
