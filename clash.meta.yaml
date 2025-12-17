@@ -26,20 +26,14 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Nika-1225, server: 103.186.154.185, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Kian-1799, server: 192.36.27.94, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: _CN_中国, server: 223.95.183.131, port: 25819, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2, udp: true}
+- {name: 4Kian-1035, server: 223.95.183.131, port: 47116, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2, udp: true}
+- {name: 4Sarina-825, server: 82.38.31.184, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
+- {name: "Channel id: @ShadowProxy66 🇮🇳", server: 103.97.203.220, port: 550, type: vmess, uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 越南 | VNM 17, server: 103.186.155.115, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 - {name: 4Sarina-1442, server: 103.186.155.213, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Mohsen-1294, server: 103.186.154.246, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Mohsen-1215, server: 103.186.154.173, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Nika-1316, server: 103.186.154.38, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: US_9dad4_0024, server: 88.210.36.107, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: feb7fa9:154948}, udp: true}
-- {name: 4Mohsen-177, server: 88.210.36.107, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: feb7fa9:154948}, udp: true}
-- {name: 4Mohsen-1475, server: 103.186.155.39, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Mohsen-1415, server: 103.186.155.154, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1510, server: 103.186.155.71, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 - {name: 4Mohsen-1220, server: 103.186.154.178, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1356, server: 103.186.155.105, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1207, server: 103.186.154.164, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1511, server: 103.186.155.76, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -52,20 +46,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Nika-1225
+      - 4Kian-1799
+      - _CN_中国
+      - 4Kian-1035
+      - 4Sarina-825
+      - "Channel id: @ShadowProxy66 🇮🇳"
+      - 越南 | VNM 17
       - 4Sarina-1442
-      - 4Mohsen-1294
-      - 4Mohsen-1215
-      - 4Nika-1316
-      - US_9dad4_0024
-      - 4Mohsen-177
-      - 4Mohsen-1475
-      - 4Mohsen-1415
-      - 4FreeIran-1510
       - 4Mohsen-1220
-      - 4Sarina-1356
-      - 4Sarina-1207
-      - 4Sarina-1511
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -77,40 +65,28 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Nika-1225
+      - 4Kian-1799
+      - _CN_中国
+      - 4Kian-1035
+      - 4Sarina-825
+      - "Channel id: @ShadowProxy66 🇮🇳"
+      - 越南 | VNM 17
       - 4Sarina-1442
-      - 4Mohsen-1294
-      - 4Mohsen-1215
-      - 4Nika-1316
-      - US_9dad4_0024
-      - 4Mohsen-177
-      - 4Mohsen-1475
-      - 4Mohsen-1415
-      - 4FreeIran-1510
       - 4Mohsen-1220
-      - 4Sarina-1356
-      - 4Sarina-1207
-      - 4Sarina-1511
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Nika-1225
+      - 4Kian-1799
+      - _CN_中国
+      - 4Kian-1035
+      - 4Sarina-825
+      - "Channel id: @ShadowProxy66 🇮🇳"
+      - 越南 | VNM 17
       - 4Sarina-1442
-      - 4Mohsen-1294
-      - 4Mohsen-1215
-      - 4Nika-1316
-      - US_9dad4_0024
-      - 4Mohsen-177
-      - 4Mohsen-1475
-      - 4Mohsen-1415
-      - 4FreeIran-1510
       - 4Mohsen-1220
-      - 4Sarina-1356
-      - 4Sarina-1207
-      - 4Sarina-1511
   - name: 🐟 漏网之鱼
     type: select
     proxies:
