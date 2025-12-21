@@ -26,55 +26,30 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: TR_dd88d_0014, server: 95.164.116.33, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: pQmnC03JObbPhdh5FBJHgD6jnTLchsRA, udp: true}
-- {name: CA_dd88d_0003, server: 193.203.203.66, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: S6jUK9Fw5fMHgNqlqXObHZWv8Tf4nEkm, udp: true}
-- {name: SG²_3|12.6MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed, server: 68.183.227.4, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-- {name: SG²_1|15.4MB/s|0%|GM|D+|X|KeepHistory, server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
-- {name: 4Kian-232, server: 185.47.255.22, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
-- {name: VN²_1|2.2MB/s|GPT⁺|GM|YT|NF|X|KeepSucceed, server: 103.186.154.55, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN²_2|2.5MB/s|GPT⁺|YT|NF|X|KeepSucceed, server: 103.186.154.71, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN²_3|1.9MB/s|GPT⁺|GM|YT|NF|X|KeepSucceed, server: 103.186.154.219, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN²_4|1.5MB/s|GPT⁺|GM|YT|X|KeepSucceed, server: 103.186.154.208, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN²_5|1.1MB/s|GPT⁺|GM|YT|NF|X|KeepSucceed, server: 103.186.154.9, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN²_8|2.6MB/s|GPT⁺|GM|YT|NF|X|KeepSucceed, server: 103.186.154.175, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN²_9|0.8MB/s|GPT⁺|GM|YT-US|NF|X|KeepSucceed, server: 103.186.155.3, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN²_10|0.8MB/s|GPT⁺|GM|YT-US|X|KeepSucceed, server: 103.186.155.205, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN²_11|1.4MB/s|GPT⁺|GM|YT|NF|X|KeepHistory, server: 103.186.154.242, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: HK²_3|5.2MB/s|0%|YT-CN|NF|D+|X|KeepSucceed, server: 103.149.182.203, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
-- {name: FR²_6|5.2MB/s|GPT⁺|YT|TK|NF|X|KeepHistory, server: 13.39.112.212, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: VN²_13|1.8MB/s|GPT⁺|GM|YT-US|NF|X|KeepHistory, server: 103.186.155.138, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN²_14|0.5MB/s|GPT⁺|GM|YT-US|NF|X|KeepHistory, server: 103.186.155.204, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN²_16|2.6MB/s|GPT⁺|GM|YT-US|NF|X|KeepSucceed, server: 103.186.155.148, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN²_17|2.2MB/s|GPT⁺|GM|NF|X|KeepHistory, server: 103.186.155.221, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: HK²_9|3.3MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 28213b50-7ed5-11ee-add6-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
-- {name: HK²_10|0.6MB/s|2%|GPT⁺|YT|NF|D+|X, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 8a5d58a0-c50e-11ef-a46e-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
-- {name: RU²_1|2.3MB/s|25%|GPT|GM|YT-US|TK-US|NF|X, server: 194.116.173.21, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-- {name: VN²_18|1.5MB/s|GPT|GM|X|KeepHistory, server: 103.186.155.65, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN²_19|2.8MB/s|GPT⁺|GM|YT-US|NF|X|KeepHistory, server: 103.186.155.140, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: HK²_14|6.4MB/s|2%|GPT|YT|NF|D+|X, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: bb85e074-b0c2-11ea-ad28-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
-- {name: MD²_2|6.6MB/s|25%|YT-US|NF|X|KeepSucceed, server: 194.246.114.101, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk, udp: true}
-- {name: VN²_20|2.0MB/s|GPT⁺|GM|YT-US|X|KeepSucceed, server: 103.186.155.116, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN²_21|1.3MB/s|GPT⁺|YT|NF|X|KeepSucceed, server: 103.186.154.70, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN²_22|2.9MB/s|GPT⁺|GM|YT-US|X|KeepSucceed, server: 103.186.155.149, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN²_23|1.0MB/s|GPT⁺|GM|YT|NF|X|KeepHistory, server: 103.186.154.176, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN²_24|2.4MB/s|GPT⁺|GM|NF|X|KeepSucceed, server: 103.186.154.216, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN²_26|2.9MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepSucceed, server: 103.186.155.240, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN²_27|1.8MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed, server: 103.186.154.199, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN²_28|2.2MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepHistory, server: 103.186.155.33, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: NL_1|2.0MB/s, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
-- {name: FR_3|1.1MB/s, server: 35.180.54.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: NL_3|1.1MB/s, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-- {name: NL_9136e_0011, server: 178.23.190.238, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: uo7EbtqIwgZXXHmMv5LbLcOxptyPlNkh, udp: true}
-- {name: 香港3|@ripaojiedian, server: 112.118.116.8, port: 443, type: trojan, password: e2722c0fb503f8a592436c12bce0509a, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-- {name: 4Jadi-1202, server: 103.186.154.177, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: MD_1b1ec_0009, server: 89.221.225.15, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: yCbQ4bry4otfifK7oel71NaXpPL9pYJb, udp: true}
-- {name: VN²_3|1.0MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepHistory, server: 103.186.155.4, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN²_22|0.9MB/s|GPT⁺|NF|X|KeepSucceed, server: 103.186.155.150, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1332, server: 103.186.154.61, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN²_4|1.6MB/s|GPT⁺|YT|X|KeepHistory, server: 103.186.154.77, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: NL_2|1.1MB/s, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-- {name: HK²_6|15.3MB/s|2%|YT|NF|D+|X, server: 58.152.26.107, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
-- {name: VN²_18|1.1MB/s|GPT⁺|GM|YT|X|KeepSucceed, server: 103.186.154.42, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: VN²_3|2.9MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepSucceed, server: 103.186.155.41, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: VN²_11|1.0MB/s|GPT⁺|GM|YT-US|TK|X|KeepSucceed, server: 103.186.155.135, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: VN²_18|2.6MB/s|GPT⁺|GM|TK|NF|X|KeepHistory, server: 103.186.154.182, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: VN²_17|1.7MB/s|GPT⁺|GM|YT-US|X|KeepSucceed, server: 103.186.155.59, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: VN²_7|2.7MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed, server: 103.186.154.223, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: VN²_4|1.5MB/s|GPT⁺|GM|YT-US|TK|X|KeepHistory, server: 103.186.155.145, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: VN²_5|1.9MB/s|GPT⁺|GM|YT|TK|NF|X|KeepHistory, server: 103.186.154.244, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: FR²_3|5.5MB/s|1%|GPT⁺|TK|NF|X|KeepHistory, server: 35.180.247.200, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: FR²_4|5.1MB/s|GPT⁺|YT|TK|NF|X, server: 15.237.246.157, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: VN²_8|1.8MB/s|GPT⁺|GM|YT|TK|X|KeepSucceed, server: 103.186.154.13, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: VN²_2|0.6MB/s|GPT⁺|GM|YT-US|NF|X|KeepSucceed, server: 103.186.155.183, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: VN²_13|1.0MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepSucceed, server: 103.186.155.209, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-636, server: 151.242.251.131, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
+- {name: VN²_15|1.9MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed, server: 103.186.154.63, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: VN²_1|1.9MB/s|GPT⁺|GM|YT|TK|NF|X|KeepHistory, server: 103.186.154.20, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Kian-1356, server: 103.186.155.101, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: VN²_12|2.0MB/s|GPT⁺|GM|YT|TK|NF|X|KeepHistory, server: 103.186.154.205, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1320, server: 103.186.154.58, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: VN²_4|1.4MB/s|GPT⁺|YT|TK|NF|X|KeepHistory, server: 103.186.154.69, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-1350, server: 103.186.154.75, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1244, server: 103.186.154.215, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: VN²_18|2.1MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed, server: 103.186.154.243, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1528, server: 103.186.155.221, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: VN²_7|1.2MB/s|GPT⁺|GM|YT-US|NF|X|KeepHistory, server: 103.186.155.66, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -87,55 +62,30 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - TR_dd88d_0014
-      - CA_dd88d_0003
-      - SG²_3|12.6MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed
-      - SG²_1|15.4MB/s|0%|GM|D+|X|KeepHistory
-      - 4Kian-232
-      - VN²_1|2.2MB/s|GPT⁺|GM|YT|NF|X|KeepSucceed
-      - VN²_2|2.5MB/s|GPT⁺|YT|NF|X|KeepSucceed
-      - VN²_3|1.9MB/s|GPT⁺|GM|YT|NF|X|KeepSucceed
-      - VN²_4|1.5MB/s|GPT⁺|GM|YT|X|KeepSucceed
-      - VN²_5|1.1MB/s|GPT⁺|GM|YT|NF|X|KeepSucceed
-      - VN²_8|2.6MB/s|GPT⁺|GM|YT|NF|X|KeepSucceed
-      - VN²_9|0.8MB/s|GPT⁺|GM|YT-US|NF|X|KeepSucceed
-      - VN²_10|0.8MB/s|GPT⁺|GM|YT-US|X|KeepSucceed
-      - VN²_11|1.4MB/s|GPT⁺|GM|YT|NF|X|KeepHistory
-      - HK²_3|5.2MB/s|0%|YT-CN|NF|D+|X|KeepSucceed
-      - FR²_6|5.2MB/s|GPT⁺|YT|TK|NF|X|KeepHistory
-      - VN²_13|1.8MB/s|GPT⁺|GM|YT-US|NF|X|KeepHistory
-      - VN²_14|0.5MB/s|GPT⁺|GM|YT-US|NF|X|KeepHistory
-      - VN²_16|2.6MB/s|GPT⁺|GM|YT-US|NF|X|KeepSucceed
-      - VN²_17|2.2MB/s|GPT⁺|GM|NF|X|KeepHistory
-      - HK²_9|3.3MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory
-      - HK²_10|0.6MB/s|2%|GPT⁺|YT|NF|D+|X
-      - RU²_1|2.3MB/s|25%|GPT|GM|YT-US|TK-US|NF|X
-      - VN²_18|1.5MB/s|GPT|GM|X|KeepHistory
-      - VN²_19|2.8MB/s|GPT⁺|GM|YT-US|NF|X|KeepHistory
-      - HK²_14|6.4MB/s|2%|GPT|YT|NF|D+|X
-      - MD²_2|6.6MB/s|25%|YT-US|NF|X|KeepSucceed
-      - VN²_20|2.0MB/s|GPT⁺|GM|YT-US|X|KeepSucceed
-      - VN²_21|1.3MB/s|GPT⁺|YT|NF|X|KeepSucceed
-      - VN²_22|2.9MB/s|GPT⁺|GM|YT-US|X|KeepSucceed
-      - VN²_23|1.0MB/s|GPT⁺|GM|YT|NF|X|KeepHistory
-      - VN²_24|2.4MB/s|GPT⁺|GM|NF|X|KeepSucceed
-      - VN²_26|2.9MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepSucceed
-      - VN²_27|1.8MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed
-      - VN²_28|2.2MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepHistory
-      - NL_1|2.0MB/s
-      - FR_3|1.1MB/s
-      - NL_3|1.1MB/s
-      - NL_9136e_0011
-      - 香港3|@ripaojiedian
-      - 4Jadi-1202
-      - MD_1b1ec_0009
-      - VN²_3|1.0MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepHistory
-      - VN²_22|0.9MB/s|GPT⁺|NF|X|KeepSucceed
-      - 4FreeIran-1332
-      - VN²_4|1.6MB/s|GPT⁺|YT|X|KeepHistory
-      - NL_2|1.1MB/s
-      - HK²_6|15.3MB/s|2%|YT|NF|D+|X
-      - VN²_18|1.1MB/s|GPT⁺|GM|YT|X|KeepSucceed
+      - VN²_3|2.9MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepSucceed
+      - VN²_11|1.0MB/s|GPT⁺|GM|YT-US|TK|X|KeepSucceed
+      - VN²_18|2.6MB/s|GPT⁺|GM|TK|NF|X|KeepHistory
+      - VN²_17|1.7MB/s|GPT⁺|GM|YT-US|X|KeepSucceed
+      - VN²_7|2.7MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed
+      - VN²_4|1.5MB/s|GPT⁺|GM|YT-US|TK|X|KeepHistory
+      - VN²_5|1.9MB/s|GPT⁺|GM|YT|TK|NF|X|KeepHistory
+      - FR²_3|5.5MB/s|1%|GPT⁺|TK|NF|X|KeepHistory
+      - FR²_4|5.1MB/s|GPT⁺|YT|TK|NF|X
+      - VN²_8|1.8MB/s|GPT⁺|GM|YT|TK|X|KeepSucceed
+      - VN²_2|0.6MB/s|GPT⁺|GM|YT-US|NF|X|KeepSucceed
+      - VN²_13|1.0MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepSucceed
+      - 4Sarina-636
+      - VN²_15|1.9MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed
+      - VN²_1|1.9MB/s|GPT⁺|GM|YT|TK|NF|X|KeepHistory
+      - 4Kian-1356
+      - VN²_12|2.0MB/s|GPT⁺|GM|YT|TK|NF|X|KeepHistory
+      - 4Jadi-1320
+      - VN²_4|1.4MB/s|GPT⁺|YT|TK|NF|X|KeepHistory
+      - 4FreeIran-1350
+      - 4Jadi-1244
+      - VN²_18|2.1MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed
+      - 4Sarina-1528
+      - VN²_7|1.2MB/s|GPT⁺|GM|YT-US|NF|X|KeepHistory
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -147,110 +97,60 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - TR_dd88d_0014
-      - CA_dd88d_0003
-      - SG²_3|12.6MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed
-      - SG²_1|15.4MB/s|0%|GM|D+|X|KeepHistory
-      - 4Kian-232
-      - VN²_1|2.2MB/s|GPT⁺|GM|YT|NF|X|KeepSucceed
-      - VN²_2|2.5MB/s|GPT⁺|YT|NF|X|KeepSucceed
-      - VN²_3|1.9MB/s|GPT⁺|GM|YT|NF|X|KeepSucceed
-      - VN²_4|1.5MB/s|GPT⁺|GM|YT|X|KeepSucceed
-      - VN²_5|1.1MB/s|GPT⁺|GM|YT|NF|X|KeepSucceed
-      - VN²_8|2.6MB/s|GPT⁺|GM|YT|NF|X|KeepSucceed
-      - VN²_9|0.8MB/s|GPT⁺|GM|YT-US|NF|X|KeepSucceed
-      - VN²_10|0.8MB/s|GPT⁺|GM|YT-US|X|KeepSucceed
-      - VN²_11|1.4MB/s|GPT⁺|GM|YT|NF|X|KeepHistory
-      - HK²_3|5.2MB/s|0%|YT-CN|NF|D+|X|KeepSucceed
-      - FR²_6|5.2MB/s|GPT⁺|YT|TK|NF|X|KeepHistory
-      - VN²_13|1.8MB/s|GPT⁺|GM|YT-US|NF|X|KeepHistory
-      - VN²_14|0.5MB/s|GPT⁺|GM|YT-US|NF|X|KeepHistory
-      - VN²_16|2.6MB/s|GPT⁺|GM|YT-US|NF|X|KeepSucceed
-      - VN²_17|2.2MB/s|GPT⁺|GM|NF|X|KeepHistory
-      - HK²_9|3.3MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory
-      - HK²_10|0.6MB/s|2%|GPT⁺|YT|NF|D+|X
-      - RU²_1|2.3MB/s|25%|GPT|GM|YT-US|TK-US|NF|X
-      - VN²_18|1.5MB/s|GPT|GM|X|KeepHistory
-      - VN²_19|2.8MB/s|GPT⁺|GM|YT-US|NF|X|KeepHistory
-      - HK²_14|6.4MB/s|2%|GPT|YT|NF|D+|X
-      - MD²_2|6.6MB/s|25%|YT-US|NF|X|KeepSucceed
-      - VN²_20|2.0MB/s|GPT⁺|GM|YT-US|X|KeepSucceed
-      - VN²_21|1.3MB/s|GPT⁺|YT|NF|X|KeepSucceed
-      - VN²_22|2.9MB/s|GPT⁺|GM|YT-US|X|KeepSucceed
-      - VN²_23|1.0MB/s|GPT⁺|GM|YT|NF|X|KeepHistory
-      - VN²_24|2.4MB/s|GPT⁺|GM|NF|X|KeepSucceed
-      - VN²_26|2.9MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepSucceed
-      - VN²_27|1.8MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed
-      - VN²_28|2.2MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepHistory
-      - NL_1|2.0MB/s
-      - FR_3|1.1MB/s
-      - NL_3|1.1MB/s
-      - NL_9136e_0011
-      - 香港3|@ripaojiedian
-      - 4Jadi-1202
-      - MD_1b1ec_0009
-      - VN²_3|1.0MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepHistory
-      - VN²_22|0.9MB/s|GPT⁺|NF|X|KeepSucceed
-      - 4FreeIran-1332
-      - VN²_4|1.6MB/s|GPT⁺|YT|X|KeepHistory
-      - NL_2|1.1MB/s
-      - HK²_6|15.3MB/s|2%|YT|NF|D+|X
-      - VN²_18|1.1MB/s|GPT⁺|GM|YT|X|KeepSucceed
+      - VN²_3|2.9MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepSucceed
+      - VN²_11|1.0MB/s|GPT⁺|GM|YT-US|TK|X|KeepSucceed
+      - VN²_18|2.6MB/s|GPT⁺|GM|TK|NF|X|KeepHistory
+      - VN²_17|1.7MB/s|GPT⁺|GM|YT-US|X|KeepSucceed
+      - VN²_7|2.7MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed
+      - VN²_4|1.5MB/s|GPT⁺|GM|YT-US|TK|X|KeepHistory
+      - VN²_5|1.9MB/s|GPT⁺|GM|YT|TK|NF|X|KeepHistory
+      - FR²_3|5.5MB/s|1%|GPT⁺|TK|NF|X|KeepHistory
+      - FR²_4|5.1MB/s|GPT⁺|YT|TK|NF|X
+      - VN²_8|1.8MB/s|GPT⁺|GM|YT|TK|X|KeepSucceed
+      - VN²_2|0.6MB/s|GPT⁺|GM|YT-US|NF|X|KeepSucceed
+      - VN²_13|1.0MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepSucceed
+      - 4Sarina-636
+      - VN²_15|1.9MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed
+      - VN²_1|1.9MB/s|GPT⁺|GM|YT|TK|NF|X|KeepHistory
+      - 4Kian-1356
+      - VN²_12|2.0MB/s|GPT⁺|GM|YT|TK|NF|X|KeepHistory
+      - 4Jadi-1320
+      - VN²_4|1.4MB/s|GPT⁺|YT|TK|NF|X|KeepHistory
+      - 4FreeIran-1350
+      - 4Jadi-1244
+      - VN²_18|2.1MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed
+      - 4Sarina-1528
+      - VN²_7|1.2MB/s|GPT⁺|GM|YT-US|NF|X|KeepHistory
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - TR_dd88d_0014
-      - CA_dd88d_0003
-      - SG²_3|12.6MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed
-      - SG²_1|15.4MB/s|0%|GM|D+|X|KeepHistory
-      - 4Kian-232
-      - VN²_1|2.2MB/s|GPT⁺|GM|YT|NF|X|KeepSucceed
-      - VN²_2|2.5MB/s|GPT⁺|YT|NF|X|KeepSucceed
-      - VN²_3|1.9MB/s|GPT⁺|GM|YT|NF|X|KeepSucceed
-      - VN²_4|1.5MB/s|GPT⁺|GM|YT|X|KeepSucceed
-      - VN²_5|1.1MB/s|GPT⁺|GM|YT|NF|X|KeepSucceed
-      - VN²_8|2.6MB/s|GPT⁺|GM|YT|NF|X|KeepSucceed
-      - VN²_9|0.8MB/s|GPT⁺|GM|YT-US|NF|X|KeepSucceed
-      - VN²_10|0.8MB/s|GPT⁺|GM|YT-US|X|KeepSucceed
-      - VN²_11|1.4MB/s|GPT⁺|GM|YT|NF|X|KeepHistory
-      - HK²_3|5.2MB/s|0%|YT-CN|NF|D+|X|KeepSucceed
-      - FR²_6|5.2MB/s|GPT⁺|YT|TK|NF|X|KeepHistory
-      - VN²_13|1.8MB/s|GPT⁺|GM|YT-US|NF|X|KeepHistory
-      - VN²_14|0.5MB/s|GPT⁺|GM|YT-US|NF|X|KeepHistory
-      - VN²_16|2.6MB/s|GPT⁺|GM|YT-US|NF|X|KeepSucceed
-      - VN²_17|2.2MB/s|GPT⁺|GM|NF|X|KeepHistory
-      - HK²_9|3.3MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory
-      - HK²_10|0.6MB/s|2%|GPT⁺|YT|NF|D+|X
-      - RU²_1|2.3MB/s|25%|GPT|GM|YT-US|TK-US|NF|X
-      - VN²_18|1.5MB/s|GPT|GM|X|KeepHistory
-      - VN²_19|2.8MB/s|GPT⁺|GM|YT-US|NF|X|KeepHistory
-      - HK²_14|6.4MB/s|2%|GPT|YT|NF|D+|X
-      - MD²_2|6.6MB/s|25%|YT-US|NF|X|KeepSucceed
-      - VN²_20|2.0MB/s|GPT⁺|GM|YT-US|X|KeepSucceed
-      - VN²_21|1.3MB/s|GPT⁺|YT|NF|X|KeepSucceed
-      - VN²_22|2.9MB/s|GPT⁺|GM|YT-US|X|KeepSucceed
-      - VN²_23|1.0MB/s|GPT⁺|GM|YT|NF|X|KeepHistory
-      - VN²_24|2.4MB/s|GPT⁺|GM|NF|X|KeepSucceed
-      - VN²_26|2.9MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepSucceed
-      - VN²_27|1.8MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed
-      - VN²_28|2.2MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepHistory
-      - NL_1|2.0MB/s
-      - FR_3|1.1MB/s
-      - NL_3|1.1MB/s
-      - NL_9136e_0011
-      - 香港3|@ripaojiedian
-      - 4Jadi-1202
-      - MD_1b1ec_0009
-      - VN²_3|1.0MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepHistory
-      - VN²_22|0.9MB/s|GPT⁺|NF|X|KeepSucceed
-      - 4FreeIran-1332
-      - VN²_4|1.6MB/s|GPT⁺|YT|X|KeepHistory
-      - NL_2|1.1MB/s
-      - HK²_6|15.3MB/s|2%|YT|NF|D+|X
-      - VN²_18|1.1MB/s|GPT⁺|GM|YT|X|KeepSucceed
+      - VN²_3|2.9MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepSucceed
+      - VN²_11|1.0MB/s|GPT⁺|GM|YT-US|TK|X|KeepSucceed
+      - VN²_18|2.6MB/s|GPT⁺|GM|TK|NF|X|KeepHistory
+      - VN²_17|1.7MB/s|GPT⁺|GM|YT-US|X|KeepSucceed
+      - VN²_7|2.7MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed
+      - VN²_4|1.5MB/s|GPT⁺|GM|YT-US|TK|X|KeepHistory
+      - VN²_5|1.9MB/s|GPT⁺|GM|YT|TK|NF|X|KeepHistory
+      - FR²_3|5.5MB/s|1%|GPT⁺|TK|NF|X|KeepHistory
+      - FR²_4|5.1MB/s|GPT⁺|YT|TK|NF|X
+      - VN²_8|1.8MB/s|GPT⁺|GM|YT|TK|X|KeepSucceed
+      - VN²_2|0.6MB/s|GPT⁺|GM|YT-US|NF|X|KeepSucceed
+      - VN²_13|1.0MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepSucceed
+      - 4Sarina-636
+      - VN²_15|1.9MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed
+      - VN²_1|1.9MB/s|GPT⁺|GM|YT|TK|NF|X|KeepHistory
+      - 4Kian-1356
+      - VN²_12|2.0MB/s|GPT⁺|GM|YT|TK|NF|X|KeepHistory
+      - 4Jadi-1320
+      - VN²_4|1.4MB/s|GPT⁺|YT|TK|NF|X|KeepHistory
+      - 4FreeIran-1350
+      - 4Jadi-1244
+      - VN²_18|2.1MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed
+      - 4Sarina-1528
+      - VN²_7|1.2MB/s|GPT⁺|GM|YT-US|NF|X|KeepHistory
   - name: 🐟 漏网之鱼
     type: select
     proxies:
