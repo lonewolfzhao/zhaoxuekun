@@ -26,25 +26,11 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Nika-1520, server: 103.186.155.39, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: NONE, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd", skip-cert-verify: true, udp: true}
+- {name: "#017 CN1", server: 183.236.51.36, port: 59003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: "#122 HK44", server: n1747624267.4u9ma.icu, port: 443, type: vmess, uuid: 8c5d150c-b046-4440-8230-e84506a065a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: n1747624267.4u9ma.icu}}, udp: true}
+- {name: 4FreeIran-1480, server: 103.186.155.23, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 - {name: VN²_16|2.4MB/s|GPT⁺|YT|TK|NF|X|KeepHistory, server: 103.186.154.207, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1478, server: 103.186.155.214, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Nika-1319, server: 103.186.154.240, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN²_10|2.8MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed, server: 103.186.154.243, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN²_11|2.0MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepHistory, server: 103.186.155.12, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN²_12|3.1MB/s|GPT⁺|GM|YT|TK|NF|X|KeepHistory, server: 103.186.154.205, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN²_15|2.7MB/s|GPT⁺|GM|YT|TK|NF|X|KeepHistory, server: 103.186.154.211, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN²_17|2.0MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed, server: 103.186.154.51, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN²_18|1.4MB/s|GPT⁺|GM|TK|NF|X|KeepHistory, server: 103.186.155.156, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: HK²_8|14.8MB/s|1%|YT|NF|D+|X|KeepSucceed, server: 58.152.25.236, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
-- {name: 4Sarina-1833, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 4Sarina-1364, server: 103.186.154.62, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1422, server: 103.186.155.137, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: HK²_11|7.0MB/s|YT|X|KeepHistory, server: 103.149.183.154, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
-- {name: 法国 09, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4Sarina-1207, server: 103.186.154.143, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1279, server: 103.186.154.210, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1339, server: 103.186.154.38, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -57,25 +43,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Nika-1520
+      - NONE
+      - "#017 CN1"
+      - "#122 HK44"
+      - 4FreeIran-1480
       - VN²_16|2.4MB/s|GPT⁺|YT|TK|NF|X|KeepHistory
-      - 4FreeIran-1478
-      - 4Nika-1319
-      - VN²_10|2.8MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed
-      - VN²_11|2.0MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepHistory
-      - VN²_12|3.1MB/s|GPT⁺|GM|YT|TK|NF|X|KeepHistory
-      - VN²_15|2.7MB/s|GPT⁺|GM|YT|TK|NF|X|KeepHistory
-      - VN²_17|2.0MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed
-      - VN²_18|1.4MB/s|GPT⁺|GM|TK|NF|X|KeepHistory
-      - HK²_8|14.8MB/s|1%|YT|NF|D+|X|KeepSucceed
-      - 4Sarina-1833
-      - 4Sarina-1364
-      - 4Sarina-1422
-      - HK²_11|7.0MB/s|YT|X|KeepHistory
-      - 法国 09
-      - 4Sarina-1207
-      - 4Sarina-1279
-      - 4Sarina-1339
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -87,50 +59,22 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Nika-1520
+      - NONE
+      - "#017 CN1"
+      - "#122 HK44"
+      - 4FreeIran-1480
       - VN²_16|2.4MB/s|GPT⁺|YT|TK|NF|X|KeepHistory
-      - 4FreeIran-1478
-      - 4Nika-1319
-      - VN²_10|2.8MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed
-      - VN²_11|2.0MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepHistory
-      - VN²_12|3.1MB/s|GPT⁺|GM|YT|TK|NF|X|KeepHistory
-      - VN²_15|2.7MB/s|GPT⁺|GM|YT|TK|NF|X|KeepHistory
-      - VN²_17|2.0MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed
-      - VN²_18|1.4MB/s|GPT⁺|GM|TK|NF|X|KeepHistory
-      - HK²_8|14.8MB/s|1%|YT|NF|D+|X|KeepSucceed
-      - 4Sarina-1833
-      - 4Sarina-1364
-      - 4Sarina-1422
-      - HK²_11|7.0MB/s|YT|X|KeepHistory
-      - 法国 09
-      - 4Sarina-1207
-      - 4Sarina-1279
-      - 4Sarina-1339
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Nika-1520
+      - NONE
+      - "#017 CN1"
+      - "#122 HK44"
+      - 4FreeIran-1480
       - VN²_16|2.4MB/s|GPT⁺|YT|TK|NF|X|KeepHistory
-      - 4FreeIran-1478
-      - 4Nika-1319
-      - VN²_10|2.8MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed
-      - VN²_11|2.0MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepHistory
-      - VN²_12|3.1MB/s|GPT⁺|GM|YT|TK|NF|X|KeepHistory
-      - VN²_15|2.7MB/s|GPT⁺|GM|YT|TK|NF|X|KeepHistory
-      - VN²_17|2.0MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed
-      - VN²_18|1.4MB/s|GPT⁺|GM|TK|NF|X|KeepHistory
-      - HK²_8|14.8MB/s|1%|YT|NF|D+|X|KeepSucceed
-      - 4Sarina-1833
-      - 4Sarina-1364
-      - 4Sarina-1422
-      - HK²_11|7.0MB/s|YT|X|KeepHistory
-      - 法国 09
-      - 4Sarina-1207
-      - 4Sarina-1279
-      - 4Sarina-1339
   - name: 🐟 漏网之鱼
     type: select
     proxies:
