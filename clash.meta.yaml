@@ -26,48 +26,32 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: "HK²_25|1.4MB/s|0%|YT-CN|NF|D+|X|[原生|商宽]", server: 112.213.102.188, port: 40856, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 台湾 | TWN 5, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: dc009afe-0885-454d-a016-84478271cdc6, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-- {name: 香港 | HKG, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 7c503ace-4121-43d9-91f7-8dd487fab54b, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-- {name: "KR²_12|9.7MB/s|4%|GPT⁺|GM|YT|TK|NF|D+|X|[原生|住宅]", server: 221.150.109.92, port: 21215, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: "KR²_6|1.2MB/s|GPT⁺|GM|YT|NF|D+|X|[原生|住宅]", server: 121.170.203.148, port: 11815, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: "KR²_10|9.8MB/s|1%|GPT⁺|GM|YT|TK|NF|D+|X|[原生|住宅]", server: 221.150.109.20, port: 59594, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 【机场推荐：https://a0a.xyz/】17, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "KR²_1|0.6MB/s|0%|GPT⁺|GM|YT|TK|NF|D+|X|Succeed|[原生|住宅]", server: 121.170.203.147, port: 61417, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 韩国 | KOR 8, server: 210.217.18.69, port: 50411, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: "KR²_5|2.7MB/s|1%|GPT⁺|YT-CN|NF|D+|X|Succeed|[原生|住宅]", server: 125.141.31.75, port: 22376, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: "KR²_15|8.8MB/s|1%|GPT⁺|GM|YT|TK|NF|D+|X|Succeed|[原生|住宅]", server: 221.150.109.22, port: 35452, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: "KR²_6|8.4MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|Succeed|[原生|住宅]", server: 210.217.18.68, port: 1952, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: "KR²_5|10.3MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|[原生|住宅]", server: 203.234.238.140, port: 56359, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 韩国 | KOR 9, server: 218.50.149.114, port: 60940, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 韩国 | KOR 8 2, server: 121.170.203.136, port: 2071, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 4Jadi-1054, server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-- {name: "KR²_9|2.1MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|[原生|住宅]", server: 211.201.169.70, port: 19307, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 韩国 | KOR 2, server: 125.141.31.100, port: 18590, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 4Kian-1491, server: 103.186.155.27, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Kian-1321, server: 103.186.154.246, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Kian-1323, server: 103.186.154.248, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Mohsen-1314, server: 103.186.154.239, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1539, server: 103.186.155.75, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Kian-1366, server: 103.186.154.59, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1279, server: 103.186.154.225, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1347, server: 103.186.154.60, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1370, server: 103.186.155.102, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1376, server: 103.186.155.108, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1442, server: 103.186.155.215, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1468, server: 103.186.155.24, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1217, server: 103.186.154.167, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1220, server: 103.186.154.170, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1278, server: 103.186.154.224, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1355, server: 103.186.154.68, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: "KR²_5|10.0MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|History|[原生|住宅]", server: 125.141.26.15, port: 8901, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: "#063 HK41", server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: f9f59b4f-67b5-4ffa-a832-c9e38da35ac4, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-- {name: "#064 HK42", server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: b4b63464-50fe-4e8c-930f-a12d53e94c25, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-- {name: "#065 HK43", server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 03c765f2-8969-472d-8984-250f39e9e134, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-- {name: 4FreeIran-1428, server: 103.186.155.17, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1787, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 美国 | USA 39, server: 140.174.52.97, port: 37186, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 美国 | USA 42, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4FreeIran-1398, server: 103.186.155.134, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 越南 | VNM, server: 103.186.155.112, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: KR²_6|1.2MB/s|0%|GPT⁺|GM|YT|NF|D+|X, server: 121.170.203.136, port: 2071, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 4Kian-1257, server: 103.186.154.209, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Mohsen-1410, server: 103.186.155.143, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Kian-1415, server: 103.186.155.148, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Mohsen-1221, server: 103.186.154.176, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: "KR²_4|9.7MB/s|4%|GPT⁺|GM|YT|NF|D+|X|History|[原生|住宅]", server: 221.150.109.89, port: 43231, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 4Mohsen-1463, server: 103.186.155.240, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Mohsen-1364, server: 103.186.154.9, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 韩国 | KOR 2, server: 218.234.149.9, port: 4483, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: "KR²_5|5.8MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|Succeed|[原生|住宅]", server: 210.217.18.69, port: 50411, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: "KR²_10|6.1MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|History|[原生|住宅]", server: 210.217.18.68, port: 1952, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: "KR²_5|9.5MB/s|4%|GPT⁺|GM|YT|NF|D+|X|History|[原生|住宅]", server: 221.150.109.92, port: 21215, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: "KR²_6|1.5MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|History|[原生|住宅]", server: 218.50.149.114, port: 60940, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 4Mohsen-1338, server: 103.186.154.55, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Mohsen-1366, server: 103.186.155.102, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-1360, server: 103.186.154.77, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-1506, server: 103.186.155.65, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: "12,13|香港4|@ripaojiedian", server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
+- {name: 香港 | HKG 6, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 7c503ace-4121-43d9-91f7-8dd487fab54b, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+- {name: 香港 | HKG 10, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 7e227a04-fa7d-4a6f-93e9-954f33ba32e7, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+- {name: 香港 | HKG 12, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: c87a16f1-530b-488d-a188-42f2f2b16d29, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+- {name: 台湾 | TWN 2, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 03c765f2-8969-472d-8984-250f39e9e134, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+- {name: 台湾 | TWN 3, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 6430b740-9a37-4b46-908b-92631afe05c2, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+- {name: 台湾 | TWN 7, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 28f6b9ad-324b-4381-bd98-5cd9464803e8, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -80,48 +64,32 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - HK²_25|1.4MB/s|0%|YT-CN|NF|D+|X|[原生|商宽]
-      - 台湾 | TWN 5
-      - 香港 | HKG
-      - KR²_12|9.7MB/s|4%|GPT⁺|GM|YT|TK|NF|D+|X|[原生|住宅]
-      - KR²_6|1.2MB/s|GPT⁺|GM|YT|NF|D+|X|[原生|住宅]
-      - KR²_10|9.8MB/s|1%|GPT⁺|GM|YT|TK|NF|D+|X|[原生|住宅]
-      - 【机场推荐：https://a0a.xyz/】17
-      - KR²_1|0.6MB/s|0%|GPT⁺|GM|YT|TK|NF|D+|X|Succeed|[原生|住宅]
-      - 韩国 | KOR 8
-      - KR²_5|2.7MB/s|1%|GPT⁺|YT-CN|NF|D+|X|Succeed|[原生|住宅]
-      - KR²_15|8.8MB/s|1%|GPT⁺|GM|YT|TK|NF|D+|X|Succeed|[原生|住宅]
-      - KR²_6|8.4MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|Succeed|[原生|住宅]
-      - KR²_5|10.3MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|[原生|住宅]
-      - 韩国 | KOR 9
-      - 韩国 | KOR 8 2
-      - 4Jadi-1054
-      - KR²_9|2.1MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|[原生|住宅]
+      - 4FreeIran-1398
+      - 越南 | VNM
+      - KR²_6|1.2MB/s|0%|GPT⁺|GM|YT|NF|D+|X
+      - 4Kian-1257
+      - 4Mohsen-1410
+      - 4Kian-1415
+      - 4Mohsen-1221
+      - KR²_4|9.7MB/s|4%|GPT⁺|GM|YT|NF|D+|X|History|[原生|住宅]
+      - 4Mohsen-1463
+      - 4Mohsen-1364
       - 韩国 | KOR 2
-      - 4Kian-1491
-      - 4Kian-1321
-      - 4Kian-1323
-      - 4Mohsen-1314
-      - 4FreeIran-1539
-      - 4Kian-1366
-      - 4Jadi-1279
-      - 4Jadi-1347
-      - 4Jadi-1370
-      - 4Jadi-1376
-      - 4Jadi-1442
-      - 4Jadi-1468
-      - 4Jadi-1217
-      - 4Jadi-1220
-      - 4Jadi-1278
-      - 4Jadi-1355
-      - KR²_5|10.0MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|History|[原生|住宅]
-      - "#063 HK41"
-      - "#064 HK42"
-      - "#065 HK43"
-      - 4FreeIran-1428
-      - 4FreeIran-1787
-      - 美国 | USA 39
-      - 美国 | USA 42
+      - KR²_5|5.8MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|Succeed|[原生|住宅]
+      - KR²_10|6.1MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|History|[原生|住宅]
+      - KR²_5|9.5MB/s|4%|GPT⁺|GM|YT|NF|D+|X|History|[原生|住宅]
+      - KR²_6|1.5MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|History|[原生|住宅]
+      - 4Mohsen-1338
+      - 4Mohsen-1366
+      - 4FreeIran-1360
+      - 4FreeIran-1506
+      - 12,13|香港4|@ripaojiedian
+      - 香港 | HKG 6
+      - 香港 | HKG 10
+      - 香港 | HKG 12
+      - 台湾 | TWN 2
+      - 台湾 | TWN 3
+      - 台湾 | TWN 7
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -133,96 +101,64 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - HK²_25|1.4MB/s|0%|YT-CN|NF|D+|X|[原生|商宽]
-      - 台湾 | TWN 5
-      - 香港 | HKG
-      - KR²_12|9.7MB/s|4%|GPT⁺|GM|YT|TK|NF|D+|X|[原生|住宅]
-      - KR²_6|1.2MB/s|GPT⁺|GM|YT|NF|D+|X|[原生|住宅]
-      - KR²_10|9.8MB/s|1%|GPT⁺|GM|YT|TK|NF|D+|X|[原生|住宅]
-      - 【机场推荐：https://a0a.xyz/】17
-      - KR²_1|0.6MB/s|0%|GPT⁺|GM|YT|TK|NF|D+|X|Succeed|[原生|住宅]
-      - 韩国 | KOR 8
-      - KR²_5|2.7MB/s|1%|GPT⁺|YT-CN|NF|D+|X|Succeed|[原生|住宅]
-      - KR²_15|8.8MB/s|1%|GPT⁺|GM|YT|TK|NF|D+|X|Succeed|[原生|住宅]
-      - KR²_6|8.4MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|Succeed|[原生|住宅]
-      - KR²_5|10.3MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|[原生|住宅]
-      - 韩国 | KOR 9
-      - 韩国 | KOR 8 2
-      - 4Jadi-1054
-      - KR²_9|2.1MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|[原生|住宅]
+      - 4FreeIran-1398
+      - 越南 | VNM
+      - KR²_6|1.2MB/s|0%|GPT⁺|GM|YT|NF|D+|X
+      - 4Kian-1257
+      - 4Mohsen-1410
+      - 4Kian-1415
+      - 4Mohsen-1221
+      - KR²_4|9.7MB/s|4%|GPT⁺|GM|YT|NF|D+|X|History|[原生|住宅]
+      - 4Mohsen-1463
+      - 4Mohsen-1364
       - 韩国 | KOR 2
-      - 4Kian-1491
-      - 4Kian-1321
-      - 4Kian-1323
-      - 4Mohsen-1314
-      - 4FreeIran-1539
-      - 4Kian-1366
-      - 4Jadi-1279
-      - 4Jadi-1347
-      - 4Jadi-1370
-      - 4Jadi-1376
-      - 4Jadi-1442
-      - 4Jadi-1468
-      - 4Jadi-1217
-      - 4Jadi-1220
-      - 4Jadi-1278
-      - 4Jadi-1355
-      - KR²_5|10.0MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|History|[原生|住宅]
-      - "#063 HK41"
-      - "#064 HK42"
-      - "#065 HK43"
-      - 4FreeIran-1428
-      - 4FreeIran-1787
-      - 美国 | USA 39
-      - 美国 | USA 42
+      - KR²_5|5.8MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|Succeed|[原生|住宅]
+      - KR²_10|6.1MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|History|[原生|住宅]
+      - KR²_5|9.5MB/s|4%|GPT⁺|GM|YT|NF|D+|X|History|[原生|住宅]
+      - KR²_6|1.5MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|History|[原生|住宅]
+      - 4Mohsen-1338
+      - 4Mohsen-1366
+      - 4FreeIran-1360
+      - 4FreeIran-1506
+      - 12,13|香港4|@ripaojiedian
+      - 香港 | HKG 6
+      - 香港 | HKG 10
+      - 香港 | HKG 12
+      - 台湾 | TWN 2
+      - 台湾 | TWN 3
+      - 台湾 | TWN 7
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - HK²_25|1.4MB/s|0%|YT-CN|NF|D+|X|[原生|商宽]
-      - 台湾 | TWN 5
-      - 香港 | HKG
-      - KR²_12|9.7MB/s|4%|GPT⁺|GM|YT|TK|NF|D+|X|[原生|住宅]
-      - KR²_6|1.2MB/s|GPT⁺|GM|YT|NF|D+|X|[原生|住宅]
-      - KR²_10|9.8MB/s|1%|GPT⁺|GM|YT|TK|NF|D+|X|[原生|住宅]
-      - 【机场推荐：https://a0a.xyz/】17
-      - KR²_1|0.6MB/s|0%|GPT⁺|GM|YT|TK|NF|D+|X|Succeed|[原生|住宅]
-      - 韩国 | KOR 8
-      - KR²_5|2.7MB/s|1%|GPT⁺|YT-CN|NF|D+|X|Succeed|[原生|住宅]
-      - KR²_15|8.8MB/s|1%|GPT⁺|GM|YT|TK|NF|D+|X|Succeed|[原生|住宅]
-      - KR²_6|8.4MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|Succeed|[原生|住宅]
-      - KR²_5|10.3MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|[原生|住宅]
-      - 韩国 | KOR 9
-      - 韩国 | KOR 8 2
-      - 4Jadi-1054
-      - KR²_9|2.1MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|[原生|住宅]
+      - 4FreeIran-1398
+      - 越南 | VNM
+      - KR²_6|1.2MB/s|0%|GPT⁺|GM|YT|NF|D+|X
+      - 4Kian-1257
+      - 4Mohsen-1410
+      - 4Kian-1415
+      - 4Mohsen-1221
+      - KR²_4|9.7MB/s|4%|GPT⁺|GM|YT|NF|D+|X|History|[原生|住宅]
+      - 4Mohsen-1463
+      - 4Mohsen-1364
       - 韩国 | KOR 2
-      - 4Kian-1491
-      - 4Kian-1321
-      - 4Kian-1323
-      - 4Mohsen-1314
-      - 4FreeIran-1539
-      - 4Kian-1366
-      - 4Jadi-1279
-      - 4Jadi-1347
-      - 4Jadi-1370
-      - 4Jadi-1376
-      - 4Jadi-1442
-      - 4Jadi-1468
-      - 4Jadi-1217
-      - 4Jadi-1220
-      - 4Jadi-1278
-      - 4Jadi-1355
-      - KR²_5|10.0MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|History|[原生|住宅]
-      - "#063 HK41"
-      - "#064 HK42"
-      - "#065 HK43"
-      - 4FreeIran-1428
-      - 4FreeIran-1787
-      - 美国 | USA 39
-      - 美国 | USA 42
+      - KR²_5|5.8MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|Succeed|[原生|住宅]
+      - KR²_10|6.1MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|History|[原生|住宅]
+      - KR²_5|9.5MB/s|4%|GPT⁺|GM|YT|NF|D+|X|History|[原生|住宅]
+      - KR²_6|1.5MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|History|[原生|住宅]
+      - 4Mohsen-1338
+      - 4Mohsen-1366
+      - 4FreeIran-1360
+      - 4FreeIran-1506
+      - 12,13|香港4|@ripaojiedian
+      - 香港 | HKG 6
+      - 香港 | HKG 10
+      - 香港 | HKG 12
+      - 台湾 | TWN 2
+      - 台湾 | TWN 3
+      - 台湾 | TWN 7
   - name: 🐟 漏网之鱼
     type: select
     proxies:
