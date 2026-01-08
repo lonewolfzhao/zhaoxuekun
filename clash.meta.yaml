@@ -26,78 +26,65 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4FreeIran-1626, server: 103.186.155.42, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 德国_010723726, server: 51.89.10.72, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 78c2e39121c820fb, udp: true}
-- {name: 4Nika-1485, server: 103.186.155.139, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Mohsen-1521, server: 103.186.155.209, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: "FR²_1|7.0MB/s|0%|GPT⁺|YT-US|TK|NF|X|History|[广播|机房]", server: zula.ir, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nasnet/cdn, headers: {Host: nasnet-511952424.mcitel.co}}, udp: true}
-- {name: 4Kian-1273, server: 103.186.154.152, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 德国_010718215, server: 5.75.217.137, port: 29774, type: vmess, uuid: 899cff3b-504a-454f-c315-a18fe050fa0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: HK²_31|4.1MB/s|1%|GPT|YT|NF|D+|X|History, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
-- {name: 4Mohsen-1552, server: 103.186.155.144, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 台湾 | TWN 15, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 2119dffa-66de-4f90-9fd2-1fbb7564d0e5, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-- {name: 4Mohsen-1640, server: 103.186.155.57, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 台湾 | TWN 8, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 458398b0-f3b0-4cf5-b8a5-34805f995e24, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+- {name: TW_530e1_0054, server: 185.189.160.105, port: 39272, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: KR_faab2_0016, server: 221.139.79.57, port: 13979, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 4Nika-863, server: 193.29.139.177, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+- {name: KR_1|1.1MB/s, server: 27.255.82.135, port: 3733, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 4Nika-1781, server: 192.71.166.100, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: "FR²_1|6.9MB/s|0%|GPT|YT-US|X|History|[广播|机房]", server: zula.ir, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/nasnet/cdn?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", headers: {Host: nasnet-511952424.mcitel.co}}, udp: true}
+- {name: KR²_11|8.5MB/s|1%|GPT⁺|YT-CN|D+|X|History, server: 210.217.18.70, port: 61060, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 4Nika-1191, server: 103.186.154.165, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 - {name: 4FreeIran-1429, server: 103.186.154.58, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Mohsen-1642, server: 103.186.155.59, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Mohsen-1411, server: 103.186.154.220, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Nika-1523, server: 103.186.155.222, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Mohsen-1333, server: 103.186.154.198, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: "DE²_1|6.3MB/s|9%|GPT⁺|YT|TK|NF|X|[原生|机房]", server: 5.75.217.137, port: 29774, type: vmess, uuid: 899cff3b-504a-454f-c315-a18fe050fa0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4Mohsen-1402, server: 103.186.154.212, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Mohsen-1437, server: 103.186.154.245, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Kian-1356, server: 103.186.154.22, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 台湾 | TWN, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 9d7034dc-ae3f-4b90-8a39-ef9c79d4ed5f, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-- {name: 日本_010718044, server: n1753598448.74qxv.top, port: 443, type: vmess, uuid: 3cd6f849-078e-4da9-8080-a2791b51b766, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: n1753598448.74qxv.top}}, udp: true}
-- {name: 4Mohsen-1025, server: 45.87.175.92, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-- {name: 德国_010718215 2, server: 5.75.217.137, port: 29774, type: vmess, uuid: 899cff3b-504a-454f-c315-a18fe050fa0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: _KR_韩国_2, server: 218.38.103.150, port: 39502, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: KR²_3|0.8MB/s|1%|GPT⁺|YT-CN|NF|D+|X|History, server: 218.50.149.114, port: 60940, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: "KR²_1|9.8MB/s|3%|GPT⁺|GM|YT|NF|D+|X|Succeed|[原生|住宅]", server: 221.150.109.89, port: 43231, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: SC²_1|0.6MB/s|0%|GM|YT-US|NF|X, server: 156.245.232.15, port: 53947, type: vmess, uuid: 8cb243df-fa82-472c-be25-b00acd4fcd3f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/使用此节点需要先沐浴焚香然后给群主磕800个响头(ಡωಡ)]}, udp: true}
-- {name: 4Sarina-1023, server: 103.149.182.158, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
-- {name: "GR²_1|4.9MB/s|20%|GPT⁺|TK|NF|X|Succeed|[广播|商宽]", server: 38.54.29.18, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 932a519c8147a998, udp: true}
-- {name: 4Sarina-1308, server: 103.186.154.169, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Mohsen-1566, server: 103.186.155.18, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: HK²_33|1.3MB/s|1%|YT|D+|X, server: fc9d3bb0-t70f40-t7hmka-1plv4.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 28213b50-7ed5-11ee-add6-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fc9d3bb0-t70f40-t7hmka-1plv4.hkt.gotochinatown.net}}, udp: true}
-- {name: _KR_韩国, server: 218.234.149.9, port: 4483, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 柬埔寨_010723001, server: 38.54.93.107, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 5654d957c5f61640, udp: true}
-- {name: 4Sarina-3438, server: 154.90.55.15, port: 11201, type: ss, cipher: rc4-md5, password: b13c4c021cec2c0b, udp: true}
-- {name: HK(AzadNet.t.me), server: faafb8c9-t6r5s0-t7dy6t-jx5r.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: faafb8c9-t6r5s0-t7dy6t-jx5r.hkt.gotochinatown.net}}, udp: true}
-- {name: "HK²_23|3.2MB/s|1%|GPT|YT|NF|D+|X|History|[原生|住宅]", server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 28213b50-7ed5-11ee-add6-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
-- {name: "KZ²_2|2.1MB/s|34%|GPT⁺|YT|TK|NF|X|History|[广播|机房]", server: 109.61.39.150, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 01dc0d7cbb650bc3, udp: true}
-- {name: HK²_1|6.7MB/s|1%|YT|D+|X|Succeed, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
-- {name: 4Sarina-1878, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: FR_15b92_0003, server: 91.239.208.204, port: 17477, type: ss, cipher: chacha20-ietf-poly1305, password: hzxQofNAcTk2xo2drzxpIE, udp: true}
-- {name: 4Mohsen-1381, server: 103.186.154.193, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Kian-1508, server: 103.186.155.207, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 日本_010618013, server: 178.130.46.148, port: 47345, type: ss, cipher: chacha20-ietf-poly1305, password: nGSRvZ5IsYcRNDpDtNVrkV, udp: true}
-- {name: 4Sarina-1277, server: 103.186.154.140, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: HK-42.98.241.59-0368, server: 74ebcaaa-t70f40-t8be2y-1ryup.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 74ebcaaa-t70f40-t8be2y-1ryup.hkt.gotochinatown.net}}, udp: true}
-- {name: 4Mohsen-1469, server: 103.186.154.46, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: "DE²_6|4.5MB/s|11%|GPT⁺|X|[广播|机房]", server: frankfurt01.zgjok.com, port: 443, type: vmess, uuid: b71579b1-6593-426d-90ac-f002fa96ade1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: frankfurt01.zgjok.com}}, udp: true}
+- {name: FR²_6|6.3MB/s|0%|GPT⁺|X|History, server: zula.ir, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nasnet/cdn, headers: {Host: nasnet-511952424.mcitel.co}}, udp: true}
+- {name: VN_7|1.2MB/s, server: 103.186.155.81, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-1271, server: 103.186.154.240, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-1194, server: 103.186.154.169, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1180, server: 103.186.154.155, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1433, server: 103.186.155.22, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1348, server: 103.186.155.104, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1405, server: 103.186.155.18, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1446, server: 103.186.155.214, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Mohsen-1419, server: 103.186.155.218, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: VN_530e1_0086, server: 103.186.154.185, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-1318, server: 103.186.154.56, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: VN_faab2_0085, server: 103.186.155.30, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-1290, server: 103.186.154.29, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1305, server: 103.186.154.245, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Mohsen-1325, server: 103.186.154.62, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 - {name: 4Mohsen-1611, server: 103.186.155.2, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 台湾 | TWN 20, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 86558621-899b-4c51-89ce-7ef44f247226, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-- {name: 4Sarina-1297, server: 103.186.154.159, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Mohsen-1468, server: 103.186.154.45, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Mohsen-1600, server: 103.186.155.237, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: "HK²_18|6.1MB/s|1%|GPT|YT|NF|D+|X|Succeed|[原生|住宅]", server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: fd224a6c-addc-11ed-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
-- {name: US_15b92_0031, server: 209.126.8.72, port: 10011, type: ss, cipher: chacha20-ietf-poly1305, password: e8a01a3fc07cde14, udp: true}
-- {name: HK_1|1.0MB/s, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 8a5d58a0-c50e-11ef-a46e-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
-- {name: "HK²_14|3.7MB/s|1%|GPT|YT|NF|D+|X|History|[原生|住宅]", server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: f13f964e-f06c-11ec-a858-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
-- {name: HK²_4|3.9MB/s|1%|GPT⁺|YT|NF|D+|X|History, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: KR_15b92_0011, server: 125.141.31.100, port: 18590, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 4Kian-1512, server: 103.186.155.116, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: "VN²_4|1.7MB/s|GPT⁺|X|[原生|机房]", server: 103.186.154.38, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1221, server: 103.186.154.191, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1508, server: 103.186.155.66, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1354, server: 103.186.154.72, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Mohsen-1400, server: 103.186.155.156, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Mohsen-1170, server: 103.186.154.146, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 - {name: 4Kian-1500, server: 103.186.155.183, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: HK²_30|5.2MB/s|1%|YT|NF|D+|X|Succeed, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
-- {name: 越南_010718001, server: 38.54.14.156, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: a94f0b6916f67bdc, udp: true}
-- {name: 德国_010718215 3, server: 5.75.217.137, port: 29774, type: vmess, uuid: 899cff3b-504a-454f-c315-a18fe050fa0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4Sarina-1893, server: 192.71.166.100, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 美国_010713034, server: 15.204.28.84, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: f96d6b42e30595dc, udp: true}
-- {name: 4Mohsen-1528, server: 103.186.155.122, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: HK²_49|1.1MB/s|1%|YT|D+|X|History, server: 9c402b0d-t70f40-tfeciy-1iddy.hkt.gotochinatown.net, port: 80, type: vmess, uuid: e168c43e-c6d9-11ed-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 9c402b0d-t70f40-tfeciy-1iddy.hkt.gotochinatown.net}}, udp: true}
-- {name: 英国 | GBR, server: 149.102.144.110, port: 26138, type: ss, cipher: chacha20-ietf-poly1305, password: 2602101eff2c9250, udp: true}
-- {name: 4Kian-1305, server: 103.186.154.183, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: "FI²_3|0.6MB/s|0%|GPT⁺|X|[广播|商宽]", server: fl3.cowjuice.me, port: 9443, type: ss, cipher: chacha20-ietf-poly1305, password: X36TIi4C3NH6Oln3TdGyjg, udp: true}
+- {name: 4Mohsen-1402, server: 103.186.155.16, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: "HK²_2|13.2MB/s|1%|GPT|YT|NF|D+|X|[原生|住宅]", server: 9418e845-t8lts0-tnkuks-wujn.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 9418e845-t8lts0-tnkuks-wujn.hkt.gotochinatown.net}}, udp: true}
+- {name: "HK²_3|12.8MB/s|1%|GPT⁺|YT|D+|X|[原生|住宅]", server: a5352065-t8lts0-thntyd-1f596.hkt.gotochinatown.net, port: 80, type: vmess, uuid: e3975a05-b89e-11ec-a50d-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a5352065-t8lts0-thntyd-1f596.hkt.gotochinatown.net}}, udp: true}
+- {name: HK²_6|4.5MB/s|1%|YT|D+|X, server: 3c12fe42-t8lts0-ta1wsm-1ryup.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 3c12fe42-t8lts0-ta1wsm-1ryup.hkt.gotochinatown.net}}, udp: true}
+- {name: "KR²_3|2.3MB/s|1%|GPT⁺|YT-CN|D+|X|[原生|住宅]", server: 203.234.238.140, port: 29731, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: "HK²_9|5.7MB/s|1%|GPT⁺|YT|D+|X|History|[原生|住宅]", server: c558c52a-t6r5s0-tc61cs-1tja8.hkt.gotochinatown.net, port: 80, type: vmess, uuid: d2f0bee2-02f1-11f0-8eb0-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: c558c52a-t6r5s0-tc61cs-1tja8.hkt.gotochinatown.net}}, udp: true}
+- {name: HK²_10|2.4MB/s|D+|X|History, server: 448072be-t6r5s0-taksay-1tcuf.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 3952a514-eaa7-11ef-97da-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 448072be-t6r5s0-taksay-1tcuf.hkt.gotochinatown.net}}, udp: true}
+- {name: HK²_11|3.4MB/s|1%|X, server: a6ee2163-t8lts0-te0v28-1mh67.hkt.gotochinatown.net, port: 80, type: vmess, uuid: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a6ee2163-t8lts0-te0v28-1mh67.hkt.gotochinatown.net}}, udp: true}
+- {name: HK²_13|3.3MB/s|1%|D+|X, server: b680583e-t8lts0-t9szn4-19xg1.hkt.gotochinatown.net, port: 80, type: vmess, uuid: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: b680583e-t8lts0-t9szn4-19xg1.hkt.gotochinatown.net}}, udp: true}
+- {name: "KR²_6|9.4MB/s|3%|GPT⁺|GM|YT|NF|D+|X|Succeed|[原生|住宅]", server: 221.150.109.90, port: 48012, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: HK²_14|3.1MB/s|D+|X, server: e41077bf-t70f40-t7bo2t-1psmw.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 42bb6d36-97c7-11ee-be7f-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: e41077bf-t70f40-t7bo2t-1psmw.hkt.gotochinatown.net}}, udp: true}
+- {name: "HK²_15|4.7MB/s|1%|GPT|D+|X|History|[原生|住宅]", server: b4d8231e-t70f40-te0v28-1mh67.hkt.gotochinatown.net, port: 80, type: vmess, uuid: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: b4d8231e-t70f40-te0v28-1mh67.hkt.gotochinatown.net}}, udp: true}
+- {name: "HK²_16|3.2MB/s|YT|D+|X|[原生|住宅]", server: a710fd59-t8lts0-t96zrt-1gevg.hkt.gotochinatown.net, port: 80, type: vmess, uuid: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a710fd59-t8lts0-t96zrt-1gevg.hkt.gotochinatown.net}}, udp: true}
+- {name: "HK²_20|2.9MB/s|GPT|NF|D+|X|[原生|住宅]", server: b225951a-t8lts0-t96hzo-g3b3.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: b225951a-t8lts0-t96hzo-g3b3.hkt.gotochinatown.net}}, udp: true}
+- {name: "HK²_21|3.0MB/s|1%|YT|X|History|[原生|住宅]", server: 9db1226c-t8g9s0-t9uin7-19ord.hkt.gotochinatown.net, port: 80, type: vmess, uuid: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 9db1226c-t8g9s0-t9uin7-19ord.hkt.gotochinatown.net}}, udp: true}
+- {name: 哈萨克斯坦_010823001, server: 109.61.39.150, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 01dc0d7cbb650bc3, udp: true}
+- {name: 亚美尼亚 | ARM, server: 85.90.207.104, port: 18790, type: ss, cipher: rc4-md5, password: 6c325435b2176c2d, udp: true}
+- {name: 香港 | HKG, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 70cc8fc7-fb59-45ab-87d0-de404abe723c, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+- {name: HK-42.98.241.59-0368, server: 74ebcaaa-t70f40-t8be2y-1ryup.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 74ebcaaa-t70f40-t8be2y-1ryup.hkt.gotochinatown.net}}, udp: true}
+- {name: HK(AzadNet.t.me), server: faafb8c9-t6r5s0-t7dy6t-jx5r.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: faafb8c9-t6r5s0-t7dy6t-jx5r.hkt.gotochinatown.net}}, udp: true}
+- {name: 4Jadi-588, server: 23.95.75.146, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: NDRySIABARbErNIVsCNVkyYAHiBzhveT, udp: true}
+- {name: 4Jadi-1238, server: 103.186.154.207, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1465, server: 103.186.155.42, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1486, server: 103.186.155.61, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-2750, server: ss.010.node-for-bigairport.win, port: 11689, type: ss, cipher: aes-256-gcm, password: c69374da-2208-4cbd-b81e-cdf88b5e7f53, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -110,78 +97,65 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4FreeIran-1626
-      - 德国_010723726
-      - 4Nika-1485
-      - 4Mohsen-1521
-      - FR²_1|7.0MB/s|0%|GPT⁺|YT-US|TK|NF|X|History|[广播|机房]
-      - 4Kian-1273
-      - 德国_010718215
-      - HK²_31|4.1MB/s|1%|GPT|YT|NF|D+|X|History
-      - 4Mohsen-1552
-      - 台湾 | TWN 15
-      - 4Mohsen-1640
-      - 台湾 | TWN 8
+      - TW_530e1_0054
+      - KR_faab2_0016
+      - 4Nika-863
+      - KR_1|1.1MB/s
+      - 4Nika-1781
+      - FR²_1|6.9MB/s|0%|GPT|YT-US|X|History|[广播|机房]
+      - KR²_11|8.5MB/s|1%|GPT⁺|YT-CN|D+|X|History
+      - 4Nika-1191
       - 4FreeIran-1429
-      - 4Mohsen-1642
-      - 4Mohsen-1411
-      - 4Nika-1523
-      - 4Mohsen-1333
-      - DE²_1|6.3MB/s|9%|GPT⁺|YT|TK|NF|X|[原生|机房]
-      - 4Mohsen-1402
-      - 4Mohsen-1437
-      - 4Kian-1356
-      - 台湾 | TWN
-      - 日本_010718044
-      - 4Mohsen-1025
-      - 德国_010718215 2
-      - _KR_韩国_2
-      - KR²_3|0.8MB/s|1%|GPT⁺|YT-CN|NF|D+|X|History
-      - KR²_1|9.8MB/s|3%|GPT⁺|GM|YT|NF|D+|X|Succeed|[原生|住宅]
-      - SC²_1|0.6MB/s|0%|GM|YT-US|NF|X
-      - 4Sarina-1023
-      - GR²_1|4.9MB/s|20%|GPT⁺|TK|NF|X|Succeed|[广播|商宽]
-      - 4Sarina-1308
-      - 4Mohsen-1566
-      - HK²_33|1.3MB/s|1%|YT|D+|X
-      - _KR_韩国
-      - 柬埔寨_010723001
-      - 4Sarina-3438
-      - HK(AzadNet.t.me)
-      - HK²_23|3.2MB/s|1%|GPT|YT|NF|D+|X|History|[原生|住宅]
-      - KZ²_2|2.1MB/s|34%|GPT⁺|YT|TK|NF|X|History|[广播|机房]
-      - HK²_1|6.7MB/s|1%|YT|D+|X|Succeed
-      - 4Sarina-1878
-      - FR_15b92_0003
-      - 4Mohsen-1381
-      - 4Kian-1508
-      - 日本_010618013
-      - 4Sarina-1277
-      - HK-42.98.241.59-0368
-      - 4Mohsen-1469
+      - DE²_6|4.5MB/s|11%|GPT⁺|X|[广播|机房]
+      - FR²_6|6.3MB/s|0%|GPT⁺|X|History
+      - VN_7|1.2MB/s
+      - 4FreeIran-1271
+      - 4FreeIran-1194
+      - 4Nika-1180
+      - 4Sarina-1433
+      - 4Nika-1348
+      - 4Jadi-1405
+      - 4Nika-1446
+      - 4Mohsen-1419
+      - VN_530e1_0086
+      - 4FreeIran-1318
+      - VN_faab2_0085
+      - 4FreeIran-1290
+      - 4Nika-1305
+      - 4Mohsen-1325
       - 4Mohsen-1611
-      - 台湾 | TWN 20
-      - 4Sarina-1297
-      - 4Mohsen-1468
-      - 4Mohsen-1600
-      - HK²_18|6.1MB/s|1%|GPT|YT|NF|D+|X|Succeed|[原生|住宅]
-      - US_15b92_0031
-      - HK_1|1.0MB/s
-      - HK²_14|3.7MB/s|1%|GPT|YT|NF|D+|X|History|[原生|住宅]
-      - HK²_4|3.9MB/s|1%|GPT⁺|YT|NF|D+|X|History
-      - KR_15b92_0011
-      - 4Kian-1512
+      - VN²_4|1.7MB/s|GPT⁺|X|[原生|机房]
+      - 4Sarina-1221
+      - 4Jadi-1508
+      - 4Jadi-1354
+      - 4Mohsen-1400
+      - 4Mohsen-1170
       - 4Kian-1500
-      - HK²_30|5.2MB/s|1%|YT|NF|D+|X|Succeed
-      - 越南_010718001
-      - 德国_010718215 3
-      - 4Sarina-1893
-      - 美国_010713034
-      - 4Mohsen-1528
-      - HK²_49|1.1MB/s|1%|YT|D+|X|History
-      - 英国 | GBR
-      - 4Kian-1305
-      - FI²_3|0.6MB/s|0%|GPT⁺|X|[广播|商宽]
+      - 4Mohsen-1402
+      - HK²_2|13.2MB/s|1%|GPT|YT|NF|D+|X|[原生|住宅]
+      - HK²_3|12.8MB/s|1%|GPT⁺|YT|D+|X|[原生|住宅]
+      - HK²_6|4.5MB/s|1%|YT|D+|X
+      - KR²_3|2.3MB/s|1%|GPT⁺|YT-CN|D+|X|[原生|住宅]
+      - HK²_9|5.7MB/s|1%|GPT⁺|YT|D+|X|History|[原生|住宅]
+      - HK²_10|2.4MB/s|D+|X|History
+      - HK²_11|3.4MB/s|1%|X
+      - HK²_13|3.3MB/s|1%|D+|X
+      - KR²_6|9.4MB/s|3%|GPT⁺|GM|YT|NF|D+|X|Succeed|[原生|住宅]
+      - HK²_14|3.1MB/s|D+|X
+      - HK²_15|4.7MB/s|1%|GPT|D+|X|History|[原生|住宅]
+      - HK²_16|3.2MB/s|YT|D+|X|[原生|住宅]
+      - HK²_20|2.9MB/s|GPT|NF|D+|X|[原生|住宅]
+      - HK²_21|3.0MB/s|1%|YT|X|History|[原生|住宅]
+      - 哈萨克斯坦_010823001
+      - 亚美尼亚 | ARM
+      - 香港 | HKG
+      - HK-42.98.241.59-0368
+      - HK(AzadNet.t.me)
+      - 4Jadi-588
+      - 4Jadi-1238
+      - 4Jadi-1465
+      - 4Jadi-1486
+      - 4Jadi-2750
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -193,156 +167,130 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4FreeIran-1626
-      - 德国_010723726
-      - 4Nika-1485
-      - 4Mohsen-1521
-      - FR²_1|7.0MB/s|0%|GPT⁺|YT-US|TK|NF|X|History|[广播|机房]
-      - 4Kian-1273
-      - 德国_010718215
-      - HK²_31|4.1MB/s|1%|GPT|YT|NF|D+|X|History
-      - 4Mohsen-1552
-      - 台湾 | TWN 15
-      - 4Mohsen-1640
-      - 台湾 | TWN 8
+      - TW_530e1_0054
+      - KR_faab2_0016
+      - 4Nika-863
+      - KR_1|1.1MB/s
+      - 4Nika-1781
+      - FR²_1|6.9MB/s|0%|GPT|YT-US|X|History|[广播|机房]
+      - KR²_11|8.5MB/s|1%|GPT⁺|YT-CN|D+|X|History
+      - 4Nika-1191
       - 4FreeIran-1429
-      - 4Mohsen-1642
-      - 4Mohsen-1411
-      - 4Nika-1523
-      - 4Mohsen-1333
-      - DE²_1|6.3MB/s|9%|GPT⁺|YT|TK|NF|X|[原生|机房]
-      - 4Mohsen-1402
-      - 4Mohsen-1437
-      - 4Kian-1356
-      - 台湾 | TWN
-      - 日本_010718044
-      - 4Mohsen-1025
-      - 德国_010718215 2
-      - _KR_韩国_2
-      - KR²_3|0.8MB/s|1%|GPT⁺|YT-CN|NF|D+|X|History
-      - KR²_1|9.8MB/s|3%|GPT⁺|GM|YT|NF|D+|X|Succeed|[原生|住宅]
-      - SC²_1|0.6MB/s|0%|GM|YT-US|NF|X
-      - 4Sarina-1023
-      - GR²_1|4.9MB/s|20%|GPT⁺|TK|NF|X|Succeed|[广播|商宽]
-      - 4Sarina-1308
-      - 4Mohsen-1566
-      - HK²_33|1.3MB/s|1%|YT|D+|X
-      - _KR_韩国
-      - 柬埔寨_010723001
-      - 4Sarina-3438
-      - HK(AzadNet.t.me)
-      - HK²_23|3.2MB/s|1%|GPT|YT|NF|D+|X|History|[原生|住宅]
-      - KZ²_2|2.1MB/s|34%|GPT⁺|YT|TK|NF|X|History|[广播|机房]
-      - HK²_1|6.7MB/s|1%|YT|D+|X|Succeed
-      - 4Sarina-1878
-      - FR_15b92_0003
-      - 4Mohsen-1381
-      - 4Kian-1508
-      - 日本_010618013
-      - 4Sarina-1277
-      - HK-42.98.241.59-0368
-      - 4Mohsen-1469
+      - DE²_6|4.5MB/s|11%|GPT⁺|X|[广播|机房]
+      - FR²_6|6.3MB/s|0%|GPT⁺|X|History
+      - VN_7|1.2MB/s
+      - 4FreeIran-1271
+      - 4FreeIran-1194
+      - 4Nika-1180
+      - 4Sarina-1433
+      - 4Nika-1348
+      - 4Jadi-1405
+      - 4Nika-1446
+      - 4Mohsen-1419
+      - VN_530e1_0086
+      - 4FreeIran-1318
+      - VN_faab2_0085
+      - 4FreeIran-1290
+      - 4Nika-1305
+      - 4Mohsen-1325
       - 4Mohsen-1611
-      - 台湾 | TWN 20
-      - 4Sarina-1297
-      - 4Mohsen-1468
-      - 4Mohsen-1600
-      - HK²_18|6.1MB/s|1%|GPT|YT|NF|D+|X|Succeed|[原生|住宅]
-      - US_15b92_0031
-      - HK_1|1.0MB/s
-      - HK²_14|3.7MB/s|1%|GPT|YT|NF|D+|X|History|[原生|住宅]
-      - HK²_4|3.9MB/s|1%|GPT⁺|YT|NF|D+|X|History
-      - KR_15b92_0011
-      - 4Kian-1512
+      - VN²_4|1.7MB/s|GPT⁺|X|[原生|机房]
+      - 4Sarina-1221
+      - 4Jadi-1508
+      - 4Jadi-1354
+      - 4Mohsen-1400
+      - 4Mohsen-1170
       - 4Kian-1500
-      - HK²_30|5.2MB/s|1%|YT|NF|D+|X|Succeed
-      - 越南_010718001
-      - 德国_010718215 3
-      - 4Sarina-1893
-      - 美国_010713034
-      - 4Mohsen-1528
-      - HK²_49|1.1MB/s|1%|YT|D+|X|History
-      - 英国 | GBR
-      - 4Kian-1305
-      - FI²_3|0.6MB/s|0%|GPT⁺|X|[广播|商宽]
+      - 4Mohsen-1402
+      - HK²_2|13.2MB/s|1%|GPT|YT|NF|D+|X|[原生|住宅]
+      - HK²_3|12.8MB/s|1%|GPT⁺|YT|D+|X|[原生|住宅]
+      - HK²_6|4.5MB/s|1%|YT|D+|X
+      - KR²_3|2.3MB/s|1%|GPT⁺|YT-CN|D+|X|[原生|住宅]
+      - HK²_9|5.7MB/s|1%|GPT⁺|YT|D+|X|History|[原生|住宅]
+      - HK²_10|2.4MB/s|D+|X|History
+      - HK²_11|3.4MB/s|1%|X
+      - HK²_13|3.3MB/s|1%|D+|X
+      - KR²_6|9.4MB/s|3%|GPT⁺|GM|YT|NF|D+|X|Succeed|[原生|住宅]
+      - HK²_14|3.1MB/s|D+|X
+      - HK²_15|4.7MB/s|1%|GPT|D+|X|History|[原生|住宅]
+      - HK²_16|3.2MB/s|YT|D+|X|[原生|住宅]
+      - HK²_20|2.9MB/s|GPT|NF|D+|X|[原生|住宅]
+      - HK²_21|3.0MB/s|1%|YT|X|History|[原生|住宅]
+      - 哈萨克斯坦_010823001
+      - 亚美尼亚 | ARM
+      - 香港 | HKG
+      - HK-42.98.241.59-0368
+      - HK(AzadNet.t.me)
+      - 4Jadi-588
+      - 4Jadi-1238
+      - 4Jadi-1465
+      - 4Jadi-1486
+      - 4Jadi-2750
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4FreeIran-1626
-      - 德国_010723726
-      - 4Nika-1485
-      - 4Mohsen-1521
-      - FR²_1|7.0MB/s|0%|GPT⁺|YT-US|TK|NF|X|History|[广播|机房]
-      - 4Kian-1273
-      - 德国_010718215
-      - HK²_31|4.1MB/s|1%|GPT|YT|NF|D+|X|History
-      - 4Mohsen-1552
-      - 台湾 | TWN 15
-      - 4Mohsen-1640
-      - 台湾 | TWN 8
+      - TW_530e1_0054
+      - KR_faab2_0016
+      - 4Nika-863
+      - KR_1|1.1MB/s
+      - 4Nika-1781
+      - FR²_1|6.9MB/s|0%|GPT|YT-US|X|History|[广播|机房]
+      - KR²_11|8.5MB/s|1%|GPT⁺|YT-CN|D+|X|History
+      - 4Nika-1191
       - 4FreeIran-1429
-      - 4Mohsen-1642
-      - 4Mohsen-1411
-      - 4Nika-1523
-      - 4Mohsen-1333
-      - DE²_1|6.3MB/s|9%|GPT⁺|YT|TK|NF|X|[原生|机房]
-      - 4Mohsen-1402
-      - 4Mohsen-1437
-      - 4Kian-1356
-      - 台湾 | TWN
-      - 日本_010718044
-      - 4Mohsen-1025
-      - 德国_010718215 2
-      - _KR_韩国_2
-      - KR²_3|0.8MB/s|1%|GPT⁺|YT-CN|NF|D+|X|History
-      - KR²_1|9.8MB/s|3%|GPT⁺|GM|YT|NF|D+|X|Succeed|[原生|住宅]
-      - SC²_1|0.6MB/s|0%|GM|YT-US|NF|X
-      - 4Sarina-1023
-      - GR²_1|4.9MB/s|20%|GPT⁺|TK|NF|X|Succeed|[广播|商宽]
-      - 4Sarina-1308
-      - 4Mohsen-1566
-      - HK²_33|1.3MB/s|1%|YT|D+|X
-      - _KR_韩国
-      - 柬埔寨_010723001
-      - 4Sarina-3438
-      - HK(AzadNet.t.me)
-      - HK²_23|3.2MB/s|1%|GPT|YT|NF|D+|X|History|[原生|住宅]
-      - KZ²_2|2.1MB/s|34%|GPT⁺|YT|TK|NF|X|History|[广播|机房]
-      - HK²_1|6.7MB/s|1%|YT|D+|X|Succeed
-      - 4Sarina-1878
-      - FR_15b92_0003
-      - 4Mohsen-1381
-      - 4Kian-1508
-      - 日本_010618013
-      - 4Sarina-1277
-      - HK-42.98.241.59-0368
-      - 4Mohsen-1469
+      - DE²_6|4.5MB/s|11%|GPT⁺|X|[广播|机房]
+      - FR²_6|6.3MB/s|0%|GPT⁺|X|History
+      - VN_7|1.2MB/s
+      - 4FreeIran-1271
+      - 4FreeIran-1194
+      - 4Nika-1180
+      - 4Sarina-1433
+      - 4Nika-1348
+      - 4Jadi-1405
+      - 4Nika-1446
+      - 4Mohsen-1419
+      - VN_530e1_0086
+      - 4FreeIran-1318
+      - VN_faab2_0085
+      - 4FreeIran-1290
+      - 4Nika-1305
+      - 4Mohsen-1325
       - 4Mohsen-1611
-      - 台湾 | TWN 20
-      - 4Sarina-1297
-      - 4Mohsen-1468
-      - 4Mohsen-1600
-      - HK²_18|6.1MB/s|1%|GPT|YT|NF|D+|X|Succeed|[原生|住宅]
-      - US_15b92_0031
-      - HK_1|1.0MB/s
-      - HK²_14|3.7MB/s|1%|GPT|YT|NF|D+|X|History|[原生|住宅]
-      - HK²_4|3.9MB/s|1%|GPT⁺|YT|NF|D+|X|History
-      - KR_15b92_0011
-      - 4Kian-1512
+      - VN²_4|1.7MB/s|GPT⁺|X|[原生|机房]
+      - 4Sarina-1221
+      - 4Jadi-1508
+      - 4Jadi-1354
+      - 4Mohsen-1400
+      - 4Mohsen-1170
       - 4Kian-1500
-      - HK²_30|5.2MB/s|1%|YT|NF|D+|X|Succeed
-      - 越南_010718001
-      - 德国_010718215 3
-      - 4Sarina-1893
-      - 美国_010713034
-      - 4Mohsen-1528
-      - HK²_49|1.1MB/s|1%|YT|D+|X|History
-      - 英国 | GBR
-      - 4Kian-1305
-      - FI²_3|0.6MB/s|0%|GPT⁺|X|[广播|商宽]
+      - 4Mohsen-1402
+      - HK²_2|13.2MB/s|1%|GPT|YT|NF|D+|X|[原生|住宅]
+      - HK²_3|12.8MB/s|1%|GPT⁺|YT|D+|X|[原生|住宅]
+      - HK²_6|4.5MB/s|1%|YT|D+|X
+      - KR²_3|2.3MB/s|1%|GPT⁺|YT-CN|D+|X|[原生|住宅]
+      - HK²_9|5.7MB/s|1%|GPT⁺|YT|D+|X|History|[原生|住宅]
+      - HK²_10|2.4MB/s|D+|X|History
+      - HK²_11|3.4MB/s|1%|X
+      - HK²_13|3.3MB/s|1%|D+|X
+      - KR²_6|9.4MB/s|3%|GPT⁺|GM|YT|NF|D+|X|Succeed|[原生|住宅]
+      - HK²_14|3.1MB/s|D+|X
+      - HK²_15|4.7MB/s|1%|GPT|D+|X|History|[原生|住宅]
+      - HK²_16|3.2MB/s|YT|D+|X|[原生|住宅]
+      - HK²_20|2.9MB/s|GPT|NF|D+|X|[原生|住宅]
+      - HK²_21|3.0MB/s|1%|YT|X|History|[原生|住宅]
+      - 哈萨克斯坦_010823001
+      - 亚美尼亚 | ARM
+      - 香港 | HKG
+      - HK-42.98.241.59-0368
+      - HK(AzadNet.t.me)
+      - 4Jadi-588
+      - 4Jadi-1238
+      - 4Jadi-1465
+      - 4Jadi-1486
+      - 4Jadi-2750
   - name: 🐟 漏网之鱼
     type: select
     proxies:
