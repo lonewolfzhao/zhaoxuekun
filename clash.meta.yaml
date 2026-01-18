@@ -26,33 +26,53 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Jadi-1471, server: 103.186.155.53, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1464, server: 103.186.155.47, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1201, server: 103.186.154.17, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1243, server: 103.186.154.218, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1371, server: 103.186.155.12, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 立陶宛_011718058 L0, server: 45.87.175.200, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-- {name: 4Jadi-1417, server: 103.186.155.220, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: "FR²_3|5.5MB/s|1%|GPT⁺|TK|X|Succeed|[广播|机房]", server: 13.38.30.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: DE151｜机房｜低风险, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: HK²_1|0.9MB/s|1%|YT|NF|D+|X|Succeed, server: 58.152.110.50, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
-- {name: 香港_011718002, server: 58.152.53.219, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
-- {name: HK²_2|3.9MB/s|0%|YT|D+|X, server: gd2.bjnet2.com, port: 36602, type: ss, cipher: aes-128-gcm, password: be1c6eab-3d70-4cf0-ae9a-b3175c7dfb47, plugin: obfs, plugin-opts: {mode: http, host: 9962b9147f2651d984febb6ba061f477.baidu.com}, udp: true}
-- {name: HK²_3|10.6MB/s|0%|YT|NF|D+|X, server: gd.bjnet2.com, port: 36602, type: ss, cipher: aes-128-gcm, password: be1c6eab-3d70-4cf0-ae9a-b3175c7dfb47, plugin: obfs, plugin-opts: {mode: http, host: 9962b9147f2651d984febb6ba061f477.baidu.com}, udp: true}
-- {name: 4Jadi-1498, server: 103.186.155.82, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1756, server: 171.22.254.17, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 4Jadi-1354, server: 103.186.155.113, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 香港_011723190, server: 212.192.15.59, port: 60129, type: ss, cipher: aes-256-gcm, password: 7e1dd4c55bf85da5, udp: true}
-- {name: 4Jadi-1185, server: 103.186.154.163, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: DE151｜机房｜低风险 2, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 乌克兰_011718016, server: 217.12.219.157, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: TPXQERRdwexaQR25TWQvzA, udp: true}
-- {name: 4Jadi-1412, server: 103.186.155.213, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: "FR²_2|5.6MB/s|1%|GPT⁺|X|[广播|机房]", server: 15.236.220.134, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-- {name: 4Jadi-1297, server: 103.186.154.39, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1479, server: 103.186.155.60, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1269, server: 103.186.154.241, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1344, server: 103.186.155.104, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1208, server: 103.186.154.186, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1343, server: 103.186.155.105, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: "VN²_14|1.7MB/s|GPT⁺|X|Succeed|[原生|机房]", server: 103.186.154.172, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1333, server: 103.186.154.76, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1459, server: 103.186.155.43, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: "VN²_17|1.6MB/s|GPT⁺|X|Succeed|[原生|机房]", server: 103.186.154.237, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1156, server: 103.186.154.12, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1411, server: 103.186.155.213, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1310, server: 103.186.154.52, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: "VN²_26|1.0MB/s|GPT⁺|GM|YT-US|X|[原生|机房]", server: 103.186.155.64, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: "VN²_3|2.0MB/s|GPT⁺|X|Succeed|[原生|机房]", server: 103.186.154.197, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1389, server: 103.186.155.147, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1366, server: 103.186.155.126, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: "CY²_1|5.5MB/s|22%|GPT⁺|YT-US|TK|NF|X|[广播|机房]", server: 45.12.136.170, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: l668XHPejoSNNuD66BYzyehaCpZexiF7, udp: true}
+- {name: 4FreeIran-1163, server: 103.186.154.145, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-1273, server: 103.186.154.248, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1280, server: 103.186.154.254, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: VN_5|1.0MB/s, server: 103.186.155.120, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 美国_011813005 L0, server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+- {name: VN²_20|0.8MB/s|GPT⁺|GM|X|Succeed, server: 103.186.155.40, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: VN²_2|0.8MB/s|GPT⁺|YT-US|X, server: 103.186.155.231, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-1290, server: 103.186.154.34, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 越南 | VNM 4, server: 103.186.155.31, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 越南 | VNM 8, server: 103.186.154.67, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1263, server: 103.186.154.236, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1348, server: 103.186.155.108, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1399, server: 103.186.155.17, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1414, server: 103.186.155.215, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: CN2｜家宽｜非常安全, server: 183.236.51.36, port: 59003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Sarina-1169, server: 103.186.154.166, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1353, server: 103.186.155.131, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-3299, server: 154.90.55.15, port: 11201, type: ss, cipher: rc4-md5, password: b13c4c021cec2c0b, udp: true}
+- {name: HK²_1|6.7MB/s|2%|YT|NF|D+|X|Succeed, server: 58.152.46.246, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
+- {name: "US²_1|4.7MB/s|54%|GPT⁺|GM|YT|NF|X|History|[广播|机房]", server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+- {name: "FI²_4|0.6MB/s|20%|GPT⁺|NF|X|Succeed|[广播|商宽]", server: 38.244.209.215, port: 443, type: ss, cipher: aes-256-gcm, password: 17295b92-4e50-425c-af95-ee44c42bc03e, udp: true}
+- {name: 4Jadi-1144, server: 103.186.154.139, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1250, server: 103.186.154.242, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1253, server: 103.186.154.246, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1256, server: 103.186.154.249, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1290, server: 103.186.154.51, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1301, server: 103.186.154.62, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1411, server: 103.186.155.233, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1432, server: 103.186.155.35, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1434, server: 103.186.155.38, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1461, server: 103.186.155.62, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 香港_011823186, server: 212.192.15.59, port: 60129, type: ss, cipher: aes-256-gcm, password: 7e1dd4c55bf85da5, udp: true}
+- {name: CN2｜家宽｜非常安全 2, server: 183.236.51.36, port: 59003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -65,33 +85,53 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Jadi-1471
-      - 4Jadi-1464
-      - 4Jadi-1201
-      - 4Jadi-1243
-      - 4Jadi-1371
-      - 立陶宛_011718058 L0
-      - 4Jadi-1417
-      - FR²_3|5.5MB/s|1%|GPT⁺|TK|X|Succeed|[广播|机房]
-      - DE151｜机房｜低风险
-      - HK²_1|0.9MB/s|1%|YT|NF|D+|X|Succeed
-      - 香港_011718002
-      - HK²_2|3.9MB/s|0%|YT|D+|X
-      - HK²_3|10.6MB/s|0%|YT|NF|D+|X
-      - 4Jadi-1498
-      - 4Jadi-1756
-      - 4Jadi-1354
-      - 香港_011723190
-      - 4Jadi-1185
-      - DE151｜机房｜低风险 2
       - 乌克兰_011718016
-      - 4Jadi-1412
-      - FR²_2|5.6MB/s|1%|GPT⁺|X|[广播|机房]
-      - 4Jadi-1297
-      - 4Jadi-1479
-      - 4Jadi-1269
-      - 4Jadi-1344
-      - 4Jadi-1208
+      - 4Jadi-1343
+      - VN²_14|1.7MB/s|GPT⁺|X|Succeed|[原生|机房]
+      - 4Jadi-1333
+      - 4Jadi-1459
+      - VN²_17|1.6MB/s|GPT⁺|X|Succeed|[原生|机房]
+      - 4Sarina-1156
+      - 4Sarina-1411
+      - 4Jadi-1310
+      - VN²_26|1.0MB/s|GPT⁺|GM|YT-US|X|[原生|机房]
+      - VN²_3|2.0MB/s|GPT⁺|X|Succeed|[原生|机房]
+      - 4Nika-1389
+      - 4Jadi-1366
+      - CY²_1|5.5MB/s|22%|GPT⁺|YT-US|TK|NF|X|[广播|机房]
+      - 4FreeIran-1163
+      - 4FreeIran-1273
+      - 4Jadi-1280
+      - VN_5|1.0MB/s
+      - 美国_011813005 L0
+      - VN²_20|0.8MB/s|GPT⁺|GM|X|Succeed
+      - VN²_2|0.8MB/s|GPT⁺|YT-US|X
+      - 4FreeIran-1290
+      - 越南 | VNM 4
+      - 越南 | VNM 8
+      - 4Nika-1263
+      - 4Nika-1348
+      - 4Nika-1399
+      - 4Nika-1414
+      - CN2｜家宽｜非常安全
+      - 4Sarina-1169
+      - 4Sarina-1353
+      - 4Sarina-3299
+      - HK²_1|6.7MB/s|2%|YT|NF|D+|X|Succeed
+      - US²_1|4.7MB/s|54%|GPT⁺|GM|YT|NF|X|History|[广播|机房]
+      - FI²_4|0.6MB/s|20%|GPT⁺|NF|X|Succeed|[广播|商宽]
+      - 4Jadi-1144
+      - 4Jadi-1250
+      - 4Jadi-1253
+      - 4Jadi-1256
+      - 4Jadi-1290
+      - 4Jadi-1301
+      - 4Jadi-1411
+      - 4Jadi-1432
+      - 4Jadi-1434
+      - 4Jadi-1461
+      - 香港_011823186
+      - CN2｜家宽｜非常安全 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -103,66 +143,106 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Jadi-1471
-      - 4Jadi-1464
-      - 4Jadi-1201
-      - 4Jadi-1243
-      - 4Jadi-1371
-      - 立陶宛_011718058 L0
-      - 4Jadi-1417
-      - FR²_3|5.5MB/s|1%|GPT⁺|TK|X|Succeed|[广播|机房]
-      - DE151｜机房｜低风险
-      - HK²_1|0.9MB/s|1%|YT|NF|D+|X|Succeed
-      - 香港_011718002
-      - HK²_2|3.9MB/s|0%|YT|D+|X
-      - HK²_3|10.6MB/s|0%|YT|NF|D+|X
-      - 4Jadi-1498
-      - 4Jadi-1756
-      - 4Jadi-1354
-      - 香港_011723190
-      - 4Jadi-1185
-      - DE151｜机房｜低风险 2
       - 乌克兰_011718016
-      - 4Jadi-1412
-      - FR²_2|5.6MB/s|1%|GPT⁺|X|[广播|机房]
-      - 4Jadi-1297
-      - 4Jadi-1479
-      - 4Jadi-1269
-      - 4Jadi-1344
-      - 4Jadi-1208
+      - 4Jadi-1343
+      - VN²_14|1.7MB/s|GPT⁺|X|Succeed|[原生|机房]
+      - 4Jadi-1333
+      - 4Jadi-1459
+      - VN²_17|1.6MB/s|GPT⁺|X|Succeed|[原生|机房]
+      - 4Sarina-1156
+      - 4Sarina-1411
+      - 4Jadi-1310
+      - VN²_26|1.0MB/s|GPT⁺|GM|YT-US|X|[原生|机房]
+      - VN²_3|2.0MB/s|GPT⁺|X|Succeed|[原生|机房]
+      - 4Nika-1389
+      - 4Jadi-1366
+      - CY²_1|5.5MB/s|22%|GPT⁺|YT-US|TK|NF|X|[广播|机房]
+      - 4FreeIran-1163
+      - 4FreeIran-1273
+      - 4Jadi-1280
+      - VN_5|1.0MB/s
+      - 美国_011813005 L0
+      - VN²_20|0.8MB/s|GPT⁺|GM|X|Succeed
+      - VN²_2|0.8MB/s|GPT⁺|YT-US|X
+      - 4FreeIran-1290
+      - 越南 | VNM 4
+      - 越南 | VNM 8
+      - 4Nika-1263
+      - 4Nika-1348
+      - 4Nika-1399
+      - 4Nika-1414
+      - CN2｜家宽｜非常安全
+      - 4Sarina-1169
+      - 4Sarina-1353
+      - 4Sarina-3299
+      - HK²_1|6.7MB/s|2%|YT|NF|D+|X|Succeed
+      - US²_1|4.7MB/s|54%|GPT⁺|GM|YT|NF|X|History|[广播|机房]
+      - FI²_4|0.6MB/s|20%|GPT⁺|NF|X|Succeed|[广播|商宽]
+      - 4Jadi-1144
+      - 4Jadi-1250
+      - 4Jadi-1253
+      - 4Jadi-1256
+      - 4Jadi-1290
+      - 4Jadi-1301
+      - 4Jadi-1411
+      - 4Jadi-1432
+      - 4Jadi-1434
+      - 4Jadi-1461
+      - 香港_011823186
+      - CN2｜家宽｜非常安全 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Jadi-1471
-      - 4Jadi-1464
-      - 4Jadi-1201
-      - 4Jadi-1243
-      - 4Jadi-1371
-      - 立陶宛_011718058 L0
-      - 4Jadi-1417
-      - FR²_3|5.5MB/s|1%|GPT⁺|TK|X|Succeed|[广播|机房]
-      - DE151｜机房｜低风险
-      - HK²_1|0.9MB/s|1%|YT|NF|D+|X|Succeed
-      - 香港_011718002
-      - HK²_2|3.9MB/s|0%|YT|D+|X
-      - HK²_3|10.6MB/s|0%|YT|NF|D+|X
-      - 4Jadi-1498
-      - 4Jadi-1756
-      - 4Jadi-1354
-      - 香港_011723190
-      - 4Jadi-1185
-      - DE151｜机房｜低风险 2
       - 乌克兰_011718016
-      - 4Jadi-1412
-      - FR²_2|5.6MB/s|1%|GPT⁺|X|[广播|机房]
-      - 4Jadi-1297
-      - 4Jadi-1479
-      - 4Jadi-1269
-      - 4Jadi-1344
-      - 4Jadi-1208
+      - 4Jadi-1343
+      - VN²_14|1.7MB/s|GPT⁺|X|Succeed|[原生|机房]
+      - 4Jadi-1333
+      - 4Jadi-1459
+      - VN²_17|1.6MB/s|GPT⁺|X|Succeed|[原生|机房]
+      - 4Sarina-1156
+      - 4Sarina-1411
+      - 4Jadi-1310
+      - VN²_26|1.0MB/s|GPT⁺|GM|YT-US|X|[原生|机房]
+      - VN²_3|2.0MB/s|GPT⁺|X|Succeed|[原生|机房]
+      - 4Nika-1389
+      - 4Jadi-1366
+      - CY²_1|5.5MB/s|22%|GPT⁺|YT-US|TK|NF|X|[广播|机房]
+      - 4FreeIran-1163
+      - 4FreeIran-1273
+      - 4Jadi-1280
+      - VN_5|1.0MB/s
+      - 美国_011813005 L0
+      - VN²_20|0.8MB/s|GPT⁺|GM|X|Succeed
+      - VN²_2|0.8MB/s|GPT⁺|YT-US|X
+      - 4FreeIran-1290
+      - 越南 | VNM 4
+      - 越南 | VNM 8
+      - 4Nika-1263
+      - 4Nika-1348
+      - 4Nika-1399
+      - 4Nika-1414
+      - CN2｜家宽｜非常安全
+      - 4Sarina-1169
+      - 4Sarina-1353
+      - 4Sarina-3299
+      - HK²_1|6.7MB/s|2%|YT|NF|D+|X|Succeed
+      - US²_1|4.7MB/s|54%|GPT⁺|GM|YT|NF|X|History|[广播|机房]
+      - FI²_4|0.6MB/s|20%|GPT⁺|NF|X|Succeed|[广播|商宽]
+      - 4Jadi-1144
+      - 4Jadi-1250
+      - 4Jadi-1253
+      - 4Jadi-1256
+      - 4Jadi-1290
+      - 4Jadi-1301
+      - 4Jadi-1411
+      - 4Jadi-1432
+      - 4Jadi-1434
+      - 4Jadi-1461
+      - 香港_011823186
+      - CN2｜家宽｜非常安全 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
