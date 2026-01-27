@@ -26,23 +26,95 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4FreeIran-1310, server: 103.186.155.136, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1386, server: 103.186.155.38, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN²_3|1.8MB/s|X|History, server: 103.186.155.22, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1352, server: 103.186.155.227, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Kian-1363, server: 103.186.155.233, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1280, server: 103.186.155.108, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1318, server: 103.186.155.147, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 英国_012618307, server: 82.38.31.99, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-- {name: 4Sarina-1295, server: 103.186.155.126, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN_a11bb_0064, server: 103.186.154.226, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1293, server: 103.186.155.120, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1205, server: 103.186.154.246, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN²_1|2.2MB/s|X|History, server: 103.186.154.43, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1413, server: 103.186.155.62, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: NL²_1|1.4MB/s|100%|GPT⁺|NF|X, server: 82.38.31.82, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-- {name: 香港_012623002, server: 58.152.53.45, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
-- {name: 4Jadi-1235, server: 103.186.154.4, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1259, server: 103.186.155.107, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1176, server: 103.186.154.242, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 香港_012718153, server: cea9883a-t9mv40-tar8u7-1fy29.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 500dd8cc-a21c-11ec-bd7c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 香港_012718151, server: 0746e6b4-t9mv40-tb08pe-luwe.hkt.gotochinatown.net, port: 80, type: vmess, uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 香港_012718258, server: ddaf61a9-t9hb40-tar8u7-1fy29.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 500dd8cc-a21c-11ec-bd7c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 美国_012718036, server: xcel999z.pet0er23mh21qq.com, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: jeoaR1Npe2doOh4vpjdnAQ, udp: true}
+- {name: VN4｜商宽｜非常安全, server: faq1.lieerr222.cn, port: 43528, type: vmess, uuid: eb9c50e3-a4b5-4fcf-8023-3abdededd9ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 香港_012718155, server: 3db23874-t9mv40-t9x9zr-1lkt0.hkt.gotochinatown.net, port: 80, type: vmess, uuid: cd1b0ae0-4010-11ee-953a-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 4Sarina-1191, server: 103.186.154.34, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Kian-1182, server: 103.186.154.252, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-1384, server: 103.186.155.65, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1402, server: 103.186.155.9, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1398, server: 103.186.155.68, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 香港_012718224, server: 3746cd32-t9hb40-tipjoa-1slop.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 520b9126-9870-11ef-81b0-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 4FreeIran-1388, server: 103.186.155.64, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-1206, server: 103.186.154.47, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 香港_012718220, server: 3f637c17-t94cg0-tcuz7t-1ta58.hkt.gotochinatown.net, port: 80, type: vmess, uuid: e2d8b574-e089-11ef-9cc7-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: HK_2|1018KB/s, server: 18.179.118.202, port: 1867, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
+- {name: 香港_012718219, server: d0cdc1f2-t94cg0-tc9wl2-py5w.hkt.gotochinatown.net, port: 80, type: vmess, uuid: ae5338ae-9a70-58c9-3d47-7d54a5675715, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 4FreeIran-1058, server: 103.186.154.12, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 香港_012718218, server: c6467880-t8ysg0-taksay-1tcuf.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 3952a514-eaa7-11ef-97da-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: VN8｜商宽｜非常安全, server: faq1.lieerr222.cn, port: 43528, type: vmess, uuid: 0d21bd4d-95fa-4d11-b6d3-9a433566ea59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 香港_012718213, server: 23aa5ec8-t8ysg0-tcmken-19les.hkt.gotochinatown.net, port: 80, type: vmess, uuid: d095ecc6-7b69-11eb-b77b-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 4FreeIran-1247, server: 103.186.155.106, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1231, server: 103.186.154.60, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 香港_012718156, server: 53218d67-t9mv40-taksay-1tcuf.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 3952a514-eaa7-11ef-97da-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: VN3｜商宽｜非常安全, server: faq1.lieerr222.cn, port: 43528, type: vmess, uuid: 1fb9173e-8ab6-489a-b229-cc7ac87df1ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4FreeIran-1256, server: 103.186.155.115, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 香港_012718222, server: 77ecea99-t94cg0-tnt75r-1k8ga.hkt.gotochinatown.net, port: 80, type: vmess, uuid: f860f2da-5035-11ed-bb74-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 香港_012718214, server: 807da387-t8ysg0-tnt75r-1k8ga.hkt.gotochinatown.net, port: 80, type: vmess, uuid: f860f2da-5035-11ed-bb74-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: VN7｜商宽｜非常安全, server: faq1.lieerr222.cn, port: 43528, type: vmess, uuid: a50d2ea3-a221-4869-934d-ba83c0f600a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: VN6｜商宽｜非常安全, server: faq1.lieerr222.cn, port: 43528, type: vmess, uuid: 86199dde-be12-4285-8572-91aa55bcb646, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Jadi-1286, server: 103.186.155.143, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Kian-1340, server: 103.186.155.240, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 香港_012718255, server: 24a3f1e7-t8ysg0-ta00rd-1o8ak.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 8bb68d04-6973-11ee-b518-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 4FreeIran-1236, server: 103.186.154.76, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1165, server: 103.186.154.227, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-1354, server: 103.186.155.38, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1405, server: 103.186.155.78, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-1210, server: 103.186.154.50, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: DE29｜机房｜高风险 (黑名单), server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4FreeIran-1230, server: 103.186.154.70, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 香港_012718154, server: 7c31dbe6-t9mv40-tipjoa-1slop.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 520b9126-9870-11ef-81b0-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: VN2｜商宽｜非常安全, server: faq1.lieerr222.cn, port: 43528, type: vmess, uuid: fb1348c8-c0c0-48a0-bb0a-753f0e7ba7da, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 香港_012718216, server: c6f53a1e-t8wxs0-trftb1-1psmw.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 42bb6d36-97c7-11ee-be7f-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 日本_012718010 L0, server: 160.16.70.180, port: 3901, type: trojan, password: 869e9086806483ca4744a4cb0f3d6e16, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+- {name: 美国_012718012, server: 13.158.129.83, port: 2173, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
+- {name: 香港_012718221, server: 317e22e6-t94cg0-tcmken-19les.hkt.gotochinatown.net, port: 80, type: vmess, uuid: d095ecc6-7b69-11eb-b77b-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 4Sarina-1063, server: 103.186.154.144, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: NO_1|1.4MB/s, server: 51.15.23.63, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 以色列_012723009, server: 185.241.5.151, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: YZfUL9ixJ_Hl86vKK41CWg, udp: true}
+- {name: 日本_012723011 L0, server: 160.16.87.174, port: 3901, type: trojan, password: 869e9086806483ca4744a4cb0f3d6e16, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+- {name: 日本_012723013, server: 52.195.170.6, port: 491, type: trojan, password: 869e9086806483ca4744a4cb0f3d6e16, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+- {name: 未知_0127235616, server: vip3.kaixincloud.top, port: 443, type: vmess, uuid: e83b705e-4541-4ea3-9c2d-e7e9eb1f29c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /GiggityGiggity, headers: {Host: blog.zeitoonapp.shop}}, udp: true}
+- {name: 英国_012723007, server: 82.38.31.82, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+- {name: 香港_012723200, server: 1384913f-t8lts0-t9lm1q-1p1b.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1384913f-t8lts0-t9lm1q-1p1b.hkt.gotochinatown.net}}, udp: true}
+- {name: 香港_012723203, server: 011b0339-t8ysg0-tc9wl2-py5w.hkt.gotochinatown.net, port: 80, type: vmess, uuid: ae5338ae-9a70-58c9-3d47-7d54a5675715, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 香港_012723205, server: 7945fcce-t8wxs0-t9x9zr-1lkt0.hkt.gotochinatown.net, port: 80, type: vmess, uuid: cd1b0ae0-4010-11ee-953a-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 香港_012723249, server: 3550c067-t9mv40-trftb1-1psmw.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 42bb6d36-97c7-11ee-be7f-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 香港_012723250, server: da78346a-t9mv40-tart0c-g3b3.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 香港_012723252, server: e9a95584-t9mv40-tazlv3-11p9g.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 香港_012723254, server: 0229d743-t9mv40-tsdg75-tlhh.hkt.gotochinatown.net, port: 80, type: vmess, uuid: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: DE29｜机房｜高风险 (黑名单) 2, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: CN_speednode_0001, server: mofahx2.til69.com, port: 59009, type: trojan, password: 2f0e3d6c-87b2-49a6-8091-99373bf39ab5, sni: v1-dy.ixigua.com, skip-cert-verify: true, udp: true}
+- {name: CN_speednode_0002, server: mofahx2.til69.com, port: 19797, type: trojan, password: 2f0e3d6c-87b2-49a6-8091-99373bf39ab5, sni: v1-dy.ixigua.com, skip-cert-verify: true, udp: true}
+- {name: CN_speednode_0003, server: mofahx2.til69.com, port: 40391, type: trojan, password: 2f0e3d6c-87b2-49a6-8091-99373bf39ab5, sni: v1-dy.ixigua.com, skip-cert-verify: true, udp: true}
+- {name: CN3｜家宽｜非常安全, server: 183.236.51.36, port: 59003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: VN8｜商宽｜非常安全 2, server: faq1.lieerr222.cn, port: 43528, type: vmess, uuid: 0d21bd4d-95fa-4d11-b6d3-9a433566ea59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: VN3｜商宽｜非常安全 2, server: faq1.lieerr222.cn, port: 43528, type: vmess, uuid: 1fb9173e-8ab6-489a-b229-cc7ac87df1ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: VN7｜商宽｜非常安全 2, server: faq1.lieerr222.cn, port: 43528, type: vmess, uuid: a50d2ea3-a221-4869-934d-ba83c0f600a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: VN6｜商宽｜非常安全 2, server: faq1.lieerr222.cn, port: 43528, type: vmess, uuid: 86199dde-be12-4285-8572-91aa55bcb646, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: DE29｜机房｜高风险 (黑名单) 3, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: VN2｜商宽｜非常安全 2, server: faq1.lieerr222.cn, port: 43528, type: vmess, uuid: fb1348c8-c0c0-48a0-bb0a-753f0e7ba7da, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 澳大利亚 | AUS, server: mofahx2.til69.com, port: 50757, type: trojan, password: 2f0e3d6c-87b2-49a6-8091-99373bf39ab5, sni: v1-dy.ixigua.com, skip-cert-verify: true, udp: true}
+- {name: 香港 | HKG 39, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
+- {name: 尼日利亚 | NGA, server: mofahx2.til69.com, port: 34183, type: trojan, password: 2f0e3d6c-87b2-49a6-8091-99373bf39ab5, sni: v1-dy.ixigua.com, skip-cert-verify: true, udp: true}
+- {name: 美国 | USA 19, server: mofacpdd.til69.com, port: 38921, type: ss, cipher: chacha20-ietf-poly1305, password: 5d68d91f-ccc5-4c00-b1f6-0d764937f4f6, udp: true}
+- {name: 越南 | VNM 5, server: 103.186.155.108, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: VN2｜商宽｜非常安全 3, server: faq1.lieerr222.cn, port: 43528, type: vmess, uuid: fb1348c8-c0c0-48a0-bb0a-753f0e7ba7da, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: VN3｜商宽｜非常安全 3, server: faq1.lieerr222.cn, port: 43528, type: vmess, uuid: 1fb9173e-8ab6-489a-b229-cc7ac87df1ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: VN4｜商宽｜非常安全 2, server: faq1.lieerr222.cn, port: 43528, type: vmess, uuid: eb9c50e3-a4b5-4fcf-8023-3abdededd9ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: VN7｜商宽｜非常安全 3, server: faq1.lieerr222.cn, port: 43528, type: vmess, uuid: a50d2ea3-a221-4869-934d-ba83c0f600a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Jadi-1164, server: 103.186.154.238, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1187, server: 103.186.154.30, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1212, server: 103.186.154.54, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1213, server: 103.186.154.55, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-1235, server: 103.186.154.77, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Jadi-3194, server: 154.90.55.15, port: 11201, type: ss, cipher: rc4-md5, password: b13c4c021cec2c0b, udp: true}
+- {name: xx|1219|puddincat07@Telegram, server: mofacpdd.til69.com, port: 39841, type: ss, cipher: chacha20-ietf-poly1305, password: 5d68d91f-ccc5-4c00-b1f6-0d764937f4f6, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -55,23 +127,95 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4FreeIran-1310
-      - 4FreeIran-1386
-      - VN²_3|1.8MB/s|X|History
-      - 4Sarina-1352
-      - 4Kian-1363
-      - 4FreeIran-1280
-      - 4Sarina-1318
-      - 英国_012618307
-      - 4Sarina-1295
-      - VN_a11bb_0064
-      - 4FreeIran-1293
-      - 4FreeIran-1205
-      - VN²_1|2.2MB/s|X|History
-      - 4FreeIran-1413
-      - NL²_1|1.4MB/s|100%|GPT⁺|NF|X
-      - 香港_012623002
+      - 4Nika-1259
+      - 4Nika-1176
+      - 香港_012718153
+      - 香港_012718151
+      - 香港_012718258
+      - 美国_012718036
+      - VN4｜商宽｜非常安全
+      - 香港_012718155
+      - 4Sarina-1191
+      - 4Kian-1182
+      - 4FreeIran-1384
+      - 4Sarina-1402
+      - 4Nika-1398
+      - 香港_012718224
+      - 4FreeIran-1388
+      - 4FreeIran-1206
+      - 香港_012718220
+      - HK_2|1018KB/s
+      - 香港_012718219
+      - 4FreeIran-1058
+      - 香港_012718218
+      - VN8｜商宽｜非常安全
+      - 香港_012718213
+      - 4FreeIran-1247
+      - 4Nika-1231
+      - 香港_012718156
+      - VN3｜商宽｜非常安全
+      - 4FreeIran-1256
+      - 香港_012718222
+      - 香港_012718214
+      - VN7｜商宽｜非常安全
+      - VN6｜商宽｜非常安全
+      - 4Jadi-1286
+      - 4Kian-1340
+      - 香港_012718255
+      - 4FreeIran-1236
+      - 4Nika-1165
+      - 4FreeIran-1354
+      - 4Nika-1405
+      - 4FreeIran-1210
+      - DE29｜机房｜高风险 (黑名单)
+      - 4FreeIran-1230
+      - 香港_012718154
+      - VN2｜商宽｜非常安全
+      - 香港_012718216
+      - 日本_012718010 L0
+      - 美国_012718012
+      - 香港_012718221
+      - 4Sarina-1063
+      - NO_1|1.4MB/s
+      - 以色列_012723009
+      - 日本_012723011 L0
+      - 日本_012723013
+      - 未知_0127235616
+      - 英国_012723007
+      - 香港_012723200
+      - 香港_012723203
+      - 香港_012723205
+      - 香港_012723249
+      - 香港_012723250
+      - 香港_012723252
+      - 香港_012723254
+      - DE29｜机房｜高风险 (黑名单) 2
+      - CN_speednode_0001
+      - CN_speednode_0002
+      - CN_speednode_0003
+      - CN3｜家宽｜非常安全
+      - VN8｜商宽｜非常安全 2
+      - VN3｜商宽｜非常安全 2
+      - VN7｜商宽｜非常安全 2
+      - VN6｜商宽｜非常安全 2
+      - DE29｜机房｜高风险 (黑名单) 3
+      - VN2｜商宽｜非常安全 2
+      - 澳大利亚 | AUS
+      - 香港 | HKG 39
+      - 尼日利亚 | NGA
+      - 美国 | USA 19
+      - 越南 | VNM 5
+      - VN2｜商宽｜非常安全 3
+      - VN3｜商宽｜非常安全 3
+      - VN4｜商宽｜非常安全 2
+      - VN7｜商宽｜非常安全 3
+      - 4Jadi-1164
+      - 4Jadi-1187
+      - 4Jadi-1212
+      - 4Jadi-1213
       - 4Jadi-1235
+      - 4Jadi-3194
+      - xx|1219|puddincat07@Telegram
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -83,46 +227,190 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4FreeIran-1310
-      - 4FreeIran-1386
-      - VN²_3|1.8MB/s|X|History
-      - 4Sarina-1352
-      - 4Kian-1363
-      - 4FreeIran-1280
-      - 4Sarina-1318
-      - 英国_012618307
-      - 4Sarina-1295
-      - VN_a11bb_0064
-      - 4FreeIran-1293
-      - 4FreeIran-1205
-      - VN²_1|2.2MB/s|X|History
-      - 4FreeIran-1413
-      - NL²_1|1.4MB/s|100%|GPT⁺|NF|X
-      - 香港_012623002
+      - 4Nika-1259
+      - 4Nika-1176
+      - 香港_012718153
+      - 香港_012718151
+      - 香港_012718258
+      - 美国_012718036
+      - VN4｜商宽｜非常安全
+      - 香港_012718155
+      - 4Sarina-1191
+      - 4Kian-1182
+      - 4FreeIran-1384
+      - 4Sarina-1402
+      - 4Nika-1398
+      - 香港_012718224
+      - 4FreeIran-1388
+      - 4FreeIran-1206
+      - 香港_012718220
+      - HK_2|1018KB/s
+      - 香港_012718219
+      - 4FreeIran-1058
+      - 香港_012718218
+      - VN8｜商宽｜非常安全
+      - 香港_012718213
+      - 4FreeIran-1247
+      - 4Nika-1231
+      - 香港_012718156
+      - VN3｜商宽｜非常安全
+      - 4FreeIran-1256
+      - 香港_012718222
+      - 香港_012718214
+      - VN7｜商宽｜非常安全
+      - VN6｜商宽｜非常安全
+      - 4Jadi-1286
+      - 4Kian-1340
+      - 香港_012718255
+      - 4FreeIran-1236
+      - 4Nika-1165
+      - 4FreeIran-1354
+      - 4Nika-1405
+      - 4FreeIran-1210
+      - DE29｜机房｜高风险 (黑名单)
+      - 4FreeIran-1230
+      - 香港_012718154
+      - VN2｜商宽｜非常安全
+      - 香港_012718216
+      - 日本_012718010 L0
+      - 美国_012718012
+      - 香港_012718221
+      - 4Sarina-1063
+      - NO_1|1.4MB/s
+      - 以色列_012723009
+      - 日本_012723011 L0
+      - 日本_012723013
+      - 未知_0127235616
+      - 英国_012723007
+      - 香港_012723200
+      - 香港_012723203
+      - 香港_012723205
+      - 香港_012723249
+      - 香港_012723250
+      - 香港_012723252
+      - 香港_012723254
+      - DE29｜机房｜高风险 (黑名单) 2
+      - CN_speednode_0001
+      - CN_speednode_0002
+      - CN_speednode_0003
+      - CN3｜家宽｜非常安全
+      - VN8｜商宽｜非常安全 2
+      - VN3｜商宽｜非常安全 2
+      - VN7｜商宽｜非常安全 2
+      - VN6｜商宽｜非常安全 2
+      - DE29｜机房｜高风险 (黑名单) 3
+      - VN2｜商宽｜非常安全 2
+      - 澳大利亚 | AUS
+      - 香港 | HKG 39
+      - 尼日利亚 | NGA
+      - 美国 | USA 19
+      - 越南 | VNM 5
+      - VN2｜商宽｜非常安全 3
+      - VN3｜商宽｜非常安全 3
+      - VN4｜商宽｜非常安全 2
+      - VN7｜商宽｜非常安全 3
+      - 4Jadi-1164
+      - 4Jadi-1187
+      - 4Jadi-1212
+      - 4Jadi-1213
       - 4Jadi-1235
+      - 4Jadi-3194
+      - xx|1219|puddincat07@Telegram
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4FreeIran-1310
-      - 4FreeIran-1386
-      - VN²_3|1.8MB/s|X|History
-      - 4Sarina-1352
-      - 4Kian-1363
-      - 4FreeIran-1280
-      - 4Sarina-1318
-      - 英国_012618307
-      - 4Sarina-1295
-      - VN_a11bb_0064
-      - 4FreeIran-1293
-      - 4FreeIran-1205
-      - VN²_1|2.2MB/s|X|History
-      - 4FreeIran-1413
-      - NL²_1|1.4MB/s|100%|GPT⁺|NF|X
-      - 香港_012623002
+      - 4Nika-1259
+      - 4Nika-1176
+      - 香港_012718153
+      - 香港_012718151
+      - 香港_012718258
+      - 美国_012718036
+      - VN4｜商宽｜非常安全
+      - 香港_012718155
+      - 4Sarina-1191
+      - 4Kian-1182
+      - 4FreeIran-1384
+      - 4Sarina-1402
+      - 4Nika-1398
+      - 香港_012718224
+      - 4FreeIran-1388
+      - 4FreeIran-1206
+      - 香港_012718220
+      - HK_2|1018KB/s
+      - 香港_012718219
+      - 4FreeIran-1058
+      - 香港_012718218
+      - VN8｜商宽｜非常安全
+      - 香港_012718213
+      - 4FreeIran-1247
+      - 4Nika-1231
+      - 香港_012718156
+      - VN3｜商宽｜非常安全
+      - 4FreeIran-1256
+      - 香港_012718222
+      - 香港_012718214
+      - VN7｜商宽｜非常安全
+      - VN6｜商宽｜非常安全
+      - 4Jadi-1286
+      - 4Kian-1340
+      - 香港_012718255
+      - 4FreeIran-1236
+      - 4Nika-1165
+      - 4FreeIran-1354
+      - 4Nika-1405
+      - 4FreeIran-1210
+      - DE29｜机房｜高风险 (黑名单)
+      - 4FreeIran-1230
+      - 香港_012718154
+      - VN2｜商宽｜非常安全
+      - 香港_012718216
+      - 日本_012718010 L0
+      - 美国_012718012
+      - 香港_012718221
+      - 4Sarina-1063
+      - NO_1|1.4MB/s
+      - 以色列_012723009
+      - 日本_012723011 L0
+      - 日本_012723013
+      - 未知_0127235616
+      - 英国_012723007
+      - 香港_012723200
+      - 香港_012723203
+      - 香港_012723205
+      - 香港_012723249
+      - 香港_012723250
+      - 香港_012723252
+      - 香港_012723254
+      - DE29｜机房｜高风险 (黑名单) 2
+      - CN_speednode_0001
+      - CN_speednode_0002
+      - CN_speednode_0003
+      - CN3｜家宽｜非常安全
+      - VN8｜商宽｜非常安全 2
+      - VN3｜商宽｜非常安全 2
+      - VN7｜商宽｜非常安全 2
+      - VN6｜商宽｜非常安全 2
+      - DE29｜机房｜高风险 (黑名单) 3
+      - VN2｜商宽｜非常安全 2
+      - 澳大利亚 | AUS
+      - 香港 | HKG 39
+      - 尼日利亚 | NGA
+      - 美国 | USA 19
+      - 越南 | VNM 5
+      - VN2｜商宽｜非常安全 3
+      - VN3｜商宽｜非常安全 3
+      - VN4｜商宽｜非常安全 2
+      - VN7｜商宽｜非常安全 3
+      - 4Jadi-1164
+      - 4Jadi-1187
+      - 4Jadi-1212
+      - 4Jadi-1213
       - 4Jadi-1235
+      - 4Jadi-3194
+      - xx|1219|puddincat07@Telegram
   - name: 🐟 漏网之鱼
     type: select
     proxies:
