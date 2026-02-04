@@ -26,45 +26,25 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Kian-1312, server: 103.186.155.15, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 德国_020318006, server: 84.247.166.18, port: 21049, type: ss, cipher: chacha20-ietf-poly1305, password: a48b9ca92abebb9f, udp: true}
-- {name: 4Kian-1366, server: 103.186.155.34, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Kian-1102, server: 103.186.154.165, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1169, server: 103.186.154.221, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1230, server: 103.186.154.52, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1240, server: 103.186.154.59, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1274, server: 103.186.155.111, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Kian-1190, server: 103.186.154.248, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Kian-1282, server: 103.186.155.126, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Kian-1309, server: 103.186.155.153, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN_2|1022KB/s, server: 103.186.154.241, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1229, server: 103.186.154.51, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1243, server: 103.186.154.62, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Kian-1181, server: 103.186.154.239, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: SE_1|1.0MB/s, server: 51.20.96.71, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Sarina-1343, server: 103.186.155.224, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1145, server: 103.186.154.207, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 美国_0203183560, server: 68.167.181.220, port: 10086, type: vmess, uuid: 3c3bcf4e-96b0-4f05-8e4c-13485a0c5c66, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 新加坡_020318299, server: ss.038.node-for-bigairport.win, port: 16689, type: ss, cipher: aes-256-gcm, password: c69374da-2208-4cbd-b81e-cdf88b5e7f53, udp: true}
-- {name: 4Sarina-1195, server: 103.186.154.246, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1381, server: 103.186.155.43, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1223, server: 103.186.154.42, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1183, server: 103.186.154.234, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Kian-1372, server: 103.186.155.40, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Kian-1396, server: 103.186.155.62, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Kian-1276, server: 103.186.155.120, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1332, server: 103.186.155.20, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Kian-1258, server: 103.186.155.103, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Kian-1378, server: 103.186.155.46, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: US²_2|0.6MB/s|X, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 95b4c6dc-9367-45c9-9b09-a0e51b9b1fad, sni: douyin.com, skip-cert-verify: true, udp: true}
-- {name: 4Kian-1216, server: 103.186.154.43, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1420, server: 103.186.155.84, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Kian-1242, server: 103.186.154.68, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: US²_3|0.9MB/s|X, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 9a9865f9-82fa-475e-a634-165f4737f6fe, skip-cert-verify: true, udp: true}
-- {name: 俄罗斯联邦_020309435, server: ru1.clear-vpn.org, port: 504, type: ss, cipher: chacha20-ietf-poly1305, password: nKohne07VrxB-nq43cxzs7Vu9Nnp4JXY, udp: true}
-- {name: US²_4|0.6MB/s|D+|X|History, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: a940d1f5-2c1a-45b7-a140-0d7653d47932, skip-cert-verify: true, udp: true}
-- {name: 4Kian-1305, server: 103.186.155.147, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1411, server: 103.186.155.75, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1248, server: 103.186.154.63, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Mohsen-578, server: 62.133.63.169, port: 37096, type: ss, cipher: chacha20-ietf-poly1305, password: Ul0rGyAAed5HRDpvFqr2C0, udp: true}
+- {name: 4Sarina-1237, server: 103.186.154.52, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1231, server: 103.186.154.47, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: AE²_1|3.2MB/s|GPT⁺|X|History, server: 154.90.55.15, port: 11201, type: ss, cipher: rc4-md5, password: b13c4c021cec2c0b, udp: true}
+- {name: 4Sarina-1240, server: 103.186.154.55, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1386, server: 103.186.155.43, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 法国_020418001, server: 51.254.142.162, port: 5223, type: ss, cipher: chacha20-ietf-poly1305, password: hnITSVgdQOQF6aCT4YIizv, udp: true}
+- {name: 4Sarina-1790, server: 221.139.79.41, port: 49049, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 4Sarina-1784, server: 218.234.149.9, port: 17975, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: GB_c2a86_0013, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Sarina-1779, server: 121.170.203.147, port: 19203, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 4Sarina-1782, server: 211.201.169.70, port: 51537, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 4Sarina-1287, server: 103.186.155.120, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1191, server: 103.186.154.238, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: KR_c2a86_0023, server: 49.128.219.21, port: 52850, type: vmess, uuid: 8dc4a51e-9c44-48a5-9e21-ff65a9343c8f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/x]}, udp: true}
+- {name: _KR_韩国, server: 221.139.79.20, port: 29707, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 4Sarina-1255, server: 103.186.154.70, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1282, server: 103.186.155.115, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -77,45 +57,25 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Kian-1312
-      - 德国_020318006
-      - 4Kian-1366
-      - 4Kian-1102
-      - 4Sarina-1169
-      - 4Jadi-1230
+      - 4Sarina-1248
+      - 4Mohsen-578
+      - 4Sarina-1237
+      - 4Sarina-1231
+      - AE²_1|3.2MB/s|GPT⁺|X|History
       - 4Sarina-1240
-      - 4Sarina-1274
-      - 4Kian-1190
-      - 4Kian-1282
-      - 4Kian-1309
-      - VN_2|1022KB/s
-      - 4Jadi-1229
-      - 4Sarina-1243
-      - 4Kian-1181
-      - SE_1|1.0MB/s
-      - 4Sarina-1343
-      - 4FreeIran-1145
-      - 美国_0203183560
-      - 新加坡_020318299
-      - 4Sarina-1195
-      - 4Sarina-1381
-      - 4FreeIran-1223
-      - 4Sarina-1183
-      - 4Kian-1372
-      - 4Kian-1396
-      - 4Kian-1276
-      - 4Sarina-1332
-      - 4Kian-1258
-      - 4Kian-1378
-      - US²_2|0.6MB/s|X
-      - 4Kian-1216
-      - 4Sarina-1420
-      - 4Kian-1242
-      - US²_3|0.9MB/s|X
-      - 俄罗斯联邦_020309435
-      - US²_4|0.6MB/s|D+|X|History
-      - 4Kian-1305
-      - 4Sarina-1411
+      - 4Sarina-1386
+      - 法国_020418001
+      - 4Sarina-1790
+      - 4Sarina-1784
+      - GB_c2a86_0013
+      - 4Sarina-1779
+      - 4Sarina-1782
+      - 4Sarina-1287
+      - 4Sarina-1191
+      - KR_c2a86_0023
+      - _KR_韩国
+      - 4Sarina-1255
+      - 4Sarina-1282
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -127,90 +87,50 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Kian-1312
-      - 德国_020318006
-      - 4Kian-1366
-      - 4Kian-1102
-      - 4Sarina-1169
-      - 4Jadi-1230
+      - 4Sarina-1248
+      - 4Mohsen-578
+      - 4Sarina-1237
+      - 4Sarina-1231
+      - AE²_1|3.2MB/s|GPT⁺|X|History
       - 4Sarina-1240
-      - 4Sarina-1274
-      - 4Kian-1190
-      - 4Kian-1282
-      - 4Kian-1309
-      - VN_2|1022KB/s
-      - 4Jadi-1229
-      - 4Sarina-1243
-      - 4Kian-1181
-      - SE_1|1.0MB/s
-      - 4Sarina-1343
-      - 4FreeIran-1145
-      - 美国_0203183560
-      - 新加坡_020318299
-      - 4Sarina-1195
-      - 4Sarina-1381
-      - 4FreeIran-1223
-      - 4Sarina-1183
-      - 4Kian-1372
-      - 4Kian-1396
-      - 4Kian-1276
-      - 4Sarina-1332
-      - 4Kian-1258
-      - 4Kian-1378
-      - US²_2|0.6MB/s|X
-      - 4Kian-1216
-      - 4Sarina-1420
-      - 4Kian-1242
-      - US²_3|0.9MB/s|X
-      - 俄罗斯联邦_020309435
-      - US²_4|0.6MB/s|D+|X|History
-      - 4Kian-1305
-      - 4Sarina-1411
+      - 4Sarina-1386
+      - 法国_020418001
+      - 4Sarina-1790
+      - 4Sarina-1784
+      - GB_c2a86_0013
+      - 4Sarina-1779
+      - 4Sarina-1782
+      - 4Sarina-1287
+      - 4Sarina-1191
+      - KR_c2a86_0023
+      - _KR_韩国
+      - 4Sarina-1255
+      - 4Sarina-1282
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Kian-1312
-      - 德国_020318006
-      - 4Kian-1366
-      - 4Kian-1102
-      - 4Sarina-1169
-      - 4Jadi-1230
+      - 4Sarina-1248
+      - 4Mohsen-578
+      - 4Sarina-1237
+      - 4Sarina-1231
+      - AE²_1|3.2MB/s|GPT⁺|X|History
       - 4Sarina-1240
-      - 4Sarina-1274
-      - 4Kian-1190
-      - 4Kian-1282
-      - 4Kian-1309
-      - VN_2|1022KB/s
-      - 4Jadi-1229
-      - 4Sarina-1243
-      - 4Kian-1181
-      - SE_1|1.0MB/s
-      - 4Sarina-1343
-      - 4FreeIran-1145
-      - 美国_0203183560
-      - 新加坡_020318299
-      - 4Sarina-1195
-      - 4Sarina-1381
-      - 4FreeIran-1223
-      - 4Sarina-1183
-      - 4Kian-1372
-      - 4Kian-1396
-      - 4Kian-1276
-      - 4Sarina-1332
-      - 4Kian-1258
-      - 4Kian-1378
-      - US²_2|0.6MB/s|X
-      - 4Kian-1216
-      - 4Sarina-1420
-      - 4Kian-1242
-      - US²_3|0.9MB/s|X
-      - 俄罗斯联邦_020309435
-      - US²_4|0.6MB/s|D+|X|History
-      - 4Kian-1305
-      - 4Sarina-1411
+      - 4Sarina-1386
+      - 法国_020418001
+      - 4Sarina-1790
+      - 4Sarina-1784
+      - GB_c2a86_0013
+      - 4Sarina-1779
+      - 4Sarina-1782
+      - 4Sarina-1287
+      - 4Sarina-1191
+      - KR_c2a86_0023
+      - _KR_韩国
+      - 4Sarina-1255
+      - 4Sarina-1282
   - name: 🐟 漏网之鱼
     type: select
     proxies:
