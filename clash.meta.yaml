@@ -26,10 +26,36 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: _GB_英国, server: admin.c2.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true}
-- {name: 德国 | DEU 4, server: 185.100.159.79, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ENX7SUeUQwVOzSHvl7dXiX, udp: true}
-- {name: DE51｜机房｜高风险 (黑名单), server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 未知_1, server: 103.186.154.152, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1428, server: 103.186.155.230, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1399, server: 103.186.155.16, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-1448, server: 103.186.155.54, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 越南 | VNM 6, server: 103.186.155.122, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-1472, server: 103.186.155.80, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: _IR_伊朗, server: 5.34.222.4, port: 43642, type: trojan, password: 347ca311-8fc2-499c-8fe1-bd0ecb50f1b3, sni: iepl.usq1.cat.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 4FreeIran-1199, server: 103.186.154.200, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-1474, server: 103.186.155.82, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1276, server: 103.186.154.39, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1216, server: 103.186.154.193, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-1196, server: 103.186.154.198, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1245, server: 103.186.154.23, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-1414, server: 103.186.155.23, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-1350, server: 103.186.155.132, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 越南 | VNM 7, server: 103.186.154.196, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 越南 | VNM 2, server: 103.186.154.40, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 未知_1, server: 103.186.154.191, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 越南 | VNM 10, server: 103.186.154.178, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: BG_f7b99_0001, server: 87.120.219.124, port: 2086, type: vmess, uuid: e6a866ca-1756-44ed-9866-a9949f2bad38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [fast.com]}}, udp: true}
+- {name: 4Sarina-1329, server: 103.186.154.69, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1262, server: 103.186.154.25, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-1176, server: 103.186.154.17, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-1446, server: 103.186.155.52, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 越南 | VNM, server: 103.186.154.244, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 越南 | VNM 8, server: 103.186.155.146, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1363, server: 103.186.155.121, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 越南 | VNM 11, server: 103.186.154.233, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1302, server: 103.186.154.64, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1396, server: 103.186.155.154, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1258, server: 103.186.154.251, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +68,36 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _GB_英国
-      - 德国 | DEU 4
-      - DE51｜机房｜高风险 (黑名单)
+      - 4Sarina-1428
+      - 4Sarina-1399
+      - 4FreeIran-1448
+      - 越南 | VNM 6
+      - 4FreeIran-1472
+      - _IR_伊朗
+      - 4FreeIran-1199
+      - 4FreeIran-1474
+      - 4Sarina-1276
+      - 4Sarina-1216
+      - 4FreeIran-1196
+      - 4Sarina-1245
+      - 4FreeIran-1414
+      - 4FreeIran-1350
+      - 越南 | VNM 7
+      - 越南 | VNM 2
       - 未知_1
+      - 越南 | VNM 10
+      - BG_f7b99_0001
+      - 4Sarina-1329
+      - 4Sarina-1262
+      - 4FreeIran-1176
+      - 4FreeIran-1446
+      - 越南 | VNM
+      - 越南 | VNM 8
+      - 4Sarina-1363
+      - 越南 | VNM 11
+      - 4Sarina-1302
+      - 4Sarina-1396
+      - 4Sarina-1258
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,20 +109,72 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _GB_英国
-      - 德国 | DEU 4
-      - DE51｜机房｜高风险 (黑名单)
+      - 4Sarina-1428
+      - 4Sarina-1399
+      - 4FreeIran-1448
+      - 越南 | VNM 6
+      - 4FreeIran-1472
+      - _IR_伊朗
+      - 4FreeIran-1199
+      - 4FreeIran-1474
+      - 4Sarina-1276
+      - 4Sarina-1216
+      - 4FreeIran-1196
+      - 4Sarina-1245
+      - 4FreeIran-1414
+      - 4FreeIran-1350
+      - 越南 | VNM 7
+      - 越南 | VNM 2
       - 未知_1
+      - 越南 | VNM 10
+      - BG_f7b99_0001
+      - 4Sarina-1329
+      - 4Sarina-1262
+      - 4FreeIran-1176
+      - 4FreeIran-1446
+      - 越南 | VNM
+      - 越南 | VNM 8
+      - 4Sarina-1363
+      - 越南 | VNM 11
+      - 4Sarina-1302
+      - 4Sarina-1396
+      - 4Sarina-1258
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - _GB_英国
-      - 德国 | DEU 4
-      - DE51｜机房｜高风险 (黑名单)
+      - 4Sarina-1428
+      - 4Sarina-1399
+      - 4FreeIran-1448
+      - 越南 | VNM 6
+      - 4FreeIran-1472
+      - _IR_伊朗
+      - 4FreeIran-1199
+      - 4FreeIran-1474
+      - 4Sarina-1276
+      - 4Sarina-1216
+      - 4FreeIran-1196
+      - 4Sarina-1245
+      - 4FreeIran-1414
+      - 4FreeIran-1350
+      - 越南 | VNM 7
+      - 越南 | VNM 2
       - 未知_1
+      - 越南 | VNM 10
+      - BG_f7b99_0001
+      - 4Sarina-1329
+      - 4Sarina-1262
+      - 4FreeIran-1176
+      - 4FreeIran-1446
+      - 越南 | VNM
+      - 越南 | VNM 8
+      - 4Sarina-1363
+      - 越南 | VNM 11
+      - 4Sarina-1302
+      - 4Sarina-1396
+      - 4Sarina-1258
   - name: 🐟 漏网之鱼
     type: select
     proxies:
