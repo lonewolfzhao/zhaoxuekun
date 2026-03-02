@@ -26,16 +26,16 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Jadi-1703, server: 192.36.27.94, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 香港_030118004, server: 31460be3-tb89s0-tcopzl-ggww.hkt.gotochinatown.net, port: 80, type: vmess, uuid: bcc58e88-e147-11ec-b286-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 31460be3-tb89s0-tcopzl-ggww.hkt.gotochinatown.net}}, udp: true}
-- {name: 4FreeIran-1151, server: 103.186.154.208, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1728, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 4FreeIran-1370, server: 103.186.155.33, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: CN_4023a_0006, server: ldu.izenny.com, port: 59906, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da, udp: true}
-- {name: CN_4023a_0004, server: ldu.izenny.com, port: 12589, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da, udp: true}
-- {name: CF中转_03011814042, server: 172.67.74.2, port: 80, type: vmess, uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tr1-smart.adelping.com.}}, udp: true}
-- {name: NL_1|2.5MB/s, server: 194.124.216.55, port: 443, type: trojan, password: VuyKYqyDTU1GFaxF3o, sni: nl-4.tr202504.com, skip-cert-verify: true, udp: true}
-- {name: 4FreeIran-1249, server: 103.186.154.70, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Mohsen-1307, server: 103.186.155.140, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 未知, server: 103.186.154.141, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-639, server: ldu.izenny.com, port: 28063, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da, udp: true}
+- {name: 未知 2, server: 103.186.154.149, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: VN²_1|1.9MB/s|GPT⁺|X|History, server: 103.186.154.56, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 未知 3, server: 103.186.154.212, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 未知 4, server: 103.186.155.115, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1274, server: 103.186.155.110, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: CF中转_030218004, server: 172.67.74.2, port: 80, type: vmess, uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tr1-smart.adelping.com.}}, udp: true}
+- {name: CN_9f9b7_0006, server: ldu.izenny.com, port: 59906, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -48,16 +48,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Jadi-1703
-      - 香港_030118004
-      - 4FreeIran-1151
-      - 4Sarina-1728
-      - 4FreeIran-1370
-      - CN_4023a_0006
-      - CN_4023a_0004
-      - CF中转_03011814042
-      - NL_1|2.5MB/s
-      - 4FreeIran-1249
+      - 4Mohsen-1307
+      - 未知
+      - 4Sarina-639
+      - 未知 2
+      - VN²_1|1.9MB/s|GPT⁺|X|History
+      - 未知 3
+      - 未知 4
+      - 4Nika-1274
+      - CF中转_030218004
+      - CN_9f9b7_0006
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -69,32 +69,32 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Jadi-1703
-      - 香港_030118004
-      - 4FreeIran-1151
-      - 4Sarina-1728
-      - 4FreeIran-1370
-      - CN_4023a_0006
-      - CN_4023a_0004
-      - CF中转_03011814042
-      - NL_1|2.5MB/s
-      - 4FreeIran-1249
+      - 4Mohsen-1307
+      - 未知
+      - 4Sarina-639
+      - 未知 2
+      - VN²_1|1.9MB/s|GPT⁺|X|History
+      - 未知 3
+      - 未知 4
+      - 4Nika-1274
+      - CF中转_030218004
+      - CN_9f9b7_0006
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Jadi-1703
-      - 香港_030118004
-      - 4FreeIran-1151
-      - 4Sarina-1728
-      - 4FreeIran-1370
-      - CN_4023a_0006
-      - CN_4023a_0004
-      - CF中转_03011814042
-      - NL_1|2.5MB/s
-      - 4FreeIran-1249
+      - 4Mohsen-1307
+      - 未知
+      - 4Sarina-639
+      - 未知 2
+      - VN²_1|1.9MB/s|GPT⁺|X|History
+      - 未知 3
+      - 未知 4
+      - 4Nika-1274
+      - CF中转_030218004
+      - CN_9f9b7_0006
   - name: 🐟 漏网之鱼
     type: select
     proxies:
