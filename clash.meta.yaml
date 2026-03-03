@@ -26,16 +26,22 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Mohsen-1307, server: 103.186.155.140, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 未知, server: 103.186.154.141, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-639, server: ldu.izenny.com, port: 28063, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da, udp: true}
-- {name: 未知 2, server: 103.186.154.149, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN²_1|1.9MB/s|GPT⁺|X|History, server: 103.186.154.56, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 未知 3, server: 103.186.154.212, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 未知 4, server: 103.186.155.115, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Nika-1274, server: 103.186.155.110, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: CF中转_030218004, server: 172.67.74.2, port: 80, type: vmess, uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tr1-smart.adelping.com.}}, udp: true}
-- {name: CN_9f9b7_0006, server: ldu.izenny.com, port: 59906, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da, udp: true}
+- {name: 俄罗斯联邦_030318678 L0, server: 195.58.49.100, port: 60129, type: ss, cipher: aes-256-gcm, password: 9f3d1a6d31468599, udp: true}
+- {name: CN_64cd4_0006, server: ldu.izenny.com, port: 59906, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da, udp: true}
+- {name: 4Nika-1072, server: 5.188.181.201, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+- {name: 未知, server: 103.186.154.25, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-642, server: ldu.izenny.com, port: 34411, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da, udp: true}
+- {name: CN_64cd4_0005, server: ldu.izenny.com, port: 25612, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da, udp: true}
+- {name: CN_64cd4_0004, server: ldu.izenny.com, port: 12589, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da, udp: true}
+- {name: VN²_5|1.7MB/s|X, server: 103.186.155.16, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 美国_0303184693, server: 167.17.179.197, port: 60129, type: ss, cipher: aes-256-gcm, password: 0690659746980c46, udp: true}
+- {name: 4Nika-1110, server: 103.186.154.172, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: VN²_2|2.8MB/s|GPT⁺|X|History, server: 103.186.154.240, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1281, server: 103.186.155.122, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1119, server: 103.186.154.180, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-1393, server: 103.186.155.52, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 俄罗斯联邦_030318674, server: 45.140.169.225, port: 60129, type: ss, cipher: aes-256-gcm, password: c5fcdf7829112cb4, udp: true}
+- {name: _CN_中国, server: 103.149.183.80, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -48,16 +54,22 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Mohsen-1307
+      - 俄罗斯联邦_030318678 L0
+      - CN_64cd4_0006
+      - 4Nika-1072
       - 未知
-      - 4Sarina-639
-      - 未知 2
-      - VN²_1|1.9MB/s|GPT⁺|X|History
-      - 未知 3
-      - 未知 4
-      - 4Nika-1274
-      - CF中转_030218004
-      - CN_9f9b7_0006
+      - 4Nika-642
+      - CN_64cd4_0005
+      - CN_64cd4_0004
+      - VN²_5|1.7MB/s|X
+      - 美国_0303184693
+      - 4Nika-1110
+      - VN²_2|2.8MB/s|GPT⁺|X|History
+      - 4Nika-1281
+      - 4Nika-1119
+      - 4FreeIran-1393
+      - 俄罗斯联邦_030318674
+      - _CN_中国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -69,32 +81,44 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Mohsen-1307
+      - 俄罗斯联邦_030318678 L0
+      - CN_64cd4_0006
+      - 4Nika-1072
       - 未知
-      - 4Sarina-639
-      - 未知 2
-      - VN²_1|1.9MB/s|GPT⁺|X|History
-      - 未知 3
-      - 未知 4
-      - 4Nika-1274
-      - CF中转_030218004
-      - CN_9f9b7_0006
+      - 4Nika-642
+      - CN_64cd4_0005
+      - CN_64cd4_0004
+      - VN²_5|1.7MB/s|X
+      - 美国_0303184693
+      - 4Nika-1110
+      - VN²_2|2.8MB/s|GPT⁺|X|History
+      - 4Nika-1281
+      - 4Nika-1119
+      - 4FreeIran-1393
+      - 俄罗斯联邦_030318674
+      - _CN_中国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Mohsen-1307
+      - 俄罗斯联邦_030318678 L0
+      - CN_64cd4_0006
+      - 4Nika-1072
       - 未知
-      - 4Sarina-639
-      - 未知 2
-      - VN²_1|1.9MB/s|GPT⁺|X|History
-      - 未知 3
-      - 未知 4
-      - 4Nika-1274
-      - CF中转_030218004
-      - CN_9f9b7_0006
+      - 4Nika-642
+      - CN_64cd4_0005
+      - CN_64cd4_0004
+      - VN²_5|1.7MB/s|X
+      - 美国_0303184693
+      - 4Nika-1110
+      - VN²_2|2.8MB/s|GPT⁺|X|History
+      - 4Nika-1281
+      - 4Nika-1119
+      - 4FreeIran-1393
+      - 俄罗斯联邦_030318674
+      - _CN_中国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
