@@ -26,31 +26,24 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Nika-1083, server: 103.186.154.146, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1356, server: 103.186.155.2, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1332, server: 103.186.155.226, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1403, server: 103.186.155.76, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 未知, server: 103.186.154.150, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Mohsen-1101, server: 103.186.154.160, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: "VN²_2|2.7MB/s|GPT⁺|GM|X|History|[原生|机房]", server: 103.186.154.16, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Nika-1365, server: 103.186.155.30, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Nika-1222, server: 103.186.154.46, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Nika-1120, server: 103.186.154.181, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1404, server: 103.186.155.77, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1337, server: 103.186.155.22, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Mohsen-1217, server: 103.186.154.49, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1269, server: 103.186.155.119, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Nika-1196, server: 103.186.154.250, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1341, server: 103.186.155.233, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1172, server: 103.186.154.236, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1309, server: 103.186.155.183, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-807, server: 103.149.182.79, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
-- {name: 4Mohsen-1236, server: 103.186.154.67, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Mohsen-1240, server: 103.186.154.71, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1134, server: 103.186.154.202, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Nika-1169, server: 103.186.154.226, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Mohsen-1191, server: 103.186.154.253, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1183, server: 103.186.154.247, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1244, server: 103.186.154.68, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Mohsen-1307, server: 103.186.155.149, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1187, server: 103.186.154.243, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 美国_030518055, server: 104.211.63.232, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2RGrp6ZndpeLnsck, udp: true}
+- {name: 4FreeIran-1312, server: 103.186.155.15, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1393, server: 103.186.155.57, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: VN²_2|3.1MB/s|GPT|X|History, server: 103.186.154.235, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-1403, server: 103.186.155.68, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: "VN²_7|1.2MB/s|GPT⁺|X|Succeed|[原生|机房]", server: 103.186.154.253, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Kian-1415, server: 103.186.155.85, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-1399, server: 103.186.155.64, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Kian-1149, server: 103.186.154.210, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 英国_030518459, server: 31.58.223.134, port: 8443, type: vmess, uuid: 78cdc6b7-8b14-47d6-bf09-3167bc5124fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4FreeIran-1122, server: 103.186.154.186, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-1215, server: 103.186.154.42, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-1250, server: 103.186.154.76, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1209, server: 103.186.154.34, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Kian-1233, server: 103.186.154.59, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -63,31 +56,24 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Nika-1083
-      - 4FreeIran-1356
-      - 4Sarina-1332
+      - 4Sarina-1244
+      - 4Mohsen-1307
+      - 4Sarina-1187
+      - 美国_030518055
+      - 4FreeIran-1312
+      - 4Sarina-1393
+      - VN²_2|3.1MB/s|GPT|X|History
       - 4FreeIran-1403
-      - 未知
-      - 4Mohsen-1101
-      - VN²_2|2.7MB/s|GPT⁺|GM|X|History|[原生|机房]
-      - 4Nika-1365
-      - 4Nika-1222
-      - 4Nika-1120
-      - 4FreeIran-1404
-      - 4FreeIran-1337
-      - 4Mohsen-1217
-      - 4Sarina-1269
-      - 4Nika-1196
-      - 4FreeIran-1341
-      - 4FreeIran-1172
-      - 4Sarina-1309
-      - 4Sarina-807
-      - 4Mohsen-1236
-      - 4Mohsen-1240
-      - 4Sarina-1134
-      - 4Nika-1169
-      - 4Mohsen-1191
-      - 4Sarina-1183
+      - VN²_7|1.2MB/s|GPT⁺|X|Succeed|[原生|机房]
+      - 4Kian-1415
+      - 4FreeIran-1399
+      - 4Kian-1149
+      - 英国_030518459
+      - 4FreeIran-1122
+      - 4FreeIran-1215
+      - 4FreeIran-1250
+      - 4Sarina-1209
+      - 4Kian-1233
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -99,62 +85,48 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Nika-1083
-      - 4FreeIran-1356
-      - 4Sarina-1332
+      - 4Sarina-1244
+      - 4Mohsen-1307
+      - 4Sarina-1187
+      - 美国_030518055
+      - 4FreeIran-1312
+      - 4Sarina-1393
+      - VN²_2|3.1MB/s|GPT|X|History
       - 4FreeIran-1403
-      - 未知
-      - 4Mohsen-1101
-      - VN²_2|2.7MB/s|GPT⁺|GM|X|History|[原生|机房]
-      - 4Nika-1365
-      - 4Nika-1222
-      - 4Nika-1120
-      - 4FreeIran-1404
-      - 4FreeIran-1337
-      - 4Mohsen-1217
-      - 4Sarina-1269
-      - 4Nika-1196
-      - 4FreeIran-1341
-      - 4FreeIran-1172
-      - 4Sarina-1309
-      - 4Sarina-807
-      - 4Mohsen-1236
-      - 4Mohsen-1240
-      - 4Sarina-1134
-      - 4Nika-1169
-      - 4Mohsen-1191
-      - 4Sarina-1183
+      - VN²_7|1.2MB/s|GPT⁺|X|Succeed|[原生|机房]
+      - 4Kian-1415
+      - 4FreeIran-1399
+      - 4Kian-1149
+      - 英国_030518459
+      - 4FreeIran-1122
+      - 4FreeIran-1215
+      - 4FreeIran-1250
+      - 4Sarina-1209
+      - 4Kian-1233
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Nika-1083
-      - 4FreeIran-1356
-      - 4Sarina-1332
+      - 4Sarina-1244
+      - 4Mohsen-1307
+      - 4Sarina-1187
+      - 美国_030518055
+      - 4FreeIran-1312
+      - 4Sarina-1393
+      - VN²_2|3.1MB/s|GPT|X|History
       - 4FreeIran-1403
-      - 未知
-      - 4Mohsen-1101
-      - VN²_2|2.7MB/s|GPT⁺|GM|X|History|[原生|机房]
-      - 4Nika-1365
-      - 4Nika-1222
-      - 4Nika-1120
-      - 4FreeIran-1404
-      - 4FreeIran-1337
-      - 4Mohsen-1217
-      - 4Sarina-1269
-      - 4Nika-1196
-      - 4FreeIran-1341
-      - 4FreeIran-1172
-      - 4Sarina-1309
-      - 4Sarina-807
-      - 4Mohsen-1236
-      - 4Mohsen-1240
-      - 4Sarina-1134
-      - 4Nika-1169
-      - 4Mohsen-1191
-      - 4Sarina-1183
+      - VN²_7|1.2MB/s|GPT⁺|X|Succeed|[原生|机房]
+      - 4Kian-1415
+      - 4FreeIran-1399
+      - 4Kian-1149
+      - 英国_030518459
+      - 4FreeIran-1122
+      - 4FreeIran-1215
+      - 4FreeIran-1250
+      - 4Sarina-1209
+      - 4Kian-1233
   - name: 🐟 漏网之鱼
     type: select
     proxies:
