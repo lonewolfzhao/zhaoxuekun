@@ -26,33 +26,11 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 丹麦_030713016, server: 158.173.20.171, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-- {name: 美国_0307184783, server: 144.31.131.32, port: 9443, type: ss, cipher: chacha20-ietf-poly1305, password: yoNzQ7Q6qbC1Mx5QpGvdPsHpRsqkvQxk, udp: true}
-- {name: 克罗地亚_030713001, server: 5.181.2.76, port: 36608, type: ss, cipher: chacha20-ietf-poly1305, password: JOZ5Mb3nJCmmoKhd8Cc9aC, udp: true}
-- {name: 4FreeIran-1653, server: 121.127.46.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 日本 | JPN 2, server: 31.58.223.134, port: 8443, type: vmess, uuid: 78cdc6b7-8b14-47d6-bf09-3167bc5124fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 机场地址https://kelayun.notepin.co, server: 49.51.184.74, port: 31976, type: vmess, uuid: cde69f5b-2641-469d-8930-fd290d084adf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 机场地址https://kelayun.notepin.co 2, server: 49.51.184.74, port: 31976, type: vmess, uuid: cde69f5b-2641-469d-8930-fd290d084adf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4Nika-1086, server: 103.186.154.158, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: "VN²_7|2.4MB/s|X|History|[原生|机房]", server: 103.186.154.241, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 机场地址https://kelayun.notepin.co 2 2, server: 49.51.184.74, port: 31976, type: vmess, uuid: cde69f5b-2641-469d-8930-fd290d084adf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4FreeIran-1069, server: 103.186.154.142, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1292, server: 103.186.155.141, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: SG15｜机房｜低风险, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 未知, server: 103.186.154.62, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN²_5|2.5MB/s|GPT⁺|YT|X|History, server: 103.186.155.65, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: VN²_2|0.7MB/s|GPT⁺|X|History, server: 103.186.155.213, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Nika-1104, server: 103.186.154.175, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: "VN²_9|2.2MB/s|GPT|GM|YT-US|X|History|[原生|机房]", server: 103.186.155.123, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 未知 2, server: 103.186.155.40, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1408, server: 103.186.155.83, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 未知 3, server: 103.186.155.105, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Nika-1203, server: 103.186.154.36, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1293, server: 103.186.155.142, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Nika-1131, server: 103.186.154.19, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Kian-1278, server: 103.186.155.129, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1231, server: 103.186.154.63, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1126, server: 103.186.154.195, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1321, server: 103.186.155.221, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Mohsen-3322, server: 137.184.174.93, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: 4Sarina-1346, server: 103.186.155.27, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 荷兰_030818817, server: 8443.golden-cards.me, port: 443, type: trojan, password: q2GRUM1-odJBWq_KV6xv2fuNvu8ed-, skip-cert-verify: true, udp: true}
+- {name: 香港_030818012, server: 58.152.25.253, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -65,33 +43,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 丹麦_030713016
-      - 美国_0307184783
-      - 克罗地亚_030713001
-      - 4FreeIran-1653
-      - 日本 | JPN 2
-      - 机场地址https://kelayun.notepin.co
-      - 机场地址https://kelayun.notepin.co 2
-      - 4Nika-1086
-      - VN²_7|2.4MB/s|X|History|[原生|机房]
-      - 机场地址https://kelayun.notepin.co 2 2
-      - 4FreeIran-1069
-      - 4FreeIran-1292
-      - SG15｜机房｜低风险
-      - 未知
-      - VN²_5|2.5MB/s|GPT⁺|YT|X|History
-      - VN²_2|0.7MB/s|GPT⁺|X|History
-      - 4Nika-1104
-      - VN²_9|2.2MB/s|GPT|GM|YT-US|X|History|[原生|机房]
-      - 未知 2
-      - 4FreeIran-1408
-      - 未知 3
-      - 4Nika-1203
-      - 4FreeIran-1293
-      - 4Nika-1131
-      - 4Kian-1278
-      - 4FreeIran-1231
-      - 4FreeIran-1126
+      - 4Sarina-1321
+      - 4Mohsen-3322
+      - 4Sarina-1346
+      - 荷兰_030818817
+      - 香港_030818012
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -103,66 +59,22 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 丹麦_030713016
-      - 美国_0307184783
-      - 克罗地亚_030713001
-      - 4FreeIran-1653
-      - 日本 | JPN 2
-      - 机场地址https://kelayun.notepin.co
-      - 机场地址https://kelayun.notepin.co 2
-      - 4Nika-1086
-      - VN²_7|2.4MB/s|X|History|[原生|机房]
-      - 机场地址https://kelayun.notepin.co 2 2
-      - 4FreeIran-1069
-      - 4FreeIran-1292
-      - SG15｜机房｜低风险
-      - 未知
-      - VN²_5|2.5MB/s|GPT⁺|YT|X|History
-      - VN²_2|0.7MB/s|GPT⁺|X|History
-      - 4Nika-1104
-      - VN²_9|2.2MB/s|GPT|GM|YT-US|X|History|[原生|机房]
-      - 未知 2
-      - 4FreeIran-1408
-      - 未知 3
-      - 4Nika-1203
-      - 4FreeIran-1293
-      - 4Nika-1131
-      - 4Kian-1278
-      - 4FreeIran-1231
-      - 4FreeIran-1126
+      - 4Sarina-1321
+      - 4Mohsen-3322
+      - 4Sarina-1346
+      - 荷兰_030818817
+      - 香港_030818012
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 丹麦_030713016
-      - 美国_0307184783
-      - 克罗地亚_030713001
-      - 4FreeIran-1653
-      - 日本 | JPN 2
-      - 机场地址https://kelayun.notepin.co
-      - 机场地址https://kelayun.notepin.co 2
-      - 4Nika-1086
-      - VN²_7|2.4MB/s|X|History|[原生|机房]
-      - 机场地址https://kelayun.notepin.co 2 2
-      - 4FreeIran-1069
-      - 4FreeIran-1292
-      - SG15｜机房｜低风险
-      - 未知
-      - VN²_5|2.5MB/s|GPT⁺|YT|X|History
-      - VN²_2|0.7MB/s|GPT⁺|X|History
-      - 4Nika-1104
-      - VN²_9|2.2MB/s|GPT|GM|YT-US|X|History|[原生|机房]
-      - 未知 2
-      - 4FreeIran-1408
-      - 未知 3
-      - 4Nika-1203
-      - 4FreeIran-1293
-      - 4Nika-1131
-      - 4Kian-1278
-      - 4FreeIran-1231
-      - 4FreeIran-1126
+      - 4Sarina-1321
+      - 4Mohsen-3322
+      - 4Sarina-1346
+      - 荷兰_030818817
+      - 香港_030818012
   - name: 🐟 漏网之鱼
     type: select
     proxies:
