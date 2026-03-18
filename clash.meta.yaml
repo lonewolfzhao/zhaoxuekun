@@ -26,17 +26,28 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 购买地址https://kelayun.notepin.co 2, server: sv3.wy888.us, port: 44302, type: vmess, uuid: 703fe06c-9f00-4308-8fe3-1e2f27da316b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-- {name: 波兰 | POL, server: just-alpaca.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: just-alpaca.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 4FreeIran-1114, server: 103.186.154.196, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 未知, server: 103.186.155.33, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1275, server: 103.186.155.140, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1261, server: 103.186.155.128, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: US_2|1.9MB/s, server: 88.210.36.108, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: 817aa69.default.nintendo.com:112719}, udp: true}
-- {name: 荷兰 | NLD, server: upright-rhino.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: upright-rhino.rooster465.autos, skip-cert-verify: true, udp: true}
 - {name: 购买地址https://kelayun.notepin.co, server: sv3.wy888.us, port: 44302, type: vmess, uuid: 703fe06c-9f00-4308-8fe3-1e2f27da316b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-- {name: SG_5|1009KB/s, server: bbb.whtjdasha.com, port: 59850, type: ss, cipher: chacha20-ietf-poly1305, password: da737830-48a9-4988-864b-baed644fa2e4, udp: true}
-- {name: 4Sarina-1099, server: 103.186.154.183, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 美国_031813806, server: 216.106.185.141, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 购买地址https://kelayun.notepin.co 2, server: sv3.wy888.us, port: 44302, type: vmess, uuid: 703fe06c-9f00-4308-8fe3-1e2f27da316b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: 4Mohsen-1236, server: 103.186.154.53, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-1092, server: 103.186.154.14, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 香港2|@ripaojiedian, server: cn01.365cloud8754.com, port: 6001, type: vmess, uuid: db75bc92-4e32-48dd-b792-d7a8b707626c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 香港2|@ripaojiedian 2, server: cn01.365cloud8754.com, port: 6001, type: vmess, uuid: db75bc92-4e32-48dd-b792-d7a8b707626c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 香港2|@ripaojiedian 3, server: cn01.365cloud8754.com, port: 6001, type: vmess, uuid: db75bc92-4e32-48dd-b792-d7a8b707626c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 香港2|@ripaojiedian 4, server: cn01.365cloud8754.com, port: 6001, type: vmess, uuid: db75bc92-4e32-48dd-b792-d7a8b707626c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4FreeIran-1122, server: 103.186.154.178, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 香港2|@ripaojiedian 5, server: cn01.365cloud8754.com, port: 6001, type: vmess, uuid: db75bc92-4e32-48dd-b792-d7a8b707626c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: GB_da7e6_0007, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: NL_1|1.1MB/s, server: apt-magpie.rooster465.autos, port: 443, type: trojan, password: IL37892054, skip-cert-verify: true, udp: true}
+- {name: VN²_2|1.6MB/s|GPT|X|History, server: 103.186.155.80, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: VN²_3|2.9MB/s|GPT⁺|YT-US|X|History, server: 103.186.154.251, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 美国_031818848, server: 216.106.185.141, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 香港_031818016, server: 58.152.25.253, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
+- {name: 购买地址https://kelayun.notepin.co 3, server: sv3.wy888.us, port: 44302, type: vmess, uuid: 703fe06c-9f00-4308-8fe3-1e2f27da316b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: 未知, server: 103.186.155.154, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 未知 2, server: 103.186.155.230, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1133, server: 103.186.154.188, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1183, server: 103.186.154.233, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -49,17 +60,28 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 购买地址https://kelayun.notepin.co 2
-      - 波兰 | POL
-      - 4FreeIran-1114
-      - 未知
-      - 4FreeIran-1275
-      - 4FreeIran-1261
-      - US_2|1.9MB/s
-      - 荷兰 | NLD
       - 购买地址https://kelayun.notepin.co
-      - SG_5|1009KB/s
-      - 4Sarina-1099
+      - 美国_031813806
+      - 购买地址https://kelayun.notepin.co 2
+      - 4Mohsen-1236
+      - 4FreeIran-1092
+      - 香港2|@ripaojiedian
+      - 香港2|@ripaojiedian 2
+      - 香港2|@ripaojiedian 3
+      - 香港2|@ripaojiedian 4
+      - 4FreeIran-1122
+      - 香港2|@ripaojiedian 5
+      - GB_da7e6_0007
+      - NL_1|1.1MB/s
+      - VN²_2|1.6MB/s|GPT|X|History
+      - VN²_3|2.9MB/s|GPT⁺|YT-US|X|History
+      - 美国_031818848
+      - 香港_031818016
+      - 购买地址https://kelayun.notepin.co 3
+      - 未知
+      - 未知 2
+      - 4Sarina-1133
+      - 4Sarina-1183
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -71,34 +93,56 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 购买地址https://kelayun.notepin.co 2
-      - 波兰 | POL
-      - 4FreeIran-1114
-      - 未知
-      - 4FreeIran-1275
-      - 4FreeIran-1261
-      - US_2|1.9MB/s
-      - 荷兰 | NLD
       - 购买地址https://kelayun.notepin.co
-      - SG_5|1009KB/s
-      - 4Sarina-1099
+      - 美国_031813806
+      - 购买地址https://kelayun.notepin.co 2
+      - 4Mohsen-1236
+      - 4FreeIran-1092
+      - 香港2|@ripaojiedian
+      - 香港2|@ripaojiedian 2
+      - 香港2|@ripaojiedian 3
+      - 香港2|@ripaojiedian 4
+      - 4FreeIran-1122
+      - 香港2|@ripaojiedian 5
+      - GB_da7e6_0007
+      - NL_1|1.1MB/s
+      - VN²_2|1.6MB/s|GPT|X|History
+      - VN²_3|2.9MB/s|GPT⁺|YT-US|X|History
+      - 美国_031818848
+      - 香港_031818016
+      - 购买地址https://kelayun.notepin.co 3
+      - 未知
+      - 未知 2
+      - 4Sarina-1133
+      - 4Sarina-1183
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 购买地址https://kelayun.notepin.co 2
-      - 波兰 | POL
-      - 4FreeIran-1114
-      - 未知
-      - 4FreeIran-1275
-      - 4FreeIran-1261
-      - US_2|1.9MB/s
-      - 荷兰 | NLD
       - 购买地址https://kelayun.notepin.co
-      - SG_5|1009KB/s
-      - 4Sarina-1099
+      - 美国_031813806
+      - 购买地址https://kelayun.notepin.co 2
+      - 4Mohsen-1236
+      - 4FreeIran-1092
+      - 香港2|@ripaojiedian
+      - 香港2|@ripaojiedian 2
+      - 香港2|@ripaojiedian 3
+      - 香港2|@ripaojiedian 4
+      - 4FreeIran-1122
+      - 香港2|@ripaojiedian 5
+      - GB_da7e6_0007
+      - NL_1|1.1MB/s
+      - VN²_2|1.6MB/s|GPT|X|History
+      - VN²_3|2.9MB/s|GPT⁺|YT-US|X|History
+      - 美国_031818848
+      - 香港_031818016
+      - 购买地址https://kelayun.notepin.co 3
+      - 未知
+      - 未知 2
+      - 4Sarina-1133
+      - 4Sarina-1183
   - name: 🐟 漏网之鱼
     type: select
     proxies:
