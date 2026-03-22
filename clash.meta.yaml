@@ -26,27 +26,23 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 梯子地址https://kelayun.notepin.co, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 新加坡_032118146, server: 185.151.146.64, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, udp: true}
-- {name: 拉脱维亚_032113019, server: 94.131.104.67, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, udp: true}
-- {name: 4FreeIran-1287, server: 103.186.155.106, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: MD_761f8_0028, server: 89.221.225.71, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, udp: true}
-- {name: 4Mohsen-1386, server: 103.186.155.31, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1233, server: 103.186.154.34, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Mohsen-1177, server: 103.186.154.213, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 未知, server: 103.186.155.57, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Mohsen-1110, server: 103.186.154.151, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Mohsen-1363, server: 103.186.155.227, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Mohsen-1440, server: 103.186.155.85, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 未知 2, server: 103.186.155.232, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: SG_761f8_0034, server: 185.151.146.40, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, udp: true}
-- {name: 台湾_032118007, server: 220.130.75.219, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, udp: true}
-- {name: _CN_中国, server: 58.152.25.253, port: 443, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
-- {name: 未知 3, server: 103.186.155.127, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 未知 4, server: 103.186.155.102, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-837, server: 103.149.183.113, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
-- {name: 4Sarina-1204, server: 103.186.154.238, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1287, server: 103.186.155.108, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 未知, server: 103.186.155.134, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 未知 2, server: 103.186.154.47, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 未知 3, server: 103.186.154.148, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1461, server: 103.186.155.78, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1768, server: 38.165.233.93, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+- {name: 未知 4, server: 103.186.155.57, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1282, server: 103.186.154.57, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1444, server: 103.186.155.59, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 未知 5, server: 103.186.154.62, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1421, server: 103.186.155.38, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1356, server: 103.186.155.147, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1450, server: 103.186.155.64, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1353, server: 103.186.155.144, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1260, server: 103.186.154.36, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1313, server: 103.186.155.107, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1352, server: 103.186.155.143, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 越南 | VNM 5, server: 103.186.154.66, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -59,27 +55,23 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 梯子地址https://kelayun.notepin.co
-      - 新加坡_032118146
-      - 拉脱维亚_032113019
-      - 4FreeIran-1287
-      - MD_761f8_0028
-      - 4Mohsen-1386
-      - 4FreeIran-1233
-      - 4Mohsen-1177
       - 未知
-      - 4Mohsen-1110
-      - 4Mohsen-1363
-      - 4Mohsen-1440
       - 未知 2
-      - SG_761f8_0034
-      - 台湾_032118007
-      - _CN_中国
       - 未知 3
+      - 4Nika-1461
+      - 4Nika-1768
       - 未知 4
-      - 4Sarina-837
-      - 4Sarina-1204
-      - 4Sarina-1287
+      - 4Sarina-1282
+      - 4Sarina-1444
+      - 未知 5
+      - 4Sarina-1421
+      - 4Sarina-1356
+      - 4Nika-1450
+      - 4Sarina-1353
+      - 4Sarina-1260
+      - 4Nika-1313
+      - 4Sarina-1352
+      - 越南 | VNM 5
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -91,54 +83,46 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 梯子地址https://kelayun.notepin.co
-      - 新加坡_032118146
-      - 拉脱维亚_032113019
-      - 4FreeIran-1287
-      - MD_761f8_0028
-      - 4Mohsen-1386
-      - 4FreeIran-1233
-      - 4Mohsen-1177
       - 未知
-      - 4Mohsen-1110
-      - 4Mohsen-1363
-      - 4Mohsen-1440
       - 未知 2
-      - SG_761f8_0034
-      - 台湾_032118007
-      - _CN_中国
       - 未知 3
+      - 4Nika-1461
+      - 4Nika-1768
       - 未知 4
-      - 4Sarina-837
-      - 4Sarina-1204
-      - 4Sarina-1287
+      - 4Sarina-1282
+      - 4Sarina-1444
+      - 未知 5
+      - 4Sarina-1421
+      - 4Sarina-1356
+      - 4Nika-1450
+      - 4Sarina-1353
+      - 4Sarina-1260
+      - 4Nika-1313
+      - 4Sarina-1352
+      - 越南 | VNM 5
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 梯子地址https://kelayun.notepin.co
-      - 新加坡_032118146
-      - 拉脱维亚_032113019
-      - 4FreeIran-1287
-      - MD_761f8_0028
-      - 4Mohsen-1386
-      - 4FreeIran-1233
-      - 4Mohsen-1177
       - 未知
-      - 4Mohsen-1110
-      - 4Mohsen-1363
-      - 4Mohsen-1440
       - 未知 2
-      - SG_761f8_0034
-      - 台湾_032118007
-      - _CN_中国
       - 未知 3
+      - 4Nika-1461
+      - 4Nika-1768
       - 未知 4
-      - 4Sarina-837
-      - 4Sarina-1204
-      - 4Sarina-1287
+      - 4Sarina-1282
+      - 4Sarina-1444
+      - 未知 5
+      - 4Sarina-1421
+      - 4Sarina-1356
+      - 4Nika-1450
+      - 4Sarina-1353
+      - 4Sarina-1260
+      - 4Nika-1313
+      - 4Sarina-1352
+      - 越南 | VNM 5
   - name: 🐟 漏网之鱼
     type: select
     proxies:
