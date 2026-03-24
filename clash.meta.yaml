@@ -25,18 +25,42 @@ dns:
     geoip-code: CN
     ipcidr:
     - 240.0.0.0/4
+unified-delay: true
+global-client-fingerprint: chrome
+dns:
+  enable: true
+  listen: :53
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+  - 223.5.5.5
+  - 8.8.8.8
+  nameserver:
+  - https://dns.alidns.com/dns-query
+  - https://doh.pub/dns-query
+  fallback:
+  - https://1.0.0.1/dns-query
+  - tls://dns.google
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+    - 240.0.0.0/4
 proxies:
-- {name: 4Sarina-1364, server: 103.186.155.4, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1136, server: 103.186.154.216, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1129, server: 103.186.154.20, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1677, server: 192.36.27.94, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 4FreeIran-1331, server: 103.186.155.236, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 香港_032314013, server: 58.152.25.253, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
-- {name: 未知, server: 103.186.155.134, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 未知 2, server: 103.186.154.241, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Mohsen-1336, server: 103.186.155.240, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1393, server: 103.186.155.79, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Sarina-1622, server: 194.116.173.21, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+- {name: 韩国_032418062, server: positive-bear.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: positive-bear.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: KR_3|1.7MB/s, server: sterling-fowl.rooster465.autos, port: 443, type: trojan, password: WF42809561, sni: sterling-fowl.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: JP_8|1.7MB/s, server: exciting-turtle.rooster465.autos, port: 443, type: trojan, password: WF42809561, sni: exciting-turtle.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: JP_9|1.1MB/s, server: climbing-sawfly.rooster465.autos, port: 443, type: trojan, password: WF42809561, sni: climbing-sawfly.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: SG_2|1.3MB/s, server: settling-humpback.rooster465.autos, port: 443, type: trojan, password: WF42809561, sni: settling-humpback.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 日本_032418094, server: sharp-dogfish.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: sharp-dogfish.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: SG_6|3.3MB/s, server: musical-ant.rooster465.autos, port: 443, type: trojan, password: WF42809561, sni: musical-ant.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 日本_032413093, server: thankful-mustang.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: thankful-mustang.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 日本_032413094, server: welcome-owl.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: welcome-owl.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 美国_0324181019, server: healthy-ewe.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: healthy-ewe.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 4Mohsen-1302, server: 103.186.155.205, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Mohsen-1178, server: 103.186.154.28, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 未知, server: 103.186.155.61, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -49,17 +73,19 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Sarina-1364
-      - 4Sarina-1136
-      - 4Sarina-1129
-      - 4FreeIran-1677
-      - 4FreeIran-1331
-      - 香港_032314013
+      - 韩国_032418062
+      - KR_3|1.7MB/s
+      - JP_8|1.7MB/s
+      - JP_9|1.1MB/s
+      - SG_2|1.3MB/s
+      - 日本_032418094
+      - SG_6|3.3MB/s
+      - 日本_032413093
+      - 日本_032413094
+      - 美国_0324181019
+      - 4Mohsen-1302
+      - 4Mohsen-1178
       - 未知
-      - 未知 2
-      - 4Mohsen-1336
-      - 4Sarina-1393
-      - 4Sarina-1622
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -71,34 +97,38 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Sarina-1364
-      - 4Sarina-1136
-      - 4Sarina-1129
-      - 4FreeIran-1677
-      - 4FreeIran-1331
-      - 香港_032314013
+      - 韩国_032418062
+      - KR_3|1.7MB/s
+      - JP_8|1.7MB/s
+      - JP_9|1.1MB/s
+      - SG_2|1.3MB/s
+      - 日本_032418094
+      - SG_6|3.3MB/s
+      - 日本_032413093
+      - 日本_032413094
+      - 美国_0324181019
+      - 4Mohsen-1302
+      - 4Mohsen-1178
       - 未知
-      - 未知 2
-      - 4Mohsen-1336
-      - 4Sarina-1393
-      - 4Sarina-1622
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Sarina-1364
-      - 4Sarina-1136
-      - 4Sarina-1129
-      - 4FreeIran-1677
-      - 4FreeIran-1331
-      - 香港_032314013
+      - 韩国_032418062
+      - KR_3|1.7MB/s
+      - JP_8|1.7MB/s
+      - JP_9|1.1MB/s
+      - SG_2|1.3MB/s
+      - 日本_032418094
+      - SG_6|3.3MB/s
+      - 日本_032413093
+      - 日本_032413094
+      - 美国_0324181019
+      - 4Mohsen-1302
+      - 4Mohsen-1178
       - 未知
-      - 未知 2
-      - 4Mohsen-1336
-      - 4Sarina-1393
-      - 4Sarina-1622
   - name: 🐟 漏网之鱼
     type: select
     proxies:
