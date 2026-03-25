@@ -25,42 +25,35 @@ dns:
     geoip-code: CN
     ipcidr:
     - 240.0.0.0/4
-unified-delay: true
-global-client-fingerprint: chrome
-dns:
-  enable: true
-  listen: :53
-  ipv6: true
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  default-nameserver:
-  - 223.5.5.5
-  - 8.8.8.8
-  nameserver:
-  - https://dns.alidns.com/dns-query
-  - https://doh.pub/dns-query
-  fallback:
-  - https://1.0.0.1/dns-query
-  - tls://dns.google
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
-    ipcidr:
-    - 240.0.0.0/4
 proxies:
-- {name: 韩国_032418062, server: positive-bear.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: positive-bear.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: KR_3|1.7MB/s, server: sterling-fowl.rooster465.autos, port: 443, type: trojan, password: WF42809561, sni: sterling-fowl.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: JP_8|1.7MB/s, server: exciting-turtle.rooster465.autos, port: 443, type: trojan, password: WF42809561, sni: exciting-turtle.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: JP_9|1.1MB/s, server: climbing-sawfly.rooster465.autos, port: 443, type: trojan, password: WF42809561, sni: climbing-sawfly.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: SG_2|1.3MB/s, server: settling-humpback.rooster465.autos, port: 443, type: trojan, password: WF42809561, sni: settling-humpback.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 日本_032418094, server: sharp-dogfish.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: sharp-dogfish.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: SG_6|3.3MB/s, server: musical-ant.rooster465.autos, port: 443, type: trojan, password: WF42809561, sni: musical-ant.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 日本_032413093, server: thankful-mustang.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: thankful-mustang.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 日本_032413094, server: welcome-owl.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: welcome-owl.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 美国_0324181019, server: healthy-ewe.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: healthy-ewe.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 4Mohsen-1302, server: 103.186.155.205, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Mohsen-1178, server: 103.186.154.28, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 未知, server: 103.186.155.61, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 台湾 | TWN 4, server: r3mrcg0011499tl.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, udp: true}
+- {name: 台湾 | TWN 2, server: r3mrcg001188p8v.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, udp: true}
+- {name: 台湾 | TWN 14, server: n8mrcg004740fsy.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, udp: true}
+- {name: 台湾 | TWN 5, server: r3mrcg0011606bh.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, udp: true}
+- {name: 波兰 | POL, server: 146.59.118.182, port: 443, type: vmess, uuid: 0b72f4f7-55f3-4d83-92ae-e391f6523f44, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [146.59.118.182]}}, udp: true}
+- {name: 台湾_032518013, server: r3mrcg007147vhp.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, udp: true}
+- {name: 台湾 | TWN 3, server: nbmrcg003466pb9.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, udp: true}
+- {name: 台湾 | TWN 9, server: namrcg001640lrm.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, udp: true}
+- {name: 台湾 | TWN 7, server: n8mrcg004697zw5.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, udp: true}
+- {name: 4Mohsen-83, server: r3mrcg001296egb.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, udp: true}
+- {name: 香港 | HKG 7, server: 20.6.128.4, port: 6788, type: vmess, uuid: bfff8306-6102-4fde-8a7f-f025e94f7a53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 台湾 | TWN 12, server: n8mrcg005977h4d.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, udp: true}
+- {name: 台湾 | TWN 13, server: namrcg001666y2h.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, udp: true}
+- {name: 台湾 | TWN, server: r3mrcg001142988.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, udp: true}
+- {name: 香港 | HKG 5, server: 103.149.182.105, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+- {name: 台湾 | TWN 4 2, server: n8mrcg005938lsz.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, udp: true}
+- {name: 未知, server: 103.186.155.54, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: NL_3|1.4MB/s, server: fun-seagull.rooster465.autos, port: 443, type: trojan, password: WF42809561, sni: fun-seagull.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 英国_032518139, server: touching-pigeon.rooster465.autos, port: 443, type: trojan, password: WF42809561, sni: touching-pigeon.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 台湾 | TWN 11, server: n8mrcg004751vh5.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, udp: true}
+- {name: SG²_1|2.4MB/s|X|History, server: 103.186.155.16, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 梯子地址https://kelayun.notepin.co, server: funky-platypus.rooster465.autos, port: 443, type: trojan, password: WF42809561, sni: funky-platypus.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 4Sarina-1109, server: 103.186.154.193, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: VN²_1|2.1MB/s|GPT⁺|GM|X|Succeed, server: 103.186.154.172, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Mohsen-1121, server: 103.186.154.205, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 未知 2, server: 103.186.155.132, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 台湾 | TWN 3 2, server: n8mrcg005998s6m.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, udp: true}
+- {name: 英国_032518138, server: model-stingray.crayfish192.xyz, port: 443, type: trojan, password: WF42809561, sni: model-stingray.crayfish192.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -73,19 +66,34 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 韩国_032418062
-      - KR_3|1.7MB/s
-      - JP_8|1.7MB/s
-      - JP_9|1.1MB/s
-      - SG_2|1.3MB/s
-      - 日本_032418094
-      - SG_6|3.3MB/s
-      - 日本_032413093
-      - 日本_032413094
-      - 美国_0324181019
-      - 4Mohsen-1302
-      - 4Mohsen-1178
+      - 台湾 | TWN 4
+      - 台湾 | TWN 2
+      - 台湾 | TWN 14
+      - 台湾 | TWN 5
+      - 波兰 | POL
+      - 台湾_032518013
+      - 台湾 | TWN 3
+      - 台湾 | TWN 9
+      - 台湾 | TWN 7
+      - 4Mohsen-83
+      - 香港 | HKG 7
+      - 台湾 | TWN 12
+      - 台湾 | TWN 13
+      - 台湾 | TWN
+      - 香港 | HKG 5
+      - 台湾 | TWN 4 2
       - 未知
+      - NL_3|1.4MB/s
+      - 英国_032518139
+      - 台湾 | TWN 11
+      - SG²_1|2.4MB/s|X|History
+      - 梯子地址https://kelayun.notepin.co
+      - 4Sarina-1109
+      - VN²_1|2.1MB/s|GPT⁺|GM|X|Succeed
+      - 4Mohsen-1121
+      - 未知 2
+      - 台湾 | TWN 3 2
+      - 英国_032518138
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -97,38 +105,68 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 韩国_032418062
-      - KR_3|1.7MB/s
-      - JP_8|1.7MB/s
-      - JP_9|1.1MB/s
-      - SG_2|1.3MB/s
-      - 日本_032418094
-      - SG_6|3.3MB/s
-      - 日本_032413093
-      - 日本_032413094
-      - 美国_0324181019
-      - 4Mohsen-1302
-      - 4Mohsen-1178
+      - 台湾 | TWN 4
+      - 台湾 | TWN 2
+      - 台湾 | TWN 14
+      - 台湾 | TWN 5
+      - 波兰 | POL
+      - 台湾_032518013
+      - 台湾 | TWN 3
+      - 台湾 | TWN 9
+      - 台湾 | TWN 7
+      - 4Mohsen-83
+      - 香港 | HKG 7
+      - 台湾 | TWN 12
+      - 台湾 | TWN 13
+      - 台湾 | TWN
+      - 香港 | HKG 5
+      - 台湾 | TWN 4 2
       - 未知
+      - NL_3|1.4MB/s
+      - 英国_032518139
+      - 台湾 | TWN 11
+      - SG²_1|2.4MB/s|X|History
+      - 梯子地址https://kelayun.notepin.co
+      - 4Sarina-1109
+      - VN²_1|2.1MB/s|GPT⁺|GM|X|Succeed
+      - 4Mohsen-1121
+      - 未知 2
+      - 台湾 | TWN 3 2
+      - 英国_032518138
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 韩国_032418062
-      - KR_3|1.7MB/s
-      - JP_8|1.7MB/s
-      - JP_9|1.1MB/s
-      - SG_2|1.3MB/s
-      - 日本_032418094
-      - SG_6|3.3MB/s
-      - 日本_032413093
-      - 日本_032413094
-      - 美国_0324181019
-      - 4Mohsen-1302
-      - 4Mohsen-1178
+      - 台湾 | TWN 4
+      - 台湾 | TWN 2
+      - 台湾 | TWN 14
+      - 台湾 | TWN 5
+      - 波兰 | POL
+      - 台湾_032518013
+      - 台湾 | TWN 3
+      - 台湾 | TWN 9
+      - 台湾 | TWN 7
+      - 4Mohsen-83
+      - 香港 | HKG 7
+      - 台湾 | TWN 12
+      - 台湾 | TWN 13
+      - 台湾 | TWN
+      - 香港 | HKG 5
+      - 台湾 | TWN 4 2
       - 未知
+      - NL_3|1.4MB/s
+      - 英国_032518139
+      - 台湾 | TWN 11
+      - SG²_1|2.4MB/s|X|History
+      - 梯子地址https://kelayun.notepin.co
+      - 4Sarina-1109
+      - VN²_1|2.1MB/s|GPT⁺|GM|X|Succeed
+      - 4Mohsen-1121
+      - 未知 2
+      - 台湾 | TWN 3 2
+      - 英国_032518138
   - name: 🐟 漏网之鱼
     type: select
     proxies:
