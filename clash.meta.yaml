@@ -26,34 +26,29 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 香港 | HKG 11, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
-- {name: 香港 | HKG 2, server: be003549-t6e740-tb3p3s-lj7z.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 331cae90-f7e9-11ed-b4e2-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: be003549-t6e740-tb3p3s-lj7z.hkt.gotochinatown.net}}, udp: true}
-- {name: 香港 | HKG 21, server: 02f1afb7-t8lts0-tiaexf-ufc0.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 22308988-8548-11ea-a22e-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 02f1afb7-t8lts0-tiaexf-ufc0.hkt.gotochinatown.net}}, udp: true}
-- {name: 香港 | HKG 10, server: 3ec84fb0-t9zts0-tahh2s-tng5.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 2ec58858-976b-11ea-82ef-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 香港 | HKG 20, server: 887d2112-t8pj40-tcdlur-1qwom.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 887d2112-t8pj40-tcdlur-1qwom.hkt.gotochinatown.net}}, udp: true}
-- {name: 香港_040518006, server: cf977334-t9sf40-tb5rbt-1kcpe.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-- {name: 香港_040518076, server: 6ef0227c-t9w4g0-tphxte-1h5u7.hkt.gotochinatown.net, port: 80, type: vmess, uuid: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 6ef0227c-t9w4g0-tphxte-1h5u7.hkt.gotochinatown.net}}, udp: true}
-- {name: US_3|1.4MB/s, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: US_3|1.4MB/s 2, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 英国_040509014 3, server: 82.198.246.46, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4Jadi-1207, server: 103.186.154.63, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 美国 | USA 11, server: 43.153.79.68, port: 39567, type: vmess, uuid: 49f0b27d-a882-4a79-bad6-db9c87fb12a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 英国_040518019, server: 82.198.246.46, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 美国 | USA 11 2, server: 43.153.79.68, port: 39567, type: vmess, uuid: 49f0b27d-a882-4a79-bad6-db9c87fb12a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 美国 | USA 11 3, server: 43.153.79.68, port: 39567, type: vmess, uuid: 49f0b27d-a882-4a79-bad6-db9c87fb12a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: US_3|1.4MB/s 3, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: IR_28d03_0059, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 未知, server: 103.186.154.239, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 未知 2, server: 103.186.155.46, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 未知 3, server: 103.186.155.102, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1273, server: 103.186.155.17, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1279, server: 103.186.155.204, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1336, server: 103.186.155.44, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1348, server: 103.186.155.55, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1374, server: 103.186.155.84, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Jadi-1377, server: 103.186.155.9, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 新加坡 | SGP 9, server: 151.242.180.91, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 阿联酋_040518001, server: 151.242.180.91, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Sarina-1336, server: 103.186.155.59, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-1099, server: 103.186.154.207, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: hk|d110|puddincat07@Telegram, server: 58.152.25.253, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
+- {name: 未知, server: 103.186.154.63, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1315, server: 103.186.155.38, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1049, server: 103.186.154.11, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1163, server: 103.186.154.34, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 未知 2, server: 103.186.154.43, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 未知 3, server: 103.186.155.207, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 英国_040618016, server: 82.198.246.46, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 香港_040618132, server: fb8bcc39-t8wxs0-tifnix-1ro8s.hkt.gotochinatown.net, port: 80, type: vmess, uuid: a18ef18e-293a-11ef-b76e-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fb8bcc39-t8wxs0-tifnix-1ro8s.hkt.gotochinatown.net}}, udp: true}
+- {name: 4Sarina-1210, server: 103.186.155.111, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 香港_040618008, server: 97674eb7-t9zts0-tdfzix-fm2v.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+- {name: 未知 4, server: 103.186.154.149, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Kian-1051, server: 103.186.154.143, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1119, server: 103.186.154.223, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1344, server: 103.186.155.64, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 未知 5, server: 103.186.154.239, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: IR_ab7db_0006, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Nika-1093, server: 103.186.154.19, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Sarina-1249, server: 103.186.155.148, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 未知 6, server: 103.186.154.159, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 未知 7, server: 103.186.154.161, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -66,34 +61,29 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港 | HKG 11
-      - 香港 | HKG 2
-      - 香港 | HKG 21
-      - 香港 | HKG 10
-      - 香港 | HKG 20
-      - 香港_040518006
-      - 香港_040518076
-      - US_3|1.4MB/s
-      - US_3|1.4MB/s 2
-      - 英国_040509014 3
-      - 4Jadi-1207
-      - 美国 | USA 11
-      - 英国_040518019
-      - 美国 | USA 11 2
-      - 美国 | USA 11 3
-      - US_3|1.4MB/s 3
-      - IR_28d03_0059
+      - 4Sarina-1336
+      - 4FreeIran-1099
+      - hk|d110|puddincat07@Telegram
       - 未知
+      - 4Nika-1315
+      - 4Sarina-1049
+      - 4Nika-1163
       - 未知 2
       - 未知 3
-      - 4Jadi-1273
-      - 4Jadi-1279
-      - 4Jadi-1336
-      - 4Jadi-1348
-      - 4Jadi-1374
-      - 4Jadi-1377
-      - 新加坡 | SGP 9
-      - 阿联酋_040518001
+      - 英国_040618016
+      - 香港_040618132
+      - 4Sarina-1210
+      - 香港_040618008
+      - 未知 4
+      - 4Kian-1051
+      - 4Nika-1119
+      - 4Nika-1344
+      - 未知 5
+      - IR_ab7db_0006
+      - 4Nika-1093
+      - 4Sarina-1249
+      - 未知 6
+      - 未知 7
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -105,68 +95,58 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港 | HKG 11
-      - 香港 | HKG 2
-      - 香港 | HKG 21
-      - 香港 | HKG 10
-      - 香港 | HKG 20
-      - 香港_040518006
-      - 香港_040518076
-      - US_3|1.4MB/s
-      - US_3|1.4MB/s 2
-      - 英国_040509014 3
-      - 4Jadi-1207
-      - 美国 | USA 11
-      - 英国_040518019
-      - 美国 | USA 11 2
-      - 美国 | USA 11 3
-      - US_3|1.4MB/s 3
-      - IR_28d03_0059
+      - 4Sarina-1336
+      - 4FreeIran-1099
+      - hk|d110|puddincat07@Telegram
       - 未知
+      - 4Nika-1315
+      - 4Sarina-1049
+      - 4Nika-1163
       - 未知 2
       - 未知 3
-      - 4Jadi-1273
-      - 4Jadi-1279
-      - 4Jadi-1336
-      - 4Jadi-1348
-      - 4Jadi-1374
-      - 4Jadi-1377
-      - 新加坡 | SGP 9
-      - 阿联酋_040518001
+      - 英国_040618016
+      - 香港_040618132
+      - 4Sarina-1210
+      - 香港_040618008
+      - 未知 4
+      - 4Kian-1051
+      - 4Nika-1119
+      - 4Nika-1344
+      - 未知 5
+      - IR_ab7db_0006
+      - 4Nika-1093
+      - 4Sarina-1249
+      - 未知 6
+      - 未知 7
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 香港 | HKG 11
-      - 香港 | HKG 2
-      - 香港 | HKG 21
-      - 香港 | HKG 10
-      - 香港 | HKG 20
-      - 香港_040518006
-      - 香港_040518076
-      - US_3|1.4MB/s
-      - US_3|1.4MB/s 2
-      - 英国_040509014 3
-      - 4Jadi-1207
-      - 美国 | USA 11
-      - 英国_040518019
-      - 美国 | USA 11 2
-      - 美国 | USA 11 3
-      - US_3|1.4MB/s 3
-      - IR_28d03_0059
+      - 4Sarina-1336
+      - 4FreeIran-1099
+      - hk|d110|puddincat07@Telegram
       - 未知
+      - 4Nika-1315
+      - 4Sarina-1049
+      - 4Nika-1163
       - 未知 2
       - 未知 3
-      - 4Jadi-1273
-      - 4Jadi-1279
-      - 4Jadi-1336
-      - 4Jadi-1348
-      - 4Jadi-1374
-      - 4Jadi-1377
-      - 新加坡 | SGP 9
-      - 阿联酋_040518001
+      - 英国_040618016
+      - 香港_040618132
+      - 4Sarina-1210
+      - 香港_040618008
+      - 未知 4
+      - 4Kian-1051
+      - 4Nika-1119
+      - 4Nika-1344
+      - 未知 5
+      - IR_ab7db_0006
+      - 4Nika-1093
+      - 4Sarina-1249
+      - 未知 6
+      - 未知 7
   - name: 🐟 漏网之鱼
     type: select
     proxies:
