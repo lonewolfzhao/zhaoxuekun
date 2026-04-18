@@ -26,24 +26,74 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4FreeIran-1303, server: 103.186.155.218, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1328, server: 103.186.155.24, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1108, server: 103.186.154.198, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1150, server: 103.186.154.236, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1368, server: 103.186.155.60, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Kian-1128, server: 103.186.154.216, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1247, server: 103.186.155.118, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1265, server: 103.186.155.136, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4FreeIran-1066, server: 103.186.154.150, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 越南 | VNM, server: 103.186.154.162, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 4Kian-1070, server: 103.186.154.156, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Kian-1200, server: 103.186.154.40, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Mohsen-1090, server: 103.186.154.16, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 英国_041818006, server: 82.38.31.189, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
+- {name: 4Mohsen-1184, server: 103.186.154.26, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Kian-1075, server: 103.186.154.156, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Kian-1103, server: 103.186.154.182, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Mohsen-1182, server: 103.186.154.254, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 - {name: 4Kian-1061, server: 103.186.154.143, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-- {name: 美国_0417181821, server: 45.55.40.127, port: 49726, type: ss, cipher: chacha20-ietf-poly1305, password: elTuo73FsQwO90EbLo96Ve, udp: true}
-- {name: GB_d8d6d_0006, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: GB_d8d6d_0006 2, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: GB_9c460_0007, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: _RU_俄罗斯, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-- {name: 4Sarina-1051, server: 5.188.181.201, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+- {name: 4FreeIran-1281, server: 103.186.155.13, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1184, server: 103.186.154.25, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Mohsen-1362, server: 103.186.155.45, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Mohsen-1739, server: 217.30.10.70, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+- {name: 4FreeIran-1065, server: 103.186.154.148, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 爱尔兰_041814001, server: 89.125.103.52, port: 20129, type: ss, cipher: aes-256-gcm, password: 9cdc6440d42cb19c, udp: true}
+- {name: 4FreeIran-1370, server: 103.186.155.53, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Kian-1393, server: 103.186.155.77, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-1157, server: 103.186.154.232, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Mohsen-1289, server: 103.186.155.146, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Mohsen-1355, server: 103.186.155.39, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1178, server: 103.186.154.24, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Mohsen-1119, server: 103.186.154.197, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Mohsen-1207, server: 103.186.154.49, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Mohsen-1156, server: 103.186.154.230, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 英国_041814020, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4FreeIran-1150, server: 103.186.154.236, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-1131, server: 103.186.154.209, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Mohsen-1230, server: 103.186.154.71, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Mohsen-1271, server: 103.186.155.12, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4FreeIran-1108, server: 103.186.154.198, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: VN²_1|2.1MB/s|GPT⁺|GM|X|Succeed, server: 103.186.154.172, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Mohsen-1295, server: 103.186.155.154, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1386, server: 103.186.155.66, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Kian-1272, server: 103.186.155.129, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 香港_041818165, server: vm51544542.dns8656815.com, port: 7754, type: vmess, uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Mohsen-1128, server: 103.186.154.205, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 香港_041818008, server: efan.dnsefan04881.com, port: 7754, type: vmess, uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4FreeIran-1303, server: 103.186.155.203, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 英国_041814009, server: 82.38.31.99, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+- {name: 香港_041818165 2, server: vm51544542.dns8656815.com, port: 7754, type: vmess, uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 香港_041818008 2, server: efan.dnsefan04881.com, port: 7754, type: vmess, uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 英国_041818018, server: 82.198.246.46, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 香港_041818009, server: vm51544542.dns8656815.com, port: 7754, type: vmess, uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4FreeIran-1047, server: 217.30.10.70, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+- {name: 4Mohsen-1771, server: 217.30.10.70, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+- {name: 4Mohsen-1767, server: 217.30.10.70, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+- {name: 4Mohsen-1776, server: 217.30.10.70, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+- {name: 4Kian-1001, server: 217.30.10.70, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+- {name: VN²_2|1.6MB/s|GPT|X|History, server: 103.186.155.80, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1315, server: 103.186.155.21, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Mohsen-1265, server: 103.186.155.124, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 香港_041818007, server: efan.dnsefan04881.com, port: 7754, type: vmess, uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 香港 | HKG 2, server: hk2.network-cdn-gw-yd.net, port: 32063, type: ss, cipher: chacha20-ietf-poly1305, password: aed6e687-58a9-4836-ba62-7d8184c94df4, udp: true}
+- {name: 香港_041818007 2, server: efan.dnsefan04881.com, port: 7754, type: vmess, uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 香港_041818009 2, server: vm51544542.dns8656815.com, port: 7754, type: vmess, uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Jadi-1636, server: 217.30.10.70, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+- {name: 香港 | HKG 6, server: hk1.network-cdn-gw-yd.net, port: 32060, type: ss, cipher: chacha20-ietf-poly1305, password: aed6e687-58a9-4836-ba62-7d8184c94df4, udp: true}
+- {name: GB_e48b9_0005, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Mohsen-1803, server: 195.58.49.100, port: 10990, type: ss, cipher: aes-256-gcm, password: 9f3d1a6d31468599, udp: true}
+- {name: 美国_041814011, server: 67.220.85.46, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: GB_e48b9_0005 2, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4FreeIran-1023, server: 217.30.10.70, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+- {name: 4Mohsen-957, server: 217.30.10.70, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
+- {name: 4FreeIran-923, server: 217.30.10.70, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+- {name: 4Mohsen-1070, server: 103.186.154.151, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: 4Nika-1622, server: 217.30.10.70, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+- {name: 4Nika-1603, server: 217.30.10.70, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+- {name: 4Mohsen-1073, server: 103.186.154.154, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+- {name: GB_e48b9_0005 3, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -56,24 +106,74 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4FreeIran-1303
-      - 4FreeIran-1328
-      - 4FreeIran-1108
-      - 4FreeIran-1150
-      - 4FreeIran-1368
-      - 4Kian-1128
-      - 4FreeIran-1247
-      - 4FreeIran-1265
-      - 4FreeIran-1066
-      - 越南 | VNM
-      - 4Kian-1070
+      - 4Kian-1200
+      - 4Mohsen-1090
+      - 英国_041818006
+      - 4Mohsen-1184
+      - 4Kian-1075
+      - 4Kian-1103
+      - 4Mohsen-1182
       - 4Kian-1061
-      - 美国_0417181821
-      - GB_d8d6d_0006
-      - GB_d8d6d_0006 2
-      - GB_9c460_0007
-      - _RU_俄罗斯
-      - 4Sarina-1051
+      - 4FreeIran-1281
+      - 4Nika-1184
+      - 4Mohsen-1362
+      - 4Mohsen-1739
+      - 4FreeIran-1065
+      - 爱尔兰_041814001
+      - 4FreeIran-1370
+      - 4Kian-1393
+      - 4FreeIran-1157
+      - 4Mohsen-1289
+      - 4Mohsen-1355
+      - 4Nika-1178
+      - 4Mohsen-1119
+      - 4Mohsen-1207
+      - 4Mohsen-1156
+      - 英国_041814020
+      - 4FreeIran-1150
+      - 4FreeIran-1131
+      - 4Mohsen-1230
+      - 4Mohsen-1271
+      - 4FreeIran-1108
+      - VN²_1|2.1MB/s|GPT⁺|GM|X|Succeed
+      - 4Mohsen-1295
+      - 4Nika-1386
+      - 4Kian-1272
+      - 香港_041818165
+      - 4Mohsen-1128
+      - 香港_041818008
+      - 4FreeIran-1303
+      - 英国_041814009
+      - 香港_041818165 2
+      - 香港_041818008 2
+      - 英国_041818018
+      - 香港_041818009
+      - 4FreeIran-1047
+      - 4Mohsen-1771
+      - 4Mohsen-1767
+      - 4Mohsen-1776
+      - 4Kian-1001
+      - VN²_2|1.6MB/s|GPT|X|History
+      - 4Nika-1315
+      - 4Mohsen-1265
+      - 香港_041818007
+      - 香港 | HKG 2
+      - 香港_041818007 2
+      - 香港_041818009 2
+      - 4Jadi-1636
+      - 香港 | HKG 6
+      - GB_e48b9_0005
+      - 4Mohsen-1803
+      - 美国_041814011
+      - GB_e48b9_0005 2
+      - 4FreeIran-1023
+      - 4Mohsen-957
+      - 4FreeIran-923
+      - 4Mohsen-1070
+      - 4Nika-1622
+      - 4Nika-1603
+      - 4Mohsen-1073
+      - GB_e48b9_0005 3
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -85,48 +185,148 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4FreeIran-1303
-      - 4FreeIran-1328
-      - 4FreeIran-1108
-      - 4FreeIran-1150
-      - 4FreeIran-1368
-      - 4Kian-1128
-      - 4FreeIran-1247
-      - 4FreeIran-1265
-      - 4FreeIran-1066
-      - 越南 | VNM
-      - 4Kian-1070
+      - 4Kian-1200
+      - 4Mohsen-1090
+      - 英国_041818006
+      - 4Mohsen-1184
+      - 4Kian-1075
+      - 4Kian-1103
+      - 4Mohsen-1182
       - 4Kian-1061
-      - 美国_0417181821
-      - GB_d8d6d_0006
-      - GB_d8d6d_0006 2
-      - GB_9c460_0007
-      - _RU_俄罗斯
-      - 4Sarina-1051
+      - 4FreeIran-1281
+      - 4Nika-1184
+      - 4Mohsen-1362
+      - 4Mohsen-1739
+      - 4FreeIran-1065
+      - 爱尔兰_041814001
+      - 4FreeIran-1370
+      - 4Kian-1393
+      - 4FreeIran-1157
+      - 4Mohsen-1289
+      - 4Mohsen-1355
+      - 4Nika-1178
+      - 4Mohsen-1119
+      - 4Mohsen-1207
+      - 4Mohsen-1156
+      - 英国_041814020
+      - 4FreeIran-1150
+      - 4FreeIran-1131
+      - 4Mohsen-1230
+      - 4Mohsen-1271
+      - 4FreeIran-1108
+      - VN²_1|2.1MB/s|GPT⁺|GM|X|Succeed
+      - 4Mohsen-1295
+      - 4Nika-1386
+      - 4Kian-1272
+      - 香港_041818165
+      - 4Mohsen-1128
+      - 香港_041818008
+      - 4FreeIran-1303
+      - 英国_041814009
+      - 香港_041818165 2
+      - 香港_041818008 2
+      - 英国_041818018
+      - 香港_041818009
+      - 4FreeIran-1047
+      - 4Mohsen-1771
+      - 4Mohsen-1767
+      - 4Mohsen-1776
+      - 4Kian-1001
+      - VN²_2|1.6MB/s|GPT|X|History
+      - 4Nika-1315
+      - 4Mohsen-1265
+      - 香港_041818007
+      - 香港 | HKG 2
+      - 香港_041818007 2
+      - 香港_041818009 2
+      - 4Jadi-1636
+      - 香港 | HKG 6
+      - GB_e48b9_0005
+      - 4Mohsen-1803
+      - 美国_041814011
+      - GB_e48b9_0005 2
+      - 4FreeIran-1023
+      - 4Mohsen-957
+      - 4FreeIran-923
+      - 4Mohsen-1070
+      - 4Nika-1622
+      - 4Nika-1603
+      - 4Mohsen-1073
+      - GB_e48b9_0005 3
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4FreeIran-1303
-      - 4FreeIran-1328
-      - 4FreeIran-1108
-      - 4FreeIran-1150
-      - 4FreeIran-1368
-      - 4Kian-1128
-      - 4FreeIran-1247
-      - 4FreeIran-1265
-      - 4FreeIran-1066
-      - 越南 | VNM
-      - 4Kian-1070
+      - 4Kian-1200
+      - 4Mohsen-1090
+      - 英国_041818006
+      - 4Mohsen-1184
+      - 4Kian-1075
+      - 4Kian-1103
+      - 4Mohsen-1182
       - 4Kian-1061
-      - 美国_0417181821
-      - GB_d8d6d_0006
-      - GB_d8d6d_0006 2
-      - GB_9c460_0007
-      - _RU_俄罗斯
-      - 4Sarina-1051
+      - 4FreeIran-1281
+      - 4Nika-1184
+      - 4Mohsen-1362
+      - 4Mohsen-1739
+      - 4FreeIran-1065
+      - 爱尔兰_041814001
+      - 4FreeIran-1370
+      - 4Kian-1393
+      - 4FreeIran-1157
+      - 4Mohsen-1289
+      - 4Mohsen-1355
+      - 4Nika-1178
+      - 4Mohsen-1119
+      - 4Mohsen-1207
+      - 4Mohsen-1156
+      - 英国_041814020
+      - 4FreeIran-1150
+      - 4FreeIran-1131
+      - 4Mohsen-1230
+      - 4Mohsen-1271
+      - 4FreeIran-1108
+      - VN²_1|2.1MB/s|GPT⁺|GM|X|Succeed
+      - 4Mohsen-1295
+      - 4Nika-1386
+      - 4Kian-1272
+      - 香港_041818165
+      - 4Mohsen-1128
+      - 香港_041818008
+      - 4FreeIran-1303
+      - 英国_041814009
+      - 香港_041818165 2
+      - 香港_041818008 2
+      - 英国_041818018
+      - 香港_041818009
+      - 4FreeIran-1047
+      - 4Mohsen-1771
+      - 4Mohsen-1767
+      - 4Mohsen-1776
+      - 4Kian-1001
+      - VN²_2|1.6MB/s|GPT|X|History
+      - 4Nika-1315
+      - 4Mohsen-1265
+      - 香港_041818007
+      - 香港 | HKG 2
+      - 香港_041818007 2
+      - 香港_041818009 2
+      - 4Jadi-1636
+      - 香港 | HKG 6
+      - GB_e48b9_0005
+      - 4Mohsen-1803
+      - 美国_041814011
+      - GB_e48b9_0005 2
+      - 4FreeIran-1023
+      - 4Mohsen-957
+      - 4FreeIran-923
+      - 4Mohsen-1070
+      - 4Nika-1622
+      - 4Nika-1603
+      - 4Mohsen-1073
+      - GB_e48b9_0005 3
   - name: 🐟 漏网之鱼
     type: select
     proxies:
