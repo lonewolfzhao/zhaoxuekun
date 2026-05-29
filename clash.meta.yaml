@@ -26,37 +26,28 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: US_3676f_0070, server: gtm-sg-cc54q7d1q01.365cloud0285.com, port: 6001, type: vmess, uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "B - 🇹🇼 TW 06 TG: @nodpai", server: dotu-twv1.kunlun03dns.com, port: 11114, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: "B - 🇭🇰 HK 07 TG: @nodpai", server: cu7.ainivp.com, port: 33414, type: vmess, uuid: 9204afcd-026e-781f-1abc-c03efabd1344, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: cu7.ainivp.com}}, udp: true}
-- {name: "B - 🇹🇼 TW 06 TG: @nodpai 2", server: dotu-twv1.kunlun03dns.com, port: 11114, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "B - 🇭🇰 HK 05 TG: @nodpai", server: ct2.ainivp.com, port: 33411, type: vmess, uuid: 9204afcd-026e-781f-1abc-c03efabd1344, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: ct2.ainivp.com}}, udp: true}
-- {name: "B - 🇸🇬 SG 08 TG: @nodpai", server: yd3.ainivp.com, port: 33402, type: vmess, uuid: 9204afcd-026e-781f-1abc-c03efabd1344, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: yd3.ainivp.com}}, udp: true}
-- {name: "B - 🇸🇬 SG 10 TG: @nodpai", server: gtm-sg-cc54q7d1q01.365cloud0285.com, port: 6004, type: vmess, uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "B - 🇺🇸 US 08 TG: @nodpai", server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: DE_2|1.5MB/s, server: 35.159.110.250, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: CA_3676f_0005, server: 15.157.68.13, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: GB_3676f_0018, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 俄罗斯联邦_052821458, server: 145.249.109.13, port: 4917, type: ss, cipher: chacha20-ietf-poly1305, password: 7DoWqLxD5CMubpT1tzIyWX, udp: true}
-- {name: 俄罗斯联邦_052821461, server: 145.249.109.15, port: 51758, type: ss, cipher: chacha20-ietf-poly1305, password: faGRw26yLKAPjpLvY7FMq7, udp: true}
-- {name: 塞浦路斯_052821127, server: 45.83.130.96, port: 51847, type: ss, cipher: chacha20-ietf-poly1305, password: 2C6POFLguZNPEuNh27rRju, udp: true}
-- {name: 瑞典_052821083, server: 78.40.116.149, port: 33292, type: ss, cipher: chacha20-ietf-poly1305, password: IeOS3A4HfwVt1Itk0n3K3H, udp: true}
-- {name: 立陶宛_052821093, server: 80.208.229.172, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 4LuSQluWs3meAy5vOo7ikZ, udp: true}
-- {name: 芬兰_052821053, server: 95.217.161.87, port: 20014, type: ss, cipher: chacha20-ietf-poly1305, password: RQDfKHqad9wIx8hsuuCcfW, udp: true}
-- {name: 芬兰_052821054, server: 95.217.161.87, port: 63978, type: ss, cipher: chacha20-ietf-poly1305, password: eHo0IqnoorbvYFdRPYr2nf, udp: true}
-- {name: 芬兰_052821055, server: 95.217.161.87, port: 56308, type: ss, cipher: chacha20-ietf-poly1305, password: bff8Cg4W5XQGoKHJnTvpux, udp: true}
-- {name: 芬兰_052821056, server: 95.217.161.87, port: 12602, type: ss, cipher: chacha20-ietf-poly1305, password: h3UTbp5dVQJVzVn3aN2Xac, udp: true}
-- {name: 香港_052821072, server: cu3.ainivp.com, port: 33108, type: vmess, uuid: 9204afcd-026e-781f-1abc-c03efabd1344, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: cu3.ainivp.com}}, udp: true}
-- {name: "B - 🇹🇼 TW 06 TG: @nodpai 2 2", server: dotu-twv1.kunlun03dns.com, port: 11114, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "B - 🇺🇸 US 08 TG: @nodpai 2", server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: US_4|1.1MB/s, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "A - 🇭🇰 HK 01 TG: @nodpai", server: dotu-hkv1.kunlun03dns.com, port: 11104, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "A - 🇭🇰 HK 03 TG: @nodpai", server: dotu-hkv1.kunlun03dns.com, port: 11103, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "B - 🇸🇬 SG 27 TG: @nodpai", server: dotu-sgv1.kunlun03dns.com, port: 11137, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "B - 🇺🇸 US 08 TG: @nodpai 3", server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "B - 🇺🇸 US 12 TG: @nodpai", server: dotu-usv1.kunlun03dns.com, port: 11130, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "B - 🇰🇷 KR 02 TG: @nodpai", server: yd4.ainivp.com, port: 33204, type: vmess, uuid: 9204afcd-026e-781f-1abc-c03efabd1344, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: yd4.ainivp.com}}, udp: true}
-- {name: "B - 🇺🇸 US 15 TG: @nodpai", server: dotu-jpv1.kunlun03dns.com, port: 11119, type: vmess, uuid: 6b989fce-172e-37a6-b324-3922008b17f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: JP_1|1.5MB/s, server: gtm-sg-cc54q7d1q01.365cloud0285.com, port: 6003, type: vmess, uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 意大利_052905002, server: gtm-sg-cc54q7d1q01.365cloud0285.com, port: 6003, type: vmess, uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: JP_1|1.5MB/s 2, server: gtm-sg-cc54q7d1q01.365cloud0285.com, port: 6003, type: vmess, uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 意大利_052905004 2 3 2, server: gtm-sg-cc54q7d1q01.365cloud0285.com, port: 6004, type: vmess, uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 意大利_052916004 2, server: gtm-sg-cc54q7d1q01.365cloud0285.com, port: 6003, type: vmess, uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: US_c8a7b_0043, server: gtm-sg-cc54q7d1q01.365cloud0285.com, port: 6001, type: vmess, uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 台湾_052920002, server: v11.zgtfqs.click, port: 30811, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 意大利_052920001, server: gtm-sg-cc54q7d1q01.365cloud0285.com, port: 6003, type: vmess, uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 意大利_052920004, server: gtm-sg-cc54q7d1q01.365cloud0285.com, port: 6004, type: vmess, uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: "B - 🇯🇵 JP 04 TG: @nodpai", server: cu2.ainivp.com, port: 33203, type: vmess, uuid: 9204afcd-026e-781f-1abc-c03efabd1344, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: cu2.ainivp.com}}, udp: true}
+- {name: 11|🇺🇸 美国4|@ripaojiedian, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: SG_2|2.5MB/s, server: gtm-sg-cc54q7d1q01.365cloud0285.com, port: 6004, type: vmess, uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 意大利_052905004 2 3 2 3, server: gtm-sg-cc54q7d1q01.365cloud0285.com, port: 6004, type: vmess, uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: GB_c8a7b_0021, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 南非_052920021, server: 4.168.201.246, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XEnZedp2mkTbT1qC, udp: true}
+- {name: 未知_052920025, server: yd3.ainivp.com, port: 33404, type: vmess, uuid: 9204afcd-026e-781f-1abc-c03efabd1344, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: yd3.ainivp.com}}, udp: true}
+- {name: 芬兰_052920044, server: 195.133.2.2, port: 34898, type: ss, cipher: chacha20-ietf-poly1305, password: v2LIewZzNUsIrqODr22FVc, udp: true}
+- {name: 美国 | USA 2, server: gtm-sg-cc54q7d1q01.365cloud0285.com, port: 6001, type: vmess, uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: GB_cbdbf_0023, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: US_c8a7b_0043 2, server: gtm-sg-cc54q7d1q01.365cloud0285.com, port: 6001, type: vmess, uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 美国 | USA, server: gtm-sg-cc54q7d1q01.365cloud0285.com, port: 6004, type: vmess, uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -69,37 +60,28 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - US_3676f_0070
-      - "B - 🇹🇼 TW 06 TG: @nodpai"
       - "B - 🇭🇰 HK 07 TG: @nodpai"
-      - "B - 🇹🇼 TW 06 TG: @nodpai 2"
-      - "B - 🇭🇰 HK 05 TG: @nodpai"
-      - "B - 🇸🇬 SG 08 TG: @nodpai"
-      - "B - 🇸🇬 SG 10 TG: @nodpai"
-      - "B - 🇺🇸 US 08 TG: @nodpai"
-      - DE_2|1.5MB/s
-      - CA_3676f_0005
-      - GB_3676f_0018
-      - 俄罗斯联邦_052821458
-      - 俄罗斯联邦_052821461
-      - 塞浦路斯_052821127
-      - 瑞典_052821083
-      - 立陶宛_052821093
-      - 芬兰_052821053
-      - 芬兰_052821054
-      - 芬兰_052821055
-      - 芬兰_052821056
-      - 香港_052821072
-      - "B - 🇹🇼 TW 06 TG: @nodpai 2 2"
-      - "B - 🇺🇸 US 08 TG: @nodpai 2"
-      - US_4|1.1MB/s
-      - "A - 🇭🇰 HK 01 TG: @nodpai"
-      - "A - 🇭🇰 HK 03 TG: @nodpai"
-      - "B - 🇸🇬 SG 27 TG: @nodpai"
-      - "B - 🇺🇸 US 08 TG: @nodpai 3"
-      - "B - 🇺🇸 US 12 TG: @nodpai"
-      - "B - 🇰🇷 KR 02 TG: @nodpai"
-      - "B - 🇺🇸 US 15 TG: @nodpai"
+      - JP_1|1.5MB/s
+      - 意大利_052905002
+      - JP_1|1.5MB/s 2
+      - 意大利_052905004 2 3 2
+      - 意大利_052916004 2
+      - US_c8a7b_0043
+      - 台湾_052920002
+      - 意大利_052920001
+      - 意大利_052920004
+      - "B - 🇯🇵 JP 04 TG: @nodpai"
+      - 11|🇺🇸 美国4|@ripaojiedian
+      - SG_2|2.5MB/s
+      - 意大利_052905004 2 3 2 3
+      - GB_c8a7b_0021
+      - 南非_052920021
+      - 未知_052920025
+      - 芬兰_052920044
+      - 美国 | USA 2
+      - GB_cbdbf_0023
+      - US_c8a7b_0043 2
+      - 美国 | USA
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -111,74 +93,56 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - US_3676f_0070
-      - "B - 🇹🇼 TW 06 TG: @nodpai"
       - "B - 🇭🇰 HK 07 TG: @nodpai"
-      - "B - 🇹🇼 TW 06 TG: @nodpai 2"
-      - "B - 🇭🇰 HK 05 TG: @nodpai"
-      - "B - 🇸🇬 SG 08 TG: @nodpai"
-      - "B - 🇸🇬 SG 10 TG: @nodpai"
-      - "B - 🇺🇸 US 08 TG: @nodpai"
-      - DE_2|1.5MB/s
-      - CA_3676f_0005
-      - GB_3676f_0018
-      - 俄罗斯联邦_052821458
-      - 俄罗斯联邦_052821461
-      - 塞浦路斯_052821127
-      - 瑞典_052821083
-      - 立陶宛_052821093
-      - 芬兰_052821053
-      - 芬兰_052821054
-      - 芬兰_052821055
-      - 芬兰_052821056
-      - 香港_052821072
-      - "B - 🇹🇼 TW 06 TG: @nodpai 2 2"
-      - "B - 🇺🇸 US 08 TG: @nodpai 2"
-      - US_4|1.1MB/s
-      - "A - 🇭🇰 HK 01 TG: @nodpai"
-      - "A - 🇭🇰 HK 03 TG: @nodpai"
-      - "B - 🇸🇬 SG 27 TG: @nodpai"
-      - "B - 🇺🇸 US 08 TG: @nodpai 3"
-      - "B - 🇺🇸 US 12 TG: @nodpai"
-      - "B - 🇰🇷 KR 02 TG: @nodpai"
-      - "B - 🇺🇸 US 15 TG: @nodpai"
+      - JP_1|1.5MB/s
+      - 意大利_052905002
+      - JP_1|1.5MB/s 2
+      - 意大利_052905004 2 3 2
+      - 意大利_052916004 2
+      - US_c8a7b_0043
+      - 台湾_052920002
+      - 意大利_052920001
+      - 意大利_052920004
+      - "B - 🇯🇵 JP 04 TG: @nodpai"
+      - 11|🇺🇸 美国4|@ripaojiedian
+      - SG_2|2.5MB/s
+      - 意大利_052905004 2 3 2 3
+      - GB_c8a7b_0021
+      - 南非_052920021
+      - 未知_052920025
+      - 芬兰_052920044
+      - 美国 | USA 2
+      - GB_cbdbf_0023
+      - US_c8a7b_0043 2
+      - 美国 | USA
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - US_3676f_0070
-      - "B - 🇹🇼 TW 06 TG: @nodpai"
       - "B - 🇭🇰 HK 07 TG: @nodpai"
-      - "B - 🇹🇼 TW 06 TG: @nodpai 2"
-      - "B - 🇭🇰 HK 05 TG: @nodpai"
-      - "B - 🇸🇬 SG 08 TG: @nodpai"
-      - "B - 🇸🇬 SG 10 TG: @nodpai"
-      - "B - 🇺🇸 US 08 TG: @nodpai"
-      - DE_2|1.5MB/s
-      - CA_3676f_0005
-      - GB_3676f_0018
-      - 俄罗斯联邦_052821458
-      - 俄罗斯联邦_052821461
-      - 塞浦路斯_052821127
-      - 瑞典_052821083
-      - 立陶宛_052821093
-      - 芬兰_052821053
-      - 芬兰_052821054
-      - 芬兰_052821055
-      - 芬兰_052821056
-      - 香港_052821072
-      - "B - 🇹🇼 TW 06 TG: @nodpai 2 2"
-      - "B - 🇺🇸 US 08 TG: @nodpai 2"
-      - US_4|1.1MB/s
-      - "A - 🇭🇰 HK 01 TG: @nodpai"
-      - "A - 🇭🇰 HK 03 TG: @nodpai"
-      - "B - 🇸🇬 SG 27 TG: @nodpai"
-      - "B - 🇺🇸 US 08 TG: @nodpai 3"
-      - "B - 🇺🇸 US 12 TG: @nodpai"
-      - "B - 🇰🇷 KR 02 TG: @nodpai"
-      - "B - 🇺🇸 US 15 TG: @nodpai"
+      - JP_1|1.5MB/s
+      - 意大利_052905002
+      - JP_1|1.5MB/s 2
+      - 意大利_052905004 2 3 2
+      - 意大利_052916004 2
+      - US_c8a7b_0043
+      - 台湾_052920002
+      - 意大利_052920001
+      - 意大利_052920004
+      - "B - 🇯🇵 JP 04 TG: @nodpai"
+      - 11|🇺🇸 美国4|@ripaojiedian
+      - SG_2|2.5MB/s
+      - 意大利_052905004 2 3 2 3
+      - GB_c8a7b_0021
+      - 南非_052920021
+      - 未知_052920025
+      - 芬兰_052920044
+      - 美国 | USA 2
+      - GB_cbdbf_0023
+      - US_c8a7b_0043 2
+      - 美国 | USA
   - name: 🐟 漏网之鱼
     type: select
     proxies:
