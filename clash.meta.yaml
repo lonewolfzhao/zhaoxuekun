@@ -26,26 +26,8 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 香港_053019045, server: 90081bb25c.node.tro.cac.cab, port: 45553, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: ch.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 香港_053019060, server: 90081bb25c.node.tro.cac.cab, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_053110035, server: 90081bb25c.node.tro.cac.cab, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_0530192782, server: us200m.jiasu.asia, port: 50000, type: trojan, password: 2fda86cd-fb2a-4cce-b8f4-b6ec96297287, sni: us200m.jiasu.asia, skip-cert-verify: true, udp: true}
-- {name: 香港_053019054, server: 90081bb25c.node.tro.cac.cab, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 香港_053110291, server: world.t.51guangtaobao.com, port: 2510, type: vmess, uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 美国_053116037, server: 90081bb25c.node.tro.cac.cab, port: 47909, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: is.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 沙特阿拉伯_053119014, server: 213.165.43.213, port: 2443, type: ss, cipher: chacha20-ietf-poly1305, password: mNQciatPYywzM_MZ03TxOA, udp: true}
-- {name: _HK_中国香港->🇹🇼_TW_中国台湾, server: world.t.51guangtaobao.com, port: 2510, type: vmess, uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 香港_053110291 2, server: world.t.51guangtaobao.com, port: 2510, type: vmess, uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 美国_053119034, server: 90081bb25c.node.tro.cac.cab, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: _HK_中国香港->🇹🇼_TW_中国台湾 2, server: world.t.51guangtaobao.com, port: 2510, type: vmess, uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: ca|5116|puddincat07@Telegram, server: 35.182.57.53, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Nika-484, server: c8811f70481d6448c8811f70481d6448.dadnode.ir, port: 33699, type: ss, cipher: chacha20-ietf-poly1305, password: HKcwGWRET2Esp6jE06d0ZA, udp: true}
-- {name: GB_c13b4_0009, server: v36.hdacd.com, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 芬兰_053119001, server: 109.107.182.229, port: 51544, type: ss, cipher: chacha20-ietf-poly1305, password: MZeSTvpl2uoey1R0frhPyJ, udp: true}
-- {name: 芬兰_053119053, server: 79.137.184.170, port: 2443, type: ss, cipher: chacha20-ietf-poly1305, password: mNQciatPYywzM_MZ03TxOA, udp: true}
-- {name: US_2|1016KB/s 3, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: US_7|2.2MB/s, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: US_2|1016KB/s, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Jadi-1403, server: 185.189.160.105, port: 41632, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 美国_060118045, server: 95.40.4.37, port: 2520, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -58,26 +40,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港_053019045
-      - 香港_053019060
-      - 美国_053110035
-      - 美国_0530192782
-      - 香港_053019054
-      - 香港_053110291
-      - 美国_053116037
-      - 沙特阿拉伯_053119014
-      - _HK_中国香港->🇹🇼_TW_中国台湾
-      - 香港_053110291 2
-      - 美国_053119034
-      - _HK_中国香港->🇹🇼_TW_中国台湾 2
-      - ca|5116|puddincat07@Telegram
-      - 4Nika-484
-      - GB_c13b4_0009
-      - 芬兰_053119001
-      - 芬兰_053119053
-      - US_2|1016KB/s 3
-      - US_7|2.2MB/s
-      - US_2|1016KB/s
+      - 4Jadi-1403
+      - 美国_060118045
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -89,52 +53,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港_053019045
-      - 香港_053019060
-      - 美国_053110035
-      - 美国_0530192782
-      - 香港_053019054
-      - 香港_053110291
-      - 美国_053116037
-      - 沙特阿拉伯_053119014
-      - _HK_中国香港->🇹🇼_TW_中国台湾
-      - 香港_053110291 2
-      - 美国_053119034
-      - _HK_中国香港->🇹🇼_TW_中国台湾 2
-      - ca|5116|puddincat07@Telegram
-      - 4Nika-484
-      - GB_c13b4_0009
-      - 芬兰_053119001
-      - 芬兰_053119053
-      - US_2|1016KB/s 3
-      - US_7|2.2MB/s
-      - US_2|1016KB/s
+      - 4Jadi-1403
+      - 美国_060118045
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 香港_053019045
-      - 香港_053019060
-      - 美国_053110035
-      - 美国_0530192782
-      - 香港_053019054
-      - 香港_053110291
-      - 美国_053116037
-      - 沙特阿拉伯_053119014
-      - _HK_中国香港->🇹🇼_TW_中国台湾
-      - 香港_053110291 2
-      - 美国_053119034
-      - _HK_中国香港->🇹🇼_TW_中国台湾 2
-      - ca|5116|puddincat07@Telegram
-      - 4Nika-484
-      - GB_c13b4_0009
-      - 芬兰_053119001
-      - 芬兰_053119053
-      - US_2|1016KB/s 3
-      - US_7|2.2MB/s
-      - US_2|1016KB/s
+      - 4Jadi-1403
+      - 美国_060118045
   - name: 🐟 漏网之鱼
     type: select
     proxies:
