@@ -26,28 +26,8 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 美国_0603113058, server: 155.117.198.86, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_0603113063, server: 155.117.198.86, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_0603113033, server: 155.117.198.87, port: 45553, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: ch.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_0603113057, server: 155.117.198.82, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_0603113054, server: 155.117.198.87, port: 47909, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: is.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_0603113055, server: 155.117.198.86, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_0603113056, server: 155.117.198.83, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_0603113059, server: 155.117.198.83, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_0603113060, server: 155.117.198.87, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_0603113061, server: 155.117.198.87, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_0603113064, server: 155.117.198.82, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_0603113065, server: 155.117.198.83, port: 45553, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: ch.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_060317048, server: 95.40.68.150, port: 2702, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
-- {name: 美国_060317071, server: 90081bb25c.node.tro.cac.cab, port: 45553, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: ch.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_060317085, server: 90081bb25c.node.tro.cac.cab, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_060317086, server: 90081bb25c.node.tro.cac.cab, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_060317094, server: 90081bb25c.node.tro.cac.cab, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_060317063, server: 90081bb25c.node.tro.cac.cab, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_060317073, server: 90081bb25c.node.tro.cac.cab, port: 47909, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: is.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 南非_060322009, server: 20.164.211.148, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: sLQz8jOUtbEXVJ1q, udp: true}
-- {name: 英国_060322811, server: 82.38.31.15, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-- {name: 4Nika-83, server: nbmrcg0034686rw.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, udp: true}
+- {name: CA_2|1.0MB/s, server: 3.99.174.90, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: CA_1|1.1MB/s, server: 3.96.152.83, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -60,28 +40,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国_0603113058
-      - 美国_0603113063
-      - 美国_0603113033
-      - 美国_0603113057
-      - 美国_0603113054
-      - 美国_0603113055
-      - 美国_0603113056
-      - 美国_0603113059
-      - 美国_0603113060
-      - 美国_0603113061
-      - 美国_0603113064
-      - 美国_0603113065
-      - 美国_060317048
-      - 美国_060317071
-      - 美国_060317085
-      - 美国_060317086
-      - 美国_060317094
-      - 美国_060317063
-      - 美国_060317073
-      - 南非_060322009
-      - 英国_060322811
-      - 4Nika-83
+      - CA_2|1.0MB/s
+      - CA_1|1.1MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -93,56 +53,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国_0603113058
-      - 美国_0603113063
-      - 美国_0603113033
-      - 美国_0603113057
-      - 美国_0603113054
-      - 美国_0603113055
-      - 美国_0603113056
-      - 美国_0603113059
-      - 美国_0603113060
-      - 美国_0603113061
-      - 美国_0603113064
-      - 美国_0603113065
-      - 美国_060317048
-      - 美国_060317071
-      - 美国_060317085
-      - 美国_060317086
-      - 美国_060317094
-      - 美国_060317063
-      - 美国_060317073
-      - 南非_060322009
-      - 英国_060322811
-      - 4Nika-83
+      - CA_2|1.0MB/s
+      - CA_1|1.1MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 美国_0603113058
-      - 美国_0603113063
-      - 美国_0603113033
-      - 美国_0603113057
-      - 美国_0603113054
-      - 美国_0603113055
-      - 美国_0603113056
-      - 美国_0603113059
-      - 美国_0603113060
-      - 美国_0603113061
-      - 美国_0603113064
-      - 美国_0603113065
-      - 美国_060317048
-      - 美国_060317071
-      - 美国_060317085
-      - 美国_060317086
-      - 美国_060317094
-      - 美国_060317063
-      - 美国_060317073
-      - 南非_060322009
-      - 英国_060322811
-      - 4Nika-83
+      - CA_2|1.0MB/s
+      - CA_1|1.1MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
