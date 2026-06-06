@@ -26,16 +26,25 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: HK_1|1.3MB/s, server: 90081bb25c.node.tro.cac.cab, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 4Nika-1366, server: 221.150.109.20, port: 55104, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: _ID_印度尼西亚->🇩🇪_DE_德国, server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 美国_0606193104, server: 155.117.198.86, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
 - {name: DE_2|1016KB/s, server: 155.117.198.83, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_060520014, server: 90081bb25c.node.tro.cac.cab, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_060520018, server: 90081bb25c.node.tro.cac.cab, port: 45553, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: ch.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_060520017, server: 90081bb25c.node.tro.cac.cab, port: 47909, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: is.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_060516016, server: 90081bb25c.node.tro.cac.cab, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_0605203035, server: 155.117.198.82, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_060520019, server: 90081bb25c.node.tro.cac.cab, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 南非_060520017, server: 20.87.212.31, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0FXkHNQO6q1s9KQX, udp: true}
+- {name: xx|82b7|puddincat07@Telegram, server: 90081bb25c.node.tro.cac.cab, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 美国_060619019, server: 90081bb25c.node.tro.cac.cab, port: 45553, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: ch.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 美国_060619020, server: 90081bb25c.node.tro.cac.cab, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 美国_060619018, server: 90081bb25c.node.tro.cac.cab, port: 47909, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: is.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 美国_0606193106, server: 155.117.198.87, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 美国_060619015, server: 90081bb25c.node.tro.cac.cab, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 美国_060619049, server: 155.117.198.87, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 美国_060619017, server: 90081bb25c.node.tro.cac.cab, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 美国_0606193102, server: 155.117.198.82, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 美国_0606193103, server: 155.117.198.87, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: kr|3ff4|puddincat07@Telegram, server: 221.150.109.20, port: 55104, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: _US_美国_2, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _MY_马来西亚->🇭🇰_HK_中国香港, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 英国_060619815, server: 82.38.31.183, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
+- {name: 4Jadi-30, server: 40.123.244.72, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 5YlPTiUU2iEYlzkO, udp: true}
+- {name: 4Jadi-1373, server: 212.192.12.98, port: 20129, type: ss, cipher: aes-256-gcm, password: 7e1dd4c55bf85da5, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -48,16 +57,25 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - HK_1|1.3MB/s
-      - 4Nika-1366
+      - _ID_印度尼西亚->🇩🇪_DE_德国
+      - 美国_0606193104
       - DE_2|1016KB/s
-      - 美国_060520014
-      - 美国_060520018
-      - 美国_060520017
-      - 美国_060516016
-      - 美国_0605203035
-      - 美国_060520019
-      - 南非_060520017
+      - xx|82b7|puddincat07@Telegram
+      - 美国_060619019
+      - 美国_060619020
+      - 美国_060619018
+      - 美国_0606193106
+      - 美国_060619015
+      - 美国_060619049
+      - 美国_060619017
+      - 美国_0606193102
+      - 美国_0606193103
+      - kr|3ff4|puddincat07@Telegram
+      - _US_美国_2
+      - _MY_马来西亚->🇭🇰_HK_中国香港
+      - 英国_060619815
+      - 4Jadi-30
+      - 4Jadi-1373
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -69,32 +87,50 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - HK_1|1.3MB/s
-      - 4Nika-1366
+      - _ID_印度尼西亚->🇩🇪_DE_德国
+      - 美国_0606193104
       - DE_2|1016KB/s
-      - 美国_060520014
-      - 美国_060520018
-      - 美国_060520017
-      - 美国_060516016
-      - 美国_0605203035
-      - 美国_060520019
-      - 南非_060520017
+      - xx|82b7|puddincat07@Telegram
+      - 美国_060619019
+      - 美国_060619020
+      - 美国_060619018
+      - 美国_0606193106
+      - 美国_060619015
+      - 美国_060619049
+      - 美国_060619017
+      - 美国_0606193102
+      - 美国_0606193103
+      - kr|3ff4|puddincat07@Telegram
+      - _US_美国_2
+      - _MY_马来西亚->🇭🇰_HK_中国香港
+      - 英国_060619815
+      - 4Jadi-30
+      - 4Jadi-1373
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - HK_1|1.3MB/s
-      - 4Nika-1366
+      - _ID_印度尼西亚->🇩🇪_DE_德国
+      - 美国_0606193104
       - DE_2|1016KB/s
-      - 美国_060520014
-      - 美国_060520018
-      - 美国_060520017
-      - 美国_060516016
-      - 美国_0605203035
-      - 美国_060520019
-      - 南非_060520017
+      - xx|82b7|puddincat07@Telegram
+      - 美国_060619019
+      - 美国_060619020
+      - 美国_060619018
+      - 美国_0606193106
+      - 美国_060619015
+      - 美国_060619049
+      - 美国_060619017
+      - 美国_0606193102
+      - 美国_0606193103
+      - kr|3ff4|puddincat07@Telegram
+      - _US_美国_2
+      - _MY_马来西亚->🇭🇰_HK_中国香港
+      - 英国_060619815
+      - 4Jadi-30
+      - 4Jadi-1373
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -8985,4 +9021,5 @@ rules:
   - DOMAIN-KEYWORD,prefecturesuggestions,🔰 节点选择
   - DOMAIN-KEYWORD,surrit.store,🔰 节点选择
   - DOMAIN-KEYWORD,.space,🔰 节点选择
+  - DOMAIN-KEYWORD,nodebuf,🔰 节点选择
   - MATCH,🐟 漏网之鱼
