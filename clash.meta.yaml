@@ -26,22 +26,16 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 美国_0606193104, server: 155.117.198.86, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: DE_2|1016KB/s, server: 155.117.198.83, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_0606193106, server: 155.117.198.87, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_060619049, server: 155.117.198.87, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_0606193102, server: 155.117.198.82, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_0606193103, server: 155.117.198.87, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: kr|3ff4|puddincat07@Telegram, server: 221.150.109.20, port: 55104, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 4Jadi-30, server: 40.123.244.72, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 5YlPTiUU2iEYlzkO, udp: true}
-- {name: CN_3ab94_0002, server: board-02.ddnskunlun.com, port: 11885, type: vmess, uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: US_5|1.1MB/s, server: 154.26.181.85, port: 443, type: ss, cipher: aes-128-gcm, password: eeb6823c-b926-4ea2-866a-5542edd26e59, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: ss.hhyy.nn.kg, path: "/proxyip=104.168.132.123\\,172.104.53.198\\,85.121.50.16\\,151.242.125.226?enc=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}, udp: true}
-- {name: US_6|1.8MB/s, server: 64.186.238.108, port: 8443, type: ss, cipher: aes-128-gcm, password: eeb6823c-b926-4ea2-866a-5542edd26e59, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: ss.hhyy.nn.kg, path: "/proxyip=104.168.132.123\\,172.104.53.198\\,85.121.50.16\\,151.242.125.226?enc=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}, udp: true}
-- {name: US_7|1.3MB/s, server: 154.21.91.144, port: 8443, type: ss, cipher: aes-128-gcm, password: eeb6823c-b926-4ea2-866a-5542edd26e59, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: ss.hhyy.nn.kg, path: "/proxyip=104.168.132.123\\,172.104.53.198\\,85.121.50.16\\,151.242.125.226?enc=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}, udp: true}
-- {name: 英国_060619813, server: 82.38.31.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
-- {name: 4Jadi-1063, server: 3.96.152.83, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 11|🇺🇸 美国4|@ripaojiedian, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: _MY_马来西亚->🇭🇰_HK_中国香港, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 未知-E3F4F437, server: 61.171.92.202, port: 1001, type: ss, cipher: aes-256-gcm, password: !<str> 123, udp: true}
+- {name: 未知-FEAD79C7, server: 155.117.198.86, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 美国_0607103082, server: 155.117.198.82, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 新加坡-F2615EAA, server: 47.82.162.142, port: 443, type: ss, cipher: aes-128-gcm, password: eeb6823c-b926-4ea2-866a-5542edd26e59, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: ss.hhll.qqs.me, path: "/proxyip=104.168.132.123\\,172.104.53.198\\,85.121.50.16\\,151.242.125.226?enc=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}, udp: true}
+- {name: 美国_060710021, server: 90081bb25c.node.tro.cac.cab, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: us|b5ef|puddincat07@Telegram, server: 155.117.198.87, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: xx|13e6|puddincat07@Telegram, server: nbmrcg0034686rw.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, udp: true}
+- {name: 南非_060719019, server: 40.123.244.72, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: a0p3F9hxEUsGNicB, udp: true}
+- {name: za|e107|puddincat07@Telegram, server: 40.123.244.72, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: CULuHB2PKuvK6yEN, udp: true}
+- {name: 4Nika-459, server: syncguard.yatamoa.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: MyBY0x2KdqsObgmmRiXFLNEIjmpPfilqnZoatNpTCbs=, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -54,22 +48,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国_0606193104
-      - DE_2|1016KB/s
-      - 美国_0606193106
-      - 美国_060619049
-      - 美国_0606193102
-      - 美国_0606193103
-      - kr|3ff4|puddincat07@Telegram
-      - 4Jadi-30
-      - CN_3ab94_0002
-      - US_5|1.1MB/s
-      - US_6|1.8MB/s
-      - US_7|1.3MB/s
-      - 英国_060619813
-      - 4Jadi-1063
-      - 11|🇺🇸 美国4|@ripaojiedian
-      - _MY_马来西亚->🇭🇰_HK_中国香港
+      - 未知-E3F4F437
+      - 未知-FEAD79C7
+      - 美国_0607103082
+      - 新加坡-F2615EAA
+      - 美国_060710021
+      - us|b5ef|puddincat07@Telegram
+      - xx|13e6|puddincat07@Telegram
+      - 南非_060719019
+      - za|e107|puddincat07@Telegram
+      - 4Nika-459
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -81,44 +69,32 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国_0606193104
-      - DE_2|1016KB/s
-      - 美国_0606193106
-      - 美国_060619049
-      - 美国_0606193102
-      - 美国_0606193103
-      - kr|3ff4|puddincat07@Telegram
-      - 4Jadi-30
-      - CN_3ab94_0002
-      - US_5|1.1MB/s
-      - US_6|1.8MB/s
-      - US_7|1.3MB/s
-      - 英国_060619813
-      - 4Jadi-1063
-      - 11|🇺🇸 美国4|@ripaojiedian
-      - _MY_马来西亚->🇭🇰_HK_中国香港
+      - 未知-E3F4F437
+      - 未知-FEAD79C7
+      - 美国_0607103082
+      - 新加坡-F2615EAA
+      - 美国_060710021
+      - us|b5ef|puddincat07@Telegram
+      - xx|13e6|puddincat07@Telegram
+      - 南非_060719019
+      - za|e107|puddincat07@Telegram
+      - 4Nika-459
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 美国_0606193104
-      - DE_2|1016KB/s
-      - 美国_0606193106
-      - 美国_060619049
-      - 美国_0606193102
-      - 美国_0606193103
-      - kr|3ff4|puddincat07@Telegram
-      - 4Jadi-30
-      - CN_3ab94_0002
-      - US_5|1.1MB/s
-      - US_6|1.8MB/s
-      - US_7|1.3MB/s
-      - 英国_060619813
-      - 4Jadi-1063
-      - 11|🇺🇸 美国4|@ripaojiedian
-      - _MY_马来西亚->🇭🇰_HK_中国香港
+      - 未知-E3F4F437
+      - 未知-FEAD79C7
+      - 美国_0607103082
+      - 新加坡-F2615EAA
+      - 美国_060710021
+      - us|b5ef|puddincat07@Telegram
+      - xx|13e6|puddincat07@Telegram
+      - 南非_060719019
+      - za|e107|puddincat07@Telegram
+      - 4Nika-459
   - name: 🐟 漏网之鱼
     type: select
     proxies:
