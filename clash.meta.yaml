@@ -26,16 +26,49 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 日本-0BB30CB7, server: 35.72.81.216, port: 443, type: ss, cipher: aes-128-gcm, password: eeb6823c-b926-4ea2-866a-5542edd26e59, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: ss.hhll.qqs.me, path: "/proxyip=104.168.132.123\\,172.104.53.198\\,85.121.50.16\\,151.242.125.226?enc=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}, udp: true}
+- {name: 美国-388AC5BD, server: 154.17.29.221, port: 443, type: ss, cipher: aes-128-gcm, password: eeb6823c-b926-4ea2-866a-5542edd26e59, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: ss.hhll.qqs.me, path: "/proxyip=104.168.132.123\\,172.104.53.198\\,85.121.50.16\\,151.242.125.226?enc=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}, udp: true}
+- {name: 美国-475B8FB5, server: 69.63.212.251, port: 443, type: ss, cipher: aes-128-gcm, password: eeb6823c-b926-4ea2-866a-5542edd26e59, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: ss.hhll.qqs.me, path: "/proxyip=104.168.132.123\\,172.104.53.198\\,85.121.50.16\\,151.242.125.226?enc=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}, udp: true}
+- {name: 美国-389BDE24, server: 64.186.229.220, port: 443, type: ss, cipher: aes-128-gcm, password: eeb6823c-b926-4ea2-866a-5542edd26e59, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: ss.hhll.qqs.me, path: "/proxyip=104.168.132.123\\,172.104.53.198\\,85.121.50.16\\,151.242.125.226?enc=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}, udp: true}
+- {name: 美国-7A04D1A7, server: 69.63.216.10, port: 443, type: ss, cipher: aes-128-gcm, password: eeb6823c-b926-4ea2-866a-5542edd26e59, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: ss.hhll.qqs.me, path: "/proxyip=104.168.132.123\\,172.104.53.198\\,85.121.50.16\\,151.242.125.226?enc=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}, udp: true}
+- {name: 美国-BE695C5D, server: 154.17.13.158, port: 443, type: ss, cipher: aes-128-gcm, password: eeb6823c-b926-4ea2-866a-5542edd26e59, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: ss.hhll.qqs.me, path: "/proxyip=104.168.132.123\\,172.104.53.198\\,85.121.50.16\\,151.242.125.226?enc=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}, udp: true}
+- {name: 美国-A662226F, server: 154.21.87.223, port: 443, type: ss, cipher: aes-128-gcm, password: eeb6823c-b926-4ea2-866a-5542edd26e59, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: ss.hhll.qqs.me, path: "/proxyip=104.168.132.123\\,172.104.53.198\\,85.121.50.16\\,151.242.125.226?enc=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}, udp: true}
+- {name: 日本-385F9BFE, server: 47.79.85.185, port: 443, type: ss, cipher: aes-128-gcm, password: eeb6823c-b926-4ea2-866a-5542edd26e59, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: ss.hhll.qqs.me, path: "/proxyip=104.168.132.123\\,172.104.53.198\\,85.121.50.16\\,151.242.125.226?enc=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}, udp: true}
+- {name: 未知-A9E8A23C, server: 218.50.149.114, port: 43034, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
 - {name: 未知-E3F4F437, server: 61.171.92.202, port: 1001, type: ss, cipher: aes-256-gcm, password: !<str> 123, udp: true}
+- {name: 日本-56E9558A, server: 18.178.41.33, port: 443, type: ss, cipher: aes-128-gcm, password: eeb6823c-b926-4ea2-866a-5542edd26e59, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: ss.hhll.qqs.me, path: "/proxyip=104.168.132.123\\,172.104.53.198\\,85.121.50.16\\,151.242.125.226?enc=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}, udp: true}
+- {name: 美国_0608113083, server: 155.117.198.87, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 美国_060817019, server: 90081bb25c.node.tro.cac.cab, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 美国_060817022, server: 90081bb25c.node.tro.cac.cab, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 未知-712D6354, server: 155.117.198.82, port: 47909, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: is.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 未知-6A1B949B, server: 155.117.198.82, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 美国_060811016, server: 90081bb25c.node.tro.cac.cab, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
 - {name: 未知-FEAD79C7, server: 155.117.198.86, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 美国_060817020, server: 90081bb25c.node.tro.cac.cab, port: 47909, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: is.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 未知-91017D71, server: 155.117.198.86, port: 45553, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: ch.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 美国-EF449164, server: 154.17.225.73, port: 443, type: ss, cipher: aes-128-gcm, password: eeb6823c-b926-4ea2-866a-5542edd26e59, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: ss.hhll.qqs.me, path: "/proxyip=104.168.132.123\\,172.104.53.198\\,85.121.50.16\\,151.242.125.226?enc=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}, udp: true}
+- {name: 未知-71B5A0A7, server: 155.117.198.86, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 4Sarina-78, server: r3mrcg001286ek2.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, udp: true}
+- {name: 日本-71E40674, server: 54.248.143.139, port: 443, type: ss, cipher: aes-128-gcm, password: eeb6823c-b926-4ea2-866a-5542edd26e59, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: ss.hhll.qqs.me, path: "/proxyip=104.168.132.123\\,172.104.53.198\\,85.121.50.16\\,151.242.125.226?enc=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}, udp: true}
+- {name: 未知-52402F0D, server: 155.117.198.87, port: 45553, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: ch.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 未知-DEB34329, server: 155.117.198.87, port: 47909, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: is.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 美国-B22008B7, server: 155.117.198.83, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 未知-E8BEE08F, server: 155.117.198.82, port: 45553, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: ch.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 未知-D44C21C2, server: 155.117.198.82, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 未知-D67F424A, server: 155.117.198.83, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: FR_3|1.5MB/s, server: 155.117.198.83, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 未知-34B13D0A, server: 155.117.198.83, port: 45553, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: ch.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 未知-0CC7EC1D, server: 155.117.198.83, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 未知-DBBB1D72, server: 155.117.198.87, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 日本-E07C1BC6, server: 3.115.100.16, port: 443, type: ss, cipher: aes-128-gcm, password: eeb6823c-b926-4ea2-866a-5542edd26e59, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: ss.hhll.qqs.me, path: "/proxyip=104.168.132.123\\,172.104.53.198\\,85.121.50.16\\,151.242.125.226?enc=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}, udp: true}
+- {name: 未知-8B97EBA7, server: 155.117.198.86, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
 - {name: 美国_0607103082, server: 155.117.198.82, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 新加坡-F2615EAA, server: 47.82.162.142, port: 443, type: ss, cipher: aes-128-gcm, password: eeb6823c-b926-4ea2-866a-5542edd26e59, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: ss.hhll.qqs.me, path: "/proxyip=104.168.132.123\\,172.104.53.198\\,85.121.50.16\\,151.242.125.226?enc=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}, udp: true}
-- {name: 美国_060710021, server: 90081bb25c.node.tro.cac.cab, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: us|b5ef|puddincat07@Telegram, server: 155.117.198.87, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: xx|13e6|puddincat07@Telegram, server: nbmrcg0034686rw.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, udp: true}
-- {name: 南非_060719019, server: 40.123.244.72, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: a0p3F9hxEUsGNicB, udp: true}
-- {name: za|e107|puddincat07@Telegram, server: 40.123.244.72, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: CULuHB2PKuvK6yEN, udp: true}
-- {name: 4Nika-459, server: syncguard.yatamoa.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: MyBY0x2KdqsObgmmRiXFLNEIjmpPfilqnZoatNpTCbs=, udp: true}
+- {name: 未知-4A8D7B82, server: 155.117.198.83, port: 47909, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: is.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 未知-C2891CDE, server: 155.117.198.87, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 未知-A6969DA5, server: 155.117.198.82, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 未知-EAA7F4F1, server: account-center.zzdy25.com, port: 38320, type: ss, cipher: chacha20-ietf-poly1305, password: a5115845-cc23-4082-905e-869fe212dfef, udp: true}
+- {name: IE_1|1.1MB/s, server: v8.hdacd.com, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 日本-F2B08D4E, server: 13.192.18.59, port: 443, type: ss, cipher: aes-128-gcm, password: eeb6823c-b926-4ea2-866a-5542edd26e59, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: ss.hhll.qqs.me, path: "/proxyip=104.168.132.123\\,172.104.53.198\\,85.121.50.16\\,151.242.125.226?enc=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -48,16 +81,49 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 日本-0BB30CB7
+      - 美国-388AC5BD
+      - 美国-475B8FB5
+      - 美国-389BDE24
+      - 美国-7A04D1A7
+      - 美国-BE695C5D
+      - 美国-A662226F
+      - 日本-385F9BFE
+      - 未知-A9E8A23C
       - 未知-E3F4F437
+      - 日本-56E9558A
+      - 美国_0608113083
+      - 美国_060817019
+      - 美国_060817022
+      - 未知-712D6354
+      - 未知-6A1B949B
+      - 美国_060811016
       - 未知-FEAD79C7
+      - 美国_060817020
+      - 未知-91017D71
+      - 美国-EF449164
+      - 未知-71B5A0A7
+      - 4Sarina-78
+      - 日本-71E40674
+      - 未知-52402F0D
+      - 未知-DEB34329
+      - 美国-B22008B7
+      - 未知-E8BEE08F
+      - 未知-D44C21C2
+      - 未知-D67F424A
+      - FR_3|1.5MB/s
+      - 未知-34B13D0A
+      - 未知-0CC7EC1D
+      - 未知-DBBB1D72
+      - 日本-E07C1BC6
+      - 未知-8B97EBA7
       - 美国_0607103082
-      - 新加坡-F2615EAA
-      - 美国_060710021
-      - us|b5ef|puddincat07@Telegram
-      - xx|13e6|puddincat07@Telegram
-      - 南非_060719019
-      - za|e107|puddincat07@Telegram
-      - 4Nika-459
+      - 未知-4A8D7B82
+      - 未知-C2891CDE
+      - 未知-A6969DA5
+      - 未知-EAA7F4F1
+      - IE_1|1.1MB/s
+      - 日本-F2B08D4E
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -69,32 +135,98 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 日本-0BB30CB7
+      - 美国-388AC5BD
+      - 美国-475B8FB5
+      - 美国-389BDE24
+      - 美国-7A04D1A7
+      - 美国-BE695C5D
+      - 美国-A662226F
+      - 日本-385F9BFE
+      - 未知-A9E8A23C
       - 未知-E3F4F437
+      - 日本-56E9558A
+      - 美国_0608113083
+      - 美国_060817019
+      - 美国_060817022
+      - 未知-712D6354
+      - 未知-6A1B949B
+      - 美国_060811016
       - 未知-FEAD79C7
+      - 美国_060817020
+      - 未知-91017D71
+      - 美国-EF449164
+      - 未知-71B5A0A7
+      - 4Sarina-78
+      - 日本-71E40674
+      - 未知-52402F0D
+      - 未知-DEB34329
+      - 美国-B22008B7
+      - 未知-E8BEE08F
+      - 未知-D44C21C2
+      - 未知-D67F424A
+      - FR_3|1.5MB/s
+      - 未知-34B13D0A
+      - 未知-0CC7EC1D
+      - 未知-DBBB1D72
+      - 日本-E07C1BC6
+      - 未知-8B97EBA7
       - 美国_0607103082
-      - 新加坡-F2615EAA
-      - 美国_060710021
-      - us|b5ef|puddincat07@Telegram
-      - xx|13e6|puddincat07@Telegram
-      - 南非_060719019
-      - za|e107|puddincat07@Telegram
-      - 4Nika-459
+      - 未知-4A8D7B82
+      - 未知-C2891CDE
+      - 未知-A6969DA5
+      - 未知-EAA7F4F1
+      - IE_1|1.1MB/s
+      - 日本-F2B08D4E
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 日本-0BB30CB7
+      - 美国-388AC5BD
+      - 美国-475B8FB5
+      - 美国-389BDE24
+      - 美国-7A04D1A7
+      - 美国-BE695C5D
+      - 美国-A662226F
+      - 日本-385F9BFE
+      - 未知-A9E8A23C
       - 未知-E3F4F437
+      - 日本-56E9558A
+      - 美国_0608113083
+      - 美国_060817019
+      - 美国_060817022
+      - 未知-712D6354
+      - 未知-6A1B949B
+      - 美国_060811016
       - 未知-FEAD79C7
+      - 美国_060817020
+      - 未知-91017D71
+      - 美国-EF449164
+      - 未知-71B5A0A7
+      - 4Sarina-78
+      - 日本-71E40674
+      - 未知-52402F0D
+      - 未知-DEB34329
+      - 美国-B22008B7
+      - 未知-E8BEE08F
+      - 未知-D44C21C2
+      - 未知-D67F424A
+      - FR_3|1.5MB/s
+      - 未知-34B13D0A
+      - 未知-0CC7EC1D
+      - 未知-DBBB1D72
+      - 日本-E07C1BC6
+      - 未知-8B97EBA7
       - 美国_0607103082
-      - 新加坡-F2615EAA
-      - 美国_060710021
-      - us|b5ef|puddincat07@Telegram
-      - xx|13e6|puddincat07@Telegram
-      - 南非_060719019
-      - za|e107|puddincat07@Telegram
-      - 4Nika-459
+      - 未知-4A8D7B82
+      - 未知-C2891CDE
+      - 未知-A6969DA5
+      - 未知-EAA7F4F1
+      - IE_1|1.1MB/s
+      - 日本-F2B08D4E
   - name: 🐟 漏网之鱼
     type: select
     proxies:
