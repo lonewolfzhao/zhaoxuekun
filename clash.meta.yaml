@@ -26,16 +26,11 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 美国_0611173305, server: 155.117.198.85, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国-ED696021, server: 155.117.198.85, port: 45553, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: ch.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_0611113294, server: 155.117.198.85, port: 47909, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: is.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_0611113307, server: 155.117.198.85, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_0611113313, server: 155.117.198.85, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_0611173297, server: 155.117.198.85, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 英国_061117896, server: 82.38.31.9, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-- {name: 未知-E3F4F437, server: 61.171.92.202, port: 1001, type: ss, cipher: aes-256-gcm, password: !<str> 123, udp: true}
-- {name: 美国_0611213321, server: 192.3.139.168, port: 10086, type: vmess, uuid: 768eb8d0-caca-4f9b-8a6e-f5ccecdfc146, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: 香港_061121241, server: 103.177.136.45, port: 47909, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: is.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 英国_061220930, server: 82.38.31.11, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+- {name: 未知-35C4432A, server: 103.143.238.196, port: 28384, type: vmess, uuid: 1e1a6b3b-14b2-4ae4-9aa9-880ba5dff6fa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: 香港_061220231, server: 103.177.136.45, port: 45553, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: ch.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: HK_6|1.1MB/s, server: 103.177.136.45, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 香港_061220023, server: 103.177.136.42, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -48,16 +43,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国_0611173305
-      - 美国-ED696021
-      - 美国_0611113294
-      - 美国_0611113307
-      - 美国_0611113313
-      - 美国_0611173297
-      - 英国_061117896
-      - 未知-E3F4F437
-      - 美国_0611213321
-      - 香港_061121241
+      - 英国_061220930
+      - 未知-35C4432A
+      - 香港_061220231
+      - HK_6|1.1MB/s
+      - 香港_061220023
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -69,32 +59,22 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国_0611173305
-      - 美国-ED696021
-      - 美国_0611113294
-      - 美国_0611113307
-      - 美国_0611113313
-      - 美国_0611173297
-      - 英国_061117896
-      - 未知-E3F4F437
-      - 美国_0611213321
-      - 香港_061121241
+      - 英国_061220930
+      - 未知-35C4432A
+      - 香港_061220231
+      - HK_6|1.1MB/s
+      - 香港_061220023
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 美国_0611173305
-      - 美国-ED696021
-      - 美国_0611113294
-      - 美国_0611113307
-      - 美国_0611113313
-      - 美国_0611173297
-      - 英国_061117896
-      - 未知-E3F4F437
-      - 美国_0611213321
-      - 香港_061121241
+      - 英国_061220930
+      - 未知-35C4432A
+      - 香港_061220231
+      - HK_6|1.1MB/s
+      - 香港_061220023
   - name: 🐟 漏网之鱼
     type: select
     proxies:
