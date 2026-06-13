@@ -26,11 +26,15 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 英国_061220930, server: 82.38.31.11, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-- {name: 未知-35C4432A, server: 103.143.238.196, port: 28384, type: vmess, uuid: 1e1a6b3b-14b2-4ae4-9aa9-880ba5dff6fa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-- {name: 香港_061220231, server: 103.177.136.45, port: 45553, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: ch.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: HK_6|1.1MB/s, server: 103.177.136.45, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 香港_061220023, server: 103.177.136.42, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 美国_0613163428, server: 198.98.53.130, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: eDfN7SODQceIOmIAbtJJtK, udp: true}
+- {name: 英国_061316922, server: 82.38.31.13, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+- {name: _CN_中国, server: 61.171.92.202, port: 1001, type: ss, cipher: aes-256-gcm, password: !<str> 123, udp: true}
+- {name: 香港_061319011, server: 103.177.136.42, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 香港_061319012, server: 103.177.136.42, port: 47909, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: is.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 新加坡_061319577, server: 104.248.151.64, port: 24422, type: ss, cipher: aes-256-gcm, password: VvhDDkpwNUwUYtsWjQzp4Wu4rZV7QLheQfvNN6eSM2o=, udp: true}
+- {name: 美国_061319348, server: 45.63.75.211, port: 44855, type: vmess, uuid: 5164f226-f833-4e5b-8903-094a3460cd41, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /5164f226}, udp: true}
+- {name: 美国_0613193531, server: 165.227.60.163, port: 2082, type: vmess, uuid: 52b09f69-a832-4070-b9c3-6f10aeb24c6a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 52b09f69-a832-4070-b9c3-6f10aeb24c6a-vm}, udp: true}
+- {name: 未知_061319407, server: www.speedtest.net, port: 8080, type: vmess, uuid: 9e7bd162-ce13-4912-8959-3b32805b462e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.summercart.net}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -43,11 +47,15 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 英国_061220930
-      - 未知-35C4432A
-      - 香港_061220231
-      - HK_6|1.1MB/s
-      - 香港_061220023
+      - 美国_0613163428
+      - 英国_061316922
+      - _CN_中国
+      - 香港_061319011
+      - 香港_061319012
+      - 新加坡_061319577
+      - 美国_061319348
+      - 美国_0613193531
+      - 未知_061319407
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -59,22 +67,30 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 英国_061220930
-      - 未知-35C4432A
-      - 香港_061220231
-      - HK_6|1.1MB/s
-      - 香港_061220023
+      - 美国_0613163428
+      - 英国_061316922
+      - _CN_中国
+      - 香港_061319011
+      - 香港_061319012
+      - 新加坡_061319577
+      - 美国_061319348
+      - 美国_0613193531
+      - 未知_061319407
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 英国_061220930
-      - 未知-35C4432A
-      - 香港_061220231
-      - HK_6|1.1MB/s
-      - 香港_061220023
+      - 美国_0613163428
+      - 英国_061316922
+      - _CN_中国
+      - 香港_061319011
+      - 香港_061319012
+      - 新加坡_061319577
+      - 美国_061319348
+      - 美国_0613193531
+      - 未知_061319407
   - name: 🐟 漏网之鱼
     type: select
     proxies:
