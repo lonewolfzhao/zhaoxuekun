@@ -26,19 +26,15 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: _US_美国_2, server: 34.224.81.99, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 俄罗斯联邦_0616181391, server: 46.29.163.195, port: 20129, type: ss, cipher: aes-256-gcm, password: b24a80e79cee1d1f, udp: true}
-- {name: 香港_061618011, server: 103.177.136.42, port: 47909, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: is.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 4Mohsen-953, server: 5.188.181.201, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+- {name: 美国_0617213835, server: 142.171.48.179, port: 28167, type: vmess, uuid: 2b990b4d-3eca-4735-bf03-b921b91e5532, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
+- {name: 香港_061717007, server: 103.177.136.42, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
 - {name: 4FreeIran-1418, server: 61.171.92.202, port: 1001, type: ss, cipher: aes-256-gcm, password: !<str> 123, udp: true}
-- {name: 俄罗斯联邦_0616181392, server: 176.32.39.96, port: 20129, type: ss, cipher: aes-256-gcm, password: fbaf33bcffe53cf9, udp: true}
-- {name: 未知-104541C9, server: 35.182.251.131, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 香港_061618010, server: 103.177.136.45, port: 47909, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: is.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_0616183745, server: 207.2.120.46, port: 3478, type: ss, cipher: chacha20-ietf-poly1305, password: yu2XnSPWhmQjxn83iJA3DA, udp: true}
-- {name: 俄罗斯联邦_0616181390, server: 195.133.23.28, port: 60129, type: ss, cipher: aes-256-gcm, password: 9f3d1a6d31468599, udp: true}
-- {name: 美国_0616183856, server: 69.84.182.49, port: 80, type: vmess, uuid: f8975871-a7a0-4906-8835-a23c1258ca1e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.}}, udp: true}
-- {name: 4FreeIran-1765, server: 38.91.107.16, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-- {name: 4FreeIran-1766, server: 38.91.107.16, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-- {name: 4FreeIran-1767, server: 38.91.107.66, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+- {name: 香港_061721008, server: 103.177.136.45, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: TW_8e739_0048, server: 103.127.243.54, port: 53229, type: vmess, uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/ABCDE]}, udp: true}
+- {name: 丹麦_061717024, server: 158.173.24.73, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+- {name: 美国_0617173899, server: 207.2.120.46, port: 3478, type: ss, cipher: chacha20-ietf-poly1305, password: yu2XnSPWhmQjxn83iJA3DA, udp: true}
+- {name: 俄罗斯联邦_0616181391, server: 46.29.163.195, port: 20129, type: ss, cipher: aes-256-gcm, password: b24a80e79cee1d1f, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -51,19 +47,15 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _US_美国_2
-      - 俄罗斯联邦_0616181391
-      - 香港_061618011
+      - 4Mohsen-953
+      - 美国_0617213835
+      - 香港_061717007
       - 4FreeIran-1418
-      - 俄罗斯联邦_0616181392
-      - 未知-104541C9
-      - 香港_061618010
-      - 美国_0616183745
-      - 俄罗斯联邦_0616181390
-      - 美国_0616183856
-      - 4FreeIran-1765
-      - 4FreeIran-1766
-      - 4FreeIran-1767
+      - 香港_061721008
+      - TW_8e739_0048
+      - 丹麦_061717024
+      - 美国_0617173899
+      - 俄罗斯联邦_0616181391
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -75,38 +67,30 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _US_美国_2
-      - 俄罗斯联邦_0616181391
-      - 香港_061618011
+      - 4Mohsen-953
+      - 美国_0617213835
+      - 香港_061717007
       - 4FreeIran-1418
-      - 俄罗斯联邦_0616181392
-      - 未知-104541C9
-      - 香港_061618010
-      - 美国_0616183745
-      - 俄罗斯联邦_0616181390
-      - 美国_0616183856
-      - 4FreeIran-1765
-      - 4FreeIran-1766
-      - 4FreeIran-1767
+      - 香港_061721008
+      - TW_8e739_0048
+      - 丹麦_061717024
+      - 美国_0617173899
+      - 俄罗斯联邦_0616181391
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - _US_美国_2
-      - 俄罗斯联邦_0616181391
-      - 香港_061618011
+      - 4Mohsen-953
+      - 美国_0617213835
+      - 香港_061717007
       - 4FreeIran-1418
-      - 俄罗斯联邦_0616181392
-      - 未知-104541C9
-      - 香港_061618010
-      - 美国_0616183745
-      - 俄罗斯联邦_0616181390
-      - 美国_0616183856
-      - 4FreeIran-1765
-      - 4FreeIran-1766
-      - 4FreeIran-1767
+      - 香港_061721008
+      - TW_8e739_0048
+      - 丹麦_061717024
+      - 美国_0617173899
+      - 俄罗斯联邦_0616181391
   - name: 🐟 漏网之鱼
     type: select
     proxies:
