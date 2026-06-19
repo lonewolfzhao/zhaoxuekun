@@ -27,11 +27,15 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: 未知_0618053958, server: 23.149.28.8.sslip.io, port: 8443, type: trojan, password: 78c6cf8f30399bad3f63f15a9600a8ef, skip-cert-verify: true, udp: true}
-- {name: 4FreeIran-1418, server: 61.171.92.202, port: 1001, type: ss, cipher: aes-256-gcm, password: !<str> 123, udp: true}
-- {name: 香港_061817014, server: hkt.lajichang.xyz, port: 2096, type: trojan, password: e5c22f63-e473-496a-beff-fdc5655008c1, sni: bing.com, skip-cert-verify: true, udp: true}
-- {name: 香港_061817006, server: 103.177.136.42, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 香港_061817009, server: 103.177.136.45, port: 45553, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: ch.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 香港_061820015, server: 103.177.136.45, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 未知-5BB7C541, server: ss.042.node-for-bigairport.win, port: 19000, type: ss, cipher: chacha20-ietf-poly1305, password: 792e0bdb-01db-450c-94c4-925151eb396e, udp: true}
+- {name: 4Sarina-1370, server: 61.171.92.202, port: 1001, type: ss, cipher: aes-256-gcm, password: !<str> 123, udp: true}
+- {name: 香港_061921014, server: 103.177.136.45, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 香港_061921011, server: 103.177.136.42, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 香港_061921010, server: 103.177.136.42, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 香港_061921012, server: 103.177.136.45, port: 45553, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: ch.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 香港_061921005, server: hkt.lajichang.xyz, port: 2096, type: trojan, password: e5c22f63-e473-496a-beff-fdc5655008c1, sni: bing.com, skip-cert-verify: true, udp: true}
+- {name: 摩尔多瓦_061917009, server: 94.103.2.174, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: BKtw7AVI6tDcK1oAP4B2lu, udp: true}
+- {name: 4FreeIran-1849, server: 38.75.136.102, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -45,11 +49,15 @@ proxy-groups:
     interval: 10
     proxies:
       - 未知_0618053958
-      - 4FreeIran-1418
-      - 香港_061817014
-      - 香港_061817006
-      - 香港_061817009
-      - 香港_061820015
+      - 未知-5BB7C541
+      - 4Sarina-1370
+      - 香港_061921014
+      - 香港_061921011
+      - 香港_061921010
+      - 香港_061921012
+      - 香港_061921005
+      - 摩尔多瓦_061917009
+      - 4FreeIran-1849
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -62,11 +70,15 @@ proxy-groups:
     interval: 10
     proxies:
       - 未知_0618053958
-      - 4FreeIran-1418
-      - 香港_061817014
-      - 香港_061817006
-      - 香港_061817009
-      - 香港_061820015
+      - 未知-5BB7C541
+      - 4Sarina-1370
+      - 香港_061921014
+      - 香港_061921011
+      - 香港_061921010
+      - 香港_061921012
+      - 香港_061921005
+      - 摩尔多瓦_061917009
+      - 4FreeIran-1849
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -74,11 +86,15 @@ proxy-groups:
     interval: 10
     proxies:
       - 未知_0618053958
-      - 4FreeIran-1418
-      - 香港_061817014
-      - 香港_061817006
-      - 香港_061817009
-      - 香港_061820015
+      - 未知-5BB7C541
+      - 4Sarina-1370
+      - 香港_061921014
+      - 香港_061921011
+      - 香港_061921010
+      - 香港_061921012
+      - 香港_061921005
+      - 摩尔多瓦_061917009
+      - 4FreeIran-1849
   - name: 🐟 漏网之鱼
     type: select
     proxies:
