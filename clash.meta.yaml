@@ -26,16 +26,12 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 香港-45AA74E3, server: 154.37.223.25, port: 52080, type: vmess, uuid: 065c9832-3869-44c6-8883-b80013cb6397, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/QQqun-737805443]}, udp: true}
-- {name: 未知_0618053958, server: 23.149.28.8.sslip.io, port: 8443, type: trojan, password: 78c6cf8f30399bad3f63f15a9600a8ef, skip-cert-verify: true, udp: true}
 - {name: 4FreeIran-1391, server: 61.171.92.202, port: 1001, type: ss, cipher: aes-256-gcm, password: !<str> 123, udp: true}
-- {name: 美国-09D1CB6C, server: 107.173.27.219, port: 6666, type: vmess, uuid: f0a2fbe5-29bf-468c-ddc1-b524552d1a23, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youtube}, udp: true}
-- {name: 日本_062019370, server: 118.27.150.68, port: 51490, type: ss, cipher: chacha20-ietf-poly1305, password: CTpCTsn295rfKvu9Ua9FYe, udp: true}
-- {name: 香港_062019010, server: 103.177.136.42, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 香港_062019013, server: 103.177.136.42, port: 47909, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: is.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 香港_062019014, server: 103.177.136.42, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 香港_062019021, server: 103.177.136.45, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: US_4|1.1MB/s, server: 186.241.75.40.sslip.io, port: 443, type: vmess, uuid: a28cdd41-6795-4c5b-86f7-15a05a5d60f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /f76f8e3dcb66b6d94b59f3ad, headers: {Host: 186.241.75.40.sslip.io}}, udp: true}
+- {name: _US_美国, server: 107.173.27.219, port: 6666, type: vmess, uuid: f0a2fbe5-29bf-468c-ddc1-b524552d1a23, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /youtube}, udp: true}
+- {name: 香港_062120013, server: 103.177.136.42, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 香港_062120007, server: 103.177.136.42, port: 45553, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: ch.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 香港_062120009, server: 103.177.136.42, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 香港_062120014, server: 103.177.136.42, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -48,16 +44,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港-45AA74E3
-      - 未知_0618053958
       - 4FreeIran-1391
-      - 美国-09D1CB6C
-      - 日本_062019370
-      - 香港_062019010
-      - 香港_062019013
-      - 香港_062019014
-      - 香港_062019021
-      - US_4|1.1MB/s
+      - _US_美国
+      - 香港_062120013
+      - 香港_062120007
+      - 香港_062120009
+      - 香港_062120014
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -69,32 +61,24 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港-45AA74E3
-      - 未知_0618053958
       - 4FreeIran-1391
-      - 美国-09D1CB6C
-      - 日本_062019370
-      - 香港_062019010
-      - 香港_062019013
-      - 香港_062019014
-      - 香港_062019021
-      - US_4|1.1MB/s
+      - _US_美国
+      - 香港_062120013
+      - 香港_062120007
+      - 香港_062120009
+      - 香港_062120014
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 香港-45AA74E3
-      - 未知_0618053958
       - 4FreeIran-1391
-      - 美国-09D1CB6C
-      - 日本_062019370
-      - 香港_062019010
-      - 香港_062019013
-      - 香港_062019014
-      - 香港_062019021
-      - US_4|1.1MB/s
+      - _US_美国
+      - 香港_062120013
+      - 香港_062120007
+      - 香港_062120009
+      - 香港_062120014
   - name: 🐟 漏网之鱼
     type: select
     proxies:
