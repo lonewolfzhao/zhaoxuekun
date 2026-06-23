@@ -26,8 +26,17 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 美国_062218049, server: 198.98.53.130, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: eDfN7SODQceIOmIAbtJJtK, udp: true}
+- {name: 美国_0623203990, server: 153.76.112.64, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: qSD_rJKu3Xazdb4ybvHupw, udp: true}
+- {name: 新加坡_062316611, server: 13.250.63.234, port: 80, type: ss, cipher: aes-256-gcm, password: dada1203, udp: true}
+- {name: 英国_062316940, server: 82.38.31.198, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
+- {name: 韩国-CDC7DED9, server: 221.150.109.89, port: 59490, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 美国_0623103889, server: 154.12.50.89, port: 37215, type: vmess, uuid: 2a2b08aa-c05e-494b-a5a6-8e63abcb9bbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- {name: 美国_0623103890, server: 154.12.50.89, port: 62051, type: vmess, uuid: 2a2b08aa-c05e-494b-a5a6-8e63abcb9bbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- {name: 新加坡_062316613, server: 54.169.246.92, port: 80, type: ss, cipher: aes-256-gcm, password: dada1203, udp: true}
+- {name: 新加坡_062316614, server: 54.169.219.98, port: 80, type: ss, cipher: aes-256-gcm, password: dada1203, udp: true}
 - {name: 4FreeIran-1391, server: 61.171.92.202, port: 1001, type: ss, cipher: aes-256-gcm, password: !<str> 123, udp: true}
+- {name: 美国_0623103891, server: 43.130.35.53, port: 10087, type: vmess, uuid: 7cc3912c-b743-4825-9b6c-e588e48ab09e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 新加坡_062320597, server: v.wudamiao.cn, port: 8443, type: vmess, uuid: 7cc3912c-b743-4825-9b6c-e588e48ab09e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -40,8 +49,17 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国_062218049
+      - 美国_0623203990
+      - 新加坡_062316611
+      - 英国_062316940
+      - 韩国-CDC7DED9
+      - 美国_0623103889
+      - 美国_0623103890
+      - 新加坡_062316613
+      - 新加坡_062316614
       - 4FreeIran-1391
+      - 美国_0623103891
+      - 新加坡_062320597
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -53,16 +71,34 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国_062218049
+      - 美国_0623203990
+      - 新加坡_062316611
+      - 英国_062316940
+      - 韩国-CDC7DED9
+      - 美国_0623103889
+      - 美国_0623103890
+      - 新加坡_062316613
+      - 新加坡_062316614
       - 4FreeIran-1391
+      - 美国_0623103891
+      - 新加坡_062320597
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 美国_062218049
+      - 美国_0623203990
+      - 新加坡_062316611
+      - 英国_062316940
+      - 韩国-CDC7DED9
+      - 美国_0623103889
+      - 美国_0623103890
+      - 新加坡_062316613
+      - 新加坡_062316614
       - 4FreeIran-1391
+      - 美国_0623103891
+      - 新加坡_062320597
   - name: 🐟 漏网之鱼
     type: select
     proxies:
