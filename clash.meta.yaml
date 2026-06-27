@@ -26,20 +26,12 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 美国_0627194167, server: 108.61.156.158, port: 2, type: ss, cipher: chacha20-ietf-poly1305, password: FhS_Go_TmiFytUwbAmIOvA, udp: true}
 - {name: 4Sarina-1423, server: 61.171.92.202, port: 1001, type: ss, cipher: aes-256-gcm, password: !<str> 123, udp: true}
-- {name: 美国_0626164189, server: d1.catcat321.com, port: 56168, type: trojan, password: 7e70223b-f331-41d5-9313-02b8d2df2885, sni: d.usj1.cat.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 美国_0626164188, server: d1.catcat321.com, port: 42531, type: trojan, password: 63872b0d-87dd-4474-b690-92773af2922e, sni: d.usj1.cat.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: US_1bf20_0071, server: 134.195.101.117, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: 817aa69.default.nintendo.com:112719}, udp: true}
-- {name: 未知-B221E8B6, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 香港_062620018, server: 103.177.136.42, port: 45553, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: ch.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 未知-B221E8B6 2, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: US_1bf20_0067, server: 134.195.101.118, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: 817aa69.default.nintendo.com:112719}, udp: true}
-- {name: 美国_0626204146, server: kkvlvvq-a.catcat321.com, port: 20035, type: trojan, password: 63872b0d-87dd-4474-b690-92773af2922e, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
-- {name: 香港_062620001, server: 103.177.136.45, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 香港_062620010, server: 103.177.136.45, port: 47909, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: is.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 香港_062620011, server: 103.177.136.45, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 香港_062620012, server: 103.177.136.45, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 香港_062620016, server: 103.177.136.42, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 美国_0627194168, server: d1.catcat321.com, port: 29187, type: trojan, password: 7e70223b-f331-41d5-9313-02b8d2df2885, sni: d.usj1.cat.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 美国_0627194126, server: d1.catcat321.com, port: 50888, type: trojan, password: 7e70223b-f331-41d5-9313-02b8d2df2885, sni: d.usj1.cat.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 德国_062719020, server: 5.230.184.16, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 453u6Gcei04NyXbrWLKa0M, udp: true}
+- {name: 美国_0627194125, server: d1.catcat321.com, port: 58868, type: trojan, password: 7e70223b-f331-41d5-9313-02b8d2df2885, sni: d.usj1.cat.bilibili.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -52,20 +44,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 美国_0627194167
       - 4Sarina-1423
-      - 美国_0626164189
-      - 美国_0626164188
-      - US_1bf20_0071
-      - 未知-B221E8B6
-      - 香港_062620018
-      - 未知-B221E8B6 2
-      - US_1bf20_0067
-      - 美国_0626204146
-      - 香港_062620001
-      - 香港_062620010
-      - 香港_062620011
-      - 香港_062620012
-      - 香港_062620016
+      - 美国_0627194168
+      - 美国_0627194126
+      - 德国_062719020
+      - 美国_0627194125
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -77,40 +61,24 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 美国_0627194167
       - 4Sarina-1423
-      - 美国_0626164189
-      - 美国_0626164188
-      - US_1bf20_0071
-      - 未知-B221E8B6
-      - 香港_062620018
-      - 未知-B221E8B6 2
-      - US_1bf20_0067
-      - 美国_0626204146
-      - 香港_062620001
-      - 香港_062620010
-      - 香港_062620011
-      - 香港_062620012
-      - 香港_062620016
+      - 美国_0627194168
+      - 美国_0627194126
+      - 德国_062719020
+      - 美国_0627194125
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 美国_0627194167
       - 4Sarina-1423
-      - 美国_0626164189
-      - 美国_0626164188
-      - US_1bf20_0071
-      - 未知-B221E8B6
-      - 香港_062620018
-      - 未知-B221E8B6 2
-      - US_1bf20_0067
-      - 美国_0626204146
-      - 香港_062620001
-      - 香港_062620010
-      - 香港_062620011
-      - 香港_062620012
-      - 香港_062620016
+      - 美国_0627194168
+      - 美国_0627194126
+      - 德国_062719020
+      - 美国_0627194125
   - name: 🐟 漏网之鱼
     type: select
     proxies:
