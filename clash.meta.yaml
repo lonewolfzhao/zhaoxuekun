@@ -26,11 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: _JP_日本, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 美国-07F16A90, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: _FI_芬兰, server: 109.107.182.229, port: 51544, type: ss, cipher: chacha20-ietf-poly1305, password: 4d1nVpqJVp5oq2W4D0Ljy4, udp: true}
-- {name: _SG_新加坡->🇺🇸_US_美国, server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 阿塞拜疆_062922002, server: cnopa4.coolestoon.top, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: 7GJGSnbvdEpwG9XD1J7mn880T8R1PN4J, udp: true}
+- {name: 阿塞拜疆_062922001, server: adidas.ftrer.shop, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: 7GJGSnbvdEpwG9XD1J7mn880T8R1PN4J, udp: true}
 - {name: _SG_新加坡->🇩🇪_DE_德国, server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _SG_新加坡->🇺🇸_US_美国, server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -43,11 +42,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _JP_日本
-      - 美国-07F16A90
-      - _FI_芬兰
-      - _SG_新加坡->🇺🇸_US_美国
+      - 阿塞拜疆_062922002
+      - 阿塞拜疆_062922001
       - _SG_新加坡->🇩🇪_DE_德国
+      - _SG_新加坡->🇺🇸_US_美国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -59,22 +57,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _JP_日本
-      - 美国-07F16A90
-      - _FI_芬兰
-      - _SG_新加坡->🇺🇸_US_美国
+      - 阿塞拜疆_062922002
+      - 阿塞拜疆_062922001
       - _SG_新加坡->🇩🇪_DE_德国
+      - _SG_新加坡->🇺🇸_US_美国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - _JP_日本
-      - 美国-07F16A90
-      - _FI_芬兰
-      - _SG_新加坡->🇺🇸_US_美国
+      - 阿塞拜疆_062922002
+      - 阿塞拜疆_062922001
       - _SG_新加坡->🇩🇪_DE_德国
+      - _SG_新加坡->🇺🇸_US_美国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
