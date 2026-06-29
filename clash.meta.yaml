@@ -25,8 +25,35 @@ dns:
     geoip-code: CN
     ipcidr:
     - 240.0.0.0/4
+unified-delay: true
+global-client-fingerprint: chrome
+dns:
+  enable: true
+  listen: :53
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+  - 223.5.5.5
+  - 8.8.8.8
+  nameserver:
+  - https://dns.alidns.com/dns-query
+  - https://doh.pub/dns-query
+  fallback:
+  - https://1.0.0.1/dns-query
+  - tls://dns.google
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+    - 240.0.0.0/4
 proxies:
-- {name: 爱尔兰_062819038, server: 212.147.232.192, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: 77H4-JdFXOB7kekqDIz_jg, udp: true}
+- {name: 香港_062910006, server: 103.177.136.42, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 香港_062910007, server: 103.177.136.45, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 香港_062910008, server: 103.177.136.45, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 香港_062910015, server: 103.177.136.42, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 香港_062910016, server: 103.177.136.42, port: 45553, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: ch.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 香港_062910018, server: 103.177.136.45, port: 47909, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: is.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -39,7 +66,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 爱尔兰_062819038
+      - 香港_062910006
+      - 香港_062910007
+      - 香港_062910008
+      - 香港_062910015
+      - 香港_062910016
+      - 香港_062910018
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -51,14 +83,24 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 爱尔兰_062819038
+      - 香港_062910006
+      - 香港_062910007
+      - 香港_062910008
+      - 香港_062910015
+      - 香港_062910016
+      - 香港_062910018
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 爱尔兰_062819038
+      - 香港_062910006
+      - 香港_062910007
+      - 香港_062910008
+      - 香港_062910015
+      - 香港_062910016
+      - 香港_062910018
   - name: 🐟 漏网之鱼
     type: select
     proxies:
