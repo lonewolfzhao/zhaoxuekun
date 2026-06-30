@@ -26,10 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 新加坡-A1DC06AA, server: 188.253.12.95, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
 - {name: 韩国-ADFE686B, server: 27.255.82.134, port: 2078, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 4Kian-140, server: 217.179.5.160, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: 8mP6pZfUs2fvST14xw5LrA, udp: true}
-- {name: _HK_中国香港, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 新加坡-48C48F6E, server: 188.253.12.95, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 新加坡-76A8268F, server: 188.253.12.97, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +41,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 新加坡-A1DC06AA
       - 韩国-ADFE686B
-      - 4Kian-140
-      - _HK_中国香港
+      - 新加坡-48C48F6E
+      - 新加坡-76A8268F
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,20 +55,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 新加坡-A1DC06AA
       - 韩国-ADFE686B
-      - 4Kian-140
-      - _HK_中国香港
+      - 新加坡-48C48F6E
+      - 新加坡-76A8268F
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 新加坡-A1DC06AA
       - 韩国-ADFE686B
-      - 4Kian-140
-      - _HK_中国香港
+      - 新加坡-48C48F6E
+      - 新加坡-76A8268F
   - name: 🐟 漏网之鱼
     type: select
     proxies:
