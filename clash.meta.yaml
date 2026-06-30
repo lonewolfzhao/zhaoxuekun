@@ -26,10 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 阿塞拜疆_062922002, server: cnopa4.coolestoon.top, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: 7GJGSnbvdEpwG9XD1J7mn880T8R1PN4J, udp: true}
-- {name: 阿塞拜疆_062922001, server: adidas.ftrer.shop, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: 7GJGSnbvdEpwG9XD1J7mn880T8R1PN4J, udp: true}
-- {name: _SG_新加坡->🇩🇪_DE_德国, server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: _SG_新加坡->🇺🇸_US_美国, server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 新加坡-A1DC06AA, server: 188.253.12.95, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 韩国-ADFE686B, server: 27.255.82.134, port: 2078, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 4Kian-140, server: 217.179.5.160, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: 8mP6pZfUs2fvST14xw5LrA, udp: true}
+- {name: _HK_中国香港, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +42,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 阿塞拜疆_062922002
-      - 阿塞拜疆_062922001
-      - _SG_新加坡->🇩🇪_DE_德国
-      - _SG_新加坡->🇺🇸_US_美国
+      - 新加坡-A1DC06AA
+      - 韩国-ADFE686B
+      - 4Kian-140
+      - _HK_中国香港
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,20 +57,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 阿塞拜疆_062922002
-      - 阿塞拜疆_062922001
-      - _SG_新加坡->🇩🇪_DE_德国
-      - _SG_新加坡->🇺🇸_US_美国
+      - 新加坡-A1DC06AA
+      - 韩国-ADFE686B
+      - 4Kian-140
+      - _HK_中国香港
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 阿塞拜疆_062922002
-      - 阿塞拜疆_062922001
-      - _SG_新加坡->🇩🇪_DE_德国
-      - _SG_新加坡->🇺🇸_US_美国
+      - 新加坡-A1DC06AA
+      - 韩国-ADFE686B
+      - 4Kian-140
+      - _HK_中国香港
   - name: 🐟 漏网之鱼
     type: select
     proxies:
