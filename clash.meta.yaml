@@ -26,9 +26,8 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: IE_1|2.1MB/s, server: 146.70.90.195, port: 57452, type: trojan, password: t1k169n5zmvvwn96r9ft, sni: api-yandex.maps.ru, skip-cert-verify: true, udp: true}
 - {name: 韩国-ADFE686B, server: 27.255.82.134, port: 2078, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 新加坡-48C48F6E, server: 188.253.12.95, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 新加坡-76A8268F, server: 188.253.12.97, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -41,9 +40,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - IE_1|2.1MB/s
       - 韩国-ADFE686B
-      - 新加坡-48C48F6E
-      - 新加坡-76A8268F
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -55,18 +53,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - IE_1|2.1MB/s
       - 韩国-ADFE686B
-      - 新加坡-48C48F6E
-      - 新加坡-76A8268F
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - IE_1|2.1MB/s
       - 韩国-ADFE686B
-      - 新加坡-48C48F6E
-      - 新加坡-76A8268F
   - name: 🐟 漏网之鱼
     type: select
     proxies:
