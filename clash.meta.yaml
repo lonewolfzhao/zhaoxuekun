@@ -26,11 +26,16 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 美国-247848C4, server: d1.catcat321.com, port: 29187, type: trojan, password: 7e70223b-f331-41d5-9313-02b8d2df2885, sni: d.usj1.cat.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 意大利_070320042, server: 80.71.236.111, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: YYwwQ1HNdbBcGp53mZ5dMQ==, udp: true}
-- {name: 俄罗斯联邦_070315567, server: 46.29.163.30, port: 30129, type: ss, cipher: aes-256-gcm, password: 32c0ea6e823341a2, udp: true}
-- {name: 4FreeIran-1417, server: 27.255.82.134, port: 2078, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 澳大利亚_070320003, server: 157.85.230.247, port: 2052, type: vmess, uuid: 85357d35-492e-4814-835a-aba4cb7f00ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 85357d35-492e-4814-835a-aba4cb7f00ad-vm, headers: {Host: www.bing.com}}, udp: true}
+- {name: 摩尔多瓦_070419007, server: s55.hide-internet.ru, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 61sdOoBr2LeFCOasRjD9Lj, udp: true}
+- {name: 4Nika-730, server: 82.38.31.35, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+- {name: 4Nika-1178, server: 51.44.220.197, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Nika-160, server: jp04.network-cdn-gw-yd.net, port: 48804, type: ss, cipher: chacha20-ietf-poly1305, password: 1348a838-9105-4f3e-bd04-699a9be10480, udp: true}
+- {name: US_4|1.7MB/s, server: 3.136.233.197, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Nika-573, server: hk1.network-cdn-gw-yd.net, port: 32060, type: ss, cipher: chacha20-ietf-poly1305, password: b3813e01-e131-4ed2-98fd-c3a805fc515f, udp: true}
+- {name: 4Nika-574, server: hk18.network-cdn-gw-yd.net, port: 47708, type: ss, cipher: chacha20-ietf-poly1305, password: b3813e01-e131-4ed2-98fd-c3a805fc515f, udp: true}
+- {name: 4Nika-577, server: us02.network-cdn-gw-yd.net, port: 44402, type: ss, cipher: chacha20-ietf-poly1305, password: b3813e01-e131-4ed2-98fd-c3a805fc515f, udp: true}
+- {name: 4Nika-578, server: us05.network-cdn-gw-yd.net, port: 44405, type: ss, cipher: chacha20-ietf-poly1305, password: b3813e01-e131-4ed2-98fd-c3a805fc515f, udp: true}
+- {name: 4Nika-1145, server: 3.17.162.229, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -43,11 +48,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国-247848C4
-      - 意大利_070320042
-      - 俄罗斯联邦_070315567
-      - 4FreeIran-1417
-      - 澳大利亚_070320003
+      - 摩尔多瓦_070419007
+      - 4Nika-730
+      - 4Nika-1178
+      - 4Nika-160
+      - US_4|1.7MB/s
+      - 4Nika-573
+      - 4Nika-574
+      - 4Nika-577
+      - 4Nika-578
+      - 4Nika-1145
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -59,22 +69,32 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国-247848C4
-      - 意大利_070320042
-      - 俄罗斯联邦_070315567
-      - 4FreeIran-1417
-      - 澳大利亚_070320003
+      - 摩尔多瓦_070419007
+      - 4Nika-730
+      - 4Nika-1178
+      - 4Nika-160
+      - US_4|1.7MB/s
+      - 4Nika-573
+      - 4Nika-574
+      - 4Nika-577
+      - 4Nika-578
+      - 4Nika-1145
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 美国-247848C4
-      - 意大利_070320042
-      - 俄罗斯联邦_070315567
-      - 4FreeIran-1417
-      - 澳大利亚_070320003
+      - 摩尔多瓦_070419007
+      - 4Nika-730
+      - 4Nika-1178
+      - 4Nika-160
+      - US_4|1.7MB/s
+      - 4Nika-573
+      - 4Nika-574
+      - 4Nika-577
+      - 4Nika-578
+      - 4Nika-1145
   - name: 🐟 漏网之鱼
     type: select
     proxies:
