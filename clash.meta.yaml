@@ -26,10 +26,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: JP_3|3.6MB/s, server: 3.112.132.169, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4FreeIran-1145, server: 3.15.193.107, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: xx|2c29|puddincat07@Telegram, server: jpbgp.netvigor.cc, port: 19128, type: trojan, password: OccIqeORGQwiNkwS, sni: yazhou10.dynu.net, skip-cert-verify: true, udp: true}
-- {name: CA_1|2.8MB/s, server: c87s5.portablesubmarines.com, port: 18339, type: vmess, uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 英国_070519011, server: 82.38.31.35, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+- {name: _KR_韩国_1, server: 217.142.138.61, port: 80, type: vmess, uuid: ac1b933d-afff-4487-93ef-f57130a55dff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+- {name: 韩国-ADFE686B, server: 27.255.82.134, port: 2078, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +41,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - JP_3|3.6MB/s
-      - 4FreeIran-1145
-      - xx|2c29|puddincat07@Telegram
-      - CA_1|2.8MB/s
+      - 英国_070519011
+      - _KR_韩国_1
+      - 韩国-ADFE686B
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,20 +55,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - JP_3|3.6MB/s
-      - 4FreeIran-1145
-      - xx|2c29|puddincat07@Telegram
-      - CA_1|2.8MB/s
+      - 英国_070519011
+      - _KR_韩国_1
+      - 韩国-ADFE686B
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - JP_3|3.6MB/s
-      - 4FreeIran-1145
-      - xx|2c29|puddincat07@Telegram
-      - CA_1|2.8MB/s
+      - 英国_070519011
+      - _KR_韩国_1
+      - 韩国-ADFE686B
   - name: 🐟 漏网之鱼
     type: select
     proxies:
