@@ -26,16 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 摩尔多瓦_070419007, server: s55.hide-internet.ru, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 61sdOoBr2LeFCOasRjD9Lj, udp: true}
-- {name: 4Nika-730, server: 82.38.31.35, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-- {name: 4Nika-1178, server: 51.44.220.197, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Nika-160, server: jp04.network-cdn-gw-yd.net, port: 48804, type: ss, cipher: chacha20-ietf-poly1305, password: 1348a838-9105-4f3e-bd04-699a9be10480, udp: true}
-- {name: US_4|1.7MB/s, server: 3.136.233.197, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Nika-573, server: hk1.network-cdn-gw-yd.net, port: 32060, type: ss, cipher: chacha20-ietf-poly1305, password: b3813e01-e131-4ed2-98fd-c3a805fc515f, udp: true}
-- {name: 4Nika-574, server: hk18.network-cdn-gw-yd.net, port: 47708, type: ss, cipher: chacha20-ietf-poly1305, password: b3813e01-e131-4ed2-98fd-c3a805fc515f, udp: true}
-- {name: 4Nika-577, server: us02.network-cdn-gw-yd.net, port: 44402, type: ss, cipher: chacha20-ietf-poly1305, password: b3813e01-e131-4ed2-98fd-c3a805fc515f, udp: true}
-- {name: 4Nika-578, server: us05.network-cdn-gw-yd.net, port: 44405, type: ss, cipher: chacha20-ietf-poly1305, password: b3813e01-e131-4ed2-98fd-c3a805fc515f, udp: true}
-- {name: 4Nika-1145, server: 3.17.162.229, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: JP_3|3.6MB/s, server: 3.112.132.169, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4FreeIran-1145, server: 3.15.193.107, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: xx|2c29|puddincat07@Telegram, server: jpbgp.netvigor.cc, port: 19128, type: trojan, password: OccIqeORGQwiNkwS, sni: yazhou10.dynu.net, skip-cert-verify: true, udp: true}
+- {name: CA_1|2.8MB/s, server: c87s5.portablesubmarines.com, port: 18339, type: vmess, uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -48,16 +42,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 摩尔多瓦_070419007
-      - 4Nika-730
-      - 4Nika-1178
-      - 4Nika-160
-      - US_4|1.7MB/s
-      - 4Nika-573
-      - 4Nika-574
-      - 4Nika-577
-      - 4Nika-578
-      - 4Nika-1145
+      - JP_3|3.6MB/s
+      - 4FreeIran-1145
+      - xx|2c29|puddincat07@Telegram
+      - CA_1|2.8MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -69,32 +57,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 摩尔多瓦_070419007
-      - 4Nika-730
-      - 4Nika-1178
-      - 4Nika-160
-      - US_4|1.7MB/s
-      - 4Nika-573
-      - 4Nika-574
-      - 4Nika-577
-      - 4Nika-578
-      - 4Nika-1145
+      - JP_3|3.6MB/s
+      - 4FreeIran-1145
+      - xx|2c29|puddincat07@Telegram
+      - CA_1|2.8MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 摩尔多瓦_070419007
-      - 4Nika-730
-      - 4Nika-1178
-      - 4Nika-160
-      - US_4|1.7MB/s
-      - 4Nika-573
-      - 4Nika-574
-      - 4Nika-577
-      - 4Nika-578
-      - 4Nika-1145
+      - JP_3|3.6MB/s
+      - 4FreeIran-1145
+      - xx|2c29|puddincat07@Telegram
+      - CA_1|2.8MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
