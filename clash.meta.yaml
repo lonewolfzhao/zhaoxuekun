@@ -26,10 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 俄罗斯联邦_070610582, server: 46.29.163.30, port: 20128, type: ss, cipher: aes-256-gcm, password: 32c0ea6e823341a2, udp: true}
-- {name: 香港_070621162, server: c722s2.portablesubmarines.com, port: 16025, type: ss, cipher: aes-256-gcm, password: gXtfJmxrZ8Qkkd2k, udp: true}
-- {name: 香港_070621163, server: c722s1.portablesubmarines.com, port: 16025, type: ss, cipher: aes-256-gcm, password: gXtfJmxrZ8Qkkd2k, udp: true}
-- {name: 美国_0706214303, server: c722s801.portablesubmarines.com, port: 16025, type: vmess, uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Nika-1166, server: 35.180.255.4, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 韩国 | KOR, server: 217.142.138.61, port: 80, type: vmess, uuid: ac1b933d-afff-4487-93ef-f57130a55dff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+- {name: 4Nika-1152, server: 3.147.78.9, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 韩国-ADFE686B, server: 27.255.82.134, port: 2078, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +42,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 俄罗斯联邦_070610582
-      - 香港_070621162
-      - 香港_070621163
-      - 美国_0706214303
+      - 4Nika-1166
+      - 韩国 | KOR
+      - 4Nika-1152
+      - 韩国-ADFE686B
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,20 +57,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 俄罗斯联邦_070610582
-      - 香港_070621162
-      - 香港_070621163
-      - 美国_0706214303
+      - 4Nika-1166
+      - 韩国 | KOR
+      - 4Nika-1152
+      - 韩国-ADFE686B
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 俄罗斯联邦_070610582
-      - 香港_070621162
-      - 香港_070621163
-      - 美国_0706214303
+      - 4Nika-1166
+      - 韩国 | KOR
+      - 4Nika-1152
+      - 韩国-ADFE686B
   - name: 🐟 漏网之鱼
     type: select
     proxies:
