@@ -26,33 +26,15 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 日本_070815622, server: rational-joey.rooster465.autos, port: 443, type: trojan, password: XG59623478, skip-cert-verify: true, udp: true}
-- {name: 美国_0708154477, server: novel-bat.rooster465.autos, port: 443, type: trojan, password: XG59623478, skip-cert-verify: true, udp: true}
-- {name: 新加坡_070815578, server: flying-escargot.rooster465.autos, port: 443, type: trojan, password: XG59623478, skip-cert-verify: true, udp: true}
-- {name: 斯洛伐克_070819010, server: 156.146.40.84, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: gelwvU9mUR0orEFS5D6u7A, udp: true}
-- {name: 法国_070815483, server: open-octopus.rooster465.autos, port: 443, type: trojan, password: XG59623478, skip-cert-verify: true, udp: true}
-- {name: 罗马尼亚_070819122, server: 146.70.254.238, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: gelwvU9mUR0orEFS5D6u7A, udp: true}
-- {name: JP_27|5.4MB/s, server: united-grouse.rooster465.autos, port: 443, type: trojan, password: XG59623478, skip-cert-verify: true, udp: true}
-- {name: 波兰_070819064, server: 178.255.41.214, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: gelwvU9mUR0orEFS5D6u7A, udp: true}
-- {name: 日本_070815596, server: wise-rhino.rooster465.autos, port: 443, type: trojan, password: XG59623478, skip-cert-verify: true, udp: true}
-- {name: 4Kian-275, server: 188.245.87.3, port: 2096, type: ss, cipher: chacha20-ietf-poly1305, password: FfrEPkxURnFQi00uMlQwOA, udp: true}
 - {name: 中国_070815006, server: 106.75.160.27, port: 39001, type: trojan, password: ef73ca2cf3d9cd0f04c8f448da8125c6, sni: www.yrtok.com, skip-cert-verify: true, udp: true}
-- {name: JP_45|2.8MB/s, server: dashing-bedbug.rooster465.autos, port: 443, type: trojan, password: XG59623478, skip-cert-verify: true, udp: true}
-- {name: 荷兰_070815838, server: renewed-chigger.rooster465.autos, port: 443, type: trojan, password: XG59623478, skip-cert-verify: true, udp: true}
-- {name: 荷兰_070815839, server: classic-duckling.rooster465.autos, port: 443, type: trojan, password: XG59623478, skip-cert-verify: true, udp: true}
-- {name: 日本_070819626, server: 89.187.160.73, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: gelwvU9mUR0orEFS5D6u7A, udp: true}
-- {name: 日本_070815582, server: composed-sheep.rooster465.autos, port: 443, type: trojan, password: XG59623478, skip-cert-verify: true, udp: true}
-- {name: 加拿大_070819285, server: 72.10.173.91, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: gelwvU9mUR0orEFS5D6u7A, udp: true}
-- {name: 美国_0708154482, server: funny-squid.rooster465.autos, port: 443, type: trojan, password: XG59623478, skip-cert-verify: true, udp: true}
-- {name: 日本_070815600, server: immense-eagle.rooster465.autos, port: 443, type: trojan, password: XG59623478, skip-cert-verify: true, udp: true}
-- {name: 德国_070815895, server: de2.v4trojn.xyz, port: 2096, type: ss, cipher: chacha20-ietf-poly1305, password: rhZiP66_E1XGUTjPfZOWQw, udp: true}
-- {name: 美国_0708154481, server: pleased-lobster.rooster465.autos, port: 443, type: trojan, password: XG59623478, skip-cert-verify: true, udp: true}
-- {name: 保加利亚_070819056, server: 146.70.53.62, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: gelwvU9mUR0orEFS5D6u7A, udp: true}
-- {name: 美国_0708154479, server: frank-piranha.rooster465.autos, port: 443, type: trojan, password: XG59623478, skip-cert-verify: true, udp: true}
-- {name: 波兰_070815066, server: included-hedgehog.rooster465.autos, port: 443, type: trojan, password: XG59623478, skip-cert-verify: true, udp: true}
-- {name: 瑞士_070819078, server: 146.70.26.156, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: gelwvU9mUR0orEFS5D6u7A, udp: true}
-- {name: 乌克兰_070819031, server: 194.54.80.37, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: gelwvU9mUR0orEFS5D6u7A, udp: true}
-- {name: 爱尔兰_070815033, server: improved-anteater.rooster465.autos, port: 443, type: trojan, password: XG59623478, skip-cert-verify: true, udp: true}
+- {name: 韩国-ADFE686B, server: 27.255.82.134, port: 2078, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: HK_1|3.4MB/s, server: 114.80.8.128, port: 39001, type: trojan, password: 1df3ece1218bedba28c6c6ac726a07bb, sni: www.yrtok.com, skip-cert-verify: true, udp: true}
+- {name: 新加坡 | SGP, server: 167.150.100.133, port: 450, type: trojan, password: 0_Oms89nH82l_Ki813_Nxmw81_Rbt_Jq190Kl_m, sni: grape-power-sg.roxa.org, skip-cert-verify: true, udp: true}
+- {name: 香港5|@ripaojiedian, server: 16.163.129.5, port: 29443, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
+- {name: US_6|2.5MB/s, server: v8.hdacd.com, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 日本_070916579, server: zjs001.kfc-520.com, port: 10003, type: vmess, uuid: 7ff27156-744d-31ff-9703-24f6094e5729, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: HK_2|5.5MB/s, server: 6.3.u.w.b.s.8.3.b.hk05-ae5.entry.v51124-1.qpon, port: 1812, type: ss, cipher: aes-256-gcm, password: f2ee3f33-8678-3d61-83e6-a80ad1e9bfcf, udp: true}
+- {name: 日本_070910572, server: 103.201.131.66, port: 1552, type: vmess, uuid: d2642f6b-04b8-4b84-ab3c-4143faf1c90c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -65,33 +47,15 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 日本_070815622
-      - 美国_0708154477
-      - 新加坡_070815578
-      - 斯洛伐克_070819010
-      - 法国_070815483
-      - 罗马尼亚_070819122
-      - JP_27|5.4MB/s
-      - 波兰_070819064
-      - 日本_070815596
-      - 4Kian-275
       - 中国_070815006
-      - JP_45|2.8MB/s
-      - 荷兰_070815838
-      - 荷兰_070815839
-      - 日本_070819626
-      - 日本_070815582
-      - 加拿大_070819285
-      - 美国_0708154482
-      - 日本_070815600
-      - 德国_070815895
-      - 美国_0708154481
-      - 保加利亚_070819056
-      - 美国_0708154479
-      - 波兰_070815066
-      - 瑞士_070819078
-      - 乌克兰_070819031
-      - 爱尔兰_070815033
+      - 韩国-ADFE686B
+      - HK_1|3.4MB/s
+      - 新加坡 | SGP
+      - 香港5|@ripaojiedian
+      - US_6|2.5MB/s
+      - 日本_070916579
+      - HK_2|5.5MB/s
+      - 日本_070910572
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -103,66 +67,30 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 日本_070815622
-      - 美国_0708154477
-      - 新加坡_070815578
-      - 斯洛伐克_070819010
-      - 法国_070815483
-      - 罗马尼亚_070819122
-      - JP_27|5.4MB/s
-      - 波兰_070819064
-      - 日本_070815596
-      - 4Kian-275
       - 中国_070815006
-      - JP_45|2.8MB/s
-      - 荷兰_070815838
-      - 荷兰_070815839
-      - 日本_070819626
-      - 日本_070815582
-      - 加拿大_070819285
-      - 美国_0708154482
-      - 日本_070815600
-      - 德国_070815895
-      - 美国_0708154481
-      - 保加利亚_070819056
-      - 美国_0708154479
-      - 波兰_070815066
-      - 瑞士_070819078
-      - 乌克兰_070819031
-      - 爱尔兰_070815033
+      - 韩国-ADFE686B
+      - HK_1|3.4MB/s
+      - 新加坡 | SGP
+      - 香港5|@ripaojiedian
+      - US_6|2.5MB/s
+      - 日本_070916579
+      - HK_2|5.5MB/s
+      - 日本_070910572
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 日本_070815622
-      - 美国_0708154477
-      - 新加坡_070815578
-      - 斯洛伐克_070819010
-      - 法国_070815483
-      - 罗马尼亚_070819122
-      - JP_27|5.4MB/s
-      - 波兰_070819064
-      - 日本_070815596
-      - 4Kian-275
       - 中国_070815006
-      - JP_45|2.8MB/s
-      - 荷兰_070815838
-      - 荷兰_070815839
-      - 日本_070819626
-      - 日本_070815582
-      - 加拿大_070819285
-      - 美国_0708154482
-      - 日本_070815600
-      - 德国_070815895
-      - 美国_0708154481
-      - 保加利亚_070819056
-      - 美国_0708154479
-      - 波兰_070815066
-      - 瑞士_070819078
-      - 乌克兰_070819031
-      - 爱尔兰_070815033
+      - 韩国-ADFE686B
+      - HK_1|3.4MB/s
+      - 新加坡 | SGP
+      - 香港5|@ripaojiedian
+      - US_6|2.5MB/s
+      - 日本_070916579
+      - HK_2|5.5MB/s
+      - 日本_070910572
   - name: 🐟 漏网之鱼
     type: select
     proxies:
