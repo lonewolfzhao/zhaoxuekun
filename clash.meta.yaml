@@ -26,14 +26,11 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: US_9|1.6MB/s, server: 13.58.60.229, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国_5, server: 18.191.132.3, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _FR_法国_2, server: 15.237.218.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: US_10|2.2MB/s, server: 3.16.130.237, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: FR_2|2.1MB/s, server: intense-basilisk.rooster465.autos, port: 443, type: trojan, password: XG59623478, sni: intense-basilisk.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: FR_1|2.6MB/s, server: 35.180.199.237, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 澳大利亚_071016105, server: concise-buck.rooster465.autos, port: 443, type: trojan, password: XG59623478, sni: concise-buck.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 韩国-ADFE686B, server: 27.255.82.134, port: 2078, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: JP_2|6.8MB/s, server: happy-monkfish.rooster465.autos, port: 443, type: trojan, password: HW85960347, skip-cert-verify: true, udp: true}
-- {name: 中国_070815006, server: 106.75.160.27, port: 39001, type: trojan, password: ef73ca2cf3d9cd0f04c8f448da8125c6, sni: www.yrtok.com, skip-cert-verify: true, udp: true}
+- {name: US_12|2.5MB/s, server: 3.129.218.147, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: NL_1|2.6MB/s, server: 82.38.31.57, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -46,14 +43,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - US_9|1.6MB/s
+      - _US_美国_5
+      - _FR_法国_2
       - US_10|2.2MB/s
-      - FR_2|2.1MB/s
-      - FR_1|2.6MB/s
-      - 澳大利亚_071016105
-      - 韩国-ADFE686B
-      - JP_2|6.8MB/s
-      - 中国_070815006
+      - US_12|2.5MB/s
+      - NL_1|2.6MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -65,28 +59,22 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - US_9|1.6MB/s
+      - _US_美国_5
+      - _FR_法国_2
       - US_10|2.2MB/s
-      - FR_2|2.1MB/s
-      - FR_1|2.6MB/s
-      - 澳大利亚_071016105
-      - 韩国-ADFE686B
-      - JP_2|6.8MB/s
-      - 中国_070815006
+      - US_12|2.5MB/s
+      - NL_1|2.6MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - US_9|1.6MB/s
+      - _US_美国_5
+      - _FR_法国_2
       - US_10|2.2MB/s
-      - FR_2|2.1MB/s
-      - FR_1|2.6MB/s
-      - 澳大利亚_071016105
-      - 韩国-ADFE686B
-      - JP_2|6.8MB/s
-      - 中国_070815006
+      - US_12|2.5MB/s
+      - NL_1|2.6MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
