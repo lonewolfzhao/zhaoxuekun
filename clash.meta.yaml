@@ -26,11 +26,28 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: _US_美国_5, server: 18.191.132.3, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _FR_法国_2, server: 15.237.218.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: US_10|2.2MB/s, server: 3.16.130.237, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _US_美国_4 2 2, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: _US_美国_4 2, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: _US_美国_4, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: US_14|2.4MB/s, server: 3.145.52.166, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: US_12|2.5MB/s, server: 3.129.218.147, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: NL_1|2.6MB/s, server: 82.38.31.57, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+- {name: 美国 | USA 2, server: 3.145.57.90, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: us|b8d2|puddincat07@Telegram, server: 3.145.46.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: cn|e2b2|puddincat07@Telegram, server: 114.80.8.128, port: 39001, type: trojan, password: 1df3ece1218bedba28c6c6ac726a07bb, sni: 114.80.8.128, skip-cert-verify: true, udp: true}
+- {name: 韩国-ADFE686B, server: 27.255.82.134, port: 2078, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 4Sarina-1123, server: 13.36.168.114, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4FreeIran-255, server: 194.85.249.189, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: B-CeBiHsT59peuReN_E45Q, udp: true}
+- {name: 新加坡3|@ripaojiedian, server: 16.162.191.181, port: 45744, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
+- {name: 俄罗斯联邦_071204577, server: 46.17.40.13, port: 20121, type: ss, cipher: aes-256-gcm, password: b24a80e79cee1d1f, udp: true}
+- {name: US_5|3.0MB/s, server: 45.39.33.174, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: rihjnjl3qsfr7u15, plugin: obfs, plugin-opts: {mode: http, host: ""}, udp: true}
+- {name: _CN_中国->🇫🇷_FR_法国, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _CN_中国->🇺🇸_US_美国, server: v8.hdacd.com, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: US_6|4.6MB/s, server: v45.hdacd.com, port: 30845, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 香港4|@ripaojiedian, server: 16.163.129.148, port: 39411, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
+- {name: _US_美国_4 2 2 3, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: 香港_071204190, server: 212.192.15.138, port: 20123, type: ss, cipher: aes-256-gcm, password: 7e1dd4c55bf85da5, udp: true}
+- {name: 美国|@ripaojiedian, server: 18.162.115.77, port: 49277, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+- {name: 4FreeIran-461, server: e2.cover20.ir, port: 30874, type: ss, cipher: chacha20-ietf-poly1305, password: IZrHgQX2MBViB/6c7lBzmYCmTkerLKcyFDYy3qpyIwU=, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -43,11 +60,28 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _US_美国_5
-      - _FR_法国_2
-      - US_10|2.2MB/s
+      - _US_美国_4 2 2
+      - _US_美国_4 2
+      - _US_美国_4
+      - US_14|2.4MB/s
       - US_12|2.5MB/s
-      - NL_1|2.6MB/s
+      - 美国 | USA 2
+      - us|b8d2|puddincat07@Telegram
+      - cn|e2b2|puddincat07@Telegram
+      - 韩国-ADFE686B
+      - 4Sarina-1123
+      - 4FreeIran-255
+      - 新加坡3|@ripaojiedian
+      - 俄罗斯联邦_071204577
+      - US_5|3.0MB/s
+      - _CN_中国->🇫🇷_FR_法国
+      - _CN_中国->🇺🇸_US_美国
+      - US_6|4.6MB/s
+      - 香港4|@ripaojiedian
+      - _US_美国_4 2 2 3
+      - 香港_071204190
+      - 美国|@ripaojiedian
+      - 4FreeIran-461
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -59,22 +93,56 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _US_美国_5
-      - _FR_法国_2
-      - US_10|2.2MB/s
+      - _US_美国_4 2 2
+      - _US_美国_4 2
+      - _US_美国_4
+      - US_14|2.4MB/s
       - US_12|2.5MB/s
-      - NL_1|2.6MB/s
+      - 美国 | USA 2
+      - us|b8d2|puddincat07@Telegram
+      - cn|e2b2|puddincat07@Telegram
+      - 韩国-ADFE686B
+      - 4Sarina-1123
+      - 4FreeIran-255
+      - 新加坡3|@ripaojiedian
+      - 俄罗斯联邦_071204577
+      - US_5|3.0MB/s
+      - _CN_中国->🇫🇷_FR_法国
+      - _CN_中国->🇺🇸_US_美国
+      - US_6|4.6MB/s
+      - 香港4|@ripaojiedian
+      - _US_美国_4 2 2 3
+      - 香港_071204190
+      - 美国|@ripaojiedian
+      - 4FreeIran-461
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - _US_美国_5
-      - _FR_法国_2
-      - US_10|2.2MB/s
+      - _US_美国_4 2 2
+      - _US_美国_4 2
+      - _US_美国_4
+      - US_14|2.4MB/s
       - US_12|2.5MB/s
-      - NL_1|2.6MB/s
+      - 美国 | USA 2
+      - us|b8d2|puddincat07@Telegram
+      - cn|e2b2|puddincat07@Telegram
+      - 韩国-ADFE686B
+      - 4Sarina-1123
+      - 4FreeIran-255
+      - 新加坡3|@ripaojiedian
+      - 俄罗斯联邦_071204577
+      - US_5|3.0MB/s
+      - _CN_中国->🇫🇷_FR_法国
+      - _CN_中国->🇺🇸_US_美国
+      - US_6|4.6MB/s
+      - 香港4|@ripaojiedian
+      - _US_美国_4 2 2 3
+      - 香港_071204190
+      - 美国|@ripaojiedian
+      - 4FreeIran-461
   - name: 🐟 漏网之鱼
     type: select
     proxies:
