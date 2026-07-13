@@ -26,16 +26,16 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: us|b8d2|puddincat07@Telegram, server: 3.145.46.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Nika-2325, server: aw-sg.vndmall.pro, port: 8888, type: ss, cipher: aes-256-gcm, password: a338A9, udp: true}
-- {name: 美国 | USA 2, server: 3.145.57.90, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 美国 | USA 8, server: 3.15.0.103, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: US_14|2.4MB/s, server: 3.145.52.166, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Nika-75, server: namrcg001640lrm.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7b56aeaa-8e2d-4bdf-b1d7-233ecca15f56, udp: true}
-- {name: 香港_071204190, server: 212.192.15.138, port: 20123, type: ss, cipher: aes-256-gcm, password: 7e1dd4c55bf85da5, udp: true}
+- {name: HK_2|5.2MB/s, server: 114.80.8.128, port: 39001, type: trojan, password: 1df3ece1218bedba28c6c6ac726a07bb, sni: www.yrtok.com, skip-cert-verify: true, udp: true}
+- {name: 俄罗斯 | RUS, server: 195.133.23.27, port: 20129, type: ss, cipher: aes-256-gcm, password: 1a87017d0bf57f34, udp: true}
+- {name: 俄罗斯 | RUS 3, server: 195.133.23.45, port: 60129, type: ss, cipher: aes-256-gcm, password: fbaf33bcffe53cf9, udp: true}
+- {name: 加拿大 | CAN, server: 50.114.177.235, port: 30888, type: ss, cipher: aes-256-gcm, password: 2803361d6c196af8, udp: true}
+- {name: US_1|1.5MB/s, server: b32-14.cmj0502.cn, port: 45979, type: vmess, uuid: 23bdf6df-c482-46d0-c0f4-5a98d534ea11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /test, headers: {Host: b32-14.cmj0502.cn}}, udp: true}
 - {name: _US_美国_4, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-- {name: US_5|3.0MB/s, server: 45.39.33.174, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: rihjnjl3qsfr7u15, plugin: obfs, plugin-opts: {mode: http, host: ""}, udp: true}
-- {name: 4Sarina-1123, server: 13.36.168.114, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Jadi-76, server: ss.047.node-for-bigairport.win, port: 19001, type: ss, cipher: chacha20-ietf-poly1305, password: 792e0bdb-01db-450c-94c4-925151eb396e, udp: true}
+- {name: 英国 | GBR 2, server: gw.lydwan.com, port: 35606, type: ss, cipher: chacha20-ietf-poly1305, password: c660716f-fd3f-454c-9f91-20afaf0b532b, udp: true}
+- {name: 美国 | USA 2, server: 3.145.57.90, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 英国_0713201050, server: 31.77.149.131, port: 110, type: vmess, uuid: 958f5940-de3d-4466-bb30-b605993db27e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -48,16 +48,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - us|b8d2|puddincat07@Telegram
-      - 4Nika-2325
-      - 美国 | USA 2
-      - 美国 | USA 8
-      - US_14|2.4MB/s
-      - 4Nika-75
-      - 香港_071204190
+      - HK_2|5.2MB/s
+      - 俄罗斯 | RUS
+      - 俄罗斯 | RUS 3
+      - 加拿大 | CAN
+      - US_1|1.5MB/s
       - _US_美国_4
-      - US_5|3.0MB/s
-      - 4Sarina-1123
+      - 4Jadi-76
+      - 英国 | GBR 2
+      - 美国 | USA 2
+      - 英国_0713201050
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -69,32 +69,32 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - us|b8d2|puddincat07@Telegram
-      - 4Nika-2325
-      - 美国 | USA 2
-      - 美国 | USA 8
-      - US_14|2.4MB/s
-      - 4Nika-75
-      - 香港_071204190
+      - HK_2|5.2MB/s
+      - 俄罗斯 | RUS
+      - 俄罗斯 | RUS 3
+      - 加拿大 | CAN
+      - US_1|1.5MB/s
       - _US_美国_4
-      - US_5|3.0MB/s
-      - 4Sarina-1123
+      - 4Jadi-76
+      - 英国 | GBR 2
+      - 美国 | USA 2
+      - 英国_0713201050
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - us|b8d2|puddincat07@Telegram
-      - 4Nika-2325
-      - 美国 | USA 2
-      - 美国 | USA 8
-      - US_14|2.4MB/s
-      - 4Nika-75
-      - 香港_071204190
+      - HK_2|5.2MB/s
+      - 俄罗斯 | RUS
+      - 俄罗斯 | RUS 3
+      - 加拿大 | CAN
+      - US_1|1.5MB/s
       - _US_美国_4
-      - US_5|3.0MB/s
-      - 4Sarina-1123
+      - 4Jadi-76
+      - 英国 | GBR 2
+      - 美国 | USA 2
+      - 英国_0713201050
   - name: 🐟 漏网之鱼
     type: select
     proxies:
