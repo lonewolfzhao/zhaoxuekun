@@ -26,16 +26,25 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: HK_2|5.2MB/s, server: 114.80.8.128, port: 39001, type: trojan, password: 1df3ece1218bedba28c6c6ac726a07bb, sni: www.yrtok.com, skip-cert-verify: true, udp: true}
-- {name: 俄罗斯 | RUS, server: 195.133.23.27, port: 20129, type: ss, cipher: aes-256-gcm, password: 1a87017d0bf57f34, udp: true}
-- {name: 俄罗斯 | RUS 3, server: 195.133.23.45, port: 60129, type: ss, cipher: aes-256-gcm, password: fbaf33bcffe53cf9, udp: true}
-- {name: 加拿大 | CAN, server: 50.114.177.235, port: 30888, type: ss, cipher: aes-256-gcm, password: 2803361d6c196af8, udp: true}
-- {name: US_1|1.5MB/s, server: b32-14.cmj0502.cn, port: 45979, type: vmess, uuid: 23bdf6df-c482-46d0-c0f4-5a98d534ea11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /test, headers: {Host: b32-14.cmj0502.cn}}, udp: true}
-- {name: _US_美国_4, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-- {name: 4Jadi-76, server: ss.047.node-for-bigairport.win, port: 19001, type: ss, cipher: chacha20-ietf-poly1305, password: 792e0bdb-01db-450c-94c4-925151eb396e, udp: true}
-- {name: 英国 | GBR 2, server: gw.lydwan.com, port: 35606, type: ss, cipher: chacha20-ietf-poly1305, password: c660716f-fd3f-454c-9f91-20afaf0b532b, udp: true}
-- {name: 美国 | USA 2, server: 3.145.57.90, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 英国_0713201050, server: 31.77.149.131, port: 110, type: vmess, uuid: 958f5940-de3d-4466-bb30-b605993db27e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _US_美国_4 2 2, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: 俄罗斯 | RUS 2, server: 46.17.40.13, port: 10123, type: ss, cipher: aes-256-gcm, password: b24a80e79cee1d1f, udp: true}
+- {name: KR_1|2.9MB/s, server: allowing-halibut.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: allowing-halibut.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: KR_3|5.0MB/s, server: aware-lionfish.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: aware-lionfish.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: KR_6|3.9MB/s, server: clear-heron.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: clear-heron.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: KR_9|4.5MB/s, server: diverse-thrush.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: diverse-thrush.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: KR_10|4.7MB/s, server: enormous-whippet.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: enormous-whippet.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: JP_9|5.1MB/s, server: equipped-moth.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: equipped-moth.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: KR_11|3.9MB/s, server: eternal-horse.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: eternal-horse.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: KR_12|4.5MB/s, server: excited-squirrel.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: excited-squirrel.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: JP_10|3.9MB/s, server: noble-tahr.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: noble-tahr.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: KR_14|4.6MB/s, server: star-bluejay.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: star-bluejay.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: KR_16|3.9MB/s, server: tolerant-stag.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: tolerant-stag.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 美国_0714194939, server: 130.49.189.158, port: 10792, type: ss, cipher: chacha20-ietf-poly1305, password: ETUOOQTpdrrKln72UYxwio, udp: true}
+- {name: _US_美国_4 2 2 2, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: 日本 | JPN, server: 103.53.80.224, port: 52080, type: vmess, uuid: 023416ac-45c5-4826-9033-1aa678c3f203, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/QQqun-737805443]}, udp: true}
+- {name: 香港 | HKG 3, server: 45.158.23.138, port: 27272, type: vmess, uuid: 1c7c0c72-6bc1-4e51-ada8-0e5570bb4780, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+- {name: 未知_0714155268, server: speedtestgoogleyahoobingyandexgmailappleaol.sabapardaziran.ir, port: 2096, type: vmess, uuid: ed6cdd9b-0e1f-4a17-b72a-4ba650f90908, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: speedtestgoogleyahoobingyandexgmailappleaol.sabapardaziran.ir}}, udp: true}
+- {name: 未知_0714155267, server: speedtestgoogleyahoobingyandexgmailappleaol.sabapardaziran.ir, port: 2087, type: vmess, uuid: a445d82c-ca1a-4d97-8258-97334c811943, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: speedtestgoogleyahoobingyandexgmailappleaol.sabapardaziran.ir}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -48,16 +57,25 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - HK_2|5.2MB/s
-      - 俄罗斯 | RUS
-      - 俄罗斯 | RUS 3
-      - 加拿大 | CAN
-      - US_1|1.5MB/s
-      - _US_美国_4
-      - 4Jadi-76
-      - 英国 | GBR 2
-      - 美国 | USA 2
-      - 英国_0713201050
+      - _US_美国_4 2 2
+      - 俄罗斯 | RUS 2
+      - KR_1|2.9MB/s
+      - KR_3|5.0MB/s
+      - KR_6|3.9MB/s
+      - KR_9|4.5MB/s
+      - KR_10|4.7MB/s
+      - JP_9|5.1MB/s
+      - KR_11|3.9MB/s
+      - KR_12|4.5MB/s
+      - JP_10|3.9MB/s
+      - KR_14|4.6MB/s
+      - KR_16|3.9MB/s
+      - 美国_0714194939
+      - _US_美国_4 2 2 2
+      - 日本 | JPN
+      - 香港 | HKG 3
+      - 未知_0714155268
+      - 未知_0714155267
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -69,32 +87,50 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - HK_2|5.2MB/s
-      - 俄罗斯 | RUS
-      - 俄罗斯 | RUS 3
-      - 加拿大 | CAN
-      - US_1|1.5MB/s
-      - _US_美国_4
-      - 4Jadi-76
-      - 英国 | GBR 2
-      - 美国 | USA 2
-      - 英国_0713201050
+      - _US_美国_4 2 2
+      - 俄罗斯 | RUS 2
+      - KR_1|2.9MB/s
+      - KR_3|5.0MB/s
+      - KR_6|3.9MB/s
+      - KR_9|4.5MB/s
+      - KR_10|4.7MB/s
+      - JP_9|5.1MB/s
+      - KR_11|3.9MB/s
+      - KR_12|4.5MB/s
+      - JP_10|3.9MB/s
+      - KR_14|4.6MB/s
+      - KR_16|3.9MB/s
+      - 美国_0714194939
+      - _US_美国_4 2 2 2
+      - 日本 | JPN
+      - 香港 | HKG 3
+      - 未知_0714155268
+      - 未知_0714155267
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - HK_2|5.2MB/s
-      - 俄罗斯 | RUS
-      - 俄罗斯 | RUS 3
-      - 加拿大 | CAN
-      - US_1|1.5MB/s
-      - _US_美国_4
-      - 4Jadi-76
-      - 英国 | GBR 2
-      - 美国 | USA 2
-      - 英国_0713201050
+      - _US_美国_4 2 2
+      - 俄罗斯 | RUS 2
+      - KR_1|2.9MB/s
+      - KR_3|5.0MB/s
+      - KR_6|3.9MB/s
+      - KR_9|4.5MB/s
+      - KR_10|4.7MB/s
+      - JP_9|5.1MB/s
+      - KR_11|3.9MB/s
+      - KR_12|4.5MB/s
+      - JP_10|3.9MB/s
+      - KR_14|4.6MB/s
+      - KR_16|3.9MB/s
+      - 美国_0714194939
+      - _US_美国_4 2 2 2
+      - 日本 | JPN
+      - 香港 | HKG 3
+      - 未知_0714155268
+      - 未知_0714155267
   - name: 🐟 漏网之鱼
     type: select
     proxies:
