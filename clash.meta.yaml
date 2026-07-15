@@ -26,25 +26,49 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: _US_美国_4 2 2, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-- {name: 俄罗斯 | RUS 2, server: 46.17.40.13, port: 10123, type: ss, cipher: aes-256-gcm, password: b24a80e79cee1d1f, udp: true}
-- {name: KR_1|2.9MB/s, server: allowing-halibut.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: allowing-halibut.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: KR_3|5.0MB/s, server: aware-lionfish.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: aware-lionfish.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: KR_6|3.9MB/s, server: clear-heron.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: clear-heron.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: KR_9|4.5MB/s, server: diverse-thrush.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: diverse-thrush.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: KR_10|4.7MB/s, server: enormous-whippet.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: enormous-whippet.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: JP_9|5.1MB/s, server: equipped-moth.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: equipped-moth.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: KR_11|3.9MB/s, server: eternal-horse.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: eternal-horse.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: KR_12|4.5MB/s, server: excited-squirrel.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: excited-squirrel.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: JP_10|3.9MB/s, server: noble-tahr.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: noble-tahr.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: KR_14|4.6MB/s, server: star-bluejay.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: star-bluejay.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: KR_16|3.9MB/s, server: tolerant-stag.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: tolerant-stag.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 日本 | JPN 4, server: 103.53.80.224, port: 52080, type: vmess, uuid: 023416ac-45c5-4826-9033-1aa678c3f203, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/QQqun-737805443]}, udp: true}
+- {name: JP_4|5.1MB/s, server: wealthy-gobbler.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: wealthy-gobbler.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: JP_16|5.2MB/s, server: ultimate-jaguar.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: ultimate-jaguar.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: us|1cb5|puddincat07@Telegram, server: 88.210.36.106, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (Telegram🇨🇳 @WangCai2)f6e348d:70852}, udp: true}
+- {name: JP_30|4.7MB/s, server: immune-mullet.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: immune-mullet.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: JP_15|5.5MB/s, server: concrete-aardvark.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: concrete-aardvark.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: SG_5|3.5MB/s, server: intimate-moray.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: intimate-moray.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: JP_9|5.3MB/s, server: evolving-mollusk.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: evolving-mollusk.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: JP_5|3.7MB/s, server: sacred-anemone.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: sacred-anemone.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: DE_3|1.8MB/s, server: evolving-baboon.rooster465.autos, port: 443, type: trojan, password: KV63147582, sni: evolving-baboon.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: SG_19|4.1MB/s, server: learning-wren.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: learning-wren.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: KR_2|5.0MB/s, server: central-jawfish.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: central-jawfish.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: JP_1|4.0MB/s, server: settling-humpback.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: settling-humpback.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: SG_11|3.7MB/s, server: brief-warthog.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: brief-warthog.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: SG_1|4.6MB/s, server: relevant-oryx.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: relevant-oryx.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 日本_071519606, server: present-ram.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: present-ram.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: JP_2|4.7MB/s, server: informed-stud.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: informed-stud.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: SG_27|5.0MB/s, server: grateful-owl.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: grateful-owl.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: SG_17|3.6MB/s, server: moral-basilisk.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: moral-basilisk.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: SG_4|4.4MB/s, server: tight-gator.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: tight-gator.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: SG_8|5.0MB/s, server: bright-cicada.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: bright-cicada.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: SG_21|3.5MB/s, server: normal-macaque.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: normal-macaque.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: SG_9|2.1MB/s, server: vast-werewolf.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: vast-werewolf.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: KR_4|3.9MB/s, server: pure-ram.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: pure-ram.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: DE_2|2.7MB/s, server: together-insect.rooster465.autos, port: 443, type: trojan, password: OD90375861, sni: together-insect.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: JP_3|5.3MB/s, server: adapting-giraffe.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: adapting-giraffe.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: SG_7|3.4MB/s, server: star-hagfish.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: star-hagfish.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: KR_3|3.9MB/s, server: gentle-mastiff.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: gentle-mastiff.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: SG_3|3.5MB/s, server: prime-buzzard.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: prime-buzzard.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: JP_22|5.7MB/s, server: free-hare.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: free-hare.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: JP_17|5.0MB/s, server: innocent-rattler.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: innocent-rattler.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: JP_6|5.4MB/s, server: accurate-frog.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: accurate-frog.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 新加坡 | SGP 5, server: immense-eagle.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: immense-eagle.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: SG_16|4.4MB/s, server: powerful-troll.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: powerful-troll.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: DE_1|2.6MB/s, server: enabling-asp.rooster465.autos, port: 443, type: trojan, password: XG59623478, sni: enabling-asp.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: JP_18|5.2MB/s, server: shining-piranha.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: shining-piranha.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: SG_26|3.6MB/s, server: gentle-raptor.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: gentle-raptor.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 澳大利亚 | AUS 2, server: selected-bison.rooster465.autos, port: 443, type: trojan, password: KV63147582, sni: selected-bison.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: SG_25|5.4MB/s, server: evolving-platypus.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: evolving-platypus.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: SG_2|3.7MB/s, server: internal-krill.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: internal-krill.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: SG_22|2.8MB/s, server: summary-lemming.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: summary-lemming.rooster465.autos, skip-cert-verify: true, udp: true}
 - {name: 美国_0714194939, server: 130.49.189.158, port: 10792, type: ss, cipher: chacha20-ietf-poly1305, password: ETUOOQTpdrrKln72UYxwio, udp: true}
-- {name: _US_美国_4 2 2 2, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-- {name: 日本 | JPN, server: 103.53.80.224, port: 52080, type: vmess, uuid: 023416ac-45c5-4826-9033-1aa678c3f203, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/QQqun-737805443]}, udp: true}
-- {name: 香港 | HKG 3, server: 45.158.23.138, port: 27272, type: vmess, uuid: 1c7c0c72-6bc1-4e51-ada8-0e5570bb4780, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-- {name: 未知_0714155268, server: speedtestgoogleyahoobingyandexgmailappleaol.sabapardaziran.ir, port: 2096, type: vmess, uuid: ed6cdd9b-0e1f-4a17-b72a-4ba650f90908, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: speedtestgoogleyahoobingyandexgmailappleaol.sabapardaziran.ir}}, udp: true}
-- {name: 未知_0714155267, server: speedtestgoogleyahoobingyandexgmailappleaol.sabapardaziran.ir, port: 2087, type: vmess, uuid: a445d82c-ca1a-4d97-8258-97334c811943, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: speedtestgoogleyahoobingyandexgmailappleaol.sabapardaziran.ir}}, udp: true}
+- {name: 英国 | GBR, server: m.cnmjin.net, port: 16645, type: vmess, uuid: 81392bb3-4873-4cf3-8e9b-ef557961446a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 6f973d82f8e986776816458d2f00cc1d.mobgslb.tbcache.com}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -57,25 +81,49 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _US_美国_4 2 2
-      - 俄罗斯 | RUS 2
-      - KR_1|2.9MB/s
-      - KR_3|5.0MB/s
-      - KR_6|3.9MB/s
-      - KR_9|4.5MB/s
-      - KR_10|4.7MB/s
-      - JP_9|5.1MB/s
-      - KR_11|3.9MB/s
-      - KR_12|4.5MB/s
-      - JP_10|3.9MB/s
-      - KR_14|4.6MB/s
-      - KR_16|3.9MB/s
+      - 日本 | JPN 4
+      - JP_4|5.1MB/s
+      - JP_16|5.2MB/s
+      - us|1cb5|puddincat07@Telegram
+      - JP_30|4.7MB/s
+      - JP_15|5.5MB/s
+      - SG_5|3.5MB/s
+      - JP_9|5.3MB/s
+      - JP_5|3.7MB/s
+      - DE_3|1.8MB/s
+      - SG_19|4.1MB/s
+      - KR_2|5.0MB/s
+      - JP_1|4.0MB/s
+      - SG_11|3.7MB/s
+      - SG_1|4.6MB/s
+      - 日本_071519606
+      - JP_2|4.7MB/s
+      - SG_27|5.0MB/s
+      - SG_17|3.6MB/s
+      - SG_4|4.4MB/s
+      - SG_8|5.0MB/s
+      - SG_21|3.5MB/s
+      - SG_9|2.1MB/s
+      - KR_4|3.9MB/s
+      - DE_2|2.7MB/s
+      - JP_3|5.3MB/s
+      - SG_7|3.4MB/s
+      - KR_3|3.9MB/s
+      - SG_3|3.5MB/s
+      - JP_22|5.7MB/s
+      - JP_17|5.0MB/s
+      - JP_6|5.4MB/s
+      - 新加坡 | SGP 5
+      - SG_16|4.4MB/s
+      - DE_1|2.6MB/s
+      - JP_18|5.2MB/s
+      - SG_26|3.6MB/s
+      - 澳大利亚 | AUS 2
+      - SG_25|5.4MB/s
+      - SG_2|3.7MB/s
+      - SG_22|2.8MB/s
       - 美国_0714194939
-      - _US_美国_4 2 2 2
-      - 日本 | JPN
-      - 香港 | HKG 3
-      - 未知_0714155268
-      - 未知_0714155267
+      - 英国 | GBR
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -87,50 +135,98 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _US_美国_4 2 2
-      - 俄罗斯 | RUS 2
-      - KR_1|2.9MB/s
-      - KR_3|5.0MB/s
-      - KR_6|3.9MB/s
-      - KR_9|4.5MB/s
-      - KR_10|4.7MB/s
-      - JP_9|5.1MB/s
-      - KR_11|3.9MB/s
-      - KR_12|4.5MB/s
-      - JP_10|3.9MB/s
-      - KR_14|4.6MB/s
-      - KR_16|3.9MB/s
+      - 日本 | JPN 4
+      - JP_4|5.1MB/s
+      - JP_16|5.2MB/s
+      - us|1cb5|puddincat07@Telegram
+      - JP_30|4.7MB/s
+      - JP_15|5.5MB/s
+      - SG_5|3.5MB/s
+      - JP_9|5.3MB/s
+      - JP_5|3.7MB/s
+      - DE_3|1.8MB/s
+      - SG_19|4.1MB/s
+      - KR_2|5.0MB/s
+      - JP_1|4.0MB/s
+      - SG_11|3.7MB/s
+      - SG_1|4.6MB/s
+      - 日本_071519606
+      - JP_2|4.7MB/s
+      - SG_27|5.0MB/s
+      - SG_17|3.6MB/s
+      - SG_4|4.4MB/s
+      - SG_8|5.0MB/s
+      - SG_21|3.5MB/s
+      - SG_9|2.1MB/s
+      - KR_4|3.9MB/s
+      - DE_2|2.7MB/s
+      - JP_3|5.3MB/s
+      - SG_7|3.4MB/s
+      - KR_3|3.9MB/s
+      - SG_3|3.5MB/s
+      - JP_22|5.7MB/s
+      - JP_17|5.0MB/s
+      - JP_6|5.4MB/s
+      - 新加坡 | SGP 5
+      - SG_16|4.4MB/s
+      - DE_1|2.6MB/s
+      - JP_18|5.2MB/s
+      - SG_26|3.6MB/s
+      - 澳大利亚 | AUS 2
+      - SG_25|5.4MB/s
+      - SG_2|3.7MB/s
+      - SG_22|2.8MB/s
       - 美国_0714194939
-      - _US_美国_4 2 2 2
-      - 日本 | JPN
-      - 香港 | HKG 3
-      - 未知_0714155268
-      - 未知_0714155267
+      - 英国 | GBR
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - _US_美国_4 2 2
-      - 俄罗斯 | RUS 2
-      - KR_1|2.9MB/s
-      - KR_3|5.0MB/s
-      - KR_6|3.9MB/s
-      - KR_9|4.5MB/s
-      - KR_10|4.7MB/s
-      - JP_9|5.1MB/s
-      - KR_11|3.9MB/s
-      - KR_12|4.5MB/s
-      - JP_10|3.9MB/s
-      - KR_14|4.6MB/s
-      - KR_16|3.9MB/s
+      - 日本 | JPN 4
+      - JP_4|5.1MB/s
+      - JP_16|5.2MB/s
+      - us|1cb5|puddincat07@Telegram
+      - JP_30|4.7MB/s
+      - JP_15|5.5MB/s
+      - SG_5|3.5MB/s
+      - JP_9|5.3MB/s
+      - JP_5|3.7MB/s
+      - DE_3|1.8MB/s
+      - SG_19|4.1MB/s
+      - KR_2|5.0MB/s
+      - JP_1|4.0MB/s
+      - SG_11|3.7MB/s
+      - SG_1|4.6MB/s
+      - 日本_071519606
+      - JP_2|4.7MB/s
+      - SG_27|5.0MB/s
+      - SG_17|3.6MB/s
+      - SG_4|4.4MB/s
+      - SG_8|5.0MB/s
+      - SG_21|3.5MB/s
+      - SG_9|2.1MB/s
+      - KR_4|3.9MB/s
+      - DE_2|2.7MB/s
+      - JP_3|5.3MB/s
+      - SG_7|3.4MB/s
+      - KR_3|3.9MB/s
+      - SG_3|3.5MB/s
+      - JP_22|5.7MB/s
+      - JP_17|5.0MB/s
+      - JP_6|5.4MB/s
+      - 新加坡 | SGP 5
+      - SG_16|4.4MB/s
+      - DE_1|2.6MB/s
+      - JP_18|5.2MB/s
+      - SG_26|3.6MB/s
+      - 澳大利亚 | AUS 2
+      - SG_25|5.4MB/s
+      - SG_2|3.7MB/s
+      - SG_22|2.8MB/s
       - 美国_0714194939
-      - _US_美国_4 2 2 2
-      - 日本 | JPN
-      - 香港 | HKG 3
-      - 未知_0714155268
-      - 未知_0714155267
+      - 英国 | GBR
   - name: 🐟 漏网之鱼
     type: select
     proxies:
