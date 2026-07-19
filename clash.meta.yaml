@@ -26,113 +26,37 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 日本 | JPN 7, server: frank-turtle.rooster465.autos, port: 443, type: trojan, password: PD07395842, sni: frank-turtle.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 日本_071818675, server: normal-dory.rooster465.autos, port: 443, type: trojan, password: HW85960347, sni: normal-dory.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 日本 | JPN 7 2, server: frank-turtle.rooster465.autos, port: 443, type: trojan, password: PD07395842, sni: frank-turtle.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 韩国 | KOR 3, server: main-fawn.rooster465.autos, port: 443, type: trojan, password: PD07395842, sni: main-fawn.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 日本_071818673, server: on-roughy.rooster465.autos, port: 443, type: trojan, password: PD07395842, sni: on-roughy.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: JP_13|5.4MB/s, server: on-airedale.rooster465.autos, port: 443, type: trojan, password: HW85960347, sni: on-airedale.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 新加坡 | SGP 8, server: aware-coyote.rooster465.autos, port: 443, type: trojan, password: JA96378052, sni: aware-coyote.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 日本 | JPN 7 3, server: frank-turtle.rooster465.autos, port: 443, type: trojan, password: PD07395842, sni: frank-turtle.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 日本 | JPN 5, server: square-skink.rooster465.autos, port: 443, type: trojan, password: JA96378052, sni: square-skink.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: JP_20|5.4MB/s, server: elegant-arachnid.rooster465.autos, port: 443, type: trojan, password: HW85960347, sni: elegant-arachnid.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 日本 | JPN 8, server: pumped-sailfish.rooster465.autos, port: 443, type: trojan, password: PD07395842, sni: pumped-sailfish.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: JP_12|5.0MB/s, server: lasting-bobcat.rooster465.autos, port: 443, type: trojan, password: HW85960347, sni: lasting-bobcat.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: SG_11|3.5MB/s, server: aware-coyote.rooster465.autos, port: 443, type: trojan, password: HW85960347, sni: aware-coyote.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 日本 | JPN 6, server: outgoing-eagle.rooster465.autos, port: 443, type: trojan, password: HW85960347, sni: outgoing-eagle.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: JP_17|5.7MB/s, server: cool-lioness.rooster465.autos, port: 443, type: trojan, password: HW85960347, sni: cool-lioness.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: JP_19|5.4MB/s, server: normal-dory.rooster465.autos, port: 443, type: trojan, password: JA96378052, sni: normal-dory.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 日本 | JPN 3, server: together-mayfly.rooster465.autos, port: 443, type: trojan, password: HW85960347, sni: together-mayfly.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: SG_16|3.7MB/s, server: pro-mako.rooster465.autos, port: 443, type: trojan, password: HW85960347, sni: pro-mako.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 日本 | JPN 6 2, server: outgoing-eagle.rooster465.autos, port: 443, type: trojan, password: HW85960347, sni: outgoing-eagle.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 日本 | JPN 23, server: harmless-gobbler.rooster465.autos, port: 443, type: trojan, password: HW85960347, sni: harmless-gobbler.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: JP_15|5.5MB/s, server: brave-muskox.rooster465.autos, port: 443, type: trojan, password: JA96378052, sni: brave-muskox.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 日本 | JPN 13, server: united-grouse.rooster465.autos, port: 443, type: trojan, password: HW85960347, sni: united-grouse.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 日本 | JPN 10, server: cunning-grub.rooster465.autos, port: 443, type: trojan, password: HW85960347, sni: cunning-grub.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 日本_071818672, server: certain-egret.rooster465.autos, port: 443, type: trojan, password: PD07395842, sni: certain-egret.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: JP_14|5.0MB/s, server: proper-mouse.rooster465.autos, port: 443, type: trojan, password: HW85960347, sni: proper-mouse.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 台湾_071818004, server: family.bucket.x9.kfc-520.com, port: 10046, type: vmess, uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 韩国 | KOR, server: together-amoeba.rooster465.autos, port: 443, type: trojan, password: PD07395842, sni: together-amoeba.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: SG_15|3.7MB/s, server: excited-alien.rooster465.autos, port: 443, type: trojan, password: HW85960347, sni: excited-alien.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 韩国 | KOR 2, server: proud-horse.rooster465.autos, port: 443, type: trojan, password: PD07395842, sni: proud-horse.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 新加坡 | SGP 21, server: national-dingo.rooster465.autos, port: 443, type: trojan, password: PD07395842, sni: national-dingo.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 韩国 | KOR 3 2, server: main-fawn.rooster465.autos, port: 443, type: trojan, password: PD07395842, sni: main-fawn.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 新加坡 | SGP 19, server: excited-sole.rooster465.autos, port: 443, type: trojan, password: PD07395842, sni: excited-sole.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 日本 | JPN 12, server: legible-chipmunk.rooster465.autos, port: 443, type: trojan, password: PD07395842, sni: legible-chipmunk.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 德国 | DEU 11, server: golden-fox.rooster465.autos, port: 443, type: trojan, password: PD07395842, sni: golden-fox.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 台湾_071818002, server: zjs001.kfc-520.com, port: 10004, type: vmess, uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 日本 | JPN 21, server: deep-ringtail.rooster465.autos, port: 443, type: trojan, password: HW85960347, sni: deep-ringtail.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 美国 | USA 2, server: firm-squid.rooster465.autos, port: 443, type: trojan, password: HW85960347, sni: firm-squid.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 韩国 | KOR 2 2, server: excited-ghoul.rooster465.autos, port: 443, type: trojan, password: PD07395842, sni: excited-ghoul.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 韩国 | KOR 4, server: together-amoeba.rooster465.autos, port: 443, type: trojan, password: PD07395842, sni: together-amoeba.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 新加坡 | SGP 7, server: happy-porpoise.rooster465.autos, port: 443, type: trojan, password: HW85960347, sni: happy-porpoise.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: GB_6|2.0MB/s, server: 13.135.248.162, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 德国 | DEU 4, server: 54.93.83.254, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: JP_9|4.9MB/s, server: ruling-toucan.rooster465.autos, port: 443, type: trojan, password: JA96378052, sni: ruling-toucan.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 荷兰 | NLD 13, server: pro-crane.rooster465.autos, port: 443, type: trojan, password: PD07395842, sni: pro-crane.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: SG_10|4.8MB/s, server: inspired-goshawk.rooster465.autos, port: 443, type: trojan, password: JA96378052, sni: inspired-goshawk.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 韩国 | KOR 2 3, server: excited-ghoul.rooster465.autos, port: 443, type: trojan, password: PD07395842, sni: excited-ghoul.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 德国 | DEU 4 2, server: 54.93.83.254, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 德国 | DEU 18, server: 3.77.54.36, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 新加坡 | SGP 6, server: upward-puma.rooster465.autos, port: 443, type: trojan, password: JA96378052, sni: upward-puma.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: US_32|2.5MB/s, server: dashing-possum.rooster465.autos, port: 443, type: trojan, password: HW85960347, sni: dashing-possum.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: ‍☠️ 未知地区 | Unknown 3, server: pleasing-monkfish.rooster465.autos, port: 443, type: trojan, password: JA96378052, sni: pleasing-monkfish.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 德国 | DEU 18 2, server: 3.77.54.36, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 新加坡 | SGP 21 2, server: national-dingo.rooster465.autos, port: 443, type: trojan, password: PD07395842, sni: national-dingo.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 韩国 | KOR 2 4, server: excited-ghoul.rooster465.autos, port: 443, type: trojan, password: PD07395842, sni: excited-ghoul.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 新加坡 | SGP 20, server: learning-ladybug.rooster465.autos, port: 443, type: trojan, password: PD07395842, sni: learning-ladybug.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 新加坡 | SGP 3, server: curious-llama.rooster465.autos, port: 443, type: trojan, password: HW85960347, sni: curious-llama.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: GB_6|2.0MB/s 2, server: 13.135.248.162, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: ‍☠️ 未知地区 | Unknown 5, server: moral-cow.rooster465.autos, port: 443, type: trojan, password: JA96378052, sni: moral-cow.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: GB_6|2.0MB/s 3, server: 13.135.248.162, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 新加坡 | SGP 20 2, server: learning-ladybug.rooster465.autos, port: 443, type: trojan, password: PD07395842, sni: learning-ladybug.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 4Jadi-594, server: 82.38.31.48, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-- {name: 新加坡 | SGP 21 3, server: national-dingo.rooster465.autos, port: 443, type: trojan, password: PD07395842, sni: national-dingo.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 4Mohsen-1248, server: 63.177.252.44, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Jadi-594 2, server: 82.38.31.48, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-- {name: 4Jadi-594 3, server: 82.38.31.48, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-- {name: 德国 | DEU 18 3, server: 3.77.54.36, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 爱尔兰 | IRL, server: endless-crappie.rooster465.autos, port: 443, type: trojan, password: PD07395842, sni: endless-crappie.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 新加坡 | SGP 23, server: hopeful-burro.rooster465.autos, port: 443, type: trojan, password: HW85960347, sni: hopeful-burro.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 新加坡 | SGP 9, server: settling-grouper.rooster465.autos, port: 443, type: trojan, password: HW85960347, sni: settling-grouper.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: SG_9|2.7MB/s, server: feasible-guppy.rooster465.autos, port: 443, type: trojan, password: HW85960347, sni: feasible-guppy.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 德国 | DEU 4 3, server: 54.93.83.254, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 日本 | JPN 19, server: proven-stud.rooster465.autos, port: 443, type: trojan, password: JA96378052, sni: proven-stud.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 澳大利亚_071818119, server: true-pony.rooster465.autos, port: 443, type: trojan, password: PD07395842, sni: true-pony.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 新加坡 | SGP 2, server: aware-corgi.rooster465.autos, port: 443, type: trojan, password: JA96378052, sni: aware-corgi.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 荷兰 | NLD 2, server: present-warthog.rooster465.autos, port: 443, type: trojan, password: PD07395842, sni: present-warthog.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 4Jadi-902, server: 3.75.172.120, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: ‍☠️ 未知地区 | Unknown 7, server: enough-basilisk.rooster465.autos, port: 443, type: trojan, password: PD07395842, sni: enough-basilisk.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: ‍☠️ 未知地区 | Unknown 6, server: trusting-moccasin.rooster465.autos, port: 443, type: trojan, password: JA96378052, sni: trusting-moccasin.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: AL_17, server: 157.22.240.141, port: 57925, type: ss, cipher: chacha20-ietf-poly1305, password: FXpDf7WV6lfD6n9hpz7HF2, udp: true}
-- {name: 罗马尼亚_071809131, server: 146.70.254.238, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: Vr06rU_v1vFPYeXq9zbsAA, udp: true}
-- {name: 新加坡 | SGP 22, server: hopeful-burro.rooster465.autos, port: 443, type: trojan, password: PD07395842, sni: hopeful-burro.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 4Mohsen-1248 2, server: 63.177.252.44, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: AL_17 2, server: 157.22.240.141, port: 57925, type: ss, cipher: chacha20-ietf-poly1305, password: FXpDf7WV6lfD6n9hpz7HF2, udp: true}
-- {name: 俄罗斯 | RUS, server: 185.22.154.103, port: 40110, type: ss, cipher: aes-256-gcm, password: cfe685726eea2c4b, udp: true}
-- {name: 新加坡 | SGP 10, server: enough-lamb.rooster465.autos, port: 443, type: trojan, password: JA96378052, sni: enough-lamb.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: AL_17 3, server: 157.22.240.141, port: 57925, type: ss, cipher: chacha20-ietf-poly1305, password: FXpDf7WV6lfD6n9hpz7HF2, udp: true}
-- {name: 俄罗斯 | RUS 2, server: 185.22.154.103, port: 40110, type: ss, cipher: aes-256-gcm, password: cfe685726eea2c4b, udp: true}
-- {name: 罗马尼亚_071809131 2, server: 146.70.254.238, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: Vr06rU_v1vFPYeXq9zbsAA, udp: true}
-- {name: 俄罗斯 | RUS 3, server: 185.22.154.103, port: 40110, type: ss, cipher: aes-256-gcm, password: cfe685726eea2c4b, udp: true}
-- {name: 香港 | HKG, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 香港 | HKG 5, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 香港 | HKG 2, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 香港 | HKG 3, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 韩国_071919255, server: trusted-grouper.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true, udp: true}
+- {name: 韩国_071919251, server: apt-magpie.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true, udp: true}
+- {name: _US_美国_1, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: 德国 | DEU 15, server: 63.176.169.206, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: SG_3|5.0MB/s, server: glorious-glider.rooster465.autos, port: 443, type: trojan, password: ON38567014, sni: glorious-glider.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 美国_0719195449, server: polished-cicada.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true, udp: true}
+- {name: 荷兰_071919907, server: workable-crawdad.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true, udp: true}
+- {name: 美国_0719195450, server: working-raccoon.rooster465.autos, port: 443, type: trojan, password: JA96378052, sni: working-raccoon.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 德国_071919973, server: sensible-grubworm.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true, udp: true}
+- {name: 澳大利亚_071919127, server: national-stingray.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true, udp: true}
+- {name: 荷兰_071919908, server: unique-gobbler.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true, udp: true}
+- {name: DE_5|2.2MB/s, server: summary-finch.rooster465.autos, port: 443, type: trojan, password: ON38567014, sni: summary-finch.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 卢森堡_071919053, server: actual-aardvark.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true, udp: true}
+- {name: KR_6|4.3MB/s, server: settled-camel.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true, udp: true}
+- {name: 韩国_071919258, server: winning-polecat.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true, udp: true}
+- {name: 美国_0719195451, server: sweeping-insect.rooster465.autos, port: 443, type: trojan, password: HW85960347, sni: sweeping-insect.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 韩国_071919253, server: thorough-elf.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true, udp: true}
+- {name: HK_1|1.5MB/s, server: natural-swan.rooster465.autos, port: 443, type: trojan, password: ON38567014, sni: natural-swan.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: SG_5|3.6MB/s, server: crucial-moth.rooster465.autos, port: 443, type: trojan, password: ON38567014, sni: crucial-moth.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 韩国_071919256, server: desired-boxer.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true, udp: true}
+- {name: _DE_德国_2, server: 63.177.252.44, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 英国 | GBR, server: 13.135.169.180, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 香港 | HKG 4, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 香港 | HKG 6, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 香港 | HKG 7, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 香港 | HKG 2 2, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 香港 | HKG 8, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 香港 | HKG 2 3, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 香港 | HKG 3 2, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 香港 | HKG 2 2 2, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 香港 | HKG 4 2, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 香港 | HKG 9, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 香港 | HKG 2 4, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 香港 | HKG 3 3, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 香港 | HKG 2 2 3, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: KR_11|3.6MB/s, server: evolving-kangaroo.rooster465.autos, port: 443, type: trojan, password: ON38567014, sni: evolving-kangaroo.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 韩国_071919254, server: novel-kodiak.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true, udp: true}
+- {name: 韩国_071919257, server: prepared-monitor.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true, udp: true}
+- {name: SG_4|3.7MB/s, server: stable-python.rooster465.autos, port: 443, type: trojan, password: ON38567014, sni: stable-python.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: US_6|2.0MB/s, server: harmless-akita.rooster465.autos, port: 443, type: trojan, password: ON38567014, sni: harmless-akita.rooster465.autos, skip-cert-verify: true, udp: true}
 - {name: 香港 | HKG 4 3, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 英国 | GBR 2, server: 52.56.188.204, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 日本 | JPN 9, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -145,113 +69,37 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 日本 | JPN 7
-      - 日本_071818675
-      - 日本 | JPN 7 2
-      - 韩国 | KOR 3
-      - 日本_071818673
-      - JP_13|5.4MB/s
-      - 新加坡 | SGP 8
-      - 日本 | JPN 7 3
-      - 日本 | JPN 5
-      - JP_20|5.4MB/s
-      - 日本 | JPN 8
-      - JP_12|5.0MB/s
-      - SG_11|3.5MB/s
-      - 日本 | JPN 6
-      - JP_17|5.7MB/s
-      - JP_19|5.4MB/s
-      - 日本 | JPN 3
-      - SG_16|3.7MB/s
-      - 日本 | JPN 6 2
-      - 日本 | JPN 23
-      - JP_15|5.5MB/s
-      - 日本 | JPN 13
-      - 日本 | JPN 10
-      - 日本_071818672
-      - JP_14|5.0MB/s
-      - 台湾_071818004
-      - 韩国 | KOR
-      - SG_15|3.7MB/s
-      - 韩国 | KOR 2
-      - 新加坡 | SGP 21
-      - 韩国 | KOR 3 2
-      - 新加坡 | SGP 19
-      - 日本 | JPN 12
-      - 德国 | DEU 11
-      - 台湾_071818002
-      - 日本 | JPN 21
-      - 美国 | USA 2
-      - 韩国 | KOR 2 2
-      - 韩国 | KOR 4
-      - 新加坡 | SGP 7
-      - GB_6|2.0MB/s
-      - 德国 | DEU 4
-      - JP_9|4.9MB/s
-      - 荷兰 | NLD 13
-      - SG_10|4.8MB/s
-      - 韩国 | KOR 2 3
-      - 德国 | DEU 4 2
-      - 德国 | DEU 18
-      - 新加坡 | SGP 6
-      - US_32|2.5MB/s
-      - ‍☠️ 未知地区 | Unknown 3
-      - 德国 | DEU 18 2
-      - 新加坡 | SGP 21 2
-      - 韩国 | KOR 2 4
-      - 新加坡 | SGP 20
-      - 新加坡 | SGP 3
-      - GB_6|2.0MB/s 2
-      - ‍☠️ 未知地区 | Unknown 5
-      - GB_6|2.0MB/s 3
-      - 新加坡 | SGP 20 2
-      - 4Jadi-594
-      - 新加坡 | SGP 21 3
-      - 4Mohsen-1248
-      - 4Jadi-594 2
-      - 4Jadi-594 3
-      - 德国 | DEU 18 3
-      - 爱尔兰 | IRL
-      - 新加坡 | SGP 23
-      - 新加坡 | SGP 9
-      - SG_9|2.7MB/s
-      - 德国 | DEU 4 3
-      - 日本 | JPN 19
-      - 澳大利亚_071818119
-      - 新加坡 | SGP 2
-      - 荷兰 | NLD 2
-      - 4Jadi-902
-      - ‍☠️ 未知地区 | Unknown 7
-      - ‍☠️ 未知地区 | Unknown 6
-      - AL_17
-      - 罗马尼亚_071809131
-      - 新加坡 | SGP 22
-      - 4Mohsen-1248 2
-      - AL_17 2
-      - 俄罗斯 | RUS
-      - 新加坡 | SGP 10
-      - AL_17 3
-      - 俄罗斯 | RUS 2
-      - 罗马尼亚_071809131 2
-      - 俄罗斯 | RUS 3
-      - 香港 | HKG
-      - 香港 | HKG 5
-      - 香港 | HKG 2
-      - 香港 | HKG 3
+      - 韩国_071919255
+      - 韩国_071919251
+      - _US_美国_1
+      - 德国 | DEU 15
+      - SG_3|5.0MB/s
+      - 美国_0719195449
+      - 荷兰_071919907
+      - 美国_0719195450
+      - 德国_071919973
+      - 澳大利亚_071919127
+      - 荷兰_071919908
+      - DE_5|2.2MB/s
+      - 卢森堡_071919053
+      - KR_6|4.3MB/s
+      - 韩国_071919258
+      - 美国_0719195451
+      - 韩国_071919253
+      - HK_1|1.5MB/s
+      - SG_5|3.6MB/s
+      - 韩国_071919256
+      - _DE_德国_2
+      - 英国 | GBR
       - 香港 | HKG 4
-      - 香港 | HKG 6
-      - 香港 | HKG 7
-      - 香港 | HKG 2 2
-      - 香港 | HKG 8
-      - 香港 | HKG 2 3
-      - 香港 | HKG 3 2
-      - 香港 | HKG 2 2 2
-      - 香港 | HKG 4 2
-      - 香港 | HKG 9
-      - 香港 | HKG 2 4
-      - 香港 | HKG 3 3
-      - 香港 | HKG 2 2 3
+      - KR_11|3.6MB/s
+      - 韩国_071919254
+      - 韩国_071919257
+      - SG_4|3.7MB/s
+      - US_6|2.0MB/s
       - 香港 | HKG 4 3
+      - 英国 | GBR 2
+      - 日本 | JPN 9
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -263,226 +111,74 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 日本 | JPN 7
-      - 日本_071818675
-      - 日本 | JPN 7 2
-      - 韩国 | KOR 3
-      - 日本_071818673
-      - JP_13|5.4MB/s
-      - 新加坡 | SGP 8
-      - 日本 | JPN 7 3
-      - 日本 | JPN 5
-      - JP_20|5.4MB/s
-      - 日本 | JPN 8
-      - JP_12|5.0MB/s
-      - SG_11|3.5MB/s
-      - 日本 | JPN 6
-      - JP_17|5.7MB/s
-      - JP_19|5.4MB/s
-      - 日本 | JPN 3
-      - SG_16|3.7MB/s
-      - 日本 | JPN 6 2
-      - 日本 | JPN 23
-      - JP_15|5.5MB/s
-      - 日本 | JPN 13
-      - 日本 | JPN 10
-      - 日本_071818672
-      - JP_14|5.0MB/s
-      - 台湾_071818004
-      - 韩国 | KOR
-      - SG_15|3.7MB/s
-      - 韩国 | KOR 2
-      - 新加坡 | SGP 21
-      - 韩国 | KOR 3 2
-      - 新加坡 | SGP 19
-      - 日本 | JPN 12
-      - 德国 | DEU 11
-      - 台湾_071818002
-      - 日本 | JPN 21
-      - 美国 | USA 2
-      - 韩国 | KOR 2 2
-      - 韩国 | KOR 4
-      - 新加坡 | SGP 7
-      - GB_6|2.0MB/s
-      - 德国 | DEU 4
-      - JP_9|4.9MB/s
-      - 荷兰 | NLD 13
-      - SG_10|4.8MB/s
-      - 韩国 | KOR 2 3
-      - 德国 | DEU 4 2
-      - 德国 | DEU 18
-      - 新加坡 | SGP 6
-      - US_32|2.5MB/s
-      - ‍☠️ 未知地区 | Unknown 3
-      - 德国 | DEU 18 2
-      - 新加坡 | SGP 21 2
-      - 韩国 | KOR 2 4
-      - 新加坡 | SGP 20
-      - 新加坡 | SGP 3
-      - GB_6|2.0MB/s 2
-      - ‍☠️ 未知地区 | Unknown 5
-      - GB_6|2.0MB/s 3
-      - 新加坡 | SGP 20 2
-      - 4Jadi-594
-      - 新加坡 | SGP 21 3
-      - 4Mohsen-1248
-      - 4Jadi-594 2
-      - 4Jadi-594 3
-      - 德国 | DEU 18 3
-      - 爱尔兰 | IRL
-      - 新加坡 | SGP 23
-      - 新加坡 | SGP 9
-      - SG_9|2.7MB/s
-      - 德国 | DEU 4 3
-      - 日本 | JPN 19
-      - 澳大利亚_071818119
-      - 新加坡 | SGP 2
-      - 荷兰 | NLD 2
-      - 4Jadi-902
-      - ‍☠️ 未知地区 | Unknown 7
-      - ‍☠️ 未知地区 | Unknown 6
-      - AL_17
-      - 罗马尼亚_071809131
-      - 新加坡 | SGP 22
-      - 4Mohsen-1248 2
-      - AL_17 2
-      - 俄罗斯 | RUS
-      - 新加坡 | SGP 10
-      - AL_17 3
-      - 俄罗斯 | RUS 2
-      - 罗马尼亚_071809131 2
-      - 俄罗斯 | RUS 3
-      - 香港 | HKG
-      - 香港 | HKG 5
-      - 香港 | HKG 2
-      - 香港 | HKG 3
+      - 韩国_071919255
+      - 韩国_071919251
+      - _US_美国_1
+      - 德国 | DEU 15
+      - SG_3|5.0MB/s
+      - 美国_0719195449
+      - 荷兰_071919907
+      - 美国_0719195450
+      - 德国_071919973
+      - 澳大利亚_071919127
+      - 荷兰_071919908
+      - DE_5|2.2MB/s
+      - 卢森堡_071919053
+      - KR_6|4.3MB/s
+      - 韩国_071919258
+      - 美国_0719195451
+      - 韩国_071919253
+      - HK_1|1.5MB/s
+      - SG_5|3.6MB/s
+      - 韩国_071919256
+      - _DE_德国_2
+      - 英国 | GBR
       - 香港 | HKG 4
-      - 香港 | HKG 6
-      - 香港 | HKG 7
-      - 香港 | HKG 2 2
-      - 香港 | HKG 8
-      - 香港 | HKG 2 3
-      - 香港 | HKG 3 2
-      - 香港 | HKG 2 2 2
-      - 香港 | HKG 4 2
-      - 香港 | HKG 9
-      - 香港 | HKG 2 4
-      - 香港 | HKG 3 3
-      - 香港 | HKG 2 2 3
+      - KR_11|3.6MB/s
+      - 韩国_071919254
+      - 韩国_071919257
+      - SG_4|3.7MB/s
+      - US_6|2.0MB/s
       - 香港 | HKG 4 3
+      - 英国 | GBR 2
+      - 日本 | JPN 9
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 日本 | JPN 7
-      - 日本_071818675
-      - 日本 | JPN 7 2
-      - 韩国 | KOR 3
-      - 日本_071818673
-      - JP_13|5.4MB/s
-      - 新加坡 | SGP 8
-      - 日本 | JPN 7 3
-      - 日本 | JPN 5
-      - JP_20|5.4MB/s
-      - 日本 | JPN 8
-      - JP_12|5.0MB/s
-      - SG_11|3.5MB/s
-      - 日本 | JPN 6
-      - JP_17|5.7MB/s
-      - JP_19|5.4MB/s
-      - 日本 | JPN 3
-      - SG_16|3.7MB/s
-      - 日本 | JPN 6 2
-      - 日本 | JPN 23
-      - JP_15|5.5MB/s
-      - 日本 | JPN 13
-      - 日本 | JPN 10
-      - 日本_071818672
-      - JP_14|5.0MB/s
-      - 台湾_071818004
-      - 韩国 | KOR
-      - SG_15|3.7MB/s
-      - 韩国 | KOR 2
-      - 新加坡 | SGP 21
-      - 韩国 | KOR 3 2
-      - 新加坡 | SGP 19
-      - 日本 | JPN 12
-      - 德国 | DEU 11
-      - 台湾_071818002
-      - 日本 | JPN 21
-      - 美国 | USA 2
-      - 韩国 | KOR 2 2
-      - 韩国 | KOR 4
-      - 新加坡 | SGP 7
-      - GB_6|2.0MB/s
-      - 德国 | DEU 4
-      - JP_9|4.9MB/s
-      - 荷兰 | NLD 13
-      - SG_10|4.8MB/s
-      - 韩国 | KOR 2 3
-      - 德国 | DEU 4 2
-      - 德国 | DEU 18
-      - 新加坡 | SGP 6
-      - US_32|2.5MB/s
-      - ‍☠️ 未知地区 | Unknown 3
-      - 德国 | DEU 18 2
-      - 新加坡 | SGP 21 2
-      - 韩国 | KOR 2 4
-      - 新加坡 | SGP 20
-      - 新加坡 | SGP 3
-      - GB_6|2.0MB/s 2
-      - ‍☠️ 未知地区 | Unknown 5
-      - GB_6|2.0MB/s 3
-      - 新加坡 | SGP 20 2
-      - 4Jadi-594
-      - 新加坡 | SGP 21 3
-      - 4Mohsen-1248
-      - 4Jadi-594 2
-      - 4Jadi-594 3
-      - 德国 | DEU 18 3
-      - 爱尔兰 | IRL
-      - 新加坡 | SGP 23
-      - 新加坡 | SGP 9
-      - SG_9|2.7MB/s
-      - 德国 | DEU 4 3
-      - 日本 | JPN 19
-      - 澳大利亚_071818119
-      - 新加坡 | SGP 2
-      - 荷兰 | NLD 2
-      - 4Jadi-902
-      - ‍☠️ 未知地区 | Unknown 7
-      - ‍☠️ 未知地区 | Unknown 6
-      - AL_17
-      - 罗马尼亚_071809131
-      - 新加坡 | SGP 22
-      - 4Mohsen-1248 2
-      - AL_17 2
-      - 俄罗斯 | RUS
-      - 新加坡 | SGP 10
-      - AL_17 3
-      - 俄罗斯 | RUS 2
-      - 罗马尼亚_071809131 2
-      - 俄罗斯 | RUS 3
-      - 香港 | HKG
-      - 香港 | HKG 5
-      - 香港 | HKG 2
-      - 香港 | HKG 3
+      - 韩国_071919255
+      - 韩国_071919251
+      - _US_美国_1
+      - 德国 | DEU 15
+      - SG_3|5.0MB/s
+      - 美国_0719195449
+      - 荷兰_071919907
+      - 美国_0719195450
+      - 德国_071919973
+      - 澳大利亚_071919127
+      - 荷兰_071919908
+      - DE_5|2.2MB/s
+      - 卢森堡_071919053
+      - KR_6|4.3MB/s
+      - 韩国_071919258
+      - 美国_0719195451
+      - 韩国_071919253
+      - HK_1|1.5MB/s
+      - SG_5|3.6MB/s
+      - 韩国_071919256
+      - _DE_德国_2
+      - 英国 | GBR
       - 香港 | HKG 4
-      - 香港 | HKG 6
-      - 香港 | HKG 7
-      - 香港 | HKG 2 2
-      - 香港 | HKG 8
-      - 香港 | HKG 2 3
-      - 香港 | HKG 3 2
-      - 香港 | HKG 2 2 2
-      - 香港 | HKG 4 2
-      - 香港 | HKG 9
-      - 香港 | HKG 2 4
-      - 香港 | HKG 3 3
-      - 香港 | HKG 2 2 3
+      - KR_11|3.6MB/s
+      - 韩国_071919254
+      - 韩国_071919257
+      - SG_4|3.7MB/s
+      - US_6|2.0MB/s
       - 香港 | HKG 4 3
+      - 英国 | GBR 2
+      - 日本 | JPN 9
   - name: 🐟 漏网之鱼
     type: select
     proxies:
