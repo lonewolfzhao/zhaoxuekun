@@ -26,37 +26,14 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 韩国_071919255, server: trusted-grouper.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true, udp: true}
-- {name: 韩国_071919251, server: apt-magpie.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true, udp: true}
-- {name: _US_美国_1, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: 美国 | USA 5, server: sincere-man.rooster465.autos, port: 443, type: trojan, password: IQ68037294, skip-cert-verify: true, udp: true}
+- {name: FR_1|1.7MB/s, server: firm-warthog.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: firm-warthog.rooster465.autos, skip-cert-verify: true, udp: true}
 - {name: 德国 | DEU 15, server: 63.176.169.206, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: SG_3|5.0MB/s, server: glorious-glider.rooster465.autos, port: 443, type: trojan, password: ON38567014, sni: glorious-glider.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 美国_0719195449, server: polished-cicada.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true, udp: true}
-- {name: 荷兰_071919907, server: workable-crawdad.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true, udp: true}
-- {name: 美国_0719195450, server: working-raccoon.rooster465.autos, port: 443, type: trojan, password: JA96378052, sni: working-raccoon.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 德国_071919973, server: sensible-grubworm.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true, udp: true}
-- {name: 澳大利亚_071919127, server: national-stingray.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true, udp: true}
-- {name: 荷兰_071919908, server: unique-gobbler.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true, udp: true}
-- {name: DE_5|2.2MB/s, server: summary-finch.rooster465.autos, port: 443, type: trojan, password: ON38567014, sni: summary-finch.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 卢森堡_071919053, server: actual-aardvark.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true, udp: true}
-- {name: KR_6|4.3MB/s, server: settled-camel.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true, udp: true}
-- {name: 韩国_071919258, server: winning-polecat.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true, udp: true}
-- {name: 美国_0719195451, server: sweeping-insect.rooster465.autos, port: 443, type: trojan, password: HW85960347, sni: sweeping-insect.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 韩国_071919253, server: thorough-elf.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true, udp: true}
-- {name: HK_1|1.5MB/s, server: natural-swan.rooster465.autos, port: 443, type: trojan, password: ON38567014, sni: natural-swan.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: SG_5|3.6MB/s, server: crucial-moth.rooster465.autos, port: 443, type: trojan, password: ON38567014, sni: crucial-moth.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 韩国_071919256, server: desired-boxer.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true, udp: true}
-- {name: _DE_德国_2, server: 63.177.252.44, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 英国 | GBR, server: 13.135.169.180, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 香港 | HKG 4, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: KR_11|3.6MB/s, server: evolving-kangaroo.rooster465.autos, port: 443, type: trojan, password: ON38567014, sni: evolving-kangaroo.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 韩国_071919254, server: novel-kodiak.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true, udp: true}
-- {name: 韩国_071919257, server: prepared-monitor.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: true, udp: true}
-- {name: SG_4|3.7MB/s, server: stable-python.rooster465.autos, port: 443, type: trojan, password: ON38567014, sni: stable-python.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: US_6|2.0MB/s, server: harmless-akita.rooster465.autos, port: 443, type: trojan, password: ON38567014, sni: harmless-akita.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 香港 | HKG 4 3, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 英国 | GBR 2, server: 52.56.188.204, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 日本 | JPN 9, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 法国 | FRA 6, server: humane-bird.rooster465.autos, port: 443, type: trojan, password: IQ68037294, skip-cert-verify: true, udp: true}
+- {name: 爱尔兰 | IRL, server: moving-wren.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: moving-wren.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 4Kian-762, server: 82.38.31.35, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+- {name: 越南 | VNM, server: 103.166.184.134, port: 27467, type: vmess, uuid: 93637105-bcea-4a68-b089-1bb6091f0b16, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [speedtest.net]}}, udp: true}
+- {name: 香港 | HKG, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -69,37 +46,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 韩国_071919255
-      - 韩国_071919251
-      - _US_美国_1
+      - 美国 | USA 5
+      - FR_1|1.7MB/s
       - 德国 | DEU 15
-      - SG_3|5.0MB/s
-      - 美国_0719195449
-      - 荷兰_071919907
-      - 美国_0719195450
-      - 德国_071919973
-      - 澳大利亚_071919127
-      - 荷兰_071919908
-      - DE_5|2.2MB/s
-      - 卢森堡_071919053
-      - KR_6|4.3MB/s
-      - 韩国_071919258
-      - 美国_0719195451
-      - 韩国_071919253
-      - HK_1|1.5MB/s
-      - SG_5|3.6MB/s
-      - 韩国_071919256
-      - _DE_德国_2
-      - 英国 | GBR
-      - 香港 | HKG 4
-      - KR_11|3.6MB/s
-      - 韩国_071919254
-      - 韩国_071919257
-      - SG_4|3.7MB/s
-      - US_6|2.0MB/s
-      - 香港 | HKG 4 3
-      - 英国 | GBR 2
-      - 日本 | JPN 9
+      - 法国 | FRA 6
+      - 爱尔兰 | IRL
+      - 4Kian-762
+      - 越南 | VNM
+      - 香港 | HKG
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -111,74 +65,28 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 韩国_071919255
-      - 韩国_071919251
-      - _US_美国_1
+      - 美国 | USA 5
+      - FR_1|1.7MB/s
       - 德国 | DEU 15
-      - SG_3|5.0MB/s
-      - 美国_0719195449
-      - 荷兰_071919907
-      - 美国_0719195450
-      - 德国_071919973
-      - 澳大利亚_071919127
-      - 荷兰_071919908
-      - DE_5|2.2MB/s
-      - 卢森堡_071919053
-      - KR_6|4.3MB/s
-      - 韩国_071919258
-      - 美国_0719195451
-      - 韩国_071919253
-      - HK_1|1.5MB/s
-      - SG_5|3.6MB/s
-      - 韩国_071919256
-      - _DE_德国_2
-      - 英国 | GBR
-      - 香港 | HKG 4
-      - KR_11|3.6MB/s
-      - 韩国_071919254
-      - 韩国_071919257
-      - SG_4|3.7MB/s
-      - US_6|2.0MB/s
-      - 香港 | HKG 4 3
-      - 英国 | GBR 2
-      - 日本 | JPN 9
+      - 法国 | FRA 6
+      - 爱尔兰 | IRL
+      - 4Kian-762
+      - 越南 | VNM
+      - 香港 | HKG
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 韩国_071919255
-      - 韩国_071919251
-      - _US_美国_1
+      - 美国 | USA 5
+      - FR_1|1.7MB/s
       - 德国 | DEU 15
-      - SG_3|5.0MB/s
-      - 美国_0719195449
-      - 荷兰_071919907
-      - 美国_0719195450
-      - 德国_071919973
-      - 澳大利亚_071919127
-      - 荷兰_071919908
-      - DE_5|2.2MB/s
-      - 卢森堡_071919053
-      - KR_6|4.3MB/s
-      - 韩国_071919258
-      - 美国_0719195451
-      - 韩国_071919253
-      - HK_1|1.5MB/s
-      - SG_5|3.6MB/s
-      - 韩国_071919256
-      - _DE_德国_2
-      - 英国 | GBR
-      - 香港 | HKG 4
-      - KR_11|3.6MB/s
-      - 韩国_071919254
-      - 韩国_071919257
-      - SG_4|3.7MB/s
-      - US_6|2.0MB/s
-      - 香港 | HKG 4 3
-      - 英国 | GBR 2
-      - 日本 | JPN 9
+      - 法国 | FRA 6
+      - 爱尔兰 | IRL
+      - 4Kian-762
+      - 越南 | VNM
+      - 香港 | HKG
   - name: 🐟 漏网之鱼
     type: select
     proxies:
