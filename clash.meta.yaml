@@ -26,14 +26,22 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 美国 | USA 5, server: sincere-man.rooster465.autos, port: 443, type: trojan, password: IQ68037294, skip-cert-verify: true, udp: true}
-- {name: FR_1|1.7MB/s, server: firm-warthog.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: firm-warthog.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 德国 | DEU 15, server: 63.176.169.206, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 法国 | FRA 6, server: humane-bird.rooster465.autos, port: 443, type: trojan, password: IQ68037294, skip-cert-verify: true, udp: true}
-- {name: 爱尔兰 | IRL, server: moving-wren.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: moving-wren.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 4Kian-762, server: 82.38.31.35, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-- {name: 越南 | VNM, server: 103.166.184.134, port: 27467, type: vmess, uuid: 93637105-bcea-4a68-b089-1bb6091f0b16, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [speedtest.net]}}, udp: true}
+- {name: _US_美国, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: 英国_0721191434, server: 82.38.31.49, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+- {name: 新加坡 | SGP 8, server: internal-sunbird.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: internal-sunbird.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: _US_美国 2, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
 - {name: 香港 | HKG, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _SG_新加坡->🇫🇷_FR_法国, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 韩国 | KOR, server: accurate-drake.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: accurate-drake.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 荷兰 | NLD 13, server: eager-louse.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: eager-louse.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 英国 | GBR, server: 3.10.234.245, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Mohsen-1264, server: 63.180.180.176, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 日本 | JPN 6, server: pleased-lobster.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: pleased-lobster.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 德国 | DEU 3, server: 18.159.53.205, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 日本_072115589, server: saving-sawfly.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: saving-sawfly.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 日本 | JPN 4, server: guided-warthog.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: guided-warthog.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: US_2|2.7MB/s, server: 163.245.196.68, port: 49361, type: trojan, password: 0ebb269c9f2d4e8e46b0cd4105a55134, sni: 163.245.196.68.sslip.io, skip-cert-verify: true, udp: true}
+- {name: 法国 | FRA 2, server: correct-pony.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: correct-pony.rooster465.autos, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -46,14 +54,22 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国 | USA 5
-      - FR_1|1.7MB/s
-      - 德国 | DEU 15
-      - 法国 | FRA 6
-      - 爱尔兰 | IRL
-      - 4Kian-762
-      - 越南 | VNM
+      - _US_美国
+      - 英国_0721191434
+      - 新加坡 | SGP 8
+      - _US_美国 2
       - 香港 | HKG
+      - _SG_新加坡->🇫🇷_FR_法国
+      - 韩国 | KOR
+      - 荷兰 | NLD 13
+      - 英国 | GBR
+      - 4Mohsen-1264
+      - 日本 | JPN 6
+      - 德国 | DEU 3
+      - 日本_072115589
+      - 日本 | JPN 4
+      - US_2|2.7MB/s
+      - 法国 | FRA 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -65,28 +81,44 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国 | USA 5
-      - FR_1|1.7MB/s
-      - 德国 | DEU 15
-      - 法国 | FRA 6
-      - 爱尔兰 | IRL
-      - 4Kian-762
-      - 越南 | VNM
+      - _US_美国
+      - 英国_0721191434
+      - 新加坡 | SGP 8
+      - _US_美国 2
       - 香港 | HKG
+      - _SG_新加坡->🇫🇷_FR_法国
+      - 韩国 | KOR
+      - 荷兰 | NLD 13
+      - 英国 | GBR
+      - 4Mohsen-1264
+      - 日本 | JPN 6
+      - 德国 | DEU 3
+      - 日本_072115589
+      - 日本 | JPN 4
+      - US_2|2.7MB/s
+      - 法国 | FRA 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 美国 | USA 5
-      - FR_1|1.7MB/s
-      - 德国 | DEU 15
-      - 法国 | FRA 6
-      - 爱尔兰 | IRL
-      - 4Kian-762
-      - 越南 | VNM
+      - _US_美国
+      - 英国_0721191434
+      - 新加坡 | SGP 8
+      - _US_美国 2
       - 香港 | HKG
+      - _SG_新加坡->🇫🇷_FR_法国
+      - 韩国 | KOR
+      - 荷兰 | NLD 13
+      - 英国 | GBR
+      - 4Mohsen-1264
+      - 日本 | JPN 6
+      - 德国 | DEU 3
+      - 日本_072115589
+      - 日本 | JPN 4
+      - US_2|2.7MB/s
+      - 法国 | FRA 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
