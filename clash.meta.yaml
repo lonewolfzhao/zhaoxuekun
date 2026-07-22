@@ -26,22 +26,17 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: _US_美国, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-- {name: 英国_0721191434, server: 82.38.31.49, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-- {name: 新加坡 | SGP 8, server: internal-sunbird.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: internal-sunbird.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: _US_美国 2, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-- {name: 香港 | HKG, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: _SG_新加坡->🇫🇷_FR_法国, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 韩国 | KOR, server: accurate-drake.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: accurate-drake.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 荷兰 | NLD 13, server: eager-louse.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: eager-louse.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 美国 | USA 9, server: 54.167.54.100, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 美国 | USA 9 2, server: 34.207.235.215, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 美国 | USA 23, server: 54.197.30.38, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 德国_072219970, server: 192.248.180.96, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: LXMsoygg8tcTSYSbTr6ttA, udp: true}
+- {name: _US_美国_1, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: 韩国-ADFE686B, server: 27.255.82.134, port: 2078, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 德国 | DEU 15, server: lenient-dory.rooster465.autos, port: 443, type: trojan, password: WG39087154, skip-cert-verify: true, udp: true}
+- {name: 4Sarina-1263, server: 63.180.180.176, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 英国 | GBR, server: 3.10.234.245, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Mohsen-1264, server: 63.180.180.176, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 日本 | JPN 6, server: pleased-lobster.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: pleased-lobster.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 德国 | DEU 3, server: 18.159.53.205, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 日本_072115589, server: saving-sawfly.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: saving-sawfly.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 日本 | JPN 4, server: guided-warthog.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: guided-warthog.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: US_2|2.7MB/s, server: 163.245.196.68, port: 49361, type: trojan, password: 0ebb269c9f2d4e8e46b0cd4105a55134, sni: 163.245.196.68.sslip.io, skip-cert-verify: true, udp: true}
-- {name: 法国 | FRA 2, server: correct-pony.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: correct-pony.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 4Sarina-1537, server: 94.183.124.95, port: 82, type: ss, cipher: aes-256-gcm, password: EMIruFl6nN37LDQxCIwstG09haCBkyjvZVjWIMOQ0Jk=, udp: true}
+- {name: 4Mohsen-1153, server: 18.159.53.205, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -54,22 +49,17 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _US_美国
-      - 英国_0721191434
-      - 新加坡 | SGP 8
-      - _US_美国 2
-      - 香港 | HKG
-      - _SG_新加坡->🇫🇷_FR_法国
-      - 韩国 | KOR
-      - 荷兰 | NLD 13
+      - 美国 | USA 9
+      - 美国 | USA 9 2
+      - 美国 | USA 23
+      - 德国_072219970
+      - _US_美国_1
+      - 韩国-ADFE686B
+      - 德国 | DEU 15
+      - 4Sarina-1263
       - 英国 | GBR
-      - 4Mohsen-1264
-      - 日本 | JPN 6
-      - 德国 | DEU 3
-      - 日本_072115589
-      - 日本 | JPN 4
-      - US_2|2.7MB/s
-      - 法国 | FRA 2
+      - 4Sarina-1537
+      - 4Mohsen-1153
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -81,44 +71,34 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _US_美国
-      - 英国_0721191434
-      - 新加坡 | SGP 8
-      - _US_美国 2
-      - 香港 | HKG
-      - _SG_新加坡->🇫🇷_FR_法国
-      - 韩国 | KOR
-      - 荷兰 | NLD 13
+      - 美国 | USA 9
+      - 美国 | USA 9 2
+      - 美国 | USA 23
+      - 德国_072219970
+      - _US_美国_1
+      - 韩国-ADFE686B
+      - 德国 | DEU 15
+      - 4Sarina-1263
       - 英国 | GBR
-      - 4Mohsen-1264
-      - 日本 | JPN 6
-      - 德国 | DEU 3
-      - 日本_072115589
-      - 日本 | JPN 4
-      - US_2|2.7MB/s
-      - 法国 | FRA 2
+      - 4Sarina-1537
+      - 4Mohsen-1153
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - _US_美国
-      - 英国_0721191434
-      - 新加坡 | SGP 8
-      - _US_美国 2
-      - 香港 | HKG
-      - _SG_新加坡->🇫🇷_FR_法国
-      - 韩国 | KOR
-      - 荷兰 | NLD 13
+      - 美国 | USA 9
+      - 美国 | USA 9 2
+      - 美国 | USA 23
+      - 德国_072219970
+      - _US_美国_1
+      - 韩国-ADFE686B
+      - 德国 | DEU 15
+      - 4Sarina-1263
       - 英国 | GBR
-      - 4Mohsen-1264
-      - 日本 | JPN 6
-      - 德国 | DEU 3
-      - 日本_072115589
-      - 日本 | JPN 4
-      - US_2|2.7MB/s
-      - 法国 | FRA 2
+      - 4Sarina-1537
+      - 4Mohsen-1153
   - name: 🐟 漏网之鱼
     type: select
     proxies:
