@@ -26,16 +26,18 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 美国 | USA 6, server: 34.207.235.215, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 韩国-ADFE686B, server: 27.255.82.134, port: 2078, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 美国 | USA 23, server: 54.197.30.38, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 美国 | USA 9, server: 54.167.54.100, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: ir|80d8|puddincat07@Telegram, server: 94.183.124.95, port: 82, type: ss, cipher: aes-256-gcm, password: EMIruFl6nN37LDQxCIwstG09haCBkyjvZVjWIMOQ0Jk=, udp: true}
-- {name: 4FreeIran-262, server: e1.cover20.ir, port: 51570, type: ss, cipher: chacha20-ietf-poly1305, password: CUEYgBIv3UinEYcB/Ha5Jf792AEjyNwnGu0hIKK+o5Q=, udp: true}
-- {name: 加拿大_072410251, server: 50.114.177.134, port: 20188, type: ss, cipher: aes-256-gcm, password: 2803361d6c196af8, udp: true}
 - {name: _CN_中国->🇺🇸_US_美国, server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: _CN_中国->🇭🇰_HK_中国香港, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 英国 | GBR 3, server: v36.hdacd.com, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _CN_中国->🇯🇵_JP_日本, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 韩国-ADFE686B, server: 27.255.82.134, port: 2078, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 美国 | USA 9, server: 54.167.54.100, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 美国 | USA 6, server: 34.207.235.215, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 美国 | USA 23, server: 54.197.30.38, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 爱尔兰 | IRL, server: good-ocelot.rooster465.autos, port: 443, type: trojan, password: JT80563429, sni: good-ocelot.rooster465.autos, skip-cert-verify: true, udp: true}
 - {name: _CN_中国->🇫🇷_FR_法国, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 加拿大_072419247, server: 50.114.177.134, port: 20188, type: ss, cipher: aes-256-gcm, password: 2803361d6c196af8, udp: true}
+- {name: _CN_中国->🇭🇰_HK_中国香港, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 香港 | HKG 4, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: _CN_中国->🇭🇰_HK_中国香港 2, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -49,16 +51,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国 | USA 6
-      - 韩国-ADFE686B
-      - 美国 | USA 23
-      - 美国 | USA 9
-      - ir|80d8|puddincat07@Telegram
-      - 4FreeIran-262
-      - 加拿大_072410251
       - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇭🇰_HK_中国香港
+      - 英国 | GBR 3
+      - _CN_中国->🇯🇵_JP_日本
+      - 韩国-ADFE686B
+      - 美国 | USA 9
+      - 美国 | USA 6
+      - 美国 | USA 23
+      - 爱尔兰 | IRL
       - _CN_中国->🇫🇷_FR_法国
+      - 加拿大_072419247
+      - _CN_中国->🇭🇰_HK_中国香港
+      - 香港 | HKG 4
       - _CN_中国->🇭🇰_HK_中国香港 2
   - name: 🔰 节点选择
     type: select
@@ -71,16 +75,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国 | USA 6
-      - 韩国-ADFE686B
-      - 美国 | USA 23
-      - 美国 | USA 9
-      - ir|80d8|puddincat07@Telegram
-      - 4FreeIran-262
-      - 加拿大_072410251
       - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇭🇰_HK_中国香港
+      - 英国 | GBR 3
+      - _CN_中国->🇯🇵_JP_日本
+      - 韩国-ADFE686B
+      - 美国 | USA 9
+      - 美国 | USA 6
+      - 美国 | USA 23
+      - 爱尔兰 | IRL
       - _CN_中国->🇫🇷_FR_法国
+      - 加拿大_072419247
+      - _CN_中国->🇭🇰_HK_中国香港
+      - 香港 | HKG 4
       - _CN_中国->🇭🇰_HK_中国香港 2
   - name: ♻️ 可能受限
     type: load-balance
@@ -88,16 +94,18 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 美国 | USA 6
-      - 韩国-ADFE686B
-      - 美国 | USA 23
-      - 美国 | USA 9
-      - ir|80d8|puddincat07@Telegram
-      - 4FreeIran-262
-      - 加拿大_072410251
       - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇭🇰_HK_中国香港
+      - 英国 | GBR 3
+      - _CN_中国->🇯🇵_JP_日本
+      - 韩国-ADFE686B
+      - 美国 | USA 9
+      - 美国 | USA 6
+      - 美国 | USA 23
+      - 爱尔兰 | IRL
       - _CN_中国->🇫🇷_FR_法国
+      - 加拿大_072419247
+      - _CN_中国->🇭🇰_HK_中国香港
+      - 香港 | HKG 4
       - _CN_中国->🇭🇰_HK_中国香港 2
   - name: 🐟 漏网之鱼
     type: select
