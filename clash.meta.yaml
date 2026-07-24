@@ -26,22 +26,17 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 香港 | HKG 2, server: 212.192.15.52, port: 20166, type: ss, cipher: aes-256-gcm, password: 7e1dd4c55bf85da5, udp: true}
-- {name: _US_美国_5, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-- {name: 美国 | USA 23, server: 54.197.30.38, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _CN_中国->🇭🇰_HK_中国香港, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 美国 | USA 9, server: 54.167.54.100, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 未知-91AA090A, server: 38.54.93.66, port: 49692, type: ss, cipher: rc4-md5, password: ad80f76711ec7213, udp: true}
-- {name: 香港 | HKG 2 2, server: 47.86.167.194, port: 800, type: vmess, uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/x], headers: {Host: [sjskendn.dingtalk.com]}}, udp: true}
-- {name: 俄罗斯联邦_072310548, server: 195.58.48.19, port: 30112, type: ss, cipher: aes-256-gcm, password: fbaf33bcffe53cf9, udp: true}
-- {name: _CN_中国->🇫🇷_FR_法国, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 美国_072315180, server: 34.217.29.0, port: 443, type: trojan, password: ON38567014, sni: balanced-puma.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 俄罗斯联邦_072315551, server: 185.22.154.254, port: 7022, type: ss, cipher: aes-256-gcm, password: 32c0ea6e823341a2, udp: true}
-- {name: 澳大利亚 | AUS, server: evident-gnat.rooster465.autos, port: 443, type: trojan, password: JA96378052, skip-cert-verify: true, udp: true}
-- {name: 4Sarina-681, server: e4.cover20.ir, port: 16156, type: ss, cipher: chacha20-ietf-poly1305, password: jVPjyNGgOAfv4b4e8dUK693et27aKkLJp1TxTRUIgHs=, udp: true}
 - {name: 美国 | USA 6, server: 34.207.235.215, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4FreeIran-1537, server: 94.183.124.95, port: 82, type: ss, cipher: aes-256-gcm, password: EMIruFl6nN37LDQxCIwstG09haCBkyjvZVjWIMOQ0Jk=, udp: true}
 - {name: 韩国-ADFE686B, server: 27.255.82.134, port: 2078, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+- {name: 美国 | USA 23, server: 54.197.30.38, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 美国 | USA 9, server: 54.167.54.100, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: ir|80d8|puddincat07@Telegram, server: 94.183.124.95, port: 82, type: ss, cipher: aes-256-gcm, password: EMIruFl6nN37LDQxCIwstG09haCBkyjvZVjWIMOQ0Jk=, udp: true}
+- {name: 4FreeIran-262, server: e1.cover20.ir, port: 51570, type: ss, cipher: chacha20-ietf-poly1305, password: CUEYgBIv3UinEYcB/Ha5Jf792AEjyNwnGu0hIKK+o5Q=, udp: true}
+- {name: 加拿大_072410251, server: 50.114.177.134, port: 20188, type: ss, cipher: aes-256-gcm, password: 2803361d6c196af8, udp: true}
+- {name: _CN_中国->🇺🇸_US_美国, server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _CN_中国->🇭🇰_HK_中国香港, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _CN_中国->🇫🇷_FR_法国, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _CN_中国->🇭🇰_HK_中国香港 2, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -54,22 +49,17 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港 | HKG 2
-      - _US_美国_5
-      - 美国 | USA 23
-      - _CN_中国->🇭🇰_HK_中国香港
-      - 美国 | USA 9
-      - 未知-91AA090A
-      - 香港 | HKG 2 2
-      - 俄罗斯联邦_072310548
-      - _CN_中国->🇫🇷_FR_法国
-      - 美国_072315180
-      - 俄罗斯联邦_072315551
-      - 澳大利亚 | AUS
-      - 4Sarina-681
       - 美国 | USA 6
-      - 4FreeIran-1537
       - 韩国-ADFE686B
+      - 美国 | USA 23
+      - 美国 | USA 9
+      - ir|80d8|puddincat07@Telegram
+      - 4FreeIran-262
+      - 加拿大_072410251
+      - _CN_中国->🇺🇸_US_美国
+      - _CN_中国->🇭🇰_HK_中国香港
+      - _CN_中国->🇫🇷_FR_法国
+      - _CN_中国->🇭🇰_HK_中国香港 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -81,44 +71,34 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 香港 | HKG 2
-      - _US_美国_5
-      - 美国 | USA 23
-      - _CN_中国->🇭🇰_HK_中国香港
-      - 美国 | USA 9
-      - 未知-91AA090A
-      - 香港 | HKG 2 2
-      - 俄罗斯联邦_072310548
-      - _CN_中国->🇫🇷_FR_法国
-      - 美国_072315180
-      - 俄罗斯联邦_072315551
-      - 澳大利亚 | AUS
-      - 4Sarina-681
       - 美国 | USA 6
-      - 4FreeIran-1537
       - 韩国-ADFE686B
+      - 美国 | USA 23
+      - 美国 | USA 9
+      - ir|80d8|puddincat07@Telegram
+      - 4FreeIran-262
+      - 加拿大_072410251
+      - _CN_中国->🇺🇸_US_美国
+      - _CN_中国->🇭🇰_HK_中国香港
+      - _CN_中国->🇫🇷_FR_法国
+      - _CN_中国->🇭🇰_HK_中国香港 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 香港 | HKG 2
-      - _US_美国_5
-      - 美国 | USA 23
-      - _CN_中国->🇭🇰_HK_中国香港
-      - 美国 | USA 9
-      - 未知-91AA090A
-      - 香港 | HKG 2 2
-      - 俄罗斯联邦_072310548
-      - _CN_中国->🇫🇷_FR_法国
-      - 美国_072315180
-      - 俄罗斯联邦_072315551
-      - 澳大利亚 | AUS
-      - 4Sarina-681
       - 美国 | USA 6
-      - 4FreeIran-1537
       - 韩国-ADFE686B
+      - 美国 | USA 23
+      - 美国 | USA 9
+      - ir|80d8|puddincat07@Telegram
+      - 4FreeIran-262
+      - 加拿大_072410251
+      - _CN_中国->🇺🇸_US_美国
+      - _CN_中国->🇭🇰_HK_中国香港
+      - _CN_中国->🇫🇷_FR_法国
+      - _CN_中国->🇭🇰_HK_中国香港 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
