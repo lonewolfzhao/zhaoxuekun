@@ -25,47 +25,12 @@ dns:
     geoip-code: CN
     ipcidr:
     - 240.0.0.0/4
-unified-delay: true
-global-client-fingerprint: chrome
-dns:
-  enable: true
-  listen: :53
-  ipv6: true
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  default-nameserver:
-  - 223.5.5.5
-  - 8.8.8.8
-  nameserver:
-  - https://dns.alidns.com/dns-query
-  - https://doh.pub/dns-query
-  fallback:
-  - https://1.0.0.1/dns-query
-  - tls://dns.google
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
-    ipcidr:
-    - 240.0.0.0/4
 proxies:
-- {name: 加拿大_072910262, server: 68.168.114.238, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: XF0klw7870vXn3uQIxe19Q, udp: true}
-- {name: SE_1|4.2MB/s, server: 13.53.198.63, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 瑞典 | SWE 2, server: 51.20.125.180, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: US_6|2.2MB/s, server: 54.226.105.188, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 巴西 | BRA 2, server: 163.176.152.109, port: 59319, type: ss, cipher: chacha20-ietf-poly1305, password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=, udp: true}
-- {name: 新加坡_072910640, server: cindy58.ceoiii.com, port: 36809, type: vmess, uuid: d5cac7ea-a02f-3cf2-9ca8-f48b6666b419, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ajax.microsoft.com}}, udp: true}
-- {name: 美国 | USA 8, server: 104.192.227.164, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: GyO2pLS8rLplFHIDnWM4XM, udp: true}
-- {name: 美国_0728195993, server: 193.42.38.209, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: XF0klw7870vXn3uQIxe19Q, udp: true}
-- {name: DE_2|3.0MB/s, server: hkdcrtc-e.catcat321.com, port: 20041, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: de.catxstar.com, skip-cert-verify: true, udp: true}
-- {name: 新加坡_072919642, server: 157.230.240.128, port: 12380, type: ss, cipher: chacha20-ietf-poly1305, password: LG9UzkKlO6qf7AHkXzZ3M7L+VZJpPrscFn1N0MXJ5hk=, udp: true}
-- {name: 荷兰_0729101126, server: 190.2.147.119, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: XF0klw7870vXn3uQIxe19Q, udp: true}
-- {name: 新加坡_072919640, server: 178.128.101.77, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: W8T44NSLuczcncGIf92m6Q, udp: true}
-- {name: 英国_0729101499, server: cindy51.ceoiii.com, port: 36802, type: vmess, uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ajax.microsoft.com}}, udp: true}
-- {name: UA_3|2.4MB/s, server: hkdcrtc-e.catcat321.com, port: 20066, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, skip-cert-verify: true, udp: true}
-- {name: 墨西哥_072910005, server: cindy50.ceoiii.com, port: 36801, type: vmess, uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ajax.microsoft.com}}, udp: true}
-- {name: 美国_072815136, server: oplosgru-c.catcat321.com, port: 20035, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
-- {name: 马来西亚_072910840, server: cindy52.ceoiii.com, port: 36803, type: vmess, uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ajax.microsoft.com}}, udp: true}
+- {name: _US_美国_1, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: _US_美国_1 2, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: 加拿大_073009272, server: 50.114.177.134, port: 20111, type: ss, cipher: aes-256-gcm, password: 2803361d6c196af8, udp: true}
 - {name: _CN_中国->🇭🇰_HK_中国香港, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: DE_2|3.0MB/s, server: hkdcrtc-e.catcat321.com, port: 20041, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: de.catxstar.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -78,24 +43,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 加拿大_072910262
-      - SE_1|4.2MB/s
-      - 瑞典 | SWE 2
-      - US_6|2.2MB/s
-      - 巴西 | BRA 2
-      - 新加坡_072910640
-      - 美国 | USA 8
-      - 美国_0728195993
-      - DE_2|3.0MB/s
-      - 新加坡_072919642
-      - 荷兰_0729101126
-      - 新加坡_072919640
-      - 英国_0729101499
-      - UA_3|2.4MB/s
-      - 墨西哥_072910005
-      - 美国_072815136
-      - 马来西亚_072910840
+      - _US_美国_1
+      - _US_美国_1 2
+      - 加拿大_073009272
       - _CN_中国->🇭🇰_HK_中国香港
+      - DE_2|3.0MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -107,48 +59,22 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 加拿大_072910262
-      - SE_1|4.2MB/s
-      - 瑞典 | SWE 2
-      - US_6|2.2MB/s
-      - 巴西 | BRA 2
-      - 新加坡_072910640
-      - 美国 | USA 8
-      - 美国_0728195993
-      - DE_2|3.0MB/s
-      - 新加坡_072919642
-      - 荷兰_0729101126
-      - 新加坡_072919640
-      - 英国_0729101499
-      - UA_3|2.4MB/s
-      - 墨西哥_072910005
-      - 美国_072815136
-      - 马来西亚_072910840
+      - _US_美国_1
+      - _US_美国_1 2
+      - 加拿大_073009272
       - _CN_中国->🇭🇰_HK_中国香港
+      - DE_2|3.0MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 加拿大_072910262
-      - SE_1|4.2MB/s
-      - 瑞典 | SWE 2
-      - US_6|2.2MB/s
-      - 巴西 | BRA 2
-      - 新加坡_072910640
-      - 美国 | USA 8
-      - 美国_0728195993
-      - DE_2|3.0MB/s
-      - 新加坡_072919642
-      - 荷兰_0729101126
-      - 新加坡_072919640
-      - 英国_0729101499
-      - UA_3|2.4MB/s
-      - 墨西哥_072910005
-      - 美国_072815136
-      - 马来西亚_072910840
+      - _US_美国_1
+      - _US_美国_1 2
+      - 加拿大_073009272
       - _CN_中国->🇭🇰_HK_中国香港
+      - DE_2|3.0MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
