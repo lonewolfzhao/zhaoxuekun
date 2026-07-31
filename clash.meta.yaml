@@ -26,11 +26,12 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: _US_美国_1, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-- {name: _US_美国_1 2, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-- {name: 加拿大_073009272, server: 50.114.177.134, port: 20111, type: ss, cipher: aes-256-gcm, password: 2803361d6c196af8, udp: true}
-- {name: _CN_中国->🇭🇰_HK_中国香港, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: us|2852|puddincat07@Telegram, server: 209.248.32.116, port: 28101, type: trojan, password: i99Cef, sni: download.windowsupdate.com, skip-cert-verify: true, udp: true}
 - {name: DE_2|3.0MB/s, server: hkdcrtc-e.catcat321.com, port: 20041, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: de.catxstar.com, skip-cert-verify: true, udp: true}
+- {name: TW_1|2.7MB/s, server: 209.248.32.115, port: 28101, type: trojan, password: i99Cef, sni: download.windowsupdate.com, skip-cert-verify: true, udp: true}
+- {name: _CN_中国->🇭🇰_HK_中国香港, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 阿联酋_073110128, server: 212.192.13.25, port: 20166, type: ss, cipher: aes-256-gcm, password: 7e1dd4c55bf85da5, udp: true}
+- {name: _CN_中国->🇫🇷_FR_法国, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -43,11 +44,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _US_美国_1
-      - _US_美国_1 2
-      - 加拿大_073009272
-      - _CN_中国->🇭🇰_HK_中国香港
+      - us|2852|puddincat07@Telegram
       - DE_2|3.0MB/s
+      - TW_1|2.7MB/s
+      - _CN_中国->🇭🇰_HK_中国香港
+      - 阿联酋_073110128
+      - _CN_中国->🇫🇷_FR_法国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -59,22 +61,24 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _US_美国_1
-      - _US_美国_1 2
-      - 加拿大_073009272
-      - _CN_中国->🇭🇰_HK_中国香港
+      - us|2852|puddincat07@Telegram
       - DE_2|3.0MB/s
+      - TW_1|2.7MB/s
+      - _CN_中国->🇭🇰_HK_中国香港
+      - 阿联酋_073110128
+      - _CN_中国->🇫🇷_FR_法国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - _US_美国_1
-      - _US_美国_1 2
-      - 加拿大_073009272
-      - _CN_中国->🇭🇰_HK_中国香港
+      - us|2852|puddincat07@Telegram
       - DE_2|3.0MB/s
+      - TW_1|2.7MB/s
+      - _CN_中国->🇭🇰_HK_中国香港
+      - 阿联酋_073110128
+      - _CN_中国->🇫🇷_FR_法国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
