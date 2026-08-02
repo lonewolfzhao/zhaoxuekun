@@ -26,12 +26,20 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: us|2852|puddincat07@Telegram, server: 209.248.32.116, port: 28101, type: trojan, password: i99Cef, sni: download.windowsupdate.com, skip-cert-verify: true, udp: true}
-- {name: DE_2|3.0MB/s, server: hkdcrtc-e.catcat321.com, port: 20041, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: de.catxstar.com, skip-cert-verify: true, udp: true}
-- {name: TW_1|2.7MB/s, server: 209.248.32.115, port: 28101, type: trojan, password: i99Cef, sni: download.windowsupdate.com, skip-cert-verify: true, udp: true}
+- {name: _CN_中国, server: 61.171.92.202, port: 1001, type: ss, cipher: aes-256-gcm, password: !<str> 123, udp: true}
+- {name: 4Nika-885, server: 103.149.182.79, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
 - {name: _CN_中国->🇭🇰_HK_中国香港, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 阿联酋_073110128, server: 212.192.13.25, port: 20166, type: ss, cipher: aes-256-gcm, password: 7e1dd4c55bf85da5, udp: true}
-- {name: _CN_中国->🇫🇷_FR_法国, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4FreeIran-188, server: 3.75.179.86, port: 494, type: ss, cipher: chacha20-ietf-poly1305, password: 261bd0f2023c4c848dfc5356e31a99fe, udp: true}
+- {name: 香港 | HKG 2, server: 260323.1.0.l3.unclemanco.com, port: 824, type: ss, cipher: aes-128-gcm, password: ayu1245, plugin: obfs, plugin-opts: {mode: http, host: 79ca942774.download.windowsupdate.com}, udp: true}
+- {name: _US_美国, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: US_9|2.0MB/s, server: 54.196.207.151, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: DE_2|3.0MB/s, server: hkdcrtc-e.catcat321.com, port: 20041, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: de.catxstar.com, skip-cert-verify: true, udp: true}
+- {name: 美国_0802046035, server: 38.180.135.39, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+- {name: 伊朗_080215002, server: 94.182.88.61, port: 2078, type: vmess, uuid: 8c207682-e007-4a0d-88a3-68b8638b3d10, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Nika-640, server: 89.34.230.135, port: 30736, type: ss, cipher: chacha20-ietf-poly1305, password: _8vt09n7I9Kl64RYzLLwYe3V, udp: true}
+- {name: SE_3|3.0MB/s, server: 16.171.111.98, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 俄罗斯联邦_080204551 L0, server: 176.32.35.51, port: 10910, type: ss, cipher: aes-256-gcm, password: 895b4b796a357570, udp: true}
+- {name: _CN_中国->🇭🇰_HK_中国香港 2, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -44,12 +52,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - us|2852|puddincat07@Telegram
-      - DE_2|3.0MB/s
-      - TW_1|2.7MB/s
+      - _CN_中国
+      - 4Nika-885
       - _CN_中国->🇭🇰_HK_中国香港
-      - 阿联酋_073110128
-      - _CN_中国->🇫🇷_FR_法国
+      - 4FreeIran-188
+      - 香港 | HKG 2
+      - _US_美国
+      - US_9|2.0MB/s
+      - DE_2|3.0MB/s
+      - 美国_0802046035
+      - 伊朗_080215002
+      - 4Nika-640
+      - SE_3|3.0MB/s
+      - 俄罗斯联邦_080204551 L0
+      - _CN_中国->🇭🇰_HK_中国香港 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -61,24 +77,40 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - us|2852|puddincat07@Telegram
-      - DE_2|3.0MB/s
-      - TW_1|2.7MB/s
+      - _CN_中国
+      - 4Nika-885
       - _CN_中国->🇭🇰_HK_中国香港
-      - 阿联酋_073110128
-      - _CN_中国->🇫🇷_FR_法国
+      - 4FreeIran-188
+      - 香港 | HKG 2
+      - _US_美国
+      - US_9|2.0MB/s
+      - DE_2|3.0MB/s
+      - 美国_0802046035
+      - 伊朗_080215002
+      - 4Nika-640
+      - SE_3|3.0MB/s
+      - 俄罗斯联邦_080204551 L0
+      - _CN_中国->🇭🇰_HK_中国香港 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - us|2852|puddincat07@Telegram
-      - DE_2|3.0MB/s
-      - TW_1|2.7MB/s
+      - _CN_中国
+      - 4Nika-885
       - _CN_中国->🇭🇰_HK_中国香港
-      - 阿联酋_073110128
-      - _CN_中国->🇫🇷_FR_法国
+      - 4FreeIran-188
+      - 香港 | HKG 2
+      - _US_美国
+      - US_9|2.0MB/s
+      - DE_2|3.0MB/s
+      - 美国_0802046035
+      - 伊朗_080215002
+      - 4Nika-640
+      - SE_3|3.0MB/s
+      - 俄罗斯联邦_080204551 L0
+      - _CN_中国->🇭🇰_HK_中国香港 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
