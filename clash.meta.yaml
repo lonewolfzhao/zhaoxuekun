@@ -26,20 +26,15 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 美国 | USA 26, server: 38.246.226.240, port: 52080, type: vmess, uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+- {name: 香港_080320456, server: xunlinknode.csdjhajkshdjkas.com, port: 40008, type: ss, cipher: chacha20-ietf-poly1305, password: 28789988-887e-4e41-83cd-27bbfb7999ad, udp: true}
+- {name: 英国_0803161517, server: hg1.levikogjgfdd.ir, port: 40028, type: ss, cipher: chacha20-ietf-poly1305, password: 28789988-887e-4e41-83cd-27bbfb7999ad, udp: true}
 - {name: _CN_中国, server: 61.171.92.202, port: 1001, type: ss, cipher: aes-256-gcm, password: !<str> 123, udp: true}
-- {name: 4Nika-885, server: 103.149.182.79, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
-- {name: _CN_中国->🇭🇰_HK_中国香港, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4FreeIran-188, server: 3.75.179.86, port: 494, type: ss, cipher: chacha20-ietf-poly1305, password: 261bd0f2023c4c848dfc5356e31a99fe, udp: true}
-- {name: 香港 | HKG 2, server: 260323.1.0.l3.unclemanco.com, port: 824, type: ss, cipher: aes-128-gcm, password: ayu1245, plugin: obfs, plugin-opts: {mode: http, host: 79ca942774.download.windowsupdate.com}, udp: true}
-- {name: _US_美国, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-- {name: US_9|2.0MB/s, server: 54.196.207.151, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: DE_2|3.0MB/s, server: hkdcrtc-e.catcat321.com, port: 20041, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: de.catxstar.com, skip-cert-verify: true, udp: true}
-- {name: 美国_0802046035, server: 38.180.135.39, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-- {name: 伊朗_080215002, server: 94.182.88.61, port: 2078, type: vmess, uuid: 8c207682-e007-4a0d-88a3-68b8638b3d10, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4Nika-640, server: 89.34.230.135, port: 30736, type: ss, cipher: chacha20-ietf-poly1305, password: _8vt09n7I9Kl64RYzLLwYe3V, udp: true}
-- {name: SE_3|3.0MB/s, server: 16.171.111.98, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 俄罗斯联邦_080204551 L0, server: 176.32.35.51, port: 10910, type: ss, cipher: aes-256-gcm, password: 895b4b796a357570, udp: true}
-- {name: _CN_中国->🇭🇰_HK_中国香港 2, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 日本 | JPN 5, server: tough-robin.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: tough-robin.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 日本 | JPN 2, server: casual-bee.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: casual-bee.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 俄罗斯联邦_080320566, server: 195.133.5.207, port: 20188, type: ss, cipher: aes-256-gcm, password: bdb313adf74c2ede, udp: true}
+- {name: 马来西亚 | MYS, server: xunlinknode.csdjhajkshdjkas.com, port: 40006, type: ss, cipher: chacha20-ietf-poly1305, password: 28789988-887e-4e41-83cd-27bbfb7999ad, udp: true}
+- {name: 香港 | HKG 2, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -52,20 +47,15 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 美国 | USA 26
+      - 香港_080320456
+      - 英国_0803161517
       - _CN_中国
-      - 4Nika-885
-      - _CN_中国->🇭🇰_HK_中国香港
-      - 4FreeIran-188
+      - 日本 | JPN 5
+      - 日本 | JPN 2
+      - 俄罗斯联邦_080320566
+      - 马来西亚 | MYS
       - 香港 | HKG 2
-      - _US_美国
-      - US_9|2.0MB/s
-      - DE_2|3.0MB/s
-      - 美国_0802046035
-      - 伊朗_080215002
-      - 4Nika-640
-      - SE_3|3.0MB/s
-      - 俄罗斯联邦_080204551 L0
-      - _CN_中国->🇭🇰_HK_中国香港 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -77,40 +67,30 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 美国 | USA 26
+      - 香港_080320456
+      - 英国_0803161517
       - _CN_中国
-      - 4Nika-885
-      - _CN_中国->🇭🇰_HK_中国香港
-      - 4FreeIran-188
+      - 日本 | JPN 5
+      - 日本 | JPN 2
+      - 俄罗斯联邦_080320566
+      - 马来西亚 | MYS
       - 香港 | HKG 2
-      - _US_美国
-      - US_9|2.0MB/s
-      - DE_2|3.0MB/s
-      - 美国_0802046035
-      - 伊朗_080215002
-      - 4Nika-640
-      - SE_3|3.0MB/s
-      - 俄罗斯联邦_080204551 L0
-      - _CN_中国->🇭🇰_HK_中国香港 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 美国 | USA 26
+      - 香港_080320456
+      - 英国_0803161517
       - _CN_中国
-      - 4Nika-885
-      - _CN_中国->🇭🇰_HK_中国香港
-      - 4FreeIran-188
+      - 日本 | JPN 5
+      - 日本 | JPN 2
+      - 俄罗斯联邦_080320566
+      - 马来西亚 | MYS
       - 香港 | HKG 2
-      - _US_美国
-      - US_9|2.0MB/s
-      - DE_2|3.0MB/s
-      - 美国_0802046035
-      - 伊朗_080215002
-      - 4Nika-640
-      - SE_3|3.0MB/s
-      - 俄罗斯联邦_080204551 L0
-      - _CN_中国->🇭🇰_HK_中国香港 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
