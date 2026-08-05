@@ -26,48 +26,14 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: SG_1|1.6MB/s, server: 106.75.132.91, port: 40783, type: trojan, password: 55354c2b8ee339571bd657a9bb9858cc, skip-cert-verify: true, udp: true}
-- {name: _US_美国, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-- {name: US_6|3.0MB/s, server: speed-01.aliyun-web-tracker.cn, port: 53199, type: trojan, password: 55354c2b8ee339571bd657a9bb9858cc, sni: speed-01.aliyun-web-tracker.cn, skip-cert-verify: true, udp: true}
+- {name: 荷兰 | NLD 4, server: 176.65.151.212, port: 36937, type: ss, cipher: chacha20-ietf-poly1305, password: FPLQa3tXOMxNKC4_Q3Dy5ZFDRoweUbi8, udp: true}
+- {name: 法国 | FRA 5, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: TW_2|2.8MB/s, server: speed-01.aliyun-web-tracker.cn, port: 39221, type: trojan, password: 55354c2b8ee339571bd657a9bb9858cc, sni: speed-01.aliyun-web-tracker.cn, skip-cert-verify: true, udp: true}
-- {name: SE_1|2.6MB/s, server: 13.61.13.49, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: US_7|3.3MB/s, server: 3.85.61.177, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 俄罗斯联邦_080509557, server: 195.133.5.207, port: 20916, type: ss, cipher: aes-256-gcm, password: bdb313adf74c2ede, udp: true}
-- {name: 日本_080515358, server: ydyh1.nanbei-host.com, port: 26903, type: ss, cipher: chacha20-ietf-poly1305, password: 461f4996-a430-4482-a103-acef0713281a, udp: true}
-- {name: 日本_080515359, server: ydyh1.nanbei-host.com, port: 26902, type: ss, cipher: chacha20-ietf-poly1305, password: 461f4996-a430-4482-a103-acef0713281a, udp: true}
-- {name: 日本_080515363, server: ydyh1.nanbei-host.com, port: 26912, type: ss, cipher: chacha20-ietf-poly1305, password: 461f4996-a430-4482-a103-acef0713281a, udp: true}
-- {name: 日本_080515366, server: ydyh1.nanbei-host.com, port: 26911, type: ss, cipher: chacha20-ietf-poly1305, password: 461f4996-a430-4482-a103-acef0713281a, udp: true}
-- {name: 日本_080515364, server: ydyh1.nanbei-host.com, port: 26908, type: ss, cipher: chacha20-ietf-poly1305, password: 461f4996-a430-4482-a103-acef0713281a, udp: true}
-- {name: 日本_080515367, server: ydyh1.nanbei-host.com, port: 26904, type: ss, cipher: chacha20-ietf-poly1305, password: 461f4996-a430-4482-a103-acef0713281a, udp: true}
-- {name: 日本_080515361, server: ydyh1.nanbei-host.com, port: 26907, type: ss, cipher: chacha20-ietf-poly1305, password: 461f4996-a430-4482-a103-acef0713281a, udp: true}
-- {name: 日本_080515365, server: ydyh1.nanbei-host.com, port: 26906, type: ss, cipher: chacha20-ietf-poly1305, password: 461f4996-a430-4482-a103-acef0713281a, udp: true}
-- {name: 日本_080515362, server: ydyh1.nanbei-host.com, port: 26914, type: ss, cipher: chacha20-ietf-poly1305, password: 461f4996-a430-4482-a103-acef0713281a, udp: true}
-- {name: 日本_080515360, server: ydyh1.nanbei-host.com, port: 26905, type: ss, cipher: chacha20-ietf-poly1305, password: 461f4996-a430-4482-a103-acef0713281a, udp: true}
-- {name: 香港_080515494, server: 212.192.15.13, port: 8388, type: ss, cipher: aes-256-gcm, password: WWMo8FMXNGLs, udp: true}
-- {name: US_11|1.9MB/s, server: 185.132.54.106, port: 55523, type: trojan, password: UaQmDQajuW, sni: b32-10.cmj0502.cn, skip-cert-verify: true, udp: true}
 - {name: 美国_0805096215, server: 23.185.200.135, port: 57841, type: ss, cipher: aes-128-gcm, password: xo6k84l7b00n2hJp, udp: true}
-- {name: JP_3|6.0MB/s, server: 13.231.227.228, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 意大利_080509043, server: 62.76.234.75, port: 10901, type: ss, cipher: aes-256-gcm, password: d1fa2f4b98a38bc8, udp: true}
-- {name: 巴西 | BRA, server: 147.15.15.231, port: 59319, type: ss, cipher: chacha20-ietf-poly1305, password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=, udp: true}
-- {name: 巴西 | BRA 2, server: 147.15.93.150, port: 59319, type: ss, cipher: chacha20-ietf-poly1305, password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=, udp: true}
-- {name: _US_美国 2, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-- {name: 以色列_080509019, server: 45.140.204.75, port: 45635, type: ss, cipher: chacha20-ietf-poly1305, password: QxU3Q3O44spzHBb6z3l4OS, udp: true}
 - {name: kr|9179|puddincat07@Telegram, server: 27.255.82.134, port: 2078, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: 美国_0805156294, server: natural-collie.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: natural-collie.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: UA_1|3.6MB/s, server: oplosgru-c.catcat321.com, port: 20066, type: trojan, password: 41c406e2-12b5-41f2-a329-d0621052d675, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
-- {name: 德国_080509972, server: deapp.jisuyun.top, port: 2053, type: vmess, uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /devm, headers: {Host: deapp.jisuyun.top}}, udp: true}
-- {name: SG_1|4.4MB/s, server: 95.40.205.94, port: 26704, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
-- {name: BR_2|1.0MB/s, server: 137.131.177.94, port: 59319, type: ss, cipher: chacha20-ietf-poly1305, password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=, udp: true}
-- {name: 俄罗斯联邦_080509556, server: 195.133.23.200, port: 7011, type: ss, cipher: aes-256-gcm, password: 81a20429165df87e, udp: true}
-- {name: 美国_0805096214, server: oplosgru-c.catcat321.com, port: 20068, type: trojan, password: 41c406e2-12b5-41f2-a329-d0621052d675, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
-- {name: US_1|3.3MB/s, server: 260323.1.0.l3.unclemanco.com, port: 911, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: 2fce243671.download.windowsupdate.com}, udp: true}
-- {name: HK_2|5.8MB/s, server: 260323.1.0.l3.unclemanco.com, port: 9052, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: 2fce243671.download.windowsupdate.com}, udp: true}
-- {name: US_2|4.4MB/s, server: 260323.1.0.l3.unclemanco.com, port: 906, type: ss, cipher: aes-128-gcm, password: ay2loud1, plugin: obfs, plugin-opts: {mode: http, host: 2fce243671.download.windowsupdate.com}, udp: true}
-- {name: SC_1|5.0MB/s, server: 260323.1.0.l3.unclemanco.com, port: 9022, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: 2fce243671.download.windowsupdate.com}, udp: true}
-- {name: SC_2|5.3MB/s, server: 260323.1.0.l3.unclemanco.com, port: 20012, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: 2fce243671.download.windowsupdate.com}, udp: true}
-- {name: 美国_080509039, server: hkdcrtc-e.catcat321.com, port: 20066, type: trojan, password: 41c406e2-12b5-41f2-a329-d0621052d675, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
-- {name: 巴西 | BRA 2 2, server: 163.176.204.204, port: 59319, type: ss, cipher: chacha20-ietf-poly1305, password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=, udp: true}
-- {name: _JP_日本, server: 47.74.43.250, port: 53268, type: vmess, uuid: 16364b13-0e00-4f2e-82f0-37a721088953, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+- {name: SE_1|2.6MB/s, server: 13.61.13.49, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: US_6|3.0MB/s, server: speed-01.aliyun-web-tracker.cn, port: 53199, type: trojan, password: 55354c2b8ee339571bd657a9bb9858cc, sni: speed-01.aliyun-web-tracker.cn, skip-cert-verify: true, udp: true}
+- {name: 俄罗斯联邦_080509557, server: 195.133.5.207, port: 20916, type: ss, cipher: aes-256-gcm, password: bdb313adf74c2ede, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -80,48 +46,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - SG_1|1.6MB/s
-      - _US_美国
-      - US_6|3.0MB/s
+      - 荷兰 | NLD 4
+      - 法国 | FRA 5
       - TW_2|2.8MB/s
-      - SE_1|2.6MB/s
-      - US_7|3.3MB/s
-      - 俄罗斯联邦_080509557
-      - 日本_080515358
-      - 日本_080515359
-      - 日本_080515363
-      - 日本_080515366
-      - 日本_080515364
-      - 日本_080515367
-      - 日本_080515361
-      - 日本_080515365
-      - 日本_080515362
-      - 日本_080515360
-      - 香港_080515494
-      - US_11|1.9MB/s
       - 美国_0805096215
-      - JP_3|6.0MB/s
-      - 意大利_080509043
-      - 巴西 | BRA
-      - 巴西 | BRA 2
-      - _US_美国 2
-      - 以色列_080509019
       - kr|9179|puddincat07@Telegram
-      - 美国_0805156294
-      - UA_1|3.6MB/s
-      - 德国_080509972
-      - SG_1|4.4MB/s
-      - BR_2|1.0MB/s
-      - 俄罗斯联邦_080509556
-      - 美国_0805096214
-      - US_1|3.3MB/s
-      - HK_2|5.8MB/s
-      - US_2|4.4MB/s
-      - SC_1|5.0MB/s
-      - SC_2|5.3MB/s
-      - 美国_080509039
-      - 巴西 | BRA 2 2
-      - _JP_日本
+      - SE_1|2.6MB/s
+      - US_6|3.0MB/s
+      - 俄罗斯联邦_080509557
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -133,96 +65,28 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - SG_1|1.6MB/s
-      - _US_美国
-      - US_6|3.0MB/s
+      - 荷兰 | NLD 4
+      - 法国 | FRA 5
       - TW_2|2.8MB/s
-      - SE_1|2.6MB/s
-      - US_7|3.3MB/s
-      - 俄罗斯联邦_080509557
-      - 日本_080515358
-      - 日本_080515359
-      - 日本_080515363
-      - 日本_080515366
-      - 日本_080515364
-      - 日本_080515367
-      - 日本_080515361
-      - 日本_080515365
-      - 日本_080515362
-      - 日本_080515360
-      - 香港_080515494
-      - US_11|1.9MB/s
       - 美国_0805096215
-      - JP_3|6.0MB/s
-      - 意大利_080509043
-      - 巴西 | BRA
-      - 巴西 | BRA 2
-      - _US_美国 2
-      - 以色列_080509019
       - kr|9179|puddincat07@Telegram
-      - 美国_0805156294
-      - UA_1|3.6MB/s
-      - 德国_080509972
-      - SG_1|4.4MB/s
-      - BR_2|1.0MB/s
-      - 俄罗斯联邦_080509556
-      - 美国_0805096214
-      - US_1|3.3MB/s
-      - HK_2|5.8MB/s
-      - US_2|4.4MB/s
-      - SC_1|5.0MB/s
-      - SC_2|5.3MB/s
-      - 美国_080509039
-      - 巴西 | BRA 2 2
-      - _JP_日本
+      - SE_1|2.6MB/s
+      - US_6|3.0MB/s
+      - 俄罗斯联邦_080509557
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - SG_1|1.6MB/s
-      - _US_美国
-      - US_6|3.0MB/s
+      - 荷兰 | NLD 4
+      - 法国 | FRA 5
       - TW_2|2.8MB/s
-      - SE_1|2.6MB/s
-      - US_7|3.3MB/s
-      - 俄罗斯联邦_080509557
-      - 日本_080515358
-      - 日本_080515359
-      - 日本_080515363
-      - 日本_080515366
-      - 日本_080515364
-      - 日本_080515367
-      - 日本_080515361
-      - 日本_080515365
-      - 日本_080515362
-      - 日本_080515360
-      - 香港_080515494
-      - US_11|1.9MB/s
       - 美国_0805096215
-      - JP_3|6.0MB/s
-      - 意大利_080509043
-      - 巴西 | BRA
-      - 巴西 | BRA 2
-      - _US_美国 2
-      - 以色列_080509019
       - kr|9179|puddincat07@Telegram
-      - 美国_0805156294
-      - UA_1|3.6MB/s
-      - 德国_080509972
-      - SG_1|4.4MB/s
-      - BR_2|1.0MB/s
-      - 俄罗斯联邦_080509556
-      - 美国_0805096214
-      - US_1|3.3MB/s
-      - HK_2|5.8MB/s
-      - US_2|4.4MB/s
-      - SC_1|5.0MB/s
-      - SC_2|5.3MB/s
-      - 美国_080509039
-      - 巴西 | BRA 2 2
-      - _JP_日本
+      - SE_1|2.6MB/s
+      - US_6|3.0MB/s
+      - 俄罗斯联邦_080509557
   - name: 🐟 漏网之鱼
     type: select
     proxies:
