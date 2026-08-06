@@ -26,14 +26,12 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 荷兰 | NLD 4, server: 176.65.151.212, port: 36937, type: ss, cipher: chacha20-ietf-poly1305, password: FPLQa3tXOMxNKC4_Q3Dy5ZFDRoweUbi8, udp: true}
-- {name: 法国 | FRA 5, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: TW_2|2.8MB/s, server: speed-01.aliyun-web-tracker.cn, port: 39221, type: trojan, password: 55354c2b8ee339571bd657a9bb9858cc, sni: speed-01.aliyun-web-tracker.cn, skip-cert-verify: true, udp: true}
-- {name: 美国_0805096215, server: 23.185.200.135, port: 57841, type: ss, cipher: aes-128-gcm, password: xo6k84l7b00n2hJp, udp: true}
-- {name: kr|9179|puddincat07@Telegram, server: 27.255.82.134, port: 2078, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-- {name: SE_1|2.6MB/s, server: 13.61.13.49, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: US_6|3.0MB/s, server: speed-01.aliyun-web-tracker.cn, port: 53199, type: trojan, password: 55354c2b8ee339571bd657a9bb9858cc, sni: speed-01.aliyun-web-tracker.cn, skip-cert-verify: true, udp: true}
-- {name: 俄罗斯联邦_080509557, server: 195.133.5.207, port: 20916, type: ss, cipher: aes-256-gcm, password: bdb313adf74c2ede, udp: true}
+- {name: _HK_中国香港->🇩🇪_DE_德国, server: hkdcrtc-e.catcat321.com, port: 20041, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: de.catxstar.com, skip-cert-verify: true, udp: true}
+- {name: 德国_0806101000, server: creativeboxfin.zanity.net, port: 5223, type: ss, cipher: chacha20-ietf-poly1305, password: d3dNkbPb1w5BCBx9Fr5xsb, udp: true}
+- {name: _CN_中国->🇩🇪_DE_德国, server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _CN_中国->🇫🇷_FR_法国, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _CN_中国->🇯🇵_JP_日本, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _CN_中国->🇮🇪_IE_爱尔兰, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -46,14 +44,12 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 荷兰 | NLD 4
-      - 法国 | FRA 5
-      - TW_2|2.8MB/s
-      - 美国_0805096215
-      - kr|9179|puddincat07@Telegram
-      - SE_1|2.6MB/s
-      - US_6|3.0MB/s
-      - 俄罗斯联邦_080509557
+      - _HK_中国香港->🇩🇪_DE_德国
+      - 德国_0806101000
+      - _CN_中国->🇩🇪_DE_德国
+      - _CN_中国->🇫🇷_FR_法国
+      - _CN_中国->🇯🇵_JP_日本
+      - _CN_中国->🇮🇪_IE_爱尔兰
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -65,28 +61,24 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 荷兰 | NLD 4
-      - 法国 | FRA 5
-      - TW_2|2.8MB/s
-      - 美国_0805096215
-      - kr|9179|puddincat07@Telegram
-      - SE_1|2.6MB/s
-      - US_6|3.0MB/s
-      - 俄罗斯联邦_080509557
+      - _HK_中国香港->🇩🇪_DE_德国
+      - 德国_0806101000
+      - _CN_中国->🇩🇪_DE_德国
+      - _CN_中国->🇫🇷_FR_法国
+      - _CN_中国->🇯🇵_JP_日本
+      - _CN_中国->🇮🇪_IE_爱尔兰
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 荷兰 | NLD 4
-      - 法国 | FRA 5
-      - TW_2|2.8MB/s
-      - 美国_0805096215
-      - kr|9179|puddincat07@Telegram
-      - SE_1|2.6MB/s
-      - US_6|3.0MB/s
-      - 俄罗斯联邦_080509557
+      - _HK_中国香港->🇩🇪_DE_德国
+      - 德国_0806101000
+      - _CN_中国->🇩🇪_DE_德国
+      - _CN_中国->🇫🇷_FR_法国
+      - _CN_中国->🇯🇵_JP_日本
+      - _CN_中国->🇮🇪_IE_爱尔兰
   - name: 🐟 漏网之鱼
     type: select
     proxies:
