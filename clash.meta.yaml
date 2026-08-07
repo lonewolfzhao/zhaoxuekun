@@ -26,12 +26,17 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: _HK_中国香港->🇩🇪_DE_德国, server: hkdcrtc-e.catcat321.com, port: 20041, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: de.catxstar.com, skip-cert-verify: true, udp: true}
-- {name: 德国_0806101000, server: creativeboxfin.zanity.net, port: 5223, type: ss, cipher: chacha20-ietf-poly1305, password: d3dNkbPb1w5BCBx9Fr5xsb, udp: true}
-- {name: _CN_中国->🇩🇪_DE_德国, server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: _CN_中国->🇫🇷_FR_法国, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: _CN_中国->🇯🇵_JP_日本, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 法国_080718399, server: antony.athforce.ir, port: 51058, type: ss, cipher: aes-128-gcm, password: SySWDaP8rm1NEK0wdLdoaV5ClkSjFDfw, udp: true}
+- {name: _US_美国_2, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: CN_105, server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: _CN_中国->🇮🇪_IE_爱尔兰, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _US_美国, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: 美国 | USA 5, server: 100.31.139.112, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 巴西_080708094, server: creativeboxnl2.zanity.net, port: 5228, type: ss, cipher: chacha20-ietf-poly1305, password: 4qCKP8DUdyisoz0Jwbuklm, udp: true}
+- {name: _HK_中国香港->🇩🇪_DE_德国, server: hkdcrtc-e.catcat321.com, port: 20041, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: de.catxstar.com, skip-cert-verify: true, udp: true}
+- {name: 美国_0807186244, server: oplosgru-c.catcat321.com, port: 20034, type: trojan, password: 41c406e2-12b5-41f2-a329-d0621052d675, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
+- {name: 荷兰 | NLD 2, server: creativeboxnl2.zanity.net, port: 5228, type: ss, cipher: chacha20-ietf-poly1305, password: GuURTkWo16VVnL3IbHZtWY, udp: true}
+- {name: 未知_0807145885, server: cf.levikogjgfdd.ir, port: 2053, type: vmess, uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /devm, headers: {Host: deapp.jisuyun.top}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -44,12 +49,17 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _HK_中国香港->🇩🇪_DE_德国
-      - 德国_0806101000
-      - _CN_中国->🇩🇪_DE_德国
-      - _CN_中国->🇫🇷_FR_法国
-      - _CN_中国->🇯🇵_JP_日本
+      - 法国_080718399
+      - _US_美国_2
+      - CN_105
       - _CN_中国->🇮🇪_IE_爱尔兰
+      - _US_美国
+      - 美国 | USA 5
+      - 巴西_080708094
+      - _HK_中国香港->🇩🇪_DE_德国
+      - 美国_0807186244
+      - 荷兰 | NLD 2
+      - 未知_0807145885
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -61,24 +71,34 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _HK_中国香港->🇩🇪_DE_德国
-      - 德国_0806101000
-      - _CN_中国->🇩🇪_DE_德国
-      - _CN_中国->🇫🇷_FR_法国
-      - _CN_中国->🇯🇵_JP_日本
+      - 法国_080718399
+      - _US_美国_2
+      - CN_105
       - _CN_中国->🇮🇪_IE_爱尔兰
+      - _US_美国
+      - 美国 | USA 5
+      - 巴西_080708094
+      - _HK_中国香港->🇩🇪_DE_德国
+      - 美国_0807186244
+      - 荷兰 | NLD 2
+      - 未知_0807145885
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - _HK_中国香港->🇩🇪_DE_德国
-      - 德国_0806101000
-      - _CN_中国->🇩🇪_DE_德国
-      - _CN_中国->🇫🇷_FR_法国
-      - _CN_中国->🇯🇵_JP_日本
+      - 法国_080718399
+      - _US_美国_2
+      - CN_105
       - _CN_中国->🇮🇪_IE_爱尔兰
+      - _US_美国
+      - 美国 | USA 5
+      - 巴西_080708094
+      - _HK_中国香港->🇩🇪_DE_德国
+      - 美国_0807186244
+      - 荷兰 | NLD 2
+      - 未知_0807145885
   - name: 🐟 漏网之鱼
     type: select
     proxies:
