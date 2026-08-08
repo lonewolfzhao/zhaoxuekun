@@ -26,17 +26,30 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 法国_080718399, server: antony.athforce.ir, port: 51058, type: ss, cipher: aes-128-gcm, password: SySWDaP8rm1NEK0wdLdoaV5ClkSjFDfw, udp: true}
+- {name: 俄罗斯联邦_080818585, server: 195.133.23.200, port: 10806, type: ss, cipher: aes-256-gcm, password: 81a20429165df87e, udp: true}
+- {name: 日本 | JPN, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: US_11|3.6MB/s, server: us.klxiaogou.com, port: 41963, type: vmess, uuid: 7a4830df-5391-4748-b1c7-b6857ad04acb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /124, headers: {Host: us.klxiaogou.com}}, udp: true}
+- {name: 日本 | JPN 2, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 日本 | JPN 3, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 意大利_080818042, server: 194.87.47.152, port: 10901, type: ss, cipher: aes-256-gcm, password: d1fa2f4b98a38bc8, udp: true}
+- {name: 西班牙_080818003, server: 193.148.19.213, port: 52794, type: trojan, password: 2eutknankxtbgkwcajzt, sni: 193.148.19.213, skip-cert-verify: true, udp: true}
+- {name: 4Kian-af62a51025, server: 13.114.17.103, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 日本 | JPN 2 2, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 美国_0808186292, server: oplosgru-c.catcat321.com, port: 20088, type: trojan, password: 41c406e2-12b5-41f2-a329-d0621052d675, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
+- {name: 4FreeIran-1ab574709d, server: e3.cover20.ir, port: 56985, type: ss, cipher: chacha20-ietf-poly1305, password: eChs9mqbjv9u8iB+H68On7Rjcm7B54tvemo+tTsKME4=, udp: true}
 - {name: _US_美国_2, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-- {name: CN_105, server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: _CN_中国->🇮🇪_IE_爱尔兰, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: _US_美国, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-- {name: 美国 | USA 5, server: 100.31.139.112, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 巴西_080708094, server: creativeboxnl2.zanity.net, port: 5228, type: ss, cipher: chacha20-ietf-poly1305, password: 4qCKP8DUdyisoz0Jwbuklm, udp: true}
+- {name: US_4|3.4MB/s, server: 98.89.48.191, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 俄罗斯联邦_080818584, server: 195.133.23.5, port: 10910, type: ss, cipher: aes-256-gcm, password: d99c422199e62b6b, udp: true}
+- {name: 瑞典 | SWE 5, server: 13.50.4.72, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 香港_080818502, server: 212.192.15.159, port: 10910, type: ss, cipher: aes-256-gcm, password: 72553320ae6bcc8f, udp: true}
+- {name: HK_4|2.2MB/s, server: 43.249.172.27, port: 443, type: trojan, password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz, sni: hongkong.kingonestar.com, skip-cert-verify: true, udp: true}
 - {name: _HK_中国香港->🇩🇪_DE_德国, server: hkdcrtc-e.catcat321.com, port: 20041, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: de.catxstar.com, skip-cert-verify: true, udp: true}
-- {name: 美国_0807186244, server: oplosgru-c.catcat321.com, port: 20034, type: trojan, password: 41c406e2-12b5-41f2-a329-d0621052d675, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
-- {name: 荷兰 | NLD 2, server: creativeboxnl2.zanity.net, port: 5228, type: ss, cipher: chacha20-ietf-poly1305, password: GuURTkWo16VVnL3IbHZtWY, udp: true}
-- {name: 未知_0807145885, server: cf.levikogjgfdd.ir, port: 2053, type: vmess, uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /devm, headers: {Host: deapp.jisuyun.top}}, udp: true}
+- {name: 香港 | HKG 3, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 巴西_080818085, server: 144.22.212.248, port: 59319, type: ss, cipher: chacha20-ietf-poly1305, password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=, udp: true}
+- {name: 美国_0808186356, server: 147.15.95.165, port: 59319, type: ss, cipher: chacha20-ietf-poly1305, password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=, udp: true}
+- {name: 英国_0808181508, server: 129.151.66.64, port: 61312, type: ss, cipher: chacha20-ietf-poly1305, password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=, udp: true}
+- {name: _CN_中国->🇮🇪_IE_爱尔兰, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4Kian-aab8ef4a3d, server: 46.17.45.76, port: 10808, type: ss, cipher: aes-256-gcm, password: 6b39ae3234dfd68b, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -49,17 +62,30 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 法国_080718399
+      - 俄罗斯联邦_080818585
+      - 日本 | JPN
+      - US_11|3.6MB/s
+      - 日本 | JPN 2
+      - 日本 | JPN 3
+      - 意大利_080818042
+      - 西班牙_080818003
+      - 4Kian-af62a51025
+      - 日本 | JPN 2 2
+      - 美国_0808186292
+      - 4FreeIran-1ab574709d
       - _US_美国_2
-      - CN_105
-      - _CN_中国->🇮🇪_IE_爱尔兰
-      - _US_美国
-      - 美国 | USA 5
-      - 巴西_080708094
+      - US_4|3.4MB/s
+      - 俄罗斯联邦_080818584
+      - 瑞典 | SWE 5
+      - 香港_080818502
+      - HK_4|2.2MB/s
       - _HK_中国香港->🇩🇪_DE_德国
-      - 美国_0807186244
-      - 荷兰 | NLD 2
-      - 未知_0807145885
+      - 香港 | HKG 3
+      - 巴西_080818085
+      - 美国_0808186356
+      - 英国_0808181508
+      - _CN_中国->🇮🇪_IE_爱尔兰
+      - 4Kian-aab8ef4a3d
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -71,34 +97,60 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 法国_080718399
+      - 俄罗斯联邦_080818585
+      - 日本 | JPN
+      - US_11|3.6MB/s
+      - 日本 | JPN 2
+      - 日本 | JPN 3
+      - 意大利_080818042
+      - 西班牙_080818003
+      - 4Kian-af62a51025
+      - 日本 | JPN 2 2
+      - 美国_0808186292
+      - 4FreeIran-1ab574709d
       - _US_美国_2
-      - CN_105
-      - _CN_中国->🇮🇪_IE_爱尔兰
-      - _US_美国
-      - 美国 | USA 5
-      - 巴西_080708094
+      - US_4|3.4MB/s
+      - 俄罗斯联邦_080818584
+      - 瑞典 | SWE 5
+      - 香港_080818502
+      - HK_4|2.2MB/s
       - _HK_中国香港->🇩🇪_DE_德国
-      - 美国_0807186244
-      - 荷兰 | NLD 2
-      - 未知_0807145885
+      - 香港 | HKG 3
+      - 巴西_080818085
+      - 美国_0808186356
+      - 英国_0808181508
+      - _CN_中国->🇮🇪_IE_爱尔兰
+      - 4Kian-aab8ef4a3d
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 法国_080718399
+      - 俄罗斯联邦_080818585
+      - 日本 | JPN
+      - US_11|3.6MB/s
+      - 日本 | JPN 2
+      - 日本 | JPN 3
+      - 意大利_080818042
+      - 西班牙_080818003
+      - 4Kian-af62a51025
+      - 日本 | JPN 2 2
+      - 美国_0808186292
+      - 4FreeIran-1ab574709d
       - _US_美国_2
-      - CN_105
-      - _CN_中国->🇮🇪_IE_爱尔兰
-      - _US_美国
-      - 美国 | USA 5
-      - 巴西_080708094
+      - US_4|3.4MB/s
+      - 俄罗斯联邦_080818584
+      - 瑞典 | SWE 5
+      - 香港_080818502
+      - HK_4|2.2MB/s
       - _HK_中国香港->🇩🇪_DE_德国
-      - 美国_0807186244
-      - 荷兰 | NLD 2
-      - 未知_0807145885
+      - 香港 | HKG 3
+      - 巴西_080818085
+      - 美国_0808186356
+      - 英国_0808181508
+      - _CN_中国->🇮🇪_IE_爱尔兰
+      - 4Kian-aab8ef4a3d
   - name: 🐟 漏网之鱼
     type: select
     proxies:
