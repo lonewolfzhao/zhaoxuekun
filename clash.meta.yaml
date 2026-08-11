@@ -26,15 +26,18 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: _US_美国_1, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-- {name: 日本 | JPN 2, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: _CN_中国->🇮🇪_IE_爱尔兰, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 美国_0810196482, server: autodiscover.fuzzyaytor.cyou, port: 42982, type: ss, cipher: chacha20-ietf-poly1305, password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS, udp: true}
-- {name: _CN_中国->🇩🇪_DE_德国, server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: _CN_中国->🇫🇷_FR_法国, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 台湾_080918001, server: lt.badns.help, port: 51360, type: vmess, uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _US_美国, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
 - {name: _CN_中国->🇭🇰_HK_中国香港, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: _HK_中国香港->🇩🇪_DE_德国, server: hkdcrtc-e.catcat321.com, port: 20041, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: de.catxstar.com, skip-cert-verify: true, udp: true}
+- {name: _US_美国 2, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: _CN_中国->🇩🇪_DE_德国, server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 日本 | JPN, server: 45.32.16.53, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: uTBjZhDmOMwBVAJI, udp: true}
+- {name: 波兰 | POL 2, server: 64.176.73.160, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: VJtsgllDDJfNmaTe, udp: true}
+- {name: 美国_081113042, server: oplosgru-c.catcat321.com, port: 20004, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
+- {name: 香港4|@ripaojiedian, server: 16.162.3.11, port: 27161, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
+- {name: 台湾_081118001, server: lt.badns.help, port: 51360, type: vmess, uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 美国3|@ripaojiedian, server: 18.166.226.204, port: 39024, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
+- {name: 4FreeIran-16d508ea27, server: e1.cover20.ir, port: 51570, type: ss, cipher: chacha20-ietf-poly1305, password: LdJ+OdeFWmYni+NaduA4vXeGD8mRB2Ntencu11k+fjY=, udp: true}
+- {name: 美国_0810196482, server: autodiscover.fuzzyaytor.cyou, port: 42982, type: ss, cipher: chacha20-ietf-poly1305, password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -47,15 +50,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _US_美国_1
-      - 日本 | JPN 2
-      - _CN_中国->🇮🇪_IE_爱尔兰
-      - 美国_0810196482
-      - _CN_中国->🇩🇪_DE_德国
-      - _CN_中国->🇫🇷_FR_法国
-      - 台湾_080918001
+      - _US_美国
       - _CN_中国->🇭🇰_HK_中国香港
-      - _HK_中国香港->🇩🇪_DE_德国
+      - _US_美国 2
+      - _CN_中国->🇩🇪_DE_德国
+      - 日本 | JPN
+      - 波兰 | POL 2
+      - 美国_081113042
+      - 香港4|@ripaojiedian
+      - 台湾_081118001
+      - 美国3|@ripaojiedian
+      - 4FreeIran-16d508ea27
+      - 美国_0810196482
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -67,30 +73,36 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _US_美国_1
-      - 日本 | JPN 2
-      - _CN_中国->🇮🇪_IE_爱尔兰
-      - 美国_0810196482
-      - _CN_中国->🇩🇪_DE_德国
-      - _CN_中国->🇫🇷_FR_法国
-      - 台湾_080918001
+      - _US_美国
       - _CN_中国->🇭🇰_HK_中国香港
-      - _HK_中国香港->🇩🇪_DE_德国
+      - _US_美国 2
+      - _CN_中国->🇩🇪_DE_德国
+      - 日本 | JPN
+      - 波兰 | POL 2
+      - 美国_081113042
+      - 香港4|@ripaojiedian
+      - 台湾_081118001
+      - 美国3|@ripaojiedian
+      - 4FreeIran-16d508ea27
+      - 美国_0810196482
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - _US_美国_1
-      - 日本 | JPN 2
-      - _CN_中国->🇮🇪_IE_爱尔兰
-      - 美国_0810196482
-      - _CN_中国->🇩🇪_DE_德国
-      - _CN_中国->🇫🇷_FR_法国
-      - 台湾_080918001
+      - _US_美国
       - _CN_中国->🇭🇰_HK_中国香港
-      - _HK_中国香港->🇩🇪_DE_德国
+      - _US_美国 2
+      - _CN_中国->🇩🇪_DE_德国
+      - 日本 | JPN
+      - 波兰 | POL 2
+      - 美国_081113042
+      - 香港4|@ripaojiedian
+      - 台湾_081118001
+      - 美国3|@ripaojiedian
+      - 4FreeIran-16d508ea27
+      - 美国_0810196482
   - name: 🐟 漏网之鱼
     type: select
     proxies:
