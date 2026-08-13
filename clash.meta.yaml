@@ -26,20 +26,20 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: FR_1|1.0MB/s, server: 15.237.177.224, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 波兰_081218063, server: 194.61.121.93, port: 7538, type: ss, cipher: chacha20-ietf-poly1305, password: U9YAoqBgg5VyGBc6vQv1sN, udp: true}
-- {name: 4FreeIran-6971d156d2, server: e1.cover20.ir, port: 51570, type: ss, cipher: chacha20-ietf-poly1305, password: OvMp/qsD83CAT9yV9z/v7ra9UY8egFEM+wn0ebLu7nw=, udp: true}
-- {name: _US_美国, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-- {name: JP_1|5.5MB/s, server: v2jp.k1.ssnss.live, port: 44184, type: trojan, password: d050aca3-9df2-4461-90ec-92373c1d7636, skip-cert-verify: true, udp: true}
-- {name: 美国_081218003, server: 366-1095.rabbitpro-in-3.com, port: 29072, type: vmess, uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: _CN_中国->🇭🇰_HK_中国香港, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: _CN_中国->🇫🇷_FR_法国, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 美国 | USA 17, server: rush-w1niu.teeopp.online, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /video/v4sx3q/zxzrurkc.m3u8, headers: {Host: rush-w1niu.teeopp.online}}, udp: true}
-- {name: _CN_中国->🇺🇸_US_美国, server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4FreeIran-76ddb106ba, server: sub.almavpn.shop, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: KxJVQc8ZjDgRNhFaesshNDEZqBexyyZv, udp: true}
-- {name: 香港 | HKG 2, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 日本 | JPN, server: 13.208.169.24, port: 12308, type: trojan, password: a703fe02-9bdf-4124-a812-0284d0acdf36, sni: jp03.ulifeai.com, skip-cert-verify: true, udp: true}
-- {name: _CN_中国->🇯🇵_JP_日本, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 韩国 | KOR 7, server: driving-antelope.rooster465.autos, port: 443, type: trojan, password: AE62539071, sni: driving-antelope.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 香港_081314239, server: upright-bedbug.rooster465.autos, port: 443, type: trojan, password: AE62539071, skip-cert-verify: true, udp: true}
+- {name: 法国_081314373, server: one-quail.rooster465.autos, port: 443, type: trojan, password: AE62539071, skip-cert-verify: true, udp: true}
+- {name: 俄罗斯联邦_081314661, server: 195.133.23.200, port: 30331, type: ss, cipher: aes-256-gcm, password: 81a20429165df87e, udp: true}
+- {name: 加拿大_081309330, server: 212.193.6.107, port: 30331, type: ss, cipher: aes-256-gcm, password: fbcec76953a2d173, udp: true}
+- {name: 法国_081318376, server: distinct-quail.rooster465.autos, port: 443, type: trojan, password: AE62539071, skip-cert-verify: true, udp: true}
+- {name: 俄罗斯联邦_081314662, server: 195.133.23.5, port: 30331, type: ss, cipher: aes-256-gcm, password: d99c422199e62b6b, udp: true}
+- {name: 卢森堡_081314058, server: relative-locust.rooster465.autos, port: 443, type: trojan, password: AE62539071, skip-cert-verify: true, udp: true}
+- {name: xx|0db7|puddincat07@Telegram, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 德国 | DEU 14, server: moved-bluegill.rooster465.autos, port: 443, type: trojan, password: AE62539071, sni: moved-bluegill.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 法国_081314375, server: chief-cricket.rooster465.autos, port: 443, type: trojan, password: AE62539071, skip-cert-verify: true, udp: true}
+- {name: 日本 | JPN 6, server: improved-anteater.rooster465.autos, port: 443, type: trojan, password: AE62539071, skip-cert-verify: true, udp: true}
+- {name: 法国_081314374, server: tough-hermit.rooster465.autos, port: 443, type: trojan, password: AE62539071, skip-cert-verify: true, udp: true}
+- {name: 卢森堡_081314060, server: enough-basilisk.rooster465.autos, port: 443, type: trojan, password: AE62539071, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -52,20 +52,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - FR_1|1.0MB/s
-      - 波兰_081218063
-      - 4FreeIran-6971d156d2
-      - _US_美国
-      - JP_1|5.5MB/s
-      - 美国_081218003
-      - _CN_中国->🇭🇰_HK_中国香港
-      - _CN_中国->🇫🇷_FR_法国
-      - 美国 | USA 17
-      - _CN_中国->🇺🇸_US_美国
-      - 4FreeIran-76ddb106ba
-      - 香港 | HKG 2
-      - 日本 | JPN
-      - _CN_中国->🇯🇵_JP_日本
+      - 韩国 | KOR 7
+      - 香港_081314239
+      - 法国_081314373
+      - 俄罗斯联邦_081314661
+      - 加拿大_081309330
+      - 法国_081318376
+      - 俄罗斯联邦_081314662
+      - 卢森堡_081314058
+      - xx|0db7|puddincat07@Telegram
+      - 德国 | DEU 14
+      - 法国_081314375
+      - 日本 | JPN 6
+      - 法国_081314374
+      - 卢森堡_081314060
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -77,40 +77,40 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - FR_1|1.0MB/s
-      - 波兰_081218063
-      - 4FreeIran-6971d156d2
-      - _US_美国
-      - JP_1|5.5MB/s
-      - 美国_081218003
-      - _CN_中国->🇭🇰_HK_中国香港
-      - _CN_中国->🇫🇷_FR_法国
-      - 美国 | USA 17
-      - _CN_中国->🇺🇸_US_美国
-      - 4FreeIran-76ddb106ba
-      - 香港 | HKG 2
-      - 日本 | JPN
-      - _CN_中国->🇯🇵_JP_日本
+      - 韩国 | KOR 7
+      - 香港_081314239
+      - 法国_081314373
+      - 俄罗斯联邦_081314661
+      - 加拿大_081309330
+      - 法国_081318376
+      - 俄罗斯联邦_081314662
+      - 卢森堡_081314058
+      - xx|0db7|puddincat07@Telegram
+      - 德国 | DEU 14
+      - 法国_081314375
+      - 日本 | JPN 6
+      - 法国_081314374
+      - 卢森堡_081314060
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - FR_1|1.0MB/s
-      - 波兰_081218063
-      - 4FreeIran-6971d156d2
-      - _US_美国
-      - JP_1|5.5MB/s
-      - 美国_081218003
-      - _CN_中国->🇭🇰_HK_中国香港
-      - _CN_中国->🇫🇷_FR_法国
-      - 美国 | USA 17
-      - _CN_中国->🇺🇸_US_美国
-      - 4FreeIran-76ddb106ba
-      - 香港 | HKG 2
-      - 日本 | JPN
-      - _CN_中国->🇯🇵_JP_日本
+      - 韩国 | KOR 7
+      - 香港_081314239
+      - 法国_081314373
+      - 俄罗斯联邦_081314661
+      - 加拿大_081309330
+      - 法国_081318376
+      - 俄罗斯联邦_081314662
+      - 卢森堡_081314058
+      - xx|0db7|puddincat07@Telegram
+      - 德国 | DEU 14
+      - 法国_081314375
+      - 日本 | JPN 6
+      - 法国_081314374
+      - 卢森堡_081314060
   - name: 🐟 漏网之鱼
     type: select
     proxies:
