@@ -26,34 +26,31 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: HK_3|3.8MB/s, server: planb.mojcn.com.linuxlh.xin, port: 16632, type: vmess, uuid: fd15f1d9-a3f5-41e3-a755-f3e7bb32d78d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 67102451140aedb1cbfa18e08d87aeeb.mobgslb.tbcache.com}}, udp: true}
-- {name: 韩国 | KOR, server: star-shrimp.rooster465.autos, port: 443, type: trojan, password: HC04361579, sni: star-shrimp.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 爱尔兰 | IRL, server: touching-turtle.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: touching-turtle.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 日本_081513462, server: many-pangolin.rooster465.autos, port: 443, type: trojan, password: FH72359861, skip-cert-verify: true, udp: true}
-- {name: JP_2|1.3MB/s, server: endless-kiwi.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: endless-kiwi.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: AR_1|3.0MB/s, server: l.d.w.a.5.4.z.9.6.ar01-ae5.entry.v51124-3a.qpon, port: 20026, type: ss, cipher: aes-256-gcm, password: f552e8bf-9b43-3654-8efa-b7cb366431e8, udp: true}
-- {name: 4Jadi-8155b6ffcf, server: 54.36.174.140, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ytw2awn, udp: true}
-- {name: 荷兰 | NLD, server: renewed-chigger.rooster465.autos, port: 443, type: trojan, password: FH72359861, skip-cert-verify: true, udp: true}
-- {name: _JP_日本_2, server: helping-shark.rooster465.autos, port: 443, type: trojan, password: FH72359861, skip-cert-verify: true, udp: true}
-- {name: IE_1|2.3MB/s, server: 3.253.78.205, port: 443, type: trojan, password: FH72359861, sni: balanced-heron.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 爱尔兰 | IRL 3, server: cunning-grub.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: cunning-grub.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: KR_5|2.0MB/s, server: aware-coyote.rooster465.autos, port: 443, type: trojan, password: FH72359861, skip-cert-verify: true, udp: true}
-- {name: 日本 | JPN 2, server: emerging-porpoise.rooster465.autos, port: 443, type: trojan, password: FH72359861, skip-cert-verify: true, udp: true}
-- {name: _IE_爱尔兰, server: summary-firefly.rooster465.autos, port: 443, type: trojan, password: FH72359861, skip-cert-verify: true, udp: true}
-- {name: 韩国 | KOR 8, server: star-bluejay.rooster465.autos, port: 443, type: trojan, password: HC04361579, sni: star-bluejay.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 爱尔兰_081513054, server: balanced-heron.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: balanced-heron.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: KR_1|5.1MB/s, server: key-barnacle.rooster465.autos, port: 443, type: trojan, password: HC04361579, sni: key-barnacle.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: KR_2|5.5MB/s, server: 43.202.61.210, port: 443, type: trojan, password: FH72359861, sni: loyal-molly.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 菲律宾 | PHL, server: 149.104.109.252, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-- {name: 韩国 | KOR 4, server: complete-narwhal.rooster465.autos, port: 443, type: trojan, password: FH72359861, sni: complete-narwhal.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 俄罗斯联邦_081518658, server: 83.217.192.218, port: 33, type: ss, cipher: chacha20-ietf-poly1305, password: rTkykSScSWWOOaARKrmCpqESxw8jdmEL, udp: true}
-- {name: 新加坡_081513573, server: worthy-perch.rooster465.autos, port: 443, type: trojan, password: FH72359861, skip-cert-verify: true, udp: true}
-- {name: 韩国 | KOR 2, server: loyal-molly.rooster465.autos, port: 443, type: trojan, password: FH72359861, skip-cert-verify: true, udp: true}
-- {name: 日本_081513461, server: light-filly.rooster465.autos, port: 443, type: trojan, password: FH72359861, skip-cert-verify: true, udp: true}
-- {name: 日本_081513464, server: wise-gibbon.rooster465.autos, port: 443, type: trojan, password: FH72359861, skip-cert-verify: true, udp: true}
-- {name: 香港_081513244, server: natural-swan.rooster465.autos, port: 443, type: trojan, password: FH72359861, skip-cert-verify: true, udp: true}
+- {name: 4Nika-e902491182, server: 23.185.200.135, port: 57841, type: ss, cipher: aes-128-gcm, password: xo6k84l7b00n2hJp, udp: true}
+- {name: 法国_081608385, server: planb.mojcn.com.linuxlh.xin, port: 16632, type: vmess, uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com}}, udp: true}
+- {name: 香港 | HKG 4, server: planb.mojcn.com.linuxlh.xin, port: 16632, type: vmess, uuid: 0c657913-e593-4893-9555-f88478c33a4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com}}, udp: true}
+- {name: 香港 | HKG 3, server: planb.mojcn.com.linuxlh.xin, port: 16632, type: vmess, uuid: 6d27fe18-4e19-4b4e-8f47-e05a85414f0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a7fbf12df555e5e8a99fc901525aaa76.mobgslb.tbcache.com}}, udp: true}
+- {name: 匈牙利 | HUN, server: 217.70.14.216, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: 48UQWJVetDr7ETiOXF+aEQ==, udp: true}
+- {name: 俄罗斯联邦_081608658, server: 45.140.169.123, port: 20801, type: ss, cipher: aes-256-gcm, password: 6b39ae3234dfd68b, udp: true}
+- {name: 俄罗斯联邦_081618676, server: 45.8.158.176, port: 10801, type: ss, cipher: aes-256-gcm, password: 1eadd4e4a37b6601, udp: true}
+- {name: HK_15|4.3MB/s, server: cn02.somethingstranges.com, port: 8108, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 43309-nIao34iu.download.microsoft.com}, udp: true}
+- {name: US_4|3.5MB/s, server: cn18.somethingstranges.com, port: 8629, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 43309-nIao34iu.download.microsoft.com}, udp: true}
+- {name: FR_1|1.3MB/s, server: 15.237.189.197, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: HK_6|4.2MB/s, server: cn01.somethingstranges.com, port: 8102, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 43309-nIao34iu.download.microsoft.com}, udp: true}
+- {name: PH_1|4.8MB/s, server: cn06.somethingstranges.com, port: 8232, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 43309-nIao34iu.download.microsoft.com}, udp: true}
+- {name: PH_1|4.3MB/s, server: cn06.somethingstranges.com, port: 8231, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 43309-nIao34iu.download.microsoft.com}, udp: true}
+- {name: HK_3|1.9MB/s, server: cn02.somethingstranges.com, port: 8110, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 43309-nIao34iu.download.microsoft.com}, udp: true}
+- {name: PH_3|3.6MB/s, server: cn06.somethingstranges.com, port: 8233, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 43309-nIao34iu.download.microsoft.com}, udp: true}
+- {name: HK_4|4.0MB/s, server: cn03.somethingstranges.com, port: 8115, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 43309-nIao34iu.download.microsoft.com}, udp: true}
+- {name: HK_12|4.8MB/s, server: cn02.somethingstranges.com, port: 8104, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 43309-nIao34iu.download.microsoft.com}, udp: true}
 - {name: _CN_中国->🇯🇵_JP_日本, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: _CN_中国->🇮🇪_IE_爱尔兰, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: HK_3|4.9MB/s, server: cn01.somethingstranges.com, port: 8103, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 43309-nIao34iu.download.microsoft.com}, udp: true}
+- {name: 爱沙尼亚_081613085, server: 109.206.241.10, port: 449, type: trojan, password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1, sni: russiapower.accesscam.org, skip-cert-verify: true, udp: true}
+- {name: HK_16|4.3MB/s, server: cn01.somethingstranges.com, port: 8101, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 43309-nIao34iu.download.microsoft.com}, udp: true}
+- {name: HK_7|3.8MB/s, server: cn02.somethingstranges.com, port: 8106, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 43309-nIao34iu.download.microsoft.com}, udp: true}
+- {name: HK_13|3.4MB/s, server: cn02.somethingstranges.com, port: 8105, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 43309-nIao34iu.download.microsoft.com}, udp: true}
+- {name: 香港_081608252, server: 212.192.15.41, port: 8388, type: ss, cipher: aes-256-gcm, password: IjLjlHbNCgw2D4dV, udp: true}
+- {name: 意大利_081608042, server: 194.87.47.204, port: 10901, type: ss, cipher: aes-256-gcm, password: d1fa2f4b98a38bc8, udp: true}
 - {name: 香港 | HKG 2, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -67,34 +64,31 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - HK_3|3.8MB/s
-      - 韩国 | KOR
-      - 爱尔兰 | IRL
-      - 日本_081513462
-      - JP_2|1.3MB/s
-      - AR_1|3.0MB/s
-      - 4Jadi-8155b6ffcf
-      - 荷兰 | NLD
-      - _JP_日本_2
-      - IE_1|2.3MB/s
-      - 爱尔兰 | IRL 3
-      - KR_5|2.0MB/s
-      - 日本 | JPN 2
-      - _IE_爱尔兰
-      - 韩国 | KOR 8
-      - 爱尔兰_081513054
-      - KR_1|5.1MB/s
-      - KR_2|5.5MB/s
-      - 菲律宾 | PHL
-      - 韩国 | KOR 4
-      - 俄罗斯联邦_081518658
-      - 新加坡_081513573
-      - 韩国 | KOR 2
-      - 日本_081513461
-      - 日本_081513464
-      - 香港_081513244
+      - 4Nika-e902491182
+      - 法国_081608385
+      - 香港 | HKG 4
+      - 香港 | HKG 3
+      - 匈牙利 | HUN
+      - 俄罗斯联邦_081608658
+      - 俄罗斯联邦_081618676
+      - HK_15|4.3MB/s
+      - US_4|3.5MB/s
+      - FR_1|1.3MB/s
+      - HK_6|4.2MB/s
+      - PH_1|4.8MB/s
+      - PH_1|4.3MB/s
+      - HK_3|1.9MB/s
+      - PH_3|3.6MB/s
+      - HK_4|4.0MB/s
+      - HK_12|4.8MB/s
       - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇮🇪_IE_爱尔兰
+      - HK_3|4.9MB/s
+      - 爱沙尼亚_081613085
+      - HK_16|4.3MB/s
+      - HK_7|3.8MB/s
+      - HK_13|3.4MB/s
+      - 香港_081608252
+      - 意大利_081608042
       - 香港 | HKG 2
   - name: 🔰 节点选择
     type: select
@@ -107,34 +101,31 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - HK_3|3.8MB/s
-      - 韩国 | KOR
-      - 爱尔兰 | IRL
-      - 日本_081513462
-      - JP_2|1.3MB/s
-      - AR_1|3.0MB/s
-      - 4Jadi-8155b6ffcf
-      - 荷兰 | NLD
-      - _JP_日本_2
-      - IE_1|2.3MB/s
-      - 爱尔兰 | IRL 3
-      - KR_5|2.0MB/s
-      - 日本 | JPN 2
-      - _IE_爱尔兰
-      - 韩国 | KOR 8
-      - 爱尔兰_081513054
-      - KR_1|5.1MB/s
-      - KR_2|5.5MB/s
-      - 菲律宾 | PHL
-      - 韩国 | KOR 4
-      - 俄罗斯联邦_081518658
-      - 新加坡_081513573
-      - 韩国 | KOR 2
-      - 日本_081513461
-      - 日本_081513464
-      - 香港_081513244
+      - 4Nika-e902491182
+      - 法国_081608385
+      - 香港 | HKG 4
+      - 香港 | HKG 3
+      - 匈牙利 | HUN
+      - 俄罗斯联邦_081608658
+      - 俄罗斯联邦_081618676
+      - HK_15|4.3MB/s
+      - US_4|3.5MB/s
+      - FR_1|1.3MB/s
+      - HK_6|4.2MB/s
+      - PH_1|4.8MB/s
+      - PH_1|4.3MB/s
+      - HK_3|1.9MB/s
+      - PH_3|3.6MB/s
+      - HK_4|4.0MB/s
+      - HK_12|4.8MB/s
       - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇮🇪_IE_爱尔兰
+      - HK_3|4.9MB/s
+      - 爱沙尼亚_081613085
+      - HK_16|4.3MB/s
+      - HK_7|3.8MB/s
+      - HK_13|3.4MB/s
+      - 香港_081608252
+      - 意大利_081608042
       - 香港 | HKG 2
   - name: ♻️ 可能受限
     type: load-balance
@@ -142,34 +133,31 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - HK_3|3.8MB/s
-      - 韩国 | KOR
-      - 爱尔兰 | IRL
-      - 日本_081513462
-      - JP_2|1.3MB/s
-      - AR_1|3.0MB/s
-      - 4Jadi-8155b6ffcf
-      - 荷兰 | NLD
-      - _JP_日本_2
-      - IE_1|2.3MB/s
-      - 爱尔兰 | IRL 3
-      - KR_5|2.0MB/s
-      - 日本 | JPN 2
-      - _IE_爱尔兰
-      - 韩国 | KOR 8
-      - 爱尔兰_081513054
-      - KR_1|5.1MB/s
-      - KR_2|5.5MB/s
-      - 菲律宾 | PHL
-      - 韩国 | KOR 4
-      - 俄罗斯联邦_081518658
-      - 新加坡_081513573
-      - 韩国 | KOR 2
-      - 日本_081513461
-      - 日本_081513464
-      - 香港_081513244
+      - 4Nika-e902491182
+      - 法国_081608385
+      - 香港 | HKG 4
+      - 香港 | HKG 3
+      - 匈牙利 | HUN
+      - 俄罗斯联邦_081608658
+      - 俄罗斯联邦_081618676
+      - HK_15|4.3MB/s
+      - US_4|3.5MB/s
+      - FR_1|1.3MB/s
+      - HK_6|4.2MB/s
+      - PH_1|4.8MB/s
+      - PH_1|4.3MB/s
+      - HK_3|1.9MB/s
+      - PH_3|3.6MB/s
+      - HK_4|4.0MB/s
+      - HK_12|4.8MB/s
       - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇮🇪_IE_爱尔兰
+      - HK_3|4.9MB/s
+      - 爱沙尼亚_081613085
+      - HK_16|4.3MB/s
+      - HK_7|3.8MB/s
+      - HK_13|3.4MB/s
+      - 香港_081608252
+      - 意大利_081608042
       - 香港 | HKG 2
   - name: 🐟 漏网之鱼
     type: select
