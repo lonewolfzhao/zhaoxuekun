@@ -26,41 +26,48 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: HK_10|3.3MB/s, server: api.meituan88.com, port: 19623, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
-- {name: HK_11|2.3MB/s, server: api.meituan88.com, port: 39514, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
-- {name: TW_1|3.0MB/s, server: api.meituan88.com, port: 61714, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
-- {name: HK_6|1.8MB/s, server: api.meituan88.com, port: 8479, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
-- {name: HK_1|1.6MB/s, server: planb.mojcn.com.linuxlh.xin, port: 16632, type: vmess, uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com}}, udp: true}
-- {name: HK_8|3.1MB/s, server: api.meituan88.com, port: 41181, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
-- {name: ID_1|1.7MB/s, server: api.meituan88.com, port: 56274, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
-- {name: HK_4|1.4MB/s, server: api.meituan88.com, port: 37398, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
 - {name: HK_16|3.2MB/s, server: api.meituan88.com, port: 2103, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 276924:CPFGip, obfs-param: 87c276924.douyin.com, udp: true}
-- {name: HK_10|3.0MB/s, server: api.meituan88.com, port: 2106, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
+- {name: 美国_081808720, server: usbis.network-cdn-gw-yd.net, port: 43215, type: ss, cipher: chacha20-ietf-poly1305, password: aed6e687-58a9-4836-ba62-7d8184c94df4, udp: true}
 - {name: HK_9|4.1MB/s, server: api.meituan88.com, port: 60213, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
-- {name: KR_7|4.4MB/s, server: api.meituan88.com, port: 17348, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
 - {name: 香港 | HKG, server: api.meituan88.com, port: 2111, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 276924:CPFGip, obfs-param: 87c276924.douyin.com, udp: true}
-- {name: 台湾 | TWN, server: api.meituan88.com, port: 53465, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 276924:CPFGip, obfs-param: 87c276924.douyin.com, udp: true}
-- {name: 香港 | HKG 5, server: api.meituan88.com, port: 59382, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
 - {name: HK_8|2.7MB/s, server: api.meituan88.com, port: 55962, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
+- {name: HK_11|2.3MB/s, server: api.meituan88.com, port: 39514, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
 - {name: HK_6|2.6MB/s, server: api.meituan88.com, port: 41155, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
-- {name: HK_7|5.0MB/s, server: api.meituan88.com, port: 7004, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
-- {name: SG_4|1.3MB/s, server: api.meituan88.com, port: 2204, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
-- {name: HK_11|3.3MB/s, server: api.meituan88.com, port: 2107, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 276924:CPFGip, obfs-param: 87c276924.douyin.com, udp: true}
-- {name: HK_13|1.5MB/s, server: api.meituan88.com, port: 7005, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
 - {name: HK_10|1.4MB/s, server: api.meituan88.com, port: 2105, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 276924:CPFGip, obfs-param: 87c276924.douyin.com, udp: true}
-- {name: HK_12|2.7MB/s, server: api.meituan88.com, port: 59430, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
-- {name: 日本_081808244, server: 108.61.223.231, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: WbEN0g6Rbnsye8EJZz94OF, udp: true}
-- {name: JP_1|6.0MB/s, server: accepted-starling.rooster465.autos, port: 443, type: trojan, password: HC04361579, sni: accepted-starling.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 德国_081808143, server: creativeboxvpnf.zanity.net, port: 5223, type: ss, cipher: chacha20-ietf-poly1305, password: YwkJ1ViArbK6AZBCyjEC2p, udp: true}
 - {name: TW_1|4.5MB/s, server: api.meituan88.com, port: 7016, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
 - {name: SG_16|1.1MB/s, server: api.meituan88.com, port: 3205, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
-- {name: HK_3|1.3MB/s, server: api.meituan88.com, port: 18589, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
+- {name: HK_7|5.0MB/s, server: api.meituan88.com, port: 7004, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
+- {name: 香港_081808110, server: api.meituan88.com, port: 7002, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
 - {name: HK_2|2.3MB/s, server: api.meituan88.com, port: 7003, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
+- {name: TW_1|1.6MB/s, server: api.meituan88.com, port: 7015, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
+- {name: SG_3|5.2MB/s, server: api.meituan88.com, port: 3204, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
+- {name: SG_2|3.2MB/s, server: api.meituan88.com, port: 63699, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
+- {name: TW_3|2.3MB/s, server: api.meituan88.com, port: 28198, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 276924:CPFGip, obfs-param: 87c276924.douyin.com, udp: true}
+- {name: TW_1|3.0MB/s, server: api.meituan88.com, port: 61714, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
+- {name: HK_1|1.6MB/s, server: planb.mojcn.com.linuxlh.xin, port: 16632, type: vmess, uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com}}, udp: true}
+- {name: JP_1|6.0MB/s, server: accepted-starling.rooster465.autos, port: 443, type: trojan, password: HC04361579, sni: accepted-starling.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 美国 | USA 18, server: 47.85.1.255, port: 34067, type: vmess, uuid: c67e538f-5717-49f3-9a30-1a015d5b5cc1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /c67e538f-5717-49f3-9a30-1a015d5b5cc1}, udp: true}
+- {name: HK_12|2.7MB/s, server: api.meituan88.com, port: 59430, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
+- {name: HK_13|1.5MB/s, server: api.meituan88.com, port: 7005, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
+- {name: 美国_081808673, server: 64.188.77.159, port: 8390, type: ss, cipher: chacha20-ietf-poly1305, password: EyGy11BMfeP-6UHjsgajWw, udp: true}
+- {name: 香港 | HKG 5, server: api.meituan88.com, port: 59382, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
+- {name: 德国_081808143, server: creativeboxvpnf.zanity.net, port: 5223, type: ss, cipher: chacha20-ietf-poly1305, password: YwkJ1ViArbK6AZBCyjEC2p, udp: true}
+- {name: HK_6|1.8MB/s, server: api.meituan88.com, port: 8479, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
+- {name: 美国_081808675, server: 23.252.104.131, port: 54321, type: ss, cipher: aes-256-gcm, password: Proxy2024, udp: true}
+- {name: ID_1|1.7MB/s, server: api.meituan88.com, port: 56274, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
+- {name: SG_4|1.3MB/s, server: api.meituan88.com, port: 2204, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
+- {name: HK_3|1.3MB/s, server: api.meituan88.com, port: 18589, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
+- {name: 俄罗斯联邦_081808084, server: 45.8.158.176, port: 10801, type: ss, cipher: aes-256-gcm, password: 1eadd4e4a37b6601, udp: true}
+- {name: HK_10|3.3MB/s, server: api.meituan88.com, port: 19623, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
+- {name: HK_8|3.1MB/s, server: api.meituan88.com, port: 41181, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
+- {name: HK_4|1.4MB/s, server: api.meituan88.com, port: 37398, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
+- {name: HK_10|3.0MB/s, server: api.meituan88.com, port: 2106, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
+- {name: KR_7|4.4MB/s, server: api.meituan88.com, port: 17348, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
+- {name: 台湾 | TWN, server: api.meituan88.com, port: 53465, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 276924:CPFGip, obfs-param: 87c276924.douyin.com, udp: true}
+- {name: HK_11|3.3MB/s, server: api.meituan88.com, port: 2107, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 276924:CPFGip, obfs-param: 87c276924.douyin.com, udp: true}
+- {name: 日本_081808244, server: 108.61.223.231, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: WbEN0g6Rbnsye8EJZz94OF, udp: true}
 - {name: ❓Other_1|3.5MB/s, server: api.meituan88.com, port: 2601, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 276924:CPFGip, obfs-param: 87c276924.douyin.com, udp: true}
 - {name: 美国_081808672, server: 64.83.32.126, port: 8481, type: ss, cipher: chacha20-ietf-poly1305, password: 36f55197d2bac2db2ed81c569ce9576c, udp: true}
-- {name: 美国_081808673, server: 64.188.77.159, port: 8390, type: ss, cipher: chacha20-ietf-poly1305, password: EyGy11BMfeP-6UHjsgajWw, udp: true}
-- {name: 美国_081808675, server: 23.252.104.131, port: 54321, type: ss, cipher: aes-256-gcm, password: Proxy2024, udp: true}
-- {name: 香港_081808110, server: api.meituan88.com, port: 7002, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -73,41 +80,48 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - HK_10|3.3MB/s
-      - HK_11|2.3MB/s
-      - TW_1|3.0MB/s
-      - HK_6|1.8MB/s
-      - HK_1|1.6MB/s
-      - HK_8|3.1MB/s
-      - ID_1|1.7MB/s
-      - HK_4|1.4MB/s
       - HK_16|3.2MB/s
-      - HK_10|3.0MB/s
+      - 美国_081808720
       - HK_9|4.1MB/s
-      - KR_7|4.4MB/s
       - 香港 | HKG
-      - 台湾 | TWN
-      - 香港 | HKG 5
       - HK_8|2.7MB/s
+      - HK_11|2.3MB/s
       - HK_6|2.6MB/s
-      - HK_7|5.0MB/s
-      - SG_4|1.3MB/s
-      - HK_11|3.3MB/s
-      - HK_13|1.5MB/s
       - HK_10|1.4MB/s
-      - HK_12|2.7MB/s
-      - 日本_081808244
-      - JP_1|6.0MB/s
-      - 德国_081808143
       - TW_1|4.5MB/s
       - SG_16|1.1MB/s
-      - HK_3|1.3MB/s
+      - HK_7|5.0MB/s
+      - 香港_081808110
       - HK_2|2.3MB/s
+      - TW_1|1.6MB/s
+      - SG_3|5.2MB/s
+      - SG_2|3.2MB/s
+      - TW_3|2.3MB/s
+      - TW_1|3.0MB/s
+      - HK_1|1.6MB/s
+      - JP_1|6.0MB/s
+      - 美国 | USA 18
+      - HK_12|2.7MB/s
+      - HK_13|1.5MB/s
+      - 美国_081808673
+      - 香港 | HKG 5
+      - 德国_081808143
+      - HK_6|1.8MB/s
+      - 美国_081808675
+      - ID_1|1.7MB/s
+      - SG_4|1.3MB/s
+      - HK_3|1.3MB/s
+      - 俄罗斯联邦_081808084
+      - HK_10|3.3MB/s
+      - HK_8|3.1MB/s
+      - HK_4|1.4MB/s
+      - HK_10|3.0MB/s
+      - KR_7|4.4MB/s
+      - 台湾 | TWN
+      - HK_11|3.3MB/s
+      - 日本_081808244
       - ❓Other_1|3.5MB/s
       - 美国_081808672
-      - 美国_081808673
-      - 美国_081808675
-      - 香港_081808110
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -119,82 +133,96 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - HK_10|3.3MB/s
-      - HK_11|2.3MB/s
-      - TW_1|3.0MB/s
-      - HK_6|1.8MB/s
-      - HK_1|1.6MB/s
-      - HK_8|3.1MB/s
-      - ID_1|1.7MB/s
-      - HK_4|1.4MB/s
       - HK_16|3.2MB/s
-      - HK_10|3.0MB/s
+      - 美国_081808720
       - HK_9|4.1MB/s
-      - KR_7|4.4MB/s
       - 香港 | HKG
-      - 台湾 | TWN
-      - 香港 | HKG 5
       - HK_8|2.7MB/s
+      - HK_11|2.3MB/s
       - HK_6|2.6MB/s
-      - HK_7|5.0MB/s
-      - SG_4|1.3MB/s
-      - HK_11|3.3MB/s
-      - HK_13|1.5MB/s
       - HK_10|1.4MB/s
-      - HK_12|2.7MB/s
-      - 日本_081808244
-      - JP_1|6.0MB/s
-      - 德国_081808143
       - TW_1|4.5MB/s
       - SG_16|1.1MB/s
-      - HK_3|1.3MB/s
+      - HK_7|5.0MB/s
+      - 香港_081808110
       - HK_2|2.3MB/s
+      - TW_1|1.6MB/s
+      - SG_3|5.2MB/s
+      - SG_2|3.2MB/s
+      - TW_3|2.3MB/s
+      - TW_1|3.0MB/s
+      - HK_1|1.6MB/s
+      - JP_1|6.0MB/s
+      - 美国 | USA 18
+      - HK_12|2.7MB/s
+      - HK_13|1.5MB/s
+      - 美国_081808673
+      - 香港 | HKG 5
+      - 德国_081808143
+      - HK_6|1.8MB/s
+      - 美国_081808675
+      - ID_1|1.7MB/s
+      - SG_4|1.3MB/s
+      - HK_3|1.3MB/s
+      - 俄罗斯联邦_081808084
+      - HK_10|3.3MB/s
+      - HK_8|3.1MB/s
+      - HK_4|1.4MB/s
+      - HK_10|3.0MB/s
+      - KR_7|4.4MB/s
+      - 台湾 | TWN
+      - HK_11|3.3MB/s
+      - 日本_081808244
       - ❓Other_1|3.5MB/s
       - 美国_081808672
-      - 美国_081808673
-      - 美国_081808675
-      - 香港_081808110
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - HK_10|3.3MB/s
-      - HK_11|2.3MB/s
-      - TW_1|3.0MB/s
-      - HK_6|1.8MB/s
-      - HK_1|1.6MB/s
-      - HK_8|3.1MB/s
-      - ID_1|1.7MB/s
-      - HK_4|1.4MB/s
       - HK_16|3.2MB/s
-      - HK_10|3.0MB/s
+      - 美国_081808720
       - HK_9|4.1MB/s
-      - KR_7|4.4MB/s
       - 香港 | HKG
-      - 台湾 | TWN
-      - 香港 | HKG 5
       - HK_8|2.7MB/s
+      - HK_11|2.3MB/s
       - HK_6|2.6MB/s
-      - HK_7|5.0MB/s
-      - SG_4|1.3MB/s
-      - HK_11|3.3MB/s
-      - HK_13|1.5MB/s
       - HK_10|1.4MB/s
-      - HK_12|2.7MB/s
-      - 日本_081808244
-      - JP_1|6.0MB/s
-      - 德国_081808143
       - TW_1|4.5MB/s
       - SG_16|1.1MB/s
-      - HK_3|1.3MB/s
+      - HK_7|5.0MB/s
+      - 香港_081808110
       - HK_2|2.3MB/s
+      - TW_1|1.6MB/s
+      - SG_3|5.2MB/s
+      - SG_2|3.2MB/s
+      - TW_3|2.3MB/s
+      - TW_1|3.0MB/s
+      - HK_1|1.6MB/s
+      - JP_1|6.0MB/s
+      - 美国 | USA 18
+      - HK_12|2.7MB/s
+      - HK_13|1.5MB/s
+      - 美国_081808673
+      - 香港 | HKG 5
+      - 德国_081808143
+      - HK_6|1.8MB/s
+      - 美国_081808675
+      - ID_1|1.7MB/s
+      - SG_4|1.3MB/s
+      - HK_3|1.3MB/s
+      - 俄罗斯联邦_081808084
+      - HK_10|3.3MB/s
+      - HK_8|3.1MB/s
+      - HK_4|1.4MB/s
+      - HK_10|3.0MB/s
+      - KR_7|4.4MB/s
+      - 台湾 | TWN
+      - HK_11|3.3MB/s
+      - 日本_081808244
       - ❓Other_1|3.5MB/s
       - 美国_081808672
-      - 美国_081808673
-      - 美国_081808675
-      - 香港_081808110
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -2059,7 +2087,6 @@ rules:
   - DOMAIN-KEYWORD,avrebo,♻️ 情色可用
   - DOMAIN-KEYWORD,agu3000,♻️ 情色可用
   - DOMAIN-KEYWORD,btc620,♻️ 情色可用
-  - DOMAIN-KEYWORD,youtube,♻️ 情色可用
   - DOMAIN-SUFFIX,qrserver.com,♻️ 情色可用
   - DOMAIN-SUFFIX,mushroomtrack.com,♻️ 情色可用
   - DOMAIN-SUFFIX,cloudflare.com,♻️ 情色可用
