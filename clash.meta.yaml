@@ -26,90 +26,31 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: JP_6|5.4MB/s, server: 211.91.158.27, port: 21109, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: 俄罗斯联邦_081813094, server: 195.133.23.5, port: 20998, type: ss, cipher: aes-256-gcm, password: d99c422199e62b6b, udp: true}
-- {name: 爱尔兰 | IRL, server: 260323.1.0.l2.unclemanco.com, port: 36201, type: ss, cipher: aes-128-gcm, password: Vdssf.mj/2Zr, plugin: obfs, plugin-opts: {mode: http, host: 9c16582738.download.windowsupdate.com}, udp: true}
-- {name: KR_5|4.9MB/s, server: api.meituan88.com, port: 32414, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
-- {name: 越南 | VNM, server: 260323.1.0.l3.unclemanco.com, port: 11111, type: ss, cipher: aes-128-gcm, password: V2efNeJZr, plugin: obfs, plugin-opts: {mode: http, host: 9c16582738.download.windowsupdate.com}, udp: true}
-- {name: 挪威 | NOR 2, server: 260323.1.0.l3.unclemanco.com, port: 36205, type: ss, cipher: aes-128-gcm, password: Vdssf.sksamj/2Zr, plugin: obfs, plugin-opts: {mode: http, host: 9c16582738.download.windowsupdate.com}, udp: true}
-- {name: KR_4|5.7MB/s, server: 211.91.158.24, port: 21107, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: KR_5|4.6MB/s, server: 211.91.158.27, port: 21107, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: HK_7|5.0MB/s, server: api.meituan88.com, port: 7004, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
-- {name: 香港_081818105, server: api.meituan88.com, port: 2106, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
-- {name: 美国 | USA 17, server: 260323.1.0.l3.unclemanco.com, port: 906, type: ss, cipher: aes-128-gcm, password: ay2loud1, plugin: obfs, plugin-opts: {mode: http, host: 9c16582738.download.windowsupdate.com}, udp: true}
-- {name: ID_1|1.7MB/s, server: api.meituan88.com, port: 56274, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
-- {name: 韩国 | KOR 5, server: 260323.1.0.l3.unclemanco.com, port: 806, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: 9c16582738.download.windowsupdate.com}, udp: true}
-- {name: 香港_081818125, server: api.meituan88.com, port: 3207, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
-- {name: 香港 | HKG 3, server: 260323.1.0.l3.unclemanco.com, port: 39004, type: ss, cipher: aes-128-gcm, password: ayds23sd1, plugin: obfs, plugin-opts: {mode: http, host: 9c16582738.download.windowsupdate.com}, udp: true}
-- {name: 日本 | JPN, server: legible-ocelot.rooster465.autos, port: 443, type: trojan, password: HC04361579, sni: legible-ocelot.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: HK_8|3.1MB/s, server: api.meituan88.com, port: 41181, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
-- {name: 香港 | HKG 7, server: hk01.vpn.taiaise.cn, port: 443, type: vmess, uuid: 060aede7-11ea-4032-b025-6c4168a5182e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xray, headers: {Host: hk01.vpn.taiaise.cn}}, udp: true}
-- {name: 日本 | JPN 6, server: settling-shad.rooster465.autos, port: 443, type: trojan, password: HC04361579, sni: settling-shad.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: KR_3|1.8MB/s, server: 211.91.158.24, port: 21114, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: 美国 | USA 18, server: 260323.1.0.l3.unclemanco.com, port: 911, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: 9c16582738.download.windowsupdate.com}, udp: true}
-- {name: 中国_081818011, server: 211.91.158.27, port: 21114, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: _US_美国, server: 173.255.247.228, port: 5444, type: trojan, password: fg20mtCFHy, sni: frsdata.southbyte.xyz, skip-cert-verify: true, udp: true}
-- {name: 香港_081818120, server: api.meituan88.com, port: 3206, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
-- {name: 越南 | VNM 2, server: 260323.1.0.l3.unclemanco.com, port: 10014, type: ss, cipher: aes-128-gcm, password: aa2sacs/1a, plugin: obfs, plugin-opts: {mode: http, host: 9c16582738.download.windowsupdate.com}, udp: true}
-- {name: JP_2|3.4MB/s, server: api.meituan88.com, port: 7012, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
-- {name: 香港 | HKG 2, server: 260323.1.0.l3.unclemanco.com, port: 9052, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: 9c16582738.download.windowsupdate.com}, udp: true}
-- {name: TW_1|1.6MB/s, server: api.meituan88.com, port: 7015, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
-- {name: TW_2|4.0MB/s, server: api.meituan88.com, port: 7018, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
-- {name: SG_5|4.5MB/s, server: api.meituan88.com, port: 28150, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
-- {name: SG_5|1.1MB/s, server: api.meituan88.com, port: 2205, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
-- {name: TW_1|4.5MB/s, server: api.meituan88.com, port: 7016, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
-- {name: 香港_081813108, server: api.meituan88.com, port: 60612, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
-- {name: 香港_081818104, server: api.meituan88.com, port: 18589, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
-- {name: HK_2|2.3MB/s, server: api.meituan88.com, port: 7003, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
-- {name: SG_3|4.1MB/s, server: api.meituan88.com, port: 3202, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
-- {name: 日本 | JPN 2, server: 260323.1.0.l3.unclemanco.com, port: 918, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: 9c16582738.download.windowsupdate.com}, udp: true}
-- {name: 日本 | JPN 7, server: 260323.1.0.l3.unclemanco.com, port: 1313, type: ss, cipher: aes-128-gcm, password: fjlfjafl231303831, plugin: obfs, plugin-opts: {mode: http, host: 9c16582738.download.windowsupdate.com}, udp: true}
-- {name: 日本 | JPN 10, server: 260323.1.0.l3.unclemanco.com, port: 9021, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: 9c16582738.download.windowsupdate.com}, udp: true}
-- {name: 香港 | HKG 10, server: planb.mojcn.com.linuxlh.xin, port: 16632, type: vmess, uuid: 0c657913-e593-4893-9555-f88478c33a4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com}}, udp: true}
-- {name: 日本 | JPN 9, server: 260323.1.0.l3.unclemanco.com, port: 4321, type: ss, cipher: aes-128-gcm, password: ay232sffssd1, plugin: obfs, plugin-opts: {mode: http, host: 9c16582738.download.windowsupdate.com}, udp: true}
-- {name: 香港 | HKG 6, server: 260323.1.0.l3.unclemanco.com, port: 8001, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: 9c16582738.download.windowsupdate.com}, udp: true}
-- {name: 香港 | HKG 9, server: 260323.1.0.l3.unclemanco.com, port: 2120, type: ss, cipher: aes-128-gcm, password: a212d, plugin: obfs, plugin-opts: {mode: http, host: 9c16582738.download.windowsupdate.com}, udp: true}
-- {name: 日本 | JPN 3, server: pet-albacore.rooster465.autos, port: 443, type: trojan, password: HC04361579, sni: pet-albacore.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 香港 | HKG 11, server: 260323.1.0.l3.unclemanco.com, port: 4021, type: ss, cipher: aes-128-gcm, password: ayds232sffssd1, plugin: obfs, plugin-opts: {mode: http, host: 9c16582738.download.windowsupdate.com}, udp: true}
-- {name: 英国 | GBR 2, server: 260323.1.0.l2.unclemanco.com, port: 2688, type: ss, cipher: aes-128-gcm, password: fs23l/, plugin: obfs, plugin-opts: {mode: http, host: 9c16582738.download.windowsupdate.com}, udp: true}
-- {name: SG_7|1.6MB/s, server: api.meituan88.com, port: 3210, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
-- {name: 韩国 | KOR 7, server: 260323.1.0.l3.unclemanco.com, port: 9030, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: 9c16582738.download.windowsupdate.com}, udp: true}
-- {name: 法国 | FRA 8, server: 172.232.42.44, port: 5577, type: trojan, password: fg20mtCFHy, sni: gtyxz.southbyte.xyz, skip-cert-verify: true, udp: true}
-- {name: ❓Other_1|2.4MB/s, server: api.meituan88.com, port: 63699, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
-- {name: 美国_081818734, server: 64.83.32.126, port: 8481, type: ss, cipher: chacha20-ietf-poly1305, password: 36f55197d2bac2db2ed81c569ce9576c, udp: true}
-- {name: 美国_081813699, server: 66.112.211.35, port: 443, type: ss, cipher: aes-128-gcm, password: synlgmm, udp: true}
-- {name: 德国_081818149, server: creativeboxvpnf.zanity.net, port: 5223, type: ss, cipher: chacha20-ietf-poly1305, password: YwkJ1ViArbK6AZBCyjEC2p, udp: true}
-- {name: 尼日利亚 | NGA, server: 260323.1.0.l2.unclemanco.com, port: 10021, type: ss, cipher: aes-128-gcm, password: aa2x2sa2/1a, plugin: obfs, plugin-opts: {mode: http, host: 9c16582738.download.windowsupdate.com}, udp: true}
-- {name: 香港_081818111, server: api.meituan88.com, port: 7007, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
-- {name: HK_13|1.5MB/s, server: api.meituan88.com, port: 7005, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
-- {name: 美国_081808675, server: 23.252.104.131, port: 54321, type: ss, cipher: aes-256-gcm, password: Proxy2024, udp: true}
-- {name: HK_1|1.6MB/s, server: planb.mojcn.com.linuxlh.xin, port: 16632, type: vmess, uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com}}, udp: true}
-- {name: 俄罗斯联邦_081813097, server: 45.140.169.123, port: 20887, type: ss, cipher: aes-256-gcm, password: 6b39ae3234dfd68b, udp: true}
-- {name: SG_4|4.3MB/s, server: api.meituan88.com, port: 18566, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
-- {name: 瑞典 | SWE, server: 172.234.100.80, port: 5612, type: trojan, password: fg20mtCFHy, sni: yugdv.southbyte.xyz, skip-cert-verify: true, udp: true}
-- {name: 俄罗斯联邦_081813095, server: 195.133.23.200, port: 10998, type: ss, cipher: aes-256-gcm, password: 81a20429165df87e, udp: true}
-- {name: JP_4|4.4MB/s, server: 211.91.158.24, port: 21109, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: 法国 | FRA 17, server: 260323.1.0.l2.unclemanco.com, port: 915, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: 9c16582738.download.windowsupdate.com}, udp: true}
+- {name: SG_10|1.5MB/s, server: 120.232.253.90, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
 - {name: SG_4|1.3MB/s, server: api.meituan88.com, port: 2204, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
-- {name: HK_10|3.3MB/s, server: api.meituan88.com, port: 19623, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
-- {name: HK_8|2.7MB/s, server: api.meituan88.com, port: 55962, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
-- {name: TW_1|3.0MB/s, server: api.meituan88.com, port: 61714, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
-- {name: SG_16|1.1MB/s, server: api.meituan88.com, port: 3205, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
-- {name: HK_11|2.3MB/s, server: api.meituan88.com, port: 39514, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
-- {name: 香港_081808110, server: api.meituan88.com, port: 7002, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
-- {name: HK_9|4.1MB/s, server: api.meituan88.com, port: 60213, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 203463:YMo3sn, obfs-param: 665203463.douyin.com, udp: true}
-- {name: TW_1|2.2MB/s, server: api.meituan88.com, port: 42021, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
-- {name: HK_6|2.6MB/s, server: api.meituan88.com, port: 41155, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
-- {name: JP_7|5.5MB/s, server: 211.91.158.27, port: 21119, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
+- {name: KR_5|4.9MB/s, server: api.meituan88.com, port: 32414, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
 - {name: 香港 | HKG 5, server: api.meituan88.com, port: 59382, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
-- {name: JP_5|4.9MB/s, server: 211.91.158.24, port: 21119, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
 - {name: US_3|1.3MB/s, server: 38.246.226.240, port: 52080, type: vmess, uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-- {name: 4Jadi-bb061d57ba, server: 15.237.189.197, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: JP_5|4.9MB/s 2, server: driven-doberman.rooster465.autos, port: 443, type: trojan, password: HC04361579, sni: driven-doberman.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: 荷兰_081813121, server: creativegermany.zanity.net, port: 5228, type: ss, cipher: chacha20-ietf-poly1305, password: 0XCI4pQcZ2nxzVT40CCc0K, udp: true}
-- {name: 加拿大_081813054, server: 166.88.130.218, port: 50118, type: ss, cipher: aes-256-gcm, password: fbcec76953a2d173, udp: true}
-- {name: 澳大利亚_081818055, server: 45.32.246.180, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: TqkkHRpZTkjbTBrk, udp: true}
-- {name: 德国 | DEU 8, server: 91.107.255.181, port: 28110, type: vmess, uuid: 9b4cf5b4-7fd9-436b-a441-6e9dfe601bf9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [www.apple.com]}}, udp: true}
+- {name: KR_4|2.4MB/s, server: api.meituan88.com, port: 17348, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
+- {name: HK_6|2.6MB/s, server: api.meituan88.com, port: 41155, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
+- {name: TW_1|2.2MB/s, server: api.meituan88.com, port: 42021, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
+- {name: HK_3|4.2MB/s, server: api.meituan88.com, port: 59430, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
+- {name: KR_3|3.7MB/s, server: api.meituan88.com, port: 44593, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
+- {name: 香港_081818105, server: api.meituan88.com, port: 2106, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
+- {name: 香港 | HKG 10, server: planb.mojcn.com.linuxlh.xin, port: 16632, type: vmess, uuid: 0c657913-e593-4893-9555-f88478c33a4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com}}, udp: true}
+- {name: SG_5|1.1MB/s, server: api.meituan88.com, port: 2205, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
+- {name: 4Mohsen-39f6635f78, server: hk1.network-cdn-gw-yd.net, port: 32060, type: ss, cipher: chacha20-ietf-poly1305, password: aed6e687-58a9-4836-ba62-7d8184c94df4, udp: true}
+- {name: 英国_081913206, server: 82.38.46.65, port: 32060, type: ss, cipher: chacha20-ietf-poly1305, password: aed6e687-58a9-4836-ba62-7d8184c94df4, udp: true}
+- {name: 4Mohsen-71a2cba307, server: 121.46.230.235, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
+- {name: 法国 | FRA 9, server: 15.237.216.173, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: HK_11|2.3MB/s, server: api.meituan88.com, port: 39514, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
+- {name: 法国_081918092, server: planb.mojcn.com.linuxlh.xin, port: 16644, type: vmess, uuid: 7b9d480b-ff5a-4fde-a192-ac79131caa9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d2e7f5d110ba6d4b122b4723b13ecc8f.mobgslb.tbcache.com}}, udp: true}
+- {name: HK_6|4.4MB/s, server: 120.232.250.161, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
+- {name: 德国 | DEU 3, server: 63.178.246.78, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 韩国_081918025, server: 43.133.253.211, port: 8444, type: trojan, password: StO6w4Osht9ZcK2mIv3U14, sni: 43.133.253.211, skip-cert-verify: true, udp: true}
+- {name: JP_5|6.1MB/s, server: definite-gazelle.rooster465.autos, port: 443, type: trojan, password: EQ30679154, skip-cert-verify: true, udp: true}
+- {name: 法国_081918093, server: planb.mojcn.com.linuxlh.xin, port: 16644, type: vmess, uuid: 5b874a21-93b4-4fd5-9e11-b3cc30c9abdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 73226094b12c74c4f4e0d0220d300108.mobgslb.tbcache.com}}, udp: true}
+- {name: 俄罗斯联邦_081818092, server: 45.8.158.176, port: 10801, type: ss, cipher: aes-256-gcm, password: 1eadd4e4a37b6601, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -122,90 +63,31 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - JP_6|5.4MB/s
-      - 俄罗斯联邦_081813094
-      - 爱尔兰 | IRL
-      - KR_5|4.9MB/s
-      - 越南 | VNM
-      - 挪威 | NOR 2
-      - KR_4|5.7MB/s
-      - KR_5|4.6MB/s
-      - HK_7|5.0MB/s
-      - 香港_081818105
-      - 美国 | USA 17
-      - ID_1|1.7MB/s
-      - 韩国 | KOR 5
-      - 香港_081818125
-      - 香港 | HKG 3
-      - 日本 | JPN
-      - HK_8|3.1MB/s
-      - 香港 | HKG 7
-      - 日本 | JPN 6
-      - KR_3|1.8MB/s
-      - 美国 | USA 18
-      - 中国_081818011
-      - _US_美国
-      - 香港_081818120
-      - 越南 | VNM 2
-      - JP_2|3.4MB/s
-      - 香港 | HKG 2
-      - TW_1|1.6MB/s
-      - TW_2|4.0MB/s
-      - SG_5|4.5MB/s
-      - SG_5|1.1MB/s
-      - TW_1|4.5MB/s
-      - 香港_081813108
-      - 香港_081818104
-      - HK_2|2.3MB/s
-      - SG_3|4.1MB/s
-      - 日本 | JPN 2
-      - 日本 | JPN 7
-      - 日本 | JPN 10
-      - 香港 | HKG 10
-      - 日本 | JPN 9
-      - 香港 | HKG 6
-      - 香港 | HKG 9
-      - 日本 | JPN 3
-      - 香港 | HKG 11
-      - 英国 | GBR 2
-      - SG_7|1.6MB/s
-      - 韩国 | KOR 7
-      - 法国 | FRA 8
-      - ❓Other_1|2.4MB/s
-      - 美国_081818734
-      - 美国_081813699
-      - 德国_081818149
-      - 尼日利亚 | NGA
-      - 香港_081818111
-      - HK_13|1.5MB/s
-      - 美国_081808675
-      - HK_1|1.6MB/s
-      - 俄罗斯联邦_081813097
-      - SG_4|4.3MB/s
-      - 瑞典 | SWE
-      - 俄罗斯联邦_081813095
-      - JP_4|4.4MB/s
-      - 法国 | FRA 17
+      - SG_10|1.5MB/s
       - SG_4|1.3MB/s
-      - HK_10|3.3MB/s
-      - HK_8|2.7MB/s
-      - TW_1|3.0MB/s
-      - SG_16|1.1MB/s
-      - HK_11|2.3MB/s
-      - 香港_081808110
-      - HK_9|4.1MB/s
-      - TW_1|2.2MB/s
-      - HK_6|2.6MB/s
-      - JP_7|5.5MB/s
+      - KR_5|4.9MB/s
       - 香港 | HKG 5
-      - JP_5|4.9MB/s
       - US_3|1.3MB/s
-      - 4Jadi-bb061d57ba
-      - JP_5|4.9MB/s 2
-      - 荷兰_081813121
-      - 加拿大_081813054
-      - 澳大利亚_081818055
-      - 德国 | DEU 8
+      - KR_4|2.4MB/s
+      - HK_6|2.6MB/s
+      - TW_1|2.2MB/s
+      - HK_3|4.2MB/s
+      - KR_3|3.7MB/s
+      - 香港_081818105
+      - 香港 | HKG 10
+      - SG_5|1.1MB/s
+      - 4Mohsen-39f6635f78
+      - 英国_081913206
+      - 4Mohsen-71a2cba307
+      - 法国 | FRA 9
+      - HK_11|2.3MB/s
+      - 法国_081918092
+      - HK_6|4.4MB/s
+      - 德国 | DEU 3
+      - 韩国_081918025
+      - JP_5|6.1MB/s
+      - 法国_081918093
+      - 俄罗斯联邦_081818092
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -217,180 +99,62 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - JP_6|5.4MB/s
-      - 俄罗斯联邦_081813094
-      - 爱尔兰 | IRL
-      - KR_5|4.9MB/s
-      - 越南 | VNM
-      - 挪威 | NOR 2
-      - KR_4|5.7MB/s
-      - KR_5|4.6MB/s
-      - HK_7|5.0MB/s
-      - 香港_081818105
-      - 美国 | USA 17
-      - ID_1|1.7MB/s
-      - 韩国 | KOR 5
-      - 香港_081818125
-      - 香港 | HKG 3
-      - 日本 | JPN
-      - HK_8|3.1MB/s
-      - 香港 | HKG 7
-      - 日本 | JPN 6
-      - KR_3|1.8MB/s
-      - 美国 | USA 18
-      - 中国_081818011
-      - _US_美国
-      - 香港_081818120
-      - 越南 | VNM 2
-      - JP_2|3.4MB/s
-      - 香港 | HKG 2
-      - TW_1|1.6MB/s
-      - TW_2|4.0MB/s
-      - SG_5|4.5MB/s
-      - SG_5|1.1MB/s
-      - TW_1|4.5MB/s
-      - 香港_081813108
-      - 香港_081818104
-      - HK_2|2.3MB/s
-      - SG_3|4.1MB/s
-      - 日本 | JPN 2
-      - 日本 | JPN 7
-      - 日本 | JPN 10
-      - 香港 | HKG 10
-      - 日本 | JPN 9
-      - 香港 | HKG 6
-      - 香港 | HKG 9
-      - 日本 | JPN 3
-      - 香港 | HKG 11
-      - 英国 | GBR 2
-      - SG_7|1.6MB/s
-      - 韩国 | KOR 7
-      - 法国 | FRA 8
-      - ❓Other_1|2.4MB/s
-      - 美国_081818734
-      - 美国_081813699
-      - 德国_081818149
-      - 尼日利亚 | NGA
-      - 香港_081818111
-      - HK_13|1.5MB/s
-      - 美国_081808675
-      - HK_1|1.6MB/s
-      - 俄罗斯联邦_081813097
-      - SG_4|4.3MB/s
-      - 瑞典 | SWE
-      - 俄罗斯联邦_081813095
-      - JP_4|4.4MB/s
-      - 法国 | FRA 17
+      - SG_10|1.5MB/s
       - SG_4|1.3MB/s
-      - HK_10|3.3MB/s
-      - HK_8|2.7MB/s
-      - TW_1|3.0MB/s
-      - SG_16|1.1MB/s
-      - HK_11|2.3MB/s
-      - 香港_081808110
-      - HK_9|4.1MB/s
-      - TW_1|2.2MB/s
-      - HK_6|2.6MB/s
-      - JP_7|5.5MB/s
+      - KR_5|4.9MB/s
       - 香港 | HKG 5
-      - JP_5|4.9MB/s
       - US_3|1.3MB/s
-      - 4Jadi-bb061d57ba
-      - JP_5|4.9MB/s 2
-      - 荷兰_081813121
-      - 加拿大_081813054
-      - 澳大利亚_081818055
-      - 德国 | DEU 8
+      - KR_4|2.4MB/s
+      - HK_6|2.6MB/s
+      - TW_1|2.2MB/s
+      - HK_3|4.2MB/s
+      - KR_3|3.7MB/s
+      - 香港_081818105
+      - 香港 | HKG 10
+      - SG_5|1.1MB/s
+      - 4Mohsen-39f6635f78
+      - 英国_081913206
+      - 4Mohsen-71a2cba307
+      - 法国 | FRA 9
+      - HK_11|2.3MB/s
+      - 法国_081918092
+      - HK_6|4.4MB/s
+      - 德国 | DEU 3
+      - 韩国_081918025
+      - JP_5|6.1MB/s
+      - 法国_081918093
+      - 俄罗斯联邦_081818092
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - JP_6|5.4MB/s
-      - 俄罗斯联邦_081813094
-      - 爱尔兰 | IRL
-      - KR_5|4.9MB/s
-      - 越南 | VNM
-      - 挪威 | NOR 2
-      - KR_4|5.7MB/s
-      - KR_5|4.6MB/s
-      - HK_7|5.0MB/s
-      - 香港_081818105
-      - 美国 | USA 17
-      - ID_1|1.7MB/s
-      - 韩国 | KOR 5
-      - 香港_081818125
-      - 香港 | HKG 3
-      - 日本 | JPN
-      - HK_8|3.1MB/s
-      - 香港 | HKG 7
-      - 日本 | JPN 6
-      - KR_3|1.8MB/s
-      - 美国 | USA 18
-      - 中国_081818011
-      - _US_美国
-      - 香港_081818120
-      - 越南 | VNM 2
-      - JP_2|3.4MB/s
-      - 香港 | HKG 2
-      - TW_1|1.6MB/s
-      - TW_2|4.0MB/s
-      - SG_5|4.5MB/s
-      - SG_5|1.1MB/s
-      - TW_1|4.5MB/s
-      - 香港_081813108
-      - 香港_081818104
-      - HK_2|2.3MB/s
-      - SG_3|4.1MB/s
-      - 日本 | JPN 2
-      - 日本 | JPN 7
-      - 日本 | JPN 10
-      - 香港 | HKG 10
-      - 日本 | JPN 9
-      - 香港 | HKG 6
-      - 香港 | HKG 9
-      - 日本 | JPN 3
-      - 香港 | HKG 11
-      - 英国 | GBR 2
-      - SG_7|1.6MB/s
-      - 韩国 | KOR 7
-      - 法国 | FRA 8
-      - ❓Other_1|2.4MB/s
-      - 美国_081818734
-      - 美国_081813699
-      - 德国_081818149
-      - 尼日利亚 | NGA
-      - 香港_081818111
-      - HK_13|1.5MB/s
-      - 美国_081808675
-      - HK_1|1.6MB/s
-      - 俄罗斯联邦_081813097
-      - SG_4|4.3MB/s
-      - 瑞典 | SWE
-      - 俄罗斯联邦_081813095
-      - JP_4|4.4MB/s
-      - 法国 | FRA 17
+      - SG_10|1.5MB/s
       - SG_4|1.3MB/s
-      - HK_10|3.3MB/s
-      - HK_8|2.7MB/s
-      - TW_1|3.0MB/s
-      - SG_16|1.1MB/s
-      - HK_11|2.3MB/s
-      - 香港_081808110
-      - HK_9|4.1MB/s
-      - TW_1|2.2MB/s
-      - HK_6|2.6MB/s
-      - JP_7|5.5MB/s
+      - KR_5|4.9MB/s
       - 香港 | HKG 5
-      - JP_5|4.9MB/s
       - US_3|1.3MB/s
-      - 4Jadi-bb061d57ba
-      - JP_5|4.9MB/s 2
-      - 荷兰_081813121
-      - 加拿大_081813054
-      - 澳大利亚_081818055
-      - 德国 | DEU 8
+      - KR_4|2.4MB/s
+      - HK_6|2.6MB/s
+      - TW_1|2.2MB/s
+      - HK_3|4.2MB/s
+      - KR_3|3.7MB/s
+      - 香港_081818105
+      - 香港 | HKG 10
+      - SG_5|1.1MB/s
+      - 4Mohsen-39f6635f78
+      - 英国_081913206
+      - 4Mohsen-71a2cba307
+      - 法国 | FRA 9
+      - HK_11|2.3MB/s
+      - 法国_081918092
+      - HK_6|4.4MB/s
+      - 德国 | DEU 3
+      - 韩国_081918025
+      - JP_5|6.1MB/s
+      - 法国_081918093
+      - 俄罗斯联邦_081818092
   - name: 🐟 漏网之鱼
     type: select
     proxies:
