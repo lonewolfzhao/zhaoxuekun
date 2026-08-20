@@ -26,31 +26,31 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: SG_10|1.5MB/s, server: 120.232.253.90, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
-- {name: SG_4|1.3MB/s, server: api.meituan88.com, port: 2204, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
-- {name: KR_5|4.9MB/s, server: api.meituan88.com, port: 32414, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
-- {name: 香港 | HKG 5, server: api.meituan88.com, port: 59382, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
-- {name: US_3|1.3MB/s, server: 38.246.226.240, port: 52080, type: vmess, uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-- {name: KR_4|2.4MB/s, server: api.meituan88.com, port: 17348, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
-- {name: HK_6|2.6MB/s, server: api.meituan88.com, port: 41155, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
-- {name: TW_1|2.2MB/s, server: api.meituan88.com, port: 42021, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
-- {name: HK_3|4.2MB/s, server: api.meituan88.com, port: 59430, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
-- {name: KR_3|3.7MB/s, server: api.meituan88.com, port: 44593, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
-- {name: 香港_081818105, server: api.meituan88.com, port: 2106, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
-- {name: 香港 | HKG 10, server: planb.mojcn.com.linuxlh.xin, port: 16632, type: vmess, uuid: 0c657913-e593-4893-9555-f88478c33a4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com}}, udp: true}
-- {name: SG_5|1.1MB/s, server: api.meituan88.com, port: 2205, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
-- {name: 4Mohsen-39f6635f78, server: hk1.network-cdn-gw-yd.net, port: 32060, type: ss, cipher: chacha20-ietf-poly1305, password: aed6e687-58a9-4836-ba62-7d8184c94df4, udp: true}
-- {name: 英国_081913206, server: 82.38.46.65, port: 32060, type: ss, cipher: chacha20-ietf-poly1305, password: aed6e687-58a9-4836-ba62-7d8184c94df4, udp: true}
-- {name: 4Mohsen-71a2cba307, server: 121.46.230.235, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
+- {name: cn|60ea|puddincat07@Telegram, server: 121.46.230.138, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
+- {name: 新加坡 | SGP 9, server: node.socks5.kdns.fr, port: 443, type: vmess, uuid: f683235c-54b0-4442-bf0d-812d3804946e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /f683235c-54b0-4442-bf0d-812d3804946e-vm, headers: {Host: ericsson-lab-managed-oem.trycloudflare.com}}, udp: true}
+- {name: JP_1|2.0MB/s, server: 121.46.230.136, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
+- {name: 4Kian-57b94208af, server: 3.131.38.54, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: FR_1|3.8MB/s, server: 13.38.30.165, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Nika-e7da0c11ee, server: 3.66.86.250, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 香港 | HKG, server: 260323.1.0.l3.unclemanco.com, port: 9038, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: a286282850.download.windowsupdate.com}, udp: true}
 - {name: 法国 | FRA 9, server: 15.237.216.173, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: HK_11|2.3MB/s, server: api.meituan88.com, port: 39514, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 144391:uBtVcY, obfs-param: 99e144391.douyin.com, udp: true}
-- {name: 法国_081918092, server: planb.mojcn.com.linuxlh.xin, port: 16644, type: vmess, uuid: 7b9d480b-ff5a-4fde-a192-ac79131caa9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d2e7f5d110ba6d4b122b4723b13ecc8f.mobgslb.tbcache.com}}, udp: true}
-- {name: HK_6|4.4MB/s, server: 120.232.250.161, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
-- {name: 德国 | DEU 3, server: 63.178.246.78, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 韩国_081918025, server: 43.133.253.211, port: 8444, type: trojan, password: StO6w4Osht9ZcK2mIv3U14, sni: 43.133.253.211, skip-cert-verify: true, udp: true}
-- {name: JP_5|6.1MB/s, server: definite-gazelle.rooster465.autos, port: 443, type: trojan, password: EQ30679154, skip-cert-verify: true, udp: true}
-- {name: 法国_081918093, server: planb.mojcn.com.linuxlh.xin, port: 16644, type: vmess, uuid: 5b874a21-93b4-4fd5-9e11-b3cc30c9abdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 73226094b12c74c4f4e0d0220d300108.mobgslb.tbcache.com}}, udp: true}
-- {name: 俄罗斯联邦_081818092, server: 45.8.158.176, port: 10801, type: ss, cipher: aes-256-gcm, password: 1eadd4e4a37b6601, udp: true}
+- {name: 美国 | USA, server: 107.170.34.46, port: 443, type: ss, cipher: aes-256-gcm, password: p7KawP5pzJRHWI9q, udp: true}
+- {name: 法国 | FRA, server: 13.38.46.203, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 香港_082018183, server: 47.86.107.20, port: 5443, type: trojan, password: fg20mtCFHy, sni: hytfes.southbyte.xyz, skip-cert-verify: true, udp: true}
+- {name: 德国 | DEU 5, server: 63.186.69.235, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 美国 | USA 6, server: 162.243.36.19, port: 80, type: ss, cipher: aes-256-gcm, password: 1BuVr1kYF7v435mF, udp: true}
+- {name: 美国 | USA 23, server: 13.59.70.134, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 台湾 | TWN, server: 2.27.174.110, port: 794, type: vmess, uuid: fd2c3c77-1984-4f7c-befe-efba034e1f3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 美国 | USA 28, server: 3.145.155.157, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 美国 | USA 5, server: 15.204.247.175, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+- {name: 英国_082018243, server: 2.27.174.110, port: 794, type: vmess, uuid: fd2c3c77-1984-4f7c-befe-efba034e1f3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 台湾 | TWN 2, server: 2.27.174.110, port: 794, type: vmess, uuid: fd2c3c77-1984-4f7c-befe-efba034e1f3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 法国 | FRA 8, server: 95.170.13.47, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
+- {name: 加拿大 | CAN 2, server: 51.79.49.116, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+- {name: 爱尔兰_082018011, server: 54.74.159.195, port: 443, type: trojan, password: AE62539071, sni: kind-stork.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 荷兰 | NLD 9, server: thorough-falcon.rooster465.autos, port: 443, type: trojan, password: EQ30679154, skip-cert-verify: true, udp: true}
+- {name: 荷兰_082018141, server: 193.169.239.160, port: 443, type: trojan, password: AE62539071, sni: thorough-falcon.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 澳大利亚 | AUS, server: darling-mutt.rooster465.autos, port: 443, type: trojan, password: AE62539071, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -63,31 +63,31 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - SG_10|1.5MB/s
-      - SG_4|1.3MB/s
-      - KR_5|4.9MB/s
-      - 香港 | HKG 5
-      - US_3|1.3MB/s
-      - KR_4|2.4MB/s
-      - HK_6|2.6MB/s
-      - TW_1|2.2MB/s
-      - HK_3|4.2MB/s
-      - KR_3|3.7MB/s
-      - 香港_081818105
-      - 香港 | HKG 10
-      - SG_5|1.1MB/s
-      - 4Mohsen-39f6635f78
-      - 英国_081913206
-      - 4Mohsen-71a2cba307
+      - cn|60ea|puddincat07@Telegram
+      - 新加坡 | SGP 9
+      - JP_1|2.0MB/s
+      - 4Kian-57b94208af
+      - FR_1|3.8MB/s
+      - 4Nika-e7da0c11ee
+      - 香港 | HKG
       - 法国 | FRA 9
-      - HK_11|2.3MB/s
-      - 法国_081918092
-      - HK_6|4.4MB/s
-      - 德国 | DEU 3
-      - 韩国_081918025
-      - JP_5|6.1MB/s
-      - 法国_081918093
-      - 俄罗斯联邦_081818092
+      - 美国 | USA
+      - 法国 | FRA
+      - 香港_082018183
+      - 德国 | DEU 5
+      - 美国 | USA 6
+      - 美国 | USA 23
+      - 台湾 | TWN
+      - 美国 | USA 28
+      - 美国 | USA 5
+      - 英国_082018243
+      - 台湾 | TWN 2
+      - 法国 | FRA 8
+      - 加拿大 | CAN 2
+      - 爱尔兰_082018011
+      - 荷兰 | NLD 9
+      - 荷兰_082018141
+      - 澳大利亚 | AUS
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -99,62 +99,62 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - SG_10|1.5MB/s
-      - SG_4|1.3MB/s
-      - KR_5|4.9MB/s
-      - 香港 | HKG 5
-      - US_3|1.3MB/s
-      - KR_4|2.4MB/s
-      - HK_6|2.6MB/s
-      - TW_1|2.2MB/s
-      - HK_3|4.2MB/s
-      - KR_3|3.7MB/s
-      - 香港_081818105
-      - 香港 | HKG 10
-      - SG_5|1.1MB/s
-      - 4Mohsen-39f6635f78
-      - 英国_081913206
-      - 4Mohsen-71a2cba307
+      - cn|60ea|puddincat07@Telegram
+      - 新加坡 | SGP 9
+      - JP_1|2.0MB/s
+      - 4Kian-57b94208af
+      - FR_1|3.8MB/s
+      - 4Nika-e7da0c11ee
+      - 香港 | HKG
       - 法国 | FRA 9
-      - HK_11|2.3MB/s
-      - 法国_081918092
-      - HK_6|4.4MB/s
-      - 德国 | DEU 3
-      - 韩国_081918025
-      - JP_5|6.1MB/s
-      - 法国_081918093
-      - 俄罗斯联邦_081818092
+      - 美国 | USA
+      - 法国 | FRA
+      - 香港_082018183
+      - 德国 | DEU 5
+      - 美国 | USA 6
+      - 美国 | USA 23
+      - 台湾 | TWN
+      - 美国 | USA 28
+      - 美国 | USA 5
+      - 英国_082018243
+      - 台湾 | TWN 2
+      - 法国 | FRA 8
+      - 加拿大 | CAN 2
+      - 爱尔兰_082018011
+      - 荷兰 | NLD 9
+      - 荷兰_082018141
+      - 澳大利亚 | AUS
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - SG_10|1.5MB/s
-      - SG_4|1.3MB/s
-      - KR_5|4.9MB/s
-      - 香港 | HKG 5
-      - US_3|1.3MB/s
-      - KR_4|2.4MB/s
-      - HK_6|2.6MB/s
-      - TW_1|2.2MB/s
-      - HK_3|4.2MB/s
-      - KR_3|3.7MB/s
-      - 香港_081818105
-      - 香港 | HKG 10
-      - SG_5|1.1MB/s
-      - 4Mohsen-39f6635f78
-      - 英国_081913206
-      - 4Mohsen-71a2cba307
+      - cn|60ea|puddincat07@Telegram
+      - 新加坡 | SGP 9
+      - JP_1|2.0MB/s
+      - 4Kian-57b94208af
+      - FR_1|3.8MB/s
+      - 4Nika-e7da0c11ee
+      - 香港 | HKG
       - 法国 | FRA 9
-      - HK_11|2.3MB/s
-      - 法国_081918092
-      - HK_6|4.4MB/s
-      - 德国 | DEU 3
-      - 韩国_081918025
-      - JP_5|6.1MB/s
-      - 法国_081918093
-      - 俄罗斯联邦_081818092
+      - 美国 | USA
+      - 法国 | FRA
+      - 香港_082018183
+      - 德国 | DEU 5
+      - 美国 | USA 6
+      - 美国 | USA 23
+      - 台湾 | TWN
+      - 美国 | USA 28
+      - 美国 | USA 5
+      - 英国_082018243
+      - 台湾 | TWN 2
+      - 法国 | FRA 8
+      - 加拿大 | CAN 2
+      - 爱尔兰_082018011
+      - 荷兰 | NLD 9
+      - 荷兰_082018141
+      - 澳大利亚 | AUS
   - name: 🐟 漏网之鱼
     type: select
     proxies:
