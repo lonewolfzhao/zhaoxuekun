@@ -26,59 +26,20 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: _CN_中国_1, server: 112.132.215.108, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 美国 | USA 7, server: vip-us-6.hkd4fwmg.xyz, port: 13758, type: trojan, password: atKbXl2I4rKzHGiRybV7fOp+OCYPz+bO, skip-cert-verify: true, udp: true}
-- {name: JP_1|2.0MB/s, server: 121.46.230.136, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
-- {name: US_6|3.5MB/s, server: 211.91.158.44, port: 21105, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: US_5|4.2MB/s, server: 211.91.158.26, port: 21105, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: TH_1|4.6MB/s, server: 211.91.158.44, port: 21123, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: JP_4|5.7MB/s, server: 211.91.158.44, port: 21119, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: JP_3|5.9MB/s, server: 211.91.158.26, port: 21119, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: KR_2|4.8MB/s, server: 211.91.158.26, port: 21107, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: SG_3|3.9MB/s, server: 211.91.158.44, port: 21121, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: IT_2|4.2MB/s, server: 211.91.158.26, port: 21120, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: DE_2|4.5MB/s, server: 211.91.158.26, port: 21118, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: IN_2|2.6MB/s, server: 211.91.158.44, port: 21125, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: GB_4|4.4MB/s, server: 211.91.158.44, port: 21117, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: FR_5|4.4MB/s, server: 211.91.158.26, port: 21126, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: GB_2|1.7MB/s, server: 211.91.158.26, port: 21117, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: IN_1|3.3MB/s, server: 211.91.158.44, port: 21103, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: IN_1|4.8MB/s, server: 211.91.158.26, port: 21125, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: IT_3|2.6MB/s, server: 211.91.158.44, port: 21113, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: IT_1|4.4MB/s, server: 211.91.158.26, port: 21113, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: SG_2|3.6MB/s, server: 211.91.158.26, port: 21121, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: JP_2|5.4MB/s, server: 211.91.158.26, port: 21109, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: IN_3|1.4MB/s, server: 211.91.158.26, port: 21103, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: KR_3|3.6MB/s, server: 211.91.158.26, port: 21114, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: GB_3|4.3MB/s, server: 211.91.158.44, port: 21104, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: FR_6|4.3MB/s, server: 211.91.158.44, port: 21122, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: US_7|4.3MB/s, server: 211.91.158.44, port: 21108, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: KR_4|4.3MB/s, server: 211.91.158.44, port: 21114, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: FR_7|3.4MB/s, server: 211.91.158.44, port: 21126, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
+- {name: VN_1|1.2MB/s, server: api.meituan88.com, port: 14048, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 116735:zssrOQ, obfs-param: 14e116735.douyin.com, udp: true}
+- {name: HK_1|4.8MB/s, server: planb.mojcn.com.linuxlh.xin, port: 16632, type: vmess, uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com}}, udp: true}
+- {name: 4Nika-699ca10b76, server: 36.33.35.105, port: 10006, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527, udp: true}
 - {name: _CN_中国_1 2, server: 112.132.215.108, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: GB_1|3.5MB/s, server: 211.91.158.26, port: 21104, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: DE_4|1.2MB/s, server: 167.233.242.189, port: 80, type: vmess, uuid: 7209d7ee-cfd0-46c0-a580-d92e2f0c801c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [www.apple.com]}}, udp: true}
-- {name: IL_1|1.1MB/s, server: 211.91.158.44, port: 21116, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: 加拿大_082113070, server: 159.89.112.218, port: 443, type: ss, cipher: aes-256-gcm, password: fc0heeXAqzNX86aP, udp: true}
-- {name: DE_3|1.7MB/s, server: 211.91.158.44, port: 21118, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: 加拿大 | CAN, server: 51.222.155.113, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-- {name: 马来西亚 | MYS, server: 118.107.222.231, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
-- {name: 韩国 | KOR 2, server: 121.46.230.138, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
-- {name: 4Nika-ba1c71919c, server: 49.254.204.133, port: 1774, type: ss, cipher: aes-256-cfb, password: 1234!@#$, udp: true}
-- {name: KR_3|2.4MB/s, server: 211.91.158.44, port: 21107, type: ss, cipher: chacha20-ietf-poly1305, password: 9325a345-c72f-4637-a8f4-34f9effb7ba6, udp: true}
-- {name: _US_美国_3, server: 128.14.156.48, port: 5529, type: trojan, password: fg20mtCFHy, sni: gonets.southbyte.xyz, skip-cert-verify: true, udp: true}
-- {name: 美国_0821131098, server: 95.40.120.162, port: 8319, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-- {name: 美国 | USA 20, server: us01.duotg.top, port: 46292, type: trojan, password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e, sni: www.microsoft.com, skip-cert-verify: true, udp: true}
 - {name: 法国 | FRA 8, server: 95.170.13.47, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
-- {name: 加拿大 | CAN 2, server: 51.222.155.32, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-- {name: 俄罗斯联邦_082108140, server: robon.mashhad1market.ir, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: TU4NUJuMe4XlZ3NCQ_1KiQ, udp: true}
-- {name: DE_2|3.0MB/s, server: jpaws.ccwink.photos, port: 53225, type: vmess, uuid: a157bb84-dd84-4ad8-86b0-0656bc76e4d1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-- {name: 4Nika-af8454cf4b, server: netixu.mashhad1market.ir, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: TU4NUJuMe4XlZ3NCQ_1KiQ, udp: true}
+- {name: 俄罗斯联邦_082208143, server: 195.133.23.200, port: 20990, type: ss, cipher: aes-256-gcm, password: 81a20429165df87e, udp: true}
+- {name: _CN_中国_1 2 2, server: 112.132.215.108, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _US_美国_3, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: 4Nika-ba1c71919c, server: 49.254.204.133, port: 1774, type: ss, cipher: aes-256-cfb, password: 1234!@#$, udp: true}
+- {name: 4Sarina-215d9b90d0, server: 38.64.58.242, port: 8388, type: ss, cipher: aes-256-gcm, password: 7w9x5m4kNWNFgKuDXFUxu68x-26wbWwg, udp: true}
+- {name: 荷兰_082218178, server: 81.85.49.120, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: CM-lXWY7YkMOFGZyIHxhnQ, udp: true}
+- {name: JP_1|2.0MB/s, server: 121.46.230.136, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
+- {name: 马来西亚 | MYS, server: 118.107.222.231, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
 - {name: th|55f8|puddincat07@Telegram, server: 103.169.67.34, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
-- {name: 美国 | USA 5, server: us01.duotg.top, port: 38261, type: trojan, password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e, sni: www.microsoft.com, skip-cert-verify: true, udp: true}
-- {name: 12|香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 12|香港|@ripaojiedian 2, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 12|香港|@ripaojiedian 2 2, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -91,59 +52,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _CN_中国_1
-      - 美国 | USA 7
-      - JP_1|2.0MB/s
-      - US_6|3.5MB/s
-      - US_5|4.2MB/s
-      - TH_1|4.6MB/s
-      - JP_4|5.7MB/s
-      - JP_3|5.9MB/s
-      - KR_2|4.8MB/s
-      - SG_3|3.9MB/s
-      - IT_2|4.2MB/s
-      - DE_2|4.5MB/s
-      - IN_2|2.6MB/s
-      - GB_4|4.4MB/s
-      - FR_5|4.4MB/s
-      - GB_2|1.7MB/s
-      - IN_1|3.3MB/s
-      - IN_1|4.8MB/s
-      - IT_3|2.6MB/s
-      - IT_1|4.4MB/s
-      - SG_2|3.6MB/s
-      - JP_2|5.4MB/s
-      - IN_3|1.4MB/s
-      - KR_3|3.6MB/s
-      - GB_3|4.3MB/s
-      - FR_6|4.3MB/s
-      - US_7|4.3MB/s
-      - KR_4|4.3MB/s
-      - FR_7|3.4MB/s
+      - VN_1|1.2MB/s
+      - HK_1|4.8MB/s
+      - 4Nika-699ca10b76
       - _CN_中国_1 2
-      - GB_1|3.5MB/s
-      - DE_4|1.2MB/s
-      - IL_1|1.1MB/s
-      - 加拿大_082113070
-      - DE_3|1.7MB/s
-      - 加拿大 | CAN
-      - 马来西亚 | MYS
-      - 韩国 | KOR 2
-      - 4Nika-ba1c71919c
-      - KR_3|2.4MB/s
-      - _US_美国_3
-      - 美国_0821131098
-      - 美国 | USA 20
       - 法国 | FRA 8
-      - 加拿大 | CAN 2
-      - 俄罗斯联邦_082108140
-      - DE_2|3.0MB/s
-      - 4Nika-af8454cf4b
+      - 俄罗斯联邦_082208143
+      - _CN_中国_1 2 2
+      - _US_美国_3
+      - 4Nika-ba1c71919c
+      - 4Sarina-215d9b90d0
+      - 荷兰_082218178
+      - JP_1|2.0MB/s
+      - 马来西亚 | MYS
       - th|55f8|puddincat07@Telegram
-      - 美国 | USA 5
-      - 12|香港|@ripaojiedian
-      - 12|香港|@ripaojiedian 2
-      - 12|香港|@ripaojiedian 2 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -155,118 +77,40 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _CN_中国_1
-      - 美国 | USA 7
-      - JP_1|2.0MB/s
-      - US_6|3.5MB/s
-      - US_5|4.2MB/s
-      - TH_1|4.6MB/s
-      - JP_4|5.7MB/s
-      - JP_3|5.9MB/s
-      - KR_2|4.8MB/s
-      - SG_3|3.9MB/s
-      - IT_2|4.2MB/s
-      - DE_2|4.5MB/s
-      - IN_2|2.6MB/s
-      - GB_4|4.4MB/s
-      - FR_5|4.4MB/s
-      - GB_2|1.7MB/s
-      - IN_1|3.3MB/s
-      - IN_1|4.8MB/s
-      - IT_3|2.6MB/s
-      - IT_1|4.4MB/s
-      - SG_2|3.6MB/s
-      - JP_2|5.4MB/s
-      - IN_3|1.4MB/s
-      - KR_3|3.6MB/s
-      - GB_3|4.3MB/s
-      - FR_6|4.3MB/s
-      - US_7|4.3MB/s
-      - KR_4|4.3MB/s
-      - FR_7|3.4MB/s
+      - VN_1|1.2MB/s
+      - HK_1|4.8MB/s
+      - 4Nika-699ca10b76
       - _CN_中国_1 2
-      - GB_1|3.5MB/s
-      - DE_4|1.2MB/s
-      - IL_1|1.1MB/s
-      - 加拿大_082113070
-      - DE_3|1.7MB/s
-      - 加拿大 | CAN
-      - 马来西亚 | MYS
-      - 韩国 | KOR 2
-      - 4Nika-ba1c71919c
-      - KR_3|2.4MB/s
-      - _US_美国_3
-      - 美国_0821131098
-      - 美国 | USA 20
       - 法国 | FRA 8
-      - 加拿大 | CAN 2
-      - 俄罗斯联邦_082108140
-      - DE_2|3.0MB/s
-      - 4Nika-af8454cf4b
+      - 俄罗斯联邦_082208143
+      - _CN_中国_1 2 2
+      - _US_美国_3
+      - 4Nika-ba1c71919c
+      - 4Sarina-215d9b90d0
+      - 荷兰_082218178
+      - JP_1|2.0MB/s
+      - 马来西亚 | MYS
       - th|55f8|puddincat07@Telegram
-      - 美国 | USA 5
-      - 12|香港|@ripaojiedian
-      - 12|香港|@ripaojiedian 2
-      - 12|香港|@ripaojiedian 2 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - _CN_中国_1
-      - 美国 | USA 7
-      - JP_1|2.0MB/s
-      - US_6|3.5MB/s
-      - US_5|4.2MB/s
-      - TH_1|4.6MB/s
-      - JP_4|5.7MB/s
-      - JP_3|5.9MB/s
-      - KR_2|4.8MB/s
-      - SG_3|3.9MB/s
-      - IT_2|4.2MB/s
-      - DE_2|4.5MB/s
-      - IN_2|2.6MB/s
-      - GB_4|4.4MB/s
-      - FR_5|4.4MB/s
-      - GB_2|1.7MB/s
-      - IN_1|3.3MB/s
-      - IN_1|4.8MB/s
-      - IT_3|2.6MB/s
-      - IT_1|4.4MB/s
-      - SG_2|3.6MB/s
-      - JP_2|5.4MB/s
-      - IN_3|1.4MB/s
-      - KR_3|3.6MB/s
-      - GB_3|4.3MB/s
-      - FR_6|4.3MB/s
-      - US_7|4.3MB/s
-      - KR_4|4.3MB/s
-      - FR_7|3.4MB/s
+      - VN_1|1.2MB/s
+      - HK_1|4.8MB/s
+      - 4Nika-699ca10b76
       - _CN_中国_1 2
-      - GB_1|3.5MB/s
-      - DE_4|1.2MB/s
-      - IL_1|1.1MB/s
-      - 加拿大_082113070
-      - DE_3|1.7MB/s
-      - 加拿大 | CAN
-      - 马来西亚 | MYS
-      - 韩国 | KOR 2
-      - 4Nika-ba1c71919c
-      - KR_3|2.4MB/s
-      - _US_美国_3
-      - 美国_0821131098
-      - 美国 | USA 20
       - 法国 | FRA 8
-      - 加拿大 | CAN 2
-      - 俄罗斯联邦_082108140
-      - DE_2|3.0MB/s
-      - 4Nika-af8454cf4b
+      - 俄罗斯联邦_082208143
+      - _CN_中国_1 2 2
+      - _US_美国_3
+      - 4Nika-ba1c71919c
+      - 4Sarina-215d9b90d0
+      - 荷兰_082218178
+      - JP_1|2.0MB/s
+      - 马来西亚 | MYS
       - th|55f8|puddincat07@Telegram
-      - 美国 | USA 5
-      - 12|香港|@ripaojiedian
-      - 12|香港|@ripaojiedian 2
-      - 12|香港|@ripaojiedian 2 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
