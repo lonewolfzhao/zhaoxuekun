@@ -26,36 +26,29 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: _US_美国 3, server: 23.95.248.105, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
 - {name: 日本3|@ripaojiedian, server: 103.236.66.4, port: 40002, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527, udp: true}
-- {name: 美国2|@ripaojiedian, server: 103.236.66.4, port: 50003, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527, udp: true}
-- {name: _CN_中国_1, server: 112.132.215.108, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: gb|dec1|puddincat07@Telegram, server: 35.177.76.120, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 美国_0825131291, server: lisa89.zxom.eu.org, port: 99, type: trojan, password: 1215e2b3af8f4f3f, skip-cert-verify: true, udp: true}
-- {name: 日本2|@ripaojiedian, server: 103.236.66.4, port: 40001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527, udp: true}
-- {name: 新加坡_082513101, server: ggsg170.pacemakere.com, port: 101, type: trojan, password: a877ccb0d44f416d, skip-cert-verify: true, udp: true}
-- {name: NO_3|2.7MB/s, server: hkdcrtc-e.catcat321.com, port: 20085, type: trojan, password: a126f35c-e832-4115-8593-b723ade3f7be, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
-- {name: 越南 | VNM, server: api.meituan88.com, port: 14048, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 116735:zssrOQ, obfs-param: 14e116735.douyin.com, udp: true}
-- {name: MO_1|1.0MB/s, server: kkvlvvq-a.catcat321.com, port: 20068, type: trojan, password: a126f35c-e832-4115-8593-b723ade3f7be, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
-- {name: 日本_082513092, server: jpcn206.pacemakere.com, port: 20030, type: trojan, password: 058f2d7a59044e87, skip-cert-verify: true, udp: true}
-- {name: 美国3|@ripaojiedian, server: 18.163.118.157, port: 10418, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
-- {name: US_1|1.0MB/s, server: saj2000e.pacemakere.com, port: 20063, type: trojan, password: c857562678594197, skip-cert-verify: true, udp: true}
 - {name: 加拿大 | CAN 4, server: 15.222.248.181, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: GB_1|1.1MB/s, server: 13.135.167.23, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Nika-13739e0f20, server: 54.217.32.234, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 台湾_082513018, server: tt928m.pacemakere.com, port: 101, type: trojan, password: b49a4e18799049c3, skip-cert-verify: true, udp: true}
-- {name: 法国 | FRA, server: 95.170.13.47, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
-- {name: 4Nika-ba1c71919c, server: 49.254.204.133, port: 1774, type: ss, cipher: aes-256-cfb, password: 1234!@#$, udp: true}
-- {name: HK_1|4.2MB/s, server: 18.181.83.46, port: 2944, type: trojan, password: BxceQaOe, sni: t.me%2fripaojiedian, skip-cert-verify: true, udp: true}
-- {name: 法国 | FRA 13, server: 194.9.172.236, port: 1105, type: trojan, password: kakashka13222, sni: 194.9.172.236, skip-cert-verify: true, udp: true}
-- {name: GB_2|1.8MB/s, server: 18.132.52.104, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 香港2|@ripaojiedian, server: 103.236.66.4, port: 10001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527, udp: true}
-- {name: _US_美国, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-- {name: 台湾_082513020, server: w192m.iamnew2020.top, port: 99, type: trojan, password: 58d1a580a3fc4a87, skip-cert-verify: true, udp: true}
-- {name: 香港_082513220, server: ikhk165.iamnew2020.top, port: 20015, type: trojan, password: e9c4b07725ff4ad2, skip-cert-verify: true, udp: true}
-- {name: 4Jadi-256e3d1df1, server: 35.183.121.177, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Jadi-55baa52fee, server: 62.76.234.92, port: 10901, type: ss, cipher: aes-256-gcm, password: d1fa2f4b98a38bc8, udp: true}
 - {name: 加拿大 | CAN, server: 15.156.194.44, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: gb|dec1|puddincat07@Telegram, server: 35.177.76.120, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Nika-13739e0f20, server: 54.217.32.234, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 越南 | VNM, server: api.meituan88.com, port: 14048, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 116735:zssrOQ, obfs-param: 14e116735.douyin.com, udp: true}
+- {name: 新加坡_082513101, server: ggsg170.pacemakere.com, port: 101, type: trojan, password: a877ccb0d44f416d, skip-cert-verify: true, udp: true}
+- {name: 香港2|@ripaojiedian, server: 103.236.66.4, port: 10001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527, udp: true}
+- {name: 香港_082513220, server: ikhk165.iamnew2020.top, port: 20015, type: trojan, password: e9c4b07725ff4ad2, skip-cert-verify: true, udp: true}
+- {name: 台湾_082513020, server: w192m.iamnew2020.top, port: 99, type: trojan, password: 58d1a580a3fc4a87, skip-cert-verify: true, udp: true}
+- {name: 4Nika-ba1c71919c, server: 49.254.204.133, port: 1774, type: ss, cipher: aes-256-cfb, password: 1234!@#$, udp: true}
+- {name: 日本_082513092, server: jpcn206.pacemakere.com, port: 20030, type: trojan, password: 058f2d7a59044e87, skip-cert-verify: true, udp: true}
+- {name: _US_美国 3, server: 23.95.248.105, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: 法国 | FRA, server: 95.170.13.47, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
+- {name: GB_1|1.1MB/s, server: 13.135.167.23, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Jadi-256e3d1df1, server: 35.183.121.177, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _CN_中国_1, server: 112.132.215.108, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: GB_2|1.8MB/s, server: 18.132.52.104, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: NO_3|2.7MB/s, server: hkdcrtc-e.catcat321.com, port: 20085, type: trojan, password: a126f35c-e832-4115-8593-b723ade3f7be, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
+- {name: NO_1|1.5MB/s, server: kkvlvvq-a.catcat321.com, port: 20085, type: trojan, password: a126f35c-e832-4115-8593-b723ade3f7be, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
+- {name: 美国|@ripaojiedian, server: 103.236.66.4, port: 50001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527, udp: true}
+- {name: 美国_0825131236, server: kkvlvvq-a.catcat321.com, port: 20056, type: trojan, password: a126f35c-e832-4115-8593-b723ade3f7be, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
+- {name: _CN_中国_1 2, server: 112.132.215.108, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -68,36 +61,29 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _US_美国 3
       - 日本3|@ripaojiedian
-      - 美国2|@ripaojiedian
-      - _CN_中国_1
-      - gb|dec1|puddincat07@Telegram
-      - 美国_0825131291
-      - 日本2|@ripaojiedian
-      - 新加坡_082513101
-      - NO_3|2.7MB/s
-      - 越南 | VNM
-      - MO_1|1.0MB/s
-      - 日本_082513092
-      - 美国3|@ripaojiedian
-      - US_1|1.0MB/s
       - 加拿大 | CAN 4
-      - GB_1|1.1MB/s
-      - 4Nika-13739e0f20
-      - 台湾_082513018
-      - 法国 | FRA
-      - 4Nika-ba1c71919c
-      - HK_1|4.2MB/s
-      - 法国 | FRA 13
-      - GB_2|1.8MB/s
-      - 香港2|@ripaojiedian
-      - _US_美国
-      - 台湾_082513020
-      - 香港_082513220
-      - 4Jadi-256e3d1df1
-      - 4Jadi-55baa52fee
       - 加拿大 | CAN
+      - gb|dec1|puddincat07@Telegram
+      - 4Nika-13739e0f20
+      - 越南 | VNM
+      - 新加坡_082513101
+      - 香港2|@ripaojiedian
+      - 香港_082513220
+      - 台湾_082513020
+      - 4Nika-ba1c71919c
+      - 日本_082513092
+      - _US_美国 3
+      - 法国 | FRA
+      - GB_1|1.1MB/s
+      - 4Jadi-256e3d1df1
+      - _CN_中国_1
+      - GB_2|1.8MB/s
+      - NO_3|2.7MB/s
+      - NO_1|1.5MB/s
+      - 美国|@ripaojiedian
+      - 美国_0825131236
+      - _CN_中国_1 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -109,72 +95,58 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - _US_美国 3
       - 日本3|@ripaojiedian
-      - 美国2|@ripaojiedian
-      - _CN_中国_1
-      - gb|dec1|puddincat07@Telegram
-      - 美国_0825131291
-      - 日本2|@ripaojiedian
-      - 新加坡_082513101
-      - NO_3|2.7MB/s
-      - 越南 | VNM
-      - MO_1|1.0MB/s
-      - 日本_082513092
-      - 美国3|@ripaojiedian
-      - US_1|1.0MB/s
       - 加拿大 | CAN 4
-      - GB_1|1.1MB/s
-      - 4Nika-13739e0f20
-      - 台湾_082513018
-      - 法国 | FRA
-      - 4Nika-ba1c71919c
-      - HK_1|4.2MB/s
-      - 法国 | FRA 13
-      - GB_2|1.8MB/s
-      - 香港2|@ripaojiedian
-      - _US_美国
-      - 台湾_082513020
-      - 香港_082513220
-      - 4Jadi-256e3d1df1
-      - 4Jadi-55baa52fee
       - 加拿大 | CAN
+      - gb|dec1|puddincat07@Telegram
+      - 4Nika-13739e0f20
+      - 越南 | VNM
+      - 新加坡_082513101
+      - 香港2|@ripaojiedian
+      - 香港_082513220
+      - 台湾_082513020
+      - 4Nika-ba1c71919c
+      - 日本_082513092
+      - _US_美国 3
+      - 法国 | FRA
+      - GB_1|1.1MB/s
+      - 4Jadi-256e3d1df1
+      - _CN_中国_1
+      - GB_2|1.8MB/s
+      - NO_3|2.7MB/s
+      - NO_1|1.5MB/s
+      - 美国|@ripaojiedian
+      - 美国_0825131236
+      - _CN_中国_1 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - _US_美国 3
       - 日本3|@ripaojiedian
-      - 美国2|@ripaojiedian
-      - _CN_中国_1
-      - gb|dec1|puddincat07@Telegram
-      - 美国_0825131291
-      - 日本2|@ripaojiedian
-      - 新加坡_082513101
-      - NO_3|2.7MB/s
-      - 越南 | VNM
-      - MO_1|1.0MB/s
-      - 日本_082513092
-      - 美国3|@ripaojiedian
-      - US_1|1.0MB/s
       - 加拿大 | CAN 4
-      - GB_1|1.1MB/s
-      - 4Nika-13739e0f20
-      - 台湾_082513018
-      - 法国 | FRA
-      - 4Nika-ba1c71919c
-      - HK_1|4.2MB/s
-      - 法国 | FRA 13
-      - GB_2|1.8MB/s
-      - 香港2|@ripaojiedian
-      - _US_美国
-      - 台湾_082513020
-      - 香港_082513220
-      - 4Jadi-256e3d1df1
-      - 4Jadi-55baa52fee
       - 加拿大 | CAN
+      - gb|dec1|puddincat07@Telegram
+      - 4Nika-13739e0f20
+      - 越南 | VNM
+      - 新加坡_082513101
+      - 香港2|@ripaojiedian
+      - 香港_082513220
+      - 台湾_082513020
+      - 4Nika-ba1c71919c
+      - 日本_082513092
+      - _US_美国 3
+      - 法国 | FRA
+      - GB_1|1.1MB/s
+      - 4Jadi-256e3d1df1
+      - _CN_中国_1
+      - GB_2|1.8MB/s
+      - NO_3|2.7MB/s
+      - NO_1|1.5MB/s
+      - 美国|@ripaojiedian
+      - 美国_0825131236
+      - _CN_中国_1 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
