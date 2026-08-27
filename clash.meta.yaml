@@ -26,18 +26,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Nika-240038a188, server: 121.46.230.138, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
+- {name: 爱尔兰 | IRL 3, server: 54.247.216.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 英国 | GBR 4, server: 18.171.210.5, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Sarina-9318941651, server: 121.46.230.233, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
-- {name: 爱尔兰 | IRL 2, server: 34.241.245.82, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 爱尔兰 | IRL 5, server: 54.247.216.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 英国 | GBR 3, server: 18.170.37.90, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Kian-f4ae570c4c, server: 95.170.13.47, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
-- {name: _US_美国, server: 103.179.142.158, port: 50269, type: vmess, uuid: 84f238f6-28eb-48df-a7bc-a9bd9cf4abba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
 - {name: 4Nika-22c33bd9d5, server: 176.34.158.52, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 英国 | GBR 2, server: 3.10.143.14, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 爱尔兰 | IRL 3, server: 3.250.80.208, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 爱尔兰 | IRL 4, server: 52.16.228.57, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 爱尔兰 | IRL 5 2, server: 54.216.107.30, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -50,18 +42,10 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Nika-240038a188
-      - 4Sarina-9318941651
-      - 爱尔兰 | IRL 2
-      - 爱尔兰 | IRL 5
-      - 英国 | GBR 3
-      - 4Kian-f4ae570c4c
-      - _US_美国
-      - 4Nika-22c33bd9d5
-      - 英国 | GBR 2
       - 爱尔兰 | IRL 3
-      - 爱尔兰 | IRL 4
-      - 爱尔兰 | IRL 5 2
+      - 英国 | GBR 4
+      - 4Sarina-9318941651
+      - 4Nika-22c33bd9d5
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -73,36 +57,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Nika-240038a188
-      - 4Sarina-9318941651
-      - 爱尔兰 | IRL 2
-      - 爱尔兰 | IRL 5
-      - 英国 | GBR 3
-      - 4Kian-f4ae570c4c
-      - _US_美国
-      - 4Nika-22c33bd9d5
-      - 英国 | GBR 2
       - 爱尔兰 | IRL 3
-      - 爱尔兰 | IRL 4
-      - 爱尔兰 | IRL 5 2
+      - 英国 | GBR 4
+      - 4Sarina-9318941651
+      - 4Nika-22c33bd9d5
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Nika-240038a188
-      - 4Sarina-9318941651
-      - 爱尔兰 | IRL 2
-      - 爱尔兰 | IRL 5
-      - 英国 | GBR 3
-      - 4Kian-f4ae570c4c
-      - _US_美国
-      - 4Nika-22c33bd9d5
-      - 英国 | GBR 2
       - 爱尔兰 | IRL 3
-      - 爱尔兰 | IRL 4
-      - 爱尔兰 | IRL 5 2
+      - 英国 | GBR 4
+      - 4Sarina-9318941651
+      - 4Nika-22c33bd9d5
   - name: 🐟 漏网之鱼
     type: select
     proxies:
