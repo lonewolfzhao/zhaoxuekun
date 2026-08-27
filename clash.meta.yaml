@@ -26,13 +26,18 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 4Nika-240038a188, server: 121.46.230.138, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
+- {name: 4Sarina-9318941651, server: 121.46.230.233, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
+- {name: 爱尔兰 | IRL 2, server: 34.241.245.82, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 爱尔兰 | IRL 5, server: 54.247.216.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 英国 | GBR 3, server: 18.170.37.90, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Kian-f4ae570c4c, server: 95.170.13.47, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
-- {name: GB_1|4.2MB/s, server: 18.171.235.36, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: UA_2|1.7MB/s, server: kkvlvvq-a.catcat321.com, port: 20066, type: trojan, password: a126f35c-e832-4115-8593-b723ade3f7be, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
-- {name: 保加利亚_082618045, server: 94.156.114.171, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: TSqiXZ16uPqTCRbkgpfa7aNH5LuBsUUE, udp: true}
-- {name: 美国_082618055, server: kkvlvvq-a.catcat321.com, port: 20085, type: trojan, password: a126f35c-e832-4115-8593-b723ade3f7be, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
-- {name: 美国_082618065, server: hkdcrtc-e.catcat321.com, port: 20085, type: trojan, password: a126f35c-e832-4115-8593-b723ade3f7be, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
-- {name: _US_美国_1, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: _US_美国, server: 103.179.142.158, port: 50269, type: vmess, uuid: 84f238f6-28eb-48df-a7bc-a9bd9cf4abba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+- {name: 4Nika-22c33bd9d5, server: 176.34.158.52, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 英国 | GBR 2, server: 3.10.143.14, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 爱尔兰 | IRL 3, server: 3.250.80.208, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 爱尔兰 | IRL 4, server: 52.16.228.57, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 爱尔兰 | IRL 5 2, server: 54.216.107.30, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -45,13 +50,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Nika-240038a188
+      - 4Sarina-9318941651
+      - 爱尔兰 | IRL 2
+      - 爱尔兰 | IRL 5
+      - 英国 | GBR 3
       - 4Kian-f4ae570c4c
-      - GB_1|4.2MB/s
-      - UA_2|1.7MB/s
-      - 保加利亚_082618045
-      - 美国_082618055
-      - 美国_082618065
-      - _US_美国_1
+      - _US_美国
+      - 4Nika-22c33bd9d5
+      - 英国 | GBR 2
+      - 爱尔兰 | IRL 3
+      - 爱尔兰 | IRL 4
+      - 爱尔兰 | IRL 5 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -63,26 +73,36 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Nika-240038a188
+      - 4Sarina-9318941651
+      - 爱尔兰 | IRL 2
+      - 爱尔兰 | IRL 5
+      - 英国 | GBR 3
       - 4Kian-f4ae570c4c
-      - GB_1|4.2MB/s
-      - UA_2|1.7MB/s
-      - 保加利亚_082618045
-      - 美国_082618055
-      - 美国_082618065
-      - _US_美国_1
+      - _US_美国
+      - 4Nika-22c33bd9d5
+      - 英国 | GBR 2
+      - 爱尔兰 | IRL 3
+      - 爱尔兰 | IRL 4
+      - 爱尔兰 | IRL 5 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 4Nika-240038a188
+      - 4Sarina-9318941651
+      - 爱尔兰 | IRL 2
+      - 爱尔兰 | IRL 5
+      - 英国 | GBR 3
       - 4Kian-f4ae570c4c
-      - GB_1|4.2MB/s
-      - UA_2|1.7MB/s
-      - 保加利亚_082618045
-      - 美国_082618055
-      - 美国_082618065
-      - _US_美国_1
+      - _US_美国
+      - 4Nika-22c33bd9d5
+      - 英国 | GBR 2
+      - 爱尔兰 | IRL 3
+      - 爱尔兰 | IRL 4
+      - 爱尔兰 | IRL 5 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
