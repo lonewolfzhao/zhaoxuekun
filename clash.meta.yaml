@@ -26,10 +26,23 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 爱尔兰 | IRL 3, server: 54.247.216.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 英国 | GBR 4, server: 18.171.210.5, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Sarina-9318941651, server: 121.46.230.233, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
-- {name: 4Nika-22c33bd9d5, server: 176.34.158.52, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Nika-240038a188, server: 121.46.230.138, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
+- {name: 英国 | GBR, server: 18.171.210.5, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 爱尔兰 | IRL 4, server: 34.241.245.82, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 爱尔兰 | IRL 2, server: 54.247.216.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 爱尔兰 | IRL 4 2, server: 52.16.228.57, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 美国_0828161345, server: 135.106.198.25, port: 102, type: ss, cipher: chacha20-ietf-poly1305, password: iibqDfY-xDEyF0J8ntYH28gLob2ycGgy, udp: true}
+- {name: 4FreeIran-9b1e24b267, server: 121.46.230.232, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
+- {name: _CN_中国, server: 112.132.215.108, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: IE_2|1.0MB/s, server: 54.246.9.69, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Kian-f4ae570c4c, server: 95.170.13.47, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
+- {name: _US_美国_3, server: 192.227.247.27, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: _CN_中国 2, server: 112.132.215.108, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 英国 | GBR 2, server: 18.170.37.90, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 爱尔兰 | IRL 6, server: 54.216.107.30, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: US_1|1.9MB/s, server: 121.46.230.233, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
+- {name: 美国_0828161343, server: 135.106.194.88, port: 140, type: ss, cipher: chacha20-ietf-poly1305, password: iibqDfY-xDEyF0J8ntYH28gLob2ycGgy, udp: true}
+- {name: 4Jadi-c2c6442915, server: 3.250.223.202, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +55,23 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 爱尔兰 | IRL 3
-      - 英国 | GBR 4
-      - 4Sarina-9318941651
-      - 4Nika-22c33bd9d5
+      - 4Nika-240038a188
+      - 英国 | GBR
+      - 爱尔兰 | IRL 4
+      - 爱尔兰 | IRL 2
+      - 爱尔兰 | IRL 4 2
+      - 美国_0828161345
+      - 4FreeIran-9b1e24b267
+      - _CN_中国
+      - IE_2|1.0MB/s
+      - 4Kian-f4ae570c4c
+      - _US_美国_3
+      - _CN_中国 2
+      - 英国 | GBR 2
+      - 爱尔兰 | IRL 6
+      - US_1|1.9MB/s
+      - 美国_0828161343
+      - 4Jadi-c2c6442915
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,20 +83,46 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 爱尔兰 | IRL 3
-      - 英国 | GBR 4
-      - 4Sarina-9318941651
-      - 4Nika-22c33bd9d5
+      - 4Nika-240038a188
+      - 英国 | GBR
+      - 爱尔兰 | IRL 4
+      - 爱尔兰 | IRL 2
+      - 爱尔兰 | IRL 4 2
+      - 美国_0828161345
+      - 4FreeIran-9b1e24b267
+      - _CN_中国
+      - IE_2|1.0MB/s
+      - 4Kian-f4ae570c4c
+      - _US_美国_3
+      - _CN_中国 2
+      - 英国 | GBR 2
+      - 爱尔兰 | IRL 6
+      - US_1|1.9MB/s
+      - 美国_0828161343
+      - 4Jadi-c2c6442915
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 爱尔兰 | IRL 3
-      - 英国 | GBR 4
-      - 4Sarina-9318941651
-      - 4Nika-22c33bd9d5
+      - 4Nika-240038a188
+      - 英国 | GBR
+      - 爱尔兰 | IRL 4
+      - 爱尔兰 | IRL 2
+      - 爱尔兰 | IRL 4 2
+      - 美国_0828161345
+      - 4FreeIran-9b1e24b267
+      - _CN_中国
+      - IE_2|1.0MB/s
+      - 4Kian-f4ae570c4c
+      - _US_美国_3
+      - _CN_中国 2
+      - 英国 | GBR 2
+      - 爱尔兰 | IRL 6
+      - US_1|1.9MB/s
+      - 美国_0828161343
+      - 4Jadi-c2c6442915
   - name: 🐟 漏网之鱼
     type: select
     proxies:
