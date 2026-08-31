@@ -4,7 +4,7 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: JP_1|3.8MB/s, server: cn12.somethingstranges.com, port: 8406, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 37949-LD4JNZAf.download.microsoft.com}, udp: true}
+  - {name: 香港_083119005, server: api.meituan88.com, port: 14048, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 116735:zssrOQ, obfs-param: "", udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -17,7 +17,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - JP_1|3.8MB/s
+      - 香港_083119005
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -29,14 +29,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - JP_1|3.8MB/s
+      - 香港_083119005
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - JP_1|3.8MB/s
+      - 香港_083119005
   - name: 🐟 漏网之鱼
     type: select
     proxies:
