@@ -4,7 +4,7 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: IN_2|4.8MB/s, server: planb.mojcn.com.linuxlh.xin, port: 16626, type: vmess, uuid: 4a9bbf17-5684-452c-9b84-ba3743a5b819, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f2a1fd8cc931919f1ada44cdfa8310e9.mobgslb.tbcache.com}}, udp: true}
+  - {name: 4Sarina-9318941651, server: 121.46.230.233, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -17,7 +17,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - IN_2|4.8MB/s
+      - 4Sarina-9318941651
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -29,14 +29,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - IN_2|4.8MB/s
+      - 4Sarina-9318941651
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - IN_2|4.8MB/s
+      - 4Sarina-9318941651
   - name: 🐟 漏网之鱼
     type: select
     proxies:
