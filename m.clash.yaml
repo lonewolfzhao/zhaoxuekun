@@ -4,7 +4,7 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: US_3|3.5MB/s, server: 121.46.230.233, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
+  - {name: _US_美国, server: 192.227.247.27, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -17,7 +17,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - US_3|3.5MB/s
+      - _US_美国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -29,14 +29,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - US_3|3.5MB/s
+      - _US_美国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - US_3|3.5MB/s
+      - _US_美国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
