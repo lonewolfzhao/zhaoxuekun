@@ -5,6 +5,7 @@ log-level: info
 external-controller: :50000
 proxies:
   - {name: 4FreeIran-9b1e24b267, server: 121.46.230.232, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
+  - {name: 4Sarina-9318941651, server: 121.46.230.233, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -18,6 +19,7 @@ proxy-groups:
     interval: 10
     proxies:
       - 4FreeIran-9b1e24b267
+      - 4Sarina-9318941651
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -30,6 +32,7 @@ proxy-groups:
     interval: 10
     proxies:
       - 4FreeIran-9b1e24b267
+      - 4Sarina-9318941651
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -37,6 +40,7 @@ proxy-groups:
     interval: 10
     proxies:
       - 4FreeIran-9b1e24b267
+      - 4Sarina-9318941651
   - name: 🐟 漏网之鱼
     type: select
     proxies:
