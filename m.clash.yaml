@@ -5,6 +5,7 @@ log-level: info
 external-controller: :50000
 proxies:
   - {name: JP_1|1.1MB/s, server: 121.46.230.137, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
+  - {name: 日本 | JPN, server: 209.248.32.117, port: 28102, type: trojan, password: HOrViv, sni: ctldl.windowsupdate.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -18,6 +19,7 @@ proxy-groups:
     interval: 10
     proxies:
       - JP_1|1.1MB/s
+      - 日本 | JPN
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -30,6 +32,7 @@ proxy-groups:
     interval: 10
     proxies:
       - JP_1|1.1MB/s
+      - 日本 | JPN
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -37,6 +40,7 @@ proxy-groups:
     interval: 10
     proxies:
       - JP_1|1.1MB/s
+      - 日本 | JPN
   - name: 🐟 漏网之鱼
     type: select
     proxies:
