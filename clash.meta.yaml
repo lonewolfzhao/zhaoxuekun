@@ -26,13 +26,16 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: CA_2|3.4MB/s, server: 15.156.204.87, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: CA_3|1.6MB/s, server: 35.182.118.89, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 保加利亚_090421001, server: 94.156.170.102, port: 110, type: vmess, uuid: 8e9687fc-a3a7-414a-8676-8e2136797cfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 保加利亚_090421048, server: newrelax.relaxedboy.online, port: 110, type: vmess, uuid: 8e9687fc-a3a7-414a-8676-8e2136797cfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4Sarina-9318941651, server: 121.46.230.233, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
+- {name: IE_1|1.3MB/s, server: 3.250.40.89, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: GB_1|1.3MB/s, server: 13.40.17.62, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: IE_1|1.5MB/s, server: 54.229.177.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 4Kian-f4ae570c4c, server: 95.170.13.47, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
-- {name: 加拿大 | CAN 3, server: 51.222.200.165, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+- {name: 爱尔兰 | IRL 2, server: 52.214.208.36, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 土耳其 | TUR, server: subtu.charsoulink3.ir, port: 2087, type: trojan, password: v2whz6ahmyy2f84j, sni: pus.mmdaqaorg2.ir, skip-cert-verify: true, udp: true}
+- {name: 4Nika-e150f45503, server: 121.46.230.137, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
+- {name: _CN_中国, server: 112.132.215.108, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 4FreeIran-9b1e24b267, server: 121.46.230.232, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
+- {name: KR_1|3.0MB/s, server: 121.46.230.138, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -45,13 +48,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - CA_2|3.4MB/s
-      - CA_3|1.6MB/s
-      - 保加利亚_090421001
-      - 保加利亚_090421048
-      - 4Sarina-9318941651
+      - IE_1|1.3MB/s
+      - GB_1|1.3MB/s
+      - IE_1|1.5MB/s
       - 4Kian-f4ae570c4c
-      - 加拿大 | CAN 3
+      - 爱尔兰 | IRL 2
+      - 土耳其 | TUR
+      - 4Nika-e150f45503
+      - _CN_中国
+      - 4FreeIran-9b1e24b267
+      - KR_1|3.0MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -63,26 +69,32 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - CA_2|3.4MB/s
-      - CA_3|1.6MB/s
-      - 保加利亚_090421001
-      - 保加利亚_090421048
-      - 4Sarina-9318941651
+      - IE_1|1.3MB/s
+      - GB_1|1.3MB/s
+      - IE_1|1.5MB/s
       - 4Kian-f4ae570c4c
-      - 加拿大 | CAN 3
+      - 爱尔兰 | IRL 2
+      - 土耳其 | TUR
+      - 4Nika-e150f45503
+      - _CN_中国
+      - 4FreeIran-9b1e24b267
+      - KR_1|3.0MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - CA_2|3.4MB/s
-      - CA_3|1.6MB/s
-      - 保加利亚_090421001
-      - 保加利亚_090421048
-      - 4Sarina-9318941651
+      - IE_1|1.3MB/s
+      - GB_1|1.3MB/s
+      - IE_1|1.5MB/s
       - 4Kian-f4ae570c4c
-      - 加拿大 | CAN 3
+      - 爱尔兰 | IRL 2
+      - 土耳其 | TUR
+      - 4Nika-e150f45503
+      - _CN_中国
+      - 4FreeIran-9b1e24b267
+      - KR_1|3.0MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
