@@ -4,8 +4,9 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
+  - {name: 4Nika-e150f45503, server: 121.46.230.137, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
   - {name: CA_2|3.4MB/s, server: 15.156.204.87, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: CA_3|1.6MB/s, server: 35.182.118.89, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Sarina-9318941651, server: 121.46.230.233, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -18,8 +19,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Nika-e150f45503
       - CA_2|3.4MB/s
-      - CA_3|1.6MB/s
+      - 4Sarina-9318941651
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -31,16 +33,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4Nika-e150f45503
       - CA_2|3.4MB/s
-      - CA_3|1.6MB/s
+      - 4Sarina-9318941651
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 4Nika-e150f45503
       - CA_2|3.4MB/s
-      - CA_3|1.6MB/s
+      - 4Sarina-9318941651
   - name: 🐟 漏网之鱼
     type: select
     proxies:
