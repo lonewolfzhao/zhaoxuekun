@@ -26,11 +26,16 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Sarina-5e8704c092, server: 49.254.204.134, port: 1774, type: ss, cipher: aes-256-cfb, password: 1234!@#$, udp: true}
+- {name: FR_1|2.7MB/s, server: 15.237.218.241, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 丹麦_091310001, server: 158.173.221.214, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: c58d16e593d44f42, udp: true}
-- {name: 俄罗斯联邦_091310187, server: 46.17.40.234, port: 50111, type: ss, cipher: aes-256-gcm, password: bdb313adf74c2ede, udp: true}
-- {name: 4Mohsen-ecdf5b9737, server: 90.156.203.62, port: 5112, type: ss, cipher: chacha20-ietf-poly1305, password: VVlAff77CnAU43Aoc5j15Y, udp: true}
 - {name: _CN_中国, server: 112.132.215.108, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _US_美国, server: www.shopify.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: guanwang.awsno.com}}, udp: true}
+- {name: 4Kian-a057682eb5, server: 51.195.126.38, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 2YdE4lFOid5a, udp: true}
+- {name: GB_1|2.0MB/s, server: 146.70.23.32, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+- {name: _JP_日本, server: 38.47.121.14, port: 49432, type: vmess, uuid: ce94f204-ffa6-4fa8-a1dc-ecfccfd463cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+- {name: 英国 | GBR 3, server: 87.86.252.153, port: 30126, type: ss, cipher: chacha20-ietf-poly1305, password: ce680bff12723187, udp: true}
+- {name: 4FreeIran-3697d37cff, server: 118.107.222.231, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
+- {name: 日本 | JPN 2, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -43,11 +48,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Sarina-5e8704c092
+      - FR_1|2.7MB/s
       - 丹麦_091310001
-      - 俄罗斯联邦_091310187
-      - 4Mohsen-ecdf5b9737
       - _CN_中国
+      - _US_美国
+      - 4Kian-a057682eb5
+      - GB_1|2.0MB/s
+      - _JP_日本
+      - 英国 | GBR 3
+      - 4FreeIran-3697d37cff
+      - 日本 | JPN 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -59,22 +69,32 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Sarina-5e8704c092
+      - FR_1|2.7MB/s
       - 丹麦_091310001
-      - 俄罗斯联邦_091310187
-      - 4Mohsen-ecdf5b9737
       - _CN_中国
+      - _US_美国
+      - 4Kian-a057682eb5
+      - GB_1|2.0MB/s
+      - _JP_日本
+      - 英国 | GBR 3
+      - 4FreeIran-3697d37cff
+      - 日本 | JPN 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Sarina-5e8704c092
+      - FR_1|2.7MB/s
       - 丹麦_091310001
-      - 俄罗斯联邦_091310187
-      - 4Mohsen-ecdf5b9737
       - _CN_中国
+      - _US_美国
+      - 4Kian-a057682eb5
+      - GB_1|2.0MB/s
+      - _JP_日本
+      - 英国 | GBR 3
+      - 4FreeIran-3697d37cff
+      - 日本 | JPN 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
