@@ -26,13 +26,19 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: US_16|2.3MB/s, server: 3.144.113.215, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _CN_中国, server: 112.132.215.108, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 4FreeIran-73e7622aaf, server: 51.255.13.232, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: BqnqToih0PbU, udp: true}
-- {name: _US_美国_1, server: 165.140.217.56, port: 443, type: vmess, uuid: b65a2d69-5634-42a2-e4be-54e8a6176900, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: FR_1|2.7MB/s, server: 15.237.218.241, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Mohsen-2b0e6f658e, server: 18.191.124.183, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: GB_1|4.3MB/s, server: 31.77.8.97, port: 110, type: vmess, uuid: e8758bf0-c234-4809-89f7-25fd868316d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 俄罗斯联邦_091606174, server: 195.133.23.200, port: 7018, type: ss, cipher: aes-256-gcm, password: 81a20429165df87e, udp: true}
+- {name: 俄罗斯联邦_091622182, server: 46.17.40.234, port: 9019, type: ss, cipher: aes-256-gcm, password: bdb313adf74c2ede, udp: true}
+- {name: 俄罗斯联邦_091622183, server: 195.133.5.102, port: 9011, type: ss, cipher: aes-256-gcm, password: 895b4b796a357570, udp: true}
+- {name: FR_1|1.6MB/s, server: 13.39.233.161, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: FR_13|3.4MB/s, server: 15.237.137.134, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 美国_0916221889, server: 132.243.255.3, port: 9011, type: ss, cipher: aes-256-gcm, password: 78235e7dc55e9ad1, udp: true}
+- {name: 德国 | DEU 10, server: 63.180.252.123, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: _JP_日本, server: 38.47.121.14, port: 49432, type: vmess, uuid: ce94f204-ffa6-4fa8-a1dc-ecfccfd463cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+- {name: 俄罗斯联邦_091622181, server: 194.87.196.13, port: 9011, type: ss, cipher: aes-256-gcm, password: 4938e975724d0ed1, udp: true}
+- {name: FR_3|4.2MB/s, server: 15.188.246.220, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 新加坡 | SGP 2, server: cloud.lakshan.us, port: 119, type: trojan, password: skynet, sni: cloud.lakshan.us, skip-cert-verify: true, udp: true}
+- {name: 美国 | USA 3, server: 18.191.174.144, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 俄罗斯联邦_091622184, server: 195.58.48.137, port: 9019, type: ss, cipher: aes-256-gcm, password: 8ad9d72a5571df86, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -45,13 +51,19 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - US_16|2.3MB/s
-      - _CN_中国
-      - 4FreeIran-73e7622aaf
-      - _US_美国_1
-      - FR_1|2.7MB/s
-      - 4Mohsen-2b0e6f658e
-      - GB_1|4.3MB/s
+      - 俄罗斯联邦_091606174
+      - 俄罗斯联邦_091622182
+      - 俄罗斯联邦_091622183
+      - FR_1|1.6MB/s
+      - FR_13|3.4MB/s
+      - 美国_0916221889
+      - 德国 | DEU 10
+      - _JP_日本
+      - 俄罗斯联邦_091622181
+      - FR_3|4.2MB/s
+      - 新加坡 | SGP 2
+      - 美国 | USA 3
+      - 俄罗斯联邦_091622184
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -63,26 +75,38 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - US_16|2.3MB/s
-      - _CN_中国
-      - 4FreeIran-73e7622aaf
-      - _US_美国_1
-      - FR_1|2.7MB/s
-      - 4Mohsen-2b0e6f658e
-      - GB_1|4.3MB/s
+      - 俄罗斯联邦_091606174
+      - 俄罗斯联邦_091622182
+      - 俄罗斯联邦_091622183
+      - FR_1|1.6MB/s
+      - FR_13|3.4MB/s
+      - 美国_0916221889
+      - 德国 | DEU 10
+      - _JP_日本
+      - 俄罗斯联邦_091622181
+      - FR_3|4.2MB/s
+      - 新加坡 | SGP 2
+      - 美国 | USA 3
+      - 俄罗斯联邦_091622184
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - US_16|2.3MB/s
-      - _CN_中国
-      - 4FreeIran-73e7622aaf
-      - _US_美国_1
-      - FR_1|2.7MB/s
-      - 4Mohsen-2b0e6f658e
-      - GB_1|4.3MB/s
+      - 俄罗斯联邦_091606174
+      - 俄罗斯联邦_091622182
+      - 俄罗斯联邦_091622183
+      - FR_1|1.6MB/s
+      - FR_13|3.4MB/s
+      - 美国_0916221889
+      - 德国 | DEU 10
+      - _JP_日本
+      - 俄罗斯联邦_091622181
+      - FR_3|4.2MB/s
+      - 新加坡 | SGP 2
+      - 美国 | USA 3
+      - 俄罗斯联邦_091622184
   - name: 🐟 漏网之鱼
     type: select
     proxies:
