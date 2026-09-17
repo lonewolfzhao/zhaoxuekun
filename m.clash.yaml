@@ -4,7 +4,7 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 德国 | DEU 10, server: 63.180.252.123, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 台湾 | TWN, server: 82259754d625.oylfmxz.cn, port: 443, type: vmess, uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 82259754d625.oylfmxz.cn}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -17,7 +17,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 德国 | DEU 10
+      - 台湾 | TWN
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -29,14 +29,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 德国 | DEU 10
+      - 台湾 | TWN
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 德国 | DEU 10
+      - 台湾 | TWN
   - name: 🐟 漏网之鱼
     type: select
     proxies:
