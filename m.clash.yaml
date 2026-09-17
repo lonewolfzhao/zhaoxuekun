@@ -5,6 +5,7 @@ log-level: info
 external-controller: :50000
 proxies:
   - {name: de|57bc|puddincat07@Telegram, server: 52.28.158.0, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 英国_091717469, server: 82.47.186.18, port: 19290, type: ss, cipher: aes-128-gcm, password: o2rw2hICwu1blrr_gZAl2Q, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -18,6 +19,7 @@ proxy-groups:
     interval: 10
     proxies:
       - de|57bc|puddincat07@Telegram
+      - 英国_091717469
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -30,6 +32,7 @@ proxy-groups:
     interval: 10
     proxies:
       - de|57bc|puddincat07@Telegram
+      - 英国_091717469
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -37,6 +40,7 @@ proxy-groups:
     interval: 10
     proxies:
       - de|57bc|puddincat07@Telegram
+      - 英国_091717469
   - name: 🐟 漏网之鱼
     type: select
     proxies:
