@@ -26,13 +26,8 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: TW_2|1.1MB/s, server: dee2309db4se3grs6e8hg4w61sd53g1.oylfmxz.cn, port: 443, type: vmess, uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dee2309db4se3grs6e8hg4w61sd53g1.oylfmxz.cn}}, udp: true}
-- {name: 4Sarina-10b17606f3, server: 64.177.90.30, port: 8388, type: ss, cipher: aes-256-gcm, password: BWyPPTusFKhGgzKh, udp: true}
-- {name: HK_1|3.8MB/s, server: api.meituan88.com, port: 26774, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 313723:dCwrni, obfs-param: 33f313723.douyin.com, udp: true}
-- {name: TW_2|4.5MB/s, server: api.meituan88.com, port: 61714, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 313723:dCwrni, obfs-param: 33f313723.douyin.com, udp: true}
-- {name: DE_2|1.1MB/s 2, server: 3.70.156.210, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: FR_1|2.1MB/s, server: 15.237.196.230, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: US_3|1.9MB/s, server: 3.21.98.132, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: JP_4|5.0MB/s, server: 13.230.153.249, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 德国 | DEU 4, server: 45.32.157.84, port: 443, type: trojan, password: Tg3RnK7Xp8B1, sni: ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -45,13 +40,8 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - TW_2|1.1MB/s
-      - 4Sarina-10b17606f3
-      - HK_1|3.8MB/s
-      - TW_2|4.5MB/s
-      - DE_2|1.1MB/s 2
-      - FR_1|2.1MB/s
-      - US_3|1.9MB/s
+      - JP_4|5.0MB/s
+      - 德国 | DEU 4
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -63,26 +53,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - TW_2|1.1MB/s
-      - 4Sarina-10b17606f3
-      - HK_1|3.8MB/s
-      - TW_2|4.5MB/s
-      - DE_2|1.1MB/s 2
-      - FR_1|2.1MB/s
-      - US_3|1.9MB/s
+      - JP_4|5.0MB/s
+      - 德国 | DEU 4
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - TW_2|1.1MB/s
-      - 4Sarina-10b17606f3
-      - HK_1|3.8MB/s
-      - TW_2|4.5MB/s
-      - DE_2|1.1MB/s 2
-      - FR_1|2.1MB/s
-      - US_3|1.9MB/s
+      - JP_4|5.0MB/s
+      - 德国 | DEU 4
   - name: 🐟 漏网之鱼
     type: select
     proxies:
