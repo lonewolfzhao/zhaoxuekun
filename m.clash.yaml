@@ -4,7 +4,7 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: HK_2|2.7MB/s, server: hkgb707.ifastcdncache.com, port: 60852, type: vmess, uuid: f8eca8df-a1a5-4918-a194-d34112a3673f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkgb707.ifastcdncache.com}}, udp: true}
+  - {name: JP_4|5.0MB/s, server: 13.230.153.249, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -17,7 +17,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - HK_2|2.7MB/s
+      - JP_4|5.0MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -29,14 +29,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - HK_2|2.7MB/s
+      - JP_4|5.0MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - HK_2|2.7MB/s
+      - JP_4|5.0MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
