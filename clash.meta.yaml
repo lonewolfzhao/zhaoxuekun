@@ -26,8 +26,13 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: HK_2|2.7MB/s, server: hkgb707.ifastcdncache.com, port: 60852, type: vmess, uuid: f8eca8df-a1a5-4918-a194-d34112a3673f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkgb707.ifastcdncache.com}}, udp: true}
 - {name: JP_4|5.0MB/s, server: 13.230.153.249, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 德国 | DEU 4, server: 45.32.157.84, port: 443, type: trojan, password: Tg3RnK7Xp8B1, sni: ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com, skip-cert-verify: true, udp: true}
+- {name: SE_1|2.2MB/s, server: 16.170.221.224, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 爱尔兰_092310021, server: 89.125.244.241, port: 10090, type: ss, cipher: aes-256-gcm, password: 9cfaa78d51ac366f, udp: true}
+- {name: 美国_0923102235, server: 132.243.255.3, port: 10090, type: ss, cipher: aes-256-gcm, password: 78235e7dc55e9ad1, udp: true}
+- {name: 俄罗斯联邦_092310180, server: 194.87.196.13, port: 10090, type: ss, cipher: aes-256-gcm, password: 4938e975724d0ed1, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -40,8 +45,13 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - HK_2|2.7MB/s
       - JP_4|5.0MB/s
       - 德国 | DEU 4
+      - SE_1|2.2MB/s
+      - 爱尔兰_092310021
+      - 美国_0923102235
+      - 俄罗斯联邦_092310180
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -53,16 +63,26 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - HK_2|2.7MB/s
       - JP_4|5.0MB/s
       - 德国 | DEU 4
+      - SE_1|2.2MB/s
+      - 爱尔兰_092310021
+      - 美国_0923102235
+      - 俄罗斯联邦_092310180
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - HK_2|2.7MB/s
       - JP_4|5.0MB/s
       - 德国 | DEU 4
+      - SE_1|2.2MB/s
+      - 爱尔兰_092310021
+      - 美国_0923102235
+      - 俄罗斯联邦_092310180
   - name: 🐟 漏网之鱼
     type: select
     proxies:
