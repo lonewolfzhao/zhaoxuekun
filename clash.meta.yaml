@@ -26,14 +26,11 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: 4FreeIran-4fbac18220, server: 18.205.21.144, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Jadi-9af6143901, server: 51.20.122.188, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 日本 | JPN 2, server: 18.179.37.17, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 瑞典 | SWE, server: 13.51.242.39, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 德国 | DEU 4, server: 45.32.157.84, port: 443, type: trojan, password: Tg3RnK7Xp8B1, sni: ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com, skip-cert-verify: true, udp: true}
-- {name: 4Nika-947877c13f, server: 18.179.39.119, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Mohsen-a6dd9e159d, server: 3.112.209.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 日本_092511126, server: 13.231.205.193, port: 8319, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-- {name: JP_1|2.9MB/s, server: 54.199.248.166, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: US_10|2.5MB/s, server: 54.147.191.121, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 美国_0925062260, server: creativeboxse.zanity.net, port: 5228, type: ss, cipher: chacha20-ietf-poly1305, password: f8Llc9OigAChSUgWakI7ZW, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -46,14 +43,11 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4FreeIran-4fbac18220
+      - 4Jadi-9af6143901
+      - 日本 | JPN 2
       - 瑞典 | SWE
       - 德国 | DEU 4
-      - 4Nika-947877c13f
-      - 4Mohsen-a6dd9e159d
-      - 日本_092511126
-      - JP_1|2.9MB/s
-      - US_10|2.5MB/s
-      - 美国_0925062260
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -65,28 +59,22 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 4FreeIran-4fbac18220
+      - 4Jadi-9af6143901
+      - 日本 | JPN 2
       - 瑞典 | SWE
       - 德国 | DEU 4
-      - 4Nika-947877c13f
-      - 4Mohsen-a6dd9e159d
-      - 日本_092511126
-      - JP_1|2.9MB/s
-      - US_10|2.5MB/s
-      - 美国_0925062260
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 4FreeIran-4fbac18220
+      - 4Jadi-9af6143901
+      - 日本 | JPN 2
       - 瑞典 | SWE
       - 德国 | DEU 4
-      - 4Nika-947877c13f
-      - 4Mohsen-a6dd9e159d
-      - 日本_092511126
-      - JP_1|2.9MB/s
-      - US_10|2.5MB/s
-      - 美国_0925062260
   - name: 🐟 漏网之鱼
     type: select
     proxies:
