@@ -4,7 +4,7 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: JP_1|2.7MB/s, server: w12.luoli.de, port: 443, type: vmess, uuid: 42a99644-b90b-3627-8809-a2d6c4078b59, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ws, headers: {Host: w12.luoli.de}}, udp: true}
+  - {name: 美国_0929112388, server: 192.236.151.43, port: 443, type: trojan, password: OnHLrkVqZVtZyulTwC4bHrIbW7GyUDttKVNGEYVR12Y=, sni: 192.236.151.43, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -17,7 +17,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - JP_1|2.7MB/s
+      - 美国_0929112388
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -29,14 +29,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - JP_1|2.7MB/s
+      - 美国_0929112388
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - JP_1|2.7MB/s
+      - 美国_0929112388
   - name: 🐟 漏网之鱼
     type: select
     proxies:
