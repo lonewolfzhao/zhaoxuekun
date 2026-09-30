@@ -3,33 +3,8 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :50000
-unified-delay: true
-global-client-fingerprint: chrome
-dns:
-  enable: true
-  listen: :53
-  ipv6: true
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  default-nameserver:
-  - 223.5.5.5
-  - 8.8.8.8
-  nameserver:
-  - https://dns.alidns.com/dns-query
-  - https://doh.pub/dns-query
-  fallback:
-  - https://1.0.0.1/dns-query
-  - tls://dns.google
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
-    ipcidr:
-    - 240.0.0.0/4
 proxies:
-- {name: US_6|3.7MB/s, server: 134.195.101.117, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563}, udp: true}
-- {name: 4Jadi-9af6143901, server: 51.20.122.188, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: US_7|2.9MB/s, server: 134.195.101.118, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (Telegram🇨🇳 @VPNine1)9f6b1e7:141612}, udp: true}
-- {name: 4Sarina-675f40ca9e, server: 5.188.181.201, port: 9054, type: ss, cipher: aes-256-cfb, password: VcFuyXvND2yQWSFY, udp: true}
+  - {name: US_7|2.9MB/s, server: 134.195.101.118, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (Telegram🇨🇳 @VPNine1)9f6b1e7:141612}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -42,10 +17,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - US_6|3.7MB/s
-      - 4Jadi-9af6143901
       - US_7|2.9MB/s
-      - 4Sarina-675f40ca9e
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -57,20 +29,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - US_6|3.7MB/s
-      - 4Jadi-9af6143901
       - US_7|2.9MB/s
-      - 4Sarina-675f40ca9e
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - US_6|3.7MB/s
-      - 4Jadi-9af6143901
       - US_7|2.9MB/s
-      - 4Sarina-675f40ca9e
   - name: 🐟 漏网之鱼
     type: select
     proxies:
