@@ -27,9 +27,8 @@ dns:
     - 240.0.0.0/4
 proxies:
 - {name: US_6|3.7MB/s, server: 134.195.101.117, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563}, udp: true}
-- {name: 4Jadi-9af6143901, server: 51.20.122.188, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: US_7|2.9MB/s, server: 134.195.101.118, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (Telegram🇨🇳 @VPNine1)9f6b1e7:141612}, udp: true}
-- {name: 4Sarina-675f40ca9e, server: 5.188.181.201, port: 9054, type: ss, cipher: aes-256-cfb, password: VcFuyXvND2yQWSFY, udp: true}
+- {name: _CN_中国->🇭🇰_HK_中国香港, server: 36.133.74.15, port: 50011, type: vmess, uuid: 9195e0f1-f466-4e69-838f-a95519b5d45e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -43,9 +42,8 @@ proxy-groups:
     interval: 10
     proxies:
       - US_6|3.7MB/s
-      - 4Jadi-9af6143901
       - US_7|2.9MB/s
-      - 4Sarina-675f40ca9e
+      - _CN_中国->🇭🇰_HK_中国香港
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -58,9 +56,8 @@ proxy-groups:
     interval: 10
     proxies:
       - US_6|3.7MB/s
-      - 4Jadi-9af6143901
       - US_7|2.9MB/s
-      - 4Sarina-675f40ca9e
+      - _CN_中国->🇭🇰_HK_中国香港
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -68,9 +65,8 @@ proxy-groups:
     interval: 10
     proxies:
       - US_6|3.7MB/s
-      - 4Jadi-9af6143901
       - US_7|2.9MB/s
-      - 4Sarina-675f40ca9e
+      - _CN_中国->🇭🇰_HK_中国香港
   - name: 🐟 漏网之鱼
     type: select
     proxies:
