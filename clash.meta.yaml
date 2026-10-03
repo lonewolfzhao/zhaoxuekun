@@ -26,8 +26,20 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: US_6|3.7MB/s, server: 134.195.101.117, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563}, udp: true}
+- {name: _CN_中国->🇯🇵_JP_日本, server: sbgfgov.vip6.wogacnmnagfwgov.com, port: 11206, type: vmess, uuid: 605956ee-544d-308e-8b90-51e67c6ea8da, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: "爱尔兰 | IRL #1", server: loved-shark.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: loved-shark.rooster465.autos, skip-cert-verify: true, udp: true}
 - {name: US_7|2.9MB/s, server: 134.195.101.118, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (Telegram🇨🇳 @VPNine1)9f6b1e7:141612}, udp: true}
+- {name: "日本 | JPN #2", server: evolving-platypus.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: evolving-platypus.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 日本 | JPN 7, server: winning-marten.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: winning-marten.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: US_6|3.7MB/s, server: 134.195.101.117, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563}, udp: true}
+- {name: 日本 | JPN 2, server: organic-caribou.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: organic-caribou.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: "日本 | JPN #8", server: fancy-javelin.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: fancy-javelin.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: "日本 | JPN #1", server: brief-glider.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: brief-glider.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: "韩国 | KOR #2", server: main-fawn.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: main-fawn.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: "日本 | JPN #7", server: comic-poodle.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: comic-poodle.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 韩国 | KOR 9, server: evolving-ewe.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: evolving-ewe.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: "美国 | USA #3", server: happy-gibbon.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: happy-gibbon.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: _US_美国_1, server: 98.89.22.134, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -40,8 +52,20 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - US_6|3.7MB/s
+      - _CN_中国->🇯🇵_JP_日本
+      - "爱尔兰 | IRL #1"
       - US_7|2.9MB/s
+      - "日本 | JPN #2"
+      - 日本 | JPN 7
+      - US_6|3.7MB/s
+      - 日本 | JPN 2
+      - "日本 | JPN #8"
+      - "日本 | JPN #1"
+      - "韩国 | KOR #2"
+      - "日本 | JPN #7"
+      - 韩国 | KOR 9
+      - "美国 | USA #3"
+      - _US_美国_1
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -53,16 +77,40 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - US_6|3.7MB/s
+      - _CN_中国->🇯🇵_JP_日本
+      - "爱尔兰 | IRL #1"
       - US_7|2.9MB/s
+      - "日本 | JPN #2"
+      - 日本 | JPN 7
+      - US_6|3.7MB/s
+      - 日本 | JPN 2
+      - "日本 | JPN #8"
+      - "日本 | JPN #1"
+      - "韩国 | KOR #2"
+      - "日本 | JPN #7"
+      - 韩国 | KOR 9
+      - "美国 | USA #3"
+      - _US_美国_1
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - US_6|3.7MB/s
+      - _CN_中国->🇯🇵_JP_日本
+      - "爱尔兰 | IRL #1"
       - US_7|2.9MB/s
+      - "日本 | JPN #2"
+      - 日本 | JPN 7
+      - US_6|3.7MB/s
+      - 日本 | JPN 2
+      - "日本 | JPN #8"
+      - "日本 | JPN #1"
+      - "韩国 | KOR #2"
+      - "日本 | JPN #7"
+      - 韩国 | KOR 9
+      - "美国 | USA #3"
+      - _US_美国_1
   - name: 🐟 漏网之鱼
     type: select
     proxies:
