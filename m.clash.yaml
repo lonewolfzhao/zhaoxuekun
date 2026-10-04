@@ -5,7 +5,6 @@ log-level: info
 external-controller: :50000
 proxies:
   - {name: US_6|3.7MB/s, server: 134.195.101.117, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563}, udp: true}
-  - {name: US_7|2.9MB/s, server: 134.195.101.118, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (Telegram🇨🇳 @VPNine1)9f6b1e7:141612}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -19,7 +18,6 @@ proxy-groups:
     interval: 10
     proxies:
       - US_6|3.7MB/s
-      - US_7|2.9MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -32,7 +30,6 @@ proxy-groups:
     interval: 10
     proxies:
       - US_6|3.7MB/s
-      - US_7|2.9MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -40,7 +37,6 @@ proxy-groups:
     interval: 10
     proxies:
       - US_6|3.7MB/s
-      - US_7|2.9MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
