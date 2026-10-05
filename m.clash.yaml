@@ -4,7 +4,9 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 墨西哥_100511007, server: 147.78.1.234, port: 16673, type: ss, cipher: aes-128-gcm, password: 67c57ae584eecd70396fcd7ca7521130, udp: true}
+  - {name: "法国 | FRA #3", server: 52.47.133.105, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 法国 | FRA 5, server: 35.180.75.226, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 法国 | FRA 2, server: 15.224.203.210, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -17,7 +19,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 墨西哥_100511007
+      - "法国 | FRA #3"
+      - 法国 | FRA 5
+      - 法国 | FRA 2
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -29,14 +33,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 墨西哥_100511007
+      - "法国 | FRA #3"
+      - 法国 | FRA 5
+      - 法国 | FRA 2
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 墨西哥_100511007
+      - "法国 | FRA #3"
+      - 法国 | FRA 5
+      - 法国 | FRA 2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
