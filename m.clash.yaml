@@ -4,7 +4,9 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: "美国 | USA #4", server: 98.88.252.127, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: US_6|3.7MB/s, server: 134.195.101.117, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563}, udp: true}
+  - {name: 新加坡 | SGP 5, server: 45.127.32.220, port: 55002, type: vmess, uuid: b25731af-0428-4274-be5d-31a273a8d632, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /b25731af-0428-4274-be5d-31a273a8d632-vm, headers: {Host: www.bing.com}}, udp: true}
+  - {name: US_7|2.9MB/s, server: 134.195.101.118, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (Telegram🇨🇳 @VPNine1)9f6b1e7:141612}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -17,7 +19,9 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - "美国 | USA #4"
+      - US_6|3.7MB/s
+      - 新加坡 | SGP 5
+      - US_7|2.9MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -29,14 +33,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - "美国 | USA #4"
+      - US_6|3.7MB/s
+      - 新加坡 | SGP 5
+      - US_7|2.9MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - "美国 | USA #4"
+      - US_6|3.7MB/s
+      - 新加坡 | SGP 5
+      - US_7|2.9MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
