@@ -4,7 +4,7 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 4Sarina-471023ba04, server: 15.237.53.180, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: US_10|2.3MB/s, server: 88.210.36.107, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: feb7fa9:154948}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -17,7 +17,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Sarina-471023ba04
+      - US_10|2.3MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -29,14 +29,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Sarina-471023ba04
+      - US_10|2.3MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Sarina-471023ba04
+      - US_10|2.3MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
