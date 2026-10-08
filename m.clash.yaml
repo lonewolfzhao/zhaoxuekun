@@ -3,37 +3,9 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :50000
-unified-delay: true
-global-client-fingerprint: chrome
-dns:
-  enable: true
-  listen: :53
-  ipv6: true
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  default-nameserver:
-  - 223.5.5.5
-  - 8.8.8.8
-  nameserver:
-  - https://dns.alidns.com/dns-query
-  - https://doh.pub/dns-query
-  fallback:
-  - https://1.0.0.1/dns-query
-  - tls://dns.google
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
-    ipcidr:
-    - 240.0.0.0/4
 proxies:
-- {name: 4Nika-ab3dd06beb, server: 18.196.88.40, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Mohsen-f69de743e3, server: 13.36.241.80, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 法国 | FRA 3, server: 15.237.53.180, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "德国 | DEU #12", server: 3.66.88.253, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 德国 | DEU 7, server: 3.75.231.76, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 美国 | USA 4, server: 54.221.120.243, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 美国 | USA 2, server: 103.11.76.248, port: 80, type: ss, cipher: none, password: ODI4ZjAwZGMtNDQz, plugin: obfs, plugin-opts: {mode: http, host: upay.10010.com}, udp: true}
-- {name: 韩国 | KOR 3, server: 43.202.53.247, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: 7e68e32f-8015-4f37-9082-70e8b0b58043, udp: true}
+  - {name: 4Nika-ab3dd06beb, server: 18.196.88.40, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 4Mohsen-f69de743e3, server: 13.36.241.80, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -48,12 +20,6 @@ proxy-groups:
     proxies:
       - 4Nika-ab3dd06beb
       - 4Mohsen-f69de743e3
-      - 法国 | FRA 3
-      - "德国 | DEU #12"
-      - 德国 | DEU 7
-      - 美国 | USA 4
-      - 美国 | USA 2
-      - 韩国 | KOR 3
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -67,12 +33,6 @@ proxy-groups:
     proxies:
       - 4Nika-ab3dd06beb
       - 4Mohsen-f69de743e3
-      - 法国 | FRA 3
-      - "德国 | DEU #12"
-      - 德国 | DEU 7
-      - 美国 | USA 4
-      - 美国 | USA 2
-      - 韩国 | KOR 3
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -81,12 +41,6 @@ proxy-groups:
     proxies:
       - 4Nika-ab3dd06beb
       - 4Mohsen-f69de743e3
-      - 法国 | FRA 3
-      - "德国 | DEU #12"
-      - 德国 | DEU 7
-      - 美国 | USA 4
-      - 美国 | USA 2
-      - 韩国 | KOR 3
   - name: 🐟 漏网之鱼
     type: select
     proxies:
