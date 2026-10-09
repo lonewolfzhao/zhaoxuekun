@@ -4,7 +4,7 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: HK_2|1.4MB/s, server: brookseek.trafficmanager.net, port: 16105, type: trojan, password: 16db1e7c-975c-4b8d-9317-13b49e55404a, sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com, skip-cert-verify: true, udp: true}
+  - {name: 4Jadi-4a27a26d8d, server: 5.188.181.201, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -17,7 +17,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - HK_2|1.4MB/s
+      - 4Jadi-4a27a26d8d
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -29,14 +29,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - HK_2|1.4MB/s
+      - 4Jadi-4a27a26d8d
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - HK_2|1.4MB/s
+      - 4Jadi-4a27a26d8d
   - name: 🐟 漏网之鱼
     type: select
     proxies:
