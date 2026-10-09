@@ -26,14 +26,16 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 4Nika-ab3dd06beb, server: 18.196.88.40, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 4Mohsen-f69de743e3, server: 13.36.241.80, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 法国 | FRA 3, server: 15.237.53.180, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: "德国 | DEU #12", server: 3.66.88.253, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 德国 | DEU 7, server: 3.75.231.76, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 美国 | USA 4, server: 54.221.120.243, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: "韩国 | KOR #4", server: inviting-rabbit.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: inviting-rabbit.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 俄罗斯联邦_100904182 L25, server: 46.17.45.31, port: 50660, type: ss, cipher: aes-256-gcm, password: bdb313adf74c2ede, udp: true}
+- {name: 法国 | FRA 5, server: 51.44.86.16, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 4Mohsen-479a0db521, server: 3.67.197.81, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: 美国 | USA 2, server: 103.11.76.248, port: 80, type: ss, cipher: none, password: ODI4ZjAwZGMtNDQz, plugin: obfs, plugin-opts: {mode: http, host: upay.10010.com}, udp: true}
-- {name: 韩国 | KOR 3, server: 43.202.53.247, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: 7e68e32f-8015-4f37-9082-70e8b0b58043, udp: true}
+- {name: "美国 | USA #5", server: alert-titmouse.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: alert-titmouse.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 日本 | JPN 2, server: live-stallion.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: live-stallion.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 俄罗斯联邦_100904185 L25, server: 46.17.42.141, port: 50660, type: ss, cipher: aes-256-gcm, password: 6b39ae3234dfd68b, udp: true}
+- {name: 日本 | JPN, server: stable-python.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: stable-python.rooster465.autos, skip-cert-verify: true, udp: true}
+- {name: 波兰 | POL, server: enabling-snipe.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: enabling-snipe.rooster465.autos, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -46,14 +48,16 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Nika-ab3dd06beb
-      - 4Mohsen-f69de743e3
-      - 法国 | FRA 3
-      - "德国 | DEU #12"
-      - 德国 | DEU 7
-      - 美国 | USA 4
+      - "韩国 | KOR #4"
+      - 俄罗斯联邦_100904182 L25
+      - 法国 | FRA 5
+      - 4Mohsen-479a0db521
       - 美国 | USA 2
-      - 韩国 | KOR 3
+      - "美国 | USA #5"
+      - 日本 | JPN 2
+      - 俄罗斯联邦_100904185 L25
+      - 日本 | JPN
+      - 波兰 | POL
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -65,28 +69,32 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 4Nika-ab3dd06beb
-      - 4Mohsen-f69de743e3
-      - 法国 | FRA 3
-      - "德国 | DEU #12"
-      - 德国 | DEU 7
-      - 美国 | USA 4
+      - "韩国 | KOR #4"
+      - 俄罗斯联邦_100904182 L25
+      - 法国 | FRA 5
+      - 4Mohsen-479a0db521
       - 美国 | USA 2
-      - 韩国 | KOR 3
+      - "美国 | USA #5"
+      - 日本 | JPN 2
+      - 俄罗斯联邦_100904185 L25
+      - 日本 | JPN
+      - 波兰 | POL
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 4Nika-ab3dd06beb
-      - 4Mohsen-f69de743e3
-      - 法国 | FRA 3
-      - "德国 | DEU #12"
-      - 德国 | DEU 7
-      - 美国 | USA 4
+      - "韩国 | KOR #4"
+      - 俄罗斯联邦_100904182 L25
+      - 法国 | FRA 5
+      - 4Mohsen-479a0db521
       - 美国 | USA 2
-      - 韩国 | KOR 3
+      - "美国 | USA #5"
+      - 日本 | JPN 2
+      - 俄罗斯联邦_100904185 L25
+      - 日本 | JPN
+      - 波兰 | POL
   - name: 🐟 漏网之鱼
     type: select
     proxies:
