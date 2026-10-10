@@ -4,7 +4,7 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: KH_1|1.2MB/s, server: ruot.ayucloudservices.nl, port: 35019, type: ss, cipher: aes-128-gcm, password: 9c51ca33-a332-4de5-8677-5624e940097c, udp: true}
+  - {name: 未知 VMESS-296 | free-nodes, server: 120.48.133.162, port: 10086, type: vmess, uuid: fde10e39-48bb-4dcf-b3ba-71d711323a54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -17,7 +17,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - KH_1|1.2MB/s
+      - 未知 VMESS-296 | free-nodes
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -29,14 +29,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - KH_1|1.2MB/s
+      - 未知 VMESS-296 | free-nodes
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - KH_1|1.2MB/s
+      - 未知 VMESS-296 | free-nodes
   - name: 🐟 漏网之鱼
     type: select
     proxies:
