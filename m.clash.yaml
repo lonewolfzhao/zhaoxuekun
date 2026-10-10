@@ -4,7 +4,7 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 未知 VMESS-296 | free-nodes, server: 120.48.133.162, port: 10086, type: vmess, uuid: fde10e39-48bb-4dcf-b3ba-71d711323a54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: "土耳其 | TUR #1", server: www.asamping.ir, port: 1468, type: ss, cipher: aes-128-gcm, password: l2NidZbckMu4PnIHsJTYJg, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -17,7 +17,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 未知 VMESS-296 | free-nodes
+      - "土耳其 | TUR #1"
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -29,14 +29,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 未知 VMESS-296 | free-nodes
+      - "土耳其 | TUR #1"
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 未知 VMESS-296 | free-nodes
+      - "土耳其 | TUR #1"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
