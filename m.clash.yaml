@@ -4,7 +4,7 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 韩国_101018061 L1, server: 52.79.212.191, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: 7e68e32f-8015-4f37-9082-70e8b0b58043, udp: true}
+  - {name: _CN_中国->🇵🇭_PH_菲律宾_1, server: silversbgfgov.vip44.wogbcnmnagfwgov.com, port: 11244, type: vmess, uuid: 605956ee-544d-308e-8b90-51e67c6ea8da, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "土耳其 | TUR #1", server: www.asamping.ir, port: 1468, type: ss, cipher: aes-128-gcm, password: l2NidZbckMu4PnIHsJTYJg, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
@@ -18,7 +18,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 韩国_101018061 L1
+      - _CN_中国->🇵🇭_PH_菲律宾_1
       - "土耳其 | TUR #1"
   - name: 🔰 节点选择
     type: select
@@ -31,7 +31,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 韩国_101018061 L1
+      - _CN_中国->🇵🇭_PH_菲律宾_1
       - "土耳其 | TUR #1"
   - name: ♻️ 可能受限
     type: load-balance
@@ -39,7 +39,7 @@ proxy-groups:
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 韩国_101018061 L1
+      - _CN_中国->🇵🇭_PH_菲律宾_1
       - "土耳其 | TUR #1"
   - name: 🐟 漏网之鱼
     type: select
