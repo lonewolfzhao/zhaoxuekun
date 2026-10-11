@@ -26,14 +26,18 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: "[www.v2nodes.com] ss-US-1593...", server: ss.042.node-for-bigairport.win, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 792e0bdb-01db-450c-94c4-925151eb396e, udp: true}
-- {name: _HK_中国香港->🇺🇸_US_美国, server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: _CN_中国->🇵🇭_PH_菲律宾_1, server: silversbgfgov.vip44.wogbcnmnagfwgov.com, port: 11244, type: vmess, uuid: 605956ee-544d-308e-8b90-51e67c6ea8da, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: "日本 | JPN #1", server: allowed-poodle.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: allowed-poodle.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: AM_05, server: 86.107.50.183, port: 30111, type: ss, cipher: aes-256-gcm, password: 78235e7dc55e9ad1, udp: true}
-- {name: "土耳其 | TUR #1", server: www.asamping.ir, port: 1468, type: ss, cipher: aes-128-gcm, password: l2NidZbckMu4PnIHsJTYJg, udp: true}
+- {name: _US_美国, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: guanwang.awsno.com}}, udp: true}
+- {name: 美国_1011072788, server: ruot.ayucloudservices.nl, port: 22073, type: ss, cipher: aes-256-gcm, password: bd962c9a-d6f2-4561-bd80-34206c4d5279, udp: true}
+- {name: 法国 | FRA 2, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: "香港 | HKG #4", server: v36.hdacd.com, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: "法国 | FRA #2", server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 日本 | JPN, server: ruot.ayucloudservices.nl, port: 22069, type: ss, cipher: aes-256-gcm, password: bd962c9a-d6f2-4561-bd80-34206c4d5279, udp: true}
+- {name: 英国 | GBR, server: 13.40.25.145, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 - {name: _KR_韩国, server: 43.108.103.167, port: 123, type: vmess, uuid: 35aa0fda-175a-4aec-c468-0231dee1a121, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-- {name: 新加坡 | SGP 3, server: 13.212.173.211, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: 7e68e32f-8015-4f37-9082-70e8b0b58043, udp: true}
+- {name: 韩国 | KOR, server: 15.164.245.92, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: 7e68e32f-8015-4f37-9082-70e8b0b58043, udp: true}
+- {name: 罗马尼亚_101119034 L27, server: 194.68.44.42, port: 64546, type: ss, cipher: chacha20-ietf-poly1305, password: U83u9OGpvSatIUW7LsWffr, udp: true}
+- {name: 俄罗斯联邦_101107199 L25, server: 46.29.166.27, port: 20221, type: ss, cipher: aes-256-gcm, password: 6b39ae3234dfd68b, udp: true}
+- {name: 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -46,14 +50,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - "[www.v2nodes.com] ss-US-1593..."
-      - _HK_中国香港->🇺🇸_US_美国
-      - _CN_中国->🇵🇭_PH_菲律宾_1
-      - "日本 | JPN #1"
-      - AM_05
-      - "土耳其 | TUR #1"
+      - _US_美国
+      - 美国_1011072788
+      - 法国 | FRA 2
+      - "香港 | HKG #4"
+      - "法国 | FRA #2"
+      - 日本 | JPN
+      - 英国 | GBR
       - _KR_韩国
-      - 新加坡 | SGP 3
+      - 韩国 | KOR
+      - 罗马尼亚_101119034 L27
+      - 俄罗斯联邦_101107199 L25
+      - 香港|@ripaojiedian
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -65,28 +73,36 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - "[www.v2nodes.com] ss-US-1593..."
-      - _HK_中国香港->🇺🇸_US_美国
-      - _CN_中国->🇵🇭_PH_菲律宾_1
-      - "日本 | JPN #1"
-      - AM_05
-      - "土耳其 | TUR #1"
+      - _US_美国
+      - 美国_1011072788
+      - 法国 | FRA 2
+      - "香港 | HKG #4"
+      - "法国 | FRA #2"
+      - 日本 | JPN
+      - 英国 | GBR
       - _KR_韩国
-      - 新加坡 | SGP 3
+      - 韩国 | KOR
+      - 罗马尼亚_101119034 L27
+      - 俄罗斯联邦_101107199 L25
+      - 香港|@ripaojiedian
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - "[www.v2nodes.com] ss-US-1593..."
-      - _HK_中国香港->🇺🇸_US_美国
-      - _CN_中国->🇵🇭_PH_菲律宾_1
-      - "日本 | JPN #1"
-      - AM_05
-      - "土耳其 | TUR #1"
+      - _US_美国
+      - 美国_1011072788
+      - 法国 | FRA 2
+      - "香港 | HKG #4"
+      - "法国 | FRA #2"
+      - 日本 | JPN
+      - 英国 | GBR
       - _KR_韩国
-      - 新加坡 | SGP 3
+      - 韩国 | KOR
+      - 罗马尼亚_101119034 L27
+      - 俄罗斯联邦_101107199 L25
+      - 香港|@ripaojiedian
   - name: 🐟 漏网之鱼
     type: select
     proxies:
