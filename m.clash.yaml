@@ -4,7 +4,7 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 英国 | GBR 3, server: 103.169.142.87, port: 443, type: vmess, uuid: 31c3e8e7-f600-436a-87d4-9716143b0b0c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /London3, headers: {Host: uk.lovehk.xyz}}, udp: true}
+  - {name: CA_3|3.0MB/s, server: 15.175.220.220, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -17,7 +17,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 英国 | GBR 3
+      - CA_3|3.0MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -29,14 +29,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 英国 | GBR 3
+      - CA_3|3.0MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 英国 | GBR 3
+      - CA_3|3.0MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
