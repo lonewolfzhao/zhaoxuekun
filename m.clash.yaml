@@ -4,7 +4,18 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
+  - {name: 香港 | HKG 6, server: bYWXdhIRqKJj8XAZ.v.3dns.vip, port: 443, type: vmess, uuid: e4cfeb24-c58f-4813-b0c8-d2b6b52cd244, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: bYWXdhIRqKJj8XAZ.v.3dns.vip}}, udp: true}
+  - {name: 新加坡 | SGP 2, server: K5DYRTmkNsLnAj8V.v.3dns.vip, port: 443, type: vmess, uuid: b89b702b-31ef-4f6a-85df-c264795a987b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: K5DYRTmkNsLnAj8V.v.3dns.vip}}, udp: true}
+  - {name: SG_1|4.7MB/s, server: ruot.ayucloudservices.nl, port: 40022, type: ss, cipher: aes-128-gcm, password: 85590bd2-807b-49b9-af20-1101c18b9eda, udp: true}
   - {name: 美国 | USA 6, server: ruot.ayucloudservices.nl, port: 40022, type: ss, cipher: aes-128-gcm, password: 49b07b98-6b76-4c70-b046-39be88e75abf, udp: true}
+  - {name: 英国 | GBR 2, server: 13.135.199.253, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 韩国 | KOR 3, server: baBfGGlhjs86aTxZ.v.3dns.vip, port: 443, type: vmess, uuid: b89b702b-31ef-4f6a-85df-c264795a987b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: baBfGGlhjs86aTxZ.v.3dns.vip}}, udp: true}
+  - {name: 德国 | DEU 9, server: 185.239.141.248, port: 8388, type: ss, cipher: aes-256-gcm, password: j_Z9yWqItCz_9yhD5YVY4w, udp: true}
+  - {name: 德国 | DEU 6, server: 4vJWBUhtW5vKHytB.v.3dns.vip, port: 443, type: vmess, uuid: e4cfeb24-c58f-4813-b0c8-d2b6b52cd244, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: 4vJWBUhtW5vKHytB.v.3dns.vip}}, udp: true}
+  - {name: 韩国 | KOR, server: 13.125.180.150, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: 7e68e32f-8015-4f37-9082-70e8b0b58043, udp: true}
+  - {name: 孟加拉国_101313002 L26, server: 103.136.68.30, port: 8388, type: ss, cipher: aes-256-gcm, password: H3epGAIO5GGkhNJB, udp: true}
+  - {name: 德国 | DEU 10, server: kBd17k34BR3HAOJ2.v.3dns.vip, port: 443, type: vmess, uuid: e4cfeb24-c58f-4813-b0c8-d2b6b52cd244, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: kBd17k34BR3HAOJ2.v.3dns.vip}}, udp: true}
+  - {name: 新加坡 | SGP, server: 54.254.240.48, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: 7e68e32f-8015-4f37-9082-70e8b0b58043, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -17,7 +28,18 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 香港 | HKG 6
+      - 新加坡 | SGP 2
+      - SG_1|4.7MB/s
       - 美国 | USA 6
+      - 英国 | GBR 2
+      - 韩国 | KOR 3
+      - 德国 | DEU 9
+      - 德国 | DEU 6
+      - 韩国 | KOR
+      - 孟加拉国_101313002 L26
+      - 德国 | DEU 10
+      - 新加坡 | SGP
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -29,14 +51,36 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - 香港 | HKG 6
+      - 新加坡 | SGP 2
+      - SG_1|4.7MB/s
       - 美国 | USA 6
+      - 英国 | GBR 2
+      - 韩国 | KOR 3
+      - 德国 | DEU 9
+      - 德国 | DEU 6
+      - 韩国 | KOR
+      - 孟加拉国_101313002 L26
+      - 德国 | DEU 10
+      - 新加坡 | SGP
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - 香港 | HKG 6
+      - 新加坡 | SGP 2
+      - SG_1|4.7MB/s
       - 美国 | USA 6
+      - 英国 | GBR 2
+      - 韩国 | KOR 3
+      - 德国 | DEU 9
+      - 德国 | DEU 6
+      - 韩国 | KOR
+      - 孟加拉国_101313002 L26
+      - 德国 | DEU 10
+      - 新加坡 | SGP
   - name: 🐟 漏网之鱼
     type: select
     proxies:
