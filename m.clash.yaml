@@ -4,7 +4,7 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 俄罗斯联邦_101407002, server: renderer-stream-2-114.mirra.now, port: 443, type: vmess, uuid: 8ffa41d4-e6b5-4af5-a8a9-69e26bec75f5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v1/gpu-stream/socket, headers: {Host: renderer-stream-2-114.mirra.now}}, udp: true}
+  - {name: _HK_中国香港->🇫🇷_FR_法国, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -17,7 +17,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 俄罗斯联邦_101407002
+      - _HK_中国香港->🇫🇷_FR_法国
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -29,14 +29,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 俄罗斯联邦_101407002
+      - _HK_中国香港->🇫🇷_FR_法国
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 俄罗斯联邦_101407002
+      - _HK_中国香港->🇫🇷_FR_法国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
