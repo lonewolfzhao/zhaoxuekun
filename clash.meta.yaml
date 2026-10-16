@@ -26,14 +26,14 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 新加坡_101510272 L0, server: 45.12.89.202, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1f24d145bf7c877f7e3140b7918eb9cd804b1576a96596f9, udp: true}
-- {name: _HK_中国香港->🇯🇵_JP_日本, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: _HK_中国香港->🇺🇸_US_美国, server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 西班牙_101510024 L0, server: 185.227.174.29, port: 8389, type: ss, cipher: aes-256-gcm, password: EwUhOxemnPqaUvJgq4S8ug, udp: true}
-- {name: 美国 | USA 9, server: 66.23.203.21, port: 59689, type: trojan, password: ae7eb4dwyaz25pxwgq59, skip-cert-verify: true, udp: true}
-- {name: 英国 | GBR 2, server: 13.40.23.138, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: _HK_中国香港->🇯🇵_JP_日本 2, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 美国_1015102856 L5, server: 154.36.158.197, port: 8388, type: ss, cipher: aes-256-gcm, password: BeaUf9c0AEWH40Pu, udp: true}
+- {name: "韩国 | KOR #1", server: seoul02.zgjok.com, port: 443, type: vmess, uuid: 1a1e5196-eab4-4772-9012-65c27f19a524, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: seoul02.zgjok.com}}, udp: true}
+- {name: 美国 | USA 9, server: 66.23.203.21, port: 59689, type: trojan, password: ae7eb4dwyaz25pxwgq59, skip-cert-verify: true, udp: true}
+- {name: _PL_波兰, server: 201.10.90.81, port: 443, type: trojan, password: u93yPGuY2zgIsisJZKS2QzJzg, sni: HL-FREEDOM-2.UNDEF.NETWORK, skip-cert-verify: true, udp: true}
+- {name: 4Sarina-7204db46a5, server: 95.169.3.45, port: 46010, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 123456, udp: true}
+- {name: 4Jadi-a2285c3346, server: 95.169.3.45, port: 46005, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 123456, udp: true}
+- {name: 4Nika-33bd51f14d, server: 95.169.3.45, port: 46009, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 123456, udp: true}
+- {name: 英国 | GBR, server: 172.67.137.209, port: 443, type: vmess, uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /London31, headers: {Host: ukl.lovehk.xyz}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -46,14 +46,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 新加坡_101510272 L0
-      - _HK_中国香港->🇯🇵_JP_日本
-      - _HK_中国香港->🇺🇸_US_美国
-      - 西班牙_101510024 L0
-      - 美国 | USA 9
-      - 英国 | GBR 2
-      - _HK_中国香港->🇯🇵_JP_日本 2
       - 美国_1015102856 L5
+      - "韩国 | KOR #1"
+      - 美国 | USA 9
+      - _PL_波兰
+      - 4Sarina-7204db46a5
+      - 4Jadi-a2285c3346
+      - 4Nika-33bd51f14d
+      - 英国 | GBR
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -65,28 +65,28 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 新加坡_101510272 L0
-      - _HK_中国香港->🇯🇵_JP_日本
-      - _HK_中国香港->🇺🇸_US_美国
-      - 西班牙_101510024 L0
-      - 美国 | USA 9
-      - 英国 | GBR 2
-      - _HK_中国香港->🇯🇵_JP_日本 2
       - 美国_1015102856 L5
+      - "韩国 | KOR #1"
+      - 美国 | USA 9
+      - _PL_波兰
+      - 4Sarina-7204db46a5
+      - 4Jadi-a2285c3346
+      - 4Nika-33bd51f14d
+      - 英国 | GBR
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 新加坡_101510272 L0
-      - _HK_中国香港->🇯🇵_JP_日本
-      - _HK_中国香港->🇺🇸_US_美国
-      - 西班牙_101510024 L0
-      - 美国 | USA 9
-      - 英国 | GBR 2
-      - _HK_中国香港->🇯🇵_JP_日本 2
       - 美国_1015102856 L5
+      - "韩国 | KOR #1"
+      - 美国 | USA 9
+      - _PL_波兰
+      - 4Sarina-7204db46a5
+      - 4Jadi-a2285c3346
+      - 4Nika-33bd51f14d
+      - 英国 | GBR
   - name: 🐟 漏网之鱼
     type: select
     proxies:
