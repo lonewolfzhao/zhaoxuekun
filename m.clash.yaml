@@ -4,7 +4,7 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 美国 | USA 9, server: 66.23.203.21, port: 59689, type: trojan, password: ae7eb4dwyaz25pxwgq59, skip-cert-verify: true, udp: true}
+  - {name: 4Sarina-7204db46a5, server: 95.169.3.45, port: 46010, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 123456, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -17,7 +17,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国 | USA 9
+      - 4Sarina-7204db46a5
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -29,14 +29,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国 | USA 9
+      - 4Sarina-7204db46a5
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 美国 | USA 9
+      - 4Sarina-7204db46a5
   - name: 🐟 漏网之鱼
     type: select
     proxies:
