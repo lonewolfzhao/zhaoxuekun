@@ -4,7 +4,7 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 美国_101716218, server: nl-2a972c8052.shamanapp.online, port: 33736, type: vmess, uuid: 1281acca-f21d-475c-bf04-eccbee7f8df2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess-ws, headers: {Host: nl-2a972c8052.shamanapp.online}}, udp: true}
+  - {name: PL_3|3.3MB/s, server: 78.17.171.62, port: 443, type: trojan, password: u93yPGuY2zgIsisJZKS2QzJzg, sni: FREETOPLAY-2.TETRIS-GAME.WORLD, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -17,7 +17,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国_101716218
+      - PL_3|3.3MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -29,14 +29,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国_101716218
+      - PL_3|3.3MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 美国_101716218
+      - PL_3|3.3MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
