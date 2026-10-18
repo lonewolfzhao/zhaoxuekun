@@ -6,7 +6,12 @@ external-controller: :50000
 proxies:
   - {name: _CN_中国->🇮🇪_IE_爱尔兰, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: _CN_中国->🇯🇵_JP_日本, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本 2, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: PL_3|3.3MB/s, server: 78.17.171.62, port: 443, type: trojan, password: u93yPGuY2zgIsisJZKS2QzJzg, sni: FREETOPLAY-2.TETRIS-GAME.WORLD, skip-cert-verify: true, udp: true}
+  - {name: 保加利亚 | BGR, server: ger8.fytpn.com, port: 443, type: trojan, password: -VbTw-xqE7XYmEsoZTE7ShJoYLCjdBMQ, sni: ger1.fytpn.com, skip-cert-verify: true, udp: true}
+  - {name: 香港 | HKG 6, server: 47.244.120.197, port: 44867, type: vmess, uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /arki}, udp: true}
+  - {name: 香港 | HKG 7, server: qtkdr8jxe3wefxjm.v.3dns.vip, port: 443, type: vmess, uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: qTKDR8jXE3wEFxJM.v.3dns.vip}}, udp: true}
+  - {name: 美国 | USA 4, server: 162.159.91.211, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 | USA 7, server: 18.226.185.149, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -21,7 +26,12 @@ proxy-groups:
     proxies:
       - _CN_中国->🇮🇪_IE_爱尔兰
       - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇯🇵_JP_日本 2
+      - PL_3|3.3MB/s
+      - 保加利亚 | BGR
+      - 香港 | HKG 6
+      - 香港 | HKG 7
+      - 美国 | USA 4
+      - 美国 | USA 7
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -35,7 +45,12 @@ proxy-groups:
     proxies:
       - _CN_中国->🇮🇪_IE_爱尔兰
       - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇯🇵_JP_日本 2
+      - PL_3|3.3MB/s
+      - 保加利亚 | BGR
+      - 香港 | HKG 6
+      - 香港 | HKG 7
+      - 美国 | USA 4
+      - 美国 | USA 7
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -44,7 +59,12 @@ proxy-groups:
     proxies:
       - _CN_中国->🇮🇪_IE_爱尔兰
       - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇯🇵_JP_日本 2
+      - PL_3|3.3MB/s
+      - 保加利亚 | BGR
+      - 香港 | HKG 6
+      - 香港 | HKG 7
+      - 美国 | USA 4
+      - 美国 | USA 7
   - name: 🐟 漏网之鱼
     type: select
     proxies:
