@@ -8,7 +8,6 @@ proxies:
   - {name: US-VMESS-01, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: _CN_中国->🇫🇷_FR_法国, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: US-VMESS-02, server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: PL_3|3.3MB/s, server: 78.17.171.62, port: 443, type: trojan, password: u93yPGuY2zgIsisJZKS2QzJzg, sni: FREETOPLAY-2.TETRIS-GAME.WORLD, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -25,7 +24,6 @@ proxy-groups:
       - US-VMESS-01
       - _CN_中国->🇫🇷_FR_法国
       - US-VMESS-02
-      - PL_3|3.3MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -41,7 +39,6 @@ proxy-groups:
       - US-VMESS-01
       - _CN_中国->🇫🇷_FR_法国
       - US-VMESS-02
-      - PL_3|3.3MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
@@ -52,7 +49,6 @@ proxy-groups:
       - US-VMESS-01
       - _CN_中国->🇫🇷_FR_法国
       - US-VMESS-02
-      - PL_3|3.3MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
