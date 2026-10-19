@@ -26,13 +26,14 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: CF中转_101810039 L0, server: 172.67.137.209, port: 443, type: vmess, uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /London31, headers: {Host: ukl.lovehk.xyz}}, udp: true}
-- {name: UN-TROJAN-01, server: de4.dedushka.top, port: 443, type: trojan, password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA, sni: de4.dedushka.top, skip-cert-verify: true, udp: true}
-- {name: US-VMESS-01, server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: US_2|3.3MB/s, server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: _CN_中国->🇫🇷_FR_法国, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: _CN_中国->🇮🇪_IE_爱尔兰, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: US_2|3.3MB/s, server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 俄罗斯联邦_101910302 L0, server: 176.32.33.143, port: 18443, type: ss, cipher: aes-256-gcm, password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa, udp: true}
+- {name: 日本_101910004 L37, server: 45.32.52.173, port: 8886, type: trojan, password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437, sni: 45.32.52.173, skip-cert-verify: true, udp: true}
 - {name: UN-VMESS-01, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _CN_中国->🇮🇪_IE_爱尔兰, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: US-VMESS-01, server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: "[www.v2nodes.com] trojan-SG-...", server: 139.180.146.200, port: 8886, type: trojan, password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437, sni: 139.180.146.200, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -45,13 +46,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - CF中转_101810039 L0
-      - UN-TROJAN-01
-      - US-VMESS-01
-      - US_2|3.3MB/s
       - _CN_中国->🇫🇷_FR_法国
-      - _CN_中国->🇮🇪_IE_爱尔兰
+      - US_2|3.3MB/s
+      - 俄罗斯联邦_101910302 L0
+      - 日本_101910004 L37
       - UN-VMESS-01
+      - _CN_中国->🇮🇪_IE_爱尔兰
+      - US-VMESS-01
+      - "[www.v2nodes.com] trojan-SG-..."
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -63,26 +65,28 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - CF中转_101810039 L0
-      - UN-TROJAN-01
-      - US-VMESS-01
-      - US_2|3.3MB/s
       - _CN_中国->🇫🇷_FR_法国
-      - _CN_中国->🇮🇪_IE_爱尔兰
+      - US_2|3.3MB/s
+      - 俄罗斯联邦_101910302 L0
+      - 日本_101910004 L37
       - UN-VMESS-01
+      - _CN_中国->🇮🇪_IE_爱尔兰
+      - US-VMESS-01
+      - "[www.v2nodes.com] trojan-SG-..."
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - CF中转_101810039 L0
-      - UN-TROJAN-01
-      - US-VMESS-01
-      - US_2|3.3MB/s
       - _CN_中国->🇫🇷_FR_法国
-      - _CN_中国->🇮🇪_IE_爱尔兰
+      - US_2|3.3MB/s
+      - 俄罗斯联邦_101910302 L0
+      - 日本_101910004 L37
       - UN-VMESS-01
+      - _CN_中国->🇮🇪_IE_爱尔兰
+      - US-VMESS-01
+      - "[www.v2nodes.com] trojan-SG-..."
   - name: 🐟 漏网之鱼
     type: select
     proxies:
