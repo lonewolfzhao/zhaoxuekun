@@ -26,19 +26,21 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- {name: 美国 | USA, server: 3.15.220.122, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-- {name: 台湾 | TWN, server: 9641684.sdf65h4.top, port: 443, type: vmess, uuid: 250c015d-bab0-4ed3-b638-b4eda48f5840, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 9641684.sdf65h4.top}}, udp: true}
-- {name: 荷兰_102017419 L0, server: 202.50.253.45, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+- {name: 韩国 | KOR, server: tjhg.m2k699.com, port: 24999, type: trojan, password: 28c4a59d-c2a0-4d6c-ba7d-db6a354990de, sni: www.itunes.com, skip-cert-verify: true, udp: true}
+- {name: "意大利 | ITA #1", server: 202.50.253.54, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+- {name: 荷兰_102217009 L0, server: 202.50.253.36, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
 - {name: nl|5013|puddincat07@Telegram, server: 202.50.253.90, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-- {name: 荷兰_102117410 L0, server: 202.50.253.99, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-- {name: 荷兰_102017421 L0, server: 202.50.253.63, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-- {name: 荷兰_102017420 L0, server: 202.50.253.54, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
 - {name: 荷兰_102017416 L0, server: 202.50.253.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+- {name: 荷兰_102017416 L0 2, server: 202.50.253.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
 - {name: 荷兰_102017422 L0, server: 202.50.253.72, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-- {name: 荷兰_102017418 L0, server: 202.50.253.36, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+- {name: 荷兰_102117410 L0, server: 202.50.253.99, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+- {name: 荷兰_102017419 L0, server: 202.50.253.45, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
 - {name: 荷兰_102110413 L0, server: 202.50.253.81, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
 - {name: 荷兰_102017417 L0, server: 202.50.253.27, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+- {name: 荷兰_102217023, server: dns5.m3hrzd.ir, port: 8044, type: ss, cipher: chacha20-ietf-poly1305, password: 5ox2e7xif1rCKOiffOPvibGk-KVXCk8v, udp: true}
+- {name: 荷兰_102217002 L0, server: 202.50.253.63, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
 - {name: UN-VMESS-01, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: _CN_中国->🇯🇵_JP_日本, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -51,19 +53,21 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国 | USA
-      - 台湾 | TWN
-      - 荷兰_102017419 L0
+      - 韩国 | KOR
+      - "意大利 | ITA #1"
+      - 荷兰_102217009 L0
       - nl|5013|puddincat07@Telegram
-      - 荷兰_102117410 L0
-      - 荷兰_102017421 L0
-      - 荷兰_102017420 L0
       - 荷兰_102017416 L0
+      - 荷兰_102017416 L0 2
       - 荷兰_102017422 L0
-      - 荷兰_102017418 L0
+      - 荷兰_102117410 L0
+      - 荷兰_102017419 L0
       - 荷兰_102110413 L0
       - 荷兰_102017417 L0
+      - 荷兰_102217023
+      - 荷兰_102217002 L0
       - UN-VMESS-01
+      - _CN_中国->🇯🇵_JP_日本
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -75,38 +79,42 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国 | USA
-      - 台湾 | TWN
-      - 荷兰_102017419 L0
+      - 韩国 | KOR
+      - "意大利 | ITA #1"
+      - 荷兰_102217009 L0
       - nl|5013|puddincat07@Telegram
-      - 荷兰_102117410 L0
-      - 荷兰_102017421 L0
-      - 荷兰_102017420 L0
       - 荷兰_102017416 L0
+      - 荷兰_102017416 L0 2
       - 荷兰_102017422 L0
-      - 荷兰_102017418 L0
+      - 荷兰_102117410 L0
+      - 荷兰_102017419 L0
       - 荷兰_102110413 L0
       - 荷兰_102017417 L0
+      - 荷兰_102217023
+      - 荷兰_102217002 L0
       - UN-VMESS-01
+      - _CN_中国->🇯🇵_JP_日本
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 美国 | USA
-      - 台湾 | TWN
-      - 荷兰_102017419 L0
+      - 韩国 | KOR
+      - "意大利 | ITA #1"
+      - 荷兰_102217009 L0
       - nl|5013|puddincat07@Telegram
-      - 荷兰_102117410 L0
-      - 荷兰_102017421 L0
-      - 荷兰_102017420 L0
       - 荷兰_102017416 L0
+      - 荷兰_102017416 L0 2
       - 荷兰_102017422 L0
-      - 荷兰_102017418 L0
+      - 荷兰_102117410 L0
+      - 荷兰_102017419 L0
       - 荷兰_102110413 L0
       - 荷兰_102017417 L0
+      - 荷兰_102217023
+      - 荷兰_102217002 L0
       - UN-VMESS-01
+      - _CN_中国->🇯🇵_JP_日本
   - name: 🐟 漏网之鱼
     type: select
     proxies:
