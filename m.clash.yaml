@@ -4,7 +4,7 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 美国_1023104038 L20, server: 205.209.104.94, port: 17897, type: ss, cipher: aes-128-gcm, password: 0b5037a729c3a2a6134e82445bcc5ff3, udp: true}
+  - {name: 4Jadi-931524bda7, server: 82.38.31.169, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -17,7 +17,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国_1023104038 L20
+      - 4Jadi-931524bda7
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -29,14 +29,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国_1023104038 L20
+      - 4Jadi-931524bda7
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 美国_1023104038 L20
+      - 4Jadi-931524bda7
   - name: 🐟 漏网之鱼
     type: select
     proxies:
