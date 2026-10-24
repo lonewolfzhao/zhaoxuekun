@@ -26,19 +26,21 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- {name: NL_1|3.5MB/s, server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 荷兰_102410007 L0, server: 202.50.253.36, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+- {name: CF中转_1024178456 L0, server: 172.67.167.78, port: 8443, type: vmess, uuid: 60441548-b68e-43b2-8191-e3b884be4b3c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /lMnsZUN4/, headers: {Host: v2ray1.dozapp.xyz}}, udp: true}
+- {name: 荷兰_102417488 L0, server: 213.189.8.70, port: 8044, type: ss, cipher: chacha20-ietf-poly1305, password: eLXzVwBgkN77aIof2pEhaYmpATVZVIlh, udp: true}
+- {name: 马来西亚_102417003 L0, server: 47.250.84.25, port: 443, type: trojan, password: 5931134d1cde66bf83a54acdfebe7ab2, skip-cert-verify: true, udp: true}
+- {name: 荷兰_102417008, server: dns2.m3hrzd.ir, port: 8044, type: ss, cipher: chacha20-ietf-poly1305, password: eLXzVwBgkN77aIof2pEhaYmpATVZVIlh, udp: true}
+- {name: 荷兰_102417001 L0, server: 202.50.253.72, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+- {name: "[www.v2nodes.com] ss-IT-1602... #7", server: 202.50.253.81, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+- {name: "[www.v2nodes.com] ss-IT-1602... #3", server: 202.50.253.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
 - {name: 荷兰_102217004 L0, server: 202.50.253.99, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-- {name: 荷兰_102017416 L0, server: 202.50.253.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+- {name: "[www.v2nodes.com] ss-IT-1602... #1", server: 202.50.253.54, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+- {name: "[www.v2nodes.com] ss-IT-1602... #3 2", server: 202.50.253.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
 - {name: "[www.v2nodes.com] ss-JP-1599...", server: 154.36.158.197, port: 8388, type: ss, cipher: aes-256-gcm, password: BeaUf9c0AEWH40Pu, udp: true}
-- {name: 俄罗斯联邦_102317303 L0, server: 195.133.5.194, port: 18443, type: ss, cipher: aes-256-gcm, password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p, udp: true}
-- {name: 荷兰_102317003 L0, server: 202.50.253.63, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-- {name: "[www.v2nodes.com] ss-IT-1602... #9", server: 202.50.253.27, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-- {name: 荷兰_102217009 L0, server: 202.50.253.36, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-- {name: 俄罗斯联邦_102317302 L0, server: 176.32.33.153, port: 18443, type: ss, cipher: aes-256-gcm, password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa, udp: true}
-- {name: 荷兰_102317002 L0, server: 202.50.253.72, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-- {name: _CN_中国->🇯🇵_JP_日本, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: UN-VMESS-01, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: JP-VMESS-01, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: US-VMESS-01, server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: "[www.v2nodes.com] ss-IT-1602... #7 2", server: 202.50.253.27, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+- {name: 荷兰_102410003 L0, server: 202.50.253.45, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -51,19 +53,21 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - NL_1|3.5MB/s
+      - 荷兰_102410007 L0
+      - CF中转_1024178456 L0
+      - 荷兰_102417488 L0
+      - 马来西亚_102417003 L0
+      - 荷兰_102417008
+      - 荷兰_102417001 L0
+      - "[www.v2nodes.com] ss-IT-1602... #7"
+      - "[www.v2nodes.com] ss-IT-1602... #3"
       - 荷兰_102217004 L0
-      - 荷兰_102017416 L0
+      - "[www.v2nodes.com] ss-IT-1602... #1"
+      - "[www.v2nodes.com] ss-IT-1602... #3 2"
       - "[www.v2nodes.com] ss-JP-1599..."
-      - 俄罗斯联邦_102317303 L0
-      - 荷兰_102317003 L0
-      - "[www.v2nodes.com] ss-IT-1602... #9"
-      - 荷兰_102217009 L0
-      - 俄罗斯联邦_102317302 L0
-      - 荷兰_102317002 L0
-      - _CN_中国->🇯🇵_JP_日本
-      - UN-VMESS-01
-      - JP-VMESS-01
-      - US-VMESS-01
+      - "[www.v2nodes.com] ss-IT-1602... #7 2"
+      - 荷兰_102410003 L0
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -75,38 +79,42 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
+      - NL_1|3.5MB/s
+      - 荷兰_102410007 L0
+      - CF中转_1024178456 L0
+      - 荷兰_102417488 L0
+      - 马来西亚_102417003 L0
+      - 荷兰_102417008
+      - 荷兰_102417001 L0
+      - "[www.v2nodes.com] ss-IT-1602... #7"
+      - "[www.v2nodes.com] ss-IT-1602... #3"
       - 荷兰_102217004 L0
-      - 荷兰_102017416 L0
+      - "[www.v2nodes.com] ss-IT-1602... #1"
+      - "[www.v2nodes.com] ss-IT-1602... #3 2"
       - "[www.v2nodes.com] ss-JP-1599..."
-      - 俄罗斯联邦_102317303 L0
-      - 荷兰_102317003 L0
-      - "[www.v2nodes.com] ss-IT-1602... #9"
-      - 荷兰_102217009 L0
-      - 俄罗斯联邦_102317302 L0
-      - 荷兰_102317002 L0
-      - _CN_中国->🇯🇵_JP_日本
-      - UN-VMESS-01
-      - JP-VMESS-01
-      - US-VMESS-01
+      - "[www.v2nodes.com] ss-IT-1602... #7 2"
+      - 荷兰_102410003 L0
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
+      - NL_1|3.5MB/s
+      - 荷兰_102410007 L0
+      - CF中转_1024178456 L0
+      - 荷兰_102417488 L0
+      - 马来西亚_102417003 L0
+      - 荷兰_102417008
+      - 荷兰_102417001 L0
+      - "[www.v2nodes.com] ss-IT-1602... #7"
+      - "[www.v2nodes.com] ss-IT-1602... #3"
       - 荷兰_102217004 L0
-      - 荷兰_102017416 L0
+      - "[www.v2nodes.com] ss-IT-1602... #1"
+      - "[www.v2nodes.com] ss-IT-1602... #3 2"
       - "[www.v2nodes.com] ss-JP-1599..."
-      - 俄罗斯联邦_102317303 L0
-      - 荷兰_102317003 L0
-      - "[www.v2nodes.com] ss-IT-1602... #9"
-      - 荷兰_102217009 L0
-      - 俄罗斯联邦_102317302 L0
-      - 荷兰_102317002 L0
-      - _CN_中国->🇯🇵_JP_日本
-      - UN-VMESS-01
-      - JP-VMESS-01
-      - US-VMESS-01
+      - "[www.v2nodes.com] ss-IT-1602... #7 2"
+      - 荷兰_102410003 L0
   - name: 🐟 漏网之鱼
     type: select
     proxies:
