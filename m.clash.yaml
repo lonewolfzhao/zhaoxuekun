@@ -4,7 +4,7 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 美国 | USA 4, server: US122206.ssgreen.org, port: 443, type: vmess, uuid: 0ab9b354-e8ef-4517-bf15-47927233fb86, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wes, headers: {Host: US122206.ssgreen.org}}, udp: true}
+  - {name: "台湾 | TWN #4", server: kw119.zxmm.eu.org, port: 20031, type: trojan, password: 00a72bf349e6479b, sni: kw119.zxmm.eu.org, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -17,7 +17,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国 | USA 4
+      - "台湾 | TWN #4"
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -29,14 +29,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国 | USA 4
+      - "台湾 | TWN #4"
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 美国 | USA 4
+      - "台湾 | TWN #4"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
