@@ -4,7 +4,7 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: KR_1|1.1MB/s, server: 43.155.199.22, port: 80, type: vmess, uuid: 3722ad16-f3e1-4406-b04a-929b529d8e0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: US-SS-01, server: 64.83.20.73, port: 8388, type: ss, cipher: aes-256-gcm, password: BookCloud2026, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -17,7 +17,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - KR_1|1.1MB/s
+      - US-SS-01
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -29,14 +29,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - KR_1|1.1MB/s
+      - US-SS-01
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - KR_1|1.1MB/s
+      - US-SS-01
   - name: 🐟 漏网之鱼
     type: select
     proxies:
