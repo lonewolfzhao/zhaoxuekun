@@ -4,7 +4,7 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: US-SS-01, server: 64.83.20.73, port: 8388, type: ss, cipher: aes-256-gcm, password: BookCloud2026, udp: true}
+  - {name: 美国_1027183763 M52, server: 144.126.223.93, port: 8911, type: trojan, password: pCgkPBgBBpKdPLeRyFSgXXjeiQeNiCLm, sni: hotspot-unlimited.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -17,7 +17,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - US-SS-01
+      - 美国_1027183763 M52
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -29,14 +29,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - US-SS-01
+      - 美国_1027183763 M52
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - US-SS-01
+      - 美国_1027183763 M52
   - name: 🐟 漏网之鱼
     type: select
     proxies:
