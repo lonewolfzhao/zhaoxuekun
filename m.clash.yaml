@@ -4,7 +4,7 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 美国_110712150 L0, server: 88.216.254.18, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: V7WLaYdujkwnj6xxXq-2BSxGWEcSJtTA, udp: true}
+  - {name: nl|3eaa|puddincat07@Telegram, server: 109.104.153.43, port: 33336, type: ssr, cipher: chacha20-ietf, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -17,7 +17,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国_110712150 L0
+      - nl|3eaa|puddincat07@Telegram
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -29,14 +29,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 美国_110712150 L0
+      - nl|3eaa|puddincat07@Telegram
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 美国_110712150 L0
+      - nl|3eaa|puddincat07@Telegram
   - name: 🐟 漏网之鱼
     type: select
     proxies:
