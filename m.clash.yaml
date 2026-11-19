@@ -4,7 +4,7 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: "美国 | USA #1", server: 192.74.236.148, port: 30004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1733477783705, headers: {Host: www.91334565.xyz}}, udp: true}
+  - {name: "[www.v2nodes.com] ss-IT-1602... #3", server: 202.50.253.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -17,7 +17,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - "美国 | USA #1"
+      - "[www.v2nodes.com] ss-IT-1602... #3"
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -29,14 +29,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - "美国 | USA #1"
+      - "[www.v2nodes.com] ss-IT-1602... #3"
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - "美国 | USA #1"
+      - "[www.v2nodes.com] ss-IT-1602... #3"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
