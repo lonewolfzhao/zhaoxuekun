@@ -4,7 +4,7 @@ mode: Rule
 log-level: info
 external-controller: :50000
 proxies:
-  - {name: 台湾 | TWN 2, server: 161.114.15.215, port: 30502, type: trojan, password: 5KdDtpoJI58OTsoG0PwEYunqB0mkAEDm, sni: www.cloudflare.com, skip-cert-verify: true, udp: true}
+  - {name: US_2|1.9MB/s, server: pdmv4.xiaoyan.io, port: 16648, type: vmess, uuid: 904f0569-8695-466f-97cf-0de2face1b46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com}}, udp: true}
 proxy-groups:
   - name: 🛑 全球拦截
     type: select
@@ -17,7 +17,7 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 台湾 | TWN 2
+      - US_2|1.9MB/s
   - name: 🔰 节点选择
     type: select
     proxies:
@@ -29,14 +29,14 @@ proxy-groups:
     url: https://www.xvideos.com
     interval: 10
     proxies:
-      - 台湾 | TWN 2
+      - US_2|1.9MB/s
   - name: ♻️ 可能受限
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com
     interval: 10
     proxies:
-      - 台湾 | TWN 2
+      - US_2|1.9MB/s
   - name: 🐟 漏网之鱼
     type: select
     proxies:
